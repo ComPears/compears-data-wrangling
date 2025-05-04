@@ -1,0 +1,4106 @@
+[
+  {
+    "n": "Planted Kebab original",
+    "o": null,
+    "p": "3.99",
+    "s": "160 g"
+  },
+  {
+    "n": "Planted Skewers tandoori",
+    "o": null,
+    "p": "4.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Rundergehakt",
+    "o": null,
+    "p": "4.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Scharrel kipfiletblokjes",
+    "o": null,
+    "p": "4.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Half-om-half gehakt",
+    "o": null,
+    "p": "4.99",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "Planted Filetstukjes oriental",
+    "o": null,
+    "p": "3.99",
+    "s": "160 g"
+  },
+  {
+    "n": "AH Scharrel krokante kipfiletschnitzel",
+    "o": null,
+    "p": "3.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Scharrel kipfilet",
+    "o": null,
+    "p": "9.49",
+    "s": "800 g"
+  },
+  {
+    "n": "AH Spekreepjes gerookt",
+    "o": null,
+    "p": "4.69",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "Unox Knaks",
+    "o": null,
+    "p": "2.89",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Scharrel kipfilet 2 stuks",
+    "o": null,
+    "p": "4.69",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Scharrel kipschnitzel 2 stuks",
+    "o": null,
+    "p": "2.89",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Greenfields Beefburger naturel 2 stuks",
+    "o": null,
+    "p": "4.69",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Scharrel kip cordon bleu 2 stuks",
+    "o": null,
+    "p": "3.09",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Scharrel kipdijfilet reepjes",
+    "o": null,
+    "p": "4.99",
+    "s": "350 g"
+  },
+  {
+    "n": "AH Scharrel kipdijfilet",
+    "o": null,
+    "p": "5.59",
+    "s": "ca. 430 g"
+  },
+  {
+    "n": "AH Scharrel kipfilet burger krokant",
+    "o": null,
+    "p": "3.49",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Mager rundergehakt",
+    "o": null,
+    "p": "4.69",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Scharrel kipburger 2 stuks",
+    "o": null,
+    "p": "2.49",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Scharrel gerookte kipfilet",
+    "o": null,
+    "p": "2.99",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Half-om-half gehakt",
+    "o": null,
+    "p": "3.49",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Biologisch Spekreepjes gerookt",
+    "o": null,
+    "p": "4.99",
+    "s": "200 g"
+  },
+  {
+    "n": "Wahid kipfilet",
+    "o": null,
+    "p": "2.49",
+    "s": "125 g"
+  },
+  {
+    "n": "AH Mager spekblokjes",
+    "o": null,
+    "p": "4.59",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Mager rundergehakt",
+    "o": null,
+    "p": "6.49",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Scharrel kipgehakt",
+    "o": "2 voor 7.00",
+    "p": "3.75",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Scharrel kip saté schnitzel 2 stuks",
+    "o": null,
+    "p": "3.29",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Scharrel kipfiletblokjes",
+    "o": null,
+    "p": "3.59",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Rundersoepballetjes",
+    "o": null,
+    "p": "3.19",
+    "s": "ca. 250 g"
+  },
+  {
+    "n": "AH Kip knakworst",
+    "o": null,
+    "p": "1.99",
+    "s": "6 Stuks"
+  },
+  {
+    "n": "AH Ontbijtspek",
+    "o": null,
+    "p": "3.39",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Biologisch Rundergehakt",
+    "o": null,
+    "p": "4.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Scharrel kipfilethaasjes",
+    "o": null,
+    "p": "4.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Scharrel kipburger 2 stuks",
+    "o": null,
+    "p": "3.59",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Schnitzel Hongaarse stijl 2 stuks",
+    "o": "2 voor 5.50",
+    "p": "3.99",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Rundergehakt",
+    "o": null,
+    "p": "9.99",
+    "s": "1000 g"
+  },
+  {
+    "n": "AH Braadworst 4 stuks",
+    "o": null,
+    "p": "3.49",
+    "s": "4 stuks"
+  },
+  {
+    "n": "AH Scharrel kipfilet roerbakstukjes",
+    "o": null,
+    "p": "7.69",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Runder hamburger 2 stuks",
+    "o": null,
+    "p": "3.59",
+    "s": "4 Stuks"
+  },
+  {
+    "n": "AH Terra Plantaardig rulgehakt",
+    "o": null,
+    "p": "1.69",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Biologisch Rundergehakt",
+    "o": null,
+    "p": "7.99",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Varkenslavink",
+    "o": null,
+    "p": "3.79",
+    "s": "4 stuks"
+  },
+  {
+    "n": "AH Gepaneerde schnitzel 2 stuks",
+    "o": "2 voor 5.50",
+    "p": "3.95",
+    "s": "4 Stuks"
+  },
+  {
+    "n": "AH Scharrel kipfilet gerookt",
+    "o": null,
+    "p": "2.99",
+    "s": "ca. 150 g"
+  },
+  {
+    "n": "AH Scharrel kipbraadworst 4 stuks",
+    "o": "2 voor 7.00",
+    "p": "3.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Biologisch Ontbijtspek",
+    "o": null,
+    "p": "2.99",
+    "s": "ca. 100 g"
+  },
+  {
+    "n": "Unox Gelderse rookworst",
+    "o": null,
+    "p": "4.19",
+    "s": "285 g"
+  },
+  {
+    "n": "AH Shoarma",
+    "o": null,
+    "p": "4.99",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Terra Biologische tofu",
+    "o": null,
+    "p": "1.45",
+    "s": "375 g"
+  },
+  {
+    "n": "AH Greenfields Beefburger bacon 2 stuks",
+    "o": null,
+    "p": "4.49",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Biologisch Rundersoepballetjes",
+    "o": null,
+    "p": "3.99",
+    "s": "ca. 250 g"
+  },
+  {
+    "n": "AH Scharrel kipkluifjes gemarineerd",
+    "o": null,
+    "p": "3.65",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Biologisch Hamburger 2 stuks",
+    "o": null,
+    "p": "3.69",
+    "s": "200 g"
+  },
+  {
+    "n": "Valess Vegetarische Gouda schnitzel",
+    "o": null,
+    "p": "3.69",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Biologisch Mager rundergehakt",
+    "o": null,
+    "p": "5.49",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Greenfields Beefburger jalapeno 2 stuks",
+    "o": null,
+    "p": "4.69",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Scharrel gerookte kipfilet",
+    "o": null,
+    "p": "2.74",
+    "s": "ca. 125 g"
+  },
+  {
+    "n": "AH Terra Plantaardige kipstukjes",
+    "o": null,
+    "p": "3.35",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Rundertartaar",
+    "o": null,
+    "p": "3.69",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Scharrel kipkaasschnitzel 2 stuks",
+    "o": null,
+    "p": "2.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Biologisch Runderchipolata",
+    "o": null,
+    "p": "3.79",
+    "s": "5 stuks"
+  },
+  {
+    "n": "AH Biefstuk 2 stuks",
+    "o": null,
+    "p": "7.85",
+    "s": "ca. 275 g"
+  },
+  {
+    "n": "AH Kipreepjes",
+    "o": null,
+    "p": "3.69",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Varkenshaas",
+    "o": null,
+    "p": "7.99",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Scharrel kipflakes kebab gebraden",
+    "o": null,
+    "p": "3.99",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "Wahid Kipboterhamworst",
+    "o": null,
+    "p": "1.99",
+    "s": "125 g"
+  },
+  {
+    "n": "AH Biologisch Kipfilet 2 stuks",
+    "o": null,
+    "p": "8.43",
+    "s": "ca. 300 g"
+  },
+  {
+    "n": "AH Scharrel kippenpoten 2 stuks",
+    "o": null,
+    "p": "3.99",
+    "s": "ca. 600 g"
+  },
+  {
+    "n": "AH Magere knakworst",
+    "o": null,
+    "p": "1.99",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Scharrel smokey kipburger",
+    "o": null,
+    "p": "3.69",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Boomstammetjes ham en kaas",
+    "o": null,
+    "p": "3.89",
+    "s": "4 stuks"
+  },
+  {
+    "n": "AH Biologisch Kipfiletblokjes",
+    "o": null,
+    "p": "6.99",
+    "s": "ca. 250 g"
+  },
+  {
+    "n": "AH Pannenkoekspek",
+    "o": null,
+    "p": "2.29",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Hamblokjes",
+    "o": null,
+    "p": "3.99",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Biologisch Gerookte kipfilet",
+    "o": null,
+    "p": "3.39",
+    "s": "ca. 100 g"
+  },
+  {
+    "n": "Vegetarische Slager Vegan kipstuckjes",
+    "o": "2 voor 6.00",
+    "p": "4.29",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Hamburger 8 stuks",
+    "o": null,
+    "p": "8.99",
+    "s": "720 g"
+  },
+  {
+    "n": "AH Scharrel kipgehakt gekruid",
+    "o": "2 voor 7.00",
+    "p": "3.75",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Ontbijtspek",
+    "o": null,
+    "p": "1.69",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Biologisch Kipdijfilet",
+    "o": null,
+    "p": "8.61",
+    "s": "ca. 365 g"
+  },
+  {
+    "n": "AH Scharrel gebraden kipfiletreep Italiaans",
+    "o": null,
+    "p": "2.99",
+    "s": "150 g"
+  },
+  {
+    "n": "AH Gehaktballetjes Hollands 12 stuks",
+    "o": null,
+    "p": "5.49",
+    "s": "360 g"
+  },
+  {
+    "n": "AH Terra Plantaardige kipstukjes",
+    "o": null,
+    "p": "1.99",
+    "s": "160 g"
+  },
+  {
+    "n": "AH Bacon",
+    "o": null,
+    "p": "2.19",
+    "s": "150 g"
+  },
+  {
+    "n": "Wahid Kalkoenham",
+    "o": null,
+    "p": "2.79",
+    "s": "125 g"
+  },
+  {
+    "n": "AH Biologisch Rundergehakt balletjes",
+    "o": null,
+    "p": "5.49",
+    "s": "12 stuks"
+  },
+  {
+    "n": "AH Rundervink",
+    "o": null,
+    "p": "5.99",
+    "s": "4 stuks"
+  },
+  {
+    "n": "AH Rundertartaar",
+    "o": null,
+    "p": "6.29",
+    "s": "4 stuks"
+  },
+  {
+    "n": "AH Half-om-half gehakt",
+    "o": null,
+    "p": "8.49",
+    "s": "1 kg"
+  },
+  {
+    "n": "AH Spareribs zoet",
+    "o": null,
+    "p": "9.99",
+    "s": "ca. 720 g"
+  },
+  {
+    "n": "Unox Party knaks",
+    "o": null,
+    "p": "4.49",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Chipolata worstjes 8 stuks",
+    "o": null,
+    "p": "3.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Terra Plantaardig rulgehakt",
+    "o": null,
+    "p": "2.69",
+    "s": "375 g"
+  },
+  {
+    "n": "AH Casselerrib",
+    "o": null,
+    "p": "1.99",
+    "s": "150 g"
+  },
+  {
+    "n": "Marhaba Rundersalami met kip en kalkoen",
+    "o": null,
+    "p": "2.49",
+    "s": "100 g"
+  },
+  {
+    "n": "Vivera Vegetarische kaas schnitzel",
+    "o": null,
+    "p": "3.19",
+    "s": "150 g"
+  },
+  {
+    "n": "Unox Vegetarische knaks",
+    "o": null,
+    "p": "4.19",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Hamreepjes",
+    "o": null,
+    "p": "3.49",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Voor in de oven kipfilet pesto",
+    "o": null,
+    "p": "6.99",
+    "s": "ca. 390 g"
+  },
+  {
+    "n": "Unox Gelderse rookworst magnetron",
+    "o": null,
+    "p": "1.89",
+    "s": "100 g"
+  },
+  {
+    "n": "AH Uitgebakken ontbijtspek",
+    "o": null,
+    "p": "3.19",
+    "s": "80 g"
+  },
+  {
+    "n": "AH Schouderkarbonade met kruiden",
+    "o": null,
+    "p": "3.65",
+    "s": "ca. 427 g"
+  },
+  {
+    "n": "AH Terra Plantaardige balletjes",
+    "o": null,
+    "p": "1.69",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Scharrel kipburger 4 stuks",
+    "o": null,
+    "p": "4.79",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Biologisch Half-om-half gehakt",
+    "o": null,
+    "p": "4.49",
+    "s": "300 g"
+  },
+  {
+    "n": "Beyond Meat Plant-based burger",
+    "o": null,
+    "p": "4.49",
+    "s": "226 g"
+  },
+  {
+    "n": "AH Scharrel kipborrelhapjes gemarineerd",
+    "o": null,
+    "p": "6.99",
+    "s": "900 g"
+  },
+  {
+    "n": "AH Scharrel kipdijfiletreepjes shoarma",
+    "o": null,
+    "p": "8.49",
+    "s": "650 g"
+  },
+  {
+    "n": "AH Terra Falafel",
+    "o": null,
+    "p": "2.45",
+    "s": "320 g"
+  },
+  {
+    "n": "AH Scharrel kipdijfiletreepjes shoarma",
+    "o": null,
+    "p": "5.79",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Nasi bami vlees",
+    "o": null,
+    "p": "3.99",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Speklapjes a la minute met kruiden",
+    "o": null,
+    "p": "5.00",
+    "s": "362 g"
+  },
+  {
+    "n": "AH Scharrel kipfilet plakjes gerookt",
+    "o": null,
+    "p": "3.19",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Terra Falafel",
+    "o": null,
+    "p": "1.55",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Pancetta blokjes",
+    "o": null,
+    "p": "2.49",
+    "s": "100 g"
+  },
+  {
+    "n": "AH Scharrel krokant kipfiletschnitzel",
+    "o": null,
+    "p": "5.89",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Runder-kipgehakt",
+    "o": null,
+    "p": "3.99",
+    "s": "300 g"
+  },
+  {
+    "n": "Unox Magere knaks",
+    "o": null,
+    "p": "4.49",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Runder knakworst",
+    "o": null,
+    "p": "2.49",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Scharrel kipdijfilet 2 stuks",
+    "o": null,
+    "p": "3.14",
+    "s": "ca. 210 g"
+  },
+  {
+    "n": "AH Greenfields Beefburger tomaat",
+    "o": null,
+    "p": "4.69",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Scharrel kipkluifjes",
+    "o": null,
+    "p": "3.59",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "Vegetarische Slager Vegan rul gehackt",
+    "o": "2 voor 6.00",
+    "p": "3.69",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Slagersrookworst Gelders XXL",
+    "o": null,
+    "p": "3.99",
+    "s": "375 g"
+  },
+  {
+    "n": "Marhaba Kipfilet",
+    "o": null,
+    "p": "2.49",
+    "s": "100 g"
+  },
+  {
+    "n": "Valess Vegetarische schnitzel",
+    "o": null,
+    "p": "3.79",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "Vegetarische Slager Vegan pluimfeestburger",
+    "o": "2 voor 6.00",
+    "p": "3.99",
+    "s": "180 g"
+  },
+  {
+    "n": "AH Terra Tempeh ketjap",
+    "o": null,
+    "p": "1.89",
+    "s": "180 g"
+  },
+  {
+    "n": "AH Biefstukpuntjes",
+    "o": null,
+    "p": "7.29",
+    "s": "ca. 300 g"
+  },
+  {
+    "n": "AH Scharrel kipfilet roerbakstukjes",
+    "o": null,
+    "p": "4.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Terra Tofu",
+    "o": null,
+    "p": "2.09",
+    "s": "550 g"
+  },
+  {
+    "n": "AH Gemengd gehakt",
+    "o": null,
+    "p": "4.99",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Slagersrookworst Gelders",
+    "o": null,
+    "p": "2.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Biologisch Rundertartaar",
+    "o": null,
+    "p": "4.49",
+    "s": "2 stuks"
+  },
+  {
+    "n": "Vivera Plantaardige kipkrokant schnitzel",
+    "o": null,
+    "p": "3.29",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Excellent Black angus burger",
+    "o": null,
+    "p": "4.49",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Scharrel krokante kipfilethaasjes",
+    "o": null,
+    "p": "4.99",
+    "s": "350 g"
+  },
+  {
+    "n": "AH Scharrel kipburger jalapeño 2 stuks",
+    "o": null,
+    "p": "3.69",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Terra Plantaardige burger",
+    "o": null,
+    "p": "1.59",
+    "s": "200 g"
+  },
+  {
+    "n": "Unox Extra magere rookworst",
+    "o": null,
+    "p": "4.59",
+    "s": "275 g"
+  },
+  {
+    "n": "AH Scharrel kip cordon bleu 4 stuks",
+    "o": null,
+    "p": "5.99",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Greenfields Beefburger truffelsmaak 2 stuks",
+    "o": null,
+    "p": "4.69",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Gemengd gekruid gehakt",
+    "o": null,
+    "p": "4.99",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Scharrel kipgehaktballetjes",
+    "o": "2 voor 7.00",
+    "p": "3.99",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Scharrel kipfiletreepjes gerookt",
+    "o": null,
+    "p": "3.29",
+    "s": "ca. 150 g"
+  },
+  {
+    "n": "AH Scharrel kipchipolata gekruid",
+    "o": "2 voor 7.00",
+    "p": "4.50",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Veluwse rookworst fijn",
+    "o": null,
+    "p": "3.69",
+    "s": "280 g"
+  },
+  {
+    "n": "AH Greenfields Magere runderlappen",
+    "o": null,
+    "p": "10.73",
+    "s": "ca. 720 g"
+  },
+  {
+    "n": "Garden Gourmet Spinazie kaas rondo",
+    "o": null,
+    "p": "3.99",
+    "s": "2 x 90 gram"
+  },
+  {
+    "n": "Vegetarische Slager Little willies",
+    "o": "2 voor 6.00",
+    "p": "4.15",
+    "s": "160 g"
+  },
+  {
+    "n": "AH Catalaanse braadworst",
+    "o": null,
+    "p": "3.49",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Scharrel kipfilet 1 stuk",
+    "o": null,
+    "p": "3.49",
+    "s": "ca. 200 g"
+  },
+  {
+    "n": "AH Scharrel kipdrumsticks",
+    "o": null,
+    "p": "5.19",
+    "s": "1 kg"
+  },
+  {
+    "n": "Unox Kip knaks",
+    "o": null,
+    "p": "3.99",
+    "s": "400 g"
+  },
+  {
+    "n": "Mora Oven & airfryer kipnuggets",
+    "o": null,
+    "p": "4.89",
+    "s": "280 g"
+  },
+  {
+    "n": "AH Braadworst 2 stuks",
+    "o": null,
+    "p": "2.19",
+    "s": "2 stuks"
+  },
+  {
+    "n": "Beyond Meat Hack",
+    "o": null,
+    "p": "4.49",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Uitgebakken spekreepjes",
+    "o": null,
+    "p": "2.99",
+    "s": "70 g"
+  },
+  {
+    "n": "AH Greenfields Runder riblap",
+    "o": null,
+    "p": "11.25",
+    "s": "ca. 755 g"
+  },
+  {
+    "n": "AH Speklap",
+    "o": null,
+    "p": "5.24",
+    "s": "ca. 375 g"
+  },
+  {
+    "n": "AH Gepaneerde gehaktschnitzel",
+    "o": "2 voor 5.50",
+    "p": "3.39",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Voor in de oven kipfilethaasjes tandoori",
+    "o": null,
+    "p": "6.99",
+    "s": "ca. 400 g"
+  },
+  {
+    "n": "Jos Poell Pasteitjes traditioneel",
+    "o": null,
+    "p": "1.49",
+    "s": "125 g"
+  },
+  {
+    "n": "AH Terra Biologische tofureepjes pittig",
+    "o": null,
+    "p": "2.89",
+    "s": "180 g"
+  },
+  {
+    "n": "Wahid Kipfilet",
+    "o": null,
+    "p": "5.99",
+    "s": "ca. 400 g"
+  },
+  {
+    "n": "Garden Gourmet Falafel",
+    "o": null,
+    "p": "3.79",
+    "s": "210 g"
+  },
+  {
+    "n": "AH Rundergehakt",
+    "o": null,
+    "p": "2.99",
+    "s": "175 g"
+  },
+  {
+    "n": "AH Greenfields Runder sukadelappen",
+    "o": null,
+    "p": "10.43",
+    "s": "ca. 700 g"
+  },
+  {
+    "n": "Vegetarische Slager Vegan lecker burgerlijk",
+    "o": "2 voor 6.00",
+    "p": "3.99",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Guanciale blokjes",
+    "o": null,
+    "p": "2.49",
+    "s": "100 g"
+  },
+  {
+    "n": "AH Terra Plantaardige schnitzel",
+    "o": null,
+    "p": "1.69",
+    "s": "200 g"
+  },
+  {
+    "n": "Garden Gourmet Gouda kaasschnitzel",
+    "o": null,
+    "p": "3.39",
+    "s": "2 x 90 gram"
+  },
+  {
+    "n": "AH Leverpastei",
+    "o": null,
+    "p": "1.25",
+    "s": "3 x 56 g"
+  },
+  {
+    "n": "AH Slavink",
+    "o": null,
+    "p": "2.49",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Magere spekreepjes kalkoen",
+    "o": null,
+    "p": "3.69",
+    "s": "150 g"
+  },
+  {
+    "n": "Duca 8 crispy chicken tenders",
+    "o": null,
+    "p": "3.79",
+    "s": "240 g"
+  },
+  {
+    "n": "Wahid Rundergehakt",
+    "o": null,
+    "p": "7.59",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Biologisch Kipgehakt",
+    "o": null,
+    "p": "5.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Varkensschnitzel",
+    "o": null,
+    "p": "3.42",
+    "s": "ca. 260 g"
+  },
+  {
+    "n": "Valess Vegetarische crunchy tenders Gouda",
+    "o": null,
+    "p": "3.79",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Filetlapjes à la minute gemarineerd",
+    "o": null,
+    "p": "3.99",
+    "s": "5 stuks"
+  },
+  {
+    "n": "AH Gyros",
+    "o": null,
+    "p": "4.99",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "Vegetarische Slager Vegan Zweedsche gehacktballetjes",
+    "o": "2 voor 6.00",
+    "p": "4.15",
+    "s": "180 g"
+  },
+  {
+    "n": "Unox Rookworst Gelders varken",
+    "o": null,
+    "p": "5.25",
+    "s": "375 g"
+  },
+  {
+    "n": "AH Biologisch Krokante kipfiletschnitzel",
+    "o": null,
+    "p": "5.99",
+    "s": "2 stuks"
+  },
+  {
+    "n": "Ikbal Kipboterhamworst paprika",
+    "o": null,
+    "p": "1.89",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Scharrel kipborrelhapjes",
+    "o": null,
+    "p": "6.89",
+    "s": "900 g"
+  },
+  {
+    "n": "AH Excellent Biefstuk",
+    "o": null,
+    "p": "9.99",
+    "s": "ca. 280 g"
+  },
+  {
+    "n": "AH Biologisch Runderbraadworst",
+    "o": null,
+    "p": "4.49",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Biologisch Duitse biefstuk",
+    "o": null,
+    "p": "4.49",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Excellent Biefstuk",
+    "o": null,
+    "p": "5.99",
+    "s": "ca. 150 g"
+  },
+  {
+    "n": "AH Kip ragout",
+    "o": null,
+    "p": "1.49",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Wiener filetschnitzel",
+    "o": null,
+    "p": "3.49",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Biologisch Rundervink",
+    "o": null,
+    "p": "3.99",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Voor in de oven scharrel kip piri piri",
+    "o": null,
+    "p": "6.29",
+    "s": "ca. 650 g"
+  },
+  {
+    "n": "AH Terra Plantaardige krokante kipschnitzel",
+    "o": null,
+    "p": "2.29",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Gebraden kipgehakt",
+    "o": null,
+    "p": "2.69",
+    "s": "ca. 115 g"
+  },
+  {
+    "n": "AH Speklapjes à la minute smokey bacon",
+    "o": null,
+    "p": "4.99",
+    "s": "5 stuks"
+  },
+  {
+    "n": "Vegetarische Slager Vegan kip krockant",
+    "o": "2 voor 6.00",
+    "p": "4.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Zeeuws spek",
+    "o": null,
+    "p": "2.99",
+    "s": "ca. 110 g"
+  },
+  {
+    "n": "Zandvliet Gerookte kipfilet",
+    "o": null,
+    "p": "3.69",
+    "s": "250 g"
+  },
+  {
+    "n": "Wahid Halal kipdijfilet",
+    "o": null,
+    "p": "5.39",
+    "s": "ca. 400 g"
+  },
+  {
+    "n": "AH Terra Plantaardige shoarma",
+    "o": null,
+    "p": "3.19",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Biologisch Biefstuk",
+    "o": null,
+    "p": "8.99",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Biologisch Kipdijfilet 2 stuks",
+    "o": null,
+    "p": "3.93",
+    "s": "ca. 165 g"
+  },
+  {
+    "n": "Unox Smac",
+    "o": null,
+    "p": "3.09",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Varkensribeye naturel",
+    "o": null,
+    "p": "4.49",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Biologisch Kipdrumsticks",
+    "o": null,
+    "p": "4.69",
+    "s": "ca. 550 g"
+  },
+  {
+    "n": "AH Terra Tempeh",
+    "o": null,
+    "p": "1.49",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Kalkoenfilet schnitzel",
+    "o": null,
+    "p": "4.99",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Excellent Ossenhaas",
+    "o": null,
+    "p": "9.99",
+    "s": "per stuk"
+  },
+  {
+    "n": "AH Italiaans gekruid braadworstje",
+    "o": null,
+    "p": "3.49",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Rookworst",
+    "o": null,
+    "p": "2.99",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Biologisch Kipfilet 1 stuk",
+    "o": null,
+    "p": "4.49",
+    "s": "ca. 150 g"
+  },
+  {
+    "n": "Garden Gourmet Sensational burger",
+    "o": null,
+    "p": "4.29",
+    "s": "2 x 113 gram"
+  },
+  {
+    "n": "AH Voor in de oven scharrel kip sweet chili",
+    "o": null,
+    "p": "6.29",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Spareribs pittig",
+    "o": null,
+    "p": "9.99",
+    "s": "ca. 720 g"
+  },
+  {
+    "n": "Garden Gourmet Vegetarische balletjes",
+    "o": null,
+    "p": "3.69",
+    "s": "210 g"
+  },
+  {
+    "n": "AH Rundervink 2 stuks",
+    "o": null,
+    "p": "3.79",
+    "s": "200 g"
+  },
+  {
+    "n": "Valess Crispy sticks met chili",
+    "o": null,
+    "p": "3.69",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Speklap",
+    "o": null,
+    "p": "3.09",
+    "s": "ca. 250 g"
+  },
+  {
+    "n": "AH Scharrel kipdrumsticks gemarineerd",
+    "o": null,
+    "p": "5.19",
+    "s": "1 kg"
+  },
+  {
+    "n": "AH Kalkoenfilet blokjes",
+    "o": null,
+    "p": "4.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Hamburger toegevoegd rundereiwit 4 stuks",
+    "o": null,
+    "p": "4.89",
+    "s": "400 g"
+  },
+  {
+    "n": "Vivera Plantaardige kroketburger",
+    "o": null,
+    "p": "3.39",
+    "s": "150 g"
+  },
+  {
+    "n": "AH Rundersoepvlees",
+    "o": null,
+    "p": "6.19",
+    "s": "ca. 315 g"
+  },
+  {
+    "n": "AH Biologisch Rundertartaar",
+    "o": null,
+    "p": "5.99",
+    "s": "300 g"
+  },
+  {
+    "n": "Valess Vegetarische saté schnitzel",
+    "o": null,
+    "p": "3.79",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "Vivera Plantaardige crispy chicken burger",
+    "o": null,
+    "p": "3.79",
+    "s": "200 g"
+  },
+  {
+    "n": "Vivera Plantaardige chicken tenders",
+    "o": null,
+    "p": "3.79",
+    "s": "200 g"
+  },
+  {
+    "n": "Wahid Kipgrillworst",
+    "o": null,
+    "p": "2.69",
+    "s": "125 g"
+  },
+  {
+    "n": "AH Biologisch Varkensbraadworst",
+    "o": null,
+    "p": "3.69",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Rundergehakt met toegevoegd rundereiwit",
+    "o": null,
+    "p": "5.89",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Slagersrookworst mager",
+    "o": null,
+    "p": "2.99",
+    "s": "250 g"
+  },
+  {
+    "n": "Vivera Plantaardige shoarma",
+    "o": null,
+    "p": "3.29",
+    "s": "175 g"
+  },
+  {
+    "n": "AH Biologisch Katenspek",
+    "o": null,
+    "p": "3.29",
+    "s": "ca. 100 g"
+  },
+  {
+    "n": "Garden Gourmet Vegan schnitzel",
+    "o": null,
+    "p": "3.29",
+    "s": "2 x 90 gram"
+  },
+  {
+    "n": "AH Biologisch Gerookte kipfilet",
+    "o": null,
+    "p": "4.72",
+    "s": "ca. 125 g"
+  },
+  {
+    "n": "AH Oma's gehaktbal met ui en jus",
+    "o": null,
+    "p": "3.99",
+    "s": "262 g"
+  },
+  {
+    "n": "AH Terra Biologisch falafel courgette",
+    "o": null,
+    "p": "2.99",
+    "s": "150 g"
+  },
+  {
+    "n": "AH Scharrel kipdijfiletreepjes gyros",
+    "o": null,
+    "p": "5.79",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Franse scharrelkipfilet",
+    "o": null,
+    "p": "6.01",
+    "s": "ca. 345 g"
+  },
+  {
+    "n": "Vegetarische Slager Vegan auf wieder schnitzel",
+    "o": "2 voor 6.00",
+    "p": "3.79",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Cocktailworstjes",
+    "o": null,
+    "p": "2.29",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "Garden Gourmet Vegetarische gegrilde stukjes",
+    "o": null,
+    "p": "3.29",
+    "s": "175 g"
+  },
+  {
+    "n": "Unox Smac XXL",
+    "o": null,
+    "p": "4.19",
+    "s": "340 g"
+  },
+  {
+    "n": "AH Runderbraadworst",
+    "o": null,
+    "p": "3.29",
+    "s": "200 g"
+  },
+  {
+    "n": "Garden Gourmet Oosterse wokblokjes",
+    "o": null,
+    "p": "3.69",
+    "s": "175 g"
+  },
+  {
+    "n": "AH Shoarma",
+    "o": null,
+    "p": "2.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Beenham reepjes",
+    "o": null,
+    "p": "2.99",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Terra Biologische gerookte tofu",
+    "o": null,
+    "p": "1.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Kogelbiefstuk",
+    "o": null,
+    "p": "7.99",
+    "s": "ca. 260 g"
+  },
+  {
+    "n": "Garden Gourmet Tuscan carre",
+    "o": null,
+    "p": "3.89",
+    "s": "2 x 80 g"
+  },
+  {
+    "n": "AH Biologisch Slavink",
+    "o": null,
+    "p": "3.89",
+    "s": "2 stuks"
+  },
+  {
+    "n": "Marhaba Pizza lahmacun",
+    "o": null,
+    "p": "3.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Scharrel kipdrumsticks",
+    "o": null,
+    "p": "2.99",
+    "s": "600 g"
+  },
+  {
+    "n": "AH Terra Tempeh",
+    "o": null,
+    "p": "2.19",
+    "s": "395 g"
+  },
+  {
+    "n": "AH Gehaktballen",
+    "o": null,
+    "p": "7.49",
+    "s": "8 stuks"
+  },
+  {
+    "n": "Vegetarische Slager Vegan ereburger",
+    "o": "2 voor 6.00",
+    "p": "5.59",
+    "s": "226 g"
+  },
+  {
+    "n": "Mora Mini's kipnuggets",
+    "o": null,
+    "p": "5.69",
+    "s": "550 g"
+  },
+  {
+    "n": "AH Excellent Bladerdeeg bakjes in paashaas vorm",
+    "o": null,
+    "p": "0.99",
+    "s": "160 g"
+  },
+  {
+    "n": "AH Scharrel kipfiletblokjes saté",
+    "o": null,
+    "p": "5.29",
+    "s": "300 g"
+  },
+  {
+    "n": "Valess Vegetarische chick'n filet",
+    "o": null,
+    "p": "3.99",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Voor in de oven kipfilet tomaat",
+    "o": null,
+    "p": "6.99",
+    "s": "ca. 520 g"
+  },
+  {
+    "n": "AH Voor in de oven beenham honing mosterd",
+    "o": null,
+    "p": "8.59",
+    "s": "ca. 600 g"
+  },
+  {
+    "n": "Vivera Plantaardige shoarma voordeelverpakking",
+    "o": null,
+    "p": "4.99",
+    "s": "300 g"
+  },
+  {
+    "n": "Vegetarische Slager Vegan geroockte speckjes",
+    "o": "2 voor 6.00",
+    "p": "4.85",
+    "s": "125 g"
+  },
+  {
+    "n": "AH Scharrel gebraden kipfilet caesar",
+    "o": null,
+    "p": "3.69",
+    "s": "ca. 150 g"
+  },
+  {
+    "n": "AH Excellent Flat iron steak",
+    "o": null,
+    "p": "6.99",
+    "s": "ca. 200 g"
+  },
+  {
+    "n": "AH Biologisch Ultimate beefburger",
+    "o": null,
+    "p": "2.99",
+    "s": "150 g"
+  },
+  {
+    "n": "Garden Gourmet Indische balletjes",
+    "o": null,
+    "p": "3.69",
+    "s": "200 g"
+  },
+  {
+    "n": "Vegetarische Slager Let it beef",
+    "o": "2 voor 6.00",
+    "p": "3.99",
+    "s": "160 g"
+  },
+  {
+    "n": "Streeckgenoten Shoarmareepjes",
+    "o": null,
+    "p": "5.99",
+    "s": "450 g"
+  },
+  {
+    "n": "AH Scharrel kipfilet à la minute paprika",
+    "o": null,
+    "p": "5.47",
+    "s": "ca. 360 g"
+  },
+  {
+    "n": "AH Scharrel kipnugget",
+    "o": null,
+    "p": "2.99",
+    "s": "200 g"
+  },
+  {
+    "n": "Duca 4 crispy chicken burgers",
+    "o": null,
+    "p": "4.79",
+    "s": "320 g"
+  },
+  {
+    "n": "AH Filetlap 2 stuks",
+    "o": null,
+    "p": "3.39",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Kaasschnitzel",
+    "o": null,
+    "p": "4.29",
+    "s": ""
+  },
+  {
+    "n": "AH Roasted Indisch spek",
+    "o": null,
+    "p": "2.99",
+    "s": "ca. 100 g"
+  },
+  {
+    "n": "Unox Leverpastei 6-pack",
+    "o": null,
+    "p": "4.19",
+    "s": "6 x 56 g"
+  },
+  {
+    "n": "Marhaba Kalkoen bacon",
+    "o": null,
+    "p": "2.49",
+    "s": "80 g"
+  },
+  {
+    "n": "Unox Extra magere rookworst magnetron",
+    "o": null,
+    "p": "2.49",
+    "s": "100 g"
+  },
+  {
+    "n": "Beyond Meat Sausage plantaardige worst",
+    "o": null,
+    "p": "4.39",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Pancetta",
+    "o": null,
+    "p": "2.89",
+    "s": "80 g"
+  },
+  {
+    "n": "AH Franse scharrelkip dijfilet",
+    "o": null,
+    "p": "5.09",
+    "s": "ca. 360 g"
+  },
+  {
+    "n": "Garden Gourmet Falafel pikant",
+    "o": null,
+    "p": "3.79",
+    "s": "210 g"
+  },
+  {
+    "n": "Duca Chicken popcorn nuggets",
+    "o": null,
+    "p": "3.79",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Excellent Ultimate beefburger",
+    "o": null,
+    "p": "2.99",
+    "s": "150 g"
+  },
+  {
+    "n": "AH Greenfields Kogelbiefstuk",
+    "o": null,
+    "p": "6.99",
+    "s": "per stuk"
+  },
+  {
+    "n": "Vegetarische Slager Vegan kipstuckjes XL",
+    "o": null,
+    "p": "6.09",
+    "s": "300 g"
+  },
+  {
+    "n": "Wahid Kipdij doner",
+    "o": null,
+    "p": "5.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Terra Biologisch falafel tomaat basilicum",
+    "o": null,
+    "p": "2.99",
+    "s": "150 g"
+  },
+  {
+    "n": "AH Schenkel met been",
+    "o": null,
+    "p": "3.24",
+    "s": "ca. 270 g"
+  },
+  {
+    "n": "AH Slagersrookworst kip",
+    "o": null,
+    "p": "2.89",
+    "s": "250 g"
+  },
+  {
+    "n": "Vivera Plantaardige kipstukjes",
+    "o": null,
+    "p": "3.39",
+    "s": "160 g"
+  },
+  {
+    "n": "Vegetarische Slager Vegan kiptevree filet",
+    "o": "2 voor 6.00",
+    "p": "4.89",
+    "s": "180 g"
+  },
+  {
+    "n": "AH Terra Plantaardig gehakt",
+    "o": null,
+    "p": "2.99",
+    "s": "250 g"
+  },
+  {
+    "n": "Vivera Plantaardige spekjes",
+    "o": null,
+    "p": "3.79",
+    "s": "175 g"
+  },
+  {
+    "n": "AH Katenspek",
+    "o": null,
+    "p": "3.19",
+    "s": "ca. 125 g"
+  },
+  {
+    "n": "Unox Leverpastei 3-pack",
+    "o": null,
+    "p": "2.29",
+    "s": "3 x 56 g"
+  },
+  {
+    "n": "AH Biologisch Speklap",
+    "o": null,
+    "p": "4.78",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Voor in de oven beenham naturel",
+    "o": null,
+    "p": "7.99",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Bakbacon",
+    "o": null,
+    "p": "2.99",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Scharrel kipdrumsticks gemarineerd",
+    "o": null,
+    "p": "2.99",
+    "s": "600 g"
+  },
+  {
+    "n": "AH Greenfields Rundergehakt",
+    "o": null,
+    "p": "7.99",
+    "s": "500 g"
+  },
+  {
+    "n": "Garden Gourmet Filetstukjes",
+    "o": null,
+    "p": "3.39",
+    "s": "160 g"
+  },
+  {
+    "n": "AH Kalkoenfilet à la minute",
+    "o": null,
+    "p": "5.49",
+    "s": "ca. 270 g"
+  },
+  {
+    "n": "Wahid Kipfilet provence",
+    "o": null,
+    "p": "2.79",
+    "s": "125 g"
+  },
+  {
+    "n": "AH Boomstammetje",
+    "o": null,
+    "p": "2.29",
+    "s": "2 stuks"
+  },
+  {
+    "n": "Vivera Plantaardige gyros",
+    "o": null,
+    "p": "3.49",
+    "s": "175 g"
+  },
+  {
+    "n": "AH Vetspek blokjes",
+    "o": null,
+    "p": "1.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Scharrel kipfilet kruidenroomkaas",
+    "o": null,
+    "p": "8.79",
+    "s": "ca. 430 g"
+  },
+  {
+    "n": "AH Scharrel kipdijfiletreepjes kebab",
+    "o": null,
+    "p": "5.79",
+    "s": "400 g"
+  },
+  {
+    "n": "Garden Gourmet Groenteballetjes",
+    "o": null,
+    "p": "3.69",
+    "s": "210 g"
+  },
+  {
+    "n": "AH Greenfields Rundergehakt",
+    "o": null,
+    "p": "4.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH BBQ grillburger",
+    "o": null,
+    "p": "6.00",
+    "s": "4 stuks"
+  },
+  {
+    "n": "AH Biologisch Kippenvleugels",
+    "o": null,
+    "p": "3.60",
+    "s": "ca. 490 g"
+  },
+  {
+    "n": "AH Terra Plantaardige shoarma",
+    "o": null,
+    "p": "1.99",
+    "s": "175 g"
+  },
+  {
+    "n": "AH American hotdogs",
+    "o": null,
+    "p": "3.39",
+    "s": "4 Stuks"
+  },
+  {
+    "n": "AH Excellent Entrecôte",
+    "o": null,
+    "p": "10.99",
+    "s": "ca. 300 g"
+  },
+  {
+    "n": "Tillman's Varkensschnitzel XXL",
+    "o": null,
+    "p": "3.69",
+    "s": "per stuk"
+  },
+  {
+    "n": "AH Gerookt ontbijtspek",
+    "o": null,
+    "p": "2.99",
+    "s": "ca. 120 g"
+  },
+  {
+    "n": "AH Excellent Ultimate wagyu burger",
+    "o": null,
+    "p": "3.99",
+    "s": "130 g"
+  },
+  {
+    "n": "Valess Vegetarische gouda family pack",
+    "o": null,
+    "p": "5.99",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Eendenborstfilet scharrel",
+    "o": null,
+    "p": "7.99",
+    "s": "ca. 280 g"
+  },
+  {
+    "n": "Streeckgenoten Stoofvlees",
+    "o": null,
+    "p": "5.99",
+    "s": "400 g"
+  },
+  {
+    "n": "Streeckgenoten Gerookte kipfilet",
+    "o": null,
+    "p": "3.69",
+    "s": "ca. 120 g"
+  },
+  {
+    "n": "AH Varkenshaas culinair naturel",
+    "o": null,
+    "p": "6.59",
+    "s": "ca. 325 g"
+  },
+  {
+    "n": "AH Knakworst",
+    "o": null,
+    "p": "2.99",
+    "s": "200 g"
+  },
+  {
+    "n": "Wahid Halal kipfilet blokjes",
+    "o": null,
+    "p": "6.49",
+    "s": "ca. 400 g"
+  },
+  {
+    "n": "Unox Kipragout",
+    "o": null,
+    "p": "2.49",
+    "s": "400 g"
+  },
+  {
+    "n": "Wahid Kipfilet chilipeper",
+    "o": null,
+    "p": "2.79",
+    "s": "125 g"
+  },
+  {
+    "n": "Unox Hotdogs",
+    "o": null,
+    "p": "5.19",
+    "s": "550 g"
+  },
+  {
+    "n": "AH Chorizo braadworstjes",
+    "o": null,
+    "p": "3.49",
+    "s": "6 stuks"
+  },
+  {
+    "n": "AH Terra Falafel pikant",
+    "o": null,
+    "p": "1.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Terra Plantaardige soepballetjes",
+    "o": null,
+    "p": "1.49",
+    "s": "200 g"
+  },
+  {
+    "n": "Beyond Meat Biefstukpuntjes",
+    "o": null,
+    "p": "4.99",
+    "s": "160 g"
+  },
+  {
+    "n": "AH Mergpijp",
+    "o": null,
+    "p": "2.89",
+    "s": "ca. 300 g"
+  },
+  {
+    "n": "Valess Vegetarische tomaat mozzarella schnitzel",
+    "o": null,
+    "p": "3.79",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "Wahid Smeerleverworst",
+    "o": null,
+    "p": "1.99",
+    "s": "150 g"
+  },
+  {
+    "n": "Firat Lahmacun Turkse pizza met kip döner",
+    "o": null,
+    "p": "3.99",
+    "s": "240 g"
+  },
+  {
+    "n": "AH Scharrel kippenlevertjes",
+    "o": null,
+    "p": "2.69",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "Garden Gourmet Sensational merguez",
+    "o": null,
+    "p": "4.29",
+    "s": "180 g"
+  },
+  {
+    "n": "AH Ongekookt zuurkool spek stukje",
+    "o": null,
+    "p": "4.49",
+    "s": "ca. 270 g"
+  },
+  {
+    "n": "AH Scharrel kippenvleugels",
+    "o": null,
+    "p": "4.00",
+    "s": "ca. 580 g"
+  },
+  {
+    "n": "Garden Gourmet Veggie Griekse rondo",
+    "o": null,
+    "p": "3.99",
+    "s": "2 x 90 gram"
+  },
+  {
+    "n": "AH Scharrel kipdijfiletblokjes",
+    "o": "Nieuw",
+    "p": "3.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Franse scharrelkip kipfilethaasjes",
+    "o": null,
+    "p": "5.17",
+    "s": "ca. 265 g"
+  },
+  {
+    "n": "AH Scharrel kipfilethaasjes sweet chili",
+    "o": null,
+    "p": "5.49",
+    "s": "ca. 350 g"
+  },
+  {
+    "n": "Mora Mini's kipfingers",
+    "o": null,
+    "p": "5.89",
+    "s": "312 g"
+  },
+  {
+    "n": "Kaddour Kip grillworst madame jeanette",
+    "o": null,
+    "p": "3.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Runder-kipchipolata",
+    "o": null,
+    "p": "3.99",
+    "s": "8 stuks"
+  },
+  {
+    "n": "AH Champignon ragout",
+    "o": null,
+    "p": "1.49",
+    "s": "400 g"
+  },
+  {
+    "n": "Vivera Plantaardig kruimgehakt",
+    "o": null,
+    "p": "3.29",
+    "s": "175 g"
+  },
+  {
+    "n": "AH Biologisch Schouderkarbonade",
+    "o": null,
+    "p": "7.07",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Terra Biologische seitan flakes kebab",
+    "o": null,
+    "p": "2.99",
+    "s": "150 g"
+  },
+  {
+    "n": "AH BBQ hamburger 4 stuks",
+    "o": null,
+    "p": "6.00",
+    "s": "400 g"
+  },
+  {
+    "n": "Chatar Pikant",
+    "o": null,
+    "p": "1.59",
+    "s": "280 g"
+  },
+  {
+    "n": "Duca Kipnuggets de luxe",
+    "o": null,
+    "p": "3.95",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Achterham",
+    "o": null,
+    "p": "1.59",
+    "s": "75 g"
+  },
+  {
+    "n": "AH Frankfurters",
+    "o": null,
+    "p": "2.99",
+    "s": "4 Stuks"
+  },
+  {
+    "n": "AH Terra Plantaardige chipolata worstjes",
+    "o": null,
+    "p": "2.05",
+    "s": "225 g"
+  },
+  {
+    "n": "AH Runder-kipburger",
+    "o": null,
+    "p": "3.49",
+    "s": "200 g"
+  },
+  {
+    "n": "Vivera Plantaardige kipstukjes voordeelpak",
+    "o": null,
+    "p": "4.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Terra Plantaardige burger",
+    "o": null,
+    "p": "2.99",
+    "s": "180 g"
+  },
+  {
+    "n": "Marhaba Magere kalkoen salami",
+    "o": null,
+    "p": "2.49",
+    "s": "100 g"
+  },
+  {
+    "n": "AH Terra Plantaardige kipbraadworst",
+    "o": null,
+    "p": "2.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Gerookt ontbijtspek stukje",
+    "o": null,
+    "p": "3.99",
+    "s": "ca. 240 g"
+  },
+  {
+    "n": "AH Vakslager runder diamanthaas",
+    "o": null,
+    "p": "10.50",
+    "s": "ca. 300 g"
+  },
+  {
+    "n": "Marhaba Kalkoen pepersalami",
+    "o": null,
+    "p": "2.69",
+    "s": "100 g"
+  },
+  {
+    "n": "AH Hertenbiefstuk",
+    "o": null,
+    "p": "9.00",
+    "s": "ca. 250 g"
+  },
+  {
+    "n": "AH Terra Tofureepjes Aziatisch",
+    "o": null,
+    "p": "2.69",
+    "s": "180 g"
+  },
+  {
+    "n": "AH Excellent Ribeye",
+    "o": null,
+    "p": "15.29",
+    "s": "ca. 375 g"
+  },
+  {
+    "n": "Efepasa Guven gesneden knoflookworst",
+    "o": null,
+    "p": "4.39",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Schnitzel krokant met cornflakes",
+    "o": "2 voor 5.50",
+    "p": "3.29",
+    "s": "320 g"
+  },
+  {
+    "n": "Vivera Plantaardige krokante schnitzel voordeel",
+    "o": null,
+    "p": "4.99",
+    "s": "400 g"
+  },
+  {
+    "n": "Duca Karaage crispy chicken bites",
+    "o": null,
+    "p": "4.39",
+    "s": "240 g"
+  },
+  {
+    "n": "Streeckgenoten Gebraden kipfilet",
+    "o": null,
+    "p": "3.59",
+    "s": "ca. 120 g"
+  },
+  {
+    "n": "Unox Pittige knaks",
+    "o": null,
+    "p": "3.99",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Runderhart",
+    "o": null,
+    "p": "3.99",
+    "s": "ca. 240 g"
+  },
+  {
+    "n": "AH Uitgebakken ontbijtspek",
+    "o": null,
+    "p": "2.19",
+    "s": "50 g"
+  },
+  {
+    "n": "Des Champs Vert Franse scharrel maiskip",
+    "o": null,
+    "p": "15.26",
+    "s": "ca. 1200 g"
+  },
+  {
+    "n": "AH Terra Crispy tofu",
+    "o": null,
+    "p": "2.49",
+    "s": "160 g"
+  },
+  {
+    "n": "AH Bacon reepjes",
+    "o": null,
+    "p": "3.99",
+    "s": "3 Stuks"
+  },
+  {
+    "n": "AH Traybake scharrelkip Provençaals",
+    "o": null,
+    "p": "7.49",
+    "s": "ca. 560 g"
+  },
+  {
+    "n": "AH Varkenshaasmedaillons spek kaas",
+    "o": null,
+    "p": "6.99",
+    "s": "ca. 400 g"
+  },
+  {
+    "n": "Kaddour Kip grillworst naturel",
+    "o": null,
+    "p": "3.99",
+    "s": "200 g"
+  },
+  {
+    "n": "Unox Magere party knaks",
+    "o": null,
+    "p": "4.99",
+    "s": "400 g"
+  },
+  {
+    "n": "Fulya Tavuk salam",
+    "o": null,
+    "p": "2.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Excellent Black angus chipolataworstjes",
+    "o": null,
+    "p": "4.29",
+    "s": "215 g"
+  },
+  {
+    "n": "Vegetarische Slager Vegan rul gehackt XL",
+    "o": null,
+    "p": "4.99",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Terra Tempeh ketjap",
+    "o": null,
+    "p": "3.15",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Scharrel hele kip",
+    "o": null,
+    "p": "12.22",
+    "s": "ca. 1375 g"
+  },
+  {
+    "n": "AH Terra Biologische seitan stukjes",
+    "o": null,
+    "p": "2.99",
+    "s": "150 g"
+  },
+  {
+    "n": "AH Terra Plantaardige balletjes Indische stijl",
+    "o": null,
+    "p": "2.19",
+    "s": "200 g"
+  },
+  {
+    "n": "Streeckgenoten Kippenragout",
+    "o": null,
+    "p": "4.39",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Terra Spinazie schnitzel",
+    "o": null,
+    "p": "1.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Shoarma pittig",
+    "o": null,
+    "p": "5.49",
+    "s": "2 Stuks"
+  },
+  {
+    "n": "AH Terra Plantaardige balletjes Italiaanse stijl",
+    "o": null,
+    "p": "2.19",
+    "s": "180 g"
+  },
+  {
+    "n": "Koc Sucuk plakjes",
+    "o": null,
+    "p": "4.39",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Quarter pounder 2 stuks",
+    "o": null,
+    "p": "3.99",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH BBQ worst smokey",
+    "o": null,
+    "p": "4.50",
+    "s": "350 g"
+  },
+  {
+    "n": "AH Drooggezouten spekreepjes",
+    "o": null,
+    "p": "3.49",
+    "s": "175 g"
+  },
+  {
+    "n": "AH Hamburgers",
+    "o": null,
+    "p": "1.69",
+    "s": "4 x 70 g"
+  },
+  {
+    "n": "Salland Ham",
+    "o": null,
+    "p": "3.49",
+    "s": "454 g"
+  },
+  {
+    "n": "Unox Kip party knaks",
+    "o": null,
+    "p": "4.49",
+    "s": "400 g"
+  },
+  {
+    "n": "Streeckgenoten Runderzuurvlees",
+    "o": null,
+    "p": "5.99",
+    "s": "400 g"
+  },
+  {
+    "n": "Streeckgenoten Gebraden kipgehakt",
+    "o": null,
+    "p": "3.29",
+    "s": "ca. 120 g"
+  },
+  {
+    "n": "AH Duitse knakworst",
+    "o": null,
+    "p": "2.49",
+    "s": "6 x 30 g"
+  },
+  {
+    "n": "AH Peper roomsaus met scheutje cognac",
+    "o": null,
+    "p": "2.19",
+    "s": "190 ml"
+  },
+  {
+    "n": "Vegetarische Slager Cordon blij",
+    "o": "2 voor 6.00",
+    "p": "4.99",
+    "s": "180 g"
+  },
+  {
+    "n": "AH Terra Biologische seitan wokreepjes teriyaki",
+    "o": null,
+    "p": "2.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Excellent Ultimate smokey burger",
+    "o": null,
+    "p": "2.99",
+    "s": "150 g"
+  },
+  {
+    "n": "Vivera Plantaardige gyros voordeelverpakking",
+    "o": null,
+    "p": "4.99",
+    "s": "300 g"
+  },
+  {
+    "n": "Marhaba Kalkoen chorizo",
+    "o": null,
+    "p": "2.39",
+    "s": "80 g"
+  },
+  {
+    "n": "AH Scharrel kip provencaalse",
+    "o": null,
+    "p": "12.99",
+    "s": "ca. 1400 g"
+  },
+  {
+    "n": "AH Rundergehakt met toegevoegd rundereiwit",
+    "o": null,
+    "p": "4.59",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Voor in de oven pulled pork",
+    "o": null,
+    "p": "7.19",
+    "s": "ca. 480 g"
+  },
+  {
+    "n": "Wahid Halal kipmerguez",
+    "o": null,
+    "p": "4.99",
+    "s": "per stuk"
+  },
+  {
+    "n": "AH Scharrel kipkluifjes Aziatisch",
+    "o": null,
+    "p": "4.49",
+    "s": "ca. 560 g"
+  },
+  {
+    "n": "Wahid Hamburgers",
+    "o": null,
+    "p": "5.49",
+    "s": "360 g"
+  },
+  {
+    "n": "Unox Smac mager",
+    "o": null,
+    "p": "3.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Terra Groenteschnitzel",
+    "o": null,
+    "p": "1.69",
+    "s": "200 g"
+  },
+  {
+    "n": "Cucina Kipshoarma",
+    "o": null,
+    "p": "5.49",
+    "s": "ca. 400 g"
+  },
+  {
+    "n": "AH Terra Plantaardige kipstukjes Indiase tandoori",
+    "o": null,
+    "p": "2.29",
+    "s": "160 g"
+  },
+  {
+    "n": "AH Kipblokjes",
+    "o": null,
+    "p": "3.69",
+    "s": "200 g"
+  },
+  {
+    "n": "Mora Mini's kipnuggets",
+    "o": null,
+    "p": "2.99",
+    "s": "14 stuks"
+  },
+  {
+    "n": "AH Roasted spek smokey BBQ",
+    "o": null,
+    "p": "2.99",
+    "s": "ca. 100 g"
+  },
+  {
+    "n": "AH Rundertartaar",
+    "o": null,
+    "p": "5.49",
+    "s": "300 g"
+  },
+  {
+    "n": "Streeckgenoten Hachee",
+    "o": null,
+    "p": "5.99",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Scharrel kipfiletblokjes Thais",
+    "o": null,
+    "p": "5.49",
+    "s": "300 g"
+  },
+  {
+    "n": "Redefine Meat Premium burgers",
+    "o": null,
+    "p": "4.55",
+    "s": "240 g"
+  },
+  {
+    "n": "Unox Ragout champignon",
+    "o": null,
+    "p": "2.79",
+    "s": "400 g"
+  },
+  {
+    "n": "Marhaba Kalkoenrollade",
+    "o": null,
+    "p": "2.39",
+    "s": "100 g"
+  },
+  {
+    "n": "Wahid Kipkrokantschnitzel",
+    "o": null,
+    "p": "3.99",
+    "s": "200 g"
+  },
+  {
+    "n": "Efepasa Burcu gevogelteworsten",
+    "o": null,
+    "p": "3.89",
+    "s": "550 g"
+  },
+  {
+    "n": "AH Terra Tofu burger spinazie",
+    "o": null,
+    "p": "2.29",
+    "s": "160 g"
+  },
+  {
+    "n": "Unox Vegetarische party knaks",
+    "o": null,
+    "p": "4.99",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Chili kaasschnitzel",
+    "o": null,
+    "p": "2.59",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Gemengd gehakt",
+    "o": null,
+    "p": "3.49",
+    "s": "300 g"
+  },
+  {
+    "n": "Salland Boterhamworst",
+    "o": null,
+    "p": "2.89",
+    "s": "440 g"
+  },
+  {
+    "n": "AH Hotdogs naturel",
+    "o": null,
+    "p": "3.39",
+    "s": "260 g"
+  },
+  {
+    "n": "Vivera Stevige tofu a la minute",
+    "o": "Nieuw",
+    "p": "3.19",
+    "s": "400 g"
+  },
+  {
+    "n": "Unox Magere leverpastei",
+    "o": null,
+    "p": "2.99",
+    "s": "3 x 56 g"
+  },
+  {
+    "n": "AH Guanciale stuk",
+    "o": null,
+    "p": "4.40",
+    "s": "ca. 200 g"
+  },
+  {
+    "n": "Wahid Filet americain",
+    "o": null,
+    "p": "3.29",
+    "s": "150 g"
+  },
+  {
+    "n": "Ikbal Rund paprika",
+    "o": null,
+    "p": "1.89",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Diamanthaas",
+    "o": null,
+    "p": "6.99",
+    "s": "ca. 250 g"
+  },
+  {
+    "n": "Vivera Gerookte tofu",
+    "o": "Nieuw",
+    "p": "3.99",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Greenfields Biefstuk",
+    "o": null,
+    "p": "11.99",
+    "s": "2 stuks"
+  },
+  {
+    "n": "Firat Lahmacun turkse pizza kapsalon chicken",
+    "o": null,
+    "p": "4.19",
+    "s": "260 g"
+  },
+  {
+    "n": "AH BBQ kipsaté gemarineerd",
+    "o": null,
+    "p": "6.00",
+    "s": "250 g"
+  },
+  {
+    "n": "Salland Luncheon meat",
+    "o": null,
+    "p": "2.49",
+    "s": "340 g"
+  },
+  {
+    "n": "AH Scharrel gerookte kipfilet kleintje",
+    "o": null,
+    "p": "1.53",
+    "s": "70 g"
+  },
+  {
+    "n": "Redefine Meat Pulled beef",
+    "o": null,
+    "p": "4.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Magere hamburger",
+    "o": null,
+    "p": "3.49",
+    "s": "180 g"
+  },
+  {
+    "n": "Isla Délice Déliss' hotdog",
+    "o": null,
+    "p": "2.99",
+    "s": "350 g"
+  },
+  {
+    "n": "AH Franse scharrelkip",
+    "o": null,
+    "p": "11.04",
+    "s": "ca. 1290 g"
+  },
+  {
+    "n": "Chatar kip natuur",
+    "o": null,
+    "p": "1.59",
+    "s": "250 g"
+  },
+  {
+    "n": "Redefine Meat Beef mince",
+    "o": null,
+    "p": "4.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Slagersrookworst Gelders",
+    "o": null,
+    "p": "1.65",
+    "s": "100 g"
+  },
+  {
+    "n": "AH Gourmetschotel",
+    "o": null,
+    "p": "9.99",
+    "s": "412 g"
+  },
+  {
+    "n": "Egetürk Dilim tavuk sefasi",
+    "o": null,
+    "p": "2.29",
+    "s": "125 g"
+  },
+  {
+    "n": "AH Scharrel kipfiletblokjes van de haas",
+    "o": null,
+    "p": "5.29",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Terra Plantaardig rulgehakt Italiaans",
+    "o": null,
+    "p": "2.39",
+    "s": "180 g"
+  },
+  {
+    "n": "Vivera Plantaardig kruimgehakt voordeelpak",
+    "o": null,
+    "p": "4.99",
+    "s": "375 g"
+  },
+  {
+    "n": "AH Terra Plantaardige smeltburger gouda stijl",
+    "o": null,
+    "p": "2.59",
+    "s": "200 g"
+  },
+  {
+    "n": "Argeta Spread kip halal",
+    "o": null,
+    "p": "1.79",
+    "s": "95 g"
+  },
+  {
+    "n": "Marhaba Kipballetjes",
+    "o": null,
+    "p": "3.69",
+    "s": "250 g"
+  },
+  {
+    "n": "Jos Poell Mini pasteitjes",
+    "o": null,
+    "p": "1.79",
+    "s": "12 stuks"
+  },
+  {
+    "n": "Des Champs Vert Scharrel maiskipfilet",
+    "o": null,
+    "p": "3.94",
+    "s": "ca. 160 g"
+  },
+  {
+    "n": "AH Mozzerella basilicum burger",
+    "o": null,
+    "p": "3.49",
+    "s": "200 g"
+  },
+  {
+    "n": "Wahid Kipgrillworst plakjes chilipeper",
+    "o": null,
+    "p": "2.69",
+    "s": "125 g"
+  },
+  {
+    "n": "Kaddour Kip grillworst kaas",
+    "o": null,
+    "p": "3.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Scharrel kipgehakt",
+    "o": "Nieuw",
+    "p": "5.99",
+    "s": "500 g"
+  },
+  {
+    "n": "AH BBQ worst naturel 5 stuks",
+    "o": null,
+    "p": "4.50",
+    "s": "350 g"
+  },
+  {
+    "n": "AH Gemengd gekruid gehakt",
+    "o": null,
+    "p": "3.49",
+    "s": "300 g"
+  },
+  {
+    "n": "Wikinger Hotdogs",
+    "o": null,
+    "p": "4.99",
+    "s": "1,03 kg"
+  },
+  {
+    "n": "AH Champignon roomsaus",
+    "o": null,
+    "p": "2.19",
+    "s": "190 ml"
+  },
+  {
+    "n": "AH Runderchipolata met rundereiwit",
+    "o": null,
+    "p": "4.29",
+    "s": "8 stuks"
+  },
+  {
+    "n": "Vivera Tofusion Japanese style",
+    "o": "Nieuw",
+    "p": "3.29",
+    "s": "180 g"
+  },
+  {
+    "n": "Unox Frankfurters",
+    "o": null,
+    "p": "5.15",
+    "s": "550 g"
+  },
+  {
+    "n": "AH Vakslager varkensbuikspek",
+    "o": null,
+    "p": "19.99",
+    "s": "ca. 1000 g"
+  },
+  {
+    "n": "Omar Biefstuk",
+    "o": null,
+    "p": "7.99",
+    "s": "ca. 250 g"
+  },
+  {
+    "n": "Coertjens Stoofvlees",
+    "o": null,
+    "p": "4.99",
+    "s": "425 g"
+  },
+  {
+    "n": "AH Terra Biologische bietstuk dry-aged",
+    "o": null,
+    "p": "4.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Excellent Varkens chipolataworstjes",
+    "o": null,
+    "p": "2.99",
+    "s": "215 g"
+  },
+  {
+    "n": "AH Terra Tofu burger champignon",
+    "o": null,
+    "p": "2.29",
+    "s": "160 g"
+  },
+  {
+    "n": "AH BBQ worst tuinkruiden",
+    "o": null,
+    "p": "4.50",
+    "s": "350 g"
+  },
+  {
+    "n": "AH Biologisch BBQ hamburger",
+    "o": null,
+    "p": "4.50",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Lamsfilet",
+    "o": null,
+    "p": "9.99",
+    "s": "ca. 250 g"
+  },
+  {
+    "n": "Argeta Kip spread",
+    "o": null,
+    "p": "1.69",
+    "s": "95 g"
+  },
+  {
+    "n": "Marhaba Cocktailworstjes mini saucisses volaille",
+    "o": null,
+    "p": "3.99",
+    "s": "400 g"
+  },
+  {
+    "n": "Redefine Meat Flank steak",
+    "o": null,
+    "p": "8.99",
+    "s": "200 g"
+  },
+  {
+    "n": "Vivera Tofusion Korean style",
+    "o": "Nieuw",
+    "p": "3.29",
+    "s": "180 g"
+  },
+  {
+    "n": "AH Excellent Biefstukspies tuinkruiden",
+    "o": null,
+    "p": "9.99",
+    "s": "ca. 300 g"
+  },
+  {
+    "n": "Kadir's Bapao kip",
+    "o": null,
+    "p": "1.69",
+    "s": "per stuk"
+  },
+  {
+    "n": "AH Oven varkenshaas rauwe ham pepersaus",
+    "o": null,
+    "p": "7.49",
+    "s": "ca. 350 g"
+  },
+  {
+    "n": "AH Scharrel kipburger 4 stuks",
+    "o": "Nieuw",
+    "p": "4.99",
+    "s": "400 g"
+  },
+  {
+    "n": "Redefine Meat Lamb kofta mix",
+    "o": null,
+    "p": "4.55",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Oven varkenshaas katenspek",
+    "o": null,
+    "p": "6.99",
+    "s": "ca. 350 g"
+  },
+  {
+    "n": "AH Terra Tempeh sweet chili",
+    "o": null,
+    "p": "2.79",
+    "s": "180 g"
+  },
+  {
+    "n": "Chatar Rundworst mild",
+    "o": null,
+    "p": "1.59",
+    "s": "280 g"
+  },
+  {
+    "n": "AH Lamsrack",
+    "o": null,
+    "p": "18.40",
+    "s": "ca. 400 g"
+  },
+  {
+    "n": "Kadir's Bapao rund",
+    "o": null,
+    "p": "1.69",
+    "s": "per stuk"
+  },
+  {
+    "n": "AH Gemengd gekruid gehakt",
+    "o": null,
+    "p": "8.29",
+    "s": "1 kg"
+  },
+  {
+    "n": "Wahid Jalapeño - cheddar worst",
+    "o": null,
+    "p": "4.99",
+    "s": "320 g"
+  },
+  {
+    "n": "Wahid Kalkoenfilet plakjes naturel",
+    "o": null,
+    "p": "2.99",
+    "s": "125 g"
+  },
+  {
+    "n": "Wahid Kip gehakt",
+    "o": null,
+    "p": "4.39",
+    "s": "300 g"
+  },
+  {
+    "n": "Friki Kipdrumsticks paprika voorgegaard",
+    "o": null,
+    "p": "4.65",
+    "s": "750 g"
+  },
+  {
+    "n": "Isla Délice Kalkoenham",
+    "o": null,
+    "p": "2.39",
+    "s": "100 g"
+  },
+  {
+    "n": "AH Rund- en varkensburger met rundereiwit",
+    "o": null,
+    "p": "3.99",
+    "s": "360 g"
+  },
+  {
+    "n": "AH Vakslager scharrel eendenbout",
+    "o": null,
+    "p": "8.00",
+    "s": "ca. 500 g"
+  },
+  {
+    "n": "Redefine Meat Bratwurst",
+    "o": null,
+    "p": "4.55",
+    "s": "200 g"
+  },
+  {
+    "n": "AH BBQ hamburger",
+    "o": null,
+    "p": "4.50",
+    "s": "320 g"
+  },
+  {
+    "n": "AH Scharrel gerookte eendenborstfilet",
+    "o": null,
+    "p": "4.50",
+    "s": "ca. 100 g"
+  },
+  {
+    "n": "AH BBQ hotdog smokey",
+    "o": null,
+    "p": "4.50",
+    "s": "280 g"
+  },
+  {
+    "n": "AH Oven varkensoester",
+    "o": null,
+    "p": "5.49",
+    "s": "ca. 350 g"
+  },
+  {
+    "n": "AH BBQ Bavette",
+    "o": null,
+    "p": "19.59",
+    "s": "ca. 700 g"
+  },
+  {
+    "n": "Wahid Runderrookvlees",
+    "o": null,
+    "p": "3.79",
+    "s": "100 g"
+  },
+  {
+    "n": "Jos Poell Krokante cupjes naturel",
+    "o": null,
+    "p": "2.79",
+    "s": "72 g"
+  },
+  {
+    "n": "AH BBQ rundersteak à la minute black pepper",
+    "o": null,
+    "p": "7.50",
+    "s": "3 stuks"
+  },
+  {
+    "n": "Isla Délice Gerookte kipfilet",
+    "o": null,
+    "p": "2.39",
+    "s": "100 g"
+  },
+  {
+    "n": "AH Terra Plantaardige gemarineerde burger BBQ",
+    "o": null,
+    "p": "1.99",
+    "s": "180 g"
+  },
+  {
+    "n": "Argeta Kip spread duopack",
+    "o": null,
+    "p": "2.99",
+    "s": "190 g"
+  },
+  {
+    "n": "AH BBQ hamburger smokey",
+    "o": null,
+    "p": "3.99",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Vakslager lamshaasjes",
+    "o": null,
+    "p": "24.00",
+    "s": "ca. 500 g"
+  },
+  {
+    "n": "Unox Bockworsten",
+    "o": null,
+    "p": "5.99",
+    "s": "550 g"
+  },
+  {
+    "n": "Omar Angus beef burger",
+    "o": null,
+    "p": "4.99",
+    "s": "250 g"
+  },
+  {
+    "n": "Isla Délice Kipfilet",
+    "o": null,
+    "p": "2.99",
+    "s": "150 g"
+  },
+  {
+    "n": "AH Traybake kipfilet Griekse stijl",
+    "o": "Nieuw",
+    "p": "7.99",
+    "s": "ca. 625 g"
+  },
+  {
+    "n": "AH Excellent Lamskotelet",
+    "o": null,
+    "p": "9.49",
+    "s": "ca. 210 g"
+  },
+  {
+    "n": "AH BBQ kipshaslickspies",
+    "o": null,
+    "p": "6.00",
+    "s": "230 g"
+  },
+  {
+    "n": "AH Terra Plantaardige jalapeno burger BBQ",
+    "o": null,
+    "p": "3.19",
+    "s": "180 g"
+  },
+  {
+    "n": "AH BBQ rundersteak a la minute smokey",
+    "o": null,
+    "p": "7.50",
+    "s": "3 stuks"
+  },
+  {
+    "n": "Kasmi Kip pikant salade",
+    "o": null,
+    "p": "2.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH BBQ varkenspeklapjes smokey",
+    "o": null,
+    "p": "5.00",
+    "s": "320 g"
+  },
+  {
+    "n": "AH Scharrel kipfiletreepjes",
+    "o": "Nieuw",
+    "p": "7.49",
+    "s": "500 g"
+  },
+  {
+    "n": "Compaxo Broodje rookworst",
+    "o": null,
+    "p": "4.29",
+    "s": "330 g"
+  },
+  {
+    "n": "AH Excellent Lamskotelet gemarineerd",
+    "o": null,
+    "p": "9.66",
+    "s": "ca. 215 g"
+  },
+  {
+    "n": "Isla Délice Gerookte kip spekreepjes",
+    "o": null,
+    "p": "4.69",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Excellent Varkenshaasspies Indonesian",
+    "o": null,
+    "p": "6.00",
+    "s": "ca. 300 g"
+  },
+  {
+    "n": "AH Vakslager runder entrecôte",
+    "o": null,
+    "p": "16.99",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Scharrel kipdijfilet provençaals",
+    "o": "Nieuw",
+    "p": "6.95",
+    "s": "ca. 500 g"
+  },
+  {
+    "n": "AH BBQ worst Zaanlander jalapeño",
+    "o": null,
+    "p": "4.50",
+    "s": "350 g"
+  },
+  {
+    "n": "Planted Filetstukjes lemon & herb",
+    "o": null,
+    "p": "3.99",
+    "s": "160 g"
+  },
+  {
+    "n": "Cucina Spicy chicken wings",
+    "o": null,
+    "p": "4.49",
+    "s": "ca. 400 g"
+  },
+  {
+    "n": "AH BBQ varkenspeklapjes provencaals",
+    "o": null,
+    "p": "5.00",
+    "s": "320 g"
+  },
+  {
+    "n": "Zainab Roti rol kip",
+    "o": null,
+    "p": "3.69",
+    "s": "175 g"
+  },
+  {
+    "n": "Unox Vlaamse hachee",
+    "o": null,
+    "p": "4.39",
+    "s": "per stuk"
+  },
+  {
+    "n": "Ajinomoto Karaage poulet",
+    "o": null,
+    "p": "5.79",
+    "s": "250 g"
+  },
+  {
+    "n": "AH BBQ mini hamburgers",
+    "o": "Nieuw",
+    "p": "5.99",
+    "s": "360 g"
+  },
+  {
+    "n": "AH BBQ varkensprocureurlapjes black garlic",
+    "o": null,
+    "p": "5.00",
+    "s": "360 g"
+  },
+  {
+    "n": "Unox Schouderhammix",
+    "o": null,
+    "p": "5.85",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Traybake kipfilet prei en roomkaas",
+    "o": "Nieuw",
+    "p": "7.99",
+    "s": "ca. 625 g"
+  },
+  {
+    "n": "AH Scharrel kipfilethaasjes",
+    "o": "Nieuw",
+    "p": "3.69",
+    "s": "200 g"
+  },
+  {
+    "n": "Smaakt Seitan naturel",
+    "o": null,
+    "p": "5.69",
+    "s": "350 g"
+  },
+  {
+    "n": "AH Bearnaisesaus met puur geklaarde boter",
+    "o": null,
+    "p": "2.69",
+    "s": "190 ml"
+  },
+  {
+    "n": "AH Vakslager runder ribeye graangevoerd",
+    "o": null,
+    "p": "27.50",
+    "s": "ca. 500 g"
+  },
+  {
+    "n": "AH Terra Gerookte tempeh",
+    "o": "Nieuw",
+    "p": "2.49",
+    "s": "220 g"
+  },
+  {
+    "n": "Jean Larnaudie Cuisses de canard maigre confites",
+    "o": null,
+    "p": "19.99",
+    "s": "1240 g"
+  },
+  {
+    "n": "AH Vakslager tomahawk",
+    "o": null,
+    "p": "38.99",
+    "s": "ca. 1000 g"
+  },
+  {
+    "n": "Planted Spies BBQ",
+    "o": null,
+    "p": "4.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Terra Groentesteaks knolselderij",
+    "o": null,
+    "p": "3.49",
+    "s": "167 g"
+  },
+  {
+    "n": "Kasmi Kip curry salade",
+    "o": null,
+    "p": "2.99",
+    "s": "200 g"
+  },
+  {
+    "n": "Compaxo BBQ worst naturel",
+    "o": null,
+    "p": "3.99",
+    "s": "400 g"
+  },
+  {
+    "n": "AH BBQ hamburger spicy",
+    "o": null,
+    "p": "3.99",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH BBQ ribeye",
+    "o": null,
+    "p": "23.09",
+    "s": "ca. 700 g"
+  },
+  {
+    "n": "Zainab Bara kipkerrie",
+    "o": null,
+    "p": "3.69",
+    "s": "140 g"
+  },
+  {
+    "n": "Isla Délice Gerookte kalkoenfilet",
+    "o": null,
+    "p": "2.99",
+    "s": "150 g"
+  },
+  {
+    "n": "Egetürk Pinar sosis rundvleesworsten",
+    "o": null,
+    "p": "5.99",
+    "s": "550 gram"
+  },
+  {
+    "n": "Yayla Su boregi peynirli",
+    "o": null,
+    "p": "5.99",
+    "s": "700 g"
+  },
+  {
+    "n": "AH Runderburger met toegevoegd rundereiwit",
+    "o": null,
+    "p": "3.29",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Rund- en varkensburger met rundereiwit",
+    "o": null,
+    "p": "2.49",
+    "s": "180 g"
+  },
+  {
+    "n": "AH BBQ scharrel kipchipolata's smokey",
+    "o": null,
+    "p": "4.50",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Scharrel kipgehakt",
+    "o": "Nieuw",
+    "p": "2.49",
+    "s": "175 g"
+  },
+  {
+    "n": "AH BBQ kipfiletspies yoghurt mediteraans",
+    "o": null,
+    "p": "6.00",
+    "s": "275 g"
+  },
+  {
+    "n": "AH BBQ scharrel kipdijfiletlap gemarineerd",
+    "o": "Nieuw",
+    "p": "5.00",
+    "s": "330 g"
+  },
+  {
+    "n": "AH Vakslager iberico procureur",
+    "o": null,
+    "p": "26.99",
+    "s": "ca. 900 g"
+  },
+  {
+    "n": "Koc Sucuk",
+    "o": null,
+    "p": "4.99",
+    "s": "300 g"
+  },
+  {
+    "n": "Efepasa Inci cocktail gevogelteworsten",
+    "o": null,
+    "p": "3.59",
+    "s": "400 g"
+  },
+  {
+    "n": "AH BBQ scharrel kipfilethaasjes aan spies",
+    "o": null,
+    "p": "6.00",
+    "s": "230 g"
+  },
+  {
+    "n": "AH BBQ rundersteak à la minute French herbs",
+    "o": null,
+    "p": "7.50",
+    "s": "3 stuks"
+  },
+  {
+    "n": "AH BBQ filetlapjes à la minute smokey",
+    "o": null,
+    "p": "5.00",
+    "s": "5 stuks"
+  },
+  {
+    "n": "AH Terra Groentesteaks pompoen",
+    "o": null,
+    "p": "3.49",
+    "s": "175 g"
+  },
+  {
+    "n": "AH Biologisch Kipchipolata",
+    "o": "Nieuw",
+    "p": "5.49",
+    "s": "210 g"
+  },
+  {
+    "n": "Efepasa Yöre",
+    "o": null,
+    "p": "2.79",
+    "s": "150 g"
+  },
+  {
+    "n": "AH BBQ scharrel kipdijfiletlapjes yoghurt",
+    "o": null,
+    "p": "5.00",
+    "s": "330 g"
+  },
+  {
+    "n": "AH BBQ scharrel chickenwings American style",
+    "o": "Nieuw",
+    "p": "3.50",
+    "s": "450 g"
+  },
+  {
+    "n": "AH Kip-kalkoengehakt gekruid",
+    "o": "Nieuw",
+    "p": "3.49",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Scharrel kipfilet pesto",
+    "o": "Nieuw",
+    "p": "3.99",
+    "s": "ca. 190 g"
+  },
+  {
+    "n": "AH BBQ donut smokey",
+    "o": "Nieuw",
+    "p": "3.99",
+    "s": "180 g"
+  },
+  {
+    "n": "AH BBQ runderkebabspies",
+    "o": null,
+    "p": "5.50",
+    "s": "4 stuks"
+  },
+  {
+    "n": "Efepasa Arzum",
+    "o": null,
+    "p": "2.79",
+    "s": "200 g"
+  },
+  {
+    "n": "AH BBQ Picanha",
+    "o": null,
+    "p": "23.09",
+    "s": "ca. 700 g"
+  },
+  {
+    "n": "AH Cote de boeuf",
+    "o": null,
+    "p": "15.40",
+    "s": "ca. 385 g"
+  },
+  {
+    "n": "AH BBQ entrecote",
+    "o": null,
+    "p": "20.99",
+    "s": "ca. 700 g"
+  },
+  {
+    "n": "AH Vakslager lamsrack",
+    "o": null,
+    "p": "43.99",
+    "s": "ca. 800 g"
+  },
+  {
+    "n": "AH Vakslager picanha grasgevoerd",
+    "o": null,
+    "p": "32.99",
+    "s": "ca. 1100 g"
+  },
+  {
+    "n": "Planted Steak",
+    "o": null,
+    "p": "4.49",
+    "s": "120 g"
+  },
+  {
+    "n": "AH BBQ donut rendangsmaak",
+    "o": "Nieuw",
+    "p": "3.99",
+    "s": "180 g"
+  },
+  {
+    "n": "Compaxo Chipolataworstjes Spaans",
+    "o": null,
+    "p": "2.59",
+    "s": "250 g"
+  },
+  {
+    "n": "AH BBQ schouderlapje à la minuut",
+    "o": null,
+    "p": "5.00",
+    "s": "per 4 stuks"
+  },
+  {
+    "n": "AH BBQ gekruide shaslick met spek",
+    "o": null,
+    "p": "5.50",
+    "s": "255 g"
+  },
+  {
+    "n": "AH Clubsteak",
+    "o": null,
+    "p": "13.58",
+    "s": "ca. 385 g"
+  },
+  {
+    "n": "AH Vakslager label rouge kwartel",
+    "o": null,
+    "p": "10.00",
+    "s": "ca. 400 g"
+  },
+  {
+    "n": "AH BBQ scharrel kipworst Amerikaanse style",
+    "o": null,
+    "p": "4.50",
+    "s": "280 g"
+  },
+  {
+    "n": "Argeta Spread kip pikant",
+    "o": null,
+    "p": "1.79",
+    "s": "95 g"
+  },
+  {
+    "n": "AH BBQ varkens entrecotelapjes mediterraan",
+    "o": null,
+    "p": "5.00",
+    "s": "360 g"
+  },
+  {
+    "n": "AH Vakslager cote du boeuf",
+    "o": null,
+    "p": "39.99",
+    "s": "ca. 1000 g"
+  },
+  {
+    "n": "Argeta Meatless chicken spread",
+    "o": null,
+    "p": "1.79",
+    "s": "95 g"
+  },
+  {
+    "n": "AH Vakslager hazenrug",
+    "o": null,
+    "p": "14.99",
+    "s": "ca. 600 g"
+  },
+  {
+    "n": "AH Vakslager bavette graangevoerd",
+    "o": null,
+    "p": "35.99",
+    "s": "ca. 900 g"
+  },
+  {
+    "n": "Isla Délice Kipreepjes",
+    "o": null,
+    "p": "4.69",
+    "s": "200 g"
+  },
+  {
+    "n": "AH BBQ kipdijfiletspies Koreaanse stijl",
+    "o": "Nieuw",
+    "p": "5.50",
+    "s": "270 g"
+  },
+  {
+    "n": "AH BBQ spareribs naturel",
+    "o": "Nieuw",
+    "p": "6.56",
+    "s": "ca. 525 g"
+  },
+  {
+    "n": "AH BBQ biefstukspies black garlic",
+    "o": null,
+    "p": "6.49",
+    "s": "ca. 225 g"
+  },
+  {
+    "n": "Streeckgenoten BBQ worst naturel",
+    "o": null,
+    "p": "4.50",
+    "s": "360 g"
+  },
+  {
+    "n": "Argeta Kip spread rund salami",
+    "o": null,
+    "p": "1.79",
+    "s": "95 g"
+  },
+  {
+    "n": "Argeta Kip pikant spread 2-pack",
+    "o": null,
+    "p": "3.19",
+    "s": "190 g"
+  },
+  {
+    "n": "Warung Turkse rijst kipshoarma",
+    "o": null,
+    "p": "5.99",
+    "s": "450 g"
+  },
+  {
+    "n": "AH BBQ scharrel kipdijfiletspies chipotle",
+    "o": "Nieuw",
+    "p": "5.50",
+    "s": "260 g"
+  },
+  {
+    "n": "AH Kalkoenfilet 1 stuk",
+    "o": "Nieuw",
+    "p": "4.49",
+    "s": "ca. 250 g"
+  },
+  {
+    "n": "AH Terra Biologisch plantaardige seitan worstjes",
+    "o": null,
+    "p": "3.49",
+    "s": "160 g"
+  },
+  {
+    "n": "AH BBQ donut green herbs",
+    "o": "Nieuw",
+    "p": "3.99",
+    "s": "180 g"
+  },
+  {
+    "n": "AH BBQ scharrel kipworst piri piri",
+    "o": null,
+    "p": "4.50",
+    "s": "280 g"
+  },
+  {
+    "n": "AH BBQ Spies Pakket",
+    "o": null,
+    "p": "11.40",
+    "s": "per pakket"
+  },
+  {
+    "n": "AH BBQ tomahawk sweet & smokey",
+    "o": null,
+    "p": "6.99",
+    "s": "ca. 330 g"
+  },
+  {
+    "n": "AH BBQ varkenshaasspies",
+    "o": null,
+    "p": "5.50",
+    "s": "ca. 225 g"
+  },
+  {
+    "n": "Streeckgenoten BBQ worst pikant",
+    "o": null,
+    "p": "4.50",
+    "s": "360 g"
+  },
+  {
+    "n": "AH BBQ varkenssaté",
+    "o": null,
+    "p": "5.00",
+    "s": "252 g"
+  },
+  {
+    "n": "AH Vakslager runder tritip graangevoerd",
+    "o": null,
+    "p": "29.59",
+    "s": "ca. 800 g"
+  },
+  {
+    "n": "Argeta Salmon spread",
+    "o": null,
+    "p": "3.49",
+    "s": "95 g"
+  },
+  {
+    "n": "Argeta Meatless chicken spread pikant",
+    "o": null,
+    "p": "1.79",
+    "s": "95 g"
+  },
+  {
+    "n": "AH Scharrel kipfiletreepjes fajita",
+    "o": "Nieuw",
+    "p": "5.29",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Scharrel kipburger 8 stuks",
+    "o": "Nieuw",
+    "p": "7.49",
+    "s": "640 g"
+  },
+  {
+    "n": "AH BBQ Smokey Worst Pakket",
+    "o": null,
+    "p": "4.50",
+    "s": "per pakket"
+  },
+  {
+    "n": "AH BBQ scharrel kipsteak",
+    "o": null,
+    "p": "4.00",
+    "s": "285 g"
+  },
+  {
+    "n": "AH Vakslager runder shortribs",
+    "o": null,
+    "p": "59.99",
+    "s": "ca. 1500 g"
+  },
+  {
+    "n": "AH Vakslager runder ossenhaas",
+    "o": null,
+    "p": "95.98",
+    "s": "ca. 1600 g"
+  },
+  {
+    "n": "AH Rundvlees teriyaki",
+    "o": "Nieuw",
+    "p": "6.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH BBQ scharrel beer chicken in IPA rub",
+    "o": "Nieuw",
+    "p": "11.99",
+    "s": "ca. 1480 g"
+  },
+  {
+    "n": "AH BBQ sparerib maple flavour",
+    "o": "Nieuw",
+    "p": "9.23",
+    "s": "ca. 665 g"
+  },
+  {
+    "n": "AH BBQ sparerib Korean",
+    "o": "Nieuw",
+    "p": "9.23",
+    "s": "ca. 665 g"
+  },
+  {
+    "n": "AH BBQ Kip Spies Pakket",
+    "o": null,
+    "p": "15.75",
+    "s": "per pakket"
+  },
+  {
+    "n": "AH BBQ Rundersteak Pakket",
+    "o": null,
+    "p": "12.82",
+    "s": "per pakket"
+  },
+  {
+    "n": "AH BBQ Burger Pakket",
+    "o": null,
+    "p": "14.85",
+    "s": "per pakket"
+  },
+  {
+    "n": "AH BBQ kipsaté volumepack",
+    "o": null,
+    "p": "16.20",
+    "s": "per pakket"
+  },
+  {
+    "n": "AH BBQ spareribs",
+    "o": null,
+    "p": "9.23",
+    "s": "ca. 665 g"
+  },
+  {
+    "n": "AH Vakslager hertenzadel filet gevliesd",
+    "o": null,
+    "p": "31.49",
+    "s": "ca. 700 g"
+  },
+  {
+    "n": "AH Varkensvlees zoet-zuur",
+    "o": "Nieuw",
+    "p": "4.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Rundvlees soja-sesam",
+    "o": "Nieuw",
+    "p": "6.99",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Varkensvlees Thaise stijl",
+    "o": "Nieuw",
+    "p": "4.99",
+    "s": "250 g"
+  },
+  {
+    "n": "Planted Steak marinade paprika",
+    "o": null,
+    "p": "5.49",
+    "s": "160 g"
+  },
+  {
+    "n": "Vivera Signature burger plantaardig",
+    "o": "Nieuw",
+    "p": "3.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH BBQ cote du porc Mexicaanse stijl",
+    "o": "Nieuw",
+    "p": "5.99",
+    "s": "ca. 360 g"
+  },
+  {
+    "n": "AH BBQ worst hot & spicy",
+    "o": null,
+    "p": "4.50",
+    "s": "350 g"
+  },
+  {
+    "n": "AH BBQ Vlees Pakket",
+    "o": null,
+    "p": "19.12",
+    "s": "per pakket"
+  },
+  {
+    "n": "AH BBQ Pakket",
+    "o": null,
+    "p": "10.92",
+    "s": "per pakket"
+  },
+  {
+    "n": "AH BBQ smokey worst volumepack",
+    "o": null,
+    "p": "9.00",
+    "s": "per pakket"
+  },
+  {
+    "n": "AH BBQ tuinkruiden worst volumepack",
+    "o": null,
+    "p": "9.00",
+    "s": "per pakket"
+  },
+  {
+    "n": "AH BBQ grillburger volumepack",
+    "o": null,
+    "p": "16.20",
+    "s": "per pakket"
+  },
+  {
+    "n": "AH Excellent BBQ flat iron steak volumepack",
+    "o": null,
+    "p": "18.87",
+    "s": "per pakket"
+  },
+  {
+    "n": "Meester & Zn. Gerookte spekreepjes",
+    "o": null,
+    "p": "3.29",
+    "s": "300 g"
+  },
+  {
+    "n": "AH Rundergehakt",
+    "o": null,
+    "p": "5.99",
+    "s": "500 g"
+  },
+  {
+    "n": "AH Varkens knakworst",
+    "o": null,
+    "p": "1.49",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Scharrel kipdijfilet",
+    "o": null,
+    "p": "8.99",
+    "s": "770 g"
+  },
+  {
+    "n": "Meester & Zn. Hamblokjes",
+    "o": null,
+    "p": "2.19",
+    "s": "250 g"
+  },
+  {
+    "n": "AH Scharrel kipfiletreepjes",
+    "o": null,
+    "p": "4.99",
+    "s": "320 g"
+  },
+  {
+    "n": "AH Gehakt cordon bleu kaas en ham",
+    "o": "2 voor 5.50",
+    "p": "3.29",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Scharrel kipfilet 3 stuks",
+    "o": null,
+    "p": "7.49",
+    "s": "600 g"
+  },
+  {
+    "n": "AH Runder hamburger 4 stuks",
+    "o": null,
+    "p": "4.99",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Verse worst",
+    "o": null,
+    "p": "3.99",
+    "s": "per stuk"
+  },
+  {
+    "n": "AH Scharrel kipfiletblokjes",
+    "o": null,
+    "p": "7.99",
+    "s": "600 g"
+  },
+  {
+    "n": "AH Rookworst Gelders",
+    "o": null,
+    "p": "1.49",
+    "s": "275 g"
+  },
+  {
+    "n": "AH Soepballetjes",
+    "o": null,
+    "p": "0.99",
+    "s": "200 g"
+  },
+  {
+    "n": "AH Ribkarbonade",
+    "o": null,
+    "p": "2.59",
+    "s": "2 stuks"
+  },
+  {
+    "n": "AH Runderbraadworst",
+    "o": null,
+    "p": "4.99",
+    "s": "400 g"
+  },
+  {
+    "n": "AH Katenspek",
+    "o": null,
+    "p": "2.49",
+    "s": "150 g"
+  },
+  {
+    "n": "AH Filetlapjes à la minute naturel",
+    "o": null,
+    "p": "3.99",
+    "s": "5 stuks"
+  },
+  {
+    "n": "AH Scharrel gerookte kipfiletflakes",
+    "o": null,
+    "p": "2.99",
+    "s": "150 g"
+  },
+  {
+    "n": "AH Varkens chipolataworstjes",
+    "o": null,
+    "p": "3.29",
+    "s": "8 stuks"
+  },
+  {
+    "n": "AH Shoarma",
+    "o": null,
+    "p": "6.99",
+    "s": "850 g"
+  },
+  {
+    "n": "AH Schouderkarbonade",
+    "o": null,
+    "p": "5.29",
+    "s": "3 stuks"
+  }
+]

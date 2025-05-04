@@ -1,0 +1,872 @@
+[
+  {
+    "raw_text": "2.99\n150 g\nAH Scharrel kipfilet naturel"
+  },
+  {
+    "raw_text": "1.79\n150 g\nKies\nLos\n2 Stuks\nAH Achterham"
+  },
+  {
+    "raw_text": "1.49\n150 g\nAH Boterhamworst"
+  },
+  {
+    "raw_text": "1.89\n150 g\nKies\nLos\n2 Stuks\nAH Salami"
+  },
+  {
+    "raw_text": "4.89\n250 g\nKies\nLos\n3 Stuks\nAH Kipfilet grootverpakking"
+  },
+  {
+    "raw_text": "2.49\n125 g\nKips Vega paté vol en smeuig"
+  },
+  {
+    "raw_text": "3.39\nca. 100 g\nAH Biologisch Kipfilet"
+  },
+  {
+    "raw_text": "1.99\n150 g\nAH Cervelaat"
+  },
+  {
+    "raw_text": "2.19\n150 g\nAH Filet americain naturel"
+  },
+  {
+    "raw_text": "2.69\n100 g\nKies\nLos\n2 Stuks\nAH Scharrel flinterdunne kipfilet"
+  },
+  {
+    "raw_text": "3.39\n2.41\nca. 110 g\n100 GRAM VOOR 2.19\nAH Scharrel roasted kipfilet\n\nvandaag"
+  },
+  {
+    "raw_text": "3.29\n2.47\nca. 110 g\n25% KORTING\nAH Yorkham\n\nvanaf maandag"
+  },
+  {
+    "raw_text": "3.39\nca. 110 g\nAH Gerookte slagersachterham"
+  },
+  {
+    "raw_text": "2.99\n150 g\nKies\nLos\n2 Stuks\nAH Filet americain"
+  },
+  {
+    "raw_text": "1.99\n100 g\nKies\nLos\n2 Stuks\nAH Flinterdunne achterham"
+  },
+  {
+    "raw_text": "3.59\n2.74\nca. 125 g\n100 GRAM VOOR 2.19\nAH Scharrel kipfilet\n\nvandaag"
+  },
+  {
+    "raw_text": "2.59\nca. 125 g\nAH Grillworst"
+  },
+  {
+    "raw_text": "3.29\n2.41\nca. 110 g\n100 GRAM VOOR 2.19\nAH Gegrilde beenham\n\nvandaag"
+  },
+  {
+    "raw_text": "1.89\n130 g\nAH Gelderse gekookte worst"
+  },
+  {
+    "raw_text": "2.99\n150 g\nKies\nLos\n2 Stuks\nAH Kalkoenfilet"
+  },
+  {
+    "raw_text": "1.99\n150 g\nAH Grillworst"
+  },
+  {
+    "raw_text": "2.99\n100 g\nAH Runder rookvlees"
+  },
+  {
+    "raw_text": "2.49\n125 g\nWahid kipfilet"
+  },
+  {
+    "raw_text": "3.39\nca. 110 g\nAH Roasted ham"
+  },
+  {
+    "raw_text": "1.99\n1.79\n120 g\n10% KORTING\nAH Gebraden gehakt\n\nvandaag"
+  },
+  {
+    "raw_text": "3.39\n150 g\nKies\nLos\n2 Stuks\nAH Ontbijtspek"
+  },
+  {
+    "raw_text": "2.99\n125 g\nAH Scharrel kipfilet minder vet"
+  },
+  {
+    "raw_text": "3.54\nca. 100 g\nAH Greenfields Rosbief"
+  },
+  {
+    "raw_text": "2.99\n2.19\nca. 100 g\n100 GRAM VOOR 2.19\nAH Flinterdunne gegrilde beenham\n\nvandaag"
+  },
+  {
+    "raw_text": "1.59\n150 g\nAH Gelderse gekookte worst"
+  },
+  {
+    "raw_text": "2.70\nca. 130 g\nAH Grillworst kip"
+  },
+  {
+    "raw_text": "2.39\n120 g\nKips Smeerleverworst"
+  },
+  {
+    "raw_text": "1.89\n115 g\nAH Leverworst"
+  },
+  {
+    "raw_text": "1.59\n80 g\n2 VOOR 2.50\nAH Cremepaté\n\nvandaag"
+  },
+  {
+    "raw_text": "1.69\n500 g\nAH Leverworst"
+  },
+  {
+    "raw_text": "3.29\n2.47\nca. 110 g\n25% KORTING\nAH Gegrilde yorkham\n\nvanaf maandag"
+  },
+  {
+    "raw_text": "2.99\nca. 100 g\nAH Biologisch Ontbijtspek"
+  },
+  {
+    "raw_text": "3.19\nca. 120 g\nAH Ossenworst"
+  },
+  {
+    "raw_text": "2.70\nca. 130 g\nAH Grillworst met zaanlanderkaas"
+  },
+  {
+    "raw_text": "2.89\n250 g\nKies\nLos\n3 Stuks\nAH Achterham grootverpakking"
+  },
+  {
+    "raw_text": "2.19\n6 x 20 g\nKips Vega smeerworst kleintje"
+  },
+  {
+    "raw_text": "2.69\n150 g\nAH Kipgrillworst"
+  },
+  {
+    "raw_text": "1.59\n150 g\nAH Gegrild gehakt"
+  },
+  {
+    "raw_text": "3.99\n123 g\nAH Greenfields Carpaccio truffelmayo"
+  },
+  {
+    "raw_text": "2.29\n200 g\nAH Gerookt ontbijtspek"
+  },
+  {
+    "raw_text": "2.99\n150 g\nAH Filet americain mager"
+  },
+  {
+    "raw_text": "1.99\n150 g\nKies\nLos\n3 Stuks\nAH Tostiham"
+  },
+  {
+    "raw_text": "2.39\nca. 120 g\nStreeckgenoten Boterhamworst"
+  },
+  {
+    "raw_text": "1.99\n110 g\nAH Figuur boterhamworst"
+  },
+  {
+    "raw_text": "3.69\nca. 100 g\nAH Biologisch Yorkham"
+  },
+  {
+    "raw_text": "2.69\nca. 120 g\nStreeckgenoten Grillworst naturel"
+  },
+  {
+    "raw_text": "3.59\nca. 100 g\nAH Greenfields Runderrookvlees"
+  },
+  {
+    "raw_text": "3.69\nca. 100 g\nAH Biologisch Achterham"
+  },
+  {
+    "raw_text": "1.99\n125 g\nWahid Kipboterhamworst"
+  },
+  {
+    "raw_text": "2.39\n150 g\nAH Ardenner boterhamworst"
+  },
+  {
+    "raw_text": "0.85\n150 g\nKroon Saksische leverworst"
+  },
+  {
+    "raw_text": "2.29\n100 g\nKies\nLos\n3 Stuks\nAH Pannenkoekspek"
+  },
+  {
+    "raw_text": "2.19\n150 g\nAH Filet americain mager"
+  },
+  {
+    "raw_text": "3.69\nca. 100 g\nAH Biologisch Runderrookvlees"
+  },
+  {
+    "raw_text": "1.59\n80 g\n2 VOOR 2.50\nAH Cranberrypate\n\nvandaag"
+  },
+  {
+    "raw_text": "2.19\n50 g\n3 VOOR 6.00\nAH Excellent Prosciutto crudo\n\nvandaag"
+  },
+  {
+    "raw_text": "3.99\n500 g\nZandvliet Gelderse gekookte worst"
+  },
+  {
+    "raw_text": "1.69\n85 g\nKies\nLos\n2 Stuks\nAH Ontbijtspek"
+  },
+  {
+    "raw_text": "4.99\n4.16\nca. 190 g\n100 GRAM VOOR 2.19\nAH Scharrel kipfilet\n\nvandaag"
+  },
+  {
+    "raw_text": "3.99\n123 g\nAH Greenfields Carpaccio"
+  },
+  {
+    "raw_text": "1.99\n80 g\nAH Terra Plantaardige grillworst"
+  },
+  {
+    "raw_text": "2.99\nca. 110 g\nAH Biologisch Salami"
+  },
+  {
+    "raw_text": "2.62\nca. 105 g\nAH Goudsalami"
+  },
+  {
+    "raw_text": "2.49\n125 g\nKips Vega smeerworst tuinkruiden"
+  },
+  {
+    "raw_text": "2.19\n50 g\n3 VOOR 6.00\nAH Excellent Jamon serrano\n\nvandaag"
+  },
+  {
+    "raw_text": "2.19\n150 g\nAH Bacon"
+  },
+  {
+    "raw_text": "2.19\n100 g\nAH Schouderham"
+  },
+  {
+    "raw_text": "2.79\n125 g\nWahid Kalkoenham"
+  },
+  {
+    "raw_text": "2.89\n2.60\nca. 115 g\n10% KORTING\nKies\nLos\n2 Stuks\nAH Roasted gehakt\n\nvandaag"
+  },
+  {
+    "raw_text": "2.99\n350 g\nAH Grillworst"
+  },
+  {
+    "raw_text": "1.99\n130 g\nAH Boterhamworst"
+  },
+  {
+    "raw_text": "2.89\n2.60\nca. 100 g\n10% KORTING\nAH Coburgerham\n\nvandaag"
+  },
+  {
+    "raw_text": "2.99\n125 g\nKies\nLos\n2 Stuks\nAH Scharrel kipfilet tuinkruiden"
+  },
+  {
+    "raw_text": "1.99\n150 g\nAH Casselerrib"
+  },
+  {
+    "raw_text": "2.49\n100 g\nMarhaba Rundersalami met kip en kalkoen"
+  },
+  {
+    "raw_text": "3.39\n3 x 70 g\nAH Ossenworst"
+  },
+  {
+    "raw_text": "2.99\n250 g\nAH Goudsalami grootverpakking"
+  },
+  {
+    "raw_text": "3.29\n140 g\nStreeckgenoten Filet americain"
+  },
+  {
+    "raw_text": "3.89\n3.50\nca. 105 g\n10% KORTING\nAH Serrano ham\n\nvandaag"
+  },
+  {
+    "raw_text": "3.19\n80 g\nAH Uitgebakken ontbijtspek"
+  },
+  {
+    "raw_text": "3.99\n80 g\nAH Excellent Prosciutto di parma"
+  },
+  {
+    "raw_text": "3.89\nca. 100 g\nAH Biologisch Rosbief"
+  },
+  {
+    "raw_text": "2.99\n100 g\nAH Excellent Spianata romana"
+  },
+  {
+    "raw_text": "2.99\nca. 120 g\nAH Cervelaat"
+  },
+  {
+    "raw_text": "2.79\n100 g\nAH Excellent Mortadella"
+  },
+  {
+    "raw_text": "2.69\n2.42\n200 g\n10% KORTING\nAH Saksische smeerleverworst\n\nvandaag"
+  },
+  {
+    "raw_text": "2.19\n125 g\nKips Magere crème paté"
+  },
+  {
+    "raw_text": "2.29\nca. 60 g\nAH Greenfields Rosbief peper kleinverpakking"
+  },
+  {
+    "raw_text": "2.59\nca. 120 g\nStreeckgenoten Ambachtelijk gehakt"
+  },
+  {
+    "raw_text": "0.99\n2 x 150 g\nAH Saksische leverworst"
+  },
+  {
+    "raw_text": "1.99\n150 g\nKies\nLos\n2 Stuks\nAH Witlofham"
+  },
+  {
+    "raw_text": "3.29\n2.41\nca. 110 g\n100 GRAM VOOR 2.19\nAH Scharrel flinterdunne kipfilet\n\nvandaag"
+  },
+  {
+    "raw_text": "2.19\nca. 60 g\nAH Greenfields Runderrookvlees kleinverpakking"
+  },
+  {
+    "raw_text": "2.19\n125 g\nKips Roompaté"
+  },
+  {
+    "raw_text": "2.59\n250 g\nKies\nLos\n3 Stuks\nAH Gelderse gekookte worst grootverpakkingt"
+  },
+  {
+    "raw_text": "1.99\n120 g\nAH Ardenner boterhamworst"
+  },
+  {
+    "raw_text": "2.19\n230 g\nKips Leverworst"
+  },
+  {
+    "raw_text": "2.99\nca. 115 g\nAH Biologisch Grillworst"
+  },
+  {
+    "raw_text": "3.49\n350 g\nAH Kipgrillworst"
+  },
+  {
+    "raw_text": "1.59\n80 g\n2 VOOR 2.50\nAH Groene peper cremepaté\n\nvandaag"
+  },
+  {
+    "raw_text": "2.69\n300 g\nAH Gerookte Gelderse gekookte worst"
+  },
+  {
+    "raw_text": "2.49\n100 g\nMarhaba Kipfilet"
+  },
+  {
+    "raw_text": "3.59\nca. 100 g\nStreeckgenoten Rookvlees"
+  },
+  {
+    "raw_text": "3.89\nca. 120 g\nStreeckgenoten Ovengebakken kipfilet"
+  },
+  {
+    "raw_text": "2.59\n5 x 24 g\nVegetarische Slager Vegan petit filet americain"
+  },
+  {
+    "raw_text": "3.19\nca. 110 g\nAH Fricandeau"
+  },
+  {
+    "raw_text": "3.19\n250 g\nKies\nLos\n3 Stuks\nAH Cervelaat grootverpakking"
+  },
+  {
+    "raw_text": "2.99\nca. 170 g\nAH Cremepaté"
+  },
+  {
+    "raw_text": "3.39\n90 g\nAH Prosciutto di parma"
+  },
+  {
+    "raw_text": "3.49\nca. 100 g\nAH Biologisch Kipfilet flinterdun"
+  },
+  {
+    "raw_text": "2.99\n150 g\nAH Filet americain peper"
+  },
+  {
+    "raw_text": "1.49\n75 g\nAH Salami"
+  },
+  {
+    "raw_text": "3.19\nca. 120 g\nStreeckgenoten Magere cervelaat"
+  },
+  {
+    "raw_text": "3.39\nca. 110 g\nKies\nLos\n2 Stuks\nStreeckgenoten Limburgse achterham"
+  },
+  {
+    "raw_text": "2.99\n125 g\nAH Scharrel kipfilet pittig"
+  },
+  {
+    "raw_text": "3.59\n2.74\nca. 125 g\n100 GRAM VOOR 2.19\nAH Scharrel kipfilet provencaalse kruiden\n\nvandaag"
+  },
+  {
+    "raw_text": "2.99\n125 g\nAH Scharrel kipfilet sweet chili"
+  },
+  {
+    "raw_text": "2.99\n150 g\nAH Filet americain met ui"
+  },
+  {
+    "raw_text": "1.79\n80 g\nVegetarische Slager Boterhamworst"
+  },
+  {
+    "raw_text": "1.29\n150 g\nAH Leverkaas"
+  },
+  {
+    "raw_text": "2.39\n120 g\nKies\nLos\n7 Stuks\nGarden Gourmet Smeerworst"
+  },
+  {
+    "raw_text": "2.69\n150 g\nAH Wijncervelaat"
+  },
+  {
+    "raw_text": "2.69\n100 g\nVegetarische Slager Kipworst"
+  },
+  {
+    "raw_text": "2.19\n55 g\n3 VOOR 6.00\nAH Excellent Spianata romana\n\nvandaag"
+  },
+  {
+    "raw_text": "2.49\n200 g\nAH Keulse smeerleverworst"
+  },
+  {
+    "raw_text": "2.39\n120 g\nKies\nLos\n7 Stuks\nGarden Gourmet Smeerworst tuinkruiden"
+  },
+  {
+    "raw_text": "3.99\nca. 100 g\nStreeckgenoten Rosbief"
+  },
+  {
+    "raw_text": "2.39\nca. 120 g\nStreeckgenoten Kookworst"
+  },
+  {
+    "raw_text": "1.49\n150 g\nAH Cremepate"
+  },
+  {
+    "raw_text": "1.59\n80 g\n2 VOOR 2.50\nAH Ardenner paté\n\nvandaag"
+  },
+  {
+    "raw_text": "2.49\n150 g\nAH Terra Plantaardige filet americain"
+  },
+  {
+    "raw_text": "1.99\n120 g\nAH Slagers gekookte worst"
+  },
+  {
+    "raw_text": "1.89\n200 g\nIkbal Kipboterhamworst paprika"
+  },
+  {
+    "raw_text": "2.99\n200 g\nAH Rauwe ham"
+  },
+  {
+    "raw_text": "2.49\n125 g\nKies\nLos\n5 Stuks\nKips Vega filet americain"
+  },
+  {
+    "raw_text": "2.39\n120 g\nKips Smeerleverworst kleintje mager"
+  },
+  {
+    "raw_text": "1.99\n100 g\nAH Pepperoni"
+  },
+  {
+    "raw_text": "3.19\n100 g\nKies\nLos\n3 Stuks\nAH Jamon serrano"
+  },
+  {
+    "raw_text": "3.49\n3.14\nca. 125 g\n10% KORTING\nAH Kalkoenborstfilet\n\nvandaag"
+  },
+  {
+    "raw_text": "3.29\nca. 115 g\nAH Kipcervelaat"
+  },
+  {
+    "raw_text": "2.69\nca. 110 g\nAH Grillworst jalapeno Zaanlander kaas"
+  },
+  {
+    "raw_text": "1.69\n100 g\nAH Chorizo"
+  },
+  {
+    "raw_text": "2.79\n150 g\nAH Pepercervelaat"
+  },
+  {
+    "raw_text": "3.19\n130 g\nAH Biologisch Filet americain"
+  },
+  {
+    "raw_text": "3.19\nca. 120 g\nStreeckgenoten Cervelaat klein"
+  },
+  {
+    "raw_text": "2.99\n150 g\nAH Yorkham"
+  },
+  {
+    "raw_text": "2.99\nca. 110 g\nAH Zeeuws spek"
+  },
+  {
+    "raw_text": "1.79\n100 g\nAH Chorizo pamplona"
+  },
+  {
+    "raw_text": "3.19\nca. 120 g\nStreeckgenoten Cervelaat speciaal"
+  },
+  {
+    "raw_text": "2.99\n150 g\nAH Filet americain ei en ui"
+  },
+  {
+    "raw_text": "1.99\n120 g\nAH Leverkaas"
+  },
+  {
+    "raw_text": "2.19\n80 g\nAH Filet americain"
+  },
+  {
+    "raw_text": "3.49\n80 g\nAH Excellent Jamon serrano gran reserva"
+  },
+  {
+    "raw_text": "2.69\n150 g\nAH Coburger schinken"
+  },
+  {
+    "raw_text": "3.39\nca. 105 g\nAH Biefstuk ossenworst plakjes"
+  },
+  {
+    "raw_text": "1.99\n150 g\nAH Grillworst kaas"
+  },
+  {
+    "raw_text": "1.99\n1.79\n110 g\n10% KORTING\nAH Pain de provence\n\nvandaag"
+  },
+  {
+    "raw_text": "1.99\n120 g\nAH Zure zult"
+  },
+  {
+    "raw_text": "2.69\n125 g\nWahid Kipgrillworst"
+  },
+  {
+    "raw_text": "3.29\nca. 100 g\nAH Biologisch Katenspek"
+  },
+  {
+    "raw_text": "1.99\n100 g\nAH Flinterdunne goudsalami"
+  },
+  {
+    "raw_text": "2.39\nca. 120 g\nStreeckgenoten Boterhamworst klein"
+  },
+  {
+    "raw_text": "2.99\n150 g\nAH Gegrilde beenham"
+  },
+  {
+    "raw_text": "2.19\n50 g\n3 VOOR 6.00\nAH Excellent Salame cacciatore\n\nvandaag"
+  },
+  {
+    "raw_text": "3.59\nca. 90 g\nStreeckgenoten Gerookte ribeye"
+  },
+  {
+    "raw_text": "3.19\n2.87\nca. 120 g\n10% KORTING\nAH Corned beef\n\nvanaf maandag"
+  },
+  {
+    "raw_text": "2.69\n2.42\nca. 80 g\n10% KORTING\nAH Schwarzwalder schinken\n\nvanaf maandag"
+  },
+  {
+    "raw_text": "2.69\n125 g\nAH Pizza salami"
+  },
+  {
+    "raw_text": "2.99\nca. 170 g\nAH Cranberry paté"
+  },
+  {
+    "raw_text": "4.69\nca. 235 g\nAH Grillworst zaanlanderkaas"
+  },
+  {
+    "raw_text": "3.39\nca. 100 g\nAH Biologisch Kalkoenfilet"
+  },
+  {
+    "raw_text": "4.49\nca. 235 g\nAH Grillworst"
+  },
+  {
+    "raw_text": "2.39\nca. 120 g\nStreeckgenoten Palingworst"
+  },
+  {
+    "raw_text": "2.99\n200 g\nAH Schwarzwalder schinken"
+  },
+  {
+    "raw_text": "2.99\n100 g\nAH Scharrel kipfilet flinterdun minder vet"
+  },
+  {
+    "raw_text": "3.19\n80 g\nAH Excellent Salame milano"
+  },
+  {
+    "raw_text": "3.49\nca. 100 g\nStreeckgenoten Biologische rundersalami"
+  },
+  {
+    "raw_text": "2.99\n150 g\nAH Filet americain carpaccio"
+  },
+  {
+    "raw_text": "2.79\nca. 120 g\nStreeckgenoten Grillworst pikant"
+  },
+  {
+    "raw_text": "3.29\nca. 120 g\nAH Rundersalami"
+  },
+  {
+    "raw_text": "2.99\n80 g\nAH Excellent Hongaarse salami"
+  },
+  {
+    "raw_text": "2.69\nca. 125 g\nAH Grillworst saté"
+  },
+  {
+    "raw_text": "3.39\nca. 110 g\nStreeckgenoten Fricandeau"
+  },
+  {
+    "raw_text": "2.99\nca. 170 g\nAH Ardenner paté"
+  },
+  {
+    "raw_text": "1.19\n250 g\nAH Leverworst"
+  },
+  {
+    "raw_text": "2.19\n80 g\nAH Filet americain mager"
+  },
+  {
+    "raw_text": "2.99\n150 g\nAH Kalkoensalami"
+  },
+  {
+    "raw_text": "2.89\n2.60\nca. 110 g\n10% KORTING\nAH Gehakt cordon bleu\n\nvandaag"
+  },
+  {
+    "raw_text": "2.49\nca. 120 g\nStreeckgenoten Koempelpastei"
+  },
+  {
+    "raw_text": "2.59\n125 g\nKips Vega tuinkruiden & bospaddenstoelen paté"
+  },
+  {
+    "raw_text": "1.99\n80 g\nAH Terra Plantaardige ham"
+  },
+  {
+    "raw_text": "2.69\nca. 125 g\nAH Kipgrillworst met Zaanlander kaas"
+  },
+  {
+    "raw_text": "3.79\nca. 120 g\nStreeckgenoten Nostalgische gerookte ossenworst"
+  },
+  {
+    "raw_text": "2.69\nca. 120 g\nStreeckgenoten Pikante kipgrillworst kaas"
+  },
+  {
+    "raw_text": "3.59\n2.74\nca. 125 g\n100 GRAM VOOR 2.19\nAH Scharrel kipfilet bieslook\n\nvandaag"
+  },
+  {
+    "raw_text": "2.99\nca. 100 g\nAH Roasted Indisch spek"
+  },
+  {
+    "raw_text": "2.89\nca. 120 g\nAH Boerenmetworst"
+  },
+  {
+    "raw_text": "1.99\n75 g\nAH Scharrel kipfilet"
+  },
+  {
+    "raw_text": "2.49\n80 g\nMarhaba Kalkoen bacon"
+  },
+  {
+    "raw_text": "3.49\nca. 120 g\nAH Roasted bacon"
+  },
+  {
+    "raw_text": "2.99\n2.69\nca. 125 g\n10% KORTING\nAH Gehakt met ui\n\nvandaag"
+  },
+  {
+    "raw_text": "2.89\n80 g\nAH Pancetta"
+  },
+  {
+    "raw_text": "2.75\n125 g\nKips Theeworst"
+  },
+  {
+    "raw_text": "2.69\nca. 120 g\nStreeckgenoten Grillworst"
+  },
+  {
+    "raw_text": "2.89\nca. 120 g\nStreeckgenoten Mosterdgehakt"
+  },
+  {
+    "raw_text": "2.69\n5 x 24 g\nVegetarische Slager Vegan petit pate"
+  },
+  {
+    "raw_text": "3.99\n3.59\nca. 200 g\n10% KORTING\nAH Ossenworst\n\nvanaf maandag"
+  },
+  {
+    "raw_text": "3.19\nca. 125 g\nAH Katenspek"
+  },
+  {
+    "raw_text": "2.49\n125 g\nKips Vega paté mediterraans"
+  },
+  {
+    "raw_text": "2.99\nca. 150 g\nKies\nLos\n3 Stuks\nAH Bakbacon"
+  },
+  {
+    "raw_text": "2.99\nca. 140 g\nAH Biologisch Roompate"
+  },
+  {
+    "raw_text": "2.99\nca. 70 g\nAH Biologisch Salami milano"
+  },
+  {
+    "raw_text": "2.79\n125 g\nWahid Kipfilet provence"
+  },
+  {
+    "raw_text": "3.19\n80 g\nAH Excellent Pancetta"
+  },
+  {
+    "raw_text": "3.79\nca. 110 g\nStreeckgenoten Pastrami"
+  },
+  {
+    "raw_text": "3.99\n121 g\nAH Greenfields Carpaccio honing mosterd"
+  },
+  {
+    "raw_text": "3.19\nca. 120 g\nAH Pepercervelaat"
+  },
+  {
+    "raw_text": "2.19\n60 g\n3 VOOR 6.00\nAH Excellent Fuet catalana\n\nvandaag"
+  },
+  {
+    "raw_text": "2.19\n120 g\nAH Varkenslever"
+  },
+  {
+    "raw_text": "1.99\n80 g\nAH Terra Plantaardige gehakt gebraden"
+  },
+  {
+    "raw_text": "3.19\n150 g\nKies\nLos\n2 Stuks\nAH Tartaar met uitjes"
+  },
+  {
+    "raw_text": "2.49\n100 g\nAH Salami milano"
+  },
+  {
+    "raw_text": "2.29\nca. 120 g\nStreeckgenoten Gelderse kookworst"
+  },
+  {
+    "raw_text": "2.99\nca. 120 g\nAH Gerookt ontbijtspek"
+  },
+  {
+    "raw_text": "2.49\n80 g\nAH Terra Plantaardige mortadella met pistache"
+  },
+  {
+    "raw_text": "3.59\nca. 120 g\nStreeckgenoten Pepercervelaat"
+  },
+  {
+    "raw_text": "4.59\nca. 235 g\nAH Grillworst kip"
+  },
+  {
+    "raw_text": "2.99\nca. 110 g\nStreeckgenoten Katenspek"
+  },
+  {
+    "raw_text": "2.79\n125 g\nWahid Kipfilet chilipeper"
+  },
+  {
+    "raw_text": "2.59\nca. 120 g\nStreeckgenoten Hausmacher"
+  },
+  {
+    "raw_text": "3.79\nca. 100 g\nStreeckgenoten Biologische slagers achterham"
+  },
+  {
+    "raw_text": "1.49\n75 g\nAH Cervelaat"
+  },
+  {
+    "raw_text": "2.59\n0,15 kg\nAH Palingworst"
+  },
+  {
+    "raw_text": "2.59\nca. 125 g\nAH Kipgrillworst pikant"
+  },
+  {
+    "raw_text": "1.99\n80 g\nAH Terra Plantaardige boterhamworst"
+  },
+  {
+    "raw_text": "1.89\n150 g\nAH Berliner leverworst"
+  },
+  {
+    "raw_text": "3.29\n2.41\nca. 110 g\n100 GRAM VOOR 2.19\nAH Roasted kipfilet BBQ\n\nvandaag"
+  },
+  {
+    "raw_text": "1.99\n150 g\nWahid Smeerleverworst"
+  },
+  {
+    "raw_text": "4.49\nca. 270 g\nAH Ongekookt zuurkool spek stukje"
+  },
+  {
+    "raw_text": "2.19\n1.53\n70 g\n100 GRAM VOOR 2.19\nAH Scharrel kipfilet kleinverpakking\n\nvandaag"
+  },
+  {
+    "raw_text": "2.69\n100 g\nVegetarische Slager Spaanse worst"
+  },
+  {
+    "raw_text": "3.99\n100 g\nAH Excellent Antipasto"
+  },
+  {
+    "raw_text": "3.99\n200 g\nKaddour Kip grillworst madame jeanette"
+  },
+  {
+    "raw_text": "2.79\nca. 100 g\nAH Pain d'ardenne"
+  },
+  {
+    "raw_text": "3.39\nca. 110 g\nStreeckgenoten Slagers achterham"
+  },
+  {
+    "raw_text": "1.49\n0,13 kg\nAH Boterhamworst minder vet"
+  },
+  {
+    "raw_text": "2.69\nca. 100 g\nAH Casselerrib"
+  },
+  {
+    "raw_text": "2.69\nca. 120 g\nStreeckgenoten Grillworst kaas"
+  },
+  {
+    "raw_text": "3.49\n80 g\nAH Excellent Salami met zomertruffel"
+  },
+  {
+    "raw_text": "2.69\nca. 125 g\nAH Grillworst sweet chili"
+  },
+  {
+    "raw_text": "2.99\n250 g\nJosef Dettelbacher Gegrild gehakt"
+  },
+  {
+    "raw_text": "1.59\n280 g\nChatar Pikant"
+  },
+  {
+    "raw_text": "2.19\n230 g\nKips Slagersleverworst"
+  },
+  {
+    "raw_text": "2.99\n150 g\nAH Filet americain truffel"
+  },
+  {
+    "raw_text": "1.99\n80 g\nAH Terra Plantaardige kipfilet met tuinkruiden"
+  },
+  {
+    "raw_text": "3.59\n2.74\nca. 125 g\n100 GRAM VOOR 2.19\nAH Scharrel kipfilet jalapeño\n\nvandaag"
+  },
+  {
+    "raw_text": "3.19\nca. 140 g\nAH Biologisch Boerenpaté"
+  },
+  {
+    "raw_text": "1.59\n75 g\nAH Achterham"
+  },
+  {
+    "raw_text": "2.19\n55 g\n3 VOOR 6.00\nAH Excellent Spianata picante\n\nvandaag"
+  },
+  {
+    "raw_text": "2.19\n100 g\nAH Tongenworst"
+  },
+  {
+    "raw_text": "2.99\n0,13 kg\nAH Scharrel kipfilet pikant minder vet"
+  },
+  {
+    "raw_text": "2.69\nca. 205 g\nAH Gelderse gekookte worst"
+  },
+  {
+    "raw_text": "2.49\nca. 120 g\nStreeckgenoten Haagse berliner"
+  },
+  {
+    "raw_text": "2.49\n150 g\nAH Terra Plantaardige filet americain peper"
+  },
+  {
+    "raw_text": "3.49\nca. 100 g\nStreeckgenoten Cornedbeef wapenaar"
+  },
+  {
+    "raw_text": "2.49\n100 g\nMarhaba Magere kalkoen salami"
+  },
+  {
+    "raw_text": "3.69\n500 g\nKroon Fijne leverworst"
+  },
+  {
+    "raw_text": "2.19\n225 g\nAH Leverworst"
+  },
+  {
+    "raw_text": "3.99\nca. 240 g\nAH Gerookt ontbijtspek stukje"
+  },
+  {
+    "raw_text": "2.49\nca. 120 g\nStreeckgenoten Limburgse gebakken pastei"
+  },
+  {
+    "raw_text": "1.99\n100 g\nAH Terra Plantaardige spekreepjes"
+  },
+  {
+    "raw_text": "2.69\n0,13 kg\nAH Achterham minder zout"
+  },
+  {
+    "raw_text": "2.69\n100 g\nMarhaba Kalkoen pepersalami"
+  },
+  {
+    "raw_text": "1.99\n80 g\nAH Terra Plantaardige grillworst pikant"
+  },
+  {
+    "raw_text": "2.99\nca. 110 g\nAH Biologisch Gelderse gekookte worst"
+  },
+  {
+    "raw_text": "1.99\n250 g\nKroon Fijne leverworst"
+  },
+  {
+    "raw_text": "2.39\n80 g\nGarden Gourmet Kipfilet"
+  },
+  {
+    "raw_text": "4.79\n340 g\nStreeckgenoten Limburgse gehaktballen"
+  },
+  {
+    "raw_text": "0.99\n120 g\nAH Saksische leverworst"
+  },
+  {
+    "raw_text": "1.99\n80 g\nAH Terra Plantaardige pepersalami"
+  },
+  {
+    "raw_text": "2.19\n60 g\n3 VOOR 6.00\nAH Excellent Fuet manchego\n\nvandaag"
+  },
+  {
+    "raw_text": "4.39\n200 g\nEfepasa Guven gesneden knoflookworst"
+  },
+  {
+    "raw_text": "3.89\nca. 100 g\nAH Biologisch Rauwe ham"
+  },
+  {
+    "raw_text": "2.49\n250 g\nZandvliet Gelderse gekookte worst"
+  },
+  {
+    "raw_text": "3.19\nca. 120 g\nStreeckgenoten Shoarmarollade"
+  }
+]
