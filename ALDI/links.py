@@ -8,7 +8,7 @@ vers_afgebakken_brood = "https://www.aldi.nl/producten/brood-bakkerij-bakken/ver
 thuis_afbakbrood = "https://www.aldi.nl/producten/brood-bakkerij-bakken/thuis-afbakbrood.html"
 beschuit_toast_crackers = "https://www.aldi.nl/producten/brood-bakkerij-bakken/beschuit-toast-crackers.html"
 zelf_bakken = "https://www.aldi.nl/producten/brood-bakkerij-bakken/zelf-bakken.html"
-
+#break here
 ontbijtgranen_muesli = "https://www.aldi.nl/producten/ontbijtgranen-broodbeleg-en-tussendoortjes/ontbijtgranen-muesli.html"
 tussendoortjes = "https://www.aldi.nl/producten/ontbijtgranen-broodbeleg-en-tussendoortjes/tussendoortjes.html"
 broodbeleg = "https://www.aldi.nl/producten/ontbijtgranen-broodbeleg-en-tussendoortjes/broodbeleg.html"
@@ -53,7 +53,6 @@ vleesconserven = "https://www.aldi.nl/producten/soepen-sauzen-smaakmakers-conser
 visconserven = "https://www.aldi.nl/producten/soepen-sauzen-smaakmakers-conserven/visconserven.html"
 olie_frituur = "https://www.aldi.nl/producten/soepen-sauzen-smaakmakers-conserven/olie-frituur.html"
 kruiden_aromas_azijn = "https://www.aldi.nl/producten/soepen-sauzen-smaakmakers-conserven/kruiden-aroma-s-azijn.html"
-
 # Add the remaining links to the dictionary
 bier = "https://www.aldi.nl/producten/bier-en-likeuren/Bier.html"
 mixdranken = "https://www.aldi.nl/producten/bier-en-likeuren/Mixdranken-aperitieven-en-likeuren.html"
