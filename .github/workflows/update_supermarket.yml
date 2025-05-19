@@ -47,7 +47,7 @@ jobs:
 
           # Clone target repo
           git clone $TARGET_REPO target-repo
-
+          pwd
           # Copy supermarket_merged.json to target repo
           cp supermarket_merged.json target-repo/
 
