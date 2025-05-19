@@ -46,7 +46,7 @@ def main():
         success = run_script(script['script_path'])
         
         if not success:
-            print(f"⏩ Skipping {script['name']} due to script failure.")
+            print(f"⏩ Skipping {script['store_name']} due to script failure.")
             continue
 
         # 2. Load the generated JSON (from the specified path)
