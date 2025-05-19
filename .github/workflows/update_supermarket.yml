@@ -1,10 +1,10 @@
 name: Update Supermarket JSON Daily
 
 on:
-  push:
-  # schedule:
-  #   - cron: '0 0 * * *'  # 12 AM UTC daily
-  # workflow_dispatch:      # Manual trigger option
+  # push:
+  schedule:
+    - cron: '0 0 * * *'  # 12 AM UTC daily
+  workflow_dispatch:      # Manual trigger option
 
 jobs:
   generate-and-push:
