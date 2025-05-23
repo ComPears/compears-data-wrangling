@@ -1,6 +1,6 @@
 Clone the project 
 ```
-git clone  [https://github.com/Topperize/VTU.git](https://github.com/ComPears/compears-data-wrangling.git)
+git clone https://github.com/ComPears/compears-data-wrangling.git
 ```
 
 Enter the project directory 
