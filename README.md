@@ -1,12 +1,12 @@
 Clone the project 
 ```
-git clone  https://github.com/Topperize/VTU.git
+git clone  [https://github.com/Topperize/VTU.git](https://github.com/ComPears/compears-data-wrangling.git)
 ```
 
 Enter the project directory 
 
 ```
-cd VTU
+cd compears-data-wrangling
 ```
 
 Create a virtual env
