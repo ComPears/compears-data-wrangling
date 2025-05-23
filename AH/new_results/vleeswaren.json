@@ -20,7 +20,7 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239393530353334?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Kips Vega paté vol en smeuig\n2.49\n125 g",
+    "raw_text": "Kips Vega paté vol en smeuig\n\n25% kortingvanaf maandag\n\n2.49\n1.87\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313038353138?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
@@ -36,8 +36,12 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313930313639?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Yorkham\n3.39\nca. 110 g",
+    "raw_text": "AH Yorkham\n\n25% KORTINGvanaf maandag\n\n3.39\n2.54\nca. 110 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393233353331?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Gerookte slagersachterham\n3.39\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393233353437?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Scharrel roasted kipfilet\n\n100 GRAM VOOR 2.19\n\n3.39\n2.41\nca. 110 g",
@@ -46,10 +50,6 @@
   {
     "raw_text": "AH Scharrel flinterdunne kipfilet\n2.69\n100 g\nKies\nLos\n2 Stuks",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393232353939?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Gerookte slagersachterham\n3.39\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393233353437?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Flinterdunne achterham\n1.99\n100 g\nKies\nLos\n2 Stuks",
@@ -68,12 +68,12 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313433323539?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Gelderse gekookte worst\n1.99\n130 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343739?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Gegrilde beenham\n\n100 GRAM VOOR 2.19\n\n3.39\n2.41\nca. 110 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393233353334?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Gelderse gekookte worst\n1.99\n130 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343739?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Kalkoenfilet\n2.99\n150 g\nKies\nLos\n2 Stuks",
@@ -100,20 +100,20 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239393233353337?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Ontbijtspek\n3.39\n150 g\nKies\nLos\n2 Stuks",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393132353539?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Scharrel kipfilet minder vet\n2.99\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313935363238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Greenfields Rosbief\n3.54\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313639363736?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Ontbijtspek\n3.39\n150 g\nKies\nLos\n2 Stuks",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393132353539?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Flinterdunne gegrilde beenham\n\n100 GRAM VOOR 2.19\n\n3.08\n2.19\nca. 100 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393331333336?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Greenfields Rosbief\n3.54\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313639363736?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Grillworst kip\n2.70\nca. 130 g",
@@ -128,7 +128,7 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313037383232?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Gegrilde yorkham\n3.39\nca. 110 g",
+    "raw_text": "AH Gegrilde yorkham\n\n25% KORTINGvanaf maandag\n\n3.39\n2.54\nca. 110 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393233353330?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
@@ -148,19 +148,19 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435353237?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Biologisch Ontbijtspek\n2.99\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343531?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Grillworst met zaanlanderkaas\n\n10% KORTINGvanaf maandag\n\n2.70\n2.43\nca. 130 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313539393033?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Grillworst met zaanlanderkaas\n2.70\nca. 130 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313539393033?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Biologisch Ontbijtspek\n2.99\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343531?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Achterham grootverpakking\n3.19\n250 g\nKies\nLos\n3 Stuks",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393530353838?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Kips Vega smeerworst kleintje\n2.19\n6 x 20 g",
+    "raw_text": "Kips Vega smeerworst kleintje\n\n25% kortingvanaf maandag\n\n2.19\n1.64\n6 x 20 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313037353733?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
@@ -196,20 +196,20 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313238363930?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Grillworst naturel\n2.69\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373030?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Biologisch Achterham\n3.69\nca. 100 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435353336?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Greenfields Runderrookvlees\n3.59\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393037393033?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Grillworst naturel\n2.69\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373030?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Wahid Kipboterhamworst\n1.99\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393832363032?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Greenfields Runderrookvlees\n3.59\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393037393033?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Ardenner boterhamworst\n2.39\n150 g",
@@ -228,48 +228,52 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239373737313837?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Scharrel kipfilet\n\n100 GRAM VOOR 2.19\n\n4.99\n4.16\nca. 190 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383138?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Biologisch Runderrookvlees\n3.69\nca. 100 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435343633?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Goudsalami\n2.69\nca. 105 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343533?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Pannenkoekspek\n2.29\n100 g\nKies\nLos\n3 Stuks",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393132353430?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Scharrel kipfilet\n\n100 GRAM VOOR 2.19\n\n4.99\n4.16\nca. 190 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383138?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Goudsalami\n2.62\nca. 105 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343533?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Cranberrypate\n\n2 voor 2.50\n\n1.59\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393038353734?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Zandvliet Gelderse gekookte worst\n3.99\n500 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373437393037?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Greenfields Carpaccio\n4.19\n123 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303538363538?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Ontbijtspek\n1.69\n85 g\nKies\nLos\n2 Stuks",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313933313030?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Zandvliet Gelderse gekookte worst\n3.99\n500 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373437393037?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Terra Plantaardige grillworst\n1.99\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393738363135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Ontbijtspek\n1.69\n85 g\nKies\nLos\n2 Stuks",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313933313030?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Biologisch Salami\n2.99\nca. 110 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435343731?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Terra Plantaardige grillworst\n1.99\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393738363135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Excellent Jamon serrano\n\n3 voor 6.00\n\n2.19\n50 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239373735393336?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Roasted gehakt\n2.89\nca. 115 g\nKies\nLos\n2 Stuks",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393437353737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Wahid Kalkoenham\n2.89\n125 g",
@@ -284,15 +288,11 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313933383830?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Roasted gehakt\n2.89\nca. 115 g\nKies\nLos\n2 Stuks",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393437353737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Kips Vega smeerworst tuinkruiden\n2.49\n125 g",
+    "raw_text": "Kips Vega smeerworst tuinkruiden\n\n25% kortingvanaf maandag\n\n2.49\n1.87\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313037353732?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Coburgerham\n2.99\nca. 100 g",
+    "raw_text": "AH Coburgerham\n\n10% KORTINGvanaf maandag\n\n2.99\n2.69\nca. 100 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435353136?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
@@ -312,16 +312,12 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239393037393334?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Marhaba Rundersalami met kip en kalkoen\n2.49\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313834323831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Serrano ham\n3.89\nca. 105 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313237373539?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Filet americain\n3.29\n140 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545237303539303936?revLabel=4&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Marhaba Rundersalami met kip en kalkoen\n2.49\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313834323831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Ossenworst\n3.39\n3 x 70 g",
@@ -336,20 +332,24 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435353332?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Goudsalami grootverpakking\n2.99\n250 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313732343937?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Biologisch Rosbief\n3.89\nca. 100 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393037323432?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Uitgebakken ontbijtspek\n3.19\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313838303337?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Goudsalami grootverpakking\n2.99\n250 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313732343937?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Saksische smeerleverworst\n2.69\n200 g",
+    "raw_text": "Streeckgenoten Filet americain\n3.29\n140 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545237303539303936?revLabel=4&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Saksische smeerleverworst\n\n10% KORTINGvanaf maandag\n\n2.69\n2.42\n200 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383435?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Uitgebakken ontbijtspek\n3.19\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313838303337?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Excellent Spianata romana\n2.99\n100 g",
@@ -360,16 +360,16 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383133?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Ambachtelijk gehakt\n2.59\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313637333933?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Kips Magere crème paté\n2.19\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313037353734?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Excellent Mortadella\n2.99\n100 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313233333634?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Ambachtelijk gehakt\n2.59\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313637333933?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Saksische leverworst\n0.99\n2 x 150 g",
@@ -384,12 +384,12 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239393132353438?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Greenfields Runderrookvlees kleinverpakking\n2.19\nca. 60 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393038353434?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Gelderse gekookte worst grootverpakkingt\n2.59\n250 g\nKies\nLos\n3 Stuks",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393530353837?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Greenfields Runderrookvlees kleinverpakking\n2.19\nca. 60 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393038353434?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Kips Roompaté\n2.19\n125 g",
@@ -404,20 +404,20 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313038353137?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Gerookte Gelderse gekookte worst\n2.69\n300 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239383933333037?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Biologisch Grillworst\n2.99\nca. 115 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Kipgrillworst\n3.49\n350 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393132353731?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Biologisch Grillworst\n2.99\nca. 115 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Gerookte Gelderse gekookte worst\n2.69\n300 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239383933333037?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Rookvlees\n3.59\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373130353531?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Prosciutto di parma\n3.49\n90 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313834313734?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Groene peper cremepaté\n\n2 voor 2.50\n\n1.59\n80 g",
@@ -428,16 +428,20 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313033363131?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Prosciutto di parma\n3.49\n90 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313834313734?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Streeckgenoten Ovengebakken kipfilet\n3.89\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239383538343733?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Vegetarische Slager Vegan petit filet americain\n2.59\n5 x 24 g",
+    "raw_text": "Vegetarische Slager Vegan petit filet americain\n\n25% kortingvanaf maandag\n\n2.59\n1.94\n5 x 24 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393532363938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Rookvlees\n3.59\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373130353531?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Biologisch Kipfilet flinterdun\n3.49\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303637303732?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Filet americain peper\n3.19\n150 g",
@@ -448,16 +452,16 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239393038353531?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Biologisch Kipfilet flinterdun\n3.49\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303637303732?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Fricandeau\n3.19\nca. 110 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313437303737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Streeckgenoten Limburgse achterham\n3.39\nca. 110 g\nKies\nLos\n2 Stuks",
     "image": "https://static.ah.nl/dam/product/AHI_43545239373130373938?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Scharrel kipfilet provencaalse kruiden\n\n100 GRAM VOOR 2.19\n\n3.59\n2.74\nca. 125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313136303331?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Cervelaat grootverpakking\n3.19\n250 g\nKies\nLos\n3 Stuks",
@@ -468,10 +472,6 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239373137383534?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Scharrel kipfilet provencaalse kruiden\n\n100 GRAM VOOR 2.19\n\n3.59\n2.74\nca. 125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313136303331?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Scharrel kipfilet pittig\n2.99\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313931393733?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
@@ -480,11 +480,11 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313830343230?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Vegetarische Slager Boterhamworst\n1.89\n80 g",
+    "raw_text": "Vegetarische Slager Boterhamworst\n\n25% kortingvanaf maandag\n\n1.89\n1.42\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303730353339?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Keulse smeerleverworst\n2.69\n200 g",
+    "raw_text": "AH Keulse smeerleverworst\n\n10% KORTINGvanaf maandag\n\n2.69\n2.42\n200 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383439?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
@@ -496,6 +496,10 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313433323631?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "Vegetarische Slager Kipworst\n\n25% kortingvanaf maandag\n\n2.69\n2.02\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239353639383937?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Wijncervelaat\n2.69\n150 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393132353537?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
@@ -504,52 +508,44 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313837393432?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Vegetarische Slager Kipworst\n2.69\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239353639383937?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Excellent Spianata romana\n\n3 voor 6.00\n\n2.19\n55 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303939353534?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Rosbief\n3.99\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303634333138?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Streeckgenoten Kookworst\n2.39\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239373332303439?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Garden Gourmet Smeerworst\n2.39\n120 g\nKies\nLos\n7 Stuks",
+    "raw_text": "Garden Gourmet Smeerworst\n\n25% kortingvanaf maandag\n\n2.39\n1.79\n120 g\nKies\nLos\n7 Stuks",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313531313239?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Kalkoenborstfilet\n3.49\nca. 125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Ikbal Kipboterhamworst paprika\n1.89\n200 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393832363131?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Rosbief\n3.99\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303634333138?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Grillworst jalapeno Zaanlander kaas\n2.69\nca. 110 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313539383937?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Kalkoenborstfilet\n3.49\nca. 125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Slagers gekookte worst\n1.99\n120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303932373235?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Cremepate\n1.49\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313839393037?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Ikbal Kipboterhamworst paprika\n1.89\n200 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393832363131?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Terra Plantaardige filet americain\n2.49\n150 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313034373937?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Ardenner paté\n\n2 voor 2.50\n\n1.59\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393038353935?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Cremepate\n1.49\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313839393037?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Jamon serrano\n3.19\n100 g\nKies\nLos\n3 Stuks",
@@ -560,16 +556,20 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313838373031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Garden Gourmet Smeerworst tuinkruiden\n2.39\n120 g\nKies\nLos\n7 Stuks",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313531313235?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Kips Smeerleverworst kleintje mager\n2.39\n120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313037353031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Kips Vega filet americain\n2.49\n125 g\nKies\nLos\n5 Stuks",
+    "raw_text": "Kips Vega filet americain\n\n25% kortingvanaf maandag\n\n2.49\n1.87\n125 g\nKies\nLos\n5 Stuks",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313037373434?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Kips Smeerleverworst kleintje mager\n2.39\n120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313037353031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Garden Gourmet Smeerworst tuinkruiden\n\n25% kortingvanaf maandag\n\n2.39\n1.79\n120 g\nKies\nLos\n7 Stuks",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313531313235?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Ardenner paté\n\n2 voor 2.50\n\n1.59\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393038353935?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Pepperoni\n1.99\n100 g",
@@ -580,16 +580,16 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239373135313937?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Kipcervelaat\n3.29\nca. 115 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383130?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Chorizo\n1.69\n100 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313935383939?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Yorkham\n2.99\n150 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313838333636?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Kipcervelaat\n3.29\nca. 115 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383130?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Pepercervelaat\n2.79\n150 g",
@@ -608,16 +608,16 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313835373130?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Cervelaat speciaal\n3.19\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373135373632?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Filet americain ei en ui\n3.19\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393434323032?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Corned beef\n3.19\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435343734?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Filet americain ei en ui\n3.19\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393434323032?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Cervelaat speciaal\n3.19\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373135373632?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Leverkaas\n1.99\n120 g",
@@ -632,27 +632,27 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303634343332?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Grillworst kaas\n1.99\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303234333431?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Coburger schinken\n2.69\n150 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313931393833?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Pain de provence\n2.19\n110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303932373234?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Grillworst zaanlanderkaas\n4.69\nca. 235 g",
+    "raw_text": "AH Grillworst zaanlanderkaas\n\n10% KORTINGvanaf maandag\n\n4.69\n4.22\nca. 235 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393738353034?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Grillworst kaas\n1.99\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303234333431?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Schwarzwalder schinken\n2.79\nca. 80 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303535303033?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Grillworst\n4.49\nca. 235 g",
+    "raw_text": "AH Pain de provence\n2.19\n110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303932373234?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Grillworst\n\n10% KORTINGvanaf maandag\n\n4.49\n4.04\nca. 235 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435343436?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
@@ -660,8 +660,8 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313732353330?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Boterhamworst klein\n2.39\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373138333438?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Wahid Kipgrillworst\n2.69\n125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313533303131?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Zure zult\n1.99\n120 g",
@@ -672,72 +672,68 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303638383836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Wahid Kipgrillworst\n2.69\n125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313533303131?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Gerookte ribeye\n3.59\nca. 90 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313032363434?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Flinterdunne goudsalami\n1.99\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393132363132?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Boterhamworst klein\n2.39\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373138333438?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Biologisch Kalkoenfilet\n3.39\nca. 100 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303636343332?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Cranberry paté\n\n10% KORTING\n\n2.99\n2.69\nca. 170 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393038353637?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Flinterdunne goudsalami\n1.99\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393132363132?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Excellent Salame cacciatore\n\n3 voor 6.00\n\n2.19\n50 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239373736303134?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Palingworst\n2.39\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303135383039?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Gerookte ribeye\n3.59\nca. 90 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313032363434?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Biologisch Katenspek\n3.29\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393133373334?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Cranberry paté\n\n10% KORTING\n\n2.99\n2.69\nca. 170 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393038353637?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Pizza salami\n2.69\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393132353530?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Biologische rundersalami\n3.49\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313430363033?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Schwarzwalder schinken\n2.99\n200 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313834353130?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Excellent Salame milano\n3.29\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373635323632?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Biologisch Katenspek\n3.29\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393133373334?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Filet americain carpaccio\n3.19\n150 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313433323637?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Scharrel kipfilet flinterdun minder vet\n2.99\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313837373638?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Excellent Salame milano\n3.29\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373635323632?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Grillworst pikant\n2.79\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373936?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Schwarzwalder schinken\n2.99\n200 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313834353130?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Palingworst\n2.39\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303135383039?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Biologische rundersalami\n3.49\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313430363033?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Scharrel kipfilet flinterdun minder vet\n2.99\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313837373638?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Grillworst saté\n2.69\nca. 125 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313539383936?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Fricandeau\n3.39\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303838383631?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Grillworst pikant\n2.79\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373936?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Excellent Hongaarse salami\n2.99\n80 g",
@@ -748,10 +744,6 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239393038353933?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Scharrel kipfilet bieslook\n\n100 GRAM VOOR 2.19\n\n3.59\n2.74\nca. 125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383137?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Gehakt cordon bleu\n2.99\nca. 110 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435353339?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
@@ -760,55 +752,67 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313433333735?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Koempelpastei\n2.49\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373137373931?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Leverworst\n1.19\n250 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313935303838?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Rundersalami\n3.29\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393037383934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Fricandeau\n3.39\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303838383631?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Kalkoensalami\n2.99\n150 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313836323634?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Nostalgische gerookte ossenworst\n3.79\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313637343238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Kipgrillworst met Zaanlander kaas\n2.69\nca. 125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313539383930?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Scharrel kipfilet bieslook\n\n100 GRAM VOOR 2.19\n\n3.59\n2.74\nca. 125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383137?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Leverworst\n1.19\n250 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393132353532?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Roasted Indisch spek\n2.99\nca. 100 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393439303939?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Pikante kipgrillworst kaas\n2.69\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303636353233?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Ossenworst\n\n10% KORTINGvanaf maandag\n\n3.99\n3.59\nca. 200 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343537?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Kips Vega tuinkruiden & bospaddenstoelen paté\n2.59\n125 g",
+    "raw_text": "Kips Vega tuinkruiden & bospaddenstoelen paté\n\n25% kortingvanaf maandag\n\n2.59\n1.94\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313037353539?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Kipgrillworst met Zaanlander kaas\n2.69\nca. 125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313539383930?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Ossenworst\n3.99\nca. 200 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343537?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Koempelpastei\n2.49\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373137373931?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Terra Plantaardige ham\n1.99\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303832303830?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Pancetta\n2.89\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393132373135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Nostalgische gerookte ossenworst\n3.79\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313637343238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Roasted bacon\n3.49\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393437353636?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Boerenmetworst\n2.89\nca. 120 g",
+    "raw_text": "Streeckgenoten Pikante kipgrillworst kaas\n2.69\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303636353233?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Boerenmetworst\n\n10% KORTINGvanaf maandag\n\n2.89\n2.60\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393037393135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
@@ -816,52 +820,52 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313037353530?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Pancetta\n2.89\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393132373135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Gehakt met ui\n2.99\nca. 125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393037393237?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Roasted kipfilet BBQ\n\n100 GRAM VOOR 2.19\n\n3.39\n2.41\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313635333934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Scharrel kipfilet\n1.99\n75 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313833363233?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Marhaba Kalkoen bacon\n2.49\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313033363135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Mosterdgehakt\n2.89\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239383938343137?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Grillworst\n2.69\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373633?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Gehakt met ui\n\n10% KORTINGvanaf maandag\n\n2.99\n2.69\nca. 125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393037393237?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Greenfields Carpaccio honing mosterd\n4.19\n121 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313635333938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Kips Vega paté mediterraans\n2.49\n125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313037373438?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Marhaba Kalkoen bacon\n2.49\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313033363135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Katenspek\n3.19\nca. 125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239363339333736?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Vegetarische Slager Vegan petit pate\n2.69\n5 x 24 g",
+    "raw_text": "Vegetarische Slager Vegan petit pate\n\n25% kortingvanaf maandag\n\n2.69\n2.02\n5 x 24 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393532363936?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Kips Vega paté mediterraans\n\n25% kortingvanaf maandag\n\n2.49\n1.87\n125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313037373438?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Biologisch Salami milano\n2.99\nca. 70 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393038353937?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Pastrami\n3.79\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373837?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Mosterdgehakt\n2.89\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239383938343137?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Katenspek\n3.19\nca. 125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239363339333736?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Pepercervelaat\n\n10% KORTING\n\n3.19\n2.87\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393037383935?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Grillworst\n2.69\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373633?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Bakbacon\n2.99\nca. 150 g\nKies\nLos\n3 Stuks",
@@ -876,23 +880,19 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239393038353735?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Roasted kipfilet BBQ\n\n100 GRAM VOOR 2.19\n\n3.39\n2.41\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313635333934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Pastrami\n3.79\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373837?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Excellent Pancetta\n3.29\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239373639323331?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Pepercervelaat\n\n10% KORTING\n\n3.19\n2.87\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393037383935?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Excellent Yorkham asperge\n\n25% KORTINGvanaf maandag\n\n3.49\n2.61\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313633333630?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Excellent Fuet catalana\n\n3 voor 6.00\n\n2.19\n60 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373736303135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Grillworst kip\n4.59\nca. 235 g",
+    "raw_text": "AH Grillworst kip\n\n10% KORTINGvanaf maandag\n\n4.59\n4.13\nca. 235 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435343538?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
@@ -900,8 +900,16 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313832353435?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Excellent Yorkham asperge\n3.49\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313633333630?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Excellent Fuet catalana\n\n3 voor 6.00\n\n2.19\n60 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373736303135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Terra Plantaardige mortadella met pistache\n2.49\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303135323238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Terra Plantaardige gehakt gebraden\n1.99\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303830353234?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Varkenslever\n2.19\n120 g",
@@ -912,24 +920,8 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239373130373835?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Terra Plantaardige gehakt gebraden\n1.99\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303830353234?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Terra Plantaardige mortadella met pistache\n2.49\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303135323238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Gerookt ontbijtspek\n2.99\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239363336383737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Hausmacher\n2.59\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373136353038?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Biologische slagers achterham\n3.79\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239383537393933?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Tartaar met uitjes\n3.19\n150 g\nKies\nLos\n2 Stuks",
@@ -940,12 +932,16 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313539383938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Pepercervelaat\n3.59\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239383832353731?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Hausmacher\n2.59\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373136353038?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Wahid Kipfilet chilipeper\n2.79\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393832363636?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Biologische slagers achterham\n3.79\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239383537393933?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Terra Plantaardige boterhamworst\n1.99\n80 g",
@@ -956,24 +952,16 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313930303130?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "Streeckgenoten Pepercervelaat\n3.59\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239383832353731?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Scharrel kipfilet kleinverpakking\n\n100 GRAM VOOR 2.19\n\n2.19\n1.53\n70 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303939363133?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Katenspek\n2.99\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373138313134?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Berliner leverworst\n1.89\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393132353538?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Cervelaat\n1.49\n75 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393738373031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Slagers achterham\n3.39\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373631?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Pain d'ardenne\n\n10% KORTING\n\n2.79\n2.51\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393533323931?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Boterhamworst minder vet\n1.49\n0,13 kg",
@@ -984,36 +972,40 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313539383932?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Vegetarische Slager Spaanse worst\n2.69\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393532343534?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Biologisch Gelderse gekookte worst\n2.99\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313736363938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Wahid Smeerleverworst\n1.99\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303539373132?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Pain d'ardenne\n\n10% KORTING\n\n2.79\n2.51\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393533323931?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Excellent Antipasto\n3.99\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239383738333733?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Berliner leverworst\n1.89\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393132353538?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Terra Plantaardige spekreepjes\n1.99\n100 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393536393336?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Biologisch Gelderse gekookte worst\n2.99\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313736363938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Vegetarische Slager Spaanse worst\n\n25% kortingvanaf maandag\n\n2.69\n2.02\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393532343534?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Slagers achterham\n3.39\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373631?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "Kaddour Kip grillworst madame jeanette\n4.19\n200 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313935333438?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Scharrel gelderse kipworst\n2.69\n125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393132373333?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Cervelaat\n1.49\n75 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393738373031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Wahid Smeerleverworst\n1.99\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303539373132?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Excellent Antipasto\n3.99\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239383738333733?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Filet americain truffel\n3.19\n150 g",
@@ -1024,32 +1016,36 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303337393532?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Scharrel kipfilet jalapeño\n\n100 GRAM VOOR 2.19\n\n3.59\n2.74\nca. 125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313133343330?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Grillworst kaas\n2.69\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313035333038?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Marhaba Magere kalkoen salami\n2.49\n100 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313933313331?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Casselerrib\n2.69\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239363532333230?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Scharrel gelderse kipworst\n2.69\n125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393132373333?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Excellent Salami met zomertruffel\n3.49\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303239363233?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Haagse berliner\n2.49\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373231333136?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Casselerrib\n2.69\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239363532333230?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Katenspek\n2.99\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373138313134?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Josef Dettelbacher Gegrild gehakt\n2.99\n250 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239373437393036?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Haagse berliner\n2.49\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373231333136?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Grillworst kaas\n2.69\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313035333038?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Achterham\n1.59\n75 g",
@@ -1060,16 +1056,24 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313837313439?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Scharrel kipfilet jalapeño\n\n100 GRAM VOOR 2.19\n\n3.59\n2.74\nca. 125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313133343330?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Achterham minder zout\n2.69\n0,13 kg",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313934323838?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Gelderse gekookte worst\n\n10% KORTINGvanaf maandag\n\n2.69\n2.42\nca. 205 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343437?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "Kips Slagersleverworst\n2.19\n230 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313039363737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Gelderse gekookte worst\n2.69\nca. 205 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393435343437?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Cornedbeef wapenaar\n3.49\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373135323339?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Terra Plantaardige filet americain peper\n2.49\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313034373938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Biologisch Boerenpaté\n3.19\nca. 140 g",
@@ -1080,28 +1084,20 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303932373236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Achterham minder zout\n2.69\n0,13 kg",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313934323838?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Excellent Spianata picante\n\n3 voor 6.00\n\n2.19\n55 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303939353934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Leverworst\n\n10% KORTINGvanaf maandag\n\n2.19\n1.97\n225 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383438?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Streeckgenoten Limburgse gebakken pastei\n2.49\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239373130373932?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Excellent Spianata picante\n\n3 voor 6.00\n\n2.19\n55 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303939353934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Terra Plantaardige filet americain peper\n2.49\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313034373938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Chatar Pikant\n1.59\n280 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313838323638?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Leverworst\n2.19\n225 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313135383438?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Kroon Fijne leverworst\n3.69\n500 g",
@@ -1116,20 +1112,20 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313132373234?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Limburgse gehaktballen\n4.79\n340 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373130353438?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Cornedbeef wapenaar\n3.49\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373135323339?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Grillworst kaas mosterd\n2.69\nca. 110 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313539383935?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Shoarmarollade\n3.19\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239383538343634?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Saksische leverworst\n0.99\n120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393435353231?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Saksische leverworst\n0.99\n120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313837313738?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Prosciutto crudo\n\n10% KORTING\n\n3.49\n3.14\nca. 90 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303630313938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Biologisch Rauwe ham\n3.89\nca. 100 g",
@@ -1140,16 +1136,24 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313836343331?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Veluws gebraad\n2.39\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373735?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Uitgebakken ontbijtspek\n2.19\n50 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393030393730?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Terra Plantaardige pepersalami\n1.99\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303830353237?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Uitgebakken ontbijtspek\n2.19\n50 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393030393730?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Shoarmarollade\n3.19\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239383538343634?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Biologisch Boterhamworst\n2.99\nca. 125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313333313533?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Limburgse gehaktballen\n4.79\n340 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373130353438?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Zandvliet Gelderse gekookte worst\n2.49\n250 g",
@@ -1160,44 +1164,32 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303239363238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Biologisch Boterhamworst\n2.99\nca. 125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313333313533?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Excellent Gevulde kipfilet met groene asperge\n3.39\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313535303533?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Runderlever\n2.89\nca. 110 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435343935?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Kalfsfilet met uitjes\n3.19\n150 g\nKies\nLos\n2 Stuks",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303531393832?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Filet d'Ardenne\n3.49\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393533323737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Veluws gebraad\n2.39\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373735?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Efepasa Guven gesneden knoflookworst\n4.39\n200 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313833333033?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Excellent Gevulde kipfilet met groene asperge\n3.39\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313535303533?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Filet d'Ardenne\n3.49\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393533323737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Kaddour Kip grillworst naturel\n4.19\n200 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313930353032?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Prosciutto crudo\n\n10% KORTING\n\n3.49\n3.14\nca. 90 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303630313938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Gerookt ontbijtspek stukje\n3.99\nca. 240 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303937333236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Duitse theeworst\n1.99\n125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313931303337?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Kalfsfilet met uitjes\n3.19\n150 g\nKies\nLos\n2 Stuks",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303531393832?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Excellent Bresaola black angus\n4.69\n80 g",
@@ -1208,80 +1200,72 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239393031313536?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Duitse theeworst\n1.99\n125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313931303337?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Gerookt ontbijtspek stukje\n3.99\nca. 240 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303937333236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Runder gekookte worst\n2.49\nca. 125 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435353338?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Bourgondisch rib\n3.19\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373034?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Gelardeerd runderlever\n2.89\nca. 115 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393435353138?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Garden Gourmet Kipfilet\n2.39\n80 g",
+    "raw_text": "Garden Gourmet Kipfilet\n\n25% kortingvanaf maandag\n\n2.39\n1.79\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313531313330?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Boeren gehaktbal\n3.99\n240 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313230333335?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Ongekookt zuurkool spek stukje\n4.49\nca. 270 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303937333231?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Cremepate cranberry\n1.49\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313838313833?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Koc Sucuk plakjes\n4.39\n200 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313937393037?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Gelardeerd runderlever\n2.89\nca. 115 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393435353138?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Bourgondisch rib\n3.19\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373034?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Cremepate cranberry\n1.49\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313838313833?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Ossenworst plakjes\n2.99\n120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313835323137?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Volendammer ham\n3.39\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303135383139?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Ongekookt zuurkool spek stukje\n4.49\nca. 270 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303937333231?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Zonnatura Vegetarische pate naturel\n4.29\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239353439313530?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Gehaktbroodje\n4.99\n300 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393935333439?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Mosterd spekrollade\n3.69\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303533363030?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Biologisch pikant gehakt\n3.19\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303932323135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Pampeano Corned beef\n3.79\n340 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313934383230?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Amsterdams pekelvlees\n3.39\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373933?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Roasted spek smokey BBQ\n2.99\nca. 100 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313534393930?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Gerookte bacon\n2.99\nca. 105 g\nKies\nLos\n2 Stuks",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393036363330?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Biologisch pikant gehakt\n3.19\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303932323135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Likkepot\n2.19\n150 g\nKies\nLos\n2 Stuks",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303531393834?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Mosterd spekrollade\n3.69\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303533363030?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Boeren gehaktbal\n3.99\n240 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313230333335?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Schouderrollade\n2.79\nca. 125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313433323734?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Marhaba Kalkoen chorizo\n2.39\n80 g",
@@ -1292,104 +1276,112 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303831343436?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Schouderrollade\n2.79\nca. 125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313433323734?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Volendammer ham\n3.39\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303135383139?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Vocking Leverworst\n2.19\n250 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239363137313233?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Amsterdams pekelvlees\n3.39\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373933?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Gehaktbroodje\n4.99\n300 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393935333439?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Gerookte bacon\n2.99\nca. 105 g\nKies\nLos\n2 Stuks",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393036363330?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Chorizo Pamplona\n2.69\nca. 100 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393533323739?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Hausmacher gesneden\n2.49\nca. 130 g\nKies\nLos\n2 Stuks",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393036363239?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Excellent Paté met asperge\n\nNieuw\n\n2.99\nca. 130 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313532333332?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Friese droge worst\n2.99\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373136333239?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Groene peper cremepaté\n\n10% KORTING\n\n2.99\n2.69\nca. 170 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313638333239?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Hausmacher gesneden\n2.49\nca. 130 g\nKies\nLos\n2 Stuks",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393036363239?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Grillworst met Italiaanse kruiden kaas\n2.69\nca. 110 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313539383931?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Likkepot\n2.19\n150 g\nKies\nLos\n2 Stuks",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303531393834?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Vocking Leverworst\n2.19\n250 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239363137313233?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Excellent Prosciutto crudo truffel\n4.19\n90 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303038333136?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Kips Vega snijworst\n2.49\n125 g",
+    "raw_text": "AH Groene peper cremepaté\n\n10% KORTING\n\n2.99\n2.69\nca. 170 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313638333239?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Kips Vega snijworst\n\n25% kortingvanaf maandag\n\n2.49\n1.87\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313037353634?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Marhaba Kalkoenrollade\n2.39\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313836303330?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Terra Plantaardige grillworst stuk\n2.19\n125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303830353236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Friese droge worst\n2.99\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373136333239?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Terra Plantaardige salami\n1.99\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303830353235?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Slagerij bakkertje Vollendammer leverworst\n4.19\n330 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239383530333331?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Terra Plantaardige grillworst stuk\n2.19\n125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303830353236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Marhaba Kalkoenrollade\n2.39\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313836303330?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Biologisch Grillworst kaas\n2.99\nca. 115 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313433333732?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Schouderham\n2.79\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373136323637?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Pastrami New York style\n3.69\nca. 100 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313133353734?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Isla Délice Déliss' hotdog\n2.99\n350 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313537363738?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Boerenleverworst\n1.99\n250 g\nKies\nLos\n3 Stuks",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313930363939?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Slagerij bakkertje Vollendammer leverworst\n4.19\n330 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239383530333331?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Kalfsleverworst\n3.19\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393435343933?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Wahid Filet americain\n3.29\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313937313230?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Gegrilde beenham\n3.79\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303034303433?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Ikbal Rund paprika\n1.89\n200 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393632363335?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Terra Plantaardige grillworst alternatief kaas\n1.99\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393738363235?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Boerenleverworst\n1.99\n250 g\nKies\nLos\n3 Stuks",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393132353632?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Wahid Filet americain\n3.29\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313937313230?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Schouderham\n2.79\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373136323637?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "Streeckgenoten Pepergehakt\n2.99\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313237323631?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Isla Délice Déliss' hotdog\n2.99\n350 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313537363738?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Streeckgenoten Gelderse boterhamworst\n2.39\nca. 120 g",
@@ -1400,36 +1392,44 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303832303235?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Terra Plantaardige bacon\n2.49\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303335333131?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Streeckgenoten Runder gebraden gehakt\n2.89\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313132323834?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Gegrilde beenham\n3.79\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303034303433?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Terra Plantaardige bacon\n2.49\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303335333131?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Streeckgenoten Brabantse boterhamworst\n2.39\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239373136353037?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Grillworst kaas\n4.39\n225 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303638393432?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Ikbal Rund paprika\n1.89\n200 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393632363335?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Limburgse hoofdkaas\n1.99\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313637343239?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Grillworst kaas\n4.39\n225 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303638393432?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Biologisch Filet americain\n2.19\n70 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303630383335?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Varkensrollade\n2.99\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303034383639?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Limburgse hoofdkaas\n1.99\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313637343239?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Garden Gourmet Kipfilet tuinkruiden\n2.39\n80 g",
+    "raw_text": "Garden Gourmet Kipfilet tuinkruiden\n\n25% kortingvanaf maandag\n\n2.39\n1.79\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313531313331?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Egetürk Dilim tavuk sefasi\n2.29\n125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393333333535?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Pekelvlees\n3.39\nca. 110 g",
@@ -1440,8 +1440,12 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239383239343031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Egetürk Dilim tavuk sefasi\n2.29\n125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393333333535?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Varkensrollade\n2.99\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303034383639?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Garden Gourmet Boterhamworst\n\n25% kortingvanaf maandag\n\n2.19\n1.64\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313531303735?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Berliner leverworst\n1.99\n120 g",
@@ -1452,16 +1456,8 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313130363739?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Limb boterhamworstje\n3.69\n250 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373231323936?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Garden Gourmet Boterhamworst\n2.19\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313531303735?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Gebakken ham\n3.59\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313438393135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Excellent Antipasto schotel\n7.99\n200 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313438333231?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Biologisch Leverworst\n3.39\n200 g",
@@ -1472,28 +1468,36 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239373130363938?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Koude schotel\n5.99\n500 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393534363133?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Gebakken ham\n3.59\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313438393135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Excellent Antipasto schotel\n7.99\n200 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313438333231?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Grillworst jalapeno Zaanlander kaas\n\n10% KORTINGvanaf maandag\n\n4.89\n4.40\nca. 235 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303633343736?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Spaanse tapas schotel\n3.19\n90 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303630383431?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Excellent Jamon de cebo de campo Iberico\n4.99\n65 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373830353237?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Koude schotel\n5.99\n500 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393534363133?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Limb boterhamworstje\n3.69\n250 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373231323936?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "Streeckgenoten Fries gebraden gehakt\n2.89\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303034303434?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Grillworst jalapeno Zaanlander kaas\n4.89\nca. 235 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303633343736?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Excellent Jamon de cebo de campo Iberico\n4.99\n65 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373830353237?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Kalfsleverworst\n\n10% KORTINGvanaf maandag\n\n2.69\n2.42\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313132303232?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Zandvliet Runder kookworst\n3.69\n350 g",
@@ -1504,14 +1508,6 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313435323339?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Kalfsleverworst\n2.69\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313132303232?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Grillworst naturel stukje\n4.99\nca. 250 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313234313435?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Kaddour Kip grillworst kaas\n4.19\n200 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313837353135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
@@ -1520,12 +1516,20 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313835343336?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Vegetarische Slager Hamplackjes\n2.69\n100 g",
+    "raw_text": "Streeckgenoten Grillworst naturel stukje\n4.99\nca. 250 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313234313435?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Vegetarische Slager Hamplackjes\n\n25% kortingvanaf maandag\n\n2.69\n2.02\n100 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393336383538?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Kips tuinkruiden pate\n2.19\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313037353439?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Wahid Kalkoenfilet plakjes naturel\n2.99\n125 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303933333932?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Streeckgenoten Vocking leverworst\n2.19\nca. 120 g",
@@ -1536,48 +1540,24 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313438393134?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Biologisch Schwarzwalder\n3.99\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303534393936?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Chatar Rundworst mild\n1.59\n280 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393232333534?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Biologisch Schwarzwalder\n3.99\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303534393936?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Bedford Parmitufo\n4.89\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545237303432393336?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Wahid Kalkoenfilet plakjes naturel\n2.99\n125 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303933333932?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Vocking Leverworst\n3.79\n500 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239363137313232?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Wijncervelaat\n3.19\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393037393236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Zure pastei\n2.49\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373937?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Varkensrollade shoarma\n2.99\nca. 110 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239363834333234?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Tomatensoep met gehaktballetjes\n3.99\n500 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303039303132?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Excellent Chorizo Iberico\n2.99\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303633343837?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Excellent Prosciutto san daniele\n4.69\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303737353034?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Terra Plantaardige filet americain jalapeño\n2.49\n150 g",
@@ -1588,28 +1568,44 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313533303535?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Salami\n2.89\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303034303437?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Wijncervelaat\n3.19\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393037393236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Rundertong\n3.49\nca. 100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393435353139?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Excellent Chorizo Iberico\n2.99\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303633343837?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Merkx Zult\n1.99\n240 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313133373238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Excellent Prosciutto san daniele\n4.69\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303737353034?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Streeckgenoten Aspergesoep met ham\n4.49\n500 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303533353938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Wahid Jalapeño - cheddar worst\n4.99\n320 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303933333836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Merkx Zult\n1.99\n240 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313133373238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Zure pastei\n2.49\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373130373937?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Grillworst minder vet\n1.99\n0,13 kg",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313736363830?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Rundertong\n3.49\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393435353139?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Salami\n2.89\nca. 100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303034303437?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Excellent Tapas Iberico\n4.99\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373635323534?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Streeckgenoten Limburgse boerenpastei\n2.49\nca. 120 g",
@@ -1620,92 +1616,88 @@
     "image": "https://static.ah.nl/dam/product/AHI_43545239373135323034?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Excellent Tapas Iberico\n4.99\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373635323534?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Isla Délice Gerookte kipfilet\n2.39\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313936303330?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Excellent Tapas\n3.69\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373635323535?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Isla Délice Kalkoenham\n2.39\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313435363333?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Excellent Porchetta\n3.19\n100 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239363337353730?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Groningse leverworst fijn\n3.39\n250 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239373137323930?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Achterham smokey BBQ\n3.39\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313733383836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Tomatensoep met gehaktballetjes\n3.99\n500 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303039303132?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Wahid Runderrookvlees\n3.79\n100 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313033363138?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Excellent Porchetta\n3.19\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239363337353730?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Excellent Tapas\n3.69\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373635323535?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Vitello tonnato\n4.99\n130 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393335353835?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Paté met zwarte knoflook\n2.99\nca. 130 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303534363836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Wahid Jalapeño - cheddar worst\n4.99\n320 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303933333836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Kipgrillworst sambal\n5.21\nca. 235 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313133323135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Achterham smokey BBQ\n3.39\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313733383836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Isla Délice Kipfilet\n2.99\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313933303235?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Groningse leverworst fijn\n3.39\n250 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239373137323930?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Terra Plantaardige groene peper worst\n1.99\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303337393530?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "AH Paté met zwarte knoflook\n2.99\nca. 130 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303534363836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Terra Plantaardige paté truffelsmaak\n1.99\n125 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303339333031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Kipgrillworst sambal\n5.21\nca. 235 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313133323135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Isla Délice Gerookte kipfilet\n2.39\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313936303330?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Isla Délice Kalkoenham\n2.39\n100 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313435363333?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Spianata romana\n2.39\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313837363339?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Truffelsalami parmezaanse kaas\n2.99\n80 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393830343938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Streeckgenoten Strasbourg cranberry\n2.69\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313132323737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "AH Jamón serrano duroc\n3.49\n100 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313933393731?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Kalfsboterhamworst\n2.69\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313438393132?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "AH Truffelsalami parmezaanse kaas\n2.99\n80 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393830343938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Paté met truffel\n2.99\nca. 130 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303534353735?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Excellent Salami Italiani alla cacciatora\n3.99\n150 g",
+    "raw_text": "AH Excellent Salami Italiani alla cacciatora\n\n2 voor 5.75vanaf maandag\n\n3.99\n150 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303335363339?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Excellent Salami met venkel\n3.39\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303934373135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Strasbourg cranberry\n2.69\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313132323737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Kasmi Kip pikant salade\n2.99\n200 g",
@@ -1716,6 +1708,14 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313633313632?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "Streeckgenoten Kalfsboterhamworst\n2.69\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313438393132?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Isla Délice Kipfilet\n2.99\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313933303235?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "AH Excellent Salame felino\n3.79\n80 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239383036393837?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
@@ -1724,20 +1724,16 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303832303834?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Gerookte boterhamworst\n2.39\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303034303435?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Kesbeke Leverworst met augurk\n3.99\n300 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303738353138?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Isla Délice Gerookte kip spekreepjes\n4.69\n200 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313934353430?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
     "raw_text": "Streeckgenoten Slagers hamworst\n2.39\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313438393233?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Streeckgenoten Gerookte boterhamworst\n2.39\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303034303435?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Steak chimichurri plakjes\n3.69\nca. 100 g",
@@ -1756,15 +1752,15 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313438393230?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Friese grillham\n3.39\nca. 110 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130303031363238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Excellent Salami met truffel\n3.99\n120 g",
+    "raw_text": "AH Excellent Salami met truffel\n\n2 voor 5.75vanaf maandag\n\n3.99\n120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303335363332?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Excellent Salami met venkelzaad\n3.69\n120 g",
+    "raw_text": "Isla Délice Gerookte kip spekreepjes\n4.69\n200 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313934353430?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Excellent Salami met venkelzaad\n\n2 voor 5.75vanaf maandag\n\n3.69\n120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303130303436?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
@@ -1772,23 +1768,19 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313533313339?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Streeckgenoten Gebakken pastei\n2.49\nca. 120 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313637333939?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Friese grillham\n3.39\nca. 110 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130303031363238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Streeckgenoten Siepeltjes gehakt\n2.79\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313533313030?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Isla Délice Gerookte kalkoenfilet\n2.99\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_4354523130313833313436?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+    "raw_text": "Streeckgenoten Gebakken pastei\n2.49\nca. 120 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313637333939?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "Jean Larnaudie Rillettes de canard maigre\n5.79\n180 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239383331373131?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Excellent Saucisson sec a l'ancienne\n4.49\n180 g",
+    "raw_text": "AH Excellent Saucisson sec a l'ancienne\n\n2 voor 5.75vanaf maandag\n\n4.49\n180 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313533333035?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
@@ -1796,16 +1788,20 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313834333735?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
-    "raw_text": "AH Excellent Salami pikant\n3.69\n120 g",
+    "raw_text": "Jean Larnaudie Rillettes de canard maigre\n5.79\n180 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239383331373131?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "Efepasa Yöre\n2.79\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239393232333436?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Excellent Salami pikant\n\n2 voor 5.75vanaf maandag\n\n3.69\n120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130303335363333?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Streeckgenoten Rib carré\n3.89\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313235333335?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "Efepasa Yöre\n2.79\n150 g",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239393232333436?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "Koc Sucuk\n4.99\n300 g",
@@ -1816,8 +1812,16 @@
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313730393338?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
+    "raw_text": "Isla Délice Gerookte kalkoenfilet\n2.99\n150 g",
+    "image": "https://static.ah.nl/dam/product/AHI_4354523130313833313436?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
     "raw_text": "Efepasa Arzum\n2.79\n200 g",
     "image": "https://static.ah.nl/dam/product/AHI_43545239393232333434?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
+  },
+  {
+    "raw_text": "AH Vleeswaren pakket\n\nonlinePakket\n\n6.78\nper stuk",
+    "image": "https://static.ah.nl/dam/product/AHI_43545239383739363130?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Jamon curado\n2.69\n80 g",
@@ -1826,10 +1830,6 @@
   {
     "raw_text": "Streeckgenoten Boerenpastei\n2.49\nca. 120 g",
     "image": "https://static.ah.nl/dam/product/AHI_4354523130313438333537?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
-  },
-  {
-    "raw_text": "AH Vleeswaren pakket\n\nonlinePakket\n\n6.78\nper stuk",
-    "image": "https://static.ah.nl/dam/product/AHI_43545239383739363130?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary"
   },
   {
     "raw_text": "AH Terra Plantaardige smeerleverworst\n1.69\n125 g",

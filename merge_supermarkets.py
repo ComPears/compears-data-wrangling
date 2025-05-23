@@ -6,11 +6,18 @@ from pathlib import Path
 # Configuration - Update these paths as needed
 scripts_config = [
     {
-        "script_path": "AH/script.py",  # Path to script_a.py
-        "store_name": "ah",               # Name for the entry
-        "store_url": "https://www.ah.nl/producten/product/",                # URL for the entry
-        "store_favicon": "https://www.ah.nl/favicon.ico",             # Image for the entry
-        "output_json": "AH/structured_all_merged.json" # Expected JSON output
+        "script_path": "AH/script.py",  
+        "store_name": "ah",               
+        "store_url": "https://www.ah.nl/producten/product/",                
+        "store_favicon": "https://www.ah.nl/favicon.ico",             
+        "output_json": "AH/structured_all_merged.json" 
+    },
+     {
+        "script_path": "ALDI/script.py",  
+        "store_name": "aldi",               
+        "store_url": "https://www.aldi.nl/producten.html",                
+        "store_favicon": "https://www.aldi.nl/favicon.ico",             
+        "output_json": "ALDI/structured_aldi.json" 
     }
 ]
 supermarket_json_path = "supermarkets_merged.json"  # Final output file
