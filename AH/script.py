@@ -36,7 +36,7 @@ def scrape_ah_products(links, output_file):
                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.4919.1885 Safari/537.36"
             })
             page.goto(url, wait_until="networkidle")
-            page.wait_for_timeout(30000)
+            page.wait_for_timeout(3000)
 
             # 🍪 Accept cookies
             try:
@@ -44,7 +44,7 @@ def scrape_ah_products(links, output_file):
                 if accept_btn:
                     accept_btn.click()
                     print("clicked accept button")
-                    page.wait_for_timeout(10000)
+                    page.wait_for_timeout(1000)
             except Exception as e:
                 print("⚠️ Error clicking cookie button:", e)
 
@@ -60,11 +60,11 @@ def scrape_ah_products(links, output_file):
                     if more_btn and more_btn.is_enabled():
                         print(f"➕ Click #{click_count + 1} on 'More results'")
                         more_btn.click()
-                        page.wait_for_timeout(20000)
+                        page.wait_for_timeout(2000)
 
                         # Scroll to bottom to force product load
                         page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-                        page.wait_for_timeout(15000)
+                        page.wait_for_timeout(1500)
 
                         click_count += 1
                     else:
