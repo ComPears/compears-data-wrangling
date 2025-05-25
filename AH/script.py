@@ -14,6 +14,11 @@ unit_pattern = re.compile(
 )
 offer_keywords = ["gratis", "voor", "vanaf", "%", "1+1", "2e"]
 
+# Patterns to remove from raw_text
+DEFAULT_PATTERNS_TO_REMOVE = [
+    "AH "
+]
+
 def scrape_ah_products(links, output_file):
     if isinstance(links, str):
         links = [links]  # wrap single link in list
@@ -31,7 +36,7 @@ def scrape_ah_products(links, output_file):
                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.4919.1885 Safari/537.36"
             })
             page.goto(url, wait_until="networkidle")
-            page.wait_for_timeout(3000)
+            page.wait_for_timeout(30000)
 
             # 🍪 Accept cookies
             try:
@@ -39,7 +44,7 @@ def scrape_ah_products(links, output_file):
                 if accept_btn:
                     accept_btn.click()
                     print("clicked accept button")
-                    page.wait_for_timeout(1000)
+                    page.wait_for_timeout(10000)
             except Exception as e:
                 print("⚠️ Error clicking cookie button:", e)
 
@@ -55,11 +60,11 @@ def scrape_ah_products(links, output_file):
                     if more_btn and more_btn.is_enabled():
                         print(f"➕ Click #{click_count + 1} on 'More results'")
                         more_btn.click()
-                        page.wait_for_timeout(2000)
+                        page.wait_for_timeout(20000)
 
                         # Scroll to bottom to force product load
                         page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-                        page.wait_for_timeout(1500)
+                        page.wait_for_timeout(15000)
 
                         click_count += 1
                     else:
@@ -91,6 +96,34 @@ def scrape_ah_products(links, output_file):
 
         print(f"✅ Done! {len(all_products)} products saved to {output_file}")
         browser.close()
+
+def clean_raw_text_in_file(file_path, patterns_to_remove=None):
+    if patterns_to_remove is None:
+        patterns_to_remove = DEFAULT_PATTERNS_TO_REMOVE
+        
+    if not os.path.exists(file_path):
+        return print(f"❌ File not found: {file_path}")
+
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        for item in data if isinstance(data, list) else []:
+            if "raw_text" in item:
+                for pattern in patterns_to_remove:
+                    if pattern in item["raw_text"]:
+                        item["raw_text"] = item["raw_text"].replace(pattern, "")
+
+        base, ext = os.path.splitext(file_path)
+        output_file = f"{base}{ext}"
+
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+        print(f"✅ Cleaned file saved to: {output_file}")
+
+    except Exception as e:
+        print(f"⚠️ Error processing file: {e}")
 
 def parse_product(entry):
     raw = entry.get("raw_text", "")
@@ -146,6 +179,9 @@ def main():
     for name, url in ah_links.items():
         print(f"Scraping category: {name}")
         scrape_ah_products(url, name)
+        # Clean each file right after scraping
+        file_path = f"{input_folder}/{name}.json"
+        clean_raw_text_in_file(file_path)
     
     # Then parse all the scraped data
     parse_all_json_files()

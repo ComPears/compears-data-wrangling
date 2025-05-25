@@ -194,7 +194,8 @@ if __name__ == "__main__":
         "Potato king\n\n",
         "\nBoodschappenlijstje",
         "All seasons\n\n",
-        "Barissimo\n\n"
+        "Barissimo\n\n",
+        "Aldi\n\n"
     ]
     
     # Step 1: Scrape data (you'll need to provide the link_dict)
