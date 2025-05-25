@@ -123,6 +123,13 @@ After this Run the actieprobeer.py file to restructure the offer products json f
 ```
 python3 actieprobeer.py
 ```
+Then also run the structure py file to restructure the main dirk file
+
+```
+python3 structure.py
+```
+
+
 
 finally run the merge it file to merge the json file with offers with the structured dirk json file
 
