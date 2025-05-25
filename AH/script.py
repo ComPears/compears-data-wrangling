@@ -14,6 +14,11 @@ unit_pattern = re.compile(
 )
 offer_keywords = ["gratis", "voor", "vanaf", "%", "1+1", "2e"]
 
+# Patterns to remove from raw_text
+DEFAULT_PATTERNS_TO_REMOVE = [
+    "AH "
+]
+
 def scrape_ah_products(links, output_file):
     if isinstance(links, str):
         links = [links]  # wrap single link in list
@@ -92,6 +97,34 @@ def scrape_ah_products(links, output_file):
         print(f"✅ Done! {len(all_products)} products saved to {output_file}")
         browser.close()
 
+def clean_raw_text_in_file(file_path, patterns_to_remove=None):
+    if patterns_to_remove is None:
+        patterns_to_remove = DEFAULT_PATTERNS_TO_REMOVE
+        
+    if not os.path.exists(file_path):
+        return print(f"❌ File not found: {file_path}")
+
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        for item in data if isinstance(data, list) else []:
+            if "raw_text" in item:
+                for pattern in patterns_to_remove:
+                    if pattern in item["raw_text"]:
+                        item["raw_text"] = item["raw_text"].replace(pattern, "")
+
+        base, ext = os.path.splitext(file_path)
+        output_file = f"{base}{ext}"
+
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+        print(f"✅ Cleaned file saved to: {output_file}")
+
+    except Exception as e:
+        print(f"⚠️ Error processing file: {e}")
+
 def parse_product(entry):
     raw = entry.get("raw_text", "")
     image_link = entry.get("image", "")
@@ -146,6 +179,9 @@ def main():
     for name, url in ah_links.items():
         print(f"Scraping category: {name}")
         scrape_ah_products(url, name)
+        # Clean each file right after scraping
+        file_path = f"{input_folder}/{name}.json"
+        clean_raw_text_in_file(file_path)
     
     # Then parse all the scraped data
     parse_all_json_files()
