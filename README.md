@@ -113,10 +113,12 @@ python3 seperate.py
 
 Output should look like this
 
+<img width="727" alt="Screenshot 2025-05-25 at 19 33 14" src="https://github.com/user-attachments/assets/f04b25f1-f57c-4c45-9f79-ec04cce4b373" />
 
+> The output file is the dirk_actie.json file
 
-
-
+> The "ACTIE" section of the code should be replaced with "PROBEER PRIJS" so as to filter the other offer categories with PROBEER PRIJS
+<img width="532" alt="Screenshot 2025-05-25 at 19 41 57" src="https://github.com/user-attachments/assets/e1d9fd6d-6706-4ab9-8450-d99e265d9bb1" />
 
 
 
