@@ -105,7 +105,7 @@ python3 main.py
 ```
 > All the scraped product should be in the dirk.json file
 
-Run the seperate.py to seperate the products with offers
+Run the seperate.py to seperate the products with offers based on the PROBEER PRIJS & ACTIE Keyword
 
 ```
 python3 seperate.py
@@ -113,12 +113,25 @@ python3 seperate.py
 
 Output should look like this
 
-<img width="727" alt="Screenshot 2025-05-25 at 19 33 14" src="https://github.com/user-attachments/assets/f04b25f1-f57c-4c45-9f79-ec04cce4b373" />
+<img width="756" alt="Screenshot 2025-05-25 at 19 56 57" src="https://github.com/user-attachments/assets/2928557d-4053-49b0-a17d-303a37b77b93" />
 
-> The output file is the dirk_actie.json file
 
-> The "ACTIE" section of the code should be replaced with "PROBEER PRIJS" so as to filter the other offer categories with PROBEER PRIJS
-<img width="532" alt="Screenshot 2025-05-25 at 19 41 57" src="https://github.com/user-attachments/assets/e1d9fd6d-6706-4ab9-8450-d99e265d9bb1" />
+> The output file is the dirk_probeer_prijs_actie.json file
+
+After this Run the actieprobeer.py file to restructure the offer products json file (dirk_probeer_prijs_actie.json) file
+
+```
+python3 actieprobeer.py
+```
+
+finally run the merge it file to merge the json file with offers with the structured dirk json file
+
+```
+python3 mergeit.py
+```
+
+
+
 
 
 
