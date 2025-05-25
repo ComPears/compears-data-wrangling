@@ -98,6 +98,27 @@ cd into the dirk directory
 ```
 cd DIRK
 ```
+Run the main code 
+
+```
+python3 main.py
+```
+> All the scraped product should be in the dirk.json file
+
+Run the seperate.py to seperate the products with offers
+
+```
+python3 seperate.py
+```
+
+Output should look like this
+
+
+
+
+
+
+
 
 
 
