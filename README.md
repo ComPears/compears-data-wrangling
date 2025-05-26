@@ -142,7 +142,11 @@ python3 mergeit.py
 python3 decimal_fix.py
 ```
 
+> The final json file is the dirk_all.json file
+>
+> 
 
+# LIDL
 
 
 
