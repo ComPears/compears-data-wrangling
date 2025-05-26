@@ -131,11 +131,15 @@ python3 structure.py
 
 
 
-finally run the merge it file to merge the json file with offers with the structured dirk json file
+finally run the merge it file to merge the json file with offers with the structured dirk json file and the decimal fix py file to appropriately correct the point errors
 
 ```
 python3 mergeit.py
+python3 decimal_fix.py
 ```
+
+
+
 
 
 
