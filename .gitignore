@@ -1,4 +1,26 @@
+# Environments
+.env
 .venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/.venv
+
+__pypackages__/
+__pycache__/
+
+ALDI/__pycache__
+DIRK/__pycache__
+LIDL/__pycache__
+AH/__pycache__
+
+
 .DS_Store
 DIRK/.DS_Store
 ALDI/.DS_Store
+LIDL/.DS_Store
+AH/.DS_Store
+
+
+
