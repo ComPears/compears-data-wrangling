@@ -2,7 +2,7 @@ import json
 import re
 
 # Load original file
-with open("dirk.json", "r", encoding="utf-8") as f:
+with open("JSONs/dirk.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Offer-related keywords and unit regex
@@ -45,7 +45,7 @@ def parse_entry(entry):
 cleaned_data = [parse_entry(entry) for entry in data]
 
 # Optionally write to file
-with open("dirk_structured.json", "w", encoding="utf-8") as f:
+with open("JSONs/dirk_structured.json", "w", encoding="utf-8") as f:
     json.dump(cleaned_data, f, indent=2, ensure_ascii=False)
 
 print("✅ Restructured data is ready.")

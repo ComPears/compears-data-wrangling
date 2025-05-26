@@ -2,7 +2,7 @@ import json
 import re
 
 # Load the input file
-with open("dirk_probeer_prijs_actie.json", "r", encoding="utf-8") as f:
+with open("JSONs/dirk_probeer_prijs_actie.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Keywords and patterns
@@ -55,7 +55,7 @@ def parse_entry(entry):
 structured = [parse_entry(entry) for entry in data]
 
 # Save output
-with open("dirk_actie_probeer_structured.json", "w", encoding="utf-8") as f:
+with open("JSONs/dirk_actie_probeer_structured.json", "w", encoding="utf-8") as f:
     json.dump(structured, f, indent=2, ensure_ascii=False)
 
 print("✅ Done! Saved to 'dirk_actie_probeer_structured.json'")

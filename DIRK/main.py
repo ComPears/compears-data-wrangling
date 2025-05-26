@@ -4,7 +4,7 @@ from playwright.sync_api import sync_playwright
 from links2 import links
 from playwright._impl._errors import TimeoutError
 
-output_file = "dirk.json"
+output_file = "JSONs/dirk.json"
 
 # Load existing data if file exists
 if os.path.exists(output_file):

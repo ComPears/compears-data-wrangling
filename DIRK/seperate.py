@@ -46,4 +46,4 @@ def split_items_by_keywords(file_path, keywords):
 # Example usage
 if __name__ == "__main__":
     # PROBEER PRIJS & ACTIE
-    split_items_by_keywords("dirk.json", ["PROBEER PRIJS", "ACTIE"])
+    split_items_by_keywords("JSONs/dirk.json", ["PROBEER PRIJS", "ACTIE"])
