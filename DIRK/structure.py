@@ -15,6 +15,7 @@ digit_line = re.compile(r"^\d+$")
 
 def parse_entry(entry):
     lines = [line.strip() for line in entry["raw_text"].splitlines() if line.strip()]
+    image_links = entry["image"]
     price_parts = []
 
     # Step 1: Extract price block (e.g. "1", "99" → "1.99")
@@ -37,14 +38,14 @@ def parse_entry(entry):
 
     name = " ".join(name_lines)
 
-    return {"n": name, "p": price, "o": offer, "s": size}
+    return {"n": name, "p": price, "o": offer, "s": size,"l":image_links}
 
 
 # Transform all entries
 cleaned_data = [parse_entry(entry) for entry in data]
 
 # Optionally write to file
-with open(".json", "w", encoding="utf-8") as f:
+with open("dirk_structured.json", "w", encoding="utf-8") as f:
     json.dump(cleaned_data, f, indent=2, ensure_ascii=False)
 
 print("✅ Restructured data is ready.")

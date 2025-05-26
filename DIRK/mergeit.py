@@ -3,7 +3,7 @@ import json
 with open("dirk_structured.json", "r", encoding="utf-8") as f1:
     data1 = json.load(f1)
 
-with open("merged_actie_probes.json", "r", encoding="utf-8") as f2:
+with open("dirk_actie_probeer_structured.json", "r", encoding="utf-8") as f2:
     data2= json.load(f2)
 
 data3 = data1 + data2

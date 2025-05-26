@@ -4,7 +4,7 @@ from playwright.sync_api import sync_playwright
 from links2 import links
 from playwright._impl._errors import TimeoutError
 
-output_file = "test6.json"
+output_file = "dirk.json"
 
 # Load existing data if file exists
 if os.path.exists(output_file):
@@ -59,6 +59,8 @@ with sync_playwright() as p:
         except Exception as e:
             print(f"❌ Error scraping {url}: {e}")
             continue
+
+        
 
     print(f"🏁 All done! {len(product_data)} total products saved.")
     browser.close()
