@@ -2,7 +2,7 @@ import json
 import re
 
 # Load the input file
-with open("dirk_actie.json", "r", encoding="utf-8") as f:
+with open("JSONs/dirk_probeer_prijs_actie.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Keywords and patterns
@@ -17,6 +17,7 @@ price_pattern = re.compile(r"^\d+$")
 
 def parse_entry(entry):
     raw_lines = [line.strip() for line in entry["raw_text"].split("\n") if line.strip()]
+    image_links = entry["image"]
     name, offer_lines, price_parts, size = "", [], [], ""
 
     # Offer lines
@@ -47,14 +48,14 @@ def parse_entry(entry):
     # Name
     name = " ".join(raw_lines).strip()
 
-    return {"n": name, "p": price, "o": offer, "s": size}
+    return {"n": name, "p": price, "o": offer, "s": size, "l": image_links}
 
 
 # Parse all entries
 structured = [parse_entry(entry) for entry in data]
 
 # Save output
-with open("dirk_actie_structured.json", "w", encoding="utf-8") as f:
+with open("JSONs/dirk_actie_probeer_structured.json", "w", encoding="utf-8") as f:
     json.dump(structured, f, indent=2, ensure_ascii=False)
 
-print("✅ Done! Saved to 'dirk_actie_structured.json'")
+print("✅ Done! Saved to 'dirk_actie_probeer_structured.json'")

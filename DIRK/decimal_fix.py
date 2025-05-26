@@ -23,7 +23,7 @@ def process_file(input_file, output_file):
 
 
 # Run it
-process_file("final.json", "dirk_all.json")
+process_file("JSONs/final.json", "./dirk_all.json")
 
 
 
