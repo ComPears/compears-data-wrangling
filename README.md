@@ -135,6 +135,10 @@ finally run the merge it file to merge the json file with offers with the struct
 
 ```
 python3 mergeit.py
+
+```
+
+```
 python3 decimal_fix.py
 ```
 
