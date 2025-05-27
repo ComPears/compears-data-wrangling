@@ -146,13 +146,36 @@ python3 decimal_fix.py
 >
 > 
 
-# LIDL
+## JUMBO
+cd into the Jumbo directory
 
+```
+cd JUMBO
+```
 
+Run the main file
+```
+python3 main.py
+```
 
+> All the scraped results are stored individually in the JSONs directory
 
+After the main py file has been run, Run the merge file to merge all the seperate Json into a single one
 
+```
+python3 merge.py
+```
+Output should look like this
+<img width="449" alt="Screenshot 2025-05-27 at 21 37 22" src="https://github.com/user-attachments/assets/80bd40fb-6cc4-49f3-bf90-07455be61728" />
 
+> The merged raw jumbo json file is the Jumbo.json
+
+After merging, run the structure.py file to restructure the results into the desired format
+
+```
+python3 structure.py
+```
+> The final output is the jumbo_all.json file
 
 
 
