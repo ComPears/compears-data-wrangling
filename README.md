@@ -175,7 +175,7 @@ After merging, run the structure.py file to restructure the results into the des
 ```
 python3 structure.py
 ```
-> The final output is the jumbo_all.json file
+> The final output is the jumbo_structured.json file
 
 
 
