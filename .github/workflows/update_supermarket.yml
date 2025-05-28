@@ -1,7 +1,7 @@
 name: Update Supermarket JSON Daily
 
 on:
-  # push:
+  push:
   schedule:
     - cron: '0 0 * * *'  # 12 AM UTC daily
   workflow_dispatch:      # Manual trigger option
@@ -33,7 +33,22 @@ jobs:
       - name: Install Playwright browsers
         run: python -m playwright install
 
-      # --- Step 4: Run Python script to generate supermarkets_merged.json ---
+      # --- Step 4a: Run Python script to generate AH structured_all_merged.json ---
+      - name: Generate AH structured_all_merged.json
+        run: |
+          python AH/script.py 
+
+      # --- Step 4b: Run Python script to generate ALDI structured_aldi.json ---
+      - name: Generate structured_aldi.json
+        run: |
+          python ALDI/script.py 
+
+      # --- Step 4c: Run Python script to generate DIRK supermarkets_merged.json ---
+      - name: Generate supermarkets_merged.json
+        run: |
+          python DIRK/script.py
+
+      # --- Step 4d: Run Python script to generate supermarkets_merged.json ---
       - name: Generate supermarkets_merged.json
         run: |
           python merge_supermarkets.py  
