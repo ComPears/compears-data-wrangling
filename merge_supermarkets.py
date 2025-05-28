@@ -6,34 +6,41 @@ from pathlib import Path
 # Configuration - Update these paths as needed
 scripts_config = [
     {
-        "script_path": "AH/script.py",  
+        # "script_path": "AH/script.py",  
         "store_name": "ah",               
         "store_url": "https://www.ah.nl/producten/product/",                
         "store_favicon": "https://www.ah.nl/favicon.ico",             
         "output_json": "AH/structured_all_merged.json" 
     },
      {
-        "script_path": "ALDI/script.py",  
+        # "script_path": "ALDI/script.py",  
         "store_name": "aldi",               
         "store_url": "https://www.aldi.nl/producten.html",                
         "store_favicon": "https://www.aldi.nl/favicon.ico",             
         "output_json": "ALDI/structured_aldi.json" 
+    },
+     {
+        # "script_path": "DIRK/script.py",  
+        "store_name": "dirk",               
+        "store_url": "https://www.dirk.nl/boodschappen/",                
+        "store_favicon": "https://www.dirk.nl/favicon.ico",             
+        "output_json": "DIRK/dirk_all.json" 
     }
 ]
 supermarket_json_path = "supermarkets_merged.json"  # Final output file
 
-def run_script(script_path):
-    """Run a Python script in its own directory and return True if successful."""
-    script_dir = os.path.dirname(script_path) or "."
-    script_file = os.path.basename(script_path)
+# def run_script(script_path):
+#     """Run a Python script in its own directory and return True if successful."""
+#     script_dir = os.path.dirname(script_path) or "."
+#     script_file = os.path.basename(script_path)
     
-    try:
-        # Run the script in its own directory to ensure correct relative paths
-        subprocess.run(["python", script_file], cwd=script_dir, check=True)
-        return True
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Error running {script_path}: {e}")
-        return False
+#     try:
+#         # Run the script in its own directory to ensure correct relative paths
+#         subprocess.run(["python", script_file], cwd=script_dir, check=True)
+#         return True
+#     except subprocess.CalledProcessError as e:
+#         print(f"❌ Error running {script_path}: {e}")
+#         return False
 
 def load_json(file_path):
     """Load JSON data from a file, return empty dict if file doesn't exist."""
@@ -49,12 +56,12 @@ def main():
 
     for script in scripts_config:
         # 1. Run the script (in its own directory)
-        print(f"▶ Running {script['script_path']}...")
-        success = run_script(script['script_path'])
+        # print(f"▶ Running {script['script_path']}...")
+        # success = run_script(script['script_path'])
         
-        if not success:
-            print(f"⏩ Skipping {script['store_name']} due to script failure.")
-            continue
+        # if not success:
+        #     print(f"⏩ Skipping {script['store_name']} due to script failure.")
+        #     continue
 
         # 2. Load the generated JSON (from the specified path)
         script_data = load_json(script["output_json"])
