@@ -18,6 +18,9 @@ OFFER_KEYWORDS = [
 ]
 UNIT_PATTERN = re.compile(r"\b\d+([.,]?\d+)?\s?(g|kg|ml|l|cl|stuks?|x\s?\d+.*)\b", re.IGNORECASE)
 PRICE_PATTERN = re.compile(r"\d+[.,]\d{2}")
+PATTERNS_TO_REMOVE = [
+    "Jumbo ", "\nJumbo"
+]  
 
 def get_filename_from_url(url):
     """Extract a filename from a URL."""
@@ -134,6 +137,34 @@ def merge_json_files(folder_path, output_file):
 
     print(f"Successfully merged {len(json_files)} JSON files into '{output_file}'.")
 
+def clean_raw_text_in_file(file_path, patterns_to_remove):
+    """Clean raw text by removing specified patterns."""
+    if not os.path.exists(file_path):
+        return print(f"❌ File not found: {file_path}")
+
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        for item in data if isinstance(data, list) else []:
+            if "raw_text" in item:
+                for pattern in patterns_to_remove:
+                    if pattern in item["raw_text"]:
+                        item["raw_text"] = item["raw_text"].replace(pattern, "")
+
+        base, ext = os.path.splitext(file_path)
+        output_file = f"{base}{ext}"
+
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+        print(f"✅ Cleaned file saved to: {output_file}")
+        return output_file  # Return the cleaned file path
+
+    except Exception as e:
+        print(f"⚠️ Error processing file: {e}")
+        return None
+
 def parse_entry(entry):
     """Parse a single product entry into structured data."""
     raw_lines = [line.strip() for line in entry["raw_text"].split("\n") if line.strip()]
@@ -192,9 +223,13 @@ def main(links):
     print("\n=== STEP 2: MERGING JSON FILES ===")
     merge_json_files("JSONs", "Jumbo.json")
     
-    # Step 3: Structure the data
-    print("\n=== STEP 3: STRUCTURING DATA ===")
-    structure_data("Jumbo.json", "jumbo_structured.json")
+    # Step 3: Clean the merged data
+    print("\n=== STEP 3: CLEANING DATA ===")
+    cleaned_file = clean_raw_text_in_file("Jumbo.json", PATTERNS_TO_REMOVE)
+    
+    # Step 4: Structure the data
+    print("\n=== STEP 4: STRUCTURING DATA ===")
+    structure_data(cleaned_file if cleaned_file else "Jumbo.json", "jumbo_structured.json")
     
     print("\n✅ All steps completed successfully!")
 
