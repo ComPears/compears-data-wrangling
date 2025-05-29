@@ -50,11 +50,14 @@ jobs:
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
         run: |
           # Configure Git
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
-          
+
           git add .
           git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
           git push
