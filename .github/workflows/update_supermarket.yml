@@ -1,7 +1,7 @@
 name: Update Supermarket JSON Daily
 
 on:
-  # push:
+  push:
   schedule:
     - cron: '0 0 * * *'  # 12 AM UTC daily
   workflow_dispatch:      # Manual trigger option
@@ -48,10 +48,10 @@ jobs:
         run: |
           python DIRK/script.py
 
-      # --- Step 4d: Run Python script to generate DIRK jumbo_structured.json ---
-      - name: Generate jumbo_structured.json
-        run: |
-          python JUMBO/script.py
+      # # --- Step 4d: Run Python script to generate DIRK jumbo_structured.json ---
+      # - name: Generate jumbo_structured.json
+      #   run: |
+      #     python JUMBO/script.py
 
       # --- Step 4e: Run Python script to generate supermarkets_merged.json ---
       - name: Generate supermarkets_merged.json
