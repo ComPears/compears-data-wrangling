@@ -61,8 +61,10 @@ jobs:
           # Configure Git
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
-
-          git add structured_all_merged.json structured_aldi.json dirk_all.json
+          mv structured_all_merged.json AH/
+          mv structured_aldi.json ALDI/
+          mv dirk_all.json DIRK/
+          git add AH/structured_all_merged.json ALDI/structured_aldi.json DIRK/dirk_all.json
           git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
           git push
 
