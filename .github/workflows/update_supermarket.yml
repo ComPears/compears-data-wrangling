@@ -71,6 +71,8 @@ jobs:
   generate-jumbo-and-push:
     needs: generate-ah-aldi-dirk
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       # --- Step 1: Checkout current repo ---
@@ -107,8 +109,15 @@ jobs:
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
         run: |
-          git add .
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          mv jumbo_structured.json JUMBO/
+          git add JUMBO/jumbo_structured.json supermarkets_merged.json
           git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
           git push
 
