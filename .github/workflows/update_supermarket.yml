@@ -116,6 +116,7 @@ jobs:
           # Configure Git
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
+          git pull
           mv jumbo_structured.json JUMBO/
           git add JUMBO/jumbo_structured.json supermarkets_merged.json
           git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
