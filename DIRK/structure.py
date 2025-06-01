@@ -41,7 +41,7 @@ def parse_entry(entry):
     return {"n": name, "p": price, "o": offer, "s": size,"l":image_links}
 
 
-# Transform all entries
+# Transform all entriesa
 cleaned_data = [parse_entry(entry) for entry in data]
 
 # Optionally write to file
