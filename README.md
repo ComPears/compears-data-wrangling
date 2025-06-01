@@ -190,13 +190,17 @@ Run the main file
 python3 main.py
 ```
 
->The scraped results is stored in the JSONs directory
+>The scraped result is stored in the lidl.json file
 
-Run the structure py file to resatructure the json file
+Run the structure py file to restructure the file
 
 ```
 python3 structure.py
 ```
+
+> The restructured file is stored in the lidl_structured json file
+
+
 
 
 
