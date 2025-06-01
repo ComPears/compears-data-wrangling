@@ -1,6 +1,6 @@
 import json
 import os
-from links import get_aldi_links,add_remaining_links
+from links import get_aldi_links
 from playwright.sync_api import sync_playwright
 
 
@@ -49,4 +49,4 @@ def scrape_aldi_products(link_dict):
 
 # Run it
 if __name__ == "__main__":
-    scrape_aldi_products(add_remaining_links())
+    scrape_aldi_products(get_aldi_links())
