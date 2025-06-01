@@ -176,6 +176,28 @@ After merging, run the structure.py file to restructure the results into the des
 python3 structure.py
 ```
 > The final output is the jumbo_structured.json file
+> 
+
+## LIDL
+cd into the Lidl directory
+
+```
+cd LIDL
+```
+
+Run the main file
+```
+python3 main.py
+```
+
+>The scraped results is stored in the JSONs directory
+
+Run the structure py file to resatructure the json file
+
+```
+python3 structure.py
+```
+
 
 
 
