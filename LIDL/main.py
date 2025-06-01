@@ -44,10 +44,11 @@ def scrape_lidl_pages():
 
         browser.close()
 
-    with open("results.json", "w", encoding="utf-8") as f:
+    with open("lidl.json", "w", encoding="utf-8") as f:
         json.dump(all_data, f, indent=2, ensure_ascii=False)
         print(f"✅ Scraped {len(all_data)} items total.")
 
 
 # Run it
 scrape_lidl_pages()
+
