@@ -2,7 +2,7 @@ import json
 import os
 import glob
 import re
-from links import get_aldi_links,add_remaining_links
+from links import get_aldi_links
 from playwright.sync_api import sync_playwright
 
 # Step 1: Scraping (original main.py)
@@ -200,7 +200,7 @@ if __name__ == "__main__":
     
     # Step 1: Scrape data (you'll need to provide the link_dict)
     print("\n=== STEP 1: Scraping ALDI products ===")
-    scrape_aldi_products(add_remaining_links())
+    scrape_aldi_products(get_aldi_links())
     
     # Step 2: Merge JSON files
     print("\n=== STEP 2: Merging JSON files ===")
