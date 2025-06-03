@@ -234,7 +234,17 @@ Run the main file
 python3 main.py
 ```
 
-Run the restructure file
+Run the remove pattern py file to remove every occurence of "Uit de keuken van" 
+```
+python3 remove_pattern.py
+```
+Run the fix.py file to restructure the entire file
+```
+python3 fix.py
+```
+> The final output is the structured structured_plus
+
+
 
 
 
