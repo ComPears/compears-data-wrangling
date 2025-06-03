@@ -242,7 +242,7 @@ Run the fix.py file to restructure the entire file
 ```
 python3 fix.py
 ```
-> The final output is the structured structured_plus
+> The final output is the structured_plus.json file
 
 
 
