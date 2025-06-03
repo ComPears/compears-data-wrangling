@@ -200,6 +200,43 @@ python3 structure.py
 
 > The restructured file is stored in the lidl_structured json file
 
+## COOP
+
+cd into the Coop directory
+```
+cd coop
+```
+Run the main file
+
+```
+python3 main.py 
+```
+
+> Output is stored in the coop.json file
+
+Run the structure py file to restructure the json file
+
+```
+python3 structure.py
+```
+
+
+
+## PLUS
+
+```
+cd plus
+```
+
+Run the main file 
+
+ ```
+python3 main.py
+```
+
+Run the restructure file
+
+
 
 
 
