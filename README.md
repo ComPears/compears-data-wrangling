@@ -220,6 +220,7 @@ Run the structure py file to restructure the json file
 python3 structure.py
 ```
 
+> The final output is the coop_structured.json file
 
 
 ## PLUS
