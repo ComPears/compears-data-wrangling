@@ -16,13 +16,13 @@ cd compears-data-wrangling
 Create a virtual env
 
 ```
-python -m venv env 
+python -m venv venv 
 ```
 
 Activate your env(for windows)
 
 ```
-./env/Scripts/activate 	 
+./venv/Scripts/activate 	 
 ```
 (for linux or mac)
 
@@ -34,6 +34,12 @@ Install Project Dependencies
 
 ```
 python -m pip install -r requirements.txt
+```
+
+Install Playwright
+
+```
+playwright install
 ```
 
 
