@@ -222,7 +222,7 @@ jobs:
           git push
 
   generate-jumbo-and-push:
-    needs: generate-ah-aldi-dirk
+    needs: generate-coop
     runs-on: ubuntu-latest
     permissions:
       contents: write
