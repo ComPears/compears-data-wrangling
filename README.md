@@ -36,6 +36,20 @@ Install Project Dependencies
 python -m pip install -r requirements.txt
 ```
 
+## AH
+Navigate to AH directory
+```
+cd AH
+```
+
+
+
+Run the main code
+```
+python3 main.py
+```
+
+
 
 
 ## ALDI
