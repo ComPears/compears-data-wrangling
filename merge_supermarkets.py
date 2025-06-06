@@ -28,6 +28,24 @@ scripts_config = [
         "store_url": "https://www.jumbo.com/producten/",                
         "store_favicon": "https://jumbo.com/favicon.ico",             
         "output_json": "JUMBO/jumbo_structured.json" 
+    },
+     { 
+        "store_name": "plus",               
+        "store_url": "https://www.plus.nl/producten/",                
+        "store_favicon": "https://www.plus.nl/favicon.ico",             
+        "output_json": "PLUS/structured_plus.json" 
+    },
+     { 
+        "store_name": "lidl",               
+        "store_url": "https://www.lidl.nl/",                
+        "store_favicon": "https://www.lidl.nl/favicon.ico",             
+        "output_json": "LIDL/lidl_structured.json" 
+    },
+     { 
+        "store_name": "coop",               
+        "store_url": "https://www.coop.nl/categorie/",                
+        "store_favicon": "https://www.coop.nlfavicon.ico",             
+        "output_json": "COOP/coop_structured.json" 
     }
 ]
 supermarket_json_path = "supermarkets_merged.json"  # Final output file
