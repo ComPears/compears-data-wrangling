@@ -1,21 +1,13 @@
 import json
 import os
-from pathlib import Path
 from playwright.sync_api import sync_playwright
 from links2 import links
 from playwright._impl._errors import TimeoutError
 
-# Get the directory where this script is located
-script_dir = Path(__file__).parent
-
-# Create the JSONs directory if it doesn't exist
-json_dir = script_dir / "JSONs"
-json_dir.mkdir(exist_ok=True)
-
-output_file = json_dir / "dirk.json"
+output_file = "JSONs/dirk.json"
 
 # Load existing data if file exists
-if output_file.exists():
+if os.path.exists(output_file):
     with open(output_file, "r", encoding="utf-8") as f:
         product_data = json.load(f)
 else:
@@ -25,7 +17,7 @@ with sync_playwright() as p:
     browser = p.firefox.launch(headless=True)
     page = browser.new_page()
 
-    print("🔄 Opening dirk.nl...")
+    print("🔄 Opening AH.nl...")
     page.set_viewport_size({"width": 390, "height": 844})
     page.set_extra_http_headers(
         {
@@ -67,6 +59,8 @@ with sync_playwright() as p:
         except Exception as e:
             print(f"❌ Error scraping {url}: {e}")
             continue
+
+        
 
     print(f"🏁 All done! {len(product_data)} total products saved.")
     browser.close()
