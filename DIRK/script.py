@@ -37,7 +37,7 @@ def main():
     print("\n=== STEP 2: Separating probeer/actie items ===")
     separate_module = import_module_from_file(scripts['separate'])
     if hasattr(separate_module, 'split_items_by_keywords'):
-        separate_module.split_items_by_keywords("JSONs/dirk.json", ["PROBEER PRIJS", "ACTIE"])
+        separate_module.split_items_by_keywords("DIRK/JSONs/dirk.json", ["PROBEER PRIJS", "ACTIE"])
 
     # Step 3: Run actieprobeer.py
     print("\n=== STEP 3: Processing actie/probeer items ===")
@@ -61,7 +61,7 @@ def main():
     print("\n=== STEP 6: Fixing decimal prices ===")
     decimal_fix_module = import_module_from_file(scripts['decimal_fix'])
     if hasattr(decimal_fix_module, 'process_file'):
-        decimal_fix_module.process_file("JSONs/final.json", "./dirk_all.json")
+        decimal_fix_module.process_file("DIRK/JSONs/final.json", "./dirk_all.json")
 
     # Step 7: Run clean_dirk.py
     print("\n=== STEP 7: Cleaning duplicates ===")
