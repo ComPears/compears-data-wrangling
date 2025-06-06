@@ -393,6 +393,29 @@ jobs:
       - name: Checkout current repo
         uses: actions/checkout@v4
 
+      # --- Step 2: Set up Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # --- Step 3: Install dependencies (if needed) ---
+      - name: Install dependencies
+        run: |
+          # Only install if requirements.txt exists
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+      
+      # --- installs the browser binaries ---
+      - name: Install Playwright browsers
+        run: python -m playwright install
+
+      # --- Step 4: Run Python script to generate supermarkets_merged.json ---
+      - name: Generate supermarkets_merged.json
+        run: |
+          python merge_supermarkets.py  
+
       # --- Step 5: Push to target repository ---
       - name: Push to target repo
         env:
