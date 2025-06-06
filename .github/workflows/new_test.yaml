@@ -54,7 +54,7 @@ jobs:
           # Configure Git
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
-          mv structured_all_merged.json AH/
+          # mv structured_all_merged.json AH/
           git add AH/structured_all_merged.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
@@ -115,7 +115,7 @@ jobs:
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
           git pull
-          mv structured_aldi.json ALDI/
+          # mv structured_aldi.json ALDI/
           git add ALDI/structured_aldi.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
@@ -176,7 +176,7 @@ jobs:
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
           git pull
-          mv dirk_all.json DIRK/
+          # mv dirk_all.json DIRK/
           git add DIRK/dirk_all.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
@@ -234,7 +234,7 @@ jobs:
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
           git pull
-          mv structured_plus.json PLUS/
+          # mv structured_plus.json PLUS/
           git add PLUS/structured_plus.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
@@ -291,7 +291,7 @@ jobs:
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
           git pull
-          mv lidl_structured.json LIDL/
+          # mv lidl_structured.json LIDL/
           git add LIDL/lidl_structured.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
@@ -348,7 +348,7 @@ jobs:
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
           git pull
-          mv coop_structured.json COOP/
+          # mv coop_structured.json COOP/
           git add COOP/coop_structured.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
@@ -394,11 +394,6 @@ jobs:
           python structure.py
           python clean_jumbo.py
 
-      # --- Step 4e: Run Python script to generate supermarkets_merged.json ---
-      - name: Generate supermarkets_merged.json
-        run: |
-          python merge_supermarkets.py  
-
       # --- Step 5: Push to Repo
       - name: Push files to repo
         env:
@@ -409,8 +404,8 @@ jobs:
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
           git pull
-          mv jumbo_structured.json JUMBO/
-          git add JUMBO/jumbo_structured.json supermarkets_merged.json
+          # mv jumbo_structured.json JUMBO/
+          git add JUMBO/jumbo_structured.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
