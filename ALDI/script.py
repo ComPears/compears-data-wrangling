@@ -85,11 +85,13 @@ def main():
             print("❌ Error: restructure.py doesn't have process_file function")
     run_in_directory(test_dir, run_restructure)
 
-    # Step 5: Clean duplicates (unchanged, already operates in root dir)
+        # Step 5: Clean duplicates (modified to use full path)
     print("\n=== STEP 5: Cleaning duplicates ===")
     clean_module = import_module_from_file(os.path.join(script_dir, "clean_aldi.py"))
     if hasattr(clean_module, 'remove_duplicate_items_from_json'):
-        clean_module.remove_duplicate_items_from_json("structured_aldi.json")
+        clean_module.remove_duplicate_items_from_json(
+            os.path.join(script_dir, "structured_aldi.json")  # Use full path
+        )
         print("✅ Duplicate removal completed")
     else:
         print("❌ Error: clean_aldi.py doesn't have remove_duplicate_items_from_json function")
