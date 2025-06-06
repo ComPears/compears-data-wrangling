@@ -53,8 +53,12 @@ jobs:
           git config --global user.email "$GIT_EMAIL"
           mv structured_all_merged.json AH/
           git add AH/structured_all_merged.json
-          git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
   
   generate-aldi:
     runs-on: ubuntu-latest
@@ -103,8 +107,12 @@ jobs:
           git pull
           mv structured_aldi.json ALDI/
           git add ALDI/structured_aldi.json
-          git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
 
   generate-dirk:
     runs-on: ubuntu-latest
@@ -153,8 +161,12 @@ jobs:
           git pull
           mv dirk_all.json DIRK/
           git add DIRK/dirk_all.json
-          git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
 
   generate-plus:
     runs-on: ubuntu-latest
@@ -203,8 +215,12 @@ jobs:
           git pull
           mv structured_plus.json PLUS/
           git add PLUS/structured_plus.json
-          git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
 
   generate-lidl:
     runs-on: ubuntu-latest
@@ -253,8 +269,12 @@ jobs:
           git pull
           mv lidl_structured.json LIDL/
           git add LIDL/lidl_structured.json
-          git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
 
   generate-coop:
     runs-on: ubuntu-latest
@@ -303,8 +323,12 @@ jobs:
           git pull
           mv coop_structured.json COOP/
           git add COOP/coop_structured.json
-          git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
 
   generate-jumbo:
     runs-on: ubuntu-latest
@@ -356,8 +380,12 @@ jobs:
           git pull
           mv jumbo_structured.json JUMBO/
           git add JUMBO/jumbo_structured.json supermarkets_merged.json
-          git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
 
       # # --- Step 5: Push to target repository ---
       # - name: Push to target repo
@@ -436,5 +464,9 @@ jobs:
           # Commit and push
           cd target-repo
           git add .
-          git commit -m "Automated update: supermarkets_merged.json $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update: supermarkets_merged.json $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
