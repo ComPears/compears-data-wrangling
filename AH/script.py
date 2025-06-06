@@ -1,6 +1,7 @@
-# script.py
+# run_pipeline.py
 import os
 import sys
+import shutil
 from importlib.util import spec_from_file_location, module_from_spec
 
 def import_module_from_file(file_path):
@@ -30,7 +31,7 @@ def main():
     main_module = import_module_from_file(scripts['main'])
     if hasattr(main_module, 'scrape_ah_products'):
         from links_dictionary import get_ah_links
-        ah_links = main_module.get_ah_links()
+        ah_links = get_ah_links()
         for name, url in ah_links.items():
             print(f"\n🔄 Scraping category: {name}")
             main_module.scrape_ah_products(url, name)
@@ -39,26 +40,30 @@ def main():
         print("❌ Error: main.py doesn't have scrape_ah_products function")
         return
 
-    # Step 2: Run parse_all_json.py
-    print("\n=== STEP 2: Parsing and merging JSON files ===")
+    # Step 2: Prepare files for parsing
+    print("\n=== STEP 2: Preparing files for parsing ===")
+    # Move scraped files to raw_with_image_links folder
+    for file in os.listdir("new_results"):
+        if file.endswith(".json"):
+            shutil.move(
+                os.path.join("new_results", file),
+                os.path.join("raw_with_image_links", file)
+            )
+    print("✅ Files moved to raw_with_image_links/")
+
+    # Step 3: Run parse_all_json.py
+    print("\n=== STEP 3: Parsing and merging JSON files ===")
     parse_module = import_module_from_file(scripts['parse_all_json'])
     if hasattr(parse_module, 'parse_product'):
-        # Move scraped files to raw_with_image_links folder
-        for file in os.listdir("new_results"):
-            if file.endswith(".json"):
-                os.rename(
-                    os.path.join("new_results", file),
-                    os.path.join("raw_with_image_links", file)
-                )
-        # Run the parsing
-        parse_module.parse_product()  # This will process all files in raw_with_image_links
+        # The parse_all_json.py script runs automatically when imported
+        # as it has code at module level that executes on import
         print("✅ Parsing completed - results saved to structured_all_merged.json")
     else:
         print("❌ Error: parse_all_json.py doesn't have parse_product function")
         return
 
-    # Step 3: Run clean_ah.py
-    print("\n=== STEP 3: Cleaning duplicates ===")
+    # Step 4: Run clean_ah.py
+    print("\n=== STEP 4: Cleaning duplicates ===")
     clean_module = import_module_from_file(scripts['clean_ah'])
     if hasattr(clean_module, 'remove_duplicate_items_from_json'):
         clean_module.remove_duplicate_items_from_json("structured_all_merged.json")

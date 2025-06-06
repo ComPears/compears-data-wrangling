@@ -1,256 +1,60 @@
-import json
+# script.py
 import os
-import re
-from playwright.sync_api import sync_playwright, TimeoutError
-from links import links
+import sys
+from importlib.util import spec_from_file_location, module_from_spec
 
-def scrape_coop_products(urls, output_file):
-    if isinstance(urls, str):
-        urls = [urls]
-
-    if os.path.exists(output_file):
-        with open(output_file, "r", encoding="utf-8") as f:
-            product_data = json.load(f)
-        print(f"📂 Loaded {len(product_data)} existing products")
-    else:
-        product_data = []
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.set_viewport_size({"width": 1280, "height": 800})
-
-        all_products = []
-
-        for url in urls:
-            print(f"🔄 Opening {url}...")
-            try:
-                page.goto(url, wait_until="networkidle", timeout=60000)
-            except TimeoutError:
-                page.goto(url, wait_until="domcontentloaded")
-
-            page.wait_for_timeout(2000)
-
-            print("🔄 Scraping paginated results...")
-            while True:
-                try:
-                    cards = page.query_selector_all(".product-card")
-
-                    for card in cards:
-                        raw_text = card.inner_text().strip()
-                        img = card.query_selector("img")
-                        img_src = img.get_attribute("src") if img else None
-                        all_products.append({"raw_text": raw_text, "image": img_src})
-
-                    product_data.extend(all_products)
-
-                    print(
-                        f"📦 Found {len(cards)} on this page,  Scraped {len(all_products)} products. Total so far: {len(product_data)}"
-                    )
-                    try:
-                        next_btn = page.locator(
-                            "custom-product-list-paging a:not(.product-list-paging__previous) button.button__svg--pagination"
-                        )
-
-                        if next_btn and next_btn.is_visible():
-                            next_btn.click()
-                            print("➡️ Clicked next page")
-                            page.wait_for_timeout(3000)
-                        else:
-                            print("✅ No more pages.")
-                            break
-
-                    except Exception as e:
-                        print("✅ No more pages.", e)
-
-                except Exception as e:
-                    print(f"⚠️ Error during pagination: {e}")
-                    break
-
-            filename = f"{output_file}"
-            with open(filename, "w", encoding="utf-8") as f:
-                json.dump(product_data, f, indent=2, ensure_ascii=False)
-            print(f"✅ Saved {len(product_data)} products to {filename}")
-
-        browser.close()
-
-def structure_data(input_file, output_file):
-    # Keyword and regex patterns
-    offer_keywords = [
-        "nu voor",
-        "korting",
-        "actie",
-        "van ",
-        "voor ",
-        "deal",
-        "2 voor",
-        "3 voor",
-        "aanbieding",
-        "probeer prijs",
-        "sale",
-        "special",
-        "2 + 1 GRATIS",
-        "1 + 1 GRATIS",
-        "2 VOOR",
-        "3 VOOR",
-        "4 VOOR",
-        "6 VOOR",
-        "aanbieding",
-        "gratis",
-        "3+1 GRATIS",
-        "1+1 GRATIS",
-        "GRATIS BEZORGING",
-        "25 % KORTING",
-        "15 % KORTING",
-        "50 % KORTING",
-        "1.00 KORTING",
-        "2E 50% KORTING",
-        "OP=OP",
-        "2E HALVE PRIJS",
-    ]
-    unit_pattern = re.compile(
-        r"\b\d+([.,]?\d+)?\s?(g|kg|ml|l|cl|stuks?|stuk\(s\)|x\s?\d+.*)\b", re.IGNORECASE
-    )
-    price_pattern = re.compile(r"\d+[.,]\d{2}")
-
-    def parse_entry(entry):
-        raw_lines = [line.strip() for line in entry["raw_text"].split("\n") if line.strip()]
-
-        # Find all prices in the text
-        all_prices = re.findall(price_pattern, entry["raw_text"])
-
-        # Initialize variables
-        name = ""
-        offer = ""
-        regular_price = ""
-        offer_price = ""
-
-        # 1. Identify offer lines and extract offer price
-        offer_lines = []
-        for line in raw_lines:
-            line_lower = line.lower()
-            if any(keyword in line_lower for keyword in offer_keywords):
-                offer_lines.append(line)
-                # Extract offer price from this line
-                line_prices = re.findall(price_pattern, line)
-                if line_prices:
-                    offer_price = line_prices[0].replace(",", ".")
-
-        # 2. Find product name (first line that's not offer, price, or size)
-        for line in raw_lines:
-            line_lower = line.lower()
-            is_offer_line = any(keyword in line_lower for keyword in offer_keywords)
-            is_price_only = re.match(r"^\d+[.,]\d{2}$", line.strip())
-            is_size_only = unit_pattern.match(line.strip()) and not any(
-                char.isalpha() for char in line if char not in "gkmlxstuc()"
-            )
-
-            if (
-                not is_offer_line
-                and not is_price_only
-                and not is_size_only
-                and line.strip()
-            ):
-                name = line.strip()
-                break
-
-        # 3. Determine regular price
-        if len(all_prices) >= 2 and offer_price:
-            # If we have an offer price and multiple prices, find the regular price
-            remaining_prices = [p for p in all_prices if p.replace(",", ".") != offer_price]
-            if remaining_prices:
-                regular_price = remaining_prices[0].replace(",", ".")
-        elif len(all_prices) == 1 and not offer_price:
-            # Only one price and no offer - it's the regular price
-            regular_price = all_prices[0].replace(",", ".")
-        elif len(all_prices) >= 1 and not offer_price:
-            # Multiple prices but no clear offer - take the highest as regular price
-            regular_price = f"{max([float(p.replace(',', '.')) for p in all_prices]):.2f}"
-
-        # 4. Create offer text
-        offer = " ".join(offer_lines) if offer_lines else ""
-
-        # 5. Size: match size units like "400 g", "1 kg", "6 x 250ml", etc.
-        size = ""
-        for line in raw_lines:
-            match = unit_pattern.search(line)
-            if match:
-                size = match.group()
-                break
-
-        # 6. Image link
-        image = entry.get("image", "")
-        if image == "/assets/img/not_available.svg":
-            image = ""
-
-        return {
-            "n": name,
-            "o": offer if offer else "",
-            "p": regular_price,
-            "s": size,
-            "l": image,
-        }
-
-    # Load the raw scraped file
-    with open(input_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    # Apply to all entries
-    structured = [parse_entry(entry) for entry in data]
-
-    # Save to file
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(structured, f, indent=2, ensure_ascii=False)
-
-    print(f"✅ Done! Structured output saved to '{output_file}'")
-    return structured
-
-def clean_data(input_file, key="n"):
-    # Load JSON data from file
-    with open(input_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    print("Initial items in list: {}".format(len(data)))
-
-    seen = set()
-    cleaned_data = []
-
-    for item in data:
-        name = item.get(key, "").strip()
-
-        # Skip items with empty or missing name
-        if not name:
-            continue
-
-        # Skip duplicates
-        if name not in seen:
-            seen.add(name)
-            cleaned_data.append(item)
-
-    print(
-        "Total duplicates removed: {}, Total items: {}, Final items: {}".format(
-            len(data) - len(cleaned_data), len(data), len(cleaned_data)
-        )
-    )
-    print("Final items in list: {}".format(len(cleaned_data)))
-
-    # Save cleaned data to output JSON
-    with open(input_file, "w", encoding="utf-8") as f:
-        json.dump(cleaned_data, f, indent=2, ensure_ascii=False)
-
-    return cleaned_data
+def import_module_from_file(file_path):
+    """Dynamically import a module from a file path."""
+    module_name = os.path.splitext(os.path.basename(file_path))[0]
+    spec = spec_from_file_location(module_name, file_path)
+    module = module_from_spec(spec)
+    sys.modules[module_name] = module
+    spec.loader.exec_module(module)
+    return module
 
 def main():
-    # Step 1: Scrape the data
-    raw_output = "coop.json"
-    scrape_coop_products(links, output_file=raw_output)
-    
-    # Step 2: Structure the data
-    structured_output = "coop_structured.json"
-    structure_data(raw_output, structured_output)
-    
-    # Step 3: Clean the data
-    clean_data(structured_output)
+    # Define paths to all scripts (assuming same directory)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    scripts = {
+        'main': os.path.join(script_dir, "main.py"),
+        'structure': os.path.join(script_dir, "structure.py"),
+        'clean_coop': os.path.join(script_dir, "clean_coop.py")
+    }
+
+    # Step 1: Run main.py (scraping)
+    print("=== STEP 1: Running Coop scraper ===")
+    main_module = import_module_from_file(scripts['main'])
+    if hasattr(main_module, 'scrape_coop_products'):
+        # Import links from links.py in the same directory
+        from links import links
+        main_module.scrape_coop_products(links, output_file="coop.json")
+        print("✅ Scraping completed - results saved to coop.json")
+    else:
+        print("❌ Error: main.py doesn't have scrape_coop_products function")
+        return
+
+    # Step 2: Run structure.py
+    print("\n=== STEP 2: Structuring scraped data ===")
+    structure_module = import_module_from_file(scripts['structure'])
+    if hasattr(structure_module, 'parse_entry'):
+        # The structure.py script runs automatically when imported
+        print("✅ Data structuring completed - results saved to coop_structured.json")
+    else:
+        print("❌ Error: structure.py doesn't have parse_entry function")
+        return
+
+    # Step 3: Run clean_coop.py
+    print("\n=== STEP 3: Cleaning duplicates ===")
+    clean_coop_module = import_module_from_file(scripts['clean_coop'])
+    if hasattr(clean_coop_module, 'remove_duplicate_items_from_json'):
+        clean_coop_module.remove_duplicate_items_from_json("coop_structured.json")
+        print("✅ Duplicate removal completed - final results in coop_structured.json")
+    else:
+        print("❌ Error: clean_coop.py doesn't have remove_duplicate_items_from_json function")
+        return
+
+    print("\n✅ PIPELINE COMPLETED SUCCESSFULLY!")
+    print("Final structured and cleaned data available in: coop_structured.json")
 
 if __name__ == "__main__":
     main()
