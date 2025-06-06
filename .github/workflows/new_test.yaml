@@ -40,7 +40,10 @@ jobs:
       # --- Step 4a: Run Python script to generate AH structured_all_merged.json ---
       - name: Generate AH structured_all_merged.json
         run: |
-          python AH/script.py 
+          cd AH
+          python main.py
+          python parse_all_json.py
+          python clean_ah.py
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -93,7 +96,13 @@ jobs:
       # --- Step 4a: Run Python script to generate ALDI structured_aldi.json ---
       - name: Generate structured_aldi.json
         run: |
-          python ALDI/script.py 
+          cd ALDI
+          python main.py 
+          cd Test
+          python mergejson.py
+          python remove_patterns.py
+          python restructure.py
+          python clean_aldi.py
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -147,7 +156,14 @@ jobs:
       # --- Step 4a: Run Python script to generate DIRK dirk_all.json ---
       - name: Generate dirk_all.json
         run: |
-          python DIRK/script.py
+          cd DIRK
+          python main.py
+          python seperate.py
+          python actieprobeer.py
+          python structure.py
+          python mergeit.py
+          python decimal_fix.py
+          python clean_dirk.py
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -201,7 +217,11 @@ jobs:
       # --- Step 4a: Run Python script to generate PLUS structured_plus.json ---
       - name: Generate PLUS structured_plus.json
         run: |
-          python PLUS/script.py 
+          cd PLUS
+          python main.py
+          python remove_pattern.py
+          python fix.py
+          python clean_plus.py
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -255,7 +275,10 @@ jobs:
       # --- Step 4a: Run Python script to generate LIDL lidl_structured.json ---
       - name: Generate LIDL lidl_structured.json
         run: |
-          python LIDL/script.py 
+          cd LIDL
+          python main.py
+          python structure.py
+          python clean_lidl.py
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -309,7 +332,10 @@ jobs:
       # --- Step 4a: Run Python script to generate COOP coop_structured.json ---
       - name: Generate COOP coop_structured.json
         run: |
-          python COOP/script.py 
+          cd COOP
+          python main.py
+          python structure.py
+          python clean_coop.py
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -361,7 +387,11 @@ jobs:
       # --- Step 4d: Run Python script to generate DIRK jumbo_structured.json ---
       - name: Generate jumbo_structured.json
         run: |
-          python JUMBO/script.py
+          cd JUMBO
+          python main.py
+          python merge.py
+          python structure.py
+          python clean_jumbo.py
 
       # --- Step 4e: Run Python script to generate supermarkets_merged.json ---
       - name: Generate supermarkets_merged.json
