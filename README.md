@@ -36,6 +36,20 @@ Install Project Dependencies
 python -m pip install -r requirements.txt
 ```
 
+## AH
+Navigate to AH directory
+```
+cd AH
+```
+
+
+
+Run the main code
+```
+python3 main.py
+```
+
+
 
 
 ## ALDI
@@ -91,6 +105,16 @@ python3 restructure.py
 #### Final Output for the restructure operation
 <img width="766" alt="Screenshot 2025-05-24 at 18 33 36" src="https://github.com/user-attachments/assets/c15d08be-c976-4d03-8d82-6b99cc1a7d44" />
 
+
+
+Run the clean_aldi file to clean the data
+
+```
+python3 clean_aldi.py
+```
+
+
+
 ## DIRK
 
 cd into the dirk directory
@@ -143,8 +167,14 @@ python3 decimal_fix.py
 ```
 
 > The final json file is the dirk_all.json file
->
-> 
+
+
+Run the clean_dirk file to clean the data
+
+```
+python3 clean_dirk.py
+```
+
 
 ## JUMBO
 cd into the Jumbo directory
@@ -176,7 +206,14 @@ After merging, run the structure.py file to restructure the results into the des
 python3 structure.py
 ```
 > The final output is the jumbo_structured.json file
-> 
+
+
+Finally run the clean_plus file to clean the data
+
+```
+python3 clean_jumbo.py
+```
+
 
 ## LIDL
 cd into the Lidl directory
@@ -199,6 +236,14 @@ python3 structure.py
 ```
 
 > The restructured file is stored in the lidl_structured json file
+
+
+Run the clean_lidl file to clean the data
+
+```
+python3 clean_lidl.py
+```
+
 
 ## COOP
 
@@ -223,6 +268,15 @@ python3 structure.py
 > The final output is the coop_structured.json file
 
 
+
+Run the clean_coop file to clean the data
+
+```
+python3 clean_coop.py
+```
+
+
+
 ## PLUS
 
 ```
@@ -245,6 +299,12 @@ python3 fix.py
 ```
 > The final output is the structured_plus.json file
 
+
+Run the clean_plus file to clean the data
+
+```
+python3 clean_plus.py
+```
 
 
 
