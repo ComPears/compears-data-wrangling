@@ -70,388 +70,389 @@ jobs:
             git push
           fi
   
-  generate-aldi:
-    runs-on: arc-runners
-    permissions:
-      contents: write
+  # generate-aldi:
+  #   runs-on: arc-runners
+  #   permissions:
+  #     contents: write
 
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
+  #   steps:
+  #     # --- Step 1: Checkout current repo ---
+  #     - name: Checkout current repo
+  #       uses: actions/checkout@v4
+  #       with:
+  #         token: ${{ secrets.GITHUB_TOKEN}}
 
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+  #     # --- Step 2: Set up Python ---
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v4
+  #       with:
+  #         python-version: '3.11'
 
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          # Only install if requirements.txt exists
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-      - name: Install dependencies
-        uses: ./.github/workflows/dependencies
-        with:
-          runner: ${{ runner.os }}
+  #     # --- Step 3: Install dependencies (if needed) ---
+  #     - name: Install dependencies
+  #       run: |
+  #         # Only install if requirements.txt exists
+  #         if [ -f requirements.txt ]; then
+  #           pip install -r requirements.txt
+  #         fi
+  #     - name: Install dependencies
+  #       uses: ./.github/workflows/dependencies
+  #       with:
+  #         runner: ${{ runner.os }}
       
-          # --- installs the browser binaries ---
-      - name: Install Playwright browsers
-        run: python -m playwright install
+  #         # --- installs the browser binaries ---
+  #     - name: Install Playwright browsers
+  #       run: python -m playwright install
 
-      # --- Step 4a: Run Python script to generate ALDI structured_aldi.json ---
-      - name: Generate structured_aldi.json
-        run: |
-          # playwright install-deps 
-          cd ALDI
-          python main.py 
-          cd Test
-          python mergejson.py
-          python remove_patterns.py
-          python restructure.py
-          cd ../
-          python clean_aldi.py
+  #     # --- Step 4a: Run Python script to generate ALDI structured_aldi.json ---
+  #     - name: Generate structured_aldi.json
+  #       run: |
+  #         # playwright install-deps 
+  #         cd ALDI
+  #         python main.py 
+  #         cd Test
+  #         python mergejson.py
+  #         python remove_patterns.py
+  #         python restructure.py
+  #         cd ../
+  #         python clean_aldi.py
 
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: |
-          # Configure Git
-          git config --global user.name "$GIT_USERNAME"
-          git config --global user.email "$GIT_EMAIL"
-          git pull
-          # mv structured_aldi.json ALDI/
-          git add ALDI/structured_aldi.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
-          fi
+  #     # --- Step 5: Push to Repo
+  #     - name: Push files to repo
+  #       env:
+  #         GIT_USERNAME: "GitHub Actions Bot"
+  #         GIT_EMAIL: "actions@github.com"
+  #       run: |
+  #         # Configure Git
+  #         git config --global user.name "$GIT_USERNAME"
+  #         git config --global user.email "$GIT_EMAIL"
+  #         git pull
+  #         # mv structured_aldi.json ALDI/
+  #         git add ALDI/structured_aldi.json
+  #         if git diff --cached --quiet; then
+  #           echo "No changes to commit"
+  #         else
+  #           git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+  #           git push
+  #         fi
 
-  generate-dirk:
-    runs-on: arc-runners
-    permissions:
-      contents: write
+  # generate-dirk:
+  #   runs-on: arc-runners
+  #   permissions:
+  #     contents: write
 
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
+  #   steps:
+  #     # --- Step 1: Checkout current repo ---
+  #     - name: Checkout current repo
+  #       uses: actions/checkout@v4
+  #       with:
+  #         token: ${{ secrets.GITHUB_TOKEN}}
 
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+  #     # --- Step 2: Set up Python ---
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v4
+  #       with:
+  #         python-version: '3.11'
 
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          # Only install if requirements.txt exists
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-      - name: Install dependencies
-        uses: ./.github/workflows/dependencies
-        with:
-          runner: ${{ runner.os }}
+  #     # --- Step 3: Install dependencies (if needed) ---
+  #     - name: Install dependencies
+  #       run: |
+  #         # Only install if requirements.txt exists
+  #         if [ -f requirements.txt ]; then
+  #           pip install -r requirements.txt
+  #         fi
+  #     - name: Install dependencies
+  #       uses: ./.github/workflows/dependencies
+  #       with:
+  #         runner: ${{ runner.os }}
       
-          # --- installs the browser binaries ---
-      - name: Install Playwright browsers
-        run: python -m playwright install
+  #         # --- installs the browser binaries ---
+  #     - name: Install Playwright browsers
+  #       run: python -m playwright install
 
-      # --- Step 4a: Run Python script to generate DIRK dirk_all.json ---
-      - name: Generate dirk_all.json
-        run: |
-          # playwright install-deps 
-          cd DIRK
-          python main.py
-          python seperate.py
-          python actieprobeer.py
-          python structure.py
-          python mergeit.py
-          python decimal_fix.py
-          python clean_dirk.py
+  #     # --- Step 4a: Run Python script to generate DIRK dirk_all.json ---
+  #     - name: Generate dirk_all.json
+  #       run: |
+  #         # playwright install-deps 
+  #         cd DIRK
+  #         python main.py
+  #         python seperate.py
+  #         python actieprobeer.py
+  #         python structure.py
+  #         python mergeit.py
+  #         python decimal_fix.py
+  #         python clean_dirk.py
 
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: |
-          # Configure Git
-          git config --global user.name "$GIT_USERNAME"
-          git config --global user.email "$GIT_EMAIL"
-          git pull
-          # mv dirk_all.json DIRK/
-          git add DIRK/dirk_all.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
-          fi
+  #     # --- Step 5: Push to Repo
+  #     - name: Push files to repo
+  #       env:
+  #         GIT_USERNAME: "GitHub Actions Bot"
+  #         GIT_EMAIL: "actions@github.com"
+  #       run: |
+  #         # Configure Git
+  #         git config --global user.name "$GIT_USERNAME"
+  #         git config --global user.email "$GIT_EMAIL"
+  #         git pull
+  #         # mv dirk_all.json DIRK/
+  #         git add DIRK/dirk_all.json
+  #         if git diff --cached --quiet; then
+  #           echo "No changes to commit"
+  #         else
+  #           git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+  #           git push
+  #         fi
 
-  generate-plus:
-    runs-on: arc-runners
-    permissions:
-      contents: write
+  # generate-plus:
+  #   runs-on: arc-runners
+  #   permissions:
+  #     contents: write
 
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
+  #   steps:
+  #     # --- Step 1: Checkout current repo ---
+  #     - name: Checkout current repo
+  #       uses: actions/checkout@v4
+  #       with:
+  #         token: ${{ secrets.GITHUB_TOKEN}}
 
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+  #     # --- Step 2: Set up Python ---
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v4
+  #       with:
+  #         python-version: '3.11'
 
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          # Only install if requirements.txt exists
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-      - name: Install dependencies
-        uses: ./.github/workflows/dependencies
-        with:
-          runner: ${{ runner.os }}
+  #     # --- Step 3: Install dependencies (if needed) ---
+  #     - name: Install dependencies
+  #       run: |
+  #         # Only install if requirements.txt exists
+  #         if [ -f requirements.txt ]; then
+  #           pip install -r requirements.txt
+  #         fi
+  #     - name: Install dependencies
+  #       uses: ./.github/workflows/dependencies
+  #       with:
+  #         runner: ${{ runner.os }}
       
-          # --- installs the browser binaries ---
-      - name: Install Playwright browsers
-        run: python -m playwright install
+  #         # --- installs the browser binaries ---
+  #     - name: Install Playwright browsers
+  #       run: python -m playwright install
 
-      # --- Step 4a: Run Python script to generate PLUS structured_plus.json ---
-      - name: Generate PLUS structured_plus.json
-        run: |
-          # playwright install-deps 
-          cd PLUS
-          python main.py
-          python remove_pattern.py
-          python fix.py
-          python clean_plus.py
+  #     # --- Step 4a: Run Python script to generate PLUS structured_plus.json ---
+  #     - name: Generate PLUS structured_plus.json
+  #       run: |
+  #         # playwright install-deps 
+  #         cd PLUS
+  #         python main.py
+  #         python remove_pattern.py
+  #         python fix.py
+  #         python clean_plus.py
 
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: |
-          # Configure Git
-          git config --global user.name "$GIT_USERNAME"
-          git config --global user.email "$GIT_EMAIL"
-          git pull
-          # mv structured_plus.json PLUS/
-          git add PLUS/structured_plus.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
-          fi
+  #     # --- Step 5: Push to Repo
+  #     - name: Push files to repo
+  #       env:
+  #         GIT_USERNAME: "GitHub Actions Bot"
+  #         GIT_EMAIL: "actions@github.com"
+  #       run: |
+  #         # Configure Git
+  #         git config --global user.name "$GIT_USERNAME"
+  #         git config --global user.email "$GIT_EMAIL"
+  #         git pull
+  #         # mv structured_plus.json PLUS/
+  #         git add PLUS/structured_plus.json
+  #         if git diff --cached --quiet; then
+  #           echo "No changes to commit"
+  #         else
+  #           git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+  #           git push
+  #         fi
 
-  generate-lidl:
-    runs-on: arc-runners
-    permissions:
-      contents: write
+  # generate-lidl:
+  #   runs-on: arc-runners
+  #   permissions:
+  #     contents: write
 
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
+  #   steps:
+  #     # --- Step 1: Checkout current repo ---
+  #     - name: Checkout current repo
+  #       uses: actions/checkout@v4
+  #       with:
+  #         token: ${{ secrets.GITHUB_TOKEN}}
 
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+  #     # --- Step 2: Set up Python ---
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v4
+  #       with:
+  #         python-version: '3.11'
 
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          # Only install if requirements.txt exists
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-      - name: Install dependencies
-        uses: ./.github/workflows/dependencies
-        with:
-          runner: ${{ runner.os }}
+  #     # --- Step 3: Install dependencies (if needed) ---
+  #     - name: Install dependencies
+  #       run: |
+  #         # Only install if requirements.txt exists
+  #         if [ -f requirements.txt ]; then
+  #           pip install -r requirements.txt
+  #         fi
+  #     - name: Install dependencies
+  #       uses: ./.github/workflows/dependencies
+  #       with:
+  #         runner: ${{ runner.os }}
       
-          # --- installs the browser binaries ---
-      - name: Install Playwright browsers
-        run: python -m playwright install
+  #         # --- installs the browser binaries ---
+  #     - name: Install Playwright browsers
+  #       run: python -m playwright install
 
-      # --- Step 4a: Run Python script to generate LIDL lidl_structured.json ---
-      - name: Generate LIDL lidl_structured.json
-        run: |
-          playwright install-deps
-          cd LIDL
-          python main.py
-          python structure.py
-          python clean_lidl.py
+  #     # --- Step 4a: Run Python script to generate LIDL lidl_structured.json ---
+  #     - name: Generate LIDL lidl_structured.json
+  #       run: |
+  #         playwright install-deps
+  #         cd LIDL
+  #         python main.py
+  #         python structure.py
+  #         python clean_lidl.py
 
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: |
-          # Configure Git
-          git config --global user.name "$GIT_USERNAME"
-          git config --global user.email "$GIT_EMAIL"
-          git pull
-          # mv lidl_structured.json LIDL/
-          git add LIDL/lidl_structured.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
-          fi
+  #     # --- Step 5: Push to Repo
+  #     - name: Push files to repo
+  #       env:
+  #         GIT_USERNAME: "GitHub Actions Bot"
+  #         GIT_EMAIL: "actions@github.com"
+  #       run: |
+  #         # Configure Git
+  #         git config --global user.name "$GIT_USERNAME"
+  #         git config --global user.email "$GIT_EMAIL"
+  #         git pull
+  #         # mv lidl_structured.json LIDL/
+  #         git add LIDL/lidl_structured.json
+  #         if git diff --cached --quiet; then
+  #           echo "No changes to commit"
+  #         else
+  #           git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+  #           git push
+  #         fi
 
-  generate-coop:
-    runs-on: arc-runners
-    permissions:
-      contents: write
+  # generate-coop:
+  #   runs-on: arc-runners
+  #   permissions:
+  #     contents: write
 
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
+  #   steps:
+  #     # --- Step 1: Checkout current repo ---
+  #     - name: Checkout current repo
+  #       uses: actions/checkout@v4
+  #       with:
+  #         token: ${{ secrets.GITHUB_TOKEN}}
 
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+  #     # --- Step 2: Set up Python ---
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v4
+  #       with:
+  #         python-version: '3.11'
 
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          # Only install if requirements.txt exists
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-      - name: Install dependencies
-        uses: ./.github/workflows/dependencies
-        with:
-          runner: ${{ runner.os }}
+  #     # --- Step 3: Install dependencies (if needed) ---
+  #     - name: Install dependencies
+  #       run: |
+  #         # Only install if requirements.txt exists
+  #         if [ -f requirements.txt ]; then
+  #           pip install -r requirements.txt
+  #         fi
+  #     - name: Install dependencies
+  #       uses: ./.github/workflows/dependencies
+  #       with:
+  #         runner: ${{ runner.os }}
       
-          # --- installs the browser binaries ---
-      - name: Install Playwright browsers
-        run: python -m playwright install
+  #         # --- installs the browser binaries ---
+  #     - name: Install Playwright browsers
+  #       run: python -m playwright install
 
-      # --- Step 4a: Run Python script to generate COOP coop_structured.json ---
-      - name: Generate COOP coop_structured.json
-        run: |
-          # playwright install-deps 
-          cd COOP
-          python main.py
-          python structure.py
-          python clean_coop.py
+  #     # --- Step 4a: Run Python script to generate COOP coop_structured.json ---
+  #     - name: Generate COOP coop_structured.json
+  #       run: |
+  #         # playwright install-deps 
+  #         cd COOP
+  #         python main.py
+  #         python structure.py
+  #         python clean_coop.py
 
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: |
-          # Configure Git
-          git config --global user.name "$GIT_USERNAME"
-          git config --global user.email "$GIT_EMAIL"
-          git pull
-          # mv coop_structured.json COOP/
-          git add COOP/coop_structured.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
-          fi
+  #     # --- Step 5: Push to Repo
+  #     - name: Push files to repo
+  #       env:
+  #         GIT_USERNAME: "GitHub Actions Bot"
+  #         GIT_EMAIL: "actions@github.com"
+  #       run: |
+  #         # Configure Git
+  #         git config --global user.name "$GIT_USERNAME"
+  #         git config --global user.email "$GIT_EMAIL"
+  #         git pull
+  #         # mv coop_structured.json COOP/
+  #         git add COOP/coop_structured.json
+  #         if git diff --cached --quiet; then
+  #           echo "No changes to commit"
+  #         else
+  #           git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+  #           git push
+  #         fi
 
-  generate-jumbo:
-    runs-on: arc-runners
-    permissions:
-      contents: write
+  # generate-jumbo:
+  #   runs-on: arc-runners
+  #   permissions:
+  #     contents: write
 
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v4
+  #   steps:
+  #     # --- Step 1: Checkout current repo ---
+  #     - name: Checkout current repo
+  #       uses: actions/checkout@v4
 
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+  #     # --- Step 2: Set up Python ---
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v4
+  #       with:
+  #         python-version: '3.11'
 
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          # Only install if requirements.txt exists
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-      - name: Install dependencies
-        uses: ./.github/workflows/dependencies
-        with:
-          runner: ${{ runner.os }}
+  #     # --- Step 3: Install dependencies (if needed) ---
+  #     - name: Install dependencies
+  #       run: |
+  #         # Only install if requirements.txt exists
+  #         if [ -f requirements.txt ]; then
+  #           pip install -r requirements.txt
+  #         fi
+  #     - name: Install dependencies
+  #       uses: ./.github/workflows/dependencies
+  #       with:
+  #         runner: ${{ runner.os }}
       
-          # --- installs the browser binaries ---
-      - name: Install Playwright browsers
-        run: python -m playwright install
+  #         # --- installs the browser binaries ---
+  #     - name: Install Playwright browsers
+  #       run: python -m playwright install
       
-      # --- Step 4d: Run Python script to generate DIRK jumbo_structured.json ---
-      - name: Generate jumbo_structured.json
-        run: |
-          # playwright install-deps 
-          cd JUMBO
-          python main.py
-          python merge.py
-          python structure.py
-          python clean_jumbo.py
+  #     # --- Step 4d: Run Python script to generate DIRK jumbo_structured.json ---
+  #     - name: Generate jumbo_structured.json
+  #       run: |
+  #         # playwright install-deps 
+  #         cd JUMBO
+  #         python main.py
+  #         python merge.py
+  #         python structure.py
+  #         python clean_jumbo.py
 
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: |
-          # Configure Git
-          git config --global user.name "$GIT_USERNAME"
-          git config --global user.email "$GIT_EMAIL"
-          git pull
-          # mv jumbo_structured.json JUMBO/
-          git add JUMBO/jumbo_structured.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
-          fi
+  #     # --- Step 5: Push to Repo
+  #     - name: Push files to repo
+  #       env:
+  #         GIT_USERNAME: "GitHub Actions Bot"
+  #         GIT_EMAIL: "actions@github.com"
+  #       run: |
+  #         # Configure Git
+  #         git config --global user.name "$GIT_USERNAME"
+  #         git config --global user.email "$GIT_EMAIL"
+  #         git pull
+  #         # mv jumbo_structured.json JUMBO/
+  #         git add JUMBO/jumbo_structured.json
+  #         if git diff --cached --quiet; then
+  #           echo "No changes to commit"
+  #         else
+  #           git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+  #           git push
+  #         fi
 
   push-json:
-    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo]
+    # needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo]
+    needs: [generate-ah]
     runs-on: arc-runners
     permissions:
       contents: write

@@ -35,4 +35,5 @@ runs:
           libxrender1 \
           libasound2 \
           libfreetype6 \
+          libx11-xcb1  \
           libfontconfig1 
