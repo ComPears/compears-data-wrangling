@@ -8,7 +8,7 @@ on:
 
 jobs:
   generate-ah:
-    runs-on: ubuntu-latest
+    runs-on: arc-runners
     permissions:
       contents: write
 
@@ -64,7 +64,7 @@ jobs:
           fi
   
   generate-aldi:
-    runs-on: ubuntu-latest
+    runs-on: arc-runners
     permissions:
       contents: write
 
@@ -125,7 +125,7 @@ jobs:
           fi
 
   generate-dirk:
-    runs-on: ubuntu-latest
+    runs-on: arc-runners
     permissions:
       contents: write
 
@@ -186,7 +186,7 @@ jobs:
           fi
 
   generate-plus:
-    runs-on: ubuntu-latest
+    runs-on: arc-runners
     permissions:
       contents: write
 
@@ -244,7 +244,7 @@ jobs:
           fi
 
   generate-lidl:
-    runs-on: ubuntu-latest
+    runs-on: arc-runners
     permissions:
       contents: write
 
@@ -301,7 +301,7 @@ jobs:
           fi
 
   generate-coop:
-    runs-on: ubuntu-latest
+    runs-on: arc-runners
     permissions:
       contents: write
 
@@ -358,7 +358,7 @@ jobs:
           fi
 
   generate-jumbo:
-    runs-on: ubuntu-latest
+    runs-on: arc-runners
     permissions:
       contents: write
 
@@ -415,7 +415,7 @@ jobs:
 
   push-json:
     needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo]
-    runs-on: ubuntu-latest
+    runs-on: arc-runners
     permissions:
       contents: write
 
