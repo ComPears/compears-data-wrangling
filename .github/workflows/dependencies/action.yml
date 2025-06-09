@@ -1,0 +1,42 @@
+name: "Install dependencies"
+description: "Install dependencies for the Runner"
+
+inputs:
+    runner:
+        description: "Runner OS"
+        required: true
+        default: "arc-runners"
+
+runs:
+  using: "composite"
+  steps:
+    - name: "Checkout"
+      uses: actions/checkout@v4
+      with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+    - name: Install packages
+      shell: bash
+      run: |
+        sudo apt-get update -y && sudo apt-get install -y \
+          awscli \
+          curl \
+          jq \
+          make \
+          libxcb-shm0 \
+          libxrandr2 \
+          libxcomposite1 \
+          libxcursor1 \
+          libxdamage1 \
+          libxfixes3 \
+          libxi6 \
+          libgtk-3-0 \
+          libpangocairo-1.0-0 \
+          libpango-1.0-0 \
+          libatk1.0-0 \
+          libcairo-gobject2 \
+          libcairo2 \
+          libgdk-pixbuf-2.0-0 \
+          libxrender1 \
+          libasound2 \
+          libfreetype6 \
+          libfontconfig1 

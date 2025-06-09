@@ -36,10 +36,16 @@ jobs:
       # --- installs the browser binaries ---
       - name: Install Playwright browsers
         run: python -m playwright install
+      
+      - name: Install dependencies
+        uses: ./.github/workflows/dependencies
+        with:
+          runner: ${{ runner.os }}
 
       # --- Step 4a: Run Python script to generate AH structured_all_merged.json ---
       - name: Generate AH structured_all_merged.json
         run: |
+          playwright install-deps 
           cd AH
           python main.py
           python parse_all_json.py
@@ -92,10 +98,16 @@ jobs:
       # --- installs the browser binaries ---
       - name: Install Playwright browsers
         run: python -m playwright install
+      
+      - name: Install dependencies
+        uses: ./.github/workflows/dependencies
+        with:
+          runner: ${{ runner.os }}
 
       # --- Step 4a: Run Python script to generate ALDI structured_aldi.json ---
       - name: Generate structured_aldi.json
         run: |
+          playwright install-deps 
           cd ALDI
           python main.py 
           cd Test
@@ -153,10 +165,16 @@ jobs:
       # --- installs the browser binaries ---
       - name: Install Playwright browsers
         run: python -m playwright install
+      
+      - name: Install dependencies
+        uses: ./.github/workflows/dependencies
+        with:
+          runner: ${{ runner.os }}
 
       # --- Step 4a: Run Python script to generate DIRK dirk_all.json ---
       - name: Generate dirk_all.json
         run: |
+          playwright install-deps 
           cd DIRK
           python main.py
           python seperate.py
@@ -214,10 +232,16 @@ jobs:
       # --- installs the browser binaries ---
       - name: Install Playwright browsers
         run: python -m playwright install
+      
+      - name: Install dependencies
+        uses: ./.github/workflows/dependencies
+        with:
+          runner: ${{ runner.os }}
 
       # --- Step 4a: Run Python script to generate PLUS structured_plus.json ---
       - name: Generate PLUS structured_plus.json
         run: |
+          playwright install-deps 
           cd PLUS
           python main.py
           python remove_pattern.py
@@ -272,10 +296,16 @@ jobs:
       # --- installs the browser binaries ---
       - name: Install Playwright browsers
         run: python -m playwright install
+      
+      - name: Install dependencies
+        uses: ./.github/workflows/dependencies
+        with:
+          runner: ${{ runner.os }}
 
       # --- Step 4a: Run Python script to generate LIDL lidl_structured.json ---
       - name: Generate LIDL lidl_structured.json
         run: |
+          playwright install-deps
           cd LIDL
           python main.py
           python structure.py
@@ -329,10 +359,16 @@ jobs:
       # --- installs the browser binaries ---
       - name: Install Playwright browsers
         run: python -m playwright install
+      
+      - name: Install dependencies
+        uses: ./.github/workflows/dependencies
+        with:
+          runner: ${{ runner.os }}
 
       # --- Step 4a: Run Python script to generate COOP coop_structured.json ---
       - name: Generate COOP coop_structured.json
         run: |
+          playwright install-deps 
           cd COOP
           python main.py
           python structure.py
@@ -384,10 +420,16 @@ jobs:
       # --- installs the browser binaries ---
       - name: Install Playwright browsers
         run: python -m playwright install
+      
+      - name: Install dependencies
+        uses: ./.github/workflows/dependencies
+        with:
+          runner: ${{ runner.os }}
 
       # --- Step 4d: Run Python script to generate DIRK jumbo_structured.json ---
       - name: Generate jumbo_structured.json
         run: |
+          playwright install-deps 
           cd JUMBO
           python main.py
           python merge.py
@@ -445,6 +487,7 @@ jobs:
       # --- Step 4: Run Python script to generate supermarkets_merged.json ---
       - name: Generate supermarkets_merged.json
         run: |
+          playwright install-deps 
           python merge_supermarkets.py  
 
       # --- Step 5: Push to target repository ---
