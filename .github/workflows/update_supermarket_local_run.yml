@@ -1,0 +1,146 @@
+name: Update Supermarket JSON Daily
+
+on:
+  # push:
+  schedule:
+    - cron: '0 0 * * *'  # 12 AM UTC daily
+  workflow_dispatch:      # Manual trigger option
+
+jobs:
+  generate-ah-aldi-dirk:
+    runs-on: arc-runners
+    permissions:
+      contents: write
+
+    steps:
+      # --- Step 1: Checkout current repo ---
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+
+      # --- Step 2: Set up Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # --- Step 3: Install dependencies (if needed) ---
+      - name: Install dependencies
+        run: |
+          # Only install if requirements.txt exists
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+      
+      # --- installs the browser binaries ---
+      - name: Install Playwright browsers
+        run: python -m playwright install
+
+      # --- Step 4a: Run Python script to generate AH structured_all_merged.json ---
+      - name: Generate AH structured_all_merged.json
+        run: |
+          python AH/script.py 
+
+      # --- Step 4b: Run Python script to generate ALDI structured_aldi.json ---
+      - name: Generate structured_aldi.json
+        run: |
+          python ALDI/script.py 
+
+      # --- Step 4c: Run Python script to generate DIRK dirk_all.json ---
+      - name: Generate dirk_all.json
+        run: |
+          python DIRK/script.py
+
+      # --- Step 5: Push to Repo
+      - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          mv structured_all_merged.json AH/
+          mv structured_aldi.json ALDI/
+          mv dirk_all.json DIRK/
+          git add AH/structured_all_merged.json ALDI/structured_aldi.json DIRK/dirk_all.json
+          git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+
+  generate-jumbo-and-push:
+    needs: generate-ah-aldi-dirk
+    runs-on: arc-runners
+    permissions:
+      contents: write
+
+    steps:
+      # --- Step 1: Checkout current repo ---
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+
+      # --- Step 2: Set up Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # --- Step 3: Install dependencies (if needed) ---
+      - name: Install dependencies
+        run: |
+          # Only install if requirements.txt exists
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+      
+      # --- installs the browser binaries ---
+      - name: Install Playwright browsers
+        run: python -m playwright install
+
+      # --- Step 4d: Run Python script to generate DIRK jumbo_structured.json ---
+      - name: Generate jumbo_structured.json
+        run: |
+          python JUMBO/script.py
+
+      # --- Step 4e: Run Python script to generate supermarkets_merged.json ---
+      - name: Generate supermarkets_merged.json
+        run: |
+          python merge_supermarkets.py  
+
+      # --- Step 5: Push to Repo
+      - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          git pull
+          mv jumbo_structured.json JUMBO/
+          git add JUMBO/jumbo_structured.json supermarkets_merged.json
+          git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+
+      # --- Step 5: Push to target repository ---
+      - name: Push to target repo
+        env:
+          TARGET_REPO: "https://${{ secrets.TARGET_REPO_TOKEN }}@github.com/ComPears/compear.git"
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+
+          # Clone target repo
+          git clone $TARGET_REPO target-repo
+          pwd
+          # Copy supermarkets_merged.json to target repo
+          cp supermarkets_merged.json target-repo/
+
+          # Commit and push
+          cd target-repo
+          git add .
+          git commit -m "Automated update: supermarkets_merged.json $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
