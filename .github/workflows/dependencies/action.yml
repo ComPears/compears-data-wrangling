@@ -36,4 +36,7 @@ runs:
           libasound2 \
           libfreetype6 \
           libx11-xcb1  \
-          libfontconfig1 
+          libfontconfig1  \
+          libnss3 \
+          libnspr4 \
+          libgbm1
