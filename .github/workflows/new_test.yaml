@@ -72,6 +72,7 @@ jobs:
           fi
   
   generate-aldi:
+    needs: [generate-ah]
     runs-on: arc-runners
     permissions:
       contents: write
@@ -138,6 +139,7 @@ jobs:
           fi
 
   generate-dirk:
+    needs: [generate-aldi]
     runs-on: arc-runners
     permissions:
       contents: write
@@ -204,6 +206,7 @@ jobs:
           fi
 
   generate-plus:
+    needs: [generate-dirk]
     runs-on: arc-runners
     permissions:
       contents: write
@@ -267,6 +270,7 @@ jobs:
           fi
 
   generate-lidl:
+    needs: [generate-plus]
     runs-on: arc-runners
     permissions:
       contents: write
@@ -329,6 +333,7 @@ jobs:
           fi
 
   generate-coop:
+    needs: [generate-lidl]
     runs-on: arc-runners
     permissions:
       contents: write
@@ -391,6 +396,7 @@ jobs:
           fi
 
   generate-jumbo:
+    needs: [generate-coop]
     runs-on: arc-runners
     permissions:
       contents: write
@@ -452,8 +458,8 @@ jobs:
           fi
 
   push-json:
-    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo]
-    # needs: [generate-ah]
+    # needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo]
+    needs: [generate-jumbo]
     runs-on: arc-runners
     permissions:
       contents: write
