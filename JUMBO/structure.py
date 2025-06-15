@@ -6,16 +6,37 @@ with open("Jumbo.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Keyword and regex patterns
+
 offer_keywords = [
+    "nu voor",
     "korting",
     "actie",
-    "van ",
-    "voor ",
     "deal",
     "2 voor",
+    "3 voor",
     "aanbieding",
     "probeer prijs",
+    "2 + 1 GRATIS",
+    "1 + 1 GRATIS",
+    "2 VOOR",
+    "3 VOOR",
+    "4 VOOR",
+    "6 VOOR",
+    "2 voor 6.00",
+    "aanbieding",
+    "gratis",
+    "3+1 GRATIS",
+    "1+1 GRATIS",
+    "GRATIS BEZORGING",
+    "25 % KORTING",
+    "15 % KORTING",
+    "50 % KORTING",
+    "1.00 KORTING",
+    "2E 50% KORTING",
+    "OP=OP",
+    "2E HALVE PRIJS",
 ]
+
 unit_pattern = re.compile(
     r"\b\d+([.,]?\d+)?\s?(g|kg|ml|l|cl|stuks?|x\s?\d+.*)\b", re.IGNORECASE
 )
@@ -32,7 +53,12 @@ def parse_entry(entry):
 
     # 2. Offer: only lines with clear keywords
     offer_lines = [
-        line for line in raw_lines if any(k in line.lower() for k in offer_keywords)
+        line
+        for line in raw_lines
+        if any(
+            re.search(rf"\b{re.escape(k.lower())}\b", line.lower())
+            for k in offer_keywords
+        )
     ]
     offer = " ".join(offer_lines) if offer_lines else ""
 
