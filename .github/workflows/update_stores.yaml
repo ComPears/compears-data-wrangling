@@ -1,0 +1,507 @@
+name: TEST - Supermarket JSON 
+
+on:
+  push:
+  schedule:
+    - cron: '0 0 * * *'  # 12 AM UTC daily
+  workflow_dispatch:      # Manual trigger option
+
+jobs:
+  generate-ah:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # --- Step 1: Checkout current repo ---
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+
+      # --- Step 2: Set up Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # --- Step 3: Install dependencies (if needed) ---
+      - name: Install dependencies
+        run: |
+          # Only install if requirements.txt exists
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+      
+      - name: Install Playwright browsers
+        run: python -m playwright install
+      
+      
+
+      # --- Step 4a: Run Python script to generate AH structured_all_merged.json ---
+      - name: Generate AH structured_all_merged.json
+        run: |
+          # playwright install-deps 
+          cd AH
+          mkdir new_results
+          python main.py
+          python parse_all_json.py
+          python clean_ah.py
+
+      # --- Step 5: Push to Repo
+      - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          git pull
+          # mv structured_all_merged.json AH/
+          git add AH/structured_all_merged.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+  
+  generate-aldi:
+    # needs: [generate-ah]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # --- Step 1: Checkout current repo ---
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+
+      # --- Step 2: Set up Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # --- Step 3: Install dependencies (if needed) ---
+      - name: Install dependencies
+        run: |
+          # Only install if requirements.txt exists
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Install Playwright browsers
+        run: python -m playwright install
+
+      # --- Step 4a: Run Python script to generate ALDI structured_aldi.json ---
+      - name: Generate structured_aldi.json
+        run: |
+          # playwright install-deps 
+          cd ALDI
+          python main.py 
+          python mergejson.py
+          python remove_patterns.py
+          python restructure.py
+          python clean_aldi.py
+
+      # --- Step 5: Push to Repo
+      - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          git pull
+          # mv structured_aldi.json ALDI/
+          git add ALDI/structured_aldi.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
+  generate-dirk:
+    # needs: [generate-aldi]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # --- Step 1: Checkout current repo ---
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+
+      # --- Step 2: Set up Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # --- Step 3: Install dependencies (if needed) ---
+      - name: Install dependencies
+        run: |
+          # Only install if requirements.txt exists
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Install Playwright browsers
+        run: python -m playwright install
+
+      # --- Step 4a: Run Python script to generate DIRK dirk_all.json ---
+      - name: Generate dirk_all.json
+        run: |
+          # playwright install-deps 
+          cd DIRK
+          python main.py
+          python seperate.py
+          python actieprobeer.py
+          python structure.py
+          python mergeit.py
+          python decimal_fix.py
+          python clean_dirk.py
+
+      # --- Step 5: Push to Repo
+      - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          git pull
+          # mv dirk_all.json DIRK/
+          git add DIRK/dirk_all.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
+  generate-plus:
+    # needs: [generate-dirk]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # --- Step 1: Checkout current repo ---
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+
+      # --- Step 2: Set up Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # --- Step 3: Install dependencies (if needed) ---
+      - name: Install dependencies
+        run: |
+          # Only install if requirements.txt exists
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Install Playwright browsers
+        run: python -m playwright install
+
+      # --- Step 4a: Run Python script to generate PLUS structured_plus.json ---
+      - name: Generate PLUS structured_plus.json
+        run: |
+          # playwright install-deps 
+          cd PLUS
+          python main.py
+          python remove_pattern.py
+          python fix.py
+          python clean_plus.py
+
+      # --- Step 5: Push to Repo
+      - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          git pull
+          # mv structured_plus.json PLUS/
+          git add PLUS/structured_plus.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
+  generate-lidl:
+    # needs: [generate-plus]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # --- Step 1: Checkout current repo ---
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+
+      # --- Step 2: Set up Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # --- Step 3: Install dependencies (if needed) ---
+      - name: Install dependencies
+        run: |
+          # Only install if requirements.txt exists
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Install Playwright browsers
+        run: python -m playwright install
+
+      # --- Step 4a: Run Python script to generate LIDL lidl_structured.json ---
+      - name: Generate LIDL lidl_structured.json
+        run: |
+          playwright install-deps
+          cd LIDL
+          python main.py
+          python structure.py
+          python clean_lidl.py
+
+      # --- Step 5: Push to Repo
+      - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          git pull
+          # mv lidl_structured.json LIDL/
+          git add LIDL/lidl_structured.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
+  generate-coop:
+    # needs: [generate-lidl]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # --- Step 1: Checkout current repo ---
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+
+      # --- Step 2: Set up Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # --- Step 3: Install dependencies (if needed) ---
+      - name: Install dependencies
+        run: |
+          # Only install if requirements.txt exists
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Install Playwright browsers
+        run: python -m playwright install
+
+      # --- Step 4a: Run Python script to generate COOP coop_structured.json ---
+      - name: Generate COOP coop_structured.json
+        run: |
+          # playwright install-deps 
+          cd COOP
+          python main.py
+          python structure.py
+          python clean_coop.py
+
+      # --- Step 5: Push to Repo
+      - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          git pull
+          # mv coop_structured.json COOP/
+          git add COOP/coop_structured.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
+  generate-jumbo:
+    # needs: [generate-coop]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # --- Step 1: Checkout current repo ---
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+
+      # --- Step 2: Set up Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # --- Step 3: Install dependencies (if needed) ---
+      - name: Install dependencies
+        run: |
+          # Only install if requirements.txt exists
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Install Playwright browsers
+        run: python -m playwright install
+      
+      # --- Step 4d: Run Python script to generate DIRK jumbo_structured.json ---
+      - name: Generate jumbo_structured.json
+        run: |
+          # playwright install-deps 
+          cd JUMBO
+          python main.py
+          python merge.py
+          python structure.py
+          python clean_jumbo.py
+
+      # --- Step 5: Push to Repo
+      - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          git pull
+          # mv jumbo_structured.json JUMBO/
+          git add JUMBO/jumbo_structured.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
+  push-merge-supermarkets-json:
+    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo]
+    # needs: [generate-jumbo]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # --- Step 1: Checkout current repo ---
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+
+      # --- Step 2: Set up Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # --- Step 3: Install dependencies (if needed) ---
+      - name: Install dependencies
+        run: |
+          # Only install if requirements.txt exists
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+      
+
+      - name: Install Playwright browsers
+        run: python -m playwright install
+
+      # --- Step 4: Run Python script to generate supermarkets.json ---
+      - name: Generate supermarkets.json
+        run: |
+          # playwright install-deps 
+          python merge_supermarkets.py  
+
+      # --- Step 5: Push to Repo
+      - name: Push files to repo
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          git pull
+          git add supermarkets.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
+      # --- Step 5: Push to target repository ---
+      - name: Push to target repo
+        env:
+          TARGET_REPO: "https://${{ secrets.TARGET_REPO_TOKEN }}@github.com/ComPears/compear.git"
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          # Configure Git
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+
+          # Clone target repo
+          git clone $TARGET_REPO target-repo
+          pwd
+          # Copy supermarkets_merged.json to target repo
+          cp supermarkets_merged.json target-repo/
+
+          # Commit and push
+          cd target-repo
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated update: supermarkets_merged.json $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
