@@ -137,10 +137,12 @@ jobs:
           git clone $TARGET_REPO target-repo
           pwd
           # Copy supermarkets_merged.json to target repo
-          cp supermarkets_merged.json target-repo/
+          cd target-repo/src/data
+          rm -f supermarkets.json
+          mv supermarkets_merged.json supermarkets.json
 
           # Commit and push
           cd target-repo
           git add .
-          git commit -m "Automated update: supermarkets_merged.json $(date +'%Y-%m-%d %H:%M:%S')"
+          git commit -m "Automated update: supermarkets.json $(date +'%Y-%m-%d %H:%M:%S')"
           git push
