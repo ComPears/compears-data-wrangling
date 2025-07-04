@@ -43,7 +43,6 @@ jobs:
         run: |
           # playwright install-deps 
           cd AH
-          mkdir new_results
           python main.py
           python parse_all_json.py
           python clean_ah.py
