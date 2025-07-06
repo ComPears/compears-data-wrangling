@@ -493,11 +493,8 @@ jobs:
           # Clone target repo
           git clone $TARGET_REPO target-repo
           pwd
-          cd target-repo/src/data
-          rm -f supermarkets.json
-          mv supermarkets_merged.json supermarkets.json
-          # Copy supermarkets_merged.json to target repo
-          # cp supermarkets_merged.json target-repo/
+          #Copy supermarkets_merged.json to target repo
+          cp supermarkets.json target-repo/src/data
 
           # Commit and push
           cd ../
