@@ -1,7 +1,6 @@
 import json
 
-
-def remove_duplicate_items_from_json(input_file, key="n"):
+def clean_json(input_file, key="n"):
     # Load JSON data from file
     with open(input_file, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -38,7 +37,4 @@ def remove_duplicate_items_from_json(input_file, key="n"):
 
 
 # Example usage
-input_file = "structured_all_merged.json"  # Input file path
-
-
-remove_duplicate_items_from_json(input_file)
+input_file = "ah_structured.json"  # Input file path
