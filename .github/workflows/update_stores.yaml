@@ -1,7 +1,7 @@
 name: Supermarket JSON 
 
 on:
-  # push:
+  push:
   schedule:
     - cron: '0 0 * * *'  # 12 AM UTC daily
   workflow_dispatch:      # Manual trigger option
@@ -44,7 +44,8 @@ jobs:
           # playwright install-deps 
           cd AH
           python main.py
-          python parse_all_json.py
+          python merge.py
+          python struc.py
           python clean_ah.py
 
       # --- Step 5: Push to Repo
