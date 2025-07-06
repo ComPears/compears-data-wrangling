@@ -3,10 +3,14 @@ import re
 import os
 from playwright.sync_api import sync_playwright
 from links_dictionary import get_ah_links
+from merge import merge_json_files
+from struc import re_structure
+from clean_ah import clean_json
 
 # Configuration
 input_folder = "./new_results"
 output_file = "structured_all_merged.json"
+# final_file = "ah_structured.json"
 
 # Patterns for parsing
 unit_pattern = re.compile(
@@ -181,10 +185,13 @@ def main():
         scrape_ah_products(url, name)
         # Clean each file right after scraping
         file_path = f"{input_folder}/{name}.json"
-        clean_raw_text_in_file(file_path)
-    
+
+    merge_json_files(input_folder, output_file)
+
     # Then parse all the scraped data
-    parse_all_json_files()
+    re_structure(output_file,output_file)
+    clean_json(output_file)
+
 
 if __name__ == "__main__":
     main()
