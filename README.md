@@ -65,19 +65,6 @@ python3 clean_ah.py
 ```
 
 
-Then also run the structure py file to restructure the main dirk file
-
-```
-python3 structure.py
-```
-
-
-```
-python3 mergeit.py
-```
-
-
-
 ## ALDI
  To start scraping aldi
 ```
