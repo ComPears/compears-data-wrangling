@@ -49,6 +49,32 @@ Run the main code
 python3 main.py
 ```
 
+Run the merge.py
+```
+python3 merge.py
+```
+
+Run the struc.py
+```
+python3 struc.py
+```
+
+Run the clean_ah.py
+```
+python3 clean_ah.py
+```
+
+
+Then also run the structure py file to restructure the main dirk file
+
+```
+python3 structure.py
+```
+
+
+```
+python3 mergeit.py
+```
 
 
 
