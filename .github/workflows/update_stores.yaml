@@ -497,7 +497,7 @@ jobs:
           cp supermarkets.json target-repo/src/data
 
           # Commit and push
-          cd ../
+          cd target-repo
           git add .
           if git diff --cached --quiet; then
             echo "No changes to commit"
