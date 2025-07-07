@@ -30,7 +30,7 @@ scripts_config = [
         "output_json": "JUMBO/jumbo_structured.json" 
     }
 ]
-supermarket_json_path = "supermarkets_merged.json"  # Final output file
+supermarket_json_path = "supermarkets.json"  # Final output file
 
 def load_json(file_path):
     """Load JSON data from a file, return empty dict if file doesn't exist."""
