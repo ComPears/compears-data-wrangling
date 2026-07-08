@@ -82,7 +82,18 @@ def scrape_jumbo_products(link_list):
                             wait_for_products(page, "article.product-container")
                             click_count += 1
 
-                            if not page.query_selector_all("article.product-container"):
+                            cards_after = page.query_selector_all(
+                                "article.product-container"
+                            )
+                            if not cards_after:
+                                page.wait_for_timeout(5000)
+                                wait_for_products(
+                                    page, "article.product-container", timeout=20000
+                                )
+                                cards_after = page.query_selector_all(
+                                    "article.product-container"
+                                )
+                            if not cards_after:
                                 print("⚠️ No products after pagination; stopping.")
                                 break
                         else:
