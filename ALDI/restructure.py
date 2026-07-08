@@ -1,7 +1,10 @@
 import json
 import re
 import sys
-import os
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import structured_with_category
 
 
 def parse_product_text(raw_text: str) -> dict:
@@ -121,7 +124,7 @@ def transform_entry(entry: dict) -> dict:
         result["o"] = parsed["offer"]
     if "image" in entry and entry["image"]:
         result["i"] = entry["image"]
-    return result
+    return structured_with_category(entry, result)
 
 
 def organize_json(data):

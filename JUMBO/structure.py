@@ -1,5 +1,10 @@
 import json
 import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import structured_with_category
 
 # Load the raw scraped file
 with open("Jumbo.json", "r", encoding="utf-8") as f:
@@ -81,7 +86,10 @@ def parse_entry(entry):
     # 5. Image link
     image = entry.get("image", "")
 
-    return {"n": only_name, "p": price, "o": offer, "s": size, "l": image}
+    return structured_with_category(
+        entry,
+        {"n": only_name, "p": price, "o": offer, "s": size, "l": image},
+    )
 
 
 # # Apply to all entries

@@ -8,6 +8,7 @@ from typing import List, Optional
 from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import category_from_url
 from scrape_utils import (
     accept_common_cookies,
     configure_page,
@@ -73,12 +74,13 @@ def scrape_plus_products(links: List[str], output_file: str = "plus.json") -> No
                 wait_for_products(page, ".plp-item-wrapper", timeout=20000)
 
                 cards = page.query_selector_all(".plp-item-wrapper")
+                category = category_from_url(url)
                 new_data = []
                 for card in cards:
                     raw_text = card.inner_text().strip()
                     img = card.query_selector("img")
                     image_url = img.get_attribute("src") if img else None
-                    new_data.append({"raw_text": raw_text, "image": image_url})
+                    new_data.append({"raw_text": raw_text, "image": image_url, "category": category})
 
                 require_products(len(new_data), url)
                 product_data.extend(new_data)

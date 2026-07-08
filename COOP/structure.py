@@ -1,5 +1,10 @@
 import json
 import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import structured_with_category
 
 # Load the raw scraped file
 with open("coop.json", "r", encoding="utf-8") as f:
@@ -114,13 +119,16 @@ def parse_entry(entry):
     if image == "/assets/img/not_available.svg":
         image = ""
 
-    return {
-        "n": name,
-        "o": offer if offer else "",
-        "p": regular_price,
-        "s": size,
-        "l": image,
-    }
+    return structured_with_category(
+        entry,
+        {
+            "n": name,
+            "o": offer if offer else "",
+            "p": regular_price,
+            "s": size,
+            "l": image,
+        },
+    )
 
 
 # Apply to all entries

@@ -1,5 +1,10 @@
 import json
 import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import structured_with_category
 
 # Load the input file
 with open("JSONs/dirk_probeer_prijs_actie.json", "r", encoding="utf-8") as f:
@@ -48,7 +53,10 @@ def parse_entry(entry):
     # Name
     name = " ".join(raw_lines).strip()
 
-    return {"n": name, "p": price, "o": offer, "s": size, "l": image_links}
+    return structured_with_category(
+        entry,
+        {"n": name, "p": price, "o": offer, "s": size, "l": image_links},
+    )
 
 
 # Parse all entries

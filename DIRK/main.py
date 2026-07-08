@@ -8,6 +8,7 @@ from playwright.sync_api import sync_playwright
 from links2 import links
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import category_from_url
 from scrape_utils import (
     accept_common_cookies,
     configure_page,
@@ -41,6 +42,7 @@ with sync_playwright() as p:
             wait_for_products(page, "article[data-product-id]", timeout=20000)
 
             print("🔄 Loading all products...")
+            category = category_from_url(url)
             cards = page.query_selector_all("article[data-product-id]")
             new_data = []
 
@@ -51,7 +53,7 @@ with sync_playwright() as p:
                 seen.add(raw_text)
                 img_el = card.query_selector("img.main-image")
                 img_src = img_el.get_attribute("src") if img_el else None
-                new_data.append({"raw_text": raw_text, "image": img_src})
+                new_data.append({"raw_text": raw_text, "image": img_src, "category": category})
 
             require_products(len(new_data), url)
             product_data.extend(new_data)

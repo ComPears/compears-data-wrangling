@@ -7,6 +7,7 @@ from links import get_aldi_links
 from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import category_from_url
 from scrape_utils import (
     accept_common_cookies,
     configure_page,
@@ -39,6 +40,7 @@ def scrape_aldi_products(link_dict) -> None:
 
                 data: list[dict] = []
                 seen: set[str] = set()
+                category = category_from_url(url)
 
                 while True:
                     cards = page.query_selector_all("div.product-tile")
@@ -51,7 +53,9 @@ def scrape_aldi_products(link_dict) -> None:
                             "img.product-tile__image-section__picture"
                         )
                         img_src = img_el.get_attribute("src") if img_el else None
-                        data.append({"raw_text": raw_text, "image": img_src})
+                        data.append(
+                            {"raw_text": raw_text, "image": img_src, "category": category}
+                        )
 
                     more_btn = page.locator("button:has-text('Meer tonen')")
                     if more_btn.count() and more_btn.first.is_visible():

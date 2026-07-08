@@ -7,6 +7,7 @@ from playwright.sync_api import sync_playwright
 from links import links
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import category_from_url
 from scrape_utils import (
     accept_common_cookies,
     configure_page,
@@ -43,6 +44,7 @@ def scrape_lidl_pages() -> None:
                     page.wait_for_timeout(400)
 
                 wait_for_products(page, "div.odsc-tile", timeout=20000)
+                category = category_from_url(url)
                 cards = page.query_selector_all("div.odsc-tile")
                 print(f"📦 Found {len(cards)} product cards.")
 
@@ -54,7 +56,7 @@ def scrape_lidl_pages() -> None:
                     seen.add(text)
                     img = card.query_selector("img.odsc-image-gallery__image")
                     src = img.get_attribute("src") if img else None
-                    all_data.append({"raw_text": text, "image": src})
+                    all_data.append({"raw_text": text, "image": src, "category": category})
                     url_count += 1
 
                 require_products(url_count, url)

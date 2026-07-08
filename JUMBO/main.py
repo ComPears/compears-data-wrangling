@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import category_from_url
 from scrape_utils import (
     accept_common_cookies,
     configure_page,
@@ -48,6 +49,7 @@ def scrape_jumbo_products(link_list) -> None:
                 seen: set[str] = set()
                 data: list[dict] = []
                 click_count = 0
+                category = category_from_url(link)
 
                 while True:
                     wait_for_products(page, "article.product-container", timeout=20000)
@@ -64,7 +66,7 @@ def scrape_jumbo_products(link_list) -> None:
                             'div.product-image img[data-testid="jum-product-image"]'
                         )
                         src = img.get_attribute("src") if img else None
-                        data.append({"raw_text": raw_text, "image": src})
+                        data.append({"raw_text": raw_text, "image": src, "category": category})
 
                     more_btn = page.locator("button:has-text('Volgende')")
                     if more_btn.count() and more_btn.first.is_visible() and more_btn.first.is_enabled():

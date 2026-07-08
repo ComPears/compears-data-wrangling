@@ -1,5 +1,10 @@
 import json
 import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import structured_with_category
 
 unit_pattern = re.compile(
     r"\b(per\s*)?\d+\s?(g|kg|ml|l|cl|stuks?|x\s?\d+.*|st|gram)\b", re.IGNORECASE
@@ -110,7 +115,10 @@ def parse_entry(entry):
     price = extract_price(raw_lines)
     image = entry.get("image", "")
 
-    return {"n": name, "o": offer, "s": size, "p": price, "l": image}
+    return structured_with_category(
+        entry,
+        {"n": name, "o": offer, "s": size, "p": price, "l": image},
+    )
 
 
 def main():

@@ -1,5 +1,10 @@
 import json
 import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import structured_with_category
 
 
 def re_structure(input_file: str, output_file: str):
@@ -109,13 +114,16 @@ def re_structure(input_file: str, output_file: str):
         if image == "/assets/img/not_available.svg":
             image = ""
 
-        return {
-            "n": name,
-            "o": offer if offer else "",
-            "p": regular_price,
-            "s": size,
-            "l": image,
-        }
+        return structured_with_category(
+            entry,
+            {
+                "n": name,
+                "o": offer if offer else "",
+                "p": regular_price,
+                "s": size,
+                "l": image,
+            },
+        )
 
     structured = [parse_entry(entry) for entry in data]
 

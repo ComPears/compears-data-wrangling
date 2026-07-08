@@ -8,6 +8,7 @@ from playwright.sync_api import sync_playwright
 from links import links
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from category_utils import category_from_coop_url
 from scrape_utils import (
     accept_common_cookies,
     configure_page,
@@ -44,6 +45,7 @@ def scrape_coop_products(urls, output_file: str = "coop.json") -> None:
 
                 url_products: list[dict] = []
                 page_num = 1
+                category = category_from_coop_url(url)
 
                 while True:
                     cards = page.query_selector_all(".product-card")
@@ -56,7 +58,7 @@ def scrape_coop_products(urls, output_file: str = "coop.json") -> None:
                         seen.add(raw_text)
                         img = card.query_selector("img")
                         img_src = img.get_attribute("src") if img else None
-                        entry = {"raw_text": raw_text, "image": img_src}
+                        entry = {"raw_text": raw_text, "image": img_src, "category": category}
                         url_products.append(entry)
                         new_on_page += 1
 
