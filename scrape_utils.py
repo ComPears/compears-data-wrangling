@@ -5,19 +5,66 @@ from __future__ import annotations
 import sys
 import time
 from typing import Callable
+from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 
-from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError
+from playwright.sync_api import Browser, Page, Playwright, TimeoutError as PlaywrightTimeoutError
 
 DEFAULT_USER_AGENT = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) "
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/44.0.4919.1885 Safari/537.36"
+    "Chrome/120.0.0.0 Safari/537.36"
 )
+
+
+class EmptyCategoryError(RuntimeError):
+    """Raised when a category URL loads but yields no product cards."""
+
+
+def launch_browser(playwright: Playwright, *, browser: str = "chromium") -> Browser:
+    """Launch a headless browser; Chromium is more stable than Firefox in CI."""
+    launcher = getattr(playwright, browser)
+    return launcher.launch(headless=True)
+
+
+def strip_pagination_param(url: str) -> str:
+    """Remove ?page=N so scrapers always start from the first page."""
+    parsed = urlparse(url)
+    query = parse_qs(parsed.query)
+    query.pop("page", None)
+    flat = {key: values[0] for key, values in query.items()}
+    return urlunparse(parsed._replace(query=urlencode(flat)))
 
 
 def configure_page(page: Page, width: int = 1600, height: int = 900) -> None:
     page.set_viewport_size({"width": width, "height": height})
     page.set_extra_http_headers({"User-Agent": DEFAULT_USER_AGENT})
+
+
+def click_button_if_visible(page: Page, selector: str, *, timeout: int = 3000) -> bool:
+    """Click a button if it exists and is visible (e.g. cookie consent)."""
+    try:
+        button = page.locator(selector).first
+        if button.is_visible(timeout=timeout):
+            button.click()
+            page.wait_for_timeout(1000)
+            return True
+    except Exception:
+        pass
+    return False
+
+
+def accept_common_cookies(page: Page) -> None:
+    """Try common Dutch cookie-consent button labels."""
+    for selector in (
+        "button:has-text('Accepteren')",
+        "button:has-text('Alles accepteren')",
+        "button:has-text('Akkoord')",
+        "button:has-text('Accepteer')",
+        "button:has-text('Alle cookies accepteren')",
+    ):
+        if click_button_if_visible(page, selector):
+            print(f"🍪 Accepted cookies via {selector}")
+            return
 
 
 def goto_resilient(
@@ -68,6 +115,38 @@ def wait_for_products(page: Page, selector: str, timeout: int = 15000) -> None:
         page.wait_for_timeout(3000)
 
 
+def require_products(count: int, label: str, *, min_count: int = 1) -> None:
+    """Fail a category scrape when no products were collected."""
+    if count < min_count:
+        raise EmptyCategoryError(
+            f"No products scraped for {label} (got {count}, need >= {min_count})"
+        )
+
+
+def report_batch_failures(
+    failures: list[tuple[str, str]],
+    total: int,
+    *,
+    max_failure_ratio: float = 0.5,
+    label: str = "URLs",
+) -> None:
+    """Print failures and exit non-zero if too many categories failed."""
+    if not failures:
+        return
+
+    print(f"⚠️ {len(failures)}/{total} {label} failed:")
+    for url, msg in failures:
+        print(f"   - {url}: {msg}")
+
+    failure_ratio = len(failures) / total
+    if failure_ratio > max_failure_ratio:
+        print(
+            f"❌ Failure rate {failure_ratio:.0%} exceeds limit "
+            f"{max_failure_ratio:.0%}"
+        )
+        sys.exit(1)
+
+
 def run_url_batch(
     urls: list[str],
     scrape_fn: Callable[[str], None],
@@ -88,17 +167,4 @@ def run_url_batch(
             print(f"❌ Failed to scrape {url}: {msg}")
             failures.append((url, msg))
 
-    if not failures:
-        return
-
-    print(f"⚠️ {len(failures)}/{len(urls)} URLs failed:")
-    for url, msg in failures:
-        print(f"   - {url}: {msg}")
-
-    failure_ratio = len(failures) / len(urls)
-    if failure_ratio > max_failure_ratio:
-        print(
-            f"❌ Failure rate {failure_ratio:.0%} exceeds limit "
-            f"{max_failure_ratio:.0%}"
-        )
-        sys.exit(1)
+    report_batch_failures(failures, len(urls), max_failure_ratio=max_failure_ratio)

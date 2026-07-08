@@ -60,7 +60,7 @@ def merge_json_files(folder_path, output_file):
 # Example usage
 if __name__ == "__main__":
     # Replace these with your actual paths
-    folder_with_json_files = "../aldi_results"
+    folder_with_json_files = "aldi_results"
     output_json_file = "merged_aldi.json"
 
     merge_json_files(folder_with_json_files, output_json_file)
