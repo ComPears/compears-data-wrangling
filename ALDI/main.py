@@ -1,24 +1,34 @@
 import json
 import os
+import sys
+from pathlib import Path
+
 from links import get_aldi_links
 from playwright.sync_api import sync_playwright
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from scrape_utils import configure_page, goto_resilient
 
 
 def scrape_aldi_products(link_dict):
     os.makedirs("aldi_results", exist_ok=True)
+    failures: list[tuple[str, str]] = []
 
     with sync_playwright() as p:
         browser = p.firefox.launch(headless=True)
         page = browser.new_page()
-        page.set_viewport_size({"width": 1600, "height": 900})
-        page.set_extra_http_headers({
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.4919.1885 Safari/537.36"
-        })
+        configure_page(page)
 
         for name, url in link_dict.items():
             print(f"🔄 Scraping: {name} → {url}")
-            page.goto(url, wait_until="networkidle")
-            page.wait_for_timeout(3000)
+            try:
+                goto_resilient(page, url)
+                page.wait_for_timeout(3000)
+            except Exception as err:
+                msg = f"{type(err).__name__}: {err}"
+                print(f"❌ Failed to scrape {name}: {msg}")
+                failures.append((url, msg))
+                continue
 
             data, seen = [], set()
 
@@ -46,6 +56,15 @@ def scrape_aldi_products(link_dict):
             print(f"✅ {len(data)} items saved to {filename}")
 
         browser.close()
+
+    if failures:
+        print(f"⚠️ {len(failures)}/{len(link_dict)} categories failed:")
+        for url, msg in failures:
+            print(f"   - {url}: {msg}")
+        if len(failures) / len(link_dict) > 0.5:
+            print("❌ More than half of ALDI categories failed; exiting.")
+            sys.exit(1)
+
 
 # Run it
 if __name__ == "__main__":

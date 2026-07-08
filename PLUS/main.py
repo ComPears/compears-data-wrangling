@@ -1,10 +1,15 @@
 import json
 import os
-import time
-from playwright.sync_api import sync_playwright, TimeoutError
+import sys
+from pathlib import Path
+
+from playwright.sync_api import sync_playwright
 from typing import List, Optional
 import re
 import math
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from scrape_utils import configure_page, goto_resilient
 
 
 def get_product_count(page) -> Optional[int]:
@@ -34,23 +39,19 @@ def scrape_plus_products(links: List[str], output_file: str = "plus.json"):
     with sync_playwright() as p:
         browser = p.firefox.launch(headless=True)
         page = browser.new_page()
-        page.set_viewport_size({"width": 1280, "height": 800})
+        configure_page(page, width=1280, height=800)
 
-        page.set_extra_http_headers(
-            {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/115.0 Safari/537.36"
-            }
-        )
+        failures: list[tuple[str, str]] = []
 
         for url in links:
             print(f"\n🌐 Scraping: {url}")
             try:
-                page.goto(url, wait_until="networkidle", timeout=60000)
-            except TimeoutError:
-                print(f"⚠️ Timeout on {url}, falling back to domcontentloaded...")
-                page.goto(url, wait_until="domcontentloaded")
+                goto_resilient(page, url)
+            except Exception as err:
+                msg = f"{type(err).__name__}: {err}"
+                print(f"❌ Failed to scrape {url}: {msg}")
+                failures.append((url, msg))
+                continue
 
             print("⏳ Waiting for content to load")
 
@@ -116,6 +117,14 @@ def scrape_plus_products(links: List[str], output_file: str = "plus.json"):
 
         browser.close()
         print("🎯 Done.")
+
+        if failures:
+            print(f"⚠️ {len(failures)}/{len(links)} URLs failed:")
+            for url, msg in failures:
+                print(f"   - {url}: {msg}")
+            if len(failures) / len(links) > 0.5:
+                print("❌ More than half of PLUS URLs failed; exiting.")
+                sys.exit(1)
 
 
 # Example usage:

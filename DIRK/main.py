@@ -1,8 +1,14 @@
 import json
 import os
+import sys
+from pathlib import Path
+
 from playwright.sync_api import sync_playwright
+
 from links2 import links
-from playwright._impl._errors import TimeoutError
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from scrape_utils import configure_page, goto_resilient
 
 output_file = "JSONs/dirk.json"
 
@@ -16,22 +22,19 @@ else:
 with sync_playwright() as p:
     browser = p.firefox.launch(headless=True)
     page = browser.new_page()
+    configure_page(page, width=390, height=844)
 
-    print("🔄 Opening AH.nl...")
-    page.set_viewport_size({"width": 390, "height": 844})
-    page.set_extra_http_headers(
-        {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.4919.1885 Safari/537.36"
-        }
-    )
+    failures: list[tuple[str, str]] = []
 
     for url in links:
         print(f"🌐 Scraping: {url}")
         try:
-            page.goto(url, wait_until="networkidle", timeout=60000)
-        except TimeoutError:
-            print(f"⚠️ Timeout on {url}, trying domcontentloaded instead...")
-            page.goto(url, wait_until="domcontentloaded")
+            goto_resilient(page, url)
+        except Exception as err:
+            msg = f"{type(err).__name__}: {err}"
+            print(f"❌ Failed to scrape {url}: {msg}")
+            failures.append((url, msg))
+            continue
 
         page.wait_for_timeout(2000)
         print("🔄 Loading all products...")
@@ -64,3 +67,11 @@ with sync_playwright() as p:
 
     print(f"🏁 All done! {len(product_data)} total products saved.")
     browser.close()
+
+if failures:
+    print(f"⚠️ {len(failures)}/{len(links)} URLs failed:")
+    for url, msg in failures:
+        print(f"   - {url}: {msg}")
+    if len(failures) / len(links) > 0.5:
+        print("❌ More than half of DIRK URLs failed; exiting.")
+        sys.exit(1)

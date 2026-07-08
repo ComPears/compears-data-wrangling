@@ -15,15 +15,15 @@ jobs:
     steps:
       # --- Step 1: Checkout current repo ---
       - name: Checkout current repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN}}
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.14'
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
@@ -34,14 +34,13 @@ jobs:
           fi
       
       - name: Install Playwright browsers
-        run: python -m playwright install
-      
-      
+        run: |
+          python -m playwright install
+          python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate AH structured_all_merged.json ---
       - name: Generate AH structured_all_merged.json
         run: |
-          # playwright install-deps 
           cd AH
           python main.py
           python merge.py
@@ -76,15 +75,15 @@ jobs:
     steps:
       # --- Step 1: Checkout current repo ---
       - name: Checkout current repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN}}
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.14'
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
@@ -95,12 +94,13 @@ jobs:
           fi
 
       - name: Install Playwright browsers
-        run: python -m playwright install
+        run: |
+          python -m playwright install
+          python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate ALDI structured_aldi.json ---
       - name: Generate structured_aldi.json
         run: |
-          # playwright install-deps 
           cd ALDI
           python main.py 
           python mergejson.py
@@ -136,15 +136,15 @@ jobs:
     steps:
       # --- Step 1: Checkout current repo ---
       - name: Checkout current repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN}}
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.14'
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
@@ -155,12 +155,13 @@ jobs:
           fi
 
       - name: Install Playwright browsers
-        run: python -m playwright install
+        run: |
+          python -m playwright install
+          python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate DIRK dirk_all.json ---
       - name: Generate dirk_all.json
         run: |
-          # playwright install-deps 
           cd DIRK
           python main.py
           python seperate.py
@@ -198,15 +199,15 @@ jobs:
     steps:
       # --- Step 1: Checkout current repo ---
       - name: Checkout current repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN}}
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.14'
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
@@ -217,12 +218,13 @@ jobs:
           fi
 
       - name: Install Playwright browsers
-        run: python -m playwright install
+        run: |
+          python -m playwright install
+          python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate PLUS structured_plus.json ---
       - name: Generate PLUS structured_plus.json
         run: |
-          # playwright install-deps 
           cd PLUS
           python main.py
           python remove_pattern.py
@@ -257,15 +259,15 @@ jobs:
     steps:
       # --- Step 1: Checkout current repo ---
       - name: Checkout current repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN}}
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.14'
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
@@ -276,12 +278,13 @@ jobs:
           fi
 
       - name: Install Playwright browsers
-        run: python -m playwright install
+        run: |
+          python -m playwright install
+          python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate LIDL lidl_structured.json ---
       - name: Generate LIDL lidl_structured.json
         run: |
-          playwright install-deps
           cd LIDL
           python main.py
           python structure.py
@@ -315,15 +318,15 @@ jobs:
     steps:
       # --- Step 1: Checkout current repo ---
       - name: Checkout current repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN}}
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.14'
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
@@ -334,12 +337,13 @@ jobs:
           fi
 
       - name: Install Playwright browsers
-        run: python -m playwright install
+        run: |
+          python -m playwright install
+          python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate COOP coop_structured.json ---
       - name: Generate COOP coop_structured.json
         run: |
-          # playwright install-deps 
           cd COOP
           python main.py
           python structure.py
@@ -373,15 +377,15 @@ jobs:
     steps:
       # --- Step 1: Checkout current repo ---
       - name: Checkout current repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN}}
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.14'
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
@@ -392,12 +396,13 @@ jobs:
           fi
 
       - name: Install Playwright browsers
-        run: python -m playwright install
+        run: |
+          python -m playwright install
+          python -m playwright install-deps
       
       # --- Step 4d: Run Python script to generate DIRK jumbo_structured.json ---
       - name: Generate jumbo_structured.json
         run: |
-          # playwright install-deps 
           cd JUMBO
           python main.py
           python merge.py
@@ -433,15 +438,15 @@ jobs:
     steps:
       # --- Step 1: Checkout current repo ---
       - name: Checkout current repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN}}
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.14'
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
@@ -453,13 +458,14 @@ jobs:
       
 
       - name: Install Playwright browsers
-        run: python -m playwright install
+        run: |
+          python -m playwright install
+          python -m playwright install-deps
 
       # --- Step 4: Run Python script to generate supermarkets.json ---
       - name: Generate supermarkets.json
         run: |
-          # playwright install-deps 
-          python merge_supermarkets.py  
+          python merge_supermarkets.py
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -505,3 +511,64 @@ jobs:
             git commit -m "Automated update: supermarkets_merged.json $(date +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
+
+  sync-backend-and-render:
+    needs: [push-merge-supermarkets-json]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout data-wrangling repo
+        uses: actions/checkout@v7
+        with:
+          path: compears-data-wrangling
+
+      - name: Checkout backend repo
+        uses: actions/checkout@v7
+        with:
+          repository: ComPears/compear-backend
+          token: ${{ secrets.BACKEND_REPO_TOKEN }}
+          path: compear-backend
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: compear-backend/package-lock.json
+
+      - name: Seed backend product data
+        working-directory: compear-backend
+        env:
+          WRANGLING_PATH: ${{ github.workspace }}/compears-data-wrangling
+        run: |
+          npm ci
+          npm run seed
+
+      - name: Push seeded data to backend repo
+        working-directory: compear-backend
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          git config user.name "$GIT_USERNAME"
+          git config user.email "$GIT_EMAIL"
+          git add src/data/*.json
+          if git diff --cached --quiet; then
+            echo "No backend data changes to commit"
+          else
+            git commit -m "Automated data sync $(date -u +'%Y-%m-%d %H:%M:%SZ')"
+            git push
+          fi
+
+      - name: Trigger Render backend redeploy
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$RENDER_DEPLOY_HOOK_URL" ]; then
+            echo "RENDER_DEPLOY_HOOK_URL not set; skipping Render redeploy"
+            exit 0
+          fi
+          curl -fsS -X POST "$RENDER_DEPLOY_HOOK_URL"
+          echo "Render deploy hook triggered"

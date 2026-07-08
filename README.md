@@ -1,5 +1,17 @@
 # COMPEARS DATA SCRAPER
 
+## Deploy to Render
+
+See `backend/README.md` in the `compear-backend` repo. After each successful daily pipeline run, the `sync-backend-and-render` job re-seeds product JSON into `compear-backend` and triggers a Render redeploy.
+
+### GitHub Actions secrets (compears-data-wrangling repo)
+
+| Secret | Purpose |
+|--------|---------|
+| `TARGET_REPO_TOKEN` | Push merged `supermarkets.json` to the frontend repo |
+| `BACKEND_REPO_TOKEN` | Push seeded `src/data/*.json` to `ComPears/compear-backend` |
+| `RENDER_DEPLOY_HOOK_URL` | Render deploy hook URL for `compear-backend` (Settings → Deploy Hook) |
+
 ## Getting Started
 
 Clone the project 

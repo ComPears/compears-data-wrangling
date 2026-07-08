@@ -1,6 +1,13 @@
 import json
+import sys
+from pathlib import Path
+
 from playwright.sync_api import sync_playwright
+
 from links_dictionary import get_ah_links
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from scrape_utils import configure_page, goto_resilient
 
 
 
@@ -16,11 +23,8 @@ def scrape_ah_products(links, output_file):
 
         for url in links:
             print(f"🔄 Opening {url}...")
-            page.set_viewport_size({"width": 390, "height": 844})
-            page.set_extra_http_headers({
-                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.4919.1885 Safari/537.36"
-            })
-            page.goto(url, wait_until="networkidle")
+            configure_page(page, width=390, height=844)
+            goto_resilient(page, url)
             page.wait_for_timeout(3000)
 
             # 🍪 Accept cookies
@@ -84,7 +88,21 @@ def scrape_ah_products(links, output_file):
         browser.close()
 
 ah_links = get_ah_links()
+failures: list[tuple[str, str]] = []
 
-for name,url in ah_links.items():
+for name, url in ah_links.items():
     print(f"Scraping category: {name}")
-    scrape_ah_products(url, name)
+    try:
+        scrape_ah_products(url, name)
+    except Exception as err:
+        msg = f"{type(err).__name__}: {err}"
+        print(f"❌ Failed to scrape {name}: {msg}")
+        failures.append((url, msg))
+
+if failures:
+    print(f"⚠️ {len(failures)}/{len(ah_links)} categories failed:")
+    for url, msg in failures:
+        print(f"   - {url}: {msg}")
+    if len(failures) / len(ah_links) > 0.5:
+        print("❌ More than half of AH categories failed; exiting.")
+        sys.exit(1)

@@ -1,7 +1,14 @@
 import json
 import os
-from playwright.sync_api import sync_playwright, TimeoutError
-from links import links  
+import sys
+from pathlib import Path
+
+from playwright.sync_api import sync_playwright
+
+from links import links
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from scrape_utils import configure_page, goto_resilient
 
 
 def scrape_coop_products(urls, output_file):
@@ -18,16 +25,20 @@ def scrape_coop_products(urls, output_file):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
-        page.set_viewport_size({"width": 1280, "height": 800})
+        configure_page(page, width=1280, height=800)
 
         all_products = []
+        failures: list[tuple[str, str]] = []
 
         for url in urls:
             print(f"🔄 Opening {url}...")
             try:
-                page.goto(url, wait_until="networkidle", timeout=60000)
-            except TimeoutError:
-                page.goto(url, wait_until="domcontentloaded")
+                goto_resilient(page, url)
+            except Exception as err:
+                msg = f"{type(err).__name__}: {err}"
+                print(f"❌ Failed to scrape {url}: {msg}")
+                failures.append((url, msg))
+                continue
 
             page.wait_for_timeout(2000)
 
@@ -78,6 +89,14 @@ def scrape_coop_products(urls, output_file):
 
 
         browser.close()
+
+    if failures:
+        print(f"⚠️ {len(failures)}/{len(urls)} URLs failed:")
+        for url, msg in failures:
+            print(f"   - {url}: {msg}")
+        if len(failures) / len(urls) > 0.5:
+            print("❌ More than half of COOP URLs failed; exiting.")
+            sys.exit(1)
 
 
 # 🔁 Run the scraper
