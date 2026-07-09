@@ -1,6 +1,6 @@
 appdirs==1.4.4
 certifi==2025.4.26
-greenlet==3.2.1
+greenlet==3.2.2
 importlib_metadata==8.7.0
 playwright==1.52.0
 pyee==13.0.0

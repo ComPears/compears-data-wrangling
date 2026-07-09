@@ -1,130 +1,537 @@
 [
   {
-    "raw_text": "Premium dutch\n\nCocktail of mixdrink\n1.19\n25 cl\nBoodschappenlijstje\nCocktail of mixdrink",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/91216399_bbq?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "BBQ\n\nKipworsten\n2.49\nInhoud: 5 stuks, 325 g\nBOODSCHAPPENLIJSTJE\nKipworsten",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240931_main_cms_2_nl_nl_kipworsten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Premium dutch\n\nRum raspberry cocktail\n1.19\n25 cl\nBoodschappenlijstje\nRum raspberry cocktail",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232175_main_cms_1_nl_nl_rum_raspberry_cocktail_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "BBQ\n\nKipburgers\n1.99\nInhoud: 2 stuks, 170 g\nBOODSCHAPPENLIJSTJE\nKipburgers",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240679_main_cms_4_nl_nl_kipburgers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Premium dutch\n\nWhisky cola\n1.19\n25 cl\nBoodschappenlijstje\nWhisky cola",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232148_main_cms_1_nl_nl_whisky_cola_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "PREMIUM DUTCH\n\nSex on the beach\n5.99\n0.5 l\nBOODSCHAPPENLIJSTJE\nSex on the beach",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240371_main_cms_3_nl_nl_sex_on_the_beach_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Premium dutch\n\nHardseltzer limoen of framboos\nBoodschappenlijstje\nHardseltzer limoen of framboos",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232147_main_cms_6_nl_nl_hardseltzer_limoen_of_framboos_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "PREMIUM DUTCH\n\nPiña colada\n5.99\n0.5 l\nBOODSCHAPPENLIJSTJE\nPiña colada",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240370_main_cms_3_nl_nl_pina_colada_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Premium dutch\n\nMixdrink passionfruit-martini\n1.29\n25 cl\nBoodschappenlijstje\nMixdrink passionfruit-martini",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229025_main_cms_4_nl_nl_mixdrink_passionfruit_martini_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "MUCCI\n\nSwirly\n2.59\nInhoud: 3 stuks, 420 ml\nBOODSCHAPPENLIJSTJE\nSwirly",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1240255_main_cms_4_nl_nl_swirly_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "In de aanbieding vanaf 1.06\n\nEsteban biologische Cabernet Sauvignon rosé\n4.99\n0.75 l\nl = 6.65\nEsteban biologische Cabernet Sauvignon rosé",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226882_main_cms_1_nl_nl_esteban_biologische_cabernet_sauvignon_r_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "PREMIUM DUTCH\n\nSex on the beach 0.0\n1.29\n250 ml\nBOODSCHAPPENLIJSTJE\nSex on the beach 0.0",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239877_main_cms_3_nl_nl_sex_on_the_beach_00_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "River\n\nIce tea perzik-hibiscus\n1.59\n1.5 l\nl = 1.06\nBoodschappenlijstje\nIce tea perzik-hibiscus",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1225363_main_cms_5_nl_nl_ice_tea_perzik_hibiscus_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "APERINI\n\nAperitivo of limoncello spritz\n0.99\n250 ml\nBOODSCHAPPENLIJSTJE\nAperitivo of limoncello spritz",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239753_main_cms_10_nl_nl_aperitivo_of_limoncello_spritz_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "River\n\nIce tea mango-kamille\n1.59\n1.5 l\nl = 1.06\nBoodschappenlijstje\nIce tea mango-kamille",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1225323_main_cms_4_nl_nl_ice_tea_mango_kamille_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "Gemarineerde entrecôte of rib-eye\n5.75\nCa. 250 g\nBOODSCHAPPENLIJSTJE\nGemarineerde entrecôte of rib-eye",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239741_main_cms_5_nl_nl_gemarineerde_entrecote_of_rib_eye_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "In de aanbieding vanaf 1.06\n\nRiver\n\nCola regular\n1.16\n1.5 l\nl = 0.77\nCola regular",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1224841_main_cms_11_nl_nl_cola_regular_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "BBQ\n\nKorean sparerib\n9.99\nCa. 600 g\nBOODSCHAPPENLIJSTJE\nKorean sparerib",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239740_main_cms_2_nl_nl_korean_sparerib_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "River\n\nOrange of lemon zero\n0.97\n1.5 l\nl = 0.65\nBoodschappenlijstje\nOrange of lemon zero",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1224818_main_cms_13_nl_nl_orange_of_lemon_zero_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "06.07 - 12.07\n\nDAYLICIOUS\n\nRucolamelange\n-16%\n0.99\n1.19\n75 g\nBOODSCHAPPENLIJSTJE\nRucolamelange",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239727_main_cms_1_nl_nl_rucolamelange_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "In de aanbieding vanaf 1.06\n\nRiver\n\nCola zero\n1.19\n1.5 l\nl = 0.79\nCola zero",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1224817_main_cms_8_nl_nl_cola_zero_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "DAYLICIOUS\n\nTomaat-komkommer-saladeschotel\n2.49\n295 g\nBOODSCHAPPENLIJSTJE\nTomaat-komkommer-saladeschotel",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239726_main_cms_2_nl_nl_tomaat_komkommer_saladeschotel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Quellbrunn\n\n6-pack bruisend smaakwater\n2.85\n6x0.5 l\nBoodschappenlijstje\n6-pack bruisend smaakwater",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1224211_main_cms_4_nl_nl_6_pack_bruisend_smaakwater_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "LE GUSTO\n\nSriracha- of truffelmayonaise\n1.99\n265 ml\nBOODSCHAPPENLIJSTJE\nSriracha- of truffelmayonaise",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1239683_main_cms_8_nl_nl_sriracha_of_truffelmayonaise_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Primitivo Nero Di Troia, Italië\n4.99\n0.75 l\nl = 6.65\nBoodschappenlijstje\nPrimitivo Nero Di Troia, Italië",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1224166_main_cms_2_nl_nl_primitivo_nero_di_troia_italie_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "Aanbieding van 11.07\n\nBBQ\n\nAanmaakblokjes\nOP=OP\n2.99\n100 stuks\nBOODSCHAPPENLIJSTJE\nAanmaakblokjes",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1238923_main_cms_1_nl_nl_aanmaakblokjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "El Árbol Reserva Viognier\n4.49\n0,75 l\nl = 5.99\nBoodschappenlijstje\nEl Árbol Reserva Viognier",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1220330_main_cms_5_nl_nl_el_arbol_reserva_viognier_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "PREMIUM DUTCH\n\nMojito 0.0\n1.29\n250 ml\nBOODSCHAPPENLIJSTJE\nMojito 0.0",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1238715_main_cms_3_nl_nl_mojito_00_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Bastide de la Chapelle Provence rosé\n5.99\n0.75 l\nl = 7.99\nBoodschappenlijstje\nBastide de la Chapelle Provence rosé",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1216719_main_cms_2_nl_nl_bastide_de_la_chapelle_provence_rose_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "Aanbieding van 13.07\n\nPREMIUM DUTCH\n\nHard iced tea\n1.29\n25 cl\nBOODSCHAPPENLIJSTJE\nHard iced tea",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1238714_main_cms_10_nl_nl_hard_iced_tea_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Schultenbräu\n\nNeipa\n0.99\n33 cl\nBoodschappenlijstje\nNeipa",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1216547_main_cms_1_nl_nl_neipa_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "PREMIUM DUTCH\n\nPassionfruit-martini 0.0\n1.29\n250 ml\nBOODSCHAPPENLIJSTJE\nPassionfruit-martini 0.0",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1238713_main_cms_3_nl_nl_passionfruit_martini_00_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Premium dutch\n\nRum-cola\n1.29\n25 cl\nBoodschappenlijstje\nRum-cola",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1216399_main_cms_4_nl_nl_rum_cola_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "BOTANéO\n\nAlcoholvrije gin\n4.99\n0.5 l\nBOODSCHAPPENLIJSTJE\nAlcoholvrije gin",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1238639_main_cms_1_nl_nl_alcoholvrije_gin_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Rioja Rivallana Crianza\n4.99\n0.75 l\nl = 6.65\nBoodschappenlijstje\nRioja Rivallana Crianza",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1214124_main_cms_2_nl_nl_rioja_rivallana_crianza_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "MUCCI\n\nTricolore ijs\n3.79\n2.5 l\nBOODSCHAPPENLIJSTJE\nTricolore ijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1238449_main_cms_1_nl_nl_tricolore_ijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Schultenbräu\n\n6-pack Radler 0.0%\n2.59\n6x33 cl\nBoodschappenlijstje\n6-pack Radler 0.0%",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1213535_main_cms_5_nl_nl_6_pack_radler_0_0_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "PREMIUM DUTCH\n\nEspresso Martini\n5.99\n50 cl\nBOODSCHAPPENLIJSTJE\nEspresso Martini",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1237902_main_cms_2_nl_nl_espresso_martini_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "River\n\n6-pack cola\n2.19\n6x33 cl\nBoodschappenlijstje\n6-pack cola",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1213525_main_cms_8_nl_nl_6_pack_cola_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "PREMIUM DUTCH\n\nPassion Martini\n5.99\n50 cl\nBOODSCHAPPENLIJSTJE\nPassion Martini",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1237901_main_cms_1_nl_nl_passion_martini_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Schultenbräu\n\nIPA\n1.09\n44 cl\nBoodschappenlijstje\nIPA",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1213508_main_cms_6_nl_nl_ipa_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "MUCCI\n\nDubbellikkers\n1.69\n12 stuks\nBOODSCHAPPENLIJSTJE\nDubbellikkers",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1236386_main_cms_5_nl_nl_dubbellikkers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Schultenbräu\n\n12-pack premium bier\n5.99\n12x25 cl\nBoodschappenlijstje\n12-pack premium bier",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1213433_main_cms_6_nl_nl_12_pack_premium_bier_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "MUCCI\n\nYoghurt framboos ijs\n2.99\n6 stuks, 600 ml\nBOODSCHAPPENLIJSTJE\nYoghurt framboos ijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1236001_main_cms_1_nl_nl_yoghurt_framboos_ijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Ballaturi Tre Uve\n4.99\n0.75 l\nl = 6.65\nBoodschappenlijstje\nBallaturi Tre Uve",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1211036_main_cms_2_nl_nl_ballaturi_tre_uve_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "MUCCI\n\nFruity ice sticks\n1.99\n6 stuks\nBOODSCHAPPENLIJSTJE\nFruity ice sticks",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1236000_main_cms_1_nl_nl_fruity_ice_sticks_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Forest Hill Chardonnay\n3.59\n0.75 l.\nl = 4.79\nBoodschappenlijstje\nForest Hill Chardonnay",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1206997_main_cms_5_nl_nl_forest_hill_chardonnay_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "MUCCI\n\nSorbetijs\n2.99\n1 l\nBOODSCHAPPENLIJSTJE\nSorbetijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235830_main_cms_5_nl_nl_sorbetijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Mucci\n\nIJsblokjes\n1.59\n2 kg\nkg = 0.8\nBoodschappenlijstje\nIJsblokjes",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/variant_1206925_1_main_cms_1_nl_nl_ijsblokjes_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "MUCCI\n\nExotisch fruitijs\n2.49\n4 stuks\nBOODSCHAPPENLIJSTJE\nExotisch fruitijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235335_main_cms_1_nl_nl_exotisch_fruitijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "La Capelude Viognier Grenache\n4.99\n0.75 l.\nl = 6.65\nBoodschappenlijstje\nLa Capelude Viognier Grenache",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1203990_main_cms_4_nl_nl_la_capelude_viognier_grenache_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "MUCCI\n\nBourbon vanille-ijs\n3.79\n2.5 l\nBOODSCHAPPENLIJSTJE\nBourbon vanille-ijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235324_main_cms_1_nl_nl_bourbon_vanille_ijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Adega De Pegões rood\n3.99\n0.75 l\nl = 5.32\nBoodschappenlijstje\nAdega De Pegões rood",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1201673_main_cms_3_nl_nl_adega_de_pegoes_rood_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "Barbecueworsten\n2.99\nInhoud: 5 stuks, 350 g\nBOODSCHAPPENLIJSTJE\nBarbecueworsten",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1233152_main_cms_4_nl_nl_barbecueworsten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Amigo\n\n6-pack Mexican bier\n4.99\n6x33 cl\nl = 15.12\nBoodschappenlijstje\n6-pack Mexican bier",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1201568_main_cms_8_nl_nl_6_pack_mexican_bier_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "RAVINI\n\nZomer-cocktail\n3.49\n0.75 l\nl = 4.65\nBOODSCHAPPENLIJSTJE\nZomer-cocktail",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232747_main_cms_8_nl_nl_zomer_cocktail_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Con-tré sparkling Pinot Grigio rosé, Italië\n4.99\n0.75 l\nl = 6.65\nBoodschappenlijstje\nCon-tré sparkling Pinot Grigio rosé, Italië",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1201518_main_cms_2_nl_nl_con_tre_sparkling_pinot_grigio_rose_ital_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "OLA\n\nRaket\n9 stuks\nBOODSCHAPPENLIJSTJE\nRaket",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232501_main_cms_1_nl_nl_raket_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "quellbrunn\n\n6-pack bruisend smaakwater citroen\n2.85\n6x0.5 l\nl = 5.7\nBoodschappenlijstje\n6-pack bruisend smaakwater citroen",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1201477_main_cms_4_nl_nl_6_pack_bruisend_smaakwater_citroen_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "Aanbieding van 10.07\n\nDAYLICIOUS\n\nPastasalade tomaat of pesto\n2.19\n300 g\nkg = 7.30\nBOODSCHAPPENLIJSTJE\nPastasalade tomaat of pesto",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232375_main_cms_12_nl_nl_pastasalade_tomaat_of_pesto_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Tempranillo, Spanje\n2.29\n0,75 l\nl = 3.05\nBoodschappenlijstje\nTempranillo, Spanje",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1200547_main_cms_3_nl_nl_tempranillo_spanje_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "TRADER JOE'S\n\nHamburgerbroodjes\n1.49\n4-6 stuks\nBOODSCHAPPENLIJSTJE\nHamburgerbroodjes",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232347_main_cms_3_nl_nl_hamburgerbroodjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   },
   {
-    "raw_text": "Saam Chenin Blanc\n5.99\n0.75 l\nl = 7.99\nBoodschappenlijstje\nSaam Chenin Blanc",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1200469_main_cms_2_nl_nl_saam_chenin_blanc_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "DAYLICIOUS\n\nHuzarenschotel\n1.99\n400 g\nBOODSCHAPPENLIJSTJE\nHuzarenschotel",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232204_main_cms_3_nl_nl_huzarenschotel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nSpinner-ijs\n2.15\n7 stuks\nBOODSCHAPPENLIJSTJE\nSpinner-ijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1232061_main_cms_1_nl_nl_spinner_ijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nBraadworsten\n3.59\nInhoud: 5 stuks, 500 g\nBOODSCHAPPENLIJSTJE\nBraadworsten",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1231793_main_cms_3_nl_nl_braadworsten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nSchouderkarbonades gekruid\n4.49\n450 g\nBOODSCHAPPENLIJSTJE\nSchouderkarbonades gekruid",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1231677_main_cms_4_nl_nl_schouderkarbonades_gekruid_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Aanbieding van 10.07\n\nBBQ\n\nSpeklappen gekruid\n4.89\nInhoud: 4 stuks, 450 g\nBOODSCHAPPENLIJSTJE\nSpeklappen gekruid",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1231671_main_cms_4_nl_nl_speklappen_gekruid_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nSensation mini amandel\n3.49\nInhoud: 12 stuks, 456 g\nBOODSCHAPPENLIJSTJE\nSensation mini amandel",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1231203_main_cms_5_nl_nl_sensation_mini_amandel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "08.07 - 14.07\n\nGARDENLINE\n\nPotgrond universeel\nOP=OP\n2.69\n20 l\nBOODSCHAPPENLIJSTJE\nPotgrond universeel",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1230958_main_cms_2_nl_nl_potgrond_universeel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nMini cones vanille of cacao\n2.49\n12 stuks\nBOODSCHAPPENLIJSTJE\nMini cones vanille of cacao",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1230842_main_cms_3_nl_nl_mini_cones_vanille_of_cacao_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nFruitijs aardbeiensmaak\n1.55\n12 stuks\nkg = 1550.00\nBOODSCHAPPENLIJSTJE\nFruitijs aardbeiensmaak",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1230469_main_cms_1_nl_nl_fruitijs_aardbeiensmaak_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nCitroenijs\n2.49\n6 stuks\nBOODSCHAPPENLIJSTJE\nCitroenijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1230462_main_cms_2_nl_nl_citroenijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nIJsjesfeest\n2.19\n8 stuks\nkg = 3.99\nBOODSCHAPPENLIJSTJE\nIJsjesfeest",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1230459_main_cms_2_nl_nl_ijsjesfeest_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Lil Rosé Wild Berry cocktail\n3.49\n0.75 l\nBOODSCHAPPENLIJSTJE\nLil Rosé Wild Berry cocktail",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229765_main_cms_1_nl_nl_lil_rose_wild_berry_cocktail_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nSensation ijs\n2.79\n4 stuks\nBOODSCHAPPENLIJSTJE\nSensation ijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1228973_main_cms_9_nl_nl_sensation_ijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "OLA\n\nMagnum amandel\n4 stuks\nBOODSCHAPPENLIJSTJE\nMagnum amandel",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1227016_main_cms_3_nl_nl_magnum_amandel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "OLA\n\nMagnum classic\n4 stuks\nBOODSCHAPPENLIJSTJE\nMagnum classic",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1227007_main_cms_4_nl_nl_magnum_classic_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Esteban Cabernet Sauvignon rosé\n4.99\n0.75 l\nl = 6.65\nBOODSCHAPPENLIJSTJE\nEsteban Cabernet Sauvignon rosé",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226882_main_cms_2_nl_nl_esteban_cabernet_sauvignon_rose_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "CUCINA NOBILE\n\nMozzarella light\n0.89\n125 g\nkg = 7.12\nBOODSCHAPPENLIJSTJE\nMozzarella light",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226701_main_cms_1_nl_nl_mozzarella_light_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nGemarineerde biefstuk\n5.49\nInhoud: 2 stuks, 230 g\nkg = 23.87\nBOODSCHAPPENLIJSTJE\nGemarineerde biefstuk",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226659_main_cms_7_nl_nl_gemarineerde_biefstuk_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nHamburgers\n6.99\nInhoud: 8 stuks, 704 g\nkg = 9.93\nBOODSCHAPPENLIJSTJE\nHamburgers",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226658_main_cms_2_nl_nl_hamburgers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nVerse spareribs\n4.99\nCa. 500 g\nkg = 9.98\nBOODSCHAPPENLIJSTJE\nVerse spareribs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226434_main_cms_9_nl_nl_verse_spareribs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "LINN\n\nAllergie neusspray of oogdruppels\nOP=OP\n3.99\n10-20 ml\nl = 199.50\nBOODSCHAPPENLIJSTJE\nAllergie neusspray of oogdruppels",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1226055_main_cms_3_nl_nl_allergie_neusspray_of_oogdruppels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "TROPHY SMAAKMAKERS\n\nPittige satésaus kant & klaar\n1.85\n500 g\nkg = 3.70\nBOODSCHAPPENLIJSTJE\nPittige satésaus kant & klaar",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1225908_main_cms_3_nl_nl_pittige_satesaus_kant_en_klaar_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "DAYLICIOUS\n\nHuzaren- of rundvleessalade\n3.49\n750 g\nkg = 4.65\nBOODSCHAPPENLIJSTJE\nHuzaren- of rundvleessalade",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1225817_main_cms_6_nl_nl_huzaren_of_rundvleessalade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "OLA\n\n6-pack Cornetto classico\n6x90 ml\nBOODSCHAPPENLIJSTJE\n6-pack Cornetto classico",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1225750_main_cms_3_nl_nl_6_pack_cornetto_classico_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "GOLDEN POWER\n\nEnergydrink watermeloen*\n0.79\n25 cl\nBOODSCHAPPENLIJSTJE\nEnergydrink watermeloen*",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1225704_main_cms_2_nl_nl_energydrink_watermeloen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Aanbieding van 13.07\n\nPREMIUM DUTCH\n\nHard seltzer\n1.29\n25 cl\nBOODSCHAPPENLIJSTJE\nHard seltzer",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1225613_main_cms_14_nl_nl_hard_seltzer_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nIce tea siroop perzik\n3.49\n0.75 l\nl = 4.65\nBOODSCHAPPENLIJSTJE\nIce tea siroop perzik",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1225330_main_cms_6_nl_nl_ice_tea_siroop_perzik_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MILSANI\n\nMango-passievla\n1.89\n1 l\nl = 1.89\nBOODSCHAPPENLIJSTJE\nMango-passievla",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1225295_main_cms_3_nl_nl_mango_passievla_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "06.07 - 12.07\n\nSTEENBRUGGE\n\n4-pack wit\n3.99\n4.75\n4x33 cl\nBOODSCHAPPENLIJSTJE\n4-pack wit",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1224832_main_cms_12_nl_nl_4_pack_wit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Delight Blush alcoholvrij\n3.39\n0.75 l\nl = 4.52\nBOODSCHAPPENLIJSTJE\nDelight Blush alcoholvrij",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1224793_main_cms_13_nl_nl_delight_blush_alcoholvrij_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Pinot Grigio Blush bag-in-box\n11.29\n3 l\nl = 3.76\nBOODSCHAPPENLIJSTJE\nPinot Grigio Blush bag-in-box",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1224790_main_cms_5_nl_nl_pinot_grigio_blush_bag_in_box_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nScharrelkipfiletspiesjes saté\n4.99\n300 g\nkg = 16.63\nBOODSCHAPPENLIJSTJE\nScharrelkipfiletspiesjes saté",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1220987_main_cms_8_nl_nl_scharrelkipfiletspiesjes_sate_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nWafelijsjes\n2.99\n4 stuks, 440 ml\nl = 6.80\nBOODSCHAPPENLIJSTJE\nWafelijsjes",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/variant_1220732_1_main_cms_1_nl_nl_wafelijsjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nSwip-ijs\n2.29\n6 stuks\nBOODSCHAPPENLIJSTJE\nSwip-ijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1220503_main_cms_12_nl_nl_swip_ijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "DAYLICIOUS\n\nAardappelsalade\n1.99\n1 kg\nkg = 1.99\nBOODSCHAPPENLIJSTJE\nAardappelsalade",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1220349_main_cms_2_nl_nl_aardappelsalade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "DE AFBAKKER\n\nMini-Turks brood\n0.99\nInhoud: 2 stuks, 200 g\nkg = 4.95\nBOODSCHAPPENLIJSTJE\nMini-Turks brood",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219526_main_cms_6_nl_nl_mini_turks_brood_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "GOURMET\n\nPartybrood\n200 g\nBOODSCHAPPENLIJSTJE\nPartybrood",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219185_main_cms_5_nl_nl_partybrood_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nCacaosticks\n1.55\n12 stuks\nkg = 3.80\nBOODSCHAPPENLIJSTJE\nCacaosticks",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1219018_main_cms_2_nl_nl_cacaosticks_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "OLA\n\nMagnum mini\n6 stuks\nBOODSCHAPPENLIJSTJE\nMagnum mini",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1218621_main_cms_3_nl_nl_magnum_mini_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nHoutskool briketten\n3.99\n3 kg\nBOODSCHAPPENLIJSTJE\nHoutskool briketten",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1218041_main_cms_1_nl_nl_houtskool_briketten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Bastide de la Chapelle Provence rosé\n5.99\n0.75 l\nl = 7.99\nBOODSCHAPPENLIJSTJE\nBastide de la Chapelle Provence rosé",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1216719_main_cms_5_nl_nl_bastide_de_la_chapelle_provence_rose_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "HEINEKEN\n\n6-pack Heineken 0.0%\n6x33 cl\nBOODSCHAPPENLIJSTJE\n6-pack Heineken 0.0%",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1216331_main_cms_1_nl_nl_6_pack_heineken_00_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "RIVER\n\n6-pack ice tea green\n1.99\n6x200 ml\nl = 1.66\nBOODSCHAPPENLIJSTJE\n6-pack ice tea green",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1216102_main_cms_4_nl_nl_6_pack_ice_tea_green_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nSensation mini\n2.79\nInhoud: 12 stuks, 480 g\nl = 4.65\nBOODSCHAPPENLIJSTJE\nSensation mini",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1215754_main_cms_1_nl_nl_sensation_mini_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nStoplichtijsjes\n0.99\n8 stuks\nBOODSCHAPPENLIJSTJE\nStoplichtijsjes",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1215670_main_cms_2_nl_nl_stoplichtijsjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Rosé wijn fris\n1.75\n0.25 l.\nl = 7.00\nBOODSCHAPPENLIJSTJE\nRosé wijn fris",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1215328_main_cms_5_nl_nl_rose_wijn_fris_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nGemarineerde speklappen\n3.49\n320 g\nkg = 10.91\nBOODSCHAPPENLIJSTJE\nGemarineerde speklappen",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1213520_main_cms_3_nl_nl_gemarineerde_speklappen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nGemarineerde filetlapjes\n3.49\n360 g\nkg = 9.69\nBOODSCHAPPENLIJSTJE\nGemarineerde filetlapjes",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1213513_main_cms_2_nl_nl_gemarineerde_filetlapjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nWaterijsjes\n1.99\n10 stuks\nBOODSCHAPPENLIJSTJE\nWaterijsjes",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1212770_main_cms_5_nl_nl_waterijsjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nFusion waterijs\n2.15\n8 stuks\nBOODSCHAPPENLIJSTJE\nFusion waterijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/variant_1212731_1_main_cms_1_nl_nl_fusion_waterijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nSorbetijs\n2.49\n4 stuks\nBOODSCHAPPENLIJSTJE\nSorbetijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1212645_main_cms_12_nl_nl_sorbetijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "LACURA\n\nAloë vera gel of aftersun lotion\n2.99\n200-500 ml\nBOODSCHAPPENLIJSTJE\nAloë vera gel of aftersun lotion",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1212606_main_cms_6_nl_nl_aloe_vera_gel_of_aftersun_lotion_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "LACURA\n\nZonnespray of -melk SPF 30\n4.99\n250 ml\nkg = 16.10\nBOODSCHAPPENLIJSTJE\nZonnespray of -melk SPF 30",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1212543_main_cms_9_nl_nl_zonnespray_of_melk_spf_30_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "LACURA\n\nZonnemelk of -spray SPF 50\n4.99\n200 ml\nkg = 4.99\nBOODSCHAPPENLIJSTJE\nZonnemelk of -spray SPF 50",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1212532_main_cms_6_nl_nl_zonnespray_spf_30_of_50_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "RAVINI\n\nWatermeloen cocktail\n2.25\n0.75 l\nl = 3.00\nBOODSCHAPPENLIJSTJE\nWatermeloen cocktail",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/variant_1211678_1_main_cms_1_nl_nl_watermeloen_cocktail_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nWafelijsjes\n2.99\n4 stuks\nBOODSCHAPPENLIJSTJE\nWafelijsjes",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1210453_main_cms_3_nl_nl_wafelijsjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BARISSIMO\n\nIJskoffie classic\n1.79\n1 l\nl = 1.79\nBOODSCHAPPENLIJSTJE\nIJskoffie classic",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1208224_main_cms_3_nl_nl_ijskoffie_classic_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Les Pinèdes rosé\n4.89\n0.75 l\nl = 6.52\nBOODSCHAPPENLIJSTJE\nLes Pinèdes rosé",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1207971_main_cms_12_nl_nl_les_pinedes_rose_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nAanmaakblokjes\nOP=OP\n2.99\n100 stuks\nBOODSCHAPPENLIJSTJE\nAanmaakblokjes",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1207850_main_cms_1_nl_nl_aanmaakblokjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nIJsblokjes\n1.59\n2 kg\nkg = 0.80\nBOODSCHAPPENLIJSTJE\nIJsblokjes",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/variant_1206925_1_main_cms_1_nl_nl_ijsblokjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "DAYLICIOUS\n\nMini-krieltjes groene kruiden\n1.19\n600 g\nkg = 1.98\nBOODSCHAPPENLIJSTJE\nMini-krieltjes groene kruiden",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1206810_main_cms_4_nl_nl_mini_krieltjes_groene_kruiden_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Tempranillo Rosado\n2.49\n0.75 l\nl = 3.32\nBOODSCHAPPENLIJSTJE\nTempranillo Rosado",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1206746_main_cms_4_nl_nl_tempranillo_rosado_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nScharrelkipshaslick\n3.79\n225 g\nkg = 16.84\nBOODSCHAPPENLIJSTJE\nScharrelkipshaslick",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1204592_main_cms_4_nl_nl_scharrelkipshaslick_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "ALL SEASONS\n\nKappertjes\n0.59\n100 g\nkg = 5.90\nBOODSCHAPPENLIJSTJE\nKappertjes",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1203981_main_cms_4_nl_nl_kappertjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nGemarineerde procureur\n3.99\nInhoud: 4 stuks, 400 g\nkg = 9.98\nBOODSCHAPPENLIJSTJE\nGemarineerde procureur",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1203669_main_cms_10_nl_nl_gemarineerde_procureur_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MILSANI\n\nZeezout- of knoflookboter\n1.15\n100 g\nkg = 11.50\nBOODSCHAPPENLIJSTJE\nZeezout- of knoflookboter",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1203545_main_cms_6_nl_nl_zeezout_of_knoflookboter_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "WIJKO\n\nSatésaus\n520 ml\nBOODSCHAPPENLIJSTJE\nSatésaus",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1203103_main_cms_2_nl_nl_satesaus_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "BBQ\n\nChipolataworstjes\n2.99\nInhoud: 5 stuks, 300 g\nkg = 9.97\nBOODSCHAPPENLIJSTJE\nChipolataworstjes",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1202670_main_cms_14_nl_nl_chipolataworstjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Aanbieding van 10.07\n\nBBQ\n\nScharrelkipfiletsteaks Arizona\n5.49\n375 g\nBOODSCHAPPENLIJSTJE\nScharrelkipfiletsteaks Arizona",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1202201_main_cms_9_nl_nl_scharrelkipfiletsteaks_arizona_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "DAYLICIOUS\n\nRauwkostsalade komkommer\n1.75\n400 g\nBOODSCHAPPENLIJSTJE\nRauwkostsalade komkommer",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1202069_main_cms_10_nl_nl_komkommersalade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nWaterijslollies\n1.29\n10 stuks\nl = 2.15\nBOODSCHAPPENLIJSTJE\nWaterijslollies",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1201547_main_cms_3_nl_nl_waterijslollies_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "MUCCI\n\nSwirl ijs\n0.79\n100 g\nBOODSCHAPPENLIJSTJE\nSwirl ijs",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1200082_main_cms_1_nl_nl_swirl_ijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Niet verkrijgbaar\n\nMOLENLAND\n\nGoudse kaas van de boerderij 50+ mosterd\n300 g\nBOODSCHAPPENLIJSTJE\nGoudse kaas van de boerderij 50+ mosterd",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/variant_1217547_3_main_cms_1_nl_nl_goudse_kaas_van_de_boerderij_50_mosterd_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Niet verkrijgbaar\n\nDAYLICIOUS\n\nOriëntaalse saladeschotel\n250 g\nBOODSCHAPPENLIJSTJE\nOriëntaalse saladeschotel",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1213831_main_cms_8_nl_nl_orientaalse_saladeschotel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Niet verkrijgbaar\n\nMUCCI\n\nFunmix\n8 stuks\nBOODSCHAPPENLIJSTJE\nFunmix",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/variant_1212741_1_main_cms_1_nl_nl_funmix_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
+  },
+  {
+    "raw_text": "Niet verkrijgbaar\n\nGARDENLINE\n\nKoemestkorrels\n8 kg\nBOODSCHAPPENLIJSTJE\nKoemestkorrels",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1205745_main_cms_1_nl_nl_koemestkorrels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Other"
   }
 ]

@@ -1,10 +1,97 @@
 [
   {
-    "raw_text": "Rio d'oro\n\nKoelvers sinaasappelsap\n2.59\n1 l\nl = 2.59\nBoodschappenlijstje\nKoelvers sinaasappelsap",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1215190_main_cms_1_nl_nl_koelvers_sinaasappelsap_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "RIO D 'ORO\n\nSmoothie\n1.19\n250 ml\nBOODSCHAPPENLIJSTJE\nSmoothie",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235479_main_cms_3_nl_nl_smoothie_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
   },
   {
-    "raw_text": "Vers sinaasappelsap\n2.89\n750 ml\nl = 3.85\nBoodschappenlijstje\nVers sinaasappelsap",
-    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1215044_main_cms_1_nl_nl_vers_sinaasappelsap_cw01_2024?$DESKTOP_LARGE$&bfc=on"
+    "raw_text": "RIO D'ORO\n\nVerse smoothie mango-passievrucht\n1.49\n250 ml\nBOODSCHAPPENLIJSTJE\nVerse smoothie mango-passievrucht",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235416_main_cms_1_nl_nl_verse_smoothie_mango_passievrucht_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nVerse sap bosvruchten-appel\n1.59\n250 ml\nBOODSCHAPPENLIJSTJE\nVerse sap bosvruchten-appel",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235231_main_cms_1_nl_nl_verse_sap_bosvruchten_appel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nVerse smoothie mango avocado kokos\n1.49\n250 ml\nBOODSCHAPPENLIJSTJE\nVerse smoothie mango avocado kokos",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235230_main_cms_1_nl_nl_verse_smoothie_mango_avocado_kokos_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nVerse sap ananas-meloen-mango\n1.59\n250 ml\nBOODSCHAPPENLIJSTJE\nVerse sap ananas-meloen-mango",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1235229_main_cms_1_nl_nl_verse_sap_ananas_meloen_mango_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nVers sap\n1.49\n250 ml\nBOODSCHAPPENLIJSTJE\nVers sap",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234727_main_cms_1_nl_nl_vers_sap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nVers sinaasappel-banaansap\n3.85\n1 l\nBOODSCHAPPENLIJSTJE\nVers sinaasappel-banaansap",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1234716_main_cms_1_nl_nl_vers_sinaasappel_banaansap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nVerse sap ananas-meloen-mango\n2.25\n500 ml\nBOODSCHAPPENLIJSTJE\nVerse sap ananas-meloen-mango",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229111_main_cms_1_nl_nl_verse_sap_ananas_meloen_mango_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nVerse sap sinaasappel kiwi\n2.39\n500 ml\nBOODSCHAPPENLIJSTJE\nVerse sap sinaasappel kiwi",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229110_main_cms_1_nl_nl_verse_sap_sinaasappel_kiwi_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nVerse sap sinaasappel aardbei\n2.39\n500 ml\nBOODSCHAPPENLIJSTJE\nVerse sap sinaasappel aardbei",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229109_main_cms_1_nl_nl_verse_sap_sinaasappel_aardbei_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nSmoothie mango-passievrucht\n2.29\n0.5 l\nBOODSCHAPPENLIJSTJE\nSmoothie mango-passievrucht",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229107_main_cms_2_nl_nl_smoothie_mango_passievrucht_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nSmoothie aardbei-banaan\n2.29\n0.5 l\nBOODSCHAPPENLIJSTJE\nSmoothie aardbei-banaan",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229106_main_cms_2_nl_nl_smoothie_aardbei_banaan_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nVerse smoothie aardbei-banaan\n1.39\n250 ml\nBOODSCHAPPENLIJSTJE\nVerse smoothie aardbei-banaan",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229104_main_cms_1_nl_nl_verse_smoothie_aardbei_banaan_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nGember shot mango\n0.99\n125 ml\nBOODSCHAPPENLIJSTJE\nGember shot mango",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229103_main_cms_2_nl_nl_gember_shot_mango_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nGember shot appel\n0.99\n125 ml\nBOODSCHAPPENLIJSTJE\nGember shot appel",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1229102_main_cms_4_nl_nl_gember_shot_appel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nSinaasappelsap\n1.39\n250 ml\nl = 5.56\nBOODSCHAPPENLIJSTJE\nSinaasappelsap",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1217527_main_cms_4_nl_nl_sinaasappelsap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "RIO D'ORO\n\nSinaasappelsap\n2.49\n1 l\nl = 2.49\nBOODSCHAPPENLIJSTJE\nSinaasappelsap",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1215190_main_cms_1_nl_nl_sinaasappelsap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "Aanbieding van 17.07\n\nRIO D'ORO\n\nBloedsinaasappelsap\n2.69\n1.5 l\nBOODSCHAPPENLIJSTJE\nBloedsinaasappelsap",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1202113_main_cms_5_nl_nl_bloedsinaasappelsap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
+  },
+  {
+    "raw_text": "Niet verkrijgbaar\n\nRIO D'ORO\n\nVers sinaasappelsap\n750 ml\nBOODSCHAPPENLIJSTJE\nVers sinaasappelsap",
+    "image": "https://s7g10.scene7.com/is/image/aldinord/product_1215044_main_cms_5_nl_nl_vers_sinaasappelsap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "category": "Beverages"
   }
 ]

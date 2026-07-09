@@ -21,22 +21,18 @@ jobs:
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.12.8'
+          check-latest: false
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
         run: |
-          # Only install if requirements.txt exists
+          python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
-      
-      - name: Install Playwright browsers
-        run: |
-          python -m playwright install
-          python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate AH structured_all_merged.json ---
       - name: Generate AH structured_all_merged.json
@@ -81,14 +77,15 @@ jobs:
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.12.8'
+          check-latest: false
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
         run: |
-          # Only install if requirements.txt exists
+          python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
@@ -142,14 +139,15 @@ jobs:
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.12.8'
+          check-latest: false
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
         run: |
-          # Only install if requirements.txt exists
+          python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
@@ -205,14 +203,15 @@ jobs:
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.12.8'
+          check-latest: false
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
         run: |
-          # Only install if requirements.txt exists
+          python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
@@ -265,14 +264,15 @@ jobs:
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.12.8'
+          check-latest: false
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
         run: |
-          # Only install if requirements.txt exists
+          python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
@@ -324,14 +324,15 @@ jobs:
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.12.8'
+          check-latest: false
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
         run: |
-          # Only install if requirements.txt exists
+          python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
@@ -383,24 +384,25 @@ jobs:
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.12.8'
+          check-latest: false
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
         run: |
-          # Only install if requirements.txt exists
+          python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
 
       - name: Install Playwright browsers
         run: |
-          python -m playwright install
-          python -m playwright install-deps
-      
-      # --- Step 4d: Run Python script to generate DIRK jumbo_structured.json ---
+          python -m playwright install chromium
+          python -m playwright install-deps chromium
+
+      # --- Step 4d: Run Python script to generate jumbo_structured.json ---
       - name: Generate jumbo_structured.json
         run: |
           cd JUMBO
@@ -444,14 +446,15 @@ jobs:
 
       # --- Step 2: Set up Python ---
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.12.8'
+          check-latest: false
 
       # --- Step 3: Install dependencies (if needed) ---
       - name: Install dependencies
         run: |
-          # Only install if requirements.txt exists
+          python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi

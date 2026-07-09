@@ -117,10 +117,17 @@ def infer_category_from_name(name: str) -> str:
     return ensure_canonical(matched)
 
 
+from barcode_utils import extract_barcode_from_entry
+
+
 def structured_with_category(entry: dict[str, Any], structured: dict[str, Any]) -> dict[str, Any]:
-    """Attach canonical category field `c` to a structured product record."""
+    """Attach canonical category field `c` and optional barcode `b` to a structured product record."""
     category = entry.get("category")
     if not category:
         category = infer_category_from_name(entry.get("raw_text", entry.get("n", "")))
     structured["c"] = ensure_canonical(category)
+
+    barcode = extract_barcode_from_entry(entry)
+    if barcode:
+        structured["b"] = barcode
     return structured

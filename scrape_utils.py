@@ -53,6 +53,34 @@ def click_button_if_visible(page: Page, selector: str, *, timeout: int = 3000) -
     return False
 
 
+def click_pagination_if_ready(
+    page: Page,
+    selector: str,
+    *,
+    click_timeout: int = 15000,
+    label: str = "pagination",
+) -> bool:
+    """Click a pagination button when ready; return False instead of raising."""
+    try:
+        button = page.locator(selector).first
+        if not button.count():
+            return False
+        if not button.is_visible(timeout=3000):
+            return False
+        if not button.is_enabled():
+            return False
+        button.scroll_into_view_if_needed()
+        button.click(timeout=click_timeout)
+        page.wait_for_timeout(1500)
+        return True
+    except PlaywrightTimeoutError:
+        print(f"⚠️ {label} click timed out; keeping products collected so far")
+        return False
+    except Exception as err:
+        print(f"⚠️ {label} click failed ({type(err).__name__}: {err})")
+        return False
+
+
 def accept_common_cookies(page: Page) -> None:
     """Try common Dutch cookie-consent button labels."""
     for selector in (
