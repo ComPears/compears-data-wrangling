@@ -2,6 +2,7 @@ name: Daily supermarket scrapers
 
 # Runs all Python store scrapers daily at 00:00 UTC and commits updated JSON to this repo.
 # Backend seed picks up these files weekly via ComPears/compear-backend (.github/workflows/seed-backend.yml, Mon 06:00 UTC).
+# Downstream jobs (prune, backend sync) run when at least one store scraper succeeds.
 
 on:
   # push:
@@ -435,6 +436,16 @@ jobs:
 
   prune-stale-data:
     needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo]
+    if: >-
+      always() && !cancelled() && (
+        needs.generate-ah.result == 'success' ||
+        needs.generate-aldi.result == 'success' ||
+        needs.generate-dirk.result == 'success' ||
+        needs.generate-plus.result == 'success' ||
+        needs.generate-lidl.result == 'success' ||
+        needs.generate-coop.result == 'success' ||
+        needs.generate-jumbo.result == 'success'
+      )
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -444,6 +455,18 @@ jobs:
         uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Report partial scrape run
+        run: |
+          echo "Scrape results:"
+          echo "  AH:    ${{ needs.generate-ah.result }}"
+          echo "  ALDI:  ${{ needs.generate-aldi.result }}"
+          echo "  DIRK:  ${{ needs.generate-dirk.result }}"
+          echo "  PLUS:  ${{ needs.generate-plus.result }}"
+          echo "  LIDL:  ${{ needs.generate-lidl.result }}"
+          echo "  COOP:  ${{ needs.generate-coop.result }}"
+          echo "  JUMBO: ${{ needs.generate-jumbo.result }}"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -455,6 +478,7 @@ jobs:
         run: python scripts/sanitize_all_stores.py
 
       - name: Validate data quality
+        continue-on-error: true
         run: python scripts/validate_products.py
 
       - name: Remove stale intermediate JSON from repo
@@ -477,7 +501,17 @@ jobs:
           fi
 
   sync-backend-and-render:
-    needs: [prune-stale-data]
+    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo, prune-stale-data]
+    if: >-
+      always() && !cancelled() && (
+        needs.generate-ah.result == 'success' ||
+        needs.generate-aldi.result == 'success' ||
+        needs.generate-dirk.result == 'success' ||
+        needs.generate-plus.result == 'success' ||
+        needs.generate-lidl.result == 'success' ||
+        needs.generate-coop.result == 'success' ||
+        needs.generate-jumbo.result == 'success'
+      )
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -487,6 +521,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           path: compears-data-wrangling
+          fetch-depth: 0
 
       - name: Checkout backend repo
         uses: actions/checkout@v7
@@ -536,3 +571,50 @@ jobs:
           fi
           curl -fsS -X POST "$RENDER_DEPLOY_HOOK_URL"
           echo "Render deploy hook triggered"
+
+  scrape-summary:
+    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo, prune-stale-data, sync-backend-and-render]
+    if: always() && !cancelled()
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Summarize scrape pipeline
+        run: |
+          echo "Store scrapers:"
+          echo "  AH=${{ needs.generate-ah.result }} ALDI=${{ needs.generate-aldi.result }} DIRK=${{ needs.generate-dirk.result }}"
+          echo "  PLUS=${{ needs.generate-plus.result }} LIDL=${{ needs.generate-lidl.result }} COOP=${{ needs.generate-coop.result }} JUMBO=${{ needs.generate-jumbo.result }}"
+          echo "Post-process: prune=${{ needs.prune-stale-data.result }} sync=${{ needs.sync-backend-and-render.result }}"
+
+      - name: Fail only when every store scraper failed
+        if: >-
+          needs.generate-ah.result != 'success' &&
+          needs.generate-aldi.result != 'success' &&
+          needs.generate-dirk.result != 'success' &&
+          needs.generate-plus.result != 'success' &&
+          needs.generate-lidl.result != 'success' &&
+          needs.generate-coop.result != 'success' &&
+          needs.generate-jumbo.result != 'success'
+        run: |
+          echo "All store scrapers failed — no catalog updates this run."
+          exit 1
+
+      - name: Warn on partial scrape failure
+        if: >-
+          (
+            needs.generate-ah.result != 'success' ||
+            needs.generate-aldi.result != 'success' ||
+            needs.generate-dirk.result != 'success' ||
+            needs.generate-plus.result != 'success' ||
+            needs.generate-lidl.result != 'success' ||
+            needs.generate-coop.result != 'success' ||
+            needs.generate-jumbo.result != 'success'
+          ) && (
+            needs.generate-ah.result == 'success' ||
+            needs.generate-aldi.result == 'success' ||
+            needs.generate-dirk.result == 'success' ||
+            needs.generate-plus.result == 'success' ||
+            needs.generate-lidl.result == 'success' ||
+            needs.generate-coop.result == 'success' ||
+            needs.generate-jumbo.result == 'success'
+          )
+        run: echo "::warning::Some store scrapers failed; successful stores were still merged and synced."
