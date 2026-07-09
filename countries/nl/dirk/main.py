@@ -7,7 +7,20 @@ from playwright.sync_api import sync_playwright
 
 from links2 import links
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+def _repo_root():
+    from pathlib import Path
+    import sys
+    p = Path(__file__).resolve().parent
+    for _ in range(8):
+        if (p / "config" / "stores.json").is_file():
+            s = str(p)
+            if s not in sys.path:
+                sys.path.insert(0, s)
+            return p
+        p = p.parent
+    raise RuntimeError("Could not find compears-data-wrangling root")
+
+_repo_root()
 from category_utils import category_from_url
 from scrape_utils import (
     accept_common_cookies,
