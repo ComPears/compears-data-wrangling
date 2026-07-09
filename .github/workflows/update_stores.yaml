@@ -39,13 +39,8 @@ jobs:
           fi
 
       # --- Step 4a: Run Python script to generate AH structured_all_merged.json ---
-      - name: Generate AH structured_all_merged.json
-        run: |
-          cd AH
-          python main.py
-          python merge.py
-          python struc.py
-          python clean_ah.py
+      - name: Generate NL Albert Heijn catalog
+        run: python scripts/run_store_pipeline.py --store albert-heijn
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -58,7 +53,7 @@ jobs:
           git config --global user.email "$GIT_EMAIL"
           git pull
           # mv structured_all_merged.json AH/
-          git add AH/structured_all_merged.json
+          git add countries/nl/albert-heijn/structured_all_merged.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
@@ -100,14 +95,8 @@ jobs:
           python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate ALDI structured_aldi.json ---
-      - name: Generate structured_aldi.json
-        run: |
-          cd ALDI
-          python main.py 
-          python mergejson.py
-          python remove_patterns.py
-          python restructure.py
-          python clean_aldi.py
+      - name: Generate NL ALDI catalog
+        run: python scripts/run_store_pipeline.py --store aldi
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -120,7 +109,7 @@ jobs:
           git config --global user.email "$GIT_EMAIL"
           git pull
           # mv structured_aldi.json ALDI/
-          git add ALDI/structured_aldi.json
+          git add countries/nl/aldi/structured_aldi.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
@@ -162,16 +151,8 @@ jobs:
           python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate DIRK dirk_all.json ---
-      - name: Generate dirk_all.json
-        run: |
-          cd DIRK
-          python main.py
-          python seperate.py
-          python actieprobeer.py
-          python structure.py
-          python mergeit.py
-          python decimal_fix.py
-          python clean_dirk.py
+      - name: Generate NL Dirk catalog
+        run: python scripts/run_store_pipeline.py --store dirk
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -184,7 +165,7 @@ jobs:
           git config --global user.email "$GIT_EMAIL"
           git pull
           # mv dirk_all.json DIRK/
-          git add DIRK/dirk_all.json
+          git add countries/nl/dirk/dirk_all.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
@@ -226,13 +207,8 @@ jobs:
           python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate PLUS structured_plus.json ---
-      - name: Generate PLUS structured_plus.json
-        run: |
-          cd PLUS
-          python main.py
-          python remove_pattern.py
-          python fix.py
-          python clean_plus.py
+      - name: Generate NL PLUS catalog
+        run: python scripts/run_store_pipeline.py --store plus
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -245,7 +221,7 @@ jobs:
           git config --global user.email "$GIT_EMAIL"
           git pull
           # mv structured_plus.json PLUS/
-          git add PLUS/structured_plus.json
+          git add countries/nl/plus/structured_plus.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
@@ -287,12 +263,8 @@ jobs:
           python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate LIDL lidl_structured.json ---
-      - name: Generate LIDL lidl_structured.json
-        run: |
-          cd LIDL
-          python main.py
-          python structure.py
-          python clean_lidl.py
+      - name: Generate NL Lidl catalog
+        run: python scripts/run_store_pipeline.py --store lidl
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -305,7 +277,7 @@ jobs:
           git config --global user.email "$GIT_EMAIL"
           git pull
           # mv lidl_structured.json LIDL/
-          git add LIDL/lidl_structured.json
+          git add countries/nl/lidl/lidl_structured.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
@@ -347,12 +319,8 @@ jobs:
           python -m playwright install-deps
 
       # --- Step 4a: Run Python script to generate COOP coop_structured.json ---
-      - name: Generate COOP coop_structured.json
-        run: |
-          cd COOP
-          python main.py
-          python structure.py
-          python clean_coop.py
+      - name: Generate NL Coop catalog
+        run: python scripts/run_store_pipeline.py --store coop
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -365,7 +333,7 @@ jobs:
           git config --global user.email "$GIT_EMAIL"
           git pull
           # mv coop_structured.json COOP/
-          git add COOP/coop_structured.json
+          git add countries/nl/coop/coop_structured.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
@@ -407,13 +375,8 @@ jobs:
           python -m playwright install-deps chromium
 
       # --- Step 4d: Run Python script to generate jumbo_structured.json ---
-      - name: Generate jumbo_structured.json
-        run: |
-          cd JUMBO
-          python main.py
-          python merge.py
-          python structure.py
-          python clean_jumbo.py
+      - name: Generate NL Jumbo catalog
+        run: python scripts/run_store_pipeline.py --store jumbo
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
@@ -426,7 +389,7 @@ jobs:
           git config --global user.email "$GIT_EMAIL"
           git pull
           # mv jumbo_structured.json JUMBO/
-          git add JUMBO/jumbo_structured.json
+          git add countries/nl/jumbo/jumbo_structured.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
@@ -556,7 +519,7 @@ jobs:
         run: |
           git config user.name "$GIT_USERNAME"
           git config user.email "$GIT_EMAIL"
-          git add src/data/*.json
+          git add src/data/nl/*.json
           if git diff --cached --quiet; then
             echo "No backend data changes to commit"
           else
