@@ -29,7 +29,7 @@ run_step $PYTHON scripts/run_store_pipeline.py --store "$STORE"
 cd "$ROOT"
 run_step $PYTHON scripts/sanitize_all_stores.py
 run_step $PYTHON scripts/validate_products.py
-run_step $PYTHON scripts/validate_store_output.py
+run_step $PYTHON scripts/validate_store_output.py --store "$STORE"
 run_step $PYTHON scripts/prune_stale_artifacts.py
 
 OUT=$($PYTHON -c "

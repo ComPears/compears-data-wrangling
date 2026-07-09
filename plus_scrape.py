@@ -1,19 +1,21 @@
-"""Shared PLUS product-list scraper (coop.nl now redirects here)."""
+"""Fast PLUS product-list scraper via intercepted PLP API responses."""
 
 from __future__ import annotations
 
-import re
 import urllib.error
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Callable
 from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 
 from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError
 
-from scrape_utils import goto_resilient
+from scrape_utils import PLUS_USER_AGENT
 
 PRODUCT_CARD_SELECTOR = ".plp-item-wrapper"
-DEFAULT_POSTCODE = "1012AB"
+PLP_API_FRAGMENT = "DataActionGetProductListAndCategoryInfo"
+PLUS_ORIGIN = "https://www.plus.nl"
+MAX_API_PAGES = 250
 
 
 def resolve_redirect_url(url: str, *, timeout: int = 30) -> str:
@@ -21,7 +23,7 @@ def resolve_redirect_url(url: str, *, timeout: int = 30) -> str:
     req = urllib.request.Request(
         url,
         method="HEAD",
-        headers={"User-Agent": "Mozilla/5.0 (compatible; CompearsBot/1.0)"},
+        headers={"User-Agent": PLUS_USER_AGENT},
     )
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -30,6 +32,22 @@ def resolve_redirect_url(url: str, *, timeout: int = 30) -> str:
         if err.headers.get("Location"):
             return err.headers["Location"]
         raise
+
+
+def resolve_redirect_urls(urls: list[str], *, workers: int = 16) -> dict[str, str]:
+    """Resolve many redirect URLs concurrently."""
+    results: dict[str, str] = {}
+
+    def _resolve(url: str) -> tuple[str, str]:
+        return url, resolve_redirect_url(url)
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = [pool.submit(_resolve, url) for url in urls]
+        for future in as_completed(futures):
+            source, target = future.result()
+            results[source] = target
+
+    return results
 
 
 def dismiss_plus_modals(page: Page) -> None:
@@ -43,18 +61,18 @@ def dismiss_plus_modals(page: Page) -> None:
             button = page.locator(selector).first
             if button.is_visible(timeout=1500):
                 button.click(force=True)
-                page.wait_for_timeout(600)
+                page.wait_for_timeout(400)
         except Exception:
             pass
 
     page.evaluate(
         "document.querySelectorAll('[data-popup-backdrop]').forEach(el => el.remove())"
     )
-    page.wait_for_timeout(300)
+    page.wait_for_timeout(200)
 
     try:
-        page.get_by_role("link", name="Sluit winkel keuze").click(timeout=2000)
-        page.wait_for_timeout(400)
+        page.get_by_role("link", name="Sluit winkel keuze").click(timeout=1500)
+        page.wait_for_timeout(300)
     except Exception:
         pass
 
@@ -69,24 +87,95 @@ def _with_pagina(url: str, page_num: int) -> str:
     return urlunparse(parsed._replace(query=urlencode(flat)))
 
 
-def _extract_product_count(page: Page) -> int | None:
-    try:
-        text = page.locator("body").inner_text(timeout=5000)
-    except Exception:
-        return None
-    matches = re.findall(r"(\d+)\s*producten", text, re.IGNORECASE)
-    counts = [int(value) for value in matches if int(value) > 0]
-    return max(counts) if counts else None
+def _format_price(value: str | float | int | None) -> str:
+    if value in (None, "", "0", "0.0", 0, 0.0):
+        return ""
+    text = str(value).replace(".", ",")
+    if "," not in text and text.isdigit():
+        return f"{text},00"
+    return text
 
 
-def _card_identity(card) -> str:
-    card_id = card.get_attribute("id")
-    if card_id:
-        return card_id
-    title = card.query_selector("h3")
-    if title:
-        return title.inner_text().strip()
-    return card.inner_text().strip()
+def _product_from_plp(plp: dict) -> dict[str, str | None]:
+    brand = (plp.get("Brand") or "").strip()
+    name = (plp.get("Name") or "").strip()
+    title = f"{brand} {name}".strip() if brand else name
+    subtitle = (plp.get("Product_Subtitle") or "").strip()
+    promo = _format_price(plp.get("NewPrice"))
+    base = _format_price(plp.get("OriginalPrice"))
+    price = promo or base
+
+    lines = [line for line in (title, subtitle, price) if line]
+    return {
+        "raw_text": "\n".join(lines),
+        "image": plp.get("ImageURL"),
+        "link": (
+            f"{PLUS_ORIGIN}/producten/{plp['Slug']}"
+            if plp.get("Slug")
+            else None
+        ),
+    }
+
+
+def _products_from_api_payload(data: dict) -> list[dict[str, str | None]]:
+    products: list[dict[str, str | None]] = []
+    for row in data.get("ProductList", {}).get("List", []):
+        plp = row.get("PLP_Str", row)
+        if not isinstance(plp, dict):
+            continue
+        entry = _product_from_plp(plp)
+        if entry["raw_text"]:
+            products.append(entry)
+    return products
+
+
+def _product_identity(entry: dict[str, str | None]) -> str:
+    link = entry.get("link")
+    if link:
+        return link
+    return entry.get("raw_text") or ""
+
+
+def _fetch_plp_page(page: Page, url: str, *, dismiss_modals: bool) -> dict:
+    """Navigate to a PLP URL and return the parsed API payload."""
+    for attempt in range(2):
+        try:
+            with page.expect_response(
+                lambda response: PLP_API_FRAGMENT in response.url
+                and response.status == 200,
+                timeout=45000,
+            ) as response_info:
+                page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                if dismiss_modals:
+                    dismiss_plus_modals(page)
+            return response_info.value.json().get("data", {})
+        except PlaywrightTimeoutError:
+            if attempt == 0:
+                continue
+    return {}
+
+
+def _scrape_plp_dom_page(page: Page, category: str, seen: set[str]) -> list[dict]:
+    """DOM fallback when the PLP API response is unavailable."""
+    products: list[dict] = []
+    cards = page.query_selector_all(PRODUCT_CARD_SELECTOR)
+    for card in cards:
+        raw_text = card.inner_text().strip()
+        if not raw_text:
+            continue
+        identity = raw_text
+        if identity in seen:
+            continue
+        seen.add(identity)
+        img = card.query_selector("img")
+        products.append(
+            {
+                "raw_text": raw_text,
+                "image": img.get_attribute("src") if img else None,
+                "category": category,
+            }
+        )
+    return products
 
 
 def scrape_plus_category(
@@ -96,52 +185,41 @@ def scrape_plus_category(
     category: str,
     seen: set[str] | None = None,
 ) -> list[dict]:
-    """Scrape all products from a PLUS category URL via ?pagina=N pagination."""
+    """Scrape a PLUS category by intercepting PLP API responses page-by-page."""
     seen = seen if seen is not None else set()
     products: list[dict] = []
-    expected = None
-    page_num = 1
-    max_pages = 250
+    total_pages = 1
 
-    while page_num <= max_pages:
+    for page_num in range(1, MAX_API_PAGES + 1):
         page_url = _with_pagina(url, page_num)
-        goto_resilient(page, page_url, timeout=90000)
-        page.wait_for_timeout(1500)
-        if page_num == 1:
-            dismiss_plus_modals(page)
-            expected = _extract_product_count(page)
+        payload = _fetch_plp_page(
+            page,
+            page_url,
+            dismiss_modals=page_num == 1,
+        )
 
-        try:
-            page.wait_for_selector(PRODUCT_CARD_SELECTOR, timeout=15000)
-        except PlaywrightTimeoutError:
-            if page_num == 1:
-                dismiss_plus_modals(page)
-                page.wait_for_timeout(1500)
-            else:
-                break
+        if payload:
+            total_pages = max(1, int(payload.get("TotalPages") or 1))
+            batch = _products_from_api_payload(payload)
+        else:
+            batch = _scrape_plp_dom_page(page, category, seen)
 
-        cards = page.query_selector_all(PRODUCT_CARD_SELECTOR)
         new_on_page = 0
-        for card in cards:
-            identity = _card_identity(card)
-            raw_text = card.inner_text().strip()
-            if not raw_text or identity in seen:
+        for entry in batch:
+            entry = {**entry, "category": category}
+            identity = _product_identity(entry)
+            if not identity or identity in seen:
                 continue
             seen.add(identity)
-            img = card.query_selector("img")
-            image_url = img.get_attribute("src") if img else None
-            products.append(
-                {"raw_text": raw_text, "image": image_url, "category": category}
-            )
+            products.append(entry)
             new_on_page += 1
 
-        if not cards:
+        if not batch:
             break
-        if new_on_page == 0 and (not expected or len(products) >= expected):
+        if page_num >= total_pages:
             break
-        if expected and len(products) >= expected:
+        if new_on_page == 0 and page_num > 1:
             break
-        page_num += 1
 
     return products
 
@@ -156,8 +234,8 @@ def scrape_plus_categories(
     all_products: list[dict] = []
     seen: set[str] = set()
 
-    for url, category in items:
-        batch = scrape_plus_category(page, url, category=category, seen=seen)
+    for item_url, category in items:
+        batch = scrape_plus_category(page, item_url, category=category, seen=seen)
         all_products.extend(batch)
         if on_batch:
             on_batch(all_products)

@@ -58,8 +58,8 @@ def _request(
         except urllib.error.HTTPError as err:
             payload = err.read().decode("utf-8", errors="replace")
             last_error = AhApiError(f"HTTP {err.code} for {path}: {payload[:300]}")
-            if err.code in {429, 500, 502, 503, 504} and attempt < MAX_RETRIES:
-                time.sleep(RETRY_DELAY * attempt)
+            if err.code in {403, 429, 500, 502, 503, 504} and attempt < MAX_RETRIES:
+                time.sleep(RETRY_DELAY * attempt * (3 if err.code == 403 else 1))
                 continue
             raise last_error from err
         except urllib.error.URLError as err:
@@ -163,7 +163,7 @@ def _fetch_paginated(token: str, taxonomy_id: str) -> list[dict[str, Any]]:
         if page + 1 >= total_pages or not batch:
             break
         page += 1
-        time.sleep(0.2)
+        time.sleep(0.5)
 
     return products
 

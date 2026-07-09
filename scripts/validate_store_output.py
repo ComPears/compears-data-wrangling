@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -39,11 +40,20 @@ def _baseline_counts() -> dict[str, int]:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Validate store catalog output counts")
+    parser.add_argument("--country", default=None, help="Limit to one country (default: all)")
+    parser.add_argument("--store", default=None, help="Limit to one store slug")
+    args = parser.parse_args()
+
     baselines = _baseline_counts()
     failures: list[str] = []
     config = load_stores_config()
 
-    for country, slug, catalog in all_catalog_paths():
+    targets = all_catalog_paths(args.country)
+    if args.store:
+        targets = [(c, s, p) for c, s, p in targets if s == args.store]
+
+    for country, slug, catalog in targets:
         count = _load_count(catalog)
         rel = catalog_rel_path(country, slug)
         minimum = int(store_config(country, slug).get("minimum_products") or 0)

@@ -37,6 +37,7 @@ output_file = Path(__file__).resolve().parent / "JSONs" / "dirk.json"
 os.makedirs(output_file.parent, exist_ok=True)
 
 OPTIONAL_URL_PARTS = (
+    "/kind-drogisterij/",
     "/baby-drogisterij/",
     "/geneesmiddelen/",
     "/vitamines-mineralen-en-supplementen/",
@@ -44,6 +45,9 @@ OPTIONAL_URL_PARTS = (
     "/huishouden/",
     "/huisdieren/",
     "/diepvries/",
+    "/verse-sauzen",
+    "/biologische-snacks-snoep",
+    "/seizoens-zoetwaren",
 )
 
 product_data: list[dict] = []

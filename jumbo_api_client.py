@@ -73,7 +73,15 @@ def _graphql_request(body: dict[str, Any]) -> Any:
             with urllib.request.urlopen(req, timeout=60) as resp:
                 payload = json.loads(resp.read().decode("utf-8"))
             if payload.get("errors"):
-                raise JumboApiError(str(payload["errors"])[:300])
+                error_text = str(payload["errors"])
+                last_error = JumboApiError(error_text[:300])
+                if any(
+                    token in error_text
+                    for token in ("504", "Gateway Timeout", "503", "502", "429")
+                ) and attempt < MAX_RETRIES:
+                    time.sleep(RETRY_DELAY * attempt)
+                    continue
+                raise last_error
             return payload.get("data")
         except urllib.error.HTTPError as err:
             detail = err.read().decode("utf-8", errors="replace")

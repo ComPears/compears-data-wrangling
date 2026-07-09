@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+import time
 from pathlib import Path
 
 from links_dictionary import get_ah_links
@@ -61,6 +62,8 @@ def scrape_ah_products() -> None:
             msg = f"{type(err).__name__}: {err}"
             print(f"❌ Failed to scrape {name}: {msg}")
             failures.append((url, msg))
+
+        time.sleep(1.0)
 
     report_batch_failures(failures, len(ah_links), label="categories")
 
