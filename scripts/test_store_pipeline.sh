@@ -97,7 +97,9 @@ case "$STORE" in
 esac
 
 cd "$ROOT"
-python3 scripts/prune_stale_artifacts.py
+run_step $PYTHON scripts/sanitize_all_stores.py
+run_step $PYTHON scripts/validate_products.py
+run_step $PYTHON scripts/prune_stale_artifacts.py
 
 END=$(date +%s)
 DURATION=$((END - START))

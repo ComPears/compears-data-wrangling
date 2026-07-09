@@ -1,2278 +1,3878 @@
 [
   {
-    "n": "BIJ 10.00 EURO",
-    "o": "GRATIS BEZORGING",
-    "s": "5 stuks",
-    "p": "5.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
-  },
-  {
-    "n": "Heineken Premium pilsener 0.0 bier blik",
+    "n": "Heineken Premium Pilsener 0.0 Bier Blik",
     "o": "1+1 GRATIS",
-    "s": "Per 1980 ml",
+    "s": "1.98 l",
     "p": "6.65",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/239883_M/2707b1a2e808f69cf97cc631e7168c8c/239883.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/239883_M/2707b1a2e808f69cf97cc631e7168c8c/239883.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "heineken bier blik pilsener premium",
+    "ik": "tok:heineken|bier-blik-pilsener-premium|1980",
+    "bn": "heineken",
+    "wg": 1980
   },
   {
-    "n": "PLUS Speklapjes smokey barbecue",
+    "n": "Plus Speklapjes Smokey Barbecue",
     "o": "3+1 GRATIS",
-    "s": "Per 300 g",
+    "s": "300 ml",
     "p": "4.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/270741_M/daf012059ece3050f6d7bfd0a79ccbeb/270741.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/270741_M/daf012059ece3050f6d7bfd0a79ccbeb/270741.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus barbecue smokey speklapjes",
+    "ik": "tok:plus|barbecue-smokey-speklapjes|300",
+    "bn": "plus",
+    "wg": 300
   },
   {
-    "n": "Amstel Pils bier fles",
+    "n": "Amstel Pils Bier Fles",
     "o": "25 % KORTING",
-    "s": "Per 1800 ml",
+    "s": "1.80 l",
     "p": "3.74",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/639094_M/085ba8bc64b4c9b50dd5c62d1d557919/639094.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/639094_M/085ba8bc64b4c9b50dd5c62d1d557919/639094.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "amstel bier fles pils",
+    "ik": "tok:amstel|bier-fles-pils|1800",
+    "bn": "amstel",
+    "wg": 1800
   },
   {
-    "n": "Peroni Nastro Azzuro bier fles",
+    "n": "Peroni Nastro Azzuro Bier Fles",
     "o": "",
-    "s": "Per 1980 ml",
+    "s": "1.98 l",
     "p": "6.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/499047_M/6fd6637d56fbe2bc4928234a462c5eb0/499047.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/499047_M/6fd6637d56fbe2bc4928234a462c5eb0/499047.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "peroni azzuro bier fles nastro",
+    "ik": "tok:peroni|azzuro-bier-fles-nastro|1980",
+    "bn": "peroni",
+    "wg": 1980
   },
   {
-    "n": "PLUS BBQ Zalmspiesen",
+    "n": "Plus Bbq Zalmspiesen",
     "o": "3+1 GRATIS",
-    "s": "Per 200 g",
+    "s": "200 ml",
     "p": "7.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/753141_M/6697279eb620818c13dc08ad6df5ad34/753141.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/753141_M/6697279eb620818c13dc08ad6df5ad34/753141.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus bbq zalmspiesen",
+    "ik": "tok:plus|bbq-zalmspiesen|200",
+    "bn": "plus",
+    "wg": 200
   },
   {
-    "n": "PLUS Hamburgerbroodjes",
+    "n": "Plus Hamburgerbroodjes",
     "o": "",
-    "s": "Per 6 st",
+    "s": "6 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/381721_M/855e4a07582dc7d655b58b2f2302ff3c/381721.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/381721_M/855e4a07582dc7d655b58b2f2302ff3c/381721.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus hamburgerbroodjes",
+    "ik": "tok:plus|hamburgerbroodjes|6",
+    "bn": "plus",
+    "wg": 6
   },
   {
-    "n": "Alpina BBQ grill brush",
+    "n": "Alpina Bbq Grill Brush",
     "o": "",
     "s": "17x30cm",
     "p": "2.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/964117_M/c1d279adb2c9b9bc65b66ab3c4856229/964117.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/964117_M/c1d279adb2c9b9bc65b66ab3c4856229/964117.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "alpina bbq brush grill",
+    "ik": "tok:alpina|bbq-brush-grill|na",
+    "bn": "alpina"
   },
   {
-    "n": "PLUS Hamburger varken-rund",
+    "n": "Plus Hamburger varken-rund",
     "o": "3+1 GRATIS",
-    "s": "Per 320 g",
+    "s": "320 ml",
     "p": "4.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/358092_M/1ad0adfd79a53df16132abbc34cc7d0b/358092.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/358092_M/1ad0adfd79a53df16132abbc34cc7d0b/358092.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus hamburger rund varken",
+    "ik": "tok:plus|hamburger-rund-varken|320",
+    "bn": "plus",
+    "wg": 320
   },
   {
-    "n": "PLUS Boerentrots BBQ worst Italiaans",
+    "n": "Plus Boerentrots Bbq Worst Italiaans",
     "o": "3+1 GRATIS",
-    "s": "Per 325 g",
+    "s": "325 ml",
     "p": "4.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/126101_M/9960cc3c510162ff3fe50b18a530ef4c/126101.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/126101_M/9960cc3c510162ff3fe50b18a530ef4c/126101.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus bbq boerentrots italiaans worst",
+    "ik": "tok:plus|bbq-boerentrots-italiaans-worst|325",
+    "bn": "plus",
+    "wg": 325
   },
   {
-    "n": "PLUS Boerentrots Kipshaslick",
+    "n": "Plus Boerentrots Kipshaslick",
     "o": "3+1 GRATIS",
-    "s": "Per 230 g",
+    "s": "230 ml",
     "p": "5.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/653369_M/61d24981dae39cf114a89a5b960bffb5/653369.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/653369_M/61d24981dae39cf114a89a5b960bffb5/653369.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus boerentrots kipshaslick",
+    "ik": "tok:plus|boerentrots-kipshaslick|230",
+    "bn": "plus",
+    "wg": 230
   },
   {
-    "n": "PLUS Salade Caesar",
+    "n": "Plus Salade Caesar",
     "o": "",
-    "s": "Per 275 g",
+    "s": "275 ml",
     "p": "4.15",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/242520_M/092c4aaf1a739fb8ba339759f6d5d149/242520.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/242520_M/092c4aaf1a739fb8ba339759f6d5d149/242520.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus caesar salade",
+    "ik": "tok:plus|caesar-salade|275",
+    "bn": "plus",
+    "wg": 275
   },
   {
-    "n": "PLUS Boerentrots BBQ Worst Smokey Chicken",
+    "n": "Plus Boerentrots Bbq Worst Smokey Chicken",
     "o": "3+1 GRATIS",
-    "s": "Per 325 g",
+    "s": "325 ml",
     "p": "4.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/439284_M/de93ac6145bb166c9b67348bc1bd202d/439284.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/439284_M/de93ac6145bb166c9b67348bc1bd202d/439284.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus bbq boerentrots chicken smokey worst",
+    "ik": "tok:plus|bbq-boerentrots-chicken-smokey-worst|325",
+    "bn": "plus",
+    "wg": 325
   },
   {
-    "n": "PLUS Aspergetips groen",
+    "n": "Plus Aspergetips Groen",
     "o": "",
-    "s": "Per 100 g",
+    "s": "100 ml",
     "p": "3.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/649683_M/47a7145887c3202e44e35c0c17abd48f/649683.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/649683_M/47a7145887c3202e44e35c0c17abd48f/649683.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Fruits & Vegetables",
+    "cn": "plus aspergetips groen",
+    "ik": "tok:plus|aspergetips-groen|100",
+    "bn": "plus",
+    "wg": 100
   },
   {
-    "n": "Iglo Spinazie a la creme",
+    "n": "Iglo Spinazie A La Creme",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "1.45",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/218882_M/c8508c8b52587b8be81cd0d51bf02725/218882.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/218882_M/c8508c8b52587b8be81cd0d51bf02725/218882.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Fruits & Vegetables",
+    "cn": "iglo creme la spinazie",
+    "ik": "tok:iglo|creme-la-spinazie|500",
+    "bn": "iglo",
+    "wg": 500
   },
   {
-    "n": "PLUS Bananen Fairtrade",
+    "n": "Plus Bananen Fairtrade",
     "o": "",
-    "s": "Per 1000 gram",
+    "s": "1 l",
     "p": "2.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/113651_M/63db0eabf5dd487f2694a258006af620/113651.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/113651_M/63db0eabf5dd487f2694a258006af620/113651.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Fruits & Vegetables",
+    "cn": "plus bananen fairtrade",
+    "ik": "tok:plus|bananen-fairtrade|1000",
+    "bn": "plus",
+    "wg": 1000
   },
   {
     "n": "Looye Honingtomaten",
     "o": "",
-    "s": "Per 180 g",
+    "s": "180 ml",
     "p": "3.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/277165_M/5ac62d38bce1d10398a1df72052b8ee6/277165.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/277165_M/5ac62d38bce1d10398a1df72052b8ee6/277165.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Fruits & Vegetables",
+    "cn": "looye honingtomaten",
+    "ik": "tok:looye|honingtomaten|180",
+    "bn": "looye",
+    "wg": 180
   },
   {
     "n": "Neutraal Bananen",
     "o": "",
-    "s": "Per 5 st",
+    "s": "5 ml",
     "p": "1.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Fruits & Vegetables",
+    "cn": "neutraal bananen",
+    "ik": "tok:neutraal|bananen|5",
+    "bn": "neutraal",
+    "wg": 5
   },
   {
     "n": "Iglo Spinazie Boursin",
     "o": "",
-    "s": "Per 450 g",
+    "s": "450 ml",
     "p": "3.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/888655_M/6306840dbef7ae53ce60bf684a302c91/888655.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/888655_M/6306840dbef7ae53ce60bf684a302c91/888655.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Fruits & Vegetables",
+    "cn": "iglo boursin spinazie",
+    "ik": "tok:iglo|boursin-spinazie|450",
+    "bn": "iglo",
+    "wg": 450
   },
   {
-    "n": "Biologisch PLUS Bananen biologisch Fairtrade",
+    "n": "Biologisch Plus Bananen Biologisch Fairtrade",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "2.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/619131_M/2c0ad58682eda22f12059617c7b380ff/619131.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/619131_M/2c0ad58682eda22f12059617c7b380ff/619131.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Fruits & Vegetables",
+    "cn": "plus bananen biologisch fairtrade",
+    "ik": "tok:plus|bananen-biologisch-fairtrade|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Handappels Jonagold",
+    "n": "Plus Handappels Jonagold",
     "o": "",
-    "s": "Per 1000 gram",
+    "s": "1 l",
     "p": "1.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Fruits & Vegetables",
+    "cn": "plus handappels jonagold",
+    "ik": "tok:plus|handappels-jonagold|1000",
+    "bn": "plus",
+    "wg": 1000
   },
   {
-    "n": "PLUS Conference Peren los",
+    "n": "Plus Conference Peren Los",
     "o": "",
-    "s": "Per 1000 gram",
+    "s": "1 l",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/113834_M/672970432fdfd90af889660e265f4c07/113834.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/113834_M/672970432fdfd90af889660e265f4c07/113834.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Fruits & Vegetables",
+    "cn": "plus conference los peren",
+    "ik": "tok:plus|conference-los-peren|1000",
+    "bn": "plus",
+    "wg": 1000
   },
   {
-    "n": "PLUS Handappels Elstar",
+    "n": "Plus Handappels Elstar",
     "o": "",
-    "s": "Per 1000 gram",
+    "s": "1 l",
     "p": "1.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/113798_M/6c16412d86966f11ebf301aa721694f7/113798.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/113798_M/6c16412d86966f11ebf301aa721694f7/113798.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Fruits & Vegetables",
+    "cn": "plus elstar handappels",
+    "ik": "tok:plus|elstar-handappels|1000",
+    "bn": "plus",
+    "wg": 1000
   },
   {
-    "n": "PLUS Handappels elstar",
+    "n": "Plus Handappels Elstar",
     "o": "",
-    "s": "Per 2000 g",
+    "s": "2 l",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Fruits & Vegetables",
+    "cn": "plus elstar handappels",
+    "ik": "tok:plus|elstar-handappels|2000",
+    "bn": "plus",
+    "wg": 2000
   },
   {
-    "n": "PLUS Handperen Conference",
+    "n": "Plus Handperen Conference",
     "o": "",
-    "s": "Per 1 kg",
+    "s": "1 l",
     "p": "2.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Fruits & Vegetables",
+    "cn": "plus conference handperen",
+    "ik": "tok:plus|conference-handperen|1000",
+    "bn": "plus",
+    "wg": 1000
   },
   {
-    "n": "PLUS Tagliatelle naturel",
+    "n": "Plus Tagliatelle Naturel",
     "o": "1+1 GRATIS",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "3.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/157446_M/abace3c3eef508959bbc8a5000f44c3a/157446.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/157446_M/abace3c3eef508959bbc8a5000f44c3a/157446.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus naturel tagliatelle",
+    "ik": "tok:plus|naturel-tagliatelle|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Spaghetti naturel",
+    "n": "Plus Spaghetti Naturel",
     "o": "1+1 GRATIS",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "3.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/177566_M/5345bb64065d8a89c2657198a19e8ef3/177566.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/177566_M/5345bb64065d8a89c2657198a19e8ef3/177566.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus naturel spaghetti",
+    "ik": "tok:plus|naturel-spaghetti|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Tagliatelle volkoren",
+    "n": "Plus Tagliatelle Volkoren",
     "o": "1+1 GRATIS",
-    "s": "Per 250 g",
+    "s": "250 ml",
     "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/466528_M/f1c938854e98c959147821ff699fa58f/466528.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/466528_M/f1c938854e98c959147821ff699fa58f/466528.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus tagliatelle volkoren",
+    "ik": "tok:plus|tagliatelle-volkoren|250",
+    "bn": "plus",
+    "wg": 250
   },
   {
     "n": "Grand'Italia Penne ei-pasta",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "2.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/363864_M/27babf555ecdb8d4e0a06413bc74a45b/363864.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/363864_M/27babf555ecdb8d4e0a06413bc74a45b/363864.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "grand ei italia pasta penne",
+    "ik": "tok:grand|ei-italia-pasta-penne|500",
+    "bn": "grand",
+    "wg": 500
   },
   {
-    "n": "PLUS Bami Goreng",
+    "n": "Plus Bami Goreng",
     "o": "2 VOOR 5.50",
-    "s": "Per 260 g",
+    "s": "260 ml",
     "p": "3.09",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/754295_M/950875056e719d9986e6d8aabb6e66b2/754295.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/754295_M/950875056e719d9986e6d8aabb6e66b2/754295.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus bami goreng",
+    "ik": "tok:plus|bami-goreng|260",
+    "bn": "plus",
+    "wg": 260
   },
   {
-    "n": "PLUS Nasi Goreng",
+    "n": "Plus Nasi Goreng",
     "o": "2 VOOR 5.50",
-    "s": "Per 260 g",
+    "s": "260 ml",
     "p": "3.09",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/753201_M/7e13aee4533285225639e4b7f81d4e9e/753201.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/753201_M/7e13aee4533285225639e4b7f81d4e9e/753201.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus goreng nasi",
+    "ik": "tok:plus|goreng-nasi|260",
+    "bn": "plus",
+    "wg": 260
   },
   {
-    "n": "Qizini Panini prosciutto",
+    "n": "Qizini Panini Prosciutto",
     "o": "",
-    "s": "Per 160 g",
+    "s": "160 ml",
     "p": "2.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/209865_M/78813e1f57b3c8b360d87d2445f4696c/209865.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/209865_M/78813e1f57b3c8b360d87d2445f4696c/209865.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "qizini panini prosciutto",
+    "ik": "tok:qizini|panini-prosciutto|160",
+    "bn": "qizini",
+    "wg": 160
   },
   {
-    "n": "PLUS Pannenkoeken naturel",
+    "n": "Plus Pannenkoeken Naturel",
     "o": "",
-    "s": "Per 8 st",
+    "s": "8 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus naturel pannenkoeken",
+    "ik": "tok:plus|naturel-pannenkoeken|8",
+    "bn": "plus",
+    "wg": 8
   },
   {
-    "n": "PLUS Rode kool met hachee en aardappelpuree",
+    "n": "Plus Rode Kool Met Hachee En Aardappelpuree",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "5.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/845183_M/672fa6b5f65c8b44fcad58d0ae7ddcd6/845183.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/845183_M/672fa6b5f65c8b44fcad58d0ae7ddcd6/845183.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus aardappelpuree hachee kool rode",
+    "ik": "tok:plus|aardappelpuree-hachee-kool-rode|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Babi Pangang",
+    "n": "Plus Babi Pangang",
     "o": "2 VOOR 5.50",
-    "s": "Per 260 g",
+    "s": "260 ml",
     "p": "3.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/754303_M/ba6c543a8641059a0a415fdc6ca91c59/754303.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/754303_M/ba6c543a8641059a0a415fdc6ca91c59/754303.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus babi pangang",
+    "ik": "tok:plus|babi-pangang|260",
+    "bn": "plus",
+    "wg": 260
   },
   {
-    "n": "Flemmings Cheeseburger duo",
+    "n": "Flemmings Cheeseburger Duo",
     "o": "",
-    "s": "Per 2 st",
+    "s": "2 ml",
     "p": "2.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "flemmings cheeseburger duo",
+    "ik": "tok:flemmings|cheeseburger-duo|2",
+    "bn": "flemmings",
+    "wg": 2
   },
   {
     "n": "Jan Flammkuchendeeg",
     "o": "",
-    "s": "Per 260 g",
+    "s": "260 ml",
     "p": "2.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/926778_M/786ec0ae49b8a8d8d2420bae4e63ef0c/926778.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/926778_M/786ec0ae49b8a8d8d2420bae4e63ef0c/926778.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "jan flammkuchendeeg",
+    "ik": "tok:jan|flammkuchendeeg|260",
+    "bn": "jan",
+    "wg": 260
   },
   {
-    "n": "PLUS Bloemkool broccoli gehaktbal + partjes",
+    "n": "Plus Bloemkool Broccoli Gehaktbal + Partjes",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "4.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/609600_M/31cbb95243a1a81081c02f6d5212ac27/609600.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/609600_M/31cbb95243a1a81081c02f6d5212ac27/609600.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus bloemkool broccoli gehaktbal partjes",
+    "ik": "tok:plus|bloemkool-broccoli-gehaktbal-partjes|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Andijvie stamppot gehaktb jus",
+    "n": "Plus Andijvie Stamppot Gehaktb Jus",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "4.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/609596_M/82f872e7e0fb479b3bb8560771a798e2/609596.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/609596_M/82f872e7e0fb479b3bb8560771a798e2/609596.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus andijvie gehaktb jus stamppot",
+    "ik": "tok:plus|andijvie-gehaktb-jus-stamppot|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Wortel erwt kipfilet peperroomsaus",
+    "n": "Plus Wortel Erwt Kipfilet Peperroomsaus",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "5.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/691464_M/63898864d418f688e7302cac4ae9243e/691464.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/691464_M/63898864d418f688e7302cac4ae9243e/691464.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus erwt kipfilet peperroomsaus wortel",
+    "ik": "tok:plus|erwt-kipfilet-peperroomsaus-wortel|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Spinazie met cordon bleu en puree",
+    "n": "Plus Spinazie Met Cordon Bleu En Puree",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "4.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/691462_M/befbd37000bade7909a01a3179e7d49d/691462.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/691462_M/befbd37000bade7909a01a3179e7d49d/691462.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus bleu cordon puree spinazie",
+    "ik": "tok:plus|bleu-cordon-puree-spinazie|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "Qizini Panini Pulled Chicken BBQ",
+    "n": "Qizini Panini Pulled Chicken Bbq",
     "o": "",
-    "s": "Per 170 g",
+    "s": "170 ml",
     "p": "2.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/432370_M/f85dfdef15d277d1f4492e2f431f898b/432370.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/432370_M/f85dfdef15d277d1f4492e2f431f898b/432370.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "qizini bbq chicken panini pulled",
+    "ik": "tok:qizini|bbq-chicken-panini-pulled|170",
+    "bn": "qizini",
+    "wg": 170
   },
   {
-    "n": "PLUS Pizzadeeg met saus",
+    "n": "Plus Pizzadeeg Met Saus",
     "o": "",
-    "s": "Per 600 g",
+    "s": "600 ml",
     "p": "1.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus pizzadeeg saus",
+    "ik": "tok:plus|pizzadeeg-saus|600",
+    "bn": "plus",
+    "wg": 600
   },
   {
-    "n": "PLUS PLUS Poffertjes",
+    "n": "Plus Plus Poffertjes",
     "o": "",
-    "s": "Per 415 g",
+    "s": "415 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus poffertjes",
+    "ik": "tok:plus|poffertjes|415",
+    "bn": "plus",
+    "wg": 415
   },
   {
-    "n": "PLUS Saté Ajam",
+    "n": "Plus Saté Ajam",
     "o": "2 VOOR 5.50",
-    "s": "Per 260 g",
+    "s": "260 ml",
     "p": "3.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/754299_M/4c00f033e17eeb79beca0381c34aae76/754299.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/754299_M/4c00f033e17eeb79beca0381c34aae76/754299.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus ajam sat",
+    "ik": "tok:plus|ajam-sat|260",
+    "bn": "plus",
+    "wg": 260
   },
   {
-    "n": "PLUS Mihoen Goreng",
+    "n": "Plus Mihoen Goreng",
     "o": "2 VOOR 5.50",
-    "s": "Per 260 g",
+    "s": "260 ml",
     "p": "3.09",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/754297_M/75c60bfc78d056a775ac7f243e5ac87e/754297.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/754297_M/75c60bfc78d056a775ac7f243e5ac87e/754297.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus goreng mihoen",
+    "ik": "tok:plus|goreng-mihoen|260",
+    "bn": "plus",
+    "wg": 260
   },
   {
-    "n": "PLUS Bami Goreng met Babi Pangang",
+    "n": "Plus Bami Goreng Met Babi Pangang",
     "o": "",
-    "s": "Per 450 g",
+    "s": "450 ml",
     "p": "4.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/689734_M/648645f94ead72ccbab17e60dc94182d/689734.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/689734_M/648645f94ead72ccbab17e60dc94182d/689734.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus babi bami goreng pangang",
+    "ik": "tok:plus|babi-bami-goreng-pangang|450",
+    "bn": "plus",
+    "wg": 450
   },
   {
-    "n": "Flemmings Hotdog duo",
+    "n": "Flemmings Hotdog Duo",
     "o": "",
-    "s": "Per 2 st",
+    "s": "2 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "flemmings duo hotdog",
+    "ik": "tok:flemmings|duo-hotdog|2",
+    "bn": "flemmings",
+    "wg": 2
   },
   {
-    "n": "PLUS Boerentrots Kipfilet",
+    "n": "Plus Boerentrots Kipfilet",
     "o": "",
-    "s": "2 stuks",
+    "s": "2 ml",
     "p": "5.25",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Meat & Seafood",
+    "cn": "plus boerentrots kipfilet",
+    "ik": "tok:plus|boerentrots-kipfilet|2",
+    "bn": "plus",
+    "wg": 2
   },
   {
-    "n": "Iglo Viskraam Lekkerbekjes naturel",
+    "n": "Iglo Viskraam Lekkerbekjes Naturel",
     "o": "",
-    "s": "Per 240 g",
+    "s": "240 ml",
     "p": "4.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/965391_M/26cd84c7594ebfeb388ddbe0c575b12e/965391.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/965391_M/26cd84c7594ebfeb388ddbe0c575b12e/965391.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Meat & Seafood",
+    "cn": "iglo lekkerbekjes naturel viskraam",
+    "ik": "tok:iglo|lekkerbekjes-naturel-viskraam|240",
+    "bn": "iglo",
+    "wg": 240
   },
   {
-    "n": "PLUS Boerentrots Kipfilet Voordeelverpakking",
+    "n": "Plus Boerentrots Kipfilet Voordeelverpakking",
     "o": "",
-    "s": "Per 800 g",
+    "s": "800 ml",
     "p": "9.75",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Meat & Seafood",
+    "cn": "plus boerentrots kipfilet",
+    "ik": "tok:plus|boerentrots-kipfilet|800",
+    "bn": "plus",
+    "wg": 800
   },
   {
     "n": "Iglo Vissticks",
     "o": "",
-    "s": "15 stuks",
+    "s": "15 ml",
     "p": "4.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/517877_M/754cd7105b4ae219e8faa7fe1e15f545/517877.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/517877_M/754cd7105b4ae219e8faa7fe1e15f545/517877.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Meat & Seafood",
+    "cn": "iglo vissticks",
+    "ik": "tok:iglo|vissticks|15",
+    "bn": "iglo",
+    "wg": 15
   },
   {
-    "n": "Iglo Viskraam Lekkerbekjes bierbeslag",
+    "n": "Iglo Viskraam Lekkerbekjes Bierbeslag",
     "o": "",
-    "s": "Per 240 g",
+    "s": "240 ml",
     "p": "4.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/542025_M/05c538f653e97257234318cfaba6546d/542025.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/542025_M/05c538f653e97257234318cfaba6546d/542025.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Meat & Seafood",
+    "cn": "iglo bierbeslag lekkerbekjes viskraam",
+    "ik": "tok:iglo|bierbeslag-lekkerbekjes-viskraam|240",
+    "bn": "iglo",
+    "wg": 240
   },
   {
-    "n": "PLUS Rundergehakt",
+    "n": "Plus Rundergehakt",
     "o": "",
-    "s": "Per 750 g",
+    "s": "750 ml",
     "p": "8.17",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Meat & Seafood",
+    "cn": "plus rundergehakt",
+    "ik": "tok:plus|rundergehakt|750",
+    "bn": "plus",
+    "wg": 750
   },
   {
-    "n": "PLUS Gemengd gehakt",
+    "n": "Plus Gemengd Gehakt",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "4.75",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Meat & Seafood",
+    "cn": "plus gehakt gemengd",
+    "ik": "tok:plus|gehakt-gemengd|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Gemengd gehakt VDV",
+    "n": "Plus Gemengd Gehakt Vdv",
     "o": "",
-    "s": "Per 750 g",
+    "s": "750 ml",
     "p": "5.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Meat & Seafood",
+    "cn": "plus gehakt gemengd vdv",
+    "ik": "tok:plus|gehakt-gemengd-vdv|750",
+    "bn": "plus",
+    "wg": 750
   },
   {
-    "n": "Zuivelmeester Goudse jong 48+ plakken",
+    "n": "Zuivelmeester Goudse Jong 48+ Plakken",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "3.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Dairy & Eggs",
+    "cn": "zuivelmeester 48 goudse jong plakken",
+    "ik": "tok:zuivelmeester|48-goudse-jong-plakken|400",
+    "bn": "zuivelmeester",
+    "wg": 400
   },
   {
-    "n": "PLUS Goudse jong belegen 48+ plakken",
+    "n": "Plus Goudse Jong Belegen 48+ Plakken",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "5.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/140299_M/a86eb6ca34ce150bb890e872ffb3f4ab/140299.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/140299_M/a86eb6ca34ce150bb890e872ffb3f4ab/140299.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "plus 48 belegen goudse jong plakken",
+    "ik": "tok:plus|48-belegen-goudse-jong-plakken|400",
+    "bn": "plus",
+    "wg": 400
   },
   {
-    "n": "Zuivelmeester Goudse jong belegen 48+ plakken",
+    "n": "Zuivelmeester Goudse Jong Belegen 48+ Plakken",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "4.15",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Dairy & Eggs",
+    "cn": "zuivelmeester 48 belegen goudse jong plakken",
+    "ik": "tok:zuivelmeester|48-belegen-goudse-jong-plakken|400",
+    "bn": "zuivelmeester",
+    "wg": 400
   },
   {
     "n": "Galbani Mozzarella",
     "o": "1+1 GRATIS",
-    "s": "Per 225 g",
+    "s": "225 ml",
     "p": "1.75",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/320005_M/bb05be46c59081eba97007204f530f09/320005.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/320005_M/bb05be46c59081eba97007204f530f09/320005.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "galbani mozzarella",
+    "ik": "tok:galbani|mozzarella|225",
+    "bn": "galbani",
+    "wg": 225
   },
   {
-    "n": "Galbani Mozzarella maxi",
+    "n": "Galbani Mozzarella Maxi",
     "o": "1+1 GRATIS",
-    "s": "Per 385 g",
+    "s": "385 ml",
     "p": "2.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/899323_M/f866f748fccdd69b6d4cd70532d83781/899323.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/899323_M/f866f748fccdd69b6d4cd70532d83781/899323.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "galbani maxi mozzarella",
+    "ik": "tok:galbani|maxi-mozzarella|385",
+    "bn": "galbani",
+    "wg": 385
   },
   {
     "n": "Galbani Burrata",
     "o": "1+1 GRATIS",
-    "s": "Per 100 g",
+    "s": "100 ml",
     "p": "2.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/796822_M/108eebd4c21d41a6129552704b24cb7d/796822.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/796822_M/108eebd4c21d41a6129552704b24cb7d/796822.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "galbani burrata",
+    "ik": "tok:galbani|burrata|100",
+    "bn": "galbani",
+    "wg": 100
   },
   {
     "n": "Galbani Buffel Mozzarella Mini",
     "o": "1+1 GRATIS",
-    "s": "Per 245 g",
+    "s": "245 ml",
     "p": "3.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/517754_M/2e72ee71d41fcacb1828f5d4b9c2c260/517754.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/517754_M/2e72ee71d41fcacb1828f5d4b9c2c260/517754.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "galbani buffel mini mozzarella",
+    "ik": "tok:galbani|buffel-mini-mozzarella|245",
+    "bn": "galbani",
+    "wg": 245
   },
   {
-    "n": "Luiten Filet Americain naturel",
+    "n": "Luiten Filet Americain Naturel",
     "o": "",
-    "s": "Per 150 g",
+    "s": "150 ml",
     "p": "2.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Dairy & Eggs",
+    "cn": "luiten americain filet naturel",
+    "ik": "tok:luiten|americain-filet-naturel|150",
+    "bn": "luiten",
+    "wg": 150
   },
   {
-    "n": "PLUS Goudse jong belegen 30+ plakken",
+    "n": "Plus Goudse Jong Belegen 30+ Plakken",
     "o": "",
-    "s": "Per 200 gram",
+    "s": "200 ml",
     "p": "3.81",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/370195_M/527eef8ee4cdbedeaa10c58a860ede6c/370195.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/370195_M/527eef8ee4cdbedeaa10c58a860ede6c/370195.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "plus 30 belegen goudse jong plakken",
+    "ik": "tok:plus|30-belegen-goudse-jong-plakken|200",
+    "bn": "plus",
+    "wg": 200
   },
   {
-    "n": "PLUS Filet americain",
+    "n": "Plus Filet Americain",
     "o": "",
-    "s": "Per 150 g",
+    "s": "150 ml",
     "p": "3.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/137165_M/668b94a46d251d8fddc058e63c57bb50/137165.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/137165_M/668b94a46d251d8fddc058e63c57bb50/137165.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "plus americain filet",
+    "ik": "tok:plus|americain-filet|150",
+    "bn": "plus",
+    "wg": 150
   },
   {
-    "n": "Milner Jong 35+ plakken",
+    "n": "Milner Jong 35+ Plakken",
     "o": "",
-    "s": "Per 150 g",
+    "s": "150 ml",
     "p": "2.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/160754_M/f60712cfef5cd3c058e901e5e1e2e23a/160754.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/160754_M/f60712cfef5cd3c058e901e5e1e2e23a/160754.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "milner 35 jong plakken",
+    "ik": "tok:milner|35-jong-plakken|150",
+    "bn": "milner",
+    "wg": 150
   },
   {
-    "n": "PLUS Goudse jong belegen 48+ stuk",
+    "n": "Plus Goudse Jong Belegen 48+ Stuk",
     "o": "",
-    "s": "Per 485 g",
+    "s": "485 ml",
     "p": "5.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/462739_M/74d7b6f3c74cdd788c982a31b2c8f70a/462739.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/462739_M/74d7b6f3c74cdd788c982a31b2c8f70a/462739.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "plus 48 belegen goudse jong",
+    "ik": "tok:plus|48-belegen-goudse-jong|485",
+    "bn": "plus",
+    "wg": 485
   },
   {
-    "n": "PLUS Goudse jong belegen komijn plakken",
+    "n": "Plus Goudse Jong Belegen Komijn Plakken",
     "o": "",
-    "s": "Per 190 g",
+    "s": "190 ml",
     "p": "3.22",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Dairy & Eggs",
+    "cn": "plus belegen goudse jong komijn plakken",
+    "ik": "tok:plus|belegen-goudse-jong-komijn-plakken|190",
+    "bn": "plus",
+    "wg": 190
   },
   {
-    "n": "Milner Jong Belegen 35+ plakken",
+    "n": "Milner Jong Belegen 35+ Plakken",
     "o": "",
-    "s": "Per 150 g",
+    "s": "150 ml",
     "p": "3.09",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/160756_M/bb1e6fd56c7ad90d0b4daf6879564042/160756.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/160756_M/bb1e6fd56c7ad90d0b4daf6879564042/160756.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "milner 35 belegen jong plakken",
+    "ik": "tok:milner|35-belegen-jong-plakken|150",
+    "bn": "milner",
+    "wg": 150
   },
   {
-    "n": "Milner Oud 30+ plakken",
+    "n": "Milner Oud 30+ Plakken",
     "o": "",
-    "s": "Per 150 g",
+    "s": "150 ml",
     "p": "3.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/492822_M/0160bcb8e9c91d7f66cbdd396f318995/492822.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/492822_M/0160bcb8e9c91d7f66cbdd396f318995/492822.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "milner 30 oud plakken",
+    "ik": "tok:milner|30-oud-plakken|150",
+    "bn": "milner",
+    "wg": 150
   },
   {
-    "n": "PLUS Goudse jong 48+ plakken",
+    "n": "Plus Goudse Jong 48+ Plakken",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "5.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/140297_M/701781252d39602826a01ceba6b77388/140297.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/140297_M/701781252d39602826a01ceba6b77388/140297.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "plus 48 goudse jong plakken",
+    "ik": "tok:plus|48-goudse-jong-plakken|400",
+    "bn": "plus",
+    "wg": 400
   },
   {
-    "n": "Zuivelmeester Halfvolle melk",
+    "n": "Zuivelmeester Halfvolle Melk",
     "o": "",
-    "s": "Per 1000 ml",
+    "s": "1 l",
     "p": "0.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Dairy & Eggs",
+    "cn": "zuivelmeester halfvolle melk",
+    "ik": "tok:zuivelmeester|halfvolle-melk|1000",
+    "bn": "zuivelmeester",
+    "wg": 1000
   },
   {
-    "n": "Optimel Yoghurt vezels Aardbei Bosbes",
+    "n": "Optimel Yoghurt Vezels Aardbei Bosbes",
     "o": "",
-    "s": "Per 450 g",
+    "s": "450 ml",
     "p": "2.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/796334_M/73ef2a7cb433c57963035d0b6196b3ef/796334.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/796334_M/73ef2a7cb433c57963035d0b6196b3ef/796334.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "optimel aardbei bosbes vezels yoghurt",
+    "ik": "tok:optimel|aardbei-bosbes-vezels-yoghurt|450",
+    "bn": "optimel",
+    "wg": 450
   },
   {
     "n": "Almhof Volle Kwark Special Edition Banaan",
     "o": "1+1 GRATIS",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/958022_M/489fb84bbd58ea10908e390b58cd7a2f/958022.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/958022_M/489fb84bbd58ea10908e390b58cd7a2f/958022.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "almhof banaan edition kwark special volle",
+    "ik": "tok:almhof|banaan-edition-kwark-special-volle|500",
+    "bn": "almhof",
+    "wg": 500
   },
   {
-    "n": "Almhof Volle kwark vanille",
+    "n": "Almhof Volle Kwark Vanille",
     "o": "1+1 GRATIS",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/160700_M/c76f2db1dc6cd18c5ad80811cf7f9dca/160700.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/160700_M/c76f2db1dc6cd18c5ad80811cf7f9dca/160700.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "almhof kwark vanille volle",
+    "ik": "tok:almhof|kwark-vanille-volle|500",
+    "bn": "almhof",
+    "wg": 500
   },
   {
-    "n": "Almhof Volle kwark citroen",
+    "n": "Almhof Volle Kwark Citroen",
     "o": "1+1 GRATIS",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/640047_M/3d6c9b64c746e661fad310daa5ae1e38/640047.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/640047_M/3d6c9b64c746e661fad310daa5ae1e38/640047.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "almhof citroen kwark volle",
+    "ik": "tok:almhof|citroen-kwark-volle|500",
+    "bn": "almhof",
+    "wg": 500
   },
   {
-    "n": "Almhof Volle kwark aardbei",
+    "n": "Almhof Volle Kwark Aardbei",
     "o": "1+1 GRATIS",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/640909_M/020f1d50e510a00c829ee002cefcb00d/640909.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/640909_M/020f1d50e510a00c829ee002cefcb00d/640909.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "almhof aardbei kwark volle",
+    "ik": "tok:almhof|aardbei-kwark-volle|500",
+    "bn": "almhof",
+    "wg": 500
   },
   {
     "n": "Campina Extra Proteine Halfvolle Yoghurt",
     "o": "",
-    "s": "Per 1000 ml",
+    "s": "1 l",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/796328_M/a15ed9efb54ad7b6b9b4548f050877bc/796328.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/796328_M/a15ed9efb54ad7b6b9b4548f050877bc/796328.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "campina extra halfvolle proteine yoghurt",
+    "ik": "tok:campina|extra-halfvolle-proteine-yoghurt|1000",
+    "bn": "campina",
+    "wg": 1000
   },
   {
     "n": "Zuivelmeester Karnemelk",
     "o": "",
-    "s": "Per 1000 ml",
+    "s": "1 l",
     "p": "0.94",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Dairy & Eggs",
+    "cn": "zuivelmeester karnemelk",
+    "ik": "tok:zuivelmeester|karnemelk|1000",
+    "bn": "zuivelmeester",
+    "wg": 1000
   },
   {
     "n": "Arla Cultura Kefir Naturel",
     "o": "",
-    "s": "Per 1000 ml",
+    "s": "1 l",
     "p": "2.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/206906_M/dd1ecd7b68b60106e1dfccad19031362/206906.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/206906_M/dd1ecd7b68b60106e1dfccad19031362/206906.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "arla cultura kefir naturel",
+    "ik": "tok:arla|cultura-kefir-naturel|1000",
+    "bn": "arla",
+    "wg": 1000
   },
   {
-    "n": "Zuivelmeester Volle melk",
+    "n": "Zuivelmeester Volle Melk",
     "o": "",
-    "s": "Per 1000 ml",
+    "s": "1 l",
     "p": "0.94",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Dairy & Eggs",
+    "cn": "zuivelmeester melk volle",
+    "ik": "tok:zuivelmeester|melk-volle|1000",
+    "bn": "zuivelmeester",
+    "wg": 1000
   },
   {
-    "n": "Biologisch PLUS Karnemelk",
+    "n": "Biologisch Plus Karnemelk",
     "o": "",
-    "s": "Per 1000 ml",
+    "s": "1 l",
     "p": "1.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/185967_M/fd2f4368a730a54b0ae309a65f511dac/185967.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/185967_M/fd2f4368a730a54b0ae309a65f511dac/185967.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "plus biologisch karnemelk",
+    "ik": "tok:plus|biologisch-karnemelk|1000",
+    "bn": "plus",
+    "wg": 1000
   },
   {
-    "n": "Campina Halfvolle melk",
+    "n": "Campina Halfvolle Melk",
     "o": "",
-    "s": "Per 1500 ml",
+    "s": "1.50 l",
     "p": "1.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/155064_M/9aa26aab8f5e4e0ba75a7f01c598a822/155064.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/155064_M/9aa26aab8f5e4e0ba75a7f01c598a822/155064.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "campina halfvolle melk",
+    "ik": "tok:campina|halfvolle-melk|1500",
+    "bn": "campina",
+    "wg": 1500
   },
   {
-    "n": "Biologisch PLUS Halfvolle melk",
+    "n": "Biologisch Plus Halfvolle Melk",
     "o": "",
-    "s": "Per 1000 ml",
+    "s": "1 l",
     "p": "1.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/185969_M/9d1145e73f6f36cd62a0c8cc6b7bd1cf/185969.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/185969_M/9d1145e73f6f36cd62a0c8cc6b7bd1cf/185969.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "plus biologisch halfvolle melk",
+    "ik": "tok:plus|biologisch-halfvolle-melk|1000",
+    "bn": "plus",
+    "wg": 1000
   },
   {
-    "n": "PLUS Halfvolle melk",
+    "n": "Plus Halfvolle Melk",
     "o": "",
-    "s": "Per 1000 ml",
+    "s": "1 l",
     "p": "1.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/203724_M/3def4f5c09401272de177e38cccc95d7/203724.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/203724_M/3def4f5c09401272de177e38cccc95d7/203724.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Dairy & Eggs",
+    "cn": "plus halfvolle melk",
+    "ik": "tok:plus|halfvolle-melk|1000",
+    "bn": "plus",
+    "wg": 1000
   },
   {
-    "n": "PLUS Rond fijn volkoren heel",
+    "n": "Plus Rond Fijn Volkoren Heel",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/585579_M/d431668f0512e6239238ada9c0059bbd/585579.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/585579_M/d431668f0512e6239238ada9c0059bbd/585579.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus fijn heel rond volkoren",
+    "ik": "tok:plus|fijn-heel-rond-volkoren|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Volkoren tijger heel",
+    "n": "Plus Volkoren Tijger Heel",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.25",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus heel tijger volkoren",
+    "ik": "tok:plus|heel-tijger-volkoren|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Korenlanders Rond Volkoren heel",
+    "n": "Plus Korenlanders Rond Volkoren Heel",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "2.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/269871_M/12f32b21de041a87d069a3ed67695a41/269871.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/269871_M/12f32b21de041a87d069a3ed67695a41/269871.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus heel korenlanders rond volkoren",
+    "ik": "tok:plus|heel-korenlanders-rond-volkoren|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Korenlanders Desem Bruin Pompoen",
+    "n": "Plus Korenlanders Desem Bruin Pompoen",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/630317_M/15bd5f2550d3f3d1af75f04c407dc6e0/630317.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/630317_M/15bd5f2550d3f3d1af75f04c407dc6e0/630317.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus bruin desem korenlanders pompoen",
+    "ik": "tok:plus|bruin-desem-korenlanders-pompoen|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Korenlanders Desem Meergranen Boekweit",
+    "n": "Plus Korenlanders Desem Meergranen Boekweit",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/630319_M/059e175927e00b21fcaa1ccfc0d2ab3e/630319.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/630319_M/059e175927e00b21fcaa1ccfc0d2ab3e/630319.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus boekweit desem korenlanders meergranen",
+    "ik": "tok:plus|boekweit-desem-korenlanders-meergranen|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Korenlanders Desem Wit",
+    "n": "Plus Korenlanders Desem Wit",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/630311_M/4fbd0c6b10325841598a2f544cbcab1b/630311.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/630311_M/4fbd0c6b10325841598a2f544cbcab1b/630311.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus desem korenlanders wit",
+    "ik": "tok:plus|desem-korenlanders-wit|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Korenlanders Kleintje desembrood bruin meergranen",
+    "n": "Plus Korenlanders Kleintje Desembrood Bruin Meergranen",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/630305_M/db89d8bd3108f4bd294364511cf898dc/630305.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/630305_M/db89d8bd3108f4bd294364511cf898dc/630305.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus bruin desembrood kleintje korenlanders meergranen",
+    "ik": "tok:plus|bruin-desembrood-kleintje-korenlanders-meergranen|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Korenlanders Extra donker volkoren vloer heel",
+    "n": "Plus Korenlanders Extra Donker Volkoren Vloer Heel",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "2.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/129623_M/72783049ed4d8af7a42de7cbfef30b9c/129623.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/129623_M/72783049ed4d8af7a42de7cbfef30b9c/129623.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus donker extra heel korenlanders vloer volkoren",
+    "ik": "tok:plus|donker-extra-heel-korenlanders-vloer-volkoren|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Korenlanders Rond Waldkorn heel",
+    "n": "Plus Korenlanders Rond Waldkorn Heel",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "2.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/170773_M/d2dd6a96666b25cc98921acbf8212ee0/170773.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/170773_M/d2dd6a96666b25cc98921acbf8212ee0/170773.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus heel korenlanders rond waldkorn",
+    "ik": "tok:plus|heel-korenlanders-rond-waldkorn|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Rond fijn volkoren half",
+    "n": "Plus Rond Fijn Volkoren Half",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.05",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/585581_M/d78bab5b19617f387866d217369ba868/585581.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/585581_M/d78bab5b19617f387866d217369ba868/585581.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus fijn half rond volkoren",
+    "ik": "tok:plus|fijn-half-rond-volkoren|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Boeren bruin heel",
+    "n": "Plus Boeren Bruin Heel",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/680034_M/d12fbb03bc9976107f42c1322b40f53a/680034.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/680034_M/d12fbb03bc9976107f42c1322b40f53a/680034.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus boeren bruin heel",
+    "ik": "tok:plus|boeren-bruin-heel|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Rond bruin heel",
+    "n": "Plus Rond Bruin Heel",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/575375_M/a11b614dfadf586672c2944d262f7189/575375.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/575375_M/a11b614dfadf586672c2944d262f7189/575375.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus bruin heel rond",
+    "ik": "tok:plus|bruin-heel-rond|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Korenlanders Boeren tijger volkoren heel",
+    "n": "Plus Korenlanders Boeren Tijger Volkoren Heel",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/269869_M/ba92e49e19d914ebef5677fd4c2e8459/269869.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/269869_M/ba92e49e19d914ebef5677fd4c2e8459/269869.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus boeren heel korenlanders tijger volkoren",
+    "ik": "tok:plus|boeren-heel-korenlanders-tijger-volkoren|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Korenlanders Rond bruin heel",
+    "n": "Plus Korenlanders Rond Bruin Heel",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "2.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/269862_M/7f7d811a6afa8d57f37d6a866df6fad5/269862.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/269862_M/7f7d811a6afa8d57f37d6a866df6fad5/269862.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus bruin heel korenlanders rond",
+    "ik": "tok:plus|bruin-heel-korenlanders-rond|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Korenlanders Vloerbrood donker half",
+    "n": "Plus Korenlanders Vloerbrood Donker Half",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "1.55",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/940604_M/fecf4013e46837537a7c5ee60625bca0/940604.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/940604_M/fecf4013e46837537a7c5ee60625bca0/940604.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus donker half korenlanders vloerbrood",
+    "ik": "tok:plus|donker-half-korenlanders-vloerbrood|400",
+    "bn": "plus",
+    "wg": 400
   },
   {
-    "n": "PLUS Korenlanders Boeren tijger wit heel",
+    "n": "Plus Korenlanders Boeren Tijger Wit Heel",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/296831_M/189e90ebbef015a4edeae560360a0754/296831.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/296831_M/189e90ebbef015a4edeae560360a0754/296831.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus boeren heel korenlanders tijger wit",
+    "ik": "tok:plus|boeren-heel-korenlanders-tijger-wit|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Luchtige crackers Vezelrijk",
+    "n": "Plus Luchtige Crackers Vezelrijk",
     "o": "",
-    "s": "Per 250 g",
+    "s": "250 ml",
     "p": "1.17",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus crackers luchtige vezelrijk",
+    "ik": "tok:plus|crackers-luchtige-vezelrijk|250",
+    "bn": "plus",
+    "wg": 250
   },
   {
     "n": "Bolletje Goed Bezig Proteïne",
     "o": "",
-    "s": "Per 200 g",
+    "s": "200 ml",
     "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/639191_M/b884e0f42bcaff4530085dc0ed397771/639191.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/639191_M/b884e0f42bcaff4530085dc0ed397771/639191.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "bolletje bezig goed ne prote",
+    "ik": "tok:bolletje|bezig-goed-ne-prote|200",
+    "bn": "bolletje",
+    "wg": 200
   },
   {
-    "n": "PLUS Extra aardbeienjam",
+    "n": "Plus Extra Aardbeienjam",
     "o": "",
-    "s": "Per 450 g",
+    "s": "450 ml",
     "p": "0.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus aardbeienjam extra",
+    "ik": "tok:plus|aardbeienjam-extra|450",
+    "bn": "plus",
+    "wg": 450
   },
   {
-    "n": "Bolletje Crackers protein low carb",
+    "n": "Bolletje Crackers Protein Low Carb",
     "o": "",
-    "s": "Per 190 g",
+    "s": "190 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/926782_M/7a9fa6a21b5ece233754627fdbc42055/926782.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/926782_M/7a9fa6a21b5ece233754627fdbc42055/926782.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "bolletje carb crackers low protein",
+    "ik": "tok:bolletje|carb-crackers-low-protein|190",
+    "bn": "bolletje",
+    "wg": 190
   },
   {
-    "n": "Calvé Pindakaas regular",
+    "n": "Calvé Pindakaas Regular",
     "o": "",
-    "s": "Per 350 g",
+    "s": "350 ml",
     "p": "3.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/191311_M/9d5225d9d26f6c043860b301803f5e8c/191311.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/191311_M/9d5225d9d26f6c043860b301803f5e8c/191311.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "calv calv pindakaas regular",
+    "ik": "tok:calv|calv-pindakaas-regular|350",
+    "bn": "calv",
+    "wg": 350
   },
   {
-    "n": "Peijnenburg Koekrepen GTS 6-pack",
+    "n": "Peijnenburg Koekrepen Gts 6-pack",
     "o": "",
-    "s": "Per 160 g",
+    "s": "160 ml",
     "p": "2.98",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/187160_M/5e21bd7419a5180c8d56a8c672698675/187160.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/187160_M/5e21bd7419a5180c8d56a8c672698675/187160.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "peijnenburg gts koekrepen pack",
+    "ik": "tok:peijnenburg|gts-koekrepen-pack|160",
+    "bn": "peijnenburg",
+    "wg": 160
   },
   {
-    "n": "PLUS Beschuit volkoren",
+    "n": "Plus Beschuit Volkoren",
     "o": "",
-    "s": "Per 125 g",
+    "s": "125 ml",
     "p": "0.52",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus beschuit volkoren",
+    "ik": "tok:plus|beschuit-volkoren|125",
+    "bn": "plus",
+    "wg": 125
   },
   {
-    "n": "PLUS Rijstwafels Naturel",
+    "n": "Plus Rijstwafels Naturel",
     "o": "",
-    "s": "Per 130 g",
+    "s": "130 ml",
     "p": "0.64",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus naturel rijstwafels",
+    "ik": "tok:plus|naturel-rijstwafels|130",
+    "bn": "plus",
+    "wg": 130
   },
   {
-    "n": "PLUS Beschuit naturel",
+    "n": "Plus Beschuit Naturel",
     "o": "",
-    "s": "Per 125 g",
+    "s": "125 ml",
     "p": "0.52",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus beschuit naturel",
+    "ik": "tok:plus|beschuit-naturel|125",
+    "bn": "plus",
+    "wg": 125
   },
   {
     "n": "Kips Vega Paté",
     "o": "",
-    "s": "Per 125 g",
+    "s": "125 ml",
     "p": "2.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/375296_M/e4be595d907f383496a6f38c83e3217a/375296.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/375296_M/e4be595d907f383496a6f38c83e3217a/375296.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "kips pat vega",
+    "ik": "tok:kips|pat-vega|125",
+    "bn": "kips",
+    "wg": 125
   },
   {
-    "n": "PLUS Ontbijtkoek Naturel gesneden",
+    "n": "Plus Ontbijtkoek Naturel Gesneden",
     "o": "",
-    "s": "Per 485 g",
+    "s": "485 ml",
     "p": "1.45",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus gesneden naturel ontbijtkoek",
+    "ik": "tok:plus|gesneden-naturel-ontbijtkoek|485",
+    "bn": "plus",
+    "wg": 485
   },
   {
-    "n": "PLUS Rinse Appelstroop",
+    "n": "Plus Rinse Appelstroop",
     "o": "",
-    "s": "Per 450 g",
+    "s": "450 ml",
     "p": "0.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus appelstroop rinse",
+    "ik": "tok:plus|appelstroop-rinse|450",
+    "bn": "plus",
+    "wg": 450
   },
   {
-    "n": "PLUS Maiswafels Paprika",
+    "n": "Plus Maiswafels Paprika",
     "o": "",
-    "s": "Per 104 g",
+    "s": "104 ml",
     "p": "1.35",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus maiswafels paprika",
+    "ik": "tok:plus|maiswafels-paprika|104",
+    "bn": "plus",
+    "wg": 104
   },
   {
-    "n": "Brinta Volkoren graanontbijt",
+    "n": "Brinta Volkoren Graanontbijt",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "2.09",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/894250_M/5613cb115383b9b24aa0de0a36337f9b/894250.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/894250_M/5613cb115383b9b24aa0de0a36337f9b/894250.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "brinta graanontbijt volkoren",
+    "ik": "tok:brinta|graanontbijt-volkoren|500",
+    "bn": "brinta",
+    "wg": 500
   },
   {
-    "n": "PLUS Chocoladehagel melk Fairtrade",
+    "n": "Plus Chocoladehagel Melk Fairtrade",
     "o": "",
-    "s": "Per 600 g",
+    "s": "600 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus chocoladehagel fairtrade melk",
+    "ik": "tok:plus|chocoladehagel-fairtrade-melk|600",
+    "bn": "plus",
+    "wg": 600
   },
   {
-    "n": "PLUS Pindakaas naturel",
+    "n": "Plus Pindakaas Naturel",
     "o": "",
-    "s": "Per 600 g",
+    "s": "600 ml",
     "p": "2.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus naturel pindakaas",
+    "ik": "tok:plus|naturel-pindakaas|600",
+    "bn": "plus",
+    "wg": 600
   },
   {
-    "n": "BIO+ Maiswafels met Zeezout",
+    "n": "BIO+ Maiswafels Met Zeezout",
     "o": "",
-    "s": "Per 130 g",
+    "s": "130 ml",
     "p": "1.07",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/469727_M/fe4ad05a29dd8f5b9518aa5dedc90df7/469727.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/469727_M/fe4ad05a29dd8f5b9518aa5dedc90df7/469727.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "bio maiswafels zeezout",
+    "ik": "tok:bio|maiswafels-zeezout|130",
+    "bn": "bio",
+    "wg": 130
   },
   {
-    "n": "PLUS Knackebrod Volkoren",
+    "n": "Plus Knackebrod Volkoren",
     "o": "",
-    "s": "Per 375 g",
+    "s": "375 ml",
     "p": "1.25",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus knackebrod volkoren",
+    "ik": "tok:plus|knackebrod-volkoren|375",
+    "bn": "plus",
+    "wg": 375
   },
   {
-    "n": "PLUS Chocopasta melk Fairtrade",
+    "n": "Plus Chocopasta Melk Fairtrade",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/767215_M/89bc30043bbc83fd9146222e8f35bcb1/767215.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/767215_M/89bc30043bbc83fd9146222e8f35bcb1/767215.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "plus chocopasta fairtrade melk",
+    "ik": "tok:plus|chocopasta-fairtrade-melk|400",
+    "bn": "plus",
+    "wg": 400
   },
   {
-    "n": "Calvé Pindakaas stukjes pinda",
+    "n": "Calvé Pindakaas Stukjes Pinda",
     "o": "",
-    "s": "Per 350 g",
+    "s": "350 ml",
     "p": "3.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/191435_M/de3ff959d7c015ee61e267691950ff8c/191435.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/191435_M/de3ff959d7c015ee61e267691950ff8c/191435.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "calv calv pinda pindakaas stukjes",
+    "ik": "tok:calv|calv-pinda-pindakaas-stukjes|350",
+    "bn": "calv",
+    "wg": 350
   },
   {
-    "n": "Bolletje Echte beschuit",
+    "n": "Bolletje Echte Beschuit",
     "o": "",
-    "s": "Per 125 g",
+    "s": "125 ml",
     "p": "0.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/969857_M/1587d3ab00b6a12ac06c3f8e6ecb6026/969857.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/969857_M/1587d3ab00b6a12ac06c3f8e6ecb6026/969857.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Bakery",
+    "cn": "bolletje beschuit echte",
+    "ik": "tok:bolletje|beschuit-echte|125",
+    "bn": "bolletje",
+    "wg": 125
   },
   {
-    "n": "PLUS Chocoladehagel puur Fairtrade",
+    "n": "Plus Chocoladehagel Puur Fairtrade",
     "o": "",
-    "s": "Per 600 g",
+    "s": "600 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus chocoladehagel fairtrade puur",
+    "ik": "tok:plus|chocoladehagel-fairtrade-puur|600",
+    "bn": "plus",
+    "wg": 600
   },
   {
-    "n": "PLUS Vruchtenhagel",
+    "n": "Plus Vruchtenhagel",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "1.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus vruchtenhagel",
+    "ik": "tok:plus|vruchtenhagel|400",
+    "bn": "plus",
+    "wg": 400
   },
   {
-    "n": "PLUS Havermout",
+    "n": "Plus Havermout",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "0.73",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Bakery",
+    "cn": "plus havermout",
+    "ik": "tok:plus|havermout|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "Dalphin Mineraalwater zonder koolzuur",
+    "n": "Dalphin Mineraalwater Zonder Koolzuur",
     "o": "",
-    "s": "Per 4500 ml",
+    "s": "4.50 l",
     "p": "1.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Beverages",
+    "cn": "dalphin koolzuur mineraalwater zonder",
+    "ik": "tok:dalphin|koolzuur-mineraalwater-zonder|4500",
+    "bn": "dalphin",
+    "wg": 4500
   },
   {
-    "n": "PLUS Mineraalwater zonder koolzuur",
+    "n": "Plus Mineraalwater Zonder Koolzuur",
     "o": "",
-    "s": "Per 1500 ml",
+    "s": "1.50 l",
     "p": "0.48",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Beverages",
+    "cn": "plus koolzuur mineraalwater zonder",
+    "ik": "tok:plus|koolzuur-mineraalwater-zonder|1500",
+    "bn": "plus",
+    "wg": 1500
   },
   {
-    "n": "Douwe Egberts Aroma rood filterkoffie",
+    "n": "Douwe Egberts Aroma Rood Filterkoffie",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/159159_M/422ad8f276c9f7681e74fd4b8faf4e69/159159.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/159159_M/422ad8f276c9f7681e74fd4b8faf4e69/159159.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "douwe egberts aroma filterkoffie rood",
+    "ik": "tok:douwe egberts|aroma-filterkoffie-rood|500",
+    "bn": "douwe egberts",
+    "wg": 500
   },
   {
-    "n": "Slimpie Limonadesiroop framboos",
+    "n": "Slimpie Limonadesiroop Framboos",
     "o": "1+1 GRATIS",
-    "s": "Per 650 ml",
+    "s": "650 ml",
     "p": "3.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50",
+    "c": "Beverages",
+    "cn": "slimpie framboos limonadesiroop",
+    "ik": "tok:slimpie|framboos-limonadesiroop|650",
+    "bn": "slimpie",
+    "wg": 650
   },
   {
-    "n": "Slimpie Limonadesiroop mango passievrucht",
+    "n": "Slimpie Limonadesiroop Mango Passievrucht",
     "o": "1+1 GRATIS",
-    "s": "Per 650 ml",
+    "s": "650 ml",
     "p": "3.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50",
+    "c": "Beverages",
+    "cn": "slimpie limonadesiroop mango passievrucht",
+    "ik": "tok:slimpie|limonadesiroop-mango-passievrucht|650",
+    "bn": "slimpie",
+    "wg": 650
   },
   {
-    "n": "Slimpie Limonadesiroop ice tea perzik",
+    "n": "Slimpie Limonadesiroop Ice Tea Perzik",
     "o": "1+1 GRATIS",
-    "s": "Per 650 ml",
+    "s": "650 ml",
     "p": "3.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50",
+    "c": "Beverages",
+    "cn": "slimpie ice limonadesiroop perzik tea",
+    "ik": "tok:slimpie|ice-limonadesiroop-perzik-tea|650",
+    "bn": "slimpie",
+    "wg": 650
   },
   {
-    "n": "Slimpie Limonadesiroop lemon",
+    "n": "Slimpie Limonadesiroop Lemon",
     "o": "1+1 GRATIS",
-    "s": "Per 650 ml",
+    "s": "650 ml",
     "p": "3.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50",
+    "c": "Beverages",
+    "cn": "slimpie lemon limonadesiroop",
+    "ik": "tok:slimpie|lemon-limonadesiroop|650",
+    "bn": "slimpie",
+    "wg": 650
   },
   {
-    "n": "PLUS Mineraalwater met koolzuur",
+    "n": "Plus Mineraalwater Met Koolzuur",
     "o": "",
-    "s": "Per 1500 ml",
+    "s": "1.50 l",
     "p": "0.48",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Beverages",
+    "cn": "plus koolzuur mineraalwater",
+    "ik": "tok:plus|koolzuur-mineraalwater|1500",
+    "bn": "plus",
+    "wg": 1500
   },
   {
-    "n": "PLUS Mineraalwater licht bruisend",
+    "n": "Plus Mineraalwater Licht Bruisend",
     "o": "",
-    "s": "Per 1500 ml",
+    "s": "1.50 l",
     "p": "0.48",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Beverages",
+    "cn": "plus bruisend licht mineraalwater",
+    "ik": "tok:plus|bruisend-licht-mineraalwater|1500",
+    "bn": "plus",
+    "wg": 1500
   },
   {
-    "n": "Dalphin Mineraalwater met koolzuur",
+    "n": "Dalphin Mineraalwater Met Koolzuur",
     "o": "",
-    "s": "Per 4500 ml",
+    "s": "4.50 l",
     "p": "1.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Beverages",
+    "cn": "dalphin koolzuur mineraalwater",
+    "ik": "tok:dalphin|koolzuur-mineraalwater|4500",
+    "bn": "dalphin",
+    "wg": 4500
   },
   {
-    "n": "PLUS Roodmerk Filterkoffie Fairtrade",
+    "n": "Plus Roodmerk Filterkoffie Fairtrade",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/729157_M/e9a006bfe8881e7d538321938bae07f3/729157.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/729157_M/e9a006bfe8881e7d538321938bae07f3/729157.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "plus fairtrade filterkoffie roodmerk",
+    "ik": "tok:plus|fairtrade-filterkoffie-roodmerk|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "Paco Filterkoffie rood",
+    "n": "Paco Filterkoffie Rood",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "2.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Beverages",
+    "cn": "paco filterkoffie rood",
+    "ik": "tok:paco|filterkoffie-rood|500",
+    "bn": "paco",
+    "wg": 500
   },
   {
     "n": "Neutraal Suiker",
     "o": "",
-    "s": "Per 1500 g",
+    "s": "1.50 l",
     "p": "1.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Beverages",
+    "cn": "neutraal suiker",
+    "ik": "tok:neutraal|suiker|1500",
+    "bn": "neutraal",
+    "wg": 1500
   },
   {
-    "n": "PLUS Koffiepads regular Fairtrade",
+    "n": "Plus Koffiepads Regular Fairtrade",
     "o": "",
-    "s": "Per 36 st",
+    "s": "36 ml",
     "p": "5.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/186100_M/7af6ce00eb3c1b0d2ad0a7589816fa57/186100.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/186100_M/7af6ce00eb3c1b0d2ad0a7589816fa57/186100.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "plus fairtrade koffiepads regular",
+    "ik": "tok:plus|fairtrade-koffiepads-regular|36",
+    "bn": "plus",
+    "wg": 36
   },
   {
-    "n": "Spa Reine koolzuurvrij mineraalwater",
+    "n": "Spa Reine Koolzuurvrij Mineraalwater",
     "o": "",
-    "s": "Per 3000 ml",
+    "s": "3 l",
     "p": "3.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/293380_M/bc505eda7d8ceebb460df832280c79d7/293380.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/293380_M/bc505eda7d8ceebb460df832280c79d7/293380.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "spa koolzuurvrij mineraalwater reine",
+    "ik": "tok:spa|koolzuurvrij-mineraalwater-reine|3000",
+    "bn": "spa",
+    "wg": 3000
   },
   {
     "n": "Hertog Jan Pilsener",
     "o": "",
-    "s": "Per 7200 ml",
+    "s": "7.20 l",
     "p": "21.32",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/80019_M/8ec7876d8a24c058b8d8d2872b7afa86/80019.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/80019_M/8ec7876d8a24c058b8d8d2872b7afa86/80019.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "hertog jan pilsener",
+    "ik": "tok:hertog|jan-pilsener|7200",
+    "bn": "hertog",
+    "wg": 7200
   },
   {
-    "n": "Heineken Premium pilsener bier fles",
+    "n": "Heineken Premium Pilsener Bier Fles",
     "o": "25 % KORTING",
-    "s": "Per 7200 ml",
+    "s": "7.20 l",
     "p": "14.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/568938_M/fb3ac3c3416b1990210e460e88a5175a/568938.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/568938_M/fb3ac3c3416b1990210e460e88a5175a/568938.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "heineken bier fles pilsener premium",
+    "ik": "tok:heineken|bier-fles-pilsener-premium|7200",
+    "bn": "heineken",
+    "wg": 7200
   },
   {
-    "n": "Grolsch Premium pilsner bier fles",
+    "n": "Grolsch Premium Pilsner Bier Fles",
     "o": "25 % KORTING",
-    "s": "Per 7200 ml",
+    "s": "7.20 l",
     "p": "14.47",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/691863_M/60ef2dd68cd30fc04c70f3799aa0b095/691863.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/691863_M/60ef2dd68cd30fc04c70f3799aa0b095/691863.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "grolsch bier fles pilsner premium",
+    "ik": "tok:grolsch|bier-fles-pilsner-premium|7200",
+    "bn": "grolsch",
+    "wg": 7200
   },
   {
-    "n": "Amstel Radler citroen 0.0 bier fles",
+    "n": "Amstel Radler Citroen 0.0 Bier Fles",
     "o": "1+1 GRATIS",
-    "s": "Per 1800 ml",
+    "s": "1.80 l",
     "p": "5.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/146690_M/75e5987ad3fa5f1c3bc447d39e9d4a64/08712000034160_H1N1.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/146690_M/75e5987ad3fa5f1c3bc447d39e9d4a64/08712000034160_H1N1.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "amstel bier citroen fles radler",
+    "ik": "tok:amstel|bier-citroen-fles-radler|1800",
+    "bn": "amstel",
+    "wg": 1800
   },
   {
-    "n": "Amstel Pilsener bier blik",
+    "n": "Amstel Pilsener Bier Blik",
     "o": "",
-    "s": "Per 12000 ml",
+    "s": "12 l",
     "p": "21.00",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/709991_M/82ca02a4e2303f357257991ce7d44fff/709991.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/709991_M/82ca02a4e2303f357257991ce7d44fff/709991.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "amstel bier blik pilsener",
+    "ik": "tok:amstel|bier-blik-pilsener|12000",
+    "bn": "amstel",
+    "wg": 12000
   },
   {
-    "n": "Amstel Pilsener bier fles",
+    "n": "Amstel Pilsener Bier Fles",
     "o": "",
-    "s": "Per 7200 ml",
+    "s": "7.20 l",
     "p": "17.32",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/567303_M/c709ef7b095c82c06857118aed34ab56/567303.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/567303_M/c709ef7b095c82c06857118aed34ab56/567303.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "amstel bier fles pilsener",
+    "ik": "tok:amstel|bier-fles-pilsener|7200",
+    "bn": "amstel",
+    "wg": 7200
   },
   {
-    "n": "Grolsch Radler citroen 0.0",
+    "n": "Grolsch Radler Citroen 0.0",
     "o": "",
-    "s": "Per 1800 ml",
+    "s": "1.80 l",
     "p": "4.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/399408_M/59800947f6804315e20ca862c7288be0/399408.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/399408_M/59800947f6804315e20ca862c7288be0/399408.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "grolsch citroen radler",
+    "ik": "tok:grolsch|citroen-radler|1800",
+    "bn": "grolsch",
+    "wg": 1800
   },
   {
     "n": "De Klok Bier",
     "o": "",
-    "s": "Per 500 ml",
+    "s": "500 ml",
     "p": "0.80",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/712367_M/478f68a2b151a613a5a8f9170a0adbf1/712367.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/712367_M/478f68a2b151a613a5a8f9170a0adbf1/712367.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "klok bier",
+    "ik": "tok:klok|bier|500",
+    "bn": "klok",
+    "wg": 500
   },
   {
-    "n": "Texels Skuumkoppe bier fles",
+    "n": "Texels Skuumkoppe Bier Fles",
     "o": "",
-    "s": "Per 1800 ml",
+    "s": "1.80 l",
     "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/750521_M/9e4e77b51b6e328598136b07a7a0be72/750521.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/750521_M/9e4e77b51b6e328598136b07a7a0be72/750521.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "texels bier fles skuumkoppe",
+    "ik": "tok:texels|bier-fles-skuumkoppe|1800",
+    "bn": "texels",
+    "wg": 1800
   },
   {
-    "n": "BIJ",
-    "o": "GRATIS BEZORGING",
-    "s": "",
-    "p": "9.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/500113_M/3d3c0cecd3c8b90a282ab30d22f18936/500113.png?w=96&h=96&fit=pad&fm=webp&q=85"
-  },
-  {
-    "n": "Texels Skuumkoppe bier blik",
+    "n": "Texels Skuumkoppe Bier Blik",
     "o": "",
-    "s": "Per 2000 ml",
+    "s": "2 l",
     "p": "9.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/392131_M/e726015d8c0117edbd3cf56cf0e83e1f/392131.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/392131_M/e726015d8c0117edbd3cf56cf0e83e1f/392131.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "texels bier blik skuumkoppe",
+    "ik": "tok:texels|bier-blik-skuumkoppe|2000",
+    "bn": "texels",
+    "wg": 2000
   },
   {
-    "n": "Amstel Radler citroen 0.0 bier blik",
+    "n": "Amstel Radler Citroen 0.0 Bier Blik",
     "o": "1+1 GRATIS",
-    "s": "Per 1980 ml",
+    "s": "1.98 l",
     "p": "6.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/275535_M/aeb0c1daf2454ac6a3f92c099f920c31/275535.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/275535_M/aeb0c1daf2454ac6a3f92c099f920c31/275535.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "amstel bier blik citroen radler",
+    "ik": "tok:amstel|bier-blik-citroen-radler|1980",
+    "bn": "amstel",
+    "wg": 1980
   },
   {
     "n": "Holger Pils 4%",
     "o": "",
-    "s": "Per 7200 ml",
+    "s": "7.20 l",
     "p": "5.55",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Beverages",
+    "cn": "holger pils",
+    "ik": "tok:holger|pils|7200",
+    "bn": "holger",
+    "wg": 7200
   },
   {
     "n": "Villa Puccini Pinot Grigio",
     "o": "",
-    "s": "Per 750 ml",
+    "s": "750 ml",
     "p": "4.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/809558_M/be750f46b339df9123c5c87746d5fbbb/809558.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/809558_M/be750f46b339df9123c5c87746d5fbbb/809558.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Beverages",
+    "cn": "villa grigio pinot puccini",
+    "ik": "tok:villa|grigio-pinot-puccini|750",
+    "bn": "villa",
+    "wg": 750
   },
   {
-    "n": "PLUS Spaghetti",
+    "n": "Plus Spaghetti",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "0.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus spaghetti",
+    "ik": "tok:plus|spaghetti|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Witte rijst",
+    "n": "Plus Witte Rijst",
     "o": "",
-    "s": "Per 1000 g",
+    "s": "1 l",
     "p": "0.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus rijst witte",
+    "ik": "tok:plus|rijst-witte|1000",
+    "bn": "plus",
+    "wg": 1000
   },
   {
-    "n": "PLUS Penne rigate",
+    "n": "Plus Penne Rigate",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "0.78",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus penne rigate",
+    "ik": "tok:plus|penne-rigate|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Fusilli",
+    "n": "Plus Fusilli",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "1.15",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus fusilli",
+    "ik": "tok:plus|fusilli|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Spaghetti volkoren",
+    "n": "Plus Spaghetti Volkoren",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "0.48",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus spaghetti volkoren",
+    "ik": "tok:plus|spaghetti-volkoren|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Farfalle",
+    "n": "Plus Farfalle",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "1.28",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus farfalle",
+    "ik": "tok:plus|farfalle|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
     "n": "Grand'Italia Penne Pasta",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "1.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/234886_M/937723329676d85c7392af1d8d1c0bab/234886.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/234886_M/937723329676d85c7392af1d8d1c0bab/234886.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Frozen Foods",
+    "cn": "grand italia pasta penne",
+    "ik": "tok:grand|italia-pasta-penne|500",
+    "bn": "grand",
+    "wg": 500
   },
   {
     "n": "Honig Spaghettini",
     "o": "",
-    "s": "Per 550 g",
+    "s": "550 ml",
     "p": "1.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/157433_M/84b4569eb3e6e4266fa4cc423478b88e/157433.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/157433_M/84b4569eb3e6e4266fa4cc423478b88e/157433.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Frozen Foods",
+    "cn": "honig spaghettini",
+    "ik": "tok:honig|spaghettini|550",
+    "bn": "honig",
+    "wg": 550
   },
   {
-    "n": "BIO+ Fusilli volkoren",
+    "n": "BIO+ Fusilli Volkoren",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "1.25",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/260805_M/04225c12a1d04ff77cf6d2c33f421ade/260805.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/260805_M/04225c12a1d04ff77cf6d2c33f421ade/260805.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Frozen Foods",
+    "cn": "bio fusilli volkoren",
+    "ik": "tok:bio|fusilli-volkoren|500",
+    "bn": "bio",
+    "wg": 500
   },
   {
-    "n": "PLUS Tagliatelle met ei",
+    "n": "Plus Tagliatelle Met Ei",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "1.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus ei tagliatelle",
+    "ik": "tok:plus|ei-tagliatelle|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "Lassie Witte Snelkook Tover rijst",
+    "n": "Lassie Witte Snelkook Tover Rijst",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "1.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/274034_M/11325d3ab2b98e60e52167123ded105d/274034.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/274034_M/11325d3ab2b98e60e52167123ded105d/274034.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Frozen Foods",
+    "cn": "lassie rijst snelkook tover witte",
+    "ik": "tok:lassie|rijst-snelkook-tover-witte|400",
+    "bn": "lassie",
+    "wg": 400
   },
   {
-    "n": "PLUS Knakworsten",
+    "n": "Plus Knakworsten",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "1.42",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Pantry",
+    "cn": "plus knakworsten",
+    "ik": "tok:plus|knakworsten|400",
+    "bn": "plus",
+    "wg": 400
   },
   {
-    "n": "Princes Haring in tomatensaus MSC",
+    "n": "Princes Haring In Tomatensaus Msc",
     "o": "",
-    "s": "Per 170 g",
+    "s": "170 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/407138_M/e6b1aa773e00fbe11b92f87199619916/407138.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/407138_M/e6b1aa773e00fbe11b92f87199619916/407138.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Pantry",
+    "cn": "princes haring in msc tomatensaus",
+    "ik": "tok:princes|haring-in-msc-tomatensaus|170",
+    "bn": "princes",
+    "wg": 170
   },
   {
     "n": "Green Appelmoes",
     "o": "",
-    "s": "Per 710 g",
+    "s": "710 ml",
     "p": "0.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Pantry",
+    "cn": "green appelmoes",
+    "ik": "tok:green|appelmoes|710",
+    "bn": "green",
+    "wg": 710
   },
   {
-    "n": "Princes Tonijnstukken in olijfolie MSC",
+    "n": "Princes Tonijnstukken In Olijfolie Msc",
     "o": "1+1 GRATIS",
-    "s": "Per 145 g",
+    "s": "145 ml",
     "p": "3.09",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/920166_M/b1f4639211fdd88cb5e2c30d3b5b15a3/920166.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/920166_M/b1f4639211fdd88cb5e2c30d3b5b15a3/920166.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Pantry",
+    "cn": "princes in msc olijfolie tonijnstukken",
+    "ik": "tok:princes|in-msc-olijfolie-tonijnstukken|145",
+    "bn": "princes",
+    "wg": 145
   },
   {
-    "n": "Diamant Frituurvet original 3 liter",
+    "n": "Diamant Frituurvet Original 3 Liter",
     "o": "",
-    "s": "Per 3000 ml",
+    "s": "3 l",
     "p": "12.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/733518_M/4c818787001362e8edd99e868ec5c6a2/733518.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/733518_M/4c818787001362e8edd99e868ec5c6a2/733518.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Pantry",
+    "cn": "diamant frituurvet liter original",
+    "ik": "tok:diamant|frituurvet-liter-original|3000",
+    "bn": "diamant",
+    "wg": 3000
   },
   {
-    "n": "Princes Ansjovis in olijfolie MSC",
+    "n": "Princes Ansjovis In Olijfolie Msc",
     "o": "",
-    "s": "Per 46 g",
+    "s": "46 ml",
     "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/236324_M/79482312d8af12c551c513cee72f4c63/236324.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/236324_M/79482312d8af12c551c513cee72f4c63/236324.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Pantry",
+    "cn": "princes ansjovis in msc olijfolie",
+    "ik": "tok:princes|ansjovis-in-msc-olijfolie|46",
+    "bn": "princes",
+    "wg": 46
   },
   {
-    "n": "Diamant Frituurvet extra krokante friet",
+    "n": "Diamant Frituurvet Extra Krokante Friet",
     "o": "",
-    "s": "Per 3000 ml",
+    "s": "3 l",
     "p": "13.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/185972_M/1331d677d4935e648bb8bc809fce36ed/185972.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/185972_M/1331d677d4935e648bb8bc809fce36ed/185972.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Pantry",
+    "cn": "diamant extra friet frituurvet krokante",
+    "ik": "tok:diamant|extra-friet-frituurvet-krokante|3000",
+    "bn": "diamant",
+    "wg": 3000
   },
   {
     "n": "Unox Knaks",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "3.09",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/165738_M/ee5d2cb1aba52ee4a10a8cbac6d17bb9/165738.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/165738_M/ee5d2cb1aba52ee4a10a8cbac6d17bb9/165738.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Pantry",
+    "cn": "unox knaks",
+    "ik": "tok:unox|knaks|400",
+    "bn": "unox",
+    "wg": 400
   },
   {
-    "n": "PLUS Snacksaus mayonaise",
+    "n": "Plus Snacksaus Mayonaise",
     "o": "",
-    "s": "Per 750 ml",
+    "s": "750 ml",
     "p": "2.65",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Pantry",
+    "cn": "plus mayonaise snacksaus",
+    "ik": "tok:plus|mayonaise-snacksaus|750",
+    "bn": "plus",
+    "wg": 750
   },
   {
-    "n": "PLUS Augurken Zoetzuur",
+    "n": "Plus Augurken Zoetzuur",
     "o": "",
-    "s": "Per 670 g",
+    "s": "670 ml",
     "p": "1.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Pantry",
+    "cn": "plus augurken zoetzuur",
+    "ik": "tok:plus|augurken-zoetzuur|670",
+    "bn": "plus",
+    "wg": 670
   },
   {
-    "n": "PLUS Natuurazijn wit",
+    "n": "Plus Natuurazijn Wit",
     "o": "",
-    "s": "Per 1500 ml",
+    "s": "1.50 l",
     "p": "0.77",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Pantry",
+    "cn": "plus natuurazijn wit",
+    "ik": "tok:plus|natuurazijn-wit|1500",
+    "bn": "plus",
+    "wg": 1500
   },
   {
-    "n": "PLUS Soepstengels naturel",
+    "n": "Plus Soepstengels Naturel",
     "o": "",
-    "s": "Per 125 g",
+    "s": "125 ml",
     "p": "0.75",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Pantry",
+    "cn": "plus naturel soepstengels",
+    "ik": "tok:plus|naturel-soepstengels|125",
+    "bn": "plus",
+    "wg": 125
   },
   {
     "n": "Milka Chocoladereep Alpenmelk",
     "o": "",
-    "s": "Per 90 g",
+    "s": "90 ml",
     "p": "1.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/241461_M/0f67a03c66825fe453faac52eaf13578/241461.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/241461_M/0f67a03c66825fe453faac52eaf13578/241461.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "milka alpenmelk chocoladereep",
+    "ik": "tok:milka|alpenmelk-chocoladereep|90",
+    "bn": "milka",
+    "wg": 90
   },
   {
     "n": "Redband Schatkistjes",
     "o": "",
-    "s": "Per 228 g",
+    "s": "228 ml",
     "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/423869_M/9bb8d3e2644556a8f6f987163274dbae/423869.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/423869_M/9bb8d3e2644556a8f6f987163274dbae/423869.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "redband schatkistjes",
+    "ik": "tok:redband|schatkistjes|228",
+    "bn": "redband",
+    "wg": 228
   },
   {
-    "n": "PLUS Pinda choco's Fairtrade",
+    "n": "Plus Pinda choco's Fairtrade",
     "o": "",
-    "s": "Per 250 g",
+    "s": "250 ml",
     "p": "1.47",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Snacks",
+    "cn": "plus choco fairtrade pinda",
+    "ik": "tok:plus|choco-fairtrade-pinda|250",
+    "bn": "plus",
+    "wg": 250
   },
   {
     "n": "Sportlife Mints Smashmint Suikervrij",
     "o": "1+1 GRATIS",
-    "s": "Per 50 st",
+    "s": "50 ml",
     "p": "4.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/381078_M/50105d6af9c12294dbcfdd334d91f65c/381078.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/381078_M/50105d6af9c12294dbcfdd334d91f65c/381078.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "sportlife mints smashmint suikervrij",
+    "ik": "tok:sportlife|mints-smashmint-suikervrij|50",
+    "bn": "sportlife",
+    "wg": 50
   },
   {
     "n": "Sportlife Frozn Deepmint Kauwgom Suikervrij",
     "o": "1+1 GRATIS",
-    "s": "Per 4 st",
+    "s": "4 ml",
     "p": "3.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/663121_M/e5534f15185e815eb858c3d1dd650c66/663121.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/663121_M/e5534f15185e815eb858c3d1dd650c66/663121.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "sportlife deepmint frozn kauwgom suikervrij",
+    "ik": "tok:sportlife|deepmint-frozn-kauwgom-suikervrij|4",
+    "bn": "sportlife",
+    "wg": 4
   },
   {
     "n": "Sportlife Smashmint Kauwgom Suikervrij",
     "o": "1+1 GRATIS",
-    "s": "Per 102 g",
+    "s": "102 ml",
     "p": "4.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/664998_M/90325b594bc539d749a4dd56b1652c6c/664998.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/664998_M/90325b594bc539d749a4dd56b1652c6c/664998.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "sportlife kauwgom smashmint suikervrij",
+    "ik": "tok:sportlife|kauwgom-smashmint-suikervrij|102",
+    "bn": "sportlife",
+    "wg": 102
   },
   {
-    "n": "Sportlife Sour cola",
+    "n": "Sportlife Sour Cola",
     "o": "1+1 GRATIS",
-    "s": "Per 60 g",
+    "s": "60 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/477334_M/9b5b6919f5f4ff43ee64a551a5f3276b/477334.png?w=96&h=96&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/477334_M/9b5b6919f5f4ff43ee64a551a5f3276b/477334.png?w=96&h=96&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "sportlife cola sour",
+    "ik": "tok:sportlife|cola-sour|60",
+    "bn": "sportlife",
+    "wg": 60
   },
   {
     "n": "Redband Groovy",
     "o": "",
-    "s": "Per 215 g",
+    "s": "215 ml",
     "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/477328_M/cd4698d0095cf0b1b7882d95bd5e074c/477328.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/477328_M/cd4698d0095cf0b1b7882d95bd5e074c/477328.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "redband groovy",
+    "ik": "tok:redband|groovy|215",
+    "bn": "redband",
+    "wg": 215
   },
   {
     "n": "Milka Chocoladereep Karamel",
     "o": "",
-    "s": "Per 100 g",
+    "s": "100 ml",
     "p": "1.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/839638_M/4d28da12e44f8dac0073df076440bdba/839638.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/839638_M/4d28da12e44f8dac0073df076440bdba/839638.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "milka chocoladereep karamel",
+    "ik": "tok:milka|chocoladereep-karamel|100",
+    "bn": "milka",
+    "wg": 100
   },
   {
-    "n": "Redband Juicy bites aardbei",
+    "n": "Redband Juicy Bites Aardbei",
     "o": "1+1 GRATIS",
-    "s": "Per 145 g",
+    "s": "145 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/198519_M/ffa34f86046e26e364b4d91f29132de0/198519.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/198519_M/ffa34f86046e26e364b4d91f29132de0/198519.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "redband aardbei bites juicy",
+    "ik": "tok:redband|aardbei-bites-juicy|145",
+    "bn": "redband",
+    "wg": 145
   },
   {
     "n": "Mars Minimix Melk Chocolade Repen",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "4.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/427115_M/9c2efd95909e4f2fe4e01a33f807d3e9/427115.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/427115_M/9c2efd95909e4f2fe4e01a33f807d3e9/427115.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "mars chocolade melk minimix repen",
+    "ik": "tok:mars|chocolade-melk-minimix-repen|400",
+    "bn": "mars",
+    "wg": 400
   },
   {
     "n": "Milka Chocoladereep Bubbly Alpenmelk",
     "o": "",
-    "s": "Per 90 g",
+    "s": "90 ml",
     "p": "1.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/241463_M/5ced5c8f7face20f2812354ca9a15412/241463.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/241463_M/5ced5c8f7face20f2812354ca9a15412/241463.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "milka alpenmelk bubbly chocoladereep",
+    "ik": "tok:milka|alpenmelk-bubbly-chocoladereep|90",
+    "bn": "milka",
+    "wg": 90
   },
   {
-    "n": "PLUS Chocolade Mini choco mix Fairtrade",
+    "n": "Plus Chocolade Mini Choco Mix Fairtrade",
     "o": "",
-    "s": "Per 450 g",
+    "s": "450 ml",
     "p": "3.41",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Snacks",
+    "cn": "plus choco chocolade fairtrade mini mix",
+    "ik": "tok:plus|choco-chocolade-fairtrade-mini-mix|450",
+    "bn": "plus",
+    "wg": 450
   },
   {
     "n": "Milka Chocoladereep Gebroken Hazelnoten",
     "o": "",
-    "s": "Per 90 g",
+    "s": "90 ml",
     "p": "1.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/240981_M/0d9460bda50571678eefea7045546ea8/240981.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/240981_M/0d9460bda50571678eefea7045546ea8/240981.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "milka chocoladereep gebroken hazelnoten",
+    "ik": "tok:milka|chocoladereep-gebroken-hazelnoten|90",
+    "bn": "milka",
+    "wg": 90
   },
   {
     "n": "Milka Chocoladereep Confetti",
     "o": "",
-    "s": "Per 90 g",
+    "s": "90 ml",
     "p": "1.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/601897_M/856fc984f12c4a97c008c360fd82618e/601897.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/601897_M/856fc984f12c4a97c008c360fd82618e/601897.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Snacks",
+    "cn": "milka chocoladereep confetti",
+    "ik": "tok:milka|chocoladereep-confetti|90",
+    "bn": "milka",
+    "wg": 90
   },
   {
-    "n": "PLUS Chocolade reep puur",
+    "n": "Plus Chocolade Reep Puur",
     "o": "",
-    "s": "Per 100 g",
+    "s": "100 ml",
     "p": "0.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Snacks",
+    "cn": "plus chocolade puur reep",
+    "ik": "tok:plus|chocolade-puur-reep|100",
+    "bn": "plus",
+    "wg": 100
   },
   {
     "n": "Candyman Vrieslollies",
     "o": "",
-    "s": "Per 500 ml",
+    "s": "500 ml",
     "p": "0.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "candyman vrieslollies",
+    "ik": "tok:candyman|vrieslollies|500",
+    "bn": "candyman",
+    "wg": 500
   },
   {
-    "n": "Iglo Chicken shop nacho cheese fingers",
+    "n": "Iglo Chicken Shop Nacho Cheese Fingers",
     "o": "",
-    "s": "Per 220 g",
+    "s": "220 ml",
     "p": "4.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/192310_M/c2162b3699d3121931799197721ac4e0/192310.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/192310_M/c2162b3699d3121931799197721ac4e0/192310.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Frozen Foods",
+    "cn": "iglo cheese chicken fingers nacho shop",
+    "ik": "tok:iglo|cheese-chicken-fingers-nacho-shop|220",
+    "bn": "iglo",
+    "wg": 220
   },
   {
     "n": "Ola Raket",
     "o": "25 % KORTING",
-    "s": "Per 12 st",
+    "s": "12 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/386398_M/cc9c2190493403a2bfaa0e1874e69049/386398.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/386398_M/cc9c2190493403a2bfaa0e1874e69049/386398.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Frozen Foods",
+    "cn": "ola raket",
+    "ik": "tok:ola|raket|12",
+    "bn": "ola",
+    "wg": 12
   },
   {
-    "n": "Iglo Roerbaksensatie Pasta met spinazie",
+    "n": "Iglo Roerbaksensatie Pasta Met Spinazie",
     "o": "",
-    "s": "Per 450 g",
+    "s": "450 ml",
     "p": "6.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/725741_M/576a1026d7f0c4177956bd376c9c4bf0/725741.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/725741_M/576a1026d7f0c4177956bd376c9c4bf0/725741.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Frozen Foods",
+    "cn": "iglo pasta roerbaksensatie spinazie",
+    "ik": "tok:iglo|pasta-roerbaksensatie-spinazie|450",
+    "bn": "iglo",
+    "wg": 450
   },
   {
-    "n": "PLUS Peren ijsjes",
+    "n": "Plus Peren Ijsjes",
     "o": "",
-    "s": "Per 12 st",
+    "s": "12 ml",
     "p": "1.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus ijsjes peren",
+    "ik": "tok:plus|ijsjes-peren|12",
+    "bn": "plus",
+    "wg": 12
   },
   {
-    "n": "Iglo Crème de la crème Bloemkool",
+    "n": "Iglo Crème De La Crème Bloemkool",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "3.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/574862_M/ff969a21fd51d6baea8e61ba0c98bec2/574862.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/574862_M/ff969a21fd51d6baea8e61ba0c98bec2/574862.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Frozen Foods",
+    "cn": "iglo bloemkool cr la me",
+    "ik": "tok:iglo|bloemkool-cr-la-me|400",
+    "bn": "iglo",
+    "wg": 400
   },
   {
-    "n": "PLUS Regenboogijsjes",
+    "n": "Plus Regenboogijsjes",
     "o": "",
-    "s": "Per 8 st",
+    "s": "8 ml",
     "p": "0.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus regenboogijsjes",
+    "ik": "tok:plus|regenboogijsjes|8",
+    "bn": "plus",
+    "wg": 8
   },
   {
-    "n": "PLUS Shuttles",
+    "n": "Plus Shuttles",
     "o": "",
-    "s": "Per 10 st",
+    "s": "10 ml",
     "p": "1.32",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus shuttles",
+    "ik": "tok:plus|shuttles|10",
+    "bn": "plus",
+    "wg": 10
   },
   {
-    "n": "PLUS Cornets",
+    "n": "Plus Cornets",
     "o": "",
-    "s": "Per 6 st",
+    "s": "6 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus cornets",
+    "ik": "tok:plus|cornets|6",
+    "bn": "plus",
+    "wg": 6
   },
   {
-    "n": "PLUS Hamburgers",
+    "n": "Plus Hamburgers",
     "o": "",
-    "s": "Per 12 st",
+    "s": "12 ml",
     "p": "2.75",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus hamburgers",
+    "ik": "tok:plus|hamburgers|12",
+    "bn": "plus",
+    "wg": 12
   },
   {
-    "n": "PLUS Bosvruchten ijsjes",
+    "n": "Plus Bosvruchten Ijsjes",
     "o": "",
-    "s": "Per 12 st",
+    "s": "12 ml",
     "p": "2.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Frozen Foods",
+    "cn": "plus bosvruchten ijsjes",
+    "ik": "tok:plus|bosvruchten-ijsjes|12",
+    "bn": "plus",
+    "wg": 12
   },
   {
-    "n": "Dr. Oetker Bistro Baguette pizzabroodje salami",
+    "n": "Dr. Oetker Bistro Baguette Pizzabroodje Salami",
     "o": "",
-    "s": "Per 250 g",
+    "s": "250 ml",
     "p": "2.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/834253_M/d7bfe92dfa3e3254a89cf40a2be68d25/834253.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/834253_M/d7bfe92dfa3e3254a89cf40a2be68d25/834253.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Frozen Foods",
+    "cn": "oetker baguette bistro dr pizzabroodje salami",
+    "ik": "tok:oetker|baguette-bistro-dr-pizzabroodje-salami|250",
+    "bn": "oetker",
+    "wg": 250
   },
   {
-    "n": "HTP Paracetamol 500mg",
+    "n": "Htp Paracetamol 500mg",
     "o": "",
-    "s": "Per 20 st",
+    "s": "20 ml",
     "p": "0.85",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/194907_M/a0c64912b914d74bdaad3b55d7a105c4/194907.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/194907_M/a0c64912b914d74bdaad3b55d7a105c4/194907.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "htp 500mg paracetamol",
+    "ik": "tok:htp|500mg-paracetamol|20",
+    "bn": "htp",
+    "wg": 20
   },
   {
-    "n": "Libresse Maandverband ultra normal",
+    "n": "Libresse Maandverband Ultra Normal",
     "o": "2+1 GRATIS",
-    "s": "Per 16 st",
+    "s": "16 ml",
     "p": "2.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/698688_M/c82019b5ec1b43bc7c536ce23c8512cc/698688.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/698688_M/c82019b5ec1b43bc7c536ce23c8512cc/698688.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "libresse maandverband normal ultra",
+    "ik": "tok:libresse|maandverband-normal-ultra|16",
+    "bn": "libresse",
+    "wg": 16
   },
   {
-    "n": "Libresse Maandverband maxi goodnight wing",
+    "n": "Libresse Maandverband Maxi Goodnight Wing",
     "o": "2+1 GRATIS",
-    "s": "Per 10 st",
+    "s": "10 ml",
     "p": "2.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/703761_M/b43df0e34ecaa2ac245f8aea4c09f006/703761.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/703761_M/b43df0e34ecaa2ac245f8aea4c09f006/703761.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "libresse goodnight maandverband maxi wing",
+    "ik": "tok:libresse|goodnight-maandverband-maxi-wing|10",
+    "bn": "libresse",
+    "wg": 10
   },
   {
-    "n": "Derlon Vloeibare handzeep hygiëne en zacht",
+    "n": "Derlon Vloeibare Handzeep Hygiëne En Zacht",
     "o": "",
-    "s": "Per 500 ml",
+    "s": "500 ml",
     "p": "1.15",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Personal Care",
+    "cn": "derlon handzeep hygi ne vloeibare zacht",
+    "ik": "tok:derlon|handzeep-hygi-ne-vloeibare-zacht|500",
+    "bn": "derlon",
+    "wg": 500
   },
   {
-    "n": "Libresse Inlegkruisje extra long",
+    "n": "Libresse Inlegkruisje Extra Long",
     "o": "2+1 GRATIS",
-    "s": "Per 22 st",
+    "s": "22 ml",
     "p": "2.75",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/867373_M/9b2b22ec81cb5929575aed9630f25daf/867373.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/867373_M/9b2b22ec81cb5929575aed9630f25daf/867373.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "libresse extra inlegkruisje long",
+    "ik": "tok:libresse|extra-inlegkruisje-long|22",
+    "bn": "libresse",
+    "wg": 22
   },
   {
     "n": "Prodent Tandpasta Freshgel",
     "o": "1+1 GRATIS",
-    "s": "Per 75 ml",
+    "s": "75 ml",
     "p": "2.65",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/755519_M/d2673be008f2d52846335468c337037a/755519.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/755519_M/d2673be008f2d52846335468c337037a/755519.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "prodent freshgel tandpasta",
+    "ik": "tok:prodent|freshgel-tandpasta|75",
+    "bn": "prodent",
+    "wg": 75
   },
   {
-    "n": "Derlon Handzeep milde verzorging met pomp",
+    "n": "Derlon Handzeep Milde Verzorging Met Pomp",
     "o": "",
-    "s": "Per 500 ml",
+    "s": "500 ml",
     "p": "1.15",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Personal Care",
+    "cn": "derlon handzeep milde pomp verzorging",
+    "ik": "tok:derlon|handzeep-milde-pomp-verzorging|500",
+    "bn": "derlon",
+    "wg": 500
   },
   {
-    "n": "Bonbebe Toeten boeners",
+    "n": "Bonbebe Toeten Boeners",
     "o": "",
-    "s": "Per 40 st",
+    "s": "40 ml",
     "p": "0.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Personal Care",
+    "cn": "bonbebe boeners toeten",
+    "ik": "tok:bonbebe|boeners-toeten|40",
+    "bn": "bonbebe",
+    "wg": 40
   },
   {
-    "n": "Derlon Handzeep milde verzorging navulling",
+    "n": "Derlon Handzeep Milde Verzorging Navulling",
     "o": "",
-    "s": "Per 1000 ml",
+    "s": "1 l",
     "p": "1.72",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Personal Care",
+    "cn": "derlon handzeep milde navulling verzorging",
+    "ik": "tok:derlon|handzeep-milde-navulling-verzorging|1000",
+    "bn": "derlon",
+    "wg": 1000
   },
   {
-    "n": "Aquafresh Fresh & Minty tandpasta",
+    "n": "Aquafresh Fresh & Minty Tandpasta",
     "o": "",
-    "s": "Per 75 ml",
+    "s": "75 ml",
     "p": "2.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/177739_M/cb19af510689d280fe7703b4ea0da290/177739.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/177739_M/cb19af510689d280fe7703b4ea0da290/177739.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "aquafresh fresh minty tandpasta",
+    "ik": "tok:aquafresh|fresh-minty-tandpasta|75",
+    "bn": "aquafresh",
+    "wg": 75
   },
   {
-    "n": "Bonbebe billendoekjes sensitive",
+    "n": "Bonbebe Billendoekjes Sensitive",
     "o": "",
-    "s": "Per 80 st",
+    "s": "80 ml",
     "p": "1.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Personal Care",
+    "cn": "bonbebe billendoekjes sensitive",
+    "ik": "tok:bonbebe|billendoekjes-sensitive|80",
+    "bn": "bonbebe",
+    "wg": 80
   },
   {
-    "n": "Derlon Papieren wattenstaafjes",
+    "n": "Derlon Papieren Wattenstaafjes",
     "o": "",
-    "s": "Per 300 st",
+    "s": "300 ml",
     "p": "0.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Personal Care",
+    "cn": "derlon papieren wattenstaafjes",
+    "ik": "tok:derlon|papieren-wattenstaafjes|300",
+    "bn": "derlon",
+    "wg": 300
   },
   {
-    "n": "Sanicur Handzeep sensitive",
+    "n": "Sanicur Handzeep Sensitive",
     "o": "",
-    "s": "Per 300 ml",
+    "s": "300 ml",
     "p": "2.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/294865_M/62c1e011175a911ba18ef46972441739/294865.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/294865_M/62c1e011175a911ba18ef46972441739/294865.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "sanicur handzeep sensitive",
+    "ik": "tok:sanicur|handzeep-sensitive|300",
+    "bn": "sanicur",
+    "wg": 300
   },
   {
-    "n": "Sore Baby maisfingers naturel",
+    "n": "Sore Baby Maisfingers Naturel",
     "o": "",
-    "s": "Per 35 g",
+    "s": "35 ml",
     "p": "1.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/722849_M/e8e54a2865897b6da5661b35a117addf/722849.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/722849_M/e8e54a2865897b6da5661b35a117addf/722849.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "sore baby maisfingers naturel",
+    "ik": "tok:sore|baby-maisfingers-naturel|35",
+    "bn": "sore",
+    "wg": 35
   },
   {
-    "n": "Always Dailies inlegkruisjes long plus",
+    "n": "Always Dailies Inlegkruisjes Long Plus",
     "o": "",
-    "s": "Per 22 st",
+    "s": "22 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/694084_M/409c0b323cc20fffa2d480bcaacd3010/694084.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/694084_M/409c0b323cc20fffa2d480bcaacd3010/694084.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "always dailies inlegkruisjes long",
+    "ik": "tok:always|dailies-inlegkruisjes-long|22",
+    "bn": "always",
+    "wg": 22
   },
   {
-    "n": "Vogue Parfum deodorant extravagant",
+    "n": "Vogue Parfum Deodorant Extravagant",
     "o": "",
-    "s": "Per 150 ml",
+    "s": "150 ml",
     "p": "4.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/407807_M/03d54deabce11459574bf1e150848609/407807.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/407807_M/03d54deabce11459574bf1e150848609/407807.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "vogue deodorant extravagant parfum",
+    "ik": "tok:vogue|deodorant-extravagant-parfum|150",
+    "bn": "vogue",
+    "wg": 150
   },
   {
-    "n": "Always Discreet maandverband long plus",
+    "n": "Always Discreet Maandverband Long Plus",
     "o": "",
-    "s": "Per 8 st",
+    "s": "8 ml",
     "p": "4.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/917635_M/950b5349e397346c0c6f1062c2057af9/917635.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/917635_M/950b5349e397346c0c6f1062c2057af9/917635.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "always discreet long maandverband",
+    "ik": "tok:always|discreet-long-maandverband|8",
+    "bn": "always",
+    "wg": 8
   },
   {
-    "n": "Roosvicee Siroop vruchtenmix",
+    "n": "Roosvicee Siroop Vruchtenmix",
     "o": "",
-    "s": "Per 500 ml",
+    "s": "500 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/882507_M/afb739bd3130866e61050dd44e6a2cbf/882507.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/882507_M/afb739bd3130866e61050dd44e6a2cbf/882507.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "roosvicee siroop vruchtenmix",
+    "ik": "tok:roosvicee|siroop-vruchtenmix|500",
+    "bn": "roosvicee",
+    "wg": 500
   },
   {
-    "n": "Bonbebe Billendoekjes 0% parfum",
+    "n": "Bonbebe Billendoekjes 0% Parfum",
     "o": "",
-    "s": "Per 60 st",
+    "s": "60 ml",
     "p": "1.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Personal Care",
+    "cn": "bonbebe billendoekjes parfum",
+    "ik": "tok:bonbebe|billendoekjes-parfum|60",
+    "bn": "bonbebe",
+    "wg": 60
   },
   {
-    "n": "Vogue Parfum deodorant enjoy",
+    "n": "Vogue Parfum Deodorant Enjoy",
     "o": "",
-    "s": "Per 150 ml",
+    "s": "150 ml",
     "p": "4.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/407819_M/cd8dbc9d0eb3f298dd6bb8bc072a8c7d/407819.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/407819_M/cd8dbc9d0eb3f298dd6bb8bc072a8c7d/407819.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "vogue deodorant enjoy parfum",
+    "ik": "tok:vogue|deodorant-enjoy-parfum|150",
+    "bn": "vogue",
+    "wg": 150
   },
   {
-    "n": "Always Incontinentie inlegkruisjes long plus",
+    "n": "Always Incontinentie Inlegkruisjes Long Plus",
     "o": "",
-    "s": "Per 24 st",
+    "s": "24 ml",
     "p": "3.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/381124_M/76ada24398c3bd766e8410bd014684c8/381124.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/381124_M/76ada24398c3bd766e8410bd014684c8/381124.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "always incontinentie inlegkruisjes long",
+    "ik": "tok:always|incontinentie-inlegkruisjes-long|24",
+    "bn": "always",
+    "wg": 24
   },
   {
-    "n": "Unicura Handzeep balance pomp",
+    "n": "Unicura Handzeep Balance Pomp",
     "o": "",
-    "s": "Per 250 ml",
+    "s": "250 ml",
     "p": "3.09",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/368538_M/ac4849cd429436004ef8190f318129b1/368538.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/368538_M/ac4849cd429436004ef8190f318129b1/368538.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "unicura balance handzeep pomp",
+    "ik": "tok:unicura|balance-handzeep-pomp|250",
+    "bn": "unicura",
+    "wg": 250
   },
   {
-    "n": "Vogue Parfum deodorant reve exotique",
+    "n": "Vogue Parfum Deodorant Reve Exotique",
     "o": "",
-    "s": "Per 150 ml",
+    "s": "150 ml",
     "p": "4.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/407821_M/52dbe08ac1602032b40faf474348b55d/407821.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/407821_M/52dbe08ac1602032b40faf474348b55d/407821.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Personal Care",
+    "cn": "vogue deodorant exotique parfum reve",
+    "ik": "tok:vogue|deodorant-exotique-parfum-reve|150",
+    "bn": "vogue",
+    "wg": 150
   },
   {
-    "n": "Grand'Italia Glutenvrije pasta Fusilli",
+    "n": "Grand'Italia Glutenvrije Pasta Fusilli",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "3.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/534427_M/91eccef17d9d66bf635d84e9a7fd03b0/534427.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/534427_M/91eccef17d9d66bf635d84e9a7fd03b0/534427.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "grand fusilli glutenvrije italia pasta",
+    "ik": "tok:grand|fusilli-glutenvrije-italia-pasta|400",
+    "bn": "grand",
+    "wg": 400
   },
   {
-    "n": "Sam Mills GV Protein chickp & yel pea fusilli",
+    "n": "Sam Mills Gv Protein Chickp & Yel Pea Fusilli",
     "o": "",
-    "s": "Per 250 g",
+    "s": "250 ml",
     "p": "3.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/173430_M/da043177a7bfd6889b492b859f6d30f0/173430.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/173430_M/da043177a7bfd6889b492b859f6d30f0/173430.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "sam chickp fusilli gv mills pea protein yel",
+    "ik": "tok:sam|chickp-fusilli-gv-mills-pea-protein-yel|250",
+    "bn": "sam",
+    "wg": 250
   },
   {
-    "n": "Sam Mills GV Protein red lent & yel pea penne",
+    "n": "Sam Mills Gv Protein Red Lent & Yel Pea Penne",
     "o": "",
-    "s": "Per 250 g",
+    "s": "250 ml",
     "p": "3.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/173428_M/d99988edff0510bfbd1a8b00fb052ea5/173428.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/173428_M/d99988edff0510bfbd1a8b00fb052ea5/173428.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "red gv lent mills pea penne protein sam yel",
+    "ik": "tok:red|gv-lent-mills-pea-penne-protein-sam-yel|250",
+    "bn": "red",
+    "wg": 250
   },
   {
     "n": "Liga Proteïne Reep Pinda",
     "o": "",
-    "s": "Per 160 g",
+    "s": "160 ml",
     "p": "3.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/185995_M/fbd48a0d8780a36a6ec1b568edd1a85e/185995.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/185995_M/fbd48a0d8780a36a6ec1b568edd1a85e/185995.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "liga ne pinda prote reep",
+    "ik": "tok:liga|ne-pinda-prote-reep|160",
+    "bn": "liga",
+    "wg": 160
   },
   {
-    "n": "Liga HaverKick Haverreep Appel",
+    "n": "Liga Haverkick Haverreep Appel",
     "o": "",
-    "s": "Per 200 g",
+    "s": "200 ml",
     "p": "2.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/688293_M/7e6fc67b5f6cea0b5daf37b163f73283/688293.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/688293_M/7e6fc67b5f6cea0b5daf37b163f73283/688293.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "liga appel haverkick haverreep",
+    "ik": "tok:liga|appel-haverkick-haverreep|200",
+    "bn": "liga",
+    "wg": 200
   },
   {
-    "n": "PLUS Bruin glutenvrij",
+    "n": "Plus Bruin Glutenvrij",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "3.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/474134_M/545503bb6268ea3f30c519b564f22902/474134.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/474134_M/545503bb6268ea3f30c519b564f22902/474134.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus bruin glutenvrij",
+    "ik": "tok:plus|bruin-glutenvrij|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Glutenvrije luchtige crackers",
+    "n": "Plus Glutenvrije Luchtige Crackers",
     "o": "",
-    "s": "Per 150 g",
+    "s": "150 ml",
     "p": "1.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/216725_M/56f5e099e1a3c86e258c0840d03ac4e6/216725.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/216725_M/56f5e099e1a3c86e258c0840d03ac4e6/216725.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus crackers glutenvrije luchtige",
+    "ik": "tok:plus|crackers-glutenvrije-luchtige|150",
+    "bn": "plus",
+    "wg": 150
   },
   {
-    "n": "Liga Proteïne repen cranberry",
+    "n": "Liga Proteïne Repen Cranberry",
     "o": "",
-    "s": "Per 160 g",
+    "s": "160 ml",
     "p": "3.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/185997_M/837c15d8b41dcef32c8f903f1ec483c6/185997.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/185997_M/837c15d8b41dcef32c8f903f1ec483c6/185997.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "liga cranberry ne prote repen",
+    "ik": "tok:liga|cranberry-ne-prote-repen|160",
+    "bn": "liga",
+    "wg": 160
   },
   {
-    "n": "Zonnatura Reep notenmix bio",
+    "n": "Zonnatura Reep Notenmix Bio",
     "o": "",
-    "s": "Per 75 g",
+    "s": "75 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/788337_M/9c317af0017e216a4ea9c138571cdafd/788337.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/788337_M/9c317af0017e216a4ea9c138571cdafd/788337.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "zonnatura bio notenmix reep",
+    "ik": "tok:zonnatura|bio-notenmix-reep|75",
+    "bn": "zonnatura",
+    "wg": 75
   },
   {
-    "n": "Wasa Glutenvrije en Lactosevrije Knäckebröd",
+    "n": "Wasa Glutenvrije En Lactosevrije Knäckebröd",
     "o": "",
-    "s": "Per 240 g",
+    "s": "240 ml",
     "p": "3.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/803226_M/db996df75c0798ea0b3578ae6ad6d8ff/803226.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/803226_M/db996df75c0798ea0b3578ae6ad6d8ff/803226.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "wasa ckebr glutenvrije kn lactosevrije",
+    "ik": "tok:wasa|ckebr-glutenvrije-kn-lactosevrije|240",
+    "bn": "wasa",
+    "wg": 240
   },
   {
-    "n": "PLUS Meerzaden glutenvrij",
+    "n": "Plus Meerzaden Glutenvrij",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "3.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/474132_M/790aeb2baf8d6b16df193870d4f104c7/474132.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/474132_M/790aeb2baf8d6b16df193870d4f104c7/474132.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus glutenvrij meerzaden",
+    "ik": "tok:plus|glutenvrij-meerzaden|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Glutenvrije pistolet wit",
+    "n": "Plus Glutenvrije Pistolet Wit",
     "o": "",
-    "s": "Per 2 st",
+    "s": "2 ml",
     "p": "3.25",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/196551_M/2c9017448ad97c8f876db09db199a730/196551.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/196551_M/2c9017448ad97c8f876db09db199a730/196551.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus glutenvrije pistolet wit",
+    "ik": "tok:plus|glutenvrije-pistolet-wit|2",
+    "bn": "plus",
+    "wg": 2
   },
   {
-    "n": "PLUS Glutenvrije fusilli",
+    "n": "Plus Glutenvrije Fusilli",
     "o": "",
-    "s": "Per 500 g",
+    "s": "500 ml",
     "p": "1.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/216721_M/782af56fdef508ce2d0b99b1cdcd9f89/216721.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/216721_M/782af56fdef508ce2d0b99b1cdcd9f89/216721.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus fusilli glutenvrije",
+    "ik": "tok:plus|fusilli-glutenvrije|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "Cereal Koekjes kokos zonder suikers",
+    "n": "Cereal Koekjes Kokos Zonder Suikers",
     "o": "",
-    "s": "Per 132 g",
+    "s": "132 ml",
     "p": "3.75",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/652634_M/15a45f453ab2a255fa0960bd3b4f40b5/652634.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/652634_M/15a45f453ab2a255fa0960bd3b4f40b5/652634.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "cereal koekjes kokos suikers zonder",
+    "ik": "tok:cereal|koekjes-kokos-suikers-zonder|132",
+    "bn": "cereal",
+    "wg": 132
   },
   {
-    "n": "B'tween Proteinreep zero gezouten pinda's",
+    "n": "B'tween Proteinreep Zero Gezouten pinda's",
     "o": "",
-    "s": "Per 100 g",
+    "s": "100 ml",
     "p": "2.45",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/903601_M/6f04fd5b781ab7e961010d849c52fdef/903601.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/903601_M/6f04fd5b781ab7e961010d849c52fdef/903601.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "btween gezouten pinda proteinreep tween zero",
+    "ik": "tok:btween|gezouten-pinda-proteinreep-tween-zero|100",
+    "bn": "btween",
+    "wg": 100
   },
   {
-    "n": "Zonnatura Reep noten appel en kaneel bio",
+    "n": "Zonnatura Reep Noten Appel En Kaneel Bio",
     "o": "",
-    "s": "Per 3 st",
+    "s": "3 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/797415_M/753567a5bd93eedc773bd0ce2a2d7279/797415.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/797415_M/753567a5bd93eedc773bd0ce2a2d7279/797415.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "zonnatura appel bio kaneel noten reep",
+    "ik": "tok:zonnatura|appel-bio-kaneel-noten-reep|3",
+    "bn": "zonnatura",
+    "wg": 3
   },
   {
-    "n": "De Kleine Keuken Bio mango en pompoen spread 6+",
+    "n": "De Kleine Keuken Bio Mango En Pompoen Spread 6+",
     "o": "",
-    "s": "Per 170 g",
+    "s": "170 ml",
     "p": "3.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/262551_M/3982c4b77006b0a0449ee1163d90284b/262551.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/262551_M/3982c4b77006b0a0449ee1163d90284b/262551.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "kleine bio keuken mango pompoen spread",
+    "ik": "tok:kleine|bio-keuken-mango-pompoen-spread|170",
+    "bn": "kleine",
+    "wg": 170
   },
   {
-    "n": "PLUS Glutenvrije pistolets meerzaden",
+    "n": "Plus Glutenvrije Pistolets Meerzaden",
     "o": "",
-    "s": "Per 2 st",
+    "s": "2 ml",
     "p": "3.25",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/196553_M/f0f66df673d3d48940723ea42685c4cf/196553.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/196553_M/f0f66df673d3d48940723ea42685c4cf/196553.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus glutenvrije meerzaden pistolets",
+    "ik": "tok:plus|glutenvrije-meerzaden-pistolets|2",
+    "bn": "plus",
+    "wg": 2
   },
   {
-    "n": "PLUS Glutenvrije choco chip cookies",
+    "n": "Plus Glutenvrije Choco Chip Cookies",
     "o": "",
-    "s": "Per 160 g",
+    "s": "160 ml",
     "p": "3.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/216729_M/f0c22e8a29307a8c794ad6b75b37253c/216729.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/216729_M/f0c22e8a29307a8c794ad6b75b37253c/216729.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus chip choco cookies glutenvrije",
+    "ik": "tok:plus|chip-choco-cookies-glutenvrije|160",
+    "bn": "plus",
+    "wg": 160
   },
   {
-    "n": "PLUS Glutenvrije wraps",
+    "n": "Plus Glutenvrije Wraps",
     "o": "",
-    "s": "3 stuks",
+    "s": "3 ml",
     "p": "3.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/196543_M/b6be2d1f512233fc9d3b9d00b36f308c/196543.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/196543_M/b6be2d1f512233fc9d3b9d00b36f308c/196543.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus glutenvrije wraps",
+    "ik": "tok:plus|glutenvrije-wraps|3",
+    "bn": "plus",
+    "wg": 3
   },
   {
-    "n": "PLUS Wit glutenvrij",
+    "n": "Plus Wit Glutenvrij",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "3.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/730225_M/06afab03bc2a79dab3def7c08c1bcdd1/730225.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/730225_M/06afab03bc2a79dab3def7c08c1bcdd1/730225.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus glutenvrij wit",
+    "ik": "tok:plus|glutenvrij-wit|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Glutenvrije Mueslirepen berry mix",
+    "n": "Plus Glutenvrije Mueslirepen Berry Mix",
     "o": "",
-    "s": "Per 5 st",
+    "s": "5 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/196545_M/0279cfc5a18309a240b6d08a414bca99/196545.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/196545_M/0279cfc5a18309a240b6d08a414bca99/196545.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus berry glutenvrije mix mueslirepen",
+    "ik": "tok:plus|berry-glutenvrije-mix-mueslirepen|5",
+    "bn": "plus",
+    "wg": 5
   },
   {
-    "n": "PLUS Glutenvrije stroopwafels",
+    "n": "Plus Glutenvrije Stroopwafels",
     "o": "",
-    "s": "Per 240 g",
+    "s": "240 ml",
     "p": "3.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/216808_M/8be3f77fd2d6a9e834994e48e5232540/216808.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/216808_M/8be3f77fd2d6a9e834994e48e5232540/216808.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus glutenvrije stroopwafels",
+    "ik": "tok:plus|glutenvrije-stroopwafels|240",
+    "bn": "plus",
+    "wg": 240
   },
   {
     "n": "BIO+ Pindakaas 100%",
     "o": "",
-    "s": "Per 350 g",
+    "s": "350 ml",
     "p": "2.89",
-    "l": null
+    "l": null,
+    "c": "Other",
+    "cn": "bio 100 pindakaas",
+    "ik": "tok:bio|100-pindakaas|350",
+    "bn": "bio",
+    "wg": 350
   },
   {
-    "n": "PLUS Toiletpapier 4-laags",
+    "n": "Plus Toiletpapier 4-laags",
     "o": "",
-    "s": "Per 12 st",
+    "s": "12 ml",
     "p": "5.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus laags toiletpapier",
+    "ik": "tok:plus|laags-toiletpapier|12",
+    "bn": "plus",
+    "wg": 12
   },
   {
-    "n": "NALYS Vochtvangers keukenpapier",
+    "n": "Nalys Vochtvangers Keukenpapier",
     "o": "",
-    "s": "Per 6 st",
+    "s": "6 ml",
     "p": "8.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/229581_M/8a8627448b40182e2a77186eecad1c6f/229581.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/229581_M/8a8627448b40182e2a77186eecad1c6f/229581.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Household",
+    "cn": "nalys keukenpapier vochtvangers",
+    "ik": "tok:nalys|keukenpapier-vochtvangers|6",
+    "bn": "nalys",
+    "wg": 6
   },
   {
-    "n": "Komo Vuilniszak trekband 60 liter",
+    "n": "Komo Vuilniszak Trekband 60 Liter",
     "o": "",
-    "s": "Per 15 st",
+    "s": "15 ml",
     "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/850195_M/400d58791b60d2c2d05089000cbb7295/850195.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "b": "05089000"
+    "c": "Household",
+    "b": "05089000",
+    "cn": "komo 60 liter trekband vuilniszak",
+    "ik": "ean:05089000",
+    "bn": "komo",
+    "wg": 15
   },
   {
-    "n": "NALYS Xtra Power Keukenpapier",
+    "n": "Nalys Xtra Power Keukenpapier",
     "o": "",
-    "s": "Per 2 st",
+    "s": "2 ml",
     "p": "3.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/406948_M/1733782374dc4bbb0af646e627701dfc/406948.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/406948_M/1733782374dc4bbb0af646e627701dfc/406948.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Household",
+    "cn": "nalys keukenpapier power xtra",
+    "ik": "tok:nalys|keukenpapier-power-xtra|2",
+    "bn": "nalys",
+    "wg": 2
   },
   {
-    "n": "PLUS Toiletpapier 3-laags 16 rollen",
+    "n": "Plus Toiletpapier 3-laags 16 Rollen",
     "o": "",
-    "s": "Per 16 st",
+    "s": "16 ml",
     "p": "5.15",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus 16 laags rollen toiletpapier",
+    "ik": "tok:plus|16-laags-rollen-toiletpapier|16",
+    "bn": "plus",
+    "wg": 16
   },
   {
-    "n": "NALYS Vochtvangers keukenpapier dubbele rol",
+    "n": "Nalys Vochtvangers Keukenpapier Dubbele Rol",
     "o": "",
-    "s": "Per 2 st",
+    "s": "2 ml",
     "p": "5.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/298316_M/b8c24ce56e3ae7e48afe6b8f0e29c1d1/298316.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/298316_M/b8c24ce56e3ae7e48afe6b8f0e29c1d1/298316.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Household",
+    "cn": "nalys dubbele keukenpapier rol vochtvangers",
+    "ik": "tok:nalys|dubbele-keukenpapier-rol-vochtvangers|2",
+    "bn": "nalys",
+    "wg": 2
   },
   {
-    "n": "PLUS Keukenpapier ultra 3 laags",
+    "n": "Plus Keukenpapier Ultra 3 Laags",
     "o": "",
-    "s": "Per 3 st",
+    "s": "3 ml",
     "p": "3.55",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus keukenpapier laags ultra",
+    "ik": "tok:plus|keukenpapier-laags-ultra|3",
+    "bn": "plus",
+    "wg": 3
   },
   {
-    "n": "Paper Keukenpapier maxi 2-rol",
+    "n": "Paper Keukenpapier Maxi 2-rol",
     "o": "",
-    "s": "Per 2 st",
+    "s": "2 ml",
     "p": "1.47",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "paper keukenpapier maxi rol",
+    "ik": "tok:paper|keukenpapier-maxi-rol|2",
+    "bn": "paper",
+    "wg": 2
   },
   {
-    "n": "PLUS Toiletpapier 3-laags 8 rollen",
+    "n": "Plus Toiletpapier 3-laags 8 Rollen",
     "o": "",
-    "s": "Per 8 st",
+    "s": "8 ml",
     "p": "2.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus laags rollen toiletpapier",
+    "ik": "tok:plus|laags-rollen-toiletpapier|8",
+    "bn": "plus",
+    "wg": 8
   },
   {
     "n": "Vintastic Schoonmaakazijn Original",
     "o": "",
-    "s": "Per 1000 ml",
+    "s": "1 l",
     "p": "0.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/910830_M/93846f2a395d9080647bced5c349acfa/910830.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/910830_M/93846f2a395d9080647bced5c349acfa/910830.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Household",
+    "cn": "vintastic original schoonmaakazijn",
+    "ik": "tok:vintastic|original-schoonmaakazijn|1000",
+    "bn": "vintastic",
+    "wg": 1000
   },
   {
-    "n": "PLUS Pedaalemmerzakken",
+    "n": "Plus Pedaalemmerzakken",
     "o": "",
-    "s": "25L",
+    "s": "25 l",
     "p": "1.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus pedaalemmerzakken",
+    "ik": "tok:plus|pedaalemmerzakken|25000",
+    "bn": "plus",
+    "wg": 25000
   },
   {
-    "n": "PLUS Afwasmiddel ultra",
+    "n": "Plus Afwasmiddel Ultra",
     "o": "",
-    "s": "Per 500 ml",
+    "s": "500 ml",
     "p": "0.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus afwasmiddel ultra",
+    "ik": "tok:plus|afwasmiddel-ultra|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Aluminiumfolie 30m",
+    "n": "Plus Aluminiumfolie 30m",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.86",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus 30m aluminiumfolie",
+    "ik": "tok:plus|30m-aluminiumfolie|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Dikbleek original",
+    "n": "Plus Dikbleek Original",
     "o": "",
-    "s": "Per 750 ml",
+    "s": "750 ml",
     "p": "0.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus dikbleek original",
+    "ik": "tok:plus|dikbleek-original|750",
+    "bn": "plus",
+    "wg": 750
   },
   {
-    "n": "PLUS Tissues 3 laags",
+    "n": "Plus Tissues 3 Laags",
     "o": "",
-    "s": "Per 120 st",
+    "s": "120 ml",
     "p": "1.38",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus laags tissues",
+    "ik": "tok:plus|laags-tissues|120",
+    "bn": "plus",
+    "wg": 120
   },
   {
-    "n": "Glorix Reiniger bleek eucalyptus",
+    "n": "Glorix Reiniger Bleek Eucalyptus",
     "o": "1+1 GRATIS",
-    "s": "Per 750 ml",
+    "s": "750 ml",
     "p": "2.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/299624_M/f7fc83f0232949f011941592919128fa/299624.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/299624_M/f7fc83f0232949f011941592919128fa/299624.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Household",
+    "cn": "glorix bleek eucalyptus reiniger",
+    "ik": "tok:glorix|bleek-eucalyptus-reiniger|750",
+    "bn": "glorix",
+    "wg": 750
   },
   {
-    "n": "PLUS Keukenpapier 3-laags decor",
+    "n": "Plus Keukenpapier 3-laags Decor",
     "o": "1+1 GRATIS",
-    "s": "Per 2 st",
+    "s": "2 ml",
     "p": "3.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus decor keukenpapier laags",
+    "ik": "tok:plus|decor-keukenpapier-laags|2",
+    "bn": "plus",
+    "wg": 2
   },
   {
-    "n": "PLUS Allesreinigerdoekjes lemon plasticvrij",
+    "n": "Plus Allesreinigerdoekjes Lemon Plasticvrij",
     "o": "",
-    "s": "Per 80 st",
+    "s": "80 ml",
     "p": "0.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus allesreinigerdoekjes lemon plasticvrij",
+    "ik": "tok:plus|allesreinigerdoekjes-lemon-plasticvrij|80",
+    "bn": "plus",
+    "wg": 80
   },
   {
-    "n": "PLUS Toiletpapier 2-laags",
+    "n": "Plus Toiletpapier 2-laags",
     "o": "",
-    "s": "Per 24 st",
+    "s": "24 ml",
     "p": "6.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus laags toiletpapier",
+    "ik": "tok:plus|laags-toiletpapier|24",
+    "bn": "plus",
+    "wg": 24
   },
   {
-    "n": "PLUS Tissues lotion 3-laags",
+    "n": "Plus Tissues Lotion 3-laags",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus laags lotion tissues",
+    "ik": "tok:plus|laags-lotion-tissues|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
-    "n": "PLUS Toiletreiniger oceaan",
+    "n": "Plus Toiletreiniger Oceaan",
     "o": "",
-    "s": "Per 1000 ml",
+    "s": "1 l",
     "p": "0.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus oceaan toiletreiniger",
+    "ik": "tok:plus|oceaan-toiletreiniger|1000",
+    "bn": "plus",
+    "wg": 1000
   },
   {
-    "n": "PLUS Vochtig toiletpapier fresh",
+    "n": "Plus Vochtig Toiletpapier Fresh",
     "o": "",
-    "s": "Per 80 st",
+    "s": "80 ml",
     "p": "0.94",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus fresh toiletpapier vochtig",
+    "ik": "tok:plus|fresh-toiletpapier-vochtig|80",
+    "bn": "plus",
+    "wg": 80
   },
   {
-    "n": "PLUS Afwasmiddel citroen",
+    "n": "Plus Afwasmiddel Citroen",
     "o": "",
-    "s": "Per 500 ml",
+    "s": "500 ml",
     "p": "0.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus afwasmiddel citroen",
+    "ik": "tok:plus|afwasmiddel-citroen|500",
+    "bn": "plus",
+    "wg": 500
   },
   {
-    "n": "PLUS Vloeibaar wasmiddel kleur 22sc",
+    "n": "Plus Vloeibaar Wasmiddel Kleur 22sc",
     "o": "",
-    "s": "Per 1100 ml",
+    "s": "1.10 l",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Household",
+    "cn": "plus 22sc kleur vloeibaar wasmiddel",
+    "ik": "tok:plus|22sc-kleur-vloeibaar-wasmiddel|1100",
+    "bn": "plus",
+    "wg": 1100
   },
   {
-    "n": "CUBY ijsblokjes",
+    "n": "Cuby Ijsblokjes",
     "o": "",
-    "s": "Per 1 kg",
+    "s": "1 l",
     "p": "0.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "cuby ijsblokjes",
+    "ik": "tok:cuby|ijsblokjes|1000",
+    "bn": "cuby",
+    "wg": 1000
   },
   {
-    "n": "Finess Servetten wit 33 cm",
+    "n": "Finess Servetten Wit 33 Cm",
     "o": "",
-    "s": "Per 100 st",
+    "s": "100 ml",
     "p": "0.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "finess 33 cm servetten wit",
+    "ik": "tok:finess|33-cm-servetten-wit|100",
+    "bn": "finess",
+    "wg": 100
   },
   {
-    "n": "PLUS Beker wit karton FSC",
+    "n": "Plus Beker Wit Karton Fsc",
     "o": "",
-    "s": "180ml",
+    "s": "180 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus beker fsc karton wit",
+    "ik": "tok:plus|beker-fsc-karton-wit|180",
+    "bn": "plus",
+    "wg": 180
   },
   {
-    "n": "PLUS Servetten wit 2-laags",
+    "n": "Plus Servetten Wit 2-laags",
     "o": "",
-    "s": "Per 50 st",
+    "s": "50 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus laags servetten wit",
+    "ik": "tok:plus|laags-servetten-wit|50",
+    "bn": "plus",
+    "wg": 50
   },
   {
-    "n": "PLUS Bord karton FSC 23cm",
+    "n": "Plus Bord Karton Fsc 23cm",
     "o": "",
-    "s": "Per 20 st",
+    "s": "20 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus 23cm bord fsc karton",
+    "ik": "tok:plus|23cm-bord-fsc-karton|20",
+    "bn": "plus",
+    "wg": 20
   },
   {
-    "n": "Atomic Kaarsen- & BBQ aansteker navulbaar",
+    "n": "Atomic Kaarsen- & Bbq Aansteker Navulbaar",
     "o": "",
-    "s": "1st",
+    "s": "1 stuk",
     "p": "1.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/129723_M/bcf774e0a10dc1f12a692acd4a887c7b/129723.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/129723_M/bcf774e0a10dc1f12a692acd4a887c7b/129723.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "atomic aansteker bbq kaarsen navulbaar",
+    "ik": "tok:atomic|aansteker-bbq-kaarsen-navulbaar|1",
+    "bn": "atomic",
+    "wg": 1
   },
   {
     "n": "Eddy Toys Watergun Ø4x15cm 2as",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/422558_M/d6ef0337d13f7e52bd8436d30a20f06c/422558.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/422558_M/d6ef0337d13f7e52bd8436d30a20f06c/422558.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "eddy 2as 4x15cm toys watergun",
+    "ik": "tok:eddy|2as-4x15cm-toys-watergun|1",
+    "bn": "eddy",
+    "wg": 1
   },
   {
-    "n": "PLUS Aanstekers",
+    "n": "Plus Aanstekers",
     "o": "",
-    "s": "Per 2 st",
+    "s": "2 ml",
     "p": "0.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/973674_M/0db0c82c8a911c7267a4a734f7df8374/973674.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/973674_M/0db0c82c8a911c7267a4a734f7df8374/973674.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus aanstekers",
+    "ik": "tok:plus|aanstekers|2",
+    "bn": "plus",
+    "wg": 2
   },
   {
-    "n": "Duracell PLUS AA",
+    "n": "Duracell Plus Aa",
     "o": "",
-    "s": "Per 6 st",
+    "s": "6 ml",
     "p": "11.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/475758_M/950d531b2c25a328b1943721db635547/475758.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/475758_M/950d531b2c25a328b1943721db635547/475758.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus aa duracell",
+    "ik": "tok:plus|aa-duracell|6",
+    "bn": "plus",
+    "wg": 6
   },
   {
-    "n": "PLUS Bierglas",
+    "n": "Plus Bierglas",
     "o": "",
-    "s": "250ml",
+    "s": "250 ml",
     "p": "1.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus bierglas",
+    "ik": "tok:plus|bierglas|250",
+    "bn": "plus",
+    "wg": 250
   },
   {
-    "n": "PLUS Bord karton FSC 18cm",
+    "n": "Plus Bord Karton Fsc 18cm",
     "o": "",
-    "s": "Per 20 st",
+    "s": "20 ml",
     "p": "1.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus 18cm bord fsc karton",
+    "ik": "tok:plus|18cm-bord-fsc-karton|20",
+    "bn": "plus",
+    "wg": 20
   },
   {
-    "n": "PLUS Roerstaafje hout 140mm FSC",
+    "n": "Plus Roerstaafje Hout 140mm Fsc",
     "o": "",
-    "s": "Per 100 st",
+    "s": "100 ml",
     "p": "0.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus 140mm fsc hout roerstaafje",
+    "ik": "tok:plus|140mm-fsc-hout-roerstaafje|100",
+    "bn": "plus",
+    "wg": 100
   },
   {
-    "n": "Duracell PLUS AAA",
+    "n": "Duracell Plus Aaa",
     "o": "",
-    "s": "Per 6 st",
+    "s": "6 ml",
     "p": "11.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/475760_M/e3affa5af7decfd736f13508253933cb/475760.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/475760_M/e3affa5af7decfd736f13508253933cb/475760.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus aaa duracell",
+    "ik": "tok:plus|aaa-duracell|6",
+    "bn": "plus",
+    "wg": 6
   },
   {
-    "n": "PLUS Satéprikkers bamboe FSC 250m",
+    "n": "Plus Satéprikkers Bamboe Fsc 250m",
     "o": "",
-    "s": "Per 100 st",
+    "s": "100 ml",
     "p": "1.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus 250m bamboe fsc prikkers sat",
+    "ik": "tok:plus|250m-bamboe-fsc-prikkers-sat|100",
+    "bn": "plus",
+    "wg": 100
   },
   {
-    "n": "PLUS Vork hout FSC 160mm",
+    "n": "Plus Vork Hout Fsc 160mm",
     "o": "",
-    "s": "Per 39 g",
+    "s": "39 ml",
     "p": "1.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus 160mm fsc hout vork",
+    "ik": "tok:plus|160mm-fsc-hout-vork|39",
+    "bn": "plus",
+    "wg": 39
   },
   {
-    "n": "House of Charcoal Briketten",
+    "n": "House Of Charcoal Briketten",
     "o": "",
-    "s": "4 kg",
+    "s": "4 l",
     "p": "6.25",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "house briketten charcoal of",
+    "ik": "tok:house|briketten-charcoal-of|4000",
+    "bn": "house",
+    "wg": 4000
   },
   {
-    "n": "Neutraal Kartonnen beker - Oranje",
+    "n": "Neutraal Kartonnen Beker - Oranje",
     "o": "",
-    "s": "Per 50 st",
+    "s": "50 ml",
     "p": "3.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/229697_M/72082753388a7d71777b6c6325bbb84a/229697.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/229697_M/72082753388a7d71777b6c6325bbb84a/229697.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "neutraal beker kartonnen oranje",
+    "ik": "tok:neutraal|beker-kartonnen-oranje|50",
+    "bn": "neutraal",
+    "wg": 50
   },
   {
     "n": "Merkloos Tuinaarde",
     "o": "",
-    "s": "Per 25 L",
+    "s": "25 l",
     "p": "2.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/842250_M/7f1110f96aabb6a21d021a67afe7737b/842250.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/842250_M/7f1110f96aabb6a21d021a67afe7737b/842250.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "merkloos tuinaarde",
+    "ik": "tok:merkloos|tuinaarde|25000",
+    "bn": "merkloos",
+    "wg": 25000
   },
   {
-    "n": "PLUS Mes herbruikbaar 19,5cm",
+    "n": "Plus Mes Herbruikbaar 19,5cm",
     "o": "",
-    "s": "Per 10 st",
+    "s": "10 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/301906_M/7790b0164907d658ae4fb9a992968eb4/301906.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/301906_M/7790b0164907d658ae4fb9a992968eb4/301906.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus 19 5cm herbruikbaar mes",
+    "ik": "tok:plus|19-5cm-herbruikbaar-mes|10",
+    "bn": "plus",
+    "wg": 10
   },
   {
-    "n": "Powerking Alkaline batterijen AA",
+    "n": "Powerking Alkaline Batterijen Aa",
     "o": "",
-    "s": "Per 8 st",
+    "s": "8 ml",
     "p": "1.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/632127_M/19856f7e481638f8b23bcfb02c8ca180/632127.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/632127_M/19856f7e481638f8b23bcfb02c8ca180/632127.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "powerking aa alkaline batterijen",
+    "ik": "tok:powerking|aa-alkaline-batterijen|8",
+    "bn": "powerking",
+    "wg": 8
   },
   {
-    "n": "PLUS Mes hout FSC",
+    "n": "Plus Mes Hout Fsc",
     "o": "",
-    "s": "Per 20 st",
+    "s": "20 ml",
     "p": "1.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus fsc hout mes",
+    "ik": "tok:plus|fsc-hout-mes|20",
+    "bn": "plus",
+    "wg": 20
   },
   {
     "n": "Merkloos Potgrond 100% Bio",
     "o": "",
-    "s": "Per 16 L",
+    "s": "16 l",
     "p": "2.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/582518_M/4884b725a4df8b79c44d02415873e342/582518.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/582518_M/4884b725a4df8b79c44d02415873e342/582518.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "merkloos 100 bio potgrond",
+    "ik": "tok:merkloos|100-bio-potgrond|16000",
+    "bn": "merkloos",
+    "wg": 16000
   },
   {
-    "n": "Powerking Alkaline batterijen AAA",
+    "n": "Powerking Alkaline Batterijen Aaa",
     "o": "",
-    "s": "Per 8 st",
+    "s": "8 ml",
     "p": "1.78",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "powerking aaa alkaline batterijen",
+    "ik": "tok:powerking|aaa-alkaline-batterijen|8",
+    "bn": "powerking",
+    "wg": 8
   },
   {
-    "n": "PLUS Beker gekleurd bamboe papier FSC",
+    "n": "Plus Beker Gekleurd Bamboe Papier Fsc",
     "o": "",
-    "s": "180ml",
+    "s": "180 ml",
     "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/452705_M/59b58d5647850ea2d22c56a8169d6255/452705.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/452705_M/59b58d5647850ea2d22c56a8169d6255/452705.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "plus bamboe beker fsc gekleurd papier",
+    "ik": "tok:plus|bamboe-beker-fsc-gekleurd-papier|180",
+    "bn": "plus",
+    "wg": 180
   },
   {
-    "n": "PLUS Katten paté Rund",
+    "n": "Plus Katten Paté Rund",
     "o": "",
-    "s": "Per 100 g",
+    "s": "100 ml",
     "p": "0.28",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus katten pat rund",
+    "ik": "tok:plus|katten-pat-rund|100",
+    "bn": "plus",
+    "wg": 100
   },
   {
-    "n": "Agriselect Kattenbakvulling absorbent 7 liter",
+    "n": "Agriselect Kattenbakvulling Absorbent 7 Liter",
     "o": "",
-    "s": "Per 1 st",
+    "s": "1 stuk",
     "p": "1.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/342361_M/88d85c7ba7c2513b4484f5850e488425/342361.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/342361_M/88d85c7ba7c2513b4484f5850e488425/342361.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "agriselect absorbent kattenbakvulling liter",
+    "ik": "tok:agriselect|absorbent-kattenbakvulling-liter|1",
+    "bn": "agriselect",
+    "wg": 1
   },
   {
-    "n": "PLUS Katten paté Zalm MSC",
+    "n": "Plus Katten Paté Zalm Msc",
     "o": "",
-    "s": "Per 100 g",
+    "s": "100 ml",
     "p": "0.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus katten msc pat zalm",
+    "ik": "tok:plus|katten-msc-pat-zalm|100",
+    "bn": "plus",
+    "wg": 100
   },
   {
-    "n": "PLUS Katten paté Kip",
+    "n": "Plus Katten Paté Kip",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "0.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus katten kip pat",
+    "ik": "tok:plus|katten-kip-pat|400",
+    "bn": "plus",
+    "wg": 400
   },
   {
-    "n": "PLUS Honden paté Lam & kip",
+    "n": "Plus Honden Paté Lam & Kip",
     "o": "",
-    "s": "Per 150 g",
+    "s": "150 ml",
     "p": "0.44",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus honden kip lam pat",
+    "ik": "tok:plus|honden-kip-lam-pat|150",
+    "bn": "plus",
+    "wg": 150
   },
   {
-    "n": "Reno Hondenvoer in blik rund brok/saus",
+    "n": "Reno Hondenvoer In Blik Rund brok/saus",
     "o": "",
-    "s": "Per 1240 g",
+    "s": "1.24 l",
     "p": "1.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "reno blik brok hondenvoer in rund saus",
+    "ik": "tok:reno|blik-brok-hondenvoer-in-rund-saus|1240",
+    "bn": "reno",
+    "wg": 1240
   },
   {
-    "n": "PLUS Brokjes in gelei kip",
+    "n": "Plus Brokjes In Gelei Kip",
     "o": "",
-    "s": "Per 415 g",
+    "s": "415 ml",
     "p": "0.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus brokjes gelei in kip",
+    "ik": "tok:plus|brokjes-gelei-in-kip|415",
+    "bn": "plus",
+    "wg": 415
   },
   {
-    "n": "PLUS Honden paté Rund",
+    "n": "Plus Honden Paté Rund",
     "o": "",
-    "s": "Per 300 g",
+    "s": "300 ml",
     "p": "0.75",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus honden pat rund",
+    "ik": "tok:plus|honden-pat-rund|300",
+    "bn": "plus",
+    "wg": 300
   },
   {
-    "n": "PLUS Honden paté Rund & gevogelte",
+    "n": "Plus Honden Paté Rund & Gevogelte",
     "o": "",
-    "s": "Per 150 g",
+    "s": "150 ml",
     "p": "0.44",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus gevogelte honden pat rund",
+    "ik": "tok:plus|gevogelte-honden-pat-rund|150",
+    "bn": "plus",
+    "wg": 150
   },
   {
-    "n": "PLUS Brokjes in saus rund",
+    "n": "Plus Brokjes In Saus Rund",
     "o": "",
-    "s": "Per 415 g",
+    "s": "415 ml",
     "p": "0.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus brokjes in rund saus",
+    "ik": "tok:plus|brokjes-in-rund-saus|415",
+    "bn": "plus",
+    "wg": 415
   },
   {
-    "n": "PLUS Kattenmelk lactosearm omega 3",
+    "n": "Plus Kattenmelk Lactosearm Omega 3",
     "o": "",
-    "s": "Per 250 ml",
+    "s": "250 ml",
     "p": "0.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus kattenmelk lactosearm omega",
+    "ik": "tok:plus|kattenmelk-lactosearm-omega|250",
+    "bn": "plus",
+    "wg": 250
   },
   {
-    "n": "Sheba Filets Kipfilet stukjes in saus",
+    "n": "Sheba Filets Kipfilet Stukjes In Saus",
     "o": "",
-    "s": "Per 60 g",
+    "s": "60 ml",
     "p": "1.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/810063_M/657c40fe0e6a3f7eec9cce541804a1ff/810063.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/810063_M/657c40fe0e6a3f7eec9cce541804a1ff/810063.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "sheba filets in kipfilet saus stukjes",
+    "ik": "tok:sheba|filets-in-kipfilet-saus-stukjes|60",
+    "bn": "sheba",
+    "wg": 60
   },
   {
-    "n": "PLUS Kattenbakvulling ultra klontvormend",
+    "n": "Plus Kattenbakvulling Ultra Klontvormend",
     "o": "",
-    "s": "6l",
+    "s": "6 l",
     "p": "3.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus kattenbakvulling klontvormend ultra",
+    "ik": "tok:plus|kattenbakvulling-klontvormend-ultra|6000",
+    "bn": "plus",
+    "wg": 6000
   },
   {
-    "n": "PLUS Honden paté Kip & kalkoen",
+    "n": "Plus Honden Paté Kip & Kalkoen",
     "o": "",
-    "s": "Per 150 g",
+    "s": "150 ml",
     "p": "0.44",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus honden kalkoen kip pat",
+    "ik": "tok:plus|honden-kalkoen-kip-pat|150",
+    "bn": "plus",
+    "wg": 150
   },
   {
-    "n": "PLUS Honden paté Rund & lever",
+    "n": "Plus Honden Paté Rund & Lever",
     "o": "",
-    "s": "Per 150 g",
+    "s": "150 ml",
     "p": "0.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus honden lever pat rund",
+    "ik": "tok:plus|honden-lever-pat-rund|150",
+    "bn": "plus",
+    "wg": 150
   },
   {
-    "n": "PLUS Hondenvoer runderpens paté 4%",
+    "n": "Plus Hondenvoer Runderpens Paté 4%",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "0.85",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus hondenvoer pat runderpens",
+    "ik": "tok:plus|hondenvoer-pat-runderpens|400",
+    "bn": "plus",
+    "wg": 400
   },
   {
-    "n": "PLUS Honden paté Kip",
+    "n": "Plus Honden Paté Kip",
     "o": "",
-    "s": "Per 300 g",
+    "s": "300 ml",
     "p": "0.75",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus honden kip pat",
+    "ik": "tok:plus|honden-kip-pat|300",
+    "bn": "plus",
+    "wg": 300
   },
   {
-    "n": "PLUS Stoofpotje lamsvlees, groente & pasta",
+    "n": "Plus Stoofpotje lamsvlees, Groente & Pasta",
     "o": "",
-    "s": "Per 415 g",
+    "s": "415 ml",
     "p": "0.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus groente lamsvlees pasta stoofpotje",
+    "ik": "tok:plus|groente-lamsvlees-pasta-stoofpotje|415",
+    "bn": "plus",
+    "wg": 415
   },
   {
-    "n": "PLUS Paté kip",
+    "n": "Plus Paté Kip",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "0.85",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus kip pat",
+    "ik": "tok:plus|kip-pat|400",
+    "bn": "plus",
+    "wg": 400
   },
   {
-    "n": "PLUS Katten paté Zalm",
+    "n": "Plus Katten Paté Zalm",
     "o": "",
-    "s": "Per 400 g",
+    "s": "400 ml",
     "p": "0.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus katten pat zalm",
+    "ik": "tok:plus|katten-pat-zalm|400",
+    "bn": "plus",
+    "wg": 400
   },
   {
-    "n": "Sheba Filets Tonijn en kip in saus",
+    "n": "Sheba Filets Tonijn En Kip In Saus",
     "o": "",
-    "s": "Per 60 g",
+    "s": "60 ml",
     "p": "1.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/810053_M/c3ba27eb3eae71314f35e677d84f77db/810053.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/810053_M/c3ba27eb3eae71314f35e677d84f77db/810053.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "sheba filets in kip saus tonijn",
+    "ik": "tok:sheba|filets-in-kip-saus-tonijn|60",
+    "bn": "sheba",
+    "wg": 60
   },
   {
-    "n": "PLUS Brokjes in saus Kip & gevogelte",
+    "n": "Plus Brokjes In Saus Kip & Gevogelte",
     "o": "",
-    "s": "Per 415 g",
+    "s": "415 ml",
     "p": "0.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus brokjes gevogelte in kip saus",
+    "ik": "tok:plus|brokjes-gevogelte-in-kip-saus|415",
+    "bn": "plus",
+    "wg": 415
   },
   {
-    "n": "PLUS Krokantjes vlees en vis",
+    "n": "Plus Krokantjes Vlees En Vis",
     "o": "",
-    "s": "Per 2000 g",
+    "s": "2 l",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
+    "c": "Other",
+    "cn": "plus krokantjes vis vlees",
+    "ik": "tok:plus|krokantjes-vis-vlees|2000",
+    "bn": "plus",
+    "wg": 2000
   },
   {
     "n": "Whiskas Kattenmelk",
     "o": "",
-    "s": "Per 200 ml",
+    "s": "200 ml",
     "p": "1.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/431179_M/f6c433085c261c61800327edaf8044de/431179.png?w=120&h=120&fit=pad&fm=webp&q=85"
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/431179_M/f6c433085c261c61800327edaf8044de/431179.png?w=120&h=120&fit=pad&fm=webp&q=85",
+    "c": "Other",
+    "cn": "whiskas kattenmelk",
+    "ik": "tok:whiskas|kattenmelk|200",
+    "bn": "whiskas",
+    "wg": 200
   }
 ]

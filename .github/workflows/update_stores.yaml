@@ -448,6 +448,12 @@ jobs:
           python-version: '3.12.8'
           check-latest: false
 
+      - name: Sanitize canonical product JSON
+        run: python scripts/sanitize_all_stores.py
+
+      - name: Validate data quality
+        run: python scripts/validate_products.py
+
       - name: Remove stale intermediate JSON from repo
         run: python scripts/prune_stale_artifacts.py --from-git
 

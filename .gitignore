@@ -43,3 +43,6 @@ LIDL/lidl.json
 COOP/coop.json
 
 
+# Rejected rows from sanitize (local/CI only)
+*.rejected.json
+data-quality-report.json

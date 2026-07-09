@@ -118,10 +118,11 @@ def infer_category_from_name(name: str) -> str:
 
 
 from barcode_utils import extract_barcode_from_entry
+from product_sanitize import sanitize_entry
 
 
 def structured_with_category(entry: dict[str, Any], structured: dict[str, Any]) -> dict[str, Any]:
-    """Attach canonical category field `c` and optional barcode `b` to a structured product record."""
+    """Attach category, barcode, and sanitized identity fields."""
     category = entry.get("category")
     if not category:
         category = infer_category_from_name(entry.get("raw_text", entry.get("n", "")))
@@ -130,4 +131,6 @@ def structured_with_category(entry: dict[str, Any], structured: dict[str, Any]) 
     barcode = extract_barcode_from_entry(entry)
     if barcode:
         structured["b"] = barcode
-    return structured
+
+    sanitized = sanitize_entry(structured)
+    return sanitized if sanitized is not None else structured
