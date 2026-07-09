@@ -477,6 +477,9 @@ jobs:
       - name: Sanitize canonical product JSON
         run: python scripts/sanitize_all_stores.py
 
+      - name: Validate store output counts
+        run: python scripts/validate_store_output.py
+
       - name: Validate data quality
         continue-on-error: true
         run: python scripts/validate_products.py
@@ -484,21 +487,21 @@ jobs:
       - name: Remove stale intermediate JSON from repo
         run: python scripts/prune_stale_artifacts.py --from-git
 
-      - name: Commit and push prune
+      - name: Commit sanitize and prune changes
         env:
           GIT_USERNAME: "GitHub Actions Bot"
           GIT_EMAIL: "actions@github.com"
         run: |
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
-          git pull --rebase
           git add -A
           if git diff --cached --quiet; then
-            echo "No stale files to remove"
-          else
-            git commit -m "Prune stale scrape artifacts $(date -u +'%Y-%m-%d %H:%M:%SZ')"
-            git push
+            echo "No changes to commit"
+            exit 0
           fi
+          git commit -m "Sanitize catalog and prune stale artifacts $(date -u +'%Y-%m-%d %H:%M:%SZ')"
+          git pull --rebase origin main
+          git push origin main
 
   sync-backend-and-render:
     needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo, prune-stale-data]
