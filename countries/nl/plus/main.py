@@ -3,11 +3,25 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+def _repo_root():
+    from pathlib import Path
+    import sys
+    p = Path(__file__).resolve().parent
+    for _ in range(8):
+        if (p / "config" / "stores.json").is_file():
+            s = str(p)
+            if s not in sys.path:
+                sys.path.insert(0, s)
+            return p
+        p = p.parent
+    raise RuntimeError("Could not find compears-data-wrangling root")
+
+_repo_root()
 from category_utils import category_from_url
 from plus_scrape import scrape_plus_category
 from scrape_utils import (
     PLUS_USER_AGENT,
+    goto_resilient,
     configure_page,
     launch_browser,
     report_batch_failures,
@@ -29,11 +43,11 @@ def scrape_plus_products(links: list[str], output_file: Path = OUTPUT_FILE) -> N
             user_agent=PLUS_USER_AGENT,
             locale="nl-NL",
         )
-        page = context.new_page()
-        configure_page(page, width=1280, height=800)
 
         for url in links:
             print(f"\n🌐 Scraping: {url}")
+            page = context.new_page()
+            configure_page(page, width=1280, height=800)
             try:
                 category = category_from_url(url)
                 batch = scrape_plus_category(
@@ -50,6 +64,8 @@ def scrape_plus_products(links: list[str], output_file: Path = OUTPUT_FILE) -> N
                 msg = f"{type(err).__name__}: {err}"
                 print(f"❌ Failed to scrape {url}: {msg}")
                 failures.append((url, msg))
+            finally:
+                page.close()
 
         context.close()
         browser.close()

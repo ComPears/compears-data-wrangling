@@ -1,13 +1,5 @@
 [
   {
-    "n": "BIJ 10.00 EURO",
-    "o": "GRATIS BEZORGING",
-    "s": "5 stuks",
-    "p": "5.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "c": "Other"
-  },
-  {
     "n": "Heineken Premium Pilsener 0.0 Bier Blik",
     "o": "1+1 GRATIS",
     "s": "1.98 l",
@@ -1793,14 +1785,6 @@
     "ik": "tok:texels|bier-fles-skuumkoppe|1800",
     "bn": "texels",
     "wg": 1800
-  },
-  {
-    "n": "BIJ",
-    "o": "GRATIS BEZORGING",
-    "s": "",
-    "p": "9.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/500113_M/3d3c0cecd3c8b90a282ab30d22f18936/500113.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "c": "Beverages"
   },
   {
     "n": "Texels Skuumkoppe Bier Blik",
