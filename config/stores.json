@@ -1,0 +1,103 @@
+{
+  "default_country": "nl",
+  "countries": {
+    "nl": {
+      "label": "Netherlands",
+      "locale": "nl-NL",
+      "currency": "EUR",
+      "stores": {
+        "albert-heijn": {
+          "display_name": "Albert Heijn",
+          "dir": "countries/nl/albert-heijn",
+          "catalog": "structured_all_merged.json",
+          "minimum_products": 8000,
+          "pipeline": ["main.py", "merge.py", "struc.py", "clean_ah.py"],
+          "intermediate_globs": [
+            "new_results/*.json",
+            "AH.json",
+            "ah_structured.json"
+          ]
+        },
+        "jumbo": {
+          "display_name": "Jumbo",
+          "dir": "countries/nl/jumbo",
+          "catalog": "jumbo_structured.json",
+          "minimum_products": 1500,
+          "pipeline": ["main.py", "merge.py", "structure.py", "clean_jumbo.py"],
+          "intermediate_globs": ["JSONs/*.json", "Jumbo.json"]
+        },
+        "aldi": {
+          "display_name": "ALDI",
+          "dir": "countries/nl/aldi",
+          "catalog": "structured_aldi.json",
+          "minimum_products": 1200,
+          "pipeline": [
+            "main.py",
+            "mergejson.py",
+            "remove_patterns.py",
+            "restructure.py",
+            "clean_aldi.py"
+          ],
+          "intermediate_globs": ["aldi_results/*.json", "merged_aldi.json"],
+          "playwright": true
+        },
+        "dirk": {
+          "display_name": "Dirk",
+          "dir": "countries/nl/dirk",
+          "catalog": "dirk_all.json",
+          "minimum_products": 2500,
+          "pipeline": [
+            "main.py",
+            "seperate.py",
+            "actieprobeer.py",
+            "structure.py",
+            "mergeit.py",
+            "decimal_fix.py",
+            "clean_dirk.py"
+          ],
+          "intermediate_globs": ["JSONs/*.json"],
+          "playwright": true
+        },
+        "lidl": {
+          "display_name": "Lidl",
+          "dir": "countries/nl/lidl",
+          "catalog": "lidl_structured.json",
+          "minimum_products": 80,
+          "pipeline": ["main.py", "structure.py", "clean_lidl.py"],
+          "intermediate_globs": ["lidl.json"],
+          "playwright": true
+        },
+        "coop": {
+          "display_name": "Coop",
+          "dir": "countries/nl/coop",
+          "catalog": "coop_structured.json",
+          "minimum_products": 300,
+          "pipeline": ["main.py", "structure.py", "clean_coop.py"],
+          "intermediate_globs": ["coop.json"],
+          "playwright": true
+        },
+        "plus": {
+          "display_name": "PLUS",
+          "dir": "countries/nl/plus",
+          "catalog": "structured_plus.json",
+          "minimum_products": 200,
+          "pipeline": ["main.py", "remove_pattern.py", "fix.py", "clean_plus.py"],
+          "intermediate_globs": ["plus.json"],
+          "playwright": true
+        }
+      }
+    },
+    "de": {
+      "label": "Germany",
+      "locale": "de-DE",
+      "currency": "EUR",
+      "stores": {}
+    },
+    "uk": {
+      "label": "United Kingdom",
+      "locale": "en-GB",
+      "currency": "GBP",
+      "stores": {}
+    }
+  }
+}

@@ -10,17 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from config.paths import all_catalog_paths, catalog_rel_path
 from product_sanitize import dedupe_by_identity, sanitize_entry
-
-STORE_FILES = [
-    "AH/structured_all_merged.json",
-    "JUMBO/jumbo_structured.json",
-    "ALDI/structured_aldi.json",
-    "DIRK/dirk_all.json",
-    "LIDL/lidl_structured.json",
-    "COOP/coop_structured.json",
-    "PLUS/structured_plus.json",
-]
 
 
 def sanitize_file(rel_path: str) -> dict[str, int]:
@@ -79,10 +70,11 @@ def sanitize_file(rel_path: str) -> dict[str, int]:
 
 def main() -> None:
     totals = {"input": 0, "kept": 0, "rejected": 0, "deduped": 0}
-    for rel in STORE_FILES:
-        s = sanitize_file(rel)
-        for k in totals:
-            totals[k] += s[k]
+    for _country, slug, catalog in all_catalog_paths():
+        rel = catalog_rel_path(_country, slug)
+        stats = sanitize_file(rel)
+        for key in totals:
+            totals[key] += stats[key]
     print(
         f"TOTAL: {totals['input']} → {totals['kept']} kept, "
         f"{totals['rejected']} rejected, {totals['deduped']} dupes"

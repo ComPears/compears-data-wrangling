@@ -9,16 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from barcode_utils import extract_barcode_from_entry
-
-STORE_FILES = [
-    "AH/structured_all_merged.json",
-    "JUMBO/jumbo_structured.json",
-    "ALDI/structured_aldi.json",
-    "DIRK/dirk_all.json",
-    "LIDL/lidl_structured.json",
-    "COOP/coop_structured.json",
-    "PLUS/structured_plus.json",
-]
+from config.paths import all_catalog_paths, catalog_rel_path
 
 
 def enrich_file(path: Path) -> tuple[int, int]:
@@ -52,8 +43,8 @@ def main() -> None:
     root = Path(__file__).resolve().parent.parent
     total_products = 0
     total_added = 0
-    for rel in STORE_FILES:
-        count, added = enrich_file(root / rel)
+    for country, slug, catalog in all_catalog_paths():
+        count, added = enrich_file(catalog)
         total_products += count
         total_added += added
     print(f"Done. Added {total_added} barcodes across {total_products} products.")

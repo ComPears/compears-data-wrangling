@@ -8,24 +8,15 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 
-# Minimum product counts and max drop vs last successful run (50%).
-STORE_MINIMUMS: dict[str, tuple[str, int]] = {
-    "AH": ("AH/structured_all_merged.json", 8000),
-    "ALDI": ("ALDI/structured_aldi.json", 1200),
-    "DIRK": ("DIRK/dirk_all.json", 2500),
-    "PLUS": ("PLUS/structured_plus.json", 200),
-    "LIDL": ("LIDL/lidl_structured.json", 80),
-    "COOP": ("COOP/coop_structured.json", 300),
-    "JUMBO": ("JUMBO/jumbo_structured.json", 1500),
-}
+from config.paths import all_catalog_paths, catalog_rel_path, load_stores_config, store_config
 
 BASELINE_PATH = ROOT / "data-quality-report.json"
 MAX_DROP_RATIO = 0.5
 
 
-def _load_count(rel_path: str) -> int:
-    path = ROOT / rel_path
+def _load_count(path: Path) -> int:
     if not path.exists():
         return 0
     with open(path, encoding="utf-8") as handle:
@@ -50,24 +41,25 @@ def _baseline_counts() -> dict[str, int]:
 def main() -> None:
     baselines = _baseline_counts()
     failures: list[str] = []
+    config = load_stores_config()
 
-    for store, (rel_path, minimum) in STORE_MINIMUMS.items():
-        count = _load_count(rel_path)
-        print(f"{store}: {count} products ({rel_path})")
+    for country, slug, catalog in all_catalog_paths():
+        count = _load_count(catalog)
+        rel = catalog_rel_path(country, slug)
+        minimum = int(store_config(country, slug).get("minimum_products") or 0)
+        label = f"{country.upper()}/{slug}"
+        print(f"{label}: {count} products ({rel})")
 
         if count < minimum:
-            failures.append(
-                f"{store}: {count} products < minimum {minimum} ({rel_path})"
-            )
+            failures.append(f"{label}: {count} products < minimum {minimum} ({rel})")
             continue
 
-        baseline = baselines.get(store)
+        baseline = baselines.get(slug) or baselines.get(label)
         if baseline and baseline > 0:
             drop = (baseline - count) / baseline
             if drop > MAX_DROP_RATIO:
                 failures.append(
-                    f"{store}: dropped {drop:.0%} vs baseline {baseline} "
-                    f"(now {count})"
+                    f"{label}: dropped {drop:.0%} vs baseline {baseline} (now {count})"
                 )
 
     if failures:
@@ -76,7 +68,7 @@ def main() -> None:
             print(f"  - {msg}")
         sys.exit(1)
 
-    print("Store output validation passed.")
+    print(f"Store output validation passed ({config.get('default_country', 'nl')}).")
 
 
 if __name__ == "__main__":

@@ -10,17 +10,9 @@ venv.bak/.venv
 __pypackages__/
 __pycache__/
 
-ALDI/__pycache__
-DIRK/__pycache__
-LIDL/__pycache__
-AH/__pycache__
-
+countries/**/__pycache__/
 
 .DS_Store
-DIRK/.DS_Store
-ALDI/.DS_Store
-LIDL/.DS_Store
-AH/.DS_Store
 
 # Local pipeline test logs
 .local-test-logs/
@@ -30,18 +22,17 @@ supermarkets.json
 final_aldi.json
 
 # Intermediate scrape artifacts (canonical per-store JSON is committed instead)
-AH/new_results/
-AH/AH.json
-AH/ah_structured.json
-ALDI/aldi_results/
-ALDI/merged_aldi.json
-JUMBO/JSONs/
-JUMBO/Jumbo.json
-DIRK/JSONs/
-PLUS/plus.json
-LIDL/lidl.json
-COOP/coop.json
-
+countries/nl/albert-heijn/new_results/
+countries/nl/albert-heijn/AH.json
+countries/nl/albert-heijn/ah_structured.json
+countries/nl/aldi/aldi_results/
+countries/nl/aldi/merged_aldi.json
+countries/nl/jumbo/JSONs/
+countries/nl/jumbo/Jumbo.json
+countries/nl/dirk/JSONs/
+countries/nl/plus/plus.json
+countries/nl/lidl/lidl.json
+countries/nl/coop/coop.json
 
 # Rejected rows from sanitize (local/CI only)
 *.rejected.json

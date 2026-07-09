@@ -12,25 +12,25 @@ scripts_config = [
         "store_name": "ah",               
         "store_url": "https://www.ah.nl/producten/product/",                
         "store_favicon": "https://www.ah.nl/favicon.ico",             
-        "output_json": "AH/structured_all_merged.json" 
+        "output_json": "countries/nl/albert-heijn/structured_all_merged.json" 
     },
      {
         "store_name": "aldi",               
         "store_url": "https://www.aldi.nl/producten.html",                
         "store_favicon": "https://www.aldi.nl/favicon.ico",             
-        "output_json": "ALDI/structured_aldi.json" 
+        "output_json": "countries/nl/aldi/structured_aldi.json" 
     },
      { 
         "store_name": "dirk",               
         "store_url": "https://www.dirk.nl/boodschappen/",                
         "store_favicon": "https://www.dirk.nl/favicon.ico",             
-        "output_json": "DIRK/dirk_all.json" 
+        "output_json": "countries/nl/dirk/dirk_all.json" 
     },
      { 
         "store_name": "jumbo",               
         "store_url": "https://www.jumbo.com/producten/",                
         "store_favicon": "https://jumbo.com/favicon.ico",             
-        "output_json": "JUMBO/jumbo_structured.json" 
+        "output_json": "countries/nl/jumbo/jumbo_structured.json" 
     }
 ]
 supermarket_json_path = "supermarkets.json"  # Final output file

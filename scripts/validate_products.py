@@ -11,23 +11,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from config.paths import all_catalog_paths, catalog_rel_path
 from product_sanitize import should_reject_name
 
-STORE_FILES = [
-    ("AH", "AH/structured_all_merged.json"),
-    ("JUMBO", "JUMBO/jumbo_structured.json"),
-    ("ALDI", "ALDI/structured_aldi.json"),
-    ("DIRK", "DIRK/dirk_all.json"),
-    ("LIDL", "LIDL/lidl_structured.json"),
-    ("COOP", "COOP/coop_structured.json"),
-    ("PLUS", "PLUS/structured_plus.json"),
-]
 
-
-def validate_file(store: str, rel_path: str) -> dict:
-    path = ROOT / rel_path
+def validate_file(country: str, slug: str, catalog: Path) -> dict:
+    rel_path = catalog_rel_path(country, slug)
     report = {
-        "store": store,
+        "country": country,
+        "store": slug,
         "total": 0,
         "with_barcode": 0,
         "with_identity": 0,
@@ -38,10 +30,10 @@ def validate_file(store: str, rel_path: str) -> dict:
         "missing_url": 0,
         "duplicate_identity": 0,
     }
-    if not path.exists():
+    if not catalog.exists():
         return report
 
-    with open(path, encoding="utf-8") as f:
+    with open(catalog, encoding="utf-8") as f:
         data = json.load(f)
     if not isinstance(data, list):
         return report
@@ -75,24 +67,26 @@ def validate_file(store: str, rel_path: str) -> dict:
 
 
 def main() -> None:
-    reports = [validate_file(store, rel) for store, rel in STORE_FILES]
+    reports = []
+    for country, slug, catalog in all_catalog_paths():
+        reports.append(validate_file(country, slug, catalog))
+
     out_path = ROOT / "data-quality-report.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(reports, f, indent=2)
 
-    print("| Store | Total | Barcode | Identity | Brand | Weight | Promo in name | Dup ik |")
-    print("|-------|------:|--------:|---------:|------:|-------:|--------------:|-------:|")
+    print("| Country | Store | Total | Barcode | Identity | Brand | Weight | Promo | Dup ik |")
+    print("|---------|-------|------:|--------:|---------:|------:|-------:|------:|-------:|")
     for r in reports:
         total = r["total"] or 1
         bc_pct = f"{100 * r['with_barcode'] / total:.0f}%"
         print(
-            f"| {r['store']} | {r['total']} | {r['with_barcode']} ({bc_pct}) | "
+            f"| {r['country']} | {r['store']} | {r['total']} | {r['with_barcode']} ({bc_pct}) | "
             f"{r['with_identity']} | {r['with_brand']} | {r['with_weight']} | "
             f"{r['promo_in_name']} | {r['duplicate_identity']} |"
         )
 
-    # Fail CI if Lidl still has promo junk after sanitize
-    lidl = next((r for r in reports if r["store"] == "LIDL"), None)
+    lidl = next((r for r in reports if r["store"] == "lidl"), None)
     if lidl and lidl["promo_in_name"] > 0:
         print(f"ERROR: LIDL has {lidl['promo_in_name']} promo-in-name rows after sanitize")
         sys.exit(1)
