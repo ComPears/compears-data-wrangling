@@ -153,16 +153,17 @@ def _fetch_plp_page(page: Page, url: str, *, dismiss_modals: bool) -> dict:
     """Navigate to a PLP URL and return the parsed API payload."""
     for attempt in range(3):
         try:
-            page.goto(url, wait_until="domcontentloaded", timeout=45000)
-            if dismiss_modals or attempt > 0:
-                dismiss_plus_modals(page)
-            response = page.wait_for_response(
+            with page.expect_response(
                 lambda resp: PLP_API_FRAGMENT in resp.url and resp.status == 200,
-                timeout=35000,
-            )
-            return response.json().get("data", {})
+                timeout=45000,
+            ) as response_info:
+                page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                if dismiss_modals or attempt > 0:
+                    dismiss_plus_modals(page)
+            return response_info.value.json().get("data", {})
         except PlaywrightTimeoutError:
             if attempt < 2:
+                dismiss_plus_modals(page)
                 continue
     return {}
 
