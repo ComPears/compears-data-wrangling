@@ -5,7 +5,20 @@ from pathlib import Path
 
 from links_dictionary import get_ah_links
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+def _repo_root():
+    from pathlib import Path
+    import sys
+    p = Path(__file__).resolve().parent
+    for _ in range(8):
+        if (p / "config" / "stores.json").is_file():
+            s = str(p)
+            if s not in sys.path:
+                sys.path.insert(0, s)
+            return p
+        p = p.parent
+    raise RuntimeError("Could not find compears-data-wrangling root")
+
+_repo_root()
 from ah_api_client import (
     fetch_taxonomy_products,
     get_anonymous_token,
