@@ -1,4 +1,7 @@
-name: Supermarket JSON 
+name: Daily supermarket scrapers
+
+# Runs all Python store scrapers daily at 00:00 UTC and commits updated JSON to this repo.
+# Backend seed picks up these files weekly via ComPears/compear-backend (.github/workflows/seed-backend.yml, Mon 06:00 UTC).
 
 on:
   # push:
