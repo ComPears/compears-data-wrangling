@@ -3,6 +3,9 @@ import os
 import subprocess
 from pathlib import Path
 
+# DEPRECATED: superseded by per-store canonical JSON + backend seeding.
+# Kept for reference only; CI no longer runs this script.
+
 # Configuration - Update these paths as needed
 scripts_config = [
     { 

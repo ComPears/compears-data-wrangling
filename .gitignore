@@ -22,5 +22,24 @@ ALDI/.DS_Store
 LIDL/.DS_Store
 AH/.DS_Store
 
+# Local pipeline test logs
+.local-test-logs/
+
+# Legacy merged blob (frontend no longer uses static JSON)
+supermarkets.json
+final_aldi.json
+
+# Intermediate scrape artifacts (canonical per-store JSON is committed instead)
+AH/new_results/
+AH/AH.json
+AH/ah_structured.json
+ALDI/aldi_results/
+ALDI/merged_aldi.json
+JUMBO/JSONs/
+JUMBO/Jumbo.json
+DIRK/JSONs/
+PLUS/plus.json
+LIDL/lidl.json
+COOP/coop.json
 
 

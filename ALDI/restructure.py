@@ -154,7 +154,7 @@ def process_file(input_file: str, output_file: str = None) -> list:
 
 
 def main():
-    process_file("merged_aldi.json", "../final_aldi.json")
+    process_file("merged_aldi.json", "structured_aldi.json")
 
 
 if __name__ == "__main__":

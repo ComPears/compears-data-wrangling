@@ -37,4 +37,4 @@ def clean_json(input_file, key="n"):
 
 
 # Example usage
-input_file = "ah_structured.json"  # Input file path
+input_file = "structured_all_merged.json"

@@ -8,9 +8,29 @@ See `backend/README.md` in the `compear-backend` repo. After each successful dai
 
 | Secret | Purpose |
 |--------|---------|
-| `TARGET_REPO_TOKEN` | Push merged `supermarkets.json` to the frontend repo |
 | `BACKEND_REPO_TOKEN` | Push seeded `src/data/*.json` to `ComPears/compear-backend` |
 | `RENDER_DEPLOY_HOOK_URL` | Render deploy hook URL for `compear-backend` (Settings → Deploy Hook) |
+
+## Product JSON layout
+
+Only **seven canonical files** are kept in git and consumed by `compear-backend` (`npm run seed`):
+
+| Store | Canonical file | Backend output |
+|-------|----------------|----------------|
+| Albert Heijn | `AH/structured_all_merged.json` | `src/data/albert-heijn.json` |
+| Jumbo | `JUMBO/jumbo_structured.json` | `src/data/jumbo.json` |
+| ALDI | `ALDI/structured_aldi.json` | `src/data/aldi.json` |
+| Dirk | `DIRK/dirk_all.json` | `src/data/dirk.json` |
+| Lidl | `LIDL/lidl_structured.json` | `src/data/lidl.json` |
+| Coop | `COOP/coop_structured.json` | `src/data/coop.json` |
+| PLUS | `PLUS/structured_plus.json` | `src/data/plus.json` |
+
+**Not in use (removed after each pipeline run):**
+
+- `supermarkets.json` — legacy 4-store merge; frontend no longer reads static JSON.
+- Per-store intermediates: `AH/new_results/`, `AH/AH.json`, `ALDI/aldi_results/`, `ALDI/merged_aldi.json`, `JUMBO/JSONs/`, `DIRK/JSONs/`, `PLUS/plus.json`, `LIDL/lidl.json`, `COOP/coop.json`, `final_aldi.json`.
+
+CI job `prune-stale-data` runs `scripts/prune_stale_artifacts.py --from-git` after all store scrapes and before backend seeding.
 
 ## Getting Started
 

@@ -96,6 +96,9 @@ case "$STORE" in
     ;;
 esac
 
+cd "$ROOT"
+python3 scripts/prune_stale_artifacts.py
+
 END=$(date +%s)
 DURATION=$((END - START))
 

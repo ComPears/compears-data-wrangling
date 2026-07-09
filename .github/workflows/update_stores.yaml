@@ -430,93 +430,45 @@ jobs:
             git push
           fi
 
-  push-merge-supermarkets-json:
+  prune-stale-data:
     needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo]
-    # needs: [generate-jumbo]
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      # --- Step 1: Checkout current repo ---
       - name: Checkout current repo
         uses: actions/checkout@v7
         with:
-          token: ${{ secrets.GITHUB_TOKEN}}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # --- Step 2: Set up Python ---
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12.8'
           check-latest: false
 
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-      
+      - name: Remove stale intermediate JSON from repo
+        run: python scripts/prune_stale_artifacts.py --from-git
 
-      - name: Install Playwright browsers
-        run: |
-          python -m playwright install
-          python -m playwright install-deps
-
-      # --- Step 4: Run Python script to generate supermarkets.json ---
-      - name: Generate supermarkets.json
-        run: |
-          python merge_supermarkets.py
-
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
+      - name: Commit and push prune
         env:
           GIT_USERNAME: "GitHub Actions Bot"
           GIT_EMAIL: "actions@github.com"
         run: |
-          # Configure Git
           git config --global user.name "$GIT_USERNAME"
           git config --global user.email "$GIT_EMAIL"
-          git pull
-          git add supermarkets.json
+          git pull --rebase
+          git add -A
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No stale files to remove"
           else
-            git commit -m "Automated update  $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
-          fi
-
-      # --- Step 5: Push to target repository ---
-      - name: Push to target repo
-        env:
-          TARGET_REPO: "https://${{ secrets.TARGET_REPO_TOKEN }}@github.com/ComPears/compear.git"
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: |
-          # Configure Git
-          git config --global user.name "$GIT_USERNAME"
-          git config --global user.email "$GIT_EMAIL"
-
-          # Clone target repo
-          git clone $TARGET_REPO target-repo
-          pwd
-          #Copy supermarkets_merged.json to target repo
-          cp supermarkets.json target-repo/src/data
-
-          # Commit and push
-          cd target-repo
-          git add .
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Automated update: supermarkets_merged.json $(date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "Prune stale scrape artifacts $(date -u +'%Y-%m-%d %H:%M:%SZ')"
             git push
           fi
 
   sync-backend-and-render:
-    needs: [push-merge-supermarkets-json]
+    needs: [prune-stale-data]
     runs-on: ubuntu-latest
     permissions:
       contents: read

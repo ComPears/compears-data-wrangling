@@ -132,3 +132,7 @@ def re_structure(input_file: str, output_file: str):
         json.dump(structured, f, indent=2, ensure_ascii=False)
 
     print(f"✅ Done! Structured output saved to '{output_file}'")
+
+
+if __name__ == "__main__":
+    re_structure("AH.json", "structured_all_merged.json")
