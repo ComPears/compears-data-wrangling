@@ -420,6 +420,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
+      - name: Sync to latest main
+        run: git pull --rebase origin main
+
       - name: Report partial scrape run
         run: |
           echo "Scrape results:"
@@ -486,15 +489,22 @@ jobs:
       - name: Checkout data-wrangling repo
         uses: actions/checkout@v7
         with:
+          ref: main
           path: compears-data-wrangling
           fetch-depth: 0
+
+      - name: Sync data-wrangling to latest main
+        working-directory: compears-data-wrangling
+        run: git pull --rebase origin main
 
       - name: Checkout backend repo
         uses: actions/checkout@v7
         with:
           repository: ComPears/compear-backend
+          ref: main
           token: ${{ secrets.BACKEND_REPO_TOKEN }}
           path: compear-backend
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v6

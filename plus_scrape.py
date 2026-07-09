@@ -22,7 +22,7 @@ def resolve_redirect_url(url: str, *, timeout: int = 30) -> str:
     """Follow redirects and return the final URL (coop.nl -> plus.nl)."""
     req = urllib.request.Request(
         url,
-        method="HEAD",
+        method="GET",
         headers={"User-Agent": PLUS_USER_AGENT},
     )
     try:
@@ -32,6 +32,19 @@ def resolve_redirect_url(url: str, *, timeout: int = 30) -> str:
         if err.headers.get("Location"):
             return err.headers["Location"]
         raise
+
+
+def is_generic_plus_listing(url: str) -> bool:
+    """True when the redirect target is the site-wide product index."""
+    path = urlparse(url).path.rstrip("/")
+    return path in ("", "/producten")
+
+
+def plus_cache_key(source_url: str, plus_url: str) -> str:
+    """Cache key for COOP→PLUS redirects; avoid sharing the root /producten listing."""
+    if is_generic_plus_listing(plus_url):
+        return f"{source_url}|{plus_url}"
+    return plus_url
 
 
 def resolve_redirect_urls(urls: list[str], *, workers: int = 16) -> dict[str, str]:
@@ -138,19 +151,18 @@ def _product_identity(entry: dict[str, str | None]) -> str:
 
 def _fetch_plp_page(page: Page, url: str, *, dismiss_modals: bool) -> dict:
     """Navigate to a PLP URL and return the parsed API payload."""
-    for attempt in range(2):
+    for attempt in range(3):
         try:
-            with page.expect_response(
-                lambda response: PLP_API_FRAGMENT in response.url
-                and response.status == 200,
-                timeout=45000,
-            ) as response_info:
-                page.goto(url, wait_until="domcontentloaded", timeout=45000)
-                if dismiss_modals:
-                    dismiss_plus_modals(page)
-            return response_info.value.json().get("data", {})
+            page.goto(url, wait_until="domcontentloaded", timeout=45000)
+            if dismiss_modals or attempt > 0:
+                dismiss_plus_modals(page)
+            response = page.wait_for_response(
+                lambda resp: PLP_API_FRAGMENT in resp.url and resp.status == 200,
+                timeout=35000,
+            )
+            return response.json().get("data", {})
         except PlaywrightTimeoutError:
-            if attempt == 0:
+            if attempt < 2:
                 continue
     return {}
 
@@ -158,6 +170,10 @@ def _fetch_plp_page(page: Page, url: str, *, dismiss_modals: bool) -> dict:
 def _scrape_plp_dom_page(page: Page, category: str, seen: set[str]) -> list[dict]:
     """DOM fallback when the PLP API response is unavailable."""
     products: list[dict] = []
+    try:
+        page.wait_for_selector(PRODUCT_CARD_SELECTOR, timeout=12000)
+    except PlaywrightTimeoutError:
+        return products
     cards = page.query_selector_all(PRODUCT_CARD_SELECTOR)
     for card in cards:
         raw_text = card.inner_text().strip()
@@ -201,6 +217,8 @@ def scrape_plus_category(
         if payload:
             total_pages = max(1, int(payload.get("TotalPages") or 1))
             batch = _products_from_api_payload(payload)
+            if not batch:
+                batch = _scrape_plp_dom_page(page, category, seen)
         else:
             batch = _scrape_plp_dom_page(page, category, seen)
 
