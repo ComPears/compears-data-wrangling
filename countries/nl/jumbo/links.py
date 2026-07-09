@@ -1,0 +1,22 @@
+links = [
+    "https://www.jumbo.com/producten/?filters=Opties%3ABBQ",
+    "https://www.jumbo.com/producten/aardappelen,-groente-en-fruit/",
+    "https://www.jumbo.com/producten/verse-maaltijden-en-gemak/",
+    "https://www.jumbo.com/producten/vlees,-vis-en-vega/",
+    "https://www.jumbo.com/producten/brood-en-gebak/",
+    "https://www.jumbo.com/producten/vleeswaren,-kaas-en-tapas/",
+    "https://www.jumbo.com/producten/zuivel,-eieren,-boter/",
+    "https://www.jumbo.com/producten/conserven,-soepen,-sauzen,-olien/",
+    "https://www.jumbo.com/producten/wereldkeukens,-kruiden,-pasta-en-rijst/",
+    "https://www.jumbo.com/producten/ontbijt,-broodbeleg-en-bakproducten/",
+    "https://www.jumbo.com/producten/koek,-snoep,-chocolade-en-chips/",
+    "https://www.jumbo.com/producten/koffie-en-thee/",
+    "https://www.jumbo.com/producten/frisdrank-en-sappen/",
+    "https://www.jumbo.com/producten/bier-en-wijn/",
+    "https://www.jumbo.com/producten/diepvries/",
+    "https://www.jumbo.com/producten/drogisterij-en-baby/",
+    "https://www.jumbo.com/producten/huishouden-en-dieren/",
+    "https://www.jumbo.com/producten/nonfood-en-servicebalie/",
+    "https://www.jumbo.com/inspiratie/jumbo-gebak",
+
+]
