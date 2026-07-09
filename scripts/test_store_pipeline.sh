@@ -32,7 +32,7 @@ case "$STORE" in
     run_step $PYTHON merge.py
     run_step $PYTHON struc.py
     run_step $PYTHON clean_ah.py
-    OUT="structured_all_merged.json"
+    OUT="AH/structured_all_merged.json"
     ;;
   ALDI)
     if ! $PYTHON -m playwright install chromium >/dev/null 2>&1; then true; fi
@@ -42,7 +42,7 @@ case "$STORE" in
     run_step $PYTHON remove_patterns.py
     run_step $PYTHON restructure.py
     run_step $PYTHON clean_aldi.py
-    OUT="structured_aldi.json"
+    OUT="ALDI/structured_aldi.json"
     ;;
   DIRK)
     if ! $PYTHON -m playwright install chromium >/dev/null 2>&1; then true; fi
@@ -54,7 +54,7 @@ case "$STORE" in
     run_step $PYTHON mergeit.py
     run_step $PYTHON decimal_fix.py
     run_step $PYTHON clean_dirk.py
-    OUT="dirk_all.json"
+    OUT="DIRK/dirk_all.json"
     ;;
   PLUS)
     if ! $PYTHON -m playwright install chromium >/dev/null 2>&1; then true; fi
@@ -63,7 +63,7 @@ case "$STORE" in
     run_step $PYTHON remove_pattern.py
     run_step $PYTHON fix.py
     run_step $PYTHON clean_plus.py
-    OUT="structured_plus.json"
+    OUT="PLUS/structured_plus.json"
     ;;
   LIDL)
     if ! $PYTHON -m playwright install chromium >/dev/null 2>&1; then true; fi
@@ -71,7 +71,7 @@ case "$STORE" in
     run_step $PYTHON main.py
     run_step $PYTHON structure.py
     run_step $PYTHON clean_lidl.py
-    OUT="lidl_structured.json"
+    OUT="LIDL/lidl_structured.json"
     ;;
   COOP)
     if ! $PYTHON -m playwright install chromium >/dev/null 2>&1; then true; fi
@@ -79,7 +79,7 @@ case "$STORE" in
     run_step $PYTHON main.py
     run_step $PYTHON structure.py
     run_step $PYTHON clean_coop.py
-    OUT="coop_structured.json"
+    OUT="COOP/coop_structured.json"
     ;;
   JUMBO)
     if ! $PYTHON -m playwright install chromium >/dev/null 2>&1; then true; fi
@@ -88,7 +88,7 @@ case "$STORE" in
     run_step $PYTHON merge.py
     run_step $PYTHON structure.py
     run_step $PYTHON clean_jumbo.py
-    OUT="jumbo_structured.json"
+    OUT="JUMBO/jumbo_structured.json"
     ;;
   *)
     echo "Unknown store: $STORE" >&2
@@ -99,13 +99,14 @@ esac
 cd "$ROOT"
 run_step $PYTHON scripts/sanitize_all_stores.py
 run_step $PYTHON scripts/validate_products.py
+run_step $PYTHON scripts/validate_store_output.py
 run_step $PYTHON scripts/prune_stale_artifacts.py
 
 END=$(date +%s)
 DURATION=$((END - START))
 
-if [[ -f "$OUT" ]]; then
-  COUNT=$(python3 -c "import json; print(len(json.load(open('$OUT'))))")
+if [[ -f "$ROOT/$OUT" ]]; then
+  COUNT=$($PYTHON -c "import json; print(len(json.load(open('$ROOT/$OUT'))))")
 else
   COUNT=0
 fi

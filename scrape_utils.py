@@ -2,8 +2,11 @@
 
 from __future__ import annotations
 
+import json
+import os
 import sys
 import time
+from pathlib import Path
 from typing import Callable
 from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 
@@ -12,8 +15,9 @@ from playwright.sync_api import Browser, Page, Playwright, TimeoutError as Playw
 DEFAULT_USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/120.0.0.0 Safari/537.36"
+    "Chrome/131.0.0.0 Safari/537.36"
 )
+PLUS_USER_AGENT = DEFAULT_USER_AGENT
 
 
 class EmptyCategoryError(RuntimeError):
@@ -151,11 +155,35 @@ def require_products(count: int, label: str, *, min_count: int = 1) -> None:
         )
 
 
+def prepare_output_dir(path: str | Path) -> Path:
+    """Ensure an output directory exists."""
+    directory = Path(path)
+    directory.mkdir(parents=True, exist_ok=True)
+    return directory
+
+
+def remove_stale_file(path: str | Path) -> None:
+    """Delete a prior category output so failed scrapes cannot be merged."""
+    file_path = Path(path)
+    if file_path.exists():
+        file_path.unlink()
+
+
+def write_json_atomic(path: str | Path, data: object) -> None:
+    """Write JSON via a temp file to avoid partial reads during merge."""
+    file_path = Path(path)
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = file_path.with_suffix(f"{file_path.suffix}.tmp")
+    with open(tmp_path, "w", encoding="utf-8") as handle:
+        json.dump(data, handle, indent=2, ensure_ascii=False)
+    os.replace(tmp_path, file_path)
+
+
 def report_batch_failures(
     failures: list[tuple[str, str]],
     total: int,
     *,
-    max_failure_ratio: float = 0.5,
+    max_failure_ratio: float = 0.05,
     label: str = "URLs",
 ) -> None:
     """Print failures and exit non-zero if too many categories failed."""

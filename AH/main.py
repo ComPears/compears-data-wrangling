@@ -13,7 +13,7 @@ from ah_api_client import (
     taxonomy_id_from_url,
 )
 from category_utils import category_from_ah_key
-from scrape_utils import report_batch_failures, require_products
+from scrape_utils import report_batch_failures, require_products, remove_stale_file, write_json_atomic
 
 
 def scrape_ah_products() -> None:
@@ -31,6 +31,8 @@ def scrape_ah_products() -> None:
             continue
 
         print(f"Scraping category: {name} (taxonomy {taxonomy_id})")
+        filename = f"new_results/{name}.json"
+        remove_stale_file(filename)
         try:
             api_products = fetch_taxonomy_products(token, taxonomy_id)
             products = [product_to_raw_entry(product) for product in api_products]
@@ -39,7 +41,6 @@ def scrape_ah_products() -> None:
                 product["category"] = category
 
             require_products(len(products), name)
-            filename = f"new_results/{name}.json"
             with open(filename, "w", encoding="utf-8") as f:
                 json.dump(products, f, indent=2, ensure_ascii=False)
             print(f"✅ {len(products)} products saved to {filename}")

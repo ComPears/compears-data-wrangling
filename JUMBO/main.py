@@ -1,5 +1,4 @@
 import json
-import os
 import sys
 from pathlib import Path
 from urllib.parse import urlparse
@@ -7,6 +6,7 @@ from urllib.parse import urlparse
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from category_utils import category_from_url
 from jumbo_api_client import (
+    JumboApiScopeError,
     fetch_category_products,
     product_to_raw_entry,
     supports_api_scrape,
@@ -20,9 +20,12 @@ from scrape_utils import (
     report_batch_failures,
     require_products,
     wait_for_products,
+    write_json_atomic,
 )
 
 from links import links
+
+JSONS_DIR = Path(__file__).resolve().parent / "JSONs"
 
 
 def get_filename_from_url(url: str) -> str:
@@ -31,11 +34,14 @@ def get_filename_from_url(url: str) -> str:
     return last_part or "unknown"
 
 
+def category_output_path(link: str) -> Path:
+    return JSONS_DIR / f"jumbo_products_{get_filename_from_url(link)}.json"
+
+
 def scrape_with_playwright(link: str) -> list[dict]:
     """Fallback scraper for filter/inspiration URLs that the GraphQL API cannot scope."""
     from playwright.sync_api import sync_playwright
 
-    filename_suffix = get_filename_from_url(link)
     category = category_from_url(link)
     seen: set[str] = set()
     data: list[dict] = []
@@ -79,9 +85,8 @@ def scrape_with_playwright(link: str) -> list[dict]:
             browser.close()
 
     require_products(len(data), link)
-    output_file = f"JSONs/jumbo_products_{filename_suffix}.json"
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    output_file = category_output_path(link)
+    write_json_atomic(output_file, data)
     print(f"✅ Saved {len(data)} products to {output_file} (Playwright)")
     return data
 
@@ -94,23 +99,28 @@ def scrape_with_api(link: str) -> list[dict]:
         entry["category"] = category
 
     require_products(len(data), link)
-    filename_suffix = get_filename_from_url(link)
-    output_file = f"JSONs/jumbo_products_{filename_suffix}.json"
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    output_file = category_output_path(link)
+    write_json_atomic(output_file, data)
     print(f"✅ Saved {len(data)} products to {output_file} (API)")
     return data
 
 
 def scrape_jumbo_products(link_list) -> None:
-    os.makedirs("JSONs", exist_ok=True)
+    JSONS_DIR.mkdir(parents=True, exist_ok=True)
     failures: list[tuple[str, str]] = []
 
     for link in link_list:
         print(f"\n🔄 Scraping: {link}")
+        output_file = category_output_path(link)
+        if output_file.exists():
+            output_file.unlink()
         try:
             if supports_api_scrape(link):
-                scrape_with_api(link)
+                try:
+                    scrape_with_api(link)
+                except JumboApiScopeError as err:
+                    print(f"⚠️ API scope too broad, falling back to Playwright: {err}")
+                    scrape_with_playwright(link)
             else:
                 scrape_with_playwright(link)
         except Exception as err:

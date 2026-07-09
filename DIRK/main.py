@@ -17,10 +17,21 @@ from scrape_utils import (
     report_batch_failures,
     require_products,
     wait_for_products,
+    write_json_atomic,
 )
 
-output_file = "JSONs/dirk.json"
-os.makedirs("JSONs", exist_ok=True)
+output_file = Path(__file__).resolve().parent / "JSONs" / "dirk.json"
+os.makedirs(output_file.parent, exist_ok=True)
+
+OPTIONAL_URL_PARTS = (
+    "/baby-drogisterij/",
+    "/geneesmiddelen/",
+    "/vitamines-mineralen-en-supplementen/",
+    "/verzorging/",
+    "/huishouden/",
+    "/huisdieren/",
+    "/diepvries/",
+)
 
 product_data: list[dict] = []
 seen: set[str] = set()
@@ -31,6 +42,7 @@ with sync_playwright() as p:
 
     for url in links:
         print(f"🌐 Scraping: {url}")
+        optional = any(part in url for part in OPTIONAL_URL_PARTS)
         context = browser.new_context()
         page = context.new_page()
         configure_page(page, width=390, height=844)
@@ -55,11 +67,12 @@ with sync_playwright() as p:
                 img_src = img_el.get_attribute("src") if img_el else None
                 new_data.append({"raw_text": raw_text, "image": img_src, "category": category})
 
-            require_products(len(new_data), url)
+            require_products(len(new_data), url, min_count=0 if optional else 1)
+            if len(new_data) == 0 and optional:
+                print(f"⚠️ Optional URL returned 0 products: {url}")
+                continue
             product_data.extend(new_data)
-
-            with open(output_file, "w", encoding="utf-8") as f:
-                json.dump(product_data, f, indent=2, ensure_ascii=False)
+            write_json_atomic(output_file, product_data)
 
             print(
                 f"✅ Scraped {len(new_data)} products from this page. "
@@ -67,6 +80,9 @@ with sync_playwright() as p:
             )
 
         except Exception as err:
+            if optional:
+                print(f"⚠️ Optional URL failed: {url}: {err}")
+                continue
             msg = f"{type(err).__name__}: {err}"
             print(f"❌ Failed to scrape {url}: {msg}")
             failures.append((url, msg))

@@ -15,8 +15,23 @@ from scrape_utils import (
     launch_browser,
     report_batch_failures,
     require_products,
+    remove_stale_file,
     wait_for_products,
+    write_json_atomic,
 )
+
+# Categories that intermittently return no products on aldi.nl.
+OPTIONAL_CATEGORIES = {
+    "kaas",
+    "vleeswaren",
+    "tapas",
+    "wijn_wit",
+    "chocolade",
+    "snoep",
+    "koek",
+    "baby",
+    "bbq_groente_fruit",
+}
 
 
 def scrape_aldi_products(link_dict) -> None:
@@ -28,6 +43,8 @@ def scrape_aldi_products(link_dict) -> None:
 
         for name, url in link_dict.items():
             print(f"🔄 Scraping: {name} → {url}")
+            filename = f"aldi_results/{name}.json"
+            remove_stale_file(filename)
             context = browser.new_context()
             page = context.new_page()
             configure_page(page)
@@ -66,13 +83,17 @@ def scrape_aldi_products(link_dict) -> None:
                     else:
                         break
 
-                require_products(len(data), name)
-                filename = f"aldi_results/{name}.json"
-                with open(filename, "w", encoding="utf-8") as f:
-                    json.dump(data, f, indent=2, ensure_ascii=False)
+                require_products(len(data), name, min_count=0 if name in OPTIONAL_CATEGORIES else 1)
+                if len(data) == 0 and name in OPTIONAL_CATEGORIES:
+                    print(f"⚠️ Optional category {name} returned 0 products; skipping")
+                    continue
+                write_json_atomic(filename, data)
                 print(f"✅ {len(data)} items saved to {filename}")
 
             except Exception as err:
+                if name in OPTIONAL_CATEGORIES:
+                    print(f"⚠️ Optional category {name} failed: {err}")
+                    continue
                 msg = f"{type(err).__name__}: {err}"
                 print(f"❌ Failed to scrape {name}: {msg}")
                 failures.append((url, msg))

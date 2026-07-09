@@ -14,6 +14,7 @@ GRAPHQL_URL = "https://www.jumbo.com/api/graphql"
 PAGE_SIZE = 24
 MAX_RETRIES = 3
 RETRY_DELAY = 2.0
+MAX_SANE_CATEGORY_COUNT = 10_000
 
 SEARCH_PRODUCTS_QUERY = """
 query SearchProducts($input: ProductSearchInput!) {
@@ -54,6 +55,10 @@ GRAPHQL_HEADERS = {
 
 class JumboApiError(RuntimeError):
     """Raised when the Jumbo GraphQL API returns an error response."""
+
+
+class JumboApiScopeError(JumboApiError):
+    """Raised when GraphQL returns an implausibly broad result set."""
 
 
 def _graphql_request(body: dict[str, Any]) -> Any:
@@ -182,6 +187,10 @@ def fetch_category_products(url: str) -> list[dict[str, Any]]:
         result = (data or {}).get("searchProducts") or {}
         if total_count is None:
             total_count = int(result.get("count") or 0)
+            if total_count > MAX_SANE_CATEGORY_COUNT:
+                raise JumboApiScopeError(
+                    f"Category scope too broad for {url}: {total_count} products"
+                )
         batch = result.get("products") or []
         products.extend(batch)
 

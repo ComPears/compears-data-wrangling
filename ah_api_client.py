@@ -16,6 +16,8 @@ APPLICATION = "AHWEBSHOP"
 PAGE_SIZE = 50
 MAX_RETRIES = 3
 RETRY_DELAY = 2.0
+# AH search caps around page 60; split only when pagination fails.
+MAX_SAFE_PAGES = 55
 
 
 class AhApiError(RuntimeError):
@@ -127,12 +129,20 @@ def product_to_raw_entry(product: dict[str, Any]) -> dict[str, str | None]:
     return {"raw_text": "\n".join(lines), "image": _image_url(product)}
 
 
-def fetch_taxonomy_products(token: str, taxonomy_id: str) -> list[dict[str, Any]]:
-    """Fetch all products for a top-level AH taxonomy category."""
+def _taxonomy_child_ids(payload: dict[str, Any]) -> list[str]:
+    for entry in payload.get("filters") or []:
+        if entry.get("id") != "taxonomy":
+            continue
+        options = entry.get("options") or []
+        return [str(option["id"]) for option in options if option.get("id")]
+    return []
+
+
+def _fetch_paginated(token: str, taxonomy_id: str) -> list[dict[str, Any]]:
     products: list[dict[str, Any]] = []
     page = 0
 
-    while True:
+    while page < MAX_SAFE_PAGES:
         payload = _request(
             "GET",
             "/mobile-services/product/search/v2",
@@ -156,3 +166,44 @@ def fetch_taxonomy_products(token: str, taxonomy_id: str) -> list[dict[str, Any]
         time.sleep(0.2)
 
     return products
+
+
+def fetch_taxonomy_products(token: str, taxonomy_id: str) -> list[dict[str, Any]]:
+    """Fetch all products for an AH taxonomy, splitting on pagination limits."""
+    try:
+        return _fetch_paginated(token, taxonomy_id)
+    except AhApiError as err:
+        if "HTTP 400" not in str(err):
+            raise
+
+        probe = _request(
+            "GET",
+            "/mobile-services/product/search/v2",
+            token=token,
+            params={
+                "taxonomyId": taxonomy_id,
+                "adType": "TAXONOMY",
+                "sortOn": "RELEVANCE",
+                "page": 0,
+                "size": 1,
+            },
+        )
+        child_ids = _taxonomy_child_ids(probe)
+        if not child_ids:
+            raise AhApiError(
+                f"Taxonomy {taxonomy_id} failed pagination and has no child filters"
+            ) from err
+
+        products: list[dict[str, Any]] = []
+        seen_ids: set[str] = set()
+        for child_id in child_ids:
+            for product in _fetch_paginated(token, child_id):
+                product_id = str(product.get("id") or product.get("webshopId") or "")
+                dedupe_key = product_id or json.dumps(product, sort_keys=True)
+                if dedupe_key in seen_ids:
+                    continue
+                seen_ids.add(dedupe_key)
+                products.append(product)
+            time.sleep(0.05)
+
+        return products
