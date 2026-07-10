@@ -10,6 +10,10 @@ on:
     - cron: '0 0 * * *'  # 12 AM UTC daily
   workflow_dispatch:      # Manual trigger option
 
+concurrency:
+  group: daily-supermarket-scrapers
+  cancel-in-progress: true
+
 jobs:
   generate-ah:
     runs-on: ubuntu-latest
@@ -313,16 +317,21 @@ jobs:
             pip install -r requirements.txt
           fi
 
-      # Coop scrapes the same PLUS PLP API via redirects and is unstable in CI.
-      # Keep PLUS as the authoritative catalog and maintain Coop via post-sanitize dedupe.
-      - name: Skip unstable Coop scrape (PLUS is authoritative)
+      - name: Install Playwright browsers
         run: |
-          echo "Skipping Coop scrape; prune-stale-data will dedupe Coop against PLUS."
-          echo "Existing countries/nl/coop/coop_structured.json will be retained until dedupe runs."
+          python -m playwright install
+          python -m playwright install-deps
+
+      # Coop uses the same PLUS PLP API via redirects and often fails in CI.
+      # Try the scrape, but never fail the job; PLUS dedupe runs in prune-stale-data.
+      - name: Generate NL Coop catalog
+        id: coop_scrape
+        continue-on-error: true
+        run: python scripts/run_store_pipeline.py --store coop
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
-        if: false
+        if: steps.coop_scrape.outcome == 'success'
         env:
           GIT_USERNAME: "GitHub Actions Bot"
           GIT_EMAIL: "actions@github.com"

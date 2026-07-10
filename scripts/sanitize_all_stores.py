@@ -12,7 +12,18 @@ sys.path.insert(0, str(ROOT))
 
 from config.paths import all_catalog_paths, catalog_rel_path
 from product_sanitize import dedupe_by_identity, sanitize_entry
-from scripts.dedupe_coop_against_plus import dedupe_coop_against_plus
+
+
+def _dedupe_coop_against_plus() -> None:
+    import importlib.util
+
+    module_path = ROOT / "scripts" / "dedupe_coop_against_plus.py"
+    spec = importlib.util.spec_from_file_location("dedupe_coop_against_plus", module_path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError(f"Could not load dedupe module from {module_path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    module.dedupe_coop_against_plus()
 
 
 def sanitize_file(rel_path: str) -> dict[str, int]:
@@ -80,7 +91,7 @@ def main() -> None:
         f"TOTAL: {totals['input']} → {totals['kept']} kept, "
         f"{totals['rejected']} rejected, {totals['deduped']} dupes"
     )
-    dedupe_coop_against_plus()
+    _dedupe_coop_against_plus()
 
 
 if __name__ == "__main__":
