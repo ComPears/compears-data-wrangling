@@ -15,13 +15,12 @@
     "n": "Pink Lady Appels",
     "p": "1.99",
     "o": "-39% Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/DCEURIzwgZ7qW_onWGJ8nmkfxCbwAnDPLD_KNQQmnEU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0M0NDM1MDE5QkVFRTU0QUU0RDQ3MkQzNj/Q2MTg5MTkwNTE5NkYzOUYzQ0U4MDA3QTBCNjgyM0Y3M0I4MzdGRkQucG5n.png",
     "c": "Other",
     "cn": "pink appels lady",
-    "ik": "tok:pink|appels-lady|1",
-    "bn": "pink",
-    "wg": 1
+    "ik": "tok:pink|appels-lady|na",
+    "bn": "pink"
   },
   {
     "n": "Passievrucht",
@@ -75,13 +74,12 @@
     "n": "Cashewnoten",
     "p": "5.29",
     "o": "-13% Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/R2Ml5kQ1uXRvYiqkEG9LXg4AIX8e8D7sHD2NIuClz30/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzU5MzNBQjQxODEyODJCQkNBOERCQjQyQk/U1NjBGOURENTNGNUYyN0Y2OEI0QjM4NTFFMURGRkVFOTRBRDg1RUQucG5n.png",
     "c": "Other",
     "cn": "cashewnoten",
-    "ik": "tok:cashewnoten|unknown|1",
-    "bn": "cashewnoten",
-    "wg": 1
+    "ik": "tok:cashewnoten|unknown|na",
+    "bn": "cashewnoten"
   },
   {
     "n": "Pinot Grigio",
@@ -111,13 +109,12 @@
     "n": "Koffiepads",
     "p": "3.29",
     "o": "VANAF Tot 19% goedkoper Prijsvoorbeeld: Regular. Actieprijzen variëren van €3.29 - €4.99 Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/br6_gyrUEczaXi-IkDy__DFxKlDgGb8WA5BKjD6Lw-I/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0QzNUE5ODdDNDBBMThFNjdEQzc3RDlBMT/gzNUJERjJBQkFEOTQwN0Y3RjI2NTk0Rjk2MzBFRUNDRTZDNDNEOUYucG5n.png",
     "c": "Other",
     "cn": "koffiepads",
-    "ik": "tok:koffiepads|unknown|1",
-    "bn": "koffiepads",
-    "wg": 1
+    "ik": "tok:koffiepads|unknown|na",
+    "bn": "koffiepads"
   },
   {
     "n": "Cocacola",
@@ -183,13 +180,12 @@
     "n": "Waikiki, Piel De Sapo Of Honing Meloen",
     "p": "2.49",
     "o": "Tot -37% Prijsvoorbeeld: Waikiki meloen. Vanprijzen variëren van €3.49 - €3.99 Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/_EiO0DBZd_4JeGW8syh7XCxUK57pIasHdK6GBBTbBFo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS8yNTAzMDNFMDI0RDEyMzNEODkxMkJFMzA/4NTFGOTA1QkE4RUZFQTZGNEQxQzY1MUY1RDlEM0M1ODYxQzc3MUE0LnBuZw.png",
     "c": "Other",
     "cn": "waikiki honing meloen of piel sapo",
-    "ik": "tok:waikiki|honing-meloen-of-piel-sapo|1",
-    "bn": "waikiki",
-    "wg": 1
+    "ik": "tok:waikiki|honing-meloen-of-piel-sapo|na",
+    "bn": "waikiki"
   },
   {
     "n": "Bio Blauwe Bessen",
@@ -267,13 +263,12 @@
     "n": "Alle Maaltijdsalades",
     "p": "2.29",
     "o": "VANAF -€1.- Prijsvoorbeeld: Caesar. Actieprijzen variëren van €2.29 - €3.29 Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/J-jQDXJqQs_bLknX3ips3_AdGEresm1sMbwF3KlLSGk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzIzNzg4QjZGMEJEODhDM0UwN0YxMTA2OE/YwMjJENUY0MTdENUJCRUJBRjc2NDBCNzNCRjI3M0Y5QUQwQjExOEYucG5n.png",
     "c": "Other",
     "cn": "alle maaltijdsalades",
-    "ik": "tok:alle|maaltijdsalades|1",
-    "bn": "alle",
-    "wg": 1
+    "ik": "tok:alle|maaltijdsalades|na",
+    "bn": "alle"
   },
   {
     "n": "Alle Mini Krieltjes",
@@ -435,13 +430,12 @@
     "n": "Gemengd Gehakt",
     "p": "5.99",
     "o": "Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/p5Ixar2SfvgbVQ_yZAGbUhOrxiY6822gcOwcPiqM6sA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9BOTkxN0M3NzI2RkZCMEM0QUY5QzVBMjY/5MzNDRjkxQUY3RUIyRTY1RjYwQ0NENUYwRkYyMzExNUYxOUM4ODhBLnBuZw.png",
     "c": "Other",
     "cn": "gemengd gehakt",
-    "ik": "tok:gemengd|gehakt|1",
-    "bn": "gemengd",
-    "wg": 1
+    "ik": "tok:gemengd|gehakt|na",
+    "bn": "gemengd"
   },
   {
     "n": "Kipbbqworst Piri",
@@ -542,13 +536,12 @@
     "n": "Stuk Gouda Jonge Kaas",
     "p": "4.19",
     "o": "Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/veqEsdi0CbIV32K3wxCHtbT17cvbH-EEJdPeGkafO_Y/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0E5QTdEOUNDRkJFMzM1QThFQjZCODJFND/NCMjY0NzkzRjk2QTRDMUIzMjg0RUNGQzdCOTU4NzNFOUJGRTQ3NDkucG5n.png",
     "c": "Other",
     "cn": "gouda jonge kaas",
-    "ik": "tok:gouda|jonge-kaas|1",
-    "bn": "gouda",
-    "wg": 1
+    "ik": "tok:gouda|jonge-kaas|na",
+    "bn": "gouda"
   },
   {
     "n": "Hero Vruchtenspread",
@@ -578,25 +571,23 @@
     "n": "Milner Kaasplakken",
     "p": "1.89",
     "o": "-27% Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/sub1cZS5QB838LXveAizOJtvdpt__wWjjDFK5a9d4Bc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS83MTlDOTRDOUY5QTU5NkY2RTkxMEE3NkN/FRjFFNjA4RTQzRkVBNDJDOUZGOTQ4NzVCMTFBODk4OEYzNEYyNjExLnBuZw.png",
     "c": "Other",
     "cn": "milner kaasplakken",
-    "ik": "tok:milner|kaasplakken|1",
-    "bn": "milner",
-    "wg": 1
+    "ik": "tok:milner|kaasplakken|na",
+    "bn": "milner"
   },
   {
     "n": "Bio Oude Kaasplakken",
     "p": "2.99",
     "o": "Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/sinlZ-8qugJXoxG8u6OLB3mX0uUUFWZAy8w8y7zMWiI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzFFQzE2MzlBREI0OUMyNkFFRTMxMkMwNz/I5MTRBNDdDRUREMzI4NDdGNUUwOEI1MTRBQTY3OEJBREREODcyMzAucG5n.png",
     "c": "Other",
     "cn": "bio kaasplakken oude",
-    "ik": "tok:bio|kaasplakken-oude|1",
-    "bn": "bio",
-    "wg": 1
+    "ik": "tok:bio|kaasplakken-oude|na",
+    "bn": "bio"
   },
   {
     "n": "Kazen Franse Stijl",
@@ -722,13 +713,12 @@
     "n": "Kokosbriketten",
     "p": "3.99",
     "o": "Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/lXe6b461wcHBHyAzl9h0iZNPmQqadXTBFYZ6O2-AYfo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzYxRTBFRENBQUY4NUU4NzMyQzkyMDEzOE/IyRTY3OTkzQkMwQzBCMEQ0OTlCQkRDRDMwQjk0QzM1MjRGREEzRDQucG5n.png",
     "c": "Other",
     "cn": "kokosbriketten",
-    "ik": "tok:kokosbriketten|unknown|1",
-    "bn": "kokosbriketten",
-    "wg": 1
+    "ik": "tok:kokosbriketten|unknown|na",
+    "bn": "kokosbriketten"
   },
   {
     "n": "Afbakstokbroden",
@@ -770,13 +760,12 @@
     "n": "Kreukelfriet Of Vlaamse Friet",
     "p": "1.79",
     "o": "Prijsvoorbeeld: Kreukelfriet. Vanprijzen variëren van €2.25 - €2.28 Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/Ix40w1usNe2wRpVtFTCkShZTm5CGUIEsQKt6LdQmgXk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0Q2NzE5RUI2QjQyNTczNDc4Mzc3NDIyNU/RCOENCRjM4MjBDNkVFQkZFRjhDQTkzMEU2Rjg1ODYwNkEwNzBDM0QucG5n.png",
     "c": "Other",
     "cn": "kreukelfriet friet of vlaamse",
-    "ik": "tok:kreukelfriet|friet-of-vlaamse|1",
-    "bn": "kreukelfriet",
-    "wg": 1
+    "ik": "tok:kreukelfriet|friet-of-vlaamse|na",
+    "bn": "kreukelfriet"
   },
   {
     "n": "Heinz Tomaten Ketchup",
@@ -830,13 +819,12 @@
     "n": "Nuts Royal",
     "p": "5.89",
     "o": "Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/OyCddt3gKInRfJtU3cxjC0VG44lVm1_b6Jy08d5TS70/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzE4OUI5MjVFQjQ5Q0Y0ODg0QzEyRDlFMj/NGMEUzMzFDN0RCODg3MEMyQ0IxNzcyOUVBRTc2RTdBMTgxMEJCNEUucG5n.png",
     "c": "Other",
     "cn": "nuts royal",
-    "ik": "tok:nuts|royal|1",
-    "bn": "nuts",
-    "wg": 1
+    "ik": "tok:nuts|royal|na",
+    "bn": "nuts"
   },
   {
     "n": "M&M'S Of Maltesers",
@@ -866,13 +854,12 @@
     "n": "Chocoladereep",
     "p": "0.74",
     "o": "VANAF -25% Prijsvoorbeeld: Melkchocolade. Actieprijzen variëren van €0.74 - €1.19 Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/Jayf6XdkVnZPc32jLbv_TCN9pKlKTKzt8OxkfudOZ-I/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzFFRTdENTBGOTFBRTM4RTEyMTA3NjY3OD/I2RDc2RUJDQzBDNTZDMjY2REU1NERFQjk0QTlDQUJFQkY5OUU4QzgucG5n.png",
     "c": "Other",
     "cn": "chocoladereep",
-    "ik": "tok:chocoladereep|unknown|1",
-    "bn": "chocoladereep",
-    "wg": 1
+    "ik": "tok:chocoladereep|unknown|na",
+    "bn": "chocoladereep"
   },
   {
     "n": "Kaaszoutjes",
@@ -1070,13 +1057,12 @@
     "n": "Alle Mousserende Wijnen",
     "p": "1.87",
     "o": "-25% Actieprijzen variëren van €1.87 - €6.74 Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/awvjBKeG3vdW7uZvRwdv-1V6U5XKyO4ZDqzW1kASJlE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0FERkI5RkYyRkVERkQyQUJGRjZCQjlCOT/BGQjczQkZFRUU0RkUzMDIxN0RFRkM4QjAwQTc2QUEwODZCRjdGQjUucG5n.png",
     "c": "Other",
     "cn": "alle mousserende wijnen",
-    "ik": "tok:alle|mousserende-wijnen|1",
-    "bn": "alle",
-    "wg": 1
+    "ik": "tok:alle|mousserende-wijnen|na",
+    "bn": "alle"
   },
   {
     "n": "Corte Alle Mura Chianti Riserva",
@@ -1106,13 +1092,12 @@
     "n": "Floralys Keukenpapier 3laags",
     "p": "4.49",
     "o": "FLORALYS Keukenpapier 3-laags voor 4.49 EUR FLORALYS Keukenpapier 3-laags Alleen in de winkel 06/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/l5hexdSKQkcNghyGrLzVdygKnesUWptDGxY8sfckk7c/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzc4Nzg3RThDNTdGMDhFMUFENkZBRUU3Qz/k5MTA3NTVEOTk2RDBGOEY0MTc1NEIwRTBBNTA3ODRGM0E3Q0EwQzMucG5n.png",
     "c": "Other",
     "cn": "floralys 3laags keukenpapier",
-    "ik": "tok:floralys|3laags-keukenpapier|1",
-    "bn": "floralys",
-    "wg": 1
+    "ik": "tok:floralys|3laags-keukenpapier|na",
+    "bn": "floralys"
   },
   {
     "n": "Robijn Wasmiddel",
@@ -1166,49 +1151,45 @@
     "n": "Bloeiende Plant In Schaal",
     "p": "3.99",
     "o": "Actie Alleen in de winkel 08/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/hBQifePpoEwS9wjUDQNhNBwkRBtNuVEBKK3NrCrmWM4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS8xQjNDQjI4NUY2QUY0NTI3ODkyOThENTB/CNEEyQTY2MjVEOTgzQUQzNThENUE0RTg4MkVEQkNBNDZFRjlBRTM2LnBuZw.png",
     "c": "Other",
     "cn": "bloeiende in plant schaal",
-    "ik": "tok:bloeiende|in-plant-schaal|1",
-    "bn": "bloeiende",
-    "wg": 1
+    "ik": "tok:bloeiende|in-plant-schaal|na",
+    "bn": "bloeiende"
   },
   {
     "n": "Zonnebloemen",
     "p": "3.49",
     "o": "Actie Alleen in de winkel 08/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/A8mF7RRZ_X_bcbot5vSbwGkpJPosYN4pAYrfV0_4iJI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzMzQTI4RDczNERFNzQ5MzBEMzdERjFBM0/Y2QUMwNDBBRTk0RUYxMTU0NTNDMEJGNjk5RjY5NjFBODFCMzFDOTcucG5n.png",
     "c": "Other",
     "cn": "zonnebloemen",
-    "ik": "tok:zonnebloemen|unknown|1",
-    "bn": "zonnebloemen",
-    "wg": 1
+    "ik": "tok:zonnebloemen|unknown|na",
+    "bn": "zonnebloemen"
   },
   {
     "n": "Vlinderstruik \"Butterfly Candy\"",
     "p": "7.49",
     "o": "Alleen in de winkel 08/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/4i4zUz8R-sQP08AIEIAFGLF03xbwumRHuAySgvZr3yM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0UwNDhDODEyQjJFRjgxRDNCMjFCNTg4N0/U2NEJENUI4NDg0NzM0MEM3NEE0ODA3MzE4NkI3RDhCQjc5RkQzMjYucG5n.png",
     "c": "Other",
     "cn": "vlinderstruik butterfly candy",
-    "ik": "tok:vlinderstruik|butterfly-candy|1",
-    "bn": "vlinderstruik",
-    "wg": 1
+    "ik": "tok:vlinderstruik|butterfly-candy|na",
+    "bn": "vlinderstruik"
   },
   {
     "n": "Aloë Vera",
     "p": "1.99",
     "o": "Alleen in de winkel 08/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/2_Rh6uwA33gvXiXg_c0IRb-aw-96357RZlr3MrQbEQI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzNGQ0U4N0NGNTY4MjkzRkM3MEYwMTQ0RD/c5RkI2NTQzRTJBMkZFQzc5RTJCOUM4MENFMkU4QzRERjA4NDFDMUUucG5n.png",
     "c": "Other",
     "cn": "alo alo vera",
-    "ik": "tok:alo|alo-vera|1",
-    "bn": "alo",
-    "wg": 1
+    "ik": "tok:alo|alo-vera|na",
+    "bn": "alo"
   },
   {
     "n": "Rotsplantjesmix",
@@ -1226,25 +1207,23 @@
     "n": "Lisianthus",
     "p": "1.69",
     "o": "Alleen in de winkel 10/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/-ffBGITbjWflaWboSoVgfppJIHWYr4722sI0zqbWf3g/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0UyQjc2MkFCQTRGNzg1ODBERTdDNkE0QU/NCQjE5MjQ2QkQ2ODkyOTk5Q0I4QkZDN0JGQkJFRDg3OERCODNCRUUucG5n.png",
     "c": "Other",
     "cn": "lisianthus",
-    "ik": "tok:lisianthus|unknown|1",
-    "bn": "lisianthus",
-    "wg": 1
+    "ik": "tok:lisianthus|unknown|na",
+    "bn": "lisianthus"
   },
   {
     "n": "Anjer Pink Kisses",
     "p": "1.39",
     "o": "Alleen in de winkel 10/07 - 12/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/JSKQgprGlwkkdc6Ic6zM_AZ1-5vZhVuJJHs6kCMHl_w/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzZENTQ1NkZDRDg4MDM0NEM3MzY1REFDOU/JFQjM1QTMxQzcyRUFDNTc3NDVGMkFEQTcyQzZGNjY1MURBQjlDQTYucG5n.png",
     "c": "Other",
     "cn": "anjer kisses pink",
-    "ik": "tok:anjer|kisses-pink|1",
-    "bn": "anjer",
-    "wg": 1
+    "ik": "tok:anjer|kisses-pink|na",
+    "bn": "anjer"
   },
   {
     "n": "Rundvlees Hamburgers",
