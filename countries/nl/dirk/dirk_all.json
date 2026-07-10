@@ -1155,13 +1155,12 @@
     "n": "Felix Kattensoep Farm Selectie 6 X 48 G",
     "p": "2.79",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F247940_1_447132_639034743449642002.png?width=190",
     "c": "Household",
     "cn": "felix farm kattensoep selectie",
-    "ik": "tok:felix|farm-kattensoep-selectie|1",
-    "bn": "felix",
-    "wg": 1
+    "ik": "tok:felix|farm-kattensoep-selectie|na",
+    "bn": "felix"
   },
   {
     "n": "Whiskas Kattenvoer Vis Selectie Gelei 1+ Jaar",
@@ -1169,6 +1168,30 @@
     "o": "",
     "s": "1.02 l",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F149801_1_448375_638197677764226115.png?width=190",
+    "c": "Household",
+    "cn": "whiskas gelei jaar kattenvoer selectie vis",
+    "ik": "tok:whiskas|gelei-jaar-kattenvoer-selectie-vis|1020",
+    "bn": "whiskas",
+    "wg": 1020
+  },
+  {
+    "n": "Whiskas Kattenvoer Classic Selectie Saus 1+ Jaar 12st",
+    "p": "6.19",
+    "o": "",
+    "s": "1.02 l",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F149802_1_448376_638128449675792315.png?width=190",
+    "c": "Household",
+    "cn": "whiskas classic jaar kattenvoer saus selectie",
+    "ik": "tok:whiskas|classic-jaar-kattenvoer-saus-selectie|1020",
+    "bn": "whiskas",
+    "wg": 1020
+  },
+  {
+    "n": "Whiskas Kattenvoer Vis Selectie Gelei 7+ Jaar 12st.",
+    "p": "6.19",
+    "o": "",
+    "s": "1.02 l",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F149803_1_448377_638128449683163717.png?width=190",
     "c": "Household",
     "cn": "whiskas gelei jaar kattenvoer selectie vis",
     "ik": "tok:whiskas|gelei-jaar-kattenvoer-selectie-vis|1020",
@@ -1215,13 +1238,12 @@
     "n": "Felix Kattensoep Vis Selectie 6 X 48 G",
     "p": "2.85",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F180426_1_447131_638882709212190293.png?width=190",
     "c": "Household",
     "cn": "felix kattensoep selectie vis",
-    "ik": "tok:felix|kattensoep-selectie-vis|1",
-    "bn": "felix",
-    "wg": 1
+    "ik": "tok:felix|kattensoep-selectie-vis|na",
+    "bn": "felix"
   },
   {
     "n": "Sheba Kuipje Mini Filet In Saus Kip & Kalkoen",
@@ -1671,13 +1693,12 @@
     "n": "Felix Kattenvoer Countryside Selectie Saus 12 X 85 Gram",
     "p": "5.55",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F423772_2026-07-09_04-03-17-464_7d9bdddb-fa2d-477c-bf6c-2eac579615cb.png?width=190",
     "c": "Household",
     "cn": "felix 12 85 countryside gram kattenvoer saus selectie",
-    "ik": "tok:felix|12-85-countryside-gram-kattenvoer-saus-selectie|1",
-    "bn": "felix",
-    "wg": 1
+    "ik": "tok:felix|12-85-countryside-gram-kattenvoer-saus-selectie|na",
+    "bn": "felix"
   },
   {
     "n": "Sheba Kattenvoer Filets Kip Tonijn",
@@ -2655,13 +2676,12 @@
     "n": "Slimme Leerpad 2in1 2 Kl Per Stuk",
     "p": "3.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F486379_2026-07-08_04-07-35-211_4ab3ecb3-2637-444d-8c33-146366bc075a.png?width=190",
     "c": "Household",
     "cn": "slimme 2in1 kl leerpad",
-    "ik": "tok:slimme|2in1-kl-leerpad|1",
-    "bn": "slimme",
-    "wg": 1
+    "ik": "tok:slimme|2in1-kl-leerpad|na",
+    "bn": "slimme"
   },
   {
     "n": "Farmlight Brandgel",
@@ -2691,25 +2711,23 @@
     "n": "Optima Haardblok Per Stuk",
     "p": "2.19",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F117154_1_347259_637885719725233819.png?width=190",
     "c": "Household",
     "cn": "optima haardblok",
-    "ik": "tok:optima|haardblok|1",
-    "bn": "optima",
-    "wg": 1
+    "ik": "tok:optima|haardblok|na",
+    "bn": "optima"
   },
   {
     "n": "Varta Batterij 9 Volt Longlife Power Per Pak",
     "p": "3.25",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F150723_1_396532_638119818688000927.png?width=190",
     "c": "Household",
     "cn": "varta batterij longlife power volt",
-    "ik": "tok:varta|batterij-longlife-power-volt|1",
-    "bn": "varta",
-    "wg": 1
+    "ik": "tok:varta|batterij-longlife-power-volt|na",
+    "bn": "varta"
   },
   {
     "n": "Varta Batterij Longlife Aaa",
@@ -2739,37 +2757,34 @@
     "n": "Nagelborstel Hout Per Stuk",
     "p": "0.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F745_1_103870_637171209265003000.png?width=190",
     "c": "Household",
     "cn": "nagelborstel hout",
-    "ik": "tok:nagelborstel|hout|1",
-    "bn": "nagelborstel",
-    "wg": 1
+    "ik": "tok:nagelborstel|hout|na",
+    "bn": "nagelborstel"
   },
   {
     "n": "Afwasborstel Per Stuk",
     "p": "0.98",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F101_1_132700_638259660489223589.png?width=190",
     "c": "Household",
     "cn": "afwasborstel per stuk",
-    "ik": "tok:afwasborstel|unknown|1",
-    "bn": "afwasborstel",
-    "wg": 1
+    "ik": "tok:afwasborstel|unknown|na",
+    "bn": "afwasborstel"
   },
   {
     "n": "1 De Beste Afwasborstel Hout Per Stuk",
     "p": "0.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F178308_1_458629_638386878321242775.png?width=190",
     "c": "Household",
     "cn": "beste afwasborstel hout",
-    "ik": "tok:beste|afwasborstel-hout|1",
-    "bn": "beste",
-    "wg": 1
+    "ik": "tok:beste|afwasborstel-hout|na",
+    "bn": "beste"
   },
   {
     "n": "Multy Dweildoek Microvezel",
@@ -2967,25 +2982,23 @@
     "n": "1 De Beste Vershoudfolie 50 Meter Per Stuk",
     "p": "0.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F79277_1_421487_638180137017864810.png?width=190",
     "c": "Household",
     "cn": "beste 50 meter vershoudfolie",
-    "ik": "tok:beste|50-meter-vershoudfolie|1",
-    "bn": "beste",
-    "wg": 1
+    "ik": "tok:beste|50-meter-vershoudfolie|na",
+    "bn": "beste"
   },
   {
     "n": "1 De Beste Vershoudfolie 15 Meter Per Pak",
     "p": "0.58",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F117078_1_421486_637885521772747867.png?width=190",
     "c": "Household",
     "cn": "beste 15 meter vershoudfolie",
-    "ik": "tok:beste|15-meter-vershoudfolie|1",
-    "bn": "beste",
-    "wg": 1
+    "ik": "tok:beste|15-meter-vershoudfolie|na",
+    "bn": "beste"
   },
   {
     "n": "1 De Beste Boterhamzakjes",
@@ -3010,6 +3023,18 @@
     "ik": "tok:beste|24-ijsblokjes-ijsblokzakjes|10",
     "bn": "beste",
     "wg": 10
+  },
+  {
+    "n": "1 De Beste Diepvrieszakjes 3 Liter",
+    "p": "0.99",
+    "o": "",
+    "s": "25 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F194269_1_459964_638555298668597696.png?width=190",
+    "c": "Household",
+    "cn": "beste diepvrieszakjes liter",
+    "ik": "tok:beste|diepvrieszakjes-liter|25",
+    "bn": "beste",
+    "wg": 25
   },
   {
     "n": "1 De Beste Diepvrieszakjes 1 Liter",
@@ -3231,13 +3256,12 @@
     "n": "Nalys Blitz Keukenpapier 3 Laags Per Stuk",
     "p": "3.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F185044_1_378302_638458491824294437.png?width=190",
     "c": "Household",
     "cn": "nalys blitz keukenpapier laags",
-    "ik": "tok:nalys|blitz-keukenpapier-laags|1",
-    "bn": "nalys",
-    "wg": 1
+    "ik": "tok:nalys|blitz-keukenpapier-laags|na",
+    "bn": "nalys"
   },
   {
     "n": "Nalys Vochtvangers Dubbelrol 2 Is 4",
@@ -3255,13 +3279,12 @@
     "n": "Edet Easypull Navul Per Stuk",
     "p": "4.29",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F189262_1_465175_638500755941744947.png?width=190",
     "c": "Household",
     "cn": "edet easypull navul",
-    "ik": "tok:edet|easypull-navul|1",
-    "bn": "edet",
-    "wg": 1
+    "ik": "tok:edet|easypull-navul|na",
+    "bn": "edet"
   },
   {
     "n": "Edet Keukenpapier Superior 2-laags",
@@ -3303,13 +3326,12 @@
     "n": "Edet Keukenpapier 6 Rol Per Pak",
     "p": "4.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F226437_1_472028_638827500151728687.png?width=190",
     "c": "Household",
     "cn": "edet keukenpapier rol",
-    "ik": "tok:edet|keukenpapier-rol|1",
-    "bn": "edet",
-    "wg": 1
+    "ik": "tok:edet|keukenpapier-rol|na",
+    "bn": "edet"
   },
   {
     "n": "1 De Beste Keukenpapier 3 Rollen 3 Laags",
@@ -3555,13 +3577,12 @@
     "n": "Page Toiletpapier Compleet Schoon Maxi 4 Rollen",
     "p": "2.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F158986_1_450329_638179543396483052.png?width=190",
     "c": "Household",
     "cn": "page compleet maxi rollen schoon toiletpapier",
-    "ik": "tok:page|compleet-maxi-rollen-schoon-toiletpapier|1",
-    "bn": "page",
-    "wg": 1
+    "ik": "tok:page|compleet-maxi-rollen-schoon-toiletpapier|na",
+    "bn": "page"
   },
   {
     "n": "1 De Beste Toiletpapier 3 Laags",
@@ -3627,13 +3648,12 @@
     "n": "Page Toiletpapier 18 Rollen Zacht & Sterk Per Stuk",
     "p": "7.49",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F449971_2026-07-09_04-02-41-470_99048ea3-5b6e-4875-8729-c2f9b9faae3b.png?width=190",
     "c": "Household",
     "cn": "page 18 rollen sterk toiletpapier zacht",
-    "ik": "tok:page|18-rollen-sterk-toiletpapier-zacht|1",
-    "bn": "page",
-    "wg": 1
+    "ik": "tok:page|18-rollen-sterk-toiletpapier-zacht|na",
+    "bn": "page"
   },
   {
     "n": "Tempo Zakdoekjes Original 4 Laags",
@@ -3951,13 +3971,12 @@
     "n": "Neutral Wasmiddel Poeder Kleur 18 Wasbeurten 1,1 Kilo",
     "p": "7.65",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F45169_1_350366_637213473295829501.png?width=190",
     "c": "Household",
     "cn": "neutral 18 kilo kleur poeder wasbeurten wasmiddel",
-    "ik": "tok:neutral|18-kilo-kleur-poeder-wasbeurten-wasmiddel|1",
-    "bn": "neutral",
-    "wg": 1
+    "ik": "tok:neutral|18-kilo-kleur-poeder-wasbeurten-wasmiddel|na",
+    "bn": "neutral"
   },
   {
     "n": "1 De Beste Waspoeder Kleur 30 Wasbeurten",
@@ -4611,13 +4630,12 @@
     "n": "Finish Verfrisser Lemon Per Stuk",
     "p": "4.29",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F74070_1_424058_637569279286611127.png?width=190",
     "c": "Household",
     "cn": "finish lemon verfrisser",
-    "ik": "tok:finish|lemon-verfrisser|1",
-    "bn": "finish",
-    "wg": 1
+    "ik": "tok:finish|lemon-verfrisser|na",
+    "bn": "finish"
   },
   {
     "n": "1 De Beste Spoelglansmiddel",
@@ -4779,25 +4797,23 @@
     "n": "Non Food Dinerkaarsen Soft Pearl Per Stuk",
     "p": "5.75",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F175842_1_458975_638357223170673803.png?width=190",
     "c": "Household",
     "cn": "non dinerkaarsen food pearl soft",
-    "ik": "tok:non|dinerkaarsen-food-pearl-soft|1",
-    "bn": "non",
-    "wg": 1
+    "ik": "tok:non|dinerkaarsen-food-pearl-soft|na",
+    "bn": "non"
   },
   {
     "n": "Bolsius Herdenkingslicht Met Deksel Rood Per Stuk",
     "p": "1.65",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F198346_1_468331_638602870205128116.png?width=190",
     "c": "Household",
     "cn": "bolsius deksel herdenkingslicht rood",
-    "ik": "tok:bolsius|deksel-herdenkingslicht-rood|1",
-    "bn": "bolsius",
-    "wg": 1
+    "ik": "tok:bolsius|deksel-herdenkingslicht-rood|na",
+    "bn": "bolsius"
   },
   {
     "n": "Bolsius Geurglas Vanilla 25 Uur",
@@ -4911,13 +4927,12 @@
     "n": "Blixer Stofzuigerverfrisser Citrus Per Stuk",
     "p": "1.55",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F82191_1_388684_637673842079765808.png?width=190",
     "c": "Household",
     "cn": "blixer citrus stofzuigerverfrisser",
-    "ik": "tok:blixer|citrus-stofzuigerverfrisser|1",
-    "bn": "blixer",
-    "wg": 1
+    "ik": "tok:blixer|citrus-stofzuigerverfrisser|na",
+    "bn": "blixer"
   },
   {
     "n": "Glade Gel Relaxing Zen",
@@ -6027,13 +6042,12 @@
     "n": "Bonbébé Luierzakjes 100 st.",
     "p": "0.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F196486_1_461285_638580138824328290.png?width=190",
     "c": "Personal Care",
     "cn": "bonbb bonb luierzakjes",
-    "ik": "tok:bonbb|bonb-luierzakjes|1",
-    "bn": "bonbb",
-    "wg": 1
+    "ik": "tok:bonbb|bonb-luierzakjes|na",
+    "bn": "bonbb"
   },
   {
     "n": "Roosvicee Ferro 12+ Maanden Fruitkracht",
@@ -6449,6 +6463,18 @@
     "o": "",
     "s": "1 l",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F181322_1_429794_638424657456081584.png?width=190",
+    "c": "Personal Care",
+    "cn": "nestl dreumesmelk jaar little nestl steps",
+    "ik": "tok:nestl|dreumesmelk-jaar-little-nestl-steps|1000",
+    "bn": "nestl",
+    "wg": 1000
+  },
+  {
+    "n": "Nestlé Little Steps Dreumesmelk 1+ 1-3 Jaar",
+    "p": "2.25",
+    "o": "",
+    "s": "1 l",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F200652_1_429795_638623497642625307.png?width=190",
     "c": "Personal Care",
     "cn": "nestl dreumesmelk jaar little nestl steps",
     "ik": "tok:nestl|dreumesmelk-jaar-little-nestl-steps|1000",
@@ -7923,13 +7949,12 @@
     "n": "Derlon Tandenborstel Flexible Medium Per Stuk",
     "p": "0.59",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F1369_1_357842_638236269204461982.png?width=190",
     "c": "Personal Care",
     "cn": "derlon flexible medium tandenborstel",
-    "ik": "tok:derlon|flexible-medium-tandenborstel|1",
-    "bn": "derlon",
-    "wg": 1
+    "ik": "tok:derlon|flexible-medium-tandenborstel|na",
+    "bn": "derlon"
   },
   {
     "n": "Derlon Opzetborstels Voor Electrische Tandenborstel",
@@ -7947,25 +7972,23 @@
     "n": "Derlon Tandenborstel Sensitive Ultra Soft Per Stuk",
     "p": "0.59",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F18766_1_395883_637822440661882666.png?width=190",
     "c": "Personal Care",
     "cn": "derlon sensitive soft tandenborstel ultra",
-    "ik": "tok:derlon|sensitive-soft-tandenborstel-ultra|1",
-    "bn": "derlon",
-    "wg": 1
+    "ik": "tok:derlon|sensitive-soft-tandenborstel-ultra|na",
+    "bn": "derlon"
   },
   {
     "n": "Prodent Tandenborstel Junior 6+ Jaar Per Stuk",
     "p": "3.85",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F201546_1_468005_638633937344306505.png?width=190",
     "c": "Personal Care",
     "cn": "prodent jaar junior tandenborstel",
-    "ik": "tok:prodent|jaar-junior-tandenborstel|1",
-    "bn": "prodent",
-    "wg": 1
+    "ik": "tok:prodent|jaar-junior-tandenborstel|na",
+    "bn": "prodent"
   },
   {
     "n": "Aquafresh Tandenborstel Clean & Flex Hard 2+1",
@@ -7983,13 +8006,12 @@
     "n": "Aquafresh Tandenborstel Clean Control Soft Per Stuk",
     "p": "2.59",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F253087_1_371616_639089184365093532.png?width=190",
     "c": "Personal Care",
     "cn": "aquafresh clean control soft tandenborstel",
-    "ik": "tok:aquafresh|clean-control-soft-tandenborstel|1",
-    "bn": "aquafresh",
-    "wg": 1
+    "ik": "tok:aquafresh|clean-control-soft-tandenborstel|na",
+    "bn": "aquafresh"
   },
   {
     "n": "Aquafresh Tandenborstel Clean & Flex Medium",
@@ -8007,13 +8029,12 @@
     "n": "Colgate Tandenborstel Extra Clean 2 Stuks Per Pack",
     "p": "0.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F238943_1_452734_638913633958040025.png?width=190",
     "c": "Personal Care",
     "cn": "colgate clean extra pack tandenborstel",
-    "ik": "tok:colgate|clean-extra-pack-tandenborstel|1",
-    "bn": "colgate",
-    "wg": 1
+    "ik": "tok:colgate|clean-extra-pack-tandenborstel|na",
+    "bn": "colgate"
   },
   {
     "n": "Derlon Tandenstokers",
@@ -8031,13 +8052,12 @@
     "n": "Flosdraad 50 Meter",
     "p": "1.27",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F2337_1_358287_637632514275301445.png?width=190",
     "c": "Personal Care",
     "cn": "flosdraad 50 meter",
-    "ik": "tok:flosdraad|50-meter|1",
-    "bn": "flosdraad",
-    "wg": 1
+    "ik": "tok:flosdraad|50-meter|na",
+    "bn": "flosdraad"
   },
   {
     "n": "Rident Tandenragers Soft Regular",
@@ -8487,13 +8507,12 @@
     "n": "Bonbébé Standaard 1 0-6 Maanden 2 X 400 G",
     "p": "6.49",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F133623_1_413086_637994385611441039.png?width=190",
     "c": "Personal Care",
     "cn": "bonbb bonb maanden standaard",
-    "ik": "tok:bonbb|bonb-maanden-standaard|1",
-    "bn": "bonbb",
-    "wg": 1
+    "ik": "tok:bonbb|bonb-maanden-standaard|na",
+    "bn": "bonbb"
   },
   {
     "n": "Roosvicee Vruchtenmix 6+ Maanden",
@@ -8590,6 +8609,18 @@
     "ik": "tok:olvarit|kip-maanden-rijst-wortel|200",
     "bn": "olvarit",
     "wg": 200
+  },
+  {
+    "n": "Nutrilon Omneo 2 6+ Maanden",
+    "p": "22.45",
+    "o": "",
+    "s": "800 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F207114_1_340418_638682996302886916.png?width=190",
+    "c": "Personal Care",
+    "cn": "nutrilon maanden omneo",
+    "ik": "tok:nutrilon|maanden-omneo|800",
+    "bn": "nutrilon",
+    "wg": 800
   },
   {
     "n": "Van 17.39 13 49 Nutrilon 2 Opvolgmelk 6-10 Maanden",
@@ -9075,25 +9106,23 @@
     "n": "Multy Badspons Ovaal Per Stuk",
     "p": "0.79",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F328_1_112214_638279505018456010.png?width=190",
     "c": "Personal Care",
     "cn": "multy badspons ovaal",
-    "ik": "tok:multy|badspons-ovaal|1",
-    "bn": "multy",
-    "wg": 1
+    "ik": "tok:multy|badspons-ovaal|na",
+    "bn": "multy"
   },
   {
     "n": "Multy Bad Puff Met Koord Per Stuk",
     "p": "0.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F168923_1_114871_638279505054730707.png?width=190",
     "c": "Personal Care",
     "cn": "multy bad koord puff",
-    "ik": "tok:multy|bad-koord-puff|1",
-    "bn": "multy",
-    "wg": 1
+    "ik": "tok:multy|bad-koord-puff|na",
+    "bn": "multy"
   },
   {
     "n": "Kotex Maandverband Maxi Super",
@@ -9519,37 +9548,34 @@
     "n": "Hansaplast Pleisters Sensitive Kids Per Stuk",
     "p": "1.59",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F492950_2026-06-26_12-11-01-426_e7dff633-f05b-4f4b-9c29-ad2349ec2a17.png?width=190",
     "c": "Personal Care",
     "cn": "hansaplast kids pleisters sensitive",
-    "ik": "tok:hansaplast|kids-pleisters-sensitive|1",
-    "bn": "hansaplast",
-    "wg": 1
+    "ik": "tok:hansaplast|kids-pleisters-sensitive|na",
+    "bn": "hansaplast"
   },
   {
     "n": "Hansaplast Pleisters Universal Per Stuk",
     "p": "1.59",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F492951_2026-06-29_15-03-59-842_121d2fed-4ae8-4137-abba-6c7d22bb43e7.png?width=190",
     "c": "Personal Care",
     "cn": "hansaplast pleisters universal",
-    "ik": "tok:hansaplast|pleisters-universal|1",
-    "bn": "hansaplast",
-    "wg": 1
+    "ik": "tok:hansaplast|pleisters-universal|na",
+    "bn": "hansaplast"
   },
   {
     "n": "Leidapharm Broomhexine 8 Mg 30 st. Per Pak",
     "p": "2.49",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F221287_1_472372_638780820987823111.png?width=190",
     "c": "Personal Care",
     "cn": "leidapharm broomhexine mg",
-    "ik": "tok:leidapharm|broomhexine-mg|1",
-    "bn": "leidapharm",
-    "wg": 1
+    "ik": "tok:leidapharm|broomhexine-mg|na",
+    "bn": "leidapharm"
   },
   {
     "n": "Derlon Bodylotion",
@@ -9747,13 +9773,12 @@
     "n": "Van 1.99 1 79 Labello Lippenbalsem Classic Per Stuk",
     "p": "",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F23823_1_397902_638301970410050772.png?width=190",
     "c": "Personal Care",
     "cn": "labello 79 99 classic lippenbalsem",
-    "ik": "tok:labello|79-99-classic-lippenbalsem|1",
-    "bn": "labello",
-    "wg": 1
+    "ik": "tok:labello|79-99-classic-lippenbalsem|na",
+    "bn": "labello"
   },
   {
     "n": "Derlon Lippenbalsem Spf",
@@ -11739,13 +11764,12 @@
     "n": "1 De Beste Zoetjes 72 Gram",
     "p": "0.98",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F177494_1_458884_638399577328119537.png?width=190",
     "c": "Other",
     "cn": "beste 72 gram zoetjes",
-    "ik": "tok:beste|72-gram-zoetjes|1",
-    "bn": "beste",
-    "wg": 1
+    "ik": "tok:beste|72-gram-zoetjes|na",
+    "bn": "beste"
   },
   {
     "n": "Zoetstof Xylitol",
@@ -14499,13 +14523,12 @@
     "n": "Quaker Havermout Kaneel 10 X 30 G",
     "p": "3.29",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F185040_1_354236_638458491452374590.png?width=190",
     "c": "Other",
     "cn": "quaker 10 havermout kaneel",
-    "ik": "tok:quaker|10-havermout-kaneel|1",
-    "bn": "quaker",
-    "wg": 1
+    "ik": "tok:quaker|10-havermout-kaneel|na",
+    "bn": "quaker"
   },
   {
     "n": "Kelloggs Mini's",
@@ -14955,13 +14978,12 @@
     "n": "Tastybasics Granola Naturel 350 Gram",
     "p": "3.69",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F252488_1_438894_639081588214587243.png?width=190",
     "c": "Other",
     "cn": "tastybasics 350 gram granola naturel",
-    "ik": "tok:tastybasics|350-gram-granola-naturel|1",
-    "bn": "tastybasics",
-    "wg": 1
+    "ik": "tok:tastybasics|350-gram-granola-naturel|na",
+    "bn": "tastybasics"
   },
   {
     "n": "Tastybasics Granola Noten En Pitten",
@@ -17715,13 +17737,12 @@
     "n": "Sunshine Delights Gedroogde Mango 200 Gram",
     "p": "3.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F243930_1_485124_638980215520269959.png?width=190",
     "c": "Other",
     "cn": "sunshine 200 delights gedroogde gram mango",
-    "ik": "tok:sunshine|200-delights-gedroogde-gram-mango|1",
-    "bn": "sunshine",
-    "wg": 1
+    "ik": "tok:sunshine|200-delights-gedroogde-gram-mango|na",
+    "bn": "sunshine"
   },
   {
     "n": "Sunshine Delights Gedroogde Perzik",
@@ -19275,13 +19296,12 @@
     "n": "Silvo Saffraandraden 0,4 Gram",
     "p": "4.49",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F65212_1_416958_638016193101176041.png?width=190",
     "c": "Other",
     "cn": "silvo gram saffraandraden",
-    "ik": "tok:silvo|gram-saffraandraden|1",
-    "bn": "silvo",
-    "wg": 1
+    "ik": "tok:silvo|gram-saffraandraden|na",
+    "bn": "silvo"
   },
   {
     "n": "Silvo Chipotle Kruidenmix",
@@ -27699,25 +27719,23 @@
     "n": "Westland Rundvleesslaatje 140 Gram",
     "p": "1.09",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F245705_1_486075_639083172398023514.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "westland 140 gram rundvleesslaatje",
-    "ik": "tok:westland|140-gram-rundvleesslaatje|1",
-    "bn": "westland",
-    "wg": 1
+    "ik": "tok:westland|140-gram-rundvleesslaatje|na",
+    "bn": "westland"
   },
   {
     "n": "Westland Eierslaatje 140 Gram",
     "p": "1.25",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F245707_1_486076_639083172389963061.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "westland 140 eierslaatje gram",
-    "ik": "tok:westland|140-eierslaatje-gram|1",
-    "bn": "westland",
-    "wg": 1
+    "ik": "tok:westland|140-eierslaatje-gram|na",
+    "bn": "westland"
   },
   {
     "n": "Westland Kipslaatje",
@@ -27999,13 +28017,12 @@
     "n": "Flemmings Quarter Pounder Per Stuk",
     "p": "2.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F225273_1_436556_638816919598646207.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "flemmings pounder quarter",
-    "ik": "tok:flemmings|pounder-quarter|1",
-    "bn": "flemmings",
-    "wg": 1
+    "ik": "tok:flemmings|pounder-quarter|na",
+    "bn": "flemmings"
   },
   {
     "n": "Coolback Baguette Kruidenboter 2 st.",
@@ -28168,7 +28185,7 @@
     "p": "2.19",
     "o": "",
     "s": "300 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F490072_2026-05-29_16-31-47-119_a64db1c2-97d9-4823-94db-63e930e3f46b.png?width=190",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F490072_2026-07-10_02-37-54-207_e33f0d99-b900-4721-8bef-38d4ced2d074.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "jan napoli pizzadeeg",
     "ik": "tok:jan|napoli-pizzadeeg|300",
@@ -29067,25 +29084,23 @@
     "n": "Verspakket Erwtensoep Per Stuk",
     "p": "3.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F179061_1_460682_638935248890456984.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket erwtensoep",
-    "ik": "tok:verspakket|erwtensoep|1",
-    "bn": "verspakket",
-    "wg": 1
+    "ik": "tok:verspakket|erwtensoep|na",
+    "bn": "verspakket"
   },
   {
     "n": "Verspakket Courgettesoep Per Stuk",
     "p": "3.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F224617_1_465452_638810232823826658.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket courgettesoep",
-    "ik": "tok:verspakket|courgettesoep|1",
-    "bn": "verspakket",
-    "wg": 1
+    "ik": "tok:verspakket|courgettesoep|na",
+    "bn": "verspakket"
   },
   {
     "n": "Mealmasters Babi Reepjes Sesamsaus En Kruidenrijst",
@@ -29115,73 +29130,67 @@
     "n": "Verspakket Tomatensoep Per Stuk",
     "p": "3.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F224564_1_460683_638810232816711581.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket tomatensoep",
-    "ik": "tok:verspakket|tomatensoep|1",
-    "bn": "verspakket",
-    "wg": 1
+    "ik": "tok:verspakket|tomatensoep|na",
+    "bn": "verspakket"
   },
   {
     "n": "Verspakket Mosterdsoep Per Stuk",
     "p": "3.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F224581_1_460774_639052128419601493.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket mosterdsoep",
-    "ik": "tok:verspakket|mosterdsoep|1",
-    "bn": "verspakket",
-    "wg": 1
+    "ik": "tok:verspakket|mosterdsoep|na",
+    "bn": "verspakket"
   },
   {
     "n": "Verspakket Prei Kerriesoep Per Pakket",
     "p": "4.49",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F179833_1_460769_638412780228857139.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket kerriesoep pakket prei",
-    "ik": "tok:verspakket|kerriesoep-pakket-prei|1",
-    "bn": "verspakket",
-    "wg": 1
+    "ik": "tok:verspakket|kerriesoep-pakket-prei|na",
+    "bn": "verspakket"
   },
   {
     "n": "Verspakket Teriyaki Japans Per Stuk",
     "p": "4.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F224622_1_467924_638810868182888818.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket japans teriyaki",
-    "ik": "tok:verspakket|japans-teriyaki|1",
-    "bn": "verspakket",
-    "wg": 1
+    "ik": "tok:verspakket|japans-teriyaki|na",
+    "bn": "verspakket"
   },
   {
     "n": "Verspakket Bami Ketjap Per Stuk",
     "p": "4.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F230223_1_480553_638868957431056951.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket bami ketjap",
-    "ik": "tok:verspakket|bami-ketjap|1",
-    "bn": "verspakket",
-    "wg": 1
+    "ik": "tok:verspakket|bami-ketjap|na",
+    "bn": "verspakket"
   },
   {
     "n": "Verspakket Tagliatella Pomodoro Per Pakket",
     "p": "4.69",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F255262_1_460766_639107424639541122.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket pakket pomodoro tagliatella",
-    "ik": "tok:verspakket|pakket-pomodoro-tagliatella|1",
-    "bn": "verspakket",
-    "wg": 1
+    "ik": "tok:verspakket|pakket-pomodoro-tagliatella|na",
+    "bn": "verspakket"
   },
   {
     "n": "Verspakket Thaise Groene Curry",
@@ -29199,62 +29208,57 @@
     "n": "Verspakket Lasagne Per Stuk",
     "p": "4.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F460758_2026-07-01_04-06-29-260_2891b0e8-11ff-47c2-adfd-da8a52872747.png?width=190",
     "c": "Fruits & Vegetables",
     "b": "52872747",
     "cn": "verspakket lasagne",
     "ik": "ean:52872747",
-    "bn": "verspakket",
-    "wg": 1
+    "bn": "verspakket"
   },
   {
     "n": "Verspakket Kip Rendang Per Pakket",
     "p": "4.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F460777_2026-07-01_04-06-00-577_f9d83013-0eae-41f9-aaa5-1beb8b3838a9.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket kip pakket rendang",
-    "ik": "tok:verspakket|kip-pakket-rendang|1",
-    "bn": "verspakket",
-    "wg": 1
+    "ik": "tok:verspakket|kip-pakket-rendang|na",
+    "bn": "verspakket"
   },
   {
     "n": "Van 4.99 4 49 Fresh & Easy Verspakket Nachos Per Pakket",
     "p": "",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F114961_1_438434_638237835993375899.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "fresh 49 99 easy nachos pakket verspakket",
-    "ik": "tok:fresh|49-99-easy-nachos-pakket-verspakket|1",
-    "bn": "fresh",
-    "wg": 1
+    "ik": "tok:fresh|49-99-easy-nachos-pakket-verspakket|na",
+    "bn": "fresh"
   },
   {
     "n": "Verspakket Indiase Curry Madras Per Stuk",
     "p": "4.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F224568_1_460757_638810232800895195.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket curry indiase madras",
-    "ik": "tok:verspakket|curry-indiase-madras|1",
-    "bn": "verspakket",
-    "wg": 1
+    "ik": "tok:verspakket|curry-indiase-madras|na",
+    "bn": "verspakket"
   },
   {
     "n": "Verspakket Kip Kerrie Per Stuk",
     "p": "4.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F465228_2026-07-08_04-06-49-994_912c665d-3cc3-4db1-87fd-aae813a3bb2e.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket kerrie kip",
-    "ik": "tok:verspakket|kerrie-kip|1",
-    "bn": "verspakket",
-    "wg": 1
+    "ik": "tok:verspakket|kerrie-kip|na",
+    "bn": "verspakket"
   },
   {
     "n": "1 De Beste Aardappelkroketjes",
@@ -30508,13 +30512,12 @@
     "n": "Duca Sticky Chicken Bites sweet&spicy 12 Stuks 250 G",
     "p": "3.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F243148_1_483656_638963094394373304.png?width=190",
     "c": "Frozen Foods",
     "cn": "duca bites chicken spicy sticky sweet",
-    "ik": "tok:duca|bites-chicken-spicy-sticky-sweet|1",
-    "bn": "duca",
-    "wg": 1
+    "ik": "tok:duca|bites-chicken-spicy-sticky-sweet|na",
+    "bn": "duca"
   },
   {
     "n": "Mora Hamburgers 4 Stuks",
@@ -30544,13 +30547,12 @@
     "n": "Duca Crispy Chicken Burgers 4 Stuks 320g",
     "p": "4.69",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F243149_1_483660_638963094389640043.png?width=190",
     "c": "Frozen Foods",
     "cn": "duca burgers chicken crispy",
-    "ik": "tok:duca|burgers-chicken-crispy|1",
-    "bn": "duca",
-    "wg": 1
+    "ik": "tok:duca|burgers-chicken-crispy|na",
+    "bn": "duca"
   },
   {
     "n": "1 De Beste Hamburgers 12 Stuks",
@@ -30904,13 +30906,12 @@
     "n": "Duca Oven Crispy Tender 8 Stuks 240g",
     "p": "3.69",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F243150_1_483661_638963094428644946.png?width=190",
     "c": "Frozen Foods",
     "cn": "duca crispy oven tender",
-    "ik": "tok:duca|crispy-oven-tender|1",
-    "bn": "duca",
-    "wg": 1
+    "ik": "tok:duca|crispy-oven-tender|na",
+    "bn": "duca"
   },
   {
     "n": "Mora Ovenkroket 4 Stuks",
@@ -32884,13 +32885,12 @@
     "n": "Ola Magnum Double Gold choc.billion 4 Stuks Per Pak",
     "p": "5.49",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F100085_1_421912_638064594722928525.png?width=190",
     "c": "Frozen Foods",
     "cn": "ola billion choc double gold magnum",
-    "ik": "tok:ola|billion-choc-double-gold-magnum|1",
-    "bn": "ola",
-    "wg": 1
+    "ik": "tok:ola|billion-choc-double-gold-magnum|na",
+    "bn": "ola"
   },
   {
     "n": "Ola Magnum Almond",
@@ -34528,13 +34528,12 @@
     "n": "Nestlé Kitkat Dubbel Chocolade 99 Gram",
     "p": "1.87",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F249607_1_487624_639056190423404388.png?width=190",
     "c": "Snacks",
     "cn": "nestl 99 chocolade dubbel gram kitkat nestl",
-    "ik": "tok:nestl|99-chocolade-dubbel-gram-kitkat-nestl|1",
-    "bn": "nestl",
-    "wg": 1
+    "ik": "tok:nestl|99-chocolade-dubbel-gram-kitkat-nestl|na",
+    "bn": "nestl"
   },
   {
     "n": "Nestlé Kitkat Zout Caramel",
@@ -37600,73 +37599,67 @@
     "n": "Klene Honingbijtjes Suikervrije Drop Zoet Zak 110 Gram",
     "p": "2.09",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F248692_1_431374_639046911361969665.png?width=190",
     "c": "Snacks",
     "cn": "klene 110 drop gram honingbijtjes suikervrije zak zoet",
-    "ik": "tok:klene|110-drop-gram-honingbijtjes-suikervrije-zak-zoet|1",
-    "bn": "klene",
-    "wg": 1
+    "ik": "tok:klene|110-drop-gram-honingbijtjes-suikervrije-zak-zoet|na",
+    "bn": "klene"
   },
   {
     "n": "Klene Zoute Ovaaltjes Suikervrije Drop Zak 110 Gram",
     "p": "2.09",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F248695_1_431376_639046911414754519.png?width=190",
     "c": "Snacks",
     "cn": "klene 110 drop gram ovaaltjes suikervrije zak zoute",
-    "ik": "tok:klene|110-drop-gram-ovaaltjes-suikervrije-zak-zoute|1",
-    "bn": "klene",
-    "wg": 1
+    "ik": "tok:klene|110-drop-gram-ovaaltjes-suikervrije-zak-zoute|na",
+    "bn": "klene"
   },
   {
     "n": "Klene Dropgums Suikervrije Drop Zoet Zak 110 Gram",
     "p": "2.39",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F87041_1_431366_638154271573121501.png?width=190",
     "c": "Snacks",
     "cn": "klene 110 drop dropgums gram suikervrije zak zoet",
-    "ik": "tok:klene|110-drop-dropgums-gram-suikervrije-zak-zoet|1",
-    "bn": "klene",
-    "wg": 1
+    "ik": "tok:klene|110-drop-dropgums-gram-suikervrije-zak-zoet|na",
+    "bn": "klene"
   },
   {
     "n": "Klene Zoethouten Hartjes Suikervrije Drop Zoet Zak 110 Gram",
     "p": "2.29",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F87042_1_431368_638154271579783151.png?width=190",
     "c": "Snacks",
     "cn": "klene 110 drop gram hartjes suikervrije zak zoet zoethouten",
-    "ik": "tok:klene|110-drop-gram-hartjes-suikervrije-zak-zoet-zoethouten|1",
-    "bn": "klene",
-    "wg": 1
+    "ik": "tok:klene|110-drop-gram-hartjes-suikervrije-zak-zoet-zoethouten|na",
+    "bn": "klene"
   },
   {
     "n": "Klene Ademin Suikervrije Drop Keelpastille Zak 110 Gram",
     "p": "2.09",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F248693_1_431375_639046920382708815.png?width=190",
     "c": "Snacks",
     "cn": "klene 110 ademin drop gram keelpastille suikervrije zak",
-    "ik": "tok:klene|110-ademin-drop-gram-keelpastille-suikervrije-zak|1",
-    "bn": "klene",
-    "wg": 1
+    "ik": "tok:klene|110-ademin-drop-gram-keelpastille-suikervrije-zak|na",
+    "bn": "klene"
   },
   {
     "n": "Klene Groentjes Suikervrije Drop Eucalyptus Zak 90 Gram",
     "p": "2.49",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F87076_1_431365_638154271601830944.png?width=190",
     "c": "Snacks",
     "cn": "klene 90 drop eucalyptus gram groentjes suikervrije zak",
-    "ik": "tok:klene|90-drop-eucalyptus-gram-groentjes-suikervrije-zak|1",
-    "bn": "klene",
-    "wg": 1
+    "ik": "tok:klene|90-drop-eucalyptus-gram-groentjes-suikervrije-zak|na",
+    "bn": "klene"
   },
   {
     "n": "1 De Beste Zoute Ovaaltjes Suikervrij",
@@ -38680,13 +38673,12 @@
     "n": "Chupa Chups The Best Of Lollies Uitdeel Snoep Zak 16 Stuks 192 Gram",
     "p": "1.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F118524_1_129106_637902946288857553.png?width=190",
     "c": "Snacks",
     "cn": "chupa 192 best chups gram lollies of snoep the uitdeel zak",
-    "ik": "tok:chupa|192-best-chups-gram-lollies-of-snoep-the-uitdeel-zak|1",
-    "bn": "chupa",
-    "wg": 1
+    "ik": "tok:chupa|192-best-chups-gram-lollies-of-snoep-the-uitdeel-zak|na",
+    "bn": "chupa"
   },
   {
     "n": "Lemco Fruit Lollies 24 Stuks",
@@ -38728,13 +38720,12 @@
     "n": "Look O Look Zuur Gevulde Staafjes Zuur Snoep Zak 125 Gram",
     "p": "1.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F123648_1_403806_638257951082209457.png?width=190",
     "c": "Snacks",
     "cn": "look 125 gevulde gram snoep staafjes zak zuur",
-    "ik": "tok:look|125-gevulde-gram-snoep-staafjes-zak-zuur|1",
-    "bn": "look",
-    "wg": 1
+    "ik": "tok:look|125-gevulde-gram-snoep-staafjes-zak-zuur|na",
+    "bn": "look"
   },
   {
     "n": "Red Band Magische Mix",
@@ -38932,13 +38923,12 @@
     "n": "Skittles Fruits Uitdeelzak 11 Zakjes",
     "p": "3.25",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F166240_1_279340_638249491150187065.png?width=190",
     "c": "Snacks",
     "cn": "skittles 11 fruits uitdeelzak zakjes",
-    "ik": "tok:skittles|11-fruits-uitdeelzak-zakjes|1",
-    "bn": "skittles",
-    "wg": 1
+    "ik": "tok:skittles|11-fruits-uitdeelzak-zakjes|na",
+    "bn": "skittles"
   },
   {
     "n": "Red Band Schatkistjes",
@@ -39376,13 +39366,12 @@
     "n": "Look O Look Dynamietstaafjes Aardbei Zuur Snoep Zak 110 Gram",
     "p": "1.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F101005_1_403796_638257951033848639.png?width=190",
     "c": "Snacks",
     "cn": "look 110 aardbei dynamietstaafjes gram snoep zak zuur",
-    "ik": "tok:look|110-aardbei-dynamietstaafjes-gram-snoep-zak-zuur|1",
-    "bn": "look",
-    "wg": 1
+    "ik": "tok:look|110-aardbei-dynamietstaafjes-gram-snoep-zak-zuur|na",
+    "bn": "look"
   },
   {
     "n": "Look O Look Snoepveters Aardbei",
@@ -39400,25 +39389,23 @@
     "n": "Look O Look Dynamietstaafjes Meloen Zoet Snoep Zak 110 Gram",
     "p": "1.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F25537_1_403799_638257951052874258.png?width=190",
     "c": "Snacks",
     "cn": "look 110 dynamietstaafjes gram meloen snoep zak zoet",
-    "ik": "tok:look|110-dynamietstaafjes-gram-meloen-snoep-zak-zoet|1",
-    "bn": "look",
-    "wg": 1
+    "ik": "tok:look|110-dynamietstaafjes-gram-meloen-snoep-zak-zoet|na",
+    "bn": "look"
   },
   {
     "n": "Look O Look Eetpapier Uitdeel Snoep Zak 360 Gram",
     "p": "1.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F100901_1_403801_638257951063084738.png?width=190",
     "c": "Snacks",
     "cn": "look 360 eetpapier gram snoep uitdeel zak",
-    "ik": "tok:look|360-eetpapier-gram-snoep-uitdeel-zak|1",
-    "bn": "look",
-    "wg": 1
+    "ik": "tok:look|360-eetpapier-gram-snoep-uitdeel-zak|na",
+    "bn": "look"
   },
   {
     "n": "Look O Look Salmiakknotsen",
@@ -39436,13 +39423,12 @@
     "n": "Look O Look Snoepkettingen En Horloges 10 Stuks 154 Gram",
     "p": "1.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F70177_1_403805_638257951072800066.png?width=190",
     "c": "Snacks",
     "cn": "look 154 gram horloges snoepkettingen",
-    "ik": "tok:look|154-gram-horloges-snoepkettingen|1",
-    "bn": "look",
-    "wg": 1
+    "ik": "tok:look|154-gram-horloges-snoepkettingen|na",
+    "bn": "look"
   },
   {
     "n": "Look O Look Sushi",
@@ -39472,13 +39458,12 @@
     "n": "Look O Look Gevulde Kersen Sticks Zoet Snoep Zak 115 Gram",
     "p": "1.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F229628_1_424113_638860153036004873.png?width=190",
     "c": "Snacks",
     "cn": "look 115 gevulde gram kersen snoep sticks zak zoet",
-    "ik": "tok:look|115-gevulde-gram-kersen-snoep-sticks-zak-zoet|1",
-    "bn": "look",
-    "wg": 1
+    "ik": "tok:look|115-gevulde-gram-kersen-snoep-sticks-zak-zoet|na",
+    "bn": "look"
   },
   {
     "n": "Candyman Verrassingszakje",
@@ -39640,13 +39625,12 @@
     "n": "Screamers Dip En Lick 5-pack",
     "p": "0.99",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F196069_1_453552_638579427268944342.png?width=190",
     "c": "Snacks",
     "cn": "screamers dip lick pack",
-    "ik": "tok:screamers|dip-lick-pack|1",
-    "bn": "screamers",
-    "wg": 1
+    "ik": "tok:screamers|dip-lick-pack|na",
+    "bn": "screamers"
   },
   {
     "n": "Jawbreakers Fireballs",
@@ -39808,13 +39792,12 @@
     "n": "Woogie Suikerspin 50 Gram",
     "p": "1.29",
     "o": "",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F245703_1_485377_639056190345082826.png?width=190",
     "c": "Snacks",
     "cn": "woogie 50 gram suikerspin",
-    "ik": "tok:woogie|50-gram-suikerspin|1",
-    "bn": "woogie",
-    "wg": 1
+    "ik": "tok:woogie|50-gram-suikerspin|na",
+    "bn": "woogie"
   },
   {
     "n": "Nerds Rainbow",
