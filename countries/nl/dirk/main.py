@@ -1,4 +1,3 @@
-import json
 import os
 import sys
 from pathlib import Path
@@ -22,6 +21,7 @@ def _repo_root():
 
 _repo_root()
 from category_utils import category_from_url
+from dirk_barcode import extract_card_barcode
 from scrape_utils import (
     accept_common_cookies,
     configure_page,
@@ -82,7 +82,14 @@ with sync_playwright() as p:
                 seen.add(raw_text)
                 img_el = card.query_selector("img.main-image")
                 img_src = img_el.get_attribute("src") if img_el else None
-                new_data.append({"raw_text": raw_text, "image": img_src, "category": category})
+                new_data.append(
+                    {
+                        "raw_text": raw_text,
+                        "image": img_src,
+                        "category": category,
+                        "barcode": extract_card_barcode(card),
+                    }
+                )
 
             require_products(len(new_data), url, min_count=0 if optional else 1)
             if len(new_data) == 0 and optional:

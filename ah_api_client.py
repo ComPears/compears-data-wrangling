@@ -10,6 +10,8 @@ import urllib.parse
 import urllib.request
 from typing import Any
 
+from barcode_utils import extract_barcode_from_entry
+
 API_BASE = "https://api.ah.nl"
 USER_AGENT = "Appie/8.22.3"
 APPLICATION = "AHWEBSHOP"
@@ -126,7 +128,13 @@ def product_to_raw_entry(product: dict[str, Any]) -> dict[str, str | None]:
     if unit:
         lines.append(unit)
 
-    return {"raw_text": "\n".join(lines), "image": _image_url(product)}
+    return {
+        "raw_text": "\n".join(lines),
+        "image": _image_url(product),
+        # AH search responses vary by API version. Only retain a checksum-valid
+        # value from an explicitly named EAN/GTIN field; webshopId is not EAN.
+        "barcode": extract_barcode_from_entry(product),
+    }
 
 
 def _taxonomy_child_ids(payload: dict[str, Any]) -> list[str]:

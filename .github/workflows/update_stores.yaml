@@ -450,6 +450,20 @@ jobs:
         continue-on-error: true
         run: python scripts/validate_products.py
 
+      - name: Test catalog health reporting
+        run: python -m unittest discover -s tests -t . -v
+
+      - name: Generate catalog health report
+        run: python scripts/catalog_health.py --fail-on error
+
+      - name: Upload catalog health report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-health
+          path: reports/catalog-health.json
+          if-no-files-found: error
+
       - name: Remove stale intermediate JSON from repo
         run: python scripts/prune_stale_artifacts.py --from-git
 
@@ -554,6 +568,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout latest catalog state
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python for monitoring
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.8'
+          check-latest: false
+
+      - name: Alert on zero, suspicious, or stale catalogs
+        id: catalog-monitor
+        continue-on-error: true
+        env:
+          CATALOG_MAX_AGE_HOURS: '72'
+          CATALOG_MAX_DROP_RATIO: '0.5'
+          CATALOG_MAX_GROWTH_RATIO: '3'
+        run: python scripts/workflow_catalog_alerts.py
+
       - name: Summarize scrape pipeline
         run: |
           echo "Store scrapers:"
@@ -594,3 +629,9 @@ jobs:
             needs.generate-jumbo.result == 'success'
           )
         run: echo "::warning::Some store scrapers failed; successful stores were still merged and synced."
+
+      - name: Fail on catalog monitoring alerts
+        if: always() && steps.catalog-monitor.outcome == 'failure'
+        run: |
+          echo "::error::Catalog monitoring found zero, suspicious, or stale data. See the Catalog monitoring job summary."
+          exit 1

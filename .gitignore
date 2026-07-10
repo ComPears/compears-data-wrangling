@@ -1,6 +1,7 @@
 # Environments
 .env
 .venv
+.venv-test
 env/
 venv/
 ENV/
@@ -37,3 +38,4 @@ countries/nl/coop/coop.json
 # Rejected rows from sanitize (local/CI only)
 *.rejected.json
 data-quality-report.json
+reports/

@@ -1,8 +1,13 @@
-"""Extract and normalize EAN/GTIN barcodes from scrape fields."""
+"""Extract and normalize EAN/GTIN barcodes from explicit source fields.
+
+Do not scan arbitrary image URLs or free text: numeric runs in CDN hashes and
+prices can accidentally pass an EAN checksum and inflate coverage.
+"""
 
 from __future__ import annotations
 
 import re
+from collections.abc import Iterable
 from typing import Any
 
 # Dutch retail GTINs often start with 87; also match 13-digit EAN in URLs/filenames.
@@ -55,16 +60,38 @@ def extract_barcode_from_text(text: str | None) -> str | None:
 
 
 def extract_barcode_from_entry(entry: dict[str, Any]) -> str | None:
-    for key in ("barcode", "ean", "gtin", "b"):
-        if key in entry:
-            normalized = normalize_barcode(entry.get(key))
+    """Return a barcode only when an upstream schema labels it as one."""
+    keys = (
+        "barcode",
+        "barCode",
+        "ean",
+        "EAN",
+        "ean8",
+        "ean13",
+        "gtin",
+        "GTIN",
+        "gtin8",
+        "gtin12",
+        "gtin13",
+        "tradeItemNumber",
+        "globalTradeItemNumber",
+        "b",
+    )
+    containers = (entry, entry.get("product"), entry.get("attributes"))
+    for container in containers:
+        if not isinstance(container, dict):
+            continue
+        for key in keys:
+            normalized = normalize_barcode(container.get(key))
             if normalized:
                 return normalized
 
-    for key in ("link", "image", "l", "i", "product_url", "raw_text"):
-        value = entry.get(key)
-        if isinstance(value, str):
-            found = extract_barcode_from_text(value)
-            if found:
-                return found
+    for key in ("barcodes", "eans", "gtins", "tradeItemNumbers"):
+        values = entry.get(key)
+        if isinstance(values, Iterable) and not isinstance(values, (str, bytes, dict)):
+            for value in values:
+                candidate = value.get("value") if isinstance(value, dict) else value
+                normalized = normalize_barcode(candidate)
+                if normalized:
+                    return normalized
     return None

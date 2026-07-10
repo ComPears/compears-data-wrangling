@@ -10,6 +10,7 @@ from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 
 from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError
 
+from barcode_utils import extract_barcode_from_entry
 from scrape_utils import PLUS_USER_AGENT
 
 PRODUCT_CARD_SELECTOR = ".plp-item-wrapper"
@@ -122,6 +123,9 @@ def _product_from_plp(plp: dict) -> dict[str, str | None]:
     return {
         "raw_text": "\n".join(lines),
         "image": plp.get("ImageURL"),
+        # Product_Code and image asset IDs are PLUS internal identifiers, not
+        # EANs. Only consume explicit EAN/GTIN fields from PLP_Str.
+        "barcode": extract_barcode_from_entry(plp),
         "link": (
             f"{PLUS_ORIGIN}/producten/{plp['Slug']}"
             if plp.get("Slug")

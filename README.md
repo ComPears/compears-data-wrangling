@@ -32,6 +32,19 @@ Only **seven canonical files** are kept in git and consumed by `compear-backend`
 
 CI job `prune-stale-data` runs `scripts/prune_stale_artifacts.py --from-git` after all store scrapes and before backend seeding.
 
+## Catalog health
+
+Run `python scripts/catalog_health.py` to write
+`reports/catalog-health.json`. The report includes per-store counts, scrape
+timestamp freshness, identity and barcode duplicates, invalid/suspicious
+prices, and checksum-valid barcode coverage. Thresholds produce `pass`,
+`warning`, or `error`; `--fail-on error` is the CI setting.
+
+The daily workflow runs the unit tests, fails on report errors, and uploads the
+JSON as the `catalog-health` artifact. No backend route integration is needed.
+To propagate cleaned barcode data outside that workflow, run `npm run seed`
+from the backend with `WRANGLING_PATH` pointing at this repository.
+
 ## Getting Started
 
 Clone the project 
