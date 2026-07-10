@@ -29203,7 +29203,7 @@
     "l": "https://web-fileserver.dirk.nl/artikelen%2F460758_2026-07-01_04-06-29-260_2891b0e8-11ff-47c2-adfd-da8a52872747.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "verspakket lasagne",
-    "ik": "ean:52872747",
+    "ik": "tok:verspakket|lasagne|1",
     "bn": "verspakket",
     "wg": 1
   },
@@ -39967,7 +39967,7 @@
     "l": "https://web-fileserver.dirk.nl/artikelen%2F465926_2026-07-09_04-05-36-220_786ec9db-b355-410d-85c6-3c76517297a1.png?width=190",
     "c": "Snacks",
     "cn": "napoleon drop kogels",
-    "ik": "ean:76517297",
+    "ik": "tok:napoleon|drop-kogels|225",
     "bn": "napoleon",
     "wg": 225
   },

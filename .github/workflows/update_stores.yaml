@@ -313,17 +313,16 @@ jobs:
             pip install -r requirements.txt
           fi
 
-      - name: Install Playwright browsers
+      # Coop scrapes the same PLUS PLP API via redirects and is unstable in CI.
+      # Keep PLUS as the authoritative catalog and maintain Coop via post-sanitize dedupe.
+      - name: Skip unstable Coop scrape (PLUS is authoritative)
         run: |
-          python -m playwright install
-          python -m playwright install-deps
-
-      # --- Step 4a: Run Python script to generate COOP coop_structured.json ---
-      - name: Generate NL Coop catalog
-        run: python scripts/run_store_pipeline.py --store coop
+          echo "Skipping Coop scrape; prune-stale-data will dedupe Coop against PLUS."
+          echo "Existing countries/nl/coop/coop_structured.json will be retained until dedupe runs."
 
       # --- Step 5: Push to Repo
       - name: Push files to repo
+        if: false
         env:
           GIT_USERNAME: "GitHub Actions Bot"
           GIT_EMAIL: "actions@github.com"

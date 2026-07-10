@@ -143,18 +143,6 @@
     "wg": 1000
   },
   {
-    "n": "Biologisch Plus Citroenen",
-    "o": "",
-    "p": "1.19",
-    "s": "2 ml",
-    "l": "https://cdn.syndy.com/media/products/79000000-4ae7-12e1-4f66-08dcf1ccd1c9/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHZPUgjc8czR8w.290x290.jpg",
-    "b": "79000000",
-    "cn": "plus biologisch citroenen",
-    "ik": "ean:79000000",
-    "bn": "plus",
-    "wg": 2
-  },
-  {
     "n": "Pitloze Rode Druiven",
     "o": "NU VOOR 1.99",
     "p": "2.75",
@@ -265,17 +253,6 @@
     "wg": 500
   },
   {
-    "n": "Plus Bramen",
-    "o": "",
-    "p": "5.99",
-    "s": "225 ml",
-    "l": "https://cdn.syndy.com/media/products/58040000-d275-de1d-b210-08dd72af0532/images/AW0HA3GItENDpZ-NPK0ohvI./AAAEUnxC3sajSQjdcq8FYw.290x290.jpg",
-    "cn": "plus bramen",
-    "ik": "tok:plus|bramen|225",
-    "bn": "plus",
-    "wg": 225
-  },
-  {
     "n": "Kersen",
     "o": "2 VOOR 5.49",
     "p": "3.99",
@@ -285,28 +262,6 @@
     "ik": "tok:kersen|unknown|500",
     "bn": "kersen",
     "wg": 500
-  },
-  {
-    "n": "Plus Blauwe Bessen",
-    "o": "",
-    "p": "4.49",
-    "s": "750 ml",
-    "l": "https://cdn.syndy.com/media/products/78000000-2b37-9ebf-58c3-08dd12cf4bbe/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE5N3gjdEs9OGA.290x290.jpg",
-    "cn": "plus bessen blauwe",
-    "ik": "tok:plus|bessen-blauwe|750",
-    "bn": "plus",
-    "wg": 750
-  },
-  {
-    "n": "Plus Bosvruchten",
-    "o": "",
-    "p": "3.99",
-    "s": "750 ml",
-    "l": "https://cdn.syndy.com/media/products/5b000000-e517-46c7-ca06-08dd3edff8ef/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAbptxNuoQfgjdPt-5hQ.290x290.jpg",
-    "cn": "plus bosvruchten",
-    "ik": "tok:plus|bosvruchten|750",
-    "bn": "plus",
-    "wg": 750
   },
   {
     "n": "Plus Bio Blauwe Bessen",
@@ -452,28 +407,6 @@
     "wg": 4
   },
   {
-    "n": "Eat Me Avocado",
-    "o": "",
-    "p": "1.50",
-    "s": "1 stuk",
-    "l": "https://cdn.syndy.com/media/products/39250000-ff41-0003-1aa8-08d38bafc2d8/images/AW0HA3GItENDpZ-NPK0ohvI./AAATWif-AwBmDQjaoqkl3g.290x290.jpg",
-    "cn": "eat avocado me",
-    "ik": "tok:eat|avocado-me|1",
-    "bn": "eat",
-    "wg": 1
-  },
-  {
-    "n": "Eat Me Mango",
-    "o": "",
-    "p": "1.99",
-    "s": "1 stuk",
-    "l": "https://cdn.syndy.com/media/products/b3420000-ffdf-0003-5b25-08d5d520895e/images/AW0HA3GItENDpZ-NPK0ohvI./AAApXCf-AwArcAjWmKijpA.290x290.jpg",
-    "cn": "eat mango me",
-    "ik": "tok:eat|mango-me|1",
-    "bn": "eat",
-    "wg": 1
-  },
-  {
     "n": "Bio Ananas",
     "o": "",
     "p": "2.39",
@@ -494,17 +427,6 @@
     "ik": "tok:eat|cayenne-me-peper|2",
     "bn": "eat",
     "wg": 2
-  },
-  {
-    "n": "Eat Me Passievrucht",
-    "o": "",
-    "p": "2.99",
-    "s": "4 ml",
-    "l": "https://cdn.syndy.com/media/products/58100000-3a25-000d-6df8-08dc57ee3f54/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAcvhQD8rt-AjcacFF_Q.290x290.jpg",
-    "cn": "eat me passievrucht",
-    "ik": "tok:eat|me-passievrucht|4",
-    "bn": "eat",
-    "wg": 4
   },
   {
     "n": "Pruimen",
@@ -595,17 +517,6 @@
     "wg": 500
   },
   {
-    "n": "Plus Wilde Perziken",
-    "o": "2 VOOR 5.49",
-    "p": "3.99",
-    "s": "750 ml",
-    "l": "",
-    "cn": "plus perziken wilde",
-    "ik": "tok:plus|perziken-wilde|750",
-    "bn": "plus",
-    "wg": 750
-  },
-  {
     "n": "Dadels Zonder Pit",
     "o": "",
     "p": "1.89",
@@ -639,17 +550,6 @@
     "wg": 250
   },
   {
-    "n": "Plus Krenten",
-    "o": "",
-    "p": "1.99",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/2c170000-3a25-000d-af76-08db716db6b8/images/AW0HA3GItENDpZ-NPK0ohvI./AAwECCQ6DQB6lwjb3FaMqQ.290x290.jpg",
-    "cn": "plus krenten",
-    "ik": "tok:plus|krenten|250",
-    "bn": "plus",
-    "wg": 250
-  },
-  {
     "n": "Tutti Frutti",
     "o": "",
     "p": "2.99",
@@ -669,28 +569,6 @@
     "cn": "vijgen",
     "ik": "tok:vijgen|unknown|250",
     "bn": "vijgen",
-    "wg": 250
-  },
-  {
-    "n": "Smaakt Sultanarozijnen Bio",
-    "o": "",
-    "p": "8.70",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/3ef90000-ff41-0003-b96d-08d3af350675/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXNEYL-Ih4Ajc4dZfBA.290x290.jpg",
-    "cn": "smaakt bio sultanarozijnen",
-    "ik": "tok:smaakt|bio-sultanarozijnen|500",
-    "bn": "smaakt",
-    "wg": 500
-  },
-  {
-    "n": "Smaakt Dadels Bio",
-    "o": "",
-    "p": "3.35",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/60870120-571c-4d87-84d8-fd9f4540171e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWo5b2ra71gjc3R80Gw.290x290.jpg",
-    "cn": "smaakt bio dadels",
-    "ik": "tok:smaakt|bio-dadels|250",
-    "bn": "smaakt",
     "wg": 250
   },
   {
@@ -738,84 +616,6 @@
     "wg": 325
   },
   {
-    "n": "Plus Verse Watermeloen Blokjes",
-    "o": "2 VOOR 5.00",
-    "p": "3.50",
-    "s": "325 ml",
-    "l": "https://cdn.syndy.com/media/products/80120c00-3a2a-000d-c7d4-08dc3c7888eb/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAd4eCzlpAhQjcdPYcig.290x290.jpg",
-    "cn": "plus blokjes verse watermeloen",
-    "ik": "tok:plus|blokjes-verse-watermeloen|325",
-    "bn": "plus",
-    "wg": 325
-  },
-  {
-    "n": "Plus Verse Ananas Blokjes",
-    "o": "2 VOOR 5.00",
-    "p": "3.50",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/80120100-3a2a-000d-0318-08dc3c7888e7/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdyP8JCrFaAjckGFsjw.290x290.jpg",
-    "b": "80120100",
-    "cn": "plus ananas blokjes verse",
-    "ik": "ean:80120100",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
-    "n": "Plus Verse Mango Blokjes",
-    "o": "2 VOOR 5.00",
-    "p": "3.50",
-    "s": "240 ml",
-    "l": "https://cdn.syndy.com/media/products/80120200-3a2a-000d-eedf-08dc3c7888f2/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdyP8JCp5sgjckGFswQ.290x290.jpg",
-    "cn": "plus blokjes mango verse",
-    "ik": "tok:plus|blokjes-mango-verse|240",
-    "bn": "plus",
-    "wg": 240
-  },
-  {
-    "n": "Plus Verse Fruitsalade Ananas Druif",
-    "o": "2 VOOR 5.00",
-    "p": "3.50",
-    "s": "275 ml",
-    "l": "https://cdn.syndy.com/media/products/80120000-3a2a-000d-720a-08dc3c7887d2/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdyP8JCoh7QjckGFsSg.290x290.jpg",
-    "cn": "plus ananas druif fruitsalade verse",
-    "ik": "tok:plus|ananas-druif-fruitsalade-verse|275",
-    "bn": "plus",
-    "wg": 275
-  },
-  {
-    "n": "Plus Fruitpunch",
-    "o": "",
-    "p": "4.99",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/59000000-dd78-1aa6-5a0f-08dd39532baa/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdyKZs1Yy-wjdOVP-SQ.290x290.jpg",
-    "cn": "plus fruitpunch",
-    "ik": "tok:plus|fruitpunch|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
-    "n": "Plus Verse Ananas Mango Sticks",
-    "o": "2 VOOR 5.00",
-    "p": "3.50",
-    "s": "240 ml",
-    "l": "https://cdn.syndy.com/media/products/80120d00-3a2a-000d-2b82-08dc3c7888cf/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdyP8JCrCwwjckGFscw.290x290.jpg",
-    "cn": "plus ananas mango sticks verse",
-    "ik": "tok:plus|ananas-mango-sticks-verse|240",
-    "bn": "plus",
-    "wg": 240
-  },
-  {
-    "n": "Plus Verse Granaatappelpitjes",
-    "o": "2 VOOR 5.00",
-    "p": "3.50",
-    "s": "185 ml",
-    "l": "https://cdn.syndy.com/media/products/80120000-3a2a-000d-4d0c-08dc3c788952/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdyP8JCooDwjckGFtNQ.290x290.jpg",
-    "cn": "plus granaatappelpitjes verse",
-    "ik": "tok:plus|granaatappelpitjes-verse|185",
-    "bn": "plus",
-    "wg": 185
-  },
-  {
     "n": "Meloenbowl",
     "o": "",
     "p": "4.99",
@@ -825,17 +625,6 @@
     "ik": "tok:meloenbowl|unknown|500",
     "bn": "meloenbowl",
     "wg": 500
-  },
-  {
-    "n": "Zespri kiwi's Gold",
-    "o": "",
-    "p": "8.58",
-    "s": "1 l",
-    "l": "https://cdn.syndy.com/media/products/39250000-ff41-0003-0228-08d38df12d7b/images/AW0HA3GItENDpZ-NPK0ohvI./AABKcyf-AwCOdgjZMIwbBg.290x290.jpg",
-    "cn": "zespri gold kiwi",
-    "ik": "tok:zespri|gold-kiwi|1000",
-    "bn": "zespri",
-    "wg": 1000
   },
   {
     "n": "Kiwi Groen",
@@ -915,17 +704,6 @@
     "wg": 2
   },
   {
-    "n": "Plus Doperwten Zeer Fijn",
-    "o": "",
-    "p": "0.79",
-    "s": "180 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0000-bd8b-6045-63c2-08dcfcdcba7f/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAbptxNurD_wjdP6iNfg.290x290.jpg",
-    "cn": "plus doperwten fijn zeer",
-    "ik": "tok:plus|doperwten-fijn-zeer|180",
-    "bn": "plus",
-    "wg": 180
-  },
-  {
     "n": "Plus Doperwten Wortelen Extra Fijn",
     "o": "",
     "p": "0.69",
@@ -933,17 +711,6 @@
     "l": "https://cdn.syndy.com/media/products/9c0f0100-bd8b-6045-288b-08dcfcdcba84/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAbptxNuq2VwjdP6h-Rw.290x290.jpg",
     "cn": "plus doperwten extra fijn wortelen",
     "ik": "tok:plus|doperwten-extra-fijn-wortelen|180",
-    "bn": "plus",
-    "wg": 180
-  },
-  {
-    "n": "Plus Sperziebonen Gebroken",
-    "o": "",
-    "p": "0.69",
-    "s": "180 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0200-bd8b-6045-764a-08dcfcdcbab1/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAbptxNupg3AjdP6ig1A.290x290.jpg",
-    "cn": "plus gebroken sperziebonen",
-    "ik": "tok:plus|gebroken-sperziebonen|180",
     "bn": "plus",
     "wg": 180
   },
@@ -1014,17 +781,6 @@
     "wg": 250
   },
   {
-    "n": "Plus Romatomaten",
-    "o": "",
-    "p": "2.75",
-    "s": "750 ml",
-    "l": "https://cdn.syndy.com/media/products/52040000-708c-9ac2-bf0b-08dd7b4b6e4f/images/AW0HA3GItENDpZ-NPK0ohvI./AAAEaNthcjJGlwjde0tulw.290x290.jpg",
-    "cn": "plus romatomaten",
-    "ik": "tok:plus|romatomaten|750",
-    "bn": "plus",
-    "wg": 750
-  },
-  {
     "n": "Snoeptomaten Shaker",
     "o": "",
     "p": "2.19",
@@ -1080,17 +836,6 @@
     "wg": 250
   },
   {
-    "n": "Plus Snoeptomaten",
-    "o": "",
-    "p": "5.99",
-    "s": "1 l",
-    "l": "https://cdn.syndy.com/media/products/841b0c00-bd8b-6045-a73a-08dcf760cfb3/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWQeVO0IwNQjdCjAOJg.290x290.jpg",
-    "cn": "plus snoeptomaten",
-    "ik": "tok:plus|snoeptomaten|1000",
-    "bn": "plus",
-    "wg": 1000
-  },
-  {
     "n": "Snacktomaten Mix",
     "o": "2 VOOR 4.99",
     "p": "3.75",
@@ -1135,17 +880,6 @@
     "wg": 300
   },
   {
-    "n": "Plus Cocktailtrostomaten",
-    "o": "",
-    "p": "5.99",
-    "s": "900 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0100-4883-0022-9fe0-08dcdbeb63ea/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXNEYL-KWQQjc4VAxxA.290x290.jpg",
-    "cn": "plus cocktailtrostomaten",
-    "ik": "tok:plus|cocktailtrostomaten|900",
-    "bn": "plus",
-    "wg": 900
-  },
-  {
     "n": "Fresh & Easy Gourmetgroentenpakket",
     "o": "",
     "p": "3.49",
@@ -1179,39 +913,6 @@
     "wg": 340
   },
   {
-    "n": "Plus Broccoliroosjes",
-    "o": "",
-    "p": "2.49",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0200-4883-0022-12b4-08dcd6526563/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkoRrgjc1-qp4w.290x290.jpg",
-    "cn": "plus broccoliroosjes",
-    "ik": "tok:plus|broccoliroosjes|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
-    "n": "Plus Spruiten",
-    "o": "",
-    "p": "2.59",
-    "s": "350 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0200-4883-0022-117a-08dcd6526012/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkpeFgjc1-qzVA.290x290.jpg",
-    "cn": "plus spruiten",
-    "ik": "tok:plus|spruiten|350",
-    "bn": "plus",
-    "wg": 350
-  },
-  {
-    "n": "Plus Bloemkoolroosjes",
-    "o": "",
-    "p": "2.49",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0000-4883-0022-9340-08dcd6525ed2/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81Oko2UAjc1-qokA.290x290.jpg",
-    "cn": "plus bloemkoolroosjes",
-    "ik": "tok:plus|bloemkoolroosjes|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
     "n": "Paksoi",
     "o": "",
     "p": "1.79",
@@ -1221,17 +922,6 @@
     "ik": "tok:paksoi|unknown|1",
     "bn": "paksoi",
     "wg": 1
-  },
-  {
-    "n": "Plus Bloemkool Broccoli",
-    "o": "",
-    "p": "2.99",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0000-4883-0022-a4cb-08dcd65270a5/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkrOBAjc1-rDAg.290x290.jpg",
-    "cn": "plus bloemkool broccoli",
-    "ik": "tok:plus|bloemkool-broccoli|400",
-    "bn": "plus",
-    "wg": 400
   },
   {
     "n": "Bio+ Rode Kool Verpakt",
@@ -1256,28 +946,6 @@
     "wg": 520
   },
   {
-    "n": "Plus Groentemix Broccoli Wortel Bloemkool",
-    "o": "",
-    "p": "2.89",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0e00-4883-0022-30c9-08dcd6526b4e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81Oko94Ajc1-q1Ig.290x290.jpg",
-    "cn": "plus bloemkool broccoli groentemix wortel",
-    "ik": "tok:plus|bloemkool-broccoli-groentemix-wortel|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
-    "n": "Biologisch Plus Bloemkool",
-    "o": "",
-    "p": "2.99",
-    "s": "1 stuk",
-    "l": "https://cdn.syndy.com/media/products/5a000000-68e8-7a87-ed8c-08dc8ecc4c1e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdyP8JCppNAjcjsxMlw.290x290.jpg",
-    "cn": "plus biologisch bloemkool",
-    "ik": "tok:plus|biologisch-bloemkool|1",
-    "bn": "plus",
-    "wg": 1
-  },
-  {
     "n": "Bio+ Zuurkool Met Kruiden",
     "o": "",
     "p": "1.09",
@@ -1298,17 +966,6 @@
     "ik": "tok:biologische|naturel-zuurkool|520",
     "bn": "biologische",
     "wg": 520
-  },
-  {
-    "n": "Bonduelle Broccoliroosjes",
-    "o": "",
-    "p": "2.47",
-    "s": "300 ml",
-    "l": "https://cdn.syndy.com/media/products/dad2cadf-8fd2-4d94-a514-d090796af3ce/images/AW0HA3GItENDpZ-NPK0ohvI./AADFISf-AwBulgjadGi51Q.290x290.jpg",
-    "cn": "bonduelle broccoliroosjes",
-    "ik": "tok:bonduelle|broccoliroosjes|300",
-    "bn": "bonduelle",
-    "wg": 300
   },
   {
     "n": "Bonduelle Spruitjes",
@@ -1375,39 +1032,6 @@
     "ik": "tok:iglo|cr-la-me-spinazie|500",
     "bn": "iglo",
     "wg": 500
-  },
-  {
-    "n": "Iglo Spinazie Fijn Gehakt",
-    "o": "",
-    "p": "1.73",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/7b3b0000-ff27-0003-3518-08d86446dc9c/images/AW0HA3GItENDpZ-NPK0ohvI./AAATWif-AwD7WQja2BiQmg.290x290.jpg",
-    "cn": "iglo fijn gehakt spinazie",
-    "ik": "tok:iglo|fijn-gehakt-spinazie|500",
-    "bn": "iglo",
-    "wg": 500
-  },
-  {
-    "n": "Iglo Spinazie Met Boursin",
-    "o": "",
-    "p": "3.45",
-    "s": "450 ml",
-    "l": "https://cdn.syndy.com/media/products/10577f7c-003c-4d4f-817e-86efdfbc831e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWBtymlKruQjcu1T2Dg.290x290.jpg",
-    "cn": "iglo boursin spinazie",
-    "ik": "tok:iglo|boursin-spinazie|450",
-    "bn": "iglo",
-    "wg": 450
-  },
-  {
-    "n": "Bio+ Gesneden Bladspinazie",
-    "o": "",
-    "p": "1.25",
-    "s": "450 ml",
-    "l": "https://cdn.syndy.com/media/products/41db0000-ff8a-0003-79f7-08d6283d8a85/images/AW0HA3GItENDpZ-NPK0ohvI./AADPRCf-AwBXtwjZ-BIRGg.290x290.jpg",
-    "cn": "bio bladspinazie gesneden",
-    "ik": "tok:bio|bladspinazie-gesneden|450",
-    "bn": "bio",
-    "wg": 450
   },
   {
     "n": "Hak Gesneden Bladspinazie",
@@ -1619,17 +1243,6 @@
     "wg": 250
   },
   {
-    "n": "Calvé Salade Mix Tuinkruiden",
-    "o": "",
-    "p": "1.73",
-    "s": "24 ml",
-    "l": "https://cdn.syndy.com/media/products/33860000-ff41-0003-71ab-08d5882e9ff9/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAcvhQD8qoMwjcaNK5GQ.290x290.jpg",
-    "cn": "calv calv mix salade tuinkruiden",
-    "ik": "tok:calv|calv-mix-salade-tuinkruiden|24",
-    "bn": "calv",
-    "wg": 24
-  },
-  {
     "n": "Bertolli Modena Balsamico Azijn",
     "o": "",
     "p": "4.50",
@@ -1729,50 +1342,6 @@
     "wg": 1
   },
   {
-    "n": "Plus Snoepkomkommer",
-    "o": "3 VOOR 5.00",
-    "p": "2.29",
-    "s": "230 ml",
-    "l": "https://cdn.syndy.com/media/products/28180000-3a45-000d-97d9-08dc05495a72/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWBGgQVqchAjcpncHdQ.290x290.jpg",
-    "cn": "plus snoepkomkommer",
-    "ik": "tok:plus|snoepkomkommer|230",
-    "bn": "plus",
-    "wg": 230
-  },
-  {
-    "n": "Hak Rode Kool Met Stukjes Appel",
-    "o": "",
-    "p": "3.14",
-    "s": "700 ml",
-    "l": "https://cdn.syndy.com/media/products/4e750000-ff27-0003-bb7d-08d7cf2ed1e7/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WJWYQjdNFiFuw.290x290.jpg",
-    "cn": "hak appel kool rode stukjes",
-    "ik": "tok:hak|appel-kool-rode-stukjes|700",
-    "bn": "hak",
-    "wg": 700
-  },
-  {
-    "n": "Iglo Rode Kool Met Appeltjes",
-    "o": "",
-    "p": "3.31",
-    "s": "750 ml",
-    "l": "https://cdn.syndy.com/media/products/bd14fcf3-24d2-461f-946e-81548bdd90b7/images/AW0HA3GItENDpZ-NPK0ohvI./AABKcyf-AwAbXwjZMIwqcg.290x290.jpg",
-    "cn": "iglo appeltjes kool rode",
-    "ik": "tok:iglo|appeltjes-kool-rode|750",
-    "bn": "iglo",
-    "wg": 750
-  },
-  {
-    "n": "Hak Rode Kool",
-    "o": "",
-    "p": "2.19",
-    "s": "355 ml",
-    "l": "https://cdn.syndy.com/media/products/4e750000-ff27-0003-0051-08d7cf2ed0a0/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WINQwjdNFiKug.290x290.jpg",
-    "cn": "hak kool rode",
-    "ik": "tok:hak|kool-rode|355",
-    "bn": "hak",
-    "wg": 355
-  },
-  {
     "n": "Biologisch Plus Courgette",
     "o": "",
     "p": "1.09",
@@ -1793,61 +1362,6 @@
     "ik": "tok:rode|appel-kool|340",
     "bn": "rode",
     "wg": 340
-  },
-  {
-    "n": "Hak Rode Kool Met Stukjes Peer",
-    "o": "",
-    "p": "2.09",
-    "s": "355 ml",
-    "l": "https://cdn.syndy.com/media/products/4e750000-ff27-0003-a7d1-08d7f66ea59d/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WIUiAjdNFiFfg.290x290.jpg",
-    "cn": "hak kool peer rode stukjes",
-    "ik": "tok:hak|kool-peer-rode-stukjes|355",
-    "bn": "hak",
-    "wg": 355
-  },
-  {
-    "n": "Hak Rode Kool Met Stukjes Peer",
-    "o": "",
-    "p": "3.56",
-    "s": "700 ml",
-    "l": "https://cdn.syndy.com/media/products/4e750000-ff27-0003-3097-08d7f66ea5d0/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WKZCQjdNFiHdg.290x290.jpg",
-    "cn": "hak kool peer rode stukjes",
-    "ik": "tok:hak|kool-peer-rode-stukjes|700",
-    "bn": "hak",
-    "wg": 700
-  },
-  {
-    "n": "Hak Rode Kool 0% Met Stukjes Appel",
-    "o": "",
-    "p": "2.61",
-    "s": "350 ml",
-    "l": "https://cdn.syndy.com/media/products/4e750000-ff27-0003-daec-08d7cf2ed02f/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WLtRQjdNFiD6w.290x290.jpg",
-    "cn": "hak appel kool rode stukjes",
-    "ik": "tok:hak|appel-kool-rode-stukjes|350",
-    "bn": "hak",
-    "wg": 350
-  },
-  {
-    "n": "Hak Wijnzuurkool",
-    "o": "",
-    "p": "1.94",
-    "s": "340 ml",
-    "l": "https://cdn.syndy.com/media/products/b5ed6896-b980-4fdb-ba0d-dc7e601266bf/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WLCrgjdNFiK6Q.290x290.jpg",
-    "cn": "hak wijnzuurkool",
-    "ik": "tok:hak|wijnzuurkool|340",
-    "bn": "hak",
-    "wg": 340
-  },
-  {
-    "n": "Plus Snackworteltjes",
-    "o": "",
-    "p": "1.61",
-    "s": "350 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0300-4883-0022-87e1-08dcd65265d1/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkqmUAjc1-qu3w.290x290.jpg",
-    "cn": "plus snackworteltjes",
-    "ik": "tok:plus|snackworteltjes|350",
-    "bn": "plus",
-    "wg": 350
   },
   {
     "n": "Bospeen",
@@ -1883,17 +1397,6 @@
     "wg": 1000
   },
   {
-    "n": "Plus Worteltjes Geschrapt",
-    "o": "",
-    "p": "1.59",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0100-4883-0022-38a3-08dcd6526019/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkrusQjc1-qrTg.290x290.jpg",
-    "cn": "plus geschrapt worteltjes",
-    "ik": "tok:plus|geschrapt-worteltjes|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
     "n": "Waspeen Biologisch",
     "o": "",
     "p": "1.09",
@@ -1903,17 +1406,6 @@
     "ik": "tok:waspeen|biologisch|500",
     "bn": "waspeen",
     "wg": 500
-  },
-  {
-    "n": "Biologisch Plus Gember",
-    "o": "",
-    "p": "2.19",
-    "s": "1 stuk",
-    "l": "https://cdn.syndy.com/media/products/734a0000-ff27-0003-a802-08d97cddc87a/images/AW0HA3GItENDpZ-NPK0ohvI./AABKcyf-AwCqdAjZoF88DA.290x290.jpg",
-    "cn": "plus biologisch gember",
-    "ik": "tok:plus|biologisch-gember|1",
-    "bn": "plus",
-    "wg": 1
   },
   {
     "n": "Gember Los",
@@ -1936,17 +1428,6 @@
     "ik": "tok:radijs|flow|300",
     "bn": "radijs",
     "wg": 300
-  },
-  {
-    "n": "Biologisch Plus Paprika Rood",
-    "o": "",
-    "p": "1.59",
-    "s": "1 stuk",
-    "l": "https://cdn.syndy.com/media/products/98080100-3a28-000d-f43e-08db86e59dcd/images/AW0HA3GItENDpZ-NPK0ohvI./AAC-DJC9RWAJZAjbjagLjg.290x290.jpg",
-    "cn": "plus biologisch paprika rood",
-    "ik": "tok:plus|biologisch-paprika-rood|1",
-    "bn": "plus",
-    "wg": 1
   },
   {
     "n": "Fles Pompoen",
@@ -1993,17 +1474,6 @@
     "wg": 340
   },
   {
-    "n": "Hak Rode Bieten",
-    "o": "",
-    "p": "2.19",
-    "s": "180 ml",
-    "l": "https://cdn.syndy.com/media/products/01897ac0-23fe-40d5-8b34-d830575ef1cc/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WLZYwjdNFiFJg.290x290.jpg",
-    "cn": "hak bieten rode",
-    "ik": "tok:hak|bieten-rode|180",
-    "bn": "hak",
-    "wg": 180
-  },
-  {
     "n": "Biologisch Plus Pastinaken",
     "o": "",
     "p": "2.09",
@@ -2013,17 +1483,6 @@
     "ik": "tok:plus|biologisch-pastinaken|500",
     "bn": "plus",
     "wg": 500
-  },
-  {
-    "n": "Hak Rode Bieten Sticks",
-    "o": "",
-    "p": "2.61",
-    "s": "355 ml",
-    "l": "https://cdn.syndy.com/media/products/205e4ea2-0c22-487e-a0c6-f31a5749b5ea/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WI2IgjdNFiH1Q.290x290.jpg",
-    "cn": "hak bieten rode sticks",
-    "ik": "tok:hak|bieten-rode-sticks|355",
-    "bn": "hak",
-    "wg": 355
   },
   {
     "n": "Hak Rode Bieten Schijven Zoetzuur",
@@ -2125,17 +1584,6 @@
     "wg": 680
   },
   {
-    "n": "Plus Bruine Bonen",
-    "o": "",
-    "p": "1.09",
-    "s": "660 ml",
-    "l": "https://cdn.syndy.com/media/products/4c080000-3a28-000d-5b6c-08db81532648/images/AW0HA3GItENDpZ-NPK0ohvI./AAwY_CQ6DQDTNAjb32qi4A.290x290.jpg",
-    "cn": "plus bonen bruine",
-    "ik": "tok:plus|bonen-bruine|660",
-    "bn": "plus",
-    "wg": 660
-  },
-  {
     "n": "Haricoverts",
     "o": "",
     "p": "1.19",
@@ -2145,28 +1593,6 @@
     "ik": "tok:haricoverts|unknown|250",
     "bn": "haricoverts",
     "wg": 250
-  },
-  {
-    "n": "Plus Doperwten",
-    "o": "",
-    "p": "1.21",
-    "s": "340 ml",
-    "l": "https://cdn.syndy.com/media/products/4c080c00-3a28-000d-eda9-08db8153173a/images/AW0HA3GItENDpZ-NPK0ohvI./AAAbMCQ6DQA0ygjblDdX3A.290x290.jpg",
-    "cn": "plus doperwten",
-    "ik": "tok:plus|doperwten|340",
-    "bn": "plus",
-    "wg": 340
-  },
-  {
-    "n": "Hak Bruine Bonen",
-    "o": "",
-    "p": "3.24",
-    "s": "720 ml",
-    "l": "https://cdn.syndy.com/media/products/5ffd824b-2032-4248-836f-3e194ffd0e5e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WJ1xAjdNFiBTA.290x290.jpg",
-    "cn": "hak bonen bruine",
-    "ik": "tok:hak|bonen-bruine|720",
-    "bn": "hak",
-    "wg": 720
   },
   {
     "n": "Sperziebonen Heel",
@@ -2189,17 +1615,6 @@
     "ik": "tok:bruine|bonen|800",
     "bn": "bruine",
     "wg": 800
-  },
-  {
-    "n": "Hak Doperwtjes Met Worteltjes",
-    "o": "",
-    "p": "3.14",
-    "s": "680 ml",
-    "l": "https://cdn.syndy.com/media/products/143ffa5c-5837-42d7-9137-5ccdfe4f531d/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WItFQjdNFiCYw.290x290.jpg",
-    "cn": "hak doperwtjes worteltjes",
-    "ik": "tok:hak|doperwtjes-worteltjes|680",
-    "bn": "hak",
-    "wg": 680
   },
   {
     "n": "Hak Bruine Bonen Uit Zeeland",
@@ -2235,50 +1650,6 @@
     "wg": 400
   },
   {
-    "n": "Plus Rode Kidneybonen",
-    "o": "",
-    "p": "0.65",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/4c080300-3a28-000d-4c55-08db815312ad/images/AW0HA3GItENDpZ-NPK0ohvI./AAEECCQ6DQD7KAjb3qOk4A.290x290.jpg",
-    "cn": "plus kidneybonen rode",
-    "ik": "tok:plus|kidneybonen-rode|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
-    "n": "Hak Witte Bonen In Tomatensaus",
-    "o": "",
-    "p": "3.45",
-    "s": "720 ml",
-    "l": "https://cdn.syndy.com/media/products/3d100000-ff41-0003-1a20-08d380e8cbcc/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WIdtAjdNFiFDw.290x290.jpg",
-    "cn": "hak bonen in tomatensaus witte",
-    "ik": "tok:hak|bonen-in-tomatensaus-witte|720",
-    "bn": "hak",
-    "wg": 720
-  },
-  {
-    "n": "Plus Witte Bonen",
-    "o": "",
-    "p": "1.12",
-    "s": "360 ml",
-    "l": "https://cdn.syndy.com/media/products/52040000-708c-9ac2-3200-08dd75d8a247/images/AW0HA3GItENDpZ-NPK0ohvI./AAAEUGNUAC7CHwjdddikXQ.290x290.jpg",
-    "cn": "plus bonen witte",
-    "ik": "tok:plus|bonen-witte|360",
-    "bn": "plus",
-    "wg": 360
-  },
-  {
-    "n": "Hak Doperwtjes",
-    "o": "",
-    "p": "2.09",
-    "s": "190 ml",
-    "l": "https://cdn.syndy.com/media/products/499c9dcc-ceed-4e8c-9de0-6473ea0ac13c/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WLOnQjdNFiCMg.290x290.jpg",
-    "cn": "hak doperwtjes",
-    "ik": "tok:hak|doperwtjes|190",
-    "bn": "hak",
-    "wg": 190
-  },
-  {
     "n": "Bonduelle Franse Sperzieboontjes Zeer Fijn Gerangschikt",
     "o": "",
     "p": "3.45",
@@ -2299,61 +1670,6 @@
     "ik": "tok:maggi|hollands-jachtsaus-pannetje-sperziebonen|54",
     "bn": "maggi",
     "wg": 54
-  },
-  {
-    "n": "Bonduelle Franse Sperzieboontjes - Zeer Fijn",
-    "o": "",
-    "p": "2.51",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/3c66e5a8-be69-421e-80b8-60f7ee458ee9/images/AW0HA3GItENDpZ-NPK0ohvI./AAEYlCQ6DQAcyQjbwUXRTQ.290x290.jpg",
-    "cn": "bonduelle fijn franse sperzieboontjes zeer",
-    "ik": "tok:bonduelle|fijn-franse-sperzieboontjes-zeer|400",
-    "bn": "bonduelle",
-    "wg": 400
-  },
-  {
-    "n": "Plus Kikkererwten",
-    "o": "",
-    "p": "0.99",
-    "s": "410 ml",
-    "l": "https://cdn.syndy.com/media/products/081d0000-bd97-6045-9644-08db81531434/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAcoP_gKa0LwjcPduC6g.290x290.png",
-    "cn": "plus kikkererwten",
-    "ik": "tok:plus|kikkererwten|410",
-    "bn": "plus",
-    "wg": 410
-  },
-  {
-    "n": "Hak Sperziebonen",
-    "o": "",
-    "p": "2.89",
-    "s": "675 ml",
-    "l": "https://cdn.syndy.com/media/products/cd91ff52-37c6-4f4f-a505-7597f8f25655/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WLo2wjdNFiEmA.290x290.jpg",
-    "cn": "hak sperziebonen",
-    "ik": "tok:hak|sperziebonen|675",
-    "bn": "hak",
-    "wg": 675
-  },
-  {
-    "n": "Plus Sperziebonen Met Witte Bonen",
-    "o": "",
-    "p": "1.89",
-    "s": "680 ml",
-    "l": "https://cdn.syndy.com/media/products/081d0000-bd97-6045-2aac-08db81531a8f/images/AW0HA3GItENDpZ-NPK0ohvI./AAwECCQ6DQCsVgjb3qOSLg.290x290.jpg",
-    "cn": "plus bonen sperziebonen witte",
-    "ik": "tok:plus|bonen-sperziebonen-witte|680",
-    "bn": "plus",
-    "wg": 680
-  },
-  {
-    "n": "Hak Witte Bonen",
-    "o": "",
-    "p": "3.45",
-    "s": "720 ml",
-    "l": "https://cdn.syndy.com/media/products/3d100000-ff41-0003-ff16-08d380e8cb96/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WKevQjdNFiBgQ.290x290.jpg",
-    "cn": "hak bonen witte",
-    "ik": "tok:hak|bonen-witte|720",
-    "bn": "hak",
-    "wg": 720
   },
   {
     "n": "Maggi Sperziebonen Saté Schotel",
@@ -2389,28 +1705,6 @@
     "wg": 400
   },
   {
-    "n": "Bonduelle Rode Kidneybonen",
-    "o": "",
-    "p": "1.94",
-    "s": "310 ml",
-    "l": "https://cdn.syndy.com/media/products/4f43ee89-7104-4765-823e-9c1ecb33cdab/images/AW0HA3GItENDpZ-NPK0ohvI./AA0EyCQ6DQACpwjbxK5Wxw.290x290.jpg",
-    "cn": "bonduelle kidneybonen rode",
-    "ik": "tok:bonduelle|kidneybonen-rode|310",
-    "bn": "bonduelle",
-    "wg": 310
-  },
-  {
-    "n": "Bonduelle Jonge Velderwtjes",
-    "o": "",
-    "p": "2.30",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/7ddc2b87-61d3-4d3d-b08a-5c7cb303b165/images/AW0HA3GItENDpZ-NPK0ohvI./AADFISf-AwDF1AjadGjMyw.290x290.jpg",
-    "cn": "bonduelle jonge velderwtjes",
-    "ik": "tok:bonduelle|jonge-velderwtjes|400",
-    "bn": "bonduelle",
-    "wg": 400
-  },
-  {
     "n": "Plus Zwarte Bonen",
     "o": "",
     "p": "0.99",
@@ -2419,17 +1713,6 @@
     "cn": "plus bonen zwarte",
     "ik": "tok:plus|bonen-zwarte|400",
     "bn": "plus",
-    "wg": 400
-  },
-  {
-    "n": "Bio+ Rode Kidneybonen",
-    "o": "",
-    "p": "1.10",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/39120000-ff27-0003-295c-08d8e861905f/images/AW0HA3GItENDpZ-NPK0ohvI./AAASOSf-AwAlKAjY7cEVxg.290x290.jpg",
-    "cn": "bio kidneybonen rode",
-    "ik": "tok:bio|kidneybonen-rode|400",
-    "bn": "bio",
     "wg": 400
   },
   {
@@ -2444,17 +1727,6 @@
     "wg": 160
   },
   {
-    "n": "Heinz Witte Bonen In Tomatensaus",
-    "o": "",
-    "p": "1.25",
-    "s": "415 ml",
-    "l": "https://cdn.syndy.com/media/products/3d100000-ff41-0003-d6eb-08d380e8e01e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWBGgQVrtnAjcph2tZQ.290x290.jpg",
-    "cn": "heinz bonen in tomatensaus witte",
-    "ik": "tok:heinz|bonen-in-tomatensaus-witte|415",
-    "bn": "heinz",
-    "wg": 415
-  },
-  {
     "n": "Hak Hollandse Bruine Bonen",
     "o": "",
     "p": "3.14",
@@ -2464,17 +1736,6 @@
     "ik": "tok:hak|bonen-bruine-hollandse|500",
     "bn": "hak",
     "wg": 500
-  },
-  {
-    "n": "Bonduelle Kikkererwten",
-    "o": "",
-    "p": "2.09",
-    "s": "310 ml",
-    "l": "https://cdn.syndy.com/media/products/2f746bff-f0c1-4313-884d-a6de285cfd59/images/AW0HA3GItENDpZ-NPK0ohvI./AADFISf-AwB2RQjadGjJ0w.290x290.jpg",
-    "cn": "bonduelle kikkererwten",
-    "ik": "tok:bonduelle|kikkererwten|310",
-    "bn": "bonduelle",
-    "wg": 310
   },
   {
     "n": "Bonduelle Gebroken Sperzieboontjes Fijn",
@@ -2521,17 +1782,6 @@
     "wg": 300
   },
   {
-    "n": "Bio+ Witte Bonen In Tomatensaus",
-    "o": "",
-    "p": "1.29",
-    "s": "360 ml",
-    "l": "https://cdn.syndy.com/media/products/7f960000-ff76-0003-692a-08d664253e69/images/AW0HA3GItENDpZ-NPK0ohvI./AABbUCf-AwDi9QjYLfa7_g.290x290.jpg",
-    "cn": "bio bonen in tomatensaus witte",
-    "ik": "tok:bio|bonen-in-tomatensaus-witte|360",
-    "bn": "bio",
-    "wg": 360
-  },
-  {
     "n": "Bonduelle Bonenmix Met Crispy Maïs",
     "o": "",
     "p": "1.77",
@@ -2541,61 +1791,6 @@
     "ik": "tok:bonduelle|bonenmix-crispy-ma|160",
     "bn": "bonduelle",
     "wg": 160
-  },
-  {
-    "n": "Hak Veldertjes Jonge Kapucijners",
-    "o": "",
-    "p": "3.56",
-    "s": "685 ml",
-    "l": "https://cdn.syndy.com/media/products/ff9d942f-d44d-4e70-bd53-50b9d9bd1e40/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WIUKAjdNFiFCg.290x290.jpg",
-    "cn": "hak jonge kapucijners veldertjes",
-    "ik": "tok:hak|jonge-kapucijners-veldertjes|685",
-    "bn": "hak",
-    "wg": 685
-  },
-  {
-    "n": "Bonduelle Zwarte Bonen",
-    "o": "",
-    "p": "1.67",
-    "s": "200 ml",
-    "l": "https://cdn.syndy.com/media/products/0d2f3f12-79a2-4bc2-b7f8-21957aae1819/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHYGDAjc7RqVxQ.290x290.jpg",
-    "cn": "bonduelle bonen zwarte",
-    "ik": "tok:bonduelle|bonen-zwarte|200",
-    "bn": "bonduelle",
-    "wg": 200
-  },
-  {
-    "n": "Bonduelle Snijboontjes",
-    "o": "",
-    "p": "2.19",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/a836f0fb-a072-47b2-ad5a-b2a9ec790cc9/images/AW0HA3GItENDpZ-NPK0ohvI./AADFISf-AwCzXAjadGi51A.290x290.jpg",
-    "cn": "bonduelle snijboontjes",
-    "ik": "tok:bonduelle|snijboontjes|400",
-    "bn": "bonduelle",
-    "wg": 400
-  },
-  {
-    "n": "Bonduelle Bruine Bonen",
-    "o": "",
-    "p": "1.21",
-    "s": "175 ml",
-    "l": "https://cdn.syndy.com/media/products/f1b7769a-9b86-4907-9c2b-8b1aa6be26d7/images/AW0HA3GItENDpZ-NPK0ohvI./AAAqqifq8HYNlQjaw8q5rw.290x290.jpg",
-    "cn": "bonduelle bonen bruine",
-    "ik": "tok:bonduelle|bonen-bruine|175",
-    "bn": "bonduelle",
-    "wg": 175
-  },
-  {
-    "n": "Bonduelle Doperwtjes Festini",
-    "o": "",
-    "p": "1.77",
-    "s": "200 ml",
-    "l": "https://cdn.syndy.com/media/products/730da605-2532-4856-9ffa-b24a52df0963/images/AW0HA3GItENDpZ-NPK0ohvI./AAAqqifq8HZ4ugjaw8pNSQ.290x290.jpg",
-    "cn": "bonduelle doperwtjes festini",
-    "ik": "tok:bonduelle|doperwtjes-festini|200",
-    "bn": "bonduelle",
-    "wg": 200
   },
   {
     "n": "Bio+ Zwarte Bonen Biologisch",
@@ -2618,39 +1813,6 @@
     "ik": "tok:servero|gebroken-sperziebonen|340",
     "bn": "servero",
     "wg": 340
-  },
-  {
-    "n": "Bonduelle Witte Bonen In Tomatensaus",
-    "o": "",
-    "p": "1.35",
-    "s": "200 ml",
-    "l": "https://cdn.syndy.com/media/products/f5e323e5-afeb-415f-a333-e8a328affc4d/images/AW0HA3GItENDpZ-NPK0ohvI./AAAqqifq8HYdRAjaw8l-nw.290x290.jpg",
-    "cn": "bonduelle bonen in tomatensaus witte",
-    "ik": "tok:bonduelle|bonen-in-tomatensaus-witte|200",
-    "bn": "bonduelle",
-    "wg": 200
-  },
-  {
-    "n": "Bonduelle Linzen Biologisch",
-    "o": "",
-    "p": "1.98",
-    "s": "160 ml",
-    "l": "https://cdn.syndy.com/media/products/25c30000-ff27-0003-5168-08d78d31f738/images/AW0HA3GItENDpZ-NPK0ohvI./AAALOyf-AwA2KQjalU1CnA.290x290.jpg",
-    "cn": "bonduelle biologisch linzen",
-    "ik": "tok:bonduelle|biologisch-linzen|160",
-    "bn": "bonduelle",
-    "wg": 160
-  },
-  {
-    "n": "Bonduelle Snijboontjes Met Witte Bonen",
-    "o": "",
-    "p": "1.31",
-    "s": "200 ml",
-    "l": "https://cdn.syndy.com/media/products/2aba2e8f-c67a-4ae5-8991-3ed6ac2a8638/images/AW0HA3GItENDpZ-NPK0ohvI./AAAqqifq8Hbj-wjaw8nxsA.290x290.jpg",
-    "cn": "bonduelle bonen snijboontjes witte",
-    "ik": "tok:bonduelle|bonen-snijboontjes-witte|200",
-    "bn": "bonduelle",
-    "wg": 200
   },
   {
     "n": "Bonduelle Kikkererwten Bio",
@@ -2708,17 +1870,6 @@
     "wg": 255
   },
   {
-    "n": "Bonduelle Rode Kidneybonen - 2 mini's",
-    "o": "",
-    "p": "2.51",
-    "s": "160 ml",
-    "l": "https://cdn.syndy.com/media/products/116a0000-ff41-0003-fa52-08d4bc935c49/images/AW0HA3GItENDpZ-NPK0ohvI./AAQEyCQ6DQA4NwjbxK5dQg.290x290.jpg",
-    "cn": "bonduelle kidneybonen mini rode",
-    "ik": "tok:bonduelle|kidneybonen-mini-rode|160",
-    "bn": "bonduelle",
-    "wg": 160
-  },
-  {
     "n": "Bonduelle Kikkererwten - Bio",
     "o": "",
     "p": "1.98",
@@ -2728,17 +1879,6 @@
     "ik": "tok:bonduelle|bio-kikkererwten|150",
     "bn": "bonduelle",
     "wg": 150
-  },
-  {
-    "n": "Hak Kikkererwten",
-    "o": "",
-    "p": "2.19",
-    "s": "225 ml",
-    "l": "https://cdn.syndy.com/media/products/63be9b58-0f9f-4e24-b172-ea5f2caa3fae/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WIH9gjdNFiC4g.290x290.jpg",
-    "cn": "hak kikkererwten",
-    "ik": "tok:hak|kikkererwten|225",
-    "bn": "hak",
-    "wg": 225
   },
   {
     "n": "Boon Kidneybonen In Chilisaus",
@@ -2770,17 +1910,6 @@
     "l": "https://cdn.syndy.com/media/products/f40c0300-3a47-000d-bea4-08db65e9cbc2/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWQeVO0K4HgjdDdddAQ.290x290.jpg",
     "cn": "servero kidneybonen",
     "ik": "tok:servero|kidneybonen|400",
-    "bn": "servero",
-    "wg": 400
-  },
-  {
-    "n": "Servero Witte Bonen",
-    "o": "2 + 1 GRATIS",
-    "p": "2.47",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/f0120000-3a39-000d-b65e-08db65e9cc0c/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWQeVO0ISSgjdDddc2A.290x290.jpg",
-    "cn": "servero bonen witte",
-    "ik": "tok:servero|bonen-witte|400",
     "bn": "servero",
     "wg": 400
   },
@@ -2851,17 +1980,6 @@
     "wg": 1
   },
   {
-    "n": "Plus Verspakket Courgettesoep",
-    "o": "",
-    "p": "4.99",
-    "s": "1 stuk",
-    "l": "https://cdn.syndy.com/media/products/25c30000-ff27-0003-f735-08d7bec2f523/images/AW0HA3GItENDpZ-NPK0ohvI./AADDJSf-AwBfHQjXvydpcA.290x290.jpg",
-    "cn": "plus courgettesoep verspakket",
-    "ik": "tok:plus|courgettesoep-verspakket|1",
-    "bn": "plus",
-    "wg": 1
-  },
-  {
     "n": "Coop Champignons Fijn 250G",
     "o": "",
     "p": "1.25",
@@ -2894,28 +2012,6 @@
     "ik": "tok:coop|champignons-gesneden-wit|250",
     "bn": "coop",
     "wg": 250
-  },
-  {
-    "n": "Neutraal Champignons Wit Voordeelverpakking",
-    "o": "",
-    "p": "1.99",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/78000000-3f35-669f-90e0-08dcec40ae42/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWYFFfxLhmgjc7ET4gg.290x290.jpg",
-    "cn": "neutraal champignons wit",
-    "ik": "tok:neutraal|champignons-wit|400",
-    "bn": "neutraal",
-    "wg": 400
-  },
-  {
-    "n": "Plus Kastanjechampignons Gesneden",
-    "o": "",
-    "p": "1.91",
-    "s": "150 ml",
-    "l": "https://cdn.syndy.com/media/products/5b000000-bc42-fafc-f068-08dd54e7af9f/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAbzsxJwIrHgjdVmDcig.290x290.jpg",
-    "cn": "plus gesneden kastanjechampignons",
-    "ik": "tok:plus|gesneden-kastanjechampignons|150",
-    "bn": "plus",
-    "wg": 150
   },
   {
     "n": "Champignons Kastanje",
@@ -2951,28 +2047,6 @@
     "wg": 200
   },
   {
-    "n": "Biologisch Plus Oesterzwammen",
-    "o": "",
-    "p": "2.29",
-    "s": "150 ml",
-    "l": "",
-    "cn": "plus biologisch oesterzwammen",
-    "ik": "tok:plus|biologisch-oesterzwammen|150",
-    "bn": "plus",
-    "wg": 150
-  },
-  {
-    "n": "Plus Gesneden Champignons",
-    "o": "",
-    "p": "0.99",
-    "s": "280 ml",
-    "l": "https://cdn.syndy.com/media/products/5a000000-68e8-7a87-aa66-08dc8ecc1d33/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdyP8JCop4AjcjsweRA.290x290.jpg",
-    "cn": "plus champignons gesneden",
-    "ik": "tok:plus|champignons-gesneden|280",
-    "bn": "plus",
-    "wg": 280
-  },
-  {
     "n": "Portobello's",
     "o": "",
     "p": "1.65",
@@ -3006,17 +2080,6 @@
     "wg": 400
   },
   {
-    "n": "Biologisch Plus Trostomaten",
-    "o": "",
-    "p": "3.19",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/8c1e0c00-3a24-000d-cd8c-08dbef5b2bfc/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeADR6H6e-Qjb-_icmA.290x290.png",
-    "cn": "plus biologisch trostomaten",
-    "ik": "tok:plus|biologisch-trostomaten|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
     "n": "Asperges Wit",
     "o": "",
     "p": "5.99",
@@ -3039,17 +2102,6 @@
     "wg": 1
   },
   {
-    "n": "Plus Snoeptomaten Mix",
-    "o": "3 VOOR 5.00",
-    "p": "2.19",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/28180000-3a45-000d-e683-08dc05495a61/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWBGgQVqHPwjcpncHmA.290x290.jpg",
-    "cn": "plus mix snoeptomaten",
-    "ik": "tok:plus|mix-snoeptomaten|250",
-    "bn": "plus",
-    "wg": 250
-  },
-  {
     "n": "Groene Asperges",
     "o": "",
     "p": "4.99",
@@ -3059,28 +2111,6 @@
     "ik": "tok:groene|asperges|350",
     "bn": "groene",
     "wg": 350
-  },
-  {
-    "n": "Plus Artisjokharten",
-    "o": "",
-    "p": "2.69",
-    "s": "390 ml",
-    "l": "https://cdn.syndy.com/media/products/f0050700-3a24-000d-d8ed-08dbe4650bfc/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkosvAjc2IqUSA.290x290.jpg",
-    "cn": "plus artisjokharten",
-    "ik": "tok:plus|artisjokharten|390",
-    "bn": "plus",
-    "wg": 390
-  },
-  {
-    "n": "Plus Macaroni-spaghetti Groenten",
-    "o": "",
-    "p": "1.79",
-    "s": "450 ml",
-    "l": "https://cdn.syndy.com/media/products/5b000000-e517-46c7-f3f0-08dd3f819f54/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAbptxNureuAjdQE6trw.290x290.jpg",
-    "cn": "plus groenten macaroni spaghetti",
-    "ik": "tok:plus|groenten-macaroni-spaghetti|450",
-    "bn": "plus",
-    "wg": 450
   },
   {
     "n": "Roerbakgroenten Italiaanse Stijl",
@@ -3160,17 +2190,6 @@
     "wg": 600
   },
   {
-    "n": "Plus Tauge",
-    "o": "",
-    "p": "1.59",
-    "s": "200 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0000-4883-0022-eae2-08dcd65254ef/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHacEQjc9C3ILg.290x290.jpg",
-    "cn": "plus tauge",
-    "ik": "tok:plus|tauge|200",
-    "bn": "plus",
-    "wg": 200
-  },
-  {
     "n": "Roerbakgroenten Champignons",
     "o": "1 + 1 GRATIS",
     "p": "2.19",
@@ -3180,17 +2199,6 @@
     "ik": "tok:roerbakgroenten|champignons|400",
     "bn": "roerbakgroenten",
     "wg": 400
-  },
-  {
-    "n": "Plus Nasi-bami Groenten",
-    "o": "",
-    "p": "1.79",
-    "s": "450 ml",
-    "l": "https://cdn.syndy.com/media/products/5b000000-e517-46c7-6ff9-08dd3f819cae/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXu6zTyZ-wQjdUCax9Q.290x290.jpg",
-    "cn": "plus bami groenten nasi",
-    "ik": "tok:plus|bami-groenten-nasi|450",
-    "bn": "plus",
-    "wg": 450
   },
   {
     "n": "Wokgroenten Thaise Stijl",
@@ -3260,17 +2268,6 @@
     "wg": 400
   },
   {
-    "n": "Plus Spitskool Gesneden",
-    "o": "",
-    "p": "2.19",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0500-4883-0022-ba03-08dcd6526449/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkomjQjc1-qyog.290x290.jpg",
-    "cn": "plus gesneden spitskool",
-    "ik": "tok:plus|gesneden-spitskool|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
     "n": "Plus Ovengroenten Zoete Aardappel Paprika",
     "o": "",
     "p": "3.99",
@@ -3291,39 +2288,6 @@
     "ik": "tok:champignons|roerbakgroenten|250",
     "bn": "champignons",
     "wg": 250
-  },
-  {
-    "n": "Biologisch Plus Geraspte Biet",
-    "o": "",
-    "p": "2.49",
-    "s": "400 ml",
-    "l": "",
-    "cn": "plus biet biologisch geraspte",
-    "ik": "tok:plus|biet-biologisch-geraspte|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
-    "n": "Plus Snoeppaprika",
-    "o": "3 VOOR 5.00",
-    "p": "2.29",
-    "s": "175 ml",
-    "l": "https://cdn.syndy.com/media/products/28180100-3a45-000d-0d63-08dc05495a69/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWBGgQVq_EAjcpncHZQ.290x290.jpg",
-    "cn": "plus snoeppaprika",
-    "ik": "tok:plus|snoeppaprika|175",
-    "bn": "plus",
-    "wg": 175
-  },
-  {
-    "n": "Bonduelle Mexico Melange",
-    "o": "",
-    "p": "2.26",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/5f4f2e35-8dbb-438e-baff-29529030fcda/images/AW0HA3GItENDpZ-NPK0ohvI./AADFISf-AwDElgjadGi51g.290x290.jpg",
-    "cn": "bonduelle melange mexico",
-    "ik": "tok:bonduelle|melange-mexico|400",
-    "bn": "bonduelle",
-    "wg": 400
   },
   {
     "n": "Plus Ovengroenten Courgette Paprika Ui",
@@ -3404,61 +2368,6 @@
     "wg": 1
   },
   {
-    "n": "Plus Knoflook",
-    "o": "",
-    "p": "1.39",
-    "s": "2 ml",
-    "l": "https://cdn.syndy.com/media/products/50040000-5cbd-a283-d2c0-08dd655e4095/images/AW0HA3GItENDpZ-NPK0ohvI./AAAEZvu--CqkfQjdZvzSWA.290x290.jpg",
-    "cn": "plus knoflook",
-    "ik": "tok:plus|knoflook|2",
-    "bn": "plus",
-    "wg": 2
-  },
-  {
-    "n": "Plus Uien Snippers",
-    "o": "",
-    "p": "1.65",
-    "s": "150 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0500-4883-0022-23a0-08dcd6525529/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkoDnQjc1-qb5g.290x290.jpg",
-    "cn": "plus snippers uien",
-    "ik": "tok:plus|snippers-uien|150",
-    "bn": "plus",
-    "wg": 150
-  },
-  {
-    "n": "Biologisch Plus Uien Geel Biologisch",
-    "o": "",
-    "p": "0.99",
-    "s": "3 ml",
-    "l": "https://cdn.syndy.com/media/products/58040200-3a25-000d-bb8d-08dc5d515bdb/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdMBw6qJ6HQjcXe6f2w.290x290.png",
-    "cn": "plus biologisch geel uien",
-    "ik": "tok:plus|biologisch-geel-uien|3",
-    "bn": "plus",
-    "wg": 3
-  },
-  {
-    "n": "Plus Uien Gesneden",
-    "o": "",
-    "p": "2.45",
-    "s": "300 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0000-4883-0022-4f0e-08dcd6525fcf/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81Okq8mQjc1-q0DQ.290x290.jpg",
-    "cn": "plus gesneden uien",
-    "ik": "tok:plus|gesneden-uien|300",
-    "bn": "plus",
-    "wg": 300
-  },
-  {
-    "n": "Biologisch Plus Uien Rood Biologisch",
-    "o": "",
-    "p": "1.09",
-    "s": "3 ml",
-    "l": "https://cdn.syndy.com/media/products/58040000-3a25-000d-814b-08dc5d515be0/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdMBw6qJi8QjcXe6fsg.290x290.png",
-    "cn": "plus biologisch rood uien",
-    "ik": "tok:plus|biologisch-rood-uien|3",
-    "bn": "plus",
-    "wg": 3
-  },
-  {
     "n": "Holland Uien Rood",
     "o": "",
     "p": "1.25",
@@ -3468,17 +2377,6 @@
     "ik": "tok:holland|rood-uien|1000",
     "bn": "holland",
     "wg": 1000
-  },
-  {
-    "n": "Plus Bosuien",
-    "o": "",
-    "p": "0.85",
-    "s": "1 stuk",
-    "l": "https://cdn.syndy.com/media/products/db502891-5ac3-4d5c-8b25-79ece03b0976/images/AW0HA3GItENDpZ-NPK0ohvI./AAC2MUH-AwDOOgjTyyeLmw.290x290.jpg",
-    "cn": "plus bosuien",
-    "ik": "tok:plus|bosuien|1",
-    "bn": "plus",
-    "wg": 1
   },
   {
     "n": "Bio+ Knoflook",
@@ -3547,39 +2445,6 @@
     "wg": 6
   },
   {
-    "n": "Plus Ijsbergsla Fijn",
-    "o": "",
-    "p": "0.99",
-    "s": "100 ml",
-    "l": "https://cdn.syndy.com/media/products/701f0100-3a46-000d-7994-08dc9f5a6285/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXOal1SLRGwjc0YFz3w.290x290.jpg",
-    "cn": "plus fijn ijsbergsla",
-    "ik": "tok:plus|fijn-ijsbergsla|100",
-    "bn": "plus",
-    "wg": 100
-  },
-  {
-    "n": "Plus Spinazie Gewassen",
-    "o": "",
-    "p": "2.19",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0900-4883-0022-1ca6-08dcd6526b5a/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81Okq8cgjc1-rAjw.290x290.jpg",
-    "cn": "plus gewassen spinazie",
-    "ik": "tok:plus|gewassen-spinazie|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
-    "n": "Plus Ijsbergsla",
-    "o": "",
-    "p": "1.09",
-    "s": "200 ml",
-    "l": "https://cdn.syndy.com/media/products/701f0000-3a46-000d-9dbd-08dc9f5a648f/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXOal1SIhgAjc0YF-DQ.290x290.jpg",
-    "cn": "plus ijsbergsla",
-    "ik": "tok:plus|ijsbergsla|200",
-    "bn": "plus",
-    "wg": 200
-  },
-  {
     "n": "Plus Rucola",
     "o": "",
     "p": "1.09",
@@ -3589,28 +2454,6 @@
     "ik": "tok:plus|rucola|85",
     "bn": "plus",
     "wg": 85
-  },
-  {
-    "n": "Plus Ijsbergslamelange",
-    "o": "",
-    "p": "1.39",
-    "s": "200 ml",
-    "l": "",
-    "cn": "plus ijsbergslamelange",
-    "ik": "tok:plus|ijsbergslamelange|200",
-    "bn": "plus",
-    "wg": 200
-  },
-  {
-    "n": "Plus Andijvie Fijngesneden",
-    "o": "",
-    "p": "2.49",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0000-4883-0022-3c1f-08dcd65251fb/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkqdGgjc1-qnWQ.290x290.jpg",
-    "cn": "plus andijvie fijngesneden",
-    "ik": "tok:plus|andijvie-fijngesneden|500",
-    "bn": "plus",
-    "wg": 500
   },
   {
     "n": "Plus Gemengde Sla",
@@ -3635,17 +2478,6 @@
     "wg": 75
   },
   {
-    "n": "Plus Salademix",
-    "o": "",
-    "p": "1.49",
-    "s": "300 ml",
-    "l": "https://cdn.syndy.com/media/products/701f0000-3a46-000d-87ec-08dc9f5a62f5/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXOal1SLxsAjc0YGWEQ.290x290.jpg",
-    "cn": "plus salademix",
-    "ik": "tok:plus|salademix|300",
-    "bn": "plus",
-    "wg": 300
-  },
-  {
     "n": "Plus Luxe Sla Jonge Bladslamelange",
     "o": "",
     "p": "1.89",
@@ -3655,17 +2487,6 @@
     "ik": "tok:plus|bladslamelange-jonge-luxe-sla|100",
     "bn": "plus",
     "wg": 100
-  },
-  {
-    "n": "Plus Spinazie",
-    "o": "",
-    "p": "1.69",
-    "s": "200 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0d00-4883-0022-1152-08dcd65265db/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkorNAjc1-rD3g.290x290.jpg",
-    "cn": "plus spinazie",
-    "ik": "tok:plus|spinazie|200",
-    "bn": "plus",
-    "wg": 200
   },
   {
     "n": "Plus Veldsla",
@@ -3723,17 +2544,6 @@
     "wg": 300
   },
   {
-    "n": "Plus Appelmoes Extra Kwaliteit",
-    "o": "",
-    "p": "0.99",
-    "s": "360 ml",
-    "l": "https://cdn.syndy.com/media/products/081d0600-bd97-6045-3307-08db81531bd8/images/AW0HA3GItENDpZ-NPK0ohvI./AAEECCQ6DQAOSAjb3qOeNg.290x290.jpg",
-    "cn": "plus appelmoes extra kwaliteit",
-    "ik": "tok:plus|appelmoes-extra-kwaliteit|360",
-    "bn": "plus",
-    "wg": 360
-  },
-  {
     "n": "Kühne Gurkenviertel",
     "o": "",
     "p": "2.51",
@@ -3743,39 +2553,6 @@
     "ik": "tok:khne|gurkenviertel-hne|670",
     "bn": "khne",
     "wg": 670
-  },
-  {
-    "n": "Hak Appelmoes",
-    "o": "",
-    "p": "3.14",
-    "s": "720 ml",
-    "l": "https://cdn.syndy.com/media/products/6cc6245e-bc86-41c5-bc12-e58a102895a3/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WKEIQjdNFiDIw.290x290.jpg",
-    "cn": "hak appelmoes",
-    "ik": "tok:hak|appelmoes|720",
-    "bn": "hak",
-    "wg": 720
-  },
-  {
-    "n": "Plus Doperwten En Wortelen",
-    "o": "",
-    "p": "0.79",
-    "s": "340 ml",
-    "l": "https://cdn.syndy.com/media/products/fc1b0000-3a24-000d-e3c2-08dbbdd9a353/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAVqsWgyoOAwjbv0Cecg.290x290.jpg",
-    "cn": "plus doperwten wortelen",
-    "ik": "tok:plus|doperwten-wortelen|340",
-    "bn": "plus",
-    "wg": 340
-  },
-  {
-    "n": "Plus Passata Gezeefde Tomaten",
-    "o": "",
-    "p": "0.85",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/59000000-dd78-1aa6-5b0f-08dd3953237a/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAcXiF4F7y_wjdRQc5lA.290x290.jpg",
-    "cn": "plus gezeefde passata tomaten",
-    "ik": "tok:plus|gezeefde-passata-tomaten|500",
-    "bn": "plus",
-    "wg": 500
   },
   {
     "n": "Del Monte Tomatenpuree",
@@ -3800,17 +2577,6 @@
     "wg": 720
   },
   {
-    "n": "Hak Appelmoes",
-    "o": "",
-    "p": "2.19",
-    "s": "355 ml",
-    "l": "https://cdn.syndy.com/media/products/7e825991-a2a5-4638-81fe-7e2159d359db/images/AW0HA3GItENDpZ-NPK0ohvI./AADFISf-AwBjfgjaixY52g.290x290.jpg",
-    "cn": "hak appelmoes",
-    "ik": "tok:hak|appelmoes|355",
-    "bn": "hak",
-    "wg": 355
-  },
-  {
     "n": "Kesbeke Amsterdamse Dwarsliggers Augurken",
     "o": "",
     "p": "2.40",
@@ -3820,17 +2586,6 @@
     "ik": "tok:kesbeke|amsterdamse-augurken-dwarsliggers|550",
     "bn": "kesbeke",
     "wg": 550
-  },
-  {
-    "n": "Plus Appelmoes 0%",
-    "o": "",
-    "p": "1.69",
-    "s": "710 ml",
-    "l": "https://cdn.syndy.com/media/products/4c080000-3a28-000d-da25-08db815326ea/images/AW0HA3GItENDpZ-NPK0ohvI./AAwECCQ6DQDGVgjb3FZMKw.290x290.jpg",
-    "cn": "plus appelmoes",
-    "ik": "tok:plus|appelmoes|710",
-    "bn": "plus",
-    "wg": 710
   },
   {
     "n": "Plus Botersla",
@@ -3866,17 +2621,6 @@
     "wg": 450
   },
   {
-    "n": "Plus Zongedroogde Tomaten Op Olie",
-    "o": "",
-    "p": "1.69",
-    "s": "280 ml",
-    "l": "https://cdn.syndy.com/media/products/081d0100-bd97-6045-890b-08db81533762/images/AW0HA3GItENDpZ-NPK0ohvI./AAEECCQ6DQAd4Ajb3FameQ.290x290.jpg",
-    "cn": "plus olie op tomaten zongedroogde",
-    "ik": "tok:plus|olie-op-tomaten-zongedroogde|280",
-    "bn": "plus",
-    "wg": 280
-  },
-  {
     "n": "Servero 100% Appelmoesjes",
     "o": "2 + 1 GRATIS",
     "p": "3.45",
@@ -3899,50 +2643,6 @@
     "wg": 720
   },
   {
-    "n": "Plus Cocktail Augurken Zoetzuur",
-    "o": "",
-    "p": "1.19",
-    "s": "370 ml",
-    "l": "https://cdn.syndy.com/media/products/101e0000-3a24-000d-3e89-08dba7d79b32/images/AW0HA3GItENDpZ-NPK0ohvI./AAIECCQ6DQBsPgjb3FaC0A.290x290.jpg",
-    "cn": "plus augurken cocktail zoetzuur",
-    "ik": "tok:plus|augurken-cocktail-zoetzuur|370",
-    "bn": "plus",
-    "wg": 370
-  },
-  {
-    "n": "Plus Amsterdamse Uien",
-    "o": "",
-    "p": "0.79",
-    "s": "370 ml",
-    "l": "https://cdn.syndy.com/media/products/14110c00-3a24-000d-1486-08dbded91a3e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkrbUAjc2Iqijg.290x290.jpg",
-    "cn": "plus amsterdamse uien",
-    "ik": "tok:plus|amsterdamse-uien|370",
-    "bn": "plus",
-    "wg": 370
-  },
-  {
-    "n": "Plus Appelcompote",
-    "o": "",
-    "p": "0.93",
-    "s": "360 ml",
-    "l": "https://cdn.syndy.com/media/products/081d0100-bd97-6045-df76-08db81531ca2/images/AW0HA3GItENDpZ-NPK0ohvI./AAUY_CQ6DQCe-Ajb32qC6w.290x290.jpg",
-    "cn": "plus appelcompote",
-    "ik": "tok:plus|appelcompote|360",
-    "bn": "plus",
-    "wg": 360
-  },
-  {
-    "n": "Hak Rode Bieten",
-    "o": "",
-    "p": "2.09",
-    "s": "355 ml",
-    "l": "https://cdn.syndy.com/media/products/3d100000-ff41-0003-34e1-08d380e8d3ad/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WKMKAjdNFiGrA.290x290.jpg",
-    "cn": "hak bieten rode",
-    "ik": "tok:hak|bieten-rode|355",
-    "bn": "hak",
-    "wg": 355
-  },
-  {
     "n": "Heinz Tomaten Blokjes",
     "o": "",
     "p": "1.35",
@@ -3961,17 +2661,6 @@
     "l": "https://cdn.syndy.com/media/products/04f64f95-122d-41b4-9238-a7862031d857/images/AW0HA3GItENDpZ-NPK0ohvI./AAALOyf-AwA5mQjalU1CkA.290x290.jpg",
     "cn": "kesbeke augurken uit vat",
     "ik": "tok:kesbeke|augurken-uit-vat|370",
-    "bn": "kesbeke",
-    "wg": 370
-  },
-  {
-    "n": "Kesbeke Augurken Plakjes 370 ml.",
-    "o": "",
-    "p": "1.81",
-    "s": "370 ml",
-    "l": "https://cdn.syndy.com/media/products/09ce7684-0cf2-43b4-90da-2b3d9be946f7/images/AW0HA3GItENDpZ-NPK0ohvI./AAALOyf-AwCcWgjalU1CoQ.290x290.jpg",
-    "cn": "kesbeke augurken plakjes",
-    "ik": "tok:kesbeke|augurken-plakjes|370",
     "bn": "kesbeke",
     "wg": 370
   },
@@ -3998,39 +2687,6 @@
     "wg": 100
   },
   {
-    "n": "Plus Augurken Zoetzuur Fijn",
-    "o": "",
-    "p": "1.15",
-    "s": "670 ml",
-    "l": "https://cdn.syndy.com/media/products/14110100-3a24-000d-c633-08dbded91a2f/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHZNUAjc_ZC0oQ.290x290.jpg",
-    "cn": "plus augurken fijn zoetzuur",
-    "ik": "tok:plus|augurken-fijn-zoetzuur|670",
-    "bn": "plus",
-    "wg": 670
-  },
-  {
-    "n": "Bonduelle Crispy Maïs",
-    "o": "",
-    "p": "2.19",
-    "s": "300 ml",
-    "l": "https://cdn.syndy.com/media/products/6a3b4f58-cc48-4b28-98c5-7b32c990199e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAkE0H-AwCDjQjVgn-14A.290x290.jpg",
-    "cn": "bonduelle crispy ma",
-    "ik": "tok:bonduelle|crispy-ma|300",
-    "bn": "bonduelle",
-    "wg": 300
-  },
-  {
-    "n": "Bonduelle Crispy Maïs",
-    "o": "",
-    "p": "1.56",
-    "s": "150 ml",
-    "l": "https://cdn.syndy.com/media/products/5ae139ea-a951-40f0-a240-4606fa29a862/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHZbQgjc7Rq-Ng.290x290.jpg",
-    "cn": "bonduelle crispy ma",
-    "ik": "tok:bonduelle|crispy-ma|150",
-    "bn": "bonduelle",
-    "wg": 150
-  },
-  {
     "n": "Rode Bieten",
     "o": "",
     "p": "2.09",
@@ -4053,17 +2709,6 @@
     "wg": 370
   },
   {
-    "n": "Plus Wortelen",
-    "o": "",
-    "p": "0.99",
-    "s": "680 ml",
-    "l": "https://cdn.syndy.com/media/products/081d0000-bd97-6045-0306-08db81531285/images/AW0HA3GItENDpZ-NPK0ohvI./AAMECCQ6DQDUXwjb3qOeGw.290x290.jpg",
-    "cn": "plus wortelen",
-    "ik": "tok:plus|wortelen|680",
-    "bn": "plus",
-    "wg": 680
-  },
-  {
     "n": "Plus Gepelde Tomaten",
     "o": "",
     "p": "0.69",
@@ -4083,17 +2728,6 @@
     "cn": "kesbeke amster smuluien",
     "ik": "tok:kesbeke|amster-smuluien|370",
     "bn": "kesbeke",
-    "wg": 370
-  },
-  {
-    "n": "Plus Cocktailuitjes Zoetzuur",
-    "o": "",
-    "p": "0.98",
-    "s": "370 ml",
-    "l": "https://cdn.syndy.com/media/products/28180300-3a45-000d-3722-08dc05495a32/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWLIbGPKCiAjcmdnZ8w.290x290.jpg",
-    "cn": "plus cocktailuitjes zoetzuur",
-    "ik": "tok:plus|cocktailuitjes-zoetzuur|370",
-    "bn": "plus",
     "wg": 370
   },
   {
@@ -4130,17 +2764,6 @@
     "wg": 530
   },
   {
-    "n": "Plus Tuinbonen",
-    "o": "",
-    "p": "1.15",
-    "s": "340 ml",
-    "l": "https://cdn.syndy.com/media/products/4c080000-3a28-000d-250f-08db81531b6c/images/AW0HA3GItENDpZ-NPK0ohvI./AAEECCQ6DQBNNQjb3FZFcQ.290x290.jpg",
-    "cn": "plus tuinbonen",
-    "ik": "tok:plus|tuinbonen|340",
-    "bn": "plus",
-    "wg": 340
-  },
-  {
     "n": "Kühne Augurken Klein Zoet",
     "o": "",
     "p": "2.72",
@@ -4149,17 +2772,6 @@
     "cn": "khne augurken hne klein zoet",
     "ik": "tok:khne|augurken-hne-klein-zoet|370",
     "bn": "khne",
-    "wg": 370
-  },
-  {
-    "n": "Kesbeke Zilveruien",
-    "o": "",
-    "p": "3.06",
-    "s": "370 ml",
-    "l": "https://cdn.syndy.com/media/products/1aedade7-03c2-489f-8736-dad7d273ad24/images/AW0HA3GItENDpZ-NPK0ohvI./AADOYSf-AwAzpwjZ4Vp8zA.290x290.jpg",
-    "cn": "kesbeke zilveruien",
-    "ik": "tok:kesbeke|zilveruien|370",
-    "bn": "kesbeke",
     "wg": 370
   },
   {
@@ -4218,39 +2830,6 @@
     "wg": 424
   },
   {
-    "n": "Plus Tomatenblokjes Met Kruiden",
-    "o": "",
-    "p": "1.29",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/20190100-3a24-000d-9510-08dbc8d35171/images/AW0HA3GItENDpZ-NPK0ohvI./AAgbXCQ6DQCH4QjbyZ20AQ.290x290.jpg",
-    "cn": "plus kruiden tomatenblokjes",
-    "ik": "tok:plus|kruiden-tomatenblokjes|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
-    "n": "Hak Worteltjes",
-    "o": "",
-    "p": "2.09",
-    "s": "350 ml",
-    "l": "https://cdn.syndy.com/media/products/3d100000-ff41-0003-52b4-08d380e8c87f/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WKMFgjdNFiEpw.290x290.jpg",
-    "cn": "hak worteltjes",
-    "ik": "tok:hak|worteltjes|350",
-    "bn": "hak",
-    "wg": 350
-  },
-  {
-    "n": "Heinz Tomaten Gepeld",
-    "o": "",
-    "p": "1.35",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/d4e72f70-333c-48bb-b829-d2d4f7d822fb/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWBGgQVpMoQjcph22_A.290x290.jpg",
-    "cn": "heinz gepeld tomaten",
-    "ik": "tok:heinz|gepeld-tomaten|400",
-    "bn": "heinz",
-    "wg": 400
-  },
-  {
     "n": "Kühne Piccalilly Zoetzuur",
     "o": "",
     "p": "1.42",
@@ -4306,39 +2885,6 @@
     "wg": 370
   },
   {
-    "n": "Plus Appel Abrikozen Compote",
-    "o": "",
-    "p": "1.80",
-    "s": "360 ml",
-    "l": "https://cdn.syndy.com/media/products/f0120000-3a39-000d-029f-08db65e9b5c3/images/AW0HA3GItENDpZ-NPK0ohvI./AAUECCQ6DQCz7Qjb3FY9HQ.290x290.jpg",
-    "cn": "plus abrikozen appel compote",
-    "ik": "tok:plus|abrikozen-appel-compote|360",
-    "bn": "plus",
-    "wg": 360
-  },
-  {
-    "n": "Hak Tuinboontjes",
-    "o": "",
-    "p": "3.14",
-    "s": "355 ml",
-    "l": "https://cdn.syndy.com/media/products/3d100000-ff41-0003-43c3-08d380e8c669/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WLWkQjdNFiEDA.290x290.jpg",
-    "cn": "hak tuinboontjes",
-    "ik": "tok:hak|tuinboontjes|355",
-    "bn": "hak",
-    "wg": 355
-  },
-  {
-    "n": "Plus Amsterdamse Uien",
-    "o": "",
-    "p": "1.49",
-    "s": "720 ml",
-    "l": "https://cdn.syndy.com/media/products/101e0100-3a24-000d-3a94-08dba7d79b8f/images/AW0HA3GItENDpZ-NPK0ohvI./AAwECCQ6DQBacQjb3FaCng.290x290.jpg",
-    "cn": "plus amsterdamse uien",
-    "ik": "tok:plus|amsterdamse-uien|720",
-    "bn": "plus",
-    "wg": 720
-  },
-  {
     "n": "Kühne Schlemmertöpfchen Met Fijne Kruiden",
     "o": "",
     "p": "3.14",
@@ -4348,17 +2894,6 @@
     "ik": "tok:khne|fijne-hne-kruiden-pfchen-schlemmert|530",
     "bn": "khne",
     "wg": 530
-  },
-  {
-    "n": "Plus Breedliggers Zoetzuur",
-    "o": "",
-    "p": "1.09",
-    "s": "580 ml",
-    "l": "https://cdn.syndy.com/media/products/101e0000-3a24-000d-5151-08dba7d79b45/images/AW0HA3GItENDpZ-NPK0ohvI./AAEECCQ6DQBbTgjb3qOeYw.290x290.jpg",
-    "cn": "plus breedliggers zoetzuur",
-    "ik": "tok:plus|breedliggers-zoetzuur|580",
-    "bn": "plus",
-    "wg": 580
   },
   {
     "n": "Kühne Augurkenblokjes",
@@ -4383,17 +2918,6 @@
     "wg": 400
   },
   {
-    "n": "Hak Appelcompote",
-    "o": "",
-    "p": "3.03",
-    "s": "355 ml",
-    "l": "https://cdn.syndy.com/media/products/3d100000-ff41-0003-65e3-08d380e8cd7b/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WLnggjdNFiEkg.290x290.jpg",
-    "cn": "hak appelcompote",
-    "ik": "tok:hak|appelcompote|355",
-    "bn": "hak",
-    "wg": 355
-  },
-  {
     "n": "Bonduelle Crispy Maïs - Bio",
     "o": "",
     "p": "2.09",
@@ -4403,28 +2927,6 @@
     "ik": "tok:bonduelle|bio-crispy-ma|150",
     "bn": "bonduelle",
     "wg": 150
-  },
-  {
-    "n": "Hak Appelmoes Met Kaneel",
-    "o": "",
-    "p": "2.51",
-    "s": "355 ml",
-    "l": "https://cdn.syndy.com/media/products/ec380370-ba44-41b0-a414-1ce709c500a1/images/AW0HA3GItENDpZ-NPK0ohvI./AADFISf-AwC5LwjaixY6CA.290x290.jpg",
-    "cn": "hak appelmoes kaneel",
-    "ik": "tok:hak|appelmoes-kaneel|355",
-    "bn": "hak",
-    "wg": 355
-  },
-  {
-    "n": "Plus Asperges",
-    "o": "",
-    "p": "2.19",
-    "s": "280 ml",
-    "l": "https://cdn.syndy.com/media/products/6f000000-01e4-1652-60b1-08dd07e90509/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAbptxNurZaAjdP6ivIA.290x290.jpg",
-    "cn": "plus asperges",
-    "ik": "tok:plus|asperges|280",
-    "bn": "plus",
-    "wg": 280
   },
   {
     "n": "Bio+ Gepelde Tomaten",
@@ -4456,61 +2958,6 @@
     "l": "https://cdn.syndy.com/media/products/2d740000-ff27-0003-7523-08d72fac0e65/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXX9n7Wr7SwjceVMQqQ.290x290.jpg",
     "cn": "heinz frito oil olive tomato",
     "ik": "tok:heinz|frito-oil-olive-tomato|350",
-    "bn": "heinz",
-    "wg": 350
-  },
-  {
-    "n": "Hak Kapucijners",
-    "o": "",
-    "p": "2.09",
-    "s": "365 ml",
-    "l": "https://cdn.syndy.com/media/products/3d100000-ff41-0003-d3c7-08d380e8d11a/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WJDdwjdNFiGfg.290x290.jpg",
-    "cn": "hak kapucijners",
-    "ik": "tok:hak|kapucijners|365",
-    "bn": "hak",
-    "wg": 365
-  },
-  {
-    "n": "Plus Augurken Zuur",
-    "o": "",
-    "p": "0.95",
-    "s": "370 ml",
-    "l": "https://cdn.syndy.com/media/products/501b0e00-3a24-000d-dc7d-08dbe9f3e87a/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWLIbGPLxbQjcmdoDJw.290x290.jpg",
-    "cn": "plus augurken zuur",
-    "ik": "tok:plus|augurken-zuur|370",
-    "bn": "plus",
-    "wg": 370
-  },
-  {
-    "n": "Kesbeke Cornichons 370ml",
-    "o": "",
-    "p": "2.19",
-    "s": "370 ml",
-    "l": "https://cdn.syndy.com/media/products/3d100000-ff41-0003-a8c8-08d380e8e5b8/images/AW0HA3GItENDpZ-NPK0ohvI./AAALOyf-AwAzGAjalU1CjQ.290x290.jpg",
-    "cn": "kesbeke cornichons",
-    "ik": "tok:kesbeke|cornichons|370",
-    "bn": "kesbeke",
-    "wg": 370
-  },
-  {
-    "n": "Bonduelle Maïs Salsa",
-    "o": "",
-    "p": "2.61",
-    "s": "300 ml",
-    "l": "https://cdn.syndy.com/media/products/7e1362e7-e65b-49ad-9265-d3b46f318d52/images/AW0HA3GItENDpZ-NPK0ohvI./AADFISf-AwAFlgjadGjLiQ.290x290.jpg",
-    "cn": "bonduelle ma salsa",
-    "ik": "tok:bonduelle|ma-salsa|300",
-    "bn": "bonduelle",
-    "wg": 300
-  },
-  {
-    "n": "Heinz Tomato Frito Bio",
-    "o": "",
-    "p": "1.77",
-    "s": "350 ml",
-    "l": "https://cdn.syndy.com/media/products/3d190000-ff27-0003-b355-08d8bc62156f/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXX9n7Wp3iwjceVMSKQ.290x290.jpg",
-    "cn": "heinz bio frito tomato",
-    "ik": "tok:heinz|bio-frito-tomato|350",
     "bn": "heinz",
     "wg": 350
   },
@@ -4548,61 +2995,6 @@
     "wg": 180
   },
   {
-    "n": "Plus Zilveruitjes Zoetzuur",
-    "o": "",
-    "p": "1.29",
-    "s": "720 ml",
-    "l": "https://cdn.syndy.com/media/products/d41a0c00-bd95-6045-217f-08dbfa51bc2a/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAef3JxU5npQjdBYklQQ.290x290.jpg",
-    "cn": "plus zilveruitjes zoetzuur",
-    "ik": "tok:plus|zilveruitjes-zoetzuur|720",
-    "bn": "plus",
-    "wg": 720
-  },
-  {
-    "n": "Hak Gesneden Bonen",
-    "o": "",
-    "p": "2.99",
-    "s": "670 ml",
-    "l": "https://cdn.syndy.com/media/products/23b28a29-c46c-4776-8162-b4e439f01868/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WIOKQjdNFiFmA.290x290.jpg",
-    "cn": "hak bonen gesneden",
-    "ik": "tok:hak|bonen-gesneden|670",
-    "bn": "hak",
-    "wg": 670
-  },
-  {
-    "n": "Bonduelle Rode Kool Met Appel",
-    "o": "",
-    "p": "1.31",
-    "s": "200 ml",
-    "l": "https://cdn.syndy.com/media/products/463ce897-77ea-4d46-bfdc-2abf0cbc14c6/images/AW0HA3GItENDpZ-NPK0ohvI./AAAqqifq8HaE0Ajaw8oDQw.290x290.jpg",
-    "cn": "bonduelle appel kool rode",
-    "ik": "tok:bonduelle|appel-kool-rode|200",
-    "bn": "bonduelle",
-    "wg": 200
-  },
-  {
-    "n": "Bio+ Doperwten",
-    "o": "",
-    "p": "1.59",
-    "s": "350 ml",
-    "l": "",
-    "cn": "bio doperwten",
-    "ik": "tok:bio|doperwten|350",
-    "bn": "bio",
-    "wg": 350
-  },
-  {
-    "n": "Bio+ Mais Zoet",
-    "o": "",
-    "p": "1.49",
-    "s": "340 ml",
-    "l": "",
-    "cn": "bio mais zoet",
-    "ik": "tok:bio|mais-zoet|340",
-    "bn": "bio",
-    "wg": 340
-  },
-  {
     "n": "Royal Groene Pepertjes",
     "o": "",
     "p": "2.40",
@@ -4623,39 +3015,6 @@
     "ik": "tok:bonduelle|doperwtjes-fijn-worteltjes-zeer|150",
     "bn": "bonduelle",
     "wg": 150
-  },
-  {
-    "n": "Plus Andijvie Grofgesneden",
-    "o": "",
-    "p": "1.99",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0200-4883-0022-4cd5-08dcd652600d/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81Okruxgjc1-qoCA.290x290.jpg",
-    "cn": "plus andijvie grofgesneden",
-    "ik": "tok:plus|andijvie-grofgesneden|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
-    "n": "Bonduelle Linzen",
-    "o": "",
-    "p": "2.09",
-    "s": "310 ml",
-    "l": "https://cdn.syndy.com/media/products/c30b7d4e-057d-49a7-9873-8cf4e425a6ec/images/AW0HA3GItENDpZ-NPK0ohvI./AADFISf-AwAtEQjadGjMyw.290x290.jpg",
-    "cn": "bonduelle linzen",
-    "ik": "tok:bonduelle|linzen|310",
-    "bn": "bonduelle",
-    "wg": 310
-  },
-  {
-    "n": "La Molisana Cherrytomaatjes",
-    "o": "",
-    "p": "2.09",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/734a0000-ff27-0003-fc4e-08d966da51d2/images/AW0HA3GItENDpZ-NPK0ohvI./AAAqqifq8HYsdwjam8Xi1g.290x290.jpg",
-    "cn": "molisana cherrytomaatjes la",
-    "ik": "tok:molisana|cherrytomaatjes-la|400",
-    "bn": "molisana",
-    "wg": 400
   },
   {
     "n": "Bertolli Capperi Kappertjes",
@@ -4680,28 +3039,6 @@
     "wg": 400
   },
   {
-    "n": "Plus Zilveruitjes Zuur",
-    "o": "",
-    "p": "0.75",
-    "s": "370 ml",
-    "l": "https://cdn.syndy.com/media/products/941b0c00-3a47-000d-8071-08dc78e50269/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWLIbGPI6Cgjcmdm9yw.290x290.jpg",
-    "cn": "plus zilveruitjes zuur",
-    "ik": "tok:plus|zilveruitjes-zuur|370",
-    "bn": "plus",
-    "wg": 370
-  },
-  {
-    "n": "Bio+ Linzen",
-    "o": "",
-    "p": "1.55",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/3b0b0000-ff27-0003-1a96-08da94ce3ffb/images/AW0HA3GItENDpZ-NPK0ohvI./AAALOyf-AwARwQjalU1CjA.290x290.jpg",
-    "cn": "bio linzen",
-    "ik": "tok:bio|linzen|400",
-    "bn": "bio",
-    "wg": 400
-  },
-  {
     "n": "Bonduelle Worteltjes Extra Fijn",
     "o": "",
     "p": "1.31",
@@ -4709,17 +3046,6 @@
     "l": "https://cdn.syndy.com/media/products/6359c5ae-8cee-4925-bb2b-389d4624e689/images/AW0HA3GItENDpZ-NPK0ohvI./AAAqqifq8HZlDwjaw8qSqg.290x290.jpg",
     "cn": "bonduelle extra fijn worteltjes",
     "ik": "tok:bonduelle|extra-fijn-worteltjes|155",
-    "bn": "bonduelle",
-    "wg": 155
-  },
-  {
-    "n": "Bonduelle Tuinboontjes",
-    "o": "",
-    "p": "1.46",
-    "s": "155 ml",
-    "l": "https://cdn.syndy.com/media/products/d3a61c7b-6a92-48c9-bb07-cff341b305c1/images/AW0HA3GItENDpZ-NPK0ohvI./AAAqqifq8HbHgQjaw8qmOA.290x290.jpg",
-    "cn": "bonduelle tuinboontjes",
-    "ik": "tok:bonduelle|tuinboontjes|155",
     "bn": "bonduelle",
     "wg": 155
   },
@@ -4735,17 +3061,6 @@
     "wg": 150
   },
   {
-    "n": "Hak Edamame Bonen",
-    "o": "",
-    "p": "2.51",
-    "s": "150 ml",
-    "l": "https://cdn.syndy.com/media/products/6d780000-ff27-0003-a8ee-08d90a6f39ab/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WJZAAjdNFh_nA.290x290.jpg",
-    "cn": "hak bonen edamame",
-    "ik": "tok:hak|bonen-edamame|150",
-    "bn": "hak",
-    "wg": 150
-  },
-  {
     "n": "La Molisana Gepelde Tomaat",
     "o": "",
     "p": "1.88",
@@ -4757,17 +3072,6 @@
     "wg": 400
   },
   {
-    "n": "Hak Appelmoes 0%",
-    "o": "",
-    "p": "2.09",
-    "s": "190 ml",
-    "l": "https://cdn.syndy.com/media/products/24450000-ff41-0003-aa69-08d5784b0d62/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WI4xgjdNFiKRA.290x290.jpg",
-    "cn": "hak appelmoes",
-    "ik": "tok:hak|appelmoes|190",
-    "bn": "hak",
-    "wg": 190
-  },
-  {
     "n": "Hak Brusselse Spruitjes",
     "o": "",
     "p": "3.94",
@@ -4777,28 +3081,6 @@
     "ik": "tok:hak|brusselse-spruitjes|680",
     "bn": "hak",
     "wg": 680
-  },
-  {
-    "n": "Royal Zongedroogde Tomaten Kruiden",
-    "o": "",
-    "p": "3.24",
-    "s": "215 ml",
-    "l": "https://cdn.syndy.com/media/products/5c298fc0-f786-44bf-9d60-f42f27cfafc1/images/AW0HA3GItENDpZ-NPK0ohvI./AAMYDCQ6DQD61wjbs3Npdw.290x290.jpg",
-    "cn": "royal kruiden tomaten zongedroogde",
-    "ik": "tok:royal|kruiden-tomaten-zongedroogde|215",
-    "bn": "royal",
-    "wg": 215
-  },
-  {
-    "n": "Royal Gemarineerde Artisjokken In Olie",
-    "o": "",
-    "p": "4.08",
-    "s": "210 ml",
-    "l": "",
-    "cn": "royal artisjokken gemarineerde in olie",
-    "ik": "tok:royal|artisjokken-gemarineerde-in-olie|210",
-    "bn": "royal",
-    "wg": 210
   },
   {
     "n": "Kuchnia Poolse Augurken Zout",
@@ -4856,17 +3138,6 @@
     "wg": 140
   },
   {
-    "n": "Bio+ Bio Rode Kool Met Appel",
-    "o": "",
-    "p": "0.99",
-    "s": "360 ml",
-    "l": "",
-    "cn": "bio appel kool rode",
-    "ik": "tok:bio|appel-kool-rode|360",
-    "bn": "bio",
-    "wg": 360
-  },
-  {
     "n": "Vitarol Augurken Zout",
     "o": "",
     "p": "2.93",
@@ -4876,17 +3147,6 @@
     "ik": "tok:vitarol|augurken-zout|720",
     "bn": "vitarol",
     "wg": 720
-  },
-  {
-    "n": "Hak Bonenschotel Chili Con Carne",
-    "o": "",
-    "p": "3.14",
-    "s": "360 ml",
-    "l": "https://cdn.syndy.com/media/products/02020000-ff41-0003-5e56-08d420443fb5/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WLbmAjdNFiKjA.290x290.jpg",
-    "cn": "hak bonenschotel carne chili con",
-    "ik": "tok:hak|bonenschotel-carne-chili-con|360",
-    "bn": "hak",
-    "wg": 360
   },
   {
     "n": "Heinz Tomaten Blokjes Bio",
@@ -4900,17 +3160,6 @@
     "wg": 390
   },
   {
-    "n": "Heinz Tomato Gezeefd Bio",
-    "o": "",
-    "p": "1.77",
-    "s": "350 ml",
-    "l": "https://cdn.syndy.com/media/products/3d190000-ff27-0003-80ea-08d8bc62156f/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXX9n7Wo-VwjceVMQIw.290x290.jpg",
-    "cn": "heinz bio gezeefd tomato",
-    "ik": "tok:heinz|bio-gezeefd-tomato|350",
-    "bn": "heinz",
-    "wg": 350
-  },
-  {
     "n": "Rolnik Augurken Zoet Zuur",
     "o": "",
     "p": "3.14",
@@ -4920,17 +3169,6 @@
     "ik": "tok:rolnik|augurken-zoet-zuur|900",
     "bn": "rolnik",
     "wg": 900
-  },
-  {
-    "n": "Hak Bonenschotel Mexicaans",
-    "o": "",
-    "p": "3.14",
-    "s": "360 ml",
-    "l": "https://cdn.syndy.com/media/products/02020000-ff41-0003-9452-08d420444004/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WKIlwjdNFiJYQ.290x290.jpg",
-    "cn": "hak bonenschotel mexicaans",
-    "ik": "tok:hak|bonenschotel-mexicaans|360",
-    "bn": "hak",
-    "wg": 360
   },
   {
     "n": "Bonduelle Bonenmix Edamame Kikkererwten",
@@ -4988,28 +3226,6 @@
     "wg": 180
   },
   {
-    "n": "Royal Zongedroogde Tomaten",
-    "o": "",
-    "p": "3.10",
-    "s": "100 ml",
-    "l": "",
-    "cn": "royal tomaten zongedroogde",
-    "ik": "tok:royal|tomaten-zongedroogde|100",
-    "bn": "royal",
-    "wg": 100
-  },
-  {
-    "n": "Royal Funghi Porcini Gedroogd",
-    "o": "",
-    "p": "2.99",
-    "s": "15 ml",
-    "l": "https://cdn.syndy.com/media/products/fc1b0100-3a24-000d-2309-08dbbdd96c46/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWXSfg6oPbwjc-VbxMw.290x290.jpg",
-    "cn": "royal funghi gedroogd porcini",
-    "ik": "tok:royal|funghi-gedroogd-porcini|15",
-    "bn": "royal",
-    "wg": 15
-  },
-  {
     "n": "Heinz Tomato Polpa",
     "o": "",
     "p": "1.35",
@@ -5032,28 +3248,6 @@
     "wg": 720
   },
   {
-    "n": "Plus Haricots Verts",
-    "o": "",
-    "p": "1.35",
-    "s": "340 ml",
-    "l": "https://cdn.syndy.com/media/products/c01b0100-3a20-000d-063f-08dc36bdb658/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAaz2cb8LoigjcOGUZ_Q.290x290.png",
-    "cn": "plus haricots verts",
-    "ik": "tok:plus|haricots-verts|340",
-    "bn": "plus",
-    "wg": 340
-  },
-  {
-    "n": "Royal Griekse Chalkidiki Olijven",
-    "o": "",
-    "p": "2.82",
-    "s": "210 ml",
-    "l": "https://cdn.syndy.com/media/products/58100000-3a25-000d-496a-08dc57ee0183/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdMBw6qKGlgjcWFH6Xg.290x290.png",
-    "cn": "royal chalkidiki griekse olijven",
-    "ik": "tok:royal|chalkidiki-griekse-olijven|210",
-    "bn": "royal",
-    "wg": 210
-  },
-  {
     "n": "Servero Original Appelmoes",
     "o": "2 + 1 GRATIS",
     "p": "1.35",
@@ -5063,17 +3257,6 @@
     "ik": "tok:servero|appelmoes-original|212",
     "bn": "servero",
     "wg": 212
-  },
-  {
-    "n": "Royal Grote Groene Olijven",
-    "o": "",
-    "p": "2.77",
-    "s": "205 ml",
-    "l": "https://cdn.syndy.com/media/products/58100000-3a25-000d-568d-08dc57ee0212/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdMBw6qK1IwjcWFH6Mg.290x290.png",
-    "cn": "royal groene grote olijven",
-    "ik": "tok:royal|groene-grote-olijven|205",
-    "bn": "royal",
-    "wg": 205
   },
   {
     "n": "Servero Fruit To Go Strawberry Burst",
@@ -5087,17 +3270,6 @@
     "wg": 100
   },
   {
-    "n": "Neutraal Citroengras",
-    "o": "",
-    "p": "1.59",
-    "s": "50 ml",
-    "l": "",
-    "cn": "neutraal citroengras",
-    "ik": "tok:neutraal|citroengras|50",
-    "bn": "neutraal",
-    "wg": 50
-  },
-  {
     "n": "Bertolli Zucchine Gegrilde Courgette",
     "o": "1 + 1 GRATIS",
     "p": "3.45",
@@ -5107,17 +3279,6 @@
     "ik": "tok:bertolli|courgette-gegrilde-zucchine|180",
     "bn": "bertolli",
     "wg": 180
-  },
-  {
-    "n": "Servero Fruit To Go Very Bery",
-    "o": "2 + 1 GRATIS",
-    "p": "3.77",
-    "s": "100 ml",
-    "l": "https://cdn.syndy.com/media/products/5b000000-bc42-fafc-54e6-08dd54e5683b/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAbzsxJwLhMAjdVVmDpA.290x290.jpg",
-    "cn": "servero bery fruit go to very",
-    "ik": "tok:servero|bery-fruit-go-to-very|100",
-    "bn": "servero",
-    "wg": 100
   },
   {
     "n": "Kühne Habanero Mosterd",
@@ -5142,17 +3303,6 @@
     "wg": 370
   },
   {
-    "n": "Plus Witte Bonen In Tomatensaus",
-    "o": "",
-    "p": "0.65",
-    "s": "200 ml",
-    "l": "",
-    "cn": "plus bonen in tomatensaus witte",
-    "ik": "tok:plus|bonen-in-tomatensaus-witte|200",
-    "bn": "plus",
-    "wg": 200
-  },
-  {
     "n": "Servero Jonagold Appelmoes",
     "o": "2 + 1 GRATIS",
     "p": "1.88",
@@ -5162,72 +3312,6 @@
     "ik": "tok:servero|appelmoes-jonagold|370",
     "bn": "servero",
     "wg": 370
-  },
-  {
-    "n": "Hak Pink Lady Appelmoes",
-    "o": "",
-    "p": "2.72",
-    "s": "350 ml",
-    "l": "https://cdn.syndy.com/media/products/5b000000-bc42-fafc-5b7c-08dd54e5c23e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAbzsxJwLkEQjdVVlvjw.290x290.jpg",
-    "cn": "hak appelmoes lady pink",
-    "ik": "tok:hak|appelmoes-lady-pink|350",
-    "bn": "hak",
-    "wg": 350
-  },
-  {
-    "n": "Bonduelle Rode Kidneybonen In Chili",
-    "o": "",
-    "p": "3.03",
-    "s": "400 ml",
-    "l": "",
-    "cn": "bonduelle chili in kidneybonen rode",
-    "ik": "tok:bonduelle|chili-in-kidneybonen-rode|400",
-    "bn": "bonduelle",
-    "wg": 400
-  },
-  {
-    "n": "Bio+ Wortelen",
-    "o": "",
-    "p": "1.59",
-    "s": "340 ml",
-    "l": "",
-    "cn": "bio wortelen",
-    "ik": "tok:bio|wortelen|340",
-    "bn": "bio",
-    "wg": 340
-  },
-  {
-    "n": "Bio+ Bruine Bonen",
-    "o": "",
-    "p": "1.09",
-    "s": "330 ml",
-    "l": "",
-    "cn": "bio bonen bruine",
-    "ik": "tok:bio|bonen-bruine|330",
-    "bn": "bio",
-    "wg": 330
-  },
-  {
-    "n": "Bonduelle Linzen In Curry",
-    "o": "",
-    "p": "3.03",
-    "s": "400 ml",
-    "l": "",
-    "cn": "bonduelle curry in linzen",
-    "ik": "tok:bonduelle|curry-in-linzen|400",
-    "bn": "bonduelle",
-    "wg": 400
-  },
-  {
-    "n": "Bonduelle Kikkererwten In Mediterraanse Saus",
-    "o": "",
-    "p": "3.03",
-    "s": "400 ml",
-    "l": "",
-    "cn": "bonduelle in kikkererwten mediterraanse saus",
-    "ik": "tok:bonduelle|in-kikkererwten-mediterraanse-saus|400",
-    "bn": "bonduelle",
-    "wg": 400
   },
   {
     "n": "Kühne Cocktailsalade",
@@ -5261,28 +3345,6 @@
     "ik": "tok:hak|bowl-ne-prote-tajine|555",
     "bn": "hak",
     "wg": 555
-  },
-  {
-    "n": "Hak Chilibonen",
-    "o": "",
-    "p": "2.09",
-    "s": "380 ml",
-    "l": "",
-    "cn": "hak chilibonen",
-    "ik": "tok:hak|chilibonen|380",
-    "bn": "hak",
-    "wg": 380
-  },
-  {
-    "n": "Plus Postelein",
-    "o": "",
-    "p": "2.99",
-    "s": "400 ml",
-    "l": "",
-    "cn": "plus postelein",
-    "ik": "tok:plus|postelein|400",
-    "bn": "plus",
-    "wg": 400
   },
   {
     "n": "Biologisch Plus Kruiden Basilicum",
@@ -5395,39 +3457,6 @@
     "wg": 15
   },
   {
-    "n": "Biologisch Plus Bieslook",
-    "o": "2 VOOR 3.00",
-    "p": "1.99",
-    "s": "1 stuk",
-    "l": "https://cdn.syndy.com/media/products/77000000-96b0-6eab-b98d-08dd232fa131/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAd6cI2FaZyQjdIy_hmg.290x290.jpg",
-    "cn": "plus bieslook biologisch",
-    "ik": "tok:plus|bieslook-biologisch|1",
-    "bn": "plus",
-    "wg": 1
-  },
-  {
-    "n": "Biologisch Plus Tuinkers",
-    "o": "",
-    "p": "1.35",
-    "s": "20 ml",
-    "l": "https://cdn.syndy.com/media/products/58040000-6148-5aeb-ce6c-08dd96e6e400/images/AW0HA3GItENDpZ-NPK0ohvI./AAAET3sFqtqZ8AjdmFrm7Q.290x290.jpg",
-    "cn": "plus biologisch tuinkers",
-    "ik": "tok:plus|biologisch-tuinkers|20",
-    "bn": "plus",
-    "wg": 20
-  },
-  {
-    "n": "Plus Alfalfa",
-    "o": "",
-    "p": "1.19",
-    "s": "40 ml",
-    "l": "https://cdn.syndy.com/media/products/f80a0000-4883-0022-5a31-08dcd6527064/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWg81OkoVygjc1-ql6A.290x290.jpg",
-    "cn": "plus alfalfa",
-    "ik": "tok:plus|alfalfa|40",
-    "bn": "plus",
-    "wg": 40
-  },
-  {
     "n": "Kruimige Aardappelen Groen",
     "o": "",
     "p": "4.39",
@@ -5459,17 +3488,6 @@
     "ik": "tok:kruimige|aardappelen|5000",
     "bn": "kruimige",
     "wg": 5000
-  },
-  {
-    "n": "Plus Minikrieltjes Gvp",
-    "o": "",
-    "p": "1.51",
-    "s": "700 ml",
-    "l": "https://cdn.syndy.com/media/products/6f000000-01e4-1652-a3dd-08dd07e8f8b2/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE7-KQjdGRvodQ.290x290.jpg",
-    "cn": "plus gvp minikrieltjes",
-    "ik": "tok:plus|gvp-minikrieltjes|700",
-    "bn": "plus",
-    "wg": 700
   },
   {
     "n": "Vastkokende Aardappelen",
@@ -5505,17 +3523,6 @@
     "wg": 1000
   },
   {
-    "n": "Plus Verse Frites",
-    "o": "",
-    "p": "2.49",
-    "s": "1 l",
-    "l": "https://cdn.syndy.com/media/products/68160000-4883-0022-959c-08dcc11fefdc/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHYqagjc7pe3KA.290x290.jpg",
-    "cn": "plus frites verse",
-    "ik": "tok:plus|frites-verse|1000",
-    "bn": "plus",
-    "wg": 1000
-  },
-  {
     "n": "Aardappelgratin",
     "o": "",
     "p": "2.65",
@@ -5524,17 +3531,6 @@
     "cn": "aardappelgratin",
     "ik": "tok:aardappelgratin|unknown|500",
     "bn": "aardappelgratin",
-    "wg": 500
-  },
-  {
-    "n": "Plus Bistro Minikrieltjes",
-    "o": "",
-    "p": "1.10",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0200-bd8b-6045-1a00-08dcfcdcb67e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE7QqwjdGRwF-A.290x290.jpg",
-    "cn": "plus bistro minikrieltjes",
-    "ik": "tok:plus|bistro-minikrieltjes|500",
-    "bn": "plus",
     "wg": 500
   },
   {
@@ -5547,72 +3543,6 @@
     "ik": "tok:bio|aardappels-kruimig|2000",
     "bn": "bio",
     "wg": 2000
-  },
-  {
-    "n": "Plus Aardappelschijfjes Gvp",
-    "o": "",
-    "p": "1.50",
-    "s": "700 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0200-bd8b-6045-8f9e-08dcfcdcb693/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE7a2AjdGRuhbA.290x290.jpg",
-    "cn": "plus aardappelschijfjes gvp",
-    "ik": "tok:plus|aardappelschijfjes-gvp|700",
-    "bn": "plus",
-    "wg": 700
-  },
-  {
-    "n": "Plus Kookaardappelen Kruimig",
-    "o": "",
-    "p": "1.29",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0000-bd8b-6045-6182-08dcfcdcb7a3/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE4w0wjdGRvRuw.290x290.jpg",
-    "cn": "plus kookaardappelen kruimig",
-    "ik": "tok:plus|kookaardappelen-kruimig|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
-    "n": "Plus Bistro Minikrieltjes Gvp",
-    "o": "",
-    "p": "1.51",
-    "s": "700 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0000-bd8b-6045-5b71-08dcfcdcb562/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE5X2AjdGRuxmg.290x290.jpg",
-    "cn": "plus bistro gvp minikrieltjes",
-    "ik": "tok:plus|bistro-gvp-minikrieltjes|700",
-    "bn": "plus",
-    "wg": 700
-  },
-  {
-    "n": "Plus Aardappelschijfjes",
-    "o": "",
-    "p": "1.08",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0000-bd8b-6045-834a-08dcfcdcb54a/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE5a6gjdGRuRxw.290x290.jpg",
-    "cn": "plus aardappelschijfjes",
-    "ik": "tok:plus|aardappelschijfjes|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
-    "n": "Plus Minikrieltjes",
-    "o": "",
-    "p": "1.10",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0000-bd8b-6045-9cad-08dcfcdcb79e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE42SQjdGRvcGA.290x290.jpg",
-    "cn": "plus minikrieltjes",
-    "ik": "tok:plus|minikrieltjes|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
-    "n": "Plus Aardappelpartjes In Schil",
-    "o": "",
-    "p": "1.09",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0100-bd8b-6045-c077-08dcfcdcb4e8/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE5sNQjdGRuCZg.290x290.jpg",
-    "cn": "plus aardappelpartjes in schil",
-    "ik": "tok:plus|aardappelpartjes-in-schil|500",
-    "bn": "plus",
-    "wg": 500
   },
   {
     "n": "Kriel Aardappeltjes",
@@ -5646,17 +3576,6 @@
     "ik": "tok:aardappelen|vastkokend-vrij|3000",
     "bn": "aardappelen",
     "wg": 3000
-  },
-  {
-    "n": "Plus Aardappelpartjes Gekruid",
-    "o": "",
-    "p": "1.05",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0000-bd8b-6045-4377-08dcfcdcb628/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE76IAjdGRtkow.290x290.jpg",
-    "cn": "plus aardappelpartjes gekruid",
-    "ik": "tok:plus|aardappelpartjes-gekruid|500",
-    "bn": "plus",
-    "wg": 500
   },
   {
     "n": "Aardappelschijfjes",
@@ -5703,17 +3622,6 @@
     "wg": 200
   },
   {
-    "n": "Plus Bourgondische Minikrieltjes",
-    "o": "",
-    "p": "1.09",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0100-bd8b-6045-02e2-08dcfcdcb706/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE6OOgjdGRu8ZA.290x290.jpg",
-    "cn": "plus bourgondische minikrieltjes",
-    "ik": "tok:plus|bourgondische-minikrieltjes|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
     "n": "Zoete Aardappelfriet",
     "o": "",
     "p": "2.09",
@@ -5747,17 +3655,6 @@
     "wg": 700
   },
   {
-    "n": "Plus Opbakkertjes",
-    "o": "",
-    "p": "1.39",
-    "s": "700 ml",
-    "l": "https://cdn.syndy.com/media/products/08140100-bd8b-6045-5aaa-08dcf1db6adb/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHYlGAjc82t2Wg.290x290.jpg",
-    "cn": "plus opbakkertjes",
-    "ik": "tok:plus|opbakkertjes|700",
-    "bn": "plus",
-    "wg": 700
-  },
-  {
     "n": "Cêlavíta Minikrieltjes",
     "o": "",
     "p": "1.75",
@@ -5778,39 +3675,6 @@
     "ik": "tok:plus|stoomkrieltjes|500",
     "bn": "plus",
     "wg": 500
-  },
-  {
-    "n": "Plus Snelkookaardappelen",
-    "o": "",
-    "p": "2.99",
-    "s": "1.50 l",
-    "l": "https://cdn.syndy.com/media/products/08140000-bd8b-6045-a70f-08dcf1db6d9f/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHanowjc82uX3g.290x290.jpg",
-    "cn": "plus snelkookaardappelen",
-    "ik": "tok:plus|snelkookaardappelen|1500",
-    "bn": "plus",
-    "wg": 1500
-  },
-  {
-    "n": "Plus Stamppotaardappelen",
-    "o": "",
-    "p": "2.99",
-    "s": "1.50 l",
-    "l": "https://cdn.syndy.com/media/products/08140000-bd8b-6045-3127-08dcf1db6f21/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHY3SAjc82sE4w.290x290.jpg",
-    "cn": "plus stamppotaardappelen",
-    "ik": "tok:plus|stamppotaardappelen|1500",
-    "bn": "plus",
-    "wg": 1500
-  },
-  {
-    "n": "Plus Frietaardappelen",
-    "o": "",
-    "p": "2.49",
-    "s": "1.50 l",
-    "l": "https://cdn.syndy.com/media/products/08140000-bd8b-6045-5488-08dcf1db6e23/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHbcQQjc82r4dA.290x290.jpg",
-    "cn": "plus frietaardappelen",
-    "ik": "tok:plus|frietaardappelen|1500",
-    "bn": "plus",
-    "wg": 1500
   },
   {
     "n": "Plus Aardappelgratin Asperge",
@@ -5879,28 +3743,6 @@
     "wg": 500
   },
   {
-    "n": "Plus Spaghetti",
-    "o": "",
-    "p": "0.95",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/100b0000-3aab-000d-06ba-08dc734b7b07/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXpEftnaTTwjcm2mtnA.290x290.jpg",
-    "cn": "plus spaghetti",
-    "ik": "tok:plus|spaghetti|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
-    "n": "Plus Tagliatelle Met Ei",
-    "o": "",
-    "p": "1.89",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/100b0000-3aab-000d-c0f6-08dc734b78bd/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWLIbGPL60gjcmdqKjA.290x290.jpg",
-    "cn": "plus ei tagliatelle",
-    "ik": "tok:plus|ei-tagliatelle|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
     "n": "Grand'Italia Pasta Penne Tradizionali",
     "o": "",
     "p": "2.09",
@@ -5910,28 +3752,6 @@
     "ik": "tok:grand|italia-pasta-penne-tradizionali|500",
     "bn": "grand",
     "wg": 500
-  },
-  {
-    "n": "Plus Penne Rigate",
-    "o": "",
-    "p": "0.85",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/0c060000-3a24-000d-289c-08dbcee2ec09/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAd4eCzloadAjcdPYchA.290x290.jpg",
-    "cn": "plus penne rigate",
-    "ik": "tok:plus|penne-rigate|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
-    "n": "Plus Ravioli 3 Kazen",
-    "o": "",
-    "p": "2.39",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/901a0600-3a24-000d-ce6b-08dbd3c3c305/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAVjqGqsY13Ajb1U2a3Q.290x290.jpg",
-    "cn": "plus kazen ravioli",
-    "ik": "tok:plus|kazen-ravioli|250",
-    "bn": "plus",
-    "wg": 250
   },
   {
     "n": "Grand'Italia Spaghetti all'uovo",
@@ -5956,18 +3776,6 @@
     "wg": 500
   },
   {
-    "n": "Plus Fusilli",
-    "o": "",
-    "p": "1.19",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/20190200-3a24-000d-38f2-08dbc8d35630/images/AW0HA3GItENDpZ-NPK0ohvI./AAEECCQ6DQCYZQjb3FaWvw.290x290.jpg",
-    "b": "20190200",
-    "cn": "plus fusilli",
-    "ik": "ean:20190200",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
     "n": "Daily Chef Tortelini Ricotta Spinazie",
     "o": "",
     "p": "2.99",
@@ -5977,17 +3785,6 @@
     "ik": "tok:daily|chef-ricotta-spinazie-tortelini|250",
     "bn": "daily",
     "wg": 250
-  },
-  {
-    "n": "Plus Macaroni",
-    "o": "",
-    "p": "0.65",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/20190000-3a24-000d-4046-08dbc8d35b53/images/AW0HA3GItENDpZ-NPK0ohvI./AAEY_CQ6DQCQPAjb32q0vw.290x290.jpg",
-    "cn": "plus macaroni",
-    "ik": "tok:plus|macaroni|500",
-    "bn": "plus",
-    "wg": 500
   },
   {
     "n": "Plus Lasagne Bladen",
@@ -6067,39 +3864,6 @@
     "wg": 500
   },
   {
-    "n": "Plus Macaroni Vlugkokend",
-    "o": "",
-    "p": "0.65",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/f40c0000-3a47-000d-a0cd-08db65e9d74a/images/AW0HA3GItENDpZ-NPK0ohvI./AAwECCQ6DQD_7Ajb3FZ3rg.290x290.jpg",
-    "cn": "plus macaroni vlugkokend",
-    "ik": "tok:plus|macaroni-vlugkokend|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
-    "n": "Plus Fusilli Tricolore",
-    "o": "",
-    "p": "1.39",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/20191000-3a24-000d-7441-08dbc8d3562b/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHb7lAjc_ZdTog.290x290.jpg",
-    "cn": "plus fusilli tricolore",
-    "ik": "tok:plus|fusilli-tricolore|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
-    "n": "Honig Macaroni Vlugkokend",
-    "o": "",
-    "p": "1.04",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/64000000-738f-fe82-d8a8-08dcaa521810/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWo5b2rY6XQjc3R-1mw.290x290.jpg",
-    "cn": "honig macaroni vlugkokend",
-    "ik": "tok:honig|macaroni-vlugkokend|250",
-    "bn": "honig",
-    "wg": 250
-  },
-  {
     "n": "Grand'Italia Tortellini Al Gusto Carne",
     "o": "",
     "p": "3.14",
@@ -6122,28 +3886,6 @@
     "wg": 500
   },
   {
-    "n": "Plus Macaroni Volkoren",
-    "o": "",
-    "p": "0.69",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/f40c0200-3a47-000d-c9b3-08db65e9d732/images/AW0HA3GItENDpZ-NPK0ohvI./AAwECCQ6DQCAegjb3FZgoQ.290x290.jpg",
-    "cn": "plus macaroni volkoren",
-    "ik": "tok:plus|macaroni-volkoren|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
-    "n": "Plus Gnocchi",
-    "o": "",
-    "p": "2.99",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/bc070b00-4883-0022-648b-08dce6d467e4/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXNEYL-KNrwjc6EpGkg.290x290.jpg",
-    "cn": "plus gnocchi",
-    "ik": "tok:plus|gnocchi|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
     "n": "Honig Spaghetti Origineel",
     "o": "",
     "p": "1.98",
@@ -6153,28 +3895,6 @@
     "ik": "tok:honig|origineel-spaghetti|550",
     "bn": "honig",
     "wg": 550
-  },
-  {
-    "n": "Plus Mini Penne Volkoren",
-    "o": "",
-    "p": "0.85",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/8c1e0c00-3a24-000d-0272-08dbef5b248c/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWQYQ8zr1-Qjb8O_0KA.290x290.jpg",
-    "cn": "plus mini penne volkoren",
-    "ik": "tok:plus|mini-penne-volkoren|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
-    "n": "Plus Spaghetti Naturel",
-    "o": "",
-    "p": "2.29",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/901a0000-3a24-000d-6c0b-08dbd3c3c303/images/AW0HA3GItENDpZ-NPK0ohvI./AAwY_CQ6DQD_jQjb32oZDw.290x290.jpg",
-    "cn": "plus naturel spaghetti",
-    "ik": "tok:plus|naturel-spaghetti|250",
-    "bn": "plus",
-    "wg": 250
   },
   {
     "n": "Grand'Italia Mini Penne Tradizionali",
@@ -6210,17 +3930,6 @@
     "wg": 500
   },
   {
-    "n": "Grand'Italia Lasagne Tradizionali",
-    "o": "",
-    "p": "2.61",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/42121a12-c52e-48c9-ad97-4c9417ea2407/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAcvhQD8pisgjcaEl_rg.290x290.jpg",
-    "cn": "grand italia lasagne tradizionali",
-    "ik": "tok:grand|italia-lasagne-tradizionali|250",
-    "bn": "grand",
-    "wg": 250
-  },
-  {
     "n": "Grand'Italia Pipe Rigate",
     "o": "",
     "p": "2.09",
@@ -6254,17 +3963,6 @@
     "wg": 500
   },
   {
-    "n": "Plus Spaghetti Met Ei",
-    "o": "",
-    "p": "1.39",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/100b0000-3aab-000d-379b-08dc734b78b4/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHbRSgjc_Zc36A.290x290.jpg",
-    "cn": "plus ei spaghetti",
-    "ik": "tok:plus|ei-spaghetti|500",
-    "bn": "plus",
-    "wg": 500
-  },
-  {
     "n": "La Molisana Gnocchi n° 622",
     "o": "",
     "p": "2.51",
@@ -6285,17 +3983,6 @@
     "ik": "tok:selezione|gevulde-paddenstoelen-pasta-ristorante|250",
     "bn": "selezione",
     "wg": 250
-  },
-  {
-    "n": "Bio+ Fusilli Volkoren",
-    "o": "",
-    "p": "1.29",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/2d740000-ff27-0003-6bd2-08d76122fe4f/images/AW0HA3GItENDpZ-NPK0ohvI./AABKcyf-AwDquAjZSOhNHA.290x290.jpg",
-    "cn": "bio fusilli volkoren",
-    "ik": "tok:bio|fusilli-volkoren|500",
-    "bn": "bio",
-    "wg": 500
   },
   {
     "n": "Grand Italia Linguine All Uovo",
@@ -6331,28 +4018,6 @@
     "wg": 250
   },
   {
-    "n": "Bio+ Penne Volkoren",
-    "o": "",
-    "p": "0.89",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/7f050000-ff27-0003-7bb8-08d73534c317/images/AW0HA3GItENDpZ-NPK0ohvI./AABKcyf-AwBJ_AjZSOhNOg.290x290.jpg",
-    "cn": "bio penne volkoren",
-    "ik": "tok:bio|penne-volkoren|500",
-    "bn": "bio",
-    "wg": 500
-  },
-  {
-    "n": "Grand'Italia Pasta Penne Volkoren",
-    "o": "",
-    "p": "2.09",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/08a23d0e-bca8-4665-9a46-680ad976a846/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAcvhQD8peRQjcaEmLCA.290x290.jpg",
-    "cn": "grand italia pasta penne volkoren",
-    "ik": "tok:grand|italia-pasta-penne-volkoren|500",
-    "bn": "grand",
-    "wg": 500
-  },
-  {
     "n": "Bio+ Biologische Spaghetti Volkoren",
     "o": "",
     "p": "0.99",
@@ -6361,17 +4026,6 @@
     "cn": "bio biologische spaghetti volkoren",
     "ik": "tok:bio|biologische-spaghetti-volkoren|500",
     "bn": "bio",
-    "wg": 500
-  },
-  {
-    "n": "Plus Pipe Rigate",
-    "o": "",
-    "p": "1.19",
-    "s": "500 ml",
-    "l": "https://cdn.syndy.com/media/products/20190100-3a24-000d-b6ba-08dbc8d35b49/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHb7Hwjc_Zdelg.290x290.jpg",
-    "cn": "plus pipe rigate",
-    "ik": "tok:plus|pipe-rigate|500",
-    "bn": "plus",
     "wg": 500
   },
   {
@@ -6452,17 +4106,6 @@
     "wg": 500
   },
   {
-    "n": "Bertolli Pizzabodems",
-    "o": "1 + 1 GRATIS",
-    "p": "2.82",
-    "s": "280 ml",
-    "l": "https://cdn.syndy.com/media/products/734a0000-ff27-0003-b5e1-08d9354d7e5c/images/AW0HA3GItENDpZ-NPK0ohvI./AAATWif-AwChHAjazRiDMw.290x290.jpg",
-    "cn": "bertolli pizzabodems",
-    "ik": "tok:bertolli|pizzabodems|280",
-    "bn": "bertolli",
-    "wg": 280
-  },
-  {
     "n": "Grand'Italia Fusilli Half Volkoren",
     "o": "",
     "p": "2.09",
@@ -6472,17 +4115,6 @@
     "ik": "tok:grand|fusilli-half-italia-volkoren|500",
     "bn": "grand",
     "wg": 500
-  },
-  {
-    "n": "Plus Elleboogmacaroni",
-    "o": "",
-    "p": "1.29",
-    "s": "1 l",
-    "l": "https://cdn.syndy.com/media/products/68160000-4883-0022-7112-08dcc11feb2f/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHbRvwjc_ZdCYw.290x290.jpg",
-    "cn": "plus elleboogmacaroni",
-    "ik": "tok:plus|elleboogmacaroni|1000",
-    "bn": "plus",
-    "wg": 1000
   },
   {
     "n": "Grand'Italia Tortellini Met Spinazie En Ricotta",
@@ -6504,17 +4136,6 @@
     "cn": "grand all italia pasta penne uovo",
     "ik": "tok:grand|all-italia-pasta-penne-uovo|500",
     "bn": "grand",
-    "wg": 500
-  },
-  {
-    "n": "Bio+ Tagliatelle",
-    "o": "",
-    "p": "1.99",
-    "s": "500 ml",
-    "l": "",
-    "cn": "bio tagliatelle",
-    "ik": "tok:bio|tagliatelle|500",
-    "bn": "bio",
     "wg": 500
   },
   {
@@ -6595,28 +4216,6 @@
     "wg": 350
   },
   {
-    "n": "Plus Lasagnebladen Volkoren",
-    "o": "",
-    "p": "1.39",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/3c140300-bd97-6045-3797-08db716dbc4d/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHbWzwjc73XW0g.290x290.jpg",
-    "cn": "plus lasagnebladen volkoren",
-    "ik": "tok:plus|lasagnebladen-volkoren|250",
-    "bn": "plus",
-    "wg": 250
-  },
-  {
-    "n": "Winiary Spaghetti Bolognese",
-    "o": "",
-    "p": "2.30",
-    "s": "61 ml",
-    "l": "https://cdn.syndy.com/media/products/2d740000-ff27-0003-2e32-08d72a2616f8/images/AW0HA3GItENDpZ-NPK0ohvI./AAAJpK-treq-4wjYqzl31A.290x290.jpg",
-    "cn": "winiary bolognese spaghetti",
-    "ik": "tok:winiary|bolognese-spaghetti|61",
-    "bn": "winiary",
-    "wg": 61
-  },
-  {
     "n": "Knorr Tomaten Penne",
     "o": "",
     "p": "2.82",
@@ -6650,17 +4249,6 @@
     "wg": 1000
   },
   {
-    "n": "Plus Witte Rijst",
-    "o": "",
-    "p": "0.89",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/081d0100-bd97-6045-06b5-08db815341e3/images/AW0HA3GItENDpZ-NPK0ohvI./AAwECCQ6DQBFngjb3FZ5Ag.290x290.jpg",
-    "cn": "plus rijst witte",
-    "ik": "tok:plus|rijst-witte|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
     "n": "Pandan Rijst",
     "o": "",
     "p": "2.09",
@@ -6670,61 +4258,6 @@
     "ik": "tok:pandan|rijst|1000",
     "bn": "pandan",
     "wg": 1000
-  },
-  {
-    "n": "Plus Zilvervliesrijst Voordeelverpakking",
-    "o": "",
-    "p": "1.49",
-    "s": "1 l",
-    "l": "https://cdn.syndy.com/media/products/4c080000-3a28-000d-c2d1-08db81534256/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWLIbGPLFjQjcmdk0Pg.290x290.jpg",
-    "cn": "plus zilvervliesrijst",
-    "ik": "tok:plus|zilvervliesrijst|1000",
-    "bn": "plus",
-    "wg": 1000
-  },
-  {
-    "n": "Plus Zilvervliesrijst",
-    "o": "",
-    "p": "1.09",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/081d0100-bd97-6045-cb4d-08db815341e7/images/AW0HA3GItENDpZ-NPK0ohvI./AAEECCQ6DQDhhgjb3FaC5Q.290x290.jpg",
-    "cn": "plus zilvervliesrijst",
-    "ik": "tok:plus|zilvervliesrijst|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
-    "n": "Lassie Witte Snelkook Tover Rijst",
-    "o": "",
-    "p": "1.46",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/5c290000-ff27-0003-9358-08d6b139e73b/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAc9vhlnauWwjcI6v6og.290x290.png",
-    "cn": "lassie rijst snelkook tover witte",
-    "ik": "tok:lassie|rijst-snelkook-tover-witte|400",
-    "bn": "lassie",
-    "wg": 400
-  },
-  {
-    "n": "Plus Risotto",
-    "o": "",
-    "p": "2.07",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/3c140100-bd97-6045-08a5-08db764cfada/images/AW0HA3GItENDpZ-NPK0ohvI./AAEb-CQ6DQAM1wjbuy9rNg.290x290.jpg",
-    "cn": "plus risotto",
-    "ik": "tok:plus|risotto|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
-    "n": "Lassie Toverrijst Voordeelpak",
-    "o": "",
-    "p": "2.47",
-    "s": "750 ml",
-    "l": "https://cdn.syndy.com/media/products/4e750000-ff27-0003-08e3-08d800c69420/images/AW0HA3GItENDpZ-NPK0ohvI./AAA2eSf-AwBf6QjYlcBONA.290x290.jpg",
-    "cn": "lassie toverrijst",
-    "ik": "tok:lassie|toverrijst|750",
-    "bn": "lassie",
-    "wg": 750
   },
   {
     "n": "Plus Basmatirijst Fairtrade",
@@ -6771,39 +4304,6 @@
     "wg": 375
   },
   {
-    "n": "Lassie Zilvervliesrijst",
-    "o": "",
-    "p": "1.52",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/5c290000-ff27-0003-baaf-08d6c7e7aec6/images/AW0HA3GItENDpZ-NPK0ohvI./AAATWif-AwA6igjavJewDg.290x290.jpg",
-    "cn": "lassie zilvervliesrijst",
-    "ik": "tok:lassie|zilvervliesrijst|400",
-    "bn": "lassie",
-    "wg": 400
-  },
-  {
-    "n": "Lassie Zilvervliesrijst Voordeelpak",
-    "o": "",
-    "p": "2.47",
-    "s": "750 ml",
-    "l": "https://cdn.syndy.com/media/products/4e750000-ff27-0003-7b43-08d800c694d0/images/AW0HA3GItENDpZ-NPK0ohvI./AAA2eSf-AwBChQjYlcBIwQ.290x290.jpg",
-    "cn": "lassie zilvervliesrijst",
-    "ik": "tok:lassie|zilvervliesrijst|750",
-    "bn": "lassie",
-    "wg": 750
-  },
-  {
-    "n": "Lassie Risotto Rijst",
-    "o": "",
-    "p": "2.40",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/5c290000-ff27-0003-d84f-08d6c7e7af2a/images/AW0HA3GItENDpZ-NPK0ohvI./AADPRCf-AwBIugjaEh-m0Q.290x290.jpg",
-    "cn": "lassie rijst risotto",
-    "ik": "tok:lassie|rijst-risotto|400",
-    "bn": "lassie",
-    "wg": 400
-  },
-  {
     "n": "Lassie Bio Couscous",
     "o": "",
     "p": "1.77",
@@ -6826,17 +4326,6 @@
     "wg": 250
   },
   {
-    "n": "Lassie Toverrijst Extra Vezels",
-    "o": "",
-    "p": "2.09",
-    "s": "375 ml",
-    "l": "https://cdn.syndy.com/media/products/ec1d0f00-3a47-000d-cf81-08db6b4c6f52/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAc9vhlnZVZQjcI6v6iQ.290x290.png",
-    "cn": "lassie extra toverrijst vezels",
-    "ik": "tok:lassie|extra-toverrijst-vezels|375",
-    "bn": "lassie",
-    "wg": 375
-  },
-  {
     "n": "Plus Pandanrijst Fairtrade",
     "o": "",
     "p": "1.49",
@@ -6846,17 +4335,6 @@
     "ik": "tok:plus|fairtrade-pandanrijst|400",
     "bn": "plus",
     "wg": 400
-  },
-  {
-    "n": "Lassie Gele Rijst",
-    "o": "",
-    "p": "2.19",
-    "s": "325 ml",
-    "l": "https://cdn.syndy.com/media/products/37e9e811-b58e-42a1-84f4-cbe640dd9339/images/AW0HA3GItENDpZ-NPK0ohvI./AAATWif-AwAqTwjavJec2Q.290x290.jpg",
-    "cn": "lassie gele rijst",
-    "ik": "tok:lassie|gele-rijst|325",
-    "bn": "lassie",
-    "wg": 325
   },
   {
     "n": "Lassie Poké Bowl Rijst",
@@ -6870,39 +4348,6 @@
     "wg": 375
   },
   {
-    "n": "Lassie Dessertrijst",
-    "o": "",
-    "p": "1.94",
-    "s": "400 ml",
-    "l": "https://cdn.syndy.com/media/products/5c290000-ff27-0003-bcf7-08d6c7e7ae1d/images/AW0HA3GItENDpZ-NPK0ohvI./AAATWif-AwBJFgjavJewFQ.290x290.jpg",
-    "cn": "lassie dessertrijst",
-    "ik": "tok:lassie|dessertrijst|400",
-    "bn": "lassie",
-    "wg": 400
-  },
-  {
-    "n": "Lassie Meer Noten Rijst",
-    "o": "",
-    "p": "2.40",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/5a240000-ff27-0003-299b-08da4d23d442/images/AW0HA3GItENDpZ-NPK0ohvI./AAAkWif-AwDX5QjaXxTrJQ.290x290.jpg",
-    "cn": "lassie meer noten rijst",
-    "ik": "tok:lassie|meer-noten-rijst|250",
-    "bn": "lassie",
-    "wg": 250
-  },
-  {
-    "n": "Lassie Orzo",
-    "o": "",
-    "p": "1.56",
-    "s": "275 ml",
-    "l": "https://cdn.syndy.com/media/products/7b3b0000-ff27-0003-6555-08d86446f850/images/AW0HA3GItENDpZ-NPK0ohvI./AAA2eSf-AwBptQjYkD6Czw.290x290.jpg",
-    "cn": "lassie orzo",
-    "ik": "tok:lassie|orzo|275",
-    "bn": "lassie",
-    "wg": 275
-  },
-  {
     "n": "Plus Snelkookrijst Builtjes",
     "o": "",
     "p": "1.15",
@@ -6914,28 +4359,6 @@
     "wg": 300
   },
   {
-    "n": "Lassie Bio Quinoa Mix",
-    "o": "",
-    "p": "3.56",
-    "s": "275 ml",
-    "l": "https://cdn.syndy.com/media/products/2d740000-ff27-0003-08b3-08d7594b617c/images/AW0HA3GItENDpZ-NPK0ohvI./AAAH9Sk6DQATFwjba9Qw7w.290x290.jpg",
-    "cn": "lassie bio mix quinoa",
-    "ik": "tok:lassie|bio-mix-quinoa|275",
-    "bn": "lassie",
-    "wg": 275
-  },
-  {
-    "n": "Lassie Pandan Rijst",
-    "o": "",
-    "p": "2.19",
-    "s": "375 ml",
-    "l": "https://cdn.syndy.com/media/products/5a240000-ff27-0003-c4aa-08da4d23d445/images/AW0HA3GItENDpZ-NPK0ohvI./AAAkWif-AwBLYAjaXxTrLg.290x290.jpg",
-    "cn": "lassie pandan rijst",
-    "ik": "tok:lassie|pandan-rijst|375",
-    "bn": "lassie",
-    "wg": 375
-  },
-  {
     "n": "Lassie Voorgestoomde Toverrijst Panklaar",
     "o": "",
     "p": "2.09",
@@ -6943,17 +4366,6 @@
     "l": "https://cdn.syndy.com/media/products/25c30000-ff27-0003-dce9-08d787be8853/images/AW0HA3GItENDpZ-NPK0ohvI./AAATWif-AwDxxwjavJeyRA.290x290.jpg",
     "cn": "lassie panklaar toverrijst voorgestoomde",
     "ik": "tok:lassie|panklaar-toverrijst-voorgestoomde|250",
-    "bn": "lassie",
-    "wg": 250
-  },
-  {
-    "n": "Lassie Poke Bowl Kant & Klaar Rijst",
-    "o": "",
-    "p": "2.93",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/6d780000-ff27-0003-58c3-08d8f9bf80ce/images/AW0HA3GItENDpZ-NPK0ohvI./AADPRCf-AwCTSwjaEh-oDg.290x290.jpg",
-    "cn": "lassie bowl kant klaar poke rijst",
-    "ik": "tok:lassie|bowl-kant-klaar-poke-rijst|250",
     "bn": "lassie",
     "wg": 250
   },
@@ -6980,17 +4392,6 @@
     "wg": 300
   },
   {
-    "n": "Lassie Bio Zilvervliesrijst",
-    "o": "",
-    "p": "2.40",
-    "s": "375 ml",
-    "l": "https://cdn.syndy.com/media/products/5c290000-ff27-0003-0226-08d6ac4a2510/images/AW0HA3GItENDpZ-NPK0ohvI./AAATWif-AwB1XAjavJev7Q.290x290.jpg",
-    "cn": "lassie bio zilvervliesrijst",
-    "ik": "tok:lassie|bio-zilvervliesrijst|375",
-    "bn": "lassie",
-    "wg": 375
-  },
-  {
     "n": "Tilda Basmati Pure Original",
     "o": "",
     "p": "2.93",
@@ -7000,17 +4401,6 @@
     "ik": "tok:tilda|basmati-original-pure|500",
     "bn": "tilda",
     "wg": 500
-  },
-  {
-    "n": "Lassie Meer Granen Rijst",
-    "o": "",
-    "p": "2.51",
-    "s": "275 ml",
-    "l": "https://cdn.syndy.com/media/products/5a240000-ff27-0003-176a-08da4d23d441/images/AW0HA3GItENDpZ-NPK0ohvI./AAAkWif-AwBs1gjaXxTrFw.290x290.jpg",
-    "cn": "lassie granen meer rijst",
-    "ik": "tok:lassie|granen-meer-rijst|275",
-    "bn": "lassie",
-    "wg": 275
   },
   {
     "n": "Bio+ Biologische Parelcouscous",
@@ -7079,17 +4469,6 @@
     "wg": 300
   },
   {
-    "n": "Lassie Volkoren Orzo",
-    "o": "",
-    "p": "1.84",
-    "s": "275 ml",
-    "l": "https://cdn.syndy.com/media/products/40190000-3a25-000d-f400-08dc62d6455d/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdb4-7HZ_6QjcoB8k2w.290x290.jpg",
-    "cn": "lassie orzo volkoren",
-    "ik": "tok:lassie|orzo-volkoren|275",
-    "bn": "lassie",
-    "wg": 275
-  },
-  {
     "n": "Bio+ Biologische Couscous",
     "o": "",
     "p": "1.13",
@@ -7112,39 +4491,6 @@
     "wg": 400
   },
   {
-    "n": "Tilda Basmati Pure Rice",
-    "o": "",
-    "p": "5.13",
-    "s": "1 l",
-    "l": "https://cdn.syndy.com/media/products/79360000-ff27-0003-9a1c-08d87a646953/images/AW0HA3GItENDpZ-NPK0ohvI./AAA2eSf-AwCP_wjYlb552w.290x290.jpg",
-    "cn": "tilda basmati pure rice",
-    "ik": "tok:tilda|basmati-pure-rice|1000",
-    "bn": "tilda",
-    "wg": 1000
-  },
-  {
-    "n": "Lassie Bio Bulgur",
-    "o": "",
-    "p": "1.84",
-    "s": "275 ml",
-    "l": "https://cdn.syndy.com/media/products/20abaf6b-5680-4ed3-adfe-0a7862948816/images/AW0HA3GItENDpZ-NPK0ohvI./AAATWif-AwDtHgjavJdkJw.290x290.jpg",
-    "cn": "lassie bio bulgur",
-    "ik": "tok:lassie|bio-bulgur|275",
-    "bn": "lassie",
-    "wg": 275
-  },
-  {
-    "n": "Lassie Minuutje Pandan",
-    "o": "",
-    "p": "2.30",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/40190c00-3a25-000d-fb16-08dc62d642a8/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdb4-7HZuwgjcoB8XsA.290x290.jpg",
-    "cn": "lassie minuutje pandan",
-    "ik": "tok:lassie|minuutje-pandan|250",
-    "bn": "lassie",
-    "wg": 250
-  },
-  {
     "n": "Lassie Quinoa Builtje",
     "o": "",
     "p": "3.14",
@@ -7154,17 +4500,6 @@
     "ik": "tok:lassie|builtje-quinoa|300",
     "bn": "lassie",
     "wg": 300
-  },
-  {
-    "n": "Lassie Paella Rijst",
-    "o": "",
-    "p": "2.72",
-    "s": "450 ml",
-    "l": "https://cdn.syndy.com/media/products/4a3ba4cc-e988-491e-82f6-b7bcaf5369fa/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAc9vhlnahqgjcI6v6NQ.290x290.png",
-    "cn": "lassie paella rijst",
-    "ik": "tok:lassie|paella-rijst|450",
-    "bn": "lassie",
-    "wg": 450
   },
   {
     "n": "Tilda Fragnant Jasmine",
@@ -7211,50 +4546,6 @@
     "wg": 2000
   },
   {
-    "n": "Unirice Rijst Parboiled",
-    "o": "",
-    "p": "6.81",
-    "s": "2 l",
-    "l": "https://cdn.syndy.com/media/products/40190000-3a25-000d-b8b4-08dc62d64c04/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAdMBw6qKWSQjcY1KI9w.290x290.png",
-    "cn": "unirice parboiled rijst",
-    "ik": "tok:unirice|parboiled-rijst|2000",
-    "bn": "unirice",
-    "wg": 2000
-  },
-  {
-    "n": "Lassie Haverrijst",
-    "o": "",
-    "p": "1.56",
-    "s": "275 ml",
-    "l": "https://cdn.syndy.com/media/products/9c0f0500-bd8b-6045-2ca3-08dcfcdcc3b3/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WK-kAjdNVuk8g.290x290.jpg",
-    "cn": "lassie haverrijst",
-    "ik": "tok:lassie|haverrijst|275",
-    "bn": "lassie",
-    "wg": 275
-  },
-  {
-    "n": "Tilda Pure Basmati Rice",
-    "o": "",
-    "p": "2.26",
-    "s": "250 ml",
-    "l": "",
-    "cn": "tilda basmati pure rice",
-    "ik": "tok:tilda|basmati-pure-rice|250",
-    "bn": "tilda",
-    "wg": 250
-  },
-  {
-    "n": "Tilda Brown Basmati Wholegrain",
-    "o": "",
-    "p": "2.93",
-    "s": "500 ml",
-    "l": "",
-    "cn": "tilda basmati brown wholegrain",
-    "ik": "tok:tilda|basmati-brown-wholegrain|500",
-    "bn": "tilda",
-    "wg": 500
-  },
-  {
     "n": "Tilda Wholegrain Basmati Rice Class",
     "o": "",
     "p": "2.36",
@@ -7263,28 +4554,6 @@
     "cn": "tilda basmati class rice wholegrain",
     "ik": "tok:tilda|basmati-class-rice-wholegrain|250",
     "bn": "tilda",
-    "wg": 250
-  },
-  {
-    "n": "Sum & Sam Noedels Ready To Wok",
-    "o": "",
-    "p": "2.99",
-    "s": "300 ml",
-    "l": "https://cdn.syndy.com/media/products/9132cd81-c455-4afe-9d50-506026e27909/images/AW0HA3GItENDpZ-NPK0ohvI./AABbUCf-AwBwXgjYLfTWLg.290x290.jpg",
-    "cn": "sum noedels ready sam to wok",
-    "ik": "tok:sum|noedels-ready-sam-to-wok|300",
-    "bn": "sum",
-    "wg": 300
-  },
-  {
-    "n": "Soubry Chinese Eiermie",
-    "o": "",
-    "p": "0.89",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/3ee9ef14-f3e1-40b1-901f-6fbc2c75d0f9/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWK40nE74hgjdFRR_Sg.290x290.jpg",
-    "cn": "soubry chinese eiermie",
-    "ik": "tok:soubry|chinese-eiermie|250",
-    "bn": "soubry",
     "wg": 250
   },
   {
@@ -7299,17 +4568,6 @@
     "wg": 250
   },
   {
-    "n": "Maggi Roerbaknoedels Sweet Chili",
-    "o": "",
-    "p": "2.89",
-    "s": "185 ml",
-    "l": "https://cdn.syndy.com/media/products/39120000-ff27-0003-62ce-08d8e2ea74be/images/AW0HA3GItENDpZ-NPK0ohvI./AAASOSf-AwDgLQjY6EDiYA.290x290.jpg",
-    "cn": "maggi chili roerbaknoedels sweet",
-    "ik": "tok:maggi|chili-roerbaknoedels-sweet|185",
-    "bn": "maggi",
-    "wg": 185
-  },
-  {
     "n": "Go-Tan Egg Noodles Bio 250g",
     "o": "1 + 1 GRATIS",
     "p": "2.72",
@@ -7319,28 +4577,6 @@
     "ik": "tok:gotan|bio-egg-go-noodles-tan|250",
     "bn": "gotan",
     "wg": 250
-  },
-  {
-    "n": "Maggi Roerbaknoedels Ketjap Knoflook",
-    "o": "",
-    "p": "2.75",
-    "s": "185 ml",
-    "l": "https://cdn.syndy.com/media/products/39120000-ff27-0003-055d-08d8e2ea7856/images/AW0HA3GItENDpZ-NPK0ohvI./AAASOSf-AwANxgjY6EDiew.290x290.jpg",
-    "cn": "maggi ketjap knoflook roerbaknoedels",
-    "ik": "tok:maggi|ketjap-knoflook-roerbaknoedels|185",
-    "bn": "maggi",
-    "wg": 185
-  },
-  {
-    "n": "Maggi Roerbaknoedels Kip Kerrie",
-    "o": "",
-    "p": "2.75",
-    "s": "185 ml",
-    "l": "https://cdn.syndy.com/media/products/39120000-ff27-0003-e6b3-08d8e2ea699a/images/AW0HA3GItENDpZ-NPK0ohvI./AAASOSf-AwCEvQjY6EDh-w.290x290.jpg",
-    "cn": "maggi kerrie kip roerbaknoedels",
-    "ik": "tok:maggi|kerrie-kip-roerbaknoedels|185",
-    "bn": "maggi",
-    "wg": 185
   },
   {
     "n": "Sum & Sam Mihoen Fijne Rijstnoedels",
@@ -7363,28 +4599,6 @@
     "ik": "tok:ananasstukjes|op-siroop|567",
     "bn": "ananasstukjes",
     "wg": 567
-  },
-  {
-    "n": "Plus Ananasstukjes Op Sap",
-    "o": "",
-    "p": "1.25",
-    "s": "227 ml",
-    "l": "https://cdn.syndy.com/media/products/ec120000-3a24-000d-2665-08dbf4ee8ce5/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWLIbGPIk5wjcmdlZRA.290x290.jpg",
-    "cn": "plus ananasstukjes op sap",
-    "ik": "tok:plus|ananasstukjes-op-sap|227",
-    "bn": "plus",
-    "wg": 227
-  },
-  {
-    "n": "Plus Fruitcocktail",
-    "o": "",
-    "p": "2.79",
-    "s": "820 ml",
-    "l": "https://cdn.syndy.com/media/products/44140300-3a24-000d-3873-08db97518f63/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAcvhQD8rhYQjcaRsS4Q.290x290.jpg",
-    "cn": "plus fruitcocktail",
-    "ik": "tok:plus|fruitcocktail|820",
-    "bn": "plus",
-    "wg": 820
   },
   {
     "n": "Plus Halve Perziken Op Siroop",
@@ -7431,17 +4645,6 @@
     "wg": 312
   },
   {
-    "n": "Del Monte Ananas Stukjes Op Sap",
-    "o": "",
-    "p": "1.67",
-    "s": "227 ml",
-    "l": "https://cdn.syndy.com/media/products/4a370000-ff41-0003-4ea0-08d399364b9c/images/AW0HA3GItENDpZ-NPK0ohvI./AADDJSf-AwCpFgjXzK9J3w.290x290.jpg",
-    "cn": "del ananas monte op sap stukjes",
-    "ik": "tok:del|ananas-monte-op-sap-stukjes|227",
-    "bn": "del",
-    "wg": 227
-  },
-  {
     "n": "Ananasschijven Op Sap",
     "o": "",
     "p": "1.25",
@@ -7475,17 +4678,6 @@
     "wg": 825
   },
   {
-    "n": "Plus Kersen Zonder Pit",
-    "o": "",
-    "p": "1.69",
-    "s": "700 ml",
-    "l": "https://cdn.syndy.com/media/products/78000000-c2a9-621c-ae3c-08dc732fbb29/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHb8-wjc_Zctig.290x290.jpg",
-    "cn": "plus kersen pit zonder",
-    "ik": "tok:plus|kersen-pit-zonder|700",
-    "bn": "plus",
-    "wg": 700
-  },
-  {
     "n": "Del Monte Ananasschijven Op Siroop",
     "o": "",
     "p": "3.14",
@@ -7495,17 +4687,6 @@
     "ik": "tok:del|ananasschijven-monte-op-siroop|820",
     "bn": "del",
     "wg": 820
-  },
-  {
-    "n": "Del Monte Halve Perziken Op Sap",
-    "o": "",
-    "p": "2.40",
-    "s": "415 ml",
-    "l": "https://cdn.syndy.com/media/products/f8ad392c-cd9f-4106-81cf-12601b6820ce/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAXPyZrHadLwjc8laYcw.290x290.jpg",
-    "cn": "del halve monte op perziken sap",
-    "ik": "tok:del|halve-monte-op-perziken-sap|415",
-    "bn": "del",
-    "wg": 415
   },
   {
     "n": "Del Monte Fruitcocktail",
@@ -7530,17 +4711,6 @@
     "wg": 410
   },
   {
-    "n": "Hak Taart & Vlaaifruit Kersen",
-    "o": "",
-    "p": "3.14",
-    "s": "425 ml",
-    "l": "https://cdn.syndy.com/media/products/8c1aee3d-a409-4128-834d-f97bd30a2224/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WIWBwjdNFiCnA.290x290.jpg",
-    "cn": "hak kersen taart vlaaifruit",
-    "ik": "tok:hak|kersen-taart-vlaaifruit|425",
-    "bn": "hak",
-    "wg": 425
-  },
-  {
     "n": "Del Monte Mandarijnen Sap",
     "o": "",
     "p": "2.36",
@@ -7550,28 +4720,6 @@
     "ik": "tok:del|mandarijnen-monte-sap|300",
     "bn": "del",
     "wg": 300
-  },
-  {
-    "n": "Five Elephants Lychees Op Lichte Siroop",
-    "o": "",
-    "p": "2.61",
-    "s": "567 ml",
-    "l": "https://cdn.syndy.com/media/products/cd6300cb-ab11-4a46-938a-b5ce8f48482d/images/AW0HA3GItENDpZ-NPK0ohvI./AAAJpK-trer_HwjYqz7X9A.290x290.jpg",
-    "cn": "five elephants lichte lychees op siroop",
-    "ik": "tok:five|elephants-lichte-lychees-op-siroop|567",
-    "bn": "five",
-    "wg": 567
-  },
-  {
-    "n": "Aarts Kersen Zonder Pit",
-    "o": "",
-    "p": "3.24",
-    "s": "560 ml",
-    "l": "https://cdn.syndy.com/media/products/acfdb23f-89df-4fe4-abaa-aeffebc7399e/images/AW0HA3GItENDpZ-NPK0ohvI./AAAZPSf-AwA0UQjYtr9_UQ.290x290.jpg",
-    "cn": "aarts kersen pit zonder",
-    "ik": "tok:aarts|kersen-pit-zonder|560",
-    "bn": "aarts",
-    "wg": 560
   },
   {
     "n": "Del Monte Mango Schijfjes",
@@ -7651,17 +4799,6 @@
     "wg": 520
   },
   {
-    "n": "Aarts Fruitcocktail Light",
-    "o": "",
-    "p": "2.47",
-    "s": "340 ml",
-    "l": "https://cdn.syndy.com/media/products/75c19cef-646d-4ece-90a0-c572aa0708e0/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWBtymlK97AjcwNUq5g.290x290.jpg",
-    "cn": "aarts fruitcocktail light",
-    "ik": "tok:aarts|fruitcocktail-light|340",
-    "bn": "aarts",
-    "wg": 340
-  },
-  {
     "n": "Dole Tropical Gold Ananasschijven",
     "o": "",
     "p": "2.30",
@@ -7671,17 +4808,6 @@
     "ik": "tok:dole|ananasschijven-gold-tropical|567",
     "bn": "dole",
     "wg": 567
-  },
-  {
-    "n": "Ocean Spray Cranberry Compote",
-    "o": "",
-    "p": "2.30",
-    "s": "250 ml",
-    "l": "https://cdn.syndy.com/media/products/7825d1c6-1569-4c35-94f3-9707e7b53753/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAcoP_gKajpAjcThriFA.290x290.png",
-    "cn": "ocean compote cranberry spray",
-    "ik": "tok:ocean|compote-cranberry-spray|250",
-    "bn": "ocean",
-    "wg": 250
   },
   {
     "n": "Dole Tropical Gold Exotisch Fruit",
@@ -7704,28 +4830,6 @@
     "ik": "tok:dole|fruit-op-pack-sap-tropisch|452",
     "bn": "dole",
     "wg": 452
-  },
-  {
-    "n": "Hak Taart & Vlaaifruit Aardbeien",
-    "o": "",
-    "p": "3.03",
-    "s": "425 ml",
-    "l": "https://cdn.syndy.com/media/products/02075e4f-50bf-41c1-8d19-f169140c4c62/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAeR4S7WLfaAjdNFh9KQ.290x290.jpg",
-    "cn": "hak aardbeien taart vlaaifruit",
-    "ik": "tok:hak|aardbeien-taart-vlaaifruit|425",
-    "bn": "hak",
-    "wg": 425
-  },
-  {
-    "n": "Aarts Pruimen Kwetsen",
-    "o": "",
-    "p": "2.47",
-    "s": "580 ml",
-    "l": "https://cdn.syndy.com/media/products/86d06d13-e1df-4b38-88ba-6d2c9a2c996a/images/AW0HA3GItENDpZ-NPK0ohvI./AAAAWBtymlLVawjcwNUw0A.290x290.jpg",
-    "cn": "aarts kwetsen pruimen",
-    "ik": "tok:aarts|kwetsen-pruimen|580",
-    "bn": "aarts",
-    "wg": 580
   },
   {
     "n": "Dole Perziken Op Sap 4-pack",

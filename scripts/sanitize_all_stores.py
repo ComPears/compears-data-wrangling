@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT))
 
 from config.paths import all_catalog_paths, catalog_rel_path
 from product_sanitize import dedupe_by_identity, sanitize_entry
+from scripts.dedupe_coop_against_plus import dedupe_coop_against_plus
 
 
 def sanitize_file(rel_path: str) -> dict[str, int]:
@@ -79,6 +80,7 @@ def main() -> None:
         f"TOTAL: {totals['input']} → {totals['kept']} kept, "
         f"{totals['rejected']} rejected, {totals['deduped']} dupes"
     )
+    dedupe_coop_against_plus()
 
 
 if __name__ == "__main__":
