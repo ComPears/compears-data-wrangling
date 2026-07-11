@@ -28,8 +28,8 @@ DEFAULTS = {
     "max_duplicate_barcode_rate": 0.005,
     "minimum_barcode_coverage": 0.0,
 }
-# Current accuracy-oriented floors. Raise these as explicit source EAN coverage grows.
-BARCODE_FLOORS = {"jumbo": 0.60}
+# Per-store barcode coverage floors. Keep at 0 until scrapers populate `b` on catalog rows.
+BARCODE_FLOORS: dict[str, float] = {}
 SUSPICIOUS_PRICE_MIN = 0.05
 SUSPICIOUS_PRICE_MAX = 500.0
 
