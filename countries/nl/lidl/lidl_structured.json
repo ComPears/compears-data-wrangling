@@ -51,13 +51,12 @@
     "n": "Heineken",
     "p": "16.99",
     "o": "24-pack Alleen in de winkel 13/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/_x_2CCx6VPHV60e6sj3wbXMnmDyk0DBju2uaI-myez0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS81QUEyMzA5MDI4NjZENzIxQ0M3NDhDMUE/wMjA5M0IyNzg0QzE4QUE1MTg5QzA5MDg4MEQyOEQ1N0U0MjExRUJDLnBuZw.png",
     "c": "Other",
     "cn": "heineken",
-    "ik": "tok:heineken|unknown|1",
-    "bn": "heineken",
-    "wg": 1
+    "ik": "tok:heineken|unknown|na",
+    "bn": "heineken"
   },
   {
     "n": "LAY'S Max Voor In De Varianten Argentinian- Of Hollandstyle",
@@ -99,25 +98,23 @@
     "n": "Alle Burgers",
     "p": "1.39",
     "o": "VANAF -30% Actieprijzen variëren van €1.39 - €6.64. Alleen in de winkel 13/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/NSL6QhfaiTS5Rfhx3vqI49iuXQMA4SsgxX9-sBHGXxs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzg4NDc3QTQ4OTMwOTlCMTc2QzUzNjBFND/Q5OTU5RUQ0NTE2QkMyMzUxMzI2OTRENTM4MTgwNEIyNjA2NENBQTkucG5n.png",
     "c": "Other",
     "cn": "alle burgers",
-    "ik": "tok:alle|burgers|1",
-    "bn": "alle",
-    "wg": 1
+    "ik": "tok:alle|burgers|na",
+    "bn": "alle"
   },
   {
     "n": "Alle Worsten",
     "p": "2.09",
     "o": "VANAF -30% Actieprijzen variëren van €2.09 - €4.19. Alleen in de winkel 13/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/AmQd-3W36ggEb2oJ0rkDBPur6Lo0Olv3gyZBodp6NB0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzIwQzVFNUMyRDc2NTk1NUM5NDNEQTVGMU/NEOUNDQjI2RDIyM0QzMTdGRjcyQzVEMTBCQUE5ODFDRTMyQTFFMDAucG5n.png",
     "c": "Other",
     "cn": "alle worsten",
-    "ik": "tok:alle|worsten|1",
-    "bn": "alle",
-    "wg": 1
+    "ik": "tok:alle|worsten|na",
+    "bn": "alle"
   },
   {
     "n": "Trostomaten",
@@ -133,7 +130,7 @@
   {
     "n": "Pitloze Rode Druiven",
     "p": "1.69",
-    "o": "-32% Alleen in de winkel 13/07 - 19/07",
+    "o": "-32% Alleen in de winkel 13/07 - 20/07",
     "s": "500 ml",
     "l": "https://imgproxy-retcat.assets.schwarz/yY7ekZzIm9m5F9MfUsD6zxOAElJ_e_jRY3sRd98X9Qg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0IzQkRERjc5MEJGMkEwMDY4MDFDMjQ5RT/g3MEU3RDE0QjhCRERGOUQwMjc0QUMwOTY3NDgzNkU3QjlGMEIzNzUucG5n.png",
     "c": "Other",
@@ -157,7 +154,7 @@
   {
     "n": "Avocado",
     "p": "0.79",
-    "o": "-38% Alleen in de winkel 13/07 - 19/07",
+    "o": "-38% Alleen in de winkel 13/07 - 20/07",
     "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/iBcr6s6owF6WrzweBGlroLe5yZhGlqYsDHsRckyUr94/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0ZCQTBGRjYzQzk0RUU3MUE3NEI0NkYyNz/hGODREMjAxMzMzOUM4NTI4NjEzNTVCQjk1RUIwQkZCOEUwMjhFOTYucG5n.png",
     "c": "Other",
@@ -638,13 +635,12 @@
     "n": "Mini Snacks",
     "p": "1.99",
     "o": "Tot 43% Van prijzen variëren van €2,49 - €3,49. Alleen in de winkel 13/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/hQ_PER0XGgkjoNw3E5cG5AP7hzNMvJz7VVo5kkQTBoc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0FBNjMxMUREMTMxNDZBMTI4NzJGRjEyMT/Y5RTYzQzgwQkIwMzQ0MkM3NjYwOTQ4Mjk5QUQ2QUIyNjY0MUI3OUEucG5n.png",
     "c": "Other",
     "cn": "mini snacks",
-    "ik": "tok:mini|snacks|1",
-    "bn": "mini",
-    "wg": 1
+    "ik": "tok:mini|snacks|na",
+    "bn": "mini"
   },
   {
     "n": "Appelnoten Pencee",
@@ -698,13 +694,12 @@
     "n": "Balisto",
     "p": "1.99",
     "o": "6-pack Alleen in de winkel 13/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/Y52rqzSwirZikuIwanvJ3lJrl5_ThSaTqbFA7h1_1VQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9BMTE1QkJERDc1MUMwRjBGQUU4RDA1RjU/yM0M1OThGQUZCMDhFNUI1Mjc4NTAyOTBCNzc4OUJFMUQzRkM0NDY4LnBuZw.png",
     "c": "Other",
     "cn": "balisto",
-    "ik": "tok:balisto|unknown|1",
-    "bn": "balisto",
-    "wg": 1
+    "ik": "tok:balisto|unknown|na",
+    "bn": "balisto"
   },
   {
     "n": "Palm Pils",
@@ -899,6 +894,14 @@
     "wg": 300
   },
   {
+    "n": "Alle noten in cup voor ALESTO met Lidl Plus 125285 Actieprijzen variëren € - €.",
+    "p": "1.29",
+    "o": "125-285 g Actieprijzen variëren van €1.29 - €2.83. Alleen in de winkel 13/07 - 19/07",
+    "s": "285 G",
+    "l": "https://imgproxy-retcat.assets.schwarz/F4m46H2bck_EQGcoPclYAmswG4zb2BAlvIGLX3OBHH8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzY1N0Q5MzczMzQyNjA4OTVEMjcxQkNEMU/Q4QzU0MUMxMTM4RTMwOTAyN0IwQ0JFRjM1QTI4ODgwRDVDNzE2RDMucG5n.png",
+    "c": "Other"
+  },
+  {
     "n": "Noten & Vruchtenmix",
     "p": "2.19",
     "o": "Alleen in de winkel 13/07 - 19/07",
@@ -986,97 +989,89 @@
     "n": "Portucala In Hangpot",
     "p": "5.49",
     "o": "Actie Alleen in de winkel 15/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/2vAgiZEdxBM1NzDFXgVS4feQ55diT8O7o7agunhCwd8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0YzRkIxOTkyOTUzRERDQzAwMTdDMTNGQz/Y3OTgwNDYyMDVFMzY5MDVERTJGNDA1MEYzQzVBQkQ1MEY5Mjk1MEQucG5n.png",
     "c": "Other",
     "cn": "portucala hangpot in",
-    "ik": "tok:portucala|hangpot-in|1",
-    "bn": "portucala",
-    "wg": 1
+    "ik": "tok:portucala|hangpot-in|na",
+    "bn": "portucala"
   },
   {
     "n": "Hortensia Premium",
     "p": "3.39",
     "o": "Hoogte: ca. 27-40 cm Alleen in de winkel 15/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/rJrlNf8rtqDfiLBS6jgSvyi-L8H6bVTtI_l25OJU9z8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0ZFREVERjA2RkE4OUU3OUMxRkEwQkUzRj/Y4NEE3NThDQjkyMDIxQTJGOEU0NTgxMzA4M0MwNTVDMDI3RTk5RUYucG5n.png",
     "c": "Other",
     "cn": "hortensia premium",
-    "ik": "tok:hortensia|premium|1",
-    "bn": "hortensia",
-    "wg": 1
+    "ik": "tok:hortensia|premium|na",
+    "bn": "hortensia"
   },
   {
     "n": "Oleander",
     "p": "5.99",
     "o": "Alleen in de winkel 15/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/cs4qXciVuD1Cz4Mw7zS89Md9PfVkpMeRAtPWUWLnuSQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzAxNTBGMTk3RjkzQzc4NTZCODdCREE1NE/NDMUVDREQ1RjNDQkU3NkRGNUMzMEY0NTkxODNGREQ2RUM2NkUzNzYucG5n.png",
     "c": "Other",
     "cn": "oleander",
-    "ik": "tok:oleander|unknown|1",
-    "bn": "oleander",
-    "wg": 1
+    "ik": "tok:oleander|unknown|na",
+    "bn": "oleander"
   },
   {
     "n": "Chrysant",
     "p": "2.99",
     "o": "Alleen in de winkel 15/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/4mhyJqJ90vFbspd2yeH2InB05bg1JEqShiF73Bwm0YU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzlGOEE5QkQ1NzQzQjlBOTRBRkUxNDU3Mj/Q1RTM4QzVEQ0I4MjI3RDE1QTQxNEVFREY0OUU4OUUwMzc4NUU2QTkucG5n.png",
     "c": "Other",
     "cn": "chrysant",
-    "ik": "tok:chrysant|unknown|1",
-    "bn": "chrysant",
-    "wg": 1
+    "ik": "tok:chrysant|unknown|na",
+    "bn": "chrysant"
   },
   {
     "n": "Zonnebloemen",
     "p": "2.49",
     "o": "-28% Alleen in de winkel 15/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/A8mF7RRZ_X_bcbot5vSbwGkpJPosYN4pAYrfV0_4iJI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzMzQTI4RDczNERFNzQ5MzBEMzdERjFBM0/Y2QUMwNDBBRTk0RUYxMTU0NTNDMEJGNjk5RjY5NjFBODFCMzFDOTcucG5n.png",
     "c": "Other",
     "cn": "zonnebloemen",
-    "ik": "tok:zonnebloemen|unknown|1",
-    "bn": "zonnebloemen",
-    "wg": 1
+    "ik": "tok:zonnebloemen|unknown|na",
+    "bn": "zonnebloemen"
   },
   {
     "n": "Buitenschaal Keramiek",
     "p": "9.99",
     "o": "Alleen in de winkel 17/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/wWQl-wjvUMtsywSmggNMhtCKcvcJAp7RDhP6M24zZ-o/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0JGMTYyNjc3NDUwQjZGNDM1QkJCNkYyQz/c4RkI5RUE3NjU0RDFBNDUxNUJDMjE0N0VEMTU5OTdCMEQ3RDBGMDEucG5n.png",
     "c": "Other",
     "cn": "buitenschaal keramiek",
-    "ik": "tok:buitenschaal|keramiek|1",
-    "bn": "buitenschaal",
-    "wg": 1
+    "ik": "tok:buitenschaal|keramiek|na",
+    "bn": "buitenschaal"
   },
   {
     "n": "Grote Cactus",
     "p": "8.99",
     "o": "Alleen in de winkel 17/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/ctBq4mukn2oc2CWuDuidOiReWFdMNNSLPk4SWdRA_fI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0E0MUYwQTQxMDY4MUNBRjEyRjYyMEI4OU/EwREEzMzIwRjM0RUQ3MjFFNkE0RjE1NzEyNTJCNkJBMDcwNjU5NEEucG5n.png",
     "c": "Other",
     "cn": "grote cactus",
-    "ik": "tok:grote|cactus|1",
-    "bn": "grote",
-    "wg": 1
+    "ik": "tok:grote|cactus|na",
+    "bn": "grote"
   },
   {
     "n": "Douwe Egberts Koffiebonen",
     "p": "6.99",
     "o": "Alleen in de winkel 17/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/kA5q1NHKBGo7J3qFzmfa32u0-upHTkIFjGRT40fe4ms/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9DOTBBMURDRjUwMzcxRUFBRTBDRjM1ODA/2Q0U4NTQ0MDAxNDlBNUQ4NEM3N0NBM0U4NDQ4RUI5NjhFOEIwMTc0LnBuZw.png",
     "c": "Other",
     "cn": "douwe egberts koffiebonen",
-    "ik": "tok:douwe egberts|koffiebonen|1",
-    "bn": "douwe egberts",
-    "wg": 1
+    "ik": "tok:douwe egberts|koffiebonen|na",
+    "bn": "douwe egberts"
   },
   {
     "n": "Président Le Brie",
@@ -1130,13 +1125,12 @@
     "n": "Kipdrumsticks Voor In Gekruid En Naturel",
     "p": "4.99",
     "o": "-21% Alleen in de winkel 17/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/-N9j3HAYctLcLjWkT7ib-Pjh73oWBY6kQ7405E23ao0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0MwOTdCQjZDOTA1M0VCMTM3RDU5RjE2MD/FEOTE0MEM0REJFODI3MkFGOTQzNEM5RjcwOUM5Qzk5MUU0Njg2NTIucG5n.png",
     "c": "Other",
     "cn": "kipdrumsticks gekruid in naturel",
-    "ik": "tok:kipdrumsticks|gekruid-in-naturel|1",
-    "bn": "kipdrumsticks",
-    "wg": 1
+    "ik": "tok:kipdrumsticks|gekruid-in-naturel|na",
+    "bn": "kipdrumsticks"
   },
   {
     "n": "Pangasiusfilet Voor In De Varianten Naturel En Gemarineerd",
@@ -1201,7 +1195,7 @@
   {
     "n": "Meloen Jolly Voor Honingzoet En Sappig",
     "p": "1.99",
-    "o": "-20% Alleen in de winkel 17/07 - 19/07",
+    "o": "-20% Alleen in de winkel 17/07 - 21/07",
     "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/LHKr1sa8ImH42J_cqBVM9lcBMlUzOLUVvuWGA0FIbPo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS85NDdGMzQ3OTE5MjFDNThDQ0FENzREREJ/FQzQ2NDA2MDA5NzY1NjU3MkMwMzgxOTUxMUZDMjY0ODQ2QThFREY0LnBuZw.png",
     "c": "Other",
@@ -1213,7 +1207,7 @@
   {
     "n": "Wilde Nectarines",
     "p": "1.99",
-    "o": "-20% Alleen in de winkel 17/07 - 19/07",
+    "o": "-20% Alleen in de winkel 17/07 - 21/07",
     "s": "500 ml",
     "l": "https://imgproxy-retcat.assets.schwarz/ykVTZnSe7y_g8poXUb3TS5F0HB2LHi3CU2PFHQ03Ppc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0RGOUMyODU2RDkzMzFCM0MxQUU2QTdCRD/Q5MjY1QTk4NUFENkQyOTk4QjZDMzFEMzQ1QkVFQUZFMzk4NUM3QzUucG5n.png",
     "c": "Other",
@@ -1238,13 +1232,12 @@
     "n": "Alle Tapas",
     "p": "0.95",
     "o": "VANAF -20% Actieprijzen variëren van €0.95-€2.39. Alleen in de winkel 17/07 - 19/07",
-    "s": "1 stuk",
+    "s": "stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/P2K-jyYK92FUW2aHNZi7C5gLnE4E5AI7zKTMzrYBOR4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0U2NDdDRkMxN0VBMkRDNjk2OTJBQTAyQz/YwMDA0NEE4NDVGRUM0RTQ5MTNDMzFCMDMxMUFDMEVBMzVDMzQwQzkucG5n.png",
     "c": "Other",
     "cn": "alle tapas",
-    "ik": "tok:alle|tapas|1",
-    "bn": "alle",
-    "wg": 1
+    "ik": "tok:alle|tapas|na",
+    "bn": "alle"
   },
   {
     "n": "Fuze Tea",
