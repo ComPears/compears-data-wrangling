@@ -310,14 +310,6 @@
     "wg": 750
   },
   {
-    "n": "9 stuks",
-    "p": "",
-    "o": "",
-    "s": "9 stuks",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1232501_main_cms_1_nl_nl_raket_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Other"
-  },
-  {
     "n": "Pastasalade Tomaat Of Pesto",
     "p": "2.19",
     "o": "",
@@ -664,14 +656,15 @@
     "wg": 1000
   },
   {
-    "n": "4-pack Wit",
-    "p": "4.75",
+    "n": "6-pack Wit 0.0%",
+    "p": "2.99",
     "o": "",
-    "s": "4x33 cl",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224832_main_cms_12_nl_nl_4_pack_wit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Other",
-    "cn": "pack wit",
-    "ik": "tok:unknown|pack-wit|na"
+    "s": "6x33 cl",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1232888_main_cms_4_nl_nl_6_pack_wit_00_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Beverages",
+    "cn": "wit pack",
+    "ik": "tok:wit|pack|na",
+    "bn": "wit"
   },
   {
     "n": "Delight Blush Alcoholvrij",
@@ -708,14 +701,6 @@
     "ik": "tok:scharrelkipfiletspiesjes|sat|300",
     "bn": "scharrelkipfiletspiesjes",
     "wg": 300
-  },
-  {
-    "n": "4 stuks, 440 ml",
-    "p": "2.99",
-    "o": "",
-    "s": "4 stuks, 440 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1220732_1_main_cms_1_nl_nl_wafelijsjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Other"
   },
   {
     "n": "Swip-ijs",
@@ -831,8 +816,9 @@
     "s": "6-pack ice tea green",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216102_main_cms_4_nl_nl_6_pack_ice_tea_green_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
-    "cn": "green ice pack tea",
-    "ik": "tok:unknown|green-ice-pack-tea|na"
+    "cn": "ice green pack tea",
+    "ik": "tok:ice|green-pack-tea|na",
+    "bn": "ice"
   },
   {
     "n": "Sensation Mini",
@@ -1303,23 +1289,25 @@
     "n": "Galiameloen",
     "p": "2.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1234949_main_cms_4_nl_nl_galiameloen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "galiameloen",
-    "ik": "tok:galiameloen|unknown|na",
-    "bn": "galiameloen"
+    "ik": "tok:galiameloen|unknown|1",
+    "bn": "galiameloen",
+    "wg": 1
   },
   {
     "n": "Watermeloen",
     "p": "1.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1234948_main_cms_4_nl_nl_watermeloen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "watermeloen",
-    "ik": "tok:watermeloen|unknown|na",
-    "bn": "watermeloen"
+    "ik": "tok:watermeloen|unknown|1",
+    "bn": "watermeloen",
+    "wg": 1
   },
   {
     "n": "Nectarines",
@@ -1361,12 +1349,13 @@
     "n": "Fairtrade Junior Bananen",
     "p": "1.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1223215_main_cms_1_nl_nl_fairtrade_junior_bananen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "fairtrade bananen junior",
-    "ik": "tok:fairtrade|bananen-junior|na",
-    "bn": "fairtrade"
+    "ik": "tok:fairtrade|bananen-junior|1",
+    "bn": "fairtrade",
+    "wg": 1
   },
   {
     "n": "20.07 - 26.07",
@@ -1488,14 +1477,6 @@
     "wg": 2000
   },
   {
-    "n": "Per stuk",
-    "p": "1.99",
-    "o": "",
-    "s": "",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219814_main_cms_3_nl_nl_ananas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables"
-  },
-  {
     "n": "Citroenen",
     "p": "1.59",
     "o": "",
@@ -1559,12 +1540,13 @@
     "n": "Grapefruit",
     "p": "2.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219521_main_cms_3_nl_nl_grapefruit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "grapefruit",
-    "ik": "tok:grapefruit|unknown|na",
-    "bn": "grapefruit"
+    "ik": "tok:grapefruit|unknown|1",
+    "bn": "grapefruit",
+    "wg": 1
   },
   {
     "n": "Bloedsinaasappels",
@@ -1582,12 +1564,13 @@
     "n": "Bananen",
     "p": "1.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219379_main_cms_7_nl_nl_bananen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "bananen",
-    "ik": "tok:bananen|unknown|na",
-    "bn": "bananen"
+    "ik": "tok:bananen|unknown|1",
+    "bn": "bananen",
+    "wg": 1
   },
   {
     "n": "Mandarijnen",
@@ -1629,12 +1612,13 @@
     "n": "Cantaloupe Meloen",
     "p": "2.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219136_main_cms_10_nl_nl_cantaloupe_meloen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "cantaloupe meloen",
-    "ik": "tok:cantaloupe|meloen|na",
-    "bn": "cantaloupe"
+    "ik": "tok:cantaloupe|meloen|1",
+    "bn": "cantaloupe",
+    "wg": 1
   },
   {
     "n": "Handsinaasappels",
@@ -1652,23 +1636,25 @@
     "n": "Piel De Sapo Meloen",
     "p": "3.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1217613_main_cms_6_nl_nl_piel_de_sapo_meloen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "piel meloen sapo",
-    "ik": "tok:piel|meloen-sapo|na",
-    "bn": "piel"
+    "ik": "tok:piel|meloen-sapo|1",
+    "bn": "piel",
+    "wg": 1
   },
   {
     "n": "Citroen Met Eetbare Schil",
     "p": "0.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216156_main_cms_2_nl_nl_citroen_met_eetbare_schil_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "citroen eetbare schil",
-    "ik": "tok:citroen|eetbare-schil|na",
-    "bn": "citroen"
+    "ik": "tok:citroen|eetbare-schil|1",
+    "bn": "citroen",
+    "wg": 1
   },
   {
     "n": "Doyenne Du Comice Peren",
@@ -1806,12 +1792,13 @@
     "n": "Kistje Mandarijnen",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1221735_main_cms_7_nl_nl_kistje_mandarijnen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "kistje mandarijnen",
-    "ik": "tok:kistje|mandarijnen|na",
-    "bn": "kistje"
+    "ik": "tok:kistje|mandarijnen|1",
+    "bn": "kistje",
+    "wg": 1
   },
   {
     "n": "Witte Druiven Met Pit",
@@ -1829,12 +1816,13 @@
     "n": "Eetrijpe avocado's",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219606_main_cms_5_nl_nl_eetrijpe_avocado_s_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "eetrijpe avocado",
-    "ik": "tok:eetrijpe|avocado|na",
-    "bn": "eetrijpe"
+    "ik": "tok:eetrijpe|avocado|1",
+    "bn": "eetrijpe",
+    "wg": 1
   },
   {
     "n": "Appels Goudreinetten",
@@ -2488,23 +2476,25 @@
     "n": "Verse Munt",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1238602_main_cms_1_nl_nl_verse_munt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Pantry",
     "cn": "verse munt",
-    "ik": "tok:verse|munt|na",
-    "bn": "verse"
+    "ik": "tok:verse|munt|1",
+    "bn": "verse",
+    "wg": 1
   },
   {
     "n": "Platte Peterselie",
     "p": "1.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1238597_main_cms_2_nl_nl_platte_peterselie_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Pantry",
     "cn": "platte peterselie",
-    "ik": "tok:platte|peterselie|na",
-    "bn": "platte"
+    "ik": "tok:platte|peterselie|1",
+    "bn": "platte",
+    "wg": 1
   },
   {
     "n": "Gevriesdroogde Kruiden",
@@ -2618,11 +2608,13 @@
     "n": "2-pack Pepers",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1221128_main_cms_3_nl_nl_2_pack_pepers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Pantry",
-    "cn": "pack pepers",
-    "ik": "tok:unknown|pack-pepers|na"
+    "cn": "pepers pack",
+    "ik": "tok:pepers|pack|1",
+    "bn": "pepers",
+    "wg": 1
   },
   {
     "n": "Knoflook",
@@ -2715,8 +2707,9 @@
     "s": "2-laags premium keukenpapier",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226159_main_cms_2_nl_nl_2_laags_premium_keukenpapier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
-    "cn": "keukenpapier laags premium",
-    "ik": "tok:unknown|keukenpapier-laags-premium|na"
+    "cn": "premium keukenpapier laags",
+    "ik": "tok:premium|keukenpapier-laags|na",
+    "bn": "premium"
   },
   {
     "n": "2-laags Maxi Keukenpapier",
@@ -2725,8 +2718,9 @@
     "s": "2-laags maxi keukenpapier",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220973_main_cms_3_nl_nl_2_laags_maxi_keukenpapier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
-    "cn": "keukenpapier laags maxi",
-    "ik": "tok:unknown|keukenpapier-laags-maxi|na"
+    "cn": "maxi keukenpapier laags",
+    "ik": "tok:maxi|keukenpapier-laags|na",
+    "bn": "maxi"
   },
   {
     "n": "3-laags Toiletpapier",
@@ -2735,28 +2729,9 @@
     "s": "3-laags toiletpapier",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220823_main_cms_5_nl_nl_3_laags_toiletpapier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
-    "cn": "laags toiletpapier",
-    "ik": "tok:unknown|laags-toiletpapier|na"
-  },
-  {
-    "n": "4-laags Toiletpapier",
-    "p": "4.27",
-    "o": "",
-    "s": "4-laags toiletpapier",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218482_main_cms_2_nl_nl_4_laags_toiletpapier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Household",
-    "cn": "laags toiletpapier",
-    "ik": "tok:unknown|laags-toiletpapier|na"
-  },
-  {
-    "n": "2-laags Toiletpapier",
-    "p": "6.39",
-    "o": "",
-    "s": "2-laags toiletpapier",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1210718_main_cms_3_nl_nl_2_laags_toiletpapier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Household",
-    "cn": "laags toiletpapier",
-    "ik": "tok:unknown|laags-toiletpapier|na"
+    "cn": "toiletpapier laags",
+    "ik": "tok:toiletpapier|laags|na",
+    "bn": "toiletpapier"
   },
   {
     "n": "Vochtig Toiletpapier",
@@ -2895,8 +2870,9 @@
     "s": "7-granen volkoren ontbijt",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1220974_1_main_cms_1_nl_nl_7_granen_volkoren_ontbijt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
-    "cn": "granen ontbijt volkoren",
-    "ik": "tok:unknown|granen-ontbijt-volkoren|na"
+    "cn": "volkoren granen ontbijt",
+    "ik": "tok:volkoren|granen-ontbijt|na",
+    "bn": "volkoren"
   },
   {
     "n": "Golden Bridge",
@@ -2974,23 +2950,25 @@
     "n": "Navulling Damesscheermesjes",
     "p": "4.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220606_main_cms_4_nl_nl_navulling_damesscheermesjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "navulling damesscheermesjes",
-    "ik": "tok:navulling|damesscheermesjes|na",
-    "bn": "navulling"
+    "ik": "tok:navulling|damesscheermesjes|1",
+    "bn": "navulling",
+    "wg": 1
   },
   {
     "n": "Dames Scheersysteem",
     "p": "2.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219973_main_cms_2_nl_nl_dames_scheersysteem_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "dames scheersysteem",
-    "ik": "tok:dames|scheersysteem|na",
-    "bn": "dames"
+    "ik": "tok:dames|scheersysteem|1",
+    "bn": "dames",
+    "wg": 1
   },
   {
     "n": "2-voudig Scheersysteem",
@@ -3000,7 +2978,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1218609_1_main_cms_1_nl_nl_2_voudig_scheersysteem_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "scheersysteem voudig",
-    "ik": "tok:unknown|scheersysteem-voudig|na"
+    "ik": "tok:scheersysteem|voudig|na",
+    "bn": "scheersysteem"
   },
   {
     "n": "Scheergel",
@@ -3021,8 +3000,9 @@
     "s": "10-pack wegwerpscheermesjes",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200328_main_cms_5_nl_nl_10_pack_wegwerpscheermesjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
-    "cn": "10 pack wegwerpscheermesjes",
-    "ik": "tok:unknown|10-pack-wegwerpscheermesjes|na"
+    "cn": "wegwerpscheermesjes 10 pack",
+    "ik": "tok:wegwerpscheermesjes|10-pack|na",
+    "bn": "wegwerpscheermesjes"
   },
   {
     "n": "Scheersysteem Delta 4",
@@ -3042,9 +3022,10 @@
     "s": "6 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200324_main_cms_2_nl_nl_6_pack_scheermesjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
-    "cn": "pack scheermesjes",
-    "ik": "tok:unknown|pack-scheermesjes|6",
-    "wg": 6
+    "cn": "scheermesjes pack",
+    "ik": "tok:scheermesjes|pack|6",
+    "wg": 6,
+    "bn": "scheermesjes"
   },
   {
     "n": "3-pack Scheermesjes",
@@ -3053,75 +3034,70 @@
     "s": "3 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200319_main_cms_1_nl_nl_3_pack_scheermesjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
-    "cn": "pack scheermesjes",
-    "ik": "tok:unknown|pack-scheermesjes|3",
-    "wg": 3
-  },
-  {
-    "n": "Scheersysteem Delta 6",
-    "p": "3.99",
-    "o": "",
-    "s": "Scheersysteem Delta 6",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200318_main_cms_2_nl_nl_scheersysteem_delta_6_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Personal Care",
-    "cn": "scheersysteem delta",
-    "ik": "tok:scheersysteem|delta|na",
-    "bn": "scheersysteem"
+    "cn": "scheermesjes pack",
+    "ik": "tok:scheermesjes|pack|3",
+    "wg": 3,
+    "bn": "scheermesjes"
   },
   {
     "n": "Playstationkaart",
     "p": "25.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233668_main_cms_1_nl_nl_playstationkaart_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "playstationkaart",
-    "ik": "tok:playstationkaart|unknown|na",
-    "bn": "playstationkaart"
+    "ik": "tok:playstationkaart|unknown|1",
+    "bn": "playstationkaart",
+    "wg": 1
   },
   {
     "n": "Fashioncheque",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230353_main_cms_1_nl_nl_fashioncheque_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "fashioncheque",
-    "ik": "tok:fashioncheque|unknown|na",
-    "bn": "fashioncheque"
+    "ik": "tok:fashioncheque|unknown|1",
+    "bn": "fashioncheque",
+    "wg": 1
   },
   {
     "n": "Vvv Cadeaubon",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230351_main_cms_1_nl_nl_vvv_cadeaubon_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "vvv cadeaubon",
-    "ik": "tok:vvv|cadeaubon|na",
-    "bn": "vvv"
+    "ik": "tok:vvv|cadeaubon|1",
+    "bn": "vvv",
+    "wg": 1
   },
   {
     "n": "H&M Cadeaubon",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230350_main_cms_2_nl_nl_henm_cadeaubon_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "h&m cadeaubon",
-    "ik": "tok:h&m|cadeaubon|na",
-    "bn": "h&m"
+    "ik": "tok:h&m|cadeaubon|1",
+    "bn": "h&m",
+    "wg": 1
   },
   {
     "n": "Google Cadeaukaart",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230235_main_cms_1_nl_nl_google_cadeaukaart_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "google cadeaukaart",
-    "ik": "tok:google|cadeaukaart|na",
-    "bn": "google"
+    "ik": "tok:google|cadeaukaart|1",
+    "bn": "google",
+    "wg": 1
   },
   {
     "n": "Lebara Giftcard 20 Euro",
@@ -3138,89 +3114,97 @@
     "n": "Steam Card",
     "p": "20.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1221392_main_cms_1_nl_nl_steam_cadeaukaart_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "steam card",
-    "ik": "tok:steam|card|na",
-    "bn": "steam"
+    "ik": "tok:steam|card|1",
+    "bn": "steam",
+    "wg": 1
   },
   {
     "n": "Roblox Tegoed",
     "p": "20.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1217171_main_cms_1_nl_nl_roblox_tegoed_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "roblox tegoed",
-    "ik": "tok:roblox|tegoed|na",
-    "bn": "roblox"
+    "ik": "tok:roblox|tegoed|1",
+    "bn": "roblox",
+    "wg": 1
   },
   {
     "n": "Wonderbox Cadeaukaart",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1217103_main_cms_1_nl_nl_wonderbox_cadeaukaart_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "wonderbox cadeaukaart",
-    "ik": "tok:wonderbox|cadeaukaart|na",
-    "bn": "wonderbox"
+    "ik": "tok:wonderbox|cadeaukaart|1",
+    "bn": "wonderbox",
+    "wg": 1
   },
   {
     "n": "Nationale Bioscoopbon",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1217102_main_cms_1_nl_nl_nationale_bioscoopbon_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "nationale bioscoopbon",
-    "ik": "tok:nationale|bioscoopbon|na",
-    "bn": "nationale"
+    "ik": "tok:nationale|bioscoopbon|1",
+    "bn": "nationale",
+    "wg": 1
   },
   {
     "n": "Zalando Cadeaukaart",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1217098_main_cms_1_nl_nl_zalando_cadeaukaart_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "zalando cadeaukaart",
-    "ik": "tok:zalando|cadeaukaart|na",
-    "bn": "zalando"
+    "ik": "tok:zalando|cadeaukaart|1",
+    "bn": "zalando",
+    "wg": 1
   },
   {
     "n": "Bol Cadeaukaart",
     "p": "50.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1213380_main_cms_2_nl_nl_bol_cadeaukaart_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "bol cadeaukaart",
-    "ik": "tok:bol|cadeaukaart|na",
-    "bn": "bol"
+    "ik": "tok:bol|cadeaukaart|1",
+    "bn": "bol",
+    "wg": 1
   },
   {
     "n": "Nintendo Tegoed",
     "p": "25.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205655_main_cms_2_nl_nl_nintendo_tegoed_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "nintendo tegoed",
-    "ik": "tok:nintendo|tegoed|na",
-    "bn": "nintendo"
+    "ik": "tok:nintendo|tegoed|1",
+    "bn": "nintendo",
+    "wg": 1
   },
   {
     "n": "Netflix Cadeaukaart",
     "p": "25.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205396_main_cms_1_nl_nl_netflix_cadeaukaart_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "netflix cadeaukaart",
-    "ik": "tok:netflix|cadeaukaart|na",
-    "bn": "netflix"
+    "ik": "tok:netflix|cadeaukaart|1",
+    "bn": "netflix",
+    "wg": 1
   },
   {
     "n": "Lebara Giftcard 30 Euro",
@@ -3237,23 +3221,25 @@
     "n": "Vodafone Giftcard",
     "p": "20.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205053_main_cms_1_nl_nl_vodafone_giftcard_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "vodafone giftcard",
-    "ik": "tok:vodafone|giftcard|na",
-    "bn": "vodafone"
+    "ik": "tok:vodafone|giftcard|1",
+    "bn": "vodafone",
+    "wg": 1
   },
   {
     "n": "Paysafe Card",
     "p": "25.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1204822_main_cms_2_nl_nl_paysafe_card_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "paysafe card",
-    "ik": "tok:paysafe|card|na",
-    "bn": "paysafe"
+    "ik": "tok:paysafe|card|1",
+    "bn": "paysafe",
+    "wg": 1
   },
   {
     "n": "Lyca Mobile Giftcard 20 Euro",
@@ -3281,23 +3267,25 @@
     "n": "Lyca Mobile Giftcard",
     "p": "10.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1204267_main_cms_1_nl_nl_lyca_mobile_giftcard_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "lyca giftcard mobile",
-    "ik": "tok:lyca|giftcard-mobile|na",
-    "bn": "lyca"
+    "ik": "tok:lyca|giftcard-mobile|1",
+    "bn": "lyca",
+    "wg": 1
   },
   {
     "n": "Microsoft X-Box Kaart",
     "p": "25.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1203520_main_cms_2_nl_nl_microsoft_x_box_kaart_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "microsoft box kaart",
-    "ik": "tok:microsoft|box-kaart|na",
-    "bn": "microsoft"
+    "ik": "tok:microsoft|box-kaart|1",
+    "bn": "microsoft",
+    "wg": 1
   },
   {
     "n": "Kattensnacks",
@@ -3342,9 +3330,10 @@
     "s": "1.02 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1223169_main_cms_12_nl_nl_12_pack_premium_kattenvoer_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
-    "cn": "12 kattenvoer pack premium",
-    "ik": "tok:unknown|12-kattenvoer-pack-premium|1020",
-    "wg": 1020
+    "cn": "premium 12 kattenvoer pack",
+    "ik": "tok:premium|12-kattenvoer-pack|1020",
+    "wg": 1020,
+    "bn": "premium"
   },
   {
     "n": "Kattenbakvulling",
@@ -3365,8 +3354,9 @@
     "s": "7-pack vloeibare kattensnacks",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1217779_main_cms_4_nl_nl_7_pack_vloeibare_kattensnacks_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
-    "cn": "kattensnacks pack vloeibare",
-    "ik": "tok:unknown|kattensnacks-pack-vloeibare|na"
+    "cn": "vloeibare kattensnacks pack",
+    "ik": "tok:vloeibare|kattensnacks-pack|na",
+    "bn": "vloeibare"
   },
   {
     "n": "Cachet Premium",
@@ -3408,12 +3398,13 @@
     "n": "Katten Kauwsticks",
     "p": "1.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216122_main_cms_10_nl_nl_katten_kauwsticks_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "katten kauwsticks",
-    "ik": "tok:katten|kauwsticks|na",
-    "bn": "katten"
+    "ik": "tok:katten|kauwsticks|1",
+    "bn": "katten",
+    "wg": 1
   },
   {
     "n": "12-pack Maaltijdzakjes",
@@ -3422,8 +3413,9 @@
     "s": "12-pack maaltijdzakjes",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1215023_main_cms_15_nl_nl_12_pack_maaltijdzakjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
-    "cn": "12 maaltijdzakjes pack",
-    "ik": "tok:unknown|12-maaltijdzakjes-pack|na"
+    "cn": "maaltijdzakjes 12 pack",
+    "ik": "tok:maaltijdzakjes|12-pack|na",
+    "bn": "maaltijdzakjes"
   },
   {
     "n": "4-pack Gourmet Gold Mousse",
@@ -3432,8 +3424,9 @@
     "s": "4-pack gourmet gold mousse",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1210064_main_cms_2_nl_nl_4_pack_gourmet_gold_mousse_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
-    "cn": "gold gourmet mousse pack",
-    "ik": "tok:unknown|gold-gourmet-mousse-pack|na"
+    "cn": "gourmet gold mousse pack",
+    "ik": "tok:gourmet|gold-mousse-pack|na",
+    "bn": "gourmet"
   },
   {
     "n": "12-pack Natvoer Voor Katten",
@@ -3442,20 +3435,22 @@
     "s": "1.02 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205918_main_cms_1_nl_nl_12_pack_natvoer_voor_katten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
-    "cn": "12 katten natvoer pack",
-    "ik": "tok:unknown|12-katten-natvoer-pack|1020",
-    "wg": 1020
+    "cn": "natvoer 12 katten pack",
+    "ik": "tok:natvoer|12-katten-pack|1020",
+    "wg": 1020,
+    "bn": "natvoer"
   },
   {
     "n": "Aluminiumfolie",
     "p": "1.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233257_main_cms_1_nl_nl_aluminiumfolie_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "aluminiumfolie",
-    "ik": "tok:aluminiumfolie|unknown|na",
-    "bn": "aluminiumfolie"
+    "ik": "tok:aluminiumfolie|unknown|1",
+    "bn": "aluminiumfolie",
+    "wg": 1
   },
   {
     "n": "Pedaalemmer Zakken 25 L",
@@ -3473,12 +3468,13 @@
     "n": "Vershoudfolie",
     "p": "1.09",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233202_main_cms_1_nl_nl_vershoudfolie_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "vershoudfolie",
-    "ik": "tok:vershoudfolie|unknown|na",
-    "bn": "vershoudfolie"
+    "ik": "tok:vershoudfolie|unknown|1",
+    "bn": "vershoudfolie",
+    "wg": 1
   },
   {
     "n": "Trekbandzakken 60 L",
@@ -3591,11 +3587,13 @@
     "n": "6-pack Schuursponzen",
     "p": "0.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233205_main_cms_5_nl_nl_6_pack_schuursponzen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
-    "cn": "pack schuursponzen",
-    "ik": "tok:unknown|pack-schuursponzen|na"
+    "cn": "schuursponzen pack",
+    "ik": "tok:schuursponzen|pack|1",
+    "bn": "schuursponzen",
+    "wg": 1
   },
   {
     "n": "Allesreiniger",
@@ -3652,8 +3650,9 @@
     "s": "3-pack toiletblok 3-in-1",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220634_main_cms_7_nl_nl_3_pack_toiletblok_3_in_1_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
-    "cn": "in pack toiletblok",
-    "ik": "tok:unknown|in-pack-toiletblok|na"
+    "cn": "toiletblok in pack",
+    "ik": "tok:toiletblok|in-pack|na",
+    "bn": "toiletblok"
   },
   {
     "n": "Luchtverfrissergel",
@@ -3675,8 +3674,9 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220526_main_cms_3_nl_nl_wc_reiniger_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "reiniger wc",
-    "ik": "tok:unknown|reiniger-wc|1000",
-    "wg": 1000
+    "ik": "tok:reiniger|wc|1000",
+    "wg": 1000,
+    "bn": "reiniger"
   },
   {
     "n": "Glasreiniger",
@@ -3763,12 +3763,13 @@
     "n": "Luchtverfrisserset",
     "p": "2.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200337_main_cms_1_nl_nl_luchtverfrisserset_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "luchtverfrisserset",
-    "ik": "tok:luchtverfrisserset|unknown|na",
-    "bn": "luchtverfrisserset"
+    "ik": "tok:luchtverfrisserset|unknown|1",
+    "bn": "luchtverfrisserset",
+    "wg": 1
   },
   {
     "n": "Keukenreiniger",
@@ -4088,7 +4089,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235980_main_cms_1_nl_nl_4_pack_flatbreads_naturel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "flatbreads naturel pack",
-    "ik": "tok:unknown|flatbreads-naturel-pack|na"
+    "ik": "tok:flatbreads|naturel-pack|na",
+    "bn": "flatbreads"
   },
   {
     "n": "De Afbakker",
@@ -4274,45 +4276,49 @@
     "n": "Fijn Volkoren",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235661_main_cms_1_nl_nl_fijn_volkoren_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "fijn volkoren",
-    "ik": "tok:fijn|volkoren|na",
-    "bn": "fijn"
+    "ik": "tok:fijn|volkoren|1",
+    "bn": "fijn",
+    "wg": 1
   },
   {
     "n": "Bruin Rond",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235660_main_cms_1_nl_nl_bruin_rond_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "bruin rond",
-    "ik": "tok:bruin|rond|na",
-    "bn": "bruin"
+    "ik": "tok:bruin|rond|1",
+    "bn": "bruin",
+    "wg": 1
   },
   {
     "n": "Casino Wit",
     "p": "1.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235659_main_cms_2_nl_nl_casino_wit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "casino wit",
-    "ik": "tok:casino|wit|na",
-    "bn": "casino"
+    "ik": "tok:casino|wit|1",
+    "bn": "casino",
+    "wg": 1
   },
   {
     "n": "Wit Brood",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235658_main_cms_1_nl_nl_wit_brood_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "wit brood",
-    "ik": "tok:wit|brood|na",
-    "bn": "wit"
+    "ik": "tok:wit|brood|1",
+    "bn": "wit",
+    "wg": 1
   },
   {
     "n": "Vezelrijke Volkorenbollen",
@@ -4342,34 +4348,37 @@
     "n": "Boeren Tijger Wit",
     "p": "1.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225248_main_cms_3_nl_nl_boeren_tijger_wit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "boeren tijger wit",
-    "ik": "tok:boeren|tijger-wit|na",
-    "bn": "boeren"
+    "ik": "tok:boeren|tijger-wit|1",
+    "bn": "boeren",
+    "wg": 1
   },
   {
     "n": "Luxe Vloerbrood Zonnebloem",
     "p": "2.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1225236_1_main_cms_4_nl_nl_luxe_vloerbrood_zonnebloem_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "luxe vloerbrood zonnebloem",
-    "ik": "tok:luxe|vloerbrood-zonnebloem|na",
-    "bn": "luxe"
+    "ik": "tok:luxe|vloerbrood-zonnebloem|1",
+    "bn": "luxe",
+    "wg": 1
   },
   {
     "n": "Boeren Tijger Volkoren",
     "p": "1.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225235_main_cms_3_nl_nl_boeren_tijger_volkoren_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "boeren tijger volkoren",
-    "ik": "tok:boeren|tijger-volkoren|na",
-    "bn": "boeren"
+    "ik": "tok:boeren|tijger-volkoren|1",
+    "bn": "boeren",
+    "wg": 1
   },
   {
     "n": "Bruine Bollen",
@@ -4387,34 +4396,37 @@
     "n": "Luxe Vloerbrood Meergranen",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225233_main_cms_7_nl_nl_luxe_vloerbrood_meergranen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "luxe meergranen vloerbrood",
-    "ik": "tok:luxe|meergranen-vloerbrood|na",
-    "bn": "luxe"
+    "ik": "tok:luxe|meergranen-vloerbrood|1",
+    "bn": "luxe",
+    "wg": 1
   },
   {
     "n": "Luxe Vloerbrood Maïs",
     "p": "2.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225232_main_cms_3_nl_nl_luxe_vloerbrood_mais_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "luxe ma vloerbrood",
-    "ik": "tok:luxe|ma-vloerbrood|na",
-    "bn": "luxe"
+    "ik": "tok:luxe|ma-vloerbrood|1",
+    "bn": "luxe",
+    "wg": 1
   },
   {
     "n": "Boeren Tijger Bruin",
     "p": "1.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225219_main_cms_2_nl_nl_boeren_tijger_bruin_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "boeren bruin tijger",
-    "ik": "tok:boeren|bruin-tijger|na",
-    "bn": "boeren"
+    "ik": "tok:boeren|bruin-tijger|1",
+    "bn": "boeren",
+    "wg": 1
   },
   {
     "n": "Mini-roomboterrozijnenbollen",
@@ -4432,23 +4444,25 @@
     "n": "Boeren Volkoren Meergranen",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1221187_main_cms_8_nl_nl_boeren_volkoren_meergranen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "boeren meergranen volkoren",
-    "ik": "tok:boeren|meergranen-volkoren|na",
-    "bn": "boeren"
+    "ik": "tok:boeren|meergranen-volkoren|1",
+    "bn": "boeren",
+    "wg": 1
   },
   {
     "n": "Extra Vezelrijk Volkorenbrood Half",
     "p": "1.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220478_main_cms_5_nl_nl_extra_vezelrijk_volkorenbrood_half_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "extra half vezelrijk volkorenbrood",
-    "ik": "tok:extra|half-vezelrijk-volkorenbrood|na",
-    "bn": "extra"
+    "ik": "tok:extra|half-vezelrijk-volkorenbrood|1",
+    "bn": "extra",
+    "wg": 1
   },
   {
     "n": "Mueslibollen",
@@ -4490,23 +4504,25 @@
     "n": "Extra Vezelrijk Volkorenbrood",
     "p": "2.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1217868_main_cms_11_nl_nl_extra_vezelrijk_volkorenbrood_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "extra vezelrijk volkorenbrood",
-    "ik": "tok:extra|vezelrijk-volkorenbrood|na",
-    "bn": "extra"
+    "ik": "tok:extra|vezelrijk-volkorenbrood|1",
+    "bn": "extra",
+    "wg": 1
   },
   {
     "n": "Rozijnenbrood",
     "p": "2.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1207239_main_cms_7_nl_nl_rozijnenbrood_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "rozijnenbrood",
-    "ik": "tok:rozijnenbrood|unknown|na",
-    "bn": "rozijnenbrood"
+    "ik": "tok:rozijnenbrood|unknown|1",
+    "bn": "rozijnenbrood",
+    "wg": 1
   },
   {
     "n": "Drentse Bol",
@@ -4743,8 +4759,9 @@
     "s": "2-pack pizza speciale",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1228820_main_cms_1_nl_nl_2_pack_pizza_speciale_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Frozen Foods",
-    "cn": "pack pizza speciale",
-    "ik": "tok:unknown|pack-pizza-speciale|na"
+    "cn": "pizza pack speciale",
+    "ik": "tok:pizza|pack-speciale|na",
+    "bn": "pizza"
   },
   {
     "n": "Pizza Pollo",
@@ -4765,8 +4782,9 @@
     "s": "3-pack steenovenpizza salami",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1228594_main_cms_1_nl_nl_3_pack_steenovenpizza_salami_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Frozen Foods",
-    "cn": "pack salami steenovenpizza",
-    "ik": "tok:unknown|pack-salami-steenovenpizza|na"
+    "cn": "steenovenpizza pack salami",
+    "ik": "tok:steenovenpizza|pack-salami|na",
+    "bn": "steenovenpizza"
   },
   {
     "n": "Pizza Baguette Salami Of Bolognese",
@@ -5196,8 +5214,9 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200075_main_cms_1_nl_nl_2_pack_bapao_rund_of_kip_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Frozen Foods",
     "cn": "bapao kip of pack rund",
-    "ik": "tok:unknown|bapao-kip-of-pack-rund|240",
-    "wg": 240
+    "ik": "tok:bapao|kip-of-pack-rund|240",
+    "wg": 240,
+    "bn": "bapao"
   },
   {
     "n": "Funky American Ijsbeker",
@@ -5342,14 +5361,6 @@
     "ik": "tok:drie|chocolade-roomijs-smaken|900",
     "bn": "drie",
     "wg": 900
-  },
-  {
-    "n": "12 stuks, 600 ml",
-    "p": "3.49",
-    "o": "",
-    "s": "12 stuks, 600 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1222303_main_cms_5_nl_nl_mini_mix_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Frozen Foods"
   },
   {
     "n": "Roomijs pecan-caramel",
@@ -5619,12 +5630,13 @@
     "n": "Proteïne Reep",
     "p": "1.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230827_main_cms_3_nl_nl_proteine_reep_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "protene ne prote reep",
-    "ik": "tok:protene|ne-prote-reep|na",
-    "bn": "protene"
+    "ik": "tok:protene|ne-prote-reep|1",
+    "bn": "protene",
+    "wg": 1
   },
   {
     "n": "3-pack Maïswafels",
@@ -5633,8 +5645,9 @@
     "s": "3-pack maïswafels",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230787_main_cms_4_nl_nl_3_pack_maiswafels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
-    "cn": "ma pack swafels",
-    "ik": "tok:unknown|ma-pack-swafels|na"
+    "cn": "maswafels ma pack swafels",
+    "ik": "tok:maswafels|ma-pack-swafels|na",
+    "bn": "maswafels"
   },
   {
     "n": "Meergranen Biscuits",
@@ -5745,16 +5758,6 @@
     "wg": 485
   },
   {
-    "n": "3-/4-pack Maïswafels",
-    "p": "1.25",
-    "o": "",
-    "s": "3-/4-pack maïswafels",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1214955_main_cms_9_nl_nl_3_4_pack_maiswafels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Bakery",
-    "cn": "ma pack swafels",
-    "ik": "tok:unknown|ma-pack-swafels|na"
-  },
-  {
     "n": "8-pack Mueslirepen",
     "p": "1.99",
     "o": "",
@@ -5762,7 +5765,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1211019_main_cms_12_nl_nl_8_pack_mueslirepen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "mueslirepen pack",
-    "ik": "tok:unknown|mueslirepen-pack|na"
+    "ik": "tok:mueslirepen|pack|na",
+    "bn": "mueslirepen"
   },
   {
     "n": "Rijstwafels melk- Of Pure Chocolade",
@@ -5855,8 +5859,9 @@
     "s": "6-pack vitaminewater mango-guave",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224256_main_cms_2_nl_nl_6_pack_vitaminewater_mango_guave_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "guave mango pack vitaminewater",
-    "ik": "tok:unknown|guave-mango-pack-vitaminewater|na"
+    "cn": "vitaminewater guave mango pack",
+    "ik": "tok:vitaminewater|guave-mango-pack|na",
+    "bn": "vitaminewater"
   },
   {
     "n": "6-pack Water Met Smaak Munt",
@@ -5865,9 +5870,10 @@
     "s": "3 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224243_main_cms_3_nl_nl_6_pack_water_met_smaak_munt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "munt pack smaak water",
-    "ik": "tok:unknown|munt-pack-smaak-water|3000",
-    "wg": 3000
+    "cn": "water munt pack smaak",
+    "ik": "tok:water|munt-pack-smaak|3000",
+    "wg": 3000,
+    "bn": "water"
   },
   {
     "n": "6-pack Water Met Smaak Citroen",
@@ -5876,9 +5882,10 @@
     "s": "3 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224235_main_cms_3_nl_nl_6_pack_water_met_smaak_citroen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "citroen pack smaak water",
-    "ik": "tok:unknown|citroen-pack-smaak-water|3000",
-    "wg": 3000
+    "cn": "water citroen pack smaak",
+    "ik": "tok:water|citroen-pack-smaak|3000",
+    "wg": 3000,
+    "bn": "water"
   },
   {
     "n": "6-pack Vitaminewater limoen-lychee",
@@ -5887,8 +5894,9 @@
     "s": "6-pack vitaminewater limoen-lychee",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224233_main_cms_2_nl_nl_6_pack_vitaminewater_limoen_lychee_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "limoen lychee pack vitaminewater",
-    "ik": "tok:unknown|limoen-lychee-pack-vitaminewater|na"
+    "cn": "vitaminewater limoen lychee pack",
+    "ik": "tok:vitaminewater|limoen-lychee-pack|na",
+    "bn": "vitaminewater"
   },
   {
     "n": "6-pack Water Met Smaak Zwarte Bes",
@@ -5897,9 +5905,10 @@
     "s": "3 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224223_main_cms_2_nl_nl_6_pack_water_met_smaak_zwarte_bes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "bes pack smaak water zwarte",
-    "ik": "tok:unknown|bes-pack-smaak-water-zwarte|3000",
-    "wg": 3000
+    "cn": "water bes pack smaak zwarte",
+    "ik": "tok:water|bes-pack-smaak-zwarte|3000",
+    "wg": 3000,
+    "bn": "water"
   },
   {
     "n": "6-pack Vitaminewater framboos-granaatappel",
@@ -5908,8 +5917,9 @@
     "s": "6-pack vitaminewater framboos-granaatappel",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224214_main_cms_2_nl_nl_6_pack_vitaminewater_framboos_granaatappel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "framboos granaatappel pack vitaminewater",
-    "ik": "tok:unknown|framboos-granaatappel-pack-vitaminewater|na"
+    "cn": "vitaminewater framboos granaatappel pack",
+    "ik": "tok:vitaminewater|framboos-granaatappel-pack|na",
+    "bn": "vitaminewater"
   },
   {
     "n": "6-pack Spa Reine",
@@ -5931,8 +5941,9 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1201477_main_cms_4_nl_nl_6_pack_bruisend_smaakwater_citroen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "bruisend citroen pack smaakwater",
-    "ik": "tok:unknown|bruisend-citroen-pack-smaakwater|3000",
-    "wg": 3000
+    "ik": "tok:bruisend|citroen-pack-smaakwater|3000",
+    "wg": 3000,
+    "bn": "bruisend"
   },
   {
     "n": "Verse Olijven",
@@ -6073,8 +6084,9 @@
     "s": "3-pack tonijnfilet",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1232227_main_cms_5_nl_nl_3_pack_tonijnfilet_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Meat & Seafood",
-    "cn": "pack tonijnfilet",
-    "ik": "tok:unknown|pack-tonijnfilet|na"
+    "cn": "tonijnfilet pack",
+    "ik": "tok:tonijnfilet|pack|na",
+    "bn": "tonijnfilet"
   },
   {
     "n": "Tonijnfilets In Zonnebloemolie",
@@ -6500,45 +6512,49 @@
     "n": "Westminister",
     "p": "1.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1240301_main_cms_13_nl_nl_gemberthee_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "westminister",
-    "ik": "tok:westminister|unknown|na",
-    "bn": "westminister"
+    "ik": "tok:westminister|unknown|1",
+    "bn": "westminister",
+    "wg": 1
   },
   {
     "n": "Engelse Melange",
     "p": "0.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1240206_main_cms_2_nl_nl_engelse_melange_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "engelse melange",
-    "ik": "tok:engelse|melange|na",
-    "bn": "engelse"
+    "ik": "tok:engelse|melange|1",
+    "bn": "engelse",
+    "wg": 1
   },
   {
     "n": "Westminster",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1239175_main_cms_2_nl_nl_zwarte_thee_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "westminster",
-    "ik": "tok:westminster|unknown|na",
-    "bn": "westminster"
+    "ik": "tok:westminster|unknown|1",
+    "bn": "westminster",
+    "wg": 1
   },
   {
     "n": "Engelse Thee Melange",
     "p": "0.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1225256_1_main_cms_2_nl_nl_engelse_thee_melange_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "engelse melange thee",
-    "ik": "tok:engelse|melange-thee|na",
-    "bn": "engelse"
+    "ik": "tok:engelse|melange-thee|1",
+    "bn": "engelse",
+    "wg": 1
   },
   {
     "n": "Earl Grey Thee",
@@ -6556,12 +6572,13 @@
     "n": "Groene Thee Citroen Of Cranberry",
     "p": "0.56",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216778_main_cms_1_nl_nl_groene_thee_citroen_of_cranberry_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "groene citroen cranberry of thee",
-    "ik": "tok:groene|citroen-cranberry-of-thee|na",
-    "bn": "groene"
+    "ik": "tok:groene|citroen-cranberry-of-thee|1",
+    "bn": "groene",
+    "wg": 1
   },
   {
     "n": "Fruitthee Aardbei Bosvrucht 25x1.5g",
@@ -6579,22 +6596,25 @@
     "n": "20-25 Zakjes",
     "p": "0.98",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205875_main_cms_11_nl_nl_rooibosthee_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "20 25 zakjes",
-    "ik": "tok:unknown|20-25-zakjes|na"
+    "cn": "zakjes 20 25",
+    "ik": "tok:zakjes|20-25|1",
+    "bn": "zakjes",
+    "wg": 1
   },
   {
     "n": "Vruchtenthee",
     "p": "1.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1201798_main_cms_5_nl_nl_vruchtenthee_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "vruchtenthee",
-    "ik": "tok:vruchtenthee|unknown|na",
-    "bn": "vruchtenthee"
+    "ik": "tok:vruchtenthee|unknown|1",
+    "bn": "vruchtenthee",
+    "wg": 1
   },
   {
     "n": "Vaatwascapsules All In One",
@@ -7139,8 +7159,9 @@
     "s": "5-pack the original",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1211091_main_cms_1_nl_nl_5_pack_the_original_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Meat & Seafood",
-    "cn": "original pack the",
-    "ik": "tok:unknown|original-pack-the|na"
+    "cn": "the original pack",
+    "ik": "tok:the|original-pack|na",
+    "bn": "the"
   },
   {
     "n": "Leverworst",
@@ -7565,12 +7586,13 @@
     "n": "Douchefoam Of Bodycream",
     "p": "2.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1223300_main_cms_33_nl_nl_doucheschuim_of_bodycreme_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "douchefoam bodycream of",
-    "ik": "tok:douchefoam|bodycream-of|na",
-    "bn": "douchefoam"
+    "ik": "tok:douchefoam|bodycream-of|1",
+    "bn": "douchefoam",
+    "wg": 1
   },
   {
     "n": "Bodylotion Of -milk",
@@ -7743,23 +7765,25 @@
     "n": "Biologische paprika's",
     "p": "2.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230690_main_cms_2_nl_nl_biologische_paprika_s_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "biologische paprika",
-    "ik": "tok:biologische|paprika|na",
-    "bn": "biologische"
+    "ik": "tok:biologische|paprika|1",
+    "bn": "biologische",
+    "wg": 1
   },
   {
     "n": "Biologische Komkommer",
     "p": "1.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230688_main_cms_1_nl_nl_biologische_komkommer_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "biologische komkommer",
-    "ik": "tok:biologische|komkommer|na",
-    "bn": "biologische"
+    "ik": "tok:biologische|komkommer|1",
+    "bn": "biologische",
+    "wg": 1
   },
   {
     "n": "Biologische Trostomaten",
@@ -7777,12 +7801,13 @@
     "n": "Biologische Courgette",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230686_main_cms_1_nl_nl_biologische_courgette_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "biologische courgette",
-    "ik": "tok:biologische|courgette|na",
-    "bn": "biologische"
+    "ik": "tok:biologische|courgette|1",
+    "bn": "biologische",
+    "wg": 1
   },
   {
     "n": "Snackkomkommers",
@@ -7847,23 +7872,25 @@
     "n": "Bleekselderij",
     "p": "1.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1222276_main_cms_11_nl_nl_bleekselderij_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "bleekselderij",
-    "ik": "tok:bleekselderij|unknown|na",
-    "bn": "bleekselderij"
+    "ik": "tok:bleekselderij|unknown|1",
+    "bn": "bleekselderij",
+    "wg": 1
   },
   {
     "n": "Spitskool",
     "p": "1.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1222243_main_cms_7_nl_nl_spitskool_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "spitskool",
-    "ik": "tok:spitskool|unknown|na",
-    "bn": "spitskool"
+    "ik": "tok:spitskool|unknown|1",
+    "bn": "spitskool",
+    "wg": 1
   },
   {
     "n": "Biologische Rode Bieten",
@@ -7893,12 +7920,13 @@
     "n": "Chinese Kool",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1221391_main_cms_3_nl_nl_chinese_kool_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "chinese kool",
-    "ik": "tok:chinese|kool|na",
-    "bn": "chinese"
+    "ik": "tok:chinese|kool|1",
+    "bn": "chinese",
+    "wg": 1
   },
   {
     "n": "Snacktomaatjes",
@@ -7916,12 +7944,13 @@
     "n": "Komkommer",
     "p": "0.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1221132_main_cms_3_nl_nl_komkommer_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "komkommer",
-    "ik": "tok:komkommer|unknown|na",
-    "bn": "komkommer"
+    "ik": "tok:komkommer|unknown|1",
+    "bn": "komkommer",
+    "wg": 1
   },
   {
     "n": "Cherrytomaten",
@@ -7939,23 +7968,25 @@
     "n": "Rode Paprika",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220540_main_cms_15_nl_nl_rode_paprika_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "rode paprika",
-    "ik": "tok:rode|paprika|na",
-    "bn": "rode"
+    "ik": "tok:rode|paprika|1",
+    "bn": "rode",
+    "wg": 1
   },
   {
     "n": "Basilicum In Pot",
     "p": "1.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220499_main_cms_4_nl_nl_basilicum_in_pot_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "basilicum in pot",
-    "ik": "tok:basilicum|in-pot|na",
-    "bn": "basilicum"
+    "ik": "tok:basilicum|in-pot|1",
+    "bn": "basilicum",
+    "wg": 1
   },
   {
     "n": "Bosui",
@@ -7997,34 +8028,37 @@
     "n": "Bieslook In Pot",
     "p": "1.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220237_main_cms_4_nl_nl_bieslook_in_pot_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "bieslook in pot",
-    "ik": "tok:bieslook|in-pot|na",
-    "bn": "bieslook"
+    "ik": "tok:bieslook|in-pot|1",
+    "bn": "bieslook",
+    "wg": 1
   },
   {
     "n": "Flespompoen",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220213_main_cms_1_nl_nl_flespompoen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "flespompoen",
-    "ik": "tok:flespompoen|unknown|na",
-    "bn": "flespompoen"
+    "ik": "tok:flespompoen|unknown|1",
+    "bn": "flespompoen",
+    "wg": 1
   },
   {
     "n": "Paprikamix",
     "p": "1.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219936_main_cms_3_nl_nl_paprikamix_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "paprikamix",
-    "ik": "tok:paprikamix|unknown|na",
-    "bn": "paprikamix"
+    "ik": "tok:paprikamix|unknown|1",
+    "bn": "paprikamix",
+    "wg": 1
   },
   {
     "n": "Maïskolven",
@@ -8066,12 +8100,13 @@
     "n": "Nederlandse Komkommer",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1219603_1_main_cms_8_nl_nl_nederlandse_komkommer_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "nederlandse komkommer",
-    "ik": "tok:nederlandse|komkommer|na",
-    "bn": "nederlandse"
+    "ik": "tok:nederlandse|komkommer|1",
+    "bn": "nederlandse",
+    "wg": 1
   },
   {
     "n": "Bospeen",
@@ -8101,34 +8136,37 @@
     "n": "Nederlandse Aubergine",
     "p": "0.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219536_main_cms_10_nl_nl_nederlandse_aubergine_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "nederlandse aubergine",
-    "ik": "tok:nederlandse|aubergine|na",
-    "bn": "nederlandse"
+    "ik": "tok:nederlandse|aubergine|1",
+    "bn": "nederlandse",
+    "wg": 1
   },
   {
     "n": "Bloemkool",
     "p": "1.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219445_main_cms_13_nl_nl_bloemkool_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "bloemkool",
-    "ik": "tok:bloemkool|unknown|na",
-    "bn": "bloemkool"
+    "ik": "tok:bloemkool|unknown|1",
+    "bn": "bloemkool",
+    "wg": 1
   },
   {
     "n": "Trostomaten",
     "p": "2.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219442_main_cms_5_nl_nl_trostomaten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "trostomaten",
-    "ik": "tok:trostomaten|unknown|na",
-    "bn": "trostomaten"
+    "ik": "tok:trostomaten|unknown|1",
+    "bn": "trostomaten",
+    "wg": 1
   },
   {
     "n": "Nederlandse Romatomaten",
@@ -8146,12 +8184,13 @@
     "n": "Nederlandse Courgette",
     "p": "0.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219382_main_cms_5_nl_nl_nederlandse_courgette_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "nederlandse courgette",
-    "ik": "tok:nederlandse|courgette|na",
-    "bn": "nederlandse"
+    "ik": "tok:nederlandse|courgette|1",
+    "bn": "nederlandse",
+    "wg": 1
   },
   {
     "n": "Wortels",
@@ -8217,12 +8256,13 @@
     "n": "Trio Sla Op Kluit",
     "p": "1.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218644_main_cms_3_nl_nl_trio_sla_op_kluit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "trio kluit op sla",
-    "ik": "tok:trio|kluit-op-sla|na",
-    "bn": "trio"
+    "ik": "tok:trio|kluit-op-sla|1",
+    "bn": "trio",
+    "wg": 1
   },
   {
     "n": "Mini-cherrytrostomaten",
@@ -8264,12 +8304,13 @@
     "n": "Eetrijpe baby-avocado's",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1214282_main_cms_11_nl_nl_eetrijpe_baby_avocado_s_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "eetrijpe avocado baby",
-    "ik": "tok:eetrijpe|avocado-baby|na",
-    "bn": "eetrijpe"
+    "ik": "tok:eetrijpe|avocado-baby|1",
+    "bn": "eetrijpe",
+    "wg": 1
   },
   {
     "n": "Grove Champignons",
@@ -8335,23 +8376,25 @@
     "n": "Botersla Op Kluit",
     "p": "0.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1202682_main_cms_4_nl_nl_botersla_op_kluit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "botersla kluit op",
-    "ik": "tok:botersla|kluit-op|na",
-    "bn": "botersla"
+    "ik": "tok:botersla|kluit-op|1",
+    "bn": "botersla",
+    "wg": 1
   },
   {
     "n": "Little Gem",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1201967_main_cms_1_nl_nl_little_gem_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "little gem",
-    "ik": "tok:little|gem|na",
-    "bn": "little"
+    "ik": "tok:little|gem|1",
+    "bn": "little",
+    "wg": 1
   },
   {
     "n": "Gember",
@@ -8505,7 +8548,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218986_main_cms_4_nl_nl_4_pack_ambachtelijke_rundvleesslaatjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "ambachtelijke pack rundvleesslaatjes",
-    "ik": "tok:unknown|ambachtelijke-pack-rundvleesslaatjes|na"
+    "ik": "tok:ambachtelijke|pack-rundvleesslaatjes|na",
+    "bn": "ambachtelijke"
   },
   {
     "n": "Rauwkostsalade wortel-witte Kool",
@@ -9088,8 +9132,9 @@
     "s": "3-pack maïskorrels",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1209731_main_cms_3_nl_nl_3_pack_maiskorrels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
-    "cn": "ma pack skorrels",
-    "ik": "tok:unknown|ma-pack-skorrels|na"
+    "cn": "maskorrels ma pack skorrels",
+    "ik": "tok:maskorrels|ma-pack-skorrels|na",
+    "bn": "maskorrels"
   },
   {
     "n": "Rode Kidneybonen",
@@ -9318,14 +9363,6 @@
     "ik": "tok:groenten|of-zalmlasagne|400",
     "bn": "groenten",
     "wg": 400
-  },
-  {
-    "n": "2 stuks, 268 g",
-    "p": "1.89",
-    "o": "",
-    "s": "2 stuks, 268 g",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224048_main_cms_4_nl_nl_cheeseburgers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables"
   },
   {
     "n": "Chickenburgers",
@@ -10009,14 +10046,6 @@
     "wg": 750
   },
   {
-    "n": "0.75 l",
-    "p": "2.69",
-    "o": "",
-    "s": "0.75 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1204651_main_cms_3_nl_nl_airen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Beverages"
-  },
-  {
     "n": "Viognier Grenache",
     "p": "4.99",
     "o": "",
@@ -10120,8 +10149,9 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1237742_main_cms_2_nl_nl_yo_to_go_banaan_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Dairy & Eggs",
     "cn": "banaan go to yo",
-    "ik": "tok:unknown|banaan-go-to-yo|200",
-    "wg": 200
+    "ik": "tok:banaan|go-to-yo|200",
+    "wg": 200,
+    "bn": "banaan"
   },
   {
     "n": "Yo To Go Aardbei",
@@ -10131,8 +10161,9 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1237741_main_cms_2_nl_nl_yo_to_go_aardbei_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Dairy & Eggs",
     "cn": "aardbei go to yo",
-    "ik": "tok:unknown|aardbei-go-to-yo|200",
-    "wg": 200
+    "ik": "tok:aardbei|go-to-yo|200",
+    "wg": 200,
+    "bn": "aardbei"
   },
   {
     "n": "High Protein Drinkyoghurt Aardbei",
@@ -10165,8 +10196,9 @@
     "s": "8-pack high protein fruityoghurt",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1236199_main_cms_1_nl_nl_8_pack_high_protein_fruityoghurt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Dairy & Eggs",
-    "cn": "fruityoghurt high pack protein",
-    "ik": "tok:unknown|fruityoghurt-high-pack-protein|na"
+    "cn": "high fruityoghurt pack protein",
+    "ik": "tok:high|fruityoghurt-pack-protein|na",
+    "bn": "high"
   },
   {
     "n": "Romige Kwark",
@@ -10365,9 +10397,10 @@
     "s": "800 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225756_main_cms_7_nl_nl_8_pack_optifit_active_drink_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Dairy & Eggs",
-    "cn": "active drink optifit pack",
-    "ik": "tok:unknown|active-drink-optifit-pack|800",
-    "wg": 800
+    "cn": "optifit active drink pack",
+    "ik": "tok:optifit|active-drink-pack|800",
+    "wg": 800,
+    "bn": "optifit"
   },
   {
     "n": "Magere Drinkyoghurt aardbei-kers",
@@ -11184,8 +11217,9 @@
     "s": "2-laags tissues",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230748_main_cms_22_nl_nl_2_laags_tissues_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
-    "cn": "laags tissues",
-    "ik": "tok:unknown|laags-tissues|na"
+    "cn": "tissues laags",
+    "ik": "tok:tissues|laags|na",
+    "bn": "tissues"
   },
   {
     "n": "Tissues 4-laags Met Lotion 100 Vel",
@@ -11309,12 +11343,13 @@
     "n": "Scharrelkippenbouten",
     "p": "5.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226445_main_cms_2_nl_nl_scharrelkippenbouten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Meat & Seafood",
     "cn": "scharrelkippenbouten",
-    "ik": "tok:scharrelkippenbouten|unknown|na",
-    "bn": "scharrelkippenbouten"
+    "ik": "tok:scharrelkippenbouten|unknown|1",
+    "bn": "scharrelkippenbouten",
+    "wg": 1
   },
   {
     "n": "Gerookte Scharrelkipfilet",
@@ -11899,7 +11934,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219290_main_cms_13_nl_nl_2_pack_kindertandenborstels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "kindertandenborstels pack",
-    "ik": "tok:unknown|kindertandenborstels-pack|na"
+    "ik": "tok:kindertandenborstels|pack|na",
+    "bn": "kindertandenborstels"
   },
   {
     "n": "2-pack Tandenborstels",
@@ -11908,8 +11944,9 @@
     "s": "2-pack tandenborstels",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218376_main_cms_12_nl_nl_2_pack_tandenborstels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
-    "cn": "pack tandenborstels",
-    "ik": "tok:unknown|pack-tandenborstels|na"
+    "cn": "tandenborstels pack",
+    "ik": "tok:tandenborstels|pack|na",
+    "bn": "tandenborstels"
   },
   {
     "n": "Tandpasta Freshmint",
@@ -12017,18 +12054,6 @@
     "cn": "verse ananas mango meloen sap",
     "ik": "tok:verse|ananas-mango-meloen-sap|250",
     "bn": "verse",
-    "wg": 250
-  },
-  {
-    "n": "Rio D'ORO",
-    "p": "1.49",
-    "o": "",
-    "s": "250 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1234727_main_cms_1_nl_nl_vers_sap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Beverages",
-    "cn": "rio oro",
-    "ik": "tok:rio|oro|250",
-    "bn": "rio",
     "wg": 250
   },
   {
@@ -12764,23 +12789,25 @@
     "n": "Börek spinazie-feta",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225823_main_cms_4_nl_nl_borek_spinazie_feta_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "brek feta rek spinazie",
-    "ik": "tok:brek|feta-rek-spinazie|na",
-    "bn": "brek"
+    "ik": "tok:brek|feta-rek-spinazie|1",
+    "bn": "brek",
+    "wg": 1
   },
   {
     "n": "Appelflap",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1237457_main_cms_6_nl_nl_appelflap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "appelflap",
-    "ik": "tok:appelflap|unknown|na",
-    "bn": "appelflap"
+    "ik": "tok:appelflap|unknown|1",
+    "bn": "appelflap",
+    "wg": 1
   },
   {
     "n": "Goudse Kaas Jong Belegen 30+ Stuk",
@@ -12812,7 +12839,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1213537_main_cms_7_nl_nl_6_pack_bier_00_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "bier pack",
-    "ik": "tok:unknown|bier-pack|na"
+    "ik": "tok:bier|pack|na",
+    "bn": "bier"
   },
   {
     "n": "Koffiebonen Espresso",
@@ -13344,353 +13372,385 @@
     "n": "Meergranen Baguette",
     "p": "1.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225615_main_cms_1_nl_nl_meergranen_baguette_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "meergranen baguette",
-    "ik": "tok:meergranen|baguette|na",
-    "bn": "meergranen"
+    "ik": "tok:meergranen|baguette|1",
+    "bn": "meergranen",
+    "wg": 1
   },
   {
     "n": "Bakkersgoud Rustiek Wit",
     "p": "2.09",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220391_main_cms_1_nl_nl_bakkersgoud_rustiek_wit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "bakkersgoud rustiek wit",
-    "ik": "tok:bakkersgoud|rustiek-wit|na",
-    "bn": "bakkersgoud"
+    "ik": "tok:bakkersgoud|rustiek-wit|1",
+    "bn": "bakkersgoud",
+    "wg": 1
   },
   {
     "n": "Bakkersgoud Rustiek Extra Volkoren",
     "p": "2.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219996_main_cms_5_nl_nl_bakkersgoud_rustiek_extra_volkoren_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "bakkersgoud extra rustiek volkoren",
-    "ik": "tok:bakkersgoud|extra-rustiek-volkoren|na",
-    "bn": "bakkersgoud"
+    "ik": "tok:bakkersgoud|extra-rustiek-volkoren|1",
+    "bn": "bakkersgoud",
+    "wg": 1
   },
   {
     "n": "Stokbrood",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219398_main_cms_4_nl_nl_stokbrood_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "stokbrood",
-    "ik": "tok:stokbrood|unknown|na",
-    "bn": "stokbrood"
+    "ik": "tok:stokbrood|unknown|1",
+    "bn": "stokbrood",
+    "wg": 1
   },
   {
     "n": "Bakkersgoud Rustiek Spelt",
     "p": "2.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1210849_main_cms_2_nl_nl_bakkersgoud_rustiek_spelt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "bakkersgoud rustiek spelt",
-    "ik": "tok:bakkersgoud|rustiek-spelt|na",
-    "bn": "bakkersgoud"
+    "ik": "tok:bakkersgoud|rustiek-spelt|1",
+    "bn": "bakkersgoud",
+    "wg": 1
   },
   {
     "n": "Bakkersgoud Rustiek Licht Meerzaden",
     "p": "2.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205650_main_cms_14_nl_nl_bakkersgoud_rustiek_licht_meerzaden_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "bakkersgoud licht meerzaden rustiek",
-    "ik": "tok:bakkersgoud|licht-meerzaden-rustiek|na",
-    "bn": "bakkersgoud"
+    "ik": "tok:bakkersgoud|licht-meerzaden-rustiek|1",
+    "bn": "bakkersgoud",
+    "wg": 1
   },
   {
     "n": "Meergranen Stokbrood",
     "p": "1.09",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1203093_main_cms_3_nl_nl_meergranen_stokbrood_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "meergranen stokbrood",
-    "ik": "tok:meergranen|stokbrood|na",
-    "bn": "meergranen"
+    "ik": "tok:meergranen|stokbrood|1",
+    "bn": "meergranen",
+    "wg": 1
   },
   {
     "n": "Gedecoreerde Donut",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1237780_main_cms_2_nl_nl_gedecoreerde_donut_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "gedecoreerde donut",
-    "ik": "tok:gedecoreerde|donut|na",
-    "bn": "gedecoreerde"
+    "ik": "tok:gedecoreerde|donut|1",
+    "bn": "gedecoreerde",
+    "wg": 1
   },
   {
     "n": "Speculoosvlecht",
     "p": "0.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1229294_main_cms_1_nl_nl_speculoosvlecht_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "speculoosvlecht",
-    "ik": "tok:speculoosvlecht|unknown|na",
-    "bn": "speculoosvlecht"
+    "ik": "tok:speculoosvlecht|unknown|1",
+    "bn": "speculoosvlecht",
+    "wg": 1
   },
   {
     "n": "Volkoren Bol",
     "p": "0.55",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1227488_main_cms_1_nl_nl_volkoren_bol_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "volkoren bol",
-    "ik": "tok:volkoren|bol|na",
-    "bn": "volkoren"
+    "ik": "tok:volkoren|bol|1",
+    "bn": "volkoren",
+    "wg": 1
   },
   {
     "n": "Kaneel Swirl",
     "p": "0.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226709_main_cms_1_nl_nl_kaneel_swirl_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "kaneel swirl",
-    "ik": "tok:kaneel|swirl|na",
-    "bn": "kaneel"
+    "ik": "tok:kaneel|swirl|1",
+    "bn": "kaneel",
+    "wg": 1
   },
   {
     "n": "Koffiebroodje",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226707_main_cms_1_nl_nl_koffiebroodje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "koffiebroodje",
-    "ik": "tok:koffiebroodje|unknown|na",
-    "bn": "koffiebroodje"
+    "ik": "tok:koffiebroodje|unknown|1",
+    "bn": "koffiebroodje",
+    "wg": 1
   },
   {
     "n": "Chocoladebroodje",
     "p": "0.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226695_main_cms_1_nl_nl_chocoladebroodje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "chocoladebroodje",
-    "ik": "tok:chocoladebroodje|unknown|na",
-    "bn": "chocoladebroodje"
+    "ik": "tok:chocoladebroodje|unknown|1",
+    "bn": "chocoladebroodje",
+    "wg": 1
   },
   {
     "n": "Pistolet",
     "p": "0.28",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1226209_1_main_cms_6_nl_nl_pistolet_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "pistolet",
-    "ik": "tok:pistolet|unknown|na",
-    "bn": "pistolet"
+    "ik": "tok:pistolet|unknown|1",
+    "bn": "pistolet",
+    "wg": 1
   },
   {
     "n": "Börek Sticky Chicken",
     "p": "1.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225486_main_cms_1_nl_nl_borek_sticky_chicken_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "brek chicken rek sticky",
-    "ik": "tok:brek|chicken-rek-sticky|na",
-    "bn": "brek"
+    "ik": "tok:brek|chicken-rek-sticky|1",
+    "bn": "brek",
+    "wg": 1
   },
   {
     "n": "Roomboter Croissant",
     "p": "0.48",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225202_main_cms_7_nl_nl_roomboter_croissant_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "roomboter croissant",
-    "ik": "tok:roomboter|croissant|na",
-    "bn": "roomboter"
+    "ik": "tok:roomboter|croissant|1",
+    "bn": "roomboter",
+    "wg": 1
   },
   {
     "n": "Schnittbroodje",
     "p": "0.24",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1221799_main_cms_1_nl_nl_schnittbroodje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "schnittbroodje",
-    "ik": "tok:schnittbroodje|unknown|na",
-    "bn": "schnittbroodje"
+    "ik": "tok:schnittbroodje|unknown|1",
+    "bn": "schnittbroodje",
+    "wg": 1
   },
   {
     "n": "Ham-kaas Croissant",
     "p": "0.88",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219900_main_cms_6_nl_nl_ham_kaas_croissant_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "hamkaas croissant ham kaas",
-    "ik": "tok:hamkaas|croissant-ham-kaas|na",
-    "bn": "hamkaas"
+    "ik": "tok:hamkaas|croissant-ham-kaas|1",
+    "bn": "hamkaas",
+    "wg": 1
   },
   {
     "n": "Kampioentje",
     "p": "0.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219008_main_cms_1_nl_nl_kampioentje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "kampioentje",
-    "ik": "tok:kampioentje|unknown|na",
-    "bn": "kampioentje"
+    "ik": "tok:kampioentje|unknown|1",
+    "bn": "kampioentje",
+    "wg": 1
   },
   {
     "n": "Gesuikerde Donut",
     "p": "0.48",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218231_main_cms_1_nl_nl_gesuikerde_donut_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "gesuikerde donut",
-    "ik": "tok:gesuikerde|donut|na",
-    "bn": "gesuikerde"
+    "ik": "tok:gesuikerde|donut|1",
+    "bn": "gesuikerde",
+    "wg": 1
   },
   {
     "n": "Pizzabroodje",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1217758_main_cms_2_nl_nl_pizzabroodje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "pizzabroodje",
-    "ik": "tok:pizzabroodje|unknown|na",
-    "bn": "pizzabroodje"
+    "ik": "tok:pizzabroodje|unknown|1",
+    "bn": "pizzabroodje",
+    "wg": 1
   },
   {
     "n": "Speltbroodje",
     "p": "0.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1213777_main_cms_1_nl_nl_speltbroodje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "speltbroodje",
-    "ik": "tok:speltbroodje|unknown|na",
-    "bn": "speltbroodje"
+    "ik": "tok:speltbroodje|unknown|1",
+    "bn": "speltbroodje",
+    "wg": 1
   },
   {
     "n": "Tijgerbol",
     "p": "0.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1211338_main_cms_3_nl_nl_tijgerbol_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "tijgerbol",
-    "ik": "tok:tijgerbol|unknown|na",
-    "bn": "tijgerbol"
+    "ik": "tok:tijgerbol|unknown|1",
+    "bn": "tijgerbol",
+    "wg": 1
   },
   {
     "n": "Kaiserbroodje Wit",
     "p": "0.28",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1211136_main_cms_2_nl_nl_kaiserbroodje_wit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "kaiserbroodje wit",
-    "ik": "tok:kaiserbroodje|wit|na",
-    "bn": "kaiserbroodje"
+    "ik": "tok:kaiserbroodje|wit|1",
+    "bn": "kaiserbroodje",
+    "wg": 1
   },
   {
     "n": "Saucijzenbroodje",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1209330_main_cms_2_nl_nl_saucijzenbroodje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "saucijzenbroodje",
-    "ik": "tok:saucijzenbroodje|unknown|na",
-    "bn": "saucijzenbroodje"
+    "ik": "tok:saucijzenbroodje|unknown|1",
+    "bn": "saucijzenbroodje",
+    "wg": 1
   },
   {
     "n": "Pompoenpitbroodje",
     "p": "0.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1209062_main_cms_1_nl_nl_pompoenpitbroodje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "pompoenpitbroodje",
-    "ik": "tok:pompoenpitbroodje|unknown|na",
-    "bn": "pompoenpitbroodje"
+    "ik": "tok:pompoenpitbroodje|unknown|1",
+    "bn": "pompoenpitbroodje",
+    "wg": 1
   },
   {
     "n": "Tarwe-rogge Bol",
     "p": "0.55",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1206001_main_cms_1_nl_nl_tarwe_rogge_bol_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "tarwerogge bol rogge tarwe",
-    "ik": "tok:tarwerogge|bol-rogge-tarwe|na",
-    "bn": "tarwerogge"
+    "ik": "tok:tarwerogge|bol-rogge-tarwe|1",
+    "bn": "tarwerogge",
+    "wg": 1
   },
   {
     "n": "Italiaanse Bol",
     "p": "0.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205097_main_cms_1_nl_nl_italiaanse_bol_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "italiaanse bol",
-    "ik": "tok:italiaanse|bol|na",
-    "bn": "italiaanse"
+    "ik": "tok:italiaanse|bol|1",
+    "bn": "italiaanse",
+    "wg": 1
   },
   {
     "n": "Frikandelbroodje",
     "p": "0.98",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1203385_main_cms_1_nl_nl_frikandelbroodje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "frikandelbroodje",
-    "ik": "tok:frikandelbroodje|unknown|na",
-    "bn": "frikandelbroodje"
+    "ik": "tok:frikandelbroodje|unknown|1",
+    "bn": "frikandelbroodje",
+    "wg": 1
   },
   {
     "n": "Pecanbroodje",
     "p": "0.58",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1202539_main_cms_1_nl_nl_pecanbroodje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "pecanbroodje",
-    "ik": "tok:pecanbroodje|unknown|na",
-    "bn": "pecanbroodje"
+    "ik": "tok:pecanbroodje|unknown|1",
+    "bn": "pecanbroodje",
+    "wg": 1
   },
   {
     "n": "Kaasbroodje",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1201906_main_cms_1_nl_nl_kaasbroodje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "kaasbroodje",
-    "ik": "tok:kaasbroodje|unknown|na",
-    "bn": "kaasbroodje"
+    "ik": "tok:kaasbroodje|unknown|1",
+    "bn": "kaasbroodje",
+    "wg": 1
   },
   {
     "n": "Chocolate Chip Cookie",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200750_main_cms_3_nl_nl_chocolate_chip_cookie_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "chocolate chip cookie",
-    "ik": "tok:chocolate|chip-cookie|na",
-    "bn": "chocolate"
+    "ik": "tok:chocolate|chip-cookie|1",
+    "bn": "chocolate",
+    "wg": 1
   },
   {
     "n": "Gold Oploskoffie",
@@ -13720,78 +13780,85 @@
     "n": "Koffiecups Espresso Forte",
     "p": "3.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1227137_1_main_cms_2_nl_nl_koffiecups_espresso_forte_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiecups espresso forte",
-    "ik": "tok:koffiecups|espresso-forte|na",
-    "bn": "koffiecups"
+    "ik": "tok:koffiecups|espresso-forte|1",
+    "bn": "koffiecups",
+    "wg": 1
   },
   {
     "n": "Koffiecups Lungo Extra Strong",
     "p": "4.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1227136_1_main_cms_2_nl_nl_koffiecups_lungo_extra_strong_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiecups extra lungo strong",
-    "ik": "tok:koffiecups|extra-lungo-strong|na",
-    "bn": "koffiecups"
+    "ik": "tok:koffiecups|extra-lungo-strong|1",
+    "bn": "koffiecups",
+    "wg": 1
   },
   {
     "n": "Koffiecups Lungo Decaf",
     "p": "4.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1227135_1_main_cms_2_nl_nl_koffiecups_lungo_decaf_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiecups decaf lungo",
-    "ik": "tok:koffiecups|decaf-lungo|na",
-    "bn": "koffiecups"
+    "ik": "tok:koffiecups|decaf-lungo|1",
+    "bn": "koffiecups",
+    "wg": 1
   },
   {
     "n": "Koffiecups Lungo Classic",
     "p": "3.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1227133_1_main_cms_1_nl_nl_koffiecups_lungo_classic_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiecups classic lungo",
-    "ik": "tok:koffiecups|classic-lungo|na",
-    "bn": "koffiecups"
+    "ik": "tok:koffiecups|classic-lungo|1",
+    "bn": "koffiecups",
+    "wg": 1
   },
   {
     "n": "Koffiecups Ristretto",
     "p": "4.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1227132_1_main_cms_2_nl_nl_koffiecups_ristretto_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiecups ristretto",
-    "ik": "tok:koffiecups|ristretto|na",
-    "bn": "koffiecups"
+    "ik": "tok:koffiecups|ristretto|1",
+    "bn": "koffiecups",
+    "wg": 1
   },
   {
     "n": "Koffiecups Espresso",
     "p": "3.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1227131_1_main_cms_2_nl_nl_koffiecups_espresso_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiecups espresso",
-    "ik": "tok:koffiecups|espresso|na",
-    "bn": "koffiecups"
+    "ik": "tok:koffiecups|espresso|1",
+    "bn": "koffiecups",
+    "wg": 1
   },
   {
     "n": "Koffiecapsules Lungo Intense",
     "p": "4.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1227130_1_main_cms_2_nl_nl_koffiecapsules_lungo_intense_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiecapsules intense lungo",
-    "ik": "tok:koffiecapsules|intense-lungo|na",
-    "bn": "koffiecapsules"
+    "ik": "tok:koffiecapsules|intense-lungo|1",
+    "bn": "koffiecapsules",
+    "wg": 1
   },
   {
     "n": "Ijskoffie Latte Macchiato",
@@ -13856,67 +13923,73 @@
     "n": "Koffiepads Mocca",
     "p": "4.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1223706_1_main_cms_1_nl_nl_koffiepads_mocca_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiepads mocca",
-    "ik": "tok:koffiepads|mocca|na",
-    "bn": "koffiepads"
+    "ik": "tok:koffiepads|mocca|1",
+    "bn": "koffiepads",
+    "wg": 1
   },
   {
     "n": "Dolce Gusto Compatible Cups Latte Macchiato",
     "p": "3.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1223701_main_cms_5_nl_nl_dolce_gusto_compatible_cups_latte_macchi_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "dolce compatible cups gusto latte macchiato",
-    "ik": "tok:dolce|compatible-cups-gusto-latte-macchiato|na",
-    "bn": "dolce"
+    "ik": "tok:dolce|compatible-cups-gusto-latte-macchiato|1",
+    "bn": "dolce",
+    "wg": 1
   },
   {
     "n": "Koffiepads Extra Dark Roast",
     "p": "4.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1223689_main_cms_2_nl_nl_koffiepads_extra_dark_roast_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiepads dark extra roast",
-    "ik": "tok:koffiepads|dark-extra-roast|na",
-    "bn": "koffiepads"
+    "ik": "tok:koffiepads|dark-extra-roast|1",
+    "bn": "koffiepads",
+    "wg": 1
   },
   {
     "n": "Koffiepads Decaf",
     "p": "4.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1223688_1_main_cms_1_nl_nl_koffiepads_decaf_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiepads decaf",
-    "ik": "tok:koffiepads|decaf|na",
-    "bn": "koffiepads"
+    "ik": "tok:koffiepads|decaf|1",
+    "bn": "koffiepads",
+    "wg": 1
   },
   {
     "n": "Koffiepads Classic",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1223687_1_main_cms_1_nl_nl_koffiepads_classic_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiepads classic",
-    "ik": "tok:koffiepads|classic|na",
-    "bn": "koffiepads"
+    "ik": "tok:koffiepads|classic|1",
+    "bn": "koffiepads",
+    "wg": 1
   },
   {
     "n": "Koffiepads Dark Roast",
     "p": "3.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1223686_1_main_cms_1_nl_nl_koffiepads_dark_roast_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiepads dark roast",
-    "ik": "tok:koffiepads|dark-roast|na",
-    "bn": "koffiepads"
+    "ik": "tok:koffiepads|dark-roast|1",
+    "bn": "koffiepads",
+    "wg": 1
   },
   {
     "n": "Koffiebonen Espresso Cremosa",
@@ -14054,12 +14127,13 @@
     "n": "Dolce Gusto Compatible Cups Cappuccino",
     "p": "3.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1223658_1_main_cms_1_nl_nl_dolce_gusto_compatible_cups_cappuccino_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "dolce cappuccino compatible cups gusto",
-    "ik": "tok:dolce|cappuccino-compatible-cups-gusto|na",
-    "bn": "dolce"
+    "ik": "tok:dolce|cappuccino-compatible-cups-gusto|1",
+    "bn": "dolce",
+    "wg": 1
   },
   {
     "n": "Cappuccino Wienermelange",
@@ -14089,23 +14163,25 @@
     "n": "Dolce Gusto Compatible Cups Lungo",
     "p": "3.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1223654_main_cms_1_nl_nl_dolce_gusto_compatible_cups_lungo_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "dolce compatible cups gusto lungo",
-    "ik": "tok:dolce|compatible-cups-gusto-lungo|na",
-    "bn": "dolce"
+    "ik": "tok:dolce|compatible-cups-gusto-lungo|1",
+    "bn": "dolce",
+    "wg": 1
   },
   {
     "n": "Dolce Gusto Compatible Cups Café Au Lait",
     "p": "3.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1223653_1_main_cms_2_nl_nl_dolce_gusto_compatible_cups_cafe_au_lait_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "dolce au caf compatible cups gusto lait",
-    "ik": "tok:dolce|au-caf-compatible-cups-gusto-lait|na",
-    "bn": "dolce"
+    "ik": "tok:dolce|au-caf-compatible-cups-gusto-lait|1",
+    "bn": "dolce",
+    "wg": 1
   },
   {
     "n": "Oploskoffie Rood",
@@ -14123,45 +14199,49 @@
     "n": "Dolce Gusto Compatible Cups Lungo Intense Of Espresso",
     "p": "3.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1223637_main_cms_5_nl_nl_dolce_gusto_compatible_cups_lungo_intens_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "dolce compatible cups espresso gusto intense lungo of",
-    "ik": "tok:dolce|compatible-cups-espresso-gusto-intense-lungo-of|na",
-    "bn": "dolce"
+    "ik": "tok:dolce|compatible-cups-espresso-gusto-intense-lungo-of|1",
+    "bn": "dolce",
+    "wg": 1
   },
   {
     "n": "Koffiecups Cappuccino",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1208926_main_cms_3_nl_nl_koffiecups_cappuccino_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiecups cappuccino",
-    "ik": "tok:koffiecups|cappuccino|na",
-    "bn": "koffiecups"
+    "ik": "tok:koffiecups|cappuccino|1",
+    "bn": "koffiecups",
+    "wg": 1
   },
   {
     "n": "Koffiecups Lungo",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1208903_main_cms_3_nl_nl_koffiecups_lungo_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiecups lungo",
-    "ik": "tok:koffiecups|lungo|na",
-    "bn": "koffiecups"
+    "ik": "tok:koffiecups|lungo|1",
+    "bn": "koffiecups",
+    "wg": 1
   },
   {
     "n": "Koffiecups Latte Macchiato",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1201153_main_cms_4_nl_nl_koffiecups_latte_macchiato_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "koffiecups latte macchiato",
-    "ik": "tok:koffiecups|latte-macchiato|na",
-    "bn": "koffiecups"
+    "ik": "tok:koffiecups|latte-macchiato|1",
+    "bn": "koffiecups",
+    "wg": 1
   },
   {
     "n": "Pinda's Geroosterd En Gezouten",
@@ -15046,8 +15126,9 @@
     "s": "6-pack 0.0 pilsener of radler",
     "i": "https://s7g10.scene7.com/is/image/aldinord/91216331_week29?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "of pack pilsener radler",
-    "ik": "tok:unknown|of-pack-pilsener-radler|na"
+    "cn": "pilsener of pack radler",
+    "ik": "tok:pilsener|of-pack-radler|na",
+    "bn": "pilsener"
   },
   {
     "n": "Blond Bier",
@@ -15068,7 +15149,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1241414_main_cms_2_nl_nl_6_pack_cerveza_00_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "cerveza pack",
-    "ik": "tok:unknown|cerveza-pack|na"
+    "ik": "tok:cerveza|pack|na",
+    "bn": "cerveza"
   },
   {
     "n": "New Zealand Ipa",
@@ -15110,8 +15192,9 @@
     "s": "6-pack lemon agave",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1232898_main_cms_4_nl_nl_6_pack_lemon_agave_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "agave lemon pack",
-    "ik": "tok:unknown|agave-lemon-pack|na"
+    "cn": "lemon agave pack",
+    "ik": "tok:lemon|agave-pack|na",
+    "bn": "lemon"
   },
   {
     "n": "6-pack Rosé 0.0%",
@@ -15120,18 +15203,9 @@
     "s": "6x33 cl",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1232893_main_cms_2_nl_nl_6_pack_rose_00_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "pack ros",
-    "ik": "tok:unknown|pack-ros|na"
-  },
-  {
-    "n": "6-pack Wit 0.0%",
-    "p": "2.99",
-    "o": "",
-    "s": "6x33 cl",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1232888_main_cms_4_nl_nl_6_pack_wit_00_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Beverages",
-    "cn": "pack wit",
-    "ik": "tok:unknown|pack-wit|na"
+    "cn": "ros pack ros",
+    "ik": "tok:ros|pack-ros|na",
+    "bn": "ros"
   },
   {
     "n": "Brouwmeester",
@@ -15152,8 +15226,9 @@
     "s": "4-pack tripel",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224831_main_cms_1_nl_nl_4_pack_tripel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "pack tripel",
-    "ik": "tok:unknown|pack-tripel|na"
+    "cn": "tripel pack",
+    "ik": "tok:tripel|pack|na",
+    "bn": "tripel"
   },
   {
     "n": "4-pack Blond",
@@ -15163,7 +15238,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224829_main_cms_5_nl_nl_4_pack_blond_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "blond pack",
-    "ik": "tok:unknown|blond-pack|na"
+    "ik": "tok:blond|pack|na",
+    "bn": "blond"
   },
   {
     "n": "4-pack Quadrupel",
@@ -15172,8 +15248,9 @@
     "s": "4-pack quadrupel",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224828_main_cms_5_nl_nl_4_pack_quadrupel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "pack quadrupel",
-    "ik": "tok:unknown|pack-quadrupel|na"
+    "cn": "quadrupel pack",
+    "ik": "tok:quadrupel|pack|na",
+    "bn": "quadrupel"
   },
   {
     "n": "Extra Strong 10%",
@@ -15208,34 +15285,15 @@
     "ik": "tok:unknown|6x|na"
   },
   {
-    "n": "6-pack Bier",
-    "p": "",
-    "o": "",
-    "s": "6x33 cl",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216421_main_cms_1_nl_nl_6_pack_bier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Beverages",
-    "cn": "bier pack",
-    "ik": "tok:unknown|bier-pack|na"
-  },
-  {
     "n": "6-pack Pilsener",
     "p": "5.99",
     "o": "",
     "s": "6-pack pilsener",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216347_main_cms_2_nl_nl_6_pack_pilsener_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "pack pilsener",
-    "ik": "tok:unknown|pack-pilsener|na"
-  },
-  {
-    "n": "4-pack Bier",
-    "p": "",
-    "o": "",
-    "s": "4x33 cl",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216323_main_cms_6_nl_nl_4_pack_bier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Beverages",
-    "cn": "bier pack",
-    "ik": "tok:unknown|bier-pack|na"
+    "cn": "pilsener pack",
+    "ik": "tok:pilsener|pack|na",
+    "bn": "pilsener"
   },
   {
     "n": "6-pack Radler 0.0%",
@@ -15255,8 +15313,9 @@
     "s": "6-pack premium pilsener",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1213540_main_cms_16_nl_nl_6_pack_premium_pilsener_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "pack pilsener premium",
-    "ik": "tok:unknown|pack-pilsener-premium|na"
+    "cn": "premium pack pilsener",
+    "ik": "tok:premium|pack-pilsener|na",
+    "bn": "premium"
   },
   {
     "n": "Lemon-agave Flavoured Bier",
@@ -15277,8 +15336,9 @@
     "s": "12-pack premium pilsener",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1213433_main_cms_6_nl_nl_12_pack_premium_pilsener_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
-    "cn": "12 pack pilsener premium",
-    "ik": "tok:unknown|12-pack-pilsener-premium|na"
+    "cn": "premium 12 pack pilsener",
+    "ik": "tok:premium|12-pack-pilsener|na",
+    "bn": "premium"
   },
   {
     "n": "6-pack Mexican Bier",
@@ -15763,7 +15823,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1232788_main_cms_2_nl_nl_0_suiker_toegevoegd_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Dairy & Eggs",
     "cn": "suiker toegevoegd",
-    "ik": "tok:unknown|suiker-toegevoegd|na"
+    "ik": "tok:suiker|toegevoegd|na",
+    "bn": "suiker"
   },
   {
     "n": "Biologische Houdbare Halfvolle Melk",
@@ -15916,8 +15977,9 @@
     "s": "6-pack houdbare halfvolle melk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1221238_main_cms_9_nl_nl_6_pack_houdbare_halfvolle_melk_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Dairy & Eggs",
-    "cn": "halfvolle houdbare melk pack",
-    "ik": "tok:unknown|halfvolle-houdbare-melk-pack|na"
+    "cn": "houdbare halfvolle melk pack",
+    "ik": "tok:houdbare|halfvolle-melk-pack|na",
+    "bn": "houdbare"
   },
   {
     "n": "Lactosevrije Halfvolle Houdbare Melk",
@@ -15962,8 +16024,9 @@
     "s": "6-pack yoghurtdrink aardbei",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218112_main_cms_15_nl_nl_6_pack_yoghurtdrink_aardbei_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Dairy & Eggs",
-    "cn": "aardbei pack yoghurtdrink",
-    "ik": "tok:unknown|aardbei-pack-yoghurtdrink|na"
+    "cn": "yoghurtdrink aardbei pack",
+    "ik": "tok:yoghurtdrink|aardbei-pack|na",
+    "bn": "yoghurtdrink"
   },
   {
     "n": "Mix Voor Cacaodrink",
@@ -16008,8 +16071,9 @@
     "s": "6-pack volle chocolademelk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1203477_1_main_cms_1_nl_nl_6_pack_volle_chocolademelk_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Dairy & Eggs",
-    "cn": "chocolademelk pack volle",
-    "ik": "tok:unknown|chocolademelk-pack-volle|na"
+    "cn": "volle chocolademelk pack",
+    "ik": "tok:volle|chocolademelk-pack|na",
+    "bn": "volle"
   },
   {
     "n": "Koffieroom 10% Vet",
@@ -16115,8 +16179,9 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225177_main_cms_5_nl_nl_3_pack_crackers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "crackers pack",
-    "ik": "tok:unknown|crackers-pack|225",
-    "wg": 225
+    "ik": "tok:crackers|pack|225",
+    "wg": 225,
+    "bn": "crackers"
   },
   {
     "n": "Robuuste Crackers",
@@ -16329,8 +16394,9 @@
     "s": "12-pack appelmoeskuipjes",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219347_main_cms_3_nl_nl_12_pack_appelmoeskuipjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
-    "cn": "12 appelmoeskuipjes pack",
-    "ik": "tok:unknown|12-appelmoeskuipjes-pack|na"
+    "cn": "appelmoeskuipjes 12 pack",
+    "ik": "tok:appelmoeskuipjes|12-pack|na",
+    "bn": "appelmoeskuipjes"
   },
   {
     "n": "Appelmoes 0% Suiker Toegevoegd",
@@ -16363,8 +16429,9 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1211642_main_cms_17_nl_nl_4_pack_knijpfruit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "knijpfruit pack",
-    "ik": "tok:unknown|knijpfruit-pack|360",
-    "wg": 360
+    "ik": "tok:knijpfruit|pack|360",
+    "wg": 360,
+    "bn": "knijpfruit"
   },
   {
     "n": "Halve Perziken",
@@ -16541,9 +16608,10 @@
     "s": "280 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1229068_main_cms_2_nl_nl_4_pack_tomatenpuree_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
-    "cn": "pack tomatenpuree",
-    "ik": "tok:unknown|pack-tomatenpuree|280",
-    "wg": 280
+    "cn": "tomatenpuree pack",
+    "ik": "tok:tomatenpuree|pack|280",
+    "wg": 280,
+    "bn": "tomatenpuree"
   },
   {
     "n": "Passata Rustica",
@@ -16568,14 +16636,6 @@
     "ik": "tok:biologische|agavesiroop|250",
     "bn": "biologische",
     "wg": 250
-  },
-  {
-    "n": "800 ml",
-    "p": "3.15",
-    "o": "",
-    "s": "800 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225927_main_cms_3_nl_nl_curry_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Other"
   },
   {
     "n": "Balsamicocrème",
@@ -17013,14 +17073,15 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1229322_main_cms_2_nl_nl_9_pack_orange_regular_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "orange pack regular",
-    "ik": "tok:unknown|orange-pack-regular|na"
+    "ik": "tok:orange|pack-regular|na",
+    "bn": "orange"
   },
   {
-    "n": "9-pack Cola Zero",
-    "p": "2.79",
+    "n": "6-pack Cola Zero",
+    "p": "2.09",
     "o": "",
-    "s": "9-pack cola zero",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1228793_main_cms_7_nl_nl_9_pack_cola_zero_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "s": "6-pack cola zero",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1214348_main_cms_1_nl_nl_6_pack_cola_zero_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "cola pack zero",
     "ik": "tok:cola|pack-zero|na",
@@ -17307,7 +17368,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224230_main_cms_2_nl_nl_6_pack_ice_tea_lemon_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "ice lemon pack tea",
-    "ik": "tok:unknown|ice-lemon-pack-tea|na"
+    "ik": "tok:ice|lemon-pack-tea|na",
+    "bn": "ice"
   },
   {
     "n": "Fanta Zero",
@@ -17341,7 +17403,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224215_main_cms_2_nl_nl_6_pack_ice_tea_peach_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "ice pack peach tea",
-    "ik": "tok:unknown|ice-pack-peach-tea|na"
+    "ik": "tok:ice|pack-peach-tea|na",
+    "bn": "ice"
   },
   {
     "n": "Pepsi Cola",
@@ -17489,18 +17552,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1214398_main_cms_3_nl_nl_6_pack_lemon_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "lemon pack",
-    "ik": "tok:unknown|lemon-pack|na"
-  },
-  {
-    "n": "6-pack Cola Zero",
-    "p": "2.09",
-    "o": "",
-    "s": "6-pack cola zero",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1214348_main_cms_1_nl_nl_6_pack_cola_zero_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Beverages",
-    "cn": "cola pack zero",
-    "ik": "tok:cola|pack-zero|na",
-    "bn": "cola"
+    "ik": "tok:lemon|pack|na",
+    "bn": "lemon"
   },
   {
     "n": "6-pack Cola",
@@ -17521,7 +17574,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1213521_main_cms_1_nl_nl_6_pack_orange_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "orange pack",
-    "ik": "tok:unknown|orange-pack|na"
+    "ik": "tok:orange|pack|na",
+    "bn": "orange"
   },
   {
     "n": "Rivella",
@@ -17578,9 +17632,10 @@
     "s": "600 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1237709_main_cms_3_nl_nl_100_pindakaas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
-    "cn": "100 pindakaas",
-    "ik": "tok:unknown|100-pindakaas|600",
-    "wg": 600
+    "cn": "pindakaas 100",
+    "ik": "tok:pindakaas|100|600",
+    "wg": 600,
+    "bn": "pindakaas"
   },
   {
     "n": "Hagelslag Mix",
@@ -17850,99 +17905,109 @@
     "n": "Wasverzachter",
     "p": "1.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235688_main_cms_1_nl_nl_wasverzachter_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "wasverzachter",
-    "ik": "tok:wasverzachter|unknown|na",
-    "bn": "wasverzachter"
+    "ik": "tok:wasverzachter|unknown|1",
+    "bn": "wasverzachter",
+    "wg": 1
   },
   {
     "n": "Vloeibaar Wasmiddel Zwart Of Wit",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1227213_main_cms_6_nl_nl_vloeibaar_wasmiddel_zwart_of_wit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "vloeibaar of wasmiddel wit zwart",
-    "ik": "tok:vloeibaar|of-wasmiddel-wit-zwart|na",
-    "bn": "vloeibaar"
+    "ik": "tok:vloeibaar|of-wasmiddel-wit-zwart|1",
+    "bn": "vloeibaar",
+    "wg": 1
   },
   {
     "n": "Vloeibaar Wasmiddel Kleur",
     "p": "",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1227212_main_cms_3_nl_nl_vloeibaar_wasmiddel_kleur_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "vloeibaar kleur wasmiddel",
-    "ik": "tok:vloeibaar|kleur-wasmiddel|na",
-    "bn": "vloeibaar"
+    "ik": "tok:vloeibaar|kleur-wasmiddel|1",
+    "bn": "vloeibaar",
+    "wg": 1
   },
   {
     "n": "Waspoeder Wit",
     "p": "3.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226629_main_cms_1_nl_nl_waspoeder_wit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "waspoeder wit",
-    "ik": "tok:waspoeder|wit|na",
-    "bn": "waspoeder"
+    "ik": "tok:waspoeder|wit|1",
+    "bn": "waspoeder",
+    "wg": 1
   },
   {
     "n": "15 Wasbeurten",
     "p": "2.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226183_main_cms_3_nl_nl_geurparels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
-    "cn": "15 wasbeurten",
-    "ik": "tok:unknown|15-wasbeurten|na"
+    "cn": "wasbeurten 15",
+    "ik": "tok:wasbeurten|15|1",
+    "bn": "wasbeurten",
+    "wg": 1
   },
   {
     "n": "Waspoeder Kleur",
     "p": "1.13",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224935_main_cms_1_nl_nl_waspoeder_kleur_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "waspoeder kleur",
-    "ik": "tok:waspoeder|kleur|na",
-    "bn": "waspoeder"
+    "ik": "tok:waspoeder|kleur|1",
+    "bn": "waspoeder",
+    "wg": 1
   },
   {
     "n": "Wasmiddel Wol & Fijn",
     "p": "3.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1206272_main_cms_2_nl_nl_wasmiddel_wol_en_fijn_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "wasmiddel fijn wol",
-    "ik": "tok:wasmiddel|fijn-wol|na",
-    "bn": "wasmiddel"
+    "ik": "tok:wasmiddel|fijn-wol|1",
+    "bn": "wasmiddel",
+    "wg": 1
   },
   {
     "n": "Vloeibaar Wasmiddel",
     "p": "4.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1206254_main_cms_6_nl_nl_vloeibaar_wasmiddel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "vloeibaar wasmiddel",
-    "ik": "tok:vloeibaar|wasmiddel|na",
-    "bn": "vloeibaar"
+    "ik": "tok:vloeibaar|wasmiddel|1",
+    "bn": "vloeibaar",
+    "wg": 1
   },
   {
     "n": "Vloeibaar Wasmiddel Zwart",
     "p": "3.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1200501_1_main_cms_1_nl_nl_vloeibaar_wasmiddel_zwart_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "vloeibaar wasmiddel zwart",
-    "ik": "tok:vloeibaar|wasmiddel-zwart|na",
-    "bn": "vloeibaar"
+    "ik": "tok:vloeibaar|wasmiddel-zwart|1",
+    "bn": "vloeibaar",
+    "wg": 1
   },
   {
     "n": "Wascapsules 3-in-1 Wit Of Kleur",
@@ -17959,12 +18024,13 @@
     "n": "Wasmiddel Kleur Of Wit",
     "p": "2.68",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200109_main_cms_1_nl_nl_wasmiddel_kleur_of_wit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "wasmiddel kleur of wit",
-    "ik": "tok:wasmiddel|kleur-of-wit|na",
-    "bn": "wasmiddel"
+    "ik": "tok:wasmiddel|kleur-of-wit|1",
+    "bn": "wasmiddel",
+    "wg": 1
   },
   {
     "n": "Zilvervliesrijst",
@@ -18526,7 +18592,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224226_main_cms_1_nl_nl_6_pack_multivitamine_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "multivitamine pack",
-    "ik": "tok:unknown|multivitamine-pack|na"
+    "ik": "tok:multivitamine|pack|na",
+    "bn": "multivitamine"
   },
   {
     "n": "6-pack Appelsap",
@@ -18558,9 +18625,10 @@
     "s": "2 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1211551_main_cms_9_nl_nl_10_pack_fruitdrink_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
-    "cn": "10 fruitdrink pack",
-    "ik": "tok:unknown|10-fruitdrink-pack|2000",
-    "wg": 2000
+    "cn": "fruitdrink 10 pack",
+    "ik": "tok:fruitdrink|10-pack|2000",
+    "wg": 2000,
+    "bn": "fruitdrink"
   },
   {
     "n": "10-pack Sinaasappellimonade",
@@ -18569,8 +18637,9 @@
     "s": "10-pack sinaasappellimonade",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1203047_1_main_cms_4_nl_nl_10_pack_sinaasappellimonade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
-    "cn": "10 pack sinaasappellimonade",
-    "ik": "tok:unknown|10-pack-sinaasappellimonade|na"
+    "cn": "sinaasappellimonade 10 pack",
+    "ik": "tok:sinaasappellimonade|10-pack|na",
+    "bn": "sinaasappellimonade"
   },
   {
     "n": "Duodrank sinaasappel-perzik",
@@ -18636,23 +18705,25 @@
     "n": "Skin Hydra Fusion Dagcreme",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1237851_main_cms_1_nl_nl_skin_hydra_fusion_dagcreme_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "skin dagcreme fusion hydra",
-    "ik": "tok:skin|dagcreme-fusion-hydra|na",
-    "bn": "skin"
+    "ik": "tok:skin|dagcreme-fusion-hydra|1",
+    "bn": "skin",
+    "wg": 1
   },
   {
     "n": "Gezichts- Of Oogmasker",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224996_main_cms_6_nl_nl_gezichts_of_oogmasker_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "gezichts of oogmasker",
-    "ik": "tok:gezichts|of-oogmasker|na",
-    "bn": "gezichts"
+    "ik": "tok:gezichts|of-oogmasker|1",
+    "bn": "gezichts",
+    "wg": 1
   },
   {
     "n": "Gezichtsreiniging",
@@ -18709,7 +18780,8 @@
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1202519_main_cms_8_nl_nl_3_pack_lippenbalsem_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "lippenbalsem pack",
-    "ik": "tok:unknown|lippenbalsem-pack|na"
+    "ik": "tok:lippenbalsem|pack|na",
+    "bn": "lippenbalsem"
   },
   {
     "n": "Lacura Skin",
@@ -18730,19 +18802,21 @@
     "s": "3-laags servetten",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220528_main_cms_14_nl_nl_3_laags_servetten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
-    "cn": "laags servetten",
-    "ik": "tok:unknown|laags-servetten|na"
+    "cn": "servetten laags",
+    "ik": "tok:servetten|laags|na",
+    "bn": "servetten"
   },
   {
     "n": "Herbruikbare Plastic Tas",
     "p": "0.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1209364_main_cms_3_nl_nl_herbruikbare_plastic_tas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
     "cn": "herbruikbare plastic tas",
-    "ik": "tok:herbruikbare|plastic-tas|na",
-    "bn": "herbruikbare"
+    "ik": "tok:herbruikbare|plastic-tas|1",
+    "bn": "herbruikbare",
+    "wg": 1
   },
   {
     "n": "10-pack AA- Of AAA-alkalinebatterijen",
@@ -18773,8 +18847,9 @@
     "s": "3-pack wegwerpaanstekers",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1204782_main_cms_4_nl_nl_3_pack_wegwerpaanstekers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Household",
-    "cn": "pack wegwerpaanstekers",
-    "ik": "tok:unknown|pack-wegwerpaanstekers|na"
+    "cn": "wegwerpaanstekers pack",
+    "ik": "tok:wegwerpaanstekers|pack|na",
+    "bn": "wegwerpaanstekers"
   },
   {
     "n": "Biologische Amandeldrink",
@@ -18902,9 +18977,10 @@
     "s": "320 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219334_main_cms_3_nl_nl_4_pack_tiramisu_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Dairy & Eggs",
-    "cn": "pack tiramisu",
-    "ik": "tok:unknown|pack-tiramisu|320",
-    "wg": 320
+    "cn": "tiramisu pack",
+    "ik": "tok:tiramisu|pack|320",
+    "wg": 320,
+    "bn": "tiramisu"
   },
   {
     "n": "Karnemelkdessert",
@@ -18970,34 +19046,37 @@
     "n": "Maandverband normaal&nacht",
     "p": "1.09",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218487_main_cms_9_nl_nl_maandverband_normaalennacht_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "maandverband nacht normaal",
-    "ik": "tok:maandverband|nacht-normaal|na",
-    "bn": "maandverband"
+    "ik": "tok:maandverband|nacht-normaal|1",
+    "bn": "maandverband",
+    "wg": 1
   },
   {
     "n": "Lady Pants",
     "p": "5.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205644_main_cms_10_nl_nl_lady_pants_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "lady pants",
-    "ik": "tok:lady|pants|na",
-    "bn": "lady"
+    "ik": "tok:lady|pants|1",
+    "bn": "lady",
+    "wg": 1
   },
   {
     "n": "Inlegkruisjes",
     "p": "1.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205333_main_cms_13_nl_nl_inlegkruisjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "inlegkruisjes",
-    "ik": "tok:inlegkruisjes|unknown|na",
-    "bn": "inlegkruisjes"
+    "ik": "tok:inlegkruisjes|unknown|1",
+    "bn": "inlegkruisjes",
+    "wg": 1
   },
   {
     "n": "Ultra Maandverband",
