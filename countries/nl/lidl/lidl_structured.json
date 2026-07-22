@@ -75,23 +75,25 @@
     "n": "Toiletpapier 4laags",
     "p": "6.89",
     "o": "Toiletpapier 4-laags voor 6.89 EUR Toiletpapier 4-laags Alleen in de winkel 20/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/pMQHRpHdII8O5maWDSdPsadPbTgpXdvdx-yiPGbWavM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9FQjIwOTQ5QzY4RTkwMzA5MTk5MEQyMDN/GNEI3N0UwMjJCRkVENzIzMUVFRTBDMzc4QjBBQzlGRDQxQjJFREQ5LnBuZw.png",
     "c": "Other",
     "cn": "toiletpapier 4laags",
-    "ik": "tok:toiletpapier|4laags|na",
-    "bn": "toiletpapier"
+    "ik": "tok:toiletpapier|4laags|1",
+    "bn": "toiletpapier",
+    "wg": 1
   },
   {
     "n": "Cocacola Of Fanta",
     "p": "3.99",
     "o": "COCA-COLA of FANTA voor 3.99 EUR COCA-COLA of FANTA tot -33% 8-pack Van prijzen variëren van €4,34 - €5,99. Alleen in de winkel 20/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/hwwMLmJvycBmUsNCUOrt6YjeTRcpgF_n6UOx33MclJ4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS80MTQ5NEE0ODgwQzgwRTZGQ0VFOTZBMzQ/4NTRDRDU1RUM3OUQzQjQ5MkExMzVENEZCNEFDOTVDOTIxNURBN0IzLnBuZw.png",
     "c": "Other",
     "cn": "fanta cocacola of",
-    "ik": "tok:fanta|cocacola-of|na",
-    "bn": "fanta"
+    "ik": "tok:fanta|cocacola-of|1",
+    "bn": "fanta",
+    "wg": 1
   },
   {
     "n": "Alle Bongelati En Gelatelli Roomijsjes",
@@ -145,12 +147,13 @@
     "n": "Mandarijnen",
     "p": "1.99",
     "o": "-20% Alleen in de winkel 20/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/HnqqFsiBj4F4IeTgcGjvXas1krmRuJ-zNpUk1kuBbAQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9BMTZBMkQ2QjE2RTM3MTUyRjUyOUM4MDQ/yODY1NzI0MTYzOUIwQ0VCQjZBMEU0RkRGNzkzMjhFNDNFMzk3Q0NGLnBuZw.png",
     "c": "Other",
     "cn": "mandarijnen",
-    "ik": "tok:mandarijnen|unknown|na",
-    "bn": "mandarijnen"
+    "ik": "tok:mandarijnen|unknown|1",
+    "bn": "mandarijnen",
+    "wg": 1
   },
   {
     "n": "Nederlandse Pruimen",
@@ -288,12 +291,13 @@
     "n": "Dunkin Donuts Cheesecake Crumble",
     "p": "2.99",
     "o": "2-pack Alleen in de winkel 20/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/l0z6TdUzPxONzi0S9s1Y2aDq4Fksxov85yU7dIL6mVI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9GRkQxNTUwQUFCRjI3Njc2NjlBQUE0NTM/1NzFCMEFEOTMyQzJCOTg5NDRFQTVBRDEwODE0OUJDMjcxMjgyMDZCLnBuZw.png",
     "c": "Other",
     "cn": "dunkin cheesecake crumble donuts",
-    "ik": "tok:dunkin|cheesecake-crumble-donuts|na",
-    "bn": "dunkin"
+    "ik": "tok:dunkin|cheesecake-crumble-donuts|1",
+    "bn": "dunkin",
+    "wg": 1
   },
   {
     "n": "Lemon Poppy Cheesecake Muffin",
@@ -335,12 +339,13 @@
     "n": "Schouderfiletlapjes Gemarineerd",
     "p": "2.99",
     "o": "-25% Alleen in de winkel 20/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/GJKutyngT0t362vEyAo94AmymGeViVHmoBdMUGXBxvs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0I0MDkzQjdFREU5NDk0RTYwMEREMzkyNz/IzRDk2RDk5REFBODMwMEEwRjFEQkY3RUZDRTYzNDJGQ0NDQjY5MzcucG5n.png",
     "c": "Other",
     "cn": "schouderfiletlapjes gemarineerd",
-    "ik": "tok:schouderfiletlapjes|gemarineerd|na",
-    "bn": "schouderfiletlapjes"
+    "ik": "tok:schouderfiletlapjes|gemarineerd|1",
+    "bn": "schouderfiletlapjes",
+    "wg": 1
   },
   {
     "n": "Gemarineerde Speklapjes",
@@ -513,12 +518,13 @@
     "n": "Bifi",
     "p": "1.99",
     "o": "3-pack / 4-pack Alleen in de winkel 20/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/0XrdR1aEmHpB9JexEy9Off0oCESW1VZXhQOlI0Tuzrw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9CREE2QjM0MkQyODIwNTA2OUMyQjVBQzY/xOUY4RDVGQjZCOTZCOERGMjY2REVDMEQ0MDc3OUMzQjUwQ0ExQkNELnBuZw.png",
     "c": "Other",
     "cn": "bifi",
-    "ik": "tok:bifi|unknown|na",
-    "bn": "bifi"
+    "ik": "tok:bifi|unknown|1",
+    "bn": "bifi",
+    "wg": 1
   },
   {
     "n": "Maatjes Haring Of Hollandse Nieuwe",
@@ -572,12 +578,13 @@
     "n": "Healthy Fit Proteïnereep Voor In De Varianten Pindakaas Of Hazelnoot",
     "p": "1.12",
     "o": "-29% Alleen in de winkel 20/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/xcL7hIz5JL_ECZshasBgY1wdOmFca5uc4TDgdKWZX-M/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9FMTM3RjdDNzE3NTY1RTc3QUQxQzkwMjc/4QkJBNTYyMjkwQTI5QTc0NERERTc4MUYxMjU5QjlENzYwQjQ4NEQxLnBuZw.png",
     "c": "Other",
     "cn": "healthy fit hazelnoot in nereep of pindakaas prote varianten",
-    "ik": "tok:healthy|fit-hazelnoot-in-nereep-of-pindakaas-prote-varianten|na",
-    "bn": "healthy"
+    "ik": "tok:healthy|fit-hazelnoot-in-nereep-of-pindakaas-prote-varianten|1",
+    "bn": "healthy",
+    "wg": 1
   },
   {
     "n": "Amicelli",
@@ -727,12 +734,13 @@
     "n": "Heineken",
     "p": "16.99",
     "o": "24-pack Alleen in de winkel 20/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/_x_2CCx6VPHV60e6sj3wbXMnmDyk0DBju2uaI-myez0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS81QUEyMzA5MDI4NjZENzIxQ0M3NDhDMUE/wMjA5M0IyNzg0QzE4QUE1MTg5QzA5MDg4MEQyOEQ1N0U0MjExRUJDLnBuZw.png",
     "c": "Other",
     "cn": "heineken",
-    "ik": "tok:heineken|unknown|na",
-    "bn": "heineken"
+    "ik": "tok:heineken|unknown|1",
+    "bn": "heineken",
+    "wg": 1
   },
   {
     "n": "Grolsch 0.0 En Radler",
@@ -834,12 +842,13 @@
     "n": "Bonenschotel Mexicaanse Stijl",
     "p": "1.69",
     "o": "-15% Alleen in de winkel 20/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/oqm24dicV7JzqC26c7XXBhR5zvZhfbw24kF1A_1VwJc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS85ODY3QTk1QjhGQjZBOEZBMzIxNzlEMDZ/DREJGQTg3N0RBOUI3NzVDN0Q5NDcwMzYyOTI3QTEyRTA1NTY5MUZCLnBuZw.png",
     "c": "Other",
     "cn": "bonenschotel mexicaanse stijl",
-    "ik": "tok:bonenschotel|mexicaanse-stijl|na",
-    "bn": "bonenschotel"
+    "ik": "tok:bonenschotel|mexicaanse-stijl|1",
+    "bn": "bonenschotel",
+    "wg": 1
   },
   {
     "n": "Bruine Bonen",
@@ -869,12 +878,13 @@
     "n": "Plantaardige Vruchtenyoghurt Aardbei",
     "p": "1.49",
     "o": "-16% Alleen in de winkel 20/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/P2qCr1U80Z6oBNvQM0JTyolNxO84kdSh45fzpWRRWSQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS85NjIzQzM4QjI0RTU2QzU5OTgwQjAxRjQ/5RUFEMUY4REM2RUNFMjQxRUEzQzVCRjhGNjUxRTVEMTI4MDU2MkM0LnBuZw.png",
     "c": "Other",
     "cn": "plantaardige aardbei vruchtenyoghurt",
-    "ik": "tok:plantaardige|aardbei-vruchtenyoghurt|na",
-    "bn": "plantaardige"
+    "ik": "tok:plantaardige|aardbei-vruchtenyoghurt|1",
+    "bn": "plantaardige",
+    "wg": 1
   },
   {
     "n": "Alesto Pecannoten",
@@ -892,34 +902,37 @@
     "n": "Chrysant In Hangmand",
     "p": "5.99",
     "o": "Alleen in de winkel 22/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/K14bCbK-tclOKb5W47qR-6oFhsOqFT5zT30KYeZ8Gmo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS8yQTFBOUQ2MzY4NUVCNTY2OTZCN0NDMjU/1NEZDNDhDNTMxNzExRDFFMDczMUVFOTNDNkM4MUMwM0FFRTUzM0RDLnBuZw.png",
     "c": "Other",
     "cn": "chrysant hangmand in",
-    "ik": "tok:chrysant|hangmand-in|na",
-    "bn": "chrysant"
+    "ik": "tok:chrysant|hangmand-in|1",
+    "bn": "chrysant",
+    "wg": 1
   },
   {
     "n": "Celosia In Pot",
     "p": "7.49",
     "o": "Alleen in de winkel 22/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/plTcJHk1oZ5J53U9JwozxjboEqtwc0gxVQy42wXwMGE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS84QTNDMzRGMDBBNEJEQzRFMUI4RUVFQTM/1QzgxMjk1QkU4RThBN0JEOTZDNzVENjU2NTk5QzQ4ODM1OEQ1REU4LnBuZw.png",
     "c": "Other",
     "cn": "celosia in pot",
-    "ik": "tok:celosia|in-pot|na",
-    "bn": "celosia"
+    "ik": "tok:celosia|in-pot|1",
+    "bn": "celosia",
+    "wg": 1
   },
   {
     "n": "Keramiek Veneto",
     "p": "9.99",
     "o": "Alleen in de winkel 22/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/G2q7qmcLnrR2PxUdZAORr3U4jdRIFJtF0Eyv5_N9u3s/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9BMDlGQTUyMDgxQjA1MDNENEMyMTAyNTB/DQUNBMTQ5QTUyOTc2NzQwNjEwMjAwMjg0ODk0OEQwQTVFRjY2QzZGLnBuZw.png",
     "c": "Other",
     "cn": "keramiek veneto",
-    "ik": "tok:keramiek|veneto|na",
-    "bn": "keramiek"
+    "ik": "tok:keramiek|veneto|1",
+    "bn": "keramiek",
+    "wg": 1
   },
   {
     "n": "Clematis",
@@ -936,56 +949,61 @@
     "n": "Gladiolen",
     "p": "2.49",
     "o": "-28% Alleen in de winkel 22/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/PK0jfCwcKekV6jJDX_Wdbu-fdGhYSV0_P5WOZPKilGA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9EMTY1MTU3OTBBNDIyODQ2QzBCMDYwRjJ/BMEFCNjVEOTc5NDY1OTMyQzdFREUwRTEyOEYxODc5RjhGOTZFMUM4LnBuZw.png",
     "c": "Other",
     "cn": "gladiolen",
-    "ik": "tok:gladiolen|unknown|na",
-    "bn": "gladiolen"
+    "ik": "tok:gladiolen|unknown|1",
+    "bn": "gladiolen",
+    "wg": 1
   },
   {
     "n": "Pampusgras",
     "p": "6.99",
     "o": "Actie Alleen in de winkel 22/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/1FMV8P3cqXfsp_Q7xJ9ber77ckc5DV6oSAoyweJR0C0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9CMzkxMTIzOUE4OUI2NjQ2QUM4RUU5QUR/BNzRBQzcxMUU5NkMxRDM3RTAzNTk1MDlDMkJDQUVFNjFFN0VERTk5LnBuZw.png",
     "c": "Other",
     "cn": "pampusgras",
-    "ik": "tok:pampusgras|unknown|na",
-    "bn": "pampusgras"
+    "ik": "tok:pampusgras|unknown|1",
+    "bn": "pampusgras",
+    "wg": 1
   },
   {
     "n": "Mini Orchidee In Keramiek",
     "p": "3.99",
     "o": "Alleen in de winkel vanaf 24/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/dJjIa1oWywS6ezdC53ilP1WApWsUkIyP3Wet8r-Afr0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9FNDEwNkUxQTJCNzVEMjBBM0NEQzYyNDk/xOUM5MEQyMjA4QjdCNzVBQ0I5NzMxMkMzMTVFNjc3NzI1NzlGRTVCLnBuZw.png",
     "c": "Other",
     "cn": "mini in keramiek orchidee",
-    "ik": "tok:mini|in-keramiek-orchidee|na",
-    "bn": "mini"
+    "ik": "tok:mini|in-keramiek-orchidee|1",
+    "bn": "mini",
+    "wg": 1
   },
   {
     "n": "Zomerboeket Zonnebloemen",
     "p": "4.49",
     "o": "Alleen in de winkel vanaf 24/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/pHklcfLEYwgTBSHXUekia7lTM6GeZfROvHnLSeCAoys/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9DRTk1MzhGM0M5MEUyREE3QjI2MEMwRDM/2QUUxQ0MxNDQ0MjhGQzA3OTY4NUVDRkM2MEIyOTQ0NTM2OEMzNThDLnBuZw.png",
     "c": "Other",
     "cn": "zomerboeket zonnebloemen",
-    "ik": "tok:zomerboeket|zonnebloemen|na",
-    "bn": "zomerboeket"
+    "ik": "tok:zomerboeket|zonnebloemen|1",
+    "bn": "zomerboeket",
+    "wg": 1
   },
   {
     "n": "Lavendel",
     "p": "1.99",
     "o": "Alleen in de winkel vanaf 24/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/s4J_i_ZR6aMxc23fGJpX11ILZSB_VG4Ere8oc_ian70/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9DRjMzMzFGMzJGQzZDRjBFQzhFRTI5Mjh/FOTMyMzQyRTE1MDBCREUzRDdEMjA1QjFFQ0JENUIzQzRERjgxRUQxLnBuZw.png",
     "c": "Other",
     "cn": "lavendel",
-    "ik": "tok:lavendel|unknown|na",
-    "bn": "lavendel"
+    "ik": "tok:lavendel|unknown|1",
+    "bn": "lavendel",
+    "wg": 1
   },
   {
     "n": "Kogelbiefstuk",
@@ -1027,12 +1045,13 @@
     "n": "Witte Bollen",
     "p": "0.99",
     "o": "-31% Alleen in de winkel vanaf 24/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/_tszn9xWfGd60h26Qa5Z5tBuvhnQeE7FdNGoQFwqkOc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS82RTA3M0IzNUVENzdDNTc3NEQzMTYxOTh/GNTMyN0ZFOTRDRkVBNDgxNTA1QTIyOThGNzIyRTk2NTdGNjAwQzk2LnBuZw.png",
     "c": "Other",
     "cn": "witte bollen",
-    "ik": "tok:witte|bollen|na",
-    "bn": "witte"
+    "ik": "tok:witte|bollen|1",
+    "bn": "witte",
+    "wg": 1
   },
   {
     "n": "Pecannotenbroodje",
@@ -1134,12 +1153,13 @@
     "n": "Felix Pouch",
     "p": "6.99",
     "o": "-22% Alleen in de winkel vanaf 24/07 - 26/07",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/eMaClV1t-yBaLppCLAEbaqvx5q0d6JGb_OIR1hLfeMM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9BQTcwN0Q5Q0RFQjlEQTlDREI2RTAwMDY/3ODRDOTI5RkQ3NDUwMTcwNjExQUQzQTREM0NBRkZFMTIwQzVFQzQzLnBuZw.png",
     "c": "Other",
     "cn": "felix pouch",
-    "ik": "tok:felix|pouch|na",
-    "bn": "felix"
+    "ik": "tok:felix|pouch|1",
+    "bn": "felix",
+    "wg": 1
   },
   {
     "n": "Mango",
