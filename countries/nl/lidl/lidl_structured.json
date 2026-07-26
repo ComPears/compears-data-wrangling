@@ -15,12 +15,13 @@
     "n": "Rode Pitloze Druiven",
     "p": "1.19",
     "o": "-52% Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/yY7ekZzIm9m5F9MfUsD6zxOAElJ_e_jRY3sRd98X9Qg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0IzQkRERjc5MEJGMkEwMDY4MDFDMjQ5RT/g3MEU3RDE0QjhCRERGOUQwMjc0QUMwOTY3NDgzNkU3QjlGMEIzNzUucG5n.png",
     "c": "Other",
     "cn": "rode druiven pitloze",
-    "ik": "tok:rode|druiven-pitloze|na",
-    "bn": "rode"
+    "ik": "tok:rode|druiven-pitloze|1",
+    "bn": "rode",
+    "wg": 1
   },
   {
     "n": "Nescafé Gold Oploskoffie",
@@ -50,12 +51,13 @@
     "n": "John West Tonijn",
     "p": "5.99",
     "o": "5-pack Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/5GrNLxB-pSFLNpi7EDaKtXpCMV7QygN6DPLIFUMit-4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzAxM0U0NUJBMzkyNUJCNTQxQkUxMjY5QT/Q1N0VDMTg2MDU0OTUzQzNCMEIwQkQ2ODQ0NjI3Q0U2NkI3QTMyRjYucG5n.png",
     "c": "Other",
     "cn": "john tonijn west",
-    "ik": "tok:john|tonijn-west|na",
-    "bn": "john"
+    "ik": "tok:john|tonijn-west|1",
+    "bn": "john",
+    "wg": 1
   },
   {
     "n": "Almhof Hoekje",
@@ -121,12 +123,13 @@
     "n": "Hele Bioassortiment",
     "p": "0.41",
     "o": "Hele bio-assortiment voor 0.41 Hele bio-assortiment -15% Prijsvoorbeeld Bio volkoren macaroni. Actieprijzen variëren van €0.41 - €8.41. Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/Gm-devmltjPC7w93FrTjth-bJDlPsfRagjhcm-VcFwg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzY5Q0MxNTE3OTUxQjk5RTdBQ0QwM0MzRU/FERThDNTIyQ0RGMjUyQUM0MzhDRThEMjcwMjgzODA1MkQyRTNFN0EucG5n.png",
     "c": "Other",
     "cn": "hele bioassortiment",
-    "ik": "tok:hele|bioassortiment|na",
-    "bn": "hele"
+    "ik": "tok:hele|bioassortiment|1",
+    "bn": "hele",
+    "wg": 1
   },
   {
     "n": "Paprikamix",
@@ -347,23 +350,25 @@
     "n": "Pinky Donuts",
     "p": "1.99",
     "o": "4-pack Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/0Fhs7k3V6EN__AZDMCya8vhPWPUVO6irlqzxzWkKUTY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0IxMDEzRjUzMkYzN0Y2QzAxODFBMjE5RE/FCQjAwRUJBNzY2Q0U5OTU5QUQ5RDJDQkJEODFCMTVEMjM1NDQxQ0EucG5n.png",
     "c": "Other",
     "cn": "pinky donuts",
-    "ik": "tok:pinky|donuts|na",
-    "bn": "pinky"
+    "ik": "tok:pinky|donuts|1",
+    "bn": "pinky",
+    "wg": 1
   },
   {
     "n": "Gemengd Gehakt",
     "p": "5.29",
     "o": "Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/p5Ixar2SfvgbVQ_yZAGbUhOrxiY6822gcOwcPiqM6sA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9BOTkxN0M3NzI2RkZCMEM0QUY5QzVBMjY/5MzNDRjkxQUY3RUIyRTY1RjYwQ0NENUYwRkYyMzExNUYxOUM4ODhBLnBuZw.png",
     "c": "Other",
     "cn": "gemengd gehakt",
-    "ik": "tok:gemengd|gehakt|na",
-    "bn": "gemengd"
+    "ik": "tok:gemengd|gehakt|1",
+    "bn": "gemengd",
+    "wg": 1
   },
   {
     "n": "Kipfiletblokjes",
@@ -381,12 +386,13 @@
     "n": "Schouderkarbonade",
     "p": "5.69",
     "o": "Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/8CWM3QScMJvPRAnK6UfP0-skIAw3nrYw98rqe3hmiW0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzk5MDFEQUU0QUJGNkMwQ0FFMTU5QTc5RT/lGQzMxRDlFMkM2RDc0MDhGNUYyQjlDMTI4RkE4MjlDODk5NUQ0MjQucG5n.png",
     "c": "Other",
     "cn": "schouderkarbonade",
-    "ik": "tok:schouderkarbonade|unknown|na",
-    "bn": "schouderkarbonade"
+    "ik": "tok:schouderkarbonade|unknown|1",
+    "bn": "schouderkarbonade",
+    "wg": 1
   },
   {
     "n": "Duitse Biefstuk Voor 7 Eur 11%",
@@ -811,12 +817,13 @@
     "n": "Tripel KARMELIET, CORONA, Hertog Jan Of Leffe Blond Voor 6.6 Eur 4pack 6pack",
     "p": "6.60",
     "o": "4-pack of 6-pack -25% Prijsvoorbeeld: Tripel Karmeliet. Actieprijzen variëren van €6.60 - €6.99. Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/4Uw8s-CYf8JlPJ1yUQapCOryI6gUImQBuyp3nbM09Kk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS9DOUZBRjlBOTkzNjFFMDhFQ0ExQTc1ODM/3RTg1N0U2RDEyOTU2RDgwNUNCMkE0RDhGQTBGMzFENjhGRjU4QTkyLnBuZw.png",
     "c": "Other",
     "cn": "tripel 4pack 6pack blond corona hertog jan karmeliet leffe of",
-    "ik": "tok:tripel|4pack-6pack-blond-corona-hertog-jan-karmeliet-leffe-of|na",
-    "bn": "tripel"
+    "ik": "tok:tripel|4pack-6pack-blond-corona-hertog-jan-karmeliet-leffe-of|1",
+    "bn": "tripel",
+    "wg": 1
   },
   {
     "n": "Bavaria 0.0",
@@ -894,12 +901,13 @@
     "n": "Edet Toiletpapier 4laags",
     "p": "7.99",
     "o": "EDET Toiletpapier 4-laags voor 7.99 EUR EDET Toiletpapier 4-laags Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/s-M1j8OFjjcXtwOkenrKpYfN9lD_avd8aK4ErENHgNc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS8zQUJGRUFDNEY3NjM2RTQ0ODJCQzQyNjQ/1Q0UzRDcwOTA4ODQ1MkQ3N0JGMzE5RDAzREFDMjc2NUZGQkJFRThCLnBuZw.png",
     "c": "Other",
     "cn": "edet 4laags toiletpapier",
-    "ik": "tok:edet|4laags-toiletpapier|na",
-    "bn": "edet"
+    "ik": "tok:edet|4laags-toiletpapier|1",
+    "bn": "edet",
+    "wg": 1
   },
   {
     "n": "Galzeep Met Borstel",
@@ -929,12 +937,13 @@
     "n": "Dreft Platinum Plus",
     "p": "9.99",
     "o": "Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/UF2NNlaM2IFm1K_94ATLUNfZLb1pFa2yMaeInBS58GU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS81RDZGRUM0MjZGRDlGOTJDMUM3Q0VDNUV/DMzBEMDgyNEJCODI1MUE3MUYzMTk0Mjc4QUU5MkNGOENGQ0Q4NTNDLnBuZw.png",
     "c": "Other",
     "cn": "plus dreft platinum",
-    "ik": "tok:plus|dreft-platinum|na",
-    "bn": "plus"
+    "ik": "tok:plus|dreft-platinum|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Wegwerphandschoenen",
@@ -988,23 +997,25 @@
     "n": "Poetspapier Op Rol",
     "p": "3.99",
     "o": "Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/thTvFtuvq8kZiGgtpTTETrYa8M0WBLuC3KCsCRl5kwk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzUzNDRGOUMzODUxRTY0RTE1MTkwNTRDND/ZBRjQwOEE1QjlCMDQ4MjY3QTQxNjgwQjI2QUQ1QTYyQjAxMTY5MDQucG5n.png",
     "c": "Other",
     "cn": "poetspapier op rol",
-    "ik": "tok:poetspapier|op-rol|na",
-    "bn": "poetspapier"
+    "ik": "tok:poetspapier|op-rol|1",
+    "bn": "poetspapier",
+    "wg": 1
   },
   {
     "n": "Kalkstoptabs",
     "p": "5.99",
     "o": "Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/nE81YK_ZBDdG8GmQkts9fLtLbew36EZ2T-pe0fAonsI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzA0MEFBQ0Q5NzNFNDAzMzQ0QkYwRTQ0Mj/Q5MUNBNzAzNTc2ODFFRUJFN0E1MUE4Qzg0MkZDOTBDODI4NzI0OEYucG5n.png",
     "c": "Other",
     "cn": "kalkstoptabs",
-    "ik": "tok:kalkstoptabs|unknown|na",
-    "bn": "kalkstoptabs"
+    "ik": "tok:kalkstoptabs|unknown|1",
+    "bn": "kalkstoptabs",
+    "wg": 1
   },
   {
     "n": "Alesto Amandelen Ongebrand",
@@ -1022,12 +1033,13 @@
     "n": "Pesto Alla Genovese",
     "p": "0.99",
     "o": "-12% Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/CVx95qJsvYoFOWjipLew4mdzBHQys26MrHcszjxuCOc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0IyRjVCNjQ5NDk2MTYzMzAwN0ExOTgxMj/lFNDA3NjRFREQzQjhDQjg3NzdBNkY2OTgyMEJBRUMxRkZCNDNFNDIucG5n.png",
     "c": "Other",
     "cn": "pesto alla genovese",
-    "ik": "tok:pesto|alla-genovese|na",
-    "bn": "pesto"
+    "ik": "tok:pesto|alla-genovese|1",
+    "bn": "pesto",
+    "wg": 1
   },
   {
     "n": "Nase/bami Groentemix",
@@ -1105,12 +1117,13 @@
     "n": "Cronut Red Cookies",
     "p": "1.99",
     "o": "Combinatie van croissant en donut 2-pack Alleen in de winkel vanaf 27/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/3rZjiYNoBs1auZCb90dQJwjz83yGEQxCvS26SVS-1yM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzQ3OTBFMkZCRjJGNzdCQUE0RjQ5NDNENU/QxN0VGMEEyQ0U3QTlERjlCRTQ2RjVBQkJDQTI5QzZGRjcyQTgxMzYucG5n.png",
     "c": "Other",
     "cn": "red cookies cronut",
-    "ik": "tok:red|cookies-cronut|na",
-    "bn": "red"
+    "ik": "tok:red|cookies-cronut|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Kokosyoghurt 8%",
@@ -1211,23 +1224,25 @@
     "n": "Zonnebloemen",
     "p": "3.49",
     "o": "Actie Alleen in de winkel vanaf 29/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/A8mF7RRZ_X_bcbot5vSbwGkpJPosYN4pAYrfV0_4iJI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzMzQTI4RDczNERFNzQ5MzBEMzdERjFBM0/Y2QUMwNDBBRTk0RUYxMTU0NTNDMEJGNjk5RjY5NjFBODFCMzFDOTcucG5n.png",
     "c": "Other",
     "cn": "zonnebloemen",
-    "ik": "tok:zonnebloemen|unknown|na",
-    "bn": "zonnebloemen"
+    "ik": "tok:zonnebloemen|unknown|1",
+    "bn": "zonnebloemen",
+    "wg": 1
   },
   {
     "n": "Hibiscus",
     "p": "5.99",
     "o": "Alleen in de winkel vanaf 29/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/ohfiJvahZgatYtSNkEW-vv3R93q-13PIEMFn7oF-YZQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzQ5MzVGMUQ0REY3M0VFRkZDMTM4QkJFNE/E3NjlEODgyRjBBNjkxRTdEODA2NEI0MzU2M0RERUY5MTZDQTg3NTcucG5n.png",
     "c": "Other",
     "cn": "hibiscus",
-    "ik": "tok:hibiscus|unknown|na",
-    "bn": "hibiscus"
+    "ik": "tok:hibiscus|unknown|1",
+    "bn": "hibiscus",
+    "wg": 1
   },
   {
     "n": "Chrysant In Tray",
@@ -1245,56 +1260,61 @@
     "n": "Campanula Of Genitiaan",
     "p": "2.79",
     "o": "Alleen in de winkel vanaf 29/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/Kk4b9OOph0XJttt084lzXQO12T12ARBw49T4OfFrwsE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0M2OEEzRUMyNUU0REVFQzM4NDJFNjNDME/RFNjZEQTE1NTA0NDhFQkJCMTU5RkYwQUZDQkQyQTgwMURGNUMyMzgucG5n.png",
     "c": "Other",
     "cn": "campanula genitiaan of",
-    "ik": "tok:campanula|genitiaan-of|na",
-    "bn": "campanula"
+    "ik": "tok:campanula|genitiaan-of|1",
+    "bn": "campanula",
+    "wg": 1
   },
   {
     "n": "Vetplanten/cactusmix",
     "p": "1.99",
     "o": "Alleen in de winkel vanaf 29/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/M__PGJBuUROv1nsdZOpINoI5UJ7faOS9w0pBFaVuwOA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS83QzA4NkIzNTRBQjVDNjQ2NEY2RTNCQjJ/DMzIxODgxRjg4RUY5RUMyRjBCQTFDRUFBNEZERDg1Q0UxOTAxOUM2LnBuZw.png",
     "c": "Other",
     "cn": "vetplantencactusmix cactusmix vetplanten",
-    "ik": "tok:vetplantencactusmix|cactusmix-vetplanten|na",
-    "bn": "vetplantencactusmix"
+    "ik": "tok:vetplantencactusmix|cactusmix-vetplanten|1",
+    "bn": "vetplantencactusmix",
+    "wg": 1
   },
   {
     "n": "Potroos Xl",
     "p": "4.99",
     "o": "Alleen in de winkel vanaf 31/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/STjb3DYYvt3Ajf4ZmJ5XFsBehe91uKYrBxPw9myHZaU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0Q1NjA4MzhFOTJGOURCMDE3MTg4NkQ1OT/hFMjEzNTcwN0Q5M0U1Njk3NTczOUM1NjFBM0QxMEI1NEREQzIzNDAucG5n.png",
     "c": "Other",
     "cn": "potroos xl",
-    "ik": "tok:potroos|xl|na",
-    "bn": "potroos"
+    "ik": "tok:potroos|xl|1",
+    "bn": "potroos",
+    "wg": 1
   },
   {
     "n": "Orchidee 2taks",
     "p": "7.99",
     "o": "Orchidee 2-taks voor 7.99 EUR Orchidee 2-taks Alleen in de winkel vanaf 31/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/MvQdDUU4u6LIccNyGpDRocKY7jxW8LoQXYHXxjyeBKk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0M0MzRCRjQxNjQ2Mzg1NDk5MDNDQkM2NU/ZFMDIyQkU1NUY3NDZBQTkzRDc3N0Q4RDBEQ0JGRkFGOEEzRkQ2QzMucG5n.png",
     "c": "Other",
     "cn": "orchidee 2taks",
-    "ik": "tok:orchidee|2taks|na",
-    "bn": "orchidee"
+    "ik": "tok:orchidee|2taks|1",
+    "bn": "orchidee",
+    "wg": 1
   },
   {
     "n": "Rozen",
     "p": "2.99",
     "o": "Alleen in de winkel vanaf 31/07 - 02/08",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://imgproxy-retcat.assets.schwarz/n76dmBWxQkfV9uYPut2TMX6PSJhKOPa2GNIrQE6ZHUA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzY1MDU3OTNFNEFFNTk2NEFGNkZDMDI0Nk/JGQzc1N0U5QjI4MDE3MUMyRUI2OTFCNjQ5NzdEMUZFQzY0RDU4RDMucG5n.png",
     "c": "Other",
     "cn": "rozen",
-    "ik": "tok:rozen|unknown|na",
-    "bn": "rozen"
+    "ik": "tok:rozen|unknown|1",
+    "bn": "rozen",
+    "wg": 1
   },
   {
     "n": "Desem Steenoven Baguette Meerzaden",
