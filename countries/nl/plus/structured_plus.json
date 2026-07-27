@@ -6226,13 +6226,14 @@
   {
     "n": "Verstegen Verstegen Saffraan",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "1.89",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/807215_M/5374e8240f5494c81b0453e442219b3f/807215.png",
     "c": "Other",
     "cn": "verstegen saffraan",
-    "ik": "tok:verstegen|saffraan|na",
-    "bn": "verstegen"
+    "ik": "tok:verstegen|saffraan|1",
+    "bn": "verstegen",
+    "wg": 1
   },
   {
     "n": "Verstegen Verstegen Steranijs",
@@ -14238,18 +14239,6 @@
     "wg": 400
   },
   {
-    "n": "Plus Bami Goreng Met Babi Pangang",
-    "o": "",
-    "s": "450 ml",
-    "p": "6.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/263879_M/3a3cb604eee3d7c3620e1a77c8ee41e0/263879.png",
-    "c": "Other",
-    "cn": "plus babi bami goreng pangang",
-    "ik": "tok:plus|babi-bami-goreng-pangang|450",
-    "bn": "plus",
-    "wg": 450
-  },
-  {
     "n": "Mama's Maaltijden Mama's Maaltijden Poké Bowl Tonijn",
     "o": "",
     "s": "420 ml",
@@ -20503,13 +20492,14 @@
   {
     "n": "Plus Plus Runderriblappen",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "21.55",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/760758_M/def5559144d13b7d8fab6befae523484/760758.png",
     "c": "Meat & Seafood",
     "cn": "plus runderriblappen",
-    "ik": "tok:plus|runderriblappen|na",
-    "bn": "plus"
+    "ik": "tok:plus|runderriblappen|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Plus Boerentrots Plus Boerentrots Gyrosreepjes",
@@ -20682,13 +20672,14 @@
   {
     "n": "Plus Boerentrots Plus Boerentrots Runderstooflappen",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "22.58",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/116057_M/1dd045325ee34bd62f34db784aeeedf9/116057.png",
     "c": "Meat & Seafood",
     "cn": "plus boerentrots runderstooflappen",
-    "ik": "tok:plus|boerentrots-runderstooflappen|na",
-    "bn": "plus"
+    "ik": "tok:plus|boerentrots-runderstooflappen|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Plus Plus Varkensfiletrollade Gekruid",
@@ -20765,13 +20756,14 @@
   {
     "n": "Plus Gegrilde Kippenpoot",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "9.89",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/719852_M/2cdfc7ff9a0260a2de40da5736131597/719852.png",
     "c": "Meat & Seafood",
     "cn": "plus gegrilde kippenpoot",
-    "ik": "tok:plus|gegrilde-kippenpoot|na",
-    "bn": "plus"
+    "ik": "tok:plus|gegrilde-kippenpoot|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Plus Plus Varkensfilet",
@@ -20824,13 +20816,14 @@
   {
     "n": "Plus Gegrilde Kipdrummets Piri Piri",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "13.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/629229_M/8c365772b1294b63c71a3058066246a1/629229.png",
     "c": "Meat & Seafood",
     "cn": "plus gegrilde kipdrummets piri",
-    "ik": "tok:plus|gegrilde-kipdrummets-piri|na",
-    "bn": "plus"
+    "ik": "tok:plus|gegrilde-kipdrummets-piri|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Plus Plus Runderstaart",
@@ -20847,13 +20840,14 @@
   {
     "n": "Plus Plus Saucijs Gemengd",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.77",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/117206_M/dbe2c38e87c211218877006b7f0a27a4/117206.png",
     "c": "Meat & Seafood",
     "cn": "plus gemengd saucijs",
-    "ik": "tok:plus|gemengd-saucijs|na",
-    "bn": "plus"
+    "ik": "tok:plus|gemengd-saucijs|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Plus Plus Varkensoesters",
@@ -20894,13 +20888,14 @@
   {
     "n": "Plus Boerentrots Plus Boerentrots Varkensrollade Mager Gekruid",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "15.29",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/546734_M/3152bbfdb503795bdeb1179a39a870ef/546734.png",
     "c": "Meat & Seafood",
     "cn": "plus boerentrots gekruid mager varkensrollade",
-    "ik": "tok:plus|boerentrots-gekruid-mager-varkensrollade|na",
-    "bn": "plus"
+    "ik": "tok:plus|boerentrots-gekruid-mager-varkensrollade|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Plus Boerentrots Plus Boerentrots Sukadelappen",
@@ -20917,13 +20912,14 @@
   {
     "n": "Plus Gegrilde Hele Kip",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "11.79",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/719864_M/5a079ec88f053433688b5c591cfe4498/719864.png",
     "c": "Meat & Seafood",
     "cn": "plus gegrilde hele kip",
-    "ik": "tok:plus|gegrilde-hele-kip|na",
-    "bn": "plus"
+    "ik": "tok:plus|gegrilde-hele-kip|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Sushi Ran Sushi Ran Kansai",
@@ -21024,13 +21020,14 @@
   {
     "n": "Plus Boerentrots Plus Boerentrots Nasi-bamivlees Gekruid",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "11.54",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/115721_M/003e5cc6d2d14731d56969c1a41bc31c/115721.png",
     "c": "Meat & Seafood",
     "cn": "plus bamivlees boerentrots gekruid nasi",
-    "ik": "tok:plus|bamivlees-boerentrots-gekruid-nasi|na",
-    "bn": "plus"
+    "ik": "tok:plus|bamivlees-boerentrots-gekruid-nasi|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Plus Boerentrots Plus Boerentrots Rundersteak Naturel",
@@ -21239,13 +21236,14 @@
   {
     "n": "Plus Plus Satevlees",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "15.08",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/115676_M/e57be8e6392cd6cf624bbe36ef916143/115676.png",
     "c": "Meat & Seafood",
     "cn": "plus satevlees",
-    "ik": "tok:plus|satevlees|na",
-    "bn": "plus"
+    "ik": "tok:plus|satevlees|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Plus Boerentrots Plus Boerentrots Runder Stooflappen Blaq",
@@ -21406,13 +21404,14 @@
   {
     "n": "Plus Plus Runder Braadlappen",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "24.63",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/364485_M/5b297e7af7fe6cc012fca0078d8fcbfa/364485.png",
     "c": "Meat & Seafood",
     "cn": "plus braadlappen runder",
-    "ik": "tok:plus|braadlappen-runder|na",
-    "bn": "plus"
+    "ik": "tok:plus|braadlappen-runder|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Plus Plus Varkensfiletrollade",
@@ -21609,13 +21608,14 @@
   {
     "n": "Plus Plus Varkensrollade Mager Ongekruid",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "15.44",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/115697_M/929f19ef97bc95dcc4891ab2850ea303/115697.png",
     "c": "Meat & Seafood",
     "cn": "plus mager ongekruid varkensrollade",
-    "ik": "tok:plus|mager-ongekruid-varkensrollade|na",
-    "bn": "plus"
+    "ik": "tok:plus|mager-ongekruid-varkensrollade|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Vivera Vivera Kruimgehakt Grootverpakking",
@@ -22888,18 +22888,6 @@
     "ik": "tok:beemster|48-belegen-jong-komijn-plakken|125",
     "bn": "beemster",
     "wg": 125
-  },
-  {
-    "n": "Old Amsterdam Old Amsterdam 48+ Plakken",
-    "o": "",
-    "s": "200 ml",
-    "p": "5.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/847722_M/31742db2a7d6fca9a94e0372bcef2f86/847722.png",
-    "c": "Dairy & Eggs",
-    "cn": "old amsterdam 48 plakken",
-    "ik": "tok:old amsterdam|48-plakken|200",
-    "bn": "old amsterdam",
-    "wg": 200
   },
   {
     "n": "Beemster Beemster Jong Belegen 48+ Stuk",
@@ -42486,11 +42474,11 @@
     "wg": 230
   },
   {
-    "n": "Campina Campina High Protein Griekse Stijl Yogh 5%",
+    "n": "Campina Campina High Protein Griekse Stijl Yogh 1,5%",
     "o": "",
     "s": "450 ml",
-    "p": "2.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/796320_M/b4cf168bd219d664676de60a0b3b26b3/796320.png",
+    "p": "2.09",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/796324_M/cbfdd3bbecb26e7e3337259e29fef2cb/796324.png",
     "c": "Dairy & Eggs",
     "cn": "campina griekse high protein stijl yogh",
     "ik": "tok:campina|griekse-high-protein-stijl-yogh|450",
@@ -42748,18 +42736,6 @@
     "ik": "tok:melkan|griekse-plantaardige-stijl-yoghurt|1000",
     "bn": "melkan",
     "wg": 1000
-  },
-  {
-    "n": "Campina Campina High Protein Griekse Stijl Yogh 1,5%",
-    "o": "",
-    "s": "450 ml",
-    "p": "2.09",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/796324_M/cbfdd3bbecb26e7e3337259e29fef2cb/796324.png",
-    "c": "Dairy & Eggs",
-    "cn": "campina griekse high protein stijl yogh",
-    "ik": "tok:campina|griekse-high-protein-stijl-yogh|450",
-    "bn": "campina",
-    "wg": 450
   },
   {
     "n": "Melkan Melkan Yoghurt Snack Banaan",
@@ -59658,11 +59634,11 @@
     "wg": 1500
   },
   {
-    "n": "Plus Plus Koffiefilters nr. 4",
+    "n": "Plus Plus Koffiefilters nr. 2",
     "o": "",
     "s": "100 ml",
-    "p": "0.85",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/187253_M/68e087e468f823994f6729a888000118/187253.png",
+    "p": "0.81",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/187251_M/cd6689bb254b1374a07779a7b61e4280/187251.png",
     "c": "Beverages",
     "cn": "plus koffiefilters nr",
     "ik": "tok:plus|koffiefilters-nr|100",
@@ -64899,18 +64875,6 @@
     "ik": "tok:red bull|drink-edition-energy-pink-suikervrij|250",
     "bn": "red bull",
     "wg": 250
-  },
-  {
-    "n": "Plus Plus Koffiefilters nr. 2",
-    "o": "",
-    "s": "100 ml",
-    "p": "0.81",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/187251_M/cd6689bb254b1374a07779a7b61e4280/187251.png",
-    "c": "Beverages",
-    "cn": "plus koffiefilters nr",
-    "ik": "tok:plus|koffiefilters-nr|100",
-    "bn": "plus",
-    "wg": 100
   },
   {
     "n": "Zonnatura Zonnatura Thee Goede Nachtrust",
@@ -72953,18 +72917,6 @@
     "wg": 500
   },
   {
-    "n": "Grolsch Grolsch Radler Citroen 2.0",
-    "o": "",
-    "s": "1.80 l",
-    "p": "5.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/691853_M/51e2712b326f027b68a5ccddc64aa74d/691853.png",
-    "c": "Beverages",
-    "cn": "grolsch citroen radler",
-    "ik": "tok:grolsch|citroen-radler|1800",
-    "bn": "grolsch",
-    "wg": 1800
-  },
-  {
     "n": "Bavaria Bavaria Pilsener",
     "o": "",
     "s": "3.60 l",
@@ -73023,18 +72975,6 @@
     "ik": "tok:liefmans|fruitesse|1000",
     "bn": "liefmans",
     "wg": 1000
-  },
-  {
-    "n": "Heineken Heineken Premium Pilsener 0.0 Bier Fles",
-    "o": "",
-    "s": "7.20 l",
-    "p": "19.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/289261_M/649e8253f821f57e316c363b9f41f4d7/289261.png",
-    "c": "Beverages",
-    "cn": "heineken bier fles pilsener premium",
-    "ik": "tok:heineken|bier-fles-pilsener-premium|7200",
-    "bn": "heineken",
-    "wg": 7200
   },
   {
     "n": "Plus Plus Huiswijn Wit Droog Wijntap",
@@ -73491,18 +73431,6 @@
     "ik": "tok:gran|brut-cava-espa-oso|750",
     "bn": "gran",
     "wg": 750
-  },
-  {
-    "n": "Amstel Amstel Radler Citroen Bier Fles",
-    "o": "",
-    "s": "1.80 l",
-    "p": "5.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/694846_M/ffcea2424ed152acf617a01cae094018/694846.png",
-    "c": "Beverages",
-    "cn": "amstel bier citroen fles radler",
-    "ik": "tok:amstel|bier-citroen-fles-radler|1800",
-    "bn": "amstel",
-    "wg": 1800
   },
   {
     "n": "Chouffe Chouffe La Chouffe Blond Bier",
@@ -74069,18 +73997,6 @@
     "wg": 7200
   },
   {
-    "n": "Affligem Affligem Blond Bier Fles",
-    "o": "",
-    "s": "1.80 l",
-    "p": "8.65",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/195861_M/59a246cfed41cd711c2efba2eeacbaf6/195861.png",
-    "c": "Beverages",
-    "cn": "affligem bier blond fles",
-    "ik": "tok:affligem|bier-blond-fles|1800",
-    "bn": "affligem",
-    "wg": 1800
-  },
-  {
     "n": "Monte Alina Monte Alina Verdejo Rueda Do",
     "o": "",
     "s": "750 ml",
@@ -74103,18 +74019,6 @@
     "ik": "tok:fritz|dac-frieda-gr-ner-veltliner|750",
     "bn": "fritz",
     "wg": 750
-  },
-  {
-    "n": "Amstel Amstel Radler Citroen Bier Blik",
-    "o": "",
-    "s": "1.98 l",
-    "p": "6.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/709982_M/880a1615067d10b4ff57bf081ed229a2/709982.png",
-    "c": "Beverages",
-    "cn": "amstel bier blik citroen radler",
-    "ik": "tok:amstel|bier-blik-citroen-radler|1980",
-    "bn": "amstel",
-    "wg": 1980
   },
   {
     "n": "Colombara Colombara Lambrusco Bianco",
@@ -74764,18 +74668,6 @@
     "wg": 1800
   },
   {
-    "n": "Amstel Amstel Rosé Bier Fles",
-    "o": "",
-    "s": "1.80 l",
-    "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/500103_M/a35f1c0b9e973b53452b6de28e5aed0e/500103.png",
-    "c": "Beverages",
-    "cn": "amstel bier fles ros",
-    "ik": "tok:amstel|bier-fles-ros|1800",
-    "bn": "amstel",
-    "wg": 1800
-  },
-  {
     "n": "Patriarche Patriarche Chardonnay Vin De Pays",
     "o": "",
     "s": "750 ml",
@@ -74932,11 +74824,11 @@
     "wg": 750
   },
   {
-    "n": "Liefmans Liefmans Peach",
+    "n": "Liefmans Liefmans Peach 0.0",
     "o": "",
     "s": "1 l",
-    "p": "6.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/503018_M/1a34cf02a9c8c38e8610c9c3f041eb53/503018.png",
+    "p": "5.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/572651_M/dbcd34482594ee42bd035f73b6366eea/572651.png",
     "c": "Beverages",
     "cn": "liefmans peach",
     "ik": "tok:liefmans|peach|1000",
@@ -75170,11 +75062,11 @@
     "wg": 1800
   },
   {
-    "n": "Brand Brand Ipa 0.0 Bier Fles",
+    "n": "Brand Brand Ipa Bier Fles",
     "o": "",
     "s": "1.80 l",
-    "p": "9.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/927741_M/7750c53c5fd7a3682901d2d5dd986cd9/927741.png",
+    "p": "8.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/399371_M/5bfb6477fb616de0be732f5965b9e3ec/399371.png",
     "c": "Beverages",
     "cn": "brand bier fles ipa",
     "ik": "tok:brand|bier-fles-ipa|1800",
@@ -75457,18 +75349,6 @@
     "wg": 750
   },
   {
-    "n": "Liefmans Liefmans Peach 0.0",
-    "o": "",
-    "s": "1 l",
-    "p": "5.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/572651_M/dbcd34482594ee42bd035f73b6366eea/572651.png",
-    "c": "Beverages",
-    "cn": "liefmans peach",
-    "ik": "tok:liefmans|peach|1000",
-    "bn": "liefmans",
-    "wg": 1000
-  },
-  {
     "n": "Leffe Leffe Zomer Blond Belgisch Abdijbier",
     "o": "",
     "s": "1.98 l",
@@ -75515,18 +75395,6 @@
     "ik": "tok:cavatini|alcoholfree-hugo|750",
     "bn": "cavatini",
     "wg": 750
-  },
-  {
-    "n": "Texels Texels Skuumkoppe Bier Blik",
-    "o": "",
-    "s": "1.98 l",
-    "p": "7.98",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/787762_M/45aed13be527da54b16dc7895c71d1c5/787762.png",
-    "c": "Beverages",
-    "cn": "texels bier blik skuumkoppe",
-    "ik": "tok:texels|bier-blik-skuumkoppe|1980",
-    "bn": "texels",
-    "wg": 1980
   },
   {
     "n": "Duvel Duvel Tripel Hop Ipa Bier",
@@ -76128,11 +75996,11 @@
     "wg": 750
   },
   {
-    "n": "Rambla By Born Rambla By Born Rosé Sparkling",
+    "n": "Rambla By Born Rambla By Born Rosé Sparkling 0%",
     "o": "",
     "s": "Per 75 cl",
-    "p": "7.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/542023_M/11a05028c837586a4820a788b2d6f742/542023.png",
+    "p": "6.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/542037_M/4b214d7404687341def2ac80ffd44d74/542037.png",
     "c": "Beverages",
     "cn": "rambla born by ros sparkling",
     "ik": "tok:rambla|born-by-ros-sparkling|na",
@@ -76870,18 +76738,6 @@
     "wg": 500
   },
   {
-    "n": "Affligem Affligem Belgisch Wit Bier Fles",
-    "o": "",
-    "s": "1.80 l",
-    "p": "7.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/623015_M/f742b811975826c4b2b603e562579d87/623015.png",
-    "c": "Beverages",
-    "cn": "affligem belgisch bier fles wit",
-    "ik": "tok:affligem|belgisch-bier-fles-wit|1800",
-    "bn": "affligem",
-    "wg": 1800
-  },
-  {
     "n": "Safari Safari Senza",
     "o": "",
     "s": "500 ml",
@@ -77240,18 +77096,6 @@
     "ik": "tok:funkin|cocktails-fruit-martini-passion|200",
     "bn": "funkin",
     "wg": 200
-  },
-  {
-    "n": "Affligem Affligem Blond Bier Blik",
-    "o": "",
-    "s": "1.98 l",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/906592_M/a58141b1e3330c456d3279e3f4ba1722/906592.png",
-    "c": "Beverages",
-    "cn": "affligem bier blik blond",
-    "ik": "tok:affligem|bier-blik-blond|1980",
-    "bn": "affligem",
-    "wg": 1980
   },
   {
     "n": "Hertog Jan Hertog Jan Karakter Bier",
@@ -77662,17 +77506,6 @@
     "wg": 750
   },
   {
-    "n": "Rambla By Born Rambla By Born Rosé Sparkling 0%",
-    "o": "",
-    "s": "Per 75 cl",
-    "p": "6.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/542037_M/4b214d7404687341def2ac80ffd44d74/542037.png",
-    "c": "Beverages",
-    "cn": "rambla born by ros sparkling",
-    "ik": "tok:rambla|born-by-ros-sparkling|na",
-    "bn": "rambla"
-  },
-  {
     "n": "Brouwerij 't Ij Brouwerij 't Ij L'Oeuf Blik",
     "o": "",
     "s": "330 ml",
@@ -78030,18 +77863,6 @@
     "ik": "tok:maison|castel-chardonnay-grande-reserve|375",
     "bn": "maison",
     "wg": 375
-  },
-  {
-    "n": "Grand Sud Grand Sud Chardonnay",
-    "o": "",
-    "s": "250 ml",
-    "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/730535_M/4ca432f4b7a853b6dcf619329e6d9184/730535.png",
-    "c": "Beverages",
-    "cn": "grand chardonnay sud",
-    "ik": "tok:grand|chardonnay-sud|250",
-    "bn": "grand",
-    "wg": 250
   },
   {
     "n": "Hertog Jan Hertog Jan Pilsener Gekoeld",
@@ -78655,18 +78476,6 @@
     "wg": 250
   },
   {
-    "n": "Grand Sud Grand Sud Merlot",
-    "o": "",
-    "s": "250 ml",
-    "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/730537_M/d500f2f0aa3d74143f282c34da568cbb/730537.png",
-    "c": "Beverages",
-    "cn": "grand merlot sud",
-    "ik": "tok:grand|merlot-sud|250",
-    "bn": "grand",
-    "wg": 250
-  },
-  {
     "n": "Het Anker Het Anker Gouden Carolus Tripel",
     "o": "",
     "s": "330 ml",
@@ -78737,18 +78546,6 @@
     "ik": "tok:marqus|brut-cava-ceres-do-marqu|750",
     "bn": "marqus",
     "wg": 750
-  },
-  {
-    "n": "Brand Brand Ipa Bier Fles",
-    "o": "",
-    "s": "1.80 l",
-    "p": "8.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/399371_M/5bfb6477fb616de0be732f5965b9e3ec/399371.png",
-    "c": "Beverages",
-    "cn": "brand bier fles ipa",
-    "ik": "tok:brand|bier-fles-ipa|1800",
-    "bn": "brand",
-    "wg": 1800
   },
   {
     "n": "Viaggio Viaggio Rosato 0%",
@@ -78881,18 +78678,6 @@
     "ik": "tok:brewdog|hazy-jane-tropical|330",
     "bn": "brewdog",
     "wg": 330
-  },
-  {
-    "n": "Lindeboom Lindeboom Kersen Radler 0,0%",
-    "o": "",
-    "s": "300 ml",
-    "p": "1.65",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/678466_M/bd148752de33e7dac47f5bd6ea96ee65/678466.png",
-    "c": "Beverages",
-    "cn": "lindeboom kersen radler",
-    "ik": "tok:lindeboom|kersen-radler|300",
-    "bn": "lindeboom",
-    "wg": 300
   },
   {
     "n": "Absolut Absolut Sprite Watermelon",
@@ -83399,11 +83184,11 @@
     "wg": 750
   },
   {
-    "n": "Lindeboom Lindeboom Mango Radler 0.0",
+    "n": "Lindeboom Lindeboom Mango Radler 2.0",
     "o": "",
     "s": "300 ml",
-    "p": "1.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/610902_M/80900b8b0ebef7c1c337c41e091eab05/610902.png",
+    "p": "1.59",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/610904_M/aa605527c56e49ff1c9a7171bdc0946a/610904.png",
     "c": "Beverages",
     "cn": "lindeboom mango radler",
     "ik": "tok:lindeboom|mango-radler|300",
@@ -83840,18 +83625,6 @@
     "ik": "tok:multi|cadeau-kerels-leesplankje-spel|5",
     "bn": "multi",
     "wg": 5
-  },
-  {
-    "n": "Lindeboom Lindeboom Mango Radler 2.0",
-    "o": "",
-    "s": "300 ml",
-    "p": "1.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/610904_M/aa605527c56e49ff1c9a7171bdc0946a/610904.png",
-    "c": "Beverages",
-    "cn": "lindeboom mango radler",
-    "ik": "tok:lindeboom|mango-radler|300",
-    "bn": "lindeboom",
-    "wg": 300
   },
   {
     "n": "Oedipus Oedipus Strip Witbier Blik",
@@ -84544,11 +84317,11 @@
     "wg": 330
   },
   {
-    "n": "Lindeboom Lindeboom Citroen Radler 2.0",
+    "n": "Lindeboom Lindeboom Citroen Radler 0,0%",
     "o": "",
     "s": "300 ml",
-    "p": "1.75",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/678464_M/dcc0747fc035ce4ebe4e8ed751d8c765/678464.png",
+    "p": "1.65",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/678462_M/d45429051dedaf244df08ac48b55e436/678462.png",
     "c": "Beverages",
     "cn": "lindeboom citroen radler",
     "ik": "tok:lindeboom|citroen-radler|300",
@@ -85032,18 +84805,6 @@
     "ik": "tok:kaapse|glutenvrij-karel|330",
     "bn": "kaapse",
     "wg": 330
-  },
-  {
-    "n": "Lindeboom Lindeboom Citroen Radler 0,0%",
-    "o": "",
-    "s": "300 ml",
-    "p": "1.65",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/678462_M/d45429051dedaf244df08ac48b55e436/678462.png",
-    "c": "Beverages",
-    "cn": "lindeboom citroen radler",
-    "ik": "tok:lindeboom|citroen-radler|300",
-    "bn": "lindeboom",
-    "wg": 300
   },
   {
     "n": "Mano Mona Mano Mona Monastrell Biologisch",
@@ -86567,11 +86328,11 @@
     "wg": 330
   },
   {
-    "n": "Frontaal Frontaal Juice Punch",
+    "n": "Frontaal Frontaal Juice Punch 0,5",
     "o": "",
     "s": "330 ml",
-    "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/942889_M/ae1a2468b8e45e94408cdadd27f65a8f/942889.png",
+    "p": "2.79",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/460572_M/68c99f7904f9ba48cabc88f924a8a56d/460572.png",
     "c": "Beverages",
     "cn": "frontaal juice punch",
     "ik": "tok:frontaal|juice-punch|330",
@@ -88313,18 +88074,6 @@
     "cn": "dutch bargain haze pacific",
     "ik": "tok:dutch|bargain-haze-pacific|330",
     "bn": "dutch",
-    "wg": 330
-  },
-  {
-    "n": "Frontaal Frontaal Juice Punch 0,5",
-    "o": "",
-    "s": "330 ml",
-    "p": "2.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/460572_M/68c99f7904f9ba48cabc88f924a8a56d/460572.png",
-    "c": "Beverages",
-    "cn": "frontaal juice punch",
-    "ik": "tok:frontaal|juice-punch|330",
-    "bn": "frontaal",
     "wg": 330
   },
   {
@@ -149271,18 +149020,6 @@
     "wg": 10
   },
   {
-    "n": "Jordan Jordan Tandenborstel Step 3 (6-9 jaar)",
-    "o": "",
-    "s": "1 stuk",
-    "p": "2.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/964999_M/38390586e796c6bc3a52164b91a95341/964999.png",
-    "c": "Personal Care",
-    "cn": "jordan jaar step tandenborstel",
-    "ik": "tok:jordan|jaar-step-tandenborstel|1",
-    "bn": "jordan",
-    "wg": 1
-  },
-  {
     "n": "Nestlé Nestlé 6+ Pyjamapapje Aardbei",
     "o": "",
     "s": "500 ml",
@@ -149329,18 +149066,6 @@
     "ik": "tok:davitamon|50-vitamine|250",
     "bn": "davitamon",
     "wg": 250
-  },
-  {
-    "n": "Bonbebe Bonbebe 3 Standaard Opvolgmelk 10 Maanden",
-    "o": "",
-    "s": "800 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/919355_M/0d01491a5fe1dd94c8a914943a52d9b5/919355.png",
-    "c": "Personal Care",
-    "cn": "bonbebe 10 maanden opvolgmelk standaard",
-    "ik": "tok:bonbebe|10-maanden-opvolgmelk-standaard|800",
-    "bn": "bonbebe",
-    "wg": 800
   },
   {
     "n": "Huggies Huggies Drynites Boy 8-13 Jaar",
@@ -150181,18 +149906,6 @@
     "ik": "tok:curalyn|classic-wondpleisters|10",
     "bn": "curalyn",
     "wg": 10
-  },
-  {
-    "n": "Hero Nutrasense Hero Nutrasense 3 Peutermelk",
-    "o": "",
-    "s": "700 ml",
-    "p": "11.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/197301_M/33d332a2867e7819ee80ba4d080e847a/197301.png",
-    "c": "Personal Care",
-    "cn": "hero nutrasense peutermelk",
-    "ik": "tok:hero|nutrasense-peutermelk|700",
-    "bn": "hero",
-    "wg": 700
   },
   {
     "n": "Tena Tena Silhouette Incontinentie Ondergoed L",
@@ -152451,18 +152164,6 @@
     "wg": 200
   },
   {
-    "n": "Huggies Huggies Drynites Boy 13+ Jaar",
-    "o": "",
-    "s": "9 ml",
-    "p": "7.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/215275_M/664ecf499534df7c5eedac5f7c6a336c/215275.png",
-    "c": "Personal Care",
-    "cn": "huggies 13 boy drynites jaar",
-    "ik": "tok:huggies|13-boy-drynites-jaar|9",
-    "bn": "huggies",
-    "wg": 9
-  },
-  {
     "n": "Nurofen Nurofen Migraine",
     "o": "",
     "s": "24 ml",
@@ -152725,18 +152426,6 @@
     "ik": "tok:kleine|bio-broodbeleg-keuken-perzik-wortel|100",
     "bn": "kleine",
     "wg": 100
-  },
-  {
-    "n": "Little Steps Little Steps Peutermelk 3+",
-    "o": "",
-    "s": "1 l",
-    "p": "2.45",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/902737_M/1ac84b7a77980b4c50ca5a385c50d12f/902737.png",
-    "c": "Personal Care",
-    "cn": "little peutermelk steps",
-    "ik": "tok:little|peutermelk-steps|1000",
-    "bn": "little",
-    "wg": 1000
   },
   {
     "n": "Jordan Jordan Tandpasta Kids 0-5 Jaar",
@@ -154805,13 +154494,14 @@
   {
     "n": "Gum Gum Twisted Floss Flossdraad",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "4.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/825346_M/ed9a48cf1f1ac678cbb5bf9c8aa609bf/825346.png",
     "c": "Personal Care",
     "cn": "gum floss flossdraad twisted",
-    "ik": "tok:gum|floss-flossdraad-twisted|na",
-    "bn": "gum"
+    "ik": "tok:gum|floss-flossdraad-twisted|1",
+    "bn": "gum",
+    "wg": 1
   },
   {
     "n": "Elmex Elmex Tandenborstel Sensitive Prof. Extra S.",
@@ -155882,18 +155572,6 @@
     "wg": 130
   },
   {
-    "n": "Little Steps Little Steps Peutermelk 1+",
-    "o": "",
-    "s": "1 l",
-    "p": "2.45",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/902745_M/2813e3bd067851a40dd6e031c7b0c55c/902745.png",
-    "c": "Personal Care",
-    "cn": "little peutermelk steps",
-    "ik": "tok:little|peutermelk-steps|1000",
-    "bn": "little",
-    "wg": 1000
-  },
-  {
     "n": "Breathe Right Breathe Right Breathe Right Clear",
     "o": "",
     "s": "30 ml",
@@ -156408,18 +156086,6 @@
     "ik": "tok:jordan|12-jaar-junior-tandpasta|50",
     "bn": "jordan",
     "wg": 50
-  },
-  {
-    "n": "Gum Gum Rager trav-ler 0,6 Mm",
-    "o": "",
-    "s": "6 ml",
-    "p": "6.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/965009_M/0e4236e7bf0ab91a53e07072c259e4f3/965009.png",
-    "c": "Personal Care",
-    "cn": "gum ler mm rager trav",
-    "ik": "tok:gum|ler-mm-rager-trav|6",
-    "bn": "gum",
-    "wg": 6
   },
   {
     "n": "Clearblue Clearblue Zwangerschaptest Digitaal",
@@ -164904,11 +164570,11 @@
     "wg": 1250
   },
   {
-    "n": "Plus Plus Toiletpapier 3-laags Maxi",
+    "n": "Plus Plus Toiletpapier 2-laags Maxi",
     "o": "",
     "s": "4 ml",
-    "p": "1.85",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/655944_M/43fdb2d7807784be9f5b7a5573064401/655944.png",
+    "p": "1.69",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/655942_M/1027412b0090d4857351ea9ed8657379/655942.png",
     "c": "Household",
     "cn": "plus laags maxi toiletpapier",
     "ik": "tok:plus|laags-maxi-toiletpapier|4",
@@ -165070,18 +164736,6 @@
     "ik": "tok:glorix|blok-ocean-wc|1",
     "bn": "glorix",
     "wg": 1
-  },
-  {
-    "n": "Plus Plus Toiletpapier 2-laags Maxi",
-    "o": "",
-    "s": "4 ml",
-    "p": "1.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/655942_M/1027412b0090d4857351ea9ed8657379/655942.png",
-    "c": "Household",
-    "cn": "plus laags maxi toiletpapier",
-    "ik": "tok:plus|laags-maxi-toiletpapier|4",
-    "bn": "plus",
-    "wg": 4
   },
   {
     "n": "Plus Plus Allesreiniger Citroen",
@@ -167305,13 +166959,14 @@
   {
     "n": "Toppits Toppits Super Aluminiumfolie 10m Recycled",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "3.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/235106_M/2f5027bccebcbc73d8ff33f16eea6cde/235106.png",
     "c": "Household",
     "cn": "toppits 10m aluminiumfolie recycled super",
-    "ik": "tok:toppits|10m-aluminiumfolie-recycled-super|na",
-    "bn": "toppits"
+    "ik": "tok:toppits|10m-aluminiumfolie-recycled-super|1",
+    "bn": "toppits",
+    "wg": 1
   },
   {
     "n": "Glorix Glorix Aromlux Toiletblok Wild Berries & Hibi",
@@ -167688,13 +167343,14 @@
   {
     "n": "Plus Plus Huishoudhandschoenen Medium",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "0.75",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/419843_M/71ee1763c5316157ba7a4d0eea66619e/419843.png",
     "c": "Household",
     "cn": "plus huishoudhandschoenen medium",
-    "ik": "tok:plus|huishoudhandschoenen-medium|na",
-    "bn": "plus"
+    "ik": "tok:plus|huishoudhandschoenen-medium|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Plus Plus Luchtverfrisser Minispray Lavendel Nav",
@@ -169354,13 +169010,14 @@
   {
     "n": "Plus Plus Huishoudhandschoenen Large",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "0.75",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/419845_M/5416f7a877f8dda57165dfeb8ceb1d0f/419845.png",
     "c": "Household",
     "cn": "plus huishoudhandschoenen large",
-    "ik": "tok:plus|huishoudhandschoenen-large|na",
-    "bn": "plus"
+    "ik": "tok:plus|huishoudhandschoenen-large|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Dreft Dreft Vloeibaar Wasmiddel Dark & Black 21sc",
@@ -169681,9 +169338,10 @@
     "p": "3.69",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826656_M/4640f26416e37724a6becf3235494194/826656.png",
     "c": "Household",
-    "cn": "alledag badkamerreiniger hg",
-    "ik": "tok:unknown|alledag-badkamerreiniger-hg|500",
-    "wg": 500
+    "cn": "badkamerreiniger alledag hg",
+    "ik": "tok:badkamerreiniger|alledag-hg|500",
+    "wg": 500,
+    "bn": "badkamerreiniger"
   },
   {
     "n": "Seepje Seepje Afwasmiddel Refill Limoen",
@@ -169700,13 +169358,14 @@
   {
     "n": "Plus Plus Huishoudhandschoenen Small",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "0.75",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/419842_M/691939c81de688baaf34fdb30caf85b6/419842.png",
     "c": "Household",
     "cn": "plus huishoudhandschoenen small",
-    "ik": "tok:plus|huishoudhandschoenen-small|na",
-    "bn": "plus"
+    "ik": "tok:plus|huishoudhandschoenen-small|1",
+    "bn": "plus",
+    "wg": 1
   },
   {
     "n": "Edet Edet Toiletpapier Simply Soft 3in1",
@@ -169811,9 +169470,10 @@
     "p": "5.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826882_M/e73fb079357047678e4c0942d5aa8a9f/826882.png",
     "c": "Household",
-    "cn": "hg koffiemachine ontkalker",
-    "ik": "tok:unknown|hg-koffiemachine-ontkalker|500",
-    "wg": 500
+    "cn": "koffiemachine hg ontkalker",
+    "ik": "tok:koffiemachine|hg-ontkalker|500",
+    "wg": 500,
+    "bn": "koffiemachine"
   },
   {
     "n": "Plus Plus Dweil Microvezel",
@@ -170014,9 +169674,10 @@
     "p": "5.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826856_M/ed59e0facf666bb2bcb7aeb0ae3bfc58/826856.png",
     "c": "Household",
-    "cn": "hg kookplaatreiniger",
-    "ik": "tok:unknown|hg-kookplaatreiniger|500",
-    "wg": 500
+    "cn": "kookplaatreiniger hg",
+    "ik": "tok:kookplaatreiniger|hg|500",
+    "wg": 500,
+    "bn": "kookplaatreiniger"
   },
   {
     "n": "Ambipur Ambipur Luchtverfrisser Bloesem Navulling",
@@ -170218,8 +169879,9 @@
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826864_M/4804f98c3f36bbca9d66f66def816634/826864.png",
     "c": "Household",
     "cn": "glasreiniger hg",
-    "ik": "tok:unknown|glasreiniger-hg|500",
-    "wg": 500
+    "ik": "tok:glasreiniger|hg|500",
+    "wg": 500,
+    "bn": "glasreiniger"
   },
   {
     "n": "Airwick Airwick Pure Katoen Spray",
@@ -170264,9 +169926,10 @@
     "p": "10.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826644_M/95788b2706fc3c2db3c5bc4100d4b0b4/826644.png",
     "c": "Household",
-    "cn": "glans hg laminaatreiniger",
-    "ik": "tok:unknown|glans-hg-laminaatreiniger|1000",
-    "wg": 1000
+    "cn": "laminaatreiniger glans hg",
+    "ik": "tok:laminaatreiniger|glans-hg|1000",
+    "wg": 1000,
+    "bn": "laminaatreiniger"
   },
   {
     "n": "Ambipur Ambipur Textiel Verfrisser Classic",
@@ -170407,9 +170070,10 @@
     "p": "8.89",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/929628_M/a8ce3fcab4921458976fd316507fb479/929628.png",
     "c": "Household",
-    "cn": "hg stinkende wasmachinereiniger",
-    "ik": "tok:unknown|hg-stinkende-wasmachinereiniger|550",
-    "wg": 550
+    "cn": "stinkende hg wasmachinereiniger",
+    "ik": "tok:stinkende|hg-wasmachinereiniger|550",
+    "wg": 550,
+    "bn": "stinkende"
   },
   {
     "n": "Witte Reus Witte Reus Toiletblok Brilliant Gel Arcti",
@@ -170598,9 +170262,10 @@
     "p": "7.59",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/788838_M/c925e733c3cfecefa384eddafd5b88e5/788838.png",
     "c": "Household",
-    "cn": "extra hg sterk toiletgel",
-    "ik": "tok:unknown|extra-hg-sterk-toiletgel|500",
-    "wg": 500
+    "cn": "toiletgel extra hg sterk",
+    "ik": "tok:toiletgel|extra-hg-sterk|500",
+    "wg": 500,
+    "bn": "toiletgel"
   },
   {
     "n": "Page Page Page Zacht & Sterk 18-rol",
@@ -170613,18 +170278,6 @@
     "ik": "tok:page|18-rol-sterk-zacht|18",
     "bn": "page",
     "wg": 18
-  },
-  {
-    "n": "Dutch Cleaning Dutch Cleaning Miele G/N",
-    "o": "",
-    "s": "1 stuk",
-    "p": "4.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/543310_M/32f787b27f1425a4b363ead1eb63004d/543310.png",
-    "c": "Household",
-    "cn": "dutch cleaning miele",
-    "ik": "tok:dutch|cleaning-miele|1",
-    "bn": "dutch",
-    "wg": 1
   },
   {
     "n": "Dutch Cleaning Dutch Cleaning Philips Mobilo/Sydney",
@@ -170897,9 +170550,10 @@
     "p": "8.09",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/287873_M/09fed75ee47a7352392554174994d42b/287873.png",
     "c": "Household",
-    "cn": "hg vlekken voorbehandeling",
-    "ik": "tok:unknown|hg-vlekken-voorbehandeling|500",
-    "wg": 500
+    "cn": "vlekken hg voorbehandeling",
+    "ik": "tok:vlekken|hg-voorbehandeling|500",
+    "wg": 500,
+    "bn": "vlekken"
   },
   {
     "n": "Hg Hg Tegen Stinkende Vaatwasser",
@@ -171052,9 +170706,10 @@
     "p": "8.09",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826894_M/d4a93053d31d37a58c5d35a9be1d85b7/826894.png",
     "c": "Household",
-    "cn": "hg stickerverwijderaar",
-    "ik": "tok:unknown|hg-stickerverwijderaar|300",
-    "wg": 300
+    "cn": "stickerverwijderaar hg",
+    "ik": "tok:stickerverwijderaar|hg|300",
+    "wg": 300,
+    "bn": "stickerverwijderaar"
   },
   {
     "n": "Sorbo Sorbo Microvezeldoek Pastel Prints",
@@ -171074,9 +170729,10 @@
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/453500_M/7a31efee7072125ea74728bc4c706e08/453500.png",
     "c": "Household",
-    "cn": "hg stinkend wasgoed wasmiddel",
-    "ik": "tok:unknown|hg-stinkend-wasgoed-wasmiddel|500",
-    "wg": 500
+    "cn": "wasmiddel hg stinkend wasgoed",
+    "ik": "tok:wasmiddel|hg-stinkend-wasgoed|500",
+    "wg": 500,
+    "bn": "wasmiddel"
   },
   {
     "n": "Seepje Seepje Wasverzachter Knisperfris",
@@ -171121,9 +170777,10 @@
     "p": "4.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/788836_M/5719af9a4e83bfaf1f5197d774cd3a1e/788836.png",
     "c": "Household",
-    "cn": "hg toiletruimtereiniger",
-    "ik": "tok:unknown|hg-toiletruimtereiniger|500",
-    "wg": 500
+    "cn": "toiletruimtereiniger hg",
+    "ik": "tok:toiletruimtereiniger|hg|500",
+    "wg": 500,
+    "bn": "toiletruimtereiniger"
   },
   {
     "n": "Wc Eend Wc Eend Toiletblok Active Clean Pine",
@@ -171288,9 +170945,10 @@
     "p": "9.79",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826772_M/8dfd8c8beaf12b087731c71ece3d84af/826772.png",
     "c": "Household",
-    "cn": "extra hg sterk vlekverwijderaar",
-    "ik": "tok:unknown|extra-hg-sterk-vlekverwijderaar|500",
-    "wg": 500
+    "cn": "vlekverwijderaar extra hg sterk",
+    "ik": "tok:vlekverwijderaar|extra-hg-sterk|500",
+    "wg": 500,
+    "bn": "vlekverwijderaar"
   },
   {
     "n": "Hg Hg Keukenontstopper",
@@ -171383,9 +171041,10 @@
     "p": "4.09",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/857265_M/9a038cd4e702649485a69ab729e15847/857265.png",
     "c": "Household",
-    "cn": "hg op reis wasje",
-    "ik": "tok:unknown|hg-op-reis-wasje|200",
-    "wg": 200
+    "cn": "reis hg op wasje",
+    "ik": "tok:reis|hg-op-wasje|200",
+    "wg": 200,
+    "bn": "reis"
   },
   {
     "n": "Sorbo Sorbo Wonderspons Gumt Vlekken Weg",
@@ -171430,9 +171089,10 @@
     "p": "14.59",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826874_M/3b5c1fb43c65dfa22517fcc147799b79/826874.png",
     "c": "Household",
-    "cn": "glans hg natuursteenreiniger",
-    "ik": "tok:unknown|glans-hg-natuursteenreiniger|1000",
-    "wg": 1000
+    "cn": "natuursteenreiniger glans hg",
+    "ik": "tok:natuursteenreiniger|glans-hg|1000",
+    "wg": 1000,
+    "bn": "natuursteenreiniger"
   },
   {
     "n": "Hg Hg Tapijtreiniger",
@@ -171441,9 +171101,10 @@
     "p": "13.29",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826813_M/fa329628f326be12a5524e9739eb6ff1/826813.png",
     "c": "Household",
-    "cn": "hg tapijtreiniger",
-    "ik": "tok:unknown|hg-tapijtreiniger|1000",
-    "wg": 1000
+    "cn": "tapijtreiniger hg",
+    "ik": "tok:tapijtreiniger|hg|1000",
+    "wg": 1000,
+    "bn": "tapijtreiniger"
   },
   {
     "n": "Hgx Hgx Muggenstekker",
@@ -171464,9 +171125,10 @@
     "p": "12.29",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826896_M/83e54b8e390a4a4d4dfedfbb487c754d/826896.png",
     "c": "Household",
-    "cn": "hg onderhoudsmonteur vaat wasmachines",
-    "ik": "tok:unknown|hg-onderhoudsmonteur-vaat-wasmachines|200",
-    "wg": 200
+    "cn": "onderhoudsmonteur hg vaat wasmachines",
+    "ik": "tok:onderhoudsmonteur|hg-vaat-wasmachines|200",
+    "wg": 200,
+    "bn": "onderhoudsmonteur"
   },
   {
     "n": "Hg Hg Duo Ontstopper",
@@ -171499,9 +171161,10 @@
     "p": "9.29",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826634_M/4b63d3ccea8f19729f0d781fec0420b7/826634.png",
     "c": "Household",
-    "cn": "extra hg laminaatreiniger sterk",
-    "ik": "tok:unknown|extra-hg-laminaatreiniger-sterk|1000",
-    "wg": 1000
+    "cn": "laminaatreiniger extra hg sterk",
+    "ik": "tok:laminaatreiniger|extra-hg-sterk|1000",
+    "wg": 1000,
+    "bn": "laminaatreiniger"
   },
   {
     "n": "Seepje Seepje Wasm Wol&fijn Vrolijk Lot 21sc",
@@ -171726,9 +171389,10 @@
     "p": "8.09",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826654_M/5cd079952f44361820fbc9690f48ade3/826654.png",
     "c": "Household",
-    "cn": "concentraat hg kalkweg",
-    "ik": "tok:unknown|concentraat-hg-kalkweg|500",
-    "wg": 500
+    "cn": "kalkweg concentraat hg",
+    "ik": "tok:kalkweg|concentraat-hg|500",
+    "wg": 500,
+    "bn": "kalkweg"
   },
   {
     "n": "Hg Hg Koffiemachine Reinigingstabletten",
@@ -171737,9 +171401,10 @@
     "p": "7.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/287817_M/1cb6e41b24c7e9191ebabe99164d11be/287817.png",
     "c": "Household",
-    "cn": "hg koffiemachine reinigingstabletten",
-    "ik": "tok:unknown|hg-koffiemachine-reinigingstabletten|10",
-    "wg": 10
+    "cn": "koffiemachine hg reinigingstabletten",
+    "ik": "tok:koffiemachine|hg-reinigingstabletten|10",
+    "wg": 10,
+    "bn": "koffiemachine"
   },
   {
     "n": "Hg Hg Glasreiniger Concentraat",
@@ -171748,9 +171413,10 @@
     "p": "6.69",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826868_M/b8e6d1f65b5ddeb339d9f6a3e1ded26c/826868.png",
     "c": "Household",
-    "cn": "concentraat glasreiniger hg",
-    "ik": "tok:unknown|concentraat-glasreiniger-hg|500",
-    "wg": 500
+    "cn": "glasreiniger concentraat hg",
+    "ik": "tok:glasreiniger|concentraat-hg|500",
+    "wg": 500,
+    "bn": "glasreiniger"
   },
   {
     "n": "Hg Hg Brilreiniger",
@@ -172022,9 +171688,10 @@
     "p": "8.69",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/865889_M/11ecbb7b79cb7168222b2e00a3b56b83/865889.png",
     "c": "Household",
-    "cn": "beschermer hg roestvrijstaal",
-    "ik": "tok:unknown|beschermer-hg-roestvrijstaal|125",
-    "wg": 125
+    "cn": "roestvrijstaal beschermer hg",
+    "ik": "tok:roestvrijstaal|beschermer-hg|125",
+    "wg": 125,
+    "bn": "roestvrijstaal"
   },
   {
     "n": "Hg Hg Badkamer anti-kalk Power Gel Borstel",
@@ -172081,9 +171748,10 @@
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/704079_M/a1f85b4186115f7a4502493349ce3f62/704079.png",
     "c": "Household",
-    "cn": "hg wasmiddeltoevoeging",
-    "ik": "tok:unknown|hg-wasmiddeltoevoeging|500",
-    "wg": 500
+    "cn": "wasmiddeltoevoeging hg",
+    "ik": "tok:wasmiddeltoevoeging|hg|500",
+    "wg": 500,
+    "bn": "wasmiddeltoevoeging"
   },
   {
     "n": "Hg Hg Badkamerreiniger Glans",
@@ -172093,8 +171761,9 @@
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826650_M/0551821f7015a83191561f55e3421d6b/826650.png",
     "c": "Household",
     "cn": "badkamerreiniger glans hg",
-    "ik": "tok:unknown|badkamerreiniger-glans-hg|500",
-    "wg": 500
+    "ik": "tok:badkamerreiniger|glans-hg|500",
+    "wg": 500,
+    "bn": "badkamerreiniger"
   },
   {
     "n": "Hg Hg Zweetvlekkenverwijderaar",
@@ -172103,9 +171772,10 @@
     "p": "7.09",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/283433_M/0b3fe7f6cdbfc42df4094ad04fec4a15/283433.png",
     "c": "Household",
-    "cn": "hg zweetvlekkenverwijderaar",
-    "ik": "tok:unknown|hg-zweetvlekkenverwijderaar|250",
-    "wg": 250
+    "cn": "zweetvlekkenverwijderaar hg",
+    "ik": "tok:zweetvlekkenverwijderaar|hg|250",
+    "wg": 250,
+    "bn": "zweetvlekkenverwijderaar"
   },
   {
     "n": "Hg Hg Voegenreiniger",
@@ -172126,9 +171796,10 @@
     "p": "6.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826858_M/71131f8d1142e81149e71f02bddc0b71/826858.png",
     "c": "Household",
-    "cn": "extra hg kookplaatreiniger sterk",
-    "ik": "tok:unknown|extra-hg-kookplaatreiniger-sterk|250",
-    "wg": 250
+    "cn": "kookplaatreiniger extra hg sterk",
+    "ik": "tok:kookplaatreiniger|extra-hg-sterk|250",
+    "wg": 250,
+    "bn": "kookplaatreiniger"
   },
   {
     "n": "Hg Hg Waterdicht Textiel",
@@ -172137,9 +171808,10 @@
     "p": "6.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826684_M/9c0ed54c6dff3703ccaab12691a9e8b3/826684.png",
     "c": "Household",
-    "cn": "hg textiel waterdicht",
-    "ik": "tok:unknown|hg-textiel-waterdicht|300",
-    "wg": 300
+    "cn": "waterdicht hg textiel",
+    "ik": "tok:waterdicht|hg-textiel|300",
+    "wg": 300,
+    "bn": "waterdicht"
   },
   {
     "n": "Glade By Brise Glade By Brise Spray Automatic Refreshing Air",
@@ -172208,9 +171880,10 @@
     "p": "5.79",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/147674_M/81a6dc5e2a65b8f234f80245a23d2855/147674.png",
     "c": "Household",
-    "cn": "hg kunststof reiniger",
-    "ik": "tok:unknown|hg-kunststof-reiniger|500",
-    "wg": 500
+    "cn": "kunststof hg reiniger",
+    "ik": "tok:kunststof|hg-reiniger|500",
+    "wg": 500,
+    "bn": "kunststof"
   },
   {
     "n": "Hg Hg Beeldschermreiniger",
@@ -172266,18 +171939,6 @@
     "s": "50 ml",
     "p": "4.69",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/840806_M/363e94b95c5b8c2a30e7bf74c8fe7e35/840806.png",
-    "c": "Household",
-    "cn": "vlekweg hg nr",
-    "ik": "tok:vlekweg|hg-nr|50",
-    "bn": "vlekweg",
-    "wg": 50
-  },
-  {
-    "n": "Hg Hg Vlekweg nr.4",
-    "o": "",
-    "s": "50 ml",
-    "p": "4.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/840812_M/9811533b9af5d2ea134b1eb339d7b4bd/840812.png",
     "c": "Household",
     "cn": "vlekweg hg nr",
     "ik": "tok:vlekweg|hg-nr|50",
@@ -172543,8 +172204,9 @@
     "l": "https://images.ctfassets.net/s0lodsnpsezb/788840_M/8ade0014a8c2c47a0fc26e4e84907a51/788840.png",
     "c": "Household",
     "cn": "diepvriesontdooier hg",
-    "ik": "tok:unknown|diepvriesontdooier-hg|500",
-    "wg": 500
+    "ik": "tok:diepvriesontdooier|hg|500",
+    "wg": 500,
+    "bn": "diepvriesontdooier"
   },
   {
     "n": "Perla Perla Toiletpapier 3-laags",
@@ -172573,13 +172235,14 @@
   {
     "n": "Sorbo Sorbo Waslijndraad 20mtr",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "2.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/709503_M/2420bad41f39fa710913217bd2c44fd1/709503.png",
     "c": "Household",
     "cn": "sorbo 20mtr waslijndraad",
-    "ik": "tok:sorbo|20mtr-waslijndraad|na",
-    "bn": "sorbo"
+    "ik": "tok:sorbo|20mtr-waslijndraad|1",
+    "bn": "sorbo",
+    "wg": 1
   },
   {
     "n": "Guard 'n Care Guard 'n Care Insectenhor Deur",
@@ -172665,18 +172328,6 @@
     "wg": 1
   },
   {
-    "n": "Hg Hg Vlekweg nr.7",
-    "o": "",
-    "s": "50 ml",
-    "p": "4.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/840818_M/2336701c1d84e2db98e51385e4f3a8a9/840818.png",
-    "c": "Household",
-    "cn": "vlekweg hg nr",
-    "ik": "tok:vlekweg|hg-nr|50",
-    "bn": "vlekweg",
-    "wg": 50
-  },
-  {
     "n": "Sorbo Sorbo Kleefroller",
     "o": "",
     "s": "1 stuk",
@@ -172743,9 +172394,10 @@
     "p": "11.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826908_M/d0c7f4e345bc7fbb29c416643331519a/826908.png",
     "c": "Household",
-    "cn": "donker hg hout meubelhersteller",
-    "ik": "tok:unknown|donker-hg-hout-meubelhersteller|250",
-    "wg": 250
+    "cn": "meubelhersteller donker hg hout",
+    "ik": "tok:meubelhersteller|donker-hg-hout|250",
+    "wg": 250,
+    "bn": "meubelhersteller"
   },
   {
     "n": "Alpina Alpina Food Cover",
@@ -172770,18 +172422,6 @@
     "ik": "tok:sorbo|afwasborstel-hout|1",
     "bn": "sorbo",
     "wg": 1
-  },
-  {
-    "n": "Hg Hg Vlekweg nr.6",
-    "o": "",
-    "s": "50 ml",
-    "p": "4.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/840816_M/ad4b0f52aa2c1f36a05d8462dd7f5ca8/840816.png",
-    "c": "Household",
-    "cn": "vlekweg hg nr",
-    "ik": "tok:vlekweg|hg-nr|50",
-    "bn": "vlekweg",
-    "wg": 50
   },
   {
     "n": "Nalys Nalys Keukenpapier Limited",
@@ -172849,9 +172489,10 @@
     "p": "9.29",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/857241_M/e7cb2a1a562af7b88aaa6607bb718a34/857241.png",
     "c": "Household",
-    "cn": "geurtjes hg nare tegen textiel",
-    "ik": "tok:unknown|geurtjes-hg-nare-tegen-textiel|400",
-    "wg": 400
+    "cn": "tegen geurtjes hg nare textiel",
+    "ik": "tok:tegen|geurtjes-hg-nare-textiel|400",
+    "wg": 400,
+    "bn": "tegen"
   },
   {
     "n": "Glade By Brise Glade By Brise Sense&Spray Houder Relaxing Zen",
@@ -172890,27 +172531,16 @@
     "wg": 10
   },
   {
-    "n": "Hg Hg Vlekweg nr.3",
-    "o": "",
-    "s": "50 ml",
-    "p": "4.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/840810_M/9486debf9ff328332b254bb9cfd5d319/840810.png",
-    "c": "Household",
-    "cn": "vlekweg hg nr",
-    "ik": "tok:vlekweg|hg-nr|50",
-    "bn": "vlekweg",
-    "wg": 50
-  },
-  {
     "n": "Hg Hg Zilverpoets",
     "o": "",
     "s": "150 ml",
     "p": "7.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/857253_M/eb75baf0807e73f23c7ee8029c0cfe47/857253.png",
     "c": "Household",
-    "cn": "hg zilverpoets",
-    "ik": "tok:unknown|hg-zilverpoets|150",
-    "wg": 150
+    "cn": "zilverpoets hg",
+    "ik": "tok:zilverpoets|hg|150",
+    "wg": 150,
+    "bn": "zilverpoets"
   },
   {
     "n": "Tempo Tempo Tissues Original Super Pack",
@@ -172973,18 +172603,6 @@
     "wg": 500
   },
   {
-    "n": "Hg Hg Vlekweg nr.2",
-    "o": "",
-    "s": "50 ml",
-    "p": "4.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/840808_M/9cf19ac19385e092090051be5a0c15d9/840808.png",
-    "c": "Household",
-    "cn": "vlekweg hg nr",
-    "ik": "tok:vlekweg|hg-nr|50",
-    "bn": "vlekweg",
-    "wg": 50
-  },
-  {
     "n": "Dunlop Dunlop Magnetisch Houder",
     "o": "",
     "s": "1 stuk",
@@ -172995,18 +172613,6 @@
     "ik": "tok:dunlop|houder-magnetisch|1",
     "bn": "dunlop",
     "wg": 1
-  },
-  {
-    "n": "Hg Hg Vlekweg nr.5",
-    "o": "",
-    "s": "50 ml",
-    "p": "4.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/840814_M/8e139369861d125e0b6234a32769fbc1/840814.png",
-    "c": "Household",
-    "cn": "vlekweg hg nr",
-    "ik": "tok:vlekweg|hg-nr|50",
-    "bn": "vlekweg",
-    "wg": 50
   },
   {
     "n": "Hg Hg Afzuigkapfilter Ontvetter",
@@ -173052,8 +172658,9 @@
     "l": "https://images.ctfassets.net/s0lodsnpsezb/857329_M/28f6f63959b261d7c18a991ec5295c1c/857329.png",
     "c": "Household",
     "cn": "aanrechtbladbeschermer hg",
-    "ik": "tok:unknown|aanrechtbladbeschermer-hg|100",
-    "wg": 100
+    "ik": "tok:aanrechtbladbeschermer|hg|100",
+    "wg": 100,
+    "bn": "aanrechtbladbeschermer"
   },
   {
     "n": "Hg Hg Toiletreiniger",
@@ -173096,9 +172703,10 @@
     "p": "8.19",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/625087_M/530c3248a72009e45e5e2231c7e19bc3/625087.png",
     "c": "Household",
-    "cn": "hg ontkalker wasmachine",
-    "ik": "tok:unknown|hg-ontkalker-wasmachine|500",
-    "wg": 500
+    "cn": "wasmachine hg ontkalker",
+    "ik": "tok:wasmachine|hg-ontkalker|500",
+    "wg": 500,
+    "bn": "wasmachine"
   },
   {
     "n": "Hg Hg Hygienische Koelkastreiniger",
@@ -173130,9 +172738,10 @@
     "p": "19.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826630_M/bba36ff0ca761f73c4cfdcc6281f7b8f/826630.png",
     "c": "Household",
-    "cn": "glans hg parketbeschermer",
-    "ik": "tok:unknown|glans-hg-parketbeschermer|1000",
-    "wg": 1000
+    "cn": "parketbeschermer glans hg",
+    "ik": "tok:parketbeschermer|glans-hg|1000",
+    "wg": 1000,
+    "bn": "parketbeschermer"
   },
   {
     "n": "Sorbo Sorbo Schuursponsstaaf",
@@ -173201,9 +172810,10 @@
     "p": "8.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/884172_M/f53ea2fbbf19f0945ced42e4b4f453b6/884172.png",
     "c": "Household",
-    "cn": "eiken hg meubelolie",
-    "ik": "tok:unknown|eiken-hg-meubelolie|140",
-    "wg": 140
+    "cn": "meubelolie eiken hg",
+    "ik": "tok:meubelolie|eiken-hg|140",
+    "wg": 140,
+    "bn": "meubelolie"
   },
   {
     "n": "Greenminds Greenminds Badstof Vaatdoeken",
@@ -173248,9 +172858,10 @@
     "p": "11.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826886_M/95eade445340c9d9889385df55bcfa82/826886.png",
     "c": "Household",
-    "cn": "hg hout licht meubelhersteller",
-    "ik": "tok:unknown|hg-hout-licht-meubelhersteller|250",
-    "wg": 250
+    "cn": "meubelhersteller hg hout licht",
+    "ik": "tok:meubelhersteller|hg-hout-licht|250",
+    "wg": 250,
+    "bn": "meubelhersteller"
   },
   {
     "n": "Dunlop Dunlop Zonnescherm Metallic",
@@ -173342,9 +172953,10 @@
     "p": "16.09",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826632_M/626ebe47f3e806cb9f5fef5eb2d6a5b1/826632.png",
     "c": "Household",
-    "cn": "hg laminaatbeschermer",
-    "ik": "tok:unknown|hg-laminaatbeschermer|1000",
-    "wg": 1000
+    "cn": "laminaatbeschermer hg",
+    "ik": "tok:laminaatbeschermer|hg|1000",
+    "wg": 1000,
+    "bn": "laminaatbeschermer"
   },
   {
     "n": "All Ride All Ride Handschoenen Xl",
@@ -173508,9 +173120,10 @@
     "p": "22.69",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826876_M/3d047f8c6c6b5e9cf631319843ecb472/826876.png",
     "c": "Household",
-    "cn": "beschermer hg natuursteen",
-    "ik": "tok:unknown|beschermer-hg-natuursteen|1000",
-    "wg": 1000
+    "cn": "natuursteen beschermer hg",
+    "ik": "tok:natuursteen|beschermer-hg|1000",
+    "wg": 1000,
+    "bn": "natuursteen"
   },
   {
     "n": "Lifetime Clean Lifetime Clean Magische Spons 3pc",
@@ -173755,9 +173368,10 @@
     "p": "9.29",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826807_M/786f549728a9b3a58f9784d64b806951/826807.png",
     "c": "Household",
-    "cn": "hardhout hg reiniger",
-    "ik": "tok:unknown|hardhout-hg-reiniger|1000",
-    "wg": 1000
+    "cn": "reiniger hardhout hg",
+    "ik": "tok:reiniger|hardhout-hg|1000",
+    "wg": 1000,
+    "bn": "reiniger"
   },
   {
     "n": "Sorbo Sorbo Microvezeldoek 100% Recycled",
@@ -175468,18 +175082,6 @@
     "wg": 1
   },
   {
-    "n": "Varta Varta Alkaline Longlife Power D",
-    "o": "",
-    "s": "2 ml",
-    "p": "5.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/367559_M/30f1770ef6ab827b73e1fc4a629ab550/367559.png",
-    "c": "Other",
-    "cn": "varta alkaline longlife power",
-    "ik": "tok:varta|alkaline-longlife-power|2",
-    "bn": "varta",
-    "wg": 2
-  },
-  {
     "n": "Glade By Brise Glade By Brise Kaars Anti Tabac",
     "o": "",
     "s": "112 ml",
@@ -176044,13 +175646,14 @@
   {
     "n": "Folat Folat Vlaggenlijn - Stripetastic",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "0.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/957924_M/bef2da56e9b46474bddd63a099ef91e2/957924.png",
     "c": "Other",
     "cn": "folat stripetastic vlaggenlijn",
-    "ik": "tok:folat|stripetastic-vlaggenlijn|na",
-    "bn": "folat"
+    "ik": "tok:folat|stripetastic-vlaggenlijn|1",
+    "bn": "folat",
+    "wg": 1
   },
   {
     "n": "Plus Plus Gummen Wit",
@@ -176173,11 +175776,11 @@
     "wg": 1
   },
   {
-    "n": "Duracell Duracell Duracell Alka Plus D X2",
+    "n": "Duracell Duracell Duracell Alka Plus C X2",
     "o": "",
     "s": "2 ml",
-    "p": "8.19",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/662366_M/d4c0a9f9ba9b7a7ab03dfc7dda7e7de2/662366.png",
+    "p": "7.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/662364_M/8239dcdb8ed3216a0a99d996c24a8d72/662364.png",
     "c": "Other",
     "cn": "plus alka duracell x2",
     "ik": "tok:plus|alka-duracell-x2|2",
@@ -176194,18 +175797,6 @@
     "cn": "philips 40w bulb e27 led",
     "ik": "tok:philips|40w-bulb-e27-led|1",
     "bn": "philips",
-    "wg": 1
-  },
-  {
-    "n": "Ltbd Ltbd Premium Leesbril Blauw Etui +2,5",
-    "o": "",
-    "s": "1 stuk",
-    "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/520808_M/39d46d65ee22c251d720e2fa4089bf5a/520808.png",
-    "c": "Other",
-    "cn": "ltbd blauw etui leesbril premium",
-    "ik": "tok:ltbd|blauw-etui-leesbril-premium|1",
-    "bn": "ltbd",
     "wg": 1
   },
   {
@@ -176307,13 +175898,14 @@
   {
     "n": "Duparc Duparc Basic Kniekous Mousse 20D sand/4p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/389307_M/aaded0193353c0a60de5b41e8a507525/389307.png",
     "c": "Other",
     "cn": "duparc 20d 4p basic kniekous mousse sand",
-    "ik": "tok:duparc|20d-4p-basic-kniekous-mousse-sand|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-4p-basic-kniekous-mousse-sand|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Varta Varta Longlife Power Aaa Blister 8",
@@ -176338,18 +175930,6 @@
     "ik": "tok:varta|aa-blister-longlife-power|8",
     "bn": "varta",
     "wg": 8
-  },
-  {
-    "n": "Ltbd Ltbd Premium Leesbril Blauw Etui +3",
-    "o": "",
-    "s": "1 stuk",
-    "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/520810_M/0c8b0c92cd343d270fdcca8221da7799/520810.png",
-    "c": "Other",
-    "cn": "ltbd blauw etui leesbril premium",
-    "ik": "tok:ltbd|blauw-etui-leesbril-premium|1",
-    "bn": "ltbd",
-    "wg": 1
   },
   {
     "n": "Varta Varta Longlife Aa",
@@ -176450,13 +176030,14 @@
   {
     "n": "Greenminds Greenminds Sportveters Wit 120cm 1 Paar",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "2.69",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/560397_M/f5d9fa5eb18d98244a522b67005f4858/560397.png",
     "c": "Other",
     "cn": "greenminds 120cm paar sportveters wit",
-    "ik": "tok:greenminds|120cm-paar-sportveters-wit|na",
-    "bn": "greenminds"
+    "ik": "tok:greenminds|120cm-paar-sportveters-wit|1",
+    "bn": "greenminds",
+    "wg": 1
   },
   {
     "n": "Greenminds Greenminds Elastiek Wit 20mm 2,4mtr",
@@ -176484,18 +176065,6 @@
   },
   {
     "n": "Folat Folat Kaars - Stripetastic - Cijfer 3",
-    "o": "",
-    "s": "1 stuk",
-    "p": "0.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat cijfer kaars stripetastic",
-    "ik": "tok:folat|cijfer-kaars-stripetastic|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
-    "n": "Folat Folat Kaars - Stripetastic - Cijfer 6",
     "o": "",
     "s": "1 stuk",
     "p": "0.99",
@@ -176579,39 +176148,16 @@
     "wg": 1
   },
   {
-    "n": "Ltbd Ltbd Premium Leesbril Zwart Etui +2,5",
-    "o": "",
-    "s": "1 stuk",
-    "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/520796_M/f50a6ab255f0b6dfb9ece55a57716df1/520796.png",
-    "c": "Other",
-    "cn": "ltbd etui leesbril premium zwart",
-    "ik": "tok:ltbd|etui-leesbril-premium-zwart|1",
-    "bn": "ltbd",
-    "wg": 1
-  },
-  {
-    "n": "Ltbd Ltbd Premium Leesbril Zwart Etui +1",
-    "o": "",
-    "s": "1 stuk",
-    "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/520577_M/6f3aa03af9fd38e32889dd5ce3b5621b/520577.png",
-    "c": "Other",
-    "cn": "ltbd etui leesbril premium zwart",
-    "ik": "tok:ltbd|etui-leesbril-premium-zwart|1",
-    "bn": "ltbd",
-    "wg": 1
-  },
-  {
     "n": "Duparc Duparc Panty Lycra 20D Glans Zwart Xxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/455312_M/fc4d73429ccda7b7b0d790c8f5dc2c17/455312.png",
     "c": "Other",
     "cn": "duparc 20d glans lycra panty xxl zwart",
-    "ik": "tok:duparc|20d-glans-lycra-panty-xxl-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-glans-lycra-panty-xxl-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Varta Varta Alkaline Longlife Max Power Aa",
@@ -176688,13 +176234,14 @@
   {
     "n": "Duparc Duparc Kniekous Lycra 20D Sand 2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "4.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/389295_M/5efbca57bcd4e08d9b3eb74d4d4465d4/389295.png",
     "c": "Other",
     "cn": "duparc 20d 2p kniekous lycra sand",
-    "ik": "tok:duparc|20d-2p-kniekous-lycra-sand|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-2p-kniekous-lycra-sand|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Greenminds Greenminds Naalden Met Draad Assorti",
@@ -176771,13 +176318,14 @@
   {
     "n": "Greenminds Greenminds Elastiek Zwart 15mm 3mtr",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "3.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/402362_M/3b1a4d55837336f8d324b77fbb69716c/402362.png",
     "c": "Other",
     "cn": "greenminds 15mm 3mtr elastiek zwart",
-    "ik": "tok:greenminds|15mm-3mtr-elastiek-zwart|na",
-    "bn": "greenminds"
+    "ik": "tok:greenminds|15mm-3mtr-elastiek-zwart|1",
+    "bn": "greenminds",
+    "wg": 1
   },
   {
     "n": "Bolsius Bolsius Rustiek Stompkaars 130/68 Slate Blue",
@@ -176830,13 +176378,14 @@
   {
     "n": "Greenminds Greenminds Sportveters Zwart 120cm 1 Paar",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "2.69",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/560395_M/ae69688de4c633e2ac97eba492b4f287/560395.png",
     "c": "Other",
     "cn": "greenminds 120cm paar sportveters zwart",
-    "ik": "tok:greenminds|120cm-paar-sportveters-zwart|na",
-    "bn": "greenminds"
+    "ik": "tok:greenminds|120cm-paar-sportveters-zwart|1",
+    "bn": "greenminds",
+    "wg": 1
   },
   {
     "n": "De Keukenhulpjes De Keukenhulpjes Citruspers",
@@ -176863,30 +176412,6 @@
     "wg": 1
   },
   {
-    "n": "Folat Folat Folieballon Cijfer 6 - Goud - 86 Cm",
-    "o": "",
-    "s": "1 stuk",
-    "p": "1.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat 86 cijfer cm folieballon goud",
-    "ik": "tok:folat|86-cijfer-cm-folieballon-goud|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
-    "n": "Folat Folat Folieballon Cijfer 0 - Goud - 86 Cm",
-    "o": "",
-    "s": "1 stuk",
-    "p": "1.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat 86 cijfer cm folieballon goud",
-    "ik": "tok:folat|86-cijfer-cm-folieballon-goud|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
     "n": "De Keukenhulpjes De Keukenhulpjes Pollepel",
     "o": "",
     "s": "1 stuk",
@@ -176909,18 +176434,6 @@
     "ik": "tok:sorbo|essential-etiketten-home-zelfklevende|15",
     "bn": "sorbo",
     "wg": 15
-  },
-  {
-    "n": "Folat Folat Kaars - Stripetastic - Cijfer 9",
-    "o": "",
-    "s": "1 stuk",
-    "p": "0.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat cijfer kaars stripetastic",
-    "ik": "tok:folat|cijfer-kaars-stripetastic|1",
-    "bn": "folat",
-    "wg": 1
   },
   {
     "n": "Gp Gp Batterij Oplaadbaar Aa 1300 Mah",
@@ -177091,42 +176604,6 @@
     "wg": 2500
   },
   {
-    "n": "Down Under Down Under Heren Boxershort Combi 5 - Xxl",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/566104_M/59b22322a2d3de9fe4d6a11ce2606343/566104.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under xxl",
-    "ik": "tok:down|boxershort-combi-heren-under-xxl|2",
-    "bn": "down",
-    "wg": 2
-  },
-  {
-    "n": "Down Under Down Under Heren Boxershort Combi 3 - Xxl",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/938363_M/9f787fb0a393dd93df22c4f54ee1fc68/938363.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under xxl",
-    "ik": "tok:down|boxershort-combi-heren-under-xxl|2",
-    "bn": "down",
-    "wg": 2
-  },
-  {
-    "n": "Down Under Down Under Heren Boxershort Combi 4 - Xxl",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/938371_M/b3fab8425a5d247bf3ada959bca6bd86/938371.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under xxl",
-    "ik": "tok:down|boxershort-combi-heren-under-xxl|2",
-    "bn": "down",
-    "wg": 2
-  },
-  {
     "n": "Dutch Kitchen Dutch Kitchen Ovenwant",
     "o": "",
     "s": "1 stuk",
@@ -177259,30 +176736,6 @@
     "wg": 5000
   },
   {
-    "n": "Ltbd Ltbd Premium Leesbril Zwart Etui +3",
-    "o": "",
-    "s": "1 stuk",
-    "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/520798_M/f0f5a056990bd7e616c8d1cb598946bb/520798.png",
-    "c": "Other",
-    "cn": "ltbd etui leesbril premium zwart",
-    "ik": "tok:ltbd|etui-leesbril-premium-zwart|1",
-    "bn": "ltbd",
-    "wg": 1
-  },
-  {
-    "n": "Ltbd Ltbd Premium Leesbril Blauw Etui +1",
-    "o": "",
-    "s": "1 stuk",
-    "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/520802_M/2cfeff5341ffa261a2c22105aff9224c/520802.png",
-    "c": "Other",
-    "cn": "ltbd blauw etui leesbril premium",
-    "ik": "tok:ltbd|blauw-etui-leesbril-premium|1",
-    "bn": "ltbd",
-    "wg": 1
-  },
-  {
     "n": "Plus Plus Led 35W GU5.3 12V 2PK",
     "o": "",
     "s": "2 ml",
@@ -177405,13 +176858,14 @@
   {
     "n": "Neutraal Neutraal Sneakersokken",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/902305_M/a3de60d8365e10ba5e53f3f8c44c23ca/902305.png",
     "c": "Other",
     "cn": "neutraal sneakersokken",
-    "ik": "tok:neutraal|sneakersokken|na",
-    "bn": "neutraal"
+    "ik": "tok:neutraal|sneakersokken|1",
+    "bn": "neutraal",
+    "wg": 1
   },
   {
     "n": "Bolsius Bolsius Geurglas Kurk True Joy Vanilla Delight",
@@ -177428,13 +176882,14 @@
   {
     "n": "Folat Folat Vlaggenlijn - Polyester/Katoen",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/957874_M/e76b6bb0b8189a71157d1620856ab452/957874.png",
     "c": "Other",
     "cn": "folat katoen polyester vlaggenlijn",
-    "ik": "tok:folat|katoen-polyester-vlaggenlijn|na",
-    "bn": "folat"
+    "ik": "tok:folat|katoen-polyester-vlaggenlijn|1",
+    "bn": "folat",
+    "wg": 1
   },
   {
     "n": "Plus Plus Lamp Led 60W Grote Fitting Mat Dimbaar",
@@ -177703,13 +177158,14 @@
   {
     "n": "Sorbo Sorbo Wax-veters Zwart 75cm 2 Paar",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "3.59",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/255955_M/a9e5ae4525c6b149c634cd2316d55fb9/255955.png",
     "c": "Other",
     "cn": "sorbo 75cm paar veters wax zwart",
-    "ik": "tok:sorbo|75cm-paar-veters-wax-zwart|na",
-    "bn": "sorbo"
+    "ik": "tok:sorbo|75cm-paar-veters-wax-zwart|1",
+    "bn": "sorbo",
+    "wg": 1
   },
   {
     "n": "Greenminds Greenminds Lintcentimeter 150cm",
@@ -177726,13 +177182,14 @@
   {
     "n": "Greenminds Greenminds Koordveter Fijn Zwart 90 Cm 2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "3.59",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/560389_M/38729d7f84caff1e69769c63fadbdb2b/560389.png",
     "c": "Other",
     "cn": "greenminds 2p 90 cm fijn koordveter zwart",
-    "ik": "tok:greenminds|2p-90-cm-fijn-koordveter-zwart|na",
-    "bn": "greenminds"
+    "ik": "tok:greenminds|2p-90-cm-fijn-koordveter-zwart|1",
+    "bn": "greenminds",
+    "wg": 1
   },
   {
     "n": "Greenminds Greenminds Draaddoorstekers",
@@ -177785,13 +177242,14 @@
   {
     "n": "Folat Folat Vlaggenlijn - Papier",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "2.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/957928_M/fe44da038e98fe11ae1d3a9937447c24/957928.png",
     "c": "Other",
     "cn": "folat papier vlaggenlijn",
-    "ik": "tok:folat|papier-vlaggenlijn|na",
-    "bn": "folat"
+    "ik": "tok:folat|papier-vlaggenlijn|1",
+    "bn": "folat",
+    "wg": 1
   },
   {
     "n": "24Basics 24Basics Viltstiften Set",
@@ -177804,66 +177262,6 @@
     "ik": "tok:basics|24basics-set-viltstiften|59",
     "bn": "basics",
     "wg": 59
-  },
-  {
-    "n": "Folat Folat Folieballon Cijfer 7 - Goud - 86 Cm",
-    "o": "",
-    "s": "1 stuk",
-    "p": "1.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat 86 cijfer cm folieballon goud",
-    "ik": "tok:folat|86-cijfer-cm-folieballon-goud|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
-    "n": "Folat Folat Folieballon Cijfer 4 - Goud - 86 Cm",
-    "o": "",
-    "s": "1 stuk",
-    "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/964163_M/c5f6c0056d020dfcdc7bb1396ec340e9/964163.png",
-    "c": "Other",
-    "cn": "folat 86 cijfer cm folieballon goud",
-    "ik": "tok:folat|86-cijfer-cm-folieballon-goud|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
-    "n": "Folat Folat Folieballon Cijfer 2 - Goud - 86 Cm",
-    "o": "",
-    "s": "1 stuk",
-    "p": "1.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat 86 cijfer cm folieballon goud",
-    "ik": "tok:folat|86-cijfer-cm-folieballon-goud|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
-    "n": "Folat Folat Folieballon Cijfer 3 - Goud - 86 Cm",
-    "o": "",
-    "s": "1 stuk",
-    "p": "1.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat 86 cijfer cm folieballon goud",
-    "ik": "tok:folat|86-cijfer-cm-folieballon-goud|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
-    "n": "Folat Folat Folieballon Cijfer 5 - Goud - 86 Cm",
-    "o": "",
-    "s": "1 stuk",
-    "p": "1.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat 86 cijfer cm folieballon goud",
-    "ik": "tok:folat|86-cijfer-cm-folieballon-goud|1",
-    "bn": "folat",
-    "wg": 1
   },
   {
     "n": "Alpina Alpina Schilmesjes",
@@ -177936,66 +177334,6 @@
     "ik": "tok:cocktailprikker|25-cm-keukenhulpjes|100",
     "bn": "cocktailprikker",
     "wg": 100
-  },
-  {
-    "n": "Folat Folat Kaars - Stripetastic - Cijfer 1",
-    "o": "",
-    "s": "1 stuk",
-    "p": "0.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat cijfer kaars stripetastic",
-    "ik": "tok:folat|cijfer-kaars-stripetastic|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
-    "n": "Folat Folat Kaars - Stripetastic - Cijfer 8",
-    "o": "",
-    "s": "1 stuk",
-    "p": "0.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat cijfer kaars stripetastic",
-    "ik": "tok:folat|cijfer-kaars-stripetastic|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
-    "n": "Folat Folat Kaars - Stripetastic - Cijfer 2",
-    "o": "",
-    "s": "1 stuk",
-    "p": "0.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat cijfer kaars stripetastic",
-    "ik": "tok:folat|cijfer-kaars-stripetastic|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
-    "n": "Folat Folat Kaars - Stripetastic - Cijfer 4",
-    "o": "",
-    "s": "1 stuk",
-    "p": "0.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat cijfer kaars stripetastic",
-    "ik": "tok:folat|cijfer-kaars-stripetastic|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
-    "n": "Folat Folat Kaars - Stripetastic - Cijfer 5",
-    "o": "",
-    "s": "1 stuk",
-    "p": "0.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat cijfer kaars stripetastic",
-    "ik": "tok:folat|cijfer-kaars-stripetastic|1",
-    "bn": "folat",
-    "wg": 1
   },
   {
     "n": "Be Protected Be Protected Boxershorts 2 Pack",
@@ -178496,9 +177834,10 @@
     "p": "11.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/826890_M/5c48a6ae5851f96d317d61a9d07141bf/826890.png",
     "c": "Other",
-    "cn": "hg in leer",
-    "ik": "tok:unknown|hg-in-leer|250",
-    "wg": 250
+    "cn": "leer hg in",
+    "ik": "tok:leer|hg-in|250",
+    "wg": 250,
+    "bn": "leer"
   },
   {
     "n": "Lifetime Lifetime Partytent Zwart",
@@ -178563,13 +177902,14 @@
   {
     "n": "Be Protected Be Protected Werksokken 5 Pack",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/203760_M/36b8d3f8c1a1bdda870828c1a225ed55/203760.png",
     "c": "Other",
     "cn": "protected be pack werksokken",
-    "ik": "tok:protected|be-pack-werksokken|na",
-    "bn": "protected"
+    "ik": "tok:protected|be-pack-werksokken|1",
+    "bn": "protected",
+    "wg": 1
   },
   {
     "n": "Montagne Montagne Pannenkoekenpan 25cm",
@@ -178602,9 +177942,10 @@
     "p": "9.59",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/273045_M/b8b33518b11da661813a28fb5a8e0219/273045.png",
     "c": "Other",
-    "cn": "hg leerreiniger",
-    "ik": "tok:unknown|hg-leerreiniger|300",
-    "wg": 300
+    "cn": "leerreiniger hg",
+    "ik": "tok:leerreiniger|hg|300",
+    "wg": 300,
+    "bn": "leerreiniger"
   },
   {
     "n": "Eddy Toys Eddy Toys Waterpistool",
@@ -178729,13 +178070,14 @@
   {
     "n": "Duparc Duparc Panty Microfib 50D Mat Zw Ml",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425357_M/1be18d5d79ace49ce6abcfc82ec9e392/425357.png",
     "c": "Other",
     "cn": "duparc 50d mat microfib ml panty zw",
-    "ik": "tok:duparc|50d-mat-microfib-ml-panty-zw|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|50d-mat-microfib-ml-panty-zw|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Plus Plus Geodriehoek Kunststof",
@@ -178992,13 +178334,14 @@
   {
     "n": "Kinzo Kinzo Tuin Handschoenen Design",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/276829_M/a0afec29fd9db8267fd6dfea63692413/276829.png",
     "c": "Other",
     "cn": "kinzo design handschoenen tuin",
-    "ik": "tok:kinzo|design-handschoenen-tuin|na",
-    "bn": "kinzo"
+    "ik": "tok:kinzo|design-handschoenen-tuin|1",
+    "bn": "kinzo",
+    "wg": 1
   },
   {
     "n": "Greenmouse Greenmouse Hp Zwart USB-C To Lightning Data Cable",
@@ -179071,18 +178414,6 @@
     "ik": "tok:yoghurtbeker|compartimenten-go-keukenhulpjes-to|1",
     "bn": "yoghurtbeker",
     "wg": 1
-  },
-  {
-    "n": "Duracell Duracell Duracell Alka Plus C X2",
-    "o": "",
-    "s": "2 ml",
-    "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/662364_M/8239dcdb8ed3216a0a99d996c24a8d72/662364.png",
-    "c": "Other",
-    "cn": "plus alka duracell x2",
-    "ik": "tok:plus|alka-duracell-x2|2",
-    "bn": "plus",
-    "wg": 2
   },
   {
     "n": "Greenminds Greenminds Enveloppen A4 Gegomd",
@@ -179338,13 +178669,14 @@
   {
     "n": "Folat Folat Letterslinger Vilt - \"HAPPY BIRTHDAY\"",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "2.99",
     "l": "",
     "c": "Other",
     "cn": "folat birthday happy letterslinger vilt",
-    "ik": "tok:folat|birthday-happy-letterslinger-vilt|na",
-    "bn": "folat"
+    "ik": "tok:folat|birthday-happy-letterslinger-vilt|1",
+    "bn": "folat",
+    "wg": 1
   },
   {
     "n": "Bubblez Bubblez Bellenblaas",
@@ -179445,13 +178777,14 @@
   {
     "n": "Duparc Duparc Herensok Navy Uni 43-46",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "465.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/204306_M/d7da3b4970e2fde37cdafed537fbb8de/204306.png",
     "c": "Other",
     "cn": "duparc 43 46 herensok navy uni",
-    "ik": "tok:duparc|43-46-herensok-navy-uni|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|43-46-herensok-navy-uni|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Eddy Toys Eddy Toys Bellenblaaspistool",
@@ -179475,18 +178808,6 @@
     "cn": "duni tablecover",
     "ik": "tok:duni|tablecover|na",
     "bn": "duni"
-  },
-  {
-    "n": "Down Under Down Under Heren Boxershort Combi 1 - L",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/650804_M/9471c701cc6f61ccaf9812e7660d04e0/650804.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under",
-    "ik": "tok:down|boxershort-combi-heren-under|2",
-    "bn": "down",
-    "wg": 2
   },
   {
     "n": "Tana Tana Sneaker Witmaker",
@@ -179611,13 +178932,14 @@
   {
     "n": "Duparc Duparc Panty Lycra 20D Glans Ambre Lxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/461982_M/c0924d43e0c398f08167ba991d3e90b0/461982.png",
     "c": "Other",
     "cn": "duparc 20d ambre glans lxl lycra panty",
-    "ik": "tok:duparc|20d-ambre-glans-lxl-lycra-panty|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-ambre-glans-lxl-lycra-panty|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Alpina Alpina Raclette Grill 4-persoons",
@@ -179670,13 +178992,14 @@
   {
     "n": "Duparc Duparc Invisible Footie wit/zwart 39-42",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "425.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/218230_M/f9dec79611265d5bbd03b28143c91c53/218230.png",
     "c": "Other",
     "cn": "duparc 39 42 footie invisible wit zwart",
-    "ik": "tok:duparc|39-42-footie-invisible-wit-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-footie-invisible-wit-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Tala Tala Wijnglas Markers .",
@@ -179689,18 +179012,6 @@
     "ik": "tok:tala|markers-wijnglas|12",
     "bn": "tala",
     "wg": 12
-  },
-  {
-    "n": "Down Under Down Under Heren Boxershort Combi 1 - M",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/650796_M/b9a445d344a3269913421fe78b6c0a47/650796.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under",
-    "ik": "tok:down|boxershort-combi-heren-under|2",
-    "bn": "down",
-    "wg": 2
   },
   {
     "n": "Greenminds Greenminds Reparatienaalden",
@@ -179765,13 +179076,14 @@
   {
     "n": "Duparc Duparc Damessok Promo Sneaker Ajour 39-42",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "426.95",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/218242_M/74a11363aba9f7d28868dece77f71738/218242.png",
     "c": "Other",
     "cn": "duparc 39 42 ajour damessok promo sneaker",
-    "ik": "tok:duparc|39-42-ajour-damessok-promo-sneaker|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-ajour-damessok-promo-sneaker|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Maison Dore Maison Dore Kniekussen",
@@ -180075,13 +179387,14 @@
   {
     "n": "Duparc Duparc Herensok Sport 39-42",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "425.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215184_M/d6a2ad546bb713151e9b3fd30635d951/215184.png",
     "c": "Other",
     "cn": "duparc 39 42 herensok sport",
-    "ik": "tok:duparc|39-42-herensok-sport|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-herensok-sport|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Greenminds Greenminds Biais Band Wit 18mm 3meter",
@@ -180120,18 +179433,6 @@
     "wg": 100
   },
   {
-    "n": "Ltbd Ltbd Premium Leesbril Blauw Etui +1,5",
-    "o": "",
-    "s": "1 stuk",
-    "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/520804_M/19537d4b2e70647b311c2daad6d9f463/520804.png",
-    "c": "Other",
-    "cn": "ltbd blauw etui leesbril premium",
-    "ik": "tok:ltbd|blauw-etui-leesbril-premium|1",
-    "bn": "ltbd",
-    "wg": 1
-  },
-  {
     "n": "Neutraal Neutraal Psv Minivoetbal Maat 2",
     "o": "",
     "s": "1 stuk",
@@ -180166,30 +179467,6 @@
     "ik": "tok:tefal|28-black-change-cm-koekenpan|1",
     "bn": "tefal",
     "wg": 1
-  },
-  {
-    "n": "Down Under Down Under Heren Boxershort Combi 2 - L",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/650812_M/ed8726935855ce0b9c205dcbad942c42/650812.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under",
-    "ik": "tok:down|boxershort-combi-heren-under|2",
-    "bn": "down",
-    "wg": 2
-  },
-  {
-    "n": "Down Under Down Under Heren Boxershort Combi 2 - Xl",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/654577_M/1ddeeb54c3e7491aa14dbd97e1ff2c36/654577.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under xl",
-    "ik": "tok:down|boxershort-combi-heren-under-xl|2",
-    "bn": "down",
-    "wg": 2
   },
   {
     "n": "24Basics 24Basics Potloden Hb",
@@ -180314,13 +179591,14 @@
   {
     "n": "Duparc Duparc Damessok Grijsmelange 35-38 Uni",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215196_M/e961a104e39f1f7beea608168c871316/215196.png",
     "c": "Other",
     "cn": "duparc 35 38 damessok grijsmelange uni",
-    "ik": "tok:duparc|35-38-damessok-grijsmelange-uni|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|35-38-damessok-grijsmelange-uni|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Philips Philips Led Filament Kogel 40W E27 Box",
@@ -180349,13 +179627,14 @@
   {
     "n": "Sorbo Sorbo Veters Polyester Fluo 120cm 1Pr",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "2.29",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/256023_M/895d7a0cce884bc9e904a41b8099ae84/256023.png",
     "c": "Other",
     "cn": "sorbo 120cm 1pr fluo polyester veters",
-    "ik": "tok:sorbo|120cm-1pr-fluo-polyester-veters|na",
-    "bn": "sorbo"
+    "ik": "tok:sorbo|120cm-1pr-fluo-polyester-veters|1",
+    "bn": "sorbo",
+    "wg": 1
   },
   {
     "n": "Philips Philips Smart Led 40W E14 Gekleurd Licht",
@@ -180392,18 +179671,6 @@
     "ik": "tok:duparc|20d-2p-basic-lxl-mousse-panty-zwart|2",
     "bn": "duparc",
     "wg": 2
-  },
-  {
-    "n": "Ltbd Ltbd Premium Leesbril Zwart Etui +2",
-    "o": "",
-    "s": "1 stuk",
-    "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/520794_M/f00947b73677c194177f55fccb20b6b4/520794.png",
-    "c": "Other",
-    "cn": "ltbd etui leesbril premium zwart",
-    "ik": "tok:ltbd|etui-leesbril-premium-zwart|1",
-    "bn": "ltbd",
-    "wg": 1
   },
   {
     "n": "De Keukenhulpjes De Keukenhulpjes Mixkom Glas 21cm",
@@ -180540,13 +179807,14 @@
   {
     "n": "Duparc Duparc Herensok Grijsmelange Uni 43-46",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "465.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/204315_M/1e147971c9d1e9bbb952085ed48e4213/204315.png",
     "c": "Other",
     "cn": "duparc 43 46 grijsmelange herensok uni",
-    "ik": "tok:duparc|43-46-grijsmelange-herensok-uni|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|43-46-grijsmelange-herensok-uni|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Philips Philips Led Kogel 40W E27",
@@ -180575,13 +179843,14 @@
   {
     "n": "Kinzo Kinzo Tuin Handschoenen",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/275423_M/d0723a3abc8b176e9823427511ca4002/275423.png",
     "c": "Other",
     "cn": "kinzo handschoenen tuin",
-    "ik": "tok:kinzo|handschoenen-tuin|na",
-    "bn": "kinzo"
+    "ik": "tok:kinzo|handschoenen-tuin|1",
+    "bn": "kinzo",
+    "wg": 1
   },
   {
     "n": "Plus Plus Led 40W Std E27 Grote Fitting Mat",
@@ -180670,13 +179939,14 @@
   {
     "n": "Huttensocken Huttensocken Homesocks",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "9.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/489226_M/54debf46eeb26d80bcad640b5bca5da4/489226.png",
     "c": "Other",
     "cn": "huttensocken homesocks",
-    "ik": "tok:huttensocken|homesocks|na",
-    "bn": "huttensocken"
+    "ik": "tok:huttensocken|homesocks|1",
+    "bn": "huttensocken",
+    "wg": 1
   },
   {
     "n": "Tefal Tefal Change Black Koekenpan 20 Cm",
@@ -180705,24 +179975,26 @@
   {
     "n": "Greenminds Greenminds Koordveter Fijn Zwart 120cm 1p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "2.69",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/560393_M/895760ab3ddab0d0563e988c44f618d6/560393.png",
     "c": "Other",
     "cn": "greenminds 120cm 1p fijn koordveter zwart",
-    "ik": "tok:greenminds|120cm-1p-fijn-koordveter-zwart|na",
-    "bn": "greenminds"
+    "ik": "tok:greenminds|120cm-1p-fijn-koordveter-zwart|1",
+    "bn": "greenminds",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Herensok Zwart Uni 39-42",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "425.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/565578_M/a7acb9266b065781610026ebbeeb0404/565578.png",
     "c": "Other",
     "cn": "duparc 39 42 herensok uni zwart",
-    "ik": "tok:duparc|39-42-herensok-uni-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-herensok-uni-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "De Keukenhulpjes De Keukenhulpjes Glas ()",
@@ -180823,13 +180095,14 @@
   {
     "n": "Sorbo Sorbo Koordveters Fijn Zwart 75cm 2 Paar",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "2.29",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/182368_M/af218cdb2f4723bd93089dc177e8757d/182368.png",
     "c": "Other",
     "cn": "sorbo 75cm fijn koordveters paar zwart",
-    "ik": "tok:sorbo|75cm-fijn-koordveters-paar-zwart|na",
-    "bn": "sorbo"
+    "ik": "tok:sorbo|75cm-fijn-koordveters-paar-zwart|1",
+    "bn": "sorbo",
+    "wg": 1
   },
   {
     "n": "Greenmouse Greenmouse USB-C To USB-C Data Cable - 1m",
@@ -180846,35 +180119,38 @@
   {
     "n": "Duparc Duparc Damessok Zwart 35-38 Uni",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215188_M/8b1cd830fa40f80b7286ed482edb6d8c/215188.png",
     "c": "Other",
     "cn": "duparc 35 38 damessok uni zwart",
-    "ik": "tok:duparc|35-38-damessok-uni-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|35-38-damessok-uni-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Damessok Zwart 39-42 Uni",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215190_M/2f1b69d0ab5feaa75e73a980fc802d99/215190.png",
     "c": "Other",
     "cn": "duparc 39 42 damessok uni zwart",
-    "ik": "tok:duparc|39-42-damessok-uni-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-damessok-uni-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Invisible Footie wit/zwart 35-38",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "385.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/218228_M/77baa1d9bf16bf1024b808f6cdd880ae/218228.png",
     "c": "Other",
     "cn": "duparc 35 38 footie invisible wit zwart",
-    "ik": "tok:duparc|35-38-footie-invisible-wit-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|35-38-footie-invisible-wit-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Philips Philips Led Filament Bulb 60W E27 Box",
@@ -180939,13 +180215,14 @@
   {
     "n": "Duparc Duparc Panty Lycra 40D Zijdegl Zwart Xxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425343_M/d53bc9a6b968660e2f0c713dc11c4414/425343.png",
     "c": "Other",
     "cn": "duparc 40d lycra panty xxl zijdegl zwart",
-    "ik": "tok:duparc|40d-lycra-panty-xxl-zijdegl-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|40d-lycra-panty-xxl-zijdegl-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Quick Quick Men Basic T-shirt Ft Katoen M",
@@ -181020,30 +180297,6 @@
     "wg": 354
   },
   {
-    "n": "Folat Folat Folieballon Cijfer 9 - Goud - 86 Cm",
-    "o": "",
-    "s": "1 stuk",
-    "p": "1.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat 86 cijfer cm folieballon goud",
-    "ik": "tok:folat|86-cijfer-cm-folieballon-goud|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
-    "n": "Folat Folat Kaars - Stripetastic - Cijfer 0",
-    "o": "",
-    "s": "1 stuk",
-    "p": "0.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat cijfer kaars stripetastic",
-    "ik": "tok:folat|cijfer-kaars-stripetastic|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
     "n": "Fira Fira Ontbijtborden Beige",
     "o": "",
     "s": "2 ml",
@@ -181058,13 +180311,14 @@
   {
     "n": "Duparc Duparc Kniekous Lycra 20D Zwart 2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "4.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/371806_M/006974fb52d05ed71f90742443199459/371806.png",
     "c": "Other",
     "cn": "duparc 20d 2p kniekous lycra zwart",
-    "ik": "tok:duparc|20d-2p-kniekous-lycra-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-2p-kniekous-lycra-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Velo Velo Led Clip Lichtset",
@@ -181129,13 +180383,14 @@
   {
     "n": "Sorbo Sorbo Koordveters Grof Zwart 75CM",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "2.29",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/182370_M/eb021c97eb082be191445bf1aeadd6ea/182370.png",
     "c": "Other",
     "cn": "sorbo 75cm grof koordveters zwart",
-    "ik": "tok:sorbo|75cm-grof-koordveters-zwart|na",
-    "bn": "sorbo"
+    "ik": "tok:sorbo|75cm-grof-koordveters-zwart|1",
+    "bn": "sorbo",
+    "wg": 1
   },
   {
     "n": "Morenso Morenso Kommetje 11,5cm",
@@ -181152,68 +180407,74 @@
   {
     "n": "Duparc Duparc Herensok Zwart Uni 43-46",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "465.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/204302_M/755b96abc75b2df72618b55c1fee3532/204302.png",
     "c": "Other",
     "cn": "duparc 43 46 herensok uni zwart",
-    "ik": "tok:duparc|43-46-herensok-uni-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|43-46-herensok-uni-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Herensok Navy Uni 39-42",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "425.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/204304_M/65e0ee827625f6eb53a42db66505e078/204304.png",
     "c": "Other",
     "cn": "duparc 39 42 herensok navy uni",
-    "ik": "tok:duparc|39-42-herensok-navy-uni|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-herensok-navy-uni|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Herensok Grijsmelange Uni 39-42",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "425.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/204310_M/10f375210792d5509f126d7e07a1265c/204310.png",
     "c": "Other",
     "cn": "duparc 39 42 grijsmelange herensok uni",
-    "ik": "tok:duparc|39-42-grijsmelange-herensok-uni|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-grijsmelange-herensok-uni|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Herensneakersok zwart/bruin 39-42",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "425.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215174_M/f2e87673a903ca0cec775bcd8500edf0/215174.png",
     "c": "Other",
     "cn": "duparc 39 42 bruin herensneakersok zwart",
-    "ik": "tok:duparc|39-42-bruin-herensneakersok-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-bruin-herensneakersok-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Herensneakersok grijsmel/zwart 43-46",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "465.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215182_M/a598bb705580dfa154ae93186395bfcf/215182.png",
     "c": "Other",
     "cn": "duparc 43 46 grijsmel herensneakersok zwart",
-    "ik": "tok:duparc|43-46-grijsmel-herensneakersok-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|43-46-grijsmel-herensneakersok-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Damessok Sport 35-38",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "384.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215200_M/aee79e7c9a5b961a1e6036422bcc1181/215200.png",
     "c": "Other",
     "cn": "duparc 35 38 damessok sport",
-    "ik": "tok:duparc|35-38-damessok-sport|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|35-38-damessok-sport|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Philips Philips Led Filament Kogel 25W E14 Box",
@@ -181302,35 +180563,25 @@
   {
     "n": "Duparc Duparc Panty Microfib 50D Mat Zw Lxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425359_M/85596946216bf86aa6211856cec26a41/425359.png",
     "c": "Other",
     "cn": "duparc 50d lxl mat microfib panty zw",
-    "ik": "tok:duparc|50d-lxl-mat-microfib-panty-zw|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|50d-lxl-mat-microfib-panty-zw|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 20D Glans Sand Lxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/461970_M/c3238bfd1bbe229540d7812bf0636f78/461970.png",
     "c": "Other",
     "cn": "duparc 20d glans lxl lycra panty sand",
-    "ik": "tok:duparc|20d-glans-lxl-lycra-panty-sand|na",
-    "bn": "duparc"
-  },
-  {
-    "n": "Ltbd Ltbd Flex Leesbril Kleurloos +3",
-    "o": "",
-    "s": "1 stuk",
-    "p": "5.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/520564_M/6e4f1019b2f875203a2523941dd5c1be/520564.png",
-    "c": "Other",
-    "cn": "ltbd flex kleurloos leesbril",
-    "ik": "tok:ltbd|flex-kleurloos-leesbril|1",
-    "bn": "ltbd",
+    "ik": "tok:duparc|20d-glans-lxl-lycra-panty-sand|1",
+    "bn": "duparc",
     "wg": 1
   },
   {
@@ -181491,13 +180742,14 @@
   {
     "n": "Neutraal Neutraal 4 Pack Werksok",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.00",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/190159_M/a68c2f0aedb85d0a1db652da32130078/190159.png",
     "c": "Other",
     "cn": "neutraal pack werksok",
-    "ik": "tok:neutraal|pack-werksok|na",
-    "bn": "neutraal"
+    "ik": "tok:neutraal|pack-werksok|1",
+    "bn": "neutraal",
+    "wg": 1
   },
   {
     "n": "Bolsius Bolsius Maxilicht True Scents Apple Cinnamon",
@@ -181574,57 +180826,62 @@
   {
     "n": "Duparc Duparc Herensok Sport 43-46",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "465.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215186_M/58de9aa426783a34e9b7445b17ce298b/215186.png",
     "c": "Other",
     "cn": "duparc 43 46 herensok sport",
-    "ik": "tok:duparc|43-46-herensok-sport|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|43-46-herensok-sport|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Damessok Navy 35-38 Uni",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215192_M/a1758f2cbe10b719d0ecb15901d72cc5/215192.png",
     "c": "Other",
     "cn": "duparc 35 38 damessok navy uni",
-    "ik": "tok:duparc|35-38-damessok-navy-uni|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|35-38-damessok-navy-uni|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Damessok Navy 39-42 Uni",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215194_M/79c99b878b88d61de242da1054850d42/215194.png",
     "c": "Other",
     "cn": "duparc 39 42 damessok navy uni",
-    "ik": "tok:duparc|39-42-damessok-navy-uni|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-damessok-navy-uni|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Damessok Grijsmelange 39-42 Uni",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215198_M/a7e4c98ef134bb86ccff6bef7bf0cff4/215198.png",
     "c": "Other",
     "cn": "duparc 39 42 damessok grijsmelange uni",
-    "ik": "tok:duparc|39-42-damessok-grijsmelange-uni|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-damessok-grijsmelange-uni|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Damessok Sport 39-42",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "424.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/218226_M/14022806926edb5a86fdb470761380cc/218226.png",
     "c": "Other",
     "cn": "duparc 39 42 damessok sport",
-    "ik": "tok:duparc|39-42-damessok-sport|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-damessok-sport|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Philips Philips Led Filament Kogel 25W E27 Box",
@@ -181701,13 +180958,14 @@
   {
     "n": "Duparc Duparc Basic Kniekous Mousse 20D Zwart/4p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/389305_M/b8d80e9189dbd0910b84ef5a3390bf81/389305.png",
     "c": "Other",
     "cn": "duparc 20d 4p basic kniekous mousse zwart",
-    "ik": "tok:duparc|20d-4p-basic-kniekous-mousse-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-4p-basic-kniekous-mousse-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Greenminds Greenminds Garen Polyester Ecru 200mtr",
@@ -181736,24 +180994,26 @@
   {
     "n": "Duparc Duparc Panty Lycra 40D Zijdegl Sand Lxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425349_M/2558464103f1ec6fd7ddef4e616ef43c/425349.png",
     "c": "Other",
     "cn": "duparc 40d lxl lycra panty sand zijdegl",
-    "ik": "tok:duparc|40d-lxl-lycra-panty-sand-zijdegl|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|40d-lxl-lycra-panty-sand-zijdegl|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 20D Glans Sand Sm",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/455314_M/5592d7908d90d8bf9f8cdfa9ddb9d05f/455314.png",
     "c": "Other",
     "cn": "duparc 20d glans lycra panty sand sm",
-    "ik": "tok:duparc|20d-glans-lycra-panty-sand-sm|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-glans-lycra-panty-sand-sm|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 15D Satijnglans Sand Xxl",
@@ -181863,18 +181123,6 @@
     "bn": "greenminds"
   },
   {
-    "n": "Down Under Down Under Heren Boxershort Combi 3 - Xl",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/938361_M/03bd69594043269fcb81ce3bcb2bf36a/938361.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under xl",
-    "ik": "tok:down|boxershort-combi-heren-under-xl|2",
-    "bn": "down",
-    "wg": 2
-  },
-  {
     "n": "Velo Velo Zadelhoes Recycled",
     "o": "",
     "s": "9 ml",
@@ -181911,18 +181159,6 @@
     "wg": 87
   },
   {
-    "n": "Folat Folat Folieballon Cijfer 8 - Goud - 86 Cm",
-    "o": "",
-    "s": "1 stuk",
-    "p": "1.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat 86 cijfer cm folieballon goud",
-    "ik": "tok:folat|86-cijfer-cm-folieballon-goud|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
     "n": "Folat Folat Papieren Maskers - Buzzing Bugs",
     "o": "",
     "s": "6 ml",
@@ -181949,24 +181185,26 @@
   {
     "n": "Duparc Duparc Sok Lycra 20D Zwart 2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "4.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/389297_M/b496e4bd3db11f9ac139170050756c01/389297.png",
     "c": "Other",
     "cn": "duparc 20d 2p lycra sok zwart",
-    "ik": "tok:duparc|20d-2p-lycra-sok-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-2p-lycra-sok-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Kv Mousse Midcut Sand 35-38",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "386.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/564320_M/b0757e39fd42ce02f03f51dbad8724c7/564320.png",
     "c": "Other",
     "cn": "duparc 35 38 kv midcut mousse sand",
-    "ik": "tok:duparc|35-38-kv-midcut-mousse-sand|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|35-38-kv-midcut-mousse-sand|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Folat Folat Serpentines - Multicolour - 4m",
@@ -182067,13 +181305,14 @@
   {
     "n": "Duparc Duparc Damessok Promo Sneaker Ajour 35-38",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "386.95",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/218240_M/beb372fd369bcfea5b8860db5670e5cd/218240.png",
     "c": "Other",
     "cn": "duparc 35 38 ajour damessok promo sneaker",
-    "ik": "tok:duparc|35-38-ajour-damessok-promo-sneaker|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|35-38-ajour-damessok-promo-sneaker|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Grundig Grundig Solar Light",
@@ -182210,46 +181449,50 @@
   {
     "n": "Duparc Duparc Panty Lycra 40D Zijdegl Zwart Sm",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/415702_M/cbdd2d78ef0c037f2fe37cc2d8498758/415702.png",
     "c": "Other",
     "cn": "duparc 40d lycra panty sm zijdegl zwart",
-    "ik": "tok:duparc|40d-lycra-panty-sm-zijdegl-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|40d-lycra-panty-sm-zijdegl-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 20D Glans Zwart Ml",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/455308_M/72ea57c1d3821341d68c62ca8aab0182/455308.png",
     "c": "Other",
     "cn": "duparc 20d glans lycra ml panty zwart",
-    "ik": "tok:duparc|20d-glans-lycra-ml-panty-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-glans-lycra-ml-panty-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 20D Glans Zwart Lxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/455310_M/89a86e8cefdb23b2c3da898fc7f5dfa5/455310.png",
     "c": "Other",
     "cn": "duparc 20d glans lxl lycra panty zwart",
-    "ik": "tok:duparc|20d-glans-lxl-lycra-panty-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-glans-lxl-lycra-panty-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 20D Glans Ambre Xxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/461984_M/b59d13c38f4e8b28d08a6008f34c85cc/461984.png",
     "c": "Other",
     "cn": "duparc 20d ambre glans lycra panty xxl",
-    "ik": "tok:duparc|20d-ambre-glans-lycra-panty-xxl|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-ambre-glans-lycra-panty-xxl|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Bic Bic Evolution Graphite Pastel Eraser",
@@ -182300,18 +181543,6 @@
     "wg": 1
   },
   {
-    "n": "Quick Quick Men Basic T-shirt Ft Katoen L",
-    "o": "",
-    "s": "2 ml",
-    "p": "14.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/587804_M/69291a2763d924160f1df7b170bc5b9f/587804.png",
-    "c": "Other",
-    "cn": "quick basic ft katoen men shirt",
-    "ik": "tok:quick|basic-ft-katoen-men-shirt|2",
-    "bn": "quick",
-    "wg": 2
-  },
-  {
     "n": "Arti Casa Arti Casa Led Kaars Creme",
     "o": "",
     "s": "1 stuk",
@@ -182322,30 +181553,6 @@
     "ik": "tok:arti|casa-creme-kaars-led|1",
     "bn": "arti",
     "wg": 1
-  },
-  {
-    "n": "Down Under Down Under Heren Boxershort Combi 1 - Xxl",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/650808_M/130acfabbbdcd7d593a4847ac08c3c6b/650808.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under xxl",
-    "ik": "tok:down|boxershort-combi-heren-under-xxl|2",
-    "bn": "down",
-    "wg": 2
-  },
-  {
-    "n": "Down Under Down Under Heren Boxershort Combi 2 - M",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/650810_M/e67916046927ffa40205a4e9ac8bf84e/650810.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under",
-    "ik": "tok:down|boxershort-combi-heren-under|2",
-    "bn": "down",
-    "wg": 2
   },
   {
     "n": "Bolsius Bolsius Dinerkaarsen Cloudy White",
@@ -182458,35 +181665,38 @@
   {
     "n": "Duparc Duparc Sok Lycra 20D Sand 2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "4.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/389299_M/b3d72e36d4586064b081e7140d0e20e4/389299.png",
     "c": "Other",
     "cn": "duparc 20d 2p lycra sand sok",
-    "ik": "tok:duparc|20d-2p-lycra-sand-sok|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-2p-lycra-sand-sok|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Kniekous Support 50D Zwart OS/2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "6.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425398_M/7cb248dec9fbf6d4cb2bf484995fd9e6/425398.png",
     "c": "Other",
     "cn": "duparc 2p 50d kniekous os support zwart",
-    "ik": "tok:duparc|2p-50d-kniekous-os-support-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|2p-50d-kniekous-os-support-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Kv Mousse Midcut Sand 39-42",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "426.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/564322_M/1b42206950dd7bc86a38eb425dc4b386/564322.png",
     "c": "Other",
     "cn": "duparc 39 42 kv midcut mousse sand",
-    "ik": "tok:duparc|39-42-kv-midcut-mousse-sand|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|39-42-kv-midcut-mousse-sand|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Greenmouse Greenmouse Lightning Data Cable - 2m",
@@ -182503,13 +181713,14 @@
   {
     "n": "Duparc Duparc Herensneakersok zwart/bruin 43-46",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "465.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/215178_M/d217f2f62bd0a679bad46209c57023cf/215178.png",
     "c": "Other",
     "cn": "duparc 43 46 bruin herensneakersok zwart",
-    "ik": "tok:duparc|43-46-bruin-herensneakersok-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|43-46-bruin-herensneakersok-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Grundig Grundig Spot Solaire Pour Sol",
@@ -182622,35 +181833,38 @@
   {
     "n": "Duparc Duparc Panty Lycra 40D Zijdegl Sand Sm",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425345_M/5f0691b959c8191902b5e3ede6c8b1ed/425345.png",
     "c": "Other",
     "cn": "duparc 40d lycra panty sand sm zijdegl",
-    "ik": "tok:duparc|40d-lycra-panty-sand-sm-zijdegl|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|40d-lycra-panty-sand-sm-zijdegl|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 40D Zijdegl Sand Ml",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425347_M/65ed6f7700758235eca862593ea0d0b7/425347.png",
     "c": "Other",
     "cn": "duparc 40d lycra ml panty sand zijdegl",
-    "ik": "tok:duparc|40d-lycra-ml-panty-sand-zijdegl|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|40d-lycra-ml-panty-sand-zijdegl|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Microfib 50D Mat Zw Sm",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425353_M/55b9677e1632a06cb9a2b6921082f396/425353.png",
     "c": "Other",
     "cn": "duparc 50d mat microfib panty sm zw",
-    "ik": "tok:duparc|50d-mat-microfib-panty-sm-zw|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|50d-mat-microfib-panty-sm-zw|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 15D Satijnglans Zwart Sm",
@@ -182667,13 +181881,14 @@
   {
     "n": "Duparc Duparc Panty Lycra 20D Glans Sand Ml",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/461968_M/5e064474b02758bc447a59eea2cc5926/461968.png",
     "c": "Other",
     "cn": "duparc 20d glans lycra ml panty sand",
-    "ik": "tok:duparc|20d-glans-lycra-ml-panty-sand|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-glans-lycra-ml-panty-sand|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Neutraal Neutraal Beachball Set Hout Ass",
@@ -182702,13 +181917,14 @@
   {
     "n": "Greenminds Greenminds Koordveters Fijn Bruin 90cm 2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "3.59",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/560391_M/1c573a9ca2f8bd96e2a31b1380e55899/560391.png",
     "c": "Other",
     "cn": "greenminds 2p 90cm bruin fijn koordveters",
-    "ik": "tok:greenminds|2p-90cm-bruin-fijn-koordveters|na",
-    "bn": "greenminds"
+    "ik": "tok:greenminds|2p-90cm-bruin-fijn-koordveters|1",
+    "bn": "greenminds",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 15D Satijnglans Ambre Xxl",
@@ -182757,18 +181973,6 @@
     "ik": "tok:arti|casa-flikkerende-led-theelichtjes|8",
     "bn": "arti",
     "wg": 8
-  },
-  {
-    "n": "Down Under Down Under Heren Boxershort Combi 3 - L",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/654585_M/6432485a85c93aa09c0fa96bb3bbcb12/654585.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under",
-    "ik": "tok:down|boxershort-combi-heren-under|2",
-    "bn": "down",
-    "wg": 2
   },
   {
     "n": "Philips Philips Led 35W Spot GU10 Niet Dimbaar",
@@ -182867,71 +182071,64 @@
     "wg": 38
   },
   {
-    "n": "Down Under Down Under Heren Boxershort Combi 5 - M",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/938373_M/225c0492af9de8f5e562ae51652b8b2f/938373.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under",
-    "ik": "tok:down|boxershort-combi-heren-under|2",
-    "bn": "down",
-    "wg": 2
-  },
-  {
     "n": "Duparc Duparc Kniekaus Lycra 15D Zwart 2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "4.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/371797_M/a85f3dd2e3a395d193454937c6320991/371797.png",
     "c": "Other",
     "cn": "duparc 15d 2p kniekaus lycra zwart",
-    "ik": "tok:duparc|15d-2p-kniekaus-lycra-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|15d-2p-kniekaus-lycra-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Sok Lycra 15D Zwart 2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "4.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/371802_M/0f09c92e453cdfc1a3ecd9665fd16f11/371802.png",
     "c": "Other",
     "cn": "duparc 15d 2p lycra sok zwart",
-    "ik": "tok:duparc|15d-2p-lycra-sok-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|15d-2p-lycra-sok-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Sok Lycra 15D Sand 2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "4.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/371804_M/082310735d32f97138529b24dad3b9d7/371804.png",
     "c": "Other",
     "cn": "duparc 15d 2p lycra sand sok",
-    "ik": "tok:duparc|15d-2p-lycra-sand-sok|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|15d-2p-lycra-sand-sok|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Sok Microfibre 40D Zwart OS/2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425396_M/576429a4b2a0c9a19ac3a7ae2fa15178/425396.png",
     "c": "Other",
     "cn": "duparc 2p 40d microfibre os sok zwart",
-    "ik": "tok:duparc|2p-40d-microfibre-os-sok-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|2p-40d-microfibre-os-sok-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Kniekous Support 50D Ambre OS/2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "6.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425408_M/d3d760f51fab928d72411717494c5622/425408.png",
     "c": "Other",
     "cn": "duparc 2p 50d ambre kniekous os support",
-    "ik": "tok:duparc|2p-50d-ambre-kniekous-os-support|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|2p-50d-ambre-kniekous-os-support|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Neutraal Neutraal Thermo Boot Sok Terry",
@@ -183020,13 +182217,14 @@
   {
     "n": "Duparc Duparc Basic Sok Mousse 20D zwart/4p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/389311_M/51e293982ddea5a0cc20a52d66686122/389311.png",
     "c": "Other",
     "cn": "duparc 20d 4p basic mousse sok zwart",
-    "ik": "tok:duparc|20d-4p-basic-mousse-sok-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-4p-basic-mousse-sok-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Greenminds Greenminds Elastiek Wit 15mm 3m",
@@ -183067,46 +182265,50 @@
   {
     "n": "Duparc Duparc Panty Lycra 40D Zijdegl Zwart Ml",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/415704_M/b54002e5d7a5db13e675002e8ea5e62e/415704.png",
     "c": "Other",
     "cn": "duparc 40d lycra ml panty zijdegl zwart",
-    "ik": "tok:duparc|40d-lycra-ml-panty-zijdegl-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|40d-lycra-ml-panty-zijdegl-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 40D Zijdegl Zwart Lxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/415706_M/0e5b510f02f670a7f3600793ebd012aa/415706.png",
     "c": "Other",
     "cn": "duparc 40d lxl lycra panty zijdegl zwart",
-    "ik": "tok:duparc|40d-lxl-lycra-panty-zijdegl-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|40d-lxl-lycra-panty-zijdegl-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 40D Zijdegl Sand Xxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425351_M/4554bf825fcd3fda3e5849ed4eba2f26/425351.png",
     "c": "Other",
     "cn": "duparc 40d lycra panty sand xxl zijdegl",
-    "ik": "tok:duparc|40d-lycra-panty-sand-xxl-zijdegl|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|40d-lycra-panty-sand-xxl-zijdegl|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Microfib 50D Mat Zw Xxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "8.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425363_M/5eeab57325df23b3f54b4ea1ae91c333/425363.png",
     "c": "Other",
     "cn": "duparc 50d mat microfib panty xxl zw",
-    "ik": "tok:duparc|50d-mat-microfib-panty-xxl-zw|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|50d-mat-microfib-panty-xxl-zw|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 15D Satijnglans Zwart Ml",
@@ -183135,13 +182337,14 @@
   {
     "n": "Duparc Duparc Panty Lycra 20D Glans Ambre Sm",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/461978_M/355d215a46f9aaef4cf388280ee41967/461978.png",
     "c": "Other",
     "cn": "duparc 20d ambre glans lycra panty sm",
-    "ik": "tok:duparc|20d-ambre-glans-lycra-panty-sm|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-ambre-glans-lycra-panty-sm|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Bic Bic Highlighters Flat Neon",
@@ -183419,18 +182622,6 @@
     "wg": 12
   },
   {
-    "n": "Down Under Down Under Heren Boxershort Combi 4 - L",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/938367_M/ad42aea6527abcf73de42d2a357b2ebf/938367.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under",
-    "ik": "tok:down|boxershort-combi-heren-under|2",
-    "bn": "down",
-    "wg": 2
-  },
-  {
     "n": "Velo Velo Led Siliconen Lichtset",
     "o": "",
     "s": "46 ml",
@@ -183479,38 +182670,28 @@
     "wg": 10
   },
   {
-    "n": "Folat Folat Kaars - Stripetastic - Cijfer 7",
-    "o": "",
-    "s": "1 stuk",
-    "p": "0.99",
-    "l": "",
-    "c": "Other",
-    "cn": "folat cijfer kaars stripetastic",
-    "ik": "tok:folat|cijfer-kaars-stripetastic|1",
-    "bn": "folat",
-    "wg": 1
-  },
-  {
     "n": "Duparc Duparc Kniekaus Lycra 15D Sand 2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "4.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/371800_M/aec71cd4328c76604259eb46fb94942a/371800.png",
     "c": "Other",
     "cn": "duparc 15d 2p kniekaus lycra sand",
-    "ik": "tok:duparc|15d-2p-kniekaus-lycra-sand|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|15d-2p-kniekaus-lycra-sand|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Kniekous Microfibre 40D Zwart OS/2p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/425355_M/eca6d5fb329cb1fd87a0078940238d82/425355.png",
     "c": "Other",
     "cn": "duparc 2p 40d kniekous microfibre os zwart",
-    "ik": "tok:duparc|2p-40d-kniekous-microfibre-os-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|2p-40d-kniekous-microfibre-os-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Bolsius Bolsius Geurtheelichten 4u True Scents Rosemar",
@@ -183539,35 +182720,38 @@
   {
     "n": "Duparc Duparc Basic Sok Mousse 20D sand/4p",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "5.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/389313_M/4e3558bfb6f20ae1ce3a49b6c07f77ff/389313.png",
     "c": "Other",
     "cn": "duparc 20d 4p basic mousse sand sok",
-    "ik": "tok:duparc|20d-4p-basic-mousse-sand-sok|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-4p-basic-mousse-sand-sok|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 20D Glans Zwart Sm",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/455306_M/0a099fda0bb6a0943931491f58197660/455306.png",
     "c": "Other",
     "cn": "duparc 20d glans lycra panty sm zwart",
-    "ik": "tok:duparc|20d-glans-lycra-panty-sm-zwart|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-glans-lycra-panty-sm-zwart|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Duparc Duparc Panty Lycra 20D Glans Sand Xxl",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/461974_M/a49416e8df02cc949f95b279e286f436/461974.png",
     "c": "Other",
     "cn": "duparc 20d glans lycra panty sand xxl",
-    "ik": "tok:duparc|20d-glans-lycra-panty-sand-xxl|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-glans-lycra-panty-sand-xxl|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Bolsius Bolsius Rustiek Stompkaars 190/68 Oat Beige",
@@ -183666,18 +182850,6 @@
     "wg": 1
   },
   {
-    "n": "Down Under Down Under Heren Boxershort Combi 3 - M",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/654581_M/250aa35ce7d6f4b5d722cc8266a41cf5/654581.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under",
-    "ik": "tok:down|boxershort-combi-heren-under|2",
-    "bn": "down",
-    "wg": 2
-  },
-  {
     "n": "Bolsius Bolsius Rustiek Stompkaars 80/68 Honeycomb Yel",
     "o": "",
     "s": "1 stuk",
@@ -183726,18 +182898,6 @@
     "wg": 11
   },
   {
-    "n": "Down Under Down Under Heren Boxershort Combi 5 - Xl",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/938377_M/ce81d2d83fc7c7a71535c390f3acc700/938377.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under xl",
-    "ik": "tok:down|boxershort-combi-heren-under-xl|2",
-    "bn": "down",
-    "wg": 2
-  },
-  {
     "n": "Velo Velo Led Clip Xtra Voorlicht",
     "o": "",
     "s": "47 ml",
@@ -183752,13 +182912,14 @@
   {
     "n": "Duparc Duparc Panty Lycra 20D Glans Ambre Ml",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "p": "7.49",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/461980_M/cbd349331a212f076445f4415358762d/461980.png",
     "c": "Other",
     "cn": "duparc 20d ambre glans lycra ml panty",
-    "ik": "tok:duparc|20d-ambre-glans-lycra-ml-panty|na",
-    "bn": "duparc"
+    "ik": "tok:duparc|20d-ambre-glans-lycra-ml-panty|1",
+    "bn": "duparc",
+    "wg": 1
   },
   {
     "n": "Greenminds Greenminds Bh-Verlengstuk Zwart 28mm",
@@ -183771,30 +182932,6 @@
     "ik": "tok:greenminds|28mm-bh-verlengstuk-zwart|1",
     "bn": "greenminds",
     "wg": 1
-  },
-  {
-    "n": "Down Under Down Under Heren Boxershort Combi 4 - M",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/938365_M/b2c7a2fcd62d0b9f9fe9c7fab8f44cd3/938365.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under",
-    "ik": "tok:down|boxershort-combi-heren-under|2",
-    "bn": "down",
-    "wg": 2
-  },
-  {
-    "n": "Down Under Down Under Heren Boxershort Combi 4 - Xl",
-    "o": "",
-    "s": "2 ml",
-    "p": "9.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/938369_M/0fad12a705aa5097f02c3537082ac30b/938369.png",
-    "c": "Other",
-    "cn": "down boxershort combi heren under xl",
-    "ik": "tok:down|boxershort-combi-heren-under-xl|2",
-    "bn": "down",
-    "wg": 2
   },
   {
     "n": "Velo Velo Led Reflectie Armband",
@@ -184793,18 +183930,6 @@
     "wg": 4
   },
   {
-    "n": "Whiskas Whiskas 1+ Classic - Selectie In Saus",
-    "o": "",
-    "s": "12 ml",
-    "p": "6.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/235360_M/0986b27ff3fe1f08ef786a72b7b63f1b/235360.png",
-    "c": "Other",
-    "cn": "whiskas classic in saus selectie",
-    "ik": "tok:whiskas|classic-in-saus-selectie|12",
-    "bn": "whiskas",
-    "wg": 12
-  },
-  {
     "n": "Smuldier Smuldier Door De Brok Lamsragout",
     "o": "",
     "s": "60 ml",
@@ -185655,18 +184780,6 @@
     "ik": "tok:felix|kattensnacks-mix-party-seaside-zalm|60",
     "bn": "felix",
     "wg": 60
-  },
-  {
-    "n": "Felix Felix Elke Dag Feest Mix",
-    "o": "",
-    "s": "12 ml",
-    "p": "6.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/634430_M/856da8f4fde6e4781512926b09f15596/634430.png",
-    "c": "Other",
-    "cn": "felix dag elke feest mix",
-    "ik": "tok:felix|dag-elke-feest-mix|12",
-    "bn": "felix",
-    "wg": 12
   },
   {
     "n": "Pedigree Pedigree Jumbone Mini Kip & Lam Hondensnack",
