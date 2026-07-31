@@ -193,7 +193,9 @@ def analyze_catalog(
     if missing_scraped_at:
         issue("warning", "missing_scrape_timestamps", missing_scraped_at, 0)
     if stale_scrape:
-        issue("error", "stale_scrape_rows", stale_scrape, 0)
+        # Optional stores are best-effort; stale last-good rows should not fail CI.
+        severity = "warning" if store_config(country, slug).get("optional") else "error"
+        issue(severity, "stale_scrape_rows", stale_scrape, 0)
     if malformed_rows or promo_in_name:
         issue("warning", "malformed_or_rejected_rows", malformed_rows + promo_in_name, 0)
 

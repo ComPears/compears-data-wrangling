@@ -74,7 +74,8 @@
           "minimum_products": 300,
           "pipeline": ["main.py", "structure.py", "clean_coop.py"],
           "intermediate_globs": ["coop.json"],
-          "playwright": true
+          "playwright": true,
+          "optional": true
         },
         "plus": {
           "display_name": "PLUS",

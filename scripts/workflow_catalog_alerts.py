@@ -101,12 +101,15 @@ def main() -> int:
 
     for country, store, path in targets:
         relative = catalog_rel_path(country, store)
+        cfg = store_config(country, store)
+        optional = bool(cfg.get("optional"))
         count, read_error = catalog_count(path)
-        minimum = int(store_config(country, store).get("minimum_products") or 0)
+        minimum = int(cfg.get("minimum_products") or 0)
         baseline = baselines.get((country, store), 0)
         changed_at = last_change_epoch(path)
         age_hours = (time.time() - changed_at) / 3600 if changed_at else float("inf")
         issues: list[str] = []
+        warnings: list[str] = []
 
         if read_error:
             issues.append(read_error)
@@ -126,17 +129,29 @@ def main() -> int:
                 f"(limit {args.max_growth_ratio:g}x)"
             )
         if age_hours > args.max_age_hours:
-            issues.append(
+            age_message = (
                 f"catalog has not changed for {age_hours:.1f}h "
                 f"(limit {args.max_age_hours:g}h)"
             )
+            # Optional stores (e.g. Coop via PLUS redirects) are best-effort; keep
+            # last-good catalogs without failing the whole pipeline on staleness.
+            if optional:
+                warnings.append(f"{age_message}; optional store, keeping last-good catalog")
+            else:
+                issues.append(age_message)
 
-        result = "OK" if not issues else "; ".join(issues)
+        result = "OK" if not issues and not warnings else "; ".join([*issues, *warnings])
         summary.append(f"| `{country}/{store}` | {count} | {age_hours:.1f}h | {result} |")
         for issue in issues:
             message = f"{country}/{store}: {issue}. Check the store scraper logs and rerun this workflow."
             annotation("error", relative, message)
             failures.append(message)
+        for warning in warnings:
+            annotation(
+                "warning",
+                relative,
+                f"{country}/{store}: {warning}. Check the store scraper logs when convenient.",
+            )
 
     summary_path = os.getenv("GITHUB_STEP_SUMMARY")
     if summary_path:
