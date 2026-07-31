@@ -1881,15 +1881,6 @@
     "c": "Other"
   },
   {
-    "n": "Hake & Cheddar Fishcake",
-    "p": "2.29",
-    "o": "",
-    "s": "0.29 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-hake-cheddar-fishcake/000000000383169009",
-    "c": "Other"
-  },
-  {
     "n": "British Mature Cheddar Cheese 10 Slices",
     "p": "1.99",
     "o": "",
@@ -1950,6 +1941,15 @@
     "s": "0.4 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/emporium-british-mature-30-lighter-cheddar-cheese/000000000549996002",
+    "c": "Other"
+  },
+  {
+    "n": "Hake & Cheddar Fishcake",
+    "p": "2.29",
+    "o": "",
+    "s": "0.29 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/specially-selected-hake-cheddar-fishcake/000000000383169009",
     "c": "Other"
   },
   {
@@ -6237,6 +6237,15 @@
     "c": "Other"
   },
   {
+    "n": "Vegetarian Ham Slices",
+    "p": "1.45",
+    "o": "",
+    "s": "0.1 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/quorn-vegetarian-ham-slices/000000000493578001",
+    "c": "Other"
+  },
+  {
     "n": "Wafer Thin British Cooked Ham 40 Slices",
     "p": "1.89",
     "o": "",
@@ -6297,15 +6306,6 @@
     "s": "0.12 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ashfields-british-wafer-thin-cooked-ham-9-slices/000000000405571001",
-    "c": "Other"
-  },
-  {
-    "n": "Applewood Smoked Wiltshire Cured Ham 6 Slices",
-    "p": "2.19",
-    "o": "",
-    "s": "120 g",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-applewood-smoked-wiltshire-cured-ham-6-slices/000000000615748001",
     "c": "Other"
   },
   {
@@ -10683,159 +10683,6 @@
     "c": "Snacks"
   },
   {
-    "n": "Dark Hazelnut Chocolate",
-    "p": "2.49",
-    "o": "",
-    "s": "0.13 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/moser-roth-dark-hazelnut-chocolate/000000000297252010",
-    "c": "Snacks"
-  },
-  {
-    "n": "Dark Hazelnut Chocolate",
-    "p": "2.25",
-    "o": "",
-    "s": "0.2 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/choceur-dark-hazelnut-chocolate/000000000297424001",
-    "c": "Snacks"
-  },
-  {
-    "n": "Fruit & Nut Chocolate",
-    "p": "2.25",
-    "o": "",
-    "s": "0.2 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/choceur-fruit-nut-chocolate/000000000297424002",
-    "c": "Fruits & Vegetables"
-  },
-  {
-    "n": "Cookies & Cream Chocolate",
-    "p": "2.25",
-    "o": "",
-    "s": "0.2 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/choceur-cookies-cream-chocolate/000000000297445007",
-    "c": "Snacks"
-  },
-  {
-    "n": "Fruit & Nut Chocolate",
-    "p": "1.95",
-    "o": "",
-    "s": "0.2 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/dairyfine-fruit-nut-chocolate/000000000307933002",
-    "c": "Fruits & Vegetables"
-  },
-  {
-    "n": "White Chocolate 100g",
-    "p": "0.59",
-    "o": "",
-    "s": "0.1 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/everyday-essentials-white-chocolate-100g/000000000399529001",
-    "c": "Snacks"
-  },
-  {
-    "n": "Mint Crème Chocolate",
-    "p": "1.45",
-    "o": "",
-    "s": "0.15 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/dairyfine-mint-creme-chocolate/000000000400102001",
-    "c": "Snacks"
-  },
-  {
-    "n": "Turkish Delight Chocolate",
-    "p": "1.45",
-    "o": "",
-    "s": "0.15 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/dairyfine-turkish-delight-chocolate/000000000400102002",
-    "c": "Snacks"
-  },
-  {
-    "n": "Dark Hazelnut Chocolate",
-    "p": "1.19",
-    "o": "",
-    "s": "0.1 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/choceur-dark-hazelnut-chocolate/000000000466400001",
-    "c": "Snacks"
-  },
-  {
-    "n": "Dark Chocolate 100g",
-    "p": "0.59",
-    "o": "",
-    "s": "0.1 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/everyday-essentials-dark-chocolate-100g/000000000399529002",
-    "c": "Snacks"
-  },
-  {
-    "n": "Lion Milk Chocolate",
-    "p": "1.19",
-    "o": "",
-    "s": "0.12 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/nestle-lion-milk-chocolate/000000000730428002",
-    "c": "Snacks"
-  },
-  {
-    "n": "Giant Milk Chocolate Buttons",
-    "p": "0.99",
-    "o": "",
-    "s": "0.12 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/dairyfine-giant-milk-chocolate-buttons/000000000297180002",
-    "c": "Snacks"
-  },
-  {
-    "n": "Giant Caramel Chocolate Buttons",
-    "p": "0.99",
-    "o": "",
-    "s": "0.12 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/dairyfine-giant-caramel-chocolate-buttons/000000000297180003",
-    "c": "Snacks"
-  },
-  {
-    "n": "Dark 70% Cocoa Chocolate",
-    "p": "2.49",
-    "o": "",
-    "s": "0.13 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/moser-roth-dark-70-cocoa-chocolate/000000000297252019",
-    "c": "Snacks"
-  },
-  {
-    "n": "Dark 85% Cocoa Chocolate",
-    "p": "2.49",
-    "o": "",
-    "s": "0.13 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/moser-roth-dark-85-cocoa-chocolate/000000000297252032",
-    "c": "Snacks"
-  },
-  {
-    "n": "Milk Chocolate Bubbly Bar",
-    "p": "0.99",
-    "o": "",
-    "s": "0.1 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/dairyfine-milk-chocolate-bubbly-bar/000000000405385001",
-    "c": "Snacks"
-  },
-  {
-    "n": "Mint Chocolate Bubbly Bar",
-    "p": "0.99",
-    "o": "",
-    "s": "0.1 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/dairyfine-mint-chocolate-bubbly-bar/000000000405385003",
-    "c": "Snacks"
-  },
-  {
     "n": "Digestive Biscuits",
     "p": "0.59",
     "o": "",
@@ -11059,6 +10906,15 @@
     "l": "",
     "i": "https://www.aldi.co.uk/product/gianni-s-choco-cookie-ice-cream-cookies/000000000367195003",
     "c": "Other"
+  },
+  {
+    "n": "Cookies & Cream Chocolate",
+    "p": "2.25",
+    "o": "",
+    "s": "0.2 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/choceur-cookies-cream-chocolate/000000000297445007",
+    "c": "Snacks"
   },
   {
     "n": "Giant Buttons Cookies",
@@ -11751,6 +11607,15 @@
     "s": "0.17 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/crestwood-halloumi-style-fries-10-pack/000000000560309001",
+    "c": "Other"
+  },
+  {
+    "n": "Southern Fried Chicken Steaks in Breadcrumbs 4 Pack",
+    "p": "1.79",
+    "o": "",
+    "s": "0.38 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/roosters-southern-fried-chicken-steaks-in-breadcrumbs-4-pack/000000000492319002",
     "c": "Other"
   },
   {
@@ -12516,51 +12381,6 @@
     "s": "0.08 l",
     "l": "",
     "i": "https://www.aldi.co.uk/product/colgate-triple-action-toothpaste/000000000489860001",
-    "c": "Other"
-  },
-  {
-    "n": "Ladies' Anti-Perspirant Deodorant",
-    "p": "1.09",
-    "o": "",
-    "s": "0.25 l",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/lacura-ladies-anti-perspirant-deodorant/000000000343210003",
-    "c": "Personal Care"
-  },
-  {
-    "n": "Men's Anti-Perspirant Deodorant",
-    "p": "1.09",
-    "o": "",
-    "s": "0.25 l",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/lacura-for-men-men-s-anti-perspirant-deodorant/000000000348487002",
-    "c": "Personal Care"
-  },
-  {
-    "n": "Ladies' Roll On Anti-Perspirant Deodorant",
-    "p": "1.09",
-    "o": "",
-    "s": "0.05 l",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/lacura-ladies-roll-on-anti-perspirant-deodorant/000000000348406001",
-    "c": "Personal Care"
-  },
-  {
-    "n": "Men's Roll On Anti-Perspirant Deodorant",
-    "p": "1.09",
-    "o": "",
-    "s": "0.05 l",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/lacura-for-men-men-s-roll-on-anti-perspirant-deodorant/000000000348407001",
-    "c": "Personal Care"
-  },
-  {
-    "n": "Men's Body Spray",
-    "p": "0.75",
-    "o": "",
-    "s": "0.15 l",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/lacura-for-men-men-s-body-spray/000000000343959004",
     "c": "Other"
   },
   {
