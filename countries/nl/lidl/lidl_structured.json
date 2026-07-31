@@ -21,6 +21,17 @@
     "bn": "parkside"
   },
   {
+    "n": "PARKSIDE® Kruislijnlaser 4 V",
+    "p": "25.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp1acea0de39a84f68b27b52b548c624e3.jpg",
+    "c": "Other",
+    "cn": "parkside kruislijnlaser",
+    "ik": "tok:parkside|kruislijnlaser|na",
+    "bn": "parkside"
+  },
+  {
     "n": "209",
     "p": "",
     "o": "GARDENA Accu-bladblazer PowerJetCollect 18V P4A Ready-To-Use Set",
@@ -401,6 +412,38 @@
     "cn": "ultimate autoreparatiemat beschermmat speed",
     "ik": "tok:ultimate|autoreparatiemat-beschermmat-speed|na",
     "bn": "ultimate"
+  },
+  {
+    "n": "Eufab Fietsendrager Amber Iv 269",
+    "p": "",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp4270f8af6f5e4dd9974fb008f9467835.jpeg",
+    "c": "Other",
+    "cn": "eufab 269 amber fietsendrager iv",
+    "ik": "tok:eufab|269-amber-fietsendrager-iv|na",
+    "bn": "eufab"
+  },
+  {
+    "n": "Eufab Fietsendrager Amber Iii 255",
+    "p": "",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/b02af9afa9211daea0ca2a9e16755abe.jpeg",
+    "c": "Other",
+    "cn": "eufab 255 amber fietsendrager iii",
+    "ik": "tok:eufab|255-amber-fietsendrager-iii|na",
+    "bn": "eufab"
+  },
+  {
+    "n": "255",
+    "p": "",
+    "o": "EUFAB Fietsendrager POKER-F",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpbce829fe3d5d412aabe0e017047c6cdd.jpg",
+    "c": "Other",
+    "cn": "255",
+    "ik": "tok:unknown|255|na"
   },
   {
     "n": "PARKSIDE® Slagmoerset, Slagmoersleuteladapter Of Kogelgewrichtset (Slagmoersleuteladapter)",
@@ -810,6 +853,17 @@
     "bn": "livarno"
   },
   {
+    "n": "LIVARNO® Opbergbank",
+    "p": "19.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpd754d1e05a3e4f1fa4777852a4852aae.jpg",
+    "c": "Personal Care",
+    "cn": "livarno opbergbank",
+    "ik": "tok:livarno|opbergbank|na",
+    "bn": "livarno"
+  },
+  {
     "n": "Inter Link Bed Marinella, Lena Of Ulli",
     "p": "255.99",
     "o": "",
@@ -896,17 +950,6 @@
     "cn": "badabulle cm pass safe traphekje verlenging wit",
     "ik": "tok:badabulle|cm-pass-safe-traphekje-verlenging-wit|na",
     "bn": "badabulle"
-  },
-  {
-    "n": "LIVARNO® Opbergbank",
-    "p": "19.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpd754d1e05a3e4f1fa4777852a4852aae.jpg",
-    "c": "Personal Care",
-    "cn": "livarno opbergbank",
-    "ik": "tok:livarno|opbergbank|na",
-    "bn": "livarno"
   },
   {
     "n": "Roba Kinderstoel",
@@ -1126,6 +1169,17 @@
     "cn": "livarno 140 200 cm dekbedovertrek kinder",
     "ik": "tok:livarno|140-200-cm-dekbedovertrek-kinder|na",
     "bn": "livarno"
+  },
+  {
+    "n": "SILVERCREST® Lademat",
+    "p": "5.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp6d4006cb36974f528996ae62faa5b7ad.jpg",
+    "c": "Personal Care",
+    "cn": "silvercrest lademat",
+    "ik": "tok:silvercrest|lademat|na",
+    "bn": "silvercrest"
   },
   {
     "n": "Hn8 Schlafsysteme Kinder Matras Mina Classic",
@@ -1524,15 +1578,26 @@
     "bn": "commode"
   },
   {
-    "n": "SILVERCREST® Lademat",
-    "p": "5.99",
+    "n": "Lego 2 Opbergboxen (Geel/feloranje)",
+    "p": "15.99",
     "o": "",
     "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp6d4006cb36974f528996ae62faa5b7ad.jpg",
+    "l": "https://www.lidl.nl/assets/gcp4c4494d58b6b4bd5ae2611f207b3113b.jpeg",
     "c": "Personal Care",
-    "cn": "silvercrest lademat",
-    "ik": "tok:silvercrest|lademat|na",
-    "bn": "silvercrest"
+    "cn": "lego feloranje geel opbergboxen",
+    "ik": "tok:lego|feloranje-geel-opbergboxen|na",
+    "bn": "lego"
+  },
+  {
+    "n": "Safety 1st Bedhekje",
+    "p": "25.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpf410f54c9d384b29887e8b3a32dd3bd5.jpg",
+    "c": "Personal Care",
+    "cn": "safety bedhekje",
+    "ik": "tok:safety|bedhekje|na",
+    "bn": "safety"
   },
   {
     "n": "Kayoom Kinder Vloerkleed",
@@ -1987,17 +2052,6 @@
     "bn": "kinderzitgroep"
   },
   {
-    "n": "LIVARNO® Ergonomische Bureaustoel",
-    "p": "69.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpdc5ba3fe6376475ebcbb59a58b82be2b.jpg",
-    "c": "Personal Care",
-    "cn": "livarno bureaustoel ergonomische",
-    "ik": "tok:livarno|bureaustoel-ergonomische|na",
-    "bn": "livarno"
-  },
-  {
     "n": "Livarno Home Bedframe",
     "p": "55.99",
     "o": "",
@@ -2182,6 +2236,17 @@
     "cn": "badabulle 54 metaal protect safe veiligheidshekje xl",
     "ik": "tok:badabulle|54-metaal-protect-safe-veiligheidshekje-xl|na",
     "bn": "badabulle"
+  },
+  {
+    "n": "Roba Kinderbed Tipi Montessori",
+    "p": "70.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp4812747750bb40de9d8c80a5e27c38ed.jpg",
+    "c": "Personal Care",
+    "cn": "kinderbed montessori roba tipi",
+    "ik": "tok:kinderbed|montessori-roba-tipi|na",
+    "bn": "kinderbed"
   },
   {
     "n": "Roba Speelkast Peppa Pig",
@@ -2840,28 +2905,6 @@
     "bn": "office"
   },
   {
-    "n": "Lego 2 Opbergboxen (Geel/feloranje)",
-    "p": "15.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp4c4494d58b6b4bd5ae2611f207b3113b.jpeg",
-    "c": "Personal Care",
-    "cn": "lego feloranje geel opbergboxen",
-    "ik": "tok:lego|feloranje-geel-opbergboxen|na",
-    "bn": "lego"
-  },
-  {
-    "n": "Safety 1st Bedhekje",
-    "p": "25.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpf410f54c9d384b29887e8b3a32dd3bd5.jpg",
-    "c": "Personal Care",
-    "cn": "safety bedhekje",
-    "ik": "tok:safety|bedhekje|na",
-    "bn": "safety"
-  },
-  {
     "n": "Baby Joggingpak Disney",
     "p": "11.99",
     "o": "",
@@ -3396,6 +3439,17 @@
     "bn": "baby"
   },
   {
+    "n": "lupilu® Kinder Skipak",
+    "p": "19.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp4b9098c9e2fd40f18114987a448ef03e.jpeg",
+    "c": "Personal Care",
+    "cn": "kinder lupilu skipak",
+    "ik": "tok:kinder|lupilu-skipak|na",
+    "bn": "kinder"
+  },
+  {
     "n": "lupilu® Baby Jongens Shorts",
     "p": "5.99",
     "o": "",
@@ -3658,6 +3712,17 @@
     "bn": "gebreid"
   },
   {
+    "n": "lupilu® Velours Baby Pyjama",
+    "p": "8.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp1dfa8c3e78a8467981f73a8302317dd1.jpg",
+    "c": "Personal Care",
+    "cn": "velours baby lupilu pyjama",
+    "ik": "tok:velours|baby-lupilu-pyjama|na",
+    "bn": "velours"
+  },
+  {
     "n": "lupilu® Baby Jongens Joggingbroek 2",
     "p": "9.99",
     "o": "",
@@ -3897,15 +3962,15 @@
     "bn": "stoelverhoger"
   },
   {
-    "n": "lupilu® Kinder Regenbroek",
-    "p": "14.99",
+    "n": "lupilu® Meisjes Snowboots",
+    "p": "12.99",
     "o": "",
     "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpc26243467f84405e893a89625027afdd.jpg",
+    "l": "https://www.lidl.nl/assets/gcp024e53508222459a8fa6760126135091.jpeg",
     "c": "Personal Care",
-    "cn": "kinder lupilu regenbroek",
-    "ik": "tok:kinder|lupilu-regenbroek|na",
-    "bn": "kinder"
+    "cn": "meisjes lupilu snowboots",
+    "ik": "tok:meisjes|lupilu-snowboots|na",
+    "bn": "meisjes"
   },
   {
     "n": "169",
@@ -4158,17 +4223,6 @@
     "cn": "kinderwagen bebeconfort foggy",
     "ik": "tok:kinderwagen|bebeconfort-foggy|na",
     "bn": "kinderwagen"
-  },
-  {
-    "n": "lupilu® Kinder Skipak",
-    "p": "16.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp9077cda0ae4a44d0a980b9643d5cc0b2.jpeg",
-    "c": "Personal Care",
-    "cn": "kinder lupilu skipak",
-    "ik": "tok:kinder|lupilu-skipak|na",
-    "bn": "kinder"
   },
   {
     "n": "lupilu® 5 Rompertjes",
@@ -4663,17 +4717,6 @@
     "bn": "cbx"
   },
   {
-    "n": "Badabulle Opvouwbaar Babybad",
-    "p": "38.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpa63e7224ba7147c8abcab41c22b7c1fd.jpg",
-    "c": "Personal Care",
-    "cn": "badabulle babybad opvouwbaar",
-    "ik": "tok:badabulle|babybad-opvouwbaar|na",
-    "bn": "badabulle"
-  },
-  {
     "n": "lupilu® 5 Babyrompers",
     "p": "16.99",
     "o": "",
@@ -4746,6 +4789,17 @@
     "c": "Personal Care",
     "cn": "189",
     "ik": "tok:unknown|189|na"
+  },
+  {
+    "n": "Badabulle Opvouwbaar Babybad",
+    "p": "38.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpa63e7224ba7147c8abcab41c22b7c1fd.jpg",
+    "c": "Personal Care",
+    "cn": "badabulle babybad opvouwbaar",
+    "ik": "tok:badabulle|babybad-opvouwbaar|na",
+    "bn": "badabulle"
   },
   {
     "n": "Roba Babywiegje (Adam & uil) 179",
@@ -5091,6 +5145,39 @@
     "ik": "tok:kinder|koffer-minecraft|22000",
     "bn": "kinder",
     "wg": 22000
+  },
+  {
+    "n": "LUPILU® Zwangerschapskussen 140 X 20 Cm",
+    "p": "14.99",
+    "o": "",
+    "s": "140 X 20 CM 14.99",
+    "l": "https://www.lidl.nl/assets/gcp057d717c04144419aa92684568e7d953.jpg",
+    "c": "Personal Care",
+    "cn": "lupilu 140 20 cm zwangerschapskussen",
+    "ik": "tok:lupilu|140-20-cm-zwangerschapskussen|na",
+    "bn": "lupilu"
+  },
+  {
+    "n": "LUPILU® Kinder Rugzak Paw Patrol",
+    "p": "9.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpe135ee60188f4fbd9756d6ac6190708b.jpg",
+    "c": "Personal Care",
+    "cn": "lupilu kinder patrol paw rugzak",
+    "ik": "tok:lupilu|kinder-patrol-paw-rugzak|na",
+    "bn": "lupilu"
+  },
+  {
+    "n": "LUPILU® Dansmat Paw Patrol, 130 X 48 Cm",
+    "p": "19.99",
+    "o": "",
+    "s": "130 X 48 CM 19.99",
+    "l": "https://www.lidl.nl/assets/gcp3fbfbf097b60472fbc4b0440fcb5a259.jpg",
+    "c": "Personal Care",
+    "cn": "lupilu 130 48 cm dansmat patrol paw",
+    "ik": "tok:lupilu|130-48-cm-dansmat-patrol-paw|na",
+    "bn": "lupilu"
   },
   {
     "n": "LIVARNO® Badmat 50 X 80 Cm",
@@ -5822,6 +5909,39 @@
     "cn": "handdoek 100 50 cm oliver",
     "ik": "tok:handdoek|100-50-cm-oliver|na",
     "bn": "handdoek"
+  },
+  {
+    "n": "LIVARNO® Xxl Regendoucheset",
+    "p": "44.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpad709c9cca7041ad8aed0003289f62e2.jpg",
+    "c": "Other",
+    "cn": "livarno regendoucheset xxl",
+    "ik": "tok:livarno|regendoucheset-xxl|na",
+    "bn": "livarno"
+  },
+  {
+    "n": "Eisl Thermosstaat Douchekraan Claudio",
+    "p": "49.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/93e5597dddb5cc22a9f9fd79c5fc6f12.jpeg",
+    "c": "Other",
+    "cn": "eisl claudio douchekraan thermosstaat",
+    "ik": "tok:eisl|claudio-douchekraan-thermosstaat|na",
+    "bn": "eisl"
+  },
+  {
+    "n": "LIVARNO® Hoge Badkamerkast Oslo, Antraciet",
+    "p": "54.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp5669465e7ae0494d9035baf0798aed3d.jpg",
+    "c": "Other",
+    "cn": "livarno antraciet badkamerkast hoge oslo",
+    "ik": "tok:livarno|antraciet-badkamerkast-hoge-oslo|na",
+    "bn": "livarno"
   },
   {
     "n": "LIVARNO® Badkamer Spiegelkast Basel",
@@ -6564,39 +6684,6 @@
     "bn": "wenko"
   },
   {
-    "n": "LIVARNO® Xxl Regendoucheset",
-    "p": "44.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpad709c9cca7041ad8aed0003289f62e2.jpg",
-    "c": "Other",
-    "cn": "livarno regendoucheset xxl",
-    "ik": "tok:livarno|regendoucheset-xxl|na",
-    "bn": "livarno"
-  },
-  {
-    "n": "Eisl Thermosstaat Douchekraan Claudio",
-    "p": "49.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/93e5597dddb5cc22a9f9fd79c5fc6f12.jpeg",
-    "c": "Other",
-    "cn": "eisl claudio douchekraan thermosstaat",
-    "ik": "tok:eisl|claudio-douchekraan-thermosstaat|na",
-    "bn": "eisl"
-  },
-  {
-    "n": "LIVARNO® Hoge Badkamerkast Oslo, Antraciet",
-    "p": "54.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp5669465e7ae0494d9035baf0798aed3d.jpg",
-    "c": "Other",
-    "cn": "livarno antraciet badkamerkast hoge oslo",
-    "ik": "tok:livarno|antraciet-badkamerkast-hoge-oslo|na",
-    "bn": "livarno"
-  },
-  {
     "n": "Schütte Mengkraan Met Uittrekbare Slang",
     "p": "60.99",
     "o": "",
@@ -6970,17 +7057,6 @@
     "c": "Other",
     "cn": "wenko regendouchekop watersaving",
     "ik": "tok:wenko|regendouchekop-watersaving|na",
-    "bn": "wenko"
-  },
-  {
-    "n": "Wenko Douchegordijn 180 X 200 Cm (effen wit)",
-    "p": "20.99",
-    "o": "",
-    "s": "180 X 200 CM (EFFEN WIT) 20.99",
-    "l": "https://www.lidl.nl/assets/b429ad2eaae451bb9cece924c7ea9b3e.jpeg",
-    "c": "Other",
-    "cn": "wenko 180 200 cm douchegordijn effen wit",
-    "ik": "tok:wenko|180-200-cm-douchegordijn-effen-wit|na",
     "bn": "wenko"
   },
   {
@@ -7714,6 +7790,50 @@
     "bn": "schildmeyer"
   },
   {
+    "n": "Handdoek 70 X 140 Cm - 450 Gsm",
+    "p": "7.99",
+    "o": "Handdoek 70 x 140 cm - 450 gsm voor 7.99 EUR Handdoek 70 x 140 cm - 450 gsm",
+    "s": "70 X 140 CM - 450 GSM VOOR 7.99 EUR LIVARNO® HANDDOEK 70 X 140 CM - 450 GSM 7.99",
+    "l": "https://www.lidl.nl/assets/gcp8bc04132a83a404bae2663b76a492f5e.jpg",
+    "c": "Other",
+    "cn": "handdoek 140 450 70 cm gsm",
+    "ik": "tok:handdoek|140-450-70-cm-gsm|na",
+    "bn": "handdoek"
+  },
+  {
+    "n": "Xxl Regendoucheset",
+    "p": "44.99",
+    "o": "4.1 van 5 sterren (68 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpad709c9cca7041ad8aed0003289f62e2.jpg",
+    "c": "Other",
+    "cn": "xxl regendoucheset",
+    "ik": "tok:xxl|regendoucheset|na",
+    "bn": "xxl"
+  },
+  {
+    "n": "Thermosstaat Douchekraan Claudio",
+    "p": "49.99",
+    "o": "4.5 van 5 sterren (36 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/93e5597dddb5cc22a9f9fd79c5fc6f12.jpeg",
+    "c": "Other",
+    "cn": "thermosstaat claudio douchekraan",
+    "ik": "tok:thermosstaat|claudio-douchekraan|na",
+    "bn": "thermosstaat"
+  },
+  {
+    "n": "Hoge Badkamerkast Oslo, Antraciet",
+    "p": "54.99",
+    "o": "4.1 van 5 sterren (67 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp5669465e7ae0494d9035baf0798aed3d.jpg",
+    "c": "Other",
+    "cn": "hoge antraciet badkamerkast oslo",
+    "ik": "tok:hoge|antraciet-badkamerkast-oslo|na",
+    "bn": "hoge"
+  },
+  {
     "n": "Sesam Volkorenbrood",
     "p": "1.49",
     "o": "",
@@ -7909,14 +8029,14 @@
     "bn": "grillmeister"
   },
   {
-    "n": "Grillmeister Pizza Accessoires",
-    "p": "11.99",
+    "n": "Grillmeister Kamado Bbq Mini",
+    "p": "99.99",
     "o": "",
     "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpefccbad051364721be6f70f6e9a3c7bb.jpg",
+    "l": "https://www.lidl.nl/assets/gcp0d14a9e0b71d4a749f33c01edb8d503d.jpg",
     "c": "Other",
-    "cn": "grillmeister accessoires pizza",
-    "ik": "tok:grillmeister|accessoires-pizza|na",
+    "cn": "grillmeister bbq kamado mini",
+    "ik": "tok:grillmeister|bbq-kamado-mini|na",
     "bn": "grillmeister"
   },
   {
@@ -7931,17 +8051,6 @@
     "bn": "grillmeister"
   },
   {
-    "n": "SILVERCREST® Kitchen Tools Elektrische Bbq",
-    "p": "39.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp1f17d2d0917f4ff1bcb8db2806c71869.jpg",
-    "c": "Other",
-    "cn": "silvercrest bbq elektrische kitchen tools",
-    "ik": "tok:silvercrest|bbq-elektrische-kitchen-tools|na",
-    "bn": "silvercrest"
-  },
-  {
     "n": "Grillmeister Gas Bbq 4 Branders En 1 Keramische Brander 249",
     "p": "",
     "o": "",
@@ -7951,6 +8060,28 @@
     "cn": "grillmeister 249 bbq brander branders gas keramische",
     "ik": "tok:grillmeister|249-bbq-brander-branders-gas-keramische|na",
     "bn": "grillmeister"
+  },
+  {
+    "n": "Grillmeister Pizza Accessoires",
+    "p": "11.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpefccbad051364721be6f70f6e9a3c7bb.jpg",
+    "c": "Other",
+    "cn": "grillmeister accessoires pizza",
+    "ik": "tok:grillmeister|accessoires-pizza|na",
+    "bn": "grillmeister"
+  },
+  {
+    "n": "SILVERCREST® Kitchen Tools Elektrische Bbq",
+    "p": "39.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp1f17d2d0917f4ff1bcb8db2806c71869.jpg",
+    "c": "Other",
+    "cn": "silvercrest bbq elektrische kitchen tools",
+    "ik": "tok:silvercrest|bbq-elektrische-kitchen-tools|na",
+    "bn": "silvercrest"
   },
   {
     "n": "Grillmeister Pizzasteen (Vierkant)",
@@ -8038,6 +8169,17 @@
     "c": "Other",
     "cn": "silvercrest contactgrill digitale",
     "ik": "tok:silvercrest|contactgrill-digitale|na",
+    "bn": "silvercrest"
+  },
+  {
+    "n": "SILVERCREST® Rvs contactgrill, Paninigrill En tafelgrill, 2000 W",
+    "p": "39.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpaf039f29e3344a9682050f91db19346d.jpg",
+    "c": "Other",
+    "cn": "silvercrest 2000 contactgrill paninigrill rvs tafelgrill",
+    "ik": "tok:silvercrest|2000-contactgrill-paninigrill-rvs-tafelgrill|na",
     "bn": "silvercrest"
   },
   {
@@ -8656,6 +8798,17 @@
     "cn": "multifunctionele ora rita stijltang",
     "ik": "tok:multifunctionele|ora-rita-stijltang|na",
     "bn": "multifunctionele"
+  },
+  {
+    "n": "Cien Beauty Elektrische Eeltverwijderaar",
+    "p": "11.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpb592143530bb481c9e17f32bfaf48e00.jpg",
+    "c": "Personal Care",
+    "cn": "cien beauty eeltverwijderaar elektrische",
+    "ik": "tok:cien|beauty-eeltverwijderaar-elektrische|na",
+    "bn": "cien"
   },
   {
     "n": "zoofari® Hondentuigje",
@@ -9686,40 +9839,6 @@
     "bn": "dobar"
   },
   {
-    "n": "PARKSIDE® Kweekbak Op Poten",
-    "p": "24.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpe4658e6898be410682b289b8785bec96.jpg",
-    "c": "Other",
-    "cn": "parkside kweekbak op poten",
-    "ik": "tok:parkside|kweekbak-op-poten|na",
-    "bn": "parkside"
-  },
-  {
-    "n": "Prosperplast Bloempot Urbi Case Tower",
-    "p": "23.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp76d25a15e98b413594a7b167ef8f92a1.jpeg",
-    "c": "Other",
-    "cn": "prosperplast bloempot case tower urbi",
-    "ik": "tok:prosperplast|bloempot-case-tower-urbi|na",
-    "bn": "prosperplast"
-  },
-  {
-    "n": "PARKSIDE® Bloempot 14,",
-    "p": "5.99",
-    "o": "",
-    "s": "5 l",
-    "l": "https://www.lidl.nl/assets/gcp165e79890dd8416397476ecc76bee01a.jpg",
-    "c": "Other",
-    "cn": "parkside 14 bloempot",
-    "ik": "tok:parkside|14-bloempot|5000",
-    "bn": "parkside",
-    "wg": 5000
-  },
-  {
     "n": "4RAIN Regenton Madera 159",
     "p": "",
     "o": "",
@@ -10021,6 +10140,40 @@
     "bn": "parkside"
   },
   {
+    "n": "PARKSIDE® Kweekbak Op Poten",
+    "p": "24.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpe4658e6898be410682b289b8785bec96.jpg",
+    "c": "Other",
+    "cn": "parkside kweekbak op poten",
+    "ik": "tok:parkside|kweekbak-op-poten|na",
+    "bn": "parkside"
+  },
+  {
+    "n": "Prosperplast Bloempot Urbi Case Tower",
+    "p": "23.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp76d25a15e98b413594a7b167ef8f92a1.jpeg",
+    "c": "Other",
+    "cn": "prosperplast bloempot case tower urbi",
+    "ik": "tok:prosperplast|bloempot-case-tower-urbi|na",
+    "bn": "prosperplast"
+  },
+  {
+    "n": "PARKSIDE® Bloempot 14,",
+    "p": "5.99",
+    "o": "",
+    "s": "5 l",
+    "l": "https://www.lidl.nl/assets/gcp165e79890dd8416397476ecc76bee01a.jpg",
+    "c": "Other",
+    "cn": "parkside 14 bloempot",
+    "ik": "tok:parkside|14-bloempot|5000",
+    "bn": "parkside",
+    "wg": 5000
+  },
+  {
     "n": "Potroos Xl",
     "p": "4.99",
     "o": "",
@@ -10054,6 +10207,61 @@
     "bn": "rozen"
   },
   {
+    "n": "Hibiscus",
+    "p": "5.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://imgproxy-retcat.assets.schwarz/ohfiJvahZgatYtSNkEW-vv3R93q-13PIEMFn7oF-YZQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzQ5MzVGMUQ0REY3M0VFRkZDMTM4QkJFNE/E3NjlEODgyRjBBNjkxRTdEODA2NEI0MzU2M0RERUY5MTZDQTg3NTcucG5n.png",
+    "c": "Other",
+    "cn": "hibiscus",
+    "ik": "tok:hibiscus|unknown|na",
+    "bn": "hibiscus"
+  },
+  {
+    "n": "Chrysant In Tray",
+    "p": "2.69",
+    "o": "",
+    "s": "stuk",
+    "l": "https://imgproxy-retcat.assets.schwarz/bt0q0kxqDoKB2f9iI1uzaC0fLcY1NDg3-mNwehmrWMk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0RFRDg0NjIzOUZGNzFBOUJBMUI0Rjk5Nk/JCRTdFNTI1QkU3RDk1RENFNTExQzBEQ0M3RTIyREU0QkUyMERERjEucG5n.png",
+    "c": "Other",
+    "cn": "chrysant in tray",
+    "ik": "tok:chrysant|in-tray|na",
+    "bn": "chrysant"
+  },
+  {
+    "n": "Vetplanten/cactusmix",
+    "p": "1.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://imgproxy-retcat.assets.schwarz/M__PGJBuUROv1nsdZOpINoI5UJ7faOS9w0pBFaVuwOA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS83QzA4NkIzNTRBQjVDNjQ2NEY2RTNCQjJ/DMzIxODgxRjg4RUY5RUMyRjBCQTFDRUFBNEZERDg1Q0UxOTAxOUM2LnBuZw.png",
+    "c": "Other",
+    "cn": "vetplantencactusmix cactusmix vetplanten",
+    "ik": "tok:vetplantencactusmix|cactusmix-vetplanten|na",
+    "bn": "vetplantencactusmix"
+  },
+  {
+    "n": "Campanula Of Genitiaan",
+    "p": "2.79",
+    "o": "",
+    "s": "stuk",
+    "l": "https://imgproxy-retcat.assets.schwarz/Kk4b9OOph0XJttt084lzXQO12T12ARBw49T4OfFrwsE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0M2OEEzRUMyNUU0REVFQzM4NDJFNjNDME/RFNjZEQTE1NTA0NDhFQkJCMTU5RkYwQUZDQkQyQTgwMURGNUMyMzgucG5n.png",
+    "c": "Other",
+    "cn": "campanula genitiaan of",
+    "ik": "tok:campanula|genitiaan-of|na",
+    "bn": "campanula"
+  },
+  {
+    "n": "LIVARNO® 9 Houten Terrastegels",
+    "p": "16.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp34db425238204a04b651baf2a2a791ab.jpg",
+    "c": "Other",
+    "cn": "livarno houten terrastegels",
+    "ik": "tok:livarno|houten-terrastegels|na",
+    "bn": "livarno"
+  },
+  {
     "n": "PARKSIDE® Huishoudtrap",
     "p": "19.99",
     "o": "",
@@ -10077,17 +10285,6 @@
     "wg": 5000
   },
   {
-    "n": "LIVARNO® 9 Kunststof Terrastegels",
-    "p": "12.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpe07cbb21630044959275b00d0db0b71f.jpg",
-    "c": "Other",
-    "cn": "livarno kunststof terrastegels",
-    "ik": "tok:livarno|kunststof-terrastegels|na",
-    "bn": "livarno"
-  },
-  {
     "n": "Baufix Houtverzorgingsolie 2,5",
     "p": "23.99",
     "o": "",
@@ -10098,6 +10295,17 @@
     "ik": "tok:baufix|houtverzorgingsolie|5000",
     "bn": "baufix",
     "wg": 5000
+  },
+  {
+    "n": "LIVARNO® 9 Kunststof Terrastegels",
+    "p": "12.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpe07cbb21630044959275b00d0db0b71f.jpg",
+    "c": "Other",
+    "cn": "livarno kunststof terrastegels",
+    "ik": "tok:livarno|kunststof-terrastegels|na",
+    "bn": "livarno"
   },
   {
     "n": "Baufix Express Lak 2,5",
@@ -10304,17 +10512,6 @@
     "bn": "parkside"
   },
   {
-    "n": "Qbrick System Gereedschapsbox Pro Organizer Multi",
-    "p": "11.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpa0d6789f1f8b482aafddc4e015bf852d.jpg",
-    "c": "Other",
-    "cn": "qbrick gereedschapsbox multi organizer pro system",
-    "ik": "tok:qbrick|gereedschapsbox-multi-organizer-pro-system|na",
-    "bn": "qbrick"
-  },
-  {
     "n": "PARKSIDE® Verhuisdeken 1 X 10 M",
     "p": "7.99",
     "o": "",
@@ -10335,6 +10532,17 @@
     "cn": "parkside beits kwastenset",
     "ik": "tok:parkside|beits-kwastenset|na",
     "bn": "parkside"
+  },
+  {
+    "n": "Qbrick System Gereedschapsbox Pro Organizer Multi",
+    "p": "11.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpa0d6789f1f8b482aafddc4e015bf852d.jpg",
+    "c": "Other",
+    "cn": "qbrick gereedschapsbox multi organizer pro system",
+    "ik": "tok:qbrick|gereedschapsbox-multi-organizer-pro-system|na",
+    "bn": "qbrick"
   },
   {
     "n": "Ridder Wandbeugel Pro",
@@ -11669,6 +11877,50 @@
     "bn": "crivit"
   },
   {
+    "n": "ESMARA® Dames Clogs",
+    "p": "11.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpa3dc0fda3b7c43f294d385513036981b.jpg",
+    "c": "Other",
+    "cn": "esmara clogs dames",
+    "ik": "tok:esmara|clogs-dames|na",
+    "bn": "esmara"
+  },
+  {
+    "n": "ESMARA® Corrigerende Dames body, Seamless",
+    "p": "6.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp0a1e11dcbcdb4be2934a275b894f24b8.jpg",
+    "c": "Other",
+    "cn": "esmara body corrigerende dames seamless",
+    "ik": "tok:esmara|body-corrigerende-dames-seamless|na",
+    "bn": "esmara"
+  },
+  {
+    "n": "ESMARA® Corrigerende Dames onderbroek, Seamless",
+    "p": "4.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp10722b35a295422fbe302ed5bd76331f.jpg",
+    "c": "Other",
+    "cn": "esmara corrigerende dames onderbroek seamless",
+    "ik": "tok:esmara|corrigerende-dames-onderbroek-seamless|na",
+    "bn": "esmara"
+  },
+  {
+    "n": "ESMARA® Corrigerend Dames bodyshirt, Seamless",
+    "p": "6.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp6ed98d49b495497583765c41df182c91.jpg",
+    "c": "Other",
+    "cn": "esmara bodyshirt corrigerend dames seamless",
+    "ik": "tok:esmara|bodyshirt-corrigerend-dames-seamless|na",
+    "bn": "esmara"
+  },
+  {
     "n": "Crivit Dames Thermo Sportlegging",
     "p": "11.99",
     "o": "",
@@ -12549,17 +12801,6 @@
     "bn": "crivit"
   },
   {
-    "n": "ESMARA® Dames Clogs",
-    "p": "9.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpd8c6134fe5324351856bc4d81062779d.jpg",
-    "c": "Other",
-    "cn": "esmara clogs dames",
-    "ik": "tok:esmara|clogs-dames|na",
-    "bn": "esmara"
-  },
-  {
     "n": "ESMARA® Denim Dames Rok",
     "p": "14.99",
     "o": "",
@@ -12843,17 +13084,6 @@
     "cn": "dames beugels bh esmara zonder",
     "ik": "tok:dames|beugels-bh-esmara-zonder|na",
     "bn": "dames"
-  },
-  {
-    "n": "ESMARA® Mousseline Dames Rok (Beige, S (36/38))",
-    "p": "9.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp951b43dd09974e058412711c7deb2023.jpg",
-    "c": "Other",
-    "cn": "esmara 36 38 beige dames mousseline rok",
-    "ik": "tok:esmara|36-38-beige-dames-mousseline-rok|na",
-    "bn": "esmara"
   },
   {
     "n": "Oversized Hoodie",
@@ -14457,6 +14687,17 @@
     "bn": "under"
   },
   {
+    "n": "esmara® Zwangerschapspyjama",
+    "p": "11.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpe1aeeb1dd9e1429faf2f9f1e02486b06.jpg",
+    "c": "Other",
+    "cn": "zwangerschapspyjama esmara",
+    "ik": "tok:zwangerschapspyjama|esmara|na",
+    "bn": "zwangerschapspyjama"
+  },
+  {
     "n": "Crivit Dames Hardshell Skibroek Touring Met RECCO® Systeem",
     "p": "39.99",
     "o": "",
@@ -14664,6 +14905,17 @@
     "cn": "dames bigshirt",
     "ik": "tok:dames|bigshirt|na",
     "bn": "dames"
+  },
+  {
+    "n": "ESMARA® Linnen Dames Top (zwart, 40)",
+    "p": "7.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpc2fc0a297ae24c40af029886e07a85e6.jpg",
+    "c": "Other",
+    "cn": "esmara 40 dames linnen top zwart",
+    "ik": "tok:esmara|40-dames-linnen-top-zwart|na",
+    "bn": "esmara"
   },
   {
     "n": "esmara® Dames Trui Of Hoodie",
@@ -15777,53 +16029,6 @@
     "bn": "lipton"
   },
   {
-    "n": "Raak Vruchtensiroop",
-    "p": "1.99",
-    "o": "tot -35% Vanprijzen variëren van €2.49 - €3.05. Alleen in de winkel 31/07 - 02/08",
-    "s": "stuk",
-    "l": "https://imgproxy-retcat.assets.schwarz/8VyC1MVlwfakruqwcJxnfJoS-MReh5kd8jr0YDxNLh4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzhGMzIwMzk4RDY5QkI3ODlFNDREMzZEN0/Y1OEU4Rjg1QTVFQzQyMzY0OTA5MTJDMjM3MDY5MkQ4Qjc5RTRGRDEucG5n.png",
-    "c": "Beverages",
-    "cn": "raak vruchtensiroop",
-    "ik": "tok:raak|vruchtensiroop|na",
-    "bn": "raak"
-  },
-  {
-    "n": "Hero Cassis",
-    "p": "1.25",
-    "o": "Alleen in de winkel 31/07 - 02/08",
-    "s": "25 l",
-    "l": "https://imgproxy-retcat.assets.schwarz/UdC8XVjhe08T1eSYj-3HEuW82JWFFT0npHsiqN96qXI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS85Mjc3ODE2NDAwM0UwREYwNEM0QkIyMEF/ENTZBMTU3MEJGMzJBMjE5MTVGMjAzQTA4NEUwMUI2NTE4OTgyRjE5LnBuZw.png",
-    "c": "Beverages",
-    "cn": "hero cassis",
-    "ik": "tok:hero|cassis|25000",
-    "bn": "hero",
-    "wg": 25000
-  },
-  {
-    "n": "Verse Sappen Of Smoothies",
-    "p": "1.49",
-    "o": "tot -44% Vanprijzen variëren van €2.29 - €2.65. Alleen in de winkel 31/07 - 02/08",
-    "s": "500 ml",
-    "l": "https://imgproxy-retcat.assets.schwarz/TtK_wI_GxAu5V5G52XZ3W3bcc6w7V7BNB5zl_ps-TCw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0RDRUJDMjdBRjREQUZFMTRCQjBEOTA2RE/MxMkVERDYxRjg5OUVCNDM0RTk2MEU3NzRCMjI3NUM0RURFOThERUIucG5n.png",
-    "c": "Beverages",
-    "cn": "verse of sappen smoothies",
-    "ik": "tok:verse|of-sappen-smoothies|500",
-    "bn": "verse",
-    "wg": 500
-  },
-  {
-    "n": "Mogu",
-    "p": "0.99",
-    "o": "Alleen in de winkel 29/07 - 02/08",
-    "s": "320 ml",
-    "l": "https://imgproxy-retcat.assets.schwarz/sVubCYRlm1WlD5q4xtG8CSnmHZdyttURKAWa9hcb6jY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0U0MTY4NUU0MkM1NTAxNThBQ0Q5NEVCMz/gxNDVDOEM2NEE5OTA4ODhFNDYzRkMyNkY2NzI4OEI3MzBDRjRGQjMucG5n.png",
-    "c": "Beverages",
-    "cn": "mogu",
-    "ik": "tok:mogu|unknown|320",
-    "bn": "mogu",
-    "wg": 320
-  },
-  {
     "n": "Prodent Tandpasta Cool Mint",
     "p": "1.59",
     "o": "-40% Alleen in de winkel 31/07 - 02/08",
@@ -16140,39 +16345,6 @@
     "c": "Other",
     "cn": "parkside accessoires haakse slijper",
     "ik": "tok:parkside|accessoires-haakse-slijper|na",
-    "bn": "parkside"
-  },
-  {
-    "n": "PARKSIDE® Multifunctionele Schuurmachine 160 W",
-    "p": "17.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpd049740992934a459295c56d3fc217f4.jpg",
-    "c": "Other",
-    "cn": "parkside 160 multifunctionele schuurmachine",
-    "ik": "tok:parkside|160-multifunctionele-schuurmachine|na",
-    "bn": "parkside"
-  },
-  {
-    "n": "PARKSIDE® Geleiderail 750 Mm",
-    "p": "14.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp8b303145733d43c5827d42806d2e6d6b.jpg",
-    "c": "Other",
-    "cn": "parkside 750 geleiderail mm",
-    "ik": "tok:parkside|750-geleiderail-mm|na",
-    "bn": "parkside"
-  },
-  {
-    "n": "PARKSIDE® Laser Afstandsmeter Of Kruislijnlaser",
-    "p": "17.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp5708a7243bae4675a25b54b20d4cb487.jpg",
-    "c": "Other",
-    "cn": "parkside afstandsmeter kruislijnlaser laser of",
-    "ik": "tok:parkside|afstandsmeter-kruislijnlaser-laser-of|na",
     "bn": "parkside"
   },
   {
@@ -17223,6 +17395,39 @@
     "c": "Other",
     "cn": "parkside benzine kettingzaag kw",
     "ik": "tok:parkside|benzine-kettingzaag-kw|na",
+    "bn": "parkside"
+  },
+  {
+    "n": "PARKSIDE® Multifunctionele Schuurmachine 160 W",
+    "p": "17.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpd049740992934a459295c56d3fc217f4.jpg",
+    "c": "Other",
+    "cn": "parkside 160 multifunctionele schuurmachine",
+    "ik": "tok:parkside|160-multifunctionele-schuurmachine|na",
+    "bn": "parkside"
+  },
+  {
+    "n": "PARKSIDE® Geleiderail 750 Mm",
+    "p": "14.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp8b303145733d43c5827d42806d2e6d6b.jpg",
+    "c": "Other",
+    "cn": "parkside 750 geleiderail mm",
+    "ik": "tok:parkside|750-geleiderail-mm|na",
+    "bn": "parkside"
+  },
+  {
+    "n": "PARKSIDE® Laser Afstandsmeter Of Kruislijnlaser",
+    "p": "17.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp5708a7243bae4675a25b54b20d4cb487.jpg",
+    "c": "Other",
+    "cn": "parkside afstandsmeter kruislijnlaser laser of",
+    "ik": "tok:parkside|afstandsmeter-kruislijnlaser-laser-of|na",
     "bn": "parkside"
   },
   {
@@ -18413,6 +18618,37 @@
     "bn": "tronic"
   },
   {
+    "n": "499",
+    "p": "",
+    "o": "VALE GMBH Balkon zonnepanelen 800 W met omvormer - flexibele zonnepanelen",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp6b26027558154a2fa0f9ea78f82e5b7c.jpg",
+    "c": "Other",
+    "cn": "499",
+    "ik": "tok:unknown|499|na"
+  },
+  {
+    "n": "Abus Sleutelkastje",
+    "p": "14.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/dc118bf34049d1aee7f50bc42bd2661c.jpeg",
+    "c": "Other",
+    "cn": "abus sleutelkastje",
+    "ik": "tok:abus|sleutelkastje|na",
+    "bn": "abus"
+  },
+  {
+    "n": "369",
+    "p": "",
+    "o": "SHARP 55 inch 4K UHD QLED smart TV - 55HM5245E",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpf633f89f0601419f857f4f98de9cecc9.jpg",
+    "c": "Other",
+    "cn": "369",
+    "ik": "tok:unknown|369|na"
+  },
+  {
     "n": "TRONIC® 3 Stekkerdozen",
     "p": "12.99",
     "o": "",
@@ -18622,6 +18858,17 @@
     "bn": "cien"
   },
   {
+    "n": "LIVARNO® Ergonomische Bureaustoel",
+    "p": "69.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpdc5ba3fe6376475ebcbb59a58b82be2b.jpg",
+    "c": "Other",
+    "cn": "livarno bureaustoel ergonomische",
+    "ik": "tok:livarno|bureaustoel-ergonomische|na",
+    "bn": "livarno"
+  },
+  {
     "n": "PARKSIDE® Kabelhaspel, 10 M",
     "p": "17.99",
     "o": "",
@@ -18741,17 +18988,6 @@
     "cn": "crivit 1299 elektrische fiets riemaandrijving urban",
     "ik": "tok:crivit|1299-elektrische-fiets-riemaandrijving-urban|na",
     "bn": "crivit"
-  },
-  {
-    "n": "Eufab Fietsendrager Amber Iv 269",
-    "p": "",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp4270f8af6f5e4dd9974fb008f9467835.jpeg",
-    "c": "Other",
-    "cn": "eufab 269 amber fietsendrager iv",
-    "ik": "tok:eufab|269-amber-fietsendrager-iv|na",
-    "bn": "eufab"
   },
   {
     "n": "Crivit Momentsleutel Voor Fietsen",
@@ -19692,17 +19928,6 @@
     "bn": "crivit"
   },
   {
-    "n": "Eufab Fietsendrager Amber Iii 255",
-    "p": "",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/b02af9afa9211daea0ca2a9e16755abe.jpeg",
-    "c": "Other",
-    "cn": "eufab 255 amber fietsendrager iii",
-    "ik": "tok:eufab|255-amber-fietsendrager-iii|na",
-    "bn": "eufab"
-  },
-  {
     "n": "Crivit Fietshelm Met Achterlicht",
     "p": "11.99",
     "o": "",
@@ -19712,16 +19937,6 @@
     "cn": "crivit achterlicht fietshelm",
     "ik": "tok:crivit|achterlicht-fietshelm|na",
     "bn": "crivit"
-  },
-  {
-    "n": "255",
-    "p": "",
-    "o": "EUFAB Fietsendrager POKER-F",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpbce829fe3d5d412aabe0e017047c6cdd.jpg",
-    "c": "Other",
-    "cn": "255",
-    "ik": "tok:unknown|255|na"
   },
   {
     "n": "Crivit Yogamat 183 X 61 Cm",
@@ -20025,17 +20240,6 @@
     "bn": "heren"
   },
   {
-    "n": "Under Armour Heren Sportschoenen",
-    "p": "35.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpc2dfb1e35be44a6aa5e4cc00cc3f8f31.jpg",
-    "c": "Other",
-    "cn": "under armour heren sportschoenen",
-    "ik": "tok:under|armour-heren-sportschoenen|na",
-    "bn": "under"
-  },
-  {
     "n": "Crivit Verstelbare Dumbbell 25 119",
     "p": "",
     "o": "",
@@ -20046,6 +20250,17 @@
     "ik": "tok:crivit|119-25-dumbbell-verstelbare|25000",
     "bn": "crivit",
     "wg": 25000
+  },
+  {
+    "n": "Under Armour Heren Sportschoenen",
+    "p": "35.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpc2dfb1e35be44a6aa5e4cc00cc3f8f31.jpg",
+    "c": "Other",
+    "cn": "under armour heren sportschoenen",
+    "ik": "tok:under|armour-heren-sportschoenen|na",
+    "bn": "under"
   },
   {
     "n": "Crivit Heren Trainingsbroek",
@@ -20158,17 +20373,6 @@
     "bn": "crivit"
   },
   {
-    "n": "Crivit Gym In A Box",
-    "p": "39.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp2a9c393dec154bfea81c7348c0df2513.jpg",
-    "c": "Other",
-    "cn": "crivit box gym in",
-    "ik": "tok:crivit|box-gym-in|na",
-    "bn": "crivit"
-  },
-  {
     "n": "Crivit Hoelahoep Met Gewicht",
     "p": "24.99",
     "o": "",
@@ -20188,6 +20392,17 @@
     "c": "Other",
     "cn": "crivit heren koeltechnologie sportbroekje",
     "ik": "tok:crivit|heren-koeltechnologie-sportbroekje|na",
+    "bn": "crivit"
+  },
+  {
+    "n": "Crivit Gym In A Box",
+    "p": "39.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp2a9c393dec154bfea81c7348c0df2513.jpg",
+    "c": "Other",
+    "cn": "crivit box gym in",
+    "ik": "tok:crivit|box-gym-in|na",
     "bn": "crivit"
   },
   {
@@ -20950,6 +21165,50 @@
     "cn": "heren 25 adidas sportshirt squadra zwart",
     "ik": "tok:heren|25-adidas-sportshirt-squadra-zwart|na",
     "bn": "heren"
+  },
+  {
+    "n": "Hoelahoep Met Gewicht",
+    "p": "24.99",
+    "o": "3.1 van 5 sterren (18 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpa0b2cb047aca4c2db2566730537aaadd.jpg",
+    "c": "Other",
+    "cn": "hoelahoep gewicht",
+    "ik": "tok:hoelahoep|gewicht|na",
+    "bn": "hoelahoep"
+  },
+  {
+    "n": "Dames Sportshirt Met Koeltechnologie",
+    "p": "7.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpe6b2585147c54bc48f90e9544c8b5cd0.jpg",
+    "c": "Other",
+    "cn": "dames koeltechnologie sportshirt",
+    "ik": "tok:dames|koeltechnologie-sportshirt|na",
+    "bn": "dames"
+  },
+  {
+    "n": "Heren Sportbroekje Met Koeltechnologie",
+    "p": "5.99",
+    "o": "4.5 van 5 sterren (2 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp4142b6ca85cf4f8db4d9d350f87dee30.jpg",
+    "c": "Other",
+    "cn": "heren koeltechnologie sportbroekje",
+    "ik": "tok:heren|koeltechnologie-sportbroekje|na",
+    "bn": "heren"
+  },
+  {
+    "n": "Dames Sportbh Met Koeltechnologie - High Support",
+    "p": "5.99",
+    "o": "Dames sport-bh met koeltechnologie - high support voor 5.99 EUR 4.8 van 5 sterren (9 totale beoordelingen) Dames sport-bh met koeltechnologie - high support",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp33830f4523ba4754850606b14e73d596.jpg",
+    "c": "Other",
+    "cn": "dames high koeltechnologie sportbh support",
+    "ik": "tok:dames|high-koeltechnologie-sportbh-support|na",
+    "bn": "dames"
   },
   {
     "n": "Ridder Rollator Assistent 129",
@@ -21964,50 +22223,6 @@
     "bn": "schildmeyer"
   },
   {
-    "n": "LIVARNO® Kunststof Stellingkast 60 X 30 138 Cm",
-    "p": "14.99",
-    "o": "",
-    "s": "60 X 30 X 138 CM 14.99",
-    "l": "https://www.lidl.nl/assets/gcpe744f466027f4d32a8e6bf53cd069111.jpg",
-    "c": "Other",
-    "cn": "livarno 138 30 60 cm kunststof stellingkast",
-    "ik": "tok:livarno|138-30-60-cm-kunststof-stellingkast|na",
-    "bn": "livarno"
-  },
-  {
-    "n": "LIVARNO® Kledingrek",
-    "p": "14.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp0a3b40f319c248328d942e60f1da9eec.jpg",
-    "c": "Other",
-    "cn": "livarno kledingrek",
-    "ik": "tok:livarno|kledingrek|na",
-    "bn": "livarno"
-  },
-  {
-    "n": "LIVARNO® Stapelbaar Schoenenrek",
-    "p": "7.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp5a6a0505bd914fd0806b5d8737ed4452.jpg",
-    "c": "Other",
-    "cn": "livarno schoenenrek stapelbaar",
-    "ik": "tok:livarno|schoenenrek-stapelbaar|na",
-    "bn": "livarno"
-  },
-  {
-    "n": "LIVARNO® Keukenloper 65 X 100 Cm",
-    "p": "11.99",
-    "o": "",
-    "s": "65 X 100 CM 11.99",
-    "l": "https://www.lidl.nl/assets/gcpd10f092c553142ff8ed3f9ba7b9a6eb0.jpg",
-    "c": "Other",
-    "cn": "livarno 100 65 cm keukenloper",
-    "ik": "tok:livarno|100-65-cm-keukenloper|na",
-    "bn": "livarno"
-  },
-  {
     "n": "Schildmeyer Schoenenkast Ryker 139",
     "p": "",
     "o": "",
@@ -22414,6 +22629,17 @@
     "c": "Other",
     "cn": "1299",
     "ik": "tok:unknown|1299|na"
+  },
+  {
+    "n": "PARKSIDE® Ratelschroevendraaier Met Bitset",
+    "p": "7.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpa0d5907993f3475dbaa8568c1f37fdb9.jpg",
+    "c": "Other",
+    "cn": "parkside bitset ratelschroevendraaier",
+    "ik": "tok:parkside|bitset-ratelschroevendraaier|na",
+    "bn": "parkside"
   },
   {
     "n": "PARKSIDE® Gietijzeren Bankschroef",
@@ -23064,28 +23290,6 @@
     "bn": "parkside"
   },
   {
-    "n": "PARKSIDE® Kruislijnlaser 4 V",
-    "p": "25.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp1acea0de39a84f68b27b52b548c624e3.jpg",
-    "c": "Other",
-    "cn": "parkside kruislijnlaser",
-    "ik": "tok:parkside|kruislijnlaser|na",
-    "bn": "parkside"
-  },
-  {
-    "n": "PARKSIDE® Ratelschroevendraaier Met Bitset",
-    "p": "7.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpa0d5907993f3475dbaa8568c1f37fdb9.jpg",
-    "c": "Other",
-    "cn": "parkside bitset ratelschroevendraaier",
-    "ik": "tok:parkside|bitset-ratelschroevendraaier|na",
-    "bn": "parkside"
-  },
-  {
     "n": "PARKSIDE® Ratelschroevendraaier Met Bits",
     "p": "5.99",
     "o": "",
@@ -23270,6 +23474,50 @@
     "cn": "parkside blikscharenset",
     "ik": "tok:parkside|blikscharenset|na",
     "bn": "parkside"
+  },
+  {
+    "n": "Kruislijnlaser 4 V",
+    "p": "25.99",
+    "o": "4.6 van 5 sterren (45 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp1acea0de39a84f68b27b52b548c624e3.jpg",
+    "c": "Other",
+    "cn": "kruislijnlaser 4 v",
+    "ik": "tok:kruislijnlaser|unknown|na",
+    "bn": "kruislijnlaser"
+  },
+  {
+    "n": "Laser Afstandsmeter Of Kruislijnlaser",
+    "p": "17.99",
+    "o": "4.6 van 5 sterren (10 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp5708a7243bae4675a25b54b20d4cb487.jpg",
+    "c": "Other",
+    "cn": "laser afstandsmeter kruislijnlaser of",
+    "ik": "tok:laser|afstandsmeter-kruislijnlaser-of|na",
+    "bn": "laser"
+  },
+  {
+    "n": "Ratelschroevendraaier Met Bitset",
+    "p": "7.99",
+    "o": "4.8 van 5 sterren (52 totale beoordelingen) -20%",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpa0d5907993f3475dbaa8568c1f37fdb9.jpg",
+    "c": "Other",
+    "cn": "ratelschroevendraaier bitset",
+    "ik": "tok:ratelschroevendraaier|bitset|na",
+    "bn": "ratelschroevendraaier"
+  },
+  {
+    "n": "Kruislijnlaser Met Statief",
+    "p": "24.99",
+    "o": "4 van 5 sterren (25 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp0ad0d5b4f44a4b44a6daa1e236fd48e0.jpg",
+    "c": "Other",
+    "cn": "kruislijnlaser statief",
+    "ik": "tok:kruislijnlaser|statief|na",
+    "bn": "kruislijnlaser"
   },
   {
     "n": "Gebreide Kerstmuts",
@@ -24011,6 +24259,39 @@
     "bn": "esmara"
   },
   {
+    "n": "Esmara Men Heren Clogs",
+    "p": "11.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpa0b2de133782411cbbf313c3e6136058.jpg",
+    "c": "Other",
+    "cn": "esmara clogs heren men",
+    "ik": "tok:esmara|clogs-heren-men|na",
+    "bn": "esmara"
+  },
+  {
+    "n": "Esmara Men U.S. Grand Polo Piqué Heren",
+    "p": "6.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp10fe290c0f7945e3bc66f7ff6730df9c.jpg",
+    "c": "Other",
+    "cn": "grand esmara heren men piqu polo",
+    "ik": "tok:grand|esmara-heren-men-piqu-polo|na",
+    "bn": "grand"
+  },
+  {
+    "n": "Esmara Men 7 Paar Heren Sokken",
+    "p": "3.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp2f3af5e96a7d48349f06ddd0583a4c30.jpg",
+    "c": "Other",
+    "cn": "esmara heren men paar sokken",
+    "ik": "tok:esmara|heren-men-paar-sokken|na",
+    "bn": "esmara"
+  },
+  {
     "n": "Esmara Men Linnen Heren Overhemd",
     "p": "11.99",
     "o": "",
@@ -24495,6 +24776,17 @@
     "bn": "men"
   },
   {
+    "n": "Esmara Men Heren Cargoshort (Marineblauw, 48)",
+    "p": "12.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp6e64486a006144708bc16c631260bd0a.jpg",
+    "c": "Other",
+    "cn": "men 48 cargoshort esmara heren marineblauw",
+    "ik": "tok:men|48-cargoshort-esmara-heren-marineblauw|na",
+    "bn": "men"
+  },
+  {
     "n": "Crivit Heren Sandalen (Marineblauw, 44)",
     "p": "19.99",
     "o": "",
@@ -24647,39 +24939,6 @@
     "cn": "crivit vissershoedje",
     "ik": "tok:crivit|vissershoedje|na",
     "bn": "crivit"
-  },
-  {
-    "n": "Esmara Men Heren Clogs",
-    "p": "11.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpa0b2de133782411cbbf313c3e6136058.jpg",
-    "c": "Other",
-    "cn": "esmara clogs heren men",
-    "ik": "tok:esmara|clogs-heren-men|na",
-    "bn": "esmara"
-  },
-  {
-    "n": "Esmara Men U.S. Grand Polo Piqué Heren",
-    "p": "6.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp10fe290c0f7945e3bc66f7ff6730df9c.jpg",
-    "c": "Other",
-    "cn": "grand esmara heren men piqu polo",
-    "ik": "tok:grand|esmara-heren-men-piqu-polo|na",
-    "bn": "grand"
-  },
-  {
-    "n": "Esmara Men 7 Paar Heren Sokken",
-    "p": "3.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp2f3af5e96a7d48349f06ddd0583a4c30.jpg",
-    "c": "Other",
-    "cn": "esmara heren men paar sokken",
-    "ik": "tok:esmara|heren-men-paar-sokken|na",
-    "bn": "esmara"
   },
   {
     "n": "Rocktrail Heren Thermojack",
@@ -26895,17 +27154,6 @@
     "bn": "paar"
   },
   {
-    "n": "Heren Sportbroekje Met Koeltechnologie",
-    "p": "5.99",
-    "o": "4.5 van 5 sterren (2 totale beoordelingen)",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp4142b6ca85cf4f8db4d9d350f87dee30.jpg",
-    "c": "Other",
-    "cn": "heren koeltechnologie sportbroekje",
-    "ik": "tok:heren|koeltechnologie-sportbroekje|na",
-    "bn": "heren"
-  },
-  {
     "n": "Vileda Turbo One Dweilsysteem",
     "p": "24.95",
     "o": "",
@@ -27475,30 +27723,6 @@
     "bn": "falko"
   },
   {
-    "n": "Crivit Elektrische Koelbox",
-    "p": "59.99",
-    "o": "",
-    "s": "29 l",
-    "l": "https://www.lidl.nl/assets/gcp1f2bc88047004dffb335d97f282ae123.jpg",
-    "c": "Other",
-    "cn": "crivit elektrische koelbox",
-    "ik": "tok:crivit|elektrische-koelbox|29000",
-    "bn": "crivit",
-    "wg": 29000
-  },
-  {
-    "n": "Crivit Rvs Drinkfles",
-    "p": "5.99",
-    "o": "",
-    "s": "1 l",
-    "l": "https://www.lidl.nl/assets/gcpa00cc40d795f4eb5be5911a6e1d3306e.jpg",
-    "c": "Other",
-    "cn": "crivit drinkfles rvs",
-    "ik": "tok:crivit|drinkfles-rvs|1000",
-    "bn": "crivit",
-    "wg": 1000
-  },
-  {
     "n": "Barbie 3D Rugzak",
     "p": "7.99",
     "o": "",
@@ -27874,6 +28098,30 @@
     "bn": "rocktrail"
   },
   {
+    "n": "Crivit Elektrische Koelbox",
+    "p": "59.99",
+    "o": "",
+    "s": "29 l",
+    "l": "https://www.lidl.nl/assets/gcp1f2bc88047004dffb335d97f282ae123.jpg",
+    "c": "Other",
+    "cn": "crivit elektrische koelbox",
+    "ik": "tok:crivit|elektrische-koelbox|29000",
+    "bn": "crivit",
+    "wg": 29000
+  },
+  {
+    "n": "Crivit Rvs Drinkfles",
+    "p": "5.99",
+    "o": "",
+    "s": "1 l",
+    "l": "https://www.lidl.nl/assets/gcpa00cc40d795f4eb5be5911a6e1d3306e.jpg",
+    "c": "Other",
+    "cn": "crivit drinkfles rvs",
+    "ik": "tok:crivit|drinkfles-rvs|1000",
+    "bn": "crivit",
+    "wg": 1000
+  },
+  {
     "n": "Siena Garden Hangmand 499",
     "p": "",
     "o": "",
@@ -28192,17 +28440,6 @@
     "bn": "kinder"
   },
   {
-    "n": "High Peak Luchbed Comfort Plus (Single)",
-    "p": "30.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/efb674e405418f1824a5ee0c8d6eed30.jpeg",
-    "c": "Other",
-    "cn": "plus comfort high luchbed peak single",
-    "ik": "tok:plus|comfort-high-luchbed-peak-single|na",
-    "bn": "plus"
-  },
-  {
     "n": "Crivit Campinglamp Of Hoofdlamp",
     "p": "14.99",
     "o": "",
@@ -28214,14 +28451,15 @@
     "bn": "crivit"
   },
   {
-    "n": "499",
-    "p": "",
-    "o": "TAMBU 5-persoons tent Nihaita",
+    "n": "High Peak Luchbed Comfort Plus",
+    "p": "39.99",
+    "o": "",
     "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpe425201a55164a3096db78547135b6ae.jpeg",
+    "l": "https://www.lidl.nl/assets/efb674e405418f1824a5ee0c8d6eed30.jpeg",
     "c": "Other",
-    "cn": "499",
-    "ik": "tok:unknown|499|na"
+    "cn": "plus comfort high luchbed peak",
+    "ik": "tok:plus|comfort-high-luchbed-peak|na",
+    "bn": "plus"
   },
   {
     "n": "Crivit Koelrugzak (Blauw)",
@@ -28551,6 +28789,53 @@
     "c": "Other",
     "cn": "249",
     "ik": "tok:unknown|249|na"
+  },
+  {
+    "n": "Wandelstokken - 2 Aluminium Verstelbaar",
+    "p": "14.99",
+    "o": "Wandelstokken - 2 stuks - aluminium - verstelbaar voor 14.99 EUR 4.8 van 5 sterren (12 totale beoordelingen) Wandelstokken - 2 stuks - aluminium - verstelbaar",
+    "s": "2 ml",
+    "l": "https://www.lidl.nl/assets/gcp5cda3d36a1604966ae70af810fba15d1.jpg",
+    "c": "Other",
+    "cn": "wandelstokken aluminium verstelbaar",
+    "ik": "tok:wandelstokken|aluminium-verstelbaar|2",
+    "bn": "wandelstokken",
+    "wg": 2
+  },
+  {
+    "n": "Elektrische Koelbox",
+    "p": "59.99",
+    "o": "4.7 van 5 sterren (929 totale beoordelingen)",
+    "s": "29 l",
+    "l": "https://www.lidl.nl/assets/gcp1f2bc88047004dffb335d97f282ae123.jpg",
+    "c": "Other",
+    "cn": "elektrische koelbox",
+    "ik": "tok:elektrische|koelbox|29000",
+    "bn": "elektrische",
+    "wg": 29000
+  },
+  {
+    "n": "Rvs Drinkfles",
+    "p": "5.99",
+    "o": "4 van 5 sterren (3 totale beoordelingen)",
+    "s": "1 l",
+    "l": "https://www.lidl.nl/assets/gcpa00cc40d795f4eb5be5911a6e1d3306e.jpg",
+    "c": "Other",
+    "cn": "rvs drinkfles",
+    "ik": "tok:rvs|drinkfles|1000",
+    "bn": "rvs",
+    "wg": 1000
+  },
+  {
+    "n": "Ehboset 42delig - Eerste Hulp Kit Voor Outdoor En Sport Eur SENSIPLAST®",
+    "p": "7.99",
+    "o": "EHBO-set 42-delig - eerste hulp kit voor outdoor en sport voor 7.99 EUR EHBO-set 42-delig - eerste hulp kit voor outdoor en sport",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp6ce29ab2271e499eb0c40d598a9bf98a.jpg",
+    "c": "Other",
+    "cn": "ehboset 42delig eerste hulp kit outdoor sensiplast sport",
+    "ik": "tok:ehboset|42delig-eerste-hulp-kit-outdoor-sensiplast-sport|na",
+    "bn": "ehboset"
   },
   {
     "n": "Alle Broodsalades",
@@ -28937,6 +29222,17 @@
     "c": "Other",
     "cn": "livarno home ladekastje verona",
     "ik": "tok:livarno|home-ladekastje-verona|na",
+    "bn": "livarno"
+  },
+  {
+    "n": "LIVARNO® Keukenloper 65 X 100 Cm",
+    "p": "11.99",
+    "o": "",
+    "s": "65 X 100 CM 11.99",
+    "l": "https://www.lidl.nl/assets/gcpd10f092c553142ff8ed3f9ba7b9a6eb0.jpg",
+    "c": "Other",
+    "cn": "livarno 100 65 cm keukenloper",
+    "ik": "tok:livarno|100-65-cm-keukenloper|na",
     "bn": "livarno"
   },
   {
@@ -29636,6 +29932,50 @@
     "bn": "reality"
   },
   {
+    "n": "Schouw Afzuigkap Nola Of Karena - 60 90 Cm Voor 109 Eur 5/5 (3) 5 Sterren (3 Totale beoordelingen) Respekta",
+    "p": "",
+    "o": "Schouw afzuigkap Nola of Karena - 60 of 90 cm voor 109 EUR 5 van 5 sterren (3 totale beoordelingen) Schouw afzuigkap Nola of Karena - 60 of 90 cm vanaf Adviesprijs: vanaf 240.- * 109.- Kies a.u.b. een variant zodat wij het bijbehorende EU-energielabel of productinformatieblad kunnen tonen.",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp74c21d4276974792bf72e21c0605b7a7.jpg",
+    "c": "Other",
+    "cn": "schouw 109 60 90 afzuigkap beoordelingen cm karena nola of respekta sterren totale",
+    "ik": "tok:schouw|109-60-90-afzuigkap-beoordelingen-cm-karena-nola-of-respekta-sterren-totale|na",
+    "bn": "schouw"
+  },
+  {
+    "n": "Keukenloper 65 X 180 Cm",
+    "p": "7.99",
+    "o": "5 van 5 sterren (6 totale beoordelingen) -20% Ook in de winkel vanaf 05/08 - 11/08",
+    "s": "65 X 180 CM VOOR 7.99 EUR BESTE BEOORDELINGEN 5/5 (6) 5 VAN 5 STERREN (6 TOTALE BEOORDELINGEN) LIVARNO® KEUKENLOPER 65 X 180 CM 9.99 -20% 7.99 OOK IN DE WINKEL VANAF 05/08 - 11/08",
+    "l": "https://www.lidl.nl/assets/gcp1d97f03e0bfd47aabcefe526c3af2514.jpg",
+    "c": "Other",
+    "cn": "keukenloper 180 65 cm",
+    "ik": "tok:keukenloper|180-65-cm|na",
+    "bn": "keukenloper"
+  },
+  {
+    "n": "Ledklemlamp Of -tafellamp",
+    "p": "5.99",
+    "o": "LED-klemlamp of -tafellamp voor 5.99 EUR 4.7 van 5 sterren (51 totale beoordelingen) LED-klemlamp of -tafellamp -33%",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpe052b2670d7f4dc5bd6f9f3abb4f701b.jpg",
+    "c": "Other",
+    "cn": "ledklemlamp of tafellamp",
+    "ik": "tok:ledklemlamp|of-tafellamp|na",
+    "bn": "ledklemlamp"
+  },
+  {
+    "n": "Solar Leddecoratieve vogel, Metalen Tuinsteker",
+    "p": "17.99",
+    "o": "Solar LED-decoratieve vogel, metalen tuinsteker voor 17.99 EUR 2.5 van 5 sterren (4 totale beoordelingen) Solar LED-decoratieve vogel, metalen tuinsteker",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp5fa371a50772419a9674c10c69eb1bf3.jpg",
+    "c": "Other",
+    "cn": "solar leddecoratieve metalen tuinsteker vogel",
+    "ik": "tok:solar|leddecoratieve-metalen-tuinsteker-vogel|na",
+    "bn": "solar"
+  },
+  {
     "n": "SILVERCREST® Rvs Waterkoker 1,",
     "p": "14.95",
     "o": "",
@@ -30077,6 +30417,17 @@
     "bn": "silvercrest"
   },
   {
+    "n": "SILVERCREST® Elektrische Gehaktmolen",
+    "p": "49.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp4f266d3c0b134b17ac736c77ada69362.jpg",
+    "c": "Other",
+    "cn": "silvercrest elektrische gehaktmolen",
+    "ik": "tok:silvercrest|elektrische-gehaktmolen|na",
+    "bn": "silvercrest"
+  },
+  {
     "n": "SILVERCREST® Kitchen Tools Frituurpan",
     "p": "23.99",
     "o": "",
@@ -30096,17 +30447,6 @@
     "c": "Other",
     "cn": "silvercrest broodrooster lang",
     "ik": "tok:silvercrest|broodrooster-lang|na",
-    "bn": "silvercrest"
-  },
-  {
-    "n": "SILVERCREST® Elektrische Gehaktmolen",
-    "p": "49.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp4f266d3c0b134b17ac736c77ada69362.jpg",
-    "c": "Other",
-    "cn": "silvercrest elektrische gehaktmolen",
-    "ik": "tok:silvercrest|elektrische-gehaktmolen|na",
     "bn": "silvercrest"
   },
   {
@@ -30657,6 +30997,28 @@
     "wg": 8000
   },
   {
+    "n": "SILVERCREST® Rvs Smoothiemaker",
+    "p": "14.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpe1c6f6f26d604da8b1aba7976c9c1635.jpg",
+    "c": "Other",
+    "cn": "silvercrest rvs smoothiemaker",
+    "ik": "tok:silvercrest|rvs-smoothiemaker|na",
+    "bn": "silvercrest"
+  },
+  {
+    "n": "SILVERCREST® Eierkoker 6 Eieren (Beige)",
+    "p": "14.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp5adaf6e188a34f6ca8f8311afa848c45.jpg",
+    "c": "Other",
+    "cn": "silvercrest beige eieren eierkoker",
+    "ik": "tok:silvercrest|beige-eieren-eierkoker|na",
+    "bn": "silvercrest"
+  },
+  {
     "n": "Braun Waterkoker",
     "p": "32.99",
     "o": "",
@@ -31013,28 +31375,6 @@
     "c": "Other",
     "cn": "silvercrest gehaktmolen",
     "ik": "tok:silvercrest|gehaktmolen|na",
-    "bn": "silvercrest"
-  },
-  {
-    "n": "SILVERCREST® Rvs Smoothiemaker",
-    "p": "14.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpe1c6f6f26d604da8b1aba7976c9c1635.jpg",
-    "c": "Other",
-    "cn": "silvercrest rvs smoothiemaker",
-    "ik": "tok:silvercrest|rvs-smoothiemaker|na",
-    "bn": "silvercrest"
-  },
-  {
-    "n": "SILVERCREST® Eierkoker 6 Eieren (Beige)",
-    "p": "14.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp5adaf6e188a34f6ca8f8311afa848c45.jpg",
-    "c": "Other",
-    "cn": "silvercrest beige eieren eierkoker",
-    "ik": "tok:silvercrest|beige-eieren-eierkoker|na",
     "bn": "silvercrest"
   },
   {
@@ -31482,6 +31822,52 @@
     "bn": "silvercrest"
   },
   {
+    "n": "Slowcooker 3, - Keramische Binnenpan 200 W",
+    "p": "23.99",
+    "o": "Slowcooker 3,2 L - keramische binnenpan - 200 W voor 23.99 EUR 4.5 van 5 sterren (11 totale beoordelingen) Slowcooker 3,2 L - keramische binnenpan - 200 W",
+    "s": "2 l",
+    "l": "https://www.lidl.nl/assets/gcp06a078fd239a47d1b55483a5e1797854.jpg",
+    "c": "Other",
+    "cn": "slowcooker 200 binnenpan keramische",
+    "ik": "tok:slowcooker|200-binnenpan-keramische|2000",
+    "bn": "slowcooker",
+    "wg": 2000
+  },
+  {
+    "n": "Waterkoker 1,",
+    "p": "11.99",
+    "o": "4.6 van 5 sterren (69 totale beoordelingen) -45%",
+    "s": "7 l",
+    "l": "https://www.lidl.nl/assets/gcpeb87428d6b8a40a0a08c476ad01f6855.jpg",
+    "c": "Other",
+    "cn": "waterkoker 1,",
+    "ik": "tok:waterkoker|unknown|7000",
+    "bn": "waterkoker",
+    "wg": 7000
+  },
+  {
+    "n": "Rvs Smoothiemaker",
+    "p": "14.99",
+    "o": "4.7 van 5 sterren (52 totale beoordelingen) -25%",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpe1c6f6f26d604da8b1aba7976c9c1635.jpg",
+    "c": "Other",
+    "cn": "rvs smoothiemaker",
+    "ik": "tok:rvs|smoothiemaker|na",
+    "bn": "rvs"
+  },
+  {
+    "n": "Eierkoker 6 Eieren (Beige)",
+    "p": "14.99",
+    "o": "4.6 van 5 sterren (61 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp5adaf6e188a34f6ca8f8311afa848c45.jpg",
+    "c": "Other",
+    "cn": "eierkoker beige eieren",
+    "ik": "tok:eierkoker|beige-eieren|na",
+    "bn": "eierkoker"
+  },
+  {
     "n": "Crivit Kinder Thermoshirt",
     "p": "7.99",
     "o": "",
@@ -31645,6 +32031,17 @@
     "cn": "lupilu broek kinder korte",
     "ik": "tok:lupilu|broek-kinder-korte|na",
     "bn": "lupilu"
+  },
+  {
+    "n": "lupilu® Kinder Regenbroek",
+    "p": "14.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpc26243467f84405e893a89625027afdd.jpg",
+    "c": "Other",
+    "cn": "kinder lupilu regenbroek",
+    "ik": "tok:kinder|lupilu-regenbroek|na",
+    "bn": "kinder"
   },
   {
     "n": "LUPILU® Kinder Joggingbroek",
@@ -32203,6 +32600,28 @@
     "cn": "kinderpyjama",
     "ik": "tok:kinderpyjama|unknown|na",
     "bn": "kinderpyjama"
+  },
+  {
+    "n": "LUPILU® Kinder Sweater Of Hoodie Paw Patrol",
+    "p": "7.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp1db69a1cc318457c8e2c83a3229cb1f0.jpg",
+    "c": "Other",
+    "cn": "lupilu hoodie kinder of patrol paw sweater",
+    "ik": "tok:lupilu|hoodie-kinder-of-patrol-paw-sweater|na",
+    "bn": "lupilu"
+  },
+  {
+    "n": "LUPILU® Paw Patrol Kinder Pyjama",
+    "p": "4.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpcacf62768521433cb1db6d3fb1b576e1.jpg",
+    "c": "Other",
+    "cn": "lupilu kinder patrol paw pyjama",
+    "ik": "tok:lupilu|kinder-patrol-paw-pyjama|na",
+    "bn": "lupilu"
   },
   {
     "n": "LUPILU® Mousseline Kinder Jurk",
@@ -32784,28 +33203,6 @@
     "cn": "minecraft jas kinder",
     "ik": "tok:minecraft|jas-kinder|na",
     "bn": "minecraft"
-  },
-  {
-    "n": "LUPILU® Kinder Sweater Of Hoodie Paw Patrol",
-    "p": "7.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp1db69a1cc318457c8e2c83a3229cb1f0.jpg",
-    "c": "Other",
-    "cn": "lupilu hoodie kinder of patrol paw sweater",
-    "ik": "tok:lupilu|hoodie-kinder-of-patrol-paw-sweater|na",
-    "bn": "lupilu"
-  },
-  {
-    "n": "LUPILU® Paw Patrol Kinder Pyjama",
-    "p": "4.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpcacf62768521433cb1db6d3fb1b576e1.jpg",
-    "c": "Other",
-    "cn": "lupilu kinder patrol paw pyjama",
-    "ik": "tok:lupilu|kinder-patrol-paw-pyjama|na",
-    "bn": "lupilu"
   },
   {
     "n": "lupilu® 7 Paar Kinder Sokken",
@@ -34674,51 +35071,6 @@
     "bn": "livarno"
   },
   {
-    "n": "Ultrasone Aromadiffuser",
-    "p": "7.99",
-    "o": "Ultrasone aroma-diffuser voor 7.99 EUR 4.2 van 5 sterren (92 totale beoordelingen) Ultrasone aroma-diffuser -46%",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp36599293d2bc4f7297f08439114ec750.jpg",
-    "c": "Other",
-    "cn": "ultrasone aromadiffuser",
-    "ik": "tok:ultrasone|aromadiffuser|na",
-    "bn": "ultrasone"
-  },
-  {
-    "n": "Luchtontvochtiger",
-    "p": "89.99",
-    "o": "4.5 van 5 sterren (80 totale beoordelingen)",
-    "s": "10 l",
-    "l": "https://www.lidl.nl/assets/gcpf0383c6215614702a419c652add866b9.jpg",
-    "c": "Other",
-    "cn": "luchtontvochtiger",
-    "ik": "tok:luchtontvochtiger|unknown|10000",
-    "bn": "luchtontvochtiger",
-    "wg": 10000
-  },
-  {
-    "n": "Bladloze Ventilator",
-    "p": "69.99",
-    "o": "Alleen in de winkel 25/07 - 31/07",
-    "s": "stuk",
-    "l": "https://imgproxy-retcat.assets.schwarz/HWM02hB51mSq38KL2Z9hs-FdEauDWEG0pf03J0RRLbk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0MyNjU5MUFERTkxMjhDQ0VDQUJBQzVFQT/Q4OEI3MkFFMkQ5OEYyOUE3RjM3NzA1QUQ1RjRGQzRBNzg1MjQ4NjUucG5n.png",
-    "c": "Other",
-    "cn": "bladloze ventilator",
-    "ik": "tok:bladloze|ventilator|na",
-    "bn": "bladloze"
-  },
-  {
-    "n": "Staande Ventilator",
-    "p": "39.99",
-    "o": "Alleen in de winkel 25/07 - 31/07",
-    "s": "stuk",
-    "l": "https://imgproxy-retcat.assets.schwarz/UFsLHnRtW_kbDnyCUWh1XvoZzhxCGFTvkgwU3-aO97Y/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0VFQzU1MUVFMTk2Q0M5RTk3NzZFODAwMz/BBNjBDMEQ0OUY0QTFCRjA1Q0UzQzQyN0ZERTFCREUwMzA4ODc0REEucG5n.png",
-    "c": "Other",
-    "cn": "staande ventilator",
-    "ik": "tok:staande|ventilator|na",
-    "bn": "staande"
-  },
-  {
     "n": "Minikoelkast",
     "p": "59.99",
     "o": "Mini-koelkast voor 59.99 EUR 4.1 van 5 sterren (7 totale beoordelingen) Mini-koelkast",
@@ -35315,17 +35667,6 @@
     "c": "Other",
     "cn": "silvercrest bakvorm siliconen",
     "ik": "tok:silvercrest|bakvorm-siliconen|na",
-    "bn": "silvercrest"
-  },
-  {
-    "n": "SILVERCREST® Bakvorm (Springvorm)",
-    "p": "4.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp2c14cabceab34229bf85fa13cd5aacb6.jpg",
-    "c": "Other",
-    "cn": "silvercrest bakvorm springvorm",
-    "ik": "tok:silvercrest|bakvorm-springvorm|na",
     "bn": "silvercrest"
   },
   {
@@ -36001,17 +36342,6 @@
     "bn": "creative"
   },
   {
-    "n": "SILVERCREST® Gegoten Aluminium Kookpan Ø24 Cm",
-    "p": "19.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp68367ae83afc42b291fcc172da1938fe.jpg",
-    "c": "Other",
-    "cn": "silvercrest 24 aluminium cm gegoten kookpan",
-    "ik": "tok:silvercrest|24-aluminium-cm-gegoten-kookpan|na",
-    "bn": "silvercrest"
-  },
-  {
     "n": "SILVERCREST® Rvs Kookpan 20 Cm",
     "p": "13.99",
     "o": "",
@@ -36607,6 +36937,51 @@
     "bn": "ernesto"
   },
   {
+    "n": "Acaciahouten Hakblok - 40 X 32 Cm Snijplank",
+    "p": "21.99",
+    "o": "Acaciahouten hakblok - 40 x 32 cm - snijplank voor 21.99 EUR 3.8 van 5 sterren (4 totale beoordelingen) Acaciahouten hakblok - 40 x 32 cm - snijplank",
+    "s": "40 X 32 CM - SNIJPLANK VOOR 21.99 EUR 3.8/5 (4) 3.8 VAN 5 STERREN (4 TOTALE BEOORDELINGEN) SILVERCREST® ACACIAHOUTEN HAKBLOK - 40 X 32 CM - SNIJPLANK 21.99",
+    "l": "https://www.lidl.nl/assets/gcp66c9b94531434e64adb93f90595413ad.jpg",
+    "c": "Other",
+    "cn": "acaciahouten 32 40 cm hakblok snijplank",
+    "ik": "tok:acaciahouten|32-40-cm-hakblok-snijplank|na",
+    "bn": "acaciahouten"
+  },
+  {
+    "n": "Precisie Keukenweegschaal - 200",
+    "p": "8.99",
+    "o": "Precisie keukenweegschaal - tot 200 g voor 8.99 EUR Tip van Lidl 5 van 5 sterren (3 totale beoordelingen) Precisie keukenweegschaal - tot 200 g",
+    "s": "200 ml",
+    "l": "https://www.lidl.nl/assets/gcp2081550451e84aae841b1b3fd3a9006f.png",
+    "c": "Other",
+    "cn": "precisie 200 keukenweegschaal",
+    "ik": "tok:precisie|200-keukenweegschaal|200",
+    "bn": "precisie",
+    "wg": 200
+  },
+  {
+    "n": "2in1slijpsteen",
+    "p": "2.99",
+    "o": "2-in-1-slijpsteen voor 2.99 EUR Tip van Lidl 4.6 van 5 sterren (53 totale beoordelingen) 2-in-1-slijpsteen -70%",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpc73e26265b83445f92a1a421f482f3a7.jpg",
+    "c": "Other",
+    "cn": "2in1slijpsteen",
+    "ik": "tok:unknown|2in1slijpsteen|na"
+  },
+  {
+    "n": "Glazen Keukenweegschaal 5",
+    "p": "4.39",
+    "o": "4.5 van 5 sterren (17 totale beoordelingen) -26% Ook in de winkel vanaf 01/08 - 07/08",
+    "s": "5 l",
+    "l": "https://www.lidl.nl/assets/gcp50062d20cdfe407c92e753946838eb7d.jpg",
+    "c": "Other",
+    "cn": "glazen keukenweegschaal",
+    "ik": "tok:glazen|keukenweegschaal|5000",
+    "bn": "glazen",
+    "wg": 5000
+  },
+  {
     "n": "SILVERCREST® Huisstofmijt Stofzuiger",
     "p": "54.99",
     "o": "",
@@ -36616,6 +36991,94 @@
     "cn": "silvercrest huisstofmijt stofzuiger",
     "ik": "tok:silvercrest|huisstofmijt-stofzuiger|na",
     "bn": "silvercrest"
+  },
+  {
+    "n": "Accukruimeldief 24 V, Voor Nat En Droog Stofzuigen Eur 4.5/5 (22) 4.5 5 Sterren (22 Totale beoordelingen) SILVERCREST®",
+    "p": "41.99",
+    "o": "Accu-kruimeldief 24 V, voor nat en droog stofzuigen voor 41.99 EUR 4.5 van 5 sterren (22 totale beoordelingen) Accu-kruimeldief 24 V, voor nat en droog stofzuigen",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpa0553ee3ee144df6b09ccbbd4458b1e8.jpg",
+    "c": "Other",
+    "cn": "accukruimeldief 22 24 beoordelingen droog nat silvercrest sterren stofzuigen totale",
+    "ik": "tok:accukruimeldief|22-24-beoordelingen-droog-nat-silvercrest-sterren-stofzuigen-totale|na",
+    "bn": "accukruimeldief"
+  },
+  {
+    "n": "Steelstofzuiger Zonder Zak",
+    "p": "24.99",
+    "o": "4.3 van 5 sterren (751 totale beoordelingen) -37%",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpfde8cedf1c0b4ac0957e1ba15b7d9d98.jpg",
+    "c": "Other",
+    "cn": "steelstofzuiger zak zonder",
+    "ik": "tok:steelstofzuiger|zak-zonder|na",
+    "bn": "steelstofzuiger"
+  },
+  {
+    "n": "Accukruimeldief 7,4 V, Voor Nat En Droog Stofzuigen Eur 4.5/5 (291) 4.5 5 Sterren (291 Totale beoordelingen) SILVERCREST®",
+    "p": "9.99",
+    "o": "Accu-kruimeldief 7,4 V, voor nat en droog stofzuigen voor 9.99 EUR 4.5 van 5 sterren (291 totale beoordelingen) Accu-kruimeldief 7,4 V, voor nat en droog stofzuigen -44%",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp67641d2f969a429eb1c6b7feed844d4d.jpg",
+    "c": "Other",
+    "cn": "accukruimeldief 291 beoordelingen droog nat silvercrest sterren stofzuigen totale",
+    "ik": "tok:accukruimeldief|291-beoordelingen-droog-nat-silvercrest-sterren-stofzuigen-totale|na",
+    "bn": "accukruimeldief"
+  },
+  {
+    "n": "Accusteelstofzuiger En Kruimeldief 18 V",
+    "p": "53.99",
+    "o": "Accu-steelstofzuiger en kruimeldief 18 V voor 53.99 EUR 4.2 van 5 sterren (65 totale beoordelingen) Accu-steelstofzuiger en kruimeldief 18 V -16% Ook in de winkel 29/07 - 04/08",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp6ed27aac76e340f098159fccfd9d18d7.jpg",
+    "c": "Other",
+    "cn": "accusteelstofzuiger 18 kruimeldief",
+    "ik": "tok:accusteelstofzuiger|18-kruimeldief|na",
+    "bn": "accusteelstofzuiger"
+  },
+  {
+    "n": "Accusteelstofzuiger 20 V Zonder Accu En Lader",
+    "p": "24.99",
+    "o": "Accu-steelstofzuiger 20 V zonder accu en lader voor 24.99 EUR 4.4 van 5 sterren (302 totale beoordelingen) Accu-steelstofzuiger 20 V zonder accu en lader",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpd99a6afc0ce24d4cbc175cc7f8f159e7.png",
+    "c": "Other",
+    "cn": "accusteelstofzuiger 20 accu lader zonder",
+    "ik": "tok:accusteelstofzuiger|20-accu-lader-zonder|na",
+    "bn": "accusteelstofzuiger"
+  },
+  {
+    "n": "Accuvlekkenreiniger - Tapijtreiniger Voor Meubels En auto's Eur SILVERCREST®",
+    "p": "47.99",
+    "o": "Accu-vlekkenreiniger - tapijtreiniger voor meubels en auto's voor 47.99 EUR Accu-vlekkenreiniger - tapijtreiniger voor meubels en auto's",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp01ebe85dd6f54f579b59fae1142ad94b.jpg",
+    "c": "Other",
+    "cn": "accuvlekkenreiniger auto meubels silvercrest tapijtreiniger",
+    "ik": "tok:accuvlekkenreiniger|auto-meubels-silvercrest-tapijtreiniger|na",
+    "bn": "accuvlekkenreiniger"
+  },
+  {
+    "n": "Accusteelstofzuiger Crosswave F 3 Pro Black And White Voor 199 Eur 3.9/5 (10) 3.9 5 Sterren (10 Totale beoordelingen) Bissell Adviesprijs: * 199.- Door Fabrikant Geadviseerde Prijs",
+    "p": "299.99",
+    "o": "Accu-steelstofzuiger CrossWave F 3 Pro Black and White voor 199 EUR 3.9 van 5 sterren (10 totale beoordelingen) Accu-steelstofzuiger CrossWave F 3 Pro Black and White 199.-",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp14a85c630ad0441480ab5f61ef6da260.jpeg",
+    "c": "Other",
+    "cn": "accusteelstofzuiger 10 199 adviesprijs and beoordelingen bissell black crosswave door fabrikant geadviseerde pro sterren totale white",
+    "ik": "tok:accusteelstofzuiger|10-199-adviesprijs-and-beoordelingen-bissell-black-crosswave-door-fabrikant-geadviseerde-pro-sterren-totale-white|na",
+    "bn": "accusteelstofzuiger"
+  },
+  {
+    "n": "Accuhuisstofmijt Stofzuiger Met Uvc Licht - Matrasreiniger",
+    "p": "14.99",
+    "o": "Accu-huisstofmijt stofzuiger met UV-C Licht - matrasreiniger voor 14.99 EUR 3.1 van 5 sterren (14 totale beoordelingen) Accu-huisstofmijt stofzuiger met UV-C Licht - matrasreiniger",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpa3d6927ee9fe425eade5562e0f887620.jpg",
+    "c": "Other",
+    "cn": "accuhuisstofmijt licht matrasreiniger stofzuiger uvc",
+    "ik": "tok:accuhuisstofmijt|licht-matrasreiniger-stofzuiger-uvc|na",
+    "bn": "accuhuisstofmijt"
   },
   {
     "n": "LIVARNO® Dubbel Loungebed",
@@ -36662,6 +37125,50 @@
     "bn": "playtive"
   },
   {
+    "n": "Keukenaccessoires Monsieur Cuisine (Beslagkomspatel)",
+    "p": "4.99",
+    "o": "Tip van Lidl 4.5 van 5 sterren (140 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp98567e6a66c84de1b5c0674ddc785ebe.jpg",
+    "c": "Other",
+    "cn": "keukenaccessoires beslagkomspatel cuisine monsieur",
+    "ik": "tok:keukenaccessoires|beslagkomspatel-cuisine-monsieur|na",
+    "bn": "keukenaccessoires"
+  },
+  {
+    "n": "Monsieur Cuisine Smart Voor 499 Eur 4.7/5 (898) 4.7 5 Sterren (898 Totale beoordelingen) SILVERCREST® 499.-",
+    "p": "",
+    "o": "4.7 van 5 sterren (898 totale beoordelingen) 499.-",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpcf3a69e7855d458d8e30e6e82be8bf0a.jpg",
+    "c": "Other",
+    "cn": "monsieur 499 898 beoordelingen cuisine silvercrest smart sterren totale",
+    "ik": "tok:monsieur|499-898-beoordelingen-cuisine-silvercrest-smart-sterren-totale|na",
+    "bn": "monsieur"
+  },
+  {
+    "n": "Accessoire Voor Monsieur Cuisine (Beslagkomspatel) Eur 4.5/5 (176) SILVERCREST® Kitchen Tools",
+    "p": "6.99",
+    "o": "4.5 van 5 sterren (176 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpc3fad330d2ad47d1bbc469a19b0468ee.jpeg",
+    "c": "Other",
+    "cn": "accessoire 176 beslagkomspatel cuisine kitchen monsieur silvercrest tools",
+    "ik": "tok:accessoire|176-beslagkomspatel-cuisine-kitchen-monsieur-silvercrest-tools|na",
+    "bn": "accessoire"
+  },
+  {
+    "n": "Meshouder Voor Monsieur Cuisine Smart En Connect Eur Beste Beoordelingen 4.9/5 (37) 4.9 5 Sterren (37 Totale beoordelingen) SILVERCREST® Kitchen Tools",
+    "p": "6.99",
+    "o": "4.9 van 5 sterren (37 totale beoordelingen) -12%",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpdb3c8a4200ed4a6a80c704db7c22669f.jpg",
+    "c": "Other",
+    "cn": "meshouder 37 beoordelingen beste connect cuisine kitchen monsieur silvercrest smart sterren tools totale",
+    "ik": "tok:meshouder|37-beoordelingen-beste-connect-cuisine-kitchen-monsieur-silvercrest-smart-sterren-tools-totale|na",
+    "bn": "meshouder"
+  },
+  {
     "n": "Carina Naaimachine Junior",
     "p": "99.99",
     "o": "",
@@ -36704,51 +37211,6 @@
     "cn": "topmove of opbergtas trolley",
     "ik": "tok:topmove|of-opbergtas-trolley|na",
     "bn": "topmove"
-  },
-  {
-    "n": "Naaimachine",
-    "p": "74.99",
-    "o": "4.7 van 5 sterren (106 totale beoordelingen)",
-    "s": "99 ml",
-    "l": "https://www.lidl.nl/assets/gcpfe25c494c9ef499e919c25bee8c5add6.jpg",
-    "c": "Other",
-    "cn": "naaimachine",
-    "ik": "tok:naaimachine|unknown|99",
-    "bn": "naaimachine",
-    "wg": 99
-  },
-  {
-    "n": "Naaimachine M3205 Voor 179 Eur 4.6/5 (41) 4.6 5 Sterren (41 Totale beoordelingen) Singer 179.-",
-    "p": "",
-    "o": "4.6 van 5 sterren (41 totale beoordelingen) 179.-",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp83f2b070d3c34e33abcb0c3e14cbbb56.jpg",
-    "c": "Other",
-    "cn": "naaimachine 179 41 beoordelingen m3205 singer sterren totale",
-    "ik": "tok:naaimachine|179-41-beoordelingen-m3205-singer-sterren-totale|na",
-    "bn": "naaimachine"
-  },
-  {
-    "n": "Computergestuurde Naaimachine C5605 Voor 249 Eur 4.3/5 (20) 4.3 5 Sterren (20 Totale beoordelingen) Singer 249.-",
-    "p": "",
-    "o": "4.3 van 5 sterren (20 totale beoordelingen) 249.-",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpc0bb9afcf8db48cbb266f828d45ddb69.jpg",
-    "c": "Other",
-    "cn": "computergestuurde 20 249 beoordelingen c5605 naaimachine singer sterren totale",
-    "ik": "tok:computergestuurde|20-249-beoordelingen-c5605-naaimachine-singer-sterren-totale|na",
-    "bn": "computergestuurde"
-  },
-  {
-    "n": "Naaimachine Naalden",
-    "p": "9.99",
-    "o": "4.6 van 5 sterren (25 totale beoordelingen)",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp348be51c946f4c559a04e38c7dd51b20.jpg",
-    "c": "Other",
-    "cn": "naaimachine naalden",
-    "ik": "tok:naaimachine|naalden|na",
-    "bn": "naaimachine"
   },
   {
     "n": "Calvé Pindakaas",
@@ -37210,6 +37672,61 @@
     "bn": "livarno"
   },
   {
+    "n": "Glazen Vershoudbakjes",
+    "p": "9.99",
+    "o": "4.7 van 5 sterren (198 totale beoordelingen) -33% Ook in de winkel vanaf 01/08 - 07/08",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp131b405fda314fccbd450ae5f6802d88.jpg",
+    "c": "Other",
+    "cn": "glazen vershoudbakjes",
+    "ik": "tok:glazen|vershoudbakjes|na",
+    "bn": "glazen"
+  },
+  {
+    "n": "Set 6 Opbergboxen Met Deksel",
+    "p": "14.99",
+    "o": "Set van 6 opbergboxen met deksel voor 14.99 EUR 4.1 van 5 sterren (10 totale beoordelingen) Set van 6 opbergboxen met deksel",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp0a6916460e0e41b1b7f0bc7317eb7462.jpg",
+    "c": "Other",
+    "cn": "set deksel opbergboxen",
+    "ik": "tok:set|deksel-opbergboxen|na",
+    "bn": "set"
+  },
+  {
+    "n": "Set 2 Vouwkratten",
+    "p": "16.99",
+    "o": "Set van 2 vouwkratten voor 16.99 EUR Set van 2 vouwkratten",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpcfab421c2e1a4b96ba30de1b989b13db.jpg",
+    "c": "Other",
+    "cn": "set vouwkratten",
+    "ik": "tok:set|vouwkratten|na",
+    "bn": "set"
+  },
+  {
+    "n": "Weckpotten - Inmaakpot",
+    "p": "9.99",
+    "o": "Weckpotten - inmaakpot voor 9.99 EUR 3.8 van 5 sterren (19 totale beoordelingen) Weckpotten - inmaakpot",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp8c6f8e8201e04d0ca254edb95da7bc12.jpg",
+    "c": "Other",
+    "cn": "weckpotten inmaakpot",
+    "ik": "tok:weckpotten|inmaakpot|na",
+    "bn": "weckpotten"
+  },
+  {
+    "n": "SILVERCREST® Glazen Vershoudbakjes",
+    "p": "9.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp131b405fda314fccbd450ae5f6802d88.jpg",
+    "c": "Other",
+    "cn": "silvercrest glazen vershoudbakjes",
+    "ik": "tok:silvercrest|glazen-vershoudbakjes|na",
+    "bn": "silvercrest"
+  },
+  {
     "n": "Crivit Padelracket",
     "p": "19.99",
     "o": "",
@@ -37230,6 +37747,40 @@
     "cn": "crivit 3k carbon padelracket pro",
     "ik": "tok:crivit|3k-carbon-padelracket-pro|na",
     "bn": "crivit"
+  },
+  {
+    "n": "Crivit Dames Sportjurk",
+    "p": "12.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp1795463312724290bff6fa17de87d44f.jpg",
+    "c": "Other",
+    "cn": "crivit dames sportjurk",
+    "ik": "tok:crivit|dames-sportjurk|na",
+    "bn": "crivit"
+  },
+  {
+    "n": "Crivit Padelracket Glasvezel Comfort",
+    "p": "34.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpb36d3eca1b7a48b7a525139737088221.jpg",
+    "c": "Other",
+    "cn": "crivit comfort glasvezel padelracket",
+    "ik": "tok:crivit|comfort-glasvezel-padelracket|na",
+    "bn": "crivit"
+  },
+  {
+    "n": "Crivit Padelballen Tournament PRO, 3",
+    "p": "4.99",
+    "o": "",
+    "s": "3 ml",
+    "l": "https://www.lidl.nl/assets/gcp36f7d0d3713b4fdbac726a9dec550ea9.jpg",
+    "c": "Other",
+    "cn": "crivit padelballen pro tournament",
+    "ik": "tok:crivit|padelballen-pro-tournament|3",
+    "bn": "crivit",
+    "wg": 3
   },
   {
     "n": "Schneider Zweefparasol Valencia 250 X Cm 199",
@@ -37440,17 +37991,6 @@
     "cn": "kinder etui gymtas schooltas",
     "ik": "tok:kinder|etui-gymtas-schooltas|na",
     "bn": "kinder"
-  },
-  {
-    "n": "LUPILU® Kinder Rugzak Paw Patrol",
-    "p": "9.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpe135ee60188f4fbd9756d6ac6190708b.jpg",
-    "c": "Other",
-    "cn": "lupilu kinder patrol paw rugzak",
-    "ik": "tok:lupilu|kinder-patrol-paw-rugzak|na",
-    "bn": "lupilu"
   },
   {
     "n": "PARKSIDE® Hybrid Werkhandschoenen",
@@ -38488,17 +39028,6 @@
     "bn": "livarno"
   },
   {
-    "n": "LUPILU® Zwangerschapskussen 140 X 20 Cm",
-    "p": "14.99",
-    "o": "",
-    "s": "140 X 20 CM 14.99",
-    "l": "https://www.lidl.nl/assets/gcp057d717c04144419aa92684568e7d953.jpg",
-    "c": "Fruits & Vegetables",
-    "cn": "lupilu 140 20 cm zwangerschapskussen",
-    "ik": "tok:lupilu|140-20-cm-zwangerschapskussen|na",
-    "bn": "lupilu"
-  },
-  {
     "n": "LIVARNO® Seersucker Dekbedovertrek 140 X 200 Cm",
     "p": "19.99",
     "o": "",
@@ -38595,6 +39124,17 @@
     "c": "Fruits & Vegetables",
     "cn": "livarno foam memory stuitkussen",
     "ik": "tok:livarno|foam-memory-stuitkussen|na",
+    "bn": "livarno"
+  },
+  {
+    "n": "LIVARNO® Kledingrek",
+    "p": "14.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp0a3b40f319c248328d942e60f1da9eec.jpg",
+    "c": "Fruits & Vegetables",
+    "cn": "livarno kledingrek",
+    "ik": "tok:livarno|kledingrek|na",
     "bn": "livarno"
   },
   {
@@ -38708,39 +39248,6 @@
     "bn": "livarno"
   },
   {
-    "n": "Livarno Home Mousseline Dekbedovertrek 140 X 200 Cm",
-    "p": "29.99",
-    "o": "",
-    "s": "140 X 200 CM 29.99",
-    "l": "https://www.lidl.nl/assets/gcpa80724ff81eb4e8da1b6ef177d5d81ec.jpg",
-    "c": "Fruits & Vegetables",
-    "cn": "livarno 140 200 cm dekbedovertrek home mousseline",
-    "ik": "tok:livarno|140-200-cm-dekbedovertrek-home-mousseline|na",
-    "bn": "livarno"
-  },
-  {
-    "n": "Biberna Jersey Hoeslaken Voor Boxspringmatrassen",
-    "p": "29.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/8c65655751ff5661fcc0682a20df49ee.jpeg",
-    "c": "Fruits & Vegetables",
-    "cn": "biberna boxspringmatrassen hoeslaken jersey",
-    "ik": "tok:biberna|boxspringmatrassen-hoeslaken-jersey|na",
-    "bn": "biberna"
-  },
-  {
-    "n": "LIVARNO® Matrastopper 160 X 200 Cm",
-    "p": "29.99",
-    "o": "",
-    "s": "160 X 200 CM 29.99",
-    "l": "https://www.lidl.nl/assets/gcp324e6f0d6d614965a6097b8442fc36f4.jpg",
-    "c": "Fruits & Vegetables",
-    "cn": "livarno 160 200 cm matrastopper",
-    "ik": "tok:livarno|160-200-cm-matrastopper|na",
-    "bn": "livarno"
-  },
-  {
     "n": "LIVARNO® Matrastopper 140 X 200",
     "p": "24.99",
     "o": "",
@@ -38774,14 +39281,36 @@
     "bn": "livarno"
   },
   {
-    "n": "Biberna Fijne Jersey Kussenhoes",
-    "p": "8.47",
+    "n": "LIVARNO® Matrastopper 160 X 200 Cm",
+    "p": "29.99",
+    "o": "",
+    "s": "160 X 200 CM 29.99",
+    "l": "https://www.lidl.nl/assets/gcp324e6f0d6d614965a6097b8442fc36f4.jpg",
+    "c": "Fruits & Vegetables",
+    "cn": "livarno 160 200 cm matrastopper",
+    "ik": "tok:livarno|160-200-cm-matrastopper|na",
+    "bn": "livarno"
+  },
+  {
+    "n": "Livarno Home Mousseline Dekbedovertrek 140 X 200 Cm",
+    "p": "29.99",
+    "o": "",
+    "s": "140 X 200 CM 29.99",
+    "l": "https://www.lidl.nl/assets/gcpa80724ff81eb4e8da1b6ef177d5d81ec.jpg",
+    "c": "Fruits & Vegetables",
+    "cn": "livarno 140 200 cm dekbedovertrek home mousseline",
+    "ik": "tok:livarno|140-200-cm-dekbedovertrek-home-mousseline|na",
+    "bn": "livarno"
+  },
+  {
+    "n": "Biberna Jersey Hoeslaken Voor Boxspringmatrassen",
+    "p": "29.99",
     "o": "",
     "s": "stuk",
-    "l": "https://www.lidl.nl/assets/1809b0136c39b020bf196e7566c0bee3.jpeg",
+    "l": "https://www.lidl.nl/assets/8c65655751ff5661fcc0682a20df49ee.jpeg",
     "c": "Fruits & Vegetables",
-    "cn": "biberna fijne jersey kussenhoes",
-    "ik": "tok:biberna|fijne-jersey-kussenhoes|na",
+    "cn": "biberna boxspringmatrassen hoeslaken jersey",
+    "ik": "tok:biberna|boxspringmatrassen-hoeslaken-jersey|na",
     "bn": "biberna"
   },
   {
@@ -38794,6 +39323,17 @@
     "cn": "livarno 180 200 cm comfortschuim matras topper",
     "ik": "tok:livarno|180-200-cm-comfortschuim-matras-topper|na",
     "bn": "livarno"
+  },
+  {
+    "n": "Biberna Fijne Jersey Kussenhoes",
+    "p": "8.47",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/1809b0136c39b020bf196e7566c0bee3.jpeg",
+    "c": "Fruits & Vegetables",
+    "cn": "biberna fijne jersey kussenhoes",
+    "ik": "tok:biberna|fijne-jersey-kussenhoes|na",
+    "bn": "biberna"
   },
   {
     "n": "LIVARNO® Renforcé Dekbedovertrek 240 X 220 Cm",
@@ -39181,17 +39721,6 @@
     "bn": "livarno"
   },
   {
-    "n": "LIVARNO® Hoofdkussen 50 X 60 Cm",
-    "p": "7.99",
-    "o": "",
-    "s": "50 X 60 CM 7.99",
-    "l": "https://www.lidl.nl/assets/gcp1c576764da8f441f8eec9f73cd653a3c.jpg",
-    "c": "Fruits & Vegetables",
-    "cn": "livarno 50 60 cm hoofdkussen",
-    "ik": "tok:livarno|50-60-cm-hoofdkussen|na",
-    "bn": "livarno"
-  },
-  {
     "n": "Beco Comfortschuim Matras Selection",
     "p": "84.99",
     "o": "",
@@ -39248,6 +39777,17 @@
     "bn": "livarno"
   },
   {
+    "n": "LIVARNO® Hoofdkussen 50 X 60 Cm",
+    "p": "7.99",
+    "o": "",
+    "s": "50 X 60 CM 7.99",
+    "l": "https://www.lidl.nl/assets/gcp1c576764da8f441f8eec9f73cd653a3c.jpg",
+    "c": "Fruits & Vegetables",
+    "cn": "livarno 50 60 cm hoofdkussen",
+    "ik": "tok:livarno|50-60-cm-hoofdkussen|na",
+    "bn": "livarno"
+  },
+  {
     "n": "LIVARNO® Dekbed 200 X Cm",
     "p": "14.99",
     "o": "",
@@ -39278,17 +39818,6 @@
     "c": "Fruits & Vegetables",
     "cn": "livarno home kussensloop renforc",
     "ik": "tok:livarno|home-kussensloop-renforc|na",
-    "bn": "livarno"
-  },
-  {
-    "n": "LIVARNO® Bijzettafel",
-    "p": "29.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpa48a8851ea4848dca499240041aa04e4.jpg",
-    "c": "Fruits & Vegetables",
-    "cn": "livarno bijzettafel",
-    "ik": "tok:livarno|bijzettafel|na",
     "bn": "livarno"
   },
   {
@@ -39402,6 +39931,17 @@
     "bn": "livarno"
   },
   {
+    "n": "LIVARNO® Bijzettafel",
+    "p": "29.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpa48a8851ea4848dca499240041aa04e4.jpg",
+    "c": "Fruits & Vegetables",
+    "cn": "livarno bijzettafel",
+    "ik": "tok:livarno|bijzettafel|na",
+    "bn": "livarno"
+  },
+  {
     "n": "f.a.n. Koudschuim Matras Sleep 159",
     "p": "",
     "o": "",
@@ -39488,17 +40028,6 @@
     "cn": "badenia 139 bt260 comfortschuim matras premium trendline",
     "ik": "tok:badenia|139-bt260-comfortschuim-matras-premium-trendline|na",
     "bn": "badenia"
-  },
-  {
-    "n": "LIVARNO® Matras Topper 140 X 200 Cm",
-    "p": "29.99",
-    "o": "",
-    "s": "140 X 200 CM 29.99",
-    "l": "https://www.lidl.nl/assets/gcp5e06925e3e634d60b470cdf6d7ad8c50.jpg",
-    "c": "Fruits & Vegetables",
-    "cn": "livarno 140 200 cm matras topper",
-    "ik": "tok:livarno|140-200-cm-matras-topper|na",
-    "bn": "livarno"
   },
   {
     "n": "Livarno Home Gelschuim Topper 160 X 200 Cm",
@@ -39589,6 +40118,17 @@
     "bn": "hybrideschuim"
   },
   {
+    "n": "LIVARNO® Matras Topper 140 X 200 Cm",
+    "p": "29.99",
+    "o": "",
+    "s": "140 X 200 CM 29.99",
+    "l": "https://www.lidl.nl/assets/gcp5e06925e3e634d60b470cdf6d7ad8c50.jpg",
+    "c": "Fruits & Vegetables",
+    "cn": "livarno 140 200 cm matras topper",
+    "ik": "tok:livarno|140-200-cm-matras-topper|na",
+    "bn": "livarno"
+  },
+  {
     "n": "Hn8 Schlafsysteme Gelschuim Topper Surf 100 Cool 109",
     "p": "",
     "o": "",
@@ -39630,17 +40170,6 @@
     "c": "Fruits & Vegetables",
     "cn": "livarno 220 240 cm dekbedovertrek strepen",
     "ik": "tok:livarno|220-240-cm-dekbedovertrek-strepen|na",
-    "bn": "livarno"
-  },
-  {
-    "n": "LIVARNO® Mousseline Dekbedovertrek 140 X 200 Cm",
-    "p": "29.99",
-    "o": "",
-    "s": "140 X 200 CM 29.99",
-    "l": "https://www.lidl.nl/assets/gcpef8011687e3a4e91881634868fa64344.jpg",
-    "c": "Fruits & Vegetables",
-    "cn": "livarno 140 200 cm dekbedovertrek mousseline",
-    "ik": "tok:livarno|140-200-cm-dekbedovertrek-mousseline|na",
     "bn": "livarno"
   },
   {
@@ -39710,15 +40239,15 @@
     "bn": "plus"
   },
   {
-    "n": "s.Oliver Mako Satijnen Dekbedovertrek 240 X 220 Cm",
+    "n": "LIVARNO® Mousseline Dekbedovertrek 140 X 200 Cm",
     "p": "29.99",
     "o": "",
-    "s": "240 X 220 CM 29.99",
-    "l": "https://www.lidl.nl/assets/gcp72cb42a2cd1b4fd2b338870fe3e2bc58.jpg",
+    "s": "140 X 200 CM 29.99",
+    "l": "https://www.lidl.nl/assets/gcpef8011687e3a4e91881634868fa64344.jpg",
     "c": "Fruits & Vegetables",
-    "cn": "mako 220 240 cm dekbedovertrek oliver satijnen",
-    "ik": "tok:mako|220-240-cm-dekbedovertrek-oliver-satijnen|na",
-    "bn": "mako"
+    "cn": "livarno 140 200 cm dekbedovertrek mousseline",
+    "ik": "tok:livarno|140-200-cm-dekbedovertrek-mousseline|na",
+    "bn": "livarno"
   },
   {
     "n": "Kayoom Vloerkleed",
@@ -39741,17 +40270,6 @@
     "cn": "livarno 220 240 cm dekbedovertrek home linnen",
     "ik": "tok:livarno|220-240-cm-dekbedovertrek-home-linnen|na",
     "bn": "livarno"
-  },
-  {
-    "n": "Emma Dekbedovertrek 140 X 200 Cm",
-    "p": "29.99",
-    "o": "",
-    "s": "140 X 200 CM 29.99",
-    "l": "https://www.lidl.nl/assets/gcpbadeb006019048c18d8a7c8b35062b62.jpg",
-    "c": "Fruits & Vegetables",
-    "cn": "emma 140 200 cm dekbedovertrek",
-    "ik": "tok:emma|140-200-cm-dekbedovertrek|na",
-    "bn": "emma"
   },
   {
     "n": "Lichtblick Plisségordijn Klemmfix",
@@ -39952,6 +40470,17 @@
     "bn": "livarno"
   },
   {
+    "n": "s.Oliver Mako Satijnen Dekbedovertrek 240 X 220 Cm",
+    "p": "29.99",
+    "o": "",
+    "s": "240 X 220 CM 29.99",
+    "l": "https://www.lidl.nl/assets/gcp72cb42a2cd1b4fd2b338870fe3e2bc58.jpg",
+    "c": "Fruits & Vegetables",
+    "cn": "mako 220 240 cm dekbedovertrek oliver satijnen",
+    "ik": "tok:mako|220-240-cm-dekbedovertrek-oliver-satijnen|na",
+    "bn": "mako"
+  },
+  {
     "n": "Livarno Home Mousseline Dekbedovertrek 200 X Cm",
     "p": "39.99",
     "o": "",
@@ -39996,17 +40525,6 @@
     "bn": "livarno"
   },
   {
-    "n": "Michalsky Satijnen Dekbedovertrek 140 X 200 Cm",
-    "p": "29.99",
-    "o": "",
-    "s": "140 X 200 CM 29.99",
-    "l": "https://www.lidl.nl/assets/gcpe7bd54bb22f6440692c66ecf44a4400e.jpg",
-    "c": "Fruits & Vegetables",
-    "cn": "michalsky 140 200 cm dekbedovertrek satijnen",
-    "ik": "tok:michalsky|140-200-cm-dekbedovertrek-satijnen|na",
-    "bn": "michalsky"
-  },
-  {
     "n": "LIVARNO® Fleece Dekbedovertrek 200 X Cm",
     "p": "24.99",
     "o": "",
@@ -40027,6 +40545,17 @@
     "cn": "txl 160 200 cm comfort matras texels topper wol",
     "ik": "tok:txl|160-200-cm-comfort-matras-texels-topper-wol|na",
     "bn": "txl"
+  },
+  {
+    "n": "Emma Dekbedovertrek 140 X 200 Cm",
+    "p": "29.99",
+    "o": "",
+    "s": "140 X 200 CM 29.99",
+    "l": "https://www.lidl.nl/assets/gcpbadeb006019048c18d8a7c8b35062b62.jpg",
+    "c": "Fruits & Vegetables",
+    "cn": "emma 140 200 cm dekbedovertrek",
+    "ik": "tok:emma|140-200-cm-dekbedovertrek|na",
+    "bn": "emma"
   },
   {
     "n": "f.a.n. Matrasbeschermer Medisan",
@@ -40159,6 +40688,17 @@
     "cn": "synca 969 bordeaux circ compact massagestoel",
     "ik": "tok:synca|969-bordeaux-circ-compact-massagestoel|na",
     "bn": "synca"
+  },
+  {
+    "n": "Michalsky Satijnen Dekbedovertrek 140 X 200 Cm",
+    "p": "29.99",
+    "o": "",
+    "s": "140 X 200 CM 29.99",
+    "l": "https://www.lidl.nl/assets/gcpe7bd54bb22f6440692c66ecf44a4400e.jpg",
+    "c": "Fruits & Vegetables",
+    "cn": "michalsky 140 200 cm dekbedovertrek satijnen",
+    "ik": "tok:michalsky|140-200-cm-dekbedovertrek-satijnen|na",
+    "bn": "michalsky"
   },
   {
     "n": "Beco Traagschuim Matras Victoria 155",
@@ -41246,17 +41786,6 @@
     "bn": "winterdekbed"
   },
   {
-    "n": "Roba Kinderbed Tipi Montessori",
-    "p": "70.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp4812747750bb40de9d8c80a5e27c38ed.jpg",
-    "c": "Fruits & Vegetables",
-    "cn": "kinderbed montessori roba tipi",
-    "ik": "tok:kinderbed|montessori-roba-tipi|na",
-    "bn": "kinderbed"
-  },
-  {
     "n": "Häussling Royal Donzen Cassette Dekbed Extra Warm",
     "p": "148.99",
     "o": "",
@@ -41651,17 +42180,6 @@
     "cn": "lego 77237 challenger champions dodge hellcat speed sportauto srt",
     "ik": "tok:lego|77237-challenger-champions-dodge-hellcat-speed-sportauto-srt|na",
     "bn": "lego"
-  },
-  {
-    "n": "LUPILU® Dansmat Paw Patrol, 130 X 48 Cm",
-    "p": "19.99",
-    "o": "",
-    "s": "130 X 48 CM 19.99",
-    "l": "https://www.lidl.nl/assets/gcp3fbfbf097b60472fbc4b0440fcb5a259.jpg",
-    "c": "Other",
-    "cn": "lupilu 130 48 cm dansmat patrol paw",
-    "ik": "tok:lupilu|130-48-cm-dansmat-patrol-paw|na",
-    "bn": "lupilu"
   },
   {
     "n": "LEGO® Speed Champions 77240 Bugatti Centodieci Hyper Sportauto",
@@ -42622,6 +43140,39 @@
     "bn": "kleiset"
   },
   {
+    "n": "LEGO® Speed Champions 76934 Ferrari F40 Supercar",
+    "p": "17.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpadeef9f438d540988ce98542c808d572.jpg",
+    "c": "Other",
+    "cn": "lego 76934 champions f40 ferrari speed supercar",
+    "ik": "tok:lego|76934-champions-f40-ferrari-speed-supercar|na",
+    "bn": "lego"
+  },
+  {
+    "n": "LUPILU® Paw Patrol Knuffel 30 Cm",
+    "p": "7.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpf19e1b40922a49d79522d3b1f7d24af8.jpg",
+    "c": "Other",
+    "cn": "lupilu 30 cm knuffel patrol paw",
+    "ik": "tok:lupilu|30-cm-knuffel-patrol-paw|na",
+    "bn": "lupilu"
+  },
+  {
+    "n": "Bresser Kinder Metaaldetector",
+    "p": "35.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp819a9b07212c493c9fc9f4d37372fa66.jpg",
+    "c": "Other",
+    "cn": "bresser kinder metaaldetector",
+    "ik": "tok:bresser|kinder-metaaldetector|na",
+    "bn": "bresser"
+  },
+  {
     "n": "Crivit Skate Helm",
     "p": "12.99",
     "o": "",
@@ -43435,39 +43986,6 @@
     "cn": "lupilu bouwset magnetische",
     "ik": "tok:lupilu|bouwset-magnetische|na",
     "bn": "lupilu"
-  },
-  {
-    "n": "LEGO® Speed Champions 76934 Ferrari F40 Supercar",
-    "p": "17.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpadeef9f438d540988ce98542c808d572.jpg",
-    "c": "Other",
-    "cn": "lego 76934 champions f40 ferrari speed supercar",
-    "ik": "tok:lego|76934-champions-f40-ferrari-speed-supercar|na",
-    "bn": "lego"
-  },
-  {
-    "n": "LUPILU® Paw Patrol Knuffel 30 Cm",
-    "p": "7.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpf19e1b40922a49d79522d3b1f7d24af8.jpg",
-    "c": "Other",
-    "cn": "lupilu 30 cm knuffel patrol paw",
-    "ik": "tok:lupilu|30-cm-knuffel-patrol-paw|na",
-    "bn": "lupilu"
-  },
-  {
-    "n": "Bresser Kinder Metaaldetector",
-    "p": "35.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp819a9b07212c493c9fc9f4d37372fa66.jpg",
-    "c": "Other",
-    "cn": "bresser kinder metaaldetector",
-    "ik": "tok:bresser|kinder-metaaldetector|na",
-    "bn": "bresser"
   },
   {
     "n": "LEGO® City 60452 Donuttruck",
@@ -44779,6 +45297,17 @@
     "bn": "playtive"
   },
   {
+    "n": "Bright STARTS™ Cadeauset Winnie De Poeh Of Stitch",
+    "p": "24.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpef0a8b9d8e4b4c85a6dcb55db1b61a67.jpg",
+    "c": "Other",
+    "cn": "bright cadeauset of poeh starts stitch winnie",
+    "ik": "tok:bright|cadeauset-of-poeh-starts-stitch-winnie|na",
+    "bn": "bright"
+  },
+  {
     "n": "Roba Knikkerbaan",
     "p": "52.99",
     "o": "",
@@ -44821,17 +45350,6 @@
     "cn": "balansstenen lupilu",
     "ik": "tok:balansstenen|lupilu|na",
     "bn": "balansstenen"
-  },
-  {
-    "n": "Bright STARTS™ Cadeauset Winnie De Poeh Of Stitch",
-    "p": "24.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpef0a8b9d8e4b4c85a6dcb55db1b61a67.jpg",
-    "c": "Other",
-    "cn": "bright cadeauset of poeh starts stitch winnie",
-    "ik": "tok:bright|cadeauset-of-poeh-starts-stitch-winnie|na",
-    "bn": "bright"
   },
   {
     "n": "LEGO® Creator 31165 Wilde dieren: Pandafamilie",
@@ -45937,6 +46455,17 @@
     "bn": "playtive"
   },
   {
+    "n": "lupilu® Indoor Basketbal Spel",
+    "p": "17.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp55754737cdb548f39a10129304f20387.jpg",
+    "c": "Other",
+    "cn": "indoor basketbal lupilu spel",
+    "ik": "tok:indoor|basketbal-lupilu-spel|na",
+    "bn": "indoor"
+  },
+  {
     "n": "Cry Babies Kleine Knuffel In Kerstkleding",
     "p": "11.99",
     "o": "",
@@ -46101,17 +46630,6 @@
     "bn": "playtive"
   },
   {
-    "n": "lupilu® Indoor Basketbal Spel",
-    "p": "17.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp55754737cdb548f39a10129304f20387.jpg",
-    "c": "Other",
-    "cn": "indoor basketbal lupilu spel",
-    "ik": "tok:indoor|basketbal-lupilu-spel|na",
-    "bn": "indoor"
-  },
-  {
     "n": "Dickie Bestuurbare Auto Spidey 1:50",
     "p": "18.99",
     "o": "",
@@ -46200,17 +46718,6 @@
     "bn": "tattoo"
   },
   {
-    "n": "Playtive Houten Speeltoestel Met Glijbaan",
-    "p": "89.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp552484159fd144269f3793a0d2b1b9ec.jpg",
-    "c": "Other",
-    "cn": "playtive glijbaan houten speeltoestel",
-    "ik": "tok:playtive|glijbaan-houten-speeltoestel|na",
-    "bn": "playtive"
-  },
-  {
     "n": "Kinetic Sand Dig & Demolish Truck Speelset",
     "p": "17.99",
     "o": "",
@@ -46220,6 +46727,17 @@
     "cn": "kinetic demolish dig sand speelset truck",
     "ik": "tok:kinetic|demolish-dig-sand-speelset-truck|na",
     "bn": "kinetic"
+  },
+  {
+    "n": "Playtive Houten Speeltoestel Met Glijbaan",
+    "p": "89.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp552484159fd144269f3793a0d2b1b9ec.jpg",
+    "c": "Other",
+    "cn": "playtive glijbaan houten speeltoestel",
+    "ik": "tok:playtive|glijbaan-houten-speeltoestel|na",
+    "bn": "playtive"
   },
   {
     "n": "Barbie Getaway Vakantiehuis",
@@ -46286,6 +46804,17 @@
     "cn": "jada auto naruto schaalmodel",
     "ik": "tok:jada|auto-naruto-schaalmodel|na",
     "bn": "jada"
+  },
+  {
+    "n": "Jumbo Spiele Water Magic Tekenset",
+    "p": "17.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp07462e8efc614d3a8fd7f98d4c4763de.jpg",
+    "c": "Other",
+    "cn": "jumbo magic spiele tekenset water",
+    "ik": "tok:jumbo|magic-spiele-tekenset-water|na",
+    "bn": "jumbo"
   },
   {
     "n": "Playtive Houten Spoorweg Boerderij Of Brandweerwagen (Boerderij)",
@@ -46728,17 +47257,6 @@
     "bn": "jamara"
   },
   {
-    "n": "Jumbo Spiele Water Magic Tekenset",
-    "p": "17.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp07462e8efc614d3a8fd7f98d4c4763de.jpg",
-    "c": "Other",
-    "cn": "jumbo magic spiele tekenset water",
-    "ik": "tok:jumbo|magic-spiele-tekenset-water|na",
-    "bn": "jumbo"
-  },
-  {
     "n": "Roba Houten Poppenhuis 109",
     "p": "",
     "o": "",
@@ -46761,17 +47279,6 @@
     "bn": "jada"
   },
   {
-    "n": "Playtive Magnetische Bouwset (Lichtgevend)",
-    "p": "19.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp3b2524e3c1984455a006e8bdfd71b630.jpg",
-    "c": "Other",
-    "cn": "playtive bouwset lichtgevend magnetische",
-    "ik": "tok:playtive|bouwset-lichtgevend-magnetische|na",
-    "bn": "playtive"
-  },
-  {
     "n": "Jamara Bestuurbare Speelgoedhond Lucky",
     "p": "17.99",
     "o": "",
@@ -46781,6 +47288,17 @@
     "cn": "jamara bestuurbare lucky speelgoedhond",
     "ik": "tok:jamara|bestuurbare-lucky-speelgoedhond|na",
     "bn": "jamara"
+  },
+  {
+    "n": "Playtive Magnetische Bouwset (Lichtgevend)",
+    "p": "19.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp3b2524e3c1984455a006e8bdfd71b630.jpg",
+    "c": "Other",
+    "cn": "playtive bouwset lichtgevend magnetische",
+    "ik": "tok:playtive|bouwset-lichtgevend-magnetische|na",
+    "bn": "playtive"
   },
   {
     "n": "Simba Brandweerman Sam Terreinwagen Met Daktent",
@@ -47157,17 +47675,6 @@
     "bn": "kinder"
   },
   {
-    "n": "Crivit Padelracket Glasvezel Comfort",
-    "p": "34.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpb36d3eca1b7a48b7a525139737088221.jpg",
-    "c": "Other",
-    "cn": "crivit comfort glasvezel padelracket",
-    "ik": "tok:crivit|comfort-glasvezel-padelracket|na",
-    "bn": "crivit"
-  },
-  {
     "n": "Crivit Sportnet",
     "p": "34.99",
     "o": "",
@@ -47177,18 +47684,6 @@
     "cn": "crivit sportnet",
     "ik": "tok:crivit|sportnet|na",
     "bn": "crivit"
-  },
-  {
-    "n": "Crivit Padelballen Tournament PRO, 3",
-    "p": "4.99",
-    "o": "",
-    "s": "3 ml",
-    "l": "https://www.lidl.nl/assets/gcp36f7d0d3713b4fdbac726a9dec550ea9.jpg",
-    "c": "Other",
-    "cn": "crivit padelballen pro tournament",
-    "ik": "tok:crivit|padelballen-pro-tournament|3",
-    "bn": "crivit",
-    "wg": 3
   },
   {
     "n": "Hudora Pylonen",
@@ -48659,17 +49154,6 @@
     "bn": "livarno"
   },
   {
-    "n": "LIVARNO® Schaduwdoek 300 X 200 Cm (Beige)",
-    "p": "19.99",
-    "o": "",
-    "s": "300 X 200 CM (BEIGE) 19.99",
-    "l": "https://www.lidl.nl/assets/gcp44c97c395ecc4ce596cb0b95b338594c.jpg",
-    "c": "Other",
-    "cn": "livarno 200 300 beige cm schaduwdoek",
-    "ik": "tok:livarno|200-300-beige-cm-schaduwdoek|na",
-    "bn": "livarno"
-  },
-  {
     "n": "PARKSIDE® Afdekzeil 300 X 400 Cm",
     "p": "9.99",
     "o": "",
@@ -48679,6 +49163,17 @@
     "cn": "parkside 300 400 afdekzeil cm",
     "ik": "tok:parkside|300-400-afdekzeil-cm|na",
     "bn": "parkside"
+  },
+  {
+    "n": "LIVARNO® Schaduwdoek 300 X 200 Cm",
+    "p": "19.99",
+    "o": "",
+    "s": "300 X 200 CM 19.99",
+    "l": "https://www.lidl.nl/assets/gcpc959b7428adf4138aa7abc89085cad56.jpg",
+    "c": "Other",
+    "cn": "livarno 200 300 cm schaduwdoek",
+    "ik": "tok:livarno|200-300-cm-schaduwdoek|na",
+    "bn": "livarno"
   },
   {
     "n": "LIVARNO® Opbergbox Tuin",
@@ -49402,6 +49897,28 @@
     "bn": "habau"
   },
   {
+    "n": "Crivit Metalen Zwembad 228 X 159 42 Cm",
+    "p": "31.99",
+    "o": "",
+    "s": "228 X 159 X 42 CM 31.99",
+    "l": "https://www.lidl.nl/assets/gcp00eda5b5b38343538d741741796b320e.jpg",
+    "c": "Other",
+    "cn": "crivit 159 228 42 cm metalen zwembad",
+    "ik": "tok:crivit|159-228-42-cm-metalen-zwembad|na",
+    "bn": "crivit"
+  },
+  {
+    "n": "PARKSIDE® Tuinafvalzakken",
+    "p": "3.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpd375b913550b4123a9949ca8ecb8d029.jpg",
+    "c": "Other",
+    "cn": "parkside tuinafvalzakken",
+    "ik": "tok:parkside|tuinafvalzakken|na",
+    "bn": "parkside"
+  },
+  {
     "n": "Livarno Home Buitenkleed 80 X 150 Cm",
     "p": "17.99",
     "o": "",
@@ -49553,39 +50070,6 @@
     "cn": "livarno 129 barbecuepaviljoen home",
     "ik": "tok:livarno|129-barbecuepaviljoen-home|na",
     "bn": "livarno"
-  },
-  {
-    "n": "Crivit Metalen Zwembad 228 X 159 42 Cm",
-    "p": "31.99",
-    "o": "",
-    "s": "228 X 159 X 42 CM 31.99",
-    "l": "https://www.lidl.nl/assets/gcp00eda5b5b38343538d741741796b320e.jpg",
-    "c": "Other",
-    "cn": "crivit 159 228 42 cm metalen zwembad",
-    "ik": "tok:crivit|159-228-42-cm-metalen-zwembad|na",
-    "bn": "crivit"
-  },
-  {
-    "n": "Abus Sleutelkastje",
-    "p": "14.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/dc118bf34049d1aee7f50bc42bd2661c.jpeg",
-    "c": "Other",
-    "cn": "abus sleutelkastje",
-    "ik": "tok:abus|sleutelkastje|na",
-    "bn": "abus"
-  },
-  {
-    "n": "PARKSIDE® Tuinafvalzakken",
-    "p": "3.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpd375b913550b4123a9949ca8ecb8d029.jpg",
-    "c": "Other",
-    "cn": "parkside tuinafvalzakken",
-    "ik": "tok:parkside|tuinafvalzakken|na",
-    "bn": "parkside"
   },
   {
     "n": "LIVARNO® Tuinbank Sevilla 119",
@@ -49908,17 +50392,6 @@
     "bn": "greemotion"
   },
   {
-    "n": "Greemotion Tuinset Avola 689",
-    "p": "",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp1ef8bd13d9dc4f1488e12e5fb154d572.jpg",
-    "c": "Other",
-    "cn": "greemotion 689 avola tuinset",
-    "ik": "tok:greemotion|689-avola-tuinset|na",
-    "bn": "greemotion"
-  },
-  {
     "n": "Livarno Home Paviljoen 389",
     "p": "",
     "o": "",
@@ -49950,6 +50423,17 @@
     "cn": "siena 369 garden palma tuinset",
     "ik": "tok:siena|369-garden-palma-tuinset|na",
     "bn": "siena"
+  },
+  {
+    "n": "Greemotion Tuinset Avola 689",
+    "p": "",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp1ef8bd13d9dc4f1488e12e5fb154d572.jpg",
+    "c": "Other",
+    "cn": "greemotion 689 avola tuinset",
+    "ik": "tok:greemotion|689-avola-tuinset|na",
+    "bn": "greemotion"
   },
   {
     "n": "Florabest Loungeset 299",
@@ -51112,6 +51596,39 @@
     "bn": "parkside"
   },
   {
+    "n": "PARKSIDE® Hogedrukreiniger 170 Bar",
+    "p": "109.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpd94ed4adf1f142a9b0d88dba89bd5a6a.jpg",
+    "c": "Other",
+    "cn": "parkside 170 bar hogedrukreiniger",
+    "ik": "tok:parkside|170-bar-hogedrukreiniger|na",
+    "bn": "parkside"
+  },
+  {
+    "n": "PARKSIDE® Flexibele Tuinslang 15 M",
+    "p": "9.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcp7f34c037daf247db9fdf17bf59c83b0e.jpg",
+    "c": "Other",
+    "cn": "parkside 15 flexibele tuinslang",
+    "ik": "tok:parkside|15-flexibele-tuinslang|na",
+    "bn": "parkside"
+  },
+  {
+    "n": "PARKSIDE® Reservespoelen Voor Grastrimmer",
+    "p": "4.99",
+    "o": "",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpf3e02558414f49249df180309de9f586.jpg",
+    "c": "Other",
+    "cn": "parkside grastrimmer reservespoelen",
+    "ik": "tok:parkside|grastrimmer-reservespoelen|na",
+    "bn": "parkside"
+  },
+  {
     "n": "Gardena Snoeischaar Premiumcut Pro",
     "p": "16.99",
     "o": "",
@@ -51650,39 +52167,6 @@
     "bn": "parkside"
   },
   {
-    "n": "PARKSIDE® Hogedrukreiniger 170 Bar",
-    "p": "109.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpd94ed4adf1f142a9b0d88dba89bd5a6a.jpg",
-    "c": "Other",
-    "cn": "parkside 170 bar hogedrukreiniger",
-    "ik": "tok:parkside|170-bar-hogedrukreiniger|na",
-    "bn": "parkside"
-  },
-  {
-    "n": "PARKSIDE® Flexibele Tuinslang 15 M",
-    "p": "9.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp7f34c037daf247db9fdf17bf59c83b0e.jpg",
-    "c": "Other",
-    "cn": "parkside 15 flexibele tuinslang",
-    "ik": "tok:parkside|15-flexibele-tuinslang|na",
-    "bn": "parkside"
-  },
-  {
-    "n": "PARKSIDE® Reservespoelen Voor Grastrimmer",
-    "p": "4.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpf3e02558414f49249df180309de9f586.jpg",
-    "c": "Other",
-    "cn": "parkside grastrimmer reservespoelen",
-    "ik": "tok:parkside|grastrimmer-reservespoelen|na",
-    "bn": "parkside"
-  },
-  {
     "n": "Gardena Snoeizaag",
     "p": "33.99",
     "o": "",
@@ -52056,6 +52540,39 @@
     "bn": "parkside"
   },
   {
+    "n": "Hogedrukreiniger 170 Bar",
+    "p": "109.99",
+    "o": "4.6 van 5 sterren (1351 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpd94ed4adf1f142a9b0d88dba89bd5a6a.jpg",
+    "c": "Other",
+    "cn": "hogedrukreiniger 170 bar",
+    "ik": "tok:hogedrukreiniger|170-bar|na",
+    "bn": "hogedrukreiniger"
+  },
+  {
+    "n": "Flexibele Tuinslang 15 M",
+    "p": "0.67",
+    "o": "3.7 van 5 sterren (124 totale beoordelingen) per 15-m",
+    "s": "PER 15",
+    "l": "https://www.lidl.nl/assets/gcp7f34c037daf247db9fdf17bf59c83b0e.jpg",
+    "c": "Other",
+    "cn": "flexibele 15 tuinslang",
+    "ik": "tok:flexibele|15-tuinslang|na",
+    "bn": "flexibele"
+  },
+  {
+    "n": "Reservespoelen Voor Grastrimmer Eur 4.6/5 (413) PARKSIDE®",
+    "p": "4.99",
+    "o": "4.6 van 5 sterren (413 totale beoordelingen)",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpf3e02558414f49249df180309de9f586.jpg",
+    "c": "Other",
+    "cn": "reservespoelen 413 grastrimmer parkside",
+    "ik": "tok:reservespoelen|413-grastrimmer-parkside|na",
+    "bn": "reservespoelen"
+  },
+  {
     "n": "PARKSIDE® Tentgarage, 176 X 120 163 Cm",
     "p": "69.99",
     "o": "",
@@ -52076,6 +52593,50 @@
     "cn": "parkside 119 180 cm tentgarage",
     "ik": "tok:parkside|119-180-cm-tentgarage|na",
     "bn": "parkside"
+  },
+  {
+    "n": "Xl Partytent 6 X 3 M",
+    "p": "59.99",
+    "o": "2.9 van 5 sterren (77 totale beoordelingen) -14%",
+    "s": "6 X 3 M VOOR 59.99 EUR 2.9/5 (77) 2.9 VAN 5 STERREN (77 TOTALE BEOORDELINGEN) LIVARNO® XL PARTYTENT 6 X 3 M 69.99 -14% 59.99",
+    "l": "https://www.lidl.nl/assets/gcpee9fdb6c98f24c63965e0c73656d2fc4.jpg",
+    "c": "Other",
+    "cn": "partytent xl",
+    "ik": "tok:unknown|partytent-xl|na"
+  },
+  {
+    "n": "Metalen Tuinhuis Xl 3,5 m² Voor 219 Eur 3.6/5 (36) 3.6 5 Sterren (36 Totale beoordelingen) PARKSIDE® 219.-",
+    "p": "",
+    "o": "3.6 van 5 sterren (36 totale beoordelingen) 219.-",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/gcpaede8ab9cec942518343c1ed282a7628.jpg",
+    "c": "Other",
+    "cn": "metalen 219 36 beoordelingen parkside sterren totale tuinhuis xl",
+    "ik": "tok:metalen|219-36-beoordelingen-parkside-sterren-totale-tuinhuis-xl|na",
+    "bn": "metalen"
+  },
+  {
+    "n": "Klemluifel Voor 139 Eur 4.4/5 (256) 4.4 5 Sterren (256 Totale beoordelingen) Angerer",
+    "p": "",
+    "o": "4.4 van 5 sterren (256 totale beoordelingen) vanaf 139.-",
+    "s": "stuk",
+    "l": "https://www.lidl.nl/assets/cdf4d2ed8012eb75d70810b22832b86b.jpeg",
+    "c": "Other",
+    "cn": "klemluifel 139 256 angerer beoordelingen sterren totale",
+    "ik": "tok:klemluifel|139-256-angerer-beoordelingen-sterren-totale|na",
+    "bn": "klemluifel"
+  },
+  {
+    "n": "Container Ombouw 120 (Naturel) Voor 109 Eur 4.4/5 (32) 4.4 5 Sterren (32 Totale beoordelingen) Habau Adviesprijs: 169.- * 109.- Door Fabrikant Geadviseerde Prijs",
+    "p": "",
+    "o": "4.4 van 5 sterren (32 totale beoordelingen) Adviesprijs: 169.- * 109.-",
+    "s": "120 l",
+    "l": "https://www.lidl.nl/assets/gcp178683fc6ae640a9a17d14d998b82a99.jpeg",
+    "c": "Other",
+    "cn": "container 109 120 169 32 adviesprijs beoordelingen door fabrikant geadviseerde habau naturel ombouw sterren totale",
+    "ik": "tok:container|109-120-169-32-adviesprijs-beoordelingen-door-fabrikant-geadviseerde-habau-naturel-ombouw-sterren-totale|120000",
+    "bn": "container",
+    "wg": 120000
   },
   {
     "n": "PARKSIDE® Werklamp",
@@ -52254,94 +52815,6 @@
     "bn": "vileda"
   },
   {
-    "n": "Tapijtreiniger 0 Pa, Compacte Meubelreiniger",
-    "p": "15.00",
-    "o": "4.7 van 5 sterren (20 totale beoordelingen) -16% Ook in de winkel vanaf 08/08 - 14/08",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpf0139d9f6e274e5aa43ad183d16e51ee.jpg",
-    "c": "Other",
-    "cn": "tapijtreiniger compacte meubelreiniger pa",
-    "ik": "tok:tapijtreiniger|compacte-meubelreiniger-pa|na",
-    "bn": "tapijtreiniger"
-  },
-  {
-    "n": "2in1 Stoomreiniger En Handstoomreiniger 1500 W",
-    "p": "47.99",
-    "o": "2-in-1 stoomreiniger en handstoomreiniger 1500 W voor 47.99 EUR 4.4 van 5 sterren (52 totale beoordelingen) 2-in-1 stoomreiniger en handstoomreiniger 1500 W",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp8cec894bddc24da4a18a370551984285.jpg",
-    "c": "Other",
-    "cn": "1500 2in1 handstoomreiniger stoomreiniger",
-    "ik": "tok:unknown|1500-2in1-handstoomreiniger-stoomreiniger|na"
-  },
-  {
-    "n": "Spot And Stain Vlekkenreiniger",
-    "p": "12.99",
-    "o": "4.6 van 5 sterren (17 totale beoordelingen) per 1-l",
-    "s": "1 l",
-    "l": "https://www.lidl.nl/assets/gcpac7a484ab13b4dc0b8ce8d1ed68669c6.jpeg",
-    "c": "Other",
-    "cn": "spot and stain vlekkenreiniger",
-    "ik": "tok:spot|and-stain-vlekkenreiniger|1000",
-    "bn": "spot",
-    "wg": 1000
-  },
-  {
-    "n": "Stoomreiniger Steam Plus Xxl",
-    "p": "72.99",
-    "o": "4.8 van 5 sterren (20 totale beoordelingen)",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp3d033f0bb8154216ad5064023ffb7f4b.jpeg",
-    "c": "Other",
-    "cn": "plus steam stoomreiniger xxl",
-    "ik": "tok:plus|steam-stoomreiniger-xxl|na",
-    "bn": "plus"
-  },
-  {
-    "n": "Spotclean C5 Pro Tapijtreiniger Voor 159 Eur 5/5 (1) 5 Sterren (1 Totale beoordelingen) Bissell Adviesprijs: * 159.- Door Fabrikant Geadviseerde Prijs",
-    "p": "249.99",
-    "o": "5 van 5 sterren (1 totale beoordelingen) 159.-",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp44e3ccdc9635404fa9f11889fd43cc7a.jpg",
-    "c": "Other",
-    "cn": "spotclean 159 adviesprijs beoordelingen bissell c5 door fabrikant geadviseerde pro sterren tapijtreiniger totale",
-    "ik": "tok:spotclean|159-adviesprijs-beoordelingen-bissell-c5-door-fabrikant-geadviseerde-pro-sterren-tapijtreiniger-totale|na",
-    "bn": "spotclean"
-  },
-  {
-    "n": "Vlekkenreiniger Pet Stain And Odour",
-    "p": "12.99",
-    "o": "4.3 van 5 sterren (7 totale beoordelingen) per 1-l",
-    "s": "PER 1",
-    "l": "https://www.lidl.nl/assets/gcpc7c368b54d434c9eb8875b2d6c80f08c.jpeg",
-    "c": "Other",
-    "cn": "vlekkenreiniger and odour pet stain",
-    "ik": "tok:vlekkenreiniger|and-odour-pet-stain|na",
-    "bn": "vlekkenreiniger"
-  },
-  {
-    "n": "Tapijtreiniger (Wit)",
-    "p": "71.99",
-    "o": "4.6 van 5 sterren (200 totale beoordelingen)",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp361914c77b984cec81505ff2e92d7aa1.jpg",
-    "c": "Other",
-    "cn": "tapijtreiniger wit",
-    "ik": "tok:tapijtreiniger|wit|na",
-    "bn": "tapijtreiniger"
-  },
-  {
-    "n": "Schoonmaakmiddel Oxygen Boost",
-    "p": "9.89",
-    "o": "4.7 van 5 sterren (6 totale beoordelingen) per 1-l",
-    "s": "PER 1",
-    "l": "https://www.lidl.nl/assets/gcp2823d3c8052d4df1a9facfd7b233920a.jpeg",
-    "c": "Other",
-    "cn": "schoonmaakmiddel boost oxygen",
-    "ik": "tok:schoonmaakmiddel|boost-oxygen|na",
-    "bn": "schoonmaakmiddel"
-  },
-  {
     "n": "Noedels Japanse Stijl",
     "p": "0.99",
     "o": "",
@@ -52516,17 +52989,6 @@
     "c": "Other",
     "cn": "spinera deluxe kind zwemvest",
     "ik": "tok:spinera|deluxe-kind-zwemvest|na",
-    "bn": "spinera"
-  },
-  {
-    "n": "Spinera Zwemvest Volwassenen (L/XL)",
-    "p": "24.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/ef0b34311a892d8509fb5c29ff752759.jpeg",
-    "c": "Other",
-    "cn": "spinera volwassenen xl zwemvest",
-    "ik": "tok:spinera|volwassenen-xl-zwemvest|na",
     "bn": "spinera"
   },
   {
@@ -53511,14 +53973,14 @@
     "bn": "gde"
   },
   {
-    "n": "Parkside PERFORMANCE® Reciprozaagblad (150 Mm Voor metaal)",
+    "n": "Parkside PERFORMANCE® Reciprozaagblad",
     "p": "9.99",
     "o": "",
     "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp91c9cfe38d214e1d9d47375292d44eb3.jpg",
+    "l": "https://www.lidl.nl/assets/gcp74871b1d9b854520a6fa341063b29891.jpg",
     "c": "Other",
-    "cn": "parkside 150 metaal mm performance reciprozaagblad",
-    "ik": "tok:parkside|150-metaal-mm-performance-reciprozaagblad|na",
+    "cn": "parkside performance reciprozaagblad",
+    "ik": "tok:parkside|performance-reciprozaagblad|na",
     "bn": "parkside"
   },
   {
@@ -54571,83 +55033,6 @@
     "bn": "chouffe"
   },
   {
-    "n": "Crivit Dames Thermo Snowboardpully Freeride",
-    "p": "7.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp3e37e5b0e749431eb3bf46cb29c57073.jpg",
-    "c": "Other",
-    "cn": "crivit dames freeride snowboardpully thermo",
-    "ik": "tok:crivit|dames-freeride-snowboardpully-thermo|na",
-    "bn": "crivit"
-  },
-  {
-    "n": "Crivit Heren Skisokken Premium",
-    "p": "5.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp5ee3310fb7814bf8bf08f9a57bf5fdd6.jpg",
-    "c": "Other",
-    "cn": "crivit heren premium skisokken",
-    "ik": "tok:crivit|heren-premium-skisokken|na",
-    "bn": "crivit"
-  },
-  {
-    "n": "Crivit Dames Fleecetrui Freeride",
-    "p": "12.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp333e324a6c4f43cb93c11f77bbb5380b.jpg",
-    "c": "Other",
-    "cn": "crivit dames fleecetrui freeride",
-    "ik": "tok:crivit|dames-fleecetrui-freeride|na",
-    "bn": "crivit"
-  },
-  {
-    "n": "Crivit Dames Thermo Skipully Classic",
-    "p": "9.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp897f699754d545849074dd2864644275.jpg",
-    "c": "Other",
-    "cn": "crivit classic dames skipully thermo",
-    "ik": "tok:crivit|classic-dames-skipully-thermo|na",
-    "bn": "crivit"
-  },
-  {
-    "n": "Crivit Dames Trekkingschoenen (Beige, 37)",
-    "p": "24.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcp9d8e51f467a84183aad1fd57fc987598.jpeg",
-    "c": "Other",
-    "cn": "crivit 37 beige dames trekkingschoenen",
-    "ik": "tok:crivit|37-beige-dames-trekkingschoenen|na",
-    "bn": "crivit"
-  },
-  {
-    "n": "Crivit Heren Thermo Skipully Premium",
-    "p": "12.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpd8129f7788a5440aa1ea6c0e0c235566.jpg",
-    "c": "Other",
-    "cn": "crivit heren premium skipully thermo",
-    "ik": "tok:crivit|heren-premium-skipully-thermo|na",
-    "bn": "crivit"
-  },
-  {
-    "n": "Crivit Dames Thermo Skipully Premium",
-    "p": "12.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://www.lidl.nl/assets/gcpdd63f195a5064d038d62e8e818c19e71.jpg",
-    "c": "Other",
-    "cn": "crivit dames premium skipully thermo",
-    "ik": "tok:crivit|dames-premium-skipully-thermo|na",
-    "bn": "crivit"
-  },
-  {
     "n": "LIVARNO® Ladekast Verona",
     "p": "29.99",
     "o": "",
@@ -54858,6 +55243,17 @@
     "bn": "livarno"
   },
   {
+    "n": "LIVARNO® Zelfklevende Decoratiefolie X 10 M",
+    "p": "0.45",
+    "o": "",
+    "s": "45 X 10 M 5.99",
+    "l": "https://www.lidl.nl/assets/gcp875a57c4956b40a29c7d685d63aec9fb.jpg",
+    "c": "Other",
+    "cn": "livarno 10 decoratiefolie zelfklevende",
+    "ik": "tok:livarno|10-decoratiefolie-zelfklevende|na",
+    "bn": "livarno"
+  },
+  {
     "n": "Livarno Home Wandkubussen (Wit)",
     "p": "12.99",
     "o": "",
@@ -54934,17 +55330,6 @@
     "cn": "inter 149 commode link",
     "ik": "tok:inter|149-commode-link|na",
     "bn": "inter"
-  },
-  {
-    "n": "LIVARNO® Zelfklevende Decoratiefolie X 10 M",
-    "p": "0.45",
-    "o": "",
-    "s": "45 X 10 M 5.99",
-    "l": "https://www.lidl.nl/assets/gcp875a57c4956b40a29c7d685d63aec9fb.jpg",
-    "c": "Other",
-    "cn": "livarno 10 decoratiefolie zelfklevende",
-    "ik": "tok:livarno|10-decoratiefolie-zelfklevende|na",
-    "bn": "livarno"
   },
   {
     "n": "Livarno Home Stoel",
@@ -55420,48 +55805,15 @@
     "bn": "chili"
   },
   {
-    "n": "Hibiscus",
-    "p": "5.99",
-    "o": "",
-    "s": "stuk",
-    "l": "https://imgproxy-retcat.assets.schwarz/ohfiJvahZgatYtSNkEW-vv3R93q-13PIEMFn7oF-YZQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzQ5MzVGMUQ0REY3M0VFRkZDMTM4QkJFNE/E3NjlEODgyRjBBNjkxRTdEODA2NEI0MzU2M0RERUY5MTZDQTg3NTcucG5n.png",
-    "c": "Other",
-    "cn": "hibiscus",
-    "ik": "tok:hibiscus|unknown|na",
-    "bn": "hibiscus"
-  },
-  {
-    "n": "Chrysant In Tray",
-    "p": "2.69",
-    "o": "",
-    "s": "stuk",
-    "l": "https://imgproxy-retcat.assets.schwarz/bt0q0kxqDoKB2f9iI1uzaC0fLcY1NDg3-mNwehmrWMk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0RFRDg0NjIzOUZGNzFBOUJBMUI0Rjk5Nk/JCRTdFNTI1QkU3RDk1RENFNTExQzBEQ0M3RTIyREU0QkUyMERERjEucG5n.png",
-    "c": "Other",
-    "cn": "chrysant in tray",
-    "ik": "tok:chrysant|in-tray|na",
-    "bn": "chrysant"
-  },
-  {
-    "n": "Campanula Of Genitiaan",
-    "p": "2.79",
-    "o": "",
-    "s": "stuk",
-    "l": "https://imgproxy-retcat.assets.schwarz/Kk4b9OOph0XJttt084lzXQO12T12ARBw49T4OfFrwsE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0M2OEEzRUMyNUU0REVFQzM4NDJFNjNDME/RFNjZEQTE1NTA0NDhFQkJCMTU5RkYwQUZDQkQyQTgwMURGNUMyMzgucG5n.png",
-    "c": "Other",
-    "cn": "campanula genitiaan of",
-    "ik": "tok:campanula|genitiaan-of|na",
-    "bn": "campanula"
-  },
-  {
-    "n": "Vetplanten/cactusmix",
+    "n": "Raak Vruchtensiroop",
     "p": "1.99",
     "o": "",
     "s": "stuk",
-    "l": "https://imgproxy-retcat.assets.schwarz/M__PGJBuUROv1nsdZOpINoI5UJ7faOS9w0pBFaVuwOA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS83QzA4NkIzNTRBQjVDNjQ2NEY2RTNCQjJ/DMzIxODgxRjg4RUY5RUMyRjBCQTFDRUFBNEZERDg1Q0UxOTAxOUM2LnBuZw.png",
+    "l": "https://imgproxy-retcat.assets.schwarz/8VyC1MVlwfakruqwcJxnfJoS-MReh5kd8jr0YDxNLh4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzhGMzIwMzk4RDY5QkI3ODlFNDREMzZEN0/Y1OEU4Rjg1QTVFQzQyMzY0OTA5MTJDMjM3MDY5MkQ4Qjc5RTRGRDEucG5n.png",
     "c": "Other",
-    "cn": "vetplantencactusmix cactusmix vetplanten",
-    "ik": "tok:vetplantencactusmix|cactusmix-vetplanten|na",
-    "bn": "vetplantencactusmix"
+    "cn": "raak vruchtensiroop",
+    "ik": "tok:raak|vruchtensiroop|na",
+    "bn": "raak"
   },
   {
     "n": "Veltins Pilsener",
@@ -55473,5 +55825,16 @@
     "cn": "veltins pilsener",
     "ik": "tok:veltins|pilsener|na",
     "bn": "veltins"
+  },
+  {
+    "n": "Hero Cassis",
+    "p": "1.29",
+    "o": "",
+    "s": "stuk",
+    "l": "https://imgproxy-retcat.assets.schwarz/UdC8XVjhe08T1eSYj-3HEuW82JWFFT0npHsiqN96qXI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvbmwvMS85Mjc3ODE2NDAwM0UwREYwNEM0QkIyMEF/ENTZBMTU3MEJGMzJBMjE5MTVGMjAzQTA4NEUwMUI2NTE4OTgyRjE5LnBuZw.png",
+    "c": "Other",
+    "cn": "hero cassis",
+    "ik": "tok:hero|cassis|na",
+    "bn": "hero"
   }
 ]
