@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import sys
 from pathlib import Path
+from urllib.parse import quote, quote_plus
 
 from playwright.sync_api import sync_playwright
 
@@ -11,14 +12,19 @@ SHARED = Path(__file__).resolve().parents[1] / "_shared"
 if str(SHARED) not in sys.path:
     sys.path.insert(0, str(SHARED))
 
-from uk_scrape import StoreSearchConfig, quote_query, scrape_store_search  # noqa: E402
+from uk_scrape import StoreSearchConfig, scrape_store_search  # noqa: E402
 
 OUTPUT = Path(__file__).resolve().parent / "sainsburys.json"
 
 CFG = StoreSearchConfig(
     slug="sainsburys",
     base_url="https://www.sainsburys.co.uk",
-    search_url=lambda q: f"https://www.sainsburys.co.uk/gol-ui/SearchResults/{quote_query(q)}",
+    warm_url="https://www.sainsburys.co.uk/gol-ui/groceries",
+    search_url=lambda q: f"https://www.sainsburys.co.uk/gol-ui/SearchResults/{quote(q, safe='')}",
+    api_url=lambda q: (
+        "https://www.sainsburys.co.uk/groceries-api/gol-services/product/v1/product"
+        f"?filter[keyword]={quote_plus(q)}&page_number=1&page_size=36"
+    ),
     card_selectors=(
         "li[class*='pt-grid-item']",
         "[data-testid='product-tile']",

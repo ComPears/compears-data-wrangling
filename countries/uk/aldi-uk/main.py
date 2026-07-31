@@ -18,6 +18,7 @@ OUTPUT = Path(__file__).resolve().parent / "aldi_uk.json"
 CFG = StoreSearchConfig(
     slug="aldi-uk",
     base_url="https://www.aldi.co.uk",
+    warm_url="https://www.aldi.co.uk/",
     search_url=lambda q: f"https://www.aldi.co.uk/results?q={quote_query(q)}",
     card_selectors=(
         "[data-qa='product-tile']",

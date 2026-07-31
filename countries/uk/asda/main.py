@@ -18,13 +18,27 @@ OUTPUT = Path(__file__).resolve().parent / "asda.json"
 CFG = StoreSearchConfig(
     slug="asda",
     base_url="https://groceries.asda.com",
+    warm_url="https://groceries.asda.com/",
     search_url=lambda q: f"https://groceries.asda.com/search/{quote_query(q)}",
     card_selectors=(
         "li.co-item",
+        ".co-item",
         ".co-product",
+        "[data-auto-id='productTile']",
         "[data-testid='product-tile']",
-        "article",
-        "li",
+        "article.co-item",
+        "li[class*='co-item']",
+    ),
+    name_selectors=(
+        ".co-product__title",
+        "[data-auto-id='productName']",
+        "h3",
+        "a",
+    ),
+    price_selectors=(
+        ".co-product__price",
+        "[data-auto-id='price']",
+        "[class*='price']",
     ),
 )
 

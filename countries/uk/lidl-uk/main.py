@@ -18,13 +18,27 @@ OUTPUT = Path(__file__).resolve().parent / "lidl_uk.json"
 CFG = StoreSearchConfig(
     slug="lidl-uk",
     base_url="https://www.lidl.co.uk",
+    warm_url="https://www.lidl.co.uk/",
     search_url=lambda q: f"https://www.lidl.co.uk/q/search?q={quote_query(q)}",
     card_selectors=(
         "div[data-grid-data]",
         "article.product",
         ".AProductGridItem",
         "li.product",
+        "[class*='ProductGrid'] article",
+        "[class*='product-grid'] article",
         "article",
+    ),
+    name_selectors=(
+        "[class*='title']",
+        "h2",
+        "h3",
+        "a",
+    ),
+    price_selectors=(
+        "[class*='price']",
+        "[data-testid*='price']",
+        ".price",
     ),
 )
 

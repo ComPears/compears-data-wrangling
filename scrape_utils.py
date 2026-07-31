@@ -25,9 +25,24 @@ class EmptyCategoryError(RuntimeError):
 
 
 def launch_browser(playwright: Playwright, *, browser: str = "chromium") -> Browser:
-    """Launch a headless browser; Chromium is more stable than Firefox in CI."""
+    """Launch a browser; Chromium is more stable than Firefox in CI.
+
+    Set PLAYWRIGHT_HEADED=1 for a visible window (helps with bot-gated UK sites).
+    Set PLAYWRIGHT_CHANNEL=chrome to use installed Google Chrome (helps Asda Cloudflare).
+    """
     launcher = getattr(playwright, browser)
-    return launcher.launch(headless=True)
+    headed = os.environ.get("PLAYWRIGHT_HEADED", "").strip() in {"1", "true", "yes"}
+    channel = os.environ.get("PLAYWRIGHT_CHANNEL", "").strip() or None
+    kwargs: dict = {
+        "headless": not headed,
+        "args": [
+            "--disable-blink-features=AutomationControlled",
+            "--no-sandbox",
+        ],
+    }
+    if channel and browser == "chromium":
+        kwargs["channel"] = channel
+    return launcher.launch(**kwargs)
 
 
 def strip_pagination_param(url: str) -> str:

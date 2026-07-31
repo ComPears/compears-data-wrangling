@@ -407,15 +407,24 @@ jobs:
           fi
 
   generate-uk:
-    # Optional while UK scrapers mature against bot protection.
     runs-on: ubuntu-latest
-    continue-on-error: true
     permissions:
       contents: write
     strategy:
       fail-fast: false
       matrix:
-        store: [tesco, sainsburys, asda, morrisons, aldi-uk, lidl-uk]
+        include:
+          - store: tesco
+          - store: sainsburys
+          - store: morrisons
+          - store: aldi-uk
+          - store: lidl-uk
+          # Asda is Cloudflare-gated; Chrome channel helps but may still flake in CI.
+          - store: asda
+            optional: true
+
+    # Only Asda is allowed to fail without failing the UK pipeline.
+    continue-on-error: ${{ matrix.store == 'asda' }}
 
     steps:
       - name: Checkout current repo
@@ -441,9 +450,14 @@ jobs:
           python -m playwright install chromium
           python -m playwright install-deps chromium
 
+      - name: Install Chrome channel for Asda
+        if: matrix.store == 'asda'
+        run: python -m playwright install chrome
+
       - name: Generate UK ${{ matrix.store }} catalog
         env:
-          UK_MAX_QUERIES: '40'
+          UK_MAX_QUERIES: '80'
+          PLAYWRIGHT_CHANNEL: ${{ matrix.store == 'asda' && 'chrome' || '' }}
         run: python scripts/run_store_pipeline.py --country uk --store ${{ matrix.store }}
 
       - name: Push UK catalog
@@ -499,6 +513,7 @@ jobs:
           echo "  LIDL:  ${{ needs.generate-lidl.result }}"
           echo "  COOP:  ${{ needs.generate-coop.result }}"
           echo "  JUMBO: ${{ needs.generate-jumbo.result }}"
+          echo "  UK:    ${{ needs.generate-uk.result }}"
 
       - name: Set up Python
         uses: actions/setup-python@v5

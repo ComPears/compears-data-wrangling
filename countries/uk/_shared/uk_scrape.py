@@ -53,30 +53,38 @@ class StoreSearchConfig:
     name_selectors: tuple[str, ...] = (
         "[data-auto='product-tile'] h3",
         "[data-testid='product-tile-description']",
+        "[data-testid='product-title']",
         "h2",
         "h3",
         ".product-title",
         ".co-product__title",
-        "a[href*='/product']",
-        "a[href*='/products/']",
+        ".fop-title",
     )
     price_selectors: tuple[str, ...] = (
         "[data-auto='price-value']",
-        "[class*='price']",
         "[data-testid*='price']",
+        "[class*='price']",
         ".price",
         ".co-product__price",
+        ".fop-price",
+        "[data-test='fop-price']",
     )
     link_selectors: tuple[str, ...] = (
         "a[href*='/products/']",
         "a[href*='/product/']",
         "a[href*='/product']",
+        "a[href*='/p/']",
+        "a[href*='/groceries/']",
         "a[href]",
     )
     image_selectors: tuple[str, ...] = ("img",)
-    max_queries: int = 40
-    max_per_query: int = 24
-    settle_ms: int = 2500
+    max_queries: int = 90
+    max_per_query: int = 36
+    settle_ms: int = 3500
+    # Warm homepage before first search (helps Asda/Lidl bot walls).
+    warm_url: str | None = None
+    # Optional JSON API searched from inside the warmed browser session.
+    api_url: Callable[[str], str] | None = None
 
 
 def accept_uk_cookies(page: Page) -> None:
@@ -89,6 +97,8 @@ def accept_uk_cookies(page: Page) -> None:
         "#onetrust-accept-btn-handler",
         "button[id*='accept']",
         "button[data-auto='cookie-accept-all']",
+        "#onetrust-accept-btn-handler",
+        "button[aria-label*='Accept']",
     ):
         try:
             button = page.locator(selector).first
@@ -126,25 +136,29 @@ def extract_from_product_links(page: Page, cfg: StoreSearchConfig) -> list[dict[
             """(maxCount) => {
               const out = [];
               const seen = new Set();
-              const links = [...document.querySelectorAll("a[href*='/products/'], a[href*='/product/']")];
+              const links = [...document.querySelectorAll(
+                "a[href*='/products/'], a[href*='/product/'], a[href*='/p/'], a[href*='/groceries/product']"
+              )];
               for (const a of links) {
                 const href = a.href || '';
                 if (!href || seen.has(href)) continue;
+                // Skip pure category / navigation links
+                if (/\\/(aisles|categories|browse)\\//i.test(href)) continue;
                 seen.add(href);
                 const name = (a.innerText || '').trim().split('\\n').map(s => s.trim()).find(Boolean) || '';
                 if (name.length < 3) continue;
                 let el = a;
                 let price = '';
-                for (let i = 0; i < 10 && el; i++) {
+                for (let i = 0; i < 12 && el; i++) {
                   const text = el.innerText || '';
-                  const m = text.match(/£\\s*\\d+\\.\\d{2}/);
+                  const m = text.match(/£\\s*\\d+[\\.,]\\d{2}/);
                   if (m) { price = m[0]; break; }
                   el = el.parentElement;
                 }
                 if (!price) continue;
                 let image = '';
                 const img = a.querySelector('img') || (a.parentElement && a.parentElement.querySelector('img'));
-                if (img) image = img.src || img.getAttribute('data-src') || '';
+                if (img) image = img.src || img.getAttribute('data-src') || img.getAttribute('srcset') || '';
                 out.push({ name, price, href, image });
                 if (out.length >= maxCount) break;
               }
@@ -195,11 +209,17 @@ def extract_from_cards(page: Page, cfg: StoreSearchConfig) -> list[dict[str, Any
             name = _text_or_empty(card.locator(sel))
             if name:
                 break
+        if not name:
+            name = _text_or_empty(card)
+            if name:
+                name = name.split("\n")[0].strip()
         price_text = ""
         for sel in cfg.price_selectors:
             price_text = _text_or_empty(card.locator(sel))
             if parse_gbp_price(price_text):
                 break
+        if not parse_gbp_price(price_text):
+            price_text = price_from_text_blob(_text_or_empty(card)) or ""
         href = ""
         for sel in cfg.link_selectors:
             href = _attr_or_empty(card.locator(sel), "href")
@@ -272,34 +292,82 @@ def extract_json_ld(page: Page, cfg: StoreSearchConfig) -> list[dict[str, Any]]:
 
 def _walk_for_products(obj: Any, found: list[dict[str, Any]], cfg: StoreSearchConfig) -> None:
     if isinstance(obj, dict):
-        name = obj.get("title") or obj.get("name") or obj.get("productName")
+        name = (
+            obj.get("title")
+            or obj.get("name")
+            or obj.get("productName")
+            or obj.get("displayName")
+        )
         price = None
-        price_obj = obj.get("price") or obj.get("retailPrice") or obj.get("priceInfo")
+        price_obj = (
+            obj.get("price")
+            or obj.get("retail_price")
+            or obj.get("retailPrice")
+            or obj.get("priceInfo")
+            or obj.get("pricePerUnit")
+            or obj.get("sellingPrice")
+        )
         if isinstance(price_obj, dict):
             price = (
-                price_obj.get("actual")
+                price_obj.get("amountRelevantDisplay")
+                or price_obj.get("amountDisplay")
+                or price_obj.get("actual")
                 or price_obj.get("price")
-                or price_obj.get("amount")
-                or price_obj.get("value")
+                or price_obj.get("now")
+                or price_obj.get("current")
             )
+            if price is None:
+                amount = (
+                    price_obj.get("amountRelevant")
+                    or price_obj.get("amount")
+                    or price_obj.get("value")
+                )
+                # Aldi UK commerce API stores GBP amounts in minor units (pence).
+                if (
+                    isinstance(amount, int)
+                    and amount > 0
+                    and str(price_obj.get("currencyCode") or "").upper() == "GBP"
+                ):
+                    price = amount / 100.0
+                else:
+                    price = amount
         elif price_obj is not None:
             price = price_obj
         if name and price is not None:
+            slug = obj.get("urlSlugText")
+            sku = obj.get("sku")
+            aldi_path = f"/product/{slug}/{sku}" if slug and sku else ""
             entry = raw_product(
                 name=str(name),
                 price=price,
-                url=str(obj.get("url") or obj.get("productUrl") or obj.get("link") or ""),
+                url=str(
+                    obj.get("url")
+                    or obj.get("productUrl")
+                    or obj.get("full_url")
+                    or obj.get("link")
+                    or obj.get("seoURL")
+                    or aldi_path
+                    or ""
+                ),
                 image=str(
                     obj.get("defaultImageUrl")
                     or obj.get("image")
+                    or obj.get("image_url")
                     or obj.get("imageUrl")
+                    or obj.get("imageURL")
                     or ""
                 ),
+                size=str(obj.get("sellingSize") or obj.get("size") or "") or None,
                 barcode=str(obj.get("gtin") or obj.get("gtin13") or obj.get("barcode") or "")
                 or None,
                 base_url=cfg.base_url,
             )
             if entry:
+                # Prefer product_uid URLs for Sainsbury's when missing.
+                if not entry.get("i") and obj.get("product_uid"):
+                    entry["i"] = (
+                        f"{cfg.base_url}/gol-ui/product/{obj.get('product_uid')}"
+                    )
                 found.append(entry)
         for value in obj.values():
             _walk_for_products(value, found, cfg)
@@ -308,22 +376,95 @@ def _walk_for_products(obj: Any, found: list[dict[str, Any]], cfg: StoreSearchCo
             _walk_for_products(item, found, cfg)
 
 
+def harvest_api_json(page: Page, cfg: StoreSearchConfig, query: str) -> list[dict[str, Any]]:
+    """Fetch a retailer JSON API using the browser's cookies / TLS fingerprint."""
+    if not cfg.api_url:
+        return []
+    api = cfg.api_url(query)
+    try:
+        payload = page.evaluate(
+            """async (url) => {
+              try {
+                const res = await fetch(url, {
+                  credentials: 'include',
+                  headers: { 'Accept': 'application/json, text/plain, */*' },
+                });
+                const text = await res.text();
+                return { ok: res.ok, status: res.status, text: text.slice(0, 500000) };
+              } catch (err) {
+                return { ok: false, status: 0, text: String(err) };
+              }
+            }""",
+            api,
+        )
+    except Exception as err:
+        print(f"   ⚠️ api evaluate failed: {err}")
+        return []
+
+    if not payload or not payload.get("ok"):
+        print(f"   ⚠️ api HTTP {payload.get('status') if payload else '?'} for {api[:80]}")
+        return []
+    try:
+        data = json.loads(payload["text"])
+    except Exception:
+        print("   ⚠️ api JSON parse failed")
+        return []
+
+    found: list[dict[str, Any]] = []
+    # Prefer top-level products arrays when present (Sainsbury's).
+    if isinstance(data, dict) and isinstance(data.get("products"), list):
+        _walk_for_products(data["products"], found, cfg)
+    else:
+        _walk_for_products(data, found, cfg)
+    return found[: cfg.max_per_query]
+
+
 def attach_json_sniffer(page: Page, cfg: StoreSearchConfig, bucket: list[dict[str, Any]]) -> None:
     def on_response(response: Response) -> None:
         try:
             ctype = (response.headers.get("content-type") or "").lower()
-            if "json" not in ctype:
-                return
+            url = response.url
+            url_l = url.lower()
             if response.status != 200:
+                return
+            if "json" not in ctype and not any(
+                token in url_l for token in ("/api/", "search", "product", "graphql", "commerce")
+            ):
                 return
             data = response.json()
         except Exception:
             return
         found: list[dict[str, Any]] = []
         _walk_for_products(data, found, cfg)
-        bucket.extend(found)
+        if not found:
+            return
+        # Prefer dedicated search endpoints over category trees / analytics.
+        priority = 0
+        if any(token in url_l for token in ("product-search", "/search", "gol-services/product")):
+            priority = 2
+        elif "product" in url_l:
+            priority = 1
+        bucket.append({"priority": priority, "url": url, "products": found})
 
     page.on("response", on_response)
+
+
+def best_sniffed_products(
+    sniffed: list[dict[str, Any]], max_count: int
+) -> list[dict[str, Any]]:
+    if not sniffed:
+        return []
+    # Newest highest-priority search payload wins.
+    ranked = sorted(
+        sniffed,
+        key=lambda row: (int(row.get("priority") or 0), sniffed.index(row)),
+        reverse=True,
+    )
+    for row in ranked:
+        products = row.get("products") or []
+        if products:
+            return products[:max_count]
+    return []
 
 
 def dedupe_raw(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -350,37 +491,104 @@ def scrape_store_search(
         user_agent=DEFAULT_USER_AGENT,
         locale="en-GB",
         viewport={"width": 1400, "height": 900},
+        extra_http_headers={
+            "Accept-Language": "en-GB,en;q=0.9",
+        },
+    )
+    # Soften automation fingerprint a bit for UK retailer bot walls.
+    context.add_init_script(
+        "Object.defineProperty(navigator, 'webdriver', { get: () => undefined });"
     )
     all_products: list[dict[str, Any]] = []
     env_limit = os.environ.get("UK_MAX_QUERIES")
     max_queries = int(env_limit) if env_limit and env_limit.isdigit() else cfg.max_queries
     query_list = (queries or SEED_QUERIES)[: max_queries]
 
+    warm = cfg.warm_url or cfg.base_url
+    sticky_page: Page | None = None
+    try:
+        warm_page = context.new_page()
+        configure_page(warm_page)
+        goto_resilient(warm_page, warm, timeout=45000, retries=2)
+        accept_uk_cookies(warm_page)
+        warm_page.wait_for_timeout(1500)
+        print(f"🏠 [{cfg.slug}] warmed {warm}")
+        if cfg.api_url:
+            sticky_page = warm_page
+        else:
+            warm_page.close()
+    except Exception as err:
+        print(f"   ⚠️ warm failed: {type(err).__name__}: {err}")
+
     for query in query_list:
         url = cfg.search_url(query)
         print(f"\n🔍 [{cfg.slug}] {query} → {url}")
-        page = context.new_page()
-        configure_page(page)
+        batch: list[dict[str, Any]] = []
+        page = sticky_page
+        owned_page = False
+        if page is None:
+            page = context.new_page()
+            configure_page(page)
+            owned_page = True
         sniffed: list[dict[str, Any]] = []
         attach_json_sniffer(page, cfg, sniffed)
         try:
-            goto_resilient(page, url, timeout=45000, retries=2)
-            accept_uk_cookies(page)
-            try:
-                page.wait_for_selector("a[href*='/products/'], a[href*='/product/']", timeout=15000)
-            except Exception:
-                page.wait_for_timeout(cfg.settle_ms)
-            page.wait_for_timeout(1200)
-            # Nudge lazy loaders
-            page.mouse.wheel(0, 2400)
-            page.wait_for_timeout(800)
+            if cfg.api_url:
+                batch = harvest_api_json(page, cfg, query)
+            if not batch:
+                # Capture search JSON while the results page loads (Aldi/Morrisons).
+                search_json_holder: list[Any] = []
 
-            batch = extract_from_cards(page, cfg)
-            if not batch:
-                batch = extract_json_ld(page, cfg)
-            if not batch:
-                # Use recently sniffed network products for this page.
-                batch = sniffed[-cfg.max_per_query :]
+                def _capture_search(response: Response) -> None:
+                    try:
+                        u = response.url.lower()
+                        if response.status != 200:
+                            return
+                        if not any(
+                            token in u
+                            for token in ("product-search", "gol-services/product", "/api/search")
+                        ):
+                            return
+                        search_json_holder.append(response.json())
+                    except Exception:
+                        return
+
+                page.on("response", _capture_search)
+                goto_resilient(page, url, timeout=45000, retries=2)
+                accept_uk_cookies(page)
+                try:
+                    page.wait_for_selector(
+                        "a[href*='/products/'], a[href*='/product/'], a[href*='/p/'], [class*='product'], [data-auto='product-tile']",
+                        timeout=18000,
+                    )
+                except Exception:
+                    page.wait_for_timeout(cfg.settle_ms)
+                page.wait_for_timeout(1500)
+                for _ in range(3):
+                    page.mouse.wheel(0, 2200)
+                    page.wait_for_timeout(700)
+
+                if search_json_holder:
+                    found: list[dict[str, Any]] = []
+                    _walk_for_products(search_json_holder[-1], found, cfg)
+                    if found:
+                        batch = found[: cfg.max_per_query]
+
+                if not batch:
+                    batch = extract_from_cards(page, cfg)
+                if not batch:
+                    batch = extract_json_ld(page, cfg)
+                if not batch:
+                    batch = best_sniffed_products(sniffed, cfg.max_per_query)
+                sniffed_batch = best_sniffed_products(sniffed, cfg.max_per_query)
+                if sniffed_batch and (
+                    not batch
+                    or (
+                        any(int(row.get("priority") or 0) >= 2 for row in sniffed)
+                        and len(sniffed_batch) >= len(batch)
+                    )
+                ):
+                    batch = sniffed_batch
             before = len(all_products)
             all_products.extend(batch)
             all_products = dedupe_raw(all_products)
@@ -389,8 +597,12 @@ def scrape_store_search(
         except Exception as err:
             print(f"   ⚠️ query failed: {type(err).__name__}: {err}")
         finally:
-            page.close()
-        time.sleep(2.0)
+            if owned_page and page is not None:
+                page.close()
+        time.sleep(1.2)
+
+    if sticky_page is not None:
+        sticky_page.close()
 
     context.close()
     browser.close()
@@ -405,5 +617,5 @@ def quote_query(query: str) -> str:
 
 
 def price_from_text_blob(text: str) -> str | None:
-    match = re.search(r"£\s*\d+(?:\.\d{1,2})?", text or "")
+    match = re.search(r"£\s*\d+(?:[.,]\d{1,2})?", text or "")
     return parse_gbp_price(match.group(0)) if match else None
