@@ -4,7 +4,11 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
-from links2 import links
+from links import links as food_links
+from links2 import links as household_links
+
+# Full Dirk catalog = food categories (links.py) + household/drugstore/etc (links2.py).
+links = list(dict.fromkeys([*food_links, *household_links]))
 
 def _repo_root():
     from pathlib import Path
@@ -48,6 +52,10 @@ OPTIONAL_URL_PARTS = (
     "/verse-sauzen",
     "/biologische-snacks-snoep",
     "/seizoens-zoetwaren",
+    "/non-food/",
+    "/aanbiedingen",
+    "/kanskoopjes",
+    "/kantoorartikelen",
 )
 
 product_data: list[dict] = []

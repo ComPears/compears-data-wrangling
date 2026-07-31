@@ -45,7 +45,7 @@
           "display_name": "Dirk",
           "dir": "countries/nl/dirk",
           "catalog": "dirk_all.json",
-          "minimum_products": 2500,
+          "minimum_products": 4500,
           "pipeline": [
             "main.py",
             "seperate.py",
@@ -62,7 +62,7 @@
           "display_name": "Lidl",
           "dir": "countries/nl/lidl",
           "catalog": "lidl_structured.json",
-          "minimum_products": 80,
+          "minimum_products": 800,
           "pipeline": ["main.py", "structure.py", "clean_lidl.py"],
           "intermediate_globs": ["lidl.json"],
           "playwright": true
