@@ -107,13 +107,14 @@
     "n": "Sainsbury's British Semi Skimmed Milk 1 Pint",
     "p": "0.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/173759/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-semi-skimmed-milk-1-pint",
     "c": "Other",
     "cn": "sainsburys british milk pint sainsbury semi skimmed",
-    "ik": "tok:sainsburys|british-milk-pint-sainsbury-semi-skimmed|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|british-milk-pint-sainsbury-semi-skimmed|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's British Semi Skimmed Milk, So Organic 2.27L (4 pint)",
@@ -1198,25 +1199,27 @@
     "n": "Sainsbury's Bake At Home White Baguettes x2",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1344899/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-bake-at-home-white-baguettes-x2",
     "c": "Other",
     "cn": "sainsburys at baguettes bake home sainsbury white x2",
-    "ik": "tok:sainsburys|at-baguettes-bake-home-sainsbury-white-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|at-baguettes-bake-home-sainsbury-white-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Jason's Sourdough Grains & Seeds Ciabatt Bread",
     "p": "2.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8127550/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/jason-s-sourdough-grains-seeds-ciabatt-bread",
     "c": "Other",
     "cn": "jasons bread ciabatt grains jason seeds sourdough",
-    "ik": "tok:jasons|bread-ciabatt-grains-jason-seeds-sourdough|na",
-    "bn": "jasons"
+    "ik": "tok:jasons|bread-ciabatt-grains-jason-seeds-sourdough|1",
+    "bn": "jasons",
+    "wg": 1
   },
   {
     "n": "Warburtons Medium Wholemeal Bread 800g",
@@ -1391,13 +1394,14 @@
     "n": "Warburtons Soft Sliced White Rolls x12",
     "p": "1.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/2690483/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/warburtons-soft-sliced-white-rolls-x12",
     "c": "Other",
     "cn": "warburtons rolls sliced soft white x12",
-    "ik": "tok:warburtons|rolls-sliced-soft-white-x12|na",
-    "bn": "warburtons"
+    "ik": "tok:warburtons|rolls-sliced-soft-white-x12|1",
+    "bn": "warburtons",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Multiseed Loaf Bread, Taste The Difference 800g",
@@ -1806,13 +1810,14 @@
     "n": "Sainsbury's Bake At Home Brown Baguettes x2",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6633244/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-bake-at-home-brown-baguettes-x2",
     "c": "Other",
     "cn": "sainsburys at baguettes bake brown home sainsbury x2",
-    "ik": "tok:sainsburys|at-baguettes-bake-brown-home-sainsbury-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|at-baguettes-bake-brown-home-sainsbury-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Black Sheep Malted Bloomer Bread 800g",
@@ -1960,49 +1965,53 @@
     "n": "Sainsbury's British Free Range Eggs Large x6",
     "p": "2.10",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6334094/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-free-range-eggs-large-x6",
     "c": "Other",
     "cn": "sainsburys british eggs free large range sainsbury x6",
-    "ik": "tok:sainsburys|british-eggs-free-large-range-sainsbury-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|british-eggs-free-large-range-sainsbury-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's British Free Range Eggs Medium x6",
     "p": "1.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6334096/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-free-range-eggs-medium-x6",
     "c": "Other",
     "cn": "sainsburys british eggs free medium range sainsbury x6",
-    "ik": "tok:sainsburys|british-eggs-free-medium-range-sainsbury-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|british-eggs-free-medium-range-sainsbury-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's British Free Range Eggs Large x12",
     "p": "3.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6468897/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-free-range-eggs-large-x12",
     "c": "Other",
     "cn": "sainsburys british eggs free large range sainsbury x12",
-    "ik": "tok:sainsburys|british-eggs-free-large-range-sainsbury-x12|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|british-eggs-free-large-range-sainsbury-x12|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's British Free Range Eggs Medium x12",
     "p": "2.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6468901/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-free-range-eggs-medium-x12",
     "c": "Other",
     "cn": "sainsburys british eggs free medium range sainsbury x12",
-    "ik": "tok:sainsburys|british-eggs-free-medium-range-sainsbury-x12|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|british-eggs-free-medium-range-sainsbury-x12|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Stamford Street Co. Mixed Size British Eggs Free Range x10 490g",
@@ -2021,25 +2030,27 @@
     "n": "Sainsbury's Free Range British Eggs Medium x15",
     "p": "3.55",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8008635/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-free-range-british-eggs-medium-x15",
     "c": "Other",
     "cn": "sainsburys british eggs free medium range sainsbury x15",
-    "ik": "tok:sainsburys|british-eggs-free-medium-range-sainsbury-x15|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|british-eggs-free-medium-range-sainsbury-x15|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Free Range Golden Yolk Eggs, Taste The Difference x12",
     "p": "4.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8186900/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-free-range-golden-yolk-eggs-taste-the-difference-x12",
     "c": "Other",
     "cn": "sainsburys difference eggs free golden range sainsbury taste the x12 yolk",
-    "ik": "tok:sainsburys|difference-eggs-free-golden-range-sainsbury-taste-the-x12-yolk|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|difference-eggs-free-golden-range-sainsbury-taste-the-x12-yolk|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Golden Yolk Free Range British Eggs, Taste The Difference x6 328g",
@@ -2058,85 +2069,92 @@
     "n": "Sainsbury's Woodland Free Range Mixed Weight Eggs, So Organic x12",
     "p": "4.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6918898/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-woodland-free-range-mixed-weight-eggs-so-organic-x12",
     "c": "Other",
     "cn": "sainsburys eggs free mixed organic range sainsbury so weight woodland x12",
-    "ik": "tok:sainsburys|eggs-free-mixed-organic-range-sainsbury-so-weight-woodland-x12|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|eggs-free-mixed-organic-range-sainsbury-so-weight-woodland-x12|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Clarence Court Mabel Pearmans's Burford Brown Medium Free Range Eggs x6",
     "p": "3.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8056425/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/clarence-court-mabel-pearmans-s-burford-brown-medium-free-range-eggs-x6",
     "c": "Other",
     "cn": "clarence brown burford court eggs free mabel medium pearmans range x6",
-    "ik": "tok:clarence|brown-burford-court-eggs-free-mabel-medium-pearmans-range-x6|na",
-    "bn": "clarence"
+    "ik": "tok:clarence|brown-burford-court-eggs-free-mabel-medium-pearmans-range-x6|1",
+    "bn": "clarence",
+    "wg": 1
   },
   {
     "n": "Sainsbury's British Free Range Eggs Extra Large x6",
     "p": "2.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6468905/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-free-range-eggs-extra-large-x6",
     "c": "Other",
     "cn": "sainsburys british eggs extra free large range sainsbury x6",
-    "ik": "tok:sainsburys|british-eggs-extra-free-large-range-sainsbury-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|british-eggs-extra-free-large-range-sainsbury-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Woodland Free Range Large Eggs, So Organic x6",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6379763/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-woodland-free-range-large-eggs-so-organic-x6",
     "c": "Other",
     "cn": "sainsburys eggs free large organic range sainsbury so woodland x6",
-    "ik": "tok:sainsburys|eggs-free-large-organic-range-sainsbury-so-woodland-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|eggs-free-large-organic-range-sainsbury-so-woodland-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Clarence Court Mabel Pearmans's Burford Browns Large Free Range Eggs x6",
     "p": "3.10",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7984249/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/clarence-court-mabel-pearmans-s-burford-browns-large-free-range-eggs-x6",
     "c": "Other",
     "cn": "clarence browns burford court eggs free large mabel pearmans range x6",
-    "ik": "tok:clarence|browns-burford-court-eggs-free-large-mabel-pearmans-range-x6|na",
-    "bn": "clarence"
+    "ik": "tok:clarence|browns-burford-court-eggs-free-large-mabel-pearmans-range-x6|1",
+    "bn": "clarence",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Woodland Free Range Medium Eggs, So Organic x6",
     "p": "2.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6379768/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-woodland-free-range-medium-eggs-so-organic-x6",
     "c": "Other",
     "cn": "sainsburys eggs free medium organic range sainsbury so woodland x6",
-    "ik": "tok:sainsburys|eggs-free-medium-organic-range-sainsbury-so-woodland-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|eggs-free-medium-organic-range-sainsbury-so-woodland-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "The Happy Egg Co. Free Range Large x6",
     "p": "2.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6921094/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/the-happy-egg-co-free-range-large-x6",
     "c": "Other",
     "cn": "the co egg free happy large range x6",
-    "ik": "tok:the|co-egg-free-happy-large-range-x6|na",
-    "bn": "the"
+    "ik": "tok:the|co-egg-free-happy-large-range-x6|1",
+    "bn": "the",
+    "wg": 1
   },
   {
     "n": "Two Chicks Liquid Egg White 500g",
@@ -2155,13 +2173,14 @@
     "n": "The Happy Egg Co. Free Range Large x10",
     "p": "4.10",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7184395/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/the-happy-egg-co-free-range-large-x10",
     "c": "Other",
     "cn": "the co egg free happy large range x10",
-    "ik": "tok:the|co-egg-free-happy-large-range-x10|na",
-    "bn": "the"
+    "ik": "tok:the|co-egg-free-happy-large-range-x10|1",
+    "bn": "the",
+    "wg": 1
   },
   {
     "n": "Purely Organic Free Range Eggs x10 540g",
@@ -2180,13 +2199,14 @@
     "n": "Sainsbury's Free Range Eden Maran Brown Eggs, Taste The Difference x6",
     "p": "2.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8186895/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-free-range-eden-maran-brown-eggs-taste-the-difference-x6",
     "c": "Other",
     "cn": "sainsburys brown difference eden eggs free maran range sainsbury taste the x6",
-    "ik": "tok:sainsburys|brown-difference-eden-eggs-free-maran-range-sainsbury-taste-the-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|brown-difference-eden-eggs-free-maran-range-sainsbury-taste-the-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "The Happy Egg Co. Free Range Mixed Sizes x10 497g",
@@ -2205,73 +2225,79 @@
     "n": "St. Ewe Original Large Free Range Eggs Pack x10",
     "p": "4.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8232493/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/st-ewe-original-large-free-range-eggs-pack-x10",
     "c": "Other",
     "cn": "ewe eggs free large original pack range x10",
-    "ik": "tok:ewe|eggs-free-large-original-pack-range-x10|na",
-    "bn": "ewe"
+    "ik": "tok:ewe|eggs-free-large-original-pack-range-x10|1",
+    "bn": "ewe",
+    "wg": 1
   },
   {
     "n": "The Happy Egg Co. Free Range Medium x6",
     "p": "2.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6921050/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/the-happy-egg-co-free-range-medium-x6",
     "c": "Other",
     "cn": "the co egg free happy medium range x6",
-    "ik": "tok:the|co-egg-free-happy-medium-range-x6|na",
-    "bn": "the"
+    "ik": "tok:the|co-egg-free-happy-medium-range-x6|1",
+    "bn": "the",
+    "wg": 1
   },
   {
     "n": "Freshlay Family Run Farms Golden Yolks Free Range Eggs x10",
     "p": "4.10",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8113177/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/freshlay-family-run-farms-golden-yolks-free-range-eggs-x10",
     "c": "Other",
     "cn": "freshlay eggs family farms free golden range run x10 yolks",
-    "ik": "tok:freshlay|eggs-family-farms-free-golden-range-run-x10-yolks|na",
-    "bn": "freshlay"
+    "ik": "tok:freshlay|eggs-family-farms-free-golden-range-run-x10-yolks|1",
+    "bn": "freshlay",
+    "wg": 1
   },
   {
     "n": "St. Ewe Rich Yolk Free Range Eggs x10",
     "p": "4.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8239764/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/st-ewe-rich-yolk-free-range-eggs-x10",
     "c": "Other",
     "cn": "ewe eggs free range rich x10 yolk",
-    "ik": "tok:ewe|eggs-free-range-rich-x10-yolk|na",
-    "bn": "ewe"
+    "ik": "tok:ewe|eggs-free-range-rich-x10-yolk|1",
+    "bn": "ewe",
+    "wg": 1
   },
   {
     "n": "Clarence Court Traditional Leghorn Whites Large Free Range Eggs x6",
     "p": "3.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8219936/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/clarence-court-traditional-leghorn-whites-large-free-range-eggs-x6",
     "c": "Other",
     "cn": "clarence court eggs free large leghorn range traditional whites x6",
-    "ik": "tok:clarence|court-eggs-free-large-leghorn-range-traditional-whites-x6|na",
-    "bn": "clarence"
+    "ik": "tok:clarence|court-eggs-free-large-leghorn-range-traditional-whites-x6|1",
+    "bn": "clarence",
+    "wg": 1
   },
   {
     "n": "Stonegate Estate Organic Eggs Large x6",
     "p": "4.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8135959/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/stonegate-estate-organic-eggs-large-x6",
     "c": "Other",
     "cn": "stonegate eggs estate large organic x6",
-    "ik": "tok:stonegate|eggs-estate-large-organic-x6|na",
-    "bn": "stonegate"
+    "ik": "tok:stonegate|eggs-estate-large-organic-x6|1",
+    "bn": "stonegate",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Free Range British Eggs, Taste The Difference x6 300g",
@@ -2290,25 +2316,27 @@
     "n": "St. Ewe Rich Yolk Luxuriously Large Free Range Eggs x6",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8239760/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/st-ewe-rich-yolk-luxuriously-large-free-range-eggs-x6",
     "c": "Other",
     "cn": "ewe eggs free large luxuriously range rich x6 yolk",
-    "ik": "tok:ewe|eggs-free-large-luxuriously-range-rich-x6-yolk|na",
-    "bn": "ewe"
+    "ik": "tok:ewe|eggs-free-large-luxuriously-range-rich-x6-yolk|1",
+    "bn": "ewe",
+    "wg": 1
   },
   {
     "n": "St. Ewe Original Large Eggs x6",
     "p": "2.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6907855/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/st-ewe-original-large-eggs-x6",
     "c": "Other",
     "cn": "ewe eggs large original x6",
-    "ik": "tok:ewe|eggs-large-original-x6|na",
-    "bn": "ewe"
+    "ik": "tok:ewe|eggs-large-original-x6|1",
+    "bn": "ewe",
+    "wg": 1
   },
   {
     "n": "St. Ewe Mixed Weight Rich Yolk Eggs x6 288g",
@@ -2351,13 +2379,14 @@
     "n": "St. Ewe Original Medium Eggs x6",
     "p": "2.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6907826/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/st-ewe-original-medium-eggs-x6",
     "c": "Other",
     "cn": "ewe eggs medium original x6",
-    "ik": "tok:ewe|eggs-medium-original-x6|na",
-    "bn": "ewe"
+    "ik": "tok:ewe|eggs-medium-original-x6|1",
+    "bn": "ewe",
+    "wg": 1
   },
   {
     "n": "St. Ewe Free Range Super Eggs x6 288g",
@@ -2376,13 +2405,14 @@
     "n": "Sainsbury's Free Range Egg & Cress On Malted Bread Sandwich",
     "p": "1.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7797628/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-free-range-egg-cress-on-malted-bread-sandwich",
     "c": "Other",
     "cn": "sainsburys bread cress egg free malted on range sainsbury sandwich",
-    "ik": "tok:sainsburys|bread-cress-egg-free-malted-on-range-sainsbury-sandwich|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bread-cress-egg-free-malted-on-range-sainsbury-sandwich|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's 90g Free Range Egg Pot",
@@ -2401,13 +2431,14 @@
     "n": "Sainsbury's Bacon & Free Range Egg On Malted Bread Sandwich",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7798974/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-bacon-free-range-egg-on-malted-bread-sandwich",
     "c": "Other",
     "cn": "sainsburys bacon bread egg free malted on range sainsbury sandwich",
-    "ik": "tok:sainsburys|bacon-bread-egg-free-malted-on-range-sainsbury-sandwich|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bacon-bread-egg-free-malted-on-range-sainsbury-sandwich|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's British Butter, Salted 250g",
@@ -4344,85 +4375,92 @@
     "n": "Sainsbury's Fairtrade Bananas x5",
     "p": "0.78",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7430790/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-fairtrade-bananas-x5",
     "c": "Other",
     "cn": "sainsburys bananas fairtrade sainsbury x5",
-    "ik": "tok:sainsburys|bananas-fairtrade-sainsbury-x5|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bananas-fairtrade-sainsbury-x5|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Bananas Loose",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1196757/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-bananas-loose",
     "c": "Other",
     "cn": "sainsburys bananas loose sainsbury",
-    "ik": "tok:sainsburys|bananas-loose-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bananas-loose-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Fairtrade Bananas x8",
     "p": "1.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7553276/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-fairtrade-bananas-x8",
     "c": "Other",
     "cn": "sainsburys bananas fairtrade sainsbury x8",
-    "ik": "tok:sainsburys|bananas-fairtrade-sainsbury-x8|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bananas-fairtrade-sainsbury-x8|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Small Bananas, Fairtrade x8",
     "p": "1.05",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/343510/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-small-bananas-fairtrade-x8",
     "c": "Other",
     "cn": "sainsburys bananas fairtrade sainsbury small x8",
-    "ik": "tok:sainsburys|bananas-fairtrade-sainsbury-small-x8|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bananas-fairtrade-sainsbury-small-x8|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Fairtrade Bananas, So Organic x6",
     "p": "1.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1129441/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-fairtrade-bananas-so-organic-x6",
     "c": "Other",
     "cn": "sainsburys bananas fairtrade organic sainsbury so x6",
-    "ik": "tok:sainsburys|bananas-fairtrade-organic-sainsbury-so-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bananas-fairtrade-organic-sainsbury-so-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Royal Gala Apples x6",
     "p": "0.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/323628/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-royal-gala-apples-x6",
     "c": "Other",
     "cn": "sainsburys apples gala royal sainsbury x6",
-    "ik": "tok:sainsburys|apples-gala-royal-sainsbury-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-gala-royal-sainsbury-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Pink Lady Apples, So Organic x6",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1279450/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-pink-lady-apples-so-organic-x6",
     "c": "Other",
     "cn": "sainsburys apples lady organic pink sainsbury so x6",
-    "ik": "tok:sainsburys|apples-lady-organic-pink-sainsbury-so-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-lady-organic-pink-sainsbury-so-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's 6 X Pink Lady Apples",
@@ -4440,85 +4478,92 @@
     "n": "Sainsbury's Braeburn Apples x6",
     "p": "1.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/332286/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-braeburn-apples-x6",
     "c": "Other",
     "cn": "sainsburys apples braeburn sainsbury x6",
-    "ik": "tok:sainsburys|apples-braeburn-sainsbury-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-braeburn-sainsbury-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Pink Lady Apples x4",
     "p": "2.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1333114/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-pink-lady-apples-x4",
     "c": "Other",
     "cn": "sainsburys apples lady pink sainsbury x4",
-    "ik": "tok:sainsburys|apples-lady-pink-sainsbury-x4|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-lady-pink-sainsbury-x4|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Granny Smith Apples x6",
     "p": "1.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/9126/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-granny-smith-apples-x6",
     "c": "Other",
     "cn": "sainsburys apples granny sainsbury smith x6",
-    "ik": "tok:sainsburys|apples-granny-sainsbury-smith-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-granny-sainsbury-smith-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Stamford Street Co. Mini Apples x6",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8053406/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-mini-apples-x6",
     "c": "Other",
     "cn": "stamford apples co mini street x6",
-    "ik": "tok:stamford|apples-co-mini-street-x6|na",
-    "bn": "stamford"
+    "ik": "tok:stamford|apples-co-mini-street-x6|1",
+    "bn": "stamford",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Best Of British Apples x6",
     "p": "1.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7659897/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-best-of-british-apples-x6",
     "c": "Other",
     "cn": "sainsburys apples best british of sainsbury x6",
-    "ik": "tok:sainsburys|apples-best-british-of-sainsbury-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-best-british-of-sainsbury-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Jazz Apples x6",
     "p": "2.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6853549/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-jazz-apples-x6",
     "c": "Other",
     "cn": "sainsburys apples jazz sainsbury x6",
-    "ik": "tok:sainsburys|apples-jazz-sainsbury-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-jazz-sainsbury-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Royal Gala Apples, So Organic x6",
     "p": "2.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/455664/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-royal-gala-apples-so-organic-x6",
     "c": "Other",
     "cn": "sainsburys apples gala organic royal sainsbury so x6",
-    "ik": "tok:sainsburys|apples-gala-organic-royal-sainsbury-so-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-gala-organic-royal-sainsbury-so-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Apples 1kg",
@@ -4537,109 +4582,118 @@
     "n": "Sainsbury's Pink Lady Apple Single",
     "p": "0.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6617988/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-pink-lady-apple-single",
     "c": "Other",
     "cn": "sainsburys apple lady pink sainsbury single",
-    "ik": "tok:sainsburys|apple-lady-pink-sainsbury-single|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apple-lady-pink-sainsbury-single|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's British Bramley Cooking Apples Loose",
     "p": "2.55",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1191851/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-british-bramley-cooking-apples-loose",
     "c": "Other",
     "cn": "sainsburys apples bramley british cooking loose sainsbury",
-    "ik": "tok:sainsburys|apples-bramley-british-cooking-loose-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-bramley-british-cooking-loose-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Golden Delicious Apples x6",
     "p": "1.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/10665/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-golden-delicious-apples-x6",
     "c": "Other",
     "cn": "sainsburys apples delicious golden sainsbury x6",
-    "ik": "tok:sainsburys|apples-delicious-golden-sainsbury-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-delicious-golden-sainsbury-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Braeburn Apple Single",
     "p": "0.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6617773/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-braeburn-apple-single",
     "c": "Other",
     "cn": "sainsburys apple braeburn sainsbury single",
-    "ik": "tok:sainsburys|apple-braeburn-sainsbury-single|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apple-braeburn-sainsbury-single|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Kanzi Apples x6",
     "p": "1.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7882935/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-kanzi-apples-x6",
     "c": "Other",
     "cn": "sainsburys apples kanzi sainsbury x6",
-    "ik": "tok:sainsburys|apples-kanzi-sainsbury-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-kanzi-sainsbury-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Royal Gala Single Apple",
     "p": "0.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6617755/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-royal-gala-single-apple",
     "c": "Other",
     "cn": "sainsburys apple gala royal sainsbury single",
-    "ik": "tok:sainsburys|apple-gala-royal-sainsbury-single|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apple-gala-royal-sainsbury-single|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Granny Smith Apples Single",
     "p": "0.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7533845/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-granny-smith-apples-single",
     "c": "Other",
     "cn": "sainsburys apples granny sainsbury single smith",
-    "ik": "tok:sainsburys|apples-granny-sainsbury-single-smith|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-granny-sainsbury-single-smith|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Jazz Apples x4",
     "p": "2.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7574642/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-jazz-apples-x4",
     "c": "Other",
     "cn": "sainsburys apples jazz sainsbury x4",
-    "ik": "tok:sainsburys|apples-jazz-sainsbury-x4|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-jazz-sainsbury-x4|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Apples, So Organic",
     "p": "2.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6892831/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-apples-so-organic",
     "c": "Other",
     "cn": "sainsburys apples organic sainsbury so",
-    "ik": "tok:sainsburys|apples-organic-sainsbury-so|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|apples-organic-sainsbury-so|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Apple, Grape & Strawberry 135g",
@@ -4671,13 +4725,14 @@
     "n": "Sainsbury's Baby Gems Potatoes, Summer Edition, Taste The Difference",
     "p": "0.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7915748/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-baby-gems-potatoes-summer-edition-taste-the-difference",
     "c": "Personal Care",
     "cn": "sainsburys baby difference edition gems potatoes sainsbury summer taste the",
-    "ik": "tok:sainsburys|baby-difference-edition-gems-potatoes-sainsbury-summer-taste-the|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|baby-difference-edition-gems-potatoes-sainsbury-summer-taste-the|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Maris Piper Potatoes 2kg",
@@ -4696,13 +4751,14 @@
     "n": "Sainsbury's Baking Potatoes x4",
     "p": "0.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/671682/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-baking-potatoes-x4",
     "c": "Other",
     "cn": "sainsburys baking potatoes sainsbury x4",
-    "ik": "tok:sainsburys|baking-potatoes-sainsbury-x4|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|baking-potatoes-sainsbury-x4|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's 1kg Baby Potatoes",
@@ -4734,37 +4790,40 @@
     "n": "Sainsbury's Sweet Potatoes Loose",
     "p": "1.16",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8232096/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweet-potatoes-loose",
     "c": "Other",
     "cn": "sainsburys loose potatoes sainsbury sweet",
-    "ik": "tok:sainsburys|loose-potatoes-sainsbury-sweet|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|loose-potatoes-sainsbury-sweet|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Baking Potatoes (Loose)",
     "p": "0.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1193961/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-baking-potatoes-loose",
     "c": "Other",
     "cn": "sainsburys baking loose potatoes sainsbury",
-    "ik": "tok:sainsburys|baking-loose-potatoes-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|baking-loose-potatoes-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Vivaldi Baking Potatoes, Taste The Difference x4 (minimum)",
     "p": "1.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6357627/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-vivaldi-baking-potatoes-taste-the-difference-x4-minimum",
     "c": "Other",
     "cn": "sainsburys baking difference minimum potatoes sainsbury taste the vivaldi x4",
-    "ik": "tok:sainsburys|baking-difference-minimum-potatoes-sainsbury-taste-the-vivaldi-x4|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|baking-difference-minimum-potatoes-sainsbury-taste-the-vivaldi-x4|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Sweet Potato 1.25kg",
@@ -5017,13 +5076,14 @@
     "n": "Sainsbury's Baking Sweet Potatoes x2",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7731419/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-baking-sweet-potatoes-x2",
     "c": "Other",
     "cn": "sainsburys baking potatoes sainsbury sweet x2",
-    "ik": "tok:sainsburys|baking-potatoes-sainsbury-sweet-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|baking-potatoes-sainsbury-sweet-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Mini Crispy Potatoes 700g",
@@ -5185,13 +5245,14 @@
     "n": "Sainsbury's Classic Round Tomatoes x6",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/606516/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-classic-round-tomatoes-x6",
     "c": "Other",
     "cn": "sainsburys classic round sainsbury tomatoes x6",
-    "ik": "tok:sainsburys|classic-round-sainsbury-tomatoes-x6|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|classic-round-sainsbury-tomatoes-x6|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Cherry Tomatoes 300g",
@@ -5327,13 +5388,14 @@
     "n": "Sainsbury's Tomatoes Loose",
     "p": "1.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1192131/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tomatoes-loose",
     "c": "Other",
     "cn": "sainsburys loose sainsbury tomatoes",
-    "ik": "tok:sainsburys|loose-sainsbury-tomatoes|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|loose-sainsbury-tomatoes|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Large Tomatoes, So Organic 400g",
@@ -5365,13 +5427,14 @@
     "n": "Sainsbury's Beef Tomato Single, Taste The Difference",
     "p": "1.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8087610/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-beef-tomato-single-taste-the-difference",
     "c": "Other",
     "cn": "sainsburys beef difference sainsbury single taste the tomato",
-    "ik": "tok:sainsburys|beef-difference-sainsbury-single-taste-the-tomato|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|beef-difference-sainsbury-single-taste-the-tomato|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Plum Tomatoes 500g",
@@ -5403,49 +5466,53 @@
     "n": "Sainsbury's Brown Onions x3",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/131544/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-brown-onions-x3",
     "c": "Other",
     "cn": "sainsburys brown onions sainsbury x3",
-    "ik": "tok:sainsburys|brown-onions-sainsbury-x3|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|brown-onions-sainsbury-x3|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Red Onions x3",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/438506/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsbury-s-red-onions-x3",
     "c": "Other",
     "cn": "red onions sainsbury x3",
-    "ik": "tok:red|onions-sainsbury-x3|na",
-    "bn": "red"
+    "ik": "tok:red|onions-sainsbury-x3|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Red Onions Loose",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1195477/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-red-onions-loose",
     "c": "Other",
     "cn": "red loose onions sainsbury",
-    "ik": "tok:red|loose-onions-sainsbury|na",
-    "bn": "red"
+    "ik": "tok:red|loose-onions-sainsbury|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Onions Loose",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1192094/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-onions-loose",
     "c": "Other",
     "cn": "sainsburys loose onions sainsbury",
-    "ik": "tok:sainsburys|loose-onions-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|loose-onions-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Onions 1kg",
@@ -5477,13 +5544,14 @@
     "n": "Sainsbury's Large Spring Onions",
     "p": "1.10",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/628297/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-large-spring-onions",
     "c": "Other",
     "cn": "sainsburys large onions sainsbury spring",
-    "ik": "tok:sainsburys|large-onions-sainsbury-spring|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|large-onions-sainsbury-spring|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Echalion Shallots 400g",
@@ -5528,13 +5596,14 @@
     "n": "Sainsbury's Red Spring Onions, Taste The Difference",
     "p": "1.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7932100/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-red-spring-onions-taste-the-difference",
     "c": "Other",
     "cn": "red difference onions sainsbury spring taste the",
-    "ik": "tok:red|difference-onions-sainsbury-spring-taste-the|na",
-    "bn": "red"
+    "ik": "tok:red|difference-onions-sainsbury-spring-taste-the|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Onions, So Organic 750g",
@@ -5566,13 +5635,14 @@
     "n": "Sainsbury's Sweet Onions, Taste The Difference x3",
     "p": "1.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6742827/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweet-onions-taste-the-difference-x3",
     "c": "Other",
     "cn": "sainsburys difference onions sainsbury sweet taste the x3",
-    "ik": "tok:sainsburys|difference-onions-sainsbury-sweet-taste-the-x3|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|difference-onions-sainsbury-sweet-taste-the-x3|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Shallots 400g",
@@ -5591,25 +5661,27 @@
     "n": "Sainsbury's Extra Large Brown Onions x2",
     "p": "1.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8092264/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-extra-large-brown-onions-x2",
     "c": "Other",
     "cn": "sainsburys brown extra large onions sainsbury x2",
-    "ik": "tok:sainsburys|brown-extra-large-onions-sainsbury-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|brown-extra-large-onions-sainsbury-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Stamford Street Co. Onions",
     "p": "0.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7900847/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-onions",
     "c": "Other",
     "cn": "stamford co onions street",
-    "ik": "tok:stamford|co-onions-street|na",
-    "bn": "stamford"
+    "ik": "tok:stamford|co-onions-street|1",
+    "bn": "stamford",
+    "wg": 1
   },
   {
     "n": "Sainsbury's 1kg Carrots",
@@ -5628,13 +5700,14 @@
     "n": "Sainsbury's Loose Carrots",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1192049/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-loose-carrots",
     "c": "Other",
     "cn": "sainsburys carrots loose sainsbury",
-    "ik": "tok:sainsburys|carrots-loose-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|carrots-loose-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's 500g Carrots",
@@ -6199,49 +6272,53 @@
     "n": "Sainsbury's Whole Cucumber",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/62/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-cucumber",
     "c": "Other",
     "cn": "sainsburys cucumber sainsbury whole",
-    "ik": "tok:sainsburys|cucumber-sainsbury-whole|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|cucumber-sainsbury-whole|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Small Whole Cucumber",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8121264/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-small-whole-cucumber",
     "c": "Other",
     "cn": "sainsburys cucumber sainsbury small whole",
-    "ik": "tok:sainsburys|cucumber-sainsbury-small-whole|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|cucumber-sainsbury-small-whole|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Large Whole Cucumber",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/680646/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-large-whole-cucumber",
     "c": "Other",
     "cn": "sainsburys cucumber large sainsbury whole",
-    "ik": "tok:sainsburys|cucumber-large-sainsbury-whole|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|cucumber-large-sainsbury-whole|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Whole Cucumber, So Organic",
     "p": "1.30",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1050110/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-whole-cucumber-so-organic",
     "c": "Other",
     "cn": "sainsburys cucumber organic sainsbury so whole",
-    "ik": "tok:sainsburys|cucumber-organic-sainsbury-so-whole|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|cucumber-organic-sainsbury-so-whole|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Baby Cucumbers 200g",
@@ -6273,49 +6350,53 @@
     "n": "Sainsbury's Romaine Lettuce Hearts, Twin Pack x2",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1129649/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-romaine-lettuce-hearts-twin-pack-x2",
     "c": "Other",
     "cn": "sainsburys hearts lettuce pack romaine sainsbury twin x2",
-    "ik": "tok:sainsburys|hearts-lettuce-pack-romaine-sainsbury-twin-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|hearts-lettuce-pack-romaine-sainsbury-twin-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Iceberg Lettuce",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/714310/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-iceberg-lettuce",
     "c": "Other",
     "cn": "sainsburys iceberg lettuce sainsbury",
-    "ik": "tok:sainsburys|iceberg-lettuce-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|iceberg-lettuce-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Little Gem Lettuce",
     "p": "0.77",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/332538/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce",
     "c": "Other",
     "cn": "sainsburys gem lettuce little sainsbury",
-    "ik": "tok:sainsburys|gem-lettuce-little-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|gem-lettuce-little-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Sweet Gem Lettuce x2",
     "p": "1.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1334067/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweet-gem-lettuce-x2",
     "c": "Other",
     "cn": "sainsburys gem lettuce sainsbury sweet x2",
-    "ik": "tok:sainsburys|gem-lettuce-sainsbury-sweet-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|gem-lettuce-sainsbury-sweet-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Shredded Iceberg 130g",
@@ -6360,13 +6441,14 @@
     "n": "Sainsbury's Lettuce, Round",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/444/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-lettuce-round",
     "c": "Other",
     "cn": "sainsburys lettuce round sainsbury",
-    "ik": "tok:sainsburys|lettuce-round-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|lettuce-round-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Caesar Salad 265g",
@@ -6398,13 +6480,14 @@
     "n": "Sainsbury's Cos Lettuce, Mini Red x2",
     "p": "1.10",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1289183/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-cos-lettuce-mini-red-x2",
     "c": "Other",
     "cn": "red cos lettuce mini sainsbury x2",
-    "ik": "tok:red|cos-lettuce-mini-sainsbury-x2|na",
-    "bn": "red"
+    "ik": "tok:red|cos-lettuce-mini-sainsbury-x2|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Little Mixed Leaves 125g",
@@ -6436,49 +6519,53 @@
     "n": "Sainsbury's Little Gem Lettuce, So Organic x2",
     "p": "1.60",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1049190/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-gem-lettuce-so-organic-x2",
     "c": "Other",
     "cn": "sainsburys gem lettuce little organic sainsbury so x2",
-    "ik": "tok:sainsburys|gem-lettuce-little-organic-sainsbury-so-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|gem-lettuce-little-organic-sainsbury-so-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Sweet Romaine Lettuces, Taste The Difference",
     "p": "1.30",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8187703/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweet-romaine-lettuces-taste-the-difference",
     "c": "Other",
     "cn": "sainsburys difference lettuces romaine sainsbury sweet taste the",
-    "ik": "tok:sainsburys|difference-lettuces-romaine-sainsbury-sweet-taste-the|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|difference-lettuces-romaine-sainsbury-sweet-taste-the|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Chinese Leaf Lettuce",
     "p": "1.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/478052/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-chinese-leaf-lettuce",
     "c": "Other",
     "cn": "sainsburys chinese leaf lettuce sainsbury",
-    "ik": "tok:sainsburys|chinese-leaf-lettuce-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|chinese-leaf-lettuce-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Sweet Gem Lettuce, So Organic",
     "p": "1.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8187705/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweet-gem-lettuce-so-organic",
     "c": "Other",
     "cn": "sainsburys gem lettuce organic sainsbury so sweet",
-    "ik": "tok:sainsburys|gem-lettuce-organic-sainsbury-so-sweet|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|gem-lettuce-organic-sainsbury-so-sweet|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Red Chicory 140g",
@@ -6548,25 +6635,27 @@
     "n": "Sainsbury's Medium Avocado",
     "p": "0.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7658/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-medium-avocado",
     "c": "Other",
     "cn": "sainsburys avocado medium sainsbury",
-    "ik": "tok:sainsburys|avocado-medium-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|avocado-medium-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Large Ripe & Ready Avocado",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/302630/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-large-ripe-ready-avocado",
     "c": "Other",
     "cn": "sainsburys avocado large ready ripe sainsbury",
-    "ik": "tok:sainsburys|avocado-large-ready-ripe-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|avocado-large-ready-ripe-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "By Sainsbury's 4 X Small Ripe & Ready Avocados",
@@ -6584,49 +6673,53 @@
     "n": "Sainsbury's Medium Ripe & Ready Avocados, So Organic x2",
     "p": "2.60",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6387453/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-medium-ripe-ready-avocados-so-organic-x2",
     "c": "Other",
     "cn": "sainsburys avocados medium organic ready ripe sainsbury so x2",
-    "ik": "tok:sainsburys|avocados-medium-organic-ready-ripe-sainsbury-so-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|avocados-medium-organic-ready-ripe-sainsbury-so-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Baby Ripen At Home Avocados x4",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6863581/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-baby-ripen-at-home-avocados-x4",
     "c": "Personal Care",
     "cn": "sainsburys at avocados baby home ripen sainsbury x4",
-    "ik": "tok:sainsburys|at-avocados-baby-home-ripen-sainsbury-x4|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|at-avocados-baby-home-ripen-sainsbury-x4|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Perfectly Ripe Avocados, Taste The Difference",
     "p": "2.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8249701/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-perfectly-ripe-avocados-taste-the-difference",
     "c": "Other",
     "cn": "sainsburys avocados difference perfectly ripe sainsbury taste the",
-    "ik": "tok:sainsburys|avocados-difference-perfectly-ripe-sainsbury-taste-the|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|avocados-difference-perfectly-ripe-sainsbury-taste-the|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Extra Large Ripe & Ready Avocado",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8223476/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-extra-large-ripe-ready-avocado",
     "c": "Other",
     "cn": "sainsburys avocado extra large ready ripe sainsbury",
-    "ik": "tok:sainsburys|avocado-extra-large-ready-ripe-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|avocado-extra-large-ready-ripe-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Holy Moly Smashed Avocado 150g",
@@ -6774,25 +6867,27 @@
     "n": "Good Phats Light Avocado Oil Spray",
     "p": "6.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8242188/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/good-phats-light-avocado-oil-spray",
     "c": "Other",
     "cn": "good avocado light oil phats spray",
-    "ik": "tok:good|avocado-light-oil-phats-spray|na",
-    "bn": "good"
+    "ik": "tok:good|avocado-light-oil-phats-spray|1",
+    "bn": "good",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Kitchen Deli Basil Pesto, Chicken & Avocado Wrap",
     "p": "5.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8158822/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-kitchen-deli-basil-pesto-chicken-avocado-wrap",
     "c": "Other",
     "cn": "sainsburys avocado basil chicken deli kitchen pesto sainsbury wrap",
-    "ik": "tok:sainsburys|avocado-basil-chicken-deli-kitchen-pesto-sainsbury-wrap|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|avocado-basil-chicken-deli-kitchen-pesto-sainsbury-wrap|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Garnier Body Superfood Avocado & Omega 6 Vegan Nourishing Body Cream 380ml",
@@ -6849,13 +6944,14 @@
     "n": "Sainsbury's Lemons",
     "p": "0.37",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/93/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-lemons",
     "c": "Other",
     "cn": "sainsburys lemons sainsbury",
-    "ik": "tok:sainsburys|lemons-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|lemons-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Stamford Street Co. 4 X Unwaxed Lemons",
@@ -6873,13 +6969,14 @@
     "n": "Sainsbury's Lemons Unwaxed, So Organic x3",
     "p": "1.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1080605/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-lemons-unwaxed-so-organic-x3",
     "c": "Other",
     "cn": "sainsburys lemons organic sainsbury so unwaxed x3",
-    "ik": "tok:sainsburys|lemons-organic-sainsbury-so-unwaxed-x3|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|lemons-organic-sainsbury-so-unwaxed-x3|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Lemon Washing Up Liquid 500ml",
@@ -6949,13 +7046,14 @@
     "n": "Mr Kipling Lemon Cake Slices x6",
     "p": "1.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/3385968/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/mr-kipling-lemon-cake-slices-x6",
     "c": "Meat & Seafood",
     "cn": "kipling cake lemon mr slices x6",
-    "ik": "tok:kipling|cake-lemon-mr-slices-x6|na",
-    "bn": "kipling"
+    "ik": "tok:kipling|cake-lemon-mr-slices-x6|1",
+    "bn": "kipling",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Thick Bleach, Lemon 2L",
@@ -7000,13 +7098,14 @@
     "n": "Sainsbury's All In One Dishwasher Tablets, Lemon x60",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7181632/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-all-in-one-dishwasher-tablets-lemon-x60",
     "c": "Other",
     "cn": "sainsburys all dishwasher in lemon one sainsbury tablets x60",
-    "ik": "tok:sainsburys|all-dishwasher-in-lemon-one-sainsbury-tablets-x60|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|all-dishwasher-in-lemon-one-sainsbury-tablets-x60|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Lemon Drizzle Cake, Taste The Difference 405g",
@@ -7038,13 +7137,14 @@
     "n": "Dettol Multipurpose Antibacterial Biodegradable Floor Cleaning Wipes Lemon x10",
     "p": "1.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7954715/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/dettol-multipurpose-antibacterial-biodegradable-floor-cleaning-wipes-lemon-x10",
     "c": "Other",
     "cn": "dettol antibacterial biodegradable cleaning floor lemon multipurpose wipes x10",
-    "ik": "tok:dettol|antibacterial-biodegradable-cleaning-floor-lemon-multipurpose-wipes-x10|na",
-    "bn": "dettol"
+    "ik": "tok:dettol|antibacterial-biodegradable-cleaning-floor-lemon-multipurpose-wipes-x10|1",
+    "bn": "dettol",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Quadruple Strength Orange, Lemon & Pineapple Squash 1.5L",
@@ -7089,25 +7189,27 @@
     "n": "Sainsbury's Antibacterial Lemon Floor Wipes x24",
     "p": "1.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8231439/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-antibacterial-lemon-floor-wipes-x24",
     "c": "Other",
     "cn": "sainsburys antibacterial floor lemon sainsbury wipes x24",
-    "ik": "tok:sainsburys|antibacterial-floor-lemon-sainsbury-wipes-x24|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|antibacterial-floor-lemon-sainsbury-wipes-x24|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's All In One Dishwasher Tablets, Lemon x30",
     "p": "2.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7181620/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-all-in-one-dishwasher-tablets-lemon-x30",
     "c": "Other",
     "cn": "sainsburys all dishwasher in lemon one sainsbury tablets x30",
-    "ik": "tok:sainsburys|all-dishwasher-in-lemon-one-sainsbury-tablets-x30|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|all-dishwasher-in-lemon-one-sainsbury-tablets-x30|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Cif Lemon Cream Cleaner Multipurpose 500ml",
@@ -7308,13 +7410,14 @@
     "n": "Stamford Street Co. Mixed Seedless Grapes",
     "p": "1.37",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1169065/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-mixed-seedless-grapes",
     "c": "Other",
     "cn": "stamford co grapes mixed seedless street",
-    "ik": "tok:stamford|co-grapes-mixed-seedless-street|na",
-    "bn": "stamford"
+    "ik": "tok:stamford|co-grapes-mixed-seedless-street|1",
+    "bn": "stamford",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Mixed Grapes 900g",
@@ -7398,13 +7501,14 @@
     "n": "Sainsbury's Red Candy Grapes, Taste The Difference",
     "p": "2.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8148613/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-red-candy-grapes-taste-the-difference",
     "c": "Other",
     "cn": "red candy difference grapes sainsbury taste the",
-    "ik": "tok:red|candy-difference-grapes-sainsbury-taste-the|na",
-    "bn": "red"
+    "ik": "tok:red|candy-difference-grapes-sainsbury-taste-the|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Sainsbury's 160g Melon & Grape",
@@ -8346,13 +8450,14 @@
     "n": "Tariq Halal Fresh Grade A Skinless Thigh Fillet",
     "p": "5.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8115620/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/tariq-halal-fresh-grade-a-skinless-thigh-fillet",
     "c": "Other",
     "cn": "tariq fillet fresh grade halal skinless thigh",
-    "ik": "tok:tariq|fillet-fresh-grade-halal-skinless-thigh|na",
-    "bn": "tariq"
+    "ik": "tok:tariq|fillet-fresh-grade-halal-skinless-thigh|1",
+    "bn": "tariq",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Just Cook 400g Indian Style Butter Chicken Thigh strips, Taste The Difference",
@@ -10094,13 +10199,14 @@
     "n": "Stamford Street Co. Red Thai Style Salmon Fillets",
     "p": "3.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8239466/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-red-thai-style-salmon-fillets",
     "c": "Other",
     "cn": "red co fillets salmon stamford street style thai",
-    "ik": "tok:red|co-fillets-salmon-stamford-street-style-thai|na",
-    "bn": "red"
+    "ik": "tok:red|co-fillets-salmon-stamford-street-style-thai|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Harbour Salmon Co. Sweet Chilli Salmon Fillet Infusions 220g",
@@ -13411,37 +13517,40 @@
     "n": "Weetabix 24 Original Cereal Pack",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/2060859/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/weetabix-24-original-cereal-pack",
     "c": "Other",
     "cn": "weetabix 24 cereal original pack",
-    "ik": "tok:weetabix|24-cereal-original-pack|na",
-    "bn": "weetabix"
+    "ik": "tok:weetabix|24-cereal-original-pack|1",
+    "bn": "weetabix",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Wheat Biscuits x24",
     "p": "1.46",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/130509/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-wheat-biscuits-x24",
     "c": "Other",
     "cn": "sainsburys biscuits sainsbury wheat x24",
-    "ik": "tok:sainsburys|biscuits-sainsbury-wheat-x24|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|biscuits-sainsbury-wheat-x24|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Weetabix 48 Original Cereal Pack",
     "p": "4.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/2060835/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/weetabix-48-original-cereal-pack",
     "c": "Other",
     "cn": "weetabix 48 cereal original pack",
-    "ik": "tok:weetabix|48-cereal-original-pack|na",
-    "bn": "weetabix"
+    "ik": "tok:weetabix|48-cereal-original-pack|1",
+    "bn": "weetabix",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Multigrain Hoops Cereal 375g",
@@ -13473,13 +13582,14 @@
     "n": "Sainsbury's Wheat Biscuits x48",
     "p": "2.92",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/130530/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-wheat-biscuits-x48",
     "c": "Other",
     "cn": "sainsburys biscuits sainsbury wheat x48",
-    "ik": "tok:sainsburys|biscuits-sainsbury-wheat-x48|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|biscuits-sainsbury-wheat-x48|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Honey Nut Cornflakes 500g",
@@ -13719,13 +13829,14 @@
     "n": "Weetabix 12 Original Cereal Pack",
     "p": "2.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/2060880/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/weetabix-12-original-cereal-pack",
     "c": "Other",
     "cn": "weetabix 12 cereal original pack",
-    "ik": "tok:weetabix|12-cereal-original-pack|na",
-    "bn": "weetabix"
+    "ik": "tok:weetabix|12-cereal-original-pack|1",
+    "bn": "weetabix",
+    "wg": 1
   },
   {
     "n": "Kellogg's Corn Flakes Breakfast Cereal 1kg",
@@ -14600,13 +14711,14 @@
     "n": "Kenco Cappuccino Instant Coffee x8 Sachets",
     "p": "2.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6850238/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/kenco-cappuccino-instant-coffee-x8-sachets",
     "c": "Other",
     "cn": "kenco cappuccino coffee instant sachets x8",
-    "ik": "tok:kenco|cappuccino-coffee-instant-sachets-x8|na",
-    "bn": "kenco"
+    "ik": "tok:kenco|cappuccino-coffee-instant-sachets-x8|1",
+    "bn": "kenco",
+    "wg": 1
   },
   {
     "n": "Kenco Iced Hot Salted Caramel Latte Sachets 8x20.3g",
@@ -14703,13 +14815,14 @@
     "n": "Taylors Of Harrogate Rich Italian Ground Coffee Bags x10",
     "p": "3.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7877445/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/taylors-of-harrogate-rich-italian-ground-coffee-bags-x10",
     "c": "Other",
     "cn": "taylors bags coffee ground harrogate italian of rich x10",
-    "ik": "tok:taylors|bags-coffee-ground-harrogate-italian-of-rich-x10|na",
-    "bn": "taylors"
+    "ik": "tok:taylors|bags-coffee-ground-harrogate-italian-of-rich-x10|1",
+    "bn": "taylors",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Fairtrade Intense Roast Coffee 227g",
@@ -14923,25 +15036,27 @@
     "n": "Yorkshire Tea Tea Bags x80",
     "p": "3.30",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/2028217/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/yorkshire-tea-tea-bags-x80",
     "c": "Other",
     "cn": "yorkshire bags tea x80",
-    "ik": "tok:yorkshire|bags-tea-x80|na",
-    "bn": "yorkshire"
+    "ik": "tok:yorkshire|bags-tea-x80|1",
+    "bn": "yorkshire",
+    "wg": 1
   },
   {
     "n": "Yorkshire Tea Bags x240",
     "p": "6.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/2668789/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/yorkshire-tea-bags-x240",
     "c": "Other",
     "cn": "yorkshire bags tea x240",
-    "ik": "tok:yorkshire|bags-tea-x240|na",
-    "bn": "yorkshire"
+    "ik": "tok:yorkshire|bags-tea-x240|1",
+    "bn": "yorkshire",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Red Label Fairtrade Decaf Tea Bags x80 250g",
@@ -14960,13 +15075,14 @@
     "n": "Yorkshire Tea Tea Bags x160",
     "p": "7.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/2028071/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/yorkshire-tea-tea-bags-x160",
     "c": "Other",
     "cn": "yorkshire bags tea x160",
-    "ik": "tok:yorkshire|bags-tea-x160|na",
-    "bn": "yorkshire"
+    "ik": "tok:yorkshire|bags-tea-x160|1",
+    "bn": "yorkshire",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Red Label Fairtrade Tea Bags x240 750g",
@@ -14985,13 +15101,14 @@
     "n": "Yorkshire Tea Decaf Tea Bags x80",
     "p": "4.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6440496/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/yorkshire-tea-decaf-tea-bags-x80",
     "c": "Other",
     "cn": "yorkshire bags decaf tea x80",
-    "ik": "tok:yorkshire|bags-decaf-tea-x80|na",
-    "bn": "yorkshire"
+    "ik": "tok:yorkshire|bags-decaf-tea-x80|1",
+    "bn": "yorkshire",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Red Label Fairtrade Tea Bags x80 250g",
@@ -15036,13 +15153,14 @@
     "n": "Pg Tips Original Black Tea Bags x80",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/2827032/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/pg-tips-original-black-tea-bags-x80",
     "c": "Other",
     "cn": "tips bags black original pg tea x80",
-    "ik": "tok:tips|bags-black-original-pg-tea-x80|na",
-    "bn": "tips"
+    "ik": "tok:tips|bags-black-original-pg-tea-x80|1",
+    "bn": "tips",
+    "wg": 1
   },
   {
     "n": "Tetley Everyday Tea Bags Decaffeinated x80 250g",
@@ -15074,109 +15192,118 @@
     "n": "Sainsbury's Infusions Peppermint Tea Bags x20",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7299060/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-infusions-peppermint-tea-bags-x20",
     "c": "Other",
     "cn": "sainsburys bags infusions peppermint sainsbury tea x20",
-    "ik": "tok:sainsburys|bags-infusions-peppermint-sainsbury-tea-x20|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bags-infusions-peppermint-sainsbury-tea-x20|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Pg Tips Decaf Black Decaffeinated Tea Bags x70",
     "p": "2.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7901825/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/pg-tips-decaf-black-decaffeinated-tea-bags-x70",
     "c": "Other",
     "cn": "tips bags black decaf decaffeinated pg tea x70",
-    "ik": "tok:tips|bags-black-decaf-decaffeinated-pg-tea-x70|na",
-    "bn": "tips"
+    "ik": "tok:tips|bags-black-decaf-decaffeinated-pg-tea-x70|1",
+    "bn": "tips",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Earl Grey Tea Bags, Taste The Difference x100",
     "p": "2.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/670944/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-earl-grey-tea-bags-taste-the-difference-x100",
     "c": "Other",
     "cn": "sainsburys bags difference earl grey sainsbury taste tea the x100",
-    "ik": "tok:sainsburys|bags-difference-earl-grey-sainsbury-taste-tea-the-x100|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bags-difference-earl-grey-sainsbury-taste-tea-the-x100|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Tetley Everyday Tea Bags, Softpack x240",
     "p": "6.10",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/3124932/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/tetley-everyday-tea-bags-softpack-x240",
     "c": "Other",
     "cn": "tetley bags everyday softpack tea x240",
-    "ik": "tok:tetley|bags-everyday-softpack-tea-x240|na",
-    "bn": "tetley"
+    "ik": "tok:tetley|bags-everyday-softpack-tea-x240|1",
+    "bn": "tetley",
+    "wg": 1
   },
   {
     "n": "Yorkshire Gold Tea Bags x80",
     "p": "4.30",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/2095844/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/yorkshire-gold-tea-bags-x80",
     "c": "Other",
     "cn": "yorkshire bags gold tea x80",
-    "ik": "tok:yorkshire|bags-gold-tea-x80|na",
-    "bn": "yorkshire"
+    "ik": "tok:yorkshire|bags-gold-tea-x80|1",
+    "bn": "yorkshire",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Infusions Lemon & Ginger Tea Bags x20",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7299038/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-infusions-lemon-ginger-tea-bags-x20",
     "c": "Other",
     "cn": "sainsburys bags ginger infusions lemon sainsbury tea x20",
-    "ik": "tok:sainsburys|bags-ginger-infusions-lemon-sainsbury-tea-x20|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bags-ginger-infusions-lemon-sainsbury-tea-x20|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Yorkshire Tea Decaf Tea Bags x160",
     "p": "6.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7852238/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/yorkshire-tea-decaf-tea-bags-x160",
     "c": "Other",
     "cn": "yorkshire bags decaf tea x160",
-    "ik": "tok:yorkshire|bags-decaf-tea-x160|na",
-    "bn": "yorkshire"
+    "ik": "tok:yorkshire|bags-decaf-tea-x160|1",
+    "bn": "yorkshire",
+    "wg": 1
   },
   {
     "n": "Tetley Everyday Tea Bags, Softpack x160",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/3124901/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/tetley-everyday-tea-bags-softpack-x160",
     "c": "Other",
     "cn": "tetley bags everyday softpack tea x160",
-    "ik": "tok:tetley|bags-everyday-softpack-tea-x160|na",
-    "bn": "tetley"
+    "ik": "tok:tetley|bags-everyday-softpack-tea-x160|1",
+    "bn": "tetley",
+    "wg": 1
   },
   {
     "n": "Sainsbury's English Breakfast Tea Bags Taste The Difference x80",
     "p": "2.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1183689/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-english-breakfast-tea-bags-taste-the-difference-x80",
     "c": "Other",
     "cn": "sainsburys bags breakfast difference english sainsbury taste tea the x80",
-    "ik": "tok:sainsburys|bags-breakfast-difference-english-sainsbury-taste-tea-the-x80|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bags-breakfast-difference-english-sainsbury-taste-tea-the-x80|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Pg Tips Original Tea Bags x160 464g",
@@ -15195,13 +15322,14 @@
     "n": "Sainsbury's Strawberry, Raspberry & Cranberry Tea Bags x20",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7299034/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-strawberry-raspberry-cranberry-tea-bags-x20",
     "c": "Other",
     "cn": "sainsburys bags cranberry raspberry sainsbury strawberry tea x20",
-    "ik": "tok:sainsburys|bags-cranberry-raspberry-sainsbury-strawberry-tea-x20|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bags-cranberry-raspberry-sainsbury-strawberry-tea-x20|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Twinings The Earl Grey Plant Based Tea Bags x80 200g",
@@ -15220,37 +15348,40 @@
     "n": "Tetley Everyday Tea Bags, Softpack x80",
     "p": "3.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/3124895/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/tetley-everyday-tea-bags-softpack-x80",
     "c": "Other",
     "cn": "tetley bags everyday softpack tea x80",
-    "ik": "tok:tetley|bags-everyday-softpack-tea-x80|na",
-    "bn": "tetley"
+    "ik": "tok:tetley|bags-everyday-softpack-tea-x80|1",
+    "bn": "tetley",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Infusions Peppermint Tea Bags x80",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7649579/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-infusions-peppermint-tea-bags-x80",
     "c": "Other",
     "cn": "sainsburys bags infusions peppermint sainsbury tea x80",
-    "ik": "tok:sainsburys|bags-infusions-peppermint-sainsbury-tea-x80|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bags-infusions-peppermint-sainsbury-tea-x80|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Earl Grey Decaff Tea Bags, Taste The Difference x50",
     "p": "2.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1264159/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-earl-grey-decaff-tea-bags-taste-the-difference-x50",
     "c": "Other",
     "cn": "sainsburys bags decaff difference earl grey sainsbury taste tea the x50",
-    "ik": "tok:sainsburys|bags-decaff-difference-earl-grey-sainsbury-taste-tea-the-x50|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bags-decaff-difference-earl-grey-sainsbury-taste-tea-the-x50|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Taylors Of Harrogate Yorkshire Tea Bags x40 125g",
@@ -15269,13 +15400,14 @@
     "n": "Twinings Peppermint Tea, 20 Tea Bags",
     "p": "2.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6617766/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/twinings-peppermint-tea-20-tea-bags",
     "c": "Other",
     "cn": "twinings 20 bags peppermint tea",
-    "ik": "tok:twinings|20-bags-peppermint-tea|na",
-    "bn": "twinings"
+    "ik": "tok:twinings|20-bags-peppermint-tea|1",
+    "bn": "twinings",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Red Label Fairtrade Tea Bags x40 125g",
@@ -15294,61 +15426,66 @@
     "n": "Sainsbury's Assam Tea Bags Taste The Difference x80",
     "p": "2.60",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/502061/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-assam-tea-bags-taste-the-difference-x80",
     "c": "Other",
     "cn": "sainsburys assam bags difference sainsbury taste tea the x80",
-    "ik": "tok:sainsburys|assam-bags-difference-sainsbury-taste-tea-the-x80|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|assam-bags-difference-sainsbury-taste-tea-the-x80|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Tick Tock Rooibos Tea Bags x80",
     "p": "2.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6574896/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/tick-tock-rooibos-tea-bags-x80",
     "c": "Other",
     "cn": "tick bags rooibos tea tock x80",
-    "ik": "tok:tick|bags-rooibos-tea-tock-x80|na",
-    "bn": "tick"
+    "ik": "tok:tick|bags-rooibos-tea-tock-x80|1",
+    "bn": "tick",
+    "wg": 1
   },
   {
     "n": "Pukka Organic Three Mint Tea With Peppermint Home Compostable Herbal Tea Bags x20",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7178799/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/pukka-organic-three-mint-tea-with-peppermint-home-compostable-herbal-tea-bags-x20",
     "c": "Other",
     "cn": "pukka bags compostable herbal home mint organic peppermint tea three with x20",
-    "ik": "tok:pukka|bags-compostable-herbal-home-mint-organic-peppermint-tea-three-with-x20|na",
-    "bn": "pukka"
+    "ik": "tok:pukka|bags-compostable-herbal-home-mint-organic-peppermint-tea-three-with-x20|1",
+    "bn": "pukka",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Infusions Camomile Tea Bags x20",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7299045/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-infusions-camomile-tea-bags-x20",
     "c": "Other",
     "cn": "sainsburys bags camomile infusions sainsbury tea x20",
-    "ik": "tok:sainsburys|bags-camomile-infusions-sainsbury-tea-x20|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bags-camomile-infusions-sainsbury-tea-x20|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Twinings Peppermint Tea, 80 Tea Bags",
     "p": "5.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6829305/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/twinings-peppermint-tea-80-tea-bags",
     "c": "Other",
     "cn": "twinings 80 bags peppermint tea",
-    "ik": "tok:twinings|80-bags-peppermint-tea|na",
-    "bn": "twinings"
+    "ik": "tok:twinings|80-bags-peppermint-tea|1",
+    "bn": "twinings",
+    "wg": 1
   },
   {
     "n": "Clipper Fairtrade Everyday Tea Bags x80 23g",
@@ -19239,13 +19376,14 @@
     "n": "Santa Maria Extra Fine Selection Of Spices Rock Salt",
     "p": "3.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7765596/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/santa-maria-extra-fine-selection-of-spices-rock-salt",
     "c": "Other",
     "cn": "santa extra fine maria of rock salt selection spices",
-    "ik": "tok:santa|extra-fine-maria-of-rock-salt-selection-spices|na",
-    "bn": "santa"
+    "ik": "tok:santa|extra-fine-maria-of-rock-salt-selection-spices|1",
+    "bn": "santa",
+    "wg": 1
   },
   {
     "n": "Saxa Sea Salt Coarse 350g",
@@ -19303,13 +19441,14 @@
     "n": "Maldon Selected Sicilian Fine Sea Salt",
     "p": "2.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8261450/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/maldon-selected-sicilian-fine-sea-salt",
     "c": "Other",
     "cn": "maldon fine salt sea selected sicilian",
-    "ik": "tok:maldon|fine-salt-sea-selected-sicilian|na",
-    "bn": "maldon"
+    "ik": "tok:maldon|fine-salt-sea-selected-sicilian|1",
+    "bn": "maldon",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Reduced Sodium Salt 350g",
@@ -19367,61 +19506,66 @@
     "n": "Sainsbury's Sweet Peppers (Colours May vary) x3",
     "p": "1.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8433/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweet-peppers-colours-may-vary-x3",
     "c": "Other",
     "cn": "sainsburys colours may peppers sainsbury sweet vary x3",
-    "ik": "tok:sainsburys|colours-may-peppers-sainsbury-sweet-vary-x3|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|colours-may-peppers-sainsbury-sweet-vary-x3|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Red Pepper",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1236644/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-red-pepper",
     "c": "Other",
     "cn": "red pepper sainsbury",
-    "ik": "tok:red|pepper-sainsbury|na",
-    "bn": "red"
+    "ik": "tok:red|pepper-sainsbury|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Yellow Pepper",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1236651/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-yellow-pepper",
     "c": "Other",
     "cn": "sainsburys pepper sainsbury yellow",
-    "ik": "tok:sainsburys|pepper-sainsbury-yellow|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|pepper-sainsbury-yellow|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Green Pepper",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1236620/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-green-pepper",
     "c": "Other",
     "cn": "sainsburys green pepper sainsbury",
-    "ik": "tok:sainsburys|green-pepper-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|green-pepper-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Red Sweet Pointed Pepper Each, Taste The Difference",
     "p": "0.60",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6643594/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-red-sweet-pointed-pepper-each-taste-the-difference",
     "c": "Other",
     "cn": "red difference each pepper pointed sainsbury sweet taste the",
-    "ik": "tok:red|difference-each-pepper-pointed-sainsbury-sweet-taste-the|na",
-    "bn": "red"
+    "ik": "tok:red|difference-each-pepper-pointed-sainsbury-sweet-taste-the|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Stamford Street Co. Peppers 600g",
@@ -19453,37 +19597,40 @@
     "n": "Sainsbury's Orange Pepper",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1236637/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-orange-pepper",
     "c": "Other",
     "cn": "sainsburys orange pepper sainsbury",
-    "ik": "tok:sainsburys|orange-pepper-sainsbury|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|orange-pepper-sainsbury|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Mixed Peppers, So Organic x3 (Colours May vary)",
     "p": "2.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1301748/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-mixed-peppers-so-organic-x3-colours-may-vary",
     "c": "Other",
     "cn": "sainsburys colours may mixed organic peppers sainsbury so vary x3",
-    "ik": "tok:sainsburys|colours-may-mixed-organic-peppers-sainsbury-so-vary-x3|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|colours-may-mixed-organic-peppers-sainsbury-so-vary-x3|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Mixed Sweet Pointed Peppers, Taste The Difference x2",
     "p": "1.60",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8174198/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-mixed-sweet-pointed-peppers-taste-the-difference-x2",
     "c": "Other",
     "cn": "sainsburys difference mixed peppers pointed sainsbury sweet taste the x2",
-    "ik": "tok:sainsburys|difference-mixed-peppers-pointed-sainsbury-sweet-taste-the-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|difference-mixed-peppers-pointed-sainsbury-sweet-taste-the-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Sliced Mixed Peppers 500g",
@@ -19515,13 +19662,14 @@
     "n": "Sainsbury's Sweet Pointed Peppers, So Organic x2 (Colours May Vary)",
     "p": "1.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6003139/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-sweet-pointed-peppers-so-organic-x2-colours-may-vary",
     "c": "Other",
     "cn": "sainsburys colours may organic peppers pointed sainsbury so sweet vary x2",
-    "ik": "tok:sainsburys|colours-may-organic-peppers-pointed-sainsbury-so-sweet-vary-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|colours-may-organic-peppers-pointed-sainsbury-so-sweet-vary-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Black Peppercorn Grinder 50g",
@@ -20099,13 +20247,14 @@
     "n": "Sauce Shop Tomato Ketchup",
     "p": "3.55",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8205141/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sauce-shop-tomato-ketchup",
     "c": "Other",
     "cn": "sauce ketchup shop tomato",
-    "ik": "tok:sauce|ketchup-shop-tomato|na",
-    "bn": "sauce"
+    "ik": "tok:sauce|ketchup-shop-tomato|1",
+    "bn": "sauce",
+    "wg": 1
   },
   {
     "n": "Nando's Peri Ketchup 280g",
@@ -22998,13 +23147,14 @@
     "n": "Sainsbury's Double Chocolate Cookies x5",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6544339/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-double-chocolate-cookies-x5",
     "c": "Snacks",
     "cn": "sainsburys chocolate cookies double sainsbury x5",
-    "ik": "tok:sainsburys|chocolate-cookies-double-sainsbury-x5|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|chocolate-cookies-double-sainsbury-x5|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Custard Creams 200g",
@@ -23166,25 +23316,27 @@
     "n": "Tunnock's Caramel Wafers x8",
     "p": "2.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/2342115/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/tunnock-s-caramel-wafers-x8",
     "c": "Other",
     "cn": "tunnocks caramel tunnock wafers x8",
-    "ik": "tok:tunnocks|caramel-tunnock-wafers-x8|na",
-    "bn": "tunnocks"
+    "ik": "tok:tunnocks|caramel-tunnock-wafers-x8|1",
+    "bn": "tunnocks",
+    "wg": 1
   },
   {
     "n": "Maryland 6 Cookies Minis Multipacks Chocolate Chip",
     "p": "1.55",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6004080/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/maryland-6-cookies-minis-multipacks-chocolate-chip",
     "c": "Snacks",
     "cn": "maryland chip chocolate cookies minis multipacks",
-    "ik": "tok:maryland|chip-chocolate-cookies-minis-multipacks|na",
-    "bn": "maryland"
+    "ik": "tok:maryland|chip-chocolate-cookies-minis-multipacks|1",
+    "bn": "maryland",
+    "wg": 1
   },
   {
     "n": "McVitie's Digestives The Original Biscuits Twin Pack 2x360g",
@@ -23215,13 +23367,14 @@
     "n": "McVitie's Jaffa Cakes Original Twin Pack Biscuits x20",
     "p": "1.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7878013/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/mcvitie-s-jaffa-cakes-original-twin-pack-biscuits-x20",
     "c": "Other",
     "cn": "mcvities biscuits cakes jaffa mcvitie original pack twin x20",
-    "ik": "tok:mcvities|biscuits-cakes-jaffa-mcvitie-original-pack-twin-x20|na",
-    "bn": "mcvities"
+    "ik": "tok:mcvities|biscuits-cakes-jaffa-mcvitie-original-pack-twin-x20|1",
+    "bn": "mcvities",
+    "wg": 1
   },
   {
     "n": "Oreo Original Cocoa Sandwich Cookies Pack 154g",
@@ -23317,13 +23470,14 @@
     "n": "Fox's 6 Biscuits Party Rings Minis Snack Bags",
     "p": "1.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7373441/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/fox-s-6-biscuits-party-rings-minis-snack-bags",
     "c": "Snacks",
     "cn": "foxs bags biscuits fox minis party rings snack",
-    "ik": "tok:foxs|bags-biscuits-fox-minis-party-rings-snack|na",
-    "bn": "foxs"
+    "ik": "tok:foxs|bags-biscuits-fox-minis-party-rings-snack|1",
+    "bn": "foxs",
+    "wg": 1
   },
   {
     "n": "McVitie's Ginger Nut Biscuits 250g",
@@ -23355,25 +23509,27 @@
     "n": "Sainsbury's Milk Chocolate Cookies x5",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6544324/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-milk-chocolate-cookies-x5",
     "c": "Snacks",
     "cn": "sainsburys chocolate cookies milk sainsbury x5",
-    "ik": "tok:sainsburys|chocolate-cookies-milk-sainsbury-x5|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|chocolate-cookies-milk-sainsbury-x5|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Oatmeal & Raisin Cookies x5",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6544347/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-oatmeal-raisin-cookies-x5",
     "c": "Other",
     "cn": "sainsburys cookies oatmeal raisin sainsbury x5",
-    "ik": "tok:sainsburys|cookies-oatmeal-raisin-sainsbury-x5|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|cookies-oatmeal-raisin-sainsbury-x5|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Belvita 5 X 45g Chocolate Chip Multipack Cereal Biscuit Snack Bars",
@@ -23625,13 +23781,14 @@
     "n": "Bio-Kult Everyday Capsules x30",
     "p": "10.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8152004/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/bio-kult-everyday-capsules-x30",
     "c": "Other",
     "cn": "biokult bio capsules everyday kult x30",
-    "ik": "tok:biokult|bio-capsules-everyday-kult-x30|na",
-    "bn": "biokult"
+    "ik": "tok:biokult|bio-capsules-everyday-kult-x30|1",
+    "bn": "biokult",
+    "wg": 1
   },
   {
     "n": "Symprove Mango & Passion Fruit Flavour Water Based Food Supplement 500ml",
@@ -23726,37 +23883,40 @@
     "n": "Bioglan Daily Formula Biotic Balance Ultimate Flora Capsules x30",
     "p": "11.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7938615/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/bioglan-daily-formula-biotic-balance-ultimate-flora-capsules-x30",
     "c": "Other",
     "cn": "bioglan balance biotic capsules daily flora formula ultimate x30",
-    "ik": "tok:bioglan|balance-biotic-capsules-daily-flora-formula-ultimate-x30|na",
-    "bn": "bioglan"
+    "ik": "tok:bioglan|balance-biotic-capsules-daily-flora-formula-ultimate-x30|1",
+    "bn": "bioglan",
+    "wg": 1
   },
   {
     "n": "Bio-Kult Everyday Daily Supplement Capsules x60",
     "p": "20.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8051700/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/bio-kult-everyday-daily-supplement-capsules-x60",
     "c": "Other",
     "cn": "biokult bio capsules daily everyday kult supplement x60",
-    "ik": "tok:biokult|bio-capsules-daily-everyday-kult-supplement-x60|na",
-    "bn": "biokult"
+    "ik": "tok:biokult|bio-capsules-daily-everyday-kult-supplement-x60|1",
+    "bn": "biokult",
+    "wg": 1
   },
   {
     "n": "Vitabiotics Liverel Tablets x60",
     "p": "16.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7938166/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/vitabiotics-liverel-tablets-x60",
     "c": "Other",
     "cn": "vitabiotics liverel tablets x60",
-    "ik": "tok:vitabiotics|liverel-tablets-x60|na",
-    "bn": "vitabiotics"
+    "ik": "tok:vitabiotics|liverel-tablets-x60|1",
+    "bn": "vitabiotics",
+    "wg": 1
   },
   {
     "n": "Optibac Probiotics 30 X Gut Health Gummies",
@@ -24425,13 +24585,14 @@
     "n": "Sainsbury's Thin Bbq Chicken Pizza",
     "p": "1.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8224895/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-thin-bbq-chicken-pizza",
     "c": "Other",
     "cn": "sainsburys bbq chicken pizza sainsbury thin",
-    "ik": "tok:sainsburys|bbq-chicken-pizza-sainsbury-thin|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bbq-chicken-pizza-sainsbury-thin|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Deep Pan Meat Feast Pizza 379g",
@@ -24541,13 +24702,14 @@
     "n": "Sainsbury's Thin Meat Feast Pizza",
     "p": "1.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8224893/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-thin-meat-feast-pizza",
     "c": "Other",
     "cn": "sainsburys feast meat pizza sainsbury thin",
-    "ik": "tok:sainsburys|feast-meat-pizza-sainsbury-thin|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|feast-meat-pizza-sainsbury-thin|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Chicago Town Tiger Crust Double Pepperoni Frozen Pizza 320g",
@@ -25398,169 +25560,183 @@
     "n": "Sainsbury's Super Soft Toilet Tissue, Quilted x9 Rolls",
     "p": "4.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6337128/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-toilet-tissue-quilted-x9-rolls",
     "c": "Other",
     "cn": "sainsburys quilted rolls sainsbury soft super tissue toilet x9",
-    "ik": "tok:sainsburys|quilted-rolls-sainsbury-soft-super-tissue-toilet-x9|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|quilted-rolls-sainsbury-soft-super-tissue-toilet-x9|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Andrex Complete Clean Toilet Rolls x9",
     "p": "4.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/3794968/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-complete-clean-toilet-rolls-x9",
     "c": "Other",
     "cn": "andrex clean complete rolls toilet x9",
-    "ik": "tok:andrex|clean-complete-rolls-toilet-x9|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|clean-complete-rolls-toilet-x9|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Stamford Street Co. Toilet Tissue Double Rolls 4 Equals 8 Rolls",
     "p": "1.51",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8113193/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-toilet-tissue-double-rolls-4-equals-8-rolls",
     "c": "Other",
     "cn": "stamford co double equals rolls street tissue toilet",
-    "ik": "tok:stamford|co-double-equals-rolls-street-tissue-toilet|na",
-    "bn": "stamford"
+    "ik": "tok:stamford|co-double-equals-rolls-street-tissue-toilet|1",
+    "bn": "stamford",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft Flushable Moist Toilet Tissue, Sensitive 40 Wipes",
     "p": "0.43",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6601783/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-flushable-moist-toilet-tissue-sensitive-40-wipes",
     "c": "Other",
     "cn": "sainsburys 40 flushable moist sainsbury sensitive soft super tissue toilet wipes",
-    "ik": "tok:sainsburys|40-flushable-moist-sainsbury-sensitive-soft-super-tissue-toilet-wipes|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|40-flushable-moist-sainsbury-sensitive-soft-super-tissue-toilet-wipes|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft Toilet Tissue, Cushioned x9 Rolls",
     "p": "4.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7845835/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-toilet-tissue-cushioned-x9-rolls",
     "c": "Other",
     "cn": "sainsburys cushioned rolls sainsbury soft super tissue toilet x9",
-    "ik": "tok:sainsburys|cushioned-rolls-sainsbury-soft-super-tissue-toilet-x9|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|cushioned-rolls-sainsbury-soft-super-tissue-toilet-x9|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Andrex Ultimate Quilts Toilet Tissue Standard Rolls x16",
     "p": "8.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8209451/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-ultimate-quilts-toilet-tissue-standard-rolls-x16",
     "c": "Other",
     "cn": "andrex quilts rolls standard tissue toilet ultimate x16",
-    "ik": "tok:andrex|quilts-rolls-standard-tissue-toilet-ultimate-x16|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|quilts-rolls-standard-tissue-toilet-ultimate-x16|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft White Toilet Tissue Double Rolls 8 Equals 16 Rolls",
     "p": "5.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8115800/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-white-toilet-tissue-double-rolls-8-equals-16-rolls",
     "c": "Other",
     "cn": "sainsburys 16 double equals rolls sainsbury soft super tissue toilet white",
-    "ik": "tok:sainsburys|16-double-equals-rolls-sainsbury-soft-super-tissue-toilet-white|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|16-double-equals-rolls-sainsbury-soft-super-tissue-toilet-white|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Andrex Ultimate Quilts Toilet Rolls x9",
     "p": "6.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6304463/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-ultimate-quilts-toilet-rolls-x9",
     "c": "Other",
     "cn": "andrex quilts rolls toilet ultimate x9",
-    "ik": "tok:andrex|quilts-rolls-toilet-ultimate-x9|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|quilts-rolls-toilet-ultimate-x9|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Softer Classic Toilet Tissue x9 Rolls",
     "p": "4.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8113118/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-softer-classic-toilet-tissue-x9-rolls",
     "c": "Other",
     "cn": "sainsburys classic rolls sainsbury softer super tissue toilet x9",
-    "ik": "tok:sainsburys|classic-rolls-sainsbury-softer-super-tissue-toilet-x9|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|classic-rolls-sainsbury-softer-super-tissue-toilet-x9|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft White Toilet Tissue Double Rolls 2 Equals 4 Rolls",
     "p": "1.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8114284/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-white-toilet-tissue-double-rolls-2-equals-4-rolls",
     "c": "Other",
     "cn": "sainsburys double equals rolls sainsbury soft super tissue toilet white",
-    "ik": "tok:sainsburys|double-equals-rolls-sainsbury-soft-super-tissue-toilet-white|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|double-equals-rolls-sainsbury-soft-super-tissue-toilet-white|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft Toilet Tissues, Recycled x9 Rolls",
     "p": "3.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7853689/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-toilet-tissues-recycled-x9-rolls",
     "c": "Other",
     "cn": "sainsburys recycled rolls sainsbury soft super tissues toilet x9",
-    "ik": "tok:sainsburys|recycled-rolls-sainsbury-soft-super-tissues-toilet-x9|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|recycled-rolls-sainsbury-soft-super-tissues-toilet-x9|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Softer Classic Toilet Tissue x16 Rolls",
     "p": "6.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8113114/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-softer-classic-toilet-tissue-x16-rolls",
     "c": "Other",
     "cn": "sainsburys classic rolls sainsbury softer super tissue toilet x16",
-    "ik": "tok:sainsburys|classic-rolls-sainsbury-softer-super-tissue-toilet-x16|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|classic-rolls-sainsbury-softer-super-tissue-toilet-x16|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft Toilet Tissue, Quilted x4 Rolls",
     "p": "2.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6337125/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-toilet-tissue-quilted-x4-rolls",
     "c": "Other",
     "cn": "sainsburys quilted rolls sainsbury soft super tissue toilet x4",
-    "ik": "tok:sainsburys|quilted-rolls-sainsbury-soft-super-tissue-toilet-x4|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|quilted-rolls-sainsbury-soft-super-tissue-toilet-x4|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft Flushable Moist Toilet Tissue, Fresh 40 Wipes",
     "p": "0.43",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1269499/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-flushable-moist-toilet-tissue-fresh-40-wipes",
     "c": "Other",
     "cn": "sainsburys 40 flushable fresh moist sainsbury soft super tissue toilet wipes",
-    "ik": "tok:sainsburys|40-flushable-fresh-moist-sainsbury-soft-super-tissue-toilet-wipes|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|40-flushable-fresh-moist-sainsbury-soft-super-tissue-toilet-wipes|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Cushelle Seriously Clean 6 X Tubeless Toilet Rolls 50% More Sheets",
@@ -25578,277 +25754,300 @@
     "n": "Sainsbury's Super Soft Toilet Tissue, Aloe Vera x9 Rolls",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7308674/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-toilet-tissue-aloe-vera-x9-rolls",
     "c": "Other",
     "cn": "sainsburys aloe rolls sainsbury soft super tissue toilet vera x9",
-    "ik": "tok:sainsburys|aloe-rolls-sainsbury-soft-super-tissue-toilet-vera-x9|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|aloe-rolls-sainsbury-soft-super-tissue-toilet-vera-x9|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Andrex Complete Clean Mega Toilet Rolls x12",
     "p": "11.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8203020/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-complete-clean-mega-toilet-rolls-x12",
     "c": "Other",
     "cn": "andrex clean complete mega rolls toilet x12",
-    "ik": "tok:andrex|clean-complete-mega-rolls-toilet-x12|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|clean-complete-mega-rolls-toilet-x12|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft Coconut Toilet Roll x9",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7928959/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-coconut-toilet-roll-x9",
     "c": "Other",
     "cn": "sainsburys coconut roll sainsbury soft super toilet x9",
-    "ik": "tok:sainsburys|coconut-roll-sainsbury-soft-super-toilet-x9|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|coconut-roll-sainsbury-soft-super-toilet-x9|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft Flushable Moist Toilet Tissue, Coconut 40 Wipes",
     "p": "0.43",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7954419/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-flushable-moist-toilet-tissue-coconut-40-wipes",
     "c": "Other",
     "cn": "sainsburys 40 coconut flushable moist sainsbury soft super tissue toilet wipes",
-    "ik": "tok:sainsburys|40-coconut-flushable-moist-sainsbury-soft-super-tissue-toilet-wipes|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|40-coconut-flushable-moist-sainsbury-soft-super-tissue-toilet-wipes|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft Quilted Toilet Tissue x24",
     "p": "9.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8204270/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-quilted-toilet-tissue-x24",
     "c": "Other",
     "cn": "sainsburys quilted sainsbury soft super tissue toilet x24",
-    "ik": "tok:sainsburys|quilted-sainsbury-soft-super-tissue-toilet-x24|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|quilted-sainsbury-soft-super-tissue-toilet-x24|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Softer Classic Toilet Tissue Rolls x4",
     "p": "1.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8113109/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-softer-classic-toilet-tissue-rolls-x4",
     "c": "Other",
     "cn": "sainsburys classic rolls sainsbury softer super tissue toilet x4",
-    "ik": "tok:sainsburys|classic-rolls-sainsbury-softer-super-tissue-toilet-x4|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|classic-rolls-sainsbury-softer-super-tissue-toilet-x4|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Cushelle Quilted Toilet Rolls 50% More Sheets x12",
     "p": "13.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8201925/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/cushelle-quilted-toilet-rolls-50-more-sheets-x12",
     "c": "Other",
     "cn": "cushelle 50 more quilted rolls sheets toilet x12",
-    "ik": "tok:cushelle|50-more-quilted-rolls-sheets-toilet-x12|na",
-    "bn": "cushelle"
+    "ik": "tok:cushelle|50-more-quilted-rolls-sheets-toilet-x12|1",
+    "bn": "cushelle",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft Cushioned Toilet Tissue Rolls x16",
     "p": "6.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7845837/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-cushioned-toilet-tissue-rolls-x16",
     "c": "Other",
     "cn": "sainsburys cushioned rolls sainsbury soft super tissue toilet x16",
-    "ik": "tok:sainsburys|cushioned-rolls-sainsbury-soft-super-tissue-toilet-x16|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|cushioned-rolls-sainsbury-soft-super-tissue-toilet-x16|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Andrex Family Soft Toilet Tissue Rolls x24",
     "p": "9.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8248510/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-family-soft-toilet-tissue-rolls-x24",
     "c": "Other",
     "cn": "andrex family rolls soft tissue toilet x24",
-    "ik": "tok:andrex|family-rolls-soft-tissue-toilet-x24|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|family-rolls-soft-tissue-toilet-x24|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Complete Clean Toilet Rolls x4",
     "p": "2.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/3794883/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-complete-clean-toilet-rolls-x4",
     "c": "Other",
     "cn": "andrex clean complete rolls toilet x4",
-    "ik": "tok:andrex|clean-complete-rolls-toilet-x4|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|clean-complete-rolls-toilet-x4|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Ultimate Quilts Toilet Rolls x4",
     "p": "2.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6304442/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-ultimate-quilts-toilet-rolls-x4",
     "c": "Other",
     "cn": "andrex quilts rolls toilet ultimate x4",
-    "ik": "tok:andrex|quilts-rolls-toilet-ultimate-x4|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|quilts-rolls-toilet-ultimate-x4|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Stamford Street Co. Superior Toilet Tissue Double Rolls 9 Equals 18 Rolls",
     "p": "5.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8113191/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-superior-toilet-tissue-double-rolls-9-equals-18-rolls",
     "c": "Other",
     "cn": "stamford 18 co double equals rolls street superior tissue toilet",
-    "ik": "tok:stamford|18-co-double-equals-rolls-street-superior-tissue-toilet|na",
-    "bn": "stamford"
+    "ik": "tok:stamford|18-co-double-equals-rolls-street-superior-tissue-toilet|1",
+    "bn": "stamford",
+    "wg": 1
   },
   {
     "n": "Andrex Ultimate Fresh Flushable Odour Control Moist Toilet Tissue Wipes Single Pack x36",
     "p": "1.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8119516/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-ultimate-fresh-flushable-odour-control-moist-toilet-tissue-wipes-single-pack-x36",
     "c": "Other",
     "cn": "andrex control flushable fresh moist odour pack single tissue toilet ultimate wipes x36",
-    "ik": "tok:andrex|control-flushable-fresh-moist-odour-pack-single-tissue-toilet-ultimate-wipes-x36|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|control-flushable-fresh-moist-odour-pack-single-tissue-toilet-ultimate-wipes-x36|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Ultimate Quilts Mega Toilet Rolls x9",
     "p": "9.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8162546/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-ultimate-quilts-mega-toilet-rolls-x9",
     "c": "Other",
     "cn": "andrex mega quilts rolls toilet ultimate x9",
-    "ik": "tok:andrex|mega-quilts-rolls-toilet-ultimate-x9|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|mega-quilts-rolls-toilet-ultimate-x9|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Complete Clean Toilet Rolls x24",
     "p": "14.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8198741/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-complete-clean-toilet-rolls-x24",
     "c": "Other",
     "cn": "andrex clean complete rolls toilet x24",
-    "ik": "tok:andrex|clean-complete-rolls-toilet-x24|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|clean-complete-rolls-toilet-x24|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Fresh & Sensitive Flushable Moist Toilet Tissue Wipes Single Pack x30",
     "p": "1.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8200879/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-fresh-sensitive-flushable-moist-toilet-tissue-wipes-single-pack-x30",
     "c": "Other",
     "cn": "andrex flushable fresh moist pack sensitive single tissue toilet wipes x30",
-    "ik": "tok:andrex|flushable-fresh-moist-pack-sensitive-single-tissue-toilet-wipes-x30|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|flushable-fresh-moist-pack-sensitive-single-tissue-toilet-wipes-x30|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Ultimate Fresh Flushable Odour Control Moist Toilet Tissue Wipes Quad Pack 4x36",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8119518/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-ultimate-fresh-flushable-odour-control-moist-toilet-tissue-wipes-quad-pack-4x36",
     "c": "Other",
     "cn": "andrex 4x36 control flushable fresh moist odour pack quad tissue toilet ultimate wipes",
-    "ik": "tok:andrex|4x36-control-flushable-fresh-moist-odour-pack-quad-tissue-toilet-ultimate-wipes|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|4x36-control-flushable-fresh-moist-odour-pack-quad-tissue-toilet-ultimate-wipes|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Little Ones Sensitive Botty Wipes x60",
     "p": "0.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7553695/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-ones-sensitive-botty-wipes-x60",
     "c": "Other",
     "cn": "sainsburys botty little ones sainsbury sensitive wipes x60",
-    "ik": "tok:sainsburys|botty-little-ones-sainsbury-sensitive-wipes-x60|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|botty-little-ones-sainsbury-sensitive-wipes-x60|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Andrex Fresh & Sensitive Flushable Moist Toilet Tissue Wipes Quad Pack 4x30",
     "p": "3.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8200877/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/andrex-fresh-sensitive-flushable-moist-toilet-tissue-wipes-quad-pack-4x30",
     "c": "Other",
     "cn": "andrex 4x30 flushable fresh moist pack quad sensitive tissue toilet wipes",
-    "ik": "tok:andrex|4x30-flushable-fresh-moist-pack-quad-sensitive-tissue-toilet-wipes|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|4x30-flushable-fresh-moist-pack-quad-sensitive-tissue-toilet-wipes|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Soft Sensitive Flushable Toilet Tissue Wipes x40",
     "p": "1.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8217782/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-soft-sensitive-flushable-toilet-tissue-wipes-x40",
     "c": "Other",
     "cn": "sainsburys flushable sainsbury sensitive soft super tissue toilet wipes x40",
-    "ik": "tok:sainsburys|flushable-sainsbury-sensitive-soft-super-tissue-toilet-wipes-x40|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|flushable-sainsbury-sensitive-soft-super-tissue-toilet-wipes-x40|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Stamford Street Co. Jumbo Kitchen Roll",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8034939/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-jumbo-kitchen-roll",
     "c": "Other",
     "cn": "jumbo co kitchen roll stamford street",
-    "ik": "tok:jumbo|co-kitchen-roll-stamford-street|na",
-    "bn": "jumbo"
+    "ik": "tok:jumbo|co-kitchen-roll-stamford-street|1",
+    "bn": "jumbo",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Absorbent Kitchen Towels x2",
     "p": "2.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7971919/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-absorbent-kitchen-towels-x2",
     "c": "Other",
     "cn": "sainsburys absorbent kitchen sainsbury super towels x2",
-    "ik": "tok:sainsburys|absorbent-kitchen-sainsbury-super-towels-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|absorbent-kitchen-sainsbury-super-towels-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Absorbent Kitchen Towels x4",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7971984/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-absorbent-kitchen-towels-x4",
     "c": "Other",
     "cn": "sainsburys absorbent kitchen sainsbury super towels x4",
-    "ik": "tok:sainsburys|absorbent-kitchen-sainsbury-super-towels-x4|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|absorbent-kitchen-sainsbury-super-towels-x4|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Plenty 2 X Ultrasorb Kitchen Rolls",
@@ -25866,157 +26065,170 @@
     "n": "Regina Blitz Kitchen Towel Rolls x2",
     "p": "4.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6648030/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/regina-blitz-kitchen-towel-rolls-x2",
     "c": "Other",
     "cn": "regina blitz kitchen rolls towel x2",
-    "ik": "tok:regina|blitz-kitchen-rolls-towel-x2|na",
-    "bn": "regina"
+    "ik": "tok:regina|blitz-kitchen-rolls-towel-x2|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Regina Absorb Kitchen Towel Rolls x2",
     "p": "2.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8163434/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/regina-absorb-kitchen-towel-rolls-x2",
     "c": "Other",
     "cn": "regina absorb kitchen rolls towel x2",
-    "ik": "tok:regina|absorb-kitchen-rolls-towel-x2|na",
-    "bn": "regina"
+    "ik": "tok:regina|absorb-kitchen-rolls-towel-x2|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Absorbent Recycled x2",
     "p": "2.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7971990/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-absorbent-recycled-x2",
     "c": "Other",
     "cn": "sainsburys absorbent recycled sainsbury super x2",
-    "ik": "tok:sainsburys|absorbent-recycled-sainsbury-super-x2|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|absorbent-recycled-sainsbury-super-x2|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Super Absorbent Decorated Kitchen Towel 2 Rolls",
     "p": "2.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7971978/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-super-absorbent-decorated-kitchen-towel-2-rolls",
     "c": "Other",
     "cn": "sainsburys absorbent decorated kitchen rolls sainsbury super towel",
-    "ik": "tok:sainsburys|absorbent-decorated-kitchen-rolls-sainsbury-super-towel|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|absorbent-decorated-kitchen-rolls-sainsbury-super-towel|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Regina Absorb Kitchen Towel Rolls x4",
     "p": "7.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8162282/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/regina-absorb-kitchen-towel-rolls-x4",
     "c": "Other",
     "cn": "regina absorb kitchen rolls towel x4",
-    "ik": "tok:regina|absorb-kitchen-rolls-towel-x4|na",
-    "bn": "regina"
+    "ik": "tok:regina|absorb-kitchen-rolls-towel-x4|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Regina Blitz Kitchen Towel Rolls x4",
     "p": "5.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8048626/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/regina-blitz-kitchen-towel-rolls-x4",
     "c": "Other",
     "cn": "regina blitz kitchen rolls towel x4",
-    "ik": "tok:regina|blitz-kitchen-rolls-towel-x4|na",
-    "bn": "regina"
+    "ik": "tok:regina|blitz-kitchen-rolls-towel-x4|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Ultra Absorbent Kitchen Towel 2 Rolls",
     "p": "2.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7971993/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-ultra-absorbent-kitchen-towel-2-rolls",
     "c": "Other",
     "cn": "sainsburys absorbent kitchen rolls sainsbury towel ultra",
-    "ik": "tok:sainsburys|absorbent-kitchen-rolls-sainsbury-towel-ultra|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|absorbent-kitchen-rolls-sainsbury-towel-ultra|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Plenty Flexisheets Kitchen Rolls x2",
     "p": "5.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8234450/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/plenty-flexisheets-kitchen-rolls-x2",
     "c": "Other",
     "cn": "plenty flexisheets kitchen rolls x2",
-    "ik": "tok:plenty|flexisheets-kitchen-rolls-x2|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|flexisheets-kitchen-rolls-x2|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Ultra Absorbent Decorated Kitchen Towel 2 Rolls",
     "p": "2.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7971997/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-ultra-absorbent-decorated-kitchen-towel-2-rolls",
     "c": "Other",
     "cn": "sainsburys absorbent decorated kitchen rolls sainsbury towel ultra",
-    "ik": "tok:sainsburys|absorbent-decorated-kitchen-rolls-sainsbury-towel-ultra|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|absorbent-decorated-kitchen-rolls-sainsbury-towel-ultra|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Regina Blitz Household Towel",
     "p": "2.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7185842/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/regina-blitz-household-towel",
     "c": "Other",
     "cn": "regina blitz household towel",
-    "ik": "tok:regina|blitz-household-towel|na",
-    "bn": "regina"
+    "ik": "tok:regina|blitz-household-towel|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Mighty Multi-Use Towel 2 Rolls",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7972228/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-mighty-multi-use-towel-2-rolls",
     "c": "Other",
     "cn": "sainsburys mighty multi rolls sainsbury towel use",
-    "ik": "tok:sainsburys|mighty-multi-rolls-sainsbury-towel-use|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|mighty-multi-rolls-sainsbury-towel-use|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Plenty Max Kitchen Rolls x3",
     "p": "4.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8086194/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/plenty-max-kitchen-rolls-x3",
     "c": "Other",
     "cn": "plenty kitchen max rolls x3",
-    "ik": "tok:plenty|kitchen-max-rolls-x3|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|kitchen-max-rolls-x3|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Nicky Lemon Kitchen Towel",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8246698/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/nicky-lemon-kitchen-towel",
     "c": "Other",
     "cn": "nicky kitchen lemon towel",
-    "ik": "tok:nicky|kitchen-lemon-towel|na",
-    "bn": "nicky"
+    "ik": "tok:nicky|kitchen-lemon-towel|1",
+    "bn": "nicky",
+    "wg": 1
   },
   {
     "n": "Fairy Original Green Washing Up Liquid With Lift Action 320ml",
@@ -26464,25 +26676,27 @@
     "n": "Fairy Non Bio Laundry Washing Liquid Detergent 50 Washes",
     "p": "8.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8199012/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/fairy-non-bio-laundry-washing-liquid-detergent-50-washes",
     "c": "Other",
     "cn": "fairy 50 bio detergent laundry liquid non washes washing",
-    "ik": "tok:fairy|50-bio-detergent-laundry-liquid-non-washes-washing|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|50-bio-detergent-laundry-liquid-non-washes-washing|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Fairy Non Bio Liquid Detergent 63 Washes",
     "p": "11.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8237144/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/fairy-non-bio-liquid-detergent-63-washes",
     "c": "Other",
     "cn": "fairy 63 bio detergent liquid non washes",
-    "ik": "tok:fairy|63-bio-detergent-liquid-non-washes|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|63-bio-detergent-liquid-non-washes|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Dettol Antibacterial Laundry Cleanser Cotton Breeze 1.5L",
@@ -26540,13 +26754,14 @@
     "n": "Fairy Non Bio Laundry Detergent Washing Gel 26 Washes",
     "p": "6.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6972040/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/fairy-non-bio-laundry-detergent-washing-gel-26-washes",
     "c": "Other",
     "cn": "fairy 26 bio detergent gel laundry non washes washing",
-    "ik": "tok:fairy|26-bio-detergent-gel-laundry-non-washes-washing|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|26-bio-detergent-gel-laundry-non-washes-washing|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Vanish Crystal White Oxi Action Stain Remover Powder 450g",
@@ -26643,13 +26858,14 @@
     "n": "Ariel Original Laundry Detergent Washing Gel 26 Washes",
     "p": "6.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6918883/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/ariel-original-laundry-detergent-washing-gel-26-washes",
     "c": "Other",
     "cn": "ariel 26 detergent gel laundry original washes washing",
-    "ik": "tok:ariel|26-detergent-gel-laundry-original-washes-washing|na",
-    "bn": "ariel"
+    "ik": "tok:ariel|26-detergent-gel-laundry-original-washes-washing|1",
+    "bn": "ariel",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Colour Bio Laundry Gel 30 Washes 900ml",
@@ -26746,25 +26962,27 @@
     "n": "Ariel Original Laundry Washing Liquid Detergent 50 Washes",
     "p": "8.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8198922/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/ariel-original-laundry-washing-liquid-detergent-50-washes",
     "c": "Other",
     "cn": "ariel 50 detergent laundry liquid original washes washing",
-    "ik": "tok:ariel|50-detergent-laundry-liquid-original-washes-washing|na",
-    "bn": "ariel"
+    "ik": "tok:ariel|50-detergent-laundry-liquid-original-washes-washing|1",
+    "bn": "ariel",
+    "wg": 1
   },
   {
     "n": "Persil Bio Laundry Washing Liquid Detergent 35 Washes",
     "p": "7.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8163814/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/persil-bio-laundry-washing-liquid-detergent-35-washes",
     "c": "Other",
     "cn": "persil 35 bio detergent laundry liquid washes washing",
-    "ik": "tok:persil|35-bio-detergent-laundry-liquid-washes-washing|na",
-    "bn": "persil"
+    "ik": "tok:persil|35-bio-detergent-laundry-liquid-washes-washing|1",
+    "bn": "persil",
+    "wg": 1
   },
   {
     "n": "Vanish Oxi Action Laundry Stain Remover Powder Colour 1kg",
@@ -26822,13 +27040,14 @@
     "n": "Sainsbury's Limescale Preventer Tablets x45",
     "p": "4.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8190446/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-limescale-preventer-tablets-x45",
     "c": "Other",
     "cn": "sainsburys limescale preventer sainsbury tablets x45",
-    "ik": "tok:sainsburys|limescale-preventer-sainsbury-tablets-x45|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|limescale-preventer-sainsbury-tablets-x45|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Persil 68 Washes Non Bio Laundry Washing Liquid Detergent 1.836L",
@@ -26925,13 +27144,14 @@
     "n": "Lenor Base 48 Washes Spring Awakening Fabric Conditioner",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8249846/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/lenor-base-48-washes-spring-awakening-fabric-conditioner",
     "c": "Other",
     "cn": "lenor 48 awakening base conditioner fabric spring washes",
-    "ik": "tok:lenor|48-awakening-base-conditioner-fabric-spring-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|48-awakening-base-conditioner-fabric-spring-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Comfort Fresh 80 Washes Blue Skies Fabric Conditioner 2.4L",
@@ -26950,13 +27170,14 @@
     "n": "Lenor Outdoorable Spring Awakening Fabric Conditioner 60 Washes",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8070893/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/lenor-outdoorable-spring-awakening-fabric-conditioner-60-washes",
     "c": "Other",
     "cn": "lenor 60 awakening conditioner fabric outdoorable spring washes",
-    "ik": "tok:lenor|60-awakening-conditioner-fabric-outdoorable-spring-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|60-awakening-conditioner-fabric-outdoorable-spring-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Comfort 31 Washes Blue Skies Fabric Conditioner 930ml",
@@ -26988,37 +27209,40 @@
     "n": "Lenor Outdoorable Spring Awakening Fabric Conditioner 86 Washes",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8113300/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/lenor-outdoorable-spring-awakening-fabric-conditioner-86-washes",
     "c": "Other",
     "cn": "lenor 86 awakening conditioner fabric outdoorable spring washes",
-    "ik": "tok:lenor|86-awakening-conditioner-fabric-outdoorable-spring-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|86-awakening-conditioner-fabric-outdoorable-spring-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Fairy 29 Washes Fabric Softener",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8249775/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/fairy-29-washes-fabric-softener",
     "c": "Other",
     "cn": "fairy 29 fabric softener washes",
-    "ik": "tok:fairy|29-fabric-softener-washes|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|29-fabric-softener-washes|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Fairy Fabric Softener 85 Washes Fabric Conditioner",
     "p": "5.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7509140/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/fairy-fabric-softener-85-washes-fabric-conditioner",
     "c": "Other",
     "cn": "fairy 85 conditioner fabric softener washes",
-    "ik": "tok:fairy|85-conditioner-fabric-softener-washes|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|85-conditioner-fabric-softener-washes|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Comfort Fabric Conditioner Sunshiny Days 31 Washes 930ml",
@@ -27037,13 +27261,14 @@
     "n": "Lenor Fabric Conditioner Spring Awakening 80 Washes",
     "p": "5.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7647521/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/lenor-fabric-conditioner--spring-awakening-80W",
     "c": "Other",
     "cn": "lenor 80 awakening conditioner fabric spring washes",
-    "ik": "tok:lenor|80-awakening-conditioner-fabric-spring-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|80-awakening-conditioner-fabric-spring-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Comfort Creations Fabric Conditioner Honeysuckle & Sandalwood 30 Washes 900ml",
@@ -27114,13 +27339,14 @@
     "n": "Lenor Base 29 Washes Spring Awakening Fabric Conditioner",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8249763/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/lenor-base-29-washes-spring-awakening-fabric-conditioner",
     "c": "Other",
     "cn": "lenor 29 awakening base conditioner fabric spring washes",
-    "ik": "tok:lenor|29-awakening-base-conditioner-fabric-spring-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|29-awakening-base-conditioner-fabric-spring-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Comfort Creations Fabric Conditioner Strawberry And Lily 30 Washes 900ml",
@@ -27139,13 +27365,14 @@
     "n": "Fairy Outdoorable 60 Washes Fabric Softener",
     "p": "4.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8256989/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/fairy-outdoorable-60-washes-fabric-softener",
     "c": "Other",
     "cn": "fairy 60 fabric outdoorable softener washes",
-    "ik": "tok:fairy|60-fabric-outdoorable-softener-washes|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|60-fabric-outdoorable-softener-washes|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Tropical Escape Fabric Conditioner 1.25L",
@@ -27177,25 +27404,27 @@
     "n": "Fairy Outdoorable 86 Washes Cherry Blossom & Nordic Cotton Fabric Softener",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8257003/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/fairy-outdoorable-86-washes-cherry-blossom-nordic-cotton-fabric-softener",
     "c": "Other",
     "cn": "fairy 86 blossom cherry cotton fabric nordic outdoorable softener washes",
-    "ik": "tok:fairy|86-blossom-cherry-cotton-fabric-nordic-outdoorable-softener-washes|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|86-blossom-cherry-cotton-fabric-nordic-outdoorable-softener-washes|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Fairy Outdoorable 60 Washes Cherry Blossom & Nordic Cotton Fabric Softener",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8256987/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/fairy-outdoorable-60-washes-cherry-blossom-nordic-cotton-fabric-softener",
     "c": "Other",
     "cn": "fairy 60 blossom cherry cotton fabric nordic outdoorable softener washes",
-    "ik": "tok:fairy|60-blossom-cherry-cotton-fabric-nordic-outdoorable-softener-washes|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|60-blossom-cherry-cotton-fabric-nordic-outdoorable-softener-washes|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Comfort Creations Fabric Conditioner Honeysuckle & Sandalwood 48 Washes 1440ml",
@@ -27227,13 +27456,14 @@
     "n": "Fairy Outdoorable 86 Washes Fabric Softener",
     "p": "5.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8256946/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/fairy-outdoorable-86-washes-fabric-softener",
     "c": "Other",
     "cn": "fairy 86 fabric outdoorable softener washes",
-    "ik": "tok:fairy|86-fabric-outdoorable-softener-washes|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|86-fabric-outdoorable-softener-washes|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Comfort Creations Fabric Conditioner Waterlily & Lime 30 Washes 900ml",
@@ -27278,13 +27508,14 @@
     "n": "Lenor Base 59 Washes Gold Orchid Fabric Conditioner",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8256177/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/lenor-base-59-washes-gold-orchid-fabric-conditioner",
     "c": "Other",
     "cn": "lenor 59 base conditioner fabric gold orchid washes",
-    "ik": "tok:lenor|59-base-conditioner-fabric-gold-orchid-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|59-base-conditioner-fabric-gold-orchid-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Sunshine Fabric Conditioner 1.25L",
@@ -27303,25 +27534,27 @@
     "n": "Lenor 85 Washes Summer Breeze Fabric Conditioner",
     "p": "5.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7509147/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/lenor-85-washes-summer-breeze-fabric-conditioner",
     "c": "Other",
     "cn": "lenor 85 breeze conditioner fabric summer washes",
-    "ik": "tok:lenor|85-breeze-conditioner-fabric-summer-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|85-breeze-conditioner-fabric-summer-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Lenor Outdoorable Summer Breeze Fabric Conditioner 86 Washes",
     "p": "5.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8165106/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/lenor-outdoorable-summer-breeze-fabric-conditioner-86-washes",
     "c": "Other",
     "cn": "lenor 86 breeze conditioner fabric outdoorable summer washes",
-    "ik": "tok:lenor|86-breeze-conditioner-fabric-outdoorable-summer-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|86-breeze-conditioner-fabric-outdoorable-summer-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Fairy Scent Booster Fabric Conditioner 425g",
@@ -27340,13 +27573,14 @@
     "n": "Fairy Fresh 59 Washes Almond Milk & Manuka Honey Fabric Softener",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8256196/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/fairy-fresh-59-washes-almond-milk-manuka-honey-fabric-softener",
     "c": "Other",
     "cn": "fairy 59 almond fabric fresh honey manuka milk softener washes",
-    "ik": "tok:fairy|59-almond-fabric-fresh-honey-manuka-milk-softener-washes|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|59-almond-fabric-fresh-honey-manuka-milk-softener-washes|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Tresemmé Shampoo Rich Moisture 680ml",
@@ -28769,13 +29003,14 @@
     "n": "Sainsbury's Tie Top Refuse Sacks x20",
     "p": "2.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1296761/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tie-top-refuse-sacks-x20",
     "c": "Other",
     "cn": "sainsburys refuse sacks sainsbury tie top x20",
-    "ik": "tok:sainsburys|refuse-sacks-sainsbury-tie-top-x20|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|refuse-sacks-sainsbury-tie-top-x20|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Drawstring Swing Bin Bags x30 50L",
@@ -28794,13 +29029,14 @@
     "n": "Stamford Street Co. Refuse Sacks x40",
     "p": "1.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7989765/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/stamford-street-co-refuse-sacks-x40",
     "c": "Other",
     "cn": "stamford co refuse sacks street x40",
-    "ik": "tok:stamford|co-refuse-sacks-street-x40|na",
-    "bn": "stamford"
+    "ik": "tok:stamford|co-refuse-sacks-street-x40|1",
+    "bn": "stamford",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Tie Top Pedal Bin Liners Bags x30 30L",
@@ -28845,37 +29081,40 @@
     "n": "Sainsbury's Kerbside Compostable Caddy Liners x10",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7607537/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-kerbside-compostable-caddy-liners-x10",
     "c": "Other",
     "cn": "sainsburys caddy compostable kerbside liners sainsbury x10",
-    "ik": "tok:sainsburys|caddy-compostable-kerbside-liners-sainsbury-x10|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|caddy-compostable-kerbside-liners-sainsbury-x10|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Tie Handle Refuse Sacks x20",
     "p": "2.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1378757/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tie-handle-refuse-sacks-x20",
     "c": "Other",
     "cn": "sainsburys handle refuse sacks sainsbury tie x20",
-    "ik": "tok:sainsburys|handle-refuse-sacks-sainsbury-tie-x20|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|handle-refuse-sacks-sainsbury-tie-x20|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Scented Waste Basket Bags x25",
     "p": "1.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7592795/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-scented-waste-basket-bags-x25",
     "c": "Other",
     "cn": "sainsburys bags basket sainsbury scented waste x25",
-    "ik": "tok:sainsburys|bags-basket-sainsbury-scented-waste-x25|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bags-basket-sainsbury-scented-waste-x25|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Tie Top Swing Bin Liners Bags x30 50L",
@@ -28920,13 +29159,14 @@
     "n": "Sainsbury's Heavy Duty Tie Handle Garden Sacks x10",
     "p": "2.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1063653/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-heavy-duty-tie-handle-garden-sacks-x10",
     "c": "Other",
     "cn": "sainsburys duty garden handle heavy sacks sainsbury tie x10",
-    "ik": "tok:sainsburys|duty-garden-handle-heavy-sacks-sainsbury-tie-x10|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|duty-garden-handle-heavy-sacks-sainsbury-tie-x10|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Drawstring Tall Kitchen Bin Liners x20 30L",
@@ -28945,13 +29185,14 @@
     "n": "Sainsbury's Tie Top Refuse Sacks x40",
     "p": "4.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1370935/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-tie-top-refuse-sacks-x40",
     "c": "Other",
     "cn": "sainsburys refuse sacks sainsbury tie top x40",
-    "ik": "tok:sainsburys|refuse-sacks-sainsbury-tie-top-x40|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|refuse-sacks-sainsbury-tie-top-x40|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Drawstring Tall & Wide Kitchen Bin Liners 50L",
@@ -28970,13 +29211,14 @@
     "n": "Sainsbury's Waste Basket Bags x40",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7206338/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-waste-basket-bags-x40",
     "c": "Other",
     "cn": "sainsburys bags basket sainsbury waste x40",
-    "ik": "tok:sainsburys|bags-basket-sainsbury-waste-x40|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bags-basket-sainsbury-waste-x40|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Drawstring Refuse Sacks x20 75L",
@@ -29021,13 +29263,14 @@
     "n": "Sainsbury's Wheelie Bin Liner x10",
     "p": "2.60",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/1296808/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-wheelie-bin-liner-x10",
     "c": "Other",
     "cn": "sainsburys bin liner sainsbury wheelie x10",
-    "ik": "tok:sainsburys|bin-liner-sainsbury-wheelie-x10|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bin-liner-sainsbury-wheelie-x10|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Tie Handle Refuse Sacks x40 75L",
@@ -29046,13 +29289,14 @@
     "n": "Bacofoil Zipper All Purpose Bags Medium x12",
     "p": "3.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8027655/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/bacofoil-zipper-all-purpose-bags-medium-x12",
     "c": "Other",
     "cn": "bacofoil all bags medium purpose x12 zipper",
-    "ik": "tok:bacofoil|all-bags-medium-purpose-x12-zipper|na",
-    "bn": "bacofoil"
+    "ik": "tok:bacofoil|all-bags-medium-purpose-x12-zipper|1",
+    "bn": "bacofoil",
+    "wg": 1
   },
   {
     "n": "Beast Bin Bags Incredibly Tough Drawstring Swing Bin Bags x10 50L",
@@ -29071,13 +29315,14 @@
     "n": "Sainsbury's Recycling Bin Bags x20",
     "p": "3.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7592781/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-recycling-bin-bags-x20",
     "c": "Other",
     "cn": "sainsburys bags bin recycling sainsbury x20",
-    "ik": "tok:sainsburys|bags-bin-recycling-sainsbury-x20|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|bags-bin-recycling-sainsbury-x20|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Brabantia Bin Liners H (50-60 L) x10",
@@ -29109,13 +29354,14 @@
     "n": "Beast Incredibly Tough Pedal Bin Bags x15",
     "p": "2.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8237193/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/beast-incredibly-tough-pedal-bin-bags-x15",
     "c": "Other",
     "cn": "beast bags bin incredibly pedal tough x15",
-    "ik": "tok:beast|bags-bin-incredibly-pedal-tough-x15|na",
-    "bn": "beast"
+    "ik": "tok:beast|bags-bin-incredibly-pedal-tough-x15|1",
+    "bn": "beast",
+    "wg": 1
   },
   {
     "n": "Neutradol Fresh Science Bin Odour Destroyer Citrus Fresh 350g",
@@ -29147,13 +29393,14 @@
     "n": "Sainsbury's Diy Sacks x10",
     "p": "4.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7593115/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-diy-sacks-x10",
     "c": "Other",
     "cn": "sainsburys diy sacks sainsbury x10",
-    "ik": "tok:sainsburys|diy-sacks-sainsbury-x10|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|diy-sacks-sainsbury-x10|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Little Ones Size 6, 16kg+ Nappy Pants x32",
@@ -29185,61 +29432,66 @@
     "n": "Sainsbury's Little Ones Pants Size 5 x36",
     "p": "3.09",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7987918/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-ones-pants-size-5-x36",
     "c": "Other",
     "cn": "sainsburys little ones pants sainsbury size x36",
-    "ik": "tok:sainsburys|little-ones-pants-sainsbury-size-x36|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|little-ones-pants-sainsbury-size-x36|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Little Ones Dry Fit Size 6 Jumbo 60 Nappies",
     "p": "4.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7815836/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-ones-dry-fit-size-6-jumbo-60-nappies",
     "c": "Other",
     "cn": "jumbo 60 dry fit little nappies ones sainsbury size",
-    "ik": "tok:jumbo|60-dry-fit-little-nappies-ones-sainsbury-size|na",
-    "bn": "jumbo"
+    "ik": "tok:jumbo|60-dry-fit-little-nappies-ones-sainsbury-size|1",
+    "bn": "jumbo",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Little Ones Dry Fit Size 5 Jumbo 72 Nappies",
     "p": "4.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7815865/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-ones-dry-fit-size-5-jumbo-72-nappies",
     "c": "Other",
     "cn": "jumbo 72 dry fit little nappies ones sainsbury size",
-    "ik": "tok:jumbo|72-dry-fit-little-nappies-ones-sainsbury-size|na",
-    "bn": "jumbo"
+    "ik": "tok:jumbo|72-dry-fit-little-nappies-ones-sainsbury-size|1",
+    "bn": "jumbo",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Little Ones Dry Fit Size 5 Junior 40 Nappies",
     "p": "2.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7444144/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-ones-dry-fit-size-5-junior-40-nappies",
     "c": "Other",
     "cn": "sainsburys 40 dry fit junior little nappies ones sainsbury size",
-    "ik": "tok:sainsburys|40-dry-fit-junior-little-nappies-ones-sainsbury-size|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|40-dry-fit-junior-little-nappies-ones-sainsbury-size|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Little Ones Dry Fit Size 6+ 30 Nappies",
     "p": "3.23",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7689244/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-ones-dry-fit-size-6-30-nappies",
     "c": "Other",
     "cn": "sainsburys 30 dry fit little nappies ones sainsbury size",
-    "ik": "tok:sainsburys|30-dry-fit-little-nappies-ones-sainsbury-size|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|30-dry-fit-little-nappies-ones-sainsbury-size|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Little Ones Newborn Super Soft Nappies Size 1, 2kg-5kg 4-11lb x26",
@@ -29258,13 +29510,14 @@
     "n": "Sainsbury's Little Ones Size 2 Newborn 46 Nappies",
     "p": "1.30",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/6358505/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-ones-size-2-newborn-46-nappies",
     "c": "Other",
     "cn": "sainsburys 46 little nappies newborn ones sainsbury size",
-    "ik": "tok:sainsburys|46-little-nappies-newborn-ones-sainsbury-size|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|46-little-nappies-newborn-ones-sainsbury-size|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Pampers Baby Dry Nappy Pants Jumbo+ Pack Nappies Size 6, 14kg-19kg x54",
@@ -29335,25 +29588,27 @@
     "n": "Sainsbury's Little Ones Dry Fit Size 6 Extra Large x30 Nappies",
     "p": "2.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7444122/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-ones-dry-fit-size-6-extra-large-x30-nappies",
     "c": "Other",
     "cn": "sainsburys dry extra fit large little nappies ones sainsbury size x30",
-    "ik": "tok:sainsburys|dry-extra-fit-large-little-nappies-ones-sainsbury-size-x30|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|dry-extra-fit-large-little-nappies-ones-sainsbury-size-x30|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Sainsbury's Little Ones Dry Fit Size 5+ 36 Nappies",
     "p": "2.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7693625/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-ones-dry-fit-size-5-36-nappies",
     "c": "Other",
     "cn": "sainsburys 36 dry fit little nappies ones sainsbury size",
-    "ik": "tok:sainsburys|36-dry-fit-little-nappies-ones-sainsbury-size|na",
-    "bn": "sainsburys"
+    "ik": "tok:sainsburys|36-dry-fit-little-nappies-ones-sainsbury-size|1",
+    "bn": "sainsburys",
+    "wg": 1
   },
   {
     "n": "Pampers Premium Protection New Baby Nappies Essential Pack Size 2, 4kg-8kg x44",
@@ -29385,13 +29640,14 @@
     "n": "Sainsbury's Little Ones Dry Fit Size 5+ Jumbo 66 Nappies",
     "p": "5.04",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7815858/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/sainsburys-little-ones-dry-fit-size-5-jumbo-66-nappies",
     "c": "Other",
     "cn": "jumbo 66 dry fit little nappies ones sainsbury size",
-    "ik": "tok:jumbo|66-dry-fit-little-nappies-ones-sainsbury-size|na",
-    "bn": "jumbo"
+    "ik": "tok:jumbo|66-dry-fit-little-nappies-ones-sainsbury-size|1",
+    "bn": "jumbo",
+    "wg": 1
   },
   {
     "n": "Pampers Baby Dry Nappy Pants Jumbo+ Pack Nappies Size 5, 12kg-17kg x64",
@@ -29449,13 +29705,14 @@
     "n": "Pampers Baby-Dry Size 7, 30 Nappies, 15+kg, Essential Pack",
     "p": "11.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/7853357/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/pampers-baby-dry-size-7-30-nappies-15-kg-essential-pack",
     "c": "Personal Care",
     "cn": "pampers 15 30 baby dry essential kg nappies pack size",
-    "ik": "tok:pampers|15-30-baby-dry-essential-kg-nappies-pack-size|na",
-    "bn": "pampers"
+    "ik": "tok:pampers|15-30-baby-dry-essential-kg-nappies-pack-size|1",
+    "bn": "pampers",
+    "wg": 1
   },
   {
     "n": "Huggies Pull Ups Day Time Pants For Boys & Girls, Size 7, 17kg+ x18",
@@ -29604,12 +29861,13 @@
     "n": "Pampers Ninjamas Pyjama Pants Girls 8-12 Years x9",
     "p": "6.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "https://assets.sainsburys-groceries.co.uk/gol/8131842/image.jpg",
     "i": "https://www.sainsburys.co.uk/gol-ui/product/pampers-ninjamas-pyjama-pants-girls-8-12-years-x9",
     "c": "Other",
     "cn": "pampers 12 girls ninjamas pants pyjama x9 years",
-    "ik": "tok:pampers|12-girls-ninjamas-pants-pyjama-x9-years|na",
-    "bn": "pampers"
+    "ik": "tok:pampers|12-girls-ninjamas-pants-pyjama-x9-years|1",
+    "bn": "pampers",
+    "wg": 1
   }
 ]

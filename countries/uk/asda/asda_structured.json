@@ -3,25 +3,27 @@
     "n": "Asda British Milk Semi Skimmed 2 Pints",
     "p": "1.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/semi-skimmed-milk/asda-british-milk-semi-skimmed-2-pints/538241",
     "c": "Other",
     "cn": "asda british milk pints semi skimmed",
-    "ik": "tok:asda|british-milk-pints-semi-skimmed|na",
-    "bn": "asda"
+    "ik": "tok:asda|british-milk-pints-semi-skimmed|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda British Whole Milk 2 Pints",
     "p": "1.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/whole-milk/asda-british-whole-milk-2-pints/538239",
     "c": "Other",
     "cn": "asda british milk pints whole",
-    "ik": "tok:asda|british-milk-pints-whole|na",
-    "bn": "asda"
+    "ik": "tok:asda|british-milk-pints-whole|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Cravendale Arla Filtered Fresh Semi Skimmed Milk 2L Fresher For Longer",
@@ -40,13 +42,14 @@
     "n": "Asda British Milk Skimmed 4 Pints",
     "p": "1.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/skimmed-1-fat-milk/asda-british-milk-skimmed-4-pints/165568",
     "c": "Other",
     "cn": "asda british milk pints skimmed",
-    "ik": "tok:asda|british-milk-pints-skimmed|na",
-    "bn": "asda"
+    "ik": "tok:asda|british-milk-pints-skimmed|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda British Milk Semi Skimmed 1 Pint 568ml",
@@ -116,13 +119,14 @@
     "n": "Asda British Milk Filtered Semi Skimmed 2 Litres",
     "p": "2.08",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/filtered-milk/asda-british-milk-filtered-semi-skimmed-2-litres/7504719",
     "c": "Other",
     "cn": "asda british filtered litres milk semi skimmed",
-    "ik": "tok:asda|british-filtered-litres-milk-semi-skimmed|na",
-    "bn": "asda"
+    "ik": "tok:asda|british-filtered-litres-milk-semi-skimmed|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Arla Bob Semi-Skimmed Milk 2L That Tastes Like Whole",
@@ -141,25 +145,27 @@
     "n": "Asda Organic Semi-Skimmed British Milk 4 Pints",
     "p": "2.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/semi-skimmed-milk/asda-organic-semi-skimmed-british-milk-4-pints/1790472",
     "c": "Other",
     "cn": "asda british milk organic pints semi skimmed",
-    "ik": "tok:asda|british-milk-organic-pints-semi-skimmed|na",
-    "bn": "asda"
+    "ik": "tok:asda|british-milk-organic-pints-semi-skimmed|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Arla Farmers Semi Skimmed Milk",
     "p": "1.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/semi-skimmed-milk/asda-arla-farmers-semi-skimmed-milk/5492682",
     "c": "Other",
     "cn": "arla asda farmers milk semi skimmed",
-    "ik": "tok:arla|asda-farmers-milk-semi-skimmed|na",
-    "bn": "arla"
+    "ik": "tok:arla|asda-farmers-milk-semi-skimmed|1",
+    "bn": "arla",
+    "wg": 1
   },
   {
     "n": "Arla Bob Skimmed Milk 2L Tastes Like Semi Skimmed",
@@ -256,13 +262,14 @@
     "n": "Asda British Milk Filtered Whole 2 Litres",
     "p": "2.08",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/filtered-milk/asda-british-milk-filtered-whole-2-litres/7504717",
     "c": "Other",
     "cn": "asda british filtered litres milk whole",
-    "ik": "tok:asda|british-filtered-litres-milk-whole|na",
-    "bn": "asda"
+    "ik": "tok:asda|british-filtered-litres-milk-whole|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Yeo Valley Organic Fresh Whole Milk 2L",
@@ -281,25 +288,27 @@
     "n": "Asda Arla Farmers Whole Milk",
     "p": "1.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/whole-milk/asda-arla-farmers-whole-milk/5492684",
     "c": "Other",
     "cn": "arla asda farmers milk whole",
-    "ik": "tok:arla|asda-farmers-milk-whole|na",
-    "bn": "arla"
+    "ik": "tok:arla|asda-farmers-milk-whole|1",
+    "bn": "arla",
+    "wg": 1
   },
   {
     "n": "Asda Organic Whole Milk 4 Pints",
     "p": "2.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/whole-milk/asda-organic-whole-milk-4-pints/1790474",
     "c": "Other",
     "cn": "asda milk organic pints whole",
-    "ik": "tok:asda|milk-organic-pints-whole|na",
-    "bn": "asda"
+    "ik": "tok:asda|milk-organic-pints-whole|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Delamere Whole Sterilised Cows Milk 1 Litre",
@@ -552,13 +561,14 @@
     "n": "Asda Cucumber",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/cucumbers/asda-cucumber/152446",
     "c": "Other",
     "cn": "asda cucumber",
-    "ik": "tok:asda|cucumber|na",
-    "bn": "asda"
+    "ik": "tok:asda|cucumber|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "The Bakery At Asda The Bakery 8 White Wraps 488g",
@@ -602,25 +612,27 @@
     "n": "Asda Fragrant & Crunchy Spring Onions",
     "p": "0.68",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/celery-spring-onions/asda-fragrant-crunchy-spring-onions/1787074",
     "c": "Other",
     "cn": "asda crunchy fragrant onions spring",
-    "ik": "tok:asda|crunchy-fragrant-onions-spring|na",
-    "bn": "asda"
+    "ik": "tok:asda|crunchy-fragrant-onions-spring|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda 6 Royal Gala Apples Fruit",
     "p": "1.67",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/apples/asda-6-royal-gala-apples-fruit/5648295",
     "c": "Fruits & Vegetables",
     "cn": "asda apples fruit gala royal",
-    "ik": "tok:asda|apples-fruit-gala-royal|na",
-    "bn": "asda"
+    "ik": "tok:asda|apples-fruit-gala-royal|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Seedless Mixed Grapes 500g",
@@ -782,37 +794,40 @@
     "n": "Asda Free Range 6 Large Eggs",
     "p": "2.10",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/free-range-eggs/asda-free-range-6-large-eggs/166779",
     "c": "Other",
     "cn": "asda eggs free large range",
-    "ik": "tok:asda|eggs-free-large-range|na",
-    "bn": "asda"
+    "ik": "tok:asda|eggs-free-large-range|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "The Happy Egg Co Free Range Eggs 6 Large",
     "p": "2.83",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/free-range-eggs/the-happy-egg-co-free-range-eggs-6-large/2982601",
     "c": "Other",
     "cn": "the co egg eggs free happy large range",
-    "ik": "tok:the|co-egg-eggs-free-happy-large-range|na",
-    "bn": "the"
+    "ik": "tok:the|co-egg-eggs-free-happy-large-range|1",
+    "bn": "the",
+    "wg": 1
   },
   {
     "n": "The Happy Egg Co Free Range 10 Large",
     "p": "4.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/free-range-eggs/the-happy-egg-co-free-range-10-large/5729785",
     "c": "Other",
     "cn": "the 10 co egg free happy large range",
-    "ik": "tok:the|10-co-egg-free-happy-large-range|na",
-    "bn": "the"
+    "ik": "tok:the|10-co-egg-free-happy-large-range|1",
+    "bn": "the",
+    "wg": 1
   },
   {
     "n": "Asda Organic Organic Free Range 6 Mixed Eggs 328g",
@@ -831,25 +846,27 @@
     "n": "Freshlay 10 Free Range Eggs",
     "p": "3.88",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/free-range-eggs/freshlay-10-free-range-eggs/7740699",
     "c": "Other",
     "cn": "freshlay 10 eggs free range",
-    "ik": "tok:freshlay|10-eggs-free-range|na",
-    "bn": "freshlay"
+    "ik": "tok:freshlay|10-eggs-free-range|1",
+    "bn": "freshlay",
+    "wg": 1
   },
   {
     "n": "Asda 12 Free Range Medium Eggs",
     "p": "2.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/free-range-eggs/asda-12-free-range-medium-eggs/1058519",
     "c": "Other",
     "cn": "asda 12 eggs free medium range",
-    "ik": "tok:asda|12-eggs-free-medium-range|na",
-    "bn": "asda"
+    "ik": "tok:asda|12-eggs-free-medium-range|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Purely Organic 10 Mixed Size Eggs 540g",
@@ -868,25 +885,27 @@
     "n": "Asda 12 Free Range Large Eggs",
     "p": "3.30",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/free-range-eggs/asda-12-free-range-large-eggs/166781",
     "c": "Other",
     "cn": "asda 12 eggs free large range",
-    "ik": "tok:asda|12-eggs-free-large-range|na",
-    "bn": "asda"
+    "ik": "tok:asda|12-eggs-free-large-range|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Free Range 6 Medium Eggs",
     "p": "1.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/free-range-eggs/asda-free-range-6-medium-eggs/166780",
     "c": "Other",
     "cn": "asda eggs free medium range",
-    "ik": "tok:asda|eggs-free-medium-range|na",
-    "bn": "asda"
+    "ik": "tok:asda|eggs-free-medium-range|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Exceptional By Asda 6 Free Range Golden Yolk Eggs 328g",
@@ -1605,25 +1624,27 @@
     "n": "Muller Corner Bliss Bliss Whipped Greek Style Salted Caramel Cheesecake Yogurts",
     "p": "2.38",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/corner-yogurts/muller-corner-bliss-bliss-whipped-greek-style-salted-caramel-cheesecake-yogurts/6041546",
     "c": "Other",
     "cn": "muller bliss caramel cheesecake corner greek salted style whipped yogurts",
-    "ik": "tok:muller|bliss-caramel-cheesecake-corner-greek-salted-style-whipped-yogurts|na",
-    "bn": "muller"
+    "ik": "tok:muller|bliss-caramel-cheesecake-corner-greek-salted-style-whipped-yogurts|1",
+    "bn": "muller",
+    "wg": 1
   },
   {
     "n": "Muller Bliss Whipped Greek Yogurt With Lemon Meringue Pie",
     "p": "2.38",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/corner-yogurts/muller-bliss-whipped-greek-yogurt-with-lemon-meringue-pie/9239586",
     "c": "Other",
     "cn": "muller bliss greek lemon meringue pie whipped with yogurt",
-    "ik": "tok:muller|bliss-greek-lemon-meringue-pie-whipped-with-yogurt|na",
-    "bn": "muller"
+    "ik": "tok:muller|bliss-greek-lemon-meringue-pie-whipped-with-yogurt|1",
+    "bn": "muller",
+    "wg": 1
   },
   {
     "n": "Asda Fat Free Greek Style Yogurt 1kg",
@@ -1810,37 +1831,40 @@
     "n": "Asda 6 Bananas",
     "p": "0.94",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bananas/asda-6-bananas/9084493",
     "c": "Other",
     "cn": "asda bananas",
-    "ik": "tok:asda|bananas|na",
-    "bn": "asda"
+    "ik": "tok:asda|bananas|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Garden Gang 7 Brilliant Bananas",
     "p": "0.88",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bananas/asda-garden-gang-7-brilliant-bananas/9084496",
     "c": "Other",
     "cn": "asda bananas brilliant gang garden",
-    "ik": "tok:asda|bananas-brilliant-gang-garden|na",
-    "bn": "asda"
+    "ik": "tok:asda|bananas-brilliant-gang-garden|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Organic Organic 5 Fairtrade Bananas",
     "p": "1.47",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bananas/asda-organic-organic-5-fairtrade-bananas/6389889",
     "c": "Other",
     "cn": "asda bananas fairtrade organic",
-    "ik": "tok:asda|bananas-fairtrade-organic|na",
-    "bn": "asda"
+    "ik": "tok:asda|bananas-fairtrade-organic|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Banana & Chocolate Chip Soft Bake Bars 5 X 35g",
@@ -1882,13 +1906,14 @@
     "n": "Muller Corner Vanilla Chocolate Balls And Banana Chocolate Flakes Yogurts",
     "p": "3.78",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/corner-yogurts/muller-corner-vanilla-chocolate-balls-and-banana-chocolate-flakes-yogurts/7368412",
     "c": "Snacks",
     "cn": "muller and balls banana chocolate corner flakes vanilla yogurts",
-    "ik": "tok:muller|and-balls-banana-chocolate-corner-flakes-vanilla-yogurts|na",
-    "bn": "muller"
+    "ik": "tok:muller|and-balls-banana-chocolate-corner-flakes-vanilla-yogurts|1",
+    "bn": "muller",
+    "wg": 1
   },
   {
     "n": "Soreen Banana Lunchbox Loaves Snack Bars 5 X 30g",
@@ -1932,13 +1957,14 @@
     "n": "The Bakery At Asda Banana Flavour Loaf Cake",
     "p": "1.86",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/loaf-cakes/the-bakery-at-asda-banana-flavour-loaf-cake/7424537",
     "c": "Other",
     "cn": "the asda at bakery banana cake flavour loaf",
-    "ik": "tok:the|asda-at-bakery-banana-cake-flavour-loaf|na",
-    "bn": "the"
+    "ik": "tok:the|asda-at-bakery-banana-cake-flavour-loaf|1",
+    "bn": "the",
+    "wg": 1
   },
   {
     "n": "Whaoo! 6 Chocolate & Banana Filled Crêpes 192g",
@@ -1957,13 +1983,14 @@
     "n": "The Bakery At Asda The Bakery 6 Banana Pancakes",
     "p": "1.38",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/pancakes-crepes/the-bakery-at-asda-the-bakery-6-banana-pancakes/7419633",
     "c": "Other",
     "cn": "the asda at bakery banana pancakes",
-    "ik": "tok:the|asda-at-bakery-banana-pancakes|na",
-    "bn": "the"
+    "ik": "tok:the|asda-at-bakery-banana-pancakes|1",
+    "bn": "the",
+    "wg": 1
   },
   {
     "n": "Asda Strawberry & Banana Fruit Smoothie 750ml",
@@ -1982,13 +2009,14 @@
     "n": "Asda Garden Gang 6 Amazing Apples",
     "p": "1.07",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/apples/asda-garden-gang-6-amazing-apples/6462990",
     "c": "Other",
     "cn": "asda amazing apples gang garden",
-    "ik": "tok:asda|amazing-apples-gang-garden|na",
-    "bn": "asda"
+    "ik": "tok:asda|amazing-apples-gang-garden|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Pink Lady Apples 4pk",
@@ -2006,49 +2034,53 @@
     "n": "Asda 6 Granny Smith Apples Fruit",
     "p": "0.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/apples/asda-6-granny-smith-apples-fruit/5648277",
     "c": "Fruits & Vegetables",
     "cn": "asda apples fruit granny smith",
-    "ik": "tok:asda|apples-fruit-granny-smith|na",
-    "bn": "asda"
+    "ik": "tok:asda|apples-fruit-granny-smith|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda 6 Braeburn Apples Fruit",
     "p": "0.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/apples/asda-6-braeburn-apples-fruit/5648293",
     "c": "Fruits & Vegetables",
     "cn": "asda apples braeburn fruit",
-    "ik": "tok:asda|apples-braeburn-fruit|na",
-    "bn": "asda"
+    "ik": "tok:asda|apples-braeburn-fruit|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Pink Lady 6 Apples",
     "p": "2.87",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/apples/pink-lady-6-apples/7091478",
     "c": "Other",
     "cn": "pink apples lady",
-    "ik": "tok:pink|apples-lady|na",
-    "bn": "pink"
+    "ik": "tok:pink|apples-lady|1",
+    "bn": "pink",
+    "wg": 1
   },
   {
     "n": "Asda 6 Golden Delicious Apples Fruit",
     "p": "0.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/apples/asda-6-golden-delicious-apples-fruit/5648285",
     "c": "Fruits & Vegetables",
     "cn": "asda apples delicious fruit golden",
-    "ik": "tok:asda|apples-delicious-fruit-golden|na",
-    "bn": "asda"
+    "ik": "tok:asda|apples-delicious-fruit-golden|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Exceptional By Asda British Baby Potatoes 750g",
@@ -2118,13 +2150,14 @@
     "n": "Golden Kings All Rounder Potatoes",
     "p": "1.98",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/baking-jacket-potatoes/golden-kings-all-rounder-potatoes/7690991",
     "c": "Other",
     "cn": "golden all kings potatoes rounder",
-    "ik": "tok:golden|all-kings-potatoes-rounder|na",
-    "bn": "golden"
+    "ik": "tok:golden|all-kings-potatoes-rounder|1",
+    "bn": "golden",
+    "wg": 1
   },
   {
     "n": "Asda Creamy & Flavoursome Sweet Potatoes 1kg",
@@ -2169,25 +2202,27 @@
     "n": "Asda Vine Ripened Cherry Tomatoes",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/tomatoes/asda-vine-ripened-cherry-tomatoes/6581120",
     "c": "Other",
     "cn": "asda cherry ripened tomatoes vine",
-    "ik": "tok:asda|cherry-ripened-tomatoes-vine|na",
-    "bn": "asda"
+    "ik": "tok:asda|cherry-ripened-tomatoes-vine|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Just Essentials By Asda Salad Tomatoes",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/tomatoes/just-essentials-by-asda-salad-tomatoes/5795224",
     "c": "Other",
     "cn": "just asda by essentials salad tomatoes",
-    "ik": "tok:just|asda-by-essentials-salad-tomatoes|na",
-    "bn": "just"
+    "ik": "tok:just|asda-by-essentials-salad-tomatoes|1",
+    "bn": "just",
+    "wg": 1
   },
   {
     "n": "Asda Crunchy & Juicy Cherry Tomatoes 300g",
@@ -2206,13 +2241,14 @@
     "n": "Asda Beef Tomato",
     "p": "0.87",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/tomatoes/asda-beef-tomato/5795208",
     "c": "Other",
     "cn": "asda beef tomato",
-    "ik": "tok:asda|beef-tomato|na",
-    "bn": "asda"
+    "ik": "tok:asda|beef-tomato|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Napolina Chopped Tomatoes In A Rich Tomato Juice 400g",
@@ -2231,13 +2267,14 @@
     "n": "Asda 3 Crunchy & Fragrant Brown Onions",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/onions-leeks/asda-3-crunchy-fragrant-brown-onions/5737702",
     "c": "Other",
     "cn": "asda brown crunchy fragrant onions",
-    "ik": "tok:asda|brown-crunchy-fragrant-onions|na",
-    "bn": "asda"
+    "ik": "tok:asda|brown-crunchy-fragrant-onions|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Brown Onions 1kg",
@@ -2256,13 +2293,14 @@
     "n": "Asda 3 Sweet & Crunchy Red Onions",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/onions-leeks/asda-3-sweet-crunchy-red-onions/5737707",
     "c": "Other",
     "cn": "red asda crunchy onions sweet",
-    "ik": "tok:red|asda-crunchy-onions-sweet|na",
-    "bn": "red"
+    "ik": "tok:red|asda-crunchy-onions-sweet|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Asda Sweet & Crunchy Red Onions 1kg",
@@ -2281,13 +2319,14 @@
     "n": "Exceptional By Asda Extra Large Onions",
     "p": "1.84",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/onions-leeks/exceptional-by-asda-extra-large-onions/9301394",
     "c": "Other",
     "cn": "exceptional asda by extra large onions",
-    "ik": "tok:exceptional|asda-by-extra-large-onions|na",
-    "bn": "exceptional"
+    "ik": "tok:exceptional|asda-by-extra-large-onions|1",
+    "bn": "exceptional",
+    "wg": 1
   },
   {
     "n": "Asda Chopped Onion 200g",
@@ -2358,25 +2397,27 @@
     "n": "Asda Organic Brown Onions",
     "p": "1.10",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/onions-leeks/asda-organic-brown-onions/5499435",
     "c": "Other",
     "cn": "asda brown onions organic",
-    "ik": "tok:asda|brown-onions-organic|na",
-    "bn": "asda"
+    "ik": "tok:asda|brown-onions-organic|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Organic Organic Red Onions",
     "p": "1.31",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/onions-leeks/asda-organic-organic-red-onions/921209",
     "c": "Other",
     "cn": "red asda onions organic",
-    "ik": "tok:red|asda-onions-organic|na",
-    "bn": "red"
+    "ik": "tok:red|asda-onions-organic|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Asda Beer Battered Whole Onion Rings 400g",
@@ -2551,13 +2592,14 @@
     "n": "Asda British Swede",
     "p": "0.62",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/swede-beetroot/asda-british-swede/5792187",
     "c": "Other",
     "cn": "asda british swede",
-    "ik": "tok:asda|british-swede|na",
-    "bn": "asda"
+    "ik": "tok:asda|british-swede|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Grated Carrot 150g",
@@ -2771,25 +2813,27 @@
     "n": "Asda Organic Organic Cucumber",
     "p": "1.27",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/organic-salad/asda-organic-organic-cucumber/926079",
     "c": "Other",
     "cn": "asda cucumber organic",
-    "ik": "tok:asda|cucumber-organic|na",
-    "bn": "asda"
+    "ik": "tok:asda|cucumber-organic|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda British Salad Cress",
     "p": "0.43",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/radish-cress-beetroot/asda-british-salad-cress/150482",
     "c": "Other",
     "cn": "asda british cress salad",
-    "ik": "tok:asda|british-cress-salad|na",
-    "bn": "asda"
+    "ik": "tok:asda|british-cress-salad|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Energise Apple, Kiwi, Mango, Matcha & Cucumber Super Smoothie 750ml",
@@ -2873,25 +2917,27 @@
     "n": "Asda Iceberg Lettuce",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/lettuce/asda-iceberg-lettuce/410006",
     "c": "Other",
     "cn": "asda iceberg lettuce",
-    "ik": "tok:asda|iceberg-lettuce|na",
-    "bn": "asda"
+    "ik": "tok:asda|iceberg-lettuce|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Sweet & Crisp Romaine Lettuce Hearts",
     "p": "1.18",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/lettuce/asda-sweet-crisp-romaine-lettuce-hearts/883299",
     "c": "Other",
     "cn": "asda crisp hearts lettuce romaine sweet",
-    "ik": "tok:asda|crisp-hearts-lettuce-romaine-sweet|na",
-    "bn": "asda"
+    "ik": "tok:asda|crisp-hearts-lettuce-romaine-sweet|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Sweet & Crisp Shredded Iceberg Lettuce 130g",
@@ -2910,13 +2956,14 @@
     "n": "Asda 2 Crisp & Crunchy Little Gem Lettuce",
     "p": "0.77",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/lettuce/asda-2-crisp-crunchy-little-gem-lettuce/858793",
     "c": "Other",
     "cn": "asda crisp crunchy gem lettuce little",
-    "ik": "tok:asda|crisp-crunchy-gem-lettuce-little|na",
-    "bn": "asda"
+    "ik": "tok:asda|crisp-crunchy-gem-lettuce-little|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Iceberg Lettuce 200g",
@@ -2935,13 +2982,14 @@
     "n": "Exceptional By Asda Hand Harvested Sweet Gem Lettuce",
     "p": "1.12",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/lettuce/exceptional-by-asda-hand-harvested-sweet-gem-lettuce/9248425",
     "c": "Other",
     "cn": "exceptional asda by gem hand harvested lettuce sweet",
-    "ik": "tok:exceptional|asda-by-gem-hand-harvested-lettuce-sweet|na",
-    "bn": "exceptional"
+    "ik": "tok:exceptional|asda-by-gem-hand-harvested-lettuce-sweet|1",
+    "bn": "exceptional",
+    "wg": 1
   },
   {
     "n": "Florette Crispy 140g",
@@ -2960,25 +3008,27 @@
     "n": "Asda Crunchy & Sweet Chinese Leaf",
     "p": "1.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/cabbage/asda-crunchy-sweet-chinese-leaf/800975",
     "c": "Other",
     "cn": "asda chinese crunchy leaf sweet",
-    "ik": "tok:asda|chinese-crunchy-leaf-sweet|na",
-    "bn": "asda"
+    "ik": "tok:asda|chinese-crunchy-leaf-sweet|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Just Essentials By Asda Round Lettuce",
     "p": "0.78",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/lettuce/just-essentials-by-asda-round-lettuce/5795222",
     "c": "Other",
     "cn": "just asda by essentials lettuce round",
-    "ik": "tok:just|asda-by-essentials-lettuce-round|na",
-    "bn": "just"
+    "ik": "tok:just|asda-by-essentials-lettuce-round|1",
+    "bn": "just",
+    "wg": 1
   },
   {
     "n": "Asda Bistro Salad 170g",
@@ -3036,13 +3086,14 @@
     "n": "Asda Apple & Blackcurrant Squash 1.5 Litres",
     "p": "1.18",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/no-added-sugar-squash/asda-apple-blackcurrant-squash-1-5-litres/5636071",
     "c": "Other",
     "cn": "asda apple blackcurrant litres squash",
-    "ik": "tok:asda|apple-blackcurrant-litres-squash|na",
-    "bn": "asda"
+    "ik": "tok:asda|apple-blackcurrant-litres-squash|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Tuna Chunks In Spring Water 4 X 145g (580g)",
@@ -3086,49 +3137,53 @@
     "n": "Asda Creamy & Nutty Avocados",
     "p": "1.48",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/avocados/asda-creamy-nutty-avocados/849246",
     "c": "Other",
     "cn": "asda avocados creamy nutty",
-    "ik": "tok:asda|avocados-creamy-nutty|na",
-    "bn": "asda"
+    "ik": "tok:asda|avocados-creamy-nutty|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Large Avocado",
     "p": "0.88",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/avocados/asda-large-avocado/5800817",
     "c": "Other",
     "cn": "asda avocado large",
-    "ik": "tok:asda|avocado-large|na",
-    "bn": "asda"
+    "ik": "tok:asda|avocado-large|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Just Essentials By Asda Avocados",
     "p": "1.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/avocados/just-essentials-by-asda-avocados/6399948",
     "c": "Other",
     "cn": "just asda avocados by essentials",
-    "ik": "tok:just|asda-avocados-by-essentials|na",
-    "bn": "just"
+    "ik": "tok:just|asda-avocados-by-essentials|1",
+    "bn": "just",
+    "wg": 1
   },
   {
     "n": "Asda Organic Organic Ripe Avocado",
     "p": "1.44",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/avocados/asda-organic-organic-ripe-avocado/6749302",
     "c": "Other",
     "cn": "asda avocado organic ripe",
-    "ik": "tok:asda|avocado-organic-ripe|na",
-    "bn": "asda"
+    "ik": "tok:asda|avocado-organic-ripe|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Holy Moly Smashed Avocado 3 X 57g",
@@ -3172,13 +3227,14 @@
     "n": "Exceptional By Asda Exceptional By Giant Avocado",
     "p": "2.27",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/avocados/exceptional-by-asda-exceptional-by-giant-avocado/9281383",
     "c": "Other",
     "cn": "exceptional asda avocado by giant",
-    "ik": "tok:exceptional|asda-avocado-by-giant|na",
-    "bn": "exceptional"
+    "ik": "tok:exceptional|asda-avocado-by-giant|1",
+    "bn": "exceptional",
+    "wg": 1
   },
   {
     "n": "Cook By Asda Cook By Asda Avocado Oil 250ml",
@@ -3236,13 +3292,14 @@
     "n": "Avocado Green Toilet Brush",
     "p": "8.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/toilet/avocado-green-toilet-brush/9315110",
     "c": "Other",
     "cn": "avocado brush green toilet",
-    "ik": "tok:avocado|brush-green-toilet|na",
-    "bn": "avocado"
+    "ik": "tok:avocado|brush-green-toilet|1",
+    "bn": "avocado",
+    "wg": 1
   },
   {
     "n": "Cantu Avocado Hydrating Conditioner 400ml",
@@ -3261,61 +3318,66 @@
     "n": "Exceptional By Asda 4 Lemongold Lemons",
     "p": "1.67",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/lemons-limes/exceptional-by-asda-4-lemongold-lemons/9280812",
     "c": "Other",
     "cn": "exceptional asda by lemongold lemons",
-    "ik": "tok:exceptional|asda-by-lemongold-lemons|na",
-    "bn": "exceptional"
+    "ik": "tok:exceptional|asda-by-lemongold-lemons|1",
+    "bn": "exceptional",
+    "wg": 1
   },
   {
     "n": "Asda Tangy & Zesty Lemons",
     "p": "1.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/lemons-limes/asda-tangy-zesty-lemons/6762195",
     "c": "Other",
     "cn": "asda lemons tangy zesty",
-    "ik": "tok:asda|lemons-tangy-zesty|na",
-    "bn": "asda"
+    "ik": "tok:asda|lemons-tangy-zesty|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Just Essentials By Asda Lemons",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/lemons-limes/just-essentials-by-asda-lemons/5797459",
     "c": "Other",
     "cn": "just asda by essentials lemons",
-    "ik": "tok:just|asda-by-essentials-lemons|na",
-    "bn": "just"
+    "ik": "tok:just|asda-by-essentials-lemons|1",
+    "bn": "just",
+    "wg": 1
   },
   {
     "n": "Asda Lemons",
     "p": "0.37",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/lemons-limes/asda-lemons/618592",
     "c": "Other",
     "cn": "asda lemons",
-    "ik": "tok:asda|lemons|na",
-    "bn": "asda"
+    "ik": "tok:asda|lemons|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Limes",
     "p": "0.23",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/lemons-limes/asda-limes/618596",
     "c": "Other",
     "cn": "asda limes",
-    "ik": "tok:asda|limes|na",
-    "bn": "asda"
+    "ik": "tok:asda|limes|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Bake By Asda Bake By Asda Lemon Juice From Concentrate 250ml",
@@ -3347,13 +3409,14 @@
     "n": "Asda Lemon & Lime Squash 1.5 Litres",
     "p": "0.67",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/no-added-sugar-squash/asda-lemon-lime-squash-1-5-litres/6179331",
     "c": "Other",
     "cn": "asda lemon lime litres squash",
-    "ik": "tok:asda|lemon-lime-litres-squash|na",
-    "bn": "asda"
+    "ik": "tok:asda|lemon-lime-litres-squash|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Fairy Washing Up Liquid Lemon With Liftaction 320 Ml",
@@ -3554,13 +3617,14 @@
     "n": "Asda Still Natural Mineral Water 2 Litres",
     "p": "0.87",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/still-water/asda-still-natural-mineral-water-2-litres/5167",
     "c": "Other",
     "cn": "asda litres mineral natural still water",
-    "ik": "tok:asda|litres-mineral-natural-still-water|na",
-    "bn": "asda"
+    "ik": "tok:asda|litres-mineral-natural-still-water|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Tender Chicken Breast Fillets 600g",
@@ -4034,13 +4098,14 @@
     "n": "Exceptional By Asda Exceptional By British Aberdeen Angus Lean Beef Mince",
     "p": "6.37",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/beef-mince-meatballs/exceptional-by-asda-exceptional-by-british-aberdeen-angus-lean-beef-mince/9119380",
     "c": "Other",
     "cn": "exceptional aberdeen angus asda beef british by lean mince",
-    "ik": "tok:exceptional|aberdeen-angus-asda-beef-british-by-lean-mince|na",
-    "bn": "exceptional"
+    "ik": "tok:exceptional|aberdeen-angus-asda-beef-british-by-lean-mince|1",
+    "bn": "exceptional",
+    "wg": 1
   },
   {
     "n": "Asda 5% Fat Beef Mince 400g",
@@ -4551,13 +4616,14 @@
     "n": "Mowi 2 Superior Scottish Salmon Fillets",
     "p": "6.17",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/salmon/mowi-2-superior-scottish-salmon-fillets/7593162",
     "c": "Other",
     "cn": "mowi fillets salmon scottish superior",
-    "ik": "tok:mowi|fillets-salmon-scottish-superior|na",
-    "bn": "mowi"
+    "ik": "tok:mowi|fillets-salmon-scottish-superior|1",
+    "bn": "mowi",
+    "wg": 1
   },
   {
     "n": "Asda 4 Flavoursome Salmon Fillets 520g",
@@ -4719,13 +4785,14 @@
     "n": "Asda Golden 2 Breaded Cod Fillets",
     "p": "4.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/fresh-breaded-battered-fish/asda-golden-2-breaded-cod-fillets/9088597",
     "c": "Other",
     "cn": "asda breaded cod fillets golden",
-    "ik": "tok:asda|breaded-cod-fillets-golden|na",
-    "bn": "asda"
+    "ik": "tok:asda|breaded-cod-fillets-golden|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda 4 Breaded Cod Fillets 440g",
@@ -4965,13 +5032,14 @@
     "n": "Exceptional By Asda Ex Wiltshire Ham",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/ham-pork-slices/exceptional-by-asda-ex-wiltshire-ham/9125388",
     "c": "Other",
     "cn": "exceptional asda by ex ham wiltshire",
-    "ik": "tok:exceptional|asda-by-ex-ham-wiltshire|na",
-    "bn": "exceptional"
+    "ik": "tok:exceptional|asda-by-ex-ham-wiltshire|1",
+    "bn": "exceptional",
+    "wg": 1
   },
   {
     "n": "Exceptional By Asda Breaded Wiltshire Ham 120g",
@@ -5003,25 +5071,27 @@
     "n": "Exceptional By Asda Ex Finely Sliced Ham",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/ham-pork-slices/exceptional-by-asda-ex-finely-sliced-ham/9125397",
     "c": "Other",
     "cn": "exceptional asda by ex finely ham sliced",
-    "ik": "tok:exceptional|asda-by-ex-finely-ham-sliced|na",
-    "bn": "exceptional"
+    "ik": "tok:exceptional|asda-by-ex-finely-ham-sliced|1",
+    "bn": "exceptional",
+    "wg": 1
   },
   {
     "n": "Exceptional By Asda Honey Roasted Ham",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/ham-pork-slices/exceptional-by-asda-honey-roasted-ham/9125406",
     "c": "Other",
     "cn": "exceptional asda by ham honey roasted",
-    "ik": "tok:exceptional|asda-by-ham-honey-roasted|na",
-    "bn": "exceptional"
+    "ik": "tok:exceptional|asda-by-ham-honey-roasted|1",
+    "bn": "exceptional",
+    "wg": 1
   },
   {
     "n": "Asda Fusilli 500g",
@@ -5183,13 +5253,14 @@
     "n": "Spaghetti Spoon",
     "p": "3.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/cooking-utensils-food-preparation/spaghetti-spoon/9274890",
     "c": "Other",
     "cn": "spaghetti spoon",
-    "ik": "tok:spaghetti|spoon|na",
-    "bn": "spaghetti"
+    "ik": "tok:spaghetti|spoon|1",
+    "bn": "spaghetti",
+    "wg": 1
   },
   {
     "n": "Napolina Linguine 500g",
@@ -5529,13 +5600,14 @@
     "n": "Asda Diet Lemonade 2 Litres",
     "p": "0.82",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/sugar-free-diet-lemonade/asda-diet-lemonade-2-litres/9108307",
     "c": "Other",
     "cn": "asda diet lemonade litres",
-    "ik": "tok:asda|diet-lemonade-litres|na",
-    "bn": "asda"
+    "ik": "tok:asda|diet-lemonade-litres|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Branston Baked Beans 4 X 410g",
@@ -5718,13 +5790,14 @@
     "n": "Asda Loose Red Pepper",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/peppers/asda-loose-red-pepper/1857059",
     "c": "Other",
     "cn": "red asda loose pepper",
-    "ik": "tok:red|asda-loose-pepper|na",
-    "bn": "red"
+    "ik": "tok:red|asda-loose-pepper|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Napolina Peeled Plum Tomatoes In A Rich Tomato Juice 400g",
@@ -6644,13 +6717,14 @@
     "n": "Pg Tips Original Black Tea 210 Tea Bags",
     "p": "5.17",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/everyday-tea/pg-tips-original-black-tea-210-tea-bags/9045123",
     "c": "Other",
     "cn": "tips 210 bags black original pg tea",
-    "ik": "tok:tips|210-bags-black-original-pg-tea|na",
-    "bn": "tips"
+    "ik": "tok:tips|210-bags-black-original-pg-tea|1",
+    "bn": "tips",
+    "wg": 1
   },
   {
     "n": "Taylors Of Harrogate Yorkshire Gold 80 Tea Bags 250g",
@@ -6903,13 +6977,14 @@
     "n": "Asda Smooth Orange Juice 1.75 Litres",
     "p": "3.17",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/orange-citrus-juice/asda-smooth-orange-juice-1-75-litres/6746403",
     "c": "Other",
     "cn": "asda 75 juice litres orange smooth",
-    "ik": "tok:asda|75-juice-litres-orange-smooth|na",
-    "bn": "asda"
+    "ik": "tok:asda|75-juice-litres-orange-smooth|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Orange Juice From Concentrate 150ml",
@@ -7134,25 +7209,27 @@
     "n": "Asda Classic Cola 2 Litres",
     "p": "0.84",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/regular-cola/asda-classic-cola-2-litres/7515373",
     "c": "Other",
     "cn": "cola asda classic litres",
-    "ik": "tok:cola|asda-classic-litres|na",
-    "bn": "cola"
+    "ik": "tok:cola|asda-classic-litres|1",
+    "bn": "cola",
+    "wg": 1
   },
   {
     "n": "Asda Cherry Zero Cola 2 Litres",
     "p": "0.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/sugar-free-diet-cola/asda-cherry-zero-cola-2-litres/7661296",
     "c": "Other",
     "cn": "cola asda cherry litres zero",
-    "ik": "tok:cola|asda-cherry-litres-zero|na",
-    "bn": "cola"
+    "ik": "tok:cola|asda-cherry-litres-zero|1",
+    "bn": "cola",
+    "wg": 1
   },
   {
     "n": "Coca-Cola Original Taste 24 X 330ml Cans",
@@ -7170,13 +7247,14 @@
     "n": "Asda Cola Zero 2 Litres",
     "p": "0.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/coke-zero/asda-cola-zero-2-litres/7661292",
     "c": "Other",
     "cn": "cola asda litres zero",
-    "ik": "tok:cola|asda-litres-zero|na",
-    "bn": "cola"
+    "ik": "tok:cola|asda-litres-zero|1",
+    "bn": "cola",
+    "wg": 1
   },
   {
     "n": "Coca-Cola Original Taste 1.75L Bottle",
@@ -7809,13 +7887,14 @@
     "n": "Ktc Pure Sunflower Oil 5 Litres",
     "p": "8.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/oil-ghee/ktc-pure-sunflower-oil-5-litres/3338237",
     "c": "Other",
     "cn": "ktc litres oil pure sunflower",
-    "ik": "tok:ktc|litres-oil-pure-sunflower|na",
-    "bn": "ktc"
+    "ik": "tok:ktc|litres-oil-pure-sunflower|1",
+    "bn": "ktc",
+    "wg": 1
   },
   {
     "n": "Asda Sunflower Oil 1 Litre",
@@ -7847,25 +7926,27 @@
     "n": "Flora Pure Sunflower Oil 2 Litres",
     "p": "6.24",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/cooking-oil/flora-pure-sunflower-oil-2-litres/7473767",
     "c": "Other",
     "cn": "flora litres oil pure sunflower",
-    "ik": "tok:flora|litres-oil-pure-sunflower|na",
-    "bn": "flora"
+    "ik": "tok:flora|litres-oil-pure-sunflower|1",
+    "bn": "flora",
+    "wg": 1
   },
   {
     "n": "Asda Sunflower Oil 3 Litres",
     "p": "4.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/coconut-seed-nut-oil/asda-sunflower-oil-3-litres/464470",
     "c": "Other",
     "cn": "asda litres oil sunflower",
-    "ik": "tok:asda|litres-oil-sunflower|na",
-    "bn": "asda"
+    "ik": "tok:asda|litres-oil-sunflower|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Frylight 1 Cal Sunflower Oil Cooking Spray 190ml",
@@ -8039,13 +8120,14 @@
     "n": "Silver Spoon Tickled Pink Icing Sugar",
     "p": "2.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/icing-sugar/silver-spoon-tickled-pink-icing-sugar/5314986",
     "c": "Other",
     "cn": "silver icing pink spoon sugar tickled",
-    "ik": "tok:silver|icing-pink-spoon-sugar-tickled|na",
-    "bn": "silver"
+    "ik": "tok:silver|icing-pink-spoon-sugar-tickled|1",
+    "bn": "silver",
+    "wg": 1
   },
   {
     "n": "Billington's Golden Granulated Natural Unrefined Cane Sugar 1kg",
@@ -8155,13 +8237,14 @@
     "n": "Mcdougalls Pre Sifted Plain Flour",
     "p": "1.88",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/plain-flour/mcdougalls-pre-sifted-plain-flour/6304276",
     "c": "Other",
     "cn": "mcdougalls flour plain pre sifted",
-    "ik": "tok:mcdougalls|flour-plain-pre-sifted|na",
-    "bn": "mcdougalls"
+    "ik": "tok:mcdougalls|flour-plain-pre-sifted|1",
+    "bn": "mcdougalls",
+    "wg": 1
   },
   {
     "n": "Be-Ro Self-Raising Flour 1.1kg",
@@ -8440,13 +8523,14 @@
     "n": "Losalt Reduced Sodium Salt",
     "p": "2.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/salt-pepper/losalt-reduced-sodium-salt/15596",
     "c": "Other",
     "cn": "losalt reduced salt sodium",
-    "ik": "tok:losalt|reduced-salt-sodium|na",
-    "bn": "losalt"
+    "ik": "tok:losalt|reduced-salt-sodium|1",
+    "bn": "losalt",
+    "wg": 1
   },
   {
     "n": "Tidmans Coarse Rock Salt 500g",
@@ -8543,13 +8627,14 @@
     "n": "Asda Loose Yellow Pepper",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/peppers/asda-loose-yellow-pepper/1857071",
     "c": "Other",
     "cn": "asda loose pepper yellow",
-    "ik": "tok:asda|loose-pepper-yellow|na",
-    "bn": "asda"
+    "ik": "tok:asda|loose-pepper-yellow|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Saxa Ground White Pepper 25g",
@@ -8581,13 +8666,14 @@
     "n": "Asda Green Peppers",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/peppers/asda-green-peppers/6180696",
     "c": "Other",
     "cn": "asda green peppers",
-    "ik": "tok:asda|green-peppers|na",
-    "bn": "asda"
+    "ik": "tok:asda|green-peppers|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Cook Ground White Pepper 105g",
@@ -8632,13 +8718,14 @@
     "n": "Asda Loose Orange Pepper",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/peppers/asda-loose-orange-pepper/1857068",
     "c": "Other",
     "cn": "asda loose orange pepper",
-    "ik": "tok:asda|loose-orange-pepper|na",
-    "bn": "asda"
+    "ik": "tok:asda|loose-orange-pepper|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Schwartz Black Pepper Ground Medium 33g",
@@ -9540,13 +9627,14 @@
     "n": "Walkers Quavers Cheese Multipack Snacks",
     "p": "4.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/large-multipack-crisps-10-packs-/walkers-quavers-cheese-multipack-snacks/7619255",
     "c": "Snacks",
     "cn": "walkers cheese multipack quavers snacks",
-    "ik": "tok:walkers|cheese-multipack-quavers-snacks|na",
-    "bn": "walkers"
+    "ik": "tok:walkers|cheese-multipack-quavers-snacks|1",
+    "bn": "walkers",
+    "wg": 1
   },
   {
     "n": "Hula Hoops Bbq Beef Multipack Crisps 6 Pack",
@@ -9664,13 +9752,14 @@
     "n": "Asda Paracetamol 500mg Caplets 16 Caplets",
     "p": "0.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/paracetamol/asda-paracetamol-500mg-caplets-16-caplets/7673275",
     "c": "Other",
     "cn": "asda 16 500mg caplets paracetamol",
-    "ik": "tok:asda|16-500mg-caplets-paracetamol|na",
-    "bn": "asda"
+    "ik": "tok:asda|16-500mg-caplets-paracetamol|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Cadbury Dairy Milk Little Bars Chocolate Bar 4 Pack Multipack 72g (4 X 18g)",
@@ -9910,13 +9999,14 @@
     "n": "Jammie Dodgers Minis Raspberry Flavour Biscuits 6 Snack Packs",
     "p": "1.43",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/biscuit-pouches-snack-packs/jammie-dodgers-minis-raspberry-flavour-biscuits-6-snack-packs/5957971",
     "c": "Snacks",
     "cn": "jammie biscuits dodgers flavour minis packs raspberry snack",
-    "ik": "tok:jammie|biscuits-dodgers-flavour-minis-packs-raspberry-snack|na",
-    "bn": "jammie"
+    "ik": "tok:jammie|biscuits-dodgers-flavour-minis-packs-raspberry-snack|1",
+    "bn": "jammie",
+    "wg": 1
   },
   {
     "n": "Kitkat 2 Finger Milk Chocolate Biscuit Bar 18 Pack Multipack 372.6g",
@@ -9972,13 +10062,14 @@
     "n": "Fox's Biscuits Party Rings Minis 6 Snack Bags",
     "p": "1.43",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/biscuit-pouches-snack-packs/fox-s-biscuits-party-rings-minis-6-snack-bags/5725559",
     "c": "Snacks",
     "cn": "foxs bags biscuits fox minis party rings snack",
-    "ik": "tok:foxs|bags-biscuits-fox-minis-party-rings-snack|na",
-    "bn": "foxs"
+    "ik": "tok:foxs|bags-biscuits-fox-minis-party-rings-snack|1",
+    "bn": "foxs",
+    "wg": 1
   },
   {
     "n": "Maryland Cookies Chocolate Chip 200g",
@@ -10261,13 +10352,14 @@
     "n": "Asda Soft Scoop Vanilla Flavour Ice Cream 2 Litres",
     "p": "1.62",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/ice-cream-tubs/asda-soft-scoop-vanilla-flavour-ice-cream-2-litres/443464",
     "c": "Other",
     "cn": "asda cream flavour ice litres scoop soft vanilla",
-    "ik": "tok:asda|cream-flavour-ice-litres-scoop-soft-vanilla|na",
-    "bn": "asda"
+    "ik": "tok:asda|cream-flavour-ice-litres-scoop-soft-vanilla|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Really Creamy Vanilla Ice Cream 900ml",
@@ -10286,13 +10378,14 @@
     "n": "Mackie's Of Scotland Traditional Real Dairy Ice Cream",
     "p": "2.60",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/ice-cream-tubs/mackie-s-of-scotland-traditional-real-dairy-ice-cream/443371",
     "c": "Other",
     "cn": "mackies cream dairy ice mackie of real scotland traditional",
-    "ik": "tok:mackies|cream-dairy-ice-mackie-of-real-scotland-traditional|na",
-    "bn": "mackies"
+    "ik": "tok:mackies|cream-dairy-ice-mackie-of-real-scotland-traditional|1",
+    "bn": "mackies",
+    "wg": 1
   },
   {
     "n": "Feast Chocolate & Hazelnut Ice Cream Sticks 4x 90 Ml",
@@ -10891,289 +10984,313 @@
     "n": "Andrex Family Soft Toilet Tissue 16 Rolls",
     "p": "7.74",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/standard-toilet-roll/andrex-family-soft-toilet-tissue-16-rolls/9289759",
     "c": "Other",
     "cn": "andrex 16 family rolls soft tissue toilet",
-    "ik": "tok:andrex|16-family-rolls-soft-tissue-toilet|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|16-family-rolls-soft-tissue-toilet|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Ultimate Quilts Toilet Tissue Standard 16 Rolls",
     "p": "11.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/quilted-toilet-roll/andrex-ultimate-quilts-toilet-tissue-standard-16-rolls/7462705",
     "c": "Other",
     "cn": "andrex 16 quilts rolls standard tissue toilet ultimate",
-    "ik": "tok:andrex|16-quilts-rolls-standard-tissue-toilet-ultimate|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|16-quilts-rolls-standard-tissue-toilet-ultimate|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Asda Shades Shades By So Soft 12 Long-Lasting Rolls",
     "p": "9.12",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/standard-toilet-roll/asda-shades-shades-by-so-soft-12-long-lasting-rolls/6721437",
     "c": "Other",
     "cn": "asda 12 by lasting long rolls shades so soft",
-    "ik": "tok:asda|12-by-lasting-long-rolls-shades-so-soft|na",
-    "bn": "asda"
+    "ik": "tok:asda|12-by-lasting-long-rolls-shades-so-soft|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Andrex Complete Clean Toilet Tissue Standard 12 Rolls",
     "p": "6.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/standard-toilet-roll/andrex-complete-clean-toilet-tissue-standard-12-rolls/9144326",
     "c": "Other",
     "cn": "andrex 12 clean complete rolls standard tissue toilet",
-    "ik": "tok:andrex|12-clean-complete-rolls-standard-tissue-toilet|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|12-clean-complete-rolls-standard-tissue-toilet|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Shades By Asda Quilted 12 Rolls Toilet Tissue",
     "p": "5.88",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/quilted-toilet-roll/shades-by-asda-quilted-12-rolls-toilet-tissue/9320881",
     "c": "Other",
     "cn": "shades 12 asda by quilted rolls tissue toilet",
-    "ik": "tok:shades|12-asda-by-quilted-rolls-tissue-toilet|na",
-    "bn": "shades"
+    "ik": "tok:shades|12-asda-by-quilted-rolls-tissue-toilet|1",
+    "bn": "shades",
+    "wg": 1
   },
   {
     "n": "Andrex Family Soft Toilet Tissue 24 Rolls",
     "p": "11.74",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/all-large-pack-toilet-rolls-16-rolls-/andrex-family-soft-toilet-tissue-24-rolls/6461480",
     "c": "Other",
     "cn": "andrex 24 family rolls soft tissue toilet",
-    "ik": "tok:andrex|24-family-rolls-soft-tissue-toilet|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|24-family-rolls-soft-tissue-toilet|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Asda Shades Shades By So Soft 6 Long-Lasting Rolls",
     "p": "4.83",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/standard-toilet-roll/asda-shades-shades-by-so-soft-6-long-lasting-rolls/6721435",
     "c": "Other",
     "cn": "asda by lasting long rolls shades so soft",
-    "ik": "tok:asda|by-lasting-long-rolls-shades-so-soft|na",
-    "bn": "asda"
+    "ik": "tok:asda|by-lasting-long-rolls-shades-so-soft|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Shades By Asda Quilted 6 Rolls Toilet Tissue",
     "p": "3.68",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/quilted-toilet-roll/shades-by-asda-quilted-6-rolls-toilet-tissue/9320697",
     "c": "Other",
     "cn": "shades asda by quilted rolls tissue toilet",
-    "ik": "tok:shades|asda-by-quilted-rolls-tissue-toilet|na",
-    "bn": "shades"
+    "ik": "tok:shades|asda-by-quilted-rolls-tissue-toilet|1",
+    "bn": "shades",
+    "wg": 1
   },
   {
     "n": "Andrex Complete Clean Toilet Tissue 12 Mega Rolls 50% More Sheets",
     "p": "11.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/standard-toilet-roll/andrex-complete-clean-toilet-tissue-12-mega-rolls-50-more-sheets/9144311",
     "c": "Other",
     "cn": "andrex 12 50 clean complete mega more rolls sheets tissue toilet",
-    "ik": "tok:andrex|12-50-clean-complete-mega-more-rolls-sheets-tissue-toilet|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|12-50-clean-complete-mega-more-rolls-sheets-tissue-toilet|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Ultimate Quilts Toilet Tissue 9 Rolls",
     "p": "6.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/quilted-toilet-roll/andrex-ultimate-quilts-toilet-tissue-9-rolls/7462703",
     "c": "Other",
     "cn": "andrex quilts rolls tissue toilet ultimate",
-    "ik": "tok:andrex|quilts-rolls-tissue-toilet-ultimate|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|quilts-rolls-tissue-toilet-ultimate|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Complete Clean Toilet Tissue 4 Rolls",
     "p": "2.76",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/standard-toilet-roll/andrex-complete-clean-toilet-tissue-4-rolls/7150988",
     "c": "Other",
     "cn": "andrex clean complete rolls tissue toilet",
-    "ik": "tok:andrex|clean-complete-rolls-tissue-toilet|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|clean-complete-rolls-tissue-toilet|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Complete Clean Toilet Tissue 24 Rolls",
     "p": "12.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/standard-toilet-roll/andrex-complete-clean-toilet-tissue-24-rolls/9204889",
     "c": "Other",
     "cn": "andrex 24 clean complete rolls tissue toilet",
-    "ik": "tok:andrex|24-clean-complete-rolls-tissue-toilet|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|24-clean-complete-rolls-tissue-toilet|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Shades By Asda Coconut Oil Long-Lasting 6 Rolls Toilet Tissue",
     "p": "3.68",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/view-all-toilet-roll/shades-by-asda-coconut-oil-long-lasting-6-rolls-toilet-tissue/9321149",
     "c": "Other",
     "cn": "shades asda by coconut lasting long oil rolls tissue toilet",
-    "ik": "tok:shades|asda-by-coconut-lasting-long-oil-rolls-tissue-toilet|na",
-    "bn": "shades"
+    "ik": "tok:shades|asda-by-coconut-lasting-long-oil-rolls-tissue-toilet|1",
+    "bn": "shades",
+    "wg": 1
   },
   {
     "n": "Andrex Ultimate Quilts Toilet Roll 9 Mega Rolls",
     "p": "9.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/all-medium-pack-toilet-rolls-8-12-rolls-/andrex-ultimate-quilts-toilet-roll-9-mega-rolls/7731350",
     "c": "Other",
     "cn": "andrex mega quilts roll rolls toilet ultimate",
-    "ik": "tok:andrex|mega-quilts-roll-rolls-toilet-ultimate|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|mega-quilts-roll-rolls-toilet-ultimate|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Plenty Ultrasorb Kitchen Roll 1 Roll",
     "p": "2.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/view-all-kitchen-roll/plenty-ultrasorb-kitchen-roll-1-roll/9382953",
     "c": "Other",
     "cn": "plenty kitchen roll ultrasorb",
-    "ik": "tok:plenty|kitchen-roll-ultrasorb|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|kitchen-roll-ultrasorb|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Plenty Ultrasorb Kitchen Roll 2 Rolls",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/view-all-kitchen-roll/plenty-ultrasorb-kitchen-roll-2-rolls/9384539",
     "c": "Other",
     "cn": "plenty kitchen roll rolls ultrasorb",
-    "ik": "tok:plenty|kitchen-roll-rolls-ultrasorb|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|kitchen-roll-rolls-ultrasorb|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Regina Blitz Household Towel 3 Roll",
     "p": "6.64",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/3-4-rolls/regina-blitz-household-towel-3-roll/4545215",
     "c": "Other",
     "cn": "regina blitz household roll towel",
-    "ik": "tok:regina|blitz-household-roll-towel|na",
-    "bn": "regina"
+    "ik": "tok:regina|blitz-household-roll-towel|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Regina Blitz Household Towel",
     "p": "4.74",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/1-2-rolls/regina-blitz-household-towel/9302118",
     "c": "Other",
     "cn": "regina blitz household towel",
-    "ik": "tok:regina|blitz-household-towel|na",
-    "bn": "regina"
+    "ik": "tok:regina|blitz-household-towel|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Asda Shades Power Towels Xl Sheets 3 Rolls",
     "p": "4.92",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/3-4-rolls/asda-shades-power-towels-xl-sheets-3-rolls/5871673",
     "c": "Other",
     "cn": "asda power rolls shades sheets towels xl",
-    "ik": "tok:asda|power-rolls-shades-sheets-towels-xl|na",
-    "bn": "asda"
+    "ik": "tok:asda|power-rolls-shades-sheets-towels-xl|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Shades 2 Super Absorbent Power Towels Rolls",
     "p": "3.07",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/1-2-rolls/asda-shades-2-super-absorbent-power-towels-rolls/9002408",
     "c": "Other",
     "cn": "asda absorbent power rolls shades super towels",
-    "ik": "tok:asda|absorbent-power-rolls-shades-super-towels|na",
-    "bn": "asda"
+    "ik": "tok:asda|absorbent-power-rolls-shades-super-towels|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Flash All-Purpose Roll Handy Sheets",
     "p": "2.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/view-all-kitchen-roll/flash-all-purpose-roll-handy-sheets/9323145",
     "c": "Other",
     "cn": "flash all handy purpose roll sheets",
-    "ik": "tok:flash|all-handy-purpose-roll-sheets|na",
-    "bn": "flash"
+    "ik": "tok:flash|all-handy-purpose-roll-sheets|1",
+    "bn": "flash",
+    "wg": 1
   },
   {
     "n": "Asda Shades 2 Durable Kitchen Towels Rolls",
     "p": "2.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/view-all-kitchen-roll/asda-shades-2-durable-kitchen-towels-rolls/6030775",
     "c": "Other",
     "cn": "asda durable kitchen rolls shades towels",
-    "ik": "tok:asda|durable-kitchen-rolls-shades-towels|na",
-    "bn": "asda"
+    "ik": "tok:asda|durable-kitchen-rolls-shades-towels|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Regina Absorb 2R Kitchen Roll",
     "p": "2.86",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/1-2-rolls/regina-absorb-2r-kitchen-roll/9017923",
     "c": "Other",
     "cn": "regina 2r absorb kitchen roll",
-    "ik": "tok:regina|2r-absorb-kitchen-roll|na",
-    "bn": "regina"
+    "ik": "tok:regina|2r-absorb-kitchen-roll|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Plenty Max Kitchen Roll 3 Rolls",
     "p": "6.94",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/3-4-rolls/plenty-max-kitchen-roll-3-rolls/6312238",
     "c": "Other",
     "cn": "plenty kitchen max roll rolls",
-    "ik": "tok:plenty|kitchen-max-roll-rolls|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|kitchen-max-roll-rolls|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Shades By Asda Recycled Kitchen Towels - 2 Pack",
@@ -11373,73 +11490,79 @@
     "n": "Surf Deep Sea Laundry Washing 24 Washes",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/washing-liquid-gel/surf-deep-sea-laundry-washing-24-washes/9139647",
     "c": "Other",
     "cn": "surf 24 deep laundry sea washes washing",
-    "ik": "tok:surf|24-deep-laundry-sea-washes-washing|na",
-    "bn": "surf"
+    "ik": "tok:surf|24-deep-laundry-sea-washes-washing|1",
+    "bn": "surf",
+    "wg": 1
   },
   {
     "n": "Surf Tropical Lily Laundry Washing 60 Washes",
     "p": "7.98",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/washing-liquid-gel/surf-tropical-lily-laundry-washing-60-washes/9139656",
     "c": "Other",
     "cn": "surf 60 laundry lily tropical washes washing",
-    "ik": "tok:surf|60-laundry-lily-tropical-washes-washing|na",
-    "bn": "surf"
+    "ik": "tok:surf|60-laundry-lily-tropical-washes-washing|1",
+    "bn": "surf",
+    "wg": 1
   },
   {
     "n": "Surf Passion Bloom Laundry Washing 24 Washes",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/washing-liquid-gel/surf-passion-bloom-laundry-washing-24-washes/9139641",
     "c": "Other",
     "cn": "surf 24 bloom laundry passion washes washing",
-    "ik": "tok:surf|24-bloom-laundry-passion-washes-washing|na",
-    "bn": "surf"
+    "ik": "tok:surf|24-bloom-laundry-passion-washes-washing|1",
+    "bn": "surf",
+    "wg": 1
   },
   {
     "n": "Asda Tropical Powder 45 Washes",
     "p": "5.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/washing-powder/asda-tropical-powder-45-washes/7103488",
     "c": "Other",
     "cn": "asda 45 powder tropical washes",
-    "ik": "tok:asda|45-powder-tropical-washes|na",
-    "bn": "asda"
+    "ik": "tok:asda|45-powder-tropical-washes|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Bold Laundry Detergent Gel 40 Washes",
     "p": "7.98",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/washing-liquid-gel/bold-laundry-detergent-gel-40-washes/9102459",
     "c": "Other",
     "cn": "bold 40 detergent gel laundry washes",
-    "ik": "tok:bold|40-detergent-gel-laundry-washes|na",
-    "bn": "bold"
+    "ik": "tok:bold|40-detergent-gel-laundry-washes|1",
+    "bn": "bold",
+    "wg": 1
   },
   {
     "n": "Bold Liquid Laundry Detergent Gel 87 Washes",
     "p": "11.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/washing-liquid-gel/bold-liquid-laundry-detergent-gel-87-washes/9257133",
     "c": "Other",
     "cn": "bold 87 detergent gel laundry liquid washes",
-    "ik": "tok:bold|87-detergent-gel-laundry-liquid-washes|na",
-    "bn": "bold"
+    "ik": "tok:bold|87-detergent-gel-laundry-liquid-washes|1",
+    "bn": "bold",
+    "wg": 1
   },
   {
     "n": "Daz Universal Whites & Colours 2.442L",
@@ -11471,13 +11594,14 @@
     "n": "Asda Moonflower & Lavender 2 In 1 Triple Action Capsules 20 Washes",
     "p": "3.28",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/washing-capsules-pods/asda-moonflower-lavender-2-in-1-triple-action-capsules-20-washes/9273403",
     "c": "Other",
     "cn": "asda 20 action capsules in lavender moonflower triple washes",
-    "ik": "tok:asda|20-action-capsules-in-lavender-moonflower-triple-washes|na",
-    "bn": "asda"
+    "ik": "tok:asda|20-action-capsules-in-lavender-moonflower-triple-washes|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Surf Magnifi-Scent Wash Sunshine Blossom Laundry Liquid 837 Ml (31 Washes)",
@@ -11496,85 +11620,92 @@
     "n": "Asda George Home Plastic Snapper Clothes Pegs",
     "p": "1.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/drying-laundry-accessories/asda-george-home-plastic-snapper-clothes-pegs/5176538",
     "c": "Other",
     "cn": "asda clothes george home pegs plastic snapper",
-    "ik": "tok:asda|clothes-george-home-pegs-plastic-snapper|na",
-    "bn": "asda"
+    "ik": "tok:asda|clothes-george-home-pegs-plastic-snapper|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Sensitive Non-Bio Powder 80 Washes",
     "p": "8.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/washing-powder/asda-sensitive-non-bio-powder-80-washes/7103490",
     "c": "Other",
     "cn": "asda 80 bio non powder sensitive washes",
-    "ik": "tok:asda|80-bio-non-powder-sensitive-washes|na",
-    "bn": "asda"
+    "ik": "tok:asda|80-bio-non-powder-sensitive-washes|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Surf Deep Sea Laundry Washing 60 Washes",
     "p": "7.98",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/washing-liquid-gel/surf-deep-sea-laundry-washing-60-washes/9139659",
     "c": "Other",
     "cn": "surf 60 deep laundry sea washes washing",
-    "ik": "tok:surf|60-deep-laundry-sea-washes-washing|na",
-    "bn": "surf"
+    "ik": "tok:surf|60-deep-laundry-sea-washes-washing|1",
+    "bn": "surf",
+    "wg": 1
   },
   {
     "n": "Bold Liquid Powder Laundry Detergent 44 Washes",
     "p": "6.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/washing-liquid-gel/bold-liquid-powder-laundry-detergent-44-washes/9228526",
     "c": "Other",
     "cn": "bold 44 detergent laundry liquid powder washes",
-    "ik": "tok:bold|44-detergent-laundry-liquid-powder-washes|na",
-    "bn": "bold"
+    "ik": "tok:bold|44-detergent-laundry-liquid-powder-washes|1",
+    "bn": "bold",
+    "wg": 1
   },
   {
     "n": "Lenor Fabric Conditioner 85 Washes",
     "p": "5.97",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/fabric-conditioner-softeners/lenor-fabric-conditioner-85-washes/9102501",
     "c": "Other",
     "cn": "lenor 85 conditioner fabric washes",
-    "ik": "tok:lenor|85-conditioner-fabric-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|85-conditioner-fabric-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Fairy Fabric Softener, 85 Washes",
     "p": "5.97",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/fabric-conditioner-softeners/fairy-fabric-softener-85-washes/9102498",
     "c": "Other",
     "cn": "fairy 85 fabric softener washes",
-    "ik": "tok:fairy|85-fabric-softener-washes|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|85-fabric-softener-washes|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Lenor Outdoorable Spring Awakening Fabric Conditioner 86 Washes",
     "p": "5.98",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/fabric-conditioner-softeners/lenor-outdoorable-spring-awakening-fabric-conditioner-86-washes/9230530",
     "c": "Other",
     "cn": "lenor 86 awakening conditioner fabric outdoorable spring washes",
-    "ik": "tok:lenor|86-awakening-conditioner-fabric-outdoorable-spring-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|86-awakening-conditioner-fabric-outdoorable-spring-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Lenor Scent Booster Spring Awakening 425g",
@@ -11606,73 +11737,79 @@
     "n": "Fairy Outdoorable Fabric Softener, For Sensitive Skin,Cherry Blossom & Nordic Cotton, 86 Washes",
     "p": "5.98",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/fabric-conditioner-softeners/fairy-outdoorable-fabric-softener-for-sensitive-skin-cherry-blossom-nordic-cotton-86-washes/9376813",
     "c": "Other",
     "cn": "fairy 86 blossom cherry cotton fabric for nordic outdoorable sensitive skin softener washes",
-    "ik": "tok:fairy|86-blossom-cherry-cotton-fabric-for-nordic-outdoorable-sensitive-skin-softener-washes|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|86-blossom-cherry-cotton-fabric-for-nordic-outdoorable-sensitive-skin-softener-washes|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Fairy Outdoorable Fabric Softener, For Sensitive Skin,, 86 Washes",
     "p": "5.98",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/fabric-conditioner-softeners/fairy-outdoorable-fabric-softener-for-sensitive-skin-86-washes/9380429",
     "c": "Other",
     "cn": "fairy 86 fabric for outdoorable sensitive skin softener washes",
-    "ik": "tok:fairy|86-fabric-for-outdoorable-sensitive-skin-softener-washes|na",
-    "bn": "fairy"
+    "ik": "tok:fairy|86-fabric-for-outdoorable-sensitive-skin-softener-washes|1",
+    "bn": "fairy",
+    "wg": 1
   },
   {
     "n": "Lenor Outdoorable Fabric Conditioner 86 Washes, First Day Of Spring",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/fabric-conditioner-softeners/lenor-outdoorable-fabric-conditioner-86-washes-first-day-of-spring/9359665",
     "c": "Other",
     "cn": "lenor 86 conditioner day fabric first of outdoorable spring washes",
-    "ik": "tok:lenor|86-conditioner-day-fabric-first-of-outdoorable-spring-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|86-conditioner-day-fabric-first-of-outdoorable-spring-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Asda Pure Cotton Sensitive Fabric Softener 80 Washes",
     "p": "2.44",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/fabric-conditioner-softeners/asda-pure-cotton-sensitive-fabric-softener-80-washes/9241771",
     "c": "Other",
     "cn": "asda 80 cotton fabric pure sensitive softener washes",
-    "ik": "tok:asda|80-cotton-fabric-pure-sensitive-softener-washes|na",
-    "bn": "asda"
+    "ik": "tok:asda|80-cotton-fabric-pure-sensitive-softener-washes|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Fresh Cotton Fabric Softener 2 Litres",
     "p": "2.44",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/fabric-conditioner-softeners/asda-fresh-cotton-fabric-softener-2-litres/9240998",
     "c": "Other",
     "cn": "asda cotton fabric fresh litres softener",
-    "ik": "tok:asda|cotton-fabric-fresh-litres-softener|na",
-    "bn": "asda"
+    "ik": "tok:asda|cotton-fabric-fresh-litres-softener|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Lenor Outdoorable Floral Fresh Fabric Conditioner 86 Washes",
     "p": "5.98",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/fabric-conditioner-softeners/lenor-outdoorable-floral-fresh-fabric-conditioner-86-washes/9236724",
     "c": "Other",
     "cn": "lenor 86 conditioner fabric floral fresh outdoorable washes",
-    "ik": "tok:lenor|86-conditioner-fabric-floral-fresh-outdoorable-washes|na",
-    "bn": "lenor"
+    "ik": "tok:lenor|86-conditioner-fabric-floral-fresh-outdoorable-washes|1",
+    "bn": "lenor",
+    "wg": 1
   },
   {
     "n": "Comfort Pure Heaven Scent Fabric Conditioner 64 Washes (960 ml)",
@@ -12197,169 +12334,183 @@
     "n": "Roar 10 Drawstring Bin Bags 100 Litres",
     "p": "2.88",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/roar-10-drawstring-bin-bags-100-litres/9278566",
     "c": "Other",
     "cn": "roar 10 100 bags bin drawstring litres",
-    "ik": "tok:roar|10-100-bags-bin-drawstring-litres|na",
-    "bn": "roar"
+    "ik": "tok:roar|10-100-bags-bin-drawstring-litres|1",
+    "bn": "roar",
+    "wg": 1
   },
   {
     "n": "Roar 10 Drawstring Bin Bags 60 Litres",
     "p": "2.68",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/roar-10-drawstring-bin-bags-60-litres/9265053",
     "c": "Other",
     "cn": "roar 10 60 bags bin drawstring litres",
-    "ik": "tok:roar|10-60-bags-bin-drawstring-litres|na",
-    "bn": "roar"
+    "ik": "tok:roar|10-60-bags-bin-drawstring-litres|1",
+    "bn": "roar",
+    "wg": 1
   },
   {
     "n": "Asda 20 Tall Kitchen Bin Liners 30 Litres",
     "p": "3.22",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/asda-20-tall-kitchen-bin-liners-30-litres/6647025",
     "c": "Other",
     "cn": "asda 20 30 bin kitchen liners litres tall",
-    "ik": "tok:asda|20-30-bin-kitchen-liners-litres-tall|na",
-    "bn": "asda"
+    "ik": "tok:asda|20-30-bin-kitchen-liners-litres-tall|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda 20 Tall Kitchen Bin Liners 50 Litres",
     "p": "4.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/asda-20-tall-kitchen-bin-liners-50-litres/6647027",
     "c": "Other",
     "cn": "asda 20 50 bin kitchen liners litres tall",
-    "ik": "tok:asda|20-50-bin-kitchen-liners-litres-tall|na",
-    "bn": "asda"
+    "ik": "tok:asda|20-50-bin-kitchen-liners-litres-tall|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Biodegradable 10 Flat Top Kerbside Caddy Liners 25 Litres",
     "p": "3.58",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/asda-biodegradable-10-flat-top-kerbside-caddy-liners-25-litres/6942155",
     "c": "Other",
     "cn": "asda 10 25 biodegradable caddy flat kerbside liners litres top",
-    "ik": "tok:asda|10-25-biodegradable-caddy-flat-kerbside-liners-litres-top|na",
-    "bn": "asda"
+    "ik": "tok:asda|10-25-biodegradable-caddy-flat-kerbside-liners-litres-top|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda Biodegradable 20 Tie Top Kitchen Caddy Liners 5 Litres",
     "p": "1.76",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/asda-biodegradable-20-tie-top-kitchen-caddy-liners-5-litres/6942157",
     "c": "Other",
     "cn": "asda 20 biodegradable caddy kitchen liners litres tie top",
-    "ik": "tok:asda|20-biodegradable-caddy-kitchen-liners-litres-tie-top|na",
-    "bn": "asda"
+    "ik": "tok:asda|20-biodegradable-caddy-kitchen-liners-litres-tie-top|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Just Essentials By Asda Just Essentials 40 Everyday Bin Liners 40 Litres",
     "p": "1.33",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/just-essentials-by-asda-just-essentials-40-everyday-bin-liners-40-litres/6942145",
     "c": "Other",
     "cn": "just 40 asda bin by essentials everyday liners litres",
-    "ik": "tok:just|40-asda-bin-by-essentials-everyday-liners-litres|na",
-    "bn": "just"
+    "ik": "tok:just|40-asda-bin-by-essentials-everyday-liners-litres|1",
+    "bn": "just",
+    "wg": 1
   },
   {
     "n": "Asda 20 Tie Top Bin Bags 75 Litres",
     "p": "2.36",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/asda-20-tie-top-bin-bags-75-litres/6942159",
     "c": "Other",
     "cn": "asda 20 75 bags bin litres tie top",
-    "ik": "tok:asda|20-75-bags-bin-litres-tie-top|na",
-    "bn": "asda"
+    "ik": "tok:asda|20-75-bags-bin-litres-tie-top|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda 20 Drawstring Bin Bags 75 Litres",
     "p": "2.62",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/asda-20-drawstring-bin-bags-75-litres/6942163",
     "c": "Other",
     "cn": "asda 20 75 bags bin drawstring litres",
-    "ik": "tok:asda|20-75-bags-bin-drawstring-litres|na",
-    "bn": "asda"
+    "ik": "tok:asda|20-75-bags-bin-drawstring-litres|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda 10 Flat Top Wheelie Bin Liners 240 Litres",
     "p": "2.55",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/asda-10-flat-top-wheelie-bin-liners-240-litres/5753336",
     "c": "Other",
     "cn": "asda 10 240 bin flat liners litres top wheelie",
-    "ik": "tok:asda|10-240-bin-flat-liners-litres-top-wheelie|na",
-    "bn": "asda"
+    "ik": "tok:asda|10-240-bin-flat-liners-litres-top-wheelie|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda 10 Tie Handle Garden Refuse Sacks 75 Litres",
     "p": "2.37",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/asda-10-tie-handle-garden-refuse-sacks-75-litres/997955",
     "c": "Other",
     "cn": "asda 10 75 garden handle litres refuse sacks tie",
-    "ik": "tok:asda|10-75-garden-handle-litres-refuse-sacks-tie|na",
-    "bn": "asda"
+    "ik": "tok:asda|10-75-garden-handle-litres-refuse-sacks-tie|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda 15 Extra Strong Tie Handle Bin Bags 75 Litres",
     "p": "2.98",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/asda-15-extra-strong-tie-handle-bin-bags-75-litres/6942167",
     "c": "Other",
     "cn": "asda 15 75 bags bin extra handle litres strong tie",
-    "ik": "tok:asda|15-75-bags-bin-extra-handle-litres-strong-tie|na",
-    "bn": "asda"
+    "ik": "tok:asda|15-75-bags-bin-extra-handle-litres-strong-tie|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Asda 30 Medium Drawstring Bin Liners 50 Litres",
     "p": "2.71",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/asda-30-medium-drawstring-bin-liners-50-litres/6942153",
     "c": "Other",
     "cn": "asda 30 50 bin drawstring liners litres medium",
-    "ik": "tok:asda|30-50-bin-drawstring-liners-litres-medium|na",
-    "bn": "asda"
+    "ik": "tok:asda|30-50-bin-drawstring-liners-litres-medium|1",
+    "bn": "asda",
+    "wg": 1
   },
   {
     "n": "Just Essentials By Asda Just Essentials 45 Refuse Sacks 75 Litres",
     "p": "1.41",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.asda.com/groceries/product/bin-bags-liners/just-essentials-by-asda-just-essentials-45-refuse-sacks-75-litres/2978265",
     "c": "Other",
     "cn": "just 45 75 asda by essentials litres refuse sacks",
-    "ik": "tok:just|45-75-asda-by-essentials-litres-refuse-sacks|na",
-    "bn": "just"
+    "ik": "tok:just|45-75-asda-by-essentials-litres-refuse-sacks|1",
+    "bn": "just",
+    "wg": 1
   },
   {
     "n": "Pampers Baby-Dry Nappy Pants Size 3, 44 Nappies, 6kg-11kg, Essential Pack",

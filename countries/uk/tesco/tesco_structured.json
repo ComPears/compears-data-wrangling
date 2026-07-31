@@ -597,13 +597,14 @@
     "n": "Tesco Bananas Loose",
     "p": "0.16",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/275280804",
     "c": "Other",
     "cn": "tesco bananas loose",
-    "ik": "tok:tesco|bananas-loose|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|bananas-loose|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco 100% Pure Orange Juice Smooth 1 Litre",
@@ -752,13 +753,14 @@
     "n": "Tesco Lactose Free Semi Skimmed Dairy Drink 1Ltr",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/300118011",
     "c": "Other",
     "cn": "tesco 1ltr dairy drink free lactose semi skimmed",
-    "ik": "tok:tesco|1ltr-dairy-drink-free-lactose-semi-skimmed|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|1ltr-dairy-drink-free-lactose-semi-skimmed|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Wildfarmed Simply Sourdough 640g",
@@ -1215,13 +1217,14 @@
     "n": "Wrights Strong White Bread Flour (L)",
     "p": "1.60",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/264746525",
     "c": "Other",
     "cn": "wrights bread flour strong white",
-    "ik": "tok:wrights|bread-flour-strong-white|na",
-    "bn": "wrights"
+    "ik": "tok:wrights|bread-flour-strong-white|1",
+    "bn": "wrights",
+    "wg": 1
   },
   {
     "n": "Tesco Finest White Bread Mix 500g",
@@ -1625,13 +1628,14 @@
     "n": "Tesco Finest Free Range 6 Golden Yolk Eggs",
     "p": "2.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/321845379",
     "c": "Other",
     "cn": "tesco eggs finest free golden range yolk",
-    "ik": "tok:tesco|eggs-finest-free-golden-range-yolk|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|eggs-finest-free-golden-range-yolk|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Mixed Sized Organic Eggs 6 Pack",
@@ -1709,13 +1713,14 @@
     "n": "Happy Egg Co. Free Range Eggs 10 Mixed Weight",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/295693390",
     "c": "Other",
     "cn": "happy 10 co egg eggs free mixed range weight",
-    "ik": "tok:happy|10-co-egg-eggs-free-mixed-range-weight|na",
-    "bn": "happy"
+    "ik": "tok:happy|10-co-egg-eggs-free-mixed-range-weight|1",
+    "bn": "happy",
+    "wg": 1
   },
   {
     "n": "Happy Egg Free Range Eggs Large 6 Pack",
@@ -1769,25 +1774,27 @@
     "n": "Tesco Finest 6 Free Range Chestnut Maran Eggs",
     "p": "2.60",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/275399728",
     "c": "Other",
     "cn": "tesco chestnut eggs finest free maran range",
-    "ik": "tok:tesco|chestnut-eggs-finest-free-maran-range|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|chestnut-eggs-finest-free-maran-range|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "ST. Ewe Free Range Eggs Original Family Pack Mixed Weight 15 Eggs",
     "p": "4.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/323797904",
     "c": "Other",
     "cn": "ewe 15 eggs family free mixed original pack range weight",
-    "ik": "tok:ewe|15-eggs-family-free-mixed-original-pack-range-weight|na",
-    "bn": "ewe"
+    "ik": "tok:ewe|15-eggs-family-free-mixed-original-pack-range-weight|1",
+    "bn": "ewe",
+    "wg": 1
   },
   {
     "n": "St. Ewe Original Free Range Eggs Medium 6 Pack",
@@ -1842,25 +1849,27 @@
     "n": "Tesco Perfectly Ripe Avocados Twin Pack",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/265299741",
     "c": "Other",
     "cn": "tesco avocados pack perfectly ripe twin",
-    "ik": "tok:tesco|avocados-pack-perfectly-ripe-twin|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|avocados-pack-perfectly-ripe-twin|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Ripe & Ready Avocado",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/255903025",
     "c": "Other",
     "cn": "tesco avocado ready ripe",
-    "ik": "tok:tesco|avocado-ready-ripe|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|avocado-ready-ripe|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "St Ewe Free Range Rich Yolk Mixed Weight 10 Pack",
@@ -1878,13 +1887,14 @@
     "n": "St Ewes 6 Large Free Range Eggs",
     "p": "2.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/273253109",
     "c": "Other",
     "cn": "ewes eggs free large range",
-    "ik": "tok:ewes|eggs-free-large-range|na",
-    "bn": "ewes"
+    "ik": "tok:ewes|eggs-free-large-range|1",
+    "bn": "ewes",
+    "wg": 1
   },
   {
     "n": "Rymer Farm Medium Free Range Eggs 6 Pack",
@@ -4095,13 +4105,14 @@
     "n": "Tesco Gala Apples",
     "p": "1.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/284475550",
     "c": "Other",
     "cn": "tesco apples gala",
-    "ik": "tok:tesco|apples-gala|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|apples-gala|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Red Seedless Grapes 500G",
@@ -4206,13 +4217,14 @@
     "n": "Tesco Mini Pink Lady Apples (Min 5)",
     "p": "2.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/321531215",
     "c": "Other",
     "cn": "tesco apples lady min mini pink",
-    "ik": "tok:tesco|apples-lady-min-mini-pink|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|apples-lady-min-mini-pink|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco British Apples Minimum 5 Pack",
@@ -4267,13 +4279,14 @@
     "n": "Large Gala Apples Loose Class 1",
     "p": "0.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253559147",
     "c": "Other",
     "cn": "large apples class gala loose",
-    "ik": "tok:large|apples-class-gala-loose|na",
-    "bn": "large"
+    "ik": "tok:large|apples-class-gala-loose|1",
+    "bn": "large",
+    "wg": 1
   },
   {
     "n": "Cosmic Crisp Apple 4 Pack",
@@ -4304,13 +4317,14 @@
     "n": "Large Pink Lady Apples Loose Class 1",
     "p": "0.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/251627289",
     "c": "Other",
     "cn": "large apples class lady loose pink",
-    "ik": "tok:large|apples-class-lady-loose-pink|na",
-    "bn": "large"
+    "ik": "tok:large|apples-class-lady-loose-pink|1",
+    "bn": "large",
+    "wg": 1
   },
   {
     "n": "Tesco Finest Pink Lady Apple 4 Pack",
@@ -4328,13 +4342,14 @@
     "n": "Large Braeburn Apples Loose Class 1",
     "p": "0.56",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253807413",
     "c": "Other",
     "cn": "large apples braeburn class loose",
-    "ik": "tok:large|apples-braeburn-class-loose|na",
-    "bn": "large"
+    "ik": "tok:large|apples-braeburn-class-loose|1",
+    "bn": "large",
+    "wg": 1
   },
   {
     "n": "Tesco Apple Snack Pack 80G",
@@ -4353,13 +4368,14 @@
     "n": "Tesco Organic Seasonal Apples",
     "p": "2.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/306935710",
     "c": "Other",
     "cn": "tesco apples organic seasonal",
-    "ik": "tok:tesco|apples-organic-seasonal|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|apples-organic-seasonal|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Finest Apples Minimum 4 Pack",
@@ -4377,37 +4393,40 @@
     "n": "Tesco Organic Pink Lady Apples Approx 4",
     "p": "2.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/293171580",
     "c": "Other",
     "cn": "tesco apples approx lady organic pink",
-    "ik": "tok:tesco|apples-approx-lady-organic-pink|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|apples-approx-lady-organic-pink|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Bramley Cooking Apples Loose",
     "p": "0.64",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253558033",
     "c": "Other",
     "cn": "tesco apples bramley cooking loose",
-    "ik": "tok:tesco|apples-bramley-cooking-loose|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|apples-bramley-cooking-loose|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Magic Star Loose Apple",
     "p": "2.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/330746463",
     "c": "Other",
     "cn": "tesco apple loose magic star",
-    "ik": "tok:tesco|apple-loose-magic-star|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|apple-loose-magic-star|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Conference Pears Pack 610G",
@@ -4491,13 +4510,14 @@
     "n": "Tesco Large Baking Potatoes Loose",
     "p": "0.27",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253558183",
     "c": "Other",
     "cn": "tesco baking large loose potatoes",
-    "ik": "tok:tesco|baking-large-loose-potatoes|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|baking-large-loose-potatoes|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Maris Piper Potatoes 1.25Kg",
@@ -4593,13 +4613,14 @@
     "n": "Tesco Large Sweet Potatoes Loose Class 1",
     "p": "0.42",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253559199",
     "c": "Other",
     "cn": "tesco class large loose potatoes sweet",
-    "ik": "tok:tesco|class-large-loose-potatoes-sweet|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|class-large-loose-potatoes-sweet|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Finest Jacket Potatoes 4 Pack",
@@ -4773,13 +4794,14 @@
     "n": "Tesco Carrots Loose",
     "p": "0.11",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/254638565",
     "c": "Other",
     "cn": "tesco carrots loose",
-    "ik": "tok:tesco|carrots-loose|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|carrots-loose|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Tenderstem Broccoli 200G",
@@ -4836,25 +4858,27 @@
     "n": "Tesco Broccoli Loose",
     "p": "0.82",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/257231200",
     "c": "Other",
     "cn": "tesco broccoli loose",
-    "ik": "tok:tesco|broccoli-loose|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|broccoli-loose|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Cauliflower Each",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253558119",
     "c": "Other",
     "cn": "tesco cauliflower each",
-    "ik": "tok:tesco|cauliflower-each|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|cauliflower-each|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Parsnips 500G",
@@ -4886,13 +4910,14 @@
     "n": "Tesco Brown Onions Loose",
     "p": "0.11",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253557034",
     "c": "Other",
     "cn": "tesco brown loose onions",
-    "ik": "tok:tesco|brown-loose-onions|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|brown-loose-onions|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Cirio Chopped Tomatoes 4X400g",
@@ -5066,13 +5091,14 @@
     "n": "Tesco Beef Tomatoes Each",
     "p": "0.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/254999782",
     "c": "Other",
     "cn": "tesco beef each tomatoes",
-    "ik": "tok:tesco|beef-each-tomatoes|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|beef-each-tomatoes|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Cherry Tomatoes 300G",
@@ -5246,13 +5272,14 @@
     "n": "Tesco Whole Cucumber Each",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253558972",
     "c": "Other",
     "cn": "tesco cucumber each whole",
-    "ik": "tok:tesco|cucumber-each-whole|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|cucumber-each-whole|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Bunched Spring Onions 100G",
@@ -5271,13 +5298,14 @@
     "n": "Tesco Iceberg Lettuce Each",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253557495",
     "c": "Other",
     "cn": "tesco each iceberg lettuce",
-    "ik": "tok:tesco|each-iceberg-lettuce|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|each-iceberg-lettuce|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Baby Cucumbers 200G",
@@ -5296,49 +5324,53 @@
     "n": "Tesco Red Peppers Each",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/258421636",
     "c": "Other",
     "cn": "red each peppers tesco",
-    "ik": "tok:red|each-peppers-tesco|na",
-    "bn": "red"
+    "ik": "tok:red|each-peppers-tesco|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Tesco Little Gem Lettuce Twin Pack",
     "p": "0.77",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253560041",
     "c": "Other",
     "cn": "tesco gem lettuce little pack twin",
-    "ik": "tok:tesco|gem-lettuce-little-pack-twin|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|gem-lettuce-little-pack-twin|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Whole Large Cucumber",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/280379906",
     "c": "Other",
     "cn": "tesco cucumber large whole",
-    "ik": "tok:tesco|cucumber-large-whole|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|cucumber-large-whole|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Red Onions Loose",
     "p": "0.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/258114107",
     "c": "Other",
     "cn": "red loose onions tesco",
-    "ik": "tok:red|loose-onions-tesco|na",
-    "bn": "red"
+    "ik": "tok:red|loose-onions-tesco|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Tesco Sweet Peppers 500G",
@@ -5459,13 +5491,14 @@
     "n": "Tesco Organic Red Onions",
     "p": "1.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/254932061",
     "c": "Other",
     "cn": "red onions organic tesco",
-    "ik": "tok:red|onions-organic-tesco|na",
-    "bn": "red"
+    "ik": "tok:red|onions-organic-tesco|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Rochelle Crispy Onions 100G",
@@ -5601,13 +5634,14 @@
     "n": "Tesco Large Garlic",
     "p": "0.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/313168547",
     "c": "Other",
     "cn": "tesco garlic large",
-    "ik": "tok:tesco|garlic-large|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|garlic-large|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Nightingale Farms Peppers 375G",
@@ -5664,13 +5698,14 @@
     "n": "Tesco Celery",
     "p": "0.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/311672834",
     "c": "Other",
     "cn": "tesco celery",
-    "ik": "tok:tesco|celery|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|celery|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Aunt Bessie's Carrot & Swede Mash 500G",
@@ -5949,25 +5984,27 @@
     "n": "Tesco Parsnips Loose",
     "p": "0.22",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253557408",
     "c": "Other",
     "cn": "tesco loose parsnips",
-    "ik": "tok:tesco|loose-parsnips|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|loose-parsnips|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Swede",
     "p": "0.62",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/304785423",
     "c": "Other",
     "cn": "tesco swede",
-    "ik": "tok:tesco|swede|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|swede|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Frozen Broccoli Florets 900G",
@@ -6257,37 +6294,40 @@
     "n": "Tesco Extra Large Cauliflower Each",
     "p": "2.10",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/254973708",
     "c": "Other",
     "cn": "tesco cauliflower each extra large",
-    "ik": "tok:tesco|cauliflower-each-extra-large|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|cauliflower-each-extra-large|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Sweetheart Cabbage Each",
     "p": "0.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/254941983",
     "c": "Other",
     "cn": "tesco cabbage each sweetheart",
-    "ik": "tok:tesco|cabbage-each-sweetheart|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|cabbage-each-sweetheart|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Savoy Cabbage Each",
     "p": "0.77",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/255838396",
     "c": "Other",
     "cn": "tesco cabbage each savoy",
-    "ik": "tok:tesco|cabbage-each-savoy|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|cabbage-each-savoy|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Asparagus 180G",
@@ -6306,13 +6346,14 @@
     "n": "Tesco Organic Whole Cucumber",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/251582605",
     "c": "Other",
     "cn": "tesco cucumber organic whole",
-    "ik": "tok:tesco|cucumber-organic-whole|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|cucumber-organic-whole|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Popits Bite-Sized Cucumbers 180g",
@@ -6513,13 +6554,14 @@
     "n": "Tesco Sweet Gem Lettuce",
     "p": "1.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/264534350",
     "c": "Other",
     "cn": "tesco gem lettuce sweet",
-    "ik": "tok:tesco|gem-lettuce-sweet|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|gem-lettuce-sweet|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Iceberg Lettuce 200G",
@@ -6538,25 +6580,27 @@
     "n": "Tesco Butterhead Lettuce",
     "p": "0.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/310693807",
     "c": "Other",
     "cn": "tesco butterhead lettuce",
-    "ik": "tok:tesco|butterhead-lettuce|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|butterhead-lettuce|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Romaine Hearts Twin Pack",
     "p": "1.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/254797214",
     "c": "Other",
     "cn": "tesco hearts pack romaine twin",
-    "ik": "tok:tesco|hearts-pack-romaine-twin|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|hearts-pack-romaine-twin|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Butterhead Salad 80G",
@@ -6575,25 +6619,27 @@
     "n": "Tesco Finest Sweetheart Lettuce",
     "p": "1.30",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/316641719",
     "c": "Other",
     "cn": "tesco finest lettuce sweetheart",
-    "ik": "tok:tesco|finest-lettuce-sweetheart|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|finest-lettuce-sweetheart|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Trio Of Living Lettuce",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/323662540",
     "c": "Other",
     "cn": "tesco lettuce living of trio",
-    "ik": "tok:tesco|lettuce-living-of-trio|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|lettuce-living-of-trio|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Fresh & Naked Just Lambs Lettuce 60G",
@@ -6612,25 +6658,27 @@
     "n": "Tesco Organic Sweet Gem",
     "p": "1.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/316644025",
     "c": "Other",
     "cn": "tesco gem organic sweet",
-    "ik": "tok:tesco|gem-organic-sweet|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|gem-organic-sweet|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Organic Little Gem Twin Pack",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/322245915",
     "c": "Other",
     "cn": "tesco gem little organic pack twin",
-    "ik": "tok:tesco|gem-little-organic-pack-twin|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|gem-little-organic-pack-twin|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Wild Rocket 60G",
@@ -6662,13 +6710,14 @@
     "n": "Tesco Ready To Eat Large Avocados Each",
     "p": "0.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/265299361",
     "c": "Other",
     "cn": "tesco avocados each eat large ready to",
-    "ik": "tok:tesco|avocados-each-eat-large-ready-to|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|avocados-each-eat-large-ready-to|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Ripen At Home Avocados 3Pack",
@@ -6686,25 +6735,27 @@
     "n": "Tesco Ready To Eat Extra Large Avocados Each",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/279232799",
     "c": "Other",
     "cn": "tesco avocados each eat extra large ready to",
-    "ik": "tok:tesco|avocados-each-eat-extra-large-ready-to|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|avocados-each-eat-extra-large-ready-to|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Finest Avocado Each",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/268990891",
     "c": "Other",
     "cn": "tesco avocado each finest",
-    "ik": "tok:tesco|avocado-each-finest|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|avocado-each-finest|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Simply Smashed Avocado - 100g",
@@ -6723,13 +6774,14 @@
     "n": "Tesco Finest Gem Avocado Twin Pack",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/315391336",
     "c": "Other",
     "cn": "tesco avocado finest gem pack twin",
-    "ik": "tok:tesco|avocado-finest-gem-pack-twin|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|avocado-finest-gem-pack-twin|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Organic Ripe & Ready Avocados Minimum 2 Pack",
@@ -6863,13 +6915,14 @@
     "n": "Tesco Limes Each",
     "p": "0.23",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253560634",
     "c": "Other",
     "cn": "tesco each limes",
-    "ik": "tok:tesco|each-limes|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|each-limes|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Fresh Cut Coriander 30G",
@@ -6913,13 +6966,14 @@
     "n": "Tesco Lemons Each",
     "p": "0.37",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253556398",
     "c": "Other",
     "cn": "tesco each lemons",
-    "ik": "tok:tesco|each-lemons|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|each-lemons|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Little Moons Refreshos Lemon And Elderflower Mochi Sorbet 6 X 30g",
@@ -7127,13 +7181,14 @@
     "n": "Oggs 4 Victoria Sponge & Zesty Lemon Cakes Box",
     "p": "3.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/330746154",
     "c": "Other",
     "cn": "oggs box cakes lemon sponge victoria zesty",
-    "ik": "tok:oggs|box-cakes-lemon-sponge-victoria-zesty|na",
-    "bn": "oggs"
+    "ik": "tok:oggs|box-cakes-lemon-sponge-victoria-zesty|1",
+    "bn": "oggs",
+    "wg": 1
   },
   {
     "n": "Oyoshi Green Tea Honey Lemon 380ml",
@@ -7217,13 +7272,14 @@
     "n": "Tesco Root Ginger Loose",
     "p": "0.56",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253559297",
     "c": "Other",
     "cn": "tesco ginger loose root",
-    "ik": "tok:tesco|ginger-loose-root|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|ginger-loose-root|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Orange Minimum 5 Pack",
@@ -7267,13 +7323,14 @@
     "n": "Tesco Oranges Each",
     "p": "0.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/322450562",
     "c": "Other",
     "cn": "tesco each oranges",
-    "ik": "tok:tesco|each-oranges|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|each-oranges|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Finest Red Grapes Seedless 500G",
@@ -7578,13 +7635,14 @@
     "n": "Tesco Honeydew Melon",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/254384645",
     "c": "Other",
     "cn": "tesco honeydew melon",
-    "ik": "tok:tesco|honeydew-melon|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|honeydew-melon|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Rosedene Farms Blueberries 150G",
@@ -9585,13 +9643,14 @@
     "n": "Bay Fishmongers Salmon",
     "p": "3.42",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/295098991",
     "c": "Other",
     "cn": "bay fishmongers salmon",
-    "ik": "tok:bay|fishmongers-salmon|na",
-    "bn": "bay"
+    "ik": "tok:bay|fishmongers-salmon|1",
+    "bn": "bay",
+    "wg": 1
   },
   {
     "n": "Tesco Hot Smoked Salmon Fillets 180G",
@@ -13590,13 +13649,14 @@
     "n": "Nescafe Caramel Latte Instant Coffee 7 Sachets",
     "p": "1.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/321215970",
     "c": "Other",
     "cn": "nescafe caramel coffee instant latte sachets",
-    "ik": "tok:nescafe|caramel-coffee-instant-latte-sachets|na",
-    "bn": "nescafe"
+    "ik": "tok:nescafe|caramel-coffee-instant-latte-sachets|1",
+    "bn": "nescafe",
+    "wg": 1
   },
   {
     "n": "Douwe Egberts Pure Gold Instant Coffee 190G",
@@ -13615,13 +13675,14 @@
     "n": "Nescafe Cappuccino Instant Coffee 7 Sachets",
     "p": "1.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/321347715",
     "c": "Other",
     "cn": "nescafe cappuccino coffee instant sachets",
-    "ik": "tok:nescafe|cappuccino-coffee-instant-sachets|na",
-    "bn": "nescafe"
+    "ik": "tok:nescafe|cappuccino-coffee-instant-sachets|1",
+    "bn": "nescafe",
+    "wg": 1
   },
   {
     "n": "Tesco Finest Costa Rican Instant Coffee 100G",
@@ -15565,13 +15626,14 @@
     "n": "Highland Spring Sparkling Water 1.5Ltr",
     "p": "1.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/258459436",
     "c": "Other",
     "cn": "highland 5ltr sparkling spring water",
-    "ik": "tok:highland|5ltr-sparkling-spring-water|na",
-    "bn": "highland"
+    "ik": "tok:highland|5ltr-sparkling-spring-water|1",
+    "bn": "highland",
+    "wg": 1
   },
   {
     "n": "Buxton Sparkling Natural Mineral Water Multipack 6x1L",
@@ -15894,13 +15956,14 @@
     "n": "Tesco Soda Water 1Litr",
     "p": "0.55",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/254857357",
     "c": "Other",
     "cn": "tesco 1litr soda water",
-    "ik": "tok:tesco|1litr-soda-water|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|1litr-soda-water|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Harrogate Spring Water Still 6x1.5L",
@@ -16124,13 +16187,14 @@
     "n": "Tesco Luxury Soft White Toilet Tissue 6 Long Rolls",
     "p": "3.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/312214351",
     "c": "Other",
     "cn": "tesco long luxury rolls soft tissue toilet white",
-    "ik": "tok:tesco|long-luxury-rolls-soft-tissue-toilet-white|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|long-luxury-rolls-soft-tissue-toilet-white|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Filippo Berio Extra Virgin Olive Oil 500Ml",
@@ -16188,13 +16252,14 @@
     "n": "Tesco Extra Virgin Olive Oil 1Ltr",
     "p": "7.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/254516076",
     "c": "Other",
     "cn": "tesco 1ltr extra oil olive virgin",
-    "ik": "tok:tesco|1ltr-extra-oil-olive-virgin|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|1ltr-extra-oil-olive-virgin|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Filippo Berio Mild & Light Olive Oil 500Ml",
@@ -16291,13 +16356,14 @@
     "n": "Napolina Extra Virgin Olive Oil 1Ltr",
     "p": "8.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/255592838",
     "c": "Other",
     "cn": "napolina 1ltr extra oil olive virgin",
-    "ik": "tok:napolina|1ltr-extra-oil-olive-virgin|na",
-    "bn": "napolina"
+    "ik": "tok:napolina|1ltr-extra-oil-olive-virgin|1",
+    "bn": "napolina",
+    "wg": 1
   },
   {
     "n": "Olly's Chimichurri Halkidiki Olives 200g",
@@ -16381,13 +16447,14 @@
     "n": "Napolina Olive Oil 1Lt",
     "p": "8.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/255622524",
     "c": "Other",
     "cn": "napolina 1lt oil olive",
-    "ik": "tok:napolina|1lt-oil-olive|na",
-    "bn": "napolina"
+    "ik": "tok:napolina|1lt-oil-olive|1",
+    "bn": "napolina",
+    "wg": 1
   },
   {
     "n": "Filippo Berio Extra Virgin Olive Oil 1 Litre",
@@ -16406,13 +16473,14 @@
     "n": "Tesco Light In Colour Olive Oil 1Ltr",
     "p": "7.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/259045325",
     "c": "Other",
     "cn": "tesco 1ltr colour in light oil olive",
-    "ik": "tok:tesco|1ltr-colour-in-light-oil-olive|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|1ltr-colour-in-light-oil-olive|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Organic Extra Virgin Olive Oil 500Ml",
@@ -16664,13 +16732,14 @@
     "n": "John West Sardines Sunflower Oil 120Gm",
     "p": "1.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/252748167",
     "c": "Other",
     "cn": "john 120gm oil sardines sunflower west",
-    "ik": "tok:john|120gm-oil-sardines-sunflower-west|na",
-    "bn": "john"
+    "ik": "tok:john|120gm-oil-sardines-sunflower-west|1",
+    "bn": "john",
+    "wg": 1
   },
   {
     "n": "Princes Tuna Chunks In Sunflower Oil 145G",
@@ -17637,13 +17706,14 @@
     "n": "Tesco Roasted Salted Cashew Nuts 350",
     "p": "4.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/268285067",
     "c": "Other",
     "cn": "tesco 350 cashew nuts roasted salted",
-    "ik": "tok:tesco|350-cashew-nuts-roasted-salted|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|350-cashew-nuts-roasted-salted|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Fudco Roasted And Salted Nuts Jumbo Pistachios 500g",
@@ -17831,25 +17901,27 @@
     "n": "Tesco Yellow Peppers Each",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/258905427",
     "c": "Other",
     "cn": "tesco each peppers yellow",
-    "ik": "tok:tesco|each-peppers-yellow|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|each-peppers-yellow|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Green Peppers Each",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/258270595",
     "c": "Other",
     "cn": "tesco each green peppers",
-    "ik": "tok:tesco|each-green-peppers|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|each-green-peppers|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Finest Sweet Mini Peppers 220G",
@@ -18024,13 +18096,14 @@
     "n": "Tesco Courgettes Loose",
     "p": "0.56",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/253554596",
     "c": "Other",
     "cn": "tesco courgettes loose",
-    "ik": "tok:tesco|courgettes-loose|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|courgettes-loose|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Heinz Tomato Ketchup Zero Added Sugar & Salt 425g",
@@ -21208,37 +21281,40 @@
     "n": "Rennie Spearmint Heartburn & Indigestion Tablets 72s",
     "p": "7.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/260943236",
     "c": "Other",
     "cn": "rennie 72s heartburn indigestion spearmint tablets",
-    "ik": "tok:rennie|72s-heartburn-indigestion-spearmint-tablets|na",
-    "bn": "rennie"
+    "ik": "tok:rennie|72s-heartburn-indigestion-spearmint-tablets|1",
+    "bn": "rennie",
+    "wg": 1
   },
   {
     "n": "Rennie Peppermint Heartburn & Indigestion Chewable Tablets 72s",
     "p": "7.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/260943367",
     "c": "Other",
     "cn": "rennie 72s chewable heartburn indigestion peppermint tablets",
-    "ik": "tok:rennie|72s-chewable-heartburn-indigestion-peppermint-tablets|na",
-    "bn": "rennie"
+    "ik": "tok:rennie|72s-chewable-heartburn-indigestion-peppermint-tablets|1",
+    "bn": "rennie",
+    "wg": 1
   },
   {
     "n": "Rennie Heartburn & Indigestion Chewable Tablets - Sugar Free 24s",
     "p": "3.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/257427672",
     "c": "Other",
     "cn": "rennie 24s chewable free heartburn indigestion sugar tablets",
-    "ik": "tok:rennie|24s-chewable-free-heartburn-indigestion-sugar-tablets|na",
-    "bn": "rennie"
+    "ik": "tok:rennie|24s-chewable-free-heartburn-indigestion-sugar-tablets|1",
+    "bn": "rennie",
+    "wg": 1
   },
   {
     "n": "Ms Molly's Digestive 400G",
@@ -21257,13 +21333,14 @@
     "n": "Rennie Spearmint Heartburn & Indigestion Chewable Tablets 24s",
     "p": "3.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/256761568",
     "c": "Other",
     "cn": "rennie 24s chewable heartburn indigestion spearmint tablets",
-    "ik": "tok:rennie|24s-chewable-heartburn-indigestion-spearmint-tablets|na",
-    "bn": "rennie"
+    "ik": "tok:rennie|24s-chewable-heartburn-indigestion-spearmint-tablets|1",
+    "bn": "rennie",
+    "wg": 1
   },
   {
     "n": "McVitie's Digestives Biscuits The Light One 250g",
@@ -21282,13 +21359,14 @@
     "n": "Rennie Peppermint Heartburn & Indigestion Chewable Tablets 24s",
     "p": "3.20",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/258210158",
     "c": "Other",
     "cn": "rennie 24s chewable heartburn indigestion peppermint tablets",
-    "ik": "tok:rennie|24s-chewable-heartburn-indigestion-peppermint-tablets|na",
-    "bn": "rennie"
+    "ik": "tok:rennie|24s-chewable-heartburn-indigestion-peppermint-tablets|1",
+    "bn": "rennie",
+    "wg": 1
   },
   {
     "n": "McVitie's Original Digestive Twin Pack 315g",
@@ -21332,13 +21410,14 @@
     "n": "Optibac Probiotics One Week Flat - 7 Sachets",
     "p": "9.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/271523750",
     "c": "Other",
     "cn": "optibac flat one probiotics sachets week",
-    "ik": "tok:optibac|flat-one-probiotics-sachets-week|na",
-    "bn": "optibac"
+    "ik": "tok:optibac|flat-one-probiotics-sachets-week|1",
+    "bn": "optibac",
+    "wg": 1
   },
   {
     "n": "McVitie's Original Digestive 315g",
@@ -21737,13 +21816,14 @@
     "n": "Ms Molly's Vanilla Ice Cream 2Ltr",
     "p": "1.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/299252566",
     "c": "Other",
     "cn": "mollys 2ltr cream ice molly ms vanilla",
-    "ik": "tok:mollys|2ltr-cream-ice-molly-ms-vanilla|na",
-    "bn": "mollys"
+    "ik": "tok:mollys|2ltr-cream-ice-molly-ms-vanilla|1",
+    "bn": "mollys",
+    "wg": 1
   },
   {
     "n": "Tesco Chocolate & Nut Cones 4 X 110Ml",
@@ -21977,13 +22057,14 @@
     "n": "Askeys Classic Ice Cream Crispy 21 Cones",
     "p": "1.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/323927625",
     "c": "Other",
     "cn": "askeys 21 classic cones cream crispy ice",
-    "ik": "tok:askeys|21-classic-cones-cream-crispy-ice|na",
-    "bn": "askeys"
+    "ik": "tok:askeys|21-classic-cones-cream-crispy-ice|1",
+    "bn": "askeys",
+    "wg": 1
   },
   {
     "n": "Chicago Town Deep Dish Four Cheese Pizzas 2 X 148G",
@@ -23096,241 +23177,261 @@
     "n": "Who Gives A Crap Extra Soft Limited Edition Toilet Tissue 12 Mega Rolls",
     "p": "12.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/322263288",
     "c": "Other",
     "cn": "who 12 crap edition extra gives limited mega rolls soft tissue toilet",
-    "ik": "tok:who|12-crap-edition-extra-gives-limited-mega-rolls-soft-tissue-toilet|na",
-    "bn": "who"
+    "ik": "tok:who|12-crap-edition-extra-gives-limited-mega-rolls-soft-tissue-toilet|1",
+    "bn": "who",
+    "wg": 1
   },
   {
     "n": "Who Gives A Crap Extra Soft Toilet Tissue 6 Mega Rolls",
     "p": "5.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/322249444",
     "c": "Other",
     "cn": "who crap extra gives mega rolls soft tissue toilet",
-    "ik": "tok:who|crap-extra-gives-mega-rolls-soft-tissue-toilet|na",
-    "bn": "who"
+    "ik": "tok:who|crap-extra-gives-mega-rolls-soft-tissue-toilet|1",
+    "bn": "who",
+    "wg": 1
   },
   {
     "n": "Cheeky Panda Quilted Soft Bamboo 4ply Toilet Tissue 9 Rolls",
     "p": "5.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/322822693",
     "c": "Other",
     "cn": "cheeky 4ply bamboo panda quilted rolls soft tissue toilet",
-    "ik": "tok:cheeky|4ply-bamboo-panda-quilted-rolls-soft-tissue-toilet|na",
-    "bn": "cheeky"
+    "ik": "tok:cheeky|4ply-bamboo-panda-quilted-rolls-soft-tissue-toilet|1",
+    "bn": "cheeky",
+    "wg": 1
   },
   {
     "n": "Tesco Luxury Soft White Toilet Tissue 4 Rolls",
     "p": "2.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/281055580",
     "c": "Other",
     "cn": "tesco luxury rolls soft tissue toilet white",
-    "ik": "tok:tesco|luxury-rolls-soft-tissue-toilet-white|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|luxury-rolls-soft-tissue-toilet-white|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Who Gives A Crap Extra Soft Toilet Tissue 12 Mega Rolls",
     "p": "9.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/322135815",
     "c": "Other",
     "cn": "who 12 crap extra gives mega rolls soft tissue toilet",
-    "ik": "tok:who|12-crap-extra-gives-mega-rolls-soft-tissue-toilet|na",
-    "bn": "who"
+    "ik": "tok:who|12-crap-extra-gives-mega-rolls-soft-tissue-toilet|1",
+    "bn": "who",
+    "wg": 1
   },
   {
     "n": "Tesco Luxury Soft White Toilet Tissue 16 Long Rolls",
     "p": "7.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/320987932",
     "c": "Other",
     "cn": "tesco 16 long luxury rolls soft tissue toilet white",
-    "ik": "tok:tesco|16-long-luxury-rolls-soft-tissue-toilet-white|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|16-long-luxury-rolls-soft-tissue-toilet-white|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Little Duck Supreme Quilted Toilet Tissue 16 Mega Rolls",
     "p": "5.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/321034855",
     "c": "Other",
     "cn": "little 16 duck mega quilted rolls supreme tissue toilet",
-    "ik": "tok:little|16-duck-mega-quilted-rolls-supreme-tissue-toilet|na",
-    "bn": "little"
+    "ik": "tok:little|16-duck-mega-quilted-rolls-supreme-tissue-toilet|1",
+    "bn": "little",
+    "wg": 1
   },
   {
     "n": "Tesco Luxury Soft Coconut Oil Toilet Tissue Rolls X4",
     "p": "2.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/297445007",
     "c": "Other",
     "cn": "tesco coconut luxury oil rolls soft tissue toilet x4",
-    "ik": "tok:tesco|coconut-luxury-oil-rolls-soft-tissue-toilet-x4|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|coconut-luxury-oil-rolls-soft-tissue-toilet-x4|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Who Gives A Crap Classic Soft Toilet Tissue 12 Mega Rolls",
     "p": "8.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/322241274",
     "c": "Other",
     "cn": "who 12 classic crap gives mega rolls soft tissue toilet",
-    "ik": "tok:who|12-classic-crap-gives-mega-rolls-soft-tissue-toilet|na",
-    "bn": "who"
+    "ik": "tok:who|12-classic-crap-gives-mega-rolls-soft-tissue-toilet|1",
+    "bn": "who",
+    "wg": 1
   },
   {
     "n": "Springforce Toilet Tissue 8 White Longer Rolls",
     "p": "2.52",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/321681629",
     "c": "Other",
     "cn": "springforce longer rolls tissue toilet white",
-    "ik": "tok:springforce|longer-rolls-tissue-toilet-white|na",
-    "bn": "springforce"
+    "ik": "tok:springforce|longer-rolls-tissue-toilet-white|1",
+    "bn": "springforce",
+    "wg": 1
   },
   {
     "n": "Tesco Luxury Soft Quilted Toilet Tissue 6 Long Rolls",
     "p": "3.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/312092758",
     "c": "Other",
     "cn": "tesco long luxury quilted rolls soft tissue toilet",
-    "ik": "tok:tesco|long-luxury-quilted-rolls-soft-tissue-toilet|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|long-luxury-quilted-rolls-soft-tissue-toilet|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Andrex Complete Clean Toilet Tissue Standard Rolls 4 Rolls",
     "p": "2.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/309762431",
     "c": "Other",
     "cn": "andrex clean complete rolls standard tissue toilet",
-    "ik": "tok:andrex|clean-complete-rolls-standard-tissue-toilet|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|clean-complete-rolls-standard-tissue-toilet|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Who Gives A Crap Classic Soft Toilet Tissue 6 Mega Rolls",
     "p": "6.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/321961212",
     "c": "Other",
     "cn": "who classic crap gives mega rolls soft tissue toilet",
-    "ik": "tok:who|classic-crap-gives-mega-rolls-soft-tissue-toilet|na",
-    "bn": "who"
+    "ik": "tok:who|classic-crap-gives-mega-rolls-soft-tissue-toilet|1",
+    "bn": "who",
+    "wg": 1
   },
   {
     "n": "Tesco Luxury Soft Coconut Oil Toilet Tissue 6 Long Rolls",
     "p": "3.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/312107150",
     "c": "Other",
     "cn": "tesco coconut long luxury oil rolls soft tissue toilet",
-    "ik": "tok:tesco|coconut-long-luxury-oil-rolls-soft-tissue-toilet|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|coconut-long-luxury-oil-rolls-soft-tissue-toilet|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Luxury Soft Ultimate Toilet Tissue 6 Long Rolls",
     "p": "3.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/322136042",
     "c": "Other",
     "cn": "tesco long luxury rolls soft tissue toilet ultimate",
-    "ik": "tok:tesco|long-luxury-rolls-soft-tissue-toilet-ultimate|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|long-luxury-rolls-soft-tissue-toilet-ultimate|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Luxury Soft Quilted Toilet Tissue 12 Long Roll",
     "p": "6.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/315737516",
     "c": "Other",
     "cn": "tesco 12 long luxury quilted roll soft tissue toilet",
-    "ik": "tok:tesco|12-long-luxury-quilted-roll-soft-tissue-toilet|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|12-long-luxury-quilted-roll-soft-tissue-toilet|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Andrex Family Soft Toilet Tissue Standard 24 Rolls",
     "p": "11.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/302321901",
     "c": "Other",
     "cn": "andrex 24 family rolls soft standard tissue toilet",
-    "ik": "tok:andrex|24-family-rolls-soft-standard-tissue-toilet|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|24-family-rolls-soft-standard-tissue-toilet|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Ultimate Quilts Toilet Tissue 4 Standard Rolls",
     "p": "3.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/312091310",
     "c": "Other",
     "cn": "andrex quilts rolls standard tissue toilet ultimate",
-    "ik": "tok:andrex|quilts-rolls-standard-tissue-toilet-ultimate|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|quilts-rolls-standard-tissue-toilet-ultimate|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Family Soft Toilet Tissue 9 Rolls",
     "p": "3.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/302320948",
     "c": "Other",
     "cn": "andrex family rolls soft tissue toilet",
-    "ik": "tok:andrex|family-rolls-soft-tissue-toilet|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|family-rolls-soft-tissue-toilet|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Velvet Classic Quilted Scented Toilet Tissue 9 Rolls",
     "p": "3.30",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/317547041",
     "c": "Other",
     "cn": "velvet classic quilted rolls scented tissue toilet",
-    "ik": "tok:velvet|classic-quilted-rolls-scented-tissue-toilet|na",
-    "bn": "velvet"
+    "ik": "tok:velvet|classic-quilted-rolls-scented-tissue-toilet|1",
+    "bn": "velvet",
+    "wg": 1
   },
   {
     "n": "Tesco Luxury Soft Flushable Moist Toilet Tissues - Coconut Oil 60 Pack",
@@ -23348,25 +23449,27 @@
     "n": "Cushelle Tubeless Seriously Clean Toilet Roll 50% More Sheets 6 Rolls",
     "p": "6.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/330743642",
     "c": "Other",
     "cn": "cushelle 50 clean more roll rolls seriously sheets toilet tubeless",
-    "ik": "tok:cushelle|50-clean-more-roll-rolls-seriously-sheets-toilet-tubeless|na",
-    "bn": "cushelle"
+    "ik": "tok:cushelle|50-clean-more-roll-rolls-seriously-sheets-toilet-tubeless|1",
+    "bn": "cushelle",
+    "wg": 1
   },
   {
     "n": "Andrex Ultimate Quilts Toilet Tissue 16 Standard Rolls",
     "p": "11.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/311780061",
     "c": "Other",
     "cn": "andrex 16 quilts rolls standard tissue toilet ultimate",
-    "ik": "tok:andrex|16-quilts-rolls-standard-tissue-toilet-ultimate|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|16-quilts-rolls-standard-tissue-toilet-ultimate|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Andrex Complete Clean Toilet Tissue Mega Rolls 12 Pack",
@@ -23384,73 +23487,79 @@
     "n": "Andrex Complete Clean Toilet Roll 16 Rolls",
     "p": "8.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/309770323",
     "c": "Other",
     "cn": "andrex 16 clean complete roll rolls toilet",
-    "ik": "tok:andrex|16-clean-complete-roll-rolls-toilet|na",
-    "bn": "andrex"
+    "ik": "tok:andrex|16-clean-complete-roll-rolls-toilet|1",
+    "bn": "andrex",
+    "wg": 1
   },
   {
     "n": "Foxy Silk 3ply Toilet Tissue 9 Rolls",
     "p": "5.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/321044561",
     "c": "Other",
     "cn": "foxy 3ply rolls silk tissue toilet",
-    "ik": "tok:foxy|3ply-rolls-silk-tissue-toilet|na",
-    "bn": "foxy"
+    "ik": "tok:foxy|3ply-rolls-silk-tissue-toilet|1",
+    "bn": "foxy",
+    "wg": 1
   },
   {
     "n": "Tesco Luxury Soft 60 Flushable Moist Toilet Tissues Sensitive",
     "p": "0.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/321054819",
     "c": "Other",
     "cn": "tesco 60 flushable luxury moist sensitive soft tissues toilet",
-    "ik": "tok:tesco|60-flushable-luxury-moist-sensitive-soft-tissues-toilet|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|60-flushable-luxury-moist-sensitive-soft-tissues-toilet|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Springforce Jumbo Kitchen Towel 240 Sheets",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/308450018",
     "c": "Other",
     "cn": "jumbo 240 kitchen sheets springforce towel",
-    "ik": "tok:jumbo|240-kitchen-sheets-springforce-towel|na",
-    "bn": "jumbo"
+    "ik": "tok:jumbo|240-kitchen-sheets-springforce-towel|1",
+    "bn": "jumbo",
+    "wg": 1
   },
   {
     "n": "Tesco Kitchen Towel 2 Rolls",
     "p": "2.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/305976553",
     "c": "Other",
     "cn": "tesco kitchen rolls towel",
-    "ik": "tok:tesco|kitchen-rolls-towel|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|kitchen-rolls-towel|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Kitchen Towel 4 Roll",
     "p": "3.90",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/305965105",
     "c": "Other",
     "cn": "tesco kitchen roll towel",
-    "ik": "tok:tesco|kitchen-roll-towel|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|kitchen-roll-towel|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Easy Seriously Thick Bleach - Citrus 750ml",
@@ -23469,265 +23578,287 @@
     "n": "Regina Blitz Kitchen Roll 140 Supersized Sheets 2 Roll",
     "p": "3.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/262374000",
     "c": "Other",
     "cn": "regina 140 blitz kitchen roll sheets supersized",
-    "ik": "tok:regina|140-blitz-kitchen-roll-sheets-supersized|na",
-    "bn": "regina"
+    "ik": "tok:regina|140-blitz-kitchen-roll-sheets-supersized|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Regina Absorb Kitchen Roll 150 Supersized Sheets 2 Roll",
     "p": "4.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/311207459",
     "c": "Other",
     "cn": "regina 150 absorb kitchen roll sheets supersized",
-    "ik": "tok:regina|150-absorb-kitchen-roll-sheets-supersized|na",
-    "bn": "regina"
+    "ik": "tok:regina|150-absorb-kitchen-roll-sheets-supersized|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Who Gives A Crap Big & Strong Kitchen Roll 100 Sheets 2 Rolls",
     "p": "2.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/322142938",
     "c": "Other",
     "cn": "who 100 big crap gives kitchen roll rolls sheets strong",
-    "ik": "tok:who|100-big-crap-gives-kitchen-roll-rolls-sheets-strong|na",
-    "bn": "who"
+    "ik": "tok:who|100-big-crap-gives-kitchen-roll-rolls-sheets-strong|1",
+    "bn": "who",
+    "wg": 1
   },
   {
     "n": "Plenty Max Extra Large Household Towel 140 Sheets 2 Roll",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/303904896",
     "c": "Other",
     "cn": "plenty 140 extra household large max roll sheets towel",
-    "ik": "tok:plenty|140-extra-household-large-max-roll-sheets-towel|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|140-extra-household-large-max-roll-sheets-towel|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Plenty Flexisheets Kitchen Roll 2 Rolls",
     "p": "3.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/322258928",
     "c": "Other",
     "cn": "plenty flexisheets kitchen roll rolls",
-    "ik": "tok:plenty|flexisheets-kitchen-roll-rolls|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|flexisheets-kitchen-roll-rolls|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Tesco Ultra Kitchen Towel 200 Sheets",
     "p": "2.55",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/296653200",
     "c": "Other",
     "cn": "tesco 200 kitchen sheets towel ultra",
-    "ik": "tok:tesco|200-kitchen-sheets-towel-ultra|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|200-kitchen-sheets-towel-ultra|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Tesco Decorated Kitchen Towel 2 Rolls",
     "p": "2.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/305959695",
     "c": "Other",
     "cn": "tesco decorated kitchen rolls towel",
-    "ik": "tok:tesco|decorated-kitchen-rolls-towel|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|decorated-kitchen-rolls-towel|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Plenty Ultrasorb Kitchen Roll 2 Rolls",
     "p": "5.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/330743693",
     "c": "Other",
     "cn": "plenty kitchen roll rolls ultrasorb",
-    "ik": "tok:plenty|kitchen-roll-rolls-ultrasorb|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|kitchen-roll-rolls-ultrasorb|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Tesco Multi-Purpose Household Towel 1 Roll",
     "p": "1.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/313943649",
     "c": "Other",
     "cn": "tesco household multi purpose roll towel",
-    "ik": "tok:tesco|household-multi-purpose-roll-towel|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|household-multi-purpose-roll-towel|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Regina Blitz Kitchen Roll 100 Supersized Sheets 1 Roll",
     "p": "3.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/264038125",
     "c": "Other",
     "cn": "regina 100 blitz kitchen roll sheets supersized",
-    "ik": "tok:regina|100-blitz-kitchen-roll-sheets-supersized|na",
-    "bn": "regina"
+    "ik": "tok:regina|100-blitz-kitchen-roll-sheets-supersized|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Plenty Ultrasorb Kitchen Roll 1 Roll",
     "p": "1.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/330743688",
     "c": "Other",
     "cn": "plenty kitchen roll ultrasorb",
-    "ik": "tok:plenty|kitchen-roll-ultrasorb|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|kitchen-roll-ultrasorb|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Regina Blitz Kitchen Roll 210 Supersized Sheets 3 Roll",
     "p": "4.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/304426550",
     "c": "Other",
     "cn": "regina 210 blitz kitchen roll sheets supersized",
-    "ik": "tok:regina|210-blitz-kitchen-roll-sheets-supersized|na",
-    "bn": "regina"
+    "ik": "tok:regina|210-blitz-kitchen-roll-sheets-supersized|1",
+    "bn": "regina",
+    "wg": 1
   },
   {
     "n": "Foxy Mega Kitchen Towel 2 Roll 250 Sheets",
     "p": "3.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/322745277",
     "c": "Other",
     "cn": "foxy 250 kitchen mega roll sheets towel",
-    "ik": "tok:foxy|250-kitchen-mega-roll-sheets-towel|na",
-    "bn": "foxy"
+    "ik": "tok:foxy|250-kitchen-mega-roll-sheets-towel|1",
+    "bn": "foxy",
+    "wg": 1
   },
   {
     "n": "Tesco Kitchen Towel 100% Recycled 2 Rolls",
     "p": "2.60",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/305968632",
     "c": "Other",
     "cn": "tesco 100 kitchen recycled rolls towel",
-    "ik": "tok:tesco|100-kitchen-recycled-rolls-towel|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|100-kitchen-recycled-rolls-towel|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Foxy Tornado Kitchen Towel 3ply 1 Roll 300 Sheets",
     "p": "4.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/321222575",
     "c": "Other",
     "cn": "foxy 300 3ply kitchen roll sheets tornado towel",
-    "ik": "tok:foxy|300-3ply-kitchen-roll-sheets-tornado-towel|na",
-    "bn": "foxy"
+    "ik": "tok:foxy|300-3ply-kitchen-roll-sheets-tornado-towel|1",
+    "bn": "foxy",
+    "wg": 1
   },
   {
     "n": "Tesco 100% Recycled Kitchen Towel 2 Roll",
     "p": "2.60",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/315581083",
     "c": "Other",
     "cn": "tesco 100 kitchen recycled roll towel",
-    "ik": "tok:tesco|100-kitchen-recycled-roll-towel|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|100-kitchen-recycled-roll-towel|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Plenty Original Kitchen Roll 18 Rolls",
     "p": "30.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/326196817?seller=trn:tesco:seller:uuid:911c7c38-89b1-4528-9846-d7c1ac56cb4a",
     "c": "Other",
     "cn": "plenty 18 kitchen original roll rolls",
-    "ik": "tok:plenty|18-kitchen-original-roll-rolls|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|18-kitchen-original-roll-rolls|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Plenty Infinity Kitchen Roll 6 Rolls",
     "p": "30.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/326196819?seller=trn:tesco:seller:uuid:911c7c38-89b1-4528-9846-d7c1ac56cb4a",
     "c": "Other",
     "cn": "plenty infinity kitchen roll rolls",
-    "ik": "tok:plenty|infinity-kitchen-roll-rolls|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|infinity-kitchen-roll-rolls|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Plenty Max Kitchen Roll 12 Rolls",
     "p": "24.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/326197007?seller=trn:tesco:seller:uuid:911c7c38-89b1-4528-9846-d7c1ac56cb4a",
     "c": "Other",
     "cn": "plenty 12 kitchen max roll rolls",
-    "ik": "tok:plenty|12-kitchen-max-roll-rolls|na",
-    "bn": "plenty"
+    "ik": "tok:plenty|12-kitchen-max-roll-rolls|1",
+    "bn": "plenty",
+    "wg": 1
   },
   {
     "n": "Geezy Kitchen Rolls 2 Ply Absorbent Kitchen Towel Paper 64 Sheets Pack Of 2",
     "p": "6.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/326816712?seller=trn:tesco:seller:uuid:6edc42d1-dd66-44f3-b030-476377c733d3",
     "c": "Other",
     "cn": "geezy 64 absorbent kitchen of pack paper ply rolls sheets towel",
-    "ik": "tok:geezy|64-absorbent-kitchen-of-pack-paper-ply-rolls-sheets-towel|na",
-    "bn": "geezy"
+    "ik": "tok:geezy|64-absorbent-kitchen-of-pack-paper-ply-rolls-sheets-towel|1",
+    "bn": "geezy",
+    "wg": 1
   },
   {
     "n": "Foxy Ultrawipe Kitchen Towel 3ply 2 Roll 140 Sheets",
     "p": "2.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/320986524",
     "c": "Other",
     "cn": "foxy 140 3ply kitchen roll sheets towel ultrawipe",
-    "ik": "tok:foxy|140-3ply-kitchen-roll-sheets-towel-ultrawipe|na",
-    "bn": "foxy"
+    "ik": "tok:foxy|140-3ply-kitchen-roll-sheets-towel-ultrawipe|1",
+    "bn": "foxy",
+    "wg": 1
   },
   {
     "n": "Tesco Kitchen Foil 10M X 290Mm",
     "p": "1.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/304789586",
     "c": "Other",
     "cn": "tesco 10m 290mm foil kitchen",
-    "ik": "tok:tesco|10m-290mm-foil-kitchen|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|10m-290mm-foil-kitchen|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Fairy Original Washing Up Liquid 320Ml",
@@ -24119,13 +24250,14 @@
     "n": "Tesco Thick Bleach 24 Hour Fresh 750M",
     "p": "0.80",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/257335642",
     "c": "Other",
     "cn": "tesco 24 750m bleach fresh hour thick",
-    "ik": "tok:tesco|24-750m-bleach-fresh-hour-thick|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|24-750m-bleach-fresh-hour-thick|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Ariel Original Washing Pods Stain And Odour Removal 50 Washes 870g",
@@ -26210,13 +26342,14 @@
     "n": "Tesco Health Pain Relief Tablets - Paracetamol 500mg 16s",
     "p": "0.35",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/257107498",
     "c": "Other",
     "cn": "tesco 16s 500mg health pain paracetamol relief tablets",
-    "ik": "tok:tesco|16s-500mg-health-pain-paracetamol-relief-tablets|na",
-    "bn": "tesco"
+    "ik": "tok:tesco|16s-500mg-health-pain-paracetamol-relief-tablets|1",
+    "bn": "tesco",
+    "wg": 1
   },
   {
     "n": "Radox Chamomile & Oat Feel Moisturised Shower Gel Body Wash 225ml",
@@ -26364,13 +26497,14 @@
     "n": "Springforce 40 Flat Top Refuse Bags",
     "p": "1.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/321850349",
     "c": "Other",
     "cn": "springforce 40 bags flat refuse top",
-    "ik": "tok:springforce|40-bags-flat-refuse-top|na",
-    "bn": "springforce"
+    "ik": "tok:springforce|40-bags-flat-refuse-top|1",
+    "bn": "springforce",
+    "wg": 1
   },
   {
     "n": "Tesco 20 Refuse Sacks 50L Medium",
@@ -26545,37 +26679,40 @@
     "n": "Options",
     "p": "6.09",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/326703265",
     "c": "Other",
     "cn": "options",
-    "ik": "tok:options|unknown|na",
-    "bn": "options"
+    "ik": "tok:options|unknown|1",
+    "bn": "options",
+    "wg": 1
   },
   {
     "n": "Degradable Refuse Sacks Bin Liners With Draw Tape - Roll Of 10",
     "p": "2.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/325391378?seller=trn:tesco:seller:uuid:b318f0f9-83c4-4ddb-acda-f2bc819b04de",
     "c": "Other",
     "cn": "degradable 10 bin draw liners of refuse roll sacks tape with",
-    "ik": "tok:degradable|10-bin-draw-liners-of-refuse-roll-sacks-tape-with|na",
-    "bn": "degradable"
+    "ik": "tok:degradable|10-bin-draw-liners-of-refuse-roll-sacks-tape-with|1",
+    "bn": "degradable",
+    "wg": 1
   },
   {
     "n": "Pack Of 12 Seal-A-Pack Drawstring Refuse Sacks Bin Liners",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/325415734?seller=trn:tesco:seller:uuid:0052cb1d-f040-4849-94a7-5eaa865d0dec",
     "c": "Other",
     "cn": "pack 12 bin drawstring liners of refuse sacks seal",
-    "ik": "tok:pack|12-bin-drawstring-liners-of-refuse-sacks-seal|na",
-    "bn": "pack"
+    "ik": "tok:pack|12-bin-drawstring-liners-of-refuse-sacks-seal|1",
+    "bn": "pack",
+    "wg": 1
   },
   {
     "n": "Hero 85L Heavy Duty Bin Bag Liners – Pack Of 20 Extra Large Black Refuse Sacks | Strong Leak Resistant & Tear Resistant Bin Bags",
@@ -26633,13 +26770,14 @@
     "n": "Pampers Baby Dry Nappy Pants Size 9 Jumbo Pack 40 Nappies",
     "p": "14.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/317765675",
     "c": "Personal Care",
     "cn": "pampers 40 baby dry nappies nappy pack pants size",
-    "ik": "tok:pampers|40-baby-dry-nappies-nappy-pack-pants-size|na",
-    "bn": "pampers"
+    "ik": "tok:pampers|40-baby-dry-nappies-nappy-pack-pants-size|1",
+    "bn": "pampers",
+    "wg": 1
   },
   {
     "n": "Pampers Baby-Dry Nappy Pants Size 8 Jumbo+ Pack 44 Pack",
@@ -26657,13 +26795,14 @@
     "n": "Rascals Premium Nappies, Size 5 | 58 Jumbo Pack",
     "p": "9.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/315160938",
     "c": "Other",
     "cn": "jumbo 58 nappies pack premium rascals size",
-    "ik": "tok:jumbo|58-nappies-pack-premium-rascals-size|na",
-    "bn": "jumbo"
+    "ik": "tok:jumbo|58-nappies-pack-premium-rascals-size|1",
+    "bn": "jumbo",
+    "wg": 1
   },
   {
     "n": "Fred & Flo Ultra Dry Nappies Size 6 30 Pack",
@@ -26729,13 +26868,14 @@
     "n": "Fred & Flo 40 Ultra Dry Nappies Size 5",
     "p": "2.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/304798621",
     "c": "Other",
     "cn": "fred 40 dry flo nappies size ultra",
-    "ik": "tok:fred|40-dry-flo-nappies-size-ultra|na",
-    "bn": "fred"
+    "ik": "tok:fred|40-dry-flo-nappies-size-ultra|1",
+    "bn": "fred",
+    "wg": 1
   },
   {
     "n": "Rascals Premium Nappies Size 7 26 Pack",
@@ -26765,13 +26905,14 @@
     "n": "Fred & Flo 48 Ultra Dry Nappies Size 4",
     "p": "2.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/304794654",
     "c": "Other",
     "cn": "fred 48 dry flo nappies size ultra",
-    "ik": "tok:fred|48-dry-flo-nappies-size-ultra|na",
-    "bn": "fred"
+    "ik": "tok:fred|48-dry-flo-nappies-size-ultra|1",
+    "bn": "fred",
+    "wg": 1
   },
   {
     "n": "Fred & Flo Ultra Dry Nappies Size 6+ 26 Pack",
@@ -26813,25 +26954,27 @@
     "n": "Fred & Flo 36 Ultra Dry Nappies 5+",
     "p": "2.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/304792466",
     "c": "Other",
     "cn": "fred 36 dry flo nappies ultra",
-    "ik": "tok:fred|36-dry-flo-nappies-ultra|na",
-    "bn": "fred"
+    "ik": "tok:fred|36-dry-flo-nappies-ultra|1",
+    "bn": "fred",
+    "wg": 1
   },
   {
     "n": "Fred & Flo 38 Easy Fit Nappy Pant Size5",
     "p": "3.26",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/301393592",
     "c": "Other",
     "cn": "nappy 38 easy fit flo fred pant size5",
-    "ik": "tok:nappy|38-easy-fit-flo-fred-pant-size5|na",
-    "bn": "nappy"
+    "ik": "tok:nappy|38-easy-fit-flo-fred-pant-size5|1",
+    "bn": "nappy",
+    "wg": 1
   },
   {
     "n": "Fred & Flo Newborn Nappy Size 2 58 Pack",
@@ -26849,13 +26992,14 @@
     "n": "Fred & Flo 26 Easy Fit Nappy Pants Size 9",
     "p": "4.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/318184842",
     "c": "Other",
     "cn": "nappy 26 easy fit flo fred pants size",
-    "ik": "tok:nappy|26-easy-fit-flo-fred-pants-size|na",
-    "bn": "nappy"
+    "ik": "tok:nappy|26-easy-fit-flo-fred-pants-size|1",
+    "bn": "nappy",
+    "wg": 1
   },
   {
     "n": "Fred & Flo Ultra Dry Nappies Size 4+ 44 Pack",
@@ -26873,37 +27017,40 @@
     "n": "Pampers Baby Dry Size 5 Essential Pack 39 Nappies",
     "p": "5.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/278213449",
     "c": "Personal Care",
     "cn": "pampers 39 baby dry essential nappies pack size",
-    "ik": "tok:pampers|39-baby-dry-essential-nappies-pack-size|na",
-    "bn": "pampers"
+    "ik": "tok:pampers|39-baby-dry-essential-nappies-pack-size|1",
+    "bn": "pampers",
+    "wg": 1
   },
   {
     "n": "Pampers New Baby Size 2 76 Nappies Jumbo+ Pack",
     "p": "14.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/307359289",
     "c": "Personal Care",
     "cn": "pampers 76 baby nappies new pack size",
-    "ik": "tok:pampers|76-baby-nappies-new-pack-size|na",
-    "bn": "pampers"
+    "ik": "tok:pampers|76-baby-nappies-new-pack-size|1",
+    "bn": "pampers",
+    "wg": 1
   },
   {
     "n": "Fred & Flo Size 8 Ultra Dry 20 Nappies",
     "p": "2.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/323314544",
     "c": "Other",
     "cn": "fred 20 dry flo nappies size ultra",
-    "ik": "tok:fred|20-dry-flo-nappies-size-ultra|na",
-    "bn": "fred"
+    "ik": "tok:fred|20-dry-flo-nappies-size-ultra|1",
+    "bn": "fred",
+    "wg": 1
   },
   {
     "n": "Pampers Baby-Dry Size 6 Nappies 33 Pack",
@@ -26921,37 +27068,40 @@
     "n": "Pampers Baby Dry Size 4 Essential Pack 44 Nappies",
     "p": "5.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/288089920",
     "c": "Personal Care",
     "cn": "pampers 44 baby dry essential nappies pack size",
-    "ik": "tok:pampers|44-baby-dry-essential-nappies-pack-size|na",
-    "bn": "pampers"
+    "ik": "tok:pampers|44-baby-dry-essential-nappies-pack-size|1",
+    "bn": "pampers",
+    "wg": 1
   },
   {
     "n": "Pampers New Baby Size 1 80 Nappies Jumbo+ Pack",
     "p": "14.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/307345669",
     "c": "Personal Care",
     "cn": "pampers 80 baby nappies new pack size",
-    "ik": "tok:pampers|80-baby-nappies-new-pack-size|na",
-    "bn": "pampers"
+    "ik": "tok:pampers|80-baby-nappies-new-pack-size|1",
+    "bn": "pampers",
+    "wg": 1
   },
   {
     "n": "Pampers Baby Dry Nappy Pants S8 22 Nappies",
     "p": "11.00",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/310112428",
     "c": "Personal Care",
     "cn": "pampers 22 baby dry nappies nappy pants s8",
-    "ik": "tok:pampers|22-baby-dry-nappies-nappy-pants-s8|na",
-    "bn": "pampers"
+    "ik": "tok:pampers|22-baby-dry-nappies-nappy-pants-s8|1",
+    "bn": "pampers",
+    "wg": 1
   },
   {
     "n": "Fred & Flo Newborn Nappy Size 0 24 Pack",
@@ -26969,13 +27119,14 @@
     "n": "Pampers New Baby Size 1 50 Nappies Essential Pack",
     "p": "8.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/307349227",
     "c": "Personal Care",
     "cn": "pampers 50 baby essential nappies new pack size",
-    "ik": "tok:pampers|50-baby-essential-nappies-new-pack-size|na",
-    "bn": "pampers"
+    "ik": "tok:pampers|50-baby-essential-nappies-new-pack-size|1",
+    "bn": "pampers",
+    "wg": 1
   },
   {
     "n": "Tesco Fred & Flo Fragrance Free Baby Wipes 72 Pack",
@@ -27041,12 +27192,13 @@
     "n": "Huggies Pure 0% Plastic Baby Wipes 3x48 144 Wipes",
     "p": "2.30",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.tesco.com/shop/en-GB/products/312109551",
     "c": "Personal Care",
     "cn": "huggies 144 3x48 baby plastic pure wipes",
-    "ik": "tok:huggies|144-3x48-baby-plastic-pure-wipes|na",
-    "bn": "huggies"
+    "ik": "tok:huggies|144-3x48-baby-plastic-pure-wipes|1",
+    "bn": "huggies",
+    "wg": 1
   }
 ]
