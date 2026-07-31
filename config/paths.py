@@ -52,10 +52,13 @@ def catalog_rel_path(country: str, slug: str) -> str:
 
 def all_catalog_paths(country: str | None = None) -> list[tuple[str, str, Path]]:
     config = load_stores_config()
-    country = country or config.get("default_country", "nl")
+    countries = [country] if country else list_countries()
     result: list[tuple[str, str, Path]] = []
-    for slug in list_stores(country):
-        result.append((country, slug, catalog_path(country, slug)))
+    for code in countries:
+        if code not in config.get("countries", {}):
+            continue
+        for slug in list_stores(code):
+            result.append((code, slug, catalog_path(code, slug)))
     return result
 
 

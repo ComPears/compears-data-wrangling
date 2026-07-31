@@ -3294,19 +3294,6 @@
     "wg": 150
   },
   {
-    "n": "Greek Yoghurt 0% Fat",
-    "p": "1.99",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/brooklea-greek-yoghurt-0-fat/000000000000268889",
-    "c": "Dairy & Eggs",
-    "cn": "greek fat yoghurt",
-    "ik": "tok:greek|fat-yoghurt|500",
-    "bn": "greek",
-    "wg": 500
-  },
-  {
     "n": "Greek Yoghurt 10% Fat",
     "p": "1.99",
     "o": "",
@@ -5516,15 +5503,15 @@
     "bn": "cucumber"
   },
   {
-    "n": "Baby Snack Cucumber",
+    "n": "Baby Cucumbers",
     "p": "0.89",
     "o": "",
     "s": "200 ml",
     "l": "",
-    "i": "https://www.aldi.co.uk/product/nature-s-pick-baby-snack-cucumber/000000000000273691",
+    "i": "https://www.aldi.co.uk/product/nature-s-pick-baby-cucumbers/000000000000273691",
     "c": "Personal Care",
-    "cn": "baby cucumber snack",
-    "ik": "tok:baby|cucumber-snack|200",
+    "cn": "baby cucumbers",
+    "ik": "tok:baby|cucumbers|200",
     "bn": "baby",
     "wg": 200
   },
@@ -6971,19 +6958,6 @@
     "wg": 500
   },
   {
-    "n": "Quorn Mince",
-    "p": "2.29",
-    "o": "",
-    "s": "420 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
-    "c": "Other",
-    "cn": "quorn mince",
-    "ik": "tok:quorn|mince|420",
-    "bn": "quorn",
-    "wg": 420
-  },
-  {
     "n": "British Extra Lean Turkey Mince 2% Fat",
     "p": "3.99",
     "o": "",
@@ -7034,6 +7008,19 @@
     "ik": "tok:british|beef-fat-lean-mince-steak|750",
     "bn": "british",
     "wg": 750
+  },
+  {
+    "n": "Quorn Mince",
+    "p": "2.29",
+    "o": "",
+    "s": "420 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
+    "c": "Other",
+    "cn": "quorn mince",
+    "ik": "tok:quorn|mince|420",
+    "bn": "quorn",
+    "wg": 420
   },
   {
     "n": "100% British Beef Lean Aberdeen Angus Steak Mince 5% Fat",
@@ -8534,32 +8521,6 @@
     "wg": 400
   },
   {
-    "n": "German Unsmoked Baked Ham",
-    "p": "1.19",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/the-deli-german-unsmoked-baked-ham/000000000400382001",
-    "c": "Other",
-    "cn": "german baked ham unsmoked",
-    "ik": "tok:german|baked-ham-unsmoked|120",
-    "bn": "german",
-    "wg": 120
-  },
-  {
-    "n": "German Smoked Baked Ham",
-    "p": "1.19",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/the-deli-german-smoked-baked-ham/000000000400382002",
-    "c": "Other",
-    "cn": "german baked ham smoked",
-    "ik": "tok:german|baked-ham-smoked|120",
-    "bn": "german",
-    "wg": 120
-  },
-  {
     "n": "Honey Roast Thin Ham",
     "p": "2.29",
     "o": "",
@@ -8662,6 +8623,32 @@
     "ik": "tok:british|14-cooked-ham-lean-slices|300",
     "bn": "british",
     "wg": 300
+  },
+  {
+    "n": "German Unsmoked Baked Ham 6 Slices",
+    "p": "1.19",
+    "o": "",
+    "s": "120 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/the-deli-german-unsmoked-baked-ham-6-slices/000000000400382001",
+    "c": "Other",
+    "cn": "german baked ham slices unsmoked",
+    "ik": "tok:german|baked-ham-slices-unsmoked|120",
+    "bn": "german",
+    "wg": 120
+  },
+  {
+    "n": "German Smoked Baked Ham 6 Slices",
+    "p": "1.19",
+    "o": "",
+    "s": "120 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/the-deli-german-smoked-baked-ham-6-slices/000000000400382002",
+    "c": "Other",
+    "cn": "german baked ham slices smoked",
+    "ik": "tok:german|baked-ham-slices-smoked|120",
+    "bn": "german",
+    "wg": 120
   },
   {
     "n": "British Honey Cured Ham 7 Slices",
@@ -8791,6 +8778,19 @@
     "bn": "ibrico"
   },
   {
+    "n": "Vegetarian Ham Slices",
+    "p": "1.45",
+    "o": "",
+    "s": "100 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/quorn-vegetarian-ham-slices/000000000493578001",
+    "c": "Other",
+    "cn": "vegetarian ham slices",
+    "ik": "tok:vegetarian|ham-slices|100",
+    "bn": "vegetarian",
+    "wg": 100
+  },
+  {
     "n": "Wafer Thin British Cooked Ham 40 Slices",
     "p": "1.89",
     "o": "",
@@ -8879,19 +8879,6 @@
     "cn": "british cooked ham slices thin wafer",
     "ik": "tok:british|cooked-ham-slices-thin-wafer|120",
     "bn": "british",
-    "wg": 120
-  },
-  {
-    "n": "Applewood Smoked Wiltshire Cured Ham 6 Slices",
-    "p": "2.19",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-applewood-smoked-wiltshire-cured-ham-6-slices/000000000615748001",
-    "c": "Other",
-    "cn": "applewood cured ham slices smoked wiltshire",
-    "ik": "tok:applewood|cured-ham-slices-smoked-wiltshire|120",
-    "bn": "applewood",
     "wg": 120
   },
   {
@@ -12693,6 +12680,32 @@
     "bn": "black"
   },
   {
+    "n": "Sunflower Oil",
+    "p": "1.49",
+    "o": "",
+    "s": "0 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/solesta-sunflower-oil/000000000000198481",
+    "c": "Other",
+    "cn": "sunflower oil",
+    "ik": "tok:sunflower|oil|0",
+    "bn": "sunflower",
+    "wg": 0
+  },
+  {
+    "n": "Vegetable Oil",
+    "p": "1.45",
+    "o": "",
+    "s": "0 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/solesta-vegetable-oil/000000000000335872",
+    "c": "Other",
+    "cn": "vegetable oil",
+    "ik": "tok:vegetable|oil|0",
+    "bn": "vegetable",
+    "wg": 0
+  },
+  {
     "n": "Double Stuffed Giant Halkidiki Olives",
     "p": "2.19",
     "o": "",
@@ -12743,32 +12756,6 @@
     "ik": "tok:black|olives-pitted-spanish|160",
     "bn": "black",
     "wg": 160
-  },
-  {
-    "n": "Sunflower Oil",
-    "p": "1.49",
-    "o": "",
-    "s": "0 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/solesta-sunflower-oil/000000000000198481",
-    "c": "Other",
-    "cn": "sunflower oil",
-    "ik": "tok:sunflower|oil|0",
-    "bn": "sunflower",
-    "wg": 0
-  },
-  {
-    "n": "Vegetable Oil",
-    "p": "1.45",
-    "o": "",
-    "s": "0 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/solesta-vegetable-oil/000000000000335872",
-    "c": "Other",
-    "cn": "vegetable oil",
-    "ik": "tok:vegetable|oil|0",
-    "bn": "vegetable",
-    "wg": 0
   },
   {
     "n": "Sardines In Sunflower Oil",
@@ -15000,6 +14987,19 @@
     "wg": 90
   },
   {
+    "n": "Toffee Crisp",
+    "p": "1.19",
+    "o": "",
+    "s": "120 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/nestle-toffee-crisp/000000000730428003",
+    "c": "Other",
+    "cn": "toffee crisp",
+    "ik": "tok:toffee|crisp|120",
+    "bn": "toffee",
+    "wg": 120
+  },
+  {
     "n": "Mini Cheese Bakes 7 Pack",
     "p": "0.99",
     "o": "",
@@ -15024,19 +15024,6 @@
     "ik": "tok:salt|24-crunchy-pack-sticks-vinegar|432",
     "bn": "salt",
     "wg": 432
-  },
-  {
-    "n": "Teddy Faces 6 Pack",
-    "p": "1.15",
-    "o": "",
-    "s": "90 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/snackrite-teddy-faces-6-pack/000000000000545909",
-    "c": "Other",
-    "cn": "teddy faces pack",
-    "ik": "tok:teddy|faces-pack|90",
-    "bn": "teddy",
-    "wg": 90
   },
   {
     "n": "Milk Chocolate Belgian Chocolate Waves",
@@ -16618,6 +16605,19 @@
     "wg": 170
   },
   {
+    "n": "Southern Fried Chicken Steaks In Breadcrumbs 4 Pack",
+    "p": "1.79",
+    "o": "",
+    "s": "380 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/roosters-southern-fried-chicken-steaks-in-breadcrumbs-4-pack/000000000492319002",
+    "c": "Other",
+    "cn": "southern breadcrumbs chicken fried in pack steaks",
+    "ik": "tok:southern|breadcrumbs-chicken-fried-in-pack-steaks|380",
+    "bn": "southern",
+    "wg": 380
+  },
+  {
     "n": "Pan Fried Potatoes",
     "p": "1.49",
     "o": "",
@@ -17680,5 +17680,149 @@
     "cn": "wrapping 20m foil",
     "ik": "tok:wrapping|20m-foil|na",
     "bn": "wrapping"
+  },
+  {
+    "n": "Nappies Size 1",
+    "p": "0.75",
+    "o": "",
+    "s": "stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-nappies-size-1/000000000000628053",
+    "c": "Other",
+    "cn": "nappies size",
+    "ik": "tok:nappies|size|na",
+    "bn": "nappies"
+  },
+  {
+    "n": "Nappies Size 5 Jumbo",
+    "p": "4.89",
+    "o": "",
+    "s": "stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-nappies-size-5-jumbo/000000000000634467",
+    "c": "Other",
+    "cn": "jumbo nappies size",
+    "ik": "tok:jumbo|nappies-size|na",
+    "bn": "jumbo"
+  },
+  {
+    "n": "Nappy Sacks",
+    "p": "0.79",
+    "o": "",
+    "s": "stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-nappy-sacks/000000000000559125",
+    "c": "Other",
+    "cn": "nappy sacks",
+    "ik": "tok:nappy|sacks|na",
+    "bn": "nappy"
+  },
+  {
+    "n": "Night Pants",
+    "p": "4.59",
+    "o": "",
+    "s": "stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-night-pants/000000000000615426",
+    "c": "Other",
+    "cn": "night pants",
+    "ik": "tok:night|pants|na",
+    "bn": "night"
+  },
+  {
+    "n": "Baby Pants Size 8",
+    "p": "2.79",
+    "o": "",
+    "s": "stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-baby-pants-size-8/000000000000634460",
+    "c": "Personal Care",
+    "cn": "baby pants size",
+    "ik": "tok:baby|pants-size|na",
+    "bn": "baby"
+  },
+  {
+    "n": "Toddler Wipes",
+    "p": "0.59",
+    "o": "",
+    "s": "stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-toddler-wipes/000000000000645649",
+    "c": "Other",
+    "cn": "toddler wipes",
+    "ik": "tok:toddler|wipes|na",
+    "bn": "toddler"
+  },
+  {
+    "n": "Extra Sensitive Baby Wipes",
+    "p": "0.59",
+    "o": "",
+    "s": "stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-extra-sensitive-baby-wipes/000000000000645674",
+    "c": "Personal Care",
+    "cn": "extra baby sensitive wipes",
+    "ik": "tok:extra|baby-sensitive-wipes|na",
+    "bn": "extra"
+  },
+  {
+    "n": "Baby Wipes Sensitive 6 Pack",
+    "p": "3.95",
+    "o": "",
+    "s": "6 pack",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-baby-wipes-sensitive-6-pack/000000000000645675",
+    "c": "Personal Care",
+    "cn": "baby pack sensitive wipes",
+    "ik": "tok:baby|pack-sensitive-wipes|na",
+    "bn": "baby"
+  },
+  {
+    "n": "Xl Baby Wipes",
+    "p": "0.95",
+    "o": "",
+    "s": "stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-xl-baby-wipes/000000000000645681",
+    "c": "Personal Care",
+    "cn": "baby wipes xl",
+    "ik": "tok:baby|wipes-xl|na",
+    "bn": "baby"
+  },
+  {
+    "n": "Fragranced Baby Wipes",
+    "p": "0.75",
+    "o": "",
+    "s": "stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-fragranced-baby-wipes/000000000000645684",
+    "c": "Personal Care",
+    "cn": "fragranced baby wipes",
+    "ik": "tok:fragranced|baby-wipes|na",
+    "bn": "fragranced"
+  },
+  {
+    "n": "Sensitive Baby Wipes",
+    "p": "0.75",
+    "o": "",
+    "s": "stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-sensitive-baby-wipes/000000000000645694",
+    "c": "Personal Care",
+    "cn": "sensitive baby wipes",
+    "ik": "tok:sensitive|baby-wipes|na",
+    "bn": "sensitive"
+  },
+  {
+    "n": "On The Go Wipes",
+    "p": "0.59",
+    "o": "",
+    "s": "stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-on-the-go-wipes/000000000000700901",
+    "c": "Other",
+    "cn": "wipes go on the",
+    "ik": "tok:wipes|go-on-the|na",
+    "bn": "wipes"
   }
 ]
