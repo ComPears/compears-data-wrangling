@@ -78,7 +78,8 @@ def main() -> None:
             print(f"  - {msg}")
         sys.exit(1)
 
-    print(f"Store output validation passed ({config.get('default_country', 'nl')}).")
+    scope = args.country or "all countries"
+    print(f"Store output validation passed ({scope}).")
 
 
 if __name__ == "__main__":
