@@ -406,8 +406,64 @@ jobs:
             git push
           fi
 
+  generate-uk:
+    # Optional while UK scrapers mature against bot protection.
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        store: [tesco, sainsburys, asda, morrisons, aldi-uk, lidl-uk]
+
+    steps:
+      - name: Checkout current repo
+        uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.8'
+          check-latest: false
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Install Playwright browsers
+        run: |
+          python -m playwright install chromium
+          python -m playwright install-deps chromium
+
+      - name: Generate UK ${{ matrix.store }} catalog
+        env:
+          UK_MAX_QUERIES: '40'
+        run: python scripts/run_store_pipeline.py --country uk --store ${{ matrix.store }}
+
+      - name: Push UK catalog
+        env:
+          GIT_USERNAME: "GitHub Actions Bot"
+          GIT_EMAIL: "actions@github.com"
+        run: |
+          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "$GIT_EMAIL"
+          git pull
+          git add countries/uk/${{ matrix.store }}/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated UK update ${{ matrix.store }} $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
   prune-stale-data:
-    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo]
+    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo, generate-uk]
     if: >-
       always() && !cancelled() && (
         needs.generate-ah.result == 'success' ||
@@ -416,7 +472,8 @@ jobs:
         needs.generate-plus.result == 'success' ||
         needs.generate-lidl.result == 'success' ||
         needs.generate-coop.result == 'success' ||
-        needs.generate-jumbo.result == 'success'
+        needs.generate-jumbo.result == 'success' ||
+        needs.generate-uk.result == 'success'
       )
     runs-on: ubuntu-latest
     permissions:
@@ -500,7 +557,7 @@ jobs:
           git push origin main
 
   sync-backend-and-render:
-    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo, prune-stale-data]
+    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo, generate-uk, prune-stale-data]
     if: >-
       always() && !cancelled() && (
         needs.generate-ah.result == 'success' ||
@@ -509,7 +566,8 @@ jobs:
         needs.generate-plus.result == 'success' ||
         needs.generate-lidl.result == 'success' ||
         needs.generate-coop.result == 'success' ||
-        needs.generate-jumbo.result == 'success'
+        needs.generate-jumbo.result == 'success' ||
+        needs.generate-uk.result == 'success'
       )
     runs-on: ubuntu-latest
     permissions:
@@ -547,6 +605,7 @@ jobs:
         working-directory: compear-backend
         env:
           WRANGLING_PATH: ${{ github.workspace }}/compears-data-wrangling
+          COUNTRY: nl,uk
         run: |
           npm ci
           npm run seed
@@ -559,7 +618,7 @@ jobs:
         run: |
           git config user.name "$GIT_USERNAME"
           git config user.email "$GIT_EMAIL"
-          git add src/data/nl/*.json
+          git add src/data/nl/*.json src/data/uk/*.json
           if git diff --cached --quiet; then
             echo "No backend data changes to commit"
           else
@@ -579,7 +638,7 @@ jobs:
           echo "Render deploy hook triggered"
 
   scrape-summary:
-    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo, prune-stale-data, sync-backend-and-render]
+    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo, generate-uk, prune-stale-data, sync-backend-and-render]
     if: always() && !cancelled()
     runs-on: ubuntu-latest
 

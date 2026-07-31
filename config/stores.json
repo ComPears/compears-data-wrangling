@@ -98,7 +98,68 @@
       "label": "United Kingdom",
       "locale": "en-GB",
       "currency": "GBP",
-      "stores": {}
+      "stores": {
+        "tesco": {
+          "display_name": "Tesco",
+          "dir": "countries/uk/tesco",
+          "catalog": "tesco_structured.json",
+          "minimum_products": 50,
+          "pipeline": ["main.py", "structure.py"],
+          "intermediate_globs": ["tesco.json"],
+          "playwright": true,
+          "optional": true
+        },
+        "sainsburys": {
+          "display_name": "Sainsbury's",
+          "dir": "countries/uk/sainsburys",
+          "catalog": "sainsburys_structured.json",
+          "minimum_products": 50,
+          "pipeline": ["main.py", "structure.py"],
+          "intermediate_globs": ["sainsburys.json"],
+          "playwright": true,
+          "optional": true
+        },
+        "asda": {
+          "display_name": "Asda",
+          "dir": "countries/uk/asda",
+          "catalog": "asda_structured.json",
+          "minimum_products": 50,
+          "pipeline": ["main.py", "structure.py"],
+          "intermediate_globs": ["asda.json"],
+          "playwright": true,
+          "optional": true
+        },
+        "morrisons": {
+          "display_name": "Morrisons",
+          "dir": "countries/uk/morrisons",
+          "catalog": "morrisons_structured.json",
+          "minimum_products": 50,
+          "pipeline": ["main.py", "structure.py"],
+          "intermediate_globs": ["morrisons.json"],
+          "playwright": true,
+          "optional": true
+        },
+        "aldi-uk": {
+          "display_name": "Aldi",
+          "dir": "countries/uk/aldi-uk",
+          "catalog": "aldi_uk_structured.json",
+          "minimum_products": 50,
+          "pipeline": ["main.py", "structure.py"],
+          "intermediate_globs": ["aldi_uk.json"],
+          "playwright": true,
+          "optional": true
+        },
+        "lidl-uk": {
+          "display_name": "Lidl",
+          "dir": "countries/uk/lidl-uk",
+          "catalog": "lidl_uk_structured.json",
+          "minimum_products": 50,
+          "pipeline": ["main.py", "structure.py"],
+          "intermediate_globs": ["lidl_uk.json"],
+          "playwright": true,
+          "optional": true
+        }
+      }
     }
   }
 }
