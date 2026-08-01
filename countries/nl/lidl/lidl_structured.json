@@ -2576,18 +2576,6 @@
     "wg": 1
   },
   {
-    "n": "Roba Verschoonblad Voor Kinderbed",
-    "p": "67.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp7284ff35f8ae40a99d6b991cb48816ea.jpg",
-    "c": "Personal Care",
-    "cn": "verschoonblad kinderbed roba",
-    "ik": "tok:verschoonblad|kinderbed-roba|1",
-    "bn": "verschoonblad",
-    "wg": 1
-  },
-  {
     "n": "Babygo Kinderstoel Levels",
     "p": "88.99",
     "o": "",
@@ -3034,30 +3022,6 @@
     "wg": 1
   },
   {
-    "n": "Lego 2 Opbergboxen (Geel/feloranje)",
-    "p": "15.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp4c4494d58b6b4bd5ae2611f207b3113b.jpeg",
-    "c": "Personal Care",
-    "cn": "lego feloranje geel opbergboxen",
-    "ik": "tok:lego|feloranje-geel-opbergboxen|1",
-    "bn": "lego",
-    "wg": 1
-  },
-  {
-    "n": "Safety 1ST Traphekje Quick Close+",
-    "p": "23.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp90c1838e517b453bb3b5e353c4e609ea.jpeg",
-    "c": "Personal Care",
-    "cn": "safety close quick traphekje",
-    "ik": "tok:safety|close-quick-traphekje|1",
-    "bn": "safety",
-    "wg": 1
-  },
-  {
     "n": "Baby Joggingpak Disney",
     "p": "11.99",
     "o": "",
@@ -3358,6 +3322,18 @@
     "wg": 1
   },
   {
+    "n": "Safety 1ST Traphekje Quick Close+",
+    "p": "23.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp90c1838e517b453bb3b5e353c4e609ea.jpeg",
+    "c": "Personal Care",
+    "cn": "safety close quick traphekje",
+    "ik": "tok:safety|close-quick-traphekje|1",
+    "bn": "safety",
+    "wg": 1
+  },
+  {
     "n": "Osann Buggy Happy Dino JYB199",
     "p": "59.99",
     "o": "",
@@ -3550,18 +3526,6 @@
     "wg": 1
   },
   {
-    "n": "Baby Born Beren Onesie",
-    "p": "8.09",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpedb6cd5afe2c4cfc9fb7066d8823e648.jpg",
-    "c": "Personal Care",
-    "cn": "baby beren born onesie",
-    "ik": "tok:baby|beren-born-onesie|1",
-    "bn": "baby",
-    "wg": 1
-  },
-  {
     "n": "Graco Kinderwagenset »Near2Me™ Dlx 3in1« 439",
     "p": "",
     "o": "",
@@ -3607,6 +3571,18 @@
     "cn": "gebreid 74 80 baby lupilu rood vestje",
     "ik": "tok:gebreid|74-80-baby-lupilu-rood-vestje|1",
     "bn": "gebreid",
+    "wg": 1
+  },
+  {
+    "n": "Baby Born Beren Onesie",
+    "p": "8.09",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpedb6cd5afe2c4cfc9fb7066d8823e648.jpg",
+    "c": "Personal Care",
+    "cn": "baby beren born onesie",
+    "ik": "tok:baby|beren-born-onesie|1",
+    "bn": "baby",
     "wg": 1
   },
   {
@@ -4448,18 +4424,6 @@
     "wg": 1
   },
   {
-    "n": "Roba Slaapzak",
-    "p": "25.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/0aea5ec342f8856ed8534347cba779f4.jpeg",
-    "c": "Personal Care",
-    "cn": "slaapzak roba",
-    "ik": "tok:slaapzak|roba|1",
-    "bn": "slaapzak",
-    "wg": 1
-  },
-  {
     "n": "LUPILU® Baby Tuinbroek",
     "p": "9.99",
     "o": "",
@@ -5008,18 +4972,6 @@
     "wg": 1
   },
   {
-    "n": "Bebeconfort Mini Pandatoilet",
-    "p": "40.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpac0726ae634a46d2a5950561ebf5519b.jpeg",
-    "c": "Personal Care",
-    "cn": "mini bebeconfort pandatoilet",
-    "ik": "tok:mini|bebeconfort-pandatoilet|1",
-    "bn": "mini",
-    "wg": 1
-  },
-  {
     "n": "Roba Hangbedje Safe Asleep",
     "p": "96.99",
     "o": "",
@@ -5075,54 +5027,6 @@
     "cn": "babywiegje 179 adam roba uil",
     "ik": "tok:babywiegje|179-adam-roba-uil|1",
     "bn": "babywiegje",
-    "wg": 1
-  },
-  {
-    "n": "Baby Joggingpak 2delig",
-    "p": "12.99",
-    "o": "Baby joggingpak 2-delig voor 12.99 EUR 4.8 van 5 sterren (9 totale beoordelingen) Baby joggingpak 2-delig",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp783b129cbaa04fb99bf3f4d9e06027d8.jpg",
-    "c": "Personal Care",
-    "cn": "baby 2delig joggingpak",
-    "ik": "tok:baby|2delig-joggingpak|1",
-    "bn": "baby",
-    "wg": 1
-  },
-  {
-    "n": "Set 2 Baby Tshirts",
-    "p": "4.99",
-    "o": "Set van 2 baby T-shirts voor 4.99 EUR Set van 2 baby T-shirts",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp62105530f9bb463ea5f812b1564bb214.jpg",
-    "c": "Personal Care",
-    "cn": "set baby tshirts",
-    "ik": "tok:set|baby-tshirts|1",
-    "bn": "set",
-    "wg": 1
-  },
-  {
-    "n": "Traphekje Quick Close+",
-    "p": "23.99",
-    "o": "4.3 van 5 sterren (162 totale beoordelingen)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp90c1838e517b453bb3b5e353c4e609ea.jpeg",
-    "c": "Personal Care",
-    "cn": "traphekje close quick",
-    "ik": "tok:traphekje|close-quick|1",
-    "bn": "traphekje",
-    "wg": 1
-  },
-  {
-    "n": "Kinderstoel Toto",
-    "p": "49.99",
-    "o": "Kinderstoel Toto voor 49.99 EUR 4.8 van 5 sterren (78 totale beoordelingen) Kinderstoel Toto",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp71de6ca0fc9d4e7eb0c8a2183b54efc3.jpeg",
-    "c": "Personal Care",
-    "cn": "kinderstoel toto",
-    "ik": "tok:kinderstoel|toto|1",
-    "bn": "kinderstoel",
     "wg": 1
   },
   {
@@ -5267,26 +5171,15 @@
     "wg": 1
   },
   {
-    "n": "LUPILU® Dansmat Paw Patrol, 130 X 48 Cm",
-    "p": "19.99",
-    "o": "",
-    "s": "130 X 48 CM 19.99",
-    "l": "https://www.lidl.nl/assets/gcp3fbfbf097b60472fbc4b0440fcb5a259.jpg",
-    "c": "Personal Care",
-    "cn": "lupilu 130 48 cm dansmat patrol paw",
-    "ik": "tok:lupilu|130-48-cm-dansmat-patrol-paw|na",
-    "bn": "lupilu"
-  },
-  {
-    "n": "LUPILU® Kinder Rugzak Paw Patrol",
-    "p": "9.99",
+    "n": "Roba Slaapzak",
+    "p": "25.99",
     "o": "",
     "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpe135ee60188f4fbd9756d6ac6190708b.jpg",
+    "l": "https://www.lidl.nl/assets/0aea5ec342f8856ed8534347cba779f4.jpeg",
     "c": "Personal Care",
-    "cn": "lupilu kinder patrol paw rugzak",
-    "ik": "tok:lupilu|kinder-patrol-paw-rugzak|1",
-    "bn": "lupilu",
+    "cn": "slaapzak roba",
+    "ik": "tok:slaapzak|roba|1",
+    "bn": "slaapzak",
     "wg": 1
   },
   {
@@ -5409,6 +5302,18 @@
     "wg": 1
   },
   {
+    "n": "Bebeconfort Mini Pandatoilet",
+    "p": "40.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpac0726ae634a46d2a5950561ebf5519b.jpeg",
+    "c": "Personal Care",
+    "cn": "mini bebeconfort pandatoilet",
+    "ik": "tok:mini|bebeconfort-pandatoilet|1",
+    "bn": "mini",
+    "wg": 1
+  },
+  {
     "n": "Roba Meetlat Paw Patrol",
     "p": "21.99",
     "o": "",
@@ -5430,6 +5335,18 @@
     "cn": "baby roba slaapset",
     "ik": "tok:baby|roba-slaapset|1",
     "bn": "baby",
+    "wg": 1
+  },
+  {
+    "n": "Roba Verschoonblad Voor Kinderbed",
+    "p": "67.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp7284ff35f8ae40a99d6b991cb48816ea.jpg",
+    "c": "Personal Care",
+    "cn": "verschoonblad kinderbed roba",
+    "ik": "tok:verschoonblad|kinderbed-roba|1",
+    "bn": "verschoonblad",
     "wg": 1
   },
   {
@@ -6663,18 +6580,6 @@
     "cn": "schtte 229 aquastar filtersysteem keukenkraan pro sch tte",
     "ik": "tok:schtte|229-aquastar-filtersysteem-keukenkraan-pro-sch-tte|1",
     "bn": "schtte",
-    "wg": 1
-  },
-  {
-    "n": "LIVARNO® Xxl Regendoucheset",
-    "p": "44.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpad709c9cca7041ad8aed0003289f62e2.jpg",
-    "c": "Other",
-    "cn": "livarno regendoucheset xxl",
-    "ik": "tok:livarno|regendoucheset-xxl|1",
-    "bn": "livarno",
     "wg": 1
   },
   {
@@ -8246,49 +8151,15 @@
     "wg": 1
   },
   {
-    "n": "Handdoek 70 X 140 Cm - 450 Gsm",
-    "p": "7.99",
-    "o": "Handdoek 70 x 140 cm - 450 gsm voor 7.99 EUR Handdoek 70 x 140 cm - 450 gsm",
-    "s": "70 X 140 CM - 450 GSM VOOR 7.99 EUR LIVARNO® HANDDOEK 70 X 140 CM - 450 GSM 7.99",
-    "l": "https://www.lidl.nl/assets/gcp8bc04132a83a404bae2663b76a492f5e.jpg",
-    "c": "Other",
-    "cn": "handdoek 140 450 70 cm gsm",
-    "ik": "tok:handdoek|140-450-70-cm-gsm|na",
-    "bn": "handdoek"
-  },
-  {
-    "n": "Set 2 Handdoeken 50 X 100 Cm - 450 Gsm",
-    "p": "7.99",
-    "o": "Set van 2 handdoeken 50 x 100 cm - 450 gsm voor 7.99 EUR Set van 2 handdoeken 50 x 100 cm - 450 gsm",
-    "s": "50 X 100 CM - 450 GSM VOOR 7.99 EUR LIVARNO® SET VAN 2 HANDDOEKEN 50 X 100 CM - 450 GSM 7.99",
-    "l": "https://www.lidl.nl/assets/gcp07e51f11a03549e7800200e381b3594e.jpg",
-    "c": "Other",
-    "cn": "set 100 450 50 cm gsm handdoeken",
-    "ik": "tok:set|100-450-50-cm-gsm-handdoeken|na",
-    "bn": "set"
-  },
-  {
-    "n": "Xxl Regendoucheset",
+    "n": "LIVARNO® Xxl Regendoucheset",
     "p": "44.99",
-    "o": "4.1 van 5 sterren (68 totale beoordelingen)",
+    "o": "",
     "s": "1 stuk",
     "l": "https://www.lidl.nl/assets/gcpad709c9cca7041ad8aed0003289f62e2.jpg",
     "c": "Other",
-    "cn": "xxl regendoucheset",
-    "ik": "tok:xxl|regendoucheset|1",
-    "bn": "xxl",
-    "wg": 1
-  },
-  {
-    "n": "Bad- Of douchemat, Antislip",
-    "p": "6.99",
-    "o": "Bad- of douchemat, antislip voor 6.99 EUR 4.8 van 5 sterren (176 totale beoordelingen) Bad- of douchemat, antislip",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp08ebf8f660e84b7cac4f1965313c9175.jpeg",
-    "c": "Other",
-    "cn": "bad antislip douchemat of",
-    "ik": "tok:bad|antislip-douchemat-of|1",
-    "bn": "bad",
+    "cn": "livarno regendoucheset xxl",
+    "ik": "tok:livarno|regendoucheset-xxl|1",
+    "bn": "livarno",
     "wg": 1
   },
   {
@@ -8505,102 +8376,6 @@
     "wg": 1
   },
   {
-    "n": "Houtskool Bbq Comfort - Met Thermometer & Zijtafel Voor 119 Eur 4.6/5 (148) 4.6 5 Sterren (148 Totale beoordelingen) Grillmeister 119.-",
-    "p": "",
-    "o": "Houtskool BBQ Comfort - met thermometer & zijtafel voor 119 EUR 4.6 van 5 sterren (148 totale beoordelingen) Houtskool BBQ Comfort - met thermometer & zijtafel 119.-",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpccbecac24fd84cf78318361752a5ef10.jpg",
-    "c": "Other",
-    "cn": "houtskool 119 148 bbq beoordelingen comfort grillmeister sterren thermometer totale zijtafel",
-    "ik": "tok:houtskool|119-148-bbq-beoordelingen-comfort-grillmeister-sterren-thermometer-totale-zijtafel|1",
-    "bn": "houtskool",
-    "wg": 1
-  },
-  {
-    "n": "Houtskool Barbecue Ø 35 Cm - Compacte Ronde Bbq",
-    "p": "8.99",
-    "o": "Houtskool barbecue Ø 35 cm - compacte ronde BBQ voor 8.99 EUR 4.6 van 5 sterren (22 totale beoordelingen) Houtskool barbecue Ø 35 cm - compacte ronde BBQ",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp10dc46934e514579b7fdee73f4d4e14e.jpg",
-    "c": "Other",
-    "cn": "houtskool 35 barbecue bbq cm compacte ronde",
-    "ik": "tok:houtskool|35-barbecue-bbq-cm-compacte-ronde|1",
-    "bn": "houtskool",
-    "wg": 1
-  },
-  {
-    "n": "3in1 Rookoven",
-    "p": "34.99",
-    "o": "3-in-1 rookoven voor 34.99 EUR 4.6 van 5 sterren (100 totale beoordelingen) 3-in-1 rookoven -30%",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp829bbf06f8f64d6ab0200185c49689fa.jpg",
-    "c": "Other",
-    "cn": "rookoven 3in1",
-    "ik": "tok:rookoven|3in1|1",
-    "bn": "rookoven",
-    "wg": 1
-  },
-  {
-    "n": "Draadloze Bbqthermometer Met 2 Sensoren",
-    "p": "19.99",
-    "o": "Draadloze BBQ-thermometer met 2 sensoren voor 19.99 EUR 4.2 van 5 sterren (10 totale beoordelingen) Draadloze BBQ-thermometer met 2 sensoren",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpab648f039cb54a73804472c450ebbf5c.jpg",
-    "c": "Other",
-    "cn": "draadloze bbqthermometer sensoren",
-    "ik": "tok:draadloze|bbqthermometer-sensoren|1",
-    "bn": "draadloze",
-    "wg": 1
-  },
-  {
-    "n": "Houtskool Bbq",
-    "p": "29.99",
-    "o": "4.1 van 5 sterren (23 totale beoordelingen) -14%",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp349ab415312546f3970d41b9e60de8f6.jpg",
-    "c": "Other",
-    "cn": "houtskool bbq",
-    "ik": "tok:houtskool|bbq|1",
-    "bn": "houtskool",
-    "wg": 1
-  },
-  {
-    "n": "Gas Bbq 4 Branders En 1 Keramische Brander Voor 249 Eur 5/5 (1) 5 Sterren (1 Totale beoordelingen) Grillmeister 269.-",
-    "p": "",
-    "o": "5 van 5 sterren (1 totale beoordelingen) 269.- 249.-",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp47782661f972412eb6f403788ff7fbc4.jpg",
-    "c": "Other",
-    "cn": "gas 249 269 bbq beoordelingen brander branders grillmeister keramische sterren totale",
-    "ik": "tok:gas|249-269-bbq-beoordelingen-brander-branders-grillmeister-keramische-sterren-totale|1",
-    "bn": "gas",
-    "wg": 1
-  },
-  {
-    "n": "Set 3 Bbqmatten (Rond)",
-    "p": "9.99",
-    "o": "Set van 3 BBQ-matten (Rond) voor 9.99 EUR Tip van Lidl 4.7 van 5 sterren (26 totale beoordelingen) Set van 3 BBQ-matten (Rond)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpf8ae405171aa46c089a0dfd1165fa90a.jpg",
-    "c": "Other",
-    "cn": "set bbqmatten rond",
-    "ik": "tok:set|bbqmatten-rond|1",
-    "bn": "set",
-    "wg": 1
-  },
-  {
-    "n": "Gietijzeren Bbqgrillpan Of -hamburgerpers (Grillplaat)",
-    "p": "11.99",
-    "o": "Gietijzeren BBQ-grillpan of -hamburgerpers (Grillplaat) voor 11.99 EUR Tip van Lidl 4.4 van 5 sterren (17 totale beoordelingen) Gietijzeren BBQ-grillpan of -hamburgerpers (Grillplaat)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp4bb7f3079d184ce8a0943e116f03841f.jpg",
-    "c": "Other",
-    "cn": "gietijzeren bbqgrillpan grillplaat hamburgerpers of",
-    "ik": "tok:gietijzeren|bbqgrillpan-grillplaat-hamburgerpers-of|1",
-    "bn": "gietijzeren",
-    "wg": 1
-  },
-  {
     "n": "Grillmeister Pizza Accessoires",
     "p": "11.99",
     "o": "",
@@ -8685,14 +8460,14 @@
     "wg": 1
   },
   {
-    "n": "Grillmeister Hamburgerset Of Pulled Pork Set",
+    "n": "Grillmeister Hamburgerset Of Pulled Pork Set (starterspakket pork)",
     "p": "9.99",
     "o": "",
     "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpe22964c88a254f479e2287881022697f.jpg",
+    "l": "https://www.lidl.nl/assets/gcp2c4c0e7bd2204951acff73b34cb29ad5.jpg",
     "c": "Other",
-    "cn": "grillmeister hamburgerset of pork pulled set",
-    "ik": "tok:grillmeister|hamburgerset-of-pork-pulled-set|1",
+    "cn": "grillmeister hamburgerset of pork pulled set starterspakket",
+    "ik": "tok:grillmeister|hamburgerset-of-pork-pulled-set-starterspakket|1",
     "bn": "grillmeister",
     "wg": 1
   },
@@ -9510,18 +9285,6 @@
     "wg": 1
   },
   {
-    "n": "ZOOFARI® Hondenmand Of Kattengrot (Bed)",
-    "p": "12.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp036fe3cd296d467b8db2cb18e7fd7d55.jpg",
-    "c": "Other",
-    "cn": "zoofari bed hondenmand kattengrot of",
-    "ik": "tok:zoofari|bed-hondenmand-kattengrot-of|1",
-    "bn": "zoofari",
-    "wg": 1
-  },
-  {
     "n": "zoofari® Voerbak",
     "p": "6.99",
     "o": "",
@@ -9606,14 +9369,14 @@
     "wg": 1
   },
   {
-    "n": "zoofari® Hondenmand Voor Buiten",
+    "n": "zoofari® Hondenmand Voor Buiten (Ligkussen/afgerond)",
     "p": "29.99",
     "o": "",
     "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpd64c66f73f7047aa9af28d49548883cb.jpg",
+    "l": "https://www.lidl.nl/assets/gcp10ac08b4c2f14531a1f2b4899a95a59c.jpg",
     "c": "Other",
-    "cn": "hondenmand buiten zoofari",
-    "ik": "tok:hondenmand|buiten-zoofari|1",
+    "cn": "hondenmand afgerond buiten ligkussen zoofari",
+    "ik": "tok:hondenmand|afgerond-buiten-ligkussen-zoofari|1",
     "bn": "hondenmand",
     "wg": 1
   },
@@ -10943,18 +10706,6 @@
     "wg": 1
   },
   {
-    "n": "LIVARNO® 9 Kunststof Terrastegels",
-    "p": "12.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpe07cbb21630044959275b00d0db0b71f.jpg",
-    "c": "Other",
-    "cn": "livarno kunststof terrastegels",
-    "ik": "tok:livarno|kunststof-terrastegels|1",
-    "bn": "livarno",
-    "wg": 1
-  },
-  {
     "n": "Baufix Straatsteenverf 2,5",
     "p": "23.99",
     "o": "",
@@ -10989,6 +10740,18 @@
     "ik": "tok:baufix|express-lak|5000",
     "bn": "baufix",
     "wg": 5000
+  },
+  {
+    "n": "LIVARNO® 9 Kunststof Terrastegels",
+    "p": "12.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpe07cbb21630044959275b00d0db0b71f.jpg",
+    "c": "Other",
+    "cn": "livarno kunststof terrastegels",
+    "ik": "tok:livarno|kunststof-terrastegels|1",
+    "bn": "livarno",
+    "wg": 1
   },
   {
     "n": "Baufix Vloeibare Vloerverf 5",
@@ -11183,18 +10946,6 @@
     "wg": 1
   },
   {
-    "n": "PARKSIDE® Ladder",
-    "p": "81.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp9ac65eaff6e348cf9acf79f53d5de5cc.jpg",
-    "c": "Other",
-    "cn": "parkside ladder",
-    "ik": "tok:parkside|ladder|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
     "n": "PARKSIDE® Kwasten",
     "p": "2.99",
     "o": "",
@@ -11203,6 +10954,18 @@
     "c": "Other",
     "cn": "parkside kwasten",
     "ik": "tok:parkside|kwasten|1",
+    "bn": "parkside",
+    "wg": 1
+  },
+  {
+    "n": "PARKSIDE® Ladder",
+    "p": "81.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp9ac65eaff6e348cf9acf79f53d5de5cc.jpg",
+    "c": "Other",
+    "cn": "parkside ladder",
+    "ik": "tok:parkside|ladder|1",
     "bn": "parkside",
     "wg": 1
   },
@@ -11902,54 +11665,6 @@
     "wg": 1
   },
   {
-    "n": "ESMARA® Dames Clogs",
-    "p": "11.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpa3dc0fda3b7c43f294d385513036981b.jpg",
-    "c": "Other",
-    "cn": "esmara clogs dames",
-    "ik": "tok:esmara|clogs-dames|1",
-    "bn": "esmara",
-    "wg": 1
-  },
-  {
-    "n": "ESMARA® Corrigerende Dames body, Seamless",
-    "p": "6.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp0a1e11dcbcdb4be2934a275b894f24b8.jpg",
-    "c": "Other",
-    "cn": "esmara body corrigerende dames seamless",
-    "ik": "tok:esmara|body-corrigerende-dames-seamless|1",
-    "bn": "esmara",
-    "wg": 1
-  },
-  {
-    "n": "ESMARA® Corrigerende Dames onderbroek, Seamless",
-    "p": "4.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp10722b35a295422fbe302ed5bd76331f.jpg",
-    "c": "Other",
-    "cn": "esmara corrigerende dames onderbroek seamless",
-    "ik": "tok:esmara|corrigerende-dames-onderbroek-seamless|1",
-    "bn": "esmara",
-    "wg": 1
-  },
-  {
-    "n": "ESMARA® Leren Dames Slippers",
-    "p": "9.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp6abbb433477d49509b63ac44f24da332.jpg",
-    "c": "Other",
-    "cn": "esmara dames leren slippers",
-    "ik": "tok:esmara|dames-leren-slippers|1",
-    "bn": "esmara",
-    "wg": 1
-  },
-  {
     "n": "esmara® Dames Regenjas",
     "p": "19.99",
     "o": "",
@@ -12187,6 +11902,18 @@
     "cn": "pluche dames esmara trui",
     "ik": "tok:pluche|dames-esmara-trui|1",
     "bn": "pluche",
+    "wg": 1
+  },
+  {
+    "n": "ESMARA® Leren Dames Slippers",
+    "p": "11.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp77c7f949a8ea4c15b881ec0f274b6de6.jpg",
+    "c": "Other",
+    "cn": "esmara dames leren slippers",
+    "ik": "tok:esmara|dames-leren-slippers|1",
+    "bn": "esmara",
     "wg": 1
   },
   {
@@ -12583,18 +12310,6 @@
     "cn": "dames esmara legging",
     "ik": "tok:dames|esmara-legging|1",
     "bn": "dames",
-    "wg": 1
-  },
-  {
-    "n": "10 Paar Sneakersokken",
-    "p": "7.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp43fbb5c0a1a04e00bbb1b00a82db1f91.jpg",
-    "c": "Other",
-    "cn": "paar 10 sneakersokken",
-    "ik": "tok:paar|10-sneakersokken|1",
-    "bn": "paar",
     "wg": 1
   },
   {
@@ -13126,14 +12841,14 @@
     "wg": 1
   },
   {
-    "n": "Crivit Dames Badslippers (Groen, 38/39)",
+    "n": "Crivit Dames Badslippers",
     "p": "2.99",
     "o": "",
     "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpa1ac29ed659242f1981d1a3c40856395.jpg",
+    "l": "https://www.lidl.nl/assets/gcpe308f9c483194dcb924020512a4c9d67.jpg",
     "c": "Other",
-    "cn": "crivit 38 39 badslippers dames groen",
-    "ik": "tok:crivit|38-39-badslippers-dames-groen|1",
+    "cn": "crivit badslippers dames",
+    "ik": "tok:crivit|badslippers-dames|1",
     "bn": "crivit",
     "wg": 1
   },
@@ -13150,18 +12865,6 @@
     "wg": 1
   },
   {
-    "n": "ESMARA® Mousseline Zwangerschapsbroek",
-    "p": "6.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpb7eb606fad3e4c92b0a807621f4b3b9c.jpg",
-    "c": "Other",
-    "cn": "esmara mousseline zwangerschapsbroek",
-    "ik": "tok:esmara|mousseline-zwangerschapsbroek|1",
-    "bn": "esmara",
-    "wg": 1
-  },
-  {
     "n": "esmara® Dames Shortama",
     "p": "7.99",
     "o": "",
@@ -13171,6 +12874,18 @@
     "cn": "dames esmara shortama",
     "ik": "tok:dames|esmara-shortama|1",
     "bn": "dames",
+    "wg": 1
+  },
+  {
+    "n": "ESMARA® Mousseline Zwangerschapsbroek",
+    "p": "6.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpb7eb606fad3e4c92b0a807621f4b3b9c.jpg",
+    "c": "Other",
+    "cn": "esmara mousseline zwangerschapsbroek",
+    "ik": "tok:esmara|mousseline-zwangerschapsbroek|1",
+    "bn": "esmara",
     "wg": 1
   },
   {
@@ -13558,6 +13273,18 @@
     "wg": 1
   },
   {
+    "n": "esmara® Dames Corrigerende Panty (Zwart, S (36/38))",
+    "p": "5.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpa8a3649d707847768c6e67bb23862434.jpg",
+    "c": "Other",
+    "cn": "dames 36 38 corrigerende esmara panty zwart",
+    "ik": "tok:dames|36-38-corrigerende-esmara-panty-zwart|1",
+    "bn": "dames",
+    "wg": 1
+  },
+  {
     "n": "Lidl Bandana",
     "p": "7.99",
     "o": "",
@@ -13603,6 +13330,42 @@
     "cn": "under armour dames sportschoenen",
     "ik": "tok:under|armour-dames-sportschoenen|1",
     "bn": "under",
+    "wg": 1
+  },
+  {
+    "n": "ESMARA® Dames Clogs",
+    "p": "11.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpa3dc0fda3b7c43f294d385513036981b.jpg",
+    "c": "Other",
+    "cn": "esmara clogs dames",
+    "ik": "tok:esmara|clogs-dames|1",
+    "bn": "esmara",
+    "wg": 1
+  },
+  {
+    "n": "ESMARA® Corrigerende Dames body, Seamless",
+    "p": "6.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp0a1e11dcbcdb4be2934a275b894f24b8.jpg",
+    "c": "Other",
+    "cn": "esmara body corrigerende dames seamless",
+    "ik": "tok:esmara|body-corrigerende-dames-seamless|1",
+    "bn": "esmara",
+    "wg": 1
+  },
+  {
+    "n": "ESMARA® Corrigerende Dames onderbroek, Seamless",
+    "p": "4.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp10722b35a295422fbe302ed5bd76331f.jpg",
+    "c": "Other",
+    "cn": "esmara corrigerende dames onderbroek seamless",
+    "ik": "tok:esmara|corrigerende-dames-onderbroek-seamless|1",
+    "bn": "esmara",
     "wg": 1
   },
   {
@@ -15610,18 +15373,6 @@
     "wg": 1
   },
   {
-    "n": "esmara® Mousseline Dames Pyjama (Beige, Xs (32/34))",
-    "p": "14.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp5b41f0926f4d4370bab700fb9bd8f3fc.jpg",
-    "c": "Other",
-    "cn": "mousseline 32 34 beige dames esmara pyjama xs",
-    "ik": "tok:mousseline|32-34-beige-dames-esmara-pyjama-xs|1",
-    "bn": "mousseline",
-    "wg": 1
-  },
-  {
     "n": "Crivit Muts, Handschoenen Of Nekwarmer",
     "p": "5.99",
     "o": "",
@@ -17512,18 +17263,6 @@
     "wg": 1
   },
   {
-    "n": "PARKSIDE® Boorhamer 1050 W",
-    "p": "59.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp01d4bd2fc7d148aebebd3b58f021eeea.jpg",
-    "c": "Other",
-    "cn": "parkside 1050 boorhamer",
-    "ik": "tok:parkside|1050-boorhamer|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
     "n": "PARKSIDE® Inverter Lasapparaat",
     "p": "69.99",
     "o": "",
@@ -17532,6 +17271,18 @@
     "c": "Other",
     "cn": "parkside inverter lasapparaat",
     "ik": "tok:parkside|inverter-lasapparaat|1",
+    "bn": "parkside",
+    "wg": 1
+  },
+  {
+    "n": "PARKSIDE® Boorhamer 1050 W",
+    "p": "59.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp01d4bd2fc7d148aebebd3b58f021eeea.jpg",
+    "c": "Other",
+    "cn": "parkside 1050 boorhamer",
+    "ik": "tok:parkside|1050-boorhamer|1",
     "bn": "parkside",
     "wg": 1
   },
@@ -17820,42 +17571,6 @@
     "c": "Other",
     "cn": "parkside infrarood thermometer",
     "ik": "tok:parkside|infrarood-thermometer|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
-    "n": "PARKSIDE® Multifunctionele Schuurmachine 160 W",
-    "p": "17.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpd049740992934a459295c56d3fc217f4.jpg",
-    "c": "Other",
-    "cn": "parkside 160 multifunctionele schuurmachine",
-    "ik": "tok:parkside|160-multifunctionele-schuurmachine|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
-    "n": "PARKSIDE® Kruislijnlaser Met Statief",
-    "p": "24.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp0ad0d5b4f44a4b44a6daa1e236fd48e0.jpg",
-    "c": "Other",
-    "cn": "parkside kruislijnlaser statief",
-    "ik": "tok:parkside|kruislijnlaser-statief|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
-    "n": "PARKSIDE® Digitaal Soldeerstation",
-    "p": "15.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp9ca2f54c89b44b9fb3aa48d1eecf6a70.jpg",
-    "c": "Other",
-    "cn": "parkside digitaal soldeerstation",
-    "ik": "tok:parkside|digitaal-soldeerstation|1",
     "bn": "parkside",
     "wg": 1
   },
@@ -19244,54 +18959,6 @@
     "wg": 1
   },
   {
-    "n": "Inverter Lasapparaat - incl. Laskabels & Accessoires",
-    "p": "99.99",
-    "o": "Inverter lasapparaat - incl. laskabels & accessoires voor 99.99 EUR 4.7 van 5 sterren (366 totale beoordelingen) Inverter lasapparaat - incl. laskabels & accessoires",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp9206364b53c54867a3500b0d892e0b9d.jpg",
-    "c": "Other",
-    "cn": "inverter accessoires incl lasapparaat laskabels",
-    "ik": "tok:inverter|accessoires-incl-lasapparaat-laskabels|1",
-    "bn": "inverter",
-    "wg": 1
-  },
-  {
-    "n": "Multifunctionele Schuurmachine 160 W",
-    "p": "17.99",
-    "o": "4.5 van 5 sterren (55 totale beoordelingen)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpd049740992934a459295c56d3fc217f4.jpg",
-    "c": "Other",
-    "cn": "multifunctionele 160 schuurmachine",
-    "ik": "tok:multifunctionele|160-schuurmachine|1",
-    "bn": "multifunctionele",
-    "wg": 1
-  },
-  {
-    "n": "Kruislijnlaser Met Statief",
-    "p": "24.99",
-    "o": "4 van 5 sterren (25 totale beoordelingen)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp0ad0d5b4f44a4b44a6daa1e236fd48e0.jpg",
-    "c": "Other",
-    "cn": "kruislijnlaser statief",
-    "ik": "tok:kruislijnlaser|statief|1",
-    "bn": "kruislijnlaser",
-    "wg": 1
-  },
-  {
-    "n": "Digitaal Soldeerstation",
-    "p": "15.99",
-    "o": "4.8 van 5 sterren (44 totale beoordelingen)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp9ca2f54c89b44b9fb3aa48d1eecf6a70.jpg",
-    "c": "Other",
-    "cn": "digitaal soldeerstation",
-    "ik": "tok:digitaal|soldeerstation|1",
-    "bn": "digitaal",
-    "wg": 1
-  },
-  {
     "n": "LIVARNO® Kabelorganizer",
     "p": "2.99",
     "o": "",
@@ -19316,18 +18983,6 @@
     "wg": 1
   },
   {
-    "n": "LIVARNO® Radiogestuurd Weerstation Met Ventilatieadvies",
-    "p": "14.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp09d65dcccaef4458a24facacf5d958b6.jpg",
-    "c": "Other",
-    "cn": "livarno radiogestuurd ventilatieadvies weerstation",
-    "ik": "tok:livarno|radiogestuurd-ventilatieadvies-weerstation|1",
-    "bn": "livarno",
-    "wg": 1
-  },
-  {
     "n": "Livarno Home Draadloos Weerstation",
     "p": "19.99",
     "o": "",
@@ -19336,6 +18991,18 @@
     "c": "Other",
     "cn": "livarno draadloos home weerstation",
     "ik": "tok:livarno|draadloos-home-weerstation|1",
+    "bn": "livarno",
+    "wg": 1
+  },
+  {
+    "n": "LIVARNO® Radiogestuurd Weerstation Met Ventilatieadvies",
+    "p": "14.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp09d65dcccaef4458a24facacf5d958b6.jpg",
+    "c": "Other",
+    "cn": "livarno radiogestuurd ventilatieadvies weerstation",
+    "ik": "tok:livarno|radiogestuurd-ventilatieadvies-weerstation|1",
     "bn": "livarno",
     "wg": 1
   },
@@ -19899,40 +19566,6 @@
     "cn": "tronic stekkerdozen",
     "ik": "tok:tronic|stekkerdozen|1",
     "bn": "tronic",
-    "wg": 1
-  },
-  {
-    "n": "499",
-    "p": "",
-    "o": "VALE GMBH Balkon zonnepanelen 800 W met omvormer - flexibele zonnepanelen",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp6b26027558154a2fa0f9ea78f82e5b7c.jpg",
-    "c": "Other",
-    "cn": "499",
-    "ik": "tok:unknown|499|1",
-    "wg": 1
-  },
-  {
-    "n": "369",
-    "p": "",
-    "o": "SHARP 55 inch 4K UHD QLED smart TV - 55HM5245E",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpf633f89f0601419f857f4f98de9cecc9.jpg",
-    "c": "Other",
-    "cn": "369",
-    "ik": "tok:unknown|369|1",
-    "wg": 1
-  },
-  {
-    "n": "Abus Sleutelkastje",
-    "p": "14.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/dc118bf34049d1aee7f50bc42bd2661c.jpeg",
-    "c": "Other",
-    "cn": "abus sleutelkastje",
-    "ik": "tok:abus|sleutelkastje|1",
-    "bn": "abus",
     "wg": 1
   },
   {
@@ -21199,6 +20832,18 @@
     "wg": 1
   },
   {
+    "n": "Zündapp Vouwfiets ZF20 Speed Folder 20\" 329",
+    "p": "",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp20cdd26e63d9468b9b4294e88b871808.jpg",
+    "c": "Other",
+    "cn": "zndapp 20 329 folder ndapp speed vouwfiets zf20",
+    "ik": "tok:zndapp|20-329-folder-ndapp-speed-vouwfiets-zf20|1",
+    "bn": "zndapp",
+    "wg": 1
+  },
+  {
     "n": "Fischer Fietstassen",
     "p": "35.99",
     "o": "",
@@ -21232,18 +20877,6 @@
     "cn": "prophete 1179 dice elektrische mountainbike",
     "ik": "tok:prophete|1179-dice-elektrische-mountainbike|1",
     "bn": "prophete",
-    "wg": 1
-  },
-  {
-    "n": "Zündapp Vouwfiets ZF20 Speed Folder 20\" 329",
-    "p": "",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp20cdd26e63d9468b9b4294e88b871808.jpg",
-    "c": "Other",
-    "cn": "zndapp 20 329 folder ndapp speed vouwfiets zf20",
-    "ik": "tok:zndapp|20-329-folder-ndapp-speed-vouwfiets-zf20|1",
-    "bn": "zndapp",
     "wg": 1
   },
   {
@@ -21363,42 +20996,6 @@
     "cn": "zndapp 1719 elektrische mountainbike ndapp x900",
     "ik": "tok:zndapp|1719-elektrische-mountainbike-ndapp-x900|1",
     "bn": "zndapp",
-    "wg": 1
-  },
-  {
-    "n": "Eufab Fietsendrager Amber Iii 255",
-    "p": "",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/b02af9afa9211daea0ca2a9e16755abe.jpeg",
-    "c": "Other",
-    "cn": "eufab 255 amber fietsendrager iii",
-    "ik": "tok:eufab|255-amber-fietsendrager-iii|1",
-    "bn": "eufab",
-    "wg": 1
-  },
-  {
-    "n": "Crivit Fietshelm Met Achterlicht",
-    "p": "11.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp14f04c277c4b434d8e03785a909b5291.jpg",
-    "c": "Other",
-    "cn": "crivit achterlicht fietshelm",
-    "ik": "tok:crivit|achterlicht-fietshelm|1",
-    "bn": "crivit",
-    "wg": 1
-  },
-  {
-    "n": "Crivit Regenponcho, Unisex",
-    "p": "12.49",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpc43af1cc00914300bc6f723415969fda.jpg",
-    "c": "Other",
-    "cn": "crivit regenponcho unisex",
-    "ik": "tok:crivit|regenponcho-unisex|1",
-    "bn": "crivit",
     "wg": 1
   },
   {
@@ -21748,30 +21345,6 @@
     "wg": 1
   },
   {
-    "n": "Crivit Hoelahoep Met Gewicht",
-    "p": "24.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpa0b2cb047aca4c2db2566730537aaadd.jpg",
-    "c": "Other",
-    "cn": "crivit gewicht hoelahoep",
-    "ik": "tok:crivit|gewicht-hoelahoep|1",
-    "bn": "crivit",
-    "wg": 1
-  },
-  {
-    "n": "Crivit Heren Sportbroekje Met Koeltechnologie",
-    "p": "5.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp4142b6ca85cf4f8db4d9d350f87dee30.jpg",
-    "c": "Other",
-    "cn": "crivit heren koeltechnologie sportbroekje",
-    "ik": "tok:crivit|heren-koeltechnologie-sportbroekje|1",
-    "bn": "crivit",
-    "wg": 1
-  },
-  {
     "n": "Under Armour Heren Sportschoenen",
     "p": "35.99",
     "o": "",
@@ -21856,14 +21429,14 @@
     "wg": 1
   },
   {
-    "n": "Crivit Heren Sporthemd (Zwart, S)",
+    "n": "Crivit Heren Sporthemd",
     "p": "5.99",
     "o": "",
     "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpb597e5bfd5e240a0b8d1acdfaac94876.jpg",
+    "l": "https://www.lidl.nl/assets/gcpf380b7c1e1954a1eb47aca2dec1013ba.jpg",
     "c": "Other",
-    "cn": "crivit heren sporthemd zwart",
-    "ik": "tok:crivit|heren-sporthemd-zwart|1",
+    "cn": "crivit heren sporthemd",
+    "ik": "tok:crivit|heren-sporthemd|1",
     "bn": "crivit",
     "wg": 1
   },
@@ -22156,14 +21729,14 @@
     "wg": 1
   },
   {
-    "n": "Crivit Kinder Gymmat",
+    "n": "Crivit Kinder Gymmat (Roze)",
     "p": "27.99",
     "o": "",
     "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpcb2ce748938940bdb338b9cab155dc2a.jpg",
+    "l": "https://www.lidl.nl/assets/gcpf505a7467c04493ebeccb7dcf8604923.jpg",
     "c": "Other",
-    "cn": "crivit gymmat kinder",
-    "ik": "tok:crivit|gymmat-kinder|1",
+    "cn": "crivit gymmat kinder roze",
+    "ik": "tok:crivit|gymmat-kinder-roze|1",
     "bn": "crivit",
     "wg": 1
   },
@@ -22827,18 +22400,6 @@
     "wg": 1
   },
   {
-    "n": "SENSIPLAST® Bovenarm Bloeddrukmeter",
-    "p": "19.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpb1363aaf1f7544e094ba69d29ff01723.jpg",
-    "c": "Other",
-    "cn": "sensiplast bloeddrukmeter bovenarm",
-    "ik": "tok:sensiplast|bloeddrukmeter-bovenarm|1",
-    "bn": "sensiplast",
-    "wg": 1
-  },
-  {
     "n": "SENSIPLAST® Pillendoosje, 7 Dagen (Grijs)",
     "p": "6.99",
     "o": "",
@@ -22847,6 +22408,18 @@
     "c": "Other",
     "cn": "sensiplast dagen grijs pillendoosje",
     "ik": "tok:sensiplast|dagen-grijs-pillendoosje|1",
+    "bn": "sensiplast",
+    "wg": 1
+  },
+  {
+    "n": "SENSIPLAST® Bovenarm Bloeddrukmeter",
+    "p": "19.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpb1363aaf1f7544e094ba69d29ff01723.jpg",
+    "c": "Other",
+    "cn": "sensiplast bloeddrukmeter bovenarm",
+    "ik": "tok:sensiplast|bloeddrukmeter-bovenarm|1",
     "bn": "sensiplast",
     "wg": 1
   },
@@ -23473,27 +23046,15 @@
     "bn": "livarno"
   },
   {
-    "n": "LIVARNO® Deurmat 40 X 60 Cm (Happy Place)",
-    "p": "2.49",
+    "n": "LIVARNO® Keukenloper 65 X 100 Cm",
+    "p": "11.99",
     "o": "",
-    "s": "40 X 60 CM (HAPPY PLACE) 2.49",
-    "l": "https://www.lidl.nl/assets/gcp778e67006b914ab98f7b5eac762a5781.jpg",
+    "s": "65 X 100 CM 11.99",
+    "l": "https://www.lidl.nl/assets/gcpd10f092c553142ff8ed3f9ba7b9a6eb0.jpg",
     "c": "Other",
-    "cn": "livarno 40 60 cm deurmat happy place",
-    "ik": "tok:livarno|40-60-cm-deurmat-happy-place|na",
+    "cn": "livarno 100 65 cm keukenloper",
+    "ik": "tok:livarno|100-65-cm-keukenloper|na",
     "bn": "livarno"
-  },
-  {
-    "n": "Schildmeyer Schoenenkast Bjarne 109",
-    "p": "",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpce7deff5831547809c8bf8889f803f4d.jpg",
-    "c": "Other",
-    "cn": "schildmeyer 109 bjarne schoenenkast",
-    "ik": "tok:schildmeyer|109-bjarne-schoenenkast|1",
-    "bn": "schildmeyer",
-    "wg": 1
   },
   {
     "n": "LIVARNO® Uitschuifbaar Schoenenrek",
@@ -23508,6 +23069,18 @@
     "wg": 1
   },
   {
+    "n": "Schildmeyer Schoenenkast Bjarne 109",
+    "p": "",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpce7deff5831547809c8bf8889f803f4d.jpg",
+    "c": "Other",
+    "cn": "schildmeyer 109 bjarne schoenenkast",
+    "ik": "tok:schildmeyer|109-bjarne-schoenenkast|1",
+    "bn": "schildmeyer",
+    "wg": 1
+  },
+  {
     "n": "Lizenz Deurmat Disney 55 X 37 Cm",
     "p": "14.99",
     "o": "",
@@ -23517,17 +23090,6 @@
     "cn": "lizenz 37 55 cm deurmat disney",
     "ik": "tok:lizenz|37-55-cm-deurmat-disney|na",
     "bn": "lizenz"
-  },
-  {
-    "n": "LIVARNO® Keukenloper 65 X 100 Cm",
-    "p": "11.99",
-    "o": "",
-    "s": "65 X 100 CM 11.99",
-    "l": "https://www.lidl.nl/assets/gcpd10f092c553142ff8ed3f9ba7b9a6eb0.jpg",
-    "c": "Other",
-    "cn": "livarno 100 65 cm keukenloper",
-    "ik": "tok:livarno|100-65-cm-keukenloper|na",
-    "bn": "livarno"
   },
   {
     "n": "LIVARNO® Kast Verona",
@@ -23672,18 +23234,6 @@
     "wg": 1
   },
   {
-    "n": "Roba Zijkast Voor Commode",
-    "p": "63.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp85ac098e5c7149d98224f7282fba516c.jpg",
-    "c": "Other",
-    "cn": "zijkast commode roba",
-    "ik": "tok:zijkast|commode-roba|1",
-    "bn": "zijkast",
-    "wg": 1
-  },
-  {
     "n": "Inter Link Kast Pepeto (antraciet)",
     "p": "82.99",
     "o": "",
@@ -23693,6 +23243,18 @@
     "cn": "inter antraciet kast link pepeto",
     "ik": "tok:inter|antraciet-kast-link-pepeto|1",
     "bn": "inter",
+    "wg": 1
+  },
+  {
+    "n": "Roba Zijkast Voor Commode",
+    "p": "63.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp85ac098e5c7149d98224f7282fba516c.jpg",
+    "c": "Other",
+    "cn": "zijkast commode roba",
+    "ik": "tok:zijkast|commode-roba|1",
+    "bn": "zijkast",
     "wg": 1
   },
   {
@@ -23840,6 +23402,18 @@
     "wg": 1
   },
   {
+    "n": "LIVARNO® Ladekast Met 3 Lades Genf",
+    "p": "79.99",
+    "o": "",
+    "s": "3 l",
+    "l": "https://www.lidl.nl/assets/gcpc81993286d2a410b83a974a43dc66371.jpg",
+    "c": "Other",
+    "cn": "livarno genf ladekast lades",
+    "ik": "tok:livarno|genf-ladekast-lades|3000",
+    "bn": "livarno",
+    "wg": 3000
+  },
+  {
     "n": "Schildmeyer Kast Solea 114",
     "p": "",
     "o": "",
@@ -23874,18 +23448,6 @@
     "ik": "tok:schildmeyer|ekko-wandplank|1",
     "bn": "schildmeyer",
     "wg": 1
-  },
-  {
-    "n": "LIVARNO® Ladekast Met 3 Lades Genf",
-    "p": "79.99",
-    "o": "",
-    "s": "3 l",
-    "l": "https://www.lidl.nl/assets/gcpc81993286d2a410b83a974a43dc66371.jpg",
-    "c": "Other",
-    "cn": "livarno genf ladekast lades",
-    "ik": "tok:livarno|genf-ladekast-lades|3000",
-    "bn": "livarno",
-    "wg": 3000
   },
   {
     "n": "549",
@@ -23983,18 +23545,6 @@
     "wg": 1
   },
   {
-    "n": "Schildmeyer Wandplank Solea",
-    "p": "43.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp44c795b9a6c54bfb8f8eaf0996f58ac3.jpg",
-    "c": "Other",
-    "cn": "schildmeyer solea wandplank",
-    "ik": "tok:schildmeyer|solea-wandplank|1",
-    "bn": "schildmeyer",
-    "wg": 1
-  },
-  {
     "n": "Schildmeyer Schoenenkast Ryker 139",
     "p": "",
     "o": "",
@@ -24003,6 +23553,18 @@
     "c": "Other",
     "cn": "schildmeyer 139 ryker schoenenkast",
     "ik": "tok:schildmeyer|139-ryker-schoenenkast|1",
+    "bn": "schildmeyer",
+    "wg": 1
+  },
+  {
+    "n": "Schildmeyer Wandplank Solea",
+    "p": "43.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp44c795b9a6c54bfb8f8eaf0996f58ac3.jpg",
+    "c": "Other",
+    "cn": "schildmeyer solea wandplank",
+    "ik": "tok:schildmeyer|solea-wandplank|1",
     "bn": "schildmeyer",
     "wg": 1
   },
@@ -24016,6 +23578,18 @@
     "cn": "schildmeyer 249 edda schoenenkast",
     "ik": "tok:schildmeyer|249-edda-schoenenkast|1",
     "bn": "schildmeyer",
+    "wg": 1
+  },
+  {
+    "n": "Wenko Schoenenrek Voor Aan De Deur",
+    "p": "29.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp4148013038c54357b2d59d8b561d06d2.jpg",
+    "c": "Other",
+    "cn": "wenko aan deur schoenenrek",
+    "ik": "tok:wenko|aan-deur-schoenenrek|1",
+    "bn": "wenko",
     "wg": 1
   },
   {
@@ -24040,18 +23614,6 @@
     "cn": "living 329 hjh karby ladekast",
     "ik": "tok:living|329-hjh-karby-ladekast|1",
     "bn": "living",
-    "wg": 1
-  },
-  {
-    "n": "Wenko Schoenenrek Voor Aan De Deur",
-    "p": "29.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp4148013038c54357b2d59d8b561d06d2.jpg",
-    "c": "Other",
-    "cn": "wenko aan deur schoenenrek",
-    "ik": "tok:wenko|aan-deur-schoenenrek|1",
-    "bn": "wenko",
     "wg": 1
   },
   {
@@ -24713,18 +24275,6 @@
     "wg": 1
   },
   {
-    "n": "PARKSIDE® Ratelschroevendraaier Met Bitset",
-    "p": "7.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpa0d5907993f3475dbaa8568c1f37fdb9.jpg",
-    "c": "Other",
-    "cn": "parkside bitset ratelschroevendraaier",
-    "ik": "tok:parkside|bitset-ratelschroevendraaier|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
     "n": "Qbrick System Gereedschapswagen Pro Cart",
     "p": "62.99",
     "o": "",
@@ -24734,6 +24284,18 @@
     "cn": "qbrick cart gereedschapswagen pro system",
     "ik": "tok:qbrick|cart-gereedschapswagen-pro-system|1",
     "bn": "qbrick",
+    "wg": 1
+  },
+  {
+    "n": "PARKSIDE® Ratelschroevendraaier Met Bitset",
+    "p": "9.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp63cdd177337946b581fb9a0d510c8825.jpg",
+    "c": "Other",
+    "cn": "parkside bitset ratelschroevendraaier",
+    "ik": "tok:parkside|bitset-ratelschroevendraaier|1",
+    "bn": "parkside",
     "wg": 1
   },
   {
@@ -25407,18 +24969,6 @@
     "wg": 30000
   },
   {
-    "n": "Crivit Heren Sporthemd",
-    "p": "7.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp9020c534f69d436d9cb8eae80a233629.jpg",
-    "c": "Other",
-    "cn": "crivit heren sporthemd",
-    "ik": "tok:crivit|heren-sporthemd|1",
-    "bn": "crivit",
-    "wg": 1
-  },
-  {
     "n": "Crivit Heren Thermo Jas",
     "p": "19.99",
     "o": "",
@@ -25788,6 +25338,42 @@
     "cn": "livergy heren overhemd",
     "ik": "tok:livergy|heren-overhemd|1",
     "bn": "livergy",
+    "wg": 1
+  },
+  {
+    "n": "Esmara Men Heren Clogs",
+    "p": "11.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpa0b2de133782411cbbf313c3e6136058.jpg",
+    "c": "Other",
+    "cn": "esmara clogs heren men",
+    "ik": "tok:esmara|clogs-heren-men|1",
+    "bn": "esmara",
+    "wg": 1
+  },
+  {
+    "n": "Crivit Heren Sportbroekje Met Koeltechnologie",
+    "p": "5.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp4142b6ca85cf4f8db4d9d350f87dee30.jpg",
+    "c": "Other",
+    "cn": "crivit heren koeltechnologie sportbroekje",
+    "ik": "tok:crivit|heren-koeltechnologie-sportbroekje|1",
+    "bn": "crivit",
+    "wg": 1
+  },
+  {
+    "n": "Esmara Men U.S. Grand Polo Piqué Heren",
+    "p": "6.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp10fe290c0f7945e3bc66f7ff6730df9c.jpg",
+    "c": "Other",
+    "cn": "grand esmara heren men piqu polo",
+    "ik": "tok:grand|esmara-heren-men-piqu-polo|1",
+    "bn": "grand",
     "wg": 1
   },
   {
@@ -26187,30 +25773,6 @@
     "wg": 1
   },
   {
-    "n": "Esmara Men Heren Clogs",
-    "p": "11.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpa0b2de133782411cbbf313c3e6136058.jpg",
-    "c": "Other",
-    "cn": "esmara clogs heren men",
-    "ik": "tok:esmara|clogs-heren-men|1",
-    "bn": "esmara",
-    "wg": 1
-  },
-  {
-    "n": "Esmara Men U.S. Grand Polo Piqué Heren",
-    "p": "6.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp10fe290c0f7945e3bc66f7ff6730df9c.jpg",
-    "c": "Other",
-    "cn": "grand esmara heren men piqu polo",
-    "ik": "tok:grand|esmara-heren-men-piqu-polo|1",
-    "bn": "grand",
-    "wg": 1
-  },
-  {
     "n": "Esmara Men Heren Cargoshort",
     "p": "12.99",
     "o": "",
@@ -26268,6 +25830,18 @@
     "cn": "livergy cargobroek heren",
     "ik": "tok:livergy|cargobroek-heren|1",
     "bn": "livergy",
+    "wg": 1
+  },
+  {
+    "n": "Crivit Korte Heren Broek (Zwart, S)",
+    "p": "4.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpde3adf92ecfe4b68a187427aad78aef2.jpg",
+    "c": "Other",
+    "cn": "crivit broek heren korte zwart",
+    "ik": "tok:crivit|broek-heren-korte-zwart|1",
+    "bn": "crivit",
     "wg": 1
   },
   {
@@ -26439,18 +26013,6 @@
     "wg": 1
   },
   {
-    "n": "Esmara Men Leren Heren Slippers (Bruin, 41)",
-    "p": "9.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpf5bba0d5aba44de0ae99cdd2cda1aee8.jpg",
-    "c": "Other",
-    "cn": "esmara 41 bruin heren leren men slippers",
-    "ik": "tok:esmara|41-bruin-heren-leren-men-slippers|1",
-    "bn": "esmara",
-    "wg": 1
-  },
-  {
     "n": "Esmara Men Heren Vest",
     "p": "19.99",
     "o": "",
@@ -26484,6 +26046,18 @@
     "cn": "esmara heren korte linnen men pyjama",
     "ik": "tok:esmara|heren-korte-linnen-men-pyjama|1",
     "bn": "esmara",
+    "wg": 1
+  },
+  {
+    "n": "Qs By s.Oliver Heren Korte Spijkerbroek",
+    "p": "29.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp70564efec855437188546f9ddc2a85b2.jpeg",
+    "c": "Other",
+    "cn": "heren by korte oliver qs spijkerbroek",
+    "ik": "tok:heren|by-korte-oliver-qs-spijkerbroek|1",
+    "bn": "heren",
     "wg": 1
   },
   {
@@ -27411,30 +26985,6 @@
     "wg": 1
   },
   {
-    "n": "Esmara Men Heren Sneakers (wit/beige, 43)",
-    "p": "14.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpfa47d936d44b4f1884460da73b6b1a60.jpg",
-    "c": "Other",
-    "cn": "esmara 43 beige heren men sneakers wit",
-    "ik": "tok:esmara|43-beige-heren-men-sneakers-wit|1",
-    "bn": "esmara",
-    "wg": 1
-  },
-  {
-    "n": "Mistral Korte Heren Wetsuit (M)",
-    "p": "49.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp4ef66a5797234c5f80ccde99344fabdd.jpeg",
-    "c": "Other",
-    "cn": "mistral heren korte wetsuit",
-    "ik": "tok:mistral|heren-korte-wetsuit|1",
-    "bn": "mistral",
-    "wg": 1
-  },
-  {
     "n": "Caterpillar Heren Boxershorts 2",
     "p": "9.99",
     "o": "",
@@ -27445,18 +26995,6 @@
     "ik": "tok:caterpillar|boxershorts-heren|2",
     "bn": "caterpillar",
     "wg": 2
-  },
-  {
-    "n": "Qs By s.Oliver Heren Korte Spijkerbroek",
-    "p": "29.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp70564efec855437188546f9ddc2a85b2.jpeg",
-    "c": "Other",
-    "cn": "heren by korte oliver qs spijkerbroek",
-    "ik": "tok:heren|by-korte-oliver-qs-spijkerbroek|1",
-    "bn": "heren",
-    "wg": 1
   },
   {
     "n": "Esmara Men 4 Paar Sokken",
@@ -27492,6 +27030,18 @@
     "cn": "heren 26 adidas entrada hoodie",
     "ik": "tok:heren|26-adidas-entrada-hoodie|1",
     "bn": "heren",
+    "wg": 1
+  },
+  {
+    "n": "Mistral Korte Heren Wetsuit (M)",
+    "p": "49.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp4ef66a5797234c5f80ccde99344fabdd.jpeg",
+    "c": "Other",
+    "cn": "mistral heren korte wetsuit",
+    "ik": "tok:mistral|heren-korte-wetsuit|1",
+    "bn": "mistral",
     "wg": 1
   },
   {
@@ -29151,18 +28701,6 @@
     "wg": 1
   },
   {
-    "n": "Bissell Vlekkenreiniger Pet Stain And Odour",
-    "p": "12.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpc7c368b54d434c9eb8875b2d6c80f08c.jpeg",
-    "c": "Household",
-    "cn": "bissell and odour pet stain vlekkenreiniger",
-    "ik": "tok:bissell|and-odour-pet-stain-vlekkenreiniger|1",
-    "bn": "bissell",
-    "wg": 1
-  },
-  {
     "n": "Boodschappenmand Met Koelfunctie",
     "p": "11.99",
     "o": "",
@@ -29184,6 +28722,18 @@
     "cn": "boodschappenmand w5",
     "ik": "tok:boodschappenmand|w5|1",
     "bn": "boodschappenmand",
+    "wg": 1
+  },
+  {
+    "n": "Bissell Vlekkenreiniger Pet Stain And Odour",
+    "p": "12.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpc7c368b54d434c9eb8875b2d6c80f08c.jpeg",
+    "c": "Household",
+    "cn": "bissell and odour pet stain vlekkenreiniger",
+    "ik": "tok:bissell|and-odour-pet-stain-vlekkenreiniger|1",
+    "bn": "bissell",
     "wg": 1
   },
   {
@@ -30035,42 +29585,6 @@
     "wg": 1
   },
   {
-    "n": "Crivit Elektrische Koelbox",
-    "p": "59.99",
-    "o": "",
-    "s": "29 l",
-    "l": "https://www.lidl.nl/assets/gcp1f2bc88047004dffb335d97f282ae123.jpg",
-    "c": "Other",
-    "cn": "crivit elektrische koelbox",
-    "ik": "tok:crivit|elektrische-koelbox|29000",
-    "bn": "crivit",
-    "wg": 29000
-  },
-  {
-    "n": "Crivit Rvs Drinkfles",
-    "p": "5.99",
-    "o": "",
-    "s": "1 l",
-    "l": "https://www.lidl.nl/assets/gcpa00cc40d795f4eb5be5911a6e1d3306e.jpg",
-    "c": "Other",
-    "cn": "crivit drinkfles rvs",
-    "ik": "tok:crivit|drinkfles-rvs|1000",
-    "bn": "crivit",
-    "wg": 1000
-  },
-  {
-    "n": "SILVERCREST® Dubbele Inductiekookplaat 3500 W",
-    "p": "84.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp65320919d4ac4333b0b0fd17a97d8525.jpg",
-    "c": "Other",
-    "cn": "silvercrest 3500 dubbele inductiekookplaat",
-    "ik": "tok:silvercrest|3500-dubbele-inductiekookplaat|1",
-    "bn": "silvercrest",
-    "wg": 1
-  },
-  {
     "n": "Tognana Draagbare Dubbele Kookplaat Iridea 109",
     "p": "",
     "o": "",
@@ -30488,6 +30002,17 @@
     "wg": 1
   },
   {
+    "n": "499",
+    "p": "",
+    "o": "TAMBU 5-persoons tent Nihaita",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpe425201a55164a3096db78547135b6ae.jpeg",
+    "c": "Other",
+    "cn": "499",
+    "ik": "tok:unknown|499|1",
+    "wg": 1
+  },
+  {
     "n": "Tambu Slaapmat Lano 129",
     "p": "",
     "o": "",
@@ -30795,54 +30320,6 @@
     "c": "Other",
     "cn": "249",
     "ik": "tok:unknown|249|1",
-    "wg": 1
-  },
-  {
-    "n": "Wandelstokken - 2 Aluminium Verstelbaar",
-    "p": "14.99",
-    "o": "Wandelstokken - 2 stuks - aluminium - verstelbaar voor 14.99 EUR 4.8 van 5 sterren (12 totale beoordelingen) Wandelstokken - 2 stuks - aluminium - verstelbaar",
-    "s": "2 ml",
-    "l": "https://www.lidl.nl/assets/gcp5cda3d36a1604966ae70af810fba15d1.jpg",
-    "c": "Other",
-    "cn": "wandelstokken aluminium verstelbaar",
-    "ik": "tok:wandelstokken|aluminium-verstelbaar|2",
-    "bn": "wandelstokken",
-    "wg": 2
-  },
-  {
-    "n": "Elektrische Koelbox",
-    "p": "59.99",
-    "o": "4.7 van 5 sterren (932 totale beoordelingen)",
-    "s": "29 l",
-    "l": "https://www.lidl.nl/assets/gcp1f2bc88047004dffb335d97f282ae123.jpg",
-    "c": "Other",
-    "cn": "elektrische koelbox",
-    "ik": "tok:elektrische|koelbox|29000",
-    "bn": "elektrische",
-    "wg": 29000
-  },
-  {
-    "n": "Rvs Drinkfles",
-    "p": "5.99",
-    "o": "4 van 5 sterren (3 totale beoordelingen)",
-    "s": "1 l",
-    "l": "https://www.lidl.nl/assets/gcpa00cc40d795f4eb5be5911a6e1d3306e.jpg",
-    "c": "Other",
-    "cn": "rvs drinkfles",
-    "ik": "tok:rvs|drinkfles|1000",
-    "bn": "rvs",
-    "wg": 1000
-  },
-  {
-    "n": "Dubbele Inductiekookplaat 3500 W",
-    "p": "84.99",
-    "o": "4.7 van 5 sterren (143 totale beoordelingen)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp65320919d4ac4333b0b0fd17a97d8525.jpg",
-    "c": "Other",
-    "cn": "dubbele 3500 inductiekookplaat",
-    "ik": "tok:dubbele|3500-inductiekookplaat|1",
-    "bn": "dubbele",
     "wg": 1
   },
   {
@@ -31583,18 +31060,6 @@
     "wg": 1
   },
   {
-    "n": "Dirt Devil Prullenbak",
-    "p": "24.99",
-    "o": "",
-    "s": "12 l",
-    "l": "https://www.lidl.nl/assets/gcp808fab54484241e6ad823c329c005480.png",
-    "c": "Other",
-    "cn": "dirt devil prullenbak",
-    "ik": "tok:dirt|devil-prullenbak|12000",
-    "bn": "dirt",
-    "wg": 12000
-  },
-  {
     "n": "LIVARNO® Staande Lamp",
     "p": "89.99",
     "o": "",
@@ -31926,6 +31391,18 @@
     "wg": 1
   },
   {
+    "n": "Dirt Devil Prullenbak",
+    "p": "51.99",
+    "o": "",
+    "s": "20 l",
+    "l": "https://www.lidl.nl/assets/gcpc683e49a925a4bbfb5e31af19b79370c.png",
+    "c": "Other",
+    "cn": "dirt devil prullenbak",
+    "ik": "tok:dirt|devil-prullenbak|20000",
+    "bn": "dirt",
+    "wg": 20000
+  },
+  {
     "n": "Dirt Devil Prullenbak 2 X 12",
     "p": "59.99",
     "o": "",
@@ -32045,38 +31522,15 @@
     "wg": 1
   },
   {
-    "n": "Solar Leddecoratieve vogel, Metalen Tuinsteker",
-    "p": "17.99",
-    "o": "Solar LED-decoratieve vogel, metalen tuinsteker voor 17.99 EUR 2.5 van 5 sterren (4 totale beoordelingen) Solar LED-decoratieve vogel, metalen tuinsteker",
+    "n": "SILVERCREST® Dubbele Inductiekookplaat 3500 W",
+    "p": "84.99",
+    "o": "",
     "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp5fa371a50772419a9674c10c69eb1bf3.jpg",
+    "l": "https://www.lidl.nl/assets/gcp65320919d4ac4333b0b0fd17a97d8525.jpg",
     "c": "Other",
-    "cn": "solar leddecoratieve metalen tuinsteker vogel",
-    "ik": "tok:solar|leddecoratieve-metalen-tuinsteker-vogel|1",
-    "bn": "solar",
-    "wg": 1
-  },
-  {
-    "n": "Keukenloper 65 X 180 Cm",
-    "p": "7.99",
-    "o": "4.3 van 5 sterren (9 totale beoordelingen) -20% Ook in de winkel vanaf 05/08 - 11/08",
-    "s": "65 X 180 CM VOOR 7.99 EUR 4.3/5 (9) 4.3 VAN 5 STERREN (9 TOTALE BEOORDELINGEN) LIVARNO® KEUKENLOPER 65 X 180 CM 9.99 -20% 7.99 OOK IN DE WINKEL VANAF 05/08 - 11/08",
-    "l": "https://www.lidl.nl/assets/gcp1d97f03e0bfd47aabcefe526c3af2514.jpg",
-    "c": "Other",
-    "cn": "keukenloper 180 65 cm",
-    "ik": "tok:keukenloper|180-65-cm|na",
-    "bn": "keukenloper"
-  },
-  {
-    "n": "Ledklemlamp Of -tafellamp",
-    "p": "5.99",
-    "o": "LED-klemlamp of -tafellamp voor 5.99 EUR 4.7 van 5 sterren (51 totale beoordelingen) LED-klemlamp of -tafellamp -33%",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpe052b2670d7f4dc5bd6f9f3abb4f701b.jpg",
-    "c": "Other",
-    "cn": "ledklemlamp of tafellamp",
-    "ik": "tok:ledklemlamp|of-tafellamp|1",
-    "bn": "ledklemlamp",
+    "cn": "silvercrest 3500 dubbele inductiekookplaat",
+    "ik": "tok:silvercrest|3500-dubbele-inductiekookplaat|1",
+    "bn": "silvercrest",
     "wg": 1
   },
   {
@@ -32222,6 +31676,18 @@
     "ik": "tok:silvercrest|waterkoker|7000",
     "bn": "silvercrest",
     "wg": 7000
+  },
+  {
+    "n": "Gsw Rvs Sappan Ø26 Cm",
+    "p": "49.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp550552fdd5bc4732ad954b033c41a2ea.jpg",
+    "c": "Other",
+    "cn": "gsw 26 cm rvs sappan",
+    "ik": "tok:gsw|26-cm-rvs-sappan|1",
+    "bn": "gsw",
+    "wg": 1
   },
   {
     "n": "SILVERCREST® Magnetron",
@@ -33520,30 +32986,6 @@
     "wg": 1
   },
   {
-    "n": "SILVERCREST® Rvs Smoothiemaker",
-    "p": "14.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpe1c6f6f26d604da8b1aba7976c9c1635.jpg",
-    "c": "Other",
-    "cn": "silvercrest rvs smoothiemaker",
-    "ik": "tok:silvercrest|rvs-smoothiemaker|1",
-    "bn": "silvercrest",
-    "wg": 1
-  },
-  {
-    "n": "SILVERCREST® Eierkoker 6 Eieren (Beige)",
-    "p": "14.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp5adaf6e188a34f6ca8f8311afa848c45.jpg",
-    "c": "Other",
-    "cn": "silvercrest beige eieren eierkoker",
-    "ik": "tok:silvercrest|beige-eieren-eierkoker|1",
-    "bn": "silvercrest",
-    "wg": 1
-  },
-  {
     "n": "SILVERCREST® Gehaktmolen",
     "p": "14.99",
     "o": "",
@@ -34128,18 +33570,6 @@
     "c": "Other",
     "cn": "crivit classic heren skibroek",
     "ik": "tok:crivit|classic-heren-skibroek|1",
-    "bn": "crivit",
-    "wg": 1
-  },
-  {
-    "n": "Crivit Kinder Skibroek (Blauw, 146/152)",
-    "p": "14.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpd8e44a55e4b743ecbc401fa0abe8c0bb.jpg",
-    "c": "Other",
-    "cn": "crivit 146 152 blauw kinder skibroek",
-    "ik": "tok:crivit|146-152-blauw-kinder-skibroek|1",
     "bn": "crivit",
     "wg": 1
   },
@@ -35452,30 +34882,6 @@
     "wg": 1
   },
   {
-    "n": "LUPILU® Kinder Sweater Of Hoodie Paw Patrol",
-    "p": "7.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp1db69a1cc318457c8e2c83a3229cb1f0.jpg",
-    "c": "Other",
-    "cn": "lupilu hoodie kinder of patrol paw sweater",
-    "ik": "tok:lupilu|hoodie-kinder-of-patrol-paw-sweater|1",
-    "bn": "lupilu",
-    "wg": 1
-  },
-  {
-    "n": "LUPILU® Paw Patrol Kinder Pyjama",
-    "p": "4.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpcacf62768521433cb1db6d3fb1b576e1.jpg",
-    "c": "Other",
-    "cn": "lupilu kinder patrol paw pyjama",
-    "ik": "tok:lupilu|kinder-patrol-paw-pyjama|1",
-    "bn": "lupilu",
-    "wg": 1
-  },
-  {
     "n": "Crivit Kinder Sport Vest",
     "p": "14.99",
     "o": "",
@@ -36184,54 +35590,6 @@
     "wg": 1
   },
   {
-    "n": "Kinder Sweater Of Hoodie Paw Patrol",
-    "p": "7.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp1db69a1cc318457c8e2c83a3229cb1f0.jpg",
-    "c": "Other",
-    "cn": "kinder hoodie of patrol paw sweater",
-    "ik": "tok:kinder|hoodie-of-patrol-paw-sweater|1",
-    "bn": "kinder",
-    "wg": 1
-  },
-  {
-    "n": "Paw Patrol Kinder Pyjama",
-    "p": "4.99",
-    "o": "3 van 5 sterren (1 totale beoordelingen) -16% Ook in de winkel 29/07 - 04/08",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpcacf62768521433cb1db6d3fb1b576e1.jpg",
-    "c": "Other",
-    "cn": "paw kinder patrol pyjama",
-    "ik": "tok:paw|kinder-patrol-pyjama|1",
-    "bn": "paw",
-    "wg": 1
-  },
-  {
-    "n": "Kinder Ondergoedset Paw Patrol 2delig",
-    "p": "5.99",
-    "o": "Kinder ondergoedset Paw Patrol 2-delig voor 5.99 EUR 5 van 5 sterren (2 totale beoordelingen) Kinder ondergoedset Paw Patrol 2-delig",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpc28f74df97fd41aba8f389f75d05f9c4.jpg",
-    "c": "Other",
-    "cn": "kinder 2delig ondergoedset patrol paw",
-    "ik": "tok:kinder|2delig-ondergoedset-patrol-paw|1",
-    "bn": "kinder",
-    "wg": 1
-  },
-  {
-    "n": "Set 2 Kinder Tshirts Paw Patrol",
-    "p": "4.99",
-    "o": "Set van 2 kinder T-shirts Paw Patrol voor 4.99 EUR Set van 2 kinder T-shirts Paw Patrol -16% Ook in de winkel 29/07 - 04/08",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp4ab0a908c3184430902bb5549bef6642.jpg",
-    "c": "Other",
-    "cn": "set kinder patrol paw tshirts",
-    "ik": "tok:set|kinder-patrol-paw-tshirts|1",
-    "bn": "set",
-    "wg": 1
-  },
-  {
     "n": "Esmara Kids Kinder Vest",
     "p": "9.99",
     "o": "",
@@ -36348,6 +35706,18 @@
     "c": "Other",
     "cn": "crivit fleecejas kinder thermo",
     "ik": "tok:crivit|fleecejas-kinder-thermo|1",
+    "bn": "crivit",
+    "wg": 1
+  },
+  {
+    "n": "Crivit Kinder Skibroek (Blauw, 146/152)",
+    "p": "14.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpd8e44a55e4b743ecbc401fa0abe8c0bb.jpg",
+    "c": "Other",
+    "cn": "crivit 146 152 blauw kinder skibroek",
+    "ik": "tok:crivit|146-152-blauw-kinder-skibroek|1",
     "bn": "crivit",
     "wg": 1
   },
@@ -36565,6 +35935,18 @@
     "cn": "meisjes pepperts shirts",
     "ik": "tok:meisjes|pepperts-shirts|1",
     "bn": "meisjes",
+    "wg": 1
+  },
+  {
+    "n": "Esmara Kids Kinder Joggingbroek",
+    "p": "7.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp689eac92de5f451cbb2f091641edafe5.jpg",
+    "c": "Other",
+    "cn": "esmara joggingbroek kids kinder",
+    "ik": "tok:esmara|joggingbroek-kids-kinder|1",
+    "bn": "esmara",
     "wg": 1
   },
   {
@@ -36841,18 +36223,6 @@
     "cn": "kinder 122 128 grijs hoodie",
     "ik": "tok:kinder|122-128-grijs-hoodie|1",
     "bn": "kinder",
-    "wg": 1
-  },
-  {
-    "n": "Esmara Kids Kinder Joggingbroek",
-    "p": "7.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp689eac92de5f451cbb2f091641edafe5.jpg",
-    "c": "Other",
-    "cn": "esmara joggingbroek kids kinder",
-    "ik": "tok:esmara|joggingbroek-kids-kinder|1",
-    "bn": "esmara",
     "wg": 1
   },
   {
@@ -37312,18 +36682,6 @@
     "wg": 1
   },
   {
-    "n": "Comfee Mobiele Airco 9000 Pro Met App Smart 219",
-    "p": "",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcped323bfcdf5346de9005160ec85265d8.jpg",
-    "c": "Other",
-    "cn": "comfee 219 9000 airco app mobiele pro smart",
-    "ik": "tok:comfee|219-9000-airco-app-mobiele-pro-smart|1",
-    "bn": "comfee",
-    "wg": 1
-  },
-  {
     "n": "TRONIC® Elektrische Badkamer Handdoekradiator",
     "p": "49.99",
     "o": "",
@@ -37468,18 +36826,6 @@
     "wg": 10000
   },
   {
-    "n": "Bladloze Ventilator Met Afstandsbediening 97 Cm (Zwart)",
-    "p": "79.99",
-    "o": "4.6 van 5 sterren (1170 totale beoordelingen)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp5f5bd24364314f13bca1ef7fbc7ea030.jpg",
-    "c": "Other",
-    "cn": "bladloze 97 afstandsbediening cm ventilator zwart",
-    "ik": "tok:bladloze|97-afstandsbediening-cm-ventilator-zwart|1",
-    "bn": "bladloze",
-    "wg": 1
-  },
-  {
     "n": "Luchtontvochtiger Voor 119 Eur Beste Beoordelingen 4.8/5 (42) 4.8 5 Sterren (42 Totale beoordelingen) TRONIC® 119.-",
     "p": "",
     "o": "4.8 van 5 sterren (42 totale beoordelingen) 119.-",
@@ -37490,6 +36836,18 @@
     "ik": "tok:luchtontvochtiger|119-42-beoordelingen-beste-sterren-totale-tronic|20000",
     "bn": "luchtontvochtiger",
     "wg": 20000
+  },
+  {
+    "n": "Mobiele Airco 9000 Pro Met App Smart Voor 219 Eur 4.2/5 (45) 4.2 5 Sterren (45 Totale beoordelingen) Comfee 219.- D A +++ Productgegevensblad",
+    "p": "",
+    "o": "4.2 van 5 sterren (45 totale beoordelingen) 219.-",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcped323bfcdf5346de9005160ec85265d8.jpg",
+    "c": "Other",
+    "cn": "mobiele 219 45 9000 airco app beoordelingen comfee pro productgegevensblad smart sterren totale",
+    "ik": "tok:mobiele|219-45-9000-airco-app-beoordelingen-comfee-pro-productgegevensblad-smart-sterren-totale|1",
+    "bn": "mobiele",
+    "wg": 1
   },
   {
     "n": "Minikoelkast",
@@ -38878,6 +38236,18 @@
     "wg": 1
   },
   {
+    "n": "SILVERCREST® Snijplank (zwart)",
+    "p": "8.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpc8cd5707108447c5a7e091a4dabe134b.jpg",
+    "c": "Other",
+    "cn": "silvercrest snijplank zwart",
+    "ik": "tok:silvercrest|snijplank-zwart|1",
+    "bn": "silvercrest",
+    "wg": 1
+  },
+  {
     "n": "Coox Siliconen Bakplaat",
     "p": "17.99",
     "o": "",
@@ -39826,18 +39196,6 @@
     "wg": 1
   },
   {
-    "n": "SILVERCREST® Glazen Vershoudbakjes",
-    "p": "9.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp131b405fda314fccbd450ae5f6802d88.jpg",
-    "c": "Other",
-    "cn": "silvercrest glazen vershoudbakjes",
-    "ik": "tok:silvercrest|glazen-vershoudbakjes|1",
-    "bn": "silvercrest",
-    "wg": 1
-  },
-  {
     "n": "Tefal Clip & Close Vershoudbakjes",
     "p": "9.99",
     "o": "",
@@ -40186,6 +39544,18 @@
     "wg": 1
   },
   {
+    "n": "Robotstofzuiger Met Dweilfunctie Deebot N30 Pro Omni Voor 399 Eur 4.5/5 (6) 4.5 5 Sterren (6 Totale beoordelingen) Ecovacs Adviesprijs: 699.- * 399.- Door Fabrikant Geadviseerde Prijs",
+    "p": "",
+    "o": "4.5 van 5 sterren (6 totale beoordelingen) Adviesprijs: 699.- * 399.-",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp9c1e92f8830d4a50851cb0bacd4c234f.jpg",
+    "c": "Other",
+    "cn": "robotstofzuiger 399 699 adviesprijs beoordelingen deebot door dweilfunctie ecovacs fabrikant geadviseerde n30 omni pro sterren totale",
+    "ik": "tok:robotstofzuiger|399-699-adviesprijs-beoordelingen-deebot-door-dweilfunctie-ecovacs-fabrikant-geadviseerde-n30-omni-pro-sterren-totale|1",
+    "bn": "robotstofzuiger",
+    "wg": 1
+  },
+  {
     "n": "Deebot Mini Green Robotstofzuiger Met Dweilfunctie En Reinigingsstation Voor 399 Eur Ecovacs * Door Fabrikant Geadviseerde Prijs",
     "p": "",
     "o": "Adviesprijs: 499.- * 399.-",
@@ -40294,6 +39664,18 @@
     "wg": 1
   },
   {
+    "n": "LUPILU® Kinder Rugzak Paw Patrol",
+    "p": "9.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpe135ee60188f4fbd9756d6ac6190708b.jpg",
+    "c": "Other",
+    "cn": "lupilu kinder patrol paw rugzak",
+    "ik": "tok:lupilu|kinder-patrol-paw-rugzak|1",
+    "bn": "lupilu",
+    "wg": 1
+  },
+  {
     "n": "PARKSIDE® Werkhandschoenen (8)",
     "p": "4.99",
     "o": "",
@@ -40339,18 +39721,6 @@
     "cn": "esmara 40 41 dames pantoffels roze",
     "ik": "tok:esmara|40-41-dames-pantoffels-roze|1",
     "bn": "esmara",
-    "wg": 1
-  },
-  {
-    "n": "Crivit Dames Badslippers",
-    "p": "5.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp76b7c38896384635a5fa0fedf3889c75.jpg",
-    "c": "Other",
-    "cn": "crivit badslippers dames",
-    "ik": "tok:crivit|badslippers-dames|1",
-    "bn": "crivit",
     "wg": 1
   },
   {
@@ -40568,42 +39938,6 @@
     "ik": "tok:esmara|dames-laarzen-leren|1",
     "bn": "esmara",
     "wg": 1
-  },
-  {
-    "n": "Dames Clogs",
-    "p": "11.99",
-    "o": "5 van 5 sterren (1 totale beoordelingen)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpa3dc0fda3b7c43f294d385513036981b.jpg",
-    "c": "Other",
-    "cn": "dames clogs",
-    "ik": "tok:dames|clogs|1",
-    "bn": "dames",
-    "wg": 1
-  },
-  {
-    "n": "Leren Dames Slippers",
-    "p": "9.99",
-    "o": "5 van 5 sterren (2 totale beoordelingen)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp6abbb433477d49509b63ac44f24da332.jpg",
-    "c": "Other",
-    "cn": "leren dames slippers",
-    "ik": "tok:leren|dames-slippers|1",
-    "bn": "leren",
-    "wg": 1
-  },
-  {
-    "n": "Koffer Zwart - Zacht",
-    "p": "34.99",
-    "o": "Koffer 102 L zwart - zacht voor 34.99 EUR 5 van 5 sterren (6 totale beoordelingen) Koffer 102 L zwart - zacht -30%",
-    "s": "102 l",
-    "l": "https://www.lidl.nl/assets/gcpd8f1b748fafa4363a45909416f16edca.jpg",
-    "c": "Other",
-    "cn": "koffer zacht zwart",
-    "ik": "tok:koffer|zacht-zwart|102000",
-    "bn": "koffer",
-    "wg": 102000
   },
   {
     "n": "Kinder Activiteitenboek",
@@ -43223,17 +42557,6 @@
     "bn": "livarno"
   },
   {
-    "n": "LIVARNO® Dekbedovertrek Set 140 X 200 Cm (Print)",
-    "p": "14.99",
-    "o": "",
-    "s": "140 X 200 CM (PRINT) 14.99",
-    "l": "https://www.lidl.nl/assets/gcp41db3d7eae3a455db5a6771f7071b81d.jpg",
-    "c": "Fruits & Vegetables",
-    "cn": "livarno 140 200 cm dekbedovertrek print set",
-    "ik": "tok:livarno|140-200-cm-dekbedovertrek-print-set|na",
-    "bn": "livarno"
-  },
-  {
     "n": "Emma Dekbedovertrek 200 X Cm",
     "p": "39.99",
     "o": "",
@@ -43645,14 +42968,14 @@
     "wg": 1
   },
   {
-    "n": "LIVARNO® Zomerdekbed Hydrocool® 140 X 200 Cm",
-    "p": "12.99",
+    "n": "LIVARNO® Plaid 200 X 240 Cm (Grijs)",
+    "p": "24.99",
     "o": "",
-    "s": "140 X 200 CM 12.99",
-    "l": "https://www.lidl.nl/assets/gcpeba37ce16cb04c21bf2c02f693e997e6.jpg",
+    "s": "200 X 240 CM (GRIJS) 24.99",
+    "l": "https://www.lidl.nl/assets/gcp0a0bab78c6ed49909c941da527b3c247.jpg",
     "c": "Fruits & Vegetables",
-    "cn": "livarno 140 200 cm hydrocool zomerdekbed",
-    "ik": "tok:livarno|140-200-cm-hydrocool-zomerdekbed|na",
+    "cn": "livarno 200 240 cm grijs plaid",
+    "ik": "tok:livarno|200-240-cm-grijs-plaid|na",
     "bn": "livarno"
   },
   {
@@ -44763,6 +44086,17 @@
     "wg": 911
   },
   {
+    "n": "LUPILU® Dansmat Paw Patrol, 130 X 48 Cm",
+    "p": "19.99",
+    "o": "",
+    "s": "130 X 48 CM 19.99",
+    "l": "https://www.lidl.nl/assets/gcp3fbfbf097b60472fbc4b0440fcb5a259.jpg",
+    "c": "Other",
+    "cn": "lupilu 130 48 cm dansmat patrol paw",
+    "ik": "tok:lupilu|130-48-cm-dansmat-patrol-paw|na",
+    "bn": "lupilu"
+  },
+  {
     "n": "Barbie Speelset Dream Boat",
     "p": "35.99",
     "o": "",
@@ -44820,6 +44154,18 @@
     "cn": "lupilu baby pluche speelgoed",
     "ik": "tok:lupilu|baby-pluche-speelgoed|1",
     "bn": "lupilu",
+    "wg": 1
+  },
+  {
+    "n": "Lego 2 Opbergboxen (Geel/feloranje)",
+    "p": "15.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp4c4494d58b6b4bd5ae2611f207b3113b.jpeg",
+    "c": "Other",
+    "cn": "lego feloranje geel opbergboxen",
+    "ik": "tok:lego|feloranje-geel-opbergboxen|1",
+    "bn": "lego",
     "wg": 1
   },
   {
@@ -45837,42 +45183,6 @@
     "cn": "majorette tankstation tankwagen",
     "ik": "tok:majorette|tankstation-tankwagen|1",
     "bn": "majorette",
-    "wg": 1
-  },
-  {
-    "n": "LUPILU® Paw Patrol Knuffel 30 Cm",
-    "p": "7.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpf19e1b40922a49d79522d3b1f7d24af8.jpg",
-    "c": "Other",
-    "cn": "lupilu 30 cm knuffel patrol paw",
-    "ik": "tok:lupilu|30-cm-knuffel-patrol-paw|1",
-    "bn": "lupilu",
-    "wg": 1
-  },
-  {
-    "n": "LEGO® Speed Champions 76934 Ferrari F40 Supercar",
-    "p": "17.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpadeef9f438d540988ce98542c808d572.jpg",
-    "c": "Other",
-    "cn": "lego 76934 champions f40 ferrari speed supercar",
-    "ik": "tok:lego|76934-champions-f40-ferrari-speed-supercar|1",
-    "bn": "lego",
-    "wg": 1
-  },
-  {
-    "n": "Bresser Kinder Metaaldetector",
-    "p": "35.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp819a9b07212c493c9fc9f4d37372fa66.jpg",
-    "c": "Other",
-    "cn": "bresser kinder metaaldetector",
-    "ik": "tok:bresser|kinder-metaaldetector|1",
-    "bn": "bresser",
     "wg": 1
   },
   {
@@ -48972,18 +48282,6 @@
     "wg": 1
   },
   {
-    "n": "Lexibook Camera Met Spelletjes En Muziek (Paw Patrol)",
-    "p": "29.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp8bec3143038a4f1394fadef117ee9be9.jpg",
-    "c": "Other",
-    "cn": "lexibook camera muziek patrol paw spelletjes",
-    "ik": "tok:lexibook|camera-muziek-patrol-paw-spelletjes|1",
-    "bn": "lexibook",
-    "wg": 1
-  },
-  {
     "n": "Uno Kaartspel Flip Transformers",
     "p": "7.99",
     "o": "",
@@ -49412,18 +48710,6 @@
     "cn": "peppa adventskalender pig",
     "ik": "tok:peppa|adventskalender-pig|1",
     "bn": "peppa",
-    "wg": 1
-  },
-  {
-    "n": "Crivit Boogschietset",
-    "p": "34.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp3cd5127037654f52a0d37a82128d4e17.jpg",
-    "c": "Other",
-    "cn": "crivit boogschietset",
-    "ik": "tok:crivit|boogschietset|1",
-    "bn": "crivit",
     "wg": 1
   },
   {
@@ -51083,18 +50369,6 @@
     "wg": 1
   },
   {
-    "n": "Crivit Dames Sportjurk",
-    "p": "12.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp1795463312724290bff6fa17de87d44f.jpg",
-    "c": "Other",
-    "cn": "crivit dames sportjurk",
-    "ik": "tok:crivit|dames-sportjurk|1",
-    "bn": "crivit",
-    "wg": 1
-  },
-  {
     "n": "Crivit Tafeltennisset Of Tafeltennisnet (Tafeltennisbatjes)",
     "p": "14.99",
     "o": "",
@@ -51417,54 +50691,6 @@
     "wg": 1
   },
   {
-    "n": "Dames Sporttop",
-    "p": "5.99",
-    "o": "4.6 van 5 sterren (10 totale beoordelingen)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp272603946c3d4c6eb0c0a8df81e61c34.jpg",
-    "c": "Other",
-    "cn": "dames sporttop",
-    "ik": "tok:dames|sporttop|1",
-    "bn": "dames",
-    "wg": 1
-  },
-  {
-    "n": "Samba Og Schoenen - Leer & Suède Unisex",
-    "p": "89.99",
-    "o": "Samba OG schoenen - leer & suède - unisex voor 89.99 EUR 5 van 5 sterren (4 totale beoordelingen) Samba OG schoenen - leer & suède - unisex",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpd243cc2d94f147c9810330aae54eca12.jpg",
-    "c": "Other",
-    "cn": "samba leer og schoenen su unisex",
-    "ik": "tok:samba|leer-og-schoenen-su-unisex|1",
-    "bn": "samba",
-    "wg": 1
-  },
-  {
-    "n": "Dames Sportjurk",
-    "p": "12.99",
-    "o": "4.9 van 5 sterren (18 totale beoordelingen)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp1795463312724290bff6fa17de87d44f.jpg",
-    "c": "Other",
-    "cn": "dames sportjurk",
-    "ik": "tok:dames|sportjurk|1",
-    "bn": "dames",
-    "wg": 1
-  },
-  {
-    "n": "Classic Sneakers - Leer Unisex",
-    "p": "49.99",
-    "o": "Classic sneakers - leer - unisex voor 49.99 EUR Classic sneakers - leer - unisex",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpf04200ab09924756ab33df1543cd844e.jpg",
-    "c": "Other",
-    "cn": "classic leer sneakers unisex",
-    "ik": "tok:classic|leer-sneakers-unisex|1",
-    "bn": "classic",
-    "wg": 1
-  },
-  {
     "n": "239",
     "p": "",
     "o": "VILEDA Nat- en droog stofzuiger Pure Clean S5 Plus",
@@ -51581,6 +50807,18 @@
     "cn": "silvercrest 259 leegstation robotstofzuiger",
     "ik": "tok:silvercrest|259-leegstation-robotstofzuiger|1",
     "bn": "silvercrest",
+    "wg": 1
+  },
+  {
+    "n": "Ecovacs Robotstofzuiger Met Dweilfunctie Deebot N30 Pro Omni 399",
+    "p": "",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp9c1e92f8830d4a50851cb0bacd4c234f.jpg",
+    "c": "Other",
+    "cn": "ecovacs 399 deebot dweilfunctie n30 omni pro robotstofzuiger",
+    "ik": "tok:ecovacs|399-deebot-dweilfunctie-n30-omni-pro-robotstofzuiger|1",
+    "bn": "ecovacs",
     "wg": 1
   },
   {
@@ -53133,28 +52371,6 @@
     "wg": 1
   },
   {
-    "n": "Crivit Metalen Zwembad 228 X 159 42 Cm",
-    "p": "31.99",
-    "o": "",
-    "s": "228 X 159 X 42 CM 31.99",
-    "l": "https://www.lidl.nl/assets/gcp00eda5b5b38343538d741741796b320e.jpg",
-    "c": "Other",
-    "cn": "crivit 159 228 42 cm metalen zwembad",
-    "ik": "tok:crivit|159-228-42-cm-metalen-zwembad|na",
-    "bn": "crivit"
-  },
-  {
-    "n": "LIVARNO® Raamhor 130 X 150 Cm",
-    "p": "3.99",
-    "o": "",
-    "s": "130 X 150 CM 3.99",
-    "l": "https://www.lidl.nl/assets/gcp99d7f8c57d8d4411880b4bd73d759a9a.jpg",
-    "c": "Other",
-    "cn": "livarno 130 150 cm raamhor",
-    "ik": "tok:livarno|130-150-cm-raamhor|na",
-    "bn": "livarno"
-  },
-  {
     "n": "LIVARNO® Buitenkleed 127 X 168 Cm (Rood/blauw)",
     "p": "3.99",
     "o": "",
@@ -54222,17 +53438,6 @@
     "wg": 1
   },
   {
-    "n": "LIVARNO® Tuinstoelkussen Hoge Rug Toronto 120 X 50 Cm (Taupe)",
-    "p": "19.99",
-    "o": "",
-    "s": "120 X 50 CM (TAUPE) 19.99",
-    "l": "https://www.lidl.nl/assets/gcp2566991c437d457baf6f67e2346651b3.jpg",
-    "c": "Other",
-    "cn": "livarno 120 50 cm hoge rug taupe toronto tuinstoelkussen",
-    "ik": "tok:livarno|120-50-cm-hoge-rug-taupe-toronto-tuinstoelkussen|na",
-    "bn": "livarno"
-  },
-  {
     "n": "Prosperplast Opbergbox Tuin",
     "p": "41.99",
     "o": "",
@@ -54255,6 +53460,40 @@
     "ik": "tok:moestuinbak|dobar-rek-wit|1",
     "bn": "moestuinbak",
     "wg": 1
+  },
+  {
+    "n": "Crivit Metalen Zwembad 228 X 159 42 Cm",
+    "p": "31.99",
+    "o": "",
+    "s": "228 X 159 X 42 CM 31.99",
+    "l": "https://www.lidl.nl/assets/gcp00eda5b5b38343538d741741796b320e.jpg",
+    "c": "Other",
+    "cn": "crivit 159 228 42 cm metalen zwembad",
+    "ik": "tok:crivit|159-228-42-cm-metalen-zwembad|na",
+    "bn": "crivit"
+  },
+  {
+    "n": "Abus Sleutelkastje",
+    "p": "14.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/dc118bf34049d1aee7f50bc42bd2661c.jpeg",
+    "c": "Other",
+    "cn": "abus sleutelkastje",
+    "ik": "tok:abus|sleutelkastje|1",
+    "bn": "abus",
+    "wg": 1
+  },
+  {
+    "n": "LIVARNO® Raamhor 130 X 150 Cm",
+    "p": "3.99",
+    "o": "",
+    "s": "130 X 150 CM 3.99",
+    "l": "https://www.lidl.nl/assets/gcp99d7f8c57d8d4411880b4bd73d759a9a.jpg",
+    "c": "Other",
+    "cn": "livarno 130 150 cm raamhor",
+    "ik": "tok:livarno|130-150-cm-raamhor|na",
+    "bn": "livarno"
   },
   {
     "n": "Globel Tuinschuur Skillion 549",
@@ -54648,50 +53887,16 @@
     "wg": 1
   },
   {
-    "n": "Metalen Zwembad 228 X 159 42 Cm",
-    "p": "31.99",
-    "o": "4.1 van 5 sterren (18 totale beoordelingen)",
-    "s": "228 X 159 X 42 CM VOOR 31.99 EUR 4.1/5 (18) 4.1 VAN 5 STERREN (18 TOTALE BEOORDELINGEN) CRIVIT METALEN ZWEMBAD 228 X 159 X 42 CM 31.99",
-    "l": "https://www.lidl.nl/assets/gcp00eda5b5b38343538d741741796b320e.jpg",
-    "c": "Other",
-    "cn": "metalen 159 228 42 cm zwembad",
-    "ik": "tok:metalen|159-228-42-cm-zwembad|na",
-    "bn": "metalen"
-  },
-  {
-    "n": "Sleutelkastje",
-    "p": "14.99",
-    "o": "4.3 van 5 sterren (25 totale beoordelingen)",
+    "n": "PARKSIDE® Muur Tuinslang Haspel 15 M",
+    "p": "34.99",
+    "o": "",
     "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/dc118bf34049d1aee7f50bc42bd2661c.jpeg",
+    "l": "https://www.lidl.nl/assets/gcpd382b395bae44f3c822f7b67a2030ee3.jpg",
     "c": "Other",
-    "cn": "sleutelkastje",
-    "ik": "tok:sleutelkastje|unknown|1",
-    "bn": "sleutelkastje",
+    "cn": "parkside 15 haspel muur tuinslang",
+    "ik": "tok:parkside|15-haspel-muur-tuinslang|1",
+    "bn": "parkside",
     "wg": 1
-  },
-  {
-    "n": "Zweefparasol Ø300 Cm - Antraciet Upf 80",
-    "p": "69.99",
-    "o": "Zweefparasol Ø300 cm - antraciet - UPF 80 voor 69.99 EUR 4.5 van 5 sterren (460 totale beoordelingen) Zweefparasol Ø300 cm - antraciet - UPF 80",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpce5ce487bd8d451caea6ff3391e24b74.jpg",
-    "c": "Other",
-    "cn": "zweefparasol 300 80 antraciet cm upf",
-    "ik": "tok:zweefparasol|300-80-antraciet-cm-upf|1",
-    "bn": "zweefparasol",
-    "wg": 1
-  },
-  {
-    "n": "Raamhor 130 X 150 Cm",
-    "p": "1.95",
-    "o": "4.5 van 5 sterren (63 totale beoordelingen) per 1.95-m²",
-    "s": "130 X 150 CM VOOR 3.99 EUR 4.5/5 (63) 4.5 VAN 5 STERREN (63 TOTALE BEOORDELINGEN) LIVARNO® RAAMHOR 130 X 150 CM 3.99 PER 1.95-M² 1 M² = 2.05",
-    "l": "https://www.lidl.nl/assets/gcp99d7f8c57d8d4411880b4bd73d759a9a.jpg",
-    "c": "Other",
-    "cn": "raamhor 130 150 cm",
-    "ik": "tok:raamhor|130-150-cm|na",
-    "bn": "raamhor"
   },
   {
     "n": "PARKSIDE® Flexibele Tuinslang 30 M",
@@ -54766,18 +53971,6 @@
     "wg": 1
   },
   {
-    "n": "PARKSIDE® Tuinslang Haspel Met Grondboor (Groen)",
-    "p": "74.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpaffabcf6bd1c439e883687b611fde830.jpg",
-    "c": "Other",
-    "cn": "parkside groen grondboor haspel tuinslang",
-    "ik": "tok:parkside|groen-grondboor-haspel-tuinslang|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
     "n": "PARKSIDE® Slanghaspel",
     "p": "14.99",
     "o": "",
@@ -54802,18 +53995,6 @@
     "wg": 1
   },
   {
-    "n": "Gardena Telescopische Tuinspuit",
-    "p": "24.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp91cca58d94954eb7b7c346f1df3a6416.jpeg",
-    "c": "Other",
-    "cn": "gardena telescopische tuinspuit",
-    "ik": "tok:gardena|telescopische-tuinspuit|1",
-    "bn": "gardena",
-    "wg": 1
-  },
-  {
     "n": "Gardena Tuinsproeier Comfort",
     "p": "17.99",
     "o": "",
@@ -54822,6 +54003,18 @@
     "c": "Other",
     "cn": "gardena comfort tuinsproeier",
     "ik": "tok:gardena|comfort-tuinsproeier|1",
+    "bn": "gardena",
+    "wg": 1
+  },
+  {
+    "n": "Gardena Telescopische Tuinspuit",
+    "p": "24.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp91cca58d94954eb7b7c346f1df3a6416.jpeg",
+    "c": "Other",
+    "cn": "gardena telescopische tuinspuit",
+    "ik": "tok:gardena|telescopische-tuinspuit|1",
     "bn": "gardena",
     "wg": 1
   },
@@ -54922,18 +54115,6 @@
     "wg": 1
   },
   {
-    "n": "Gardena Tuinsproeier Aqua L",
-    "p": "33.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpac30797468964c5080704196d09f63bc.png",
-    "c": "Other",
-    "cn": "gardena aqua tuinsproeier",
-    "ik": "tok:gardena|aqua-tuinsproeier|1",
-    "bn": "gardena",
-    "wg": 1
-  },
-  {
     "n": "Gardena Premium Broes Met Verlengstuk",
     "p": "31.99",
     "o": "",
@@ -54942,6 +54123,18 @@
     "c": "Other",
     "cn": "gardena broes premium verlengstuk",
     "ik": "tok:gardena|broes-premium-verlengstuk|1",
+    "bn": "gardena",
+    "wg": 1
+  },
+  {
+    "n": "Gardena Tuinsproeier Aqua L",
+    "p": "33.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpac30797468964c5080704196d09f63bc.png",
+    "c": "Other",
+    "cn": "gardena aqua tuinsproeier",
+    "ik": "tok:gardena|aqua-tuinsproeier|1",
     "bn": "gardena",
     "wg": 1
   },
@@ -55185,18 +54378,6 @@
     "wg": 1
   },
   {
-    "n": "PARKSIDE® Muur Tuinslang Haspel 15 M",
-    "p": "34.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpd382b395bae44f3c822f7b67a2030ee3.jpg",
-    "c": "Other",
-    "cn": "parkside 15 haspel muur tuinslang",
-    "ik": "tok:parkside|15-haspel-muur-tuinslang|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
     "n": "PARKSIDE® Heggenschaar Op Steel 800 W",
     "p": "59.99",
     "o": "",
@@ -55397,42 +54578,6 @@
     "c": "Other",
     "cn": "parkside grasmaaier onderdelen robot",
     "ik": "tok:parkside|grasmaaier-onderdelen-robot|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
-    "n": "PARKSIDE® Flexibele Tuinslang 15 M",
-    "p": "9.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp7f34c037daf247db9fdf17bf59c83b0e.jpg",
-    "c": "Other",
-    "cn": "parkside 15 flexibele tuinslang",
-    "ik": "tok:parkside|15-flexibele-tuinslang|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
-    "n": "PARKSIDE® Hogedrukreiniger 170 Bar",
-    "p": "109.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpd94ed4adf1f142a9b0d88dba89bd5a6a.jpg",
-    "c": "Other",
-    "cn": "parkside 170 bar hogedrukreiniger",
-    "ik": "tok:parkside|170-bar-hogedrukreiniger|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
-    "n": "PARKSIDE® Besproeiingscomputer",
-    "p": "17.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp4c4d284cee254de9aa17ade0c433b540.jpg",
-    "c": "Other",
-    "cn": "parkside besproeiingscomputer",
-    "ik": "tok:parkside|besproeiingscomputer|1",
     "bn": "parkside",
     "wg": 1
   },
@@ -55700,6 +54845,18 @@
     "wg": 1
   },
   {
+    "n": "PARKSIDE® Schep Of Spade",
+    "p": "17.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpc29165d80b9c417ba895ad7040859fc0.jpg",
+    "c": "Other",
+    "cn": "parkside of schep spade",
+    "ik": "tok:parkside|of-schep-spade|1",
+    "bn": "parkside",
+    "wg": 1
+  },
+  {
     "n": "Essential By Fiskars Bypass Snoeischaar",
     "p": "15.99",
     "o": "",
@@ -55805,18 +54962,6 @@
     "cn": "gde 399 554 benzine big grasmaaier kw wheeler",
     "ik": "tok:gde|399-554-benzine-big-grasmaaier-kw-wheeler|1",
     "bn": "gde",
-    "wg": 1
-  },
-  {
-    "n": "PARKSIDE® Schep Of Spade",
-    "p": "17.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpc29165d80b9c417ba895ad7040859fc0.jpg",
-    "c": "Other",
-    "cn": "parkside of schep spade",
-    "ik": "tok:parkside|of-schep-spade|1",
-    "bn": "parkside",
     "wg": 1
   },
   {
@@ -56011,6 +55156,18 @@
     "wg": 1
   },
   {
+    "n": "Gardena Grasschaar",
+    "p": "17.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp227568a615da438cb401456883a224b5.jpeg",
+    "c": "Other",
+    "cn": "gardena grasschaar",
+    "ik": "tok:gardena|grasschaar|1",
+    "bn": "gardena",
+    "wg": 1
+  },
+  {
     "n": "Güde Benzine Tuinfrees Gf 2436.1 465",
     "p": "",
     "o": "",
@@ -56044,18 +55201,6 @@
     "cn": "parkside 179 benzine bosmaaier kw performance",
     "ik": "tok:parkside|179-benzine-bosmaaier-kw-performance|1",
     "bn": "parkside",
-    "wg": 1
-  },
-  {
-    "n": "Gardena Grasschaar",
-    "p": "17.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp227568a615da438cb401456883a224b5.jpeg",
-    "c": "Other",
-    "cn": "gardena grasschaar",
-    "ik": "tok:gardena|grasschaar|1",
-    "bn": "gardena",
     "wg": 1
   },
   {
@@ -56191,49 +55336,39 @@
     "wg": 1
   },
   {
-    "n": "Flexibele Tuinslang 15 M",
-    "p": "0.67",
-    "o": "3.7 van 5 sterren (127 totale beoordelingen) per 15-m",
-    "s": "PER 15",
+    "n": "PARKSIDE® Flexibele Tuinslang 15 M",
+    "p": "9.99",
+    "o": "",
+    "s": "1 stuk",
     "l": "https://www.lidl.nl/assets/gcp7f34c037daf247db9fdf17bf59c83b0e.jpg",
     "c": "Other",
-    "cn": "flexibele 15 tuinslang",
-    "ik": "tok:flexibele|15-tuinslang|na",
-    "bn": "flexibele"
-  },
-  {
-    "n": "Hogedrukreiniger 170 Bar",
-    "p": "109.99",
-    "o": "4.6 van 5 sterren (1353 totale beoordelingen)",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpd94ed4adf1f142a9b0d88dba89bd5a6a.jpg",
-    "c": "Other",
-    "cn": "hogedrukreiniger 170 bar",
-    "ik": "tok:hogedrukreiniger|170-bar|1",
-    "bn": "hogedrukreiniger",
+    "cn": "parkside 15 flexibele tuinslang",
+    "ik": "tok:parkside|15-flexibele-tuinslang|1",
+    "bn": "parkside",
     "wg": 1
   },
   {
-    "n": "Flexibele Tuinslang 30 M",
-    "p": "0.83",
-    "o": "4.1 van 5 sterren (156 totale beoordelingen) per 30-m",
-    "s": "PER 30",
-    "l": "https://www.lidl.nl/assets/gcpc39c9745b90e430ab45c180254df6c3e.jpg",
+    "n": "PARKSIDE® Hogedrukreiniger 170 Bar",
+    "p": "109.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpd94ed4adf1f142a9b0d88dba89bd5a6a.jpg",
     "c": "Other",
-    "cn": "flexibele 30 tuinslang",
-    "ik": "tok:flexibele|30-tuinslang|na",
-    "bn": "flexibele"
+    "cn": "parkside 170 bar hogedrukreiniger",
+    "ik": "tok:parkside|170-bar-hogedrukreiniger|1",
+    "bn": "parkside",
+    "wg": 1
   },
   {
-    "n": "Besproeiingscomputer",
+    "n": "PARKSIDE® Besproeiingscomputer",
     "p": "17.99",
-    "o": "4.5 van 5 sterren (205 totale beoordelingen)",
+    "o": "",
     "s": "1 stuk",
     "l": "https://www.lidl.nl/assets/gcp4c4d284cee254de9aa17ade0c433b540.jpg",
     "c": "Other",
-    "cn": "besproeiingscomputer",
-    "ik": "tok:besproeiingscomputer|unknown|1",
-    "bn": "besproeiingscomputer",
+    "cn": "parkside besproeiingscomputer",
+    "ik": "tok:parkside|besproeiingscomputer|1",
+    "bn": "parkside",
     "wg": 1
   },
   {
@@ -56774,14 +55909,14 @@
     "wg": 1
   },
   {
-    "n": "Crivit Opvouwbare Strandmat 90 X 180 Cm",
+    "n": "Crivit Opvouwbare Strandmat 90 X 180 Cm (turquoise/witte strepen)",
     "p": "7.99",
     "o": "",
-    "s": "90 X 180 CM 7.99",
-    "l": "https://www.lidl.nl/assets/gcp36d8b39c57f142179f9d56dedab6b197.jpg",
+    "s": "90 X 180 CM (TURQUOISE/WITTE STREPEN) 7.99",
+    "l": "https://www.lidl.nl/assets/gcpeeafb5ad48dc4b9abde7b3b97fe676d2.jpg",
     "c": "Other",
-    "cn": "crivit 180 90 cm opvouwbare strandmat",
-    "ik": "tok:crivit|180-90-cm-opvouwbare-strandmat|na",
+    "cn": "crivit 180 90 cm opvouwbare strandmat strepen turquoise witte",
+    "ik": "tok:crivit|180-90-cm-opvouwbare-strandmat-strepen-turquoise-witte|na",
     "bn": "crivit"
   },
   {
@@ -56904,18 +56039,6 @@
     "wg": 1
   },
   {
-    "n": "PARKSIDE® Werkschoenen S1",
-    "p": "29.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpf08fedaf3a664917b20a408a525d0e5f.jpg",
-    "c": "Other",
-    "cn": "parkside s1 werkschoenen",
-    "ik": "tok:parkside|s1-werkschoenen|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
     "n": "Parkside PERFORMANCE® Dames Werkbroek Met Stretch",
     "p": "19.99",
     "o": "",
@@ -56924,6 +56047,18 @@
     "c": "Other",
     "cn": "parkside dames performance stretch werkbroek",
     "ik": "tok:parkside|dames-performance-stretch-werkbroek|1",
+    "bn": "parkside",
+    "wg": 1
+  },
+  {
+    "n": "PARKSIDE® Werkschoenen S1",
+    "p": "29.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpf08fedaf3a664917b20a408a525d0e5f.jpg",
+    "c": "Other",
+    "cn": "parkside s1 werkschoenen",
+    "ik": "tok:parkside|s1-werkschoenen|1",
     "bn": "parkside",
     "wg": 1
   },
@@ -58006,18 +57141,6 @@
     "wg": 1
   },
   {
-    "n": "PARKSIDE® Thermosfles Of Thermosbeker (Thermosfles)",
-    "p": "9.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpab7567142eb74b2c95680f042bec7b47.jpeg",
-    "c": "Other",
-    "cn": "parkside of thermosbeker thermosfles",
-    "ik": "tok:parkside|of-thermosbeker-thermosfles|1",
-    "bn": "parkside",
-    "wg": 1
-  },
-  {
     "n": "Parkside PERFORMANCE® Schuurgaas Set (schuurrooster 150 Mm k400)",
     "p": "9.99",
     "o": "",
@@ -58736,54 +57859,6 @@
     "wg": 1
   },
   {
-    "n": "Aluminium Huishoudtrap",
-    "p": "39.99",
-    "o": "5 van 5 sterren (2 totale beoordelingen) -14%",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpeaa9b8dab83c46e48866c11f84a7ec61.jpg",
-    "c": "Other",
-    "cn": "aluminium huishoudtrap",
-    "ik": "tok:aluminium|huishoudtrap|1",
-    "bn": "aluminium",
-    "wg": 1
-  },
-  {
-    "n": "Multitool Accessoires 24delig",
-    "p": "9.99",
-    "o": "Multitool accessoires 24-delig voor 9.99 EUR 4.7 van 5 sterren (38 totale beoordelingen) Multitool accessoires 24-delig",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp804c8fa80e91413dba9ef604070ed538.jpg",
-    "c": "Other",
-    "cn": "multitool 24delig accessoires",
-    "ik": "tok:multitool|24delig-accessoires|1",
-    "bn": "multitool",
-    "wg": 1
-  },
-  {
-    "n": "Niet- En Spijkerset",
-    "p": "3.99",
-    "o": "Niet- en spijkerset voor 3.99 EUR 4.7 van 5 sterren (55 totale beoordelingen) Niet- en spijkerset",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp534acd9d3ff949b298cf3f81fe49974e.jpg",
-    "c": "Other",
-    "cn": "niet spijkerset",
-    "ik": "tok:niet|spijkerset|1",
-    "bn": "niet",
-    "wg": 1
-  },
-  {
-    "n": "Gereedschapskoffer",
-    "p": "9.99",
-    "o": "-16% Ook in de winkel vanaf 05/08 - 11/08",
-    "s": "23 l",
-    "l": "https://www.lidl.nl/assets/gcpe629ab3ad63b45c3bcfaa61be5cba510.jpg",
-    "c": "Other",
-    "cn": "gereedschapskoffer",
-    "ik": "tok:gereedschapskoffer|unknown|23000",
-    "bn": "gereedschapskoffer",
-    "wg": 23000
-  },
-  {
     "n": "Chang Thais Bier",
     "p": "1.29",
     "o": "",
@@ -58892,6 +57967,17 @@
     "wg": 1
   },
   {
+    "n": "LIVARNO® Vloerkleed 80 X 150 Cm",
+    "p": "6.99",
+    "o": "",
+    "s": "80 X 150 CM 6.99",
+    "l": "https://www.lidl.nl/assets/gcp01c1735ecc2541268b9e27492b2d6a7b.jpg",
+    "c": "Other",
+    "cn": "livarno 150 80 cm vloerkleed",
+    "ik": "tok:livarno|150-80-cm-vloerkleed|na",
+    "bn": "livarno"
+  },
+  {
     "n": "Arte Espina Vloerkleed Monroe",
     "p": "43.99",
     "o": "",
@@ -58912,17 +57998,6 @@
     "c": "Other",
     "cn": "livarno 150 80 cm home vloerkleed",
     "ik": "tok:livarno|150-80-cm-home-vloerkleed|na",
-    "bn": "livarno"
-  },
-  {
-    "n": "LIVARNO® Vloerkleed 80 X 150 Cm",
-    "p": "6.99",
-    "o": "",
-    "s": "80 X 150 CM 6.99",
-    "l": "https://www.lidl.nl/assets/gcp01c1735ecc2541268b9e27492b2d6a7b.jpg",
-    "c": "Other",
-    "cn": "livarno 150 80 cm vloerkleed",
-    "ik": "tok:livarno|150-80-cm-vloerkleed|na",
     "bn": "livarno"
   },
   {
@@ -59022,17 +58097,6 @@
     "wg": 1
   },
   {
-    "n": "LIVARNO® Zelfklevende Decoratiefolie X 10 M",
-    "p": "0.45",
-    "o": "",
-    "s": "45 X 10 M 5.99",
-    "l": "https://www.lidl.nl/assets/gcp875a57c4956b40a29c7d685d63aec9fb.jpg",
-    "c": "Other",
-    "cn": "livarno 10 decoratiefolie zelfklevende",
-    "ik": "tok:livarno|10-decoratiefolie-zelfklevende|na",
-    "bn": "livarno"
-  },
-  {
     "n": "Sitting Point Bean Bag Voetbal Of Kicker",
     "p": "58.99",
     "o": "",
@@ -59042,6 +58106,18 @@
     "cn": "sitting bag bean kicker of point voetbal",
     "ik": "tok:sitting|bag-bean-kicker-of-point-voetbal|1",
     "bn": "sitting",
+    "wg": 1
+  },
+  {
+    "n": "Livarno Home Wandkubussen (Wit)",
+    "p": "12.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcp28e5ca8b2b3c430e88dcc77bc3e4820f.jpeg",
+    "c": "Other",
+    "cn": "livarno home wandkubussen wit",
+    "ik": "tok:livarno|home-wandkubussen-wit|1",
+    "bn": "livarno",
     "wg": 1
   },
   {
@@ -59068,14 +58144,14 @@
     "bn": "livarno"
   },
   {
-    "n": "Livarno Home Wandkubussen (Wit)",
-    "p": "12.99",
+    "n": "Livarno Home Bijzettafel (Wit)",
+    "p": "14.99",
     "o": "",
     "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp28e5ca8b2b3c430e88dcc77bc3e4820f.jpeg",
+    "l": "https://www.lidl.nl/assets/gcp0fccfcb4fbf74d979e9333577528769f.jpeg",
     "c": "Other",
-    "cn": "livarno home wandkubussen wit",
-    "ik": "tok:livarno|home-wandkubussen-wit|1",
+    "cn": "livarno bijzettafel home wit",
+    "ik": "tok:livarno|bijzettafel-home-wit|1",
     "bn": "livarno",
     "wg": 1
   },
@@ -59100,18 +58176,6 @@
     "c": "Other",
     "cn": "livarno ladekast",
     "ik": "tok:livarno|ladekast|1",
-    "bn": "livarno",
-    "wg": 1
-  },
-  {
-    "n": "Livarno Home Bijzettafel (Wit)",
-    "p": "14.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp0fccfcb4fbf74d979e9333577528769f.jpeg",
-    "c": "Other",
-    "cn": "livarno bijzettafel home wit",
-    "ik": "tok:livarno|bijzettafel-home-wit|1",
     "bn": "livarno",
     "wg": 1
   },
@@ -59188,29 +58252,6 @@
     "wg": 1
   },
   {
-    "n": "Livarno Home Katoenen Vloerkleed 67 X 120 Cm (Zwart/wit)",
-    "p": "14.99",
-    "o": "",
-    "s": "67 X 120 CM (ZWART/WIT) 14.99",
-    "l": "https://www.lidl.nl/assets/gcp45634f82cc1349cf8fa55d1c6ff725b3.jpeg",
-    "c": "Other",
-    "cn": "livarno 120 67 cm home katoenen vloerkleed wit zwart",
-    "ik": "tok:livarno|120-67-cm-home-katoenen-vloerkleed-wit-zwart|na",
-    "bn": "livarno"
-  },
-  {
-    "n": "Livarno Home Hoogpolig Tapijt (Donkergrijs)",
-    "p": "19.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpde21d4b8685c4f858e67ab5feeeacc65.jpeg",
-    "c": "Other",
-    "cn": "livarno donkergrijs home hoogpolig tapijt",
-    "ik": "tok:livarno|donkergrijs-home-hoogpolig-tapijt|1",
-    "bn": "livarno",
-    "wg": 1
-  },
-  {
     "n": "LIVARNO® Metalen Wandrek",
     "p": "12.99",
     "o": "",
@@ -59231,6 +58272,29 @@
     "c": "Other",
     "cn": "livarno kubus wandkasten",
     "ik": "tok:livarno|kubus-wandkasten|1",
+    "bn": "livarno",
+    "wg": 1
+  },
+  {
+    "n": "Livarno Home Katoenen Vloerkleed 67 X 120 Cm (Zwart/wit)",
+    "p": "14.99",
+    "o": "",
+    "s": "67 X 120 CM (ZWART/WIT) 14.99",
+    "l": "https://www.lidl.nl/assets/gcp45634f82cc1349cf8fa55d1c6ff725b3.jpeg",
+    "c": "Other",
+    "cn": "livarno 120 67 cm home katoenen vloerkleed wit zwart",
+    "ik": "tok:livarno|120-67-cm-home-katoenen-vloerkleed-wit-zwart|na",
+    "bn": "livarno"
+  },
+  {
+    "n": "Livarno Home Hoogpolig Tapijt (Donkergrijs)",
+    "p": "19.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.lidl.nl/assets/gcpde21d4b8685c4f858e67ab5feeeacc65.jpeg",
+    "c": "Other",
+    "cn": "livarno donkergrijs home hoogpolig tapijt",
+    "ik": "tok:livarno|donkergrijs-home-hoogpolig-tapijt|1",
     "bn": "livarno",
     "wg": 1
   },
@@ -59458,50 +58522,15 @@
     "wg": 1
   },
   {
-    "n": "Vloerkleed 80 X 150 Cm - Laagpolig Geschikt Voor Vloerverwarming Eur LIVARNO®",
-    "p": "6.95",
-    "o": "Vloerkleed 80 x 150 cm - laagpolig - geschikt voor vloerverwarming voor 6.95 EUR Vloerkleed 80 x 150 cm - laagpolig - geschikt voor vloerverwarming -22%",
-    "s": "80 X 150 CM - LAAGPOLIG - GESCHIKT VOOR VLOERVERWARMING VOOR 6.95 EUR LIVARNO® VLOERKLEED 80 X 150 CM - LAAGPOLIG - GESCHIKT VOOR VLOERVERWARMING 8.99 -22% 6.95",
-    "l": "https://www.lidl.nl/assets/gcp1761e138523545a7a2247c7699bfd5f4.jpg",
-    "c": "Other",
-    "cn": "vloerkleed 150 80 cm geschikt laagpolig livarno vloerverwarming",
-    "ik": "tok:vloerkleed|150-80-cm-geschikt-laagpolig-livarno-vloerverwarming|na",
-    "bn": "vloerkleed"
-  },
-  {
-    "n": "Vloerkleed Kierk - Laagpolig & Warme Kleuren",
-    "p": "34.99",
-    "o": "Vloerkleed Kierk - laagpolig & warme kleuren voor 34.99 EUR Vloerkleed Kierk - laagpolig & warme kleuren vanaf Adviesprijs: vanaf 65.- *",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcp2574095c7ff44e63af43b97c446a68d0.jpg",
-    "c": "Other",
-    "cn": "vloerkleed kierk kleuren laagpolig warme",
-    "ik": "tok:vloerkleed|kierk-kleuren-laagpolig-warme|1",
-    "bn": "vloerkleed",
-    "wg": 1
-  },
-  {
-    "n": "Thermorolgordijn Klemmfix",
-    "p": "12.49",
-    "o": "Thermo-rolgordijn Klemmfix voor 12.49 EUR 4.6 van 5 sterren (1522 totale beoordelingen) Thermo-rolgordijn Klemmfix vanaf Adviesprijs: vanaf 22.99 *",
-    "s": "1 stuk",
-    "l": "https://www.lidl.nl/assets/gcpcbf96c43ba5e48529cd83d35357603e3.jpeg",
-    "c": "Other",
-    "cn": "thermorolgordijn klemmfix",
-    "ik": "tok:thermorolgordijn|klemmfix|1",
-    "bn": "thermorolgordijn",
-    "wg": 1
-  },
-  {
-    "n": "Zelfklevende Decoratiefolie X 10 M",
+    "n": "LIVARNO® Zelfklevende Decoratiefolie X 10 M",
     "p": "0.45",
     "o": "",
-    "s": "45 X 10 M VOOR 5.99 EUR LIVARNO® ZELFKLEVENDE DECORATIEFOLIE 0,45 X 10 M 5.99 1 M = 0.60",
+    "s": "45 X 10 M 5.99",
     "l": "https://www.lidl.nl/assets/gcp875a57c4956b40a29c7d685d63aec9fb.jpg",
     "c": "Other",
-    "cn": "zelfklevende 10 decoratiefolie",
-    "ik": "tok:zelfklevende|10-decoratiefolie|na",
-    "bn": "zelfklevende"
+    "cn": "livarno 10 decoratiefolie zelfklevende",
+    "ik": "tok:livarno|10-decoratiefolie-zelfklevende|na",
+    "bn": "livarno"
   },
   {
     "n": "Lipton Ice Tea",

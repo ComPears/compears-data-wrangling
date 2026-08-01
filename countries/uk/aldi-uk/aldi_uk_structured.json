@@ -2665,6 +2665,19 @@
     "wg": 250
   },
   {
+    "n": "Hake & Cheddar Fishcake",
+    "p": "2.29",
+    "o": "",
+    "s": "290 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/specially-selected-hake-cheddar-fishcake/000000000383169009",
+    "c": "Other",
+    "cn": "hake cheddar fishcake",
+    "ik": "tok:hake|cheddar-fishcake|290",
+    "bn": "hake",
+    "wg": 290
+  },
+  {
     "n": "British Mature Cheddar Cheese 10 Slices",
     "p": "1.99",
     "o": "",
@@ -2754,19 +2767,6 @@
     "ik": "tok:british|30-cheddar-cheese-lighter-mature|400",
     "bn": "british",
     "wg": 400
-  },
-  {
-    "n": "Hake & Cheddar Fishcake",
-    "p": "2.29",
-    "o": "",
-    "s": "290 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-hake-cheddar-fishcake/000000000383169009",
-    "c": "Other",
-    "cn": "hake cheddar fishcake",
-    "ik": "tok:hake|cheddar-fishcake|290",
-    "bn": "hake",
-    "wg": 290
   },
   {
     "n": "British Cheddar Cheese With Black Pepper 5 Slices",
@@ -8863,19 +8863,6 @@
     "wg": 1
   },
   {
-    "n": "Vegetarian Ham Slices",
-    "p": "1.45",
-    "o": "",
-    "s": "100 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/quorn-vegetarian-ham-slices/000000000493578001",
-    "c": "Other",
-    "cn": "vegetarian ham slices",
-    "ik": "tok:vegetarian|ham-slices|100",
-    "bn": "vegetarian",
-    "wg": 100
-  },
-  {
     "n": "Wafer Thin British Cooked Ham 40 Slices",
     "p": "1.89",
     "o": "",
@@ -8964,6 +8951,19 @@
     "cn": "british cooked ham slices thin wafer",
     "ik": "tok:british|cooked-ham-slices-thin-wafer|120",
     "bn": "british",
+    "wg": 120
+  },
+  {
+    "n": "Applewood Smoked Wiltshire Cured Ham 6 Slices",
+    "p": "2.19",
+    "o": "",
+    "s": "120 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/specially-selected-applewood-smoked-wiltshire-cured-ham-6-slices/000000000615748001",
+    "c": "Other",
+    "cn": "applewood cured ham slices smoked wiltshire",
+    "ik": "tok:applewood|cured-ham-slices-smoked-wiltshire|120",
+    "bn": "applewood",
     "wg": 120
   },
   {
@@ -12333,14 +12333,14 @@
     "n": "Still Spring Water",
     "p": "1.29",
     "o": "",
-    "s": "0 ml",
+    "s": "5 l",
     "l": "",
     "i": "https://www.aldi.co.uk/product/aqua-v-still-spring-water/000000000000336554",
     "c": "Other",
     "cn": "still spring water",
-    "ik": "tok:still|spring-water|0",
+    "ik": "tok:still|spring-water|5000",
     "bn": "still",
-    "wg": 0
+    "wg": 5000
   },
   {
     "n": "Water Spray Guns",
@@ -12866,14 +12866,14 @@
     "n": "Vegetable Oil",
     "p": "1.45",
     "o": "",
-    "s": "0 ml",
+    "s": "1 l",
     "l": "",
     "i": "https://www.aldi.co.uk/product/solesta-vegetable-oil/000000000000335872",
     "c": "Other",
     "cn": "vegetable oil",
-    "ik": "tok:vegetable|oil|0",
+    "ik": "tok:vegetable|oil|1000",
     "bn": "vegetable",
-    "wg": 0
+    "wg": 1000
   },
   {
     "n": "Sardines In Sunflower Oil",
@@ -15122,19 +15122,6 @@
     "wg": 90
   },
   {
-    "n": "Toffee Crisp",
-    "p": "1.19",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/nestle-toffee-crisp/000000000730428003",
-    "c": "Other",
-    "cn": "toffee crisp",
-    "ik": "tok:toffee|crisp|120",
-    "bn": "toffee",
-    "wg": 120
-  },
-  {
     "n": "Mini Cheese Bakes 7 Pack",
     "p": "0.99",
     "o": "",
@@ -15159,6 +15146,19 @@
     "ik": "tok:salt|24-crunchy-pack-sticks-vinegar|432",
     "bn": "salt",
     "wg": 432
+  },
+  {
+    "n": "Teddy Faces 6 Pack",
+    "p": "1.15",
+    "o": "",
+    "s": "90 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/snackrite-teddy-faces-6-pack/000000000000545909",
+    "c": "Other",
+    "cn": "teddy faces pack",
+    "ik": "tok:teddy|faces-pack|90",
+    "bn": "teddy",
+    "wg": 90
   },
   {
     "n": "Milk Chocolate Belgian Chocolate Waves",
@@ -16266,19 +16266,6 @@
     "wg": 430
   },
   {
-    "n": "Pizza Pops",
-    "p": "1.99",
-    "o": "",
-    "s": "144 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
-    "c": "Other",
-    "cn": "pizza pops",
-    "ik": "tok:pizza|pops|144",
-    "bn": "pizza",
-    "wg": 144
-  },
-  {
     "n": "Pepperoni Pizza Subs 2 Pack",
     "p": "0.99",
     "o": "",
@@ -16316,6 +16303,19 @@
     "ik": "tok:deep|cheese-pan-pizza-three|390",
     "bn": "deep",
     "wg": 390
+  },
+  {
+    "n": "Pizza Pops",
+    "p": "1.99",
+    "o": "",
+    "s": "144 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
+    "c": "Other",
+    "cn": "pizza pops",
+    "ik": "tok:pizza|pops|144",
+    "bn": "pizza",
+    "wg": 144
   },
   {
     "n": "Spicy Salami Italian Stonebaked Pizza",
@@ -16745,6 +16745,19 @@
     "ik": "tok:halloumi|10-fries-pack-style|170",
     "bn": "halloumi",
     "wg": 170
+  },
+  {
+    "n": "Southern Fried Chicken Steaks In Breadcrumbs 4 Pack",
+    "p": "1.79",
+    "o": "",
+    "s": "380 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/roosters-southern-fried-chicken-steaks-in-breadcrumbs-4-pack/000000000492319002",
+    "c": "Other",
+    "cn": "southern breadcrumbs chicken fried in pack steaks",
+    "ik": "tok:southern|breadcrumbs-chicken-fried-in-pack-steaks|380",
+    "bn": "southern",
+    "wg": 380
   },
   {
     "n": "Pan Fried Potatoes",

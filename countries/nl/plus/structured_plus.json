@@ -114511,16 +114511,16 @@
     "wg": 250
   },
   {
-    "n": "Redband Redband Schatkistjes",
+    "n": "Mars Mars Minimix Melk Chocolade Repen",
     "o": "",
-    "s": "228 ml",
-    "p": "2.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/423869_M/66914b7d1af7cbda4558f6b4416b0b90/423869.png",
+    "s": "400 ml",
+    "p": "4.79",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/427115_M/9c2efd95909e4f2fe4e01a33f807d3e9/427115.png",
     "c": "Snacks",
-    "cn": "redband schatkistjes",
-    "ik": "tok:redband|schatkistjes|228",
-    "bn": "redband",
-    "wg": 228
+    "cn": "mars chocolade melk minimix repen",
+    "ik": "tok:mars|chocolade-melk-minimix-repen|400",
+    "bn": "mars",
+    "wg": 400
   },
   {
     "n": "Milka Milka Chocoladereep Alpenmelk",
@@ -114535,16 +114535,16 @@
     "wg": 90
   },
   {
-    "n": "Venco Venco Piramides",
+    "n": "M&M'S M&M'S Crispy",
     "o": "",
-    "s": "235 ml",
-    "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/356893_M/43f234ca01db744360dcb1817328623f/356893.png",
+    "s": "309 ml",
+    "p": "5.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/662486_M/ef80d032e8d5ddd20750e4dc8450ae46/662486.png",
     "c": "Snacks",
-    "cn": "venco piramides",
-    "ik": "tok:venco|piramides|235",
-    "bn": "venco",
-    "wg": 235
+    "cn": "m&ms crispy",
+    "ik": "tok:m&ms|crispy|309",
+    "bn": "m&ms",
+    "wg": 309
   },
   {
     "n": "Plus Plus Chocolade Reep Melk",
@@ -114559,16 +114559,16 @@
     "wg": 100
   },
   {
-    "n": "Redband Redband Juicy Bites Aardbei",
+    "n": "Celebrations Celebrations Assortimentsmix Geschenk",
     "o": "",
-    "s": "145 ml",
-    "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/198519_M/ffa34f86046e26e364b4d91f29132de0/198519.png",
+    "s": "385 ml",
+    "p": "7.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/404773_M/e95233bd54198aa91dff7fe5cf36f847/404773.png",
     "c": "Snacks",
-    "cn": "redband aardbei bites juicy",
-    "ik": "tok:redband|aardbei-bites-juicy|145",
-    "bn": "redband",
-    "wg": 145
+    "cn": "celebrations assortimentsmix geschenk",
+    "ik": "tok:celebrations|assortimentsmix-geschenk|385",
+    "bn": "celebrations",
+    "wg": 385
   },
   {
     "n": "Plus Plus Chocolade Reep Puur",
@@ -114593,18 +114593,6 @@
     "ik": "tok:plus|choco-chocolade-fairtrade-mini-mix|450",
     "bn": "plus",
     "wg": 450
-  },
-  {
-    "n": "Mars Mars Minimix Melk Chocolade Repen",
-    "o": "",
-    "s": "400 ml",
-    "p": "4.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/427115_M/9c2efd95909e4f2fe4e01a33f807d3e9/427115.png",
-    "c": "Snacks",
-    "cn": "mars chocolade melk minimix repen",
-    "ik": "tok:mars|chocolade-melk-minimix-repen|400",
-    "bn": "mars",
-    "wg": 400
   },
   {
     "n": "Kitkat Kitkat Chunky White 4-pack",
@@ -114941,18 +114929,6 @@
     "ik": "tok:plus|chocos-classics-fairtrade|200",
     "bn": "plus",
     "wg": 200
-  },
-  {
-    "n": "M&M'S M&M'S Crispy",
-    "o": "",
-    "s": "309 ml",
-    "p": "5.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/662486_M/ef80d032e8d5ddd20750e4dc8450ae46/662486.png",
-    "c": "Snacks",
-    "cn": "m&ms crispy",
-    "ik": "tok:m&ms|crispy|309",
-    "bn": "m&ms",
-    "wg": 309
   },
   {
     "n": "Côte d'Or Côte d'Or Chocoladereep Melk",
@@ -118879,6 +118855,18 @@
     "wg": 180
   },
   {
+    "n": "Redband Redband Schatkistjes",
+    "o": "",
+    "s": "228 ml",
+    "p": "2.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/423869_M/66914b7d1af7cbda4558f6b4416b0b90/423869.png",
+    "c": "Snacks",
+    "cn": "redband schatkistjes",
+    "ik": "tok:redband|schatkistjes|228",
+    "bn": "redband",
+    "wg": 228
+  },
+  {
     "n": "Plus Plus Roomboter kano's",
     "o": "",
     "s": "275 ml",
@@ -118901,6 +118889,18 @@
     "ik": "tok:plus|chocoprentjes-fairtrade-melk|150",
     "bn": "plus",
     "wg": 150
+  },
+  {
+    "n": "Redband Redband Juicy Bites Aardbei",
+    "o": "",
+    "s": "145 ml",
+    "p": "1.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/198519_M/ffa34f86046e26e364b4d91f29132de0/198519.png",
+    "c": "Snacks",
+    "cn": "redband aardbei bites juicy",
+    "ik": "tok:redband|aardbei-bites-juicy|145",
+    "bn": "redband",
+    "wg": 145
   },
   {
     "n": "Plus Plus Roze Koeken",
@@ -120619,6 +120619,18 @@
     "wg": 222
   },
   {
+    "n": "Venco Venco Piramides",
+    "o": "",
+    "s": "235 ml",
+    "p": "1.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/356893_M/43f234ca01db744360dcb1817328623f/356893.png",
+    "c": "Snacks",
+    "cn": "venco piramides",
+    "ik": "tok:venco|piramides|235",
+    "bn": "venco",
+    "wg": 235
+  },
+  {
     "n": "Katja Katja Yoghurtgums",
     "o": "",
     "s": "295 ml",
@@ -121301,18 +121313,6 @@
     "ik": "tok:plus|knoflook-picos|150",
     "bn": "plus",
     "wg": 150
-  },
-  {
-    "n": "Celebrations Celebrations Assortimentsmix Geschenk",
-    "o": "",
-    "s": "196 ml",
-    "p": "3.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/404771_M/1f185bc88bc0ffb2f78a37cff842ad6b/404771.png",
-    "c": "Snacks",
-    "cn": "celebrations assortimentsmix geschenk",
-    "ik": "tok:celebrations|assortimentsmix-geschenk|196",
-    "bn": "celebrations",
-    "wg": 196
   },
   {
     "n": "Chio Chio Borrelbites Paprika Sweet Chili",
