@@ -1,438 +1,159 @@
 name: Daily supermarket scrapers
 
-# Runs all Python store scrapers daily at 00:00 UTC and commits updated JSON to this repo.
-# Backend seed picks up these files weekly via ComPears/compear-backend (.github/workflows/seed-backend.yml, Mon 06:00 UTC).
-# Downstream jobs (prune, backend sync) run when at least one store scraper succeeds.
-
 on:
-  # push:
   schedule:
-    - cron: '0 0 * * *'  # 12 AM UTC daily
-  workflow_dispatch:      # Manual trigger option
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 concurrency:
   group: daily-supermarket-scrapers
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
-  generate-ah:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
-
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12.8'
-          check-latest: false
-
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-
-      # --- Step 4a: Run Python script to generate AH structured_all_merged.json ---
-      - name: Generate NL Albert Heijn catalog
-        run: python scripts/run_store_pipeline.py --store albert-heijn
-
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: bash scripts/git_push_with_rebase.sh "Automated update  $(date +'%Y-%m-%d %H:%M:%S')" countries/nl/albert-heijn/structured_all_merged.json
-  
-  generate-aldi:
-    # needs: [generate-ah]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
-
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12.8'
-          check-latest: false
-
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-
-      - name: Install Playwright browsers
-        run: |
-          python -m playwright install
-          python -m playwright install-deps
-
-      # --- Step 4a: Run Python script to generate ALDI structured_aldi.json ---
-      - name: Generate NL ALDI catalog
-        run: python scripts/run_store_pipeline.py --store aldi
-
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: bash scripts/git_push_with_rebase.sh "Automated update  $(date +'%Y-%m-%d %H:%M:%S')" countries/nl/aldi/structured_aldi.json
-
-  generate-dirk:
-    # needs: [generate-aldi]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
-
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12.8'
-          check-latest: false
-
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-
-      - name: Install Playwright browsers
-        run: |
-          python -m playwright install
-          python -m playwright install-deps
-
-      # --- Step 4a: Run Python script to generate DIRK dirk_all.json ---
-      - name: Generate NL Dirk catalog
-        run: python scripts/run_store_pipeline.py --store dirk
-
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: bash scripts/git_push_with_rebase.sh "Automated update  $(date +'%Y-%m-%d %H:%M:%S')" countries/nl/dirk/dirk_all.json
-
-  generate-plus:
-    # needs: [generate-dirk]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
-
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12.8'
-          check-latest: false
-
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-
-      - name: Install Playwright browsers
-        run: |
-          python -m playwright install
-          python -m playwright install-deps
-
-      # --- Step 4a: Run Python script to generate PLUS structured_plus.json ---
-      - name: Generate NL PLUS catalog
-        run: python scripts/run_store_pipeline.py --store plus
-
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: bash scripts/git_push_with_rebase.sh "Automated update  $(date +'%Y-%m-%d %H:%M:%S')" countries/nl/plus/structured_plus.json
-
-  generate-lidl:
-    # needs: [generate-plus]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
-
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12.8'
-          check-latest: false
-
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-
-      - name: Install Playwright browsers
-        run: |
-          python -m playwright install
-          python -m playwright install-deps
-
-      # --- Step 4a: Run Python script to generate LIDL lidl_structured.json ---
-      - name: Generate NL Lidl catalog
-        run: python scripts/run_store_pipeline.py --store lidl
-
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: bash scripts/git_push_with_rebase.sh "Automated update  $(date +'%Y-%m-%d %H:%M:%S')" countries/nl/lidl/lidl_structured.json
-
-  generate-coop:
-    # needs: [generate-lidl]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
-
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12.8'
-          check-latest: false
-
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-
-      - name: Install Playwright browsers
-        run: |
-          python -m playwright install
-          python -m playwright install-deps
-
-      # Coop uses the same PLUS PLP API via redirects and often fails in CI.
-      # Store is optional in config/stores.json (skip staleness CI failures).
-      # Try the scrape, but never fail the job; PLUS dedupe runs in prune-stale-data.
-      - name: Generate NL Coop catalog
-        id: coop_scrape
-        continue-on-error: true
-        run: python scripts/run_store_pipeline.py --store coop
-
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        if: steps.coop_scrape.outcome == 'success'
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: bash scripts/git_push_with_rebase.sh "Automated update  $(date +'%Y-%m-%d %H:%M:%S')" countries/nl/coop/coop_structured.json
-
-  generate-jumbo:
-    # needs: [generate-coop]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      # --- Step 1: Checkout current repo ---
-      - name: Checkout current repo
-        uses: actions/checkout@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
-
-      # --- Step 2: Set up Python ---
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12.8'
-          check-latest: false
-
-      # --- Step 3: Install dependencies (if needed) ---
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-
-      - name: Install Playwright browsers
-        run: |
-          python -m playwright install chromium
-          python -m playwright install-deps chromium
-
-      # --- Step 4d: Run Python script to generate jumbo_structured.json ---
-      - name: Generate NL Jumbo catalog
-        run: python scripts/run_store_pipeline.py --store jumbo
-
-      # --- Step 5: Push to Repo
-      - name: Push files to repo
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: bash scripts/git_push_with_rebase.sh "Automated update  $(date +'%Y-%m-%d %H:%M:%S')" countries/nl/jumbo/jumbo_structured.json
-
-  generate-uk:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+  scrape:
+    name: Scrape ${{ matrix.country }}/${{ matrix.store }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
     strategy:
       fail-fast: false
+      max-parallel: 5
       matrix:
         include:
-          - store: tesco
-          - store: sainsburys
-          - store: morrisons
-          - store: aldi-uk
-          - store: lidl-uk
-          # Asda is Cloudflare-gated; Chrome channel helps but may still flake in CI.
-          - store: asda
-            optional: true
-
-    # Only Asda is allowed to fail without failing the UK pipeline.
-    continue-on-error: ${{ matrix.store == 'asda' }}
+          - country: nl
+            store: albert-heijn
+            playwright: false
+          - country: nl
+            store: aldi
+            playwright: true
+          - country: nl
+            store: dirk
+            playwright: true
+          - country: nl
+            store: plus
+            playwright: true
+          - country: nl
+            store: lidl
+            playwright: true
+          - country: nl
+            store: coop
+            playwright: true
+          - country: nl
+            store: jumbo
+            playwright: true
+          - country: uk
+            store: tesco
+            playwright: true
+          - country: uk
+            store: sainsburys
+            playwright: true
+          - country: uk
+            store: morrisons
+            playwright: true
+          - country: uk
+            store: aldi-uk
+            playwright: true
+          - country: uk
+            store: lidl-uk
+            playwright: true
+          - country: uk
+            store: asda
+            playwright: true
 
     steps:
-      - name: Checkout current repo
+      - name: Checkout catalog repository
         uses: actions/checkout@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN}}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12.8'
           check-latest: false
+          cache: pip
+          cache-dependency-path: requirements.txt
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+      - name: Install locked dependencies
+        run: pip install -r requirements.txt
 
-      - name: Install Playwright browsers
-        run: |
-          python -m playwright install chromium
-          python -m playwright install-deps chromium
+      - name: Install Chromium runtime
+        if: matrix.playwright
+        run: python -m playwright install --with-deps chromium
 
       - name: Install Chrome channel for Asda
         if: matrix.store == 'asda'
         run: python -m playwright install chrome
 
-      - name: Generate UK ${{ matrix.store }} catalog
+      - name: Generate catalog
         env:
           UK_MAX_QUERIES: '80'
+          UK_MAX_BLOCKED_QUERIES: '3'
+          UK_MAX_EMPTY_QUERIES: '5'
           PLAYWRIGHT_CHANNEL: ${{ matrix.store == 'asda' && 'chrome' || '' }}
-        run: python scripts/run_store_pipeline.py --country uk --store ${{ matrix.store }}
+          STATUS_FILE: artifacts/catalog/reports/scrape-status/${{ matrix.country }}-${{ matrix.store }}.json
+        run: >-
+          python scripts/run_store_pipeline.py
+          --country "${{ matrix.country }}"
+          --store "${{ matrix.store }}"
+          --soft-fail
+          --status-file "$STATUS_FILE"
 
-      - name: Push UK catalog
+      - name: Stage canonical catalog artifact
+        if: always()
         env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: bash scripts/git_push_with_rebase.sh "Automated UK update ${{ matrix.store }} $(date +'%Y-%m-%d %H:%M:%S')" countries/uk/${{ matrix.store }}/
+          STATUS_FILE: artifacts/catalog/reports/scrape-status/${{ matrix.country }}-${{ matrix.store }}.json
+        run: >-
+          python scripts/stage_store_artifact.py
+          --country "${{ matrix.country }}"
+          --store "${{ matrix.store }}"
+          --status-file "$STATUS_FILE"
 
-  prune-stale-data:
-    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo, generate-uk]
-    if: >-
-      always() && !cancelled() && (
-        needs.generate-ah.result == 'success' ||
-        needs.generate-aldi.result == 'success' ||
-        needs.generate-dirk.result == 'success' ||
-        needs.generate-plus.result == 'success' ||
-        needs.generate-lidl.result == 'success' ||
-        needs.generate-coop.result == 'success' ||
-        needs.generate-jumbo.result == 'success' ||
-        needs.generate-uk.result == 'success'
-      )
-    runs-on: ubuntu-latest
+      - name: Upload canonical catalog artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-${{ matrix.country }}-${{ matrix.store }}
+          path: artifacts/catalog
+          if-no-files-found: error
+          retention-days: 7
+
+  validate-and-publish:
+    name: Validate and publish catalog snapshot
+    needs: scrape
+    if: always() && !cancelled()
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
     permissions:
       contents: write
 
     steps:
-      - name: Checkout current repo
+      - name: Checkout latest catalog state
         uses: actions/checkout@v7
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
           fetch-depth: 0
 
-      - name: Sync to latest main
-        run: git pull --rebase origin main
-
-      - name: Report partial scrape run
-        run: |
-          echo "Scrape results:"
-          echo "  AH:    ${{ needs.generate-ah.result }}"
-          echo "  ALDI:  ${{ needs.generate-aldi.result }}"
-          echo "  DIRK:  ${{ needs.generate-dirk.result }}"
-          echo "  PLUS:  ${{ needs.generate-plus.result }}"
-          echo "  LIDL:  ${{ needs.generate-lidl.result }}"
-          echo "  COOP:  ${{ needs.generate-coop.result }}"
-          echo "  JUMBO: ${{ needs.generate-jumbo.result }}"
-          echo "  UK:    ${{ needs.generate-uk.result }}"
+      - name: Download all successful scraper artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: catalog-*
+          merge-multiple: true
+          path: .
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12.8'
           check-latest: false
+          cache: pip
+          cache-dependency-path: requirements.txt
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+      - name: Install locked dependencies
+        run: pip install -r requirements.txt
+
+      - name: Summarize store refresh outcomes
+        run: python scripts/summarize_scrape_status.py
 
       - name: Sanitize canonical product JSON
         run: python scripts/sanitize_all_stores.py
@@ -440,66 +161,70 @@ jobs:
       - name: Validate store output counts
         run: python scripts/validate_store_output.py
 
-      - name: Validate data quality
-        continue-on-error: true
-        run: python scripts/validate_products.py
-
-      - name: Test catalog health reporting
+      - name: Run catalog regression tests
         run: python -m unittest discover -s tests -t . -v
 
-      # Health errors (e.g. NL Lidl invalid-price rate) should not block sync;
-      # hard gates are validate_store_output + seed minimums.
+      - name: Validate data quality
+        run: python scripts/validate_products.py
+
       - name: Generate catalog health report
+        id: catalog_health
         continue-on-error: true
         run: python scripts/catalog_health.py --fail-on error
 
-      - name: Upload catalog health report
+      - name: Upload diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: catalog-health
-          path: reports/catalog-health.json
-          if-no-files-found: error
+          name: catalog-diagnostics
+          path: |
+            reports/catalog-health.json
+            reports/scrape-status/*.json
+          if-no-files-found: warn
+          retention-days: 14
 
-      - name: Remove stale intermediate JSON from repo
+      - name: Remove stale intermediate JSON
         run: python scripts/prune_stale_artifacts.py --from-git
 
-      - name: Commit sanitize and prune changes
+      - name: Enforce catalog freshness SLA
         env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
-        run: bash scripts/git_push_with_rebase.sh "Sanitize catalog and prune stale artifacts $(date -u +'%Y-%m-%d %H:%M:%SZ')" -A
+          CATALOG_MAX_AGE_HOURS: '72'
+          CATALOG_MAX_DROP_RATIO: '0.5'
+          CATALOG_MAX_GROWTH_RATIO: '3'
+        run: python scripts/workflow_catalog_alerts.py
+
+      - name: Commit one validated catalog snapshot
+        id: catalog_commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A countries
+          if git diff --cached --quiet; then
+            echo "No validated catalog changes to commit"
+          else
+            git commit -m "Automated validated catalog update $(date -u +'%Y-%m-%d %H:%M:%SZ')"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
   sync-backend-and-render:
-    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo, generate-uk, prune-stale-data]
-    if: >-
-      always() && !cancelled() && (
-        needs.generate-ah.result == 'success' ||
-        needs.generate-aldi.result == 'success' ||
-        needs.generate-dirk.result == 'success' ||
-        needs.generate-plus.result == 'success' ||
-        needs.generate-lidl.result == 'success' ||
-        needs.generate-coop.result == 'success' ||
-        needs.generate-jumbo.result == 'success' ||
-        needs.generate-uk.result == 'success'
-      )
-    runs-on: ubuntu-latest
+    name: Sync validated snapshot to backend
+    needs: validate-and-publish
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
     permissions:
       contents: read
 
     steps:
-      - name: Checkout data-wrangling repo
+      - name: Checkout data-wrangling repository
         uses: actions/checkout@v7
         with:
           ref: main
           path: compears-data-wrangling
-          fetch-depth: 0
+          fetch-depth: 1
 
-      - name: Sync data-wrangling to latest main
-        working-directory: compears-data-wrangling
-        run: git pull --rebase origin main
-
-      - name: Checkout backend repo
+      - name: Checkout backend repository
         uses: actions/checkout@v7
         with:
           repository: ComPears/compear-backend
@@ -508,7 +233,7 @@ jobs:
           path: compear-backend
           fetch-depth: 0
 
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
           node-version: 22
@@ -524,103 +249,56 @@ jobs:
           npm ci
           npm run seed
 
-      - name: Push seeded data to backend repo
+      - name: Push one backend data snapshot
+        id: backend_commit
         working-directory: compear-backend
-        env:
-          GIT_USERNAME: "GitHub Actions Bot"
-          GIT_EMAIL: "actions@github.com"
         run: |
-          git config user.name "$GIT_USERNAME"
-          git config user.email "$GIT_EMAIL"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/nl/*.json src/data/uk/*.json
           if git diff --cached --quiet; then
             echo "No backend data changes to commit"
           else
-            git commit -m "Automated data sync $(date -u +'%Y-%m-%d %H:%M:%SZ')"
-            git push
+            git commit -m "Automated validated data sync $(date -u +'%Y-%m-%d %H:%M:%SZ')"
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - name: Trigger Render backend redeploy
+      - name: Trigger Render backend deployment
         env:
           RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
         run: |
           if [ -z "$RENDER_DEPLOY_HOOK_URL" ]; then
-            echo "RENDER_DEPLOY_HOOK_URL not set; skipping Render redeploy"
+            echo "RENDER_DEPLOY_HOOK_URL not set; relying on Render auto-deploy"
             exit 0
           fi
-          curl -fsS -X POST "$RENDER_DEPLOY_HOOK_URL"
-          echo "Render deploy hook triggered"
+          curl --fail --silent --show-error --retry 3 --retry-all-errors \
+            --request POST "$RENDER_DEPLOY_HOOK_URL"
 
-  scrape-summary:
-    needs: [generate-ah, generate-aldi, generate-dirk, generate-plus, generate-lidl, generate-coop, generate-jumbo, generate-uk, prune-stale-data, sync-backend-and-render]
-    if: always() && !cancelled()
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout latest catalog state
-        uses: actions/checkout@v7
-        with:
-          ref: main
-          fetch-depth: 0
-
-      - name: Set up Python for monitoring
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12.8'
-          check-latest: false
-
-      - name: Alert on zero, suspicious, or stale catalogs
-        id: catalog-monitor
-        continue-on-error: true
+      - name: Verify the expected backend revision is ready
         env:
-          CATALOG_MAX_AGE_HOURS: '72'
-          CATALOG_MAX_DROP_RATIO: '0.5'
-          CATALOG_MAX_GROWTH_RATIO: '3'
-        run: python scripts/workflow_catalog_alerts.py
-
-      - name: Summarize scrape pipeline
+          BACKEND_BASE_URL: ${{ vars.BACKEND_BASE_URL || vars.BACKEND_URL }}
+          EXPECTED_COMMIT: ${{ steps.backend_commit.outputs.sha }}
         run: |
-          echo "Store scrapers:"
-          echo "  AH=${{ needs.generate-ah.result }} ALDI=${{ needs.generate-aldi.result }} DIRK=${{ needs.generate-dirk.result }}"
-          echo "  PLUS=${{ needs.generate-plus.result }} LIDL=${{ needs.generate-lidl.result }} COOP=${{ needs.generate-coop.result }} JUMBO=${{ needs.generate-jumbo.result }}"
-          echo "Post-process: prune=${{ needs.prune-stale-data.result }} sync=${{ needs.sync-backend-and-render.result }}"
-
-      - name: Fail only when every store scraper failed
-        if: >-
-          needs.generate-ah.result != 'success' &&
-          needs.generate-aldi.result != 'success' &&
-          needs.generate-dirk.result != 'success' &&
-          needs.generate-plus.result != 'success' &&
-          needs.generate-lidl.result != 'success' &&
-          needs.generate-coop.result != 'success' &&
-          needs.generate-jumbo.result != 'success'
-        run: |
-          echo "All store scrapers failed — no catalog updates this run."
-          exit 1
-
-      - name: Warn on partial scrape failure
-        if: >-
-          (
-            needs.generate-ah.result != 'success' ||
-            needs.generate-aldi.result != 'success' ||
-            needs.generate-dirk.result != 'success' ||
-            needs.generate-plus.result != 'success' ||
-            needs.generate-lidl.result != 'success' ||
-            needs.generate-coop.result != 'success' ||
-            needs.generate-jumbo.result != 'success'
-          ) && (
-            needs.generate-ah.result == 'success' ||
-            needs.generate-aldi.result == 'success' ||
-            needs.generate-dirk.result == 'success' ||
-            needs.generate-plus.result == 'success' ||
-            needs.generate-lidl.result == 'success' ||
-            needs.generate-coop.result == 'success' ||
-            needs.generate-jumbo.result == 'success'
-          )
-        run: echo "::warning::Some store scrapers failed; successful stores were still merged and synced."
-
-      - name: Fail on catalog monitoring alerts
-        if: always() && steps.catalog-monitor.outcome == 'failure'
-        run: |
-          echo "::error::Catalog monitoring found zero, suspicious, or stale data. See the Catalog monitoring job summary."
+          if [ -z "$BACKEND_BASE_URL" ]; then
+            echo "::error::Set BACKEND_BASE_URL (or BACKEND_URL) to verify deployment"
+            exit 1
+          fi
+          health_url="${BACKEND_BASE_URL%/}/health/ready"
+          for attempt in $(seq 1 60); do
+            if payload=$(curl --fail --silent --show-error --max-time 20 "$health_url"); then
+              deployed_commit=$(echo "$payload" | jq -r '.deployment.commit // empty')
+              if [ "$deployed_commit" = "$EXPECTED_COMMIT" ]; then
+                echo "$payload"
+                echo "Expected backend revision is ready"
+                exit 0
+              fi
+              echo "Attempt $attempt/60: ready revision ${deployed_commit:-unknown}; waiting for $EXPECTED_COMMIT"
+            else
+              echo "Attempt $attempt/60: backend not ready yet"
+            fi
+            sleep 10
+          done
+          echo "::error::Expected backend revision $EXPECTED_COMMIT did not become ready within 10 minutes"
           exit 1

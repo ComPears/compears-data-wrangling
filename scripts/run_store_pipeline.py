@@ -13,6 +13,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -57,10 +58,33 @@ def _snapshot_paths(workdir: Path, cfg: dict) -> list[Path]:
     return unique
 
 
+def _restore(backups: dict[Path, Path]) -> None:
+    for path, backup in backups.items():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(backup, path)
+
+
+def _write_status(path: Path | None, **status: object) -> None:
+    if path is None:
+        return
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        **status,
+    }
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run store scrape pipeline")
     parser.add_argument("--country", default=load_stores_config().get("default_country", "nl"))
     parser.add_argument("--store", required=True, help="Store slug, e.g. albert-heijn")
+    parser.add_argument(
+        "--soft-fail",
+        action="store_true",
+        help="Preserve last-good data and report a warning for scrape-source failures",
+    )
+    parser.add_argument("--status-file", type=Path, default=None)
     args = parser.parse_args()
 
     cfg = store_config(args.country, args.store)
@@ -104,9 +128,23 @@ def main() -> None:
             if result.returncode != 0:
                 print(f"Pipeline failed at {step} (exit {result.returncode})", file=sys.stderr)
                 # Restore last-good so a mid-pipeline crash cannot leave empty files.
-                for path, backup in backups.items():
-                    path.parent.mkdir(parents=True, exist_ok=True)
-                    shutil.copy2(backup, path)
+                generated = _count(catalog)
+                _restore(backups)
+                restored = _count(catalog)
+                _write_status(
+                    args.status_file,
+                    country=args.country,
+                    store=args.store,
+                    outcome="preserved",
+                    reason=f"pipeline step {step} exited {result.returncode}",
+                    before=before,
+                    generated=generated,
+                    final=restored,
+                    minimum=minimum,
+                )
+                if args.soft_fail or optional:
+                    print(f"::warning::{args.country}/{args.store} scrape failed; preserved {restored} last-good products")
+                    return
                 sys.exit(result.returncode)
 
         after = _count(catalog)
@@ -118,15 +156,38 @@ def main() -> None:
                 "restoring last-good catalog and failing the scrape.",
                 file=sys.stderr,
             )
-            for path, backup in backups.items():
-                path.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(backup, path)
+            _restore(backups)
             restored = _count(catalog)
             print(f"Restored catalog count: {restored}")
+            _write_status(
+                args.status_file,
+                country=args.country,
+                store=args.store,
+                outcome="preserved",
+                reason=f"generated catalog below minimum ({after} < {minimum})",
+                before=before,
+                generated=after,
+                final=restored,
+                minimum=minimum,
+            )
             # Optional stores should not fail the whole matrix when bot-walled.
-            sys.exit(0 if optional else 1)
+            if args.soft_fail or optional:
+                print(f"::warning::{args.country}/{args.store} returned {after} products; preserved {restored} last-good products")
+                return
+            sys.exit(1)
 
         print(f"✅ Pipeline complete → {catalog}")
+        _write_status(
+            args.status_file,
+            country=args.country,
+            store=args.store,
+            outcome="refreshed",
+            reason=None,
+            before=before,
+            generated=after,
+            final=after,
+            minimum=minimum,
+        )
     finally:
         shutil.rmtree(backup_root, ignore_errors=True)
 

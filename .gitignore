@@ -39,3 +39,4 @@ countries/nl/coop/coop.json
 *.rejected.json
 data-quality-report.json
 reports/
+artifacts/

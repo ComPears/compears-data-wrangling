@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -85,6 +86,12 @@ class StoreSearchConfig:
     warm_url: str | None = None
     # Optional JSON API searched from inside the warmed browser session.
     api_url: Callable[[str], str] | None = None
+
+
+@dataclass(frozen=True)
+class ApiHarvestResult:
+    products: list[dict[str, Any]]
+    status: int | None
 
 
 def accept_uk_cookies(page: Page) -> None:
@@ -376,39 +383,52 @@ def _walk_for_products(obj: Any, found: list[dict[str, Any]], cfg: StoreSearchCo
             _walk_for_products(item, found, cfg)
 
 
-def harvest_api_json(page: Page, cfg: StoreSearchConfig, query: str) -> list[dict[str, Any]]:
+def harvest_api_json(page: Page, cfg: StoreSearchConfig, query: str) -> ApiHarvestResult:
     """Fetch a retailer JSON API using the browser's cookies / TLS fingerprint."""
     if not cfg.api_url:
-        return []
+        return ApiHarvestResult([], None)
     api = cfg.api_url(query)
-    try:
-        payload = page.evaluate(
-            """async (url) => {
-              try {
-                const res = await fetch(url, {
-                  credentials: 'include',
-                  headers: { 'Accept': 'application/json, text/plain, */*' },
-                });
-                const text = await res.text();
-                return { ok: res.ok, status: res.status, text: text.slice(0, 500000) };
-              } catch (err) {
-                return { ok: false, status: 0, text: String(err) };
-              }
-            }""",
-            api,
-        )
-    except Exception as err:
-        print(f"   ⚠️ api evaluate failed: {err}")
-        return []
+    payload: dict[str, Any] | None = None
+    transient_statuses = {0, 429, 500, 502, 503, 504}
+    for attempt in range(1, 4):
+        try:
+            payload = page.evaluate(
+                """async (url) => {
+                  try {
+                    const res = await fetch(url, {
+                      credentials: 'include',
+                      headers: { 'Accept': 'application/json, text/plain, */*' },
+                    });
+                    const text = await res.text();
+                    return { ok: res.ok, status: res.status, text: text.slice(0, 500000) };
+                  } catch (err) {
+                    return { ok: false, status: 0, text: String(err) };
+                  }
+                }""",
+                api,
+            )
+        except Exception as err:
+            print(f"   ⚠️ api evaluate failed: {err}")
+            payload = {"ok": False, "status": 0, "text": str(err)}
+
+        status = int(payload.get("status") or 0) if payload else 0
+        if payload and payload.get("ok"):
+            break
+        if status not in transient_statuses or attempt == 3:
+            break
+        delay = (2 ** (attempt - 1)) + random.uniform(0, 0.75)
+        print(f"   🔁 transient API HTTP {status}; retry {attempt}/2 in {delay:.1f}s")
+        time.sleep(delay)
 
     if not payload or not payload.get("ok"):
-        print(f"   ⚠️ api HTTP {payload.get('status') if payload else '?'} for {api[:80]}")
-        return []
+        status = int(payload.get("status") or 0) if payload else 0
+        print(f"   ⚠️ api HTTP {status or '?'} for {api[:80]}")
+        return ApiHarvestResult([], status)
     try:
         data = json.loads(payload["text"])
     except Exception:
         print("   ⚠️ api JSON parse failed")
-        return []
+        return ApiHarvestResult([], int(payload.get("status") or 200))
 
     found: list[dict[str, Any]] = []
     # Prefer top-level products arrays when present (Sainsbury's).
@@ -416,7 +436,7 @@ def harvest_api_json(page: Page, cfg: StoreSearchConfig, query: str) -> list[dic
         _walk_for_products(data["products"], found, cfg)
     else:
         _walk_for_products(data, found, cfg)
-    return found[: cfg.max_per_query]
+    return ApiHarvestResult(found[: cfg.max_per_query], int(payload.get("status") or 200))
 
 
 def attach_json_sniffer(page: Page, cfg: StoreSearchConfig, bucket: list[dict[str, Any]]) -> None:
@@ -503,6 +523,10 @@ def scrape_store_search(
     env_limit = os.environ.get("UK_MAX_QUERIES")
     max_queries = int(env_limit) if env_limit and env_limit.isdigit() else cfg.max_queries
     query_list = (queries or SEED_QUERIES)[: max_queries]
+    max_blocked_queries = int(os.environ.get("UK_MAX_BLOCKED_QUERIES", "3"))
+    max_empty_queries = int(os.environ.get("UK_MAX_EMPTY_QUERIES", "5"))
+    consecutive_blocked = 0
+    consecutive_empty = 0
 
     warm = cfg.warm_url or cfg.base_url
     sticky_page: Page | None = None
@@ -532,9 +556,12 @@ def scrape_store_search(
             owned_page = True
         sniffed: list[dict[str, Any]] = []
         attach_json_sniffer(page, cfg, sniffed)
+        api_status: int | None = None
         try:
             if cfg.api_url:
-                batch = harvest_api_json(page, cfg, query)
+                api_result = harvest_api_json(page, cfg, query)
+                batch = api_result.products
+                api_status = api_result.status
             if not batch:
                 # Capture search JSON while the results page loads (Aldi/Morrisons).
                 search_json_holder: list[Any] = []
@@ -594,11 +621,34 @@ def scrape_store_search(
             all_products = dedupe_raw(all_products)
             write_json_atomic(output_file, all_products)
             print(f"   +{len(all_products) - before} new (batch {len(batch)}, total {len(all_products)})")
+
+            if batch:
+                consecutive_empty = 0
+                consecutive_blocked = 0
+            else:
+                consecutive_empty += 1
+                consecutive_blocked = (
+                    consecutive_blocked + 1 if api_status in {401, 403} else 0
+                )
         except Exception as err:
             print(f"   ⚠️ query failed: {type(err).__name__}: {err}")
+            consecutive_empty += 1
         finally:
             if owned_page and page is not None:
                 page.close()
+
+        if consecutive_blocked >= max_blocked_queries:
+            print(
+                f"::warning::{cfg.slug} stopped after {consecutive_blocked} consecutive "
+                "authorization/bot-wall responses; last-good data will be retained"
+            )
+            break
+        if consecutive_empty >= max_empty_queries:
+            print(
+                f"::warning::{cfg.slug} stopped after {consecutive_empty} consecutive empty "
+                "queries; last-good data will be retained"
+            )
+            break
         time.sleep(1.2)
 
     if sticky_page is not None:
