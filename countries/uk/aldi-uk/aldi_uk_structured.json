@@ -172,13 +172,14 @@
     "n": "Milk Frother",
     "p": "14.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ambiano-milk-frother/000000000729570001",
     "c": "Other",
     "cn": "milk frother",
-    "ik": "tok:milk|frother|na",
-    "bn": "milk"
+    "ik": "tok:milk|frother|1",
+    "bn": "milk",
+    "wg": 1
   },
   {
     "n": "Semi Skimmed Milk 1.7% Fat",
@@ -548,13 +549,14 @@
     "n": "Free Range Corn Fed Whole Chicken",
     "p": "2.63",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-free-range-corn-fed-whole-chicken/000000000000383624",
     "c": "Other",
     "cn": "free chicken corn fed range whole",
-    "ik": "tok:free|chicken-corn-fed-range-whole|na",
-    "bn": "free"
+    "ik": "tok:free|chicken-corn-fed-range-whole|1",
+    "bn": "free",
+    "wg": 1
   },
   {
     "n": "Roast In The Bag Extra Tasty Whole Chicken",
@@ -742,145 +744,157 @@
     "n": "Bake At Home White Baguettes",
     "p": "0.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-bake-at-home-white-baguettes/000000000000279031",
     "c": "Other",
     "cn": "bake at baguettes home white",
-    "ik": "tok:bake|at-baguettes-home-white|na",
-    "bn": "bake"
+    "ik": "tok:bake|at-baguettes-home-white|1",
+    "bn": "bake",
+    "wg": 1
   },
   {
     "n": "Bake At Home White Rolls",
     "p": "0.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-bake-at-home-white-rolls/000000000000282082",
     "c": "Other",
     "cn": "bake at home rolls white",
-    "ik": "tok:bake|at-home-rolls-white|na",
-    "bn": "bake"
+    "ik": "tok:bake|at-home-rolls-white|1",
+    "bn": "bake",
+    "wg": 1
   },
   {
     "n": "Ciabatta Rolls",
     "p": "1.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/inspired-cuisine-ciabatta-rolls/000000000000381996",
     "c": "Other",
     "cn": "ciabatta rolls",
-    "ik": "tok:ciabatta|rolls|na",
-    "bn": "ciabatta"
+    "ik": "tok:ciabatta|rolls|1",
+    "bn": "ciabatta",
+    "wg": 1
   },
   {
     "n": "Oven Bottom Muffins",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-oven-bottom-muffins/000000000000382604",
     "c": "Other",
     "cn": "oven bottom muffins",
-    "ik": "tok:oven|bottom-muffins|na",
-    "bn": "oven"
+    "ik": "tok:oven|bottom-muffins|1",
+    "bn": "oven",
+    "wg": 1
   },
   {
     "n": "Cheese Topped Rolls",
     "p": "1.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-cheese-topped-rolls/000000000000387986",
     "c": "Other",
     "cn": "cheese rolls topped",
-    "ik": "tok:cheese|rolls-topped|na",
-    "bn": "cheese"
+    "ik": "tok:cheese|rolls-topped|1",
+    "bn": "cheese",
+    "wg": 1
   },
   {
     "n": "Panini Rolls",
     "p": "1.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/inspired-cuisine-panini-rolls/000000000000388039",
     "c": "Other",
     "cn": "panini rolls",
-    "ik": "tok:panini|rolls|na",
-    "bn": "panini"
+    "ik": "tok:panini|rolls|1",
+    "bn": "panini",
+    "wg": 1
   },
   {
     "n": "Tiger Rolls",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-tiger-rolls/000000000000457689",
     "c": "Other",
     "cn": "tiger rolls",
-    "ik": "tok:tiger|rolls|na",
-    "bn": "tiger"
+    "ik": "tok:tiger|rolls|1",
+    "bn": "tiger",
+    "wg": 1
   },
   {
     "n": "Italian Style Metro Rolls",
     "p": "1.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-italian-style-metro-rolls/000000000000531529",
     "c": "Other",
     "cn": "italian metro rolls style",
-    "ik": "tok:italian|metro-rolls-style|na",
-    "bn": "italian"
+    "ik": "tok:italian|metro-rolls-style|1",
+    "bn": "italian",
+    "wg": 1
   },
   {
     "n": "American Seeded Burger Buns",
     "p": "1.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-american-seeded-burger-buns/000000000000583142",
     "c": "Other",
     "cn": "american buns burger seeded",
-    "ik": "tok:american|buns-burger-seeded|na",
-    "bn": "american"
+    "ik": "tok:american|buns-burger-seeded|1",
+    "bn": "american",
+    "wg": 1
   },
   {
     "n": "Bake At Home White Dinner Rolls",
     "p": "1.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-bake-at-home-white-dinner-rolls/000000000283477002",
     "c": "Other",
     "cn": "bake at dinner home rolls white",
-    "ik": "tok:bake|at-dinner-home-rolls-white|na",
-    "bn": "bake"
+    "ik": "tok:bake|at-dinner-home-rolls-white|1",
+    "bn": "bake",
+    "wg": 1
   },
   {
     "n": "Soft White Large Baps",
     "p": "0.75",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-soft-white-large-baps/000000000383590001",
     "c": "Other",
     "cn": "soft baps large white",
-    "ik": "tok:soft|baps-large-white|na",
-    "bn": "soft"
+    "ik": "tok:soft|baps-large-white|1",
+    "bn": "soft",
+    "wg": 1
   },
   {
     "n": "Metro Subs",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-metro-subs/000000000631780001",
     "c": "Other",
     "cn": "metro subs",
-    "ik": "tok:metro|subs|na",
-    "bn": "metro"
+    "ik": "tok:metro|subs|1",
+    "bn": "metro",
+    "wg": 1
   },
   {
     "n": "The Great Crusty Sliced Tiger Bloomer",
@@ -977,25 +991,27 @@
     "n": "White Pitta Bread",
     "p": "0.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-white-pitta-bread/000000000000517387",
     "c": "Other",
     "cn": "white bread pitta",
-    "ik": "tok:white|bread-pitta|na",
-    "bn": "white"
+    "ik": "tok:white|bread-pitta|1",
+    "bn": "white",
+    "wg": 1
   },
   {
     "n": "White Rolls",
     "p": "0.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-white-rolls/000000000383591001",
     "c": "Other",
     "cn": "white rolls",
-    "ik": "tok:white|rolls|na",
-    "bn": "white"
+    "ik": "tok:white|rolls|1",
+    "bn": "white",
+    "wg": 1
   },
   {
     "n": "White Sourdough Loaf",
@@ -1014,13 +1030,14 @@
     "n": "Sliced White Rolls",
     "p": "1.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-sliced-white-rolls/000000000000381895",
     "c": "Other",
     "cn": "sliced rolls white",
-    "ik": "tok:sliced|rolls-white|na",
-    "bn": "sliced"
+    "ik": "tok:sliced|rolls-white|1",
+    "bn": "sliced",
+    "wg": 1
   },
   {
     "n": "White Sourdough Sliced Loaf",
@@ -1065,13 +1082,14 @@
     "n": "White Cabbage",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-white-cabbage/000000000340671001",
     "c": "Other",
     "cn": "white cabbage",
-    "ik": "tok:white|cabbage|na",
-    "bn": "white"
+    "ik": "tok:white|cabbage|1",
+    "bn": "white",
+    "wg": 1
   },
   {
     "n": "Perry White",
@@ -1127,13 +1145,14 @@
     "n": "White Tortilla Wraps",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-white-tortilla-wraps/000000000000383422",
     "c": "Other",
     "cn": "white tortilla wraps",
-    "ik": "tok:white|tortilla-wraps|na",
-    "bn": "white"
+    "ik": "tok:white|tortilla-wraps|1",
+    "bn": "white",
+    "wg": 1
   },
   {
     "n": "Wonky White Grapes",
@@ -1216,13 +1235,14 @@
     "n": "Large Brown Onions",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-large-brown-onions/000000000000339858",
     "c": "Other",
     "cn": "large brown onions",
-    "ik": "tok:large|brown-onions|na",
-    "bn": "large"
+    "ik": "tok:large|brown-onions|1",
+    "bn": "large",
+    "wg": 1
   },
   {
     "n": "Newcastle Brown Ale",
@@ -1306,13 +1326,14 @@
     "n": "Plain Naan Breads",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/bilash-plain-naan-breads/000000000000383275",
     "c": "Other",
     "cn": "plain breads naan",
-    "ik": "tok:plain|breads-naan|na",
-    "bn": "plain"
+    "ik": "tok:plain|breads-naan|1",
+    "bn": "plain",
+    "wg": 1
   },
   {
     "n": "Breaded Chicken Chunks",
@@ -1396,13 +1417,14 @@
     "n": "Food Container",
     "p": "4.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/crofton-food-container/000000000725667006",
     "c": "Other",
     "cn": "food container",
-    "ik": "tok:food|container|na",
-    "bn": "food"
+    "ik": "tok:food|container|1",
+    "bn": "food",
+    "wg": 1
   },
   {
     "n": "Garlic & Cheese Pizza Bread",
@@ -1421,13 +1443,14 @@
     "n": "Garlic & Coriander Naan Breads",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/bilash-garlic-coriander-naan-breads/000000000000383276",
     "c": "Other",
     "cn": "garlic breads coriander naan",
-    "ik": "tok:garlic|breads-coriander-naan|na",
-    "bn": "garlic"
+    "ik": "tok:garlic|breads-coriander-naan|1",
+    "bn": "garlic",
+    "wg": 1
   },
   {
     "n": "Breaded Cod 4 Pack",
@@ -1446,13 +1469,14 @@
     "n": "Giant Plain Naan Breads",
     "p": "1.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/bilash-giant-plain-naan-breads/000000000584234002",
     "c": "Other",
     "cn": "giant breads naan plain",
-    "ik": "tok:giant|breads-naan-plain|na",
-    "bn": "giant"
+    "ik": "tok:giant|breads-naan-plain|1",
+    "bn": "giant",
+    "wg": 1
   },
   {
     "n": "Breaded Boneless Chicken Platter",
@@ -1631,13 +1655,14 @@
     "n": "Egg & Cress Sandwich",
     "p": "1.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/eat-go-egg-cress-sandwich/000000000403126002",
     "c": "Other",
     "cn": "egg cress sandwich",
-    "ik": "tok:egg|cress-sandwich|na",
-    "bn": "egg"
+    "ik": "tok:egg|cress-sandwich|1",
+    "bn": "egg",
+    "wg": 1
   },
   {
     "n": "Mini Savoury Eggs",
@@ -1682,25 +1707,27 @@
     "n": "Plain Toasting Egg Waffles",
     "p": "1.55",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-plain-toasting-egg-waffles/000000000382594002",
     "c": "Other",
     "cn": "plain egg toasting waffles",
-    "ik": "tok:plain|egg-toasting-waffles|na",
-    "bn": "plain"
+    "ik": "tok:plain|egg-toasting-waffles|1",
+    "bn": "plain",
+    "wg": 1
   },
   {
     "n": "Egg & Bacon With Mayo Sandwich",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/eat-go-egg-bacon-with-mayo-sandwich/000000000398787013",
     "c": "Other",
     "cn": "egg bacon mayo sandwich with",
-    "ik": "tok:egg|bacon-mayo-sandwich-with|na",
-    "bn": "egg"
+    "ik": "tok:egg|bacon-mayo-sandwich-with|1",
+    "bn": "egg",
+    "wg": 1
   },
   {
     "n": "Egg Mayonnaise Deli Filler",
@@ -1719,37 +1746,40 @@
     "n": "Spinach & Pepper Egg Bites",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/crestwood-spinach-pepper-egg-bites/000000000713514001",
     "c": "Other",
     "cn": "spinach bites egg pepper",
-    "ik": "tok:spinach|bites-egg-pepper|na",
-    "bn": "spinach"
+    "ik": "tok:spinach|bites-egg-pepper|1",
+    "bn": "spinach",
+    "wg": 1
   },
   {
     "n": "Cheese & Bacon Egg Bites",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/crestwood-cheese-bacon-egg-bites/000000000713514002",
     "c": "Other",
     "cn": "cheese bacon bites egg",
-    "ik": "tok:cheese|bacon-bites-egg|na",
-    "bn": "cheese"
+    "ik": "tok:cheese|bacon-bites-egg|1",
+    "bn": "cheese",
+    "wg": 1
   },
   {
     "n": "Chicken & Leek Egg Bites",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/crestwood-chicken-leek-egg-bites/000000000713514003",
     "c": "Other",
     "cn": "chicken bites egg leek",
-    "ik": "tok:chicken|bites-egg-leek|na",
-    "bn": "chicken"
+    "ik": "tok:chicken|bites-egg-leek|1",
+    "bn": "chicken",
+    "wg": 1
   },
   {
     "n": "Picnic Eggs 10 Pack*",
@@ -2001,13 +2031,14 @@
     "n": "All Butter Croissants",
     "p": "2.09",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-all-butter-croissants/000000000000387544",
     "c": "Bakery",
     "cn": "all butter croissants",
-    "ik": "tok:all|butter-croissants|na",
-    "bn": "all"
+    "ik": "tok:all|butter-croissants|1",
+    "bn": "all",
+    "wg": 1
   },
   {
     "n": "Smooth Peanut Butter",
@@ -2039,13 +2070,14 @@
     "n": "All Butter Scones",
     "p": "1.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-all-butter-scones/000000000384329001",
     "c": "Other",
     "cn": "all butter scones",
-    "ik": "tok:all|butter-scones|na",
-    "bn": "all"
+    "ik": "tok:all|butter-scones|1",
+    "bn": "all",
+    "wg": 1
   },
   {
     "n": "All Butter Shortbread Fingers",
@@ -2103,13 +2135,14 @@
     "n": "All Butter Sultana Scones",
     "p": "1.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-all-butter-sultana-scones/000000000384329002",
     "c": "Other",
     "cn": "all butter scones sultana",
-    "ik": "tok:all|butter-scones-sultana|na",
-    "bn": "all"
+    "ik": "tok:all|butter-scones-sultana|1",
+    "bn": "all",
+    "wg": 1
   },
   {
     "n": "Cooked Mussels With Garlic & Butter",
@@ -2882,13 +2915,14 @@
     "n": "Ham & Cheddar Cheese Wrap",
     "p": "2.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/eat-go-ham-cheddar-cheese-wrap/000000000564653001",
     "c": "Other",
     "cn": "ham cheddar cheese wrap",
-    "ik": "tok:ham|cheddar-cheese-wrap|na",
-    "bn": "ham"
+    "ik": "tok:ham|cheddar-cheese-wrap|1",
+    "bn": "ham",
+    "wg": 1
   },
   {
     "n": "12 Months Matured Comté Cheese",
@@ -3505,13 +3539,14 @@
     "n": "Greek Flatbreads",
     "p": "1.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-greek-flatbreads/000000000000640392",
     "c": "Other",
     "cn": "greek flatbreads",
-    "ik": "tok:greek|flatbreads|na",
-    "bn": "greek"
+    "ik": "tok:greek|flatbreads|1",
+    "bn": "greek",
+    "wg": 1
   },
   {
     "n": "High Protein Vanilla Greek Style",
@@ -3556,37 +3591,40 @@
     "n": "Bananas",
     "p": "0.78",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-bananas/000000000000267180",
     "c": "Other",
     "cn": "bananas",
-    "ik": "tok:bananas|unknown|na",
-    "bn": "bananas"
+    "ik": "tok:bananas|unknown|1",
+    "bn": "bananas",
+    "wg": 1
   },
   {
     "n": "Banana",
     "p": "0.16",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-banana/000000000000267186",
     "c": "Other",
     "cn": "banana",
-    "ik": "tok:banana|unknown|na",
-    "bn": "banana"
+    "ik": "tok:banana|unknown|1",
+    "bn": "banana",
+    "wg": 1
   },
   {
     "n": "Mini Bananas",
     "p": "0.88",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-mini-bananas/000000000000267193",
     "c": "Other",
     "cn": "mini bananas",
-    "ik": "tok:mini|bananas|na",
-    "bn": "mini"
+    "ik": "tok:mini|bananas|1",
+    "bn": "mini",
+    "wg": 1
   },
   {
     "n": "Organic Fairtrade Bananas 6 Pack",
@@ -3656,13 +3694,14 @@
     "n": "High Protein Banana Pancakes",
     "p": "1.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-high-protein-banana-pancakes/000000000508678001",
     "c": "Other",
     "cn": "high banana pancakes protein",
-    "ik": "tok:high|banana-pancakes-protein|na",
-    "bn": "high"
+    "ik": "tok:high|banana-pancakes-protein|1",
+    "bn": "high",
+    "wg": 1
   },
   {
     "n": "Banana Rusk Biscotti Fingers",
@@ -3720,73 +3759,79 @@
     "n": "Jazz Apples",
     "p": "2.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-jazz-apples/000000000000306530",
     "c": "Other",
     "cn": "jazz apples",
-    "ik": "tok:jazz|apples|na",
-    "bn": "jazz"
+    "ik": "tok:jazz|apples|1",
+    "bn": "jazz",
+    "wg": 1
   },
   {
     "n": "Wonky Apples",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/everyday-essentials-wonky-apples/000000000000491850",
     "c": "Other",
     "cn": "wonky apples",
-    "ik": "tok:wonky|apples|na",
-    "bn": "wonky"
+    "ik": "tok:wonky|apples|1",
+    "bn": "wonky",
+    "wg": 1
   },
   {
     "n": "Pink Lady Apples",
     "p": "2.85",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-pink-lady-apples/000000000000271500",
     "c": "Other",
     "cn": "pink apples lady",
-    "ik": "tok:pink|apples-lady|na",
-    "bn": "pink"
+    "ik": "tok:pink|apples-lady|1",
+    "bn": "pink",
+    "wg": 1
   },
   {
     "n": "Golden Delicious Apples",
     "p": "1.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-golden-delicious-apples/000000000000305666",
     "c": "Other",
     "cn": "golden apples delicious",
-    "ik": "tok:golden|apples-delicious|na",
-    "bn": "golden"
+    "ik": "tok:golden|apples-delicious|1",
+    "bn": "golden",
+    "wg": 1
   },
   {
     "n": "Granny Smith Apples",
     "p": "1.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-granny-smith-apples/000000000000305866",
     "c": "Other",
     "cn": "granny apples smith",
-    "ik": "tok:granny|apples-smith|na",
-    "bn": "granny"
+    "ik": "tok:granny|apples-smith|1",
+    "bn": "granny",
+    "wg": 1
   },
   {
     "n": "Best Of British Apples",
     "p": "1.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-best-of-british-apples/000000000000339771",
     "c": "Other",
     "cn": "best apples british of",
-    "ik": "tok:best|apples-british-of|na",
-    "bn": "best"
+    "ik": "tok:best|apples-british-of|1",
+    "bn": "best",
+    "wg": 1
   },
   {
     "n": "Apple, Pineapple & Grape",
@@ -3805,13 +3850,14 @@
     "n": "British Mini Apples",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-british-mini-apples/000000000000339878",
     "c": "Other",
     "cn": "british apples mini",
-    "ik": "tok:british|apples-mini|na",
-    "bn": "british"
+    "ik": "tok:british|apples-mini|1",
+    "bn": "british",
+    "wg": 1
   },
   {
     "n": "Apple Snack Pack",
@@ -3830,13 +3876,14 @@
     "n": "British Royal Gala Apples",
     "p": "1.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-british-royal-gala-apples/000000000000339923",
     "c": "Other",
     "cn": "british apples gala royal",
-    "ik": "tok:british|apples-gala-royal|na",
-    "bn": "british"
+    "ik": "tok:british|apples-gala-royal|1",
+    "bn": "british",
+    "wg": 1
   },
   {
     "n": "Apple & Grape Snack Pack",
@@ -3920,13 +3967,14 @@
     "n": "Bramley Apple Pies",
     "p": "1.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/holly-lane-bramley-apple-pies/000000000000474258",
     "c": "Other",
     "cn": "bramley apple pies",
-    "ik": "tok:bramley|apple-pies|na",
-    "bn": "bramley"
+    "ik": "tok:bramley|apple-pies|1",
+    "bn": "bramley",
+    "wg": 1
   },
   {
     "n": "Apple Cider Pâté",
@@ -4087,25 +4135,27 @@
     "n": "Sweet Potato",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-sweet-potato/000000000000272476",
     "c": "Other",
     "cn": "sweet potato",
-    "ik": "tok:sweet|potato|na",
-    "bn": "sweet"
+    "ik": "tok:sweet|potato|1",
+    "bn": "sweet",
+    "wg": 1
   },
   {
     "n": "Baking Potato",
     "p": "0.24",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-baking-potato/000000000000339756",
     "c": "Other",
     "cn": "baking potato",
-    "ik": "tok:baking|potato|na",
-    "bn": "baking"
+    "ik": "tok:baking|potato|1",
+    "bn": "baking",
+    "wg": 1
   },
   {
     "n": "Mashed Potato",
@@ -4163,13 +4213,14 @@
     "n": "British Baking Potatoes",
     "p": "0.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-british-baking-potatoes/000000000000339758",
     "c": "Other",
     "cn": "british baking potatoes",
-    "ik": "tok:british|baking-potatoes|na",
-    "bn": "british"
+    "ik": "tok:british|baking-potatoes|1",
+    "bn": "british",
+    "wg": 1
   },
   {
     "n": "Scottish Wonky Potatoes",
@@ -4435,13 +4486,14 @@
     "n": "Salad Tomatoes",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-salad-tomatoes/000000000000275569",
     "c": "Other",
     "cn": "salad tomatoes",
-    "ik": "tok:salad|tomatoes|na",
-    "bn": "salad"
+    "ik": "tok:salad|tomatoes|1",
+    "bn": "salad",
+    "wg": 1
   },
   {
     "n": "Piccolato Tomatoes",
@@ -4681,13 +4733,14 @@
     "n": "Smoked Double Gloucester & Tomato With Tomato Chutney Sandwich",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/eat-go-smoked-double-gloucester-tomato-with-tomato-chutney-sandwich/000000000398787007",
     "c": "Other",
     "cn": "smoked chutney double gloucester sandwich tomato with",
-    "ik": "tok:smoked|chutney-double-gloucester-sandwich-tomato-with|na",
-    "bn": "smoked"
+    "ik": "tok:smoked|chutney-double-gloucester-sandwich-tomato-with|1",
+    "bn": "smoked",
+    "wg": 1
   },
   {
     "n": "Cream Of Tomato Soup",
@@ -4849,25 +4902,27 @@
     "n": "Large Red Onions",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-large-red-onions/000000000000339862",
     "c": "Other",
     "cn": "red large onions",
-    "ik": "tok:red|large-onions|na",
-    "bn": "red"
+    "ik": "tok:red|large-onions|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Extra Large Mild Onions",
     "p": "1.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-extra-large-mild-onions/000000000000339842",
     "c": "Other",
     "cn": "extra large mild onions",
-    "ik": "tok:extra|large-mild-onions|na",
-    "bn": "extra"
+    "ik": "tok:extra|large-mild-onions|1",
+    "bn": "extra",
+    "wg": 1
   },
   {
     "n": "Ready To Cook Diced Onion",
@@ -4938,13 +4993,14 @@
     "n": "Cheese & Onion Sandwich",
     "p": "1.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/eat-go-cheese-onion-sandwich/000000000403126001",
     "c": "Other",
     "cn": "cheese onion sandwich",
-    "ik": "tok:cheese|onion-sandwich|na",
-    "bn": "cheese"
+    "ik": "tok:cheese|onion-sandwich|1",
+    "bn": "cheese",
+    "wg": 1
   },
   {
     "n": "Caramelised Onion Houmous",
@@ -5119,13 +5175,14 @@
     "n": "Caramelised Onion Cocktail Sausage",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-caramelised-onion-cocktail-sausage/000000000713489002",
     "c": "Pantry",
     "cn": "caramelised cocktail onion sausage",
-    "ik": "tok:caramelised|cocktail-onion-sausage|na",
-    "bn": "caramelised"
+    "ik": "tok:caramelised|cocktail-onion-sausage|1",
+    "bn": "caramelised",
+    "wg": 1
   },
   {
     "n": "Cheese & Onion Crisps 6 Pack",
@@ -5495,25 +5552,27 @@
     "n": "Plush Keyring",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/little-town-plush-keyring/000000000728873005",
     "c": "Other",
     "cn": "plush keyring",
-    "ik": "tok:plush|keyring|na",
-    "bn": "plush"
+    "ik": "tok:plush|keyring|1",
+    "bn": "plush",
+    "wg": 1
   },
   {
     "n": "Cucumber",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-cucumber/000000000000273659",
     "c": "Other",
     "cn": "cucumber",
-    "ik": "tok:cucumber|unknown|na",
-    "bn": "cucumber"
+    "ik": "tok:cucumber|unknown|1",
+    "bn": "cucumber",
+    "wg": 1
   },
   {
     "n": "Baby Snack Cucumber",
@@ -5545,13 +5604,14 @@
     "n": "Iceberg Lettuce",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-iceberg-lettuce/000000000000339848",
     "c": "Other",
     "cn": "iceberg lettuce",
-    "ik": "tok:iceberg|lettuce|na",
-    "bn": "iceberg"
+    "ik": "tok:iceberg|lettuce|1",
+    "bn": "iceberg",
+    "wg": 1
   },
   {
     "n": "Chopped Iceberg Lettuce",
@@ -5570,25 +5630,27 @@
     "n": "British Romaine Lettuce",
     "p": "0.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-british-romaine-lettuce/000000000000339921",
     "c": "Other",
     "cn": "british lettuce romaine",
-    "ik": "tok:british|lettuce-romaine|na",
-    "bn": "british"
+    "ik": "tok:british|lettuce-romaine|1",
+    "bn": "british",
+    "wg": 1
   },
   {
     "n": "British Sweet Gem Lettuce",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-british-sweet-gem-lettuce/000000000000339986",
     "c": "Other",
     "cn": "british gem lettuce sweet",
-    "ik": "tok:british|gem-lettuce-sweet|na",
-    "bn": "british"
+    "ik": "tok:british|gem-lettuce-sweet|1",
+    "bn": "british",
+    "wg": 1
   },
   {
     "n": "British Little Gem Lettuce 2 Pack",
@@ -5619,13 +5681,14 @@
     "n": "Avocado Medium",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-avocado-medium/000000000000672124",
     "c": "Other",
     "cn": "avocado medium",
-    "ik": "tok:avocado|medium|na",
-    "bn": "avocado"
+    "ik": "tok:avocado|medium|1",
+    "bn": "avocado",
+    "wg": 1
   },
   {
     "n": "Classic Smashed Avocado",
@@ -5657,37 +5720,40 @@
     "n": "Ripe & Ready Hass Avocados",
     "p": "1.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-ripe-ready-hass-avocados/000000000000264102",
     "c": "Other",
     "cn": "ripe avocados hass ready",
-    "ik": "tok:ripe|avocados-hass-ready|na",
-    "bn": "ripe"
+    "ik": "tok:ripe|avocados-hass-ready|1",
+    "bn": "ripe",
+    "wg": 1
   },
   {
     "n": "Xl Ripe & Ready Avocado",
     "p": "1.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-xl-ripe-ready-avocado/000000000000271437",
     "c": "Other",
     "cn": "ripe avocado ready xl",
-    "ik": "tok:ripe|avocado-ready-xl|na",
-    "bn": "ripe"
+    "ik": "tok:ripe|avocado-ready-xl|1",
+    "bn": "ripe",
+    "wg": 1
   },
   {
     "n": "Wonky Lemons",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/everyday-essentials-wonky-lemons/000000000000268496",
     "c": "Other",
     "cn": "wonky lemons",
-    "ik": "tok:wonky|lemons|na",
-    "bn": "wonky"
+    "ik": "tok:wonky|lemons|1",
+    "bn": "wonky",
+    "wg": 1
   },
   {
     "n": "Lemon",
@@ -5823,13 +5889,14 @@
     "n": "Lemon Curd Iced Buns",
     "p": "1.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-lemon-curd-iced-buns/000000000000496334",
     "c": "Other",
     "cn": "lemon buns curd iced",
-    "ik": "tok:lemon|buns-curd-iced|na",
-    "bn": "lemon"
+    "ik": "tok:lemon|buns-curd-iced|1",
+    "bn": "lemon",
+    "wg": 1
   },
   {
     "n": "Lemon & Thyme Fusions Tuna",
@@ -5978,13 +6045,14 @@
     "n": "Lemon & Lime Electric Hydration",
     "p": "3.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/no-brand-lemon-lime-electric-hydration/000000000677352001",
     "c": "Other",
     "cn": "lemon electric hydration lime",
-    "ik": "tok:lemon|electric-hydration-lime|na",
-    "bn": "lemon"
+    "ik": "tok:lemon|electric-hydration-lime|1",
+    "bn": "lemon",
+    "wg": 1
   },
   {
     "n": "All In One Dishwasher Tablets Lemon",
@@ -6094,49 +6162,53 @@
     "n": "White Seedless Grapes Snack Pack",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-white-seedless-grapes-snack-pack/000000000713305001",
     "c": "Snacks",
     "cn": "white grapes pack seedless snack",
-    "ik": "tok:white|grapes-pack-seedless-snack|na",
-    "bn": "white"
+    "ik": "tok:white|grapes-pack-seedless-snack|1",
+    "bn": "white",
+    "wg": 1
   },
   {
     "n": "Red Seedless Grapes Snack Pack",
     "p": "0.95",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-red-seedless-grapes-snack-pack/000000000713305002",
     "c": "Snacks",
     "cn": "red grapes pack seedless snack",
-    "ik": "tok:red|grapes-pack-seedless-snack|na",
-    "bn": "red"
+    "ik": "tok:red|grapes-pack-seedless-snack|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Electric Scrubber",
     "p": "3.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ambiano-electric-scrubber/000000000726137003",
     "c": "Other",
     "cn": "electric scrubber",
-    "ik": "tok:electric|scrubber|na",
-    "bn": "electric"
+    "ik": "tok:electric|scrubber|1",
+    "bn": "electric",
+    "wg": 1
   },
   {
     "n": "Silicone Brushes/Sponges",
     "p": "3.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/easy-home-silicone-brushes-sponges/000000000729133003",
     "c": "Other",
     "cn": "silicone brushes sponges",
-    "ik": "tok:silicone|brushes-sponges|na",
-    "bn": "silicone"
+    "ik": "tok:silicone|brushes-sponges|1",
+    "bn": "silicone",
+    "wg": 1
   },
   {
     "n": "Chicken Breast Fillets",
@@ -7091,13 +7163,14 @@
     "n": "Wagyu Beef Kebabs",
     "p": "3.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-wagyu-beef-kebabs/000000000000646186",
     "c": "Other",
     "cn": "wagyu beef kebabs",
-    "ik": "tok:wagyu|beef-kebabs|na",
-    "bn": "wagyu"
+    "ik": "tok:wagyu|beef-kebabs|1",
+    "bn": "wagyu",
+    "wg": 1
   },
   {
     "n": "British Wagyu Beef Burgers",
@@ -7116,13 +7189,14 @@
     "n": "100% British Beef Brisket Joint",
     "p": "6.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ashfields-100-british-beef-brisket-joint/000000000000383572",
     "c": "Other",
     "cn": "british 100 beef brisket joint",
-    "ik": "tok:british|100-beef-brisket-joint|na",
-    "bn": "british"
+    "ik": "tok:british|100-beef-brisket-joint|1",
+    "bn": "british",
+    "wg": 1
   },
   {
     "n": "British Beef Meatballs 24 Pack",
@@ -7258,25 +7332,27 @@
     "n": "British Beef Roasting Joint 30 Day Matured",
     "p": "6.50",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ashfields-british-beef-roasting-joint-30-day-matured/000000000000382082",
     "c": "Other",
     "cn": "british 30 beef day joint matured roasting",
-    "ik": "tok:british|30-beef-day-joint-matured-roasting|na",
-    "bn": "british"
+    "ik": "tok:british|30-beef-day-joint-matured-roasting|1",
+    "bn": "british",
+    "wg": 1
   },
   {
     "n": "British Beef Roasting Joint 21 Day Matured",
     "p": "5.25",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ashfields-british-beef-roasting-joint-21-day-matured/000000000000384513",
     "c": "Other",
     "cn": "british 21 beef day joint matured roasting",
-    "ik": "tok:british|21-beef-day-joint-matured-roasting|na",
-    "bn": "british"
+    "ik": "tok:british|21-beef-day-joint-matured-roasting|1",
+    "bn": "british",
+    "wg": 1
   },
   {
     "n": "5% Fat Bbq Beef Kebabs 4 Pack",
@@ -7880,13 +7956,14 @@
     "n": "Sockeye Salmon",
     "p": "4.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-sockeye-salmon/000000000716632001",
     "c": "Other",
     "cn": "sockeye salmon",
-    "ik": "tok:sockeye|salmon|na",
-    "bn": "sockeye"
+    "ik": "tok:sockeye|salmon|1",
+    "bn": "sockeye",
+    "wg": 1
   },
   {
     "n": "Smoked Salmon Slices",
@@ -7931,25 +8008,27 @@
     "n": "Mascarpone Salmon Lattice",
     "p": "2.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/the-fishmonger-mascarpone-salmon-lattice/000000000718969001",
     "c": "Other",
     "cn": "mascarpone lattice salmon",
-    "ik": "tok:mascarpone|lattice-salmon|na",
-    "bn": "mascarpone"
+    "ik": "tok:mascarpone|lattice-salmon|1",
+    "bn": "mascarpone",
+    "wg": 1
   },
   {
     "n": "Leek & Salmon Lattice",
     "p": "2.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/the-fishmonger-leek-salmon-lattice/000000000718969002",
     "c": "Other",
     "cn": "leek lattice salmon",
-    "ik": "tok:leek|lattice-salmon|na",
-    "bn": "leek"
+    "ik": "tok:leek|lattice-salmon|1",
+    "bn": "leek",
+    "wg": 1
   },
   {
     "n": "Boneless Salmon Fillet Joint",
@@ -8189,25 +8268,27 @@
     "n": "Smoked Salmon Sushi Snack",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/eat-go-smoked-salmon-sushi-snack/000000000400632001",
     "c": "Snacks",
     "cn": "smoked salmon snack sushi",
-    "ik": "tok:smoked|salmon-snack-sushi|na",
-    "bn": "smoked"
+    "ik": "tok:smoked|salmon-snack-sushi|1",
+    "bn": "smoked",
+    "wg": 1
   },
   {
     "n": "Frozen Wild Salmon Fillet",
     "p": "2.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/the-fishmonger-frozen-wild-salmon-fillet/000000000635723001",
     "c": "Frozen Foods",
     "cn": "frozen fillet salmon wild",
-    "ik": "tok:frozen|fillet-salmon-wild|na",
-    "bn": "frozen"
+    "ik": "tok:frozen|fillet-salmon-wild|1",
+    "bn": "frozen",
+    "wg": 1
   },
   {
     "n": "Teriyaki Salmon Poke Bowl",
@@ -8265,13 +8346,14 @@
     "n": "Black Cod",
     "p": "4.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-black-cod/000000000716632002",
     "c": "Other",
     "cn": "black cod",
-    "ik": "tok:black|cod|na",
-    "bn": "black"
+    "ik": "tok:black|cod|1",
+    "bn": "black",
+    "wg": 1
   },
   {
     "n": "Haddock Fillets",
@@ -8732,25 +8814,27 @@
     "n": "Ham & Cheese Toastie",
     "p": "2.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/heat-to-eat-ham-cheese-toastie/000000000398744006",
     "c": "Other",
     "cn": "ham cheese toastie",
-    "ik": "tok:ham|cheese-toastie|na",
-    "bn": "ham"
+    "ik": "tok:ham|cheese-toastie|1",
+    "bn": "ham",
+    "wg": 1
   },
   {
     "n": "Smoked Ham Sandwich",
     "p": "1.19",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/eat-go-smoked-ham-sandwich/000000000403126003",
     "c": "Other",
     "cn": "smoked ham sandwich",
-    "ik": "tok:smoked|ham-sandwich|na",
-    "bn": "smoked"
+    "ik": "tok:smoked|ham-sandwich|1",
+    "bn": "smoked",
+    "wg": 1
   },
   {
     "n": "Ham & Mushroom Tagliatelle",
@@ -8769,13 +8853,14 @@
     "n": "Ibérico Ham Croqueta",
     "p": "2.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-iberico-ham-croqueta/000000000716269003",
     "c": "Other",
     "cn": "ibrico croqueta ham ib rico",
-    "ik": "tok:ibrico|croqueta-ham-ib-rico|na",
-    "bn": "ibrico"
+    "ik": "tok:ibrico|croqueta-ham-ib-rico|1",
+    "bn": "ibrico",
+    "wg": 1
   },
   {
     "n": "Wafer Thin British Cooked Ham 40 Slices",
@@ -10288,13 +10373,14 @@
     "n": "Multigrain Shapes Cereal",
     "p": "1.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/goldenvale-multigrain-shapes-cereal/000000000434411001",
     "c": "Other",
     "cn": "multigrain cereal shapes",
-    "ik": "tok:multigrain|cereal-shapes|na",
-    "bn": "multigrain"
+    "ik": "tok:multigrain|cereal-shapes|1",
+    "bn": "multigrain",
+    "wg": 1
   },
   {
     "n": "Benefit Red Fruit Cereal",
@@ -10339,13 +10425,14 @@
     "n": "Multigrain Dino Shapes Cereal",
     "p": "1.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/harvest-morn-multigrain-dino-shapes-cereal/000000000434411002",
     "c": "Other",
     "cn": "multigrain cereal dino shapes",
-    "ik": "tok:multigrain|cereal-dino-shapes|na",
-    "bn": "multigrain"
+    "ik": "tok:multigrain|cereal-dino-shapes|1",
+    "bn": "multigrain",
+    "wg": 1
   },
   {
     "n": "Weetabix Cereal 36 Pack",
@@ -11025,13 +11112,14 @@
     "n": "Reusable Bag",
     "p": "0.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/aldi-reusable-bag/000000000605613004",
     "c": "Other",
     "cn": "reusable bag",
-    "ik": "tok:reusable|bag|na",
-    "bn": "reusable"
+    "ik": "tok:reusable|bag|1",
+    "bn": "reusable",
+    "wg": 1
   },
   {
     "n": "Dog Poop Bags",
@@ -11062,13 +11150,14 @@
     "n": "Small Freezer Bag Roll",
     "p": "1.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/power-force-small-freezer-bag-roll/000000000624038001",
     "c": "Other",
     "cn": "small bag freezer roll",
-    "ik": "tok:small|bag-freezer-roll|na",
-    "bn": "small"
+    "ik": "tok:small|bag-freezer-roll|1",
+    "bn": "small",
+    "wg": 1
   },
   {
     "n": "Detox Herbal Tea 20 Pack",
@@ -11100,37 +11189,40 @@
     "n": "Zip Seal Small Food Bags",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/power-force-zip-seal-small-food-bags/000000000619974001",
     "c": "Other",
     "cn": "zip bags food seal small",
-    "ik": "tok:zip|bags-food-seal-small|na",
-    "bn": "zip"
+    "ik": "tok:zip|bags-food-seal-small|1",
+    "bn": "zip",
+    "wg": 1
   },
   {
     "n": "Eco Loop Carrier Bag",
     "p": "0.40",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/aldi-eco-loop-carrier-bag/000000000563158001",
     "c": "Other",
     "cn": "eco bag carrier loop",
-    "ik": "tok:eco|bag-carrier-loop|na",
-    "bn": "eco"
+    "ik": "tok:eco|bag-carrier-loop|1",
+    "bn": "eco",
+    "wg": 1
   },
   {
     "n": "Red Woven Reusable Bag",
     "p": "0.65",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/aldi-red-woven-reusable-bag/000000000563299001",
     "c": "Other",
     "cn": "red bag reusable woven",
-    "ik": "tok:red|bag-reusable-woven|na",
-    "bn": "red"
+    "ik": "tok:red|bag-reusable-woven|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Light & Delicate Pure Green Tea 40 Pack",
@@ -11422,13 +11514,14 @@
     "n": "Oranges",
     "p": "1.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-oranges/000000000000266773",
     "c": "Other",
     "cn": "oranges",
-    "ik": "tok:oranges|unknown|na",
-    "bn": "oranges"
+    "ik": "tok:oranges|unknown|1",
+    "bn": "oranges",
+    "wg": 1
   },
   {
     "n": "Orange Super Concentrated Squirty Squash",
@@ -11499,25 +11592,27 @@
     "n": "Large Oranges",
     "p": "1.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-large-oranges/000000000000267083",
     "c": "Other",
     "cn": "large oranges",
-    "ik": "tok:large|oranges|na",
-    "bn": "large"
+    "ik": "tok:large|oranges|1",
+    "bn": "large",
+    "wg": 1
   },
   {
     "n": "Wonky Oranges",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/everyday-essentials-wonky-oranges/000000000000537836",
     "c": "Other",
     "cn": "wonky oranges",
-    "ik": "tok:wonky|oranges|na",
-    "bn": "wonky"
+    "ik": "tok:wonky|oranges|1",
+    "bn": "wonky",
+    "wg": 1
   },
   {
     "n": "Orange Lollies",
@@ -12160,37 +12255,40 @@
     "n": "Water Tracker Bottle",
     "p": "2.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/crofton-water-tracker-bottle/000000000714504001",
     "c": "Other",
     "cn": "water bottle tracker",
-    "ik": "tok:water|bottle-tracker|na",
-    "bn": "water"
+    "ik": "tok:water|bottle-tracker|1",
+    "bn": "water",
+    "wg": 1
   },
   {
     "n": "Slip On Water Shoes",
     "p": "3.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/crane-slip-on-water-shoes/000000000723986001",
     "c": "Other",
     "cn": "slip on shoes water",
-    "ik": "tok:slip|on-shoes-water|na",
-    "bn": "slip"
+    "ik": "tok:slip|on-shoes-water|1",
+    "bn": "slip",
+    "wg": 1
   },
   {
     "n": "Water And Beach Games",
     "p": "4.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/crane-water-and-beach-games/000000000730064001",
     "c": "Other",
     "cn": "water and beach games",
-    "ik": "tok:water|and-beach-games|na",
-    "bn": "water"
+    "ik": "tok:water|and-beach-games|1",
+    "bn": "water",
+    "wg": 1
   },
   {
     "n": "Tuna Chunks In Spring Water",
@@ -12248,49 +12346,53 @@
     "n": "Water Spray Guns",
     "p": "3.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/little-town-water-spray-guns/000000000627702001",
     "c": "Other",
     "cn": "water guns spray",
-    "ik": "tok:water|guns-spray|na",
-    "bn": "water"
+    "ik": "tok:water|guns-spray|1",
+    "bn": "water",
+    "wg": 1
   },
   {
     "n": "Sand/Water Table",
     "p": "19.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/little-town-sand-water-table/000000000711225001",
     "c": "Other",
     "cn": "sandwater sand table water",
-    "ik": "tok:sandwater|sand-table-water|na",
-    "bn": "sandwater"
+    "ik": "tok:sandwater|sand-table-water|1",
+    "bn": "sandwater",
+    "wg": 1
   },
   {
     "n": "Water Blaster Assortment",
     "p": "7.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/little-town-water-blaster-assortment/000000000718799001",
     "c": "Other",
     "cn": "water assortment blaster",
-    "ik": "tok:water|assortment-blaster|na",
-    "bn": "water"
+    "ik": "tok:water|assortment-blaster|1",
+    "bn": "water",
+    "wg": 1
   },
   {
     "n": "Foam Water Gun",
     "p": "3.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/happy-people-foam-water-gun/000000000731662001",
     "c": "Other",
     "cn": "foam gun water",
-    "ik": "tok:foam|gun-water|na",
-    "bn": "foam"
+    "ik": "tok:foam|gun-water|1",
+    "bn": "foam",
+    "wg": 1
   },
   {
     "n": "Tuna Chunks In Water 4 Pack",
@@ -12673,25 +12775,27 @@
     "n": "Large Square Olive Planter",
     "p": "9.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/belavi-large-square-olive-planter/000000000723915001",
     "c": "Other",
     "cn": "large olive planter square",
-    "ik": "tok:large|olive-planter-square|na",
-    "bn": "large"
+    "ik": "tok:large|olive-planter-square|1",
+    "bn": "large",
+    "wg": 1
   },
   {
     "n": "Black Sliced Olives",
     "p": "0.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/no-brand-black-sliced-olives/000000000000744011",
     "c": "Other",
     "cn": "black olives sliced",
-    "ik": "tok:black|olives-sliced|na",
-    "bn": "black"
+    "ik": "tok:black|olives-sliced|1",
+    "bn": "black",
+    "wg": 1
   },
   {
     "n": "Double Stuffed Giant Halkidiki Olives",
@@ -12853,13 +12957,14 @@
     "n": "Sunflowers",
     "p": "3.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/beautiful-blooms-sunflowers/000000000000417616",
     "c": "Other",
     "cn": "sunflowers",
-    "ik": "tok:sunflowers|unknown|na",
-    "bn": "sunflowers"
+    "ik": "tok:sunflowers|unknown|1",
+    "bn": "sunflowers",
+    "wg": 1
   },
   {
     "n": "Sunflower Seeds",
@@ -12891,13 +12996,14 @@
     "n": "Multifunctional Oil",
     "p": "3.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/wd-40-multifunctional-oil/000000000000172703",
     "c": "Other",
     "cn": "multifunctional oil",
-    "ik": "tok:multifunctional|oil|na",
-    "bn": "multifunctional"
+    "ik": "tok:multifunctional|oil|1",
+    "bn": "multifunctional",
+    "wg": 1
   },
   {
     "n": "British Rapeseed Oil",
@@ -12916,13 +13022,14 @@
     "n": "Luminous Lip Oil",
     "p": "3.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/lacura-luminous-lip-oil/000000000488879001",
     "c": "Other",
     "cn": "luminous lip oil",
-    "ik": "tok:luminous|lip-oil|na",
-    "bn": "luminous"
+    "ik": "tok:luminous|lip-oil|1",
+    "bn": "luminous",
+    "wg": 1
   },
   {
     "n": "Marine Oil / Eye Cream",
@@ -13149,13 +13256,14 @@
     "n": "Plain Sugar Waffles",
     "p": "1.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/bon-appetit-plain-sugar-waffles/000000000531295001",
     "c": "Other",
     "cn": "plain sugar waffles",
-    "ik": "tok:plain|sugar-waffles|na",
-    "bn": "plain"
+    "ik": "tok:plain|sugar-waffles|1",
+    "bn": "plain",
+    "wg": 1
   },
   {
     "n": "Plain Flour",
@@ -13432,13 +13540,14 @@
     "n": "Cashews Roasted And Salted",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/snackrite-cashews-roasted-and-salted/000000000000671520",
     "c": "Other",
     "cn": "cashews and roasted salted",
-    "ik": "tok:cashews|and-roasted-salted|na",
-    "bn": "cashews"
+    "ik": "tok:cashews|and-roasted-salted|1",
+    "bn": "cashews",
+    "wg": 1
   },
   {
     "n": "Sea Salt Chocolate",
@@ -13600,13 +13709,14 @@
     "n": "Protein Salted Caramel Pancakes",
     "p": "1.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-protein-salted-caramel-pancakes/000000000508678004",
     "c": "Other",
     "cn": "protein caramel pancakes salted",
-    "ik": "tok:protein|caramel-pancakes-salted|na",
-    "bn": "protein"
+    "ik": "tok:protein|caramel-pancakes-salted|1",
+    "bn": "protein",
+    "wg": 1
   },
   {
     "n": "Salt And Chilli Shredded Chicken",
@@ -13664,37 +13774,40 @@
     "n": "Red Pepper",
     "p": "0.70",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-red-pepper/000000000000275192",
     "c": "Other",
     "cn": "red pepper",
-    "ik": "tok:red|pepper|na",
-    "bn": "red"
+    "ik": "tok:red|pepper|1",
+    "bn": "red",
+    "wg": 1
   },
   {
     "n": "Mixed Peppers",
     "p": "1.79",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-mixed-peppers/000000000000275392",
     "c": "Other",
     "cn": "mixed peppers",
-    "ik": "tok:mixed|peppers|na",
-    "bn": "mixed"
+    "ik": "tok:mixed|peppers|1",
+    "bn": "mixed",
+    "wg": 1
   },
   {
     "n": "Sweet Peppers",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nature-s-pick-sweet-peppers/000000000000275395",
     "c": "Other",
     "cn": "sweet peppers",
-    "ik": "tok:sweet|peppers|na",
-    "bn": "sweet"
+    "ik": "tok:sweet|peppers|1",
+    "bn": "sweet",
+    "wg": 1
   },
   {
     "n": "Wonky Mixed Peppers",
@@ -13713,13 +13826,14 @@
     "n": "Sweet Pointed Peppers",
     "p": "0.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-sweet-pointed-peppers/000000000000464995",
     "c": "Other",
     "cn": "sweet peppers pointed",
-    "ik": "tok:sweet|peppers-pointed|na",
-    "bn": "sweet"
+    "ik": "tok:sweet|peppers-pointed|1",
+    "bn": "sweet",
+    "wg": 1
   },
   {
     "n": "Sweet Baby Peppers",
@@ -14102,13 +14216,14 @@
     "n": "Chicken & Bacon Club With Mayo Sandwich",
     "p": "2.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/eat-go-chicken-bacon-club-with-mayo-sandwich/000000000400820004",
     "c": "Other",
     "cn": "chicken bacon club mayo sandwich with",
-    "ik": "tok:chicken|bacon-club-mayo-sandwich-with|na",
-    "bn": "chicken"
+    "ik": "tok:chicken|bacon-club-mayo-sandwich-with|1",
+    "bn": "chicken",
+    "wg": 1
   },
   {
     "n": "Salt & Pepper Chicken With Mayo Wrap",
@@ -14127,25 +14242,27 @@
     "n": "Honey Roast Ham Salad With Mayo Sandwich",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/eat-go-honey-roast-ham-salad-with-mayo-sandwich/000000000398787004",
     "c": "Other",
     "cn": "honey ham mayo roast salad sandwich with",
-    "ik": "tok:honey|ham-mayo-roast-salad-sandwich-with|na",
-    "bn": "honey"
+    "ik": "tok:honey|ham-mayo-roast-salad-sandwich-with|1",
+    "bn": "honey",
+    "wg": 1
   },
   {
     "n": "Oak Smoked Ham & Cheddar Cheese With Mayo Sandwich",
     "p": "1.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/eat-go-oak-smoked-ham-cheddar-cheese-with-mayo-sandwich/000000000398787012",
     "c": "Other",
     "cn": "oak cheddar cheese ham mayo sandwich smoked with",
-    "ik": "tok:oak|cheddar-cheese-ham-mayo-sandwich-smoked-with|na",
-    "bn": "oak"
+    "ik": "tok:oak|cheddar-cheese-ham-mayo-sandwich-smoked-with|1",
+    "bn": "oak",
+    "wg": 1
   },
   {
     "n": "Honey Roast Peanuts",
@@ -14216,13 +14333,14 @@
     "n": "Peanut Muesli Bars",
     "p": "1.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/harvest-morn-peanut-muesli-bars/000000000640056003",
     "c": "Other",
     "cn": "peanut bars muesli",
-    "ik": "tok:peanut|bars-muesli|na",
-    "bn": "peanut"
+    "ik": "tok:peanut|bars-muesli|1",
+    "bn": "peanut",
+    "wg": 1
   },
   {
     "n": "Fully Loaded Jalapeño Peanuts",
@@ -14267,13 +14385,14 @@
     "n": "Jam Tarts",
     "p": "0.89",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/holly-lane-jam-tarts/000000000000490219",
     "c": "Other",
     "cn": "jam tarts",
-    "ik": "tok:jam|tarts|na",
-    "bn": "jam"
+    "ik": "tok:jam|tarts|1",
+    "bn": "jam",
+    "wg": 1
   },
   {
     "n": "Apricot Jam",
@@ -14318,13 +14437,14 @@
     "n": "Doughnuts Jam Ball",
     "p": "1.09",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-doughnuts-jam-ball/000000000000386593",
     "c": "Other",
     "cn": "doughnuts ball jam",
-    "ik": "tok:doughnuts|ball-jam|na",
-    "bn": "doughnuts"
+    "ik": "tok:doughnuts|ball-jam|1",
+    "bn": "doughnuts",
+    "wg": 1
   },
   {
     "n": "Jalapeño Chilli Jam",
@@ -14602,13 +14722,14 @@
     "n": "Hot Honey Flatbreads",
     "p": "1.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/specially-selected-hot-honey-flatbreads/000000000538932003",
     "c": "Other",
     "cn": "hot flatbreads honey",
-    "ik": "tok:hot|flatbreads-honey|na",
-    "bn": "hot"
+    "ik": "tok:hot|flatbreads-honey|1",
+    "bn": "hot",
+    "wg": 1
   },
   {
     "n": "Honey Nut Crunchy Cornflakes",
@@ -15563,13 +15684,14 @@
     "n": "Chocums Cookies",
     "p": "1.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/dairyfine-chocums-cookies/000000000456133001",
     "c": "Other",
     "cn": "chocums cookies",
-    "ik": "tok:chocums|cookies|na",
-    "bn": "chocums"
+    "ik": "tok:chocums|cookies|1",
+    "bn": "chocums",
+    "wg": 1
   },
   {
     "n": "Sharer Cookie",
@@ -15627,37 +15749,40 @@
     "n": "Giant Buttons Cookies",
     "p": "1.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/dairyfine-giant-buttons-cookies/000000000456133002",
     "c": "Other",
     "cn": "giant buttons cookies",
-    "ik": "tok:giant|buttons-cookies|na",
-    "bn": "giant"
+    "ik": "tok:giant|buttons-cookies|1",
+    "bn": "giant",
+    "wg": 1
   },
   {
     "n": "Chocolate & Caramel Cookies",
     "p": "1.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/dairyfine-chocolate-caramel-cookies/000000000577453001",
     "c": "Snacks",
     "cn": "chocolate caramel cookies",
-    "ik": "tok:chocolate|caramel-cookies|na",
-    "bn": "chocolate"
+    "ik": "tok:chocolate|caramel-cookies|1",
+    "bn": "chocolate",
+    "wg": 1
   },
   {
     "n": "Triple Chocolate Cookies",
     "p": "1.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/dairyfine-triple-chocolate-cookies/000000000577453002",
     "c": "Snacks",
     "cn": "triple chocolate cookies",
-    "ik": "tok:triple|chocolate-cookies|na",
-    "bn": "triple"
+    "ik": "tok:triple|chocolate-cookies|1",
+    "bn": "triple",
+    "wg": 1
   },
   {
     "n": "Cornish Ice Cream",
@@ -15689,13 +15814,14 @@
     "n": "Ice Cream Machine",
     "p": "69.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ambiano-ice-cream-machine/000000000000719468",
     "c": "Other",
     "cn": "ice cream machine",
-    "ik": "tok:ice|cream-machine|na",
-    "bn": "ice"
+    "ik": "tok:ice|cream-machine|1",
+    "bn": "ice",
+    "wg": 1
   },
   {
     "n": "Strawberry Ice Cream",
@@ -16039,13 +16165,14 @@
     "n": "Stonebaked Cheese Pizza",
     "p": "1.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/carlos-stonebaked-cheese-pizza/000000000000698969",
     "c": "Other",
     "cn": "stonebaked cheese pizza",
-    "ik": "tok:stonebaked|cheese-pizza|na",
-    "bn": "stonebaked"
+    "ik": "tok:stonebaked|cheese-pizza|1",
+    "bn": "stonebaked",
+    "wg": 1
   },
   {
     "n": "Stonebaked Pepperoni Pizza",
@@ -16064,13 +16191,14 @@
     "n": "Sweet Chilli Chicken Pizza",
     "p": "1.39",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/carlos-sweet-chilli-chicken-pizza/000000000000699198",
     "c": "Other",
     "cn": "sweet chicken chilli pizza",
-    "ik": "tok:sweet|chicken-chilli-pizza|na",
-    "bn": "sweet"
+    "ik": "tok:sweet|chicken-chilli-pizza|1",
+    "bn": "sweet",
+    "wg": 1
   },
   {
     "n": "Deep Pan Pepperoni Pizza",
@@ -16648,13 +16776,14 @@
     "n": "Golf Chipping Game",
     "p": "14.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/crane-golf-chipping-game/000000000000726882",
     "c": "Other",
     "cn": "golf chipping game",
-    "ik": "tok:golf|chipping-game|na",
-    "bn": "golf"
+    "ik": "tok:golf|chipping-game|1",
+    "bn": "golf",
+    "wg": 1
   },
   {
     "n": "Finger Chillies",
@@ -16777,25 +16906,27 @@
     "n": "Toilet Paper 6 Rolls",
     "p": "2.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/everyday-essentials-toilet-paper-6-rolls/000000000000631967",
     "c": "Other",
     "cn": "toilet paper rolls",
-    "ik": "tok:toilet|paper-rolls|na",
-    "bn": "toilet"
+    "ik": "tok:toilet|paper-rolls|1",
+    "bn": "toilet",
+    "wg": 1
   },
   {
     "n": "Toilet Tissue Wipes",
     "p": "0.43",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/saxon-toilet-tissue-wipes/000000000481023001",
     "c": "Other",
     "cn": "toilet tissue wipes",
-    "ik": "tok:toilet|tissue-wipes|na",
-    "bn": "toilet"
+    "ik": "tok:toilet|tissue-wipes|1",
+    "bn": "toilet",
+    "wg": 1
   },
   {
     "n": "Premium Toilet Paper 12 Pack",
@@ -16873,13 +17004,14 @@
     "n": "Jumbo Kitchen Towel",
     "p": "1.15",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/everyday-essentials-jumbo-kitchen-towel/000000000000648594",
     "c": "Other",
     "cn": "jumbo kitchen towel",
-    "ik": "tok:jumbo|kitchen-towel|na",
-    "bn": "jumbo"
+    "ik": "tok:jumbo|kitchen-towel|1",
+    "bn": "jumbo",
+    "wg": 1
   },
   {
     "n": "Ultra Kitchen Towel 2 Pack",
@@ -16975,37 +17107,40 @@
     "n": "Wholemeal Rolls",
     "p": "0.45",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/village-bakery-wholemeal-rolls/000000000383591002",
     "c": "Other",
     "cn": "wholemeal rolls",
-    "ik": "tok:wholemeal|rolls|na",
-    "bn": "wholemeal"
+    "ik": "tok:wholemeal|rolls|1",
+    "bn": "wholemeal",
+    "wg": 1
   },
   {
     "n": "Dragon Roll",
     "p": "3.29",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/eat-go-dragon-roll/000000000742044004",
     "c": "Other",
     "cn": "dragon roll",
-    "ik": "tok:dragon|roll|na",
-    "bn": "dragon"
+    "ik": "tok:dragon|roll|1",
+    "bn": "dragon",
+    "wg": 1
   },
   {
     "n": "Chocolate Mini Rolls",
     "p": "1.59",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/dairyfine-chocolate-mini-rolls/000000000000383339",
     "c": "Snacks",
     "cn": "chocolate mini rolls",
-    "ik": "tok:chocolate|mini-rolls|na",
-    "bn": "chocolate"
+    "ik": "tok:chocolate|mini-rolls|1",
+    "bn": "chocolate",
+    "wg": 1
   },
   {
     "n": "Sausage Rolls 6 Pack",
@@ -17128,13 +17263,14 @@
     "n": "Wash Basin Shower",
     "p": "9.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/easy-home-wash-basin-shower/000000000000724643",
     "c": "Other",
     "cn": "wash basin shower",
-    "ik": "tok:wash|basin-shower|na",
-    "bn": "wash"
+    "ik": "tok:wash|basin-shower|1",
+    "bn": "wash",
+    "wg": 1
   },
   {
     "n": "Luxurious Hand Wash",
@@ -17153,13 +17289,14 @@
     "n": "Children's Swim Cover Up",
     "p": "4.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/l-d-children-s-swim-cover-up/000000000713497001",
     "c": "Other",
     "cn": "childrens children cover swim up",
-    "ik": "tok:childrens|children-cover-swim-up|na",
-    "bn": "childrens"
+    "ik": "tok:childrens|children-cover-swim-up|1",
+    "bn": "childrens",
+    "wg": 1
   },
   {
     "n": "Washed & Ready To Cook Vegetable Medley",
@@ -17217,13 +17354,14 @@
     "n": "Food Umbrella",
     "p": "1.69",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/crofton-food-umbrella/000000000720723010",
     "c": "Other",
     "cn": "food umbrella",
-    "ik": "tok:food|umbrella|na",
-    "bn": "food"
+    "ik": "tok:food|umbrella|1",
+    "bn": "food",
+    "wg": 1
   },
   {
     "n": "Bio Laundry Detergent",
@@ -17294,121 +17432,131 @@
     "n": "Handheld Steam Cleaner",
     "p": "16.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ambiano-handheld-steam-cleaner/000000000000721671",
     "c": "Other",
     "cn": "handheld cleaner steam",
-    "ik": "tok:handheld|cleaner-steam|na",
-    "bn": "handheld"
+    "ik": "tok:handheld|cleaner-steam|1",
+    "bn": "handheld",
+    "wg": 1
   },
   {
     "n": "Ultrasonic Cleaner",
     "p": "14.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ambiano-ultrasonic-cleaner/000000000000722245",
     "c": "Other",
     "cn": "ultrasonic cleaner",
-    "ik": "tok:ultrasonic|cleaner|na",
-    "bn": "ultrasonic"
+    "ik": "tok:ultrasonic|cleaner|1",
+    "bn": "ultrasonic",
+    "wg": 1
   },
   {
     "n": "Bagless Vacuum Cleaner",
     "p": "29.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ambiano-bagless-vacuum-cleaner/000000000000725211",
     "c": "Other",
     "cn": "bagless cleaner vacuum",
-    "ik": "tok:bagless|cleaner-vacuum|na",
-    "bn": "bagless"
+    "ik": "tok:bagless|cleaner-vacuum|1",
+    "bn": "bagless",
+    "wg": 1
   },
   {
     "n": "Portable Vacuum Cleaner",
     "p": "16.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ambiano-portable-vacuum-cleaner/000000000725333001",
     "c": "Other",
     "cn": "portable cleaner vacuum",
-    "ik": "tok:portable|cleaner-vacuum|na",
-    "bn": "portable"
+    "ik": "tok:portable|cleaner-vacuum|1",
+    "bn": "portable",
+    "wg": 1
   },
   {
     "n": "Steam Assortment",
     "p": "12.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ambiano-steam-assortment/000000000725967001",
     "c": "Other",
     "cn": "steam assortment",
-    "ik": "tok:steam|assortment|na",
-    "bn": "steam"
+    "ik": "tok:steam|assortment|1",
+    "bn": "steam",
+    "wg": 1
   },
   {
     "n": "3-Tier Airer",
     "p": "14.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/addis-3-tier-airer/000000000713516001",
     "c": "Other",
     "cn": "tier airer",
-    "ik": "tok:tier|airer|na",
-    "bn": "tier"
+    "ik": "tok:tier|airer|1",
+    "bn": "tier",
+    "wg": 1
   },
   {
     "n": "Peg Basket/Sock Hanger",
     "p": "2.49",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/easy-home-peg-basket-sock-hanger/000000000716384001",
     "c": "Other",
     "cn": "peg basket hanger sock",
-    "ik": "tok:peg|basket-hanger-sock|na",
-    "bn": "peg"
+    "ik": "tok:peg|basket-hanger-sock|1",
+    "bn": "peg",
+    "wg": 1
   },
   {
     "n": "Rubber Broom Set",
     "p": "5.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/easy-home-rubber-broom-set/000000000724425001",
     "c": "Other",
     "cn": "rubber broom set",
-    "ik": "tok:rubber|broom-set|na",
-    "bn": "rubber"
+    "ik": "tok:rubber|broom-set|1",
+    "bn": "rubber",
+    "wg": 1
   },
   {
     "n": "Tile Scrubber Assortment",
     "p": "5.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/easy-home-tile-scrubber-assortment/000000000727657001",
     "c": "Other",
     "cn": "tile assortment scrubber",
-    "ik": "tok:tile|assortment-scrubber|na",
-    "bn": "tile"
+    "ik": "tok:tile|assortment-scrubber|1",
+    "bn": "tile",
+    "wg": 1
   },
   {
     "n": "Stackable Storage Box",
     "p": "2.99",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/easy-home-stackable-storage-box/000000000728977001",
     "c": "Other",
     "cn": "stackable box storage",
-    "ik": "tok:stackable|box-storage|na",
-    "bn": "stackable"
+    "ik": "tok:stackable|box-storage|1",
+    "bn": "stackable",
+    "wg": 1
   },
   {
     "n": "Shampoo/Conditioner",
@@ -17674,12 +17822,13 @@
     "n": "Wrapping Foil 20M",
     "p": "1.09",
     "o": "",
-    "s": "stuk",
+    "s": "1 stuk",
     "l": "",
     "i": "https://www.aldi.co.uk/product/everyday-essentials-wrapping-foil-20m/000000000000397904",
     "c": "Other",
     "cn": "wrapping 20m foil",
-    "ik": "tok:wrapping|20m-foil|na",
-    "bn": "wrapping"
+    "ik": "tok:wrapping|20m-foil|1",
+    "bn": "wrapping",
+    "wg": 1
   }
 ]
