@@ -3321,15 +3321,6 @@
     "c": "Other"
   },
   {
-    "n": "Peeled Plum Tomatoes in a Rich Tomato Juice",
-    "p": "0.47",
-    "o": "",
-    "s": "400 g",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/cucina-peeled-plum-tomatoes-in-a-rich-tomato-juice/000000000000278707",
-    "c": "Other"
-  },
-  {
     "n": "Smoked Double Gloucester & Tomato with Tomato Chutney Sandwich",
     "p": "1.99",
     "o": "",
@@ -3408,6 +3399,15 @@
     "s": "0.31 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/everyday-essentials-cheese-tomato-pizza/000000000457212004",
+    "c": "Other"
+  },
+  {
+    "n": "Tomato & Lentil Soup",
+    "p": "2.49",
+    "o": "",
+    "s": "0.6 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/specially-selected-tomato-lentil-soup/000000000559768001",
     "c": "Other"
   },
   {
@@ -4968,15 +4968,6 @@
     "c": "Other"
   },
   {
-    "n": "Quorn Mince",
-    "p": "2.29",
-    "o": "",
-    "s": "0.42 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
-    "c": "Other"
-  },
-  {
     "n": "British Extra Lean Turkey Mince 2% Fat",
     "p": "3.99",
     "o": "",
@@ -5010,6 +5001,15 @@
     "s": "0.75 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ashfields-british-lean-beef-steak-mince-5-fat/000000000000575288",
+    "c": "Other"
+  },
+  {
+    "n": "Quorn Mince",
+    "p": "2.29",
+    "o": "",
+    "s": "0.42 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
     "c": "Other"
   },
   {
@@ -5514,15 +5514,6 @@
     "s": "400 g",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ashfields-pork-cocktail-sausages-40-pack/000000000000400397",
-    "c": "Pantry"
-  },
-  {
-    "n": "12 Richmond Thick Pork Sausages",
-    "p": "1.99",
-    "o": "",
-    "s": "0.62 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/richmond-12-richmond-thick-pork-sausages/000000000000680449",
     "c": "Pantry"
   },
   {
@@ -6237,15 +6228,6 @@
     "c": "Other"
   },
   {
-    "n": "Vegetarian Ham Slices",
-    "p": "1.45",
-    "o": "",
-    "s": "0.1 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/quorn-vegetarian-ham-slices/000000000493578001",
-    "c": "Other"
-  },
-  {
     "n": "Wafer Thin British Cooked Ham 40 Slices",
     "p": "1.89",
     "o": "",
@@ -6306,6 +6288,15 @@
     "s": "0.12 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ashfields-british-wafer-thin-cooked-ham-9-slices/000000000405571001",
+    "c": "Other"
+  },
+  {
+    "n": "Applewood Smoked Wiltshire Cured Ham 6 Slices",
+    "p": "2.19",
+    "o": "",
+    "s": "120 g",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/specially-selected-applewood-smoked-wiltshire-cured-ham-6-slices/000000000615748001",
     "c": "Other"
   },
   {
@@ -6399,30 +6390,12 @@
     "c": "Pantry"
   },
   {
-    "n": "Tortelloni 250g / Gnocchi 500g",
+    "n": "Prosciutto Tortelloni",
     "p": "0.99",
     "o": "",
     "s": "0.25 kg",
     "l": "",
-    "i": "https://www.aldi.co.uk/product/cucina-tortelloni-250g-gnocchi-500g/000000000635994001",
-    "c": "Other"
-  },
-  {
-    "n": "Tortelloni 250g / Gnocchi 500g",
-    "p": "0.99",
-    "o": "",
-    "s": "0.25 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/cucina-tortelloni-250g-gnocchi-500g/000000000635994002",
-    "c": "Other"
-  },
-  {
-    "n": "Tortelloni 250g / Gnocchi 500g",
-    "p": "0.99",
-    "o": "",
-    "s": "0.5 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/cucina-tortelloni-250g-gnocchi-500g/000000000635994003",
+    "i": "https://www.aldi.co.uk/product/cucina-prosciutto-tortelloni/000000000635994001",
     "c": "Other"
   },
   {
@@ -6432,6 +6405,15 @@
     "s": "0.5 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/cucina-lasagne-sheets/000000000000305855",
+    "c": "Other"
+  },
+  {
+    "n": "Gnocchi 500g",
+    "p": "0.99",
+    "o": "",
+    "s": "0.5 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/cucina-gnocchi-500g/000000000635994003",
     "c": "Other"
   },
   {
@@ -6523,6 +6505,15 @@
     "l": "",
     "i": "https://www.aldi.co.uk/product/cucina-spicy-sausage-tortelloni/000000000526415005",
     "c": "Pantry"
+  },
+  {
+    "n": "Spinach & Ricotta Tortelloni",
+    "p": "0.99",
+    "o": "",
+    "s": "0.25 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/cucina-spinach-ricotta-tortelloni/000000000635994002",
+    "c": "Other"
   },
   {
     "n": "Tomato & Mascarpone Pasta Sauce",
@@ -7209,6 +7200,15 @@
     "c": "Other"
   },
   {
+    "n": "Frosted Flakes Cereal",
+    "p": "0.95",
+    "o": "",
+    "s": "0.5 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/harvest-morn-frosted-flakes-cereal/000000000000478536",
+    "c": "Other"
+  },
+  {
     "n": "Cinnamon Chips Cereal",
     "p": "1.89",
     "o": "",
@@ -7344,6 +7344,15 @@
     "c": "Other"
   },
   {
+    "n": "Low Sugar Choco Rice Cereal",
+    "p": "0.89",
+    "o": "",
+    "s": "375 g",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/harvest-morn-low-sugar-choco-rice-cereal/000000000000308996",
+    "c": "Other"
+  },
+  {
     "n": "Honey & Nut Crunchy Clusters Cereal",
     "p": "1.99",
     "o": "",
@@ -7404,15 +7413,6 @@
     "s": "500 g",
     "l": "",
     "i": "https://www.aldi.co.uk/product/harvest-morn-honey-nut-crunchy-cornflakes/000000000000307688",
-    "c": "Other"
-  },
-  {
-    "n": "Bran Flakes",
-    "p": "1.25",
-    "o": "",
-    "s": "750 g",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/harvest-morn-bran-flakes/000000000000307696",
     "c": "Other"
   },
   {
@@ -7602,15 +7602,6 @@
     "s": "0.1 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/nescafe-caramel-latte-sachets/000000000584169003",
-    "c": "Other"
-  },
-  {
-    "n": "Glass Painting",
-    "p": "4.99",
-    "o": "",
-    "s": "",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/craftmaker-glass-painting/000000000733515001",
     "c": "Other"
   },
   {
@@ -9333,6 +9324,15 @@
     "c": "Other"
   },
   {
+    "n": "Cocoa Powder",
+    "p": "2.99",
+    "o": "",
+    "s": "250 g",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/the-pantry-cocoa-powder/000000000000386805",
+    "c": "Other"
+  },
+  {
     "n": "Mini Marshmallows",
     "p": "1.25",
     "o": "",
@@ -9439,15 +9439,6 @@
     "l": "",
     "i": "https://www.aldi.co.uk/product/the-pantry-chocolate-chunk-cookie-mix/000000000592838002",
     "c": "Snacks"
-  },
-  {
-    "n": "Vanilla Sponge Mix",
-    "p": "1.25",
-    "o": "",
-    "s": "0.43 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/the-pantry-vanilla-sponge-mix/000000000592838003",
-    "c": "Other"
   },
   {
     "n": "Salt Grinder",
@@ -9882,15 +9873,6 @@
     "c": "Other"
   },
   {
-    "n": "Sriracha Mayo",
-    "p": "1.99",
-    "o": "",
-    "s": "0.46 l",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/asia-specialities-sriracha-mayo/000000000678506002",
-    "c": "Other"
-  },
-  {
     "n": "Real Mayonnaise",
     "p": "0.89",
     "o": "",
@@ -9900,21 +9882,21 @@
     "c": "Other"
   },
   {
-    "n": "Roasted Garlic Mayo",
-    "p": "0.89",
+    "n": "Sriracha Mayo",
+    "p": "1.99",
     "o": "",
-    "s": "0.25 l",
+    "s": "0.46 l",
     "l": "",
-    "i": "https://www.aldi.co.uk/product/bramwells-roasted-garlic-mayo/000000000500821001",
+    "i": "https://www.aldi.co.uk/product/asia-specialities-sriracha-mayo/000000000678506002",
     "c": "Other"
   },
   {
-    "n": "Peri Peri Mayo",
-    "p": "0.89",
+    "n": "Kewpie Mayonnaise",
+    "p": "4.99",
     "o": "",
-    "s": "0.25 l",
+    "s": "355 ml",
     "l": "",
-    "i": "https://www.aldi.co.uk/product/bramwells-peri-peri-mayo/000000000500821002",
+    "i": "https://www.aldi.co.uk/product/kewpie-kewpie-mayonnaise/000000000000591261",
     "c": "Other"
   },
   {
@@ -9933,6 +9915,24 @@
     "s": "0.5 l",
     "l": "",
     "i": "https://www.aldi.co.uk/product/bramwells-squeezy-light-mayonnaise/000000000415629001",
+    "c": "Other"
+  },
+  {
+    "n": "Roasted Garlic Mayo",
+    "p": "0.89",
+    "o": "",
+    "s": "0.25 l",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/bramwells-roasted-garlic-mayo/000000000500821001",
+    "c": "Other"
+  },
+  {
+    "n": "Peri Peri Mayo",
+    "p": "0.89",
+    "o": "",
+    "s": "0.25 l",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/bramwells-peri-peri-mayo/000000000500821002",
     "c": "Other"
   },
   {
@@ -10683,6 +10683,159 @@
     "c": "Snacks"
   },
   {
+    "n": "Dark Hazelnut Chocolate",
+    "p": "2.49",
+    "o": "",
+    "s": "0.13 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/moser-roth-dark-hazelnut-chocolate/000000000297252010",
+    "c": "Snacks"
+  },
+  {
+    "n": "Dark Hazelnut Chocolate",
+    "p": "2.25",
+    "o": "",
+    "s": "0.2 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/choceur-dark-hazelnut-chocolate/000000000297424001",
+    "c": "Snacks"
+  },
+  {
+    "n": "Fruit & Nut Chocolate",
+    "p": "2.25",
+    "o": "",
+    "s": "0.2 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/choceur-fruit-nut-chocolate/000000000297424002",
+    "c": "Fruits & Vegetables"
+  },
+  {
+    "n": "Cookies & Cream Chocolate",
+    "p": "2.25",
+    "o": "",
+    "s": "0.2 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/choceur-cookies-cream-chocolate/000000000297445007",
+    "c": "Snacks"
+  },
+  {
+    "n": "Fruit & Nut Chocolate",
+    "p": "1.95",
+    "o": "",
+    "s": "0.2 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/dairyfine-fruit-nut-chocolate/000000000307933002",
+    "c": "Fruits & Vegetables"
+  },
+  {
+    "n": "White Chocolate 100g",
+    "p": "0.59",
+    "o": "",
+    "s": "0.1 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/everyday-essentials-white-chocolate-100g/000000000399529001",
+    "c": "Snacks"
+  },
+  {
+    "n": "Mint Crème Chocolate",
+    "p": "1.45",
+    "o": "",
+    "s": "0.15 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/dairyfine-mint-creme-chocolate/000000000400102001",
+    "c": "Snacks"
+  },
+  {
+    "n": "Turkish Delight Chocolate",
+    "p": "1.45",
+    "o": "",
+    "s": "0.15 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/dairyfine-turkish-delight-chocolate/000000000400102002",
+    "c": "Snacks"
+  },
+  {
+    "n": "Dark Hazelnut Chocolate",
+    "p": "1.19",
+    "o": "",
+    "s": "0.1 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/choceur-dark-hazelnut-chocolate/000000000466400001",
+    "c": "Snacks"
+  },
+  {
+    "n": "Dark Chocolate 100g",
+    "p": "0.59",
+    "o": "",
+    "s": "0.1 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/everyday-essentials-dark-chocolate-100g/000000000399529002",
+    "c": "Snacks"
+  },
+  {
+    "n": "Lion Milk Chocolate",
+    "p": "1.19",
+    "o": "",
+    "s": "0.12 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/nestle-lion-milk-chocolate/000000000730428002",
+    "c": "Snacks"
+  },
+  {
+    "n": "Giant Milk Chocolate Buttons",
+    "p": "0.99",
+    "o": "",
+    "s": "0.12 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/dairyfine-giant-milk-chocolate-buttons/000000000297180002",
+    "c": "Snacks"
+  },
+  {
+    "n": "Giant Caramel Chocolate Buttons",
+    "p": "0.99",
+    "o": "",
+    "s": "0.12 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/dairyfine-giant-caramel-chocolate-buttons/000000000297180003",
+    "c": "Snacks"
+  },
+  {
+    "n": "Dark 70% Cocoa Chocolate",
+    "p": "2.49",
+    "o": "",
+    "s": "0.13 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/moser-roth-dark-70-cocoa-chocolate/000000000297252019",
+    "c": "Snacks"
+  },
+  {
+    "n": "Dark 85% Cocoa Chocolate",
+    "p": "2.49",
+    "o": "",
+    "s": "0.13 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/moser-roth-dark-85-cocoa-chocolate/000000000297252032",
+    "c": "Snacks"
+  },
+  {
+    "n": "Milk Chocolate Bubbly Bar",
+    "p": "0.99",
+    "o": "",
+    "s": "0.1 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/dairyfine-milk-chocolate-bubbly-bar/000000000405385001",
+    "c": "Snacks"
+  },
+  {
+    "n": "Mint Chocolate Bubbly Bar",
+    "p": "0.99",
+    "o": "",
+    "s": "0.1 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/dairyfine-mint-chocolate-bubbly-bar/000000000405385003",
+    "c": "Snacks"
+  },
+  {
     "n": "Digestive Biscuits",
     "p": "0.59",
     "o": "",
@@ -10906,15 +11059,6 @@
     "l": "",
     "i": "https://www.aldi.co.uk/product/gianni-s-choco-cookie-ice-cream-cookies/000000000367195003",
     "c": "Other"
-  },
-  {
-    "n": "Cookies & Cream Chocolate",
-    "p": "2.25",
-    "o": "",
-    "s": "0.2 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/choceur-cookies-cream-chocolate/000000000297445007",
-    "c": "Snacks"
   },
   {
     "n": "Giant Buttons Cookies",
@@ -11277,6 +11421,15 @@
     "c": "Other"
   },
   {
+    "n": "Pizza Pops",
+    "p": "1.99",
+    "o": "",
+    "s": "144 g",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
+    "c": "Other"
+  },
+  {
     "n": "Pepperoni Pizza Subs 2 Pack",
     "p": "0.99",
     "o": "",
@@ -11301,15 +11454,6 @@
     "s": "0.39 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/carlos-deep-pan-three-cheese-pizza/000000000434282001",
-    "c": "Other"
-  },
-  {
-    "n": "Pizza Pops",
-    "p": "1.99",
-    "o": "",
-    "s": "144 g",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
     "c": "Other"
   },
   {
@@ -12141,15 +12285,6 @@
     "c": "Other"
   },
   {
-    "n": "Fabric Conditioner",
-    "p": "1.25",
-    "o": "",
-    "s": "1.26 l",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/almat-so-soft-fabric-conditioner/000000000531396002",
-    "c": "Other"
-  },
-  {
     "n": "Handheld Steam Cleaner",
     "p": "16.99",
     "o": "",
@@ -12381,6 +12516,51 @@
     "s": "0.08 l",
     "l": "",
     "i": "https://www.aldi.co.uk/product/colgate-triple-action-toothpaste/000000000489860001",
+    "c": "Other"
+  },
+  {
+    "n": "Ladies' Anti-Perspirant Deodorant",
+    "p": "1.09",
+    "o": "",
+    "s": "0.25 l",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/lacura-ladies-anti-perspirant-deodorant/000000000343210003",
+    "c": "Personal Care"
+  },
+  {
+    "n": "Men's Anti-Perspirant Deodorant",
+    "p": "1.09",
+    "o": "",
+    "s": "0.25 l",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/lacura-for-men-men-s-anti-perspirant-deodorant/000000000348487002",
+    "c": "Personal Care"
+  },
+  {
+    "n": "Ladies' Roll On Anti-Perspirant Deodorant",
+    "p": "1.09",
+    "o": "",
+    "s": "0.05 l",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/lacura-ladies-roll-on-anti-perspirant-deodorant/000000000348406001",
+    "c": "Personal Care"
+  },
+  {
+    "n": "Men's Roll On Anti-Perspirant Deodorant",
+    "p": "1.09",
+    "o": "",
+    "s": "0.05 l",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/lacura-for-men-men-s-roll-on-anti-perspirant-deodorant/000000000348407001",
+    "c": "Personal Care"
+  },
+  {
+    "n": "Men's Body Spray",
+    "p": "0.75",
+    "o": "",
+    "s": "0.15 l",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/lacura-for-men-men-s-body-spray/000000000343959004",
     "c": "Other"
   },
   {
