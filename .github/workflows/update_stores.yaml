@@ -67,7 +67,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12.8'
           check-latest: false
@@ -111,7 +111,7 @@ jobs:
 
       - name: Upload canonical catalog artifact
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: catalog-${{ matrix.country }}-${{ matrix.store }}
           path: artifacts/catalog
@@ -135,14 +135,14 @@ jobs:
           fetch-depth: 0
 
       - name: Download all successful scraper artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           pattern: catalog-*
           merge-multiple: true
           path: .
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12.8'
           check-latest: false
@@ -174,7 +174,7 @@ jobs:
 
       - name: Upload diagnostics
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: catalog-diagnostics
           path: |
@@ -234,7 +234,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
