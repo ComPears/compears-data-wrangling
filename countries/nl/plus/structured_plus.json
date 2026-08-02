@@ -4367,7 +4367,7 @@
     "n": "Plus Korenlanders Plus Korenlanders Rustiek Stokbrood Wit",
     "o": "",
     "s": "1 stuk",
-    "p": "1.89",
+    "p": "0.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/657423_M/8fcf671230889d12b385bf549c06662d/657423.png",
     "c": "Other",
     "cn": "plus korenlanders rustiek stokbrood wit",
@@ -25557,7 +25557,7 @@
     "n": "Plus Plus Kipfilet Voordeelverpakking",
     "o": "",
     "s": "200 ml",
-    "p": "3.99",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/193055_M/89423ae506d4c54fb4ef96db0db36ce8/193055.png",
     "c": "Dairy & Eggs",
     "cn": "plus kipfilet",
@@ -25701,7 +25701,7 @@
     "n": "Plus Plus Snijworst",
     "o": "",
     "s": "200 ml",
-    "p": "3.99",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/766364_M/0625b862965877ed078dcb4ed0af596f/766364.png",
     "c": "Dairy & Eggs",
     "cn": "plus snijworst",
@@ -25773,7 +25773,7 @@
     "n": "Plus Plus Gekookte Gelderse",
     "o": "",
     "s": "200 ml",
-    "p": "2.77",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/438911_M/6df450901c4e06c9822abb9902c828cb/438911.png",
     "c": "Dairy & Eggs",
     "cn": "plus gekookte gelderse",
@@ -25797,7 +25797,7 @@
     "n": "Plus Plus Tosti Schouderham",
     "o": "",
     "s": "200 ml",
-    "p": "3.69",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/766393_M/6293d7bedfcf02185c882666de74588e/766393.png",
     "c": "Dairy & Eggs",
     "cn": "plus schouderham tosti",
@@ -25821,7 +25821,7 @@
     "n": "Plus Plus Blik Boterhamworst Vdv",
     "o": "",
     "s": "200 ml",
-    "p": "2.77",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/395056_M/30154c59d381a68dbc46670de96685ec/395056.png",
     "c": "Dairy & Eggs",
     "cn": "plus blik boterhamworst vdv",
@@ -26001,7 +26001,7 @@
     "n": "Plus Plus Grillworst Voordeelverpakking",
     "o": "",
     "s": "200 ml",
-    "p": "3.99",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/920029_M/af8b05780fe20c194b8bb0d5259fd06a/920029.png",
     "c": "Dairy & Eggs",
     "cn": "plus grillworst",
@@ -26037,7 +26037,7 @@
     "n": "Plus Plus Achterham Vdv",
     "o": "",
     "s": "200 ml",
-    "p": "3.53",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/395058_M/dd2fe7dabdae5f430627319f6ae8ae4f/395058.png",
     "c": "Dairy & Eggs",
     "cn": "plus achterham vdv",
@@ -72533,6 +72533,18 @@
     "wg": 1800
   },
   {
+    "n": "Amstel Amstel Pilsener Bier Blik",
+    "o": "",
+    "s": "12 l",
+    "p": "",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/709991_M/82ca02a4e2303f357257991ce7d44fff/709991.png",
+    "c": "Beverages",
+    "cn": "amstel bier blik pilsener",
+    "ik": "tok:amstel|bier-blik-pilsener|12000",
+    "bn": "amstel",
+    "wg": 12000
+  },
+  {
     "n": "Heineken Heineken Premium Pilsener Bier Fles",
     "o": "",
     "s": "7.20 l",
@@ -72879,18 +72891,6 @@
     "ik": "tok:grand|oc-pays-ros-sud-vin|1000",
     "bn": "grand",
     "wg": 1000
-  },
-  {
-    "n": "Amstel Amstel Pilsener Bier Blik",
-    "o": "",
-    "s": "1.98 l",
-    "p": "4.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/250194_M/6019cfdadc7217af39571f9f52d94225/250194.png",
-    "c": "Beverages",
-    "cn": "amstel bier blik pilsener",
-    "ik": "tok:amstel|bier-blik-pilsener|1980",
-    "bn": "amstel",
-    "wg": 1980
   },
   {
     "n": "De Klok De Klok Bier Krat Fles",
@@ -114511,16 +114511,16 @@
     "wg": 250
   },
   {
-    "n": "Mars Mars Minimix Melk Chocolade Repen",
+    "n": "Redband Redband Schatkistjes",
     "o": "",
-    "s": "400 ml",
-    "p": "4.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/427115_M/9c2efd95909e4f2fe4e01a33f807d3e9/427115.png",
+    "s": "228 ml",
+    "p": "2.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/423869_M/66914b7d1af7cbda4558f6b4416b0b90/423869.png",
     "c": "Snacks",
-    "cn": "mars chocolade melk minimix repen",
-    "ik": "tok:mars|chocolade-melk-minimix-repen|400",
-    "bn": "mars",
-    "wg": 400
+    "cn": "redband schatkistjes",
+    "ik": "tok:redband|schatkistjes|228",
+    "bn": "redband",
+    "wg": 228
   },
   {
     "n": "Milka Milka Chocoladereep Alpenmelk",
@@ -114535,16 +114535,16 @@
     "wg": 90
   },
   {
-    "n": "M&M'S M&M'S Crispy",
+    "n": "Redband Redband Tumtum",
     "o": "",
-    "s": "309 ml",
-    "p": "5.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/662486_M/ef80d032e8d5ddd20750e4dc8450ae46/662486.png",
+    "s": "230 ml",
+    "p": "1.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/316401_M/0634f6233ec55bfeeb675aa13493ba69/316401.png",
     "c": "Snacks",
-    "cn": "m&ms crispy",
-    "ik": "tok:m&ms|crispy|309",
-    "bn": "m&ms",
-    "wg": 309
+    "cn": "redband tumtum",
+    "ik": "tok:redband|tumtum|230",
+    "bn": "redband",
+    "wg": 230
   },
   {
     "n": "Plus Plus Chocolade Reep Melk",
@@ -114559,16 +114559,16 @@
     "wg": 100
   },
   {
-    "n": "Celebrations Celebrations Assortimentsmix Geschenk",
+    "n": "Redband Redband Juicy Bites Aardbei",
     "o": "",
-    "s": "385 ml",
-    "p": "7.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/404773_M/e95233bd54198aa91dff7fe5cf36f847/404773.png",
+    "s": "145 ml",
+    "p": "1.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/198519_M/ffa34f86046e26e364b4d91f29132de0/198519.png",
     "c": "Snacks",
-    "cn": "celebrations assortimentsmix geschenk",
-    "ik": "tok:celebrations|assortimentsmix-geschenk|385",
-    "bn": "celebrations",
-    "wg": 385
+    "cn": "redband aardbei bites juicy",
+    "ik": "tok:redband|aardbei-bites-juicy|145",
+    "bn": "redband",
+    "wg": 145
   },
   {
     "n": "Plus Plus Chocolade Reep Puur",
@@ -114593,6 +114593,18 @@
     "ik": "tok:plus|choco-chocolade-fairtrade-mini-mix|450",
     "bn": "plus",
     "wg": 450
+  },
+  {
+    "n": "Mars Mars Minimix Melk Chocolade Repen",
+    "o": "",
+    "s": "400 ml",
+    "p": "4.79",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/427115_M/9c2efd95909e4f2fe4e01a33f807d3e9/427115.png",
+    "c": "Snacks",
+    "cn": "mars chocolade melk minimix repen",
+    "ik": "tok:mars|chocolade-melk-minimix-repen|400",
+    "bn": "mars",
+    "wg": 400
   },
   {
     "n": "Kitkat Kitkat Chunky White 4-pack",
@@ -114929,6 +114941,18 @@
     "ik": "tok:plus|chocos-classics-fairtrade|200",
     "bn": "plus",
     "wg": 200
+  },
+  {
+    "n": "M&M'S M&M'S Crispy",
+    "o": "",
+    "s": "309 ml",
+    "p": "5.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/662486_M/ef80d032e8d5ddd20750e4dc8450ae46/662486.png",
+    "c": "Snacks",
+    "cn": "m&ms crispy",
+    "ik": "tok:m&ms|crispy|309",
+    "bn": "m&ms",
+    "wg": 309
   },
   {
     "n": "Côte d'Or Côte d'Or Chocoladereep Melk",
@@ -118855,18 +118879,6 @@
     "wg": 180
   },
   {
-    "n": "Redband Redband Schatkistjes",
-    "o": "",
-    "s": "228 ml",
-    "p": "2.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/423869_M/66914b7d1af7cbda4558f6b4416b0b90/423869.png",
-    "c": "Snacks",
-    "cn": "redband schatkistjes",
-    "ik": "tok:redband|schatkistjes|228",
-    "bn": "redband",
-    "wg": 228
-  },
-  {
     "n": "Plus Plus Roomboter kano's",
     "o": "",
     "s": "275 ml",
@@ -118889,18 +118901,6 @@
     "ik": "tok:plus|chocoprentjes-fairtrade-melk|150",
     "bn": "plus",
     "wg": 150
-  },
-  {
-    "n": "Redband Redband Juicy Bites Aardbei",
-    "o": "",
-    "s": "145 ml",
-    "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/198519_M/ffa34f86046e26e364b4d91f29132de0/198519.png",
-    "c": "Snacks",
-    "cn": "redband aardbei bites juicy",
-    "ik": "tok:redband|aardbei-bites-juicy|145",
-    "bn": "redband",
-    "wg": 145
   },
   {
     "n": "Plus Plus Roze Koeken",
@@ -119645,18 +119645,6 @@
     "ik": "tok:plus|borrelnoten-ham-kaas|300",
     "bn": "plus",
     "wg": 300
-  },
-  {
-    "n": "Redband Redband Tumtum",
-    "o": "",
-    "s": "230 ml",
-    "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/316401_M/0634f6233ec55bfeeb675aa13493ba69/316401.png",
-    "c": "Snacks",
-    "cn": "redband tumtum",
-    "ik": "tok:redband|tumtum|230",
-    "bn": "redband",
-    "wg": 230
   },
   {
     "n": "Doritos Doritos Sweet Chili Pepper",
@@ -121313,6 +121301,18 @@
     "ik": "tok:plus|knoflook-picos|150",
     "bn": "plus",
     "wg": 150
+  },
+  {
+    "n": "Celebrations Celebrations Assortimentsmix Geschenk",
+    "o": "",
+    "s": "196 ml",
+    "p": "3.95",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/404771_M/1f185bc88bc0ffb2f78a37cff842ad6b/404771.png",
+    "c": "Snacks",
+    "cn": "celebrations assortimentsmix geschenk",
+    "ik": "tok:celebrations|assortimentsmix-geschenk|196",
+    "bn": "celebrations",
+    "wg": 196
   },
   {
     "n": "Chio Chio Borrelbites Paprika Sweet Chili",
@@ -139960,16 +139960,16 @@
     "wg": 500
   },
   {
-    "n": "Libresse Libresse Inlegkruisje Normal",
+    "n": "Libresse Libresse Maandverband Ultra Night Wing",
     "o": "",
-    "s": "32 ml",
+    "s": "10 ml",
     "p": "2.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/882924_M/8c2af2a4eca8097fdaaa3342775ac5aa/882924.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/698637_M/55b6d99cb23948c16cc7ffc0cc3a38f2/698637.png",
     "c": "Personal Care",
-    "cn": "libresse inlegkruisje normal",
-    "ik": "tok:libresse|inlegkruisje-normal|32",
+    "cn": "libresse maandverband night ultra wing",
+    "ik": "tok:libresse|maandverband-night-ultra-wing|10",
     "bn": "libresse",
-    "wg": 32
+    "wg": 10
   },
   {
     "n": "Derlon Derlon Handzeep Milde Verzorging Met Pomp",
@@ -140954,6 +140954,18 @@
     "ik": "tok:andrlon|andr-conditioner-extra-glans-lon|200",
     "bn": "andrlon",
     "wg": 200
+  },
+  {
+    "n": "Libresse Libresse Inlegkruisje Normal",
+    "o": "",
+    "s": "32 ml",
+    "p": "2.89",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/882924_M/8c2af2a4eca8097fdaaa3342775ac5aa/882924.png",
+    "c": "Personal Care",
+    "cn": "libresse inlegkruisje normal",
+    "ik": "tok:libresse|inlegkruisje-normal|32",
+    "bn": "libresse",
+    "wg": 32
   },
   {
     "n": "Derlon Derlon Haarlak Mega Strong",
@@ -144278,18 +144290,6 @@
     "ik": "tok:smaakt|biologisch-wortelsap|750",
     "bn": "smaakt",
     "wg": 750
-  },
-  {
-    "n": "Libresse Libresse Maandverband Ultra Night Wing",
-    "o": "",
-    "s": "10 ml",
-    "p": "2.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/698637_M/55b6d99cb23948c16cc7ffc0cc3a38f2/698637.png",
-    "c": "Personal Care",
-    "cn": "libresse maandverband night ultra wing",
-    "ik": "tok:libresse|maandverband-night-ultra-wing|10",
-    "bn": "libresse",
-    "wg": 10
   },
   {
     "n": "Palmolive Palmolive Men Refreshing Douchegel",
@@ -164294,14 +164294,14 @@
     "wg": 2
   },
   {
-    "n": "Nalys Nalys Keukenpapier Xtra Power",
+    "n": "Nalys Nalys Keukenpapier Vochtvangers 2=4",
     "o": "",
     "s": "2 ml",
-    "p": "3.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/406948_M/1733782374dc4bbb0af646e627701dfc/406948.png",
+    "p": "5.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/298316_M/b8c24ce56e3ae7e48afe6b8f0e29c1d1/298316.png",
     "c": "Household",
-    "cn": "nalys keukenpapier power xtra",
-    "ik": "tok:nalys|keukenpapier-power-xtra|2",
+    "cn": "nalys keukenpapier vochtvangers",
+    "ik": "tok:nalys|keukenpapier-vochtvangers|2",
     "bn": "nalys",
     "wg": 2
   },
@@ -164318,14 +164318,14 @@
     "wg": 15
   },
   {
-    "n": "Nalys Nalys Keukenpapier Vochtvangers 2=4",
+    "n": "Nalys Nalys Keukenpapier Xtra Power",
     "o": "",
     "s": "2 ml",
-    "p": "5.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/298316_M/b8c24ce56e3ae7e48afe6b8f0e29c1d1/298316.png",
+    "p": "3.59",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/406948_M/1733782374dc4bbb0af646e627701dfc/406948.png",
     "c": "Household",
-    "cn": "nalys keukenpapier vochtvangers",
-    "ik": "tok:nalys|keukenpapier-vochtvangers|2",
+    "cn": "nalys keukenpapier power xtra",
+    "ik": "tok:nalys|keukenpapier-power-xtra|2",
     "bn": "nalys",
     "wg": 2
   },

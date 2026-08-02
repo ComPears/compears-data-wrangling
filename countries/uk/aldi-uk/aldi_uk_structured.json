@@ -5743,6 +5743,19 @@
     "wg": 1
   },
   {
+    "n": "Plush Rope Dog Toy",
+    "p": "3.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/no-brand-plush-rope-dog-toy/000000000731986001",
+    "c": "Other",
+    "cn": "plush dog rope toy",
+    "ik": "tok:plush|dog-rope-toy|1",
+    "bn": "plush",
+    "wg": 1
+  },
+  {
     "n": "Wonky Lemons",
     "p": "0.89",
     "o": "",
@@ -7043,6 +7056,19 @@
     "wg": 500
   },
   {
+    "n": "Quorn Mince",
+    "p": "2.29",
+    "o": "",
+    "s": "420 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
+    "c": "Other",
+    "cn": "quorn mince",
+    "ik": "tok:quorn|mince|420",
+    "bn": "quorn",
+    "wg": 420
+  },
+  {
     "n": "British Extra Lean Turkey Mince 2% Fat",
     "p": "3.99",
     "o": "",
@@ -7093,19 +7119,6 @@
     "ik": "tok:british|beef-fat-lean-mince-steak|750",
     "bn": "british",
     "wg": 750
-  },
-  {
-    "n": "Quorn Mince",
-    "p": "2.29",
-    "o": "",
-    "s": "420 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
-    "c": "Other",
-    "cn": "quorn mince",
-    "ik": "tok:quorn|mince|420",
-    "bn": "quorn",
-    "wg": 420
   },
   {
     "n": "100% British Beef Lean Aberdeen Angus Steak Mince 5% Fat",
@@ -10447,6 +10460,18 @@
     "bn": "weetabix"
   },
   {
+    "n": "Weetabix Cereal 72 Pack",
+    "p": "6.75",
+    "o": "",
+    "s": "72 pack",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/weetabix-weetabix-cereal-72-pack/000000000000528959",
+    "c": "Other",
+    "cn": "weetabix 72 cereal pack",
+    "ik": "tok:weetabix|72-cereal-pack|na",
+    "bn": "weetabix"
+  },
+  {
     "n": "Low Sugar Choco Rice Cereal",
     "p": "0.89",
     "o": "",
@@ -10535,19 +10560,6 @@
     "ik": "tok:chocolate|bisks-bites-cereal-chip-crispy-wheat|530",
     "bn": "chocolate",
     "wg": 530
-  },
-  {
-    "n": "Honey Nut Crunchy Cornflakes",
-    "p": "0.99",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/harvest-morn-honey-nut-crunchy-cornflakes/000000000000307688",
-    "c": "Other",
-    "cn": "honey cornflakes crunchy nut",
-    "ik": "tok:honey|cornflakes-crunchy-nut|500",
-    "bn": "honey",
-    "wg": 500
   },
   {
     "n": "Porridge Oats",
@@ -12798,6 +12810,32 @@
     "wg": 1
   },
   {
+    "n": "Sunflower Oil",
+    "p": "1.49",
+    "o": "",
+    "s": "0 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/solesta-sunflower-oil/000000000000198481",
+    "c": "Other",
+    "cn": "sunflower oil",
+    "ik": "tok:sunflower|oil|0",
+    "bn": "sunflower",
+    "wg": 0
+  },
+  {
+    "n": "Vegetable Oil",
+    "p": "1.45",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/solesta-vegetable-oil/000000000000335872",
+    "c": "Other",
+    "cn": "vegetable oil",
+    "ik": "tok:vegetable|oil|1000",
+    "bn": "vegetable",
+    "wg": 1000
+  },
+  {
     "n": "Double Stuffed Giant Halkidiki Olives",
     "p": "2.19",
     "o": "",
@@ -12848,32 +12886,6 @@
     "ik": "tok:black|olives-pitted-spanish|160",
     "bn": "black",
     "wg": 160
-  },
-  {
-    "n": "Sunflower Oil",
-    "p": "1.49",
-    "o": "",
-    "s": "0 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/solesta-sunflower-oil/000000000000198481",
-    "c": "Other",
-    "cn": "sunflower oil",
-    "ik": "tok:sunflower|oil|0",
-    "bn": "sunflower",
-    "wg": 0
-  },
-  {
-    "n": "Vegetable Oil",
-    "p": "1.45",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/solesta-vegetable-oil/000000000000335872",
-    "c": "Other",
-    "cn": "vegetable oil",
-    "ik": "tok:vegetable|oil|1000",
-    "bn": "vegetable",
-    "wg": 1000
   },
   {
     "n": "Sardines In Sunflower Oil",
@@ -14733,6 +14745,19 @@
   },
   {
     "n": "Honey Nut Crunchy Cornflakes",
+    "p": "0.99",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/harvest-morn-honey-nut-crunchy-cornflakes/000000000000307688",
+    "c": "Other",
+    "cn": "honey cornflakes crunchy nut",
+    "ik": "tok:honey|cornflakes-crunchy-nut|500",
+    "bn": "honey",
+    "wg": 500
+  },
+  {
+    "n": "Honey Nut Crunchy Cornflakes",
     "p": "1.49",
     "o": "",
     "s": "750 ml",
@@ -16266,6 +16291,19 @@
     "wg": 430
   },
   {
+    "n": "Pizza Pops",
+    "p": "1.99",
+    "o": "",
+    "s": "144 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
+    "c": "Other",
+    "cn": "pizza pops",
+    "ik": "tok:pizza|pops|144",
+    "bn": "pizza",
+    "wg": 144
+  },
+  {
     "n": "Pepperoni Pizza Subs 2 Pack",
     "p": "0.99",
     "o": "",
@@ -16303,19 +16341,6 @@
     "ik": "tok:deep|cheese-pan-pizza-three|390",
     "bn": "deep",
     "wg": 390
-  },
-  {
-    "n": "Pizza Pops",
-    "p": "1.99",
-    "o": "",
-    "s": "144 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
-    "c": "Other",
-    "cn": "pizza pops",
-    "ik": "tok:pizza|pops|144",
-    "bn": "pizza",
-    "wg": 144
   },
   {
     "n": "Spicy Salami Italian Stonebaked Pizza",
