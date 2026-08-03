@@ -6107,17 +6107,17 @@
     "wg": 1000
   },
   {
-    "n": "Sugar Free Lemon Sherbets Sweets",
-    "p": "0.99",
+    "n": "Lemon & White Chocolate Cheesecake Slices",
+    "p": "2.09",
     "o": "",
-    "s": "70 ml",
+    "s": "180 ml",
     "l": "",
-    "i": "https://www.aldi.co.uk/product/dominion-sugar-free-lemon-sherbets-sweets/000000000405391001",
-    "c": "Other",
-    "cn": "sugar free lemon sherbets sweets",
-    "ik": "tok:sugar|free-lemon-sherbets-sweets|70",
-    "bn": "sugar",
-    "wg": 70
+    "i": "https://www.aldi.co.uk/product/specially-selected-lemon-white-chocolate-cheesecake-slices/000000000554389003",
+    "c": "Snacks",
+    "cn": "lemon cheesecake chocolate slices white",
+    "ik": "tok:lemon|cheesecake-chocolate-slices-white|180",
+    "bn": "lemon",
+    "wg": 180
   },
   {
     "n": "Seedless Red Grapes",
@@ -7056,19 +7056,6 @@
     "wg": 500
   },
   {
-    "n": "Quorn Mince",
-    "p": "2.29",
-    "o": "",
-    "s": "420 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
-    "c": "Other",
-    "cn": "quorn mince",
-    "ik": "tok:quorn|mince|420",
-    "bn": "quorn",
-    "wg": 420
-  },
-  {
     "n": "British Extra Lean Turkey Mince 2% Fat",
     "p": "3.99",
     "o": "",
@@ -7119,6 +7106,19 @@
     "ik": "tok:british|beef-fat-lean-mince-steak|750",
     "bn": "british",
     "wg": 750
+  },
+  {
+    "n": "Quorn Mince",
+    "p": "2.29",
+    "o": "",
+    "s": "420 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
+    "c": "Other",
+    "cn": "quorn mince",
+    "ik": "tok:quorn|mince|420",
+    "bn": "quorn",
+    "wg": 420
   },
   {
     "n": "100% British Beef Lean Aberdeen Angus Steak Mince 5% Fat",
@@ -11978,19 +11978,6 @@
     "wg": 2000
   },
   {
-    "n": "Sugar Free Cola Sherbet Sweets",
-    "p": "0.99",
-    "o": "",
-    "s": "70 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/dominion-sugar-free-cola-sherbet-sweets/000000000405391002",
-    "c": "Other",
-    "cn": "cola free sherbet sugar sweets",
-    "ik": "tok:cola|free-sherbet-sugar-sweets|70",
-    "bn": "cola",
-    "wg": 70
-  },
-  {
     "n": "Coca-Cola Classic 8 Pack",
     "p": "4.75",
     "o": "",
@@ -12810,32 +12797,6 @@
     "wg": 1
   },
   {
-    "n": "Sunflower Oil",
-    "p": "1.49",
-    "o": "",
-    "s": "0 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/solesta-sunflower-oil/000000000000198481",
-    "c": "Other",
-    "cn": "sunflower oil",
-    "ik": "tok:sunflower|oil|0",
-    "bn": "sunflower",
-    "wg": 0
-  },
-  {
-    "n": "Vegetable Oil",
-    "p": "1.45",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/solesta-vegetable-oil/000000000000335872",
-    "c": "Other",
-    "cn": "vegetable oil",
-    "ik": "tok:vegetable|oil|1000",
-    "bn": "vegetable",
-    "wg": 1000
-  },
-  {
     "n": "Double Stuffed Giant Halkidiki Olives",
     "p": "2.19",
     "o": "",
@@ -12886,6 +12847,32 @@
     "ik": "tok:black|olives-pitted-spanish|160",
     "bn": "black",
     "wg": 160
+  },
+  {
+    "n": "Sunflower Oil",
+    "p": "1.49",
+    "o": "",
+    "s": "0 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/solesta-sunflower-oil/000000000000198481",
+    "c": "Other",
+    "cn": "sunflower oil",
+    "ik": "tok:sunflower|oil|0",
+    "bn": "sunflower",
+    "wg": 0
+  },
+  {
+    "n": "Vegetable Oil",
+    "p": "1.45",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/solesta-vegetable-oil/000000000000335872",
+    "c": "Other",
+    "cn": "vegetable oil",
+    "ik": "tok:vegetable|oil|1000",
+    "bn": "vegetable",
+    "wg": 1000
   },
   {
     "n": "Sardines In Sunflower Oil",
@@ -15147,6 +15134,19 @@
     "wg": 90
   },
   {
+    "n": "Toffee Crisp",
+    "p": "1.19",
+    "o": "",
+    "s": "120 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/nestle-toffee-crisp/000000000730428003",
+    "c": "Other",
+    "cn": "toffee crisp",
+    "ik": "tok:toffee|crisp|120",
+    "bn": "toffee",
+    "wg": 120
+  },
+  {
     "n": "Mini Cheese Bakes 7 Pack",
     "p": "0.99",
     "o": "",
@@ -15171,19 +15171,6 @@
     "ik": "tok:salt|24-crunchy-pack-sticks-vinegar|432",
     "bn": "salt",
     "wg": 432
-  },
-  {
-    "n": "Teddy Faces 6 Pack",
-    "p": "1.15",
-    "o": "",
-    "s": "90 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/snackrite-teddy-faces-6-pack/000000000000545909",
-    "c": "Other",
-    "cn": "teddy faces pack",
-    "ik": "tok:teddy|faces-pack|90",
-    "bn": "teddy",
-    "wg": 90
   },
   {
     "n": "Milk Chocolate Belgian Chocolate Waves",
@@ -16291,19 +16278,6 @@
     "wg": 430
   },
   {
-    "n": "Pizza Pops",
-    "p": "1.99",
-    "o": "",
-    "s": "144 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
-    "c": "Other",
-    "cn": "pizza pops",
-    "ik": "tok:pizza|pops|144",
-    "bn": "pizza",
-    "wg": 144
-  },
-  {
     "n": "Pepperoni Pizza Subs 2 Pack",
     "p": "0.99",
     "o": "",
@@ -16341,6 +16315,19 @@
     "ik": "tok:deep|cheese-pan-pizza-three|390",
     "bn": "deep",
     "wg": 390
+  },
+  {
+    "n": "Pizza Pops",
+    "p": "1.99",
+    "o": "",
+    "s": "144 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
+    "c": "Other",
+    "cn": "pizza pops",
+    "ik": "tok:pizza|pops|144",
+    "bn": "pizza",
+    "wg": 144
   },
   {
     "n": "Spicy Salami Italian Stonebaked Pizza",
