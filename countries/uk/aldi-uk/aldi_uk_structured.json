@@ -8252,6 +8252,19 @@
     "wg": 180
   },
   {
+    "n": "Salmon & Grain Salad",
+    "p": "2.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/health-salmon-grain-salad/000000000593199005",
+    "c": "Other",
+    "cn": "salmon grain salad",
+    "ik": "tok:salmon|grain-salad|1",
+    "bn": "salmon",
+    "wg": 1
+  },
+  {
     "n": "Cheese & Dill Salmon Wellington",
     "p": "4.99",
     "o": "",
@@ -8302,19 +8315,6 @@
     "ik": "tok:frozen|fillet-salmon-wild|1",
     "bn": "frozen",
     "wg": 1
-  },
-  {
-    "n": "Teriyaki Salmon Poke Bowl",
-    "p": "3.99",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/eat-go-teriyaki-salmon-poke-bowl/000000000656565003",
-    "c": "Other",
-    "cn": "teriyaki bowl poke salmon",
-    "ik": "tok:teriyaki|bowl-poke-salmon|300",
-    "bn": "teriyaki",
-    "wg": 300
   },
   {
     "n": "Cod Fillets",
@@ -8434,58 +8434,6 @@
     "wg": 290
   },
   {
-    "n": "Chunky Breaded Cod 4 Pack",
-    "p": "4.89",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/the-fishmonger-chunky-breaded-cod-4-pack/000000000365389001",
-    "c": "Other",
-    "cn": "chunky breaded cod pack",
-    "ik": "tok:chunky|breaded-cod-pack|500",
-    "bn": "chunky",
-    "wg": 500
-  },
-  {
-    "n": "Chunky Battered Cod 4 Pack",
-    "p": "4.89",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/the-fishmonger-chunky-battered-cod-4-pack/000000000365389002",
-    "c": "Other",
-    "cn": "chunky battered cod pack",
-    "ik": "tok:chunky|battered-cod-pack|500",
-    "bn": "chunky",
-    "wg": 500
-  },
-  {
-    "n": "Beer Battered Cod 2 Pack",
-    "p": "4.29",
-    "o": "",
-    "s": "350 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-beer-battered-cod-2-pack/000000000569437001",
-    "c": "Other",
-    "cn": "beer battered cod pack",
-    "ik": "tok:beer|battered-cod-pack|350",
-    "bn": "beer",
-    "wg": 350
-  },
-  {
-    "n": "Bubbly Battered Cod 2 Pack",
-    "p": "4.29",
-    "o": "",
-    "s": "350 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-bubbly-battered-cod-2-pack/000000000569437002",
-    "c": "Other",
-    "cn": "bubbly battered cod pack",
-    "ik": "tok:bubbly|battered-cod-pack|350",
-    "bn": "bubbly",
-    "wg": 350
-  },
-  {
     "n": "Quorn Fillets",
     "p": "2.29",
     "o": "",
@@ -8536,6 +8484,58 @@
     "ik": "tok:battered|fillets-fish|400",
     "bn": "battered",
     "wg": 400
+  },
+  {
+    "n": "Chunky Breaded Cod 4 Pack",
+    "p": "4.89",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/the-fishmonger-chunky-breaded-cod-4-pack/000000000365389001",
+    "c": "Other",
+    "cn": "chunky breaded cod pack",
+    "ik": "tok:chunky|breaded-cod-pack|500",
+    "bn": "chunky",
+    "wg": 500
+  },
+  {
+    "n": "Chunky Battered Cod 4 Pack",
+    "p": "4.89",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/the-fishmonger-chunky-battered-cod-4-pack/000000000365389002",
+    "c": "Other",
+    "cn": "chunky battered cod pack",
+    "ik": "tok:chunky|battered-cod-pack|500",
+    "bn": "chunky",
+    "wg": 500
+  },
+  {
+    "n": "Beer Battered Cod 2 Pack",
+    "p": "4.29",
+    "o": "",
+    "s": "350 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/specially-selected-beer-battered-cod-2-pack/000000000569437001",
+    "c": "Other",
+    "cn": "beer battered cod pack",
+    "ik": "tok:beer|battered-cod-pack|350",
+    "bn": "beer",
+    "wg": 350
+  },
+  {
+    "n": "Bubbly Battered Cod 2 Pack",
+    "p": "4.29",
+    "o": "",
+    "s": "350 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/specially-selected-bubbly-battered-cod-2-pack/000000000569437002",
+    "c": "Other",
+    "cn": "bubbly battered cod pack",
+    "ik": "tok:bubbly|battered-cod-pack|350",
+    "bn": "bubbly",
+    "wg": 350
   },
   {
     "n": "Melt In The Middle Katsu Cod Fishcakes",
@@ -8876,6 +8876,19 @@
     "wg": 1
   },
   {
+    "n": "Vegetarian Ham Slices",
+    "p": "1.45",
+    "o": "",
+    "s": "100 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/quorn-vegetarian-ham-slices/000000000493578001",
+    "c": "Other",
+    "cn": "vegetarian ham slices",
+    "ik": "tok:vegetarian|ham-slices|100",
+    "bn": "vegetarian",
+    "wg": 100
+  },
+  {
     "n": "Wafer Thin British Cooked Ham 40 Slices",
     "p": "1.89",
     "o": "",
@@ -8964,19 +8977,6 @@
     "cn": "british cooked ham slices thin wafer",
     "ik": "tok:british|cooked-ham-slices-thin-wafer|120",
     "bn": "british",
-    "wg": 120
-  },
-  {
-    "n": "Applewood Smoked Wiltshire Cured Ham 6 Slices",
-    "p": "2.19",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-applewood-smoked-wiltshire-cured-ham-6-slices/000000000615748001",
-    "c": "Other",
-    "cn": "applewood cured ham slices smoked wiltshire",
-    "ik": "tok:applewood|cured-ham-slices-smoked-wiltshire|120",
-    "bn": "applewood",
     "wg": 120
   },
   {
@@ -10046,6 +10046,19 @@
     "wg": 150
   },
   {
+    "n": "Mexican Bean Salad",
+    "p": "2.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/health-mexican-bean-salad/000000000593199010",
+    "c": "Other",
+    "cn": "mexican bean salad",
+    "ik": "tok:mexican|bean-salad|1",
+    "bn": "mexican",
+    "wg": 1
+  },
+  {
     "n": "Spicy Bean Burgers 4 Pack",
     "p": "1.35",
     "o": "",
@@ -10108,19 +10121,6 @@
     "ik": "tok:cheese|bacon-bake-pasta|485",
     "bn": "cheese",
     "wg": 485
-  },
-  {
-    "n": "Steak Bakes 2 Pack",
-    "p": "1.15",
-    "o": "",
-    "s": "280 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/crestwood-steak-bakes-2-pack/000000000370166002",
-    "c": "Other",
-    "cn": "steak bakes pack",
-    "ik": "tok:steak|bakes-pack|280",
-    "bn": "steak",
-    "wg": 280
   },
   {
     "n": "Mackerel Fillets In Tomato Sauce",
@@ -16616,19 +16616,6 @@
     "wg": 230
   },
   {
-    "n": "Southern Fried Chicken Chunks",
-    "p": "2.29",
-    "o": "",
-    "s": "350 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/gastro-by-roosters-southern-fried-chicken-chunks/000000000369099003",
-    "c": "Other",
-    "cn": "southern chicken chunks fried",
-    "ik": "tok:southern|chicken-chunks-fried|350",
-    "bn": "southern",
-    "wg": 350
-  },
-  {
     "n": "Southern Fried Chicken Strips",
     "p": "3.99",
     "o": "",
@@ -16694,6 +16681,19 @@
     "wg": 190
   },
   {
+    "n": "Southern Fried Chicken Chunks",
+    "p": "2.29",
+    "o": "",
+    "s": "350 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/gastro-by-roosters-southern-fried-chicken-chunks/000000000369099003",
+    "c": "Other",
+    "cn": "southern chicken chunks fried",
+    "ik": "tok:southern|chicken-chunks-fried|350",
+    "bn": "southern",
+    "wg": 350
+  },
+  {
     "n": "Takeaway Fries",
     "p": "1.49",
     "o": "",
@@ -16757,19 +16757,6 @@
     "ik": "tok:halloumi|10-fries-pack-style|170",
     "bn": "halloumi",
     "wg": 170
-  },
-  {
-    "n": "Southern Fried Chicken Steaks In Breadcrumbs 4 Pack",
-    "p": "1.79",
-    "o": "",
-    "s": "380 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/roosters-southern-fried-chicken-steaks-in-breadcrumbs-4-pack/000000000492319002",
-    "c": "Other",
-    "cn": "southern breadcrumbs chicken fried in pack steaks",
-    "ik": "tok:southern|breadcrumbs-chicken-fried-in-pack-steaks|380",
-    "bn": "southern",
-    "wg": 380
   },
   {
     "n": "Pan Fried Potatoes",

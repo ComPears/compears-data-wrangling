@@ -28,8 +28,15 @@ DEFAULTS = {
     "max_duplicate_barcode_rate": 0.005,
     "minimum_barcode_coverage": 0.0,
 }
-# Per-store barcode coverage floors. Keep at 0 until scrapers populate `b` on catalog rows.
-BARCODE_FLOORS: dict[str, float] = {}
+# Soft floors after 2026-08-03 full scrape + AH GTIN-14 fix (~7.9% AH `b`).
+# PLUS/Dirk enrichment still returns 0% in catalog `b` — keep those at 0 until
+# PDP extractors land real rates. Jumbo catalog `b` stays sparse (seed mines DAM URLs).
+BARCODE_FLOORS: dict[str, float] = {
+    "albert-heijn": 0.05,
+    "plus": 0.0,
+    "dirk": 0.0,
+    "jumbo": 0.0,
+}
 SUSPICIOUS_PRICE_MIN = 0.05
 SUSPICIOUS_PRICE_MAX = 500.0
 

@@ -25,7 +25,12 @@ def _repo_root():
 
 _repo_root()
 from category_utils import category_from_url
-from dirk_barcode import extract_card_barcode
+from dirk_barcode import (
+    DEFAULT_PDP_ENRICH_LIMIT,
+    enrich_dirk_entries_with_pdp_barcodes,
+    extract_card_barcode,
+    extract_card_link,
+)
 from scrape_utils import (
     accept_common_cookies,
     configure_page,
@@ -61,6 +66,7 @@ OPTIONAL_URL_PARTS = (
 product_data: list[dict] = []
 seen: set[str] = set()
 failures: list[tuple[str, str]] = []
+enrich_limit = int(os.environ.get("DIRK_PDP_ENRICH_LIMIT", DEFAULT_PDP_ENRICH_LIMIT))
 
 with sync_playwright() as p:
     browser = launch_browser(p)
@@ -96,6 +102,7 @@ with sync_playwright() as p:
                         "image": img_src,
                         "category": category,
                         "barcode": extract_card_barcode(card),
+                        "link": extract_card_link(card),
                     }
                 )
 
@@ -122,6 +129,22 @@ with sync_playwright() as p:
             context.close()
 
     browser.close()
+
+missing = sum(1 for entry in product_data if not entry.get("barcode") and entry.get("link"))
+if missing and enrich_limit > 0:
+    print(
+        f"🔎 Enriching up to {min(missing, enrich_limit)}/{missing} "
+        "Dirk products missing barcode via PDP JSON-LD..."
+    )
+    try:
+        added = enrich_dirk_entries_with_pdp_barcodes(
+            product_data,
+            limit=min(missing, enrich_limit),
+        )
+        write_json_atomic(output_file, product_data)
+        print(f"📎 PDP enrichment added {added} barcodes")
+    except Exception as enrich_err:
+        print(f"⚠️ PDP enrichment failed: {type(enrich_err).__name__}: {enrich_err}")
 
 print(f"🏁 All done! {len(product_data)} total products saved.")
 report_batch_failures(failures, len(links))

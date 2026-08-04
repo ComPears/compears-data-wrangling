@@ -45,6 +45,22 @@ JSON as the `catalog-health` artifact. No backend route integration is needed.
 To propagate cleaned barcode data outside that workflow, run `npm run seed`
 from the backend with `WRANGLING_PATH` pointing at this repository.
 
+### Barcode enrichment (AH / PLUS / Dirk)
+
+Catalog `b` only comes from named EAN/GTIN fields (see `barcode_utils.py`).
+Listing APIs often omit GTIN, so scrapers enrich after the PLP/search pass:
+
+| Store | Search/list | Enrichment |
+|-------|-------------|------------|
+| Albert Heijn | taxonomy search v2 | `GET /mobile-services/product/detail/v4/fir/{webshopId}` (`AH_DETAIL_ENRICH_LIMIT`) |
+| PLUS | PLP `DataActionGetProductListAndCategoryInfo` | PDP JSON-LD / `__NEXT_DATA__`, optional middleware product API (`PLUS_PDP_ENRICH_LIMIT`) |
+| Dirk | PLP `article[data-product-id]` cards | PDP Product JSON-LD when `data-ean` is absent (`DIRK_PDP_ENRICH_LIMIT`) |
+
+Jumbo DAM image URLs embed real EANs; the **backend** seed may mine those with a
+Jumbo-only underscore-bounded pattern. Do not mine AH/PLUS/Dirk CDN hashes.
+After enrichment + restructure, `scripts/backfill_barcodes.py` can copy leftover
+named barcode fields onto structured rows that still lack `b`.
+
 ## Getting Started
 
 Clone the project 

@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import json
+import time
 import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -10,13 +12,22 @@ from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 
 from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError
 
-from barcode_utils import extract_barcode_from_entry
+from barcode_utils import (
+    extract_barcode_from_entry,
+    extract_barcode_from_html,
+    extract_barcode_from_next_data,
+)
 from scrape_utils import PLUS_USER_AGENT
 
 PRODUCT_CARD_SELECTOR = ".plp-item-wrapper"
 PLP_API_FRAGMENT = "DataActionGetProductListAndCategoryInfo"
 PLUS_ORIGIN = "https://www.plus.nl"
+# Documented middleware detail API (may be unavailable; PDP HTML is the fallback).
+PLUS_PRODUCT_API = "https://pls-sprmrkt-mw.prd.vdc1.plus.nl/api/v3/product/{product_id}"
 MAX_API_PAGES = 250
+DEFAULT_PDP_ENRICH_LIMIT = 1500
+DEFAULT_PDP_WORKERS = 3
+PDP_ENRICH_DELAY = 0.2
 
 
 def resolve_redirect_url(url: str, *, timeout: int = 30) -> str:
@@ -120,18 +131,133 @@ def _product_from_plp(plp: dict) -> dict[str, str | None]:
     price = promo or base
 
     lines = [line for line in (title, subtitle, price) if line]
+    product_id = plp.get("ProductId")
+    if product_id in (None, ""):
+        product_id = plp.get("Product_Code")
     return {
         "raw_text": "\n".join(lines),
         "image": plp.get("ImageURL"),
         # Product_Code and image asset IDs are PLUS internal identifiers, not
-        # EANs. Only consume explicit EAN/GTIN fields from PLP_Str.
+        # EANs. Only consume explicit EAN/GTIN fields from PLP_Str; PDP
+        # enrichment may accept a Product_Code that looks like a real GTIN.
         "barcode": extract_barcode_from_entry(plp),
         "link": (
             f"{PLUS_ORIGIN}/producten/{plp['Slug']}"
             if plp.get("Slug")
             else None
         ),
+        "productId": str(product_id) if product_id not in (None, "") else None,
     }
+
+
+def extract_pdp_barcode(html_or_json: str | dict | None) -> str | None:
+    """Extract GTIN/EAN from PDP HTML, JSON-LD, Next data, or product API JSON."""
+    if html_or_json is None:
+        return None
+    if isinstance(html_or_json, dict):
+        barcode = extract_barcode_from_entry(html_or_json)
+        if barcode:
+            return barcode
+        return extract_barcode_from_next_data(html_or_json)
+    text = str(html_or_json)
+    stripped = text.strip()
+    if stripped.startswith("{") or stripped.startswith("["):
+        try:
+            payload = json.loads(stripped)
+        except json.JSONDecodeError:
+            payload = None
+        if isinstance(payload, dict):
+            return extract_pdp_barcode(payload)
+    return extract_barcode_from_html(text)
+
+
+def _fetch_url_text(url: str, *, timeout: int = 30) -> str | None:
+    req = urllib.request.Request(
+        url,
+        method="GET",
+        headers={
+            "User-Agent": PLUS_USER_AGENT,
+            "Accept": "text/html,application/json",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return resp.read().decode("utf-8", errors="replace")
+    except Exception:
+        return None
+
+
+def fetch_plus_product_barcode(
+    *,
+    link: str | None = None,
+    product_id: str | None = None,
+) -> str | None:
+    """Prefer middleware product API when reachable; otherwise PDP HTML."""
+    if product_id:
+        body = _fetch_url_text(PLUS_PRODUCT_API.format(product_id=product_id))
+        barcode = extract_pdp_barcode(body)
+        if barcode:
+            return barcode
+    if link:
+        body = _fetch_url_text(link)
+        barcode = extract_pdp_barcode(body)
+        if barcode:
+            return barcode
+    return None
+
+
+def enrich_plus_entries_with_pdp_barcodes(
+    entries: list[dict],
+    *,
+    limit: int = DEFAULT_PDP_ENRICH_LIMIT,
+    workers: int = DEFAULT_PDP_WORKERS,
+) -> int:
+    """Fill missing barcodes from PDP/detail. Returns number enriched."""
+    if limit <= 0:
+        return 0
+
+    targets: list[tuple[int, str | None, str | None]] = []
+    for index, entry in enumerate(entries):
+        if entry.get("barcode"):
+            continue
+        link = entry.get("link")
+        product_id = entry.get("productId")
+        if not link and not product_id:
+            continue
+        targets.append((index, link, product_id))
+        if len(targets) >= limit:
+            break
+
+    if not targets:
+        return 0
+
+    enriched = 0
+    workers = max(1, min(workers, 3))
+
+    def _lookup(link: str | None, product_id: str | None) -> str | None:
+        try:
+            barcode = fetch_plus_product_barcode(link=link, product_id=product_id)
+            time.sleep(PDP_ENRICH_DELAY)
+            return barcode
+        except Exception:
+            return None
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {
+            pool.submit(_lookup, link, product_id): index
+            for index, link, product_id in targets
+        }
+        for future in as_completed(futures):
+            index = futures[future]
+            try:
+                barcode = future.result()
+            except Exception:
+                continue
+            if barcode:
+                entries[index]["barcode"] = barcode
+                enriched += 1
+
+    return enriched
 
 
 def _products_from_api_payload(data: dict) -> list[dict[str, str | None]]:
@@ -189,11 +315,17 @@ def _scrape_plp_dom_page(page: Page, category: str, seen: set[str]) -> list[dict
             continue
         seen.add(identity)
         img = card.query_selector("img")
+        link_el = card.query_selector("a[href*='/producten/']")
+        href = link_el.get_attribute("href") if link_el else None
+        if href and href.startswith("/"):
+            href = f"{PLUS_ORIGIN}{href}"
         products.append(
             {
                 "raw_text": raw_text,
                 "image": img.get_attribute("src") if img else None,
                 "category": category,
+                "link": href,
+                "barcode": None,
             }
         )
     return products

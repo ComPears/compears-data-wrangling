@@ -1,3 +1,4 @@
+import os
 import sys
 from pathlib import Path
 
@@ -18,10 +19,13 @@ def _repo_root():
 
 _repo_root()
 from category_utils import category_from_url
-from plus_scrape import scrape_plus_category
+from plus_scrape import (
+    DEFAULT_PDP_ENRICH_LIMIT,
+    enrich_plus_entries_with_pdp_barcodes,
+    scrape_plus_category,
+)
 from scrape_utils import (
     PLUS_USER_AGENT,
-    goto_resilient,
     configure_page,
     launch_browser,
     report_batch_failures,
@@ -36,6 +40,7 @@ def scrape_plus_products(links: list[str], output_file: Path = OUTPUT_FILE) -> N
     product_data: list[dict] = []
     seen: set[str] = set()
     failures: list[tuple[str, str]] = []
+    enrich_limit = int(os.environ.get("PLUS_PDP_ENRICH_LIMIT", DEFAULT_PDP_ENRICH_LIMIT))
 
     with sync_playwright() as p:
         browser = launch_browser(p)
@@ -70,6 +75,24 @@ def scrape_plus_products(links: list[str], output_file: Path = OUTPUT_FILE) -> N
         context.close()
         browser.close()
         print("🎯 Done.")
+
+    missing = sum(
+        1 for entry in product_data if not entry.get("barcode") and entry.get("link")
+    )
+    if missing and enrich_limit > 0:
+        print(
+            f"🔎 Enriching up to {min(missing, enrich_limit)}/{missing} "
+            "PLUS products missing barcode via PDP/detail..."
+        )
+        try:
+            added = enrich_plus_entries_with_pdp_barcodes(
+                product_data,
+                limit=min(missing, enrich_limit),
+            )
+            write_json_atomic(output_file, product_data)
+            print(f"📎 PDP enrichment added {added} barcodes")
+        except Exception as enrich_err:
+            print(f"⚠️ PDP enrichment failed: {type(enrich_err).__name__}: {enrich_err}")
 
     report_batch_failures(failures, len(links))
 

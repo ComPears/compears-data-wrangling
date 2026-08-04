@@ -17,6 +17,8 @@ countries/**/__pycache__/
 
 # Local pipeline test logs
 .local-test-logs/
+.local-scrape-logs/
+logs/
 
 # Legacy merged blob (frontend no longer uses static JSON)
 supermarkets.json

@@ -92,7 +92,58 @@
       "label": "Germany",
       "locale": "de-DE",
       "currency": "EUR",
-      "stores": {}
+      "stores": {
+        "edeka": {
+          "display_name": "Edeka",
+          "dir": "countries/de/edeka",
+          "catalog": "edeka_structured.json",
+          "minimum_products": 80,
+          "pipeline": ["main.py", "structure.py"],
+          "intermediate_globs": ["edeka.json"],
+          "playwright": true,
+          "optional": true
+        },
+        "rewe": {
+          "display_name": "Rewe",
+          "dir": "countries/de/rewe",
+          "catalog": "rewe_structured.json",
+          "minimum_products": 80,
+          "pipeline": ["main.py", "structure.py"],
+          "intermediate_globs": ["rewe.json"],
+          "playwright": true,
+          "optional": true
+        },
+        "lidl-de": {
+          "display_name": "Lidl",
+          "dir": "countries/de/lidl-de",
+          "catalog": "lidl_de_structured.json",
+          "minimum_products": 80,
+          "pipeline": ["main.py", "structure.py"],
+          "intermediate_globs": ["lidl_de.json"],
+          "playwright": true,
+          "optional": true
+        },
+        "aldi-sud": {
+          "display_name": "Aldi Süd",
+          "dir": "countries/de/aldi-sud",
+          "catalog": "aldi_sud_structured.json",
+          "minimum_products": 80,
+          "pipeline": ["main.py", "structure.py"],
+          "intermediate_globs": ["aldi_sud.json"],
+          "playwright": true,
+          "optional": true
+        },
+        "penny": {
+          "display_name": "Penny",
+          "dir": "countries/de/penny",
+          "catalog": "penny_structured.json",
+          "minimum_products": 80,
+          "pipeline": ["main.py", "structure.py"],
+          "intermediate_globs": ["penny.json"],
+          "playwright": true,
+          "optional": true
+        }
+      }
     },
     "uk": {
       "label": "United Kingdom",

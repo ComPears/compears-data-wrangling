@@ -4050,6 +4050,15 @@
     "c": "Other"
   },
   {
+    "n": "Plush Rope Dog Toy",
+    "p": "3.99",
+    "o": "",
+    "s": "",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/no-brand-plush-rope-dog-toy/000000000731986001",
+    "c": "Other"
+  },
+  {
     "n": "Wonky Lemons",
     "p": "0.89",
     "o": "",
@@ -4293,13 +4302,13 @@
     "c": "Other"
   },
   {
-    "n": "Sugar Free Lemon Sherbets Sweets",
-    "p": "0.99",
+    "n": "Lemon & White Chocolate Cheesecake Slices",
+    "p": "2.09",
     "o": "",
-    "s": "0.07 kg",
+    "s": "0.18 kg",
     "l": "",
-    "i": "https://www.aldi.co.uk/product/dominion-sugar-free-lemon-sherbets-sweets/000000000405391001",
-    "c": "Other"
+    "i": "https://www.aldi.co.uk/product/specially-selected-lemon-white-chocolate-cheesecake-slices/000000000554389003",
+    "c": "Snacks"
   },
   {
     "n": "Seedless Red Grapes",
@@ -5796,6 +5805,15 @@
     "c": "Other"
   },
   {
+    "n": "Salmon & Grain Salad",
+    "p": "2.99",
+    "o": "",
+    "s": "",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/health-salmon-grain-salad/000000000593199005",
+    "c": "Other"
+  },
+  {
     "n": "Cheese & Dill Salmon Wellington",
     "p": "4.99",
     "o": "",
@@ -5830,15 +5848,6 @@
     "l": "",
     "i": "https://www.aldi.co.uk/product/the-fishmonger-frozen-wild-salmon-fillet/000000000635723001",
     "c": "Frozen Foods"
-  },
-  {
-    "n": "Teriyaki Salmon Poke Bowl",
-    "p": "3.99",
-    "o": "",
-    "s": "0.3 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/eat-go-teriyaki-salmon-poke-bowl/000000000656565003",
-    "c": "Other"
   },
   {
     "n": "Cod Fillets",
@@ -5922,42 +5931,6 @@
     "c": "Other"
   },
   {
-    "n": "Chunky Breaded Cod 4 Pack",
-    "p": "4.89",
-    "o": "",
-    "s": "0.5 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/the-fishmonger-chunky-breaded-cod-4-pack/000000000365389001",
-    "c": "Other"
-  },
-  {
-    "n": "Chunky Battered Cod 4 Pack",
-    "p": "4.89",
-    "o": "",
-    "s": "0.5 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/the-fishmonger-chunky-battered-cod-4-pack/000000000365389002",
-    "c": "Other"
-  },
-  {
-    "n": "Beer Battered Cod 2 Pack",
-    "p": "4.29",
-    "o": "",
-    "s": "0.35 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-beer-battered-cod-2-pack/000000000569437001",
-    "c": "Other"
-  },
-  {
-    "n": "Bubbly Battered Cod 2 Pack",
-    "p": "4.29",
-    "o": "",
-    "s": "0.35 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-bubbly-battered-cod-2-pack/000000000569437002",
-    "c": "Other"
-  },
-  {
     "n": "Quorn Fillets",
     "p": "2.29",
     "o": "",
@@ -5991,6 +5964,42 @@
     "s": "0.4 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/everyday-essentials-battered-fish-fillets/000000000689241002",
+    "c": "Other"
+  },
+  {
+    "n": "Chunky Breaded Cod 4 Pack",
+    "p": "4.89",
+    "o": "",
+    "s": "0.5 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/the-fishmonger-chunky-breaded-cod-4-pack/000000000365389001",
+    "c": "Other"
+  },
+  {
+    "n": "Chunky Battered Cod 4 Pack",
+    "p": "4.89",
+    "o": "",
+    "s": "0.5 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/the-fishmonger-chunky-battered-cod-4-pack/000000000365389002",
+    "c": "Other"
+  },
+  {
+    "n": "Beer Battered Cod 2 Pack",
+    "p": "4.29",
+    "o": "",
+    "s": "0.35 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/specially-selected-beer-battered-cod-2-pack/000000000569437001",
+    "c": "Other"
+  },
+  {
+    "n": "Bubbly Battered Cod 2 Pack",
+    "p": "4.29",
+    "o": "",
+    "s": "0.35 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/specially-selected-bubbly-battered-cod-2-pack/000000000569437002",
     "c": "Other"
   },
   {
@@ -6228,6 +6237,15 @@
     "c": "Other"
   },
   {
+    "n": "Vegetarian Ham Slices",
+    "p": "1.45",
+    "o": "",
+    "s": "0.1 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/quorn-vegetarian-ham-slices/000000000493578001",
+    "c": "Other"
+  },
+  {
     "n": "Wafer Thin British Cooked Ham 40 Slices",
     "p": "1.89",
     "o": "",
@@ -6288,15 +6306,6 @@
     "s": "0.12 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/ashfields-british-wafer-thin-cooked-ham-9-slices/000000000405571001",
-    "c": "Other"
-  },
-  {
-    "n": "Applewood Smoked Wiltshire Cured Ham 6 Slices",
-    "p": "2.19",
-    "o": "",
-    "s": "120 g",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-applewood-smoked-wiltshire-cured-ham-6-slices/000000000615748001",
     "c": "Other"
   },
   {
@@ -7056,6 +7065,15 @@
     "c": "Other"
   },
   {
+    "n": "Mexican Bean Salad",
+    "p": "2.99",
+    "o": "",
+    "s": "",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/health-mexican-bean-salad/000000000593199010",
+    "c": "Other"
+  },
+  {
     "n": "Spicy Bean Burgers 4 Pack",
     "p": "1.35",
     "o": "",
@@ -7099,15 +7117,6 @@
     "l": "",
     "i": "https://www.aldi.co.uk/product/cucina-cheese-bacon-pasta-bake/000000000335812001",
     "c": "Pantry"
-  },
-  {
-    "n": "Steak Bakes 2 Pack",
-    "p": "1.15",
-    "o": "",
-    "s": "0.28 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/crestwood-steak-bakes-2-pack/000000000370166002",
-    "c": "Other"
   },
   {
     "n": "Mackerel Fillets in Tomato Sauce",
@@ -7344,6 +7353,15 @@
     "c": "Other"
   },
   {
+    "n": "Weetabix Cereal 72 Pack",
+    "p": "6.75",
+    "o": "",
+    "s": "72 pack",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/weetabix-weetabix-cereal-72-pack/000000000000528959",
+    "c": "Other"
+  },
+  {
     "n": "Low Sugar Choco Rice Cereal",
     "p": "0.89",
     "o": "",
@@ -7405,15 +7423,6 @@
     "l": "",
     "i": "https://www.aldi.co.uk/product/harvest-morn-chocolate-chip-crispy-bites-wheat-bisks-cereal/000000000304484002",
     "c": "Snacks"
-  },
-  {
-    "n": "Honey Nut Crunchy Cornflakes",
-    "p": "0.99",
-    "o": "",
-    "s": "500 g",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/harvest-morn-honey-nut-crunchy-cornflakes/000000000000307688",
-    "c": "Other"
   },
   {
     "n": "Porridge Oats",
@@ -8406,15 +8415,6 @@
     "c": "Other"
   },
   {
-    "n": "Sugar Free Cola Sherbet Sweets",
-    "p": "0.99",
-    "o": "",
-    "s": "0.07 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/dominion-sugar-free-cola-sherbet-sweets/000000000405391002",
-    "c": "Other"
-  },
-  {
     "n": "Coca-Cola Classic 8 Pack",
     "p": "4.75",
     "o": "",
@@ -8661,7 +8661,7 @@
     "n": "Still Spring Water",
     "p": "1.29",
     "o": "",
-    "s": "000 ml",
+    "s": "5 l",
     "l": "",
     "i": "https://www.aldi.co.uk/product/aqua-v-still-spring-water/000000000000336554",
     "c": "Other"
@@ -9030,7 +9030,7 @@
     "n": "Vegetable Oil",
     "p": "1.45",
     "o": "",
-    "s": "000 ml",
+    "s": "1 l",
     "l": "",
     "i": "https://www.aldi.co.uk/product/solesta-vegetable-oil/000000000000335872",
     "c": "Other"
@@ -10342,6 +10342,15 @@
   },
   {
     "n": "Honey Nut Crunchy Cornflakes",
+    "p": "0.99",
+    "o": "",
+    "s": "500 g",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/harvest-morn-honey-nut-crunchy-cornflakes/000000000000307688",
+    "c": "Other"
+  },
+  {
+    "n": "Honey Nut Crunchy Cornflakes",
     "p": "1.49",
     "o": "",
     "s": "750 g",
@@ -10620,6 +10629,15 @@
     "c": "Other"
   },
   {
+    "n": "Toffee Crisp",
+    "p": "1.19",
+    "o": "",
+    "s": "0.12 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/nestle-toffee-crisp/000000000730428003",
+    "c": "Other"
+  },
+  {
     "n": "Mini Cheese Bakes 7 Pack",
     "p": "0.99",
     "o": "",
@@ -10635,15 +10653,6 @@
     "s": "432 g",
     "l": "",
     "i": "https://www.aldi.co.uk/product/snackrite-salt-vinegar-crunchy-sticks-24-pack/000000000000387666",
-    "c": "Other"
-  },
-  {
-    "n": "Teddy Faces 6 Pack",
-    "p": "1.15",
-    "o": "",
-    "s": "90 g",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/snackrite-teddy-faces-6-pack/000000000000545909",
     "c": "Other"
   },
   {
@@ -11421,15 +11430,6 @@
     "c": "Other"
   },
   {
-    "n": "Pizza Pops",
-    "p": "1.99",
-    "o": "",
-    "s": "144 g",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
-    "c": "Other"
-  },
-  {
     "n": "Pepperoni Pizza Subs 2 Pack",
     "p": "0.99",
     "o": "",
@@ -11454,6 +11454,15 @@
     "s": "0.39 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/carlos-deep-pan-three-cheese-pizza/000000000434282001",
+    "c": "Other"
+  },
+  {
+    "n": "Pizza Pops",
+    "p": "1.99",
+    "o": "",
+    "s": "144 g",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
     "c": "Other"
   },
   {
@@ -11655,15 +11664,6 @@
     "c": "Other"
   },
   {
-    "n": "Southern Fried Chicken Chunks",
-    "p": "2.29",
-    "o": "",
-    "s": "0.35 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/gastro-by-roosters-southern-fried-chicken-chunks/000000000369099003",
-    "c": "Other"
-  },
-  {
     "n": "Southern Fried Chicken Strips",
     "p": "3.99",
     "o": "",
@@ -11709,6 +11709,15 @@
     "c": "Other"
   },
   {
+    "n": "Southern Fried Chicken Chunks",
+    "p": "2.29",
+    "o": "",
+    "s": "0.35 kg",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/gastro-by-roosters-southern-fried-chicken-chunks/000000000369099003",
+    "c": "Other"
+  },
+  {
     "n": "Takeaway Fries",
     "p": "1.49",
     "o": "",
@@ -11751,15 +11760,6 @@
     "s": "0.17 kg",
     "l": "",
     "i": "https://www.aldi.co.uk/product/crestwood-halloumi-style-fries-10-pack/000000000560309001",
-    "c": "Other"
-  },
-  {
-    "n": "Southern Fried Chicken Steaks in Breadcrumbs 4 Pack",
-    "p": "1.79",
-    "o": "",
-    "s": "0.38 kg",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/roosters-southern-fried-chicken-steaks-in-breadcrumbs-4-pack/000000000492319002",
     "c": "Other"
   },
   {

@@ -61,6 +61,21 @@ jobs:
           - country: uk
             store: asda
             playwright: true
+          - country: de
+            store: edeka
+            playwright: true
+          - country: de
+            store: rewe
+            playwright: true
+          - country: de
+            store: lidl-de
+            playwright: true
+          - country: de
+            store: aldi-sud
+            playwright: true
+          - country: de
+            store: penny
+            playwright: true
 
     steps:
       - name: Checkout catalog repository
@@ -90,6 +105,9 @@ jobs:
           UK_MAX_QUERIES: '80'
           UK_MAX_BLOCKED_QUERIES: '3'
           UK_MAX_EMPTY_QUERIES: '5'
+          DE_MAX_QUERIES: '80'
+          DE_MAX_BLOCKED_QUERIES: '3'
+          DE_MAX_EMPTY_QUERIES: '5'
           PLAYWRIGHT_CHANNEL: ${{ matrix.store == 'asda' && 'chrome' || '' }}
           STATUS_FILE: artifacts/catalog/reports/scrape-status/${{ matrix.country }}-${{ matrix.store }}.json
         run: >-

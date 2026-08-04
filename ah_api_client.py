@@ -10,6 +10,8 @@ import urllib.parse
 import urllib.request
 from typing import Any
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 from barcode_utils import extract_barcode_from_entry
 
 API_BASE = "https://api.ah.nl"
@@ -20,6 +22,10 @@ MAX_RETRIES = 3
 RETRY_DELAY = 2.0
 # AH search caps around page 60; split only when pagination fails.
 MAX_SAFE_PAGES = 55
+# Detail enrichment is one request per product; cap runtime while keeping yield useful.
+DEFAULT_DETAIL_ENRICH_LIMIT = 5000
+DEFAULT_DETAIL_WORKERS = 3
+DETAIL_ENRICH_DELAY = 0.15
 
 
 class AhApiError(RuntimeError):
@@ -103,6 +109,51 @@ def _image_url(product: dict[str, Any]) -> str | None:
     return None
 
 
+def _webshop_id(product: dict[str, Any]) -> str | None:
+    for key in ("webshopId", "id", "productId"):
+        value = product.get(key)
+        if value is not None and str(value).strip():
+            return str(value).strip()
+    return None
+
+
+def barcode_from_detail_payload(detail: dict[str, Any] | None) -> str | None:
+    """Extract GTIN/EAN from a product/detail/v4 response (or nested card)."""
+    if not isinstance(detail, dict):
+        return None
+
+    candidates: list[dict[str, Any]] = [detail]
+    for key in ("productCard", "product", "card", "tradeItem"):
+        nested = detail.get(key)
+        if isinstance(nested, dict):
+            candidates.append(nested)
+
+    trade_items = detail.get("tradeItems") or detail.get("tradeItemNumbers")
+    if isinstance(trade_items, list):
+        for item in trade_items:
+            if isinstance(item, dict):
+                candidates.append(item)
+
+    for candidate in candidates:
+        barcode = extract_barcode_from_entry(candidate)
+        if barcode:
+            return barcode
+    return None
+
+
+def fetch_product_detail(token: str, webshop_id: str | int) -> dict[str, Any]:
+    """Fetch AH product detail by webshopId (includes GTIN when API provides it)."""
+    payload = _request(
+        "GET",
+        f"/mobile-services/product/detail/v4/fir/{webshop_id}",
+        token=token,
+        params={"includeActivatableDiscount": "false"},
+    )
+    if not isinstance(payload, dict):
+        raise AhApiError(f"Unexpected detail payload for {webshop_id}")
+    return payload
+
+
 def product_to_raw_entry(product: dict[str, Any]) -> dict[str, str | None]:
     """Convert an AH API product to the raw_text format expected by struc.py."""
     title = (product.get("title") or "").strip()
@@ -128,13 +179,71 @@ def product_to_raw_entry(product: dict[str, Any]) -> dict[str, str | None]:
     if unit:
         lines.append(unit)
 
-    return {
+    barcode = extract_barcode_from_entry(product) or barcode_from_detail_payload(product)
+    entry: dict[str, str | None] = {
         "raw_text": "\n".join(lines),
         "image": _image_url(product),
-        # AH search responses vary by API version. Only retain a checksum-valid
-        # value from an explicitly named EAN/GTIN field; webshopId is not EAN.
-        "barcode": extract_barcode_from_entry(product),
+        # AH search responses usually omit GTIN; webshopId is not an EAN.
+        # Prefer named EAN/GTIN fields only (detail enrichment fills the rest).
+        "barcode": barcode,
     }
+    webshop_id = _webshop_id(product)
+    if webshop_id:
+        entry["webshopId"] = webshop_id
+    return entry
+
+
+def enrich_raw_entries_with_detail_barcodes(
+    token: str,
+    entries: list[dict[str, Any]],
+    *,
+    limit: int = DEFAULT_DETAIL_ENRICH_LIMIT,
+    workers: int = DEFAULT_DETAIL_WORKERS,
+) -> int:
+    """Fill missing barcodes via product detail calls. Returns number enriched."""
+    if limit <= 0:
+        return 0
+
+    targets: list[tuple[int, str]] = []
+    for index, entry in enumerate(entries):
+        if entry.get("barcode"):
+            continue
+        webshop_id = entry.get("webshopId")
+        if not webshop_id:
+            continue
+        targets.append((index, str(webshop_id)))
+        if len(targets) >= limit:
+            break
+
+    if not targets:
+        return 0
+
+    enriched = 0
+    workers = max(1, min(workers, 3))
+
+    def _lookup(webshop_id: str) -> str | None:
+        try:
+            detail = fetch_product_detail(token, webshop_id)
+            time.sleep(DETAIL_ENRICH_DELAY)
+            return barcode_from_detail_payload(detail)
+        except Exception:
+            return None
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {
+            pool.submit(_lookup, webshop_id): index for index, webshop_id in targets
+        }
+        for future in as_completed(futures):
+            index = futures[future]
+            try:
+                barcode = future.result()
+            except Exception:
+                continue
+            if barcode:
+                entries[index]["barcode"] = barcode
+                enriched += 1
+
+    return enriched
 
 
 def _taxonomy_child_ids(payload: dict[str, Any]) -> list[str]:

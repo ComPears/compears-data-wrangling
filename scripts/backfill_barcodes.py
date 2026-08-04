@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Add barcode field `b` to structured JSON from image/link fields (no re-scrape)."""
+"""Add barcode field `b` to structured JSON from explicit EAN/GTIN fields.
+
+Does not mine image/CDN URLs (false positives). After AH/PLUS/Dirk scrapers
+enrich raw entries with detail/PDP barcodes and restructure, re-run this to
+copy named barcode fields onto catalog rows that still lack ``b``.
+"""
 
 from __future__ import annotations
 
@@ -9,7 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from barcode_utils import extract_barcode_from_entry
-from config.paths import all_catalog_paths, catalog_rel_path
+from config.paths import all_catalog_paths
 
 
 def enrich_file(path: Path) -> tuple[int, int]:
@@ -40,10 +45,9 @@ def enrich_file(path: Path) -> tuple[int, int]:
 
 
 def main() -> None:
-    root = Path(__file__).resolve().parent.parent
     total_products = 0
     total_added = 0
-    for country, slug, catalog in all_catalog_paths():
+    for _country, _slug, catalog in all_catalog_paths():
         count, added = enrich_file(catalog)
         total_products += count
         total_added += added

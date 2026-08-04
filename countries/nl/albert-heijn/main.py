@@ -21,6 +21,8 @@ def _repo_root():
 
 _repo_root()
 from ah_api_client import (
+    DEFAULT_DETAIL_ENRICH_LIMIT,
+    enrich_raw_entries_with_detail_barcodes,
     fetch_taxonomy_products,
     get_anonymous_token,
     product_to_raw_entry,
@@ -34,6 +36,7 @@ def scrape_ah_products() -> None:
     os.makedirs("new_results", exist_ok=True)
     ah_links = get_ah_links()
     failures: list[tuple[str, str]] = []
+    enrich_limit = int(os.environ.get("AH_DETAIL_ENRICH_LIMIT", DEFAULT_DETAIL_ENRICH_LIMIT))
 
     print("🔑 Fetching AH anonymous API token...")
     token = get_anonymous_token()
@@ -54,10 +57,33 @@ def scrape_ah_products() -> None:
             for product in products:
                 product["category"] = category
 
+            missing = sum(1 for product in products if not product.get("barcode"))
+            if missing and enrich_limit > 0:
+                print(
+                    f"🔎 Enriching up to {min(missing, enrich_limit)}/{missing} "
+                    "products missing barcode via detail API..."
+                )
+                try:
+                    added = enrich_raw_entries_with_detail_barcodes(
+                        token,
+                        products,
+                        limit=min(missing, enrich_limit),
+                    )
+                    print(f"📎 Detail enrichment added {added} barcodes")
+                except Exception as enrich_err:
+                    print(
+                        f"⚠️ Detail enrichment failed for {name}: "
+                        f"{type(enrich_err).__name__}: {enrich_err}"
+                    )
+
             require_products(len(products), name)
             with open(filename, "w", encoding="utf-8") as f:
                 json.dump(products, f, indent=2, ensure_ascii=False)
-            print(f"✅ {len(products)} products saved to {filename}")
+            with_barcode = sum(1 for product in products if product.get("barcode"))
+            print(
+                f"✅ {len(products)} products saved to {filename} "
+                f"({with_barcode} with barcode)"
+            )
         except Exception as err:
             msg = f"{type(err).__name__}: {err}"
             print(f"❌ Failed to scrape {name}: {msg}")
