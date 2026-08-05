@@ -36,7 +36,7 @@ def scrape_ah_products() -> None:
     os.makedirs("new_results", exist_ok=True)
     ah_links = get_ah_links()
     failures: list[tuple[str, str]] = []
-    enrich_limit = int(os.environ.get("AH_DETAIL_ENRICH_LIMIT", DEFAULT_DETAIL_ENRICH_LIMIT))
+    enrich_budget = int(os.environ.get("AH_DETAIL_ENRICH_LIMIT", DEFAULT_DETAIL_ENRICH_LIMIT))
 
     print("🔑 Fetching AH anonymous API token...")
     token = get_anonymous_token()
@@ -58,18 +58,24 @@ def scrape_ah_products() -> None:
                 product["category"] = category
 
             missing = sum(1 for product in products if not product.get("barcode"))
-            if missing and enrich_limit > 0:
+            if missing and enrich_budget > 0:
+                batch_limit = min(missing, enrich_budget)
                 print(
-                    f"🔎 Enriching up to {min(missing, enrich_limit)}/{missing} "
-                    "products missing barcode via detail API..."
+                    f"🔎 Enriching up to {batch_limit}/{missing} "
+                    f"products missing barcode via detail API "
+                    f"(budget remaining {enrich_budget})..."
                 )
                 try:
                     added = enrich_raw_entries_with_detail_barcodes(
                         token,
                         products,
-                        limit=min(missing, enrich_limit),
+                        limit=batch_limit,
                     )
-                    print(f"📎 Detail enrichment added {added} barcodes")
+                    enrich_budget = max(0, enrich_budget - added)
+                    print(
+                        f"📎 Detail enrichment added {added} barcodes "
+                        f"({enrich_budget} budget left)"
+                    )
                 except Exception as enrich_err:
                     print(
                         f"⚠️ Detail enrichment failed for {name}: "

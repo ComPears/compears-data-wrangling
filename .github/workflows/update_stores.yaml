@@ -16,7 +16,7 @@ jobs:
   scrape:
     name: Scrape ${{ matrix.country }}/${{ matrix.store }}
     runs-on: ubuntu-24.04
-    timeout-minutes: 90
+    timeout-minutes: 120
     strategy:
       fail-fast: false
       max-parallel: 5
@@ -108,6 +108,8 @@ jobs:
           DE_MAX_QUERIES: '80'
           DE_MAX_BLOCKED_QUERIES: '3'
           DE_MAX_EMPTY_QUERIES: '5'
+          # Keep AH under the job timeout; barcode backfill can run separately.
+          AH_DETAIL_ENRICH_LIMIT: ${{ matrix.store == 'albert-heijn' && '400' || '0' }}
           PLAYWRIGHT_CHANNEL: ${{ matrix.store == 'asda' && 'chrome' || '' }}
           STATUS_FILE: artifacts/catalog/reports/scrape-status/${{ matrix.country }}-${{ matrix.store }}.json
         run: >-
@@ -139,6 +141,8 @@ jobs:
   validate-and-publish:
     name: Validate and publish catalog snapshot
     needs: scrape
+    # Run even when individual matrix scrapes time out/cancel so successful
+    # catalogs still publish and downstream sync can proceed.
     if: always() && !cancelled()
     runs-on: ubuntu-24.04
     timeout-minutes: 30
@@ -229,6 +233,9 @@ jobs:
   sync-backend-and-render:
     name: Sync validated snapshot to backend
     needs: validate-and-publish
+    # Sibling scrape cancellations mark the workflow cancelled and would otherwise
+    # skip sync even after a successful validate/publish job.
+    if: always() && needs.validate-and-publish.result == 'success'
     runs-on: ubuntu-24.04
     timeout-minutes: 30
     permissions:
