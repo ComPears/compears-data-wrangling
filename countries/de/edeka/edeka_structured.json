@@ -1507,19 +1507,6 @@
     "wg": 1
   },
   {
-    "n": "Kinder Schoko Bons 200G 32ST",
-    "p": "4.29",
-    "o": "",
-    "s": "200 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/5413548283128.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Suess-Salzig/kinder-Schoko-Bons-200G-32ST.html?listtype=search&searchparam=Eier",
-    "c": "Other",
-    "cn": "schoko bons kinder",
-    "ik": "tok:schoko|bons-kinder|200",
-    "bn": "schoko",
-    "wg": 200
-  },
-  {
     "n": "Maggi Fix Mac & Cheese 33G",
     "p": "1.09",
     "o": "",
@@ -4866,6 +4853,19 @@
     "wg": 330
   },
   {
+    "n": "Alnatura Bio Gewürzgurken Ohne Zuckerzusatz 670G",
+    "p": "3.99",
+    "o": "",
+    "s": "670 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/alnatura_bio_gewrzgurken_ohne_zuckerzusatz_670g.jpg",
+    "i": "https://www.edeka24.de/Alnatura-Bio-Gewuerzgurken-ohne-Zuckerzusatz-670G.html?listtype=search&searchparam=Gurke",
+    "c": "Other",
+    "cn": "alnatura bio gew ohne rzgurken zuckerzusatz",
+    "ik": "tok:alnatura|bio-gew-ohne-rzgurken-zuckerzusatz|670",
+    "bn": "alnatura",
+    "wg": 670
+  },
+  {
     "n": "Kühne Moskauer Gurken Mit Borretsch Und Koriander 670G",
     "p": "2.89",
     "o": "",
@@ -6348,19 +6348,6 @@
     "wg": 61
   },
   {
-    "n": "Maggi Food Travel Curry Indian Style 65G",
-    "p": "1.09",
-    "o": "",
-    "s": "65 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_food_travel_curry_indian_style_65g.jpg",
-    "i": "https://www.edeka24.de/Maggi-Food-Travel-Curry-Indian-Style-65G.html?listtype=search&searchparam=H%C3%A4hnchen",
-    "c": "Other",
-    "cn": "maggi curry food indian style travel",
-    "ik": "tok:maggi|curry-food-indian-style-travel|65",
-    "bn": "maggi",
-    "wg": 65
-  },
-  {
     "n": "Maggi Fix Air Fryer Curry Knusper Hähnchen 41G",
     "p": "1.09",
     "o": "",
@@ -6554,6 +6541,19 @@
     "ik": "tok:good|boy-bunter-hnchen-knabber-mix|320",
     "bn": "good",
     "wg": 320
+  },
+  {
+    "n": "Knorr Fix Paella 34G",
+    "p": "1.29",
+    "o": "",
+    "s": "34 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/knorr_fix_paella_34g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Sossen/Knorr-Fix-Paella-34G.html?listtype=search&searchparam=H%C3%A4hnchen",
+    "c": "Other",
+    "cn": "knorr fix paella",
+    "ik": "tok:knorr|fix-paella|34",
+    "bn": "knorr",
+    "wg": 34
   },
   {
     "n": "Maggi Bauern-Topf Mit Hackfleisch 39G",
@@ -10245,19 +10245,6 @@
     "wg": 900
   },
   {
-    "n": "Koro Crispy Protein Bar Dark Chocolate 60G",
-    "p": "2.49",
-    "o": "",
-    "s": "60 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/koro_crispy_protein_bar_dark_chocolate_60g.jpg",
-    "i": "https://www.edeka24.de/Themenwelten/Bewusste-Ernaehrung/Fitness-Nahrung/KoRo-Crispy-Protein-Bar-Dark-Chocolate-60G.html?listtype=search&searchparam=%C3%96l",
-    "c": "Snacks",
-    "cn": "koro bar chocolate crispy dark protein",
-    "ik": "tok:koro|bar-chocolate-crispy-dark-protein|60",
-    "bn": "koro",
-    "wg": 60
-  },
-  {
     "n": "Carapelli Il Nobile 100% Italienisches Natives Olivenöl Extra 0,5L",
     "p": "13.99",
     "o": "",
@@ -10269,6 +10256,19 @@
     "ik": "tok:carapelli|100-extra-il-italienisches-natives-nobile-oliven|500",
     "bn": "carapelli",
     "wg": 500
+  },
+  {
+    "n": "Dr.Oetker Vitalis Knusper Müsli Cinnamon Roll 400G",
+    "p": "4.29",
+    "o": "",
+    "s": "400 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/droetker_vitalis_knusper_msli_cinnamon_roll_400g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Dr-Oetker-Vitalis-Knusper-Muesli-Cinnamon-Roll-400G.html?listtype=search&searchparam=%C3%96l",
+    "c": "Other",
+    "cn": "droetker cinnamon dr knusper oetker roll sli vitalis",
+    "ik": "tok:droetker|cinnamon-dr-knusper-oetker-roll-sli-vitalis|400",
+    "bn": "droetker",
+    "wg": 400
   },
   {
     "n": "Edeka Herzstücke Thunfischfilets In Olivenöl 2x 80G",
@@ -12194,19 +12194,6 @@
     "wg": 375
   },
   {
-    "n": "Dr.Oetker Vitalis Knusper Müsli Cinnamon Roll 400G",
-    "p": "4.29",
-    "o": "",
-    "s": "400 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/droetker_vitalis_knusper_msli_cinnamon_roll_400g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Dr-Oetker-Vitalis-Knusper-Muesli-Cinnamon-Roll-400G.html?listtype=search&searchparam=M%C3%BCsli",
-    "c": "Other",
-    "cn": "droetker cinnamon dr knusper oetker roll sli vitalis",
-    "ik": "tok:droetker|cinnamon-dr-knusper-oetker-roll-sli-vitalis|400",
-    "bn": "droetker",
-    "wg": 400
-  },
-  {
     "n": "Alnatura Bio Maxi Müsli 1KG",
     "p": "5.49",
     "o": "",
@@ -13065,6 +13052,19 @@
     "wg": 56
   },
   {
+    "n": "Jacobs Krönung Instantkaffee 100G - Mhd 08.2026",
+    "p": "3.00",
+    "o": "",
+    "s": "100 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/unbenannt(15).jpg",
+    "i": "https://www.edeka24.de/Jacobs-Kroenung-Instantkaffee-100G-MHD-08-2026.html?listtype=search&searchparam=Kaffee",
+    "c": "Other",
+    "cn": "jacobs 08 2026 instantkaffee kr mhd nung",
+    "ik": "tok:jacobs|08-2026-instantkaffee-kr-mhd-nung|100",
+    "bn": "jacobs",
+    "wg": 100
+  },
+  {
     "n": "Edeka Herzstücke Kaffeepads Balance 16ST 112G",
     "p": "2.79",
     "o": "",
@@ -13089,19 +13089,6 @@
     "ik": "tok:tassimo|bigpack-cafe-morning|164",
     "bn": "tassimo",
     "wg": 164
-  },
-  {
-    "n": "Jacobs Krönung Instantkaffee 100G",
-    "p": "6.99",
-    "o": "",
-    "s": "100 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/unbenannt(15).jpg",
-    "i": "https://www.edeka24.de/Jacobs-Kroenung-Instantkaffee-100G.html?listtype=search&searchparam=Kaffee",
-    "c": "Other",
-    "cn": "jacobs instantkaffee kr nung",
-    "ik": "tok:jacobs|instantkaffee-kr-nung|100",
-    "bn": "jacobs",
-    "wg": 100
   },
   {
     "n": "Jacobs Lungo 6 Classico Kaffekapseln 20ST 104G",
@@ -13193,6 +13180,19 @@
     "ik": "tok:lavazza|filterkaffee-qualita-rossa|250",
     "bn": "lavazza",
     "wg": 250
+  },
+  {
+    "n": "Ti Bio Grüner Tee & Mango 6x1L",
+    "p": "11.94",
+    "o": "",
+    "s": "1 l",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ti_bio_grner_tee_amp_mango_6x1l.jpg",
+    "i": "https://www.edeka24.de/vorrat/Ti-Bio-Gruener-Tee-Mango-6x1L.html?listtype=search&searchparam=Tee",
+    "c": "Other",
+    "cn": "bio 6x gr mango ner tee ti",
+    "ik": "tok:bio|6x-gr-mango-ner-tee-ti|1000",
+    "bn": "bio",
+    "wg": 1000
   },
   {
     "n": "Alnatura Bio Salbei Tee 20ST 30G",
@@ -13479,19 +13479,6 @@
     "ik": "tok:air|flavor-ice-peach-pod-tea-tier3-up|1",
     "bn": "air",
     "wg": 1
-  },
-  {
-    "n": "Esn Isoclear Whey Protein Isolate Peach Iced Tea Flavor 300G",
-    "p": "23.99",
-    "o": "",
-    "s": "300 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/esn_isoclear_whey_isolate_peach_iced_tea_300g.jpg",
-    "i": "https://www.edeka24.de/ESN-Isoclear-Whey-Protein-Isolate-Peach-Iced-Tea-Flavor-300G.html?listtype=search&searchparam=Tee",
-    "c": "Other",
-    "cn": "esn flavor iced isoclear isolate peach protein tea whey",
-    "ik": "tok:esn|flavor-iced-isoclear-isolate-peach-protein-tea-whey|300",
-    "bn": "esn",
-    "wg": 300
   },
   {
     "n": "Griesson Soft Cake Orange Zartbitter 300G",
@@ -13959,6 +13946,19 @@
     "ik": "tok:alnatura|64-bio-cacao-chocolat|150",
     "bn": "alnatura",
     "wg": 150
+  },
+  {
+    "n": "Nestle Lion Caramel & Chocolate Protein Cereal 340G",
+    "p": "4.29",
+    "o": "",
+    "s": "340 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/nestle_lion_caramel_amp_chocolate_protein_cereal_340g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Nestle-Lion-Caramel-Chocolate-Protein-Cereal-340G.html?listtype=search&searchparam=Cola",
+    "c": "Snacks",
+    "cn": "nestle caramel cereal chocolate lion protein",
+    "ik": "tok:nestle|caramel-cereal-chocolate-lion-protein|340",
+    "bn": "nestle",
+    "wg": 340
   },
   {
     "n": "Bortzmeyer Traditionell Elsass Quetsch 40% 0,7L",
@@ -14683,19 +14683,6 @@
     "wg": 100
   },
   {
-    "n": "Kinder Kinderini 20ST 250G",
-    "p": "3.89",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/8000500391228.jpg",
-    "i": "https://www.edeka24.de/kinder-Kinderini-20ST-250G.html?listtype=search&searchparam=Kekse",
-    "c": "Other",
-    "cn": "kinderini kinder",
-    "ik": "tok:kinderini|kinder|250",
-    "bn": "kinderini",
-    "wg": 250
-  },
-  {
     "n": "De Beukelaer Prinzen Rolle Choco & Cream 352G",
     "p": "2.59",
     "o": "",
@@ -14720,6 +14707,19 @@
     "ik": "tok:ferrero|biscuits-nutella|304",
     "bn": "ferrero",
     "wg": 304
+  },
+  {
+    "n": "Kinder Kinderini 20ST 250G - Mhd 22.08.2026",
+    "p": "2.00",
+    "o": "",
+    "s": "250 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/8000500391228.jpg",
+    "i": "https://www.edeka24.de/kinder-Kinderini-20ST-250G-MHD-22-08-2026.html?listtype=search&searchparam=Kekse",
+    "c": "Other",
+    "cn": "kinderini 08 2026 22 kinder mhd",
+    "ik": "tok:kinderini|08-2026-22-kinder-mhd|250",
+    "bn": "kinderini",
+    "wg": 250
   },
   {
     "n": "De Beukelaer Prinzen Rolle Schoko 400G",

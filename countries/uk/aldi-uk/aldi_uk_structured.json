@@ -1168,16 +1168,16 @@
     "wg": 500
   },
   {
-    "n": "English White Cuvée",
-    "p": "5.99",
+    "n": "Californian White Zinfandel",
+    "p": "3.89",
     "o": "",
     "s": "75 cl",
     "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-english-white-cuvee/000000000000487679",
+    "i": "https://www.aldi.co.uk/product/beachfront-californian-white-zinfandel/000000000000648480",
     "c": "Other",
-    "cn": "english cuv white",
-    "ik": "tok:english|cuv-white|na",
-    "bn": "english"
+    "cn": "californian white zinfandel",
+    "ik": "tok:californian|white-zinfandel|na",
+    "bn": "californian"
   },
   {
     "n": "Prawn Mayonnaise On Malted Brown Bread Sandwich",
@@ -2042,7 +2042,7 @@
   },
   {
     "n": "Smooth Peanut Butter",
-    "p": "0.99",
+    "p": "0.95",
     "o": "",
     "s": "340 ml",
     "l": "",
@@ -2055,7 +2055,7 @@
   },
   {
     "n": "Crunchy Peanut Butter",
-    "p": "0.99",
+    "p": "0.95",
     "o": "",
     "s": "340 ml",
     "l": "",
@@ -2289,7 +2289,7 @@
   },
   {
     "n": "Garlic & Herb Parmentier Potatoes With Salted Parsley Butter",
-    "p": "1.89",
+    "p": "1.99",
     "o": "",
     "s": "500 ml",
     "l": "",
@@ -2458,7 +2458,7 @@
   },
   {
     "n": "British Mild Cheddar Cheese",
-    "p": "2.49",
+    "p": "2.45",
     "o": "",
     "s": "400 ml",
     "l": "",
@@ -2471,7 +2471,7 @@
   },
   {
     "n": "British Mature Cheddar Cheese",
-    "p": "2.49",
+    "p": "2.45",
     "o": "",
     "s": "400 ml",
     "l": "",
@@ -2510,7 +2510,7 @@
   },
   {
     "n": "British Medium Cheddar Cheese",
-    "p": "2.49",
+    "p": "2.45",
     "o": "",
     "s": "400 ml",
     "l": "",
@@ -2575,7 +2575,7 @@
   },
   {
     "n": "British Extra Mature Cheddar Cheese",
-    "p": "2.49",
+    "p": "2.45",
     "o": "",
     "s": "400 ml",
     "l": "",
@@ -2665,19 +2665,6 @@
     "wg": 250
   },
   {
-    "n": "Hake & Cheddar Fishcake",
-    "p": "2.29",
-    "o": "",
-    "s": "290 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-hake-cheddar-fishcake/000000000383169009",
-    "c": "Other",
-    "cn": "hake cheddar fishcake",
-    "ik": "tok:hake|cheddar-fishcake|290",
-    "bn": "hake",
-    "wg": 290
-  },
-  {
     "n": "British Mature Cheddar Cheese 10 Slices",
     "p": "1.99",
     "o": "",
@@ -2744,7 +2731,7 @@
   },
   {
     "n": "British Mature 50% Lighter Cheddar Cheese",
-    "p": "2.49",
+    "p": "2.45",
     "o": "",
     "s": "400 ml",
     "l": "",
@@ -2757,7 +2744,7 @@
   },
   {
     "n": "British Mature 30% Lighter Cheddar Cheese",
-    "p": "2.49",
+    "p": "2.45",
     "o": "",
     "s": "400 ml",
     "l": "",
@@ -2767,6 +2754,19 @@
     "ik": "tok:british|30-cheddar-cheese-lighter-mature|400",
     "bn": "british",
     "wg": 400
+  },
+  {
+    "n": "Hake & Cheddar Fishcake",
+    "p": "2.29",
+    "o": "",
+    "s": "290 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/specially-selected-hake-cheddar-fishcake/000000000383169009",
+    "c": "Other",
+    "cn": "hake cheddar fishcake",
+    "ik": "tok:hake|cheddar-fishcake|290",
+    "bn": "hake",
+    "wg": 290
   },
   {
     "n": "British Cheddar Cheese With Black Pepper 5 Slices",
@@ -4730,6 +4730,19 @@
     "wg": 400
   },
   {
+    "n": "Peeled Plum Tomatoes In A Rich Tomato Juice",
+    "p": "0.47",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/cucina-peeled-plum-tomatoes-in-a-rich-tomato-juice/000000000000278707",
+    "c": "Other",
+    "cn": "peeled in juice plum rich tomato tomatoes",
+    "ik": "tok:peeled|in-juice-plum-rich-tomato-tomatoes|400",
+    "bn": "peeled",
+    "wg": 400
+  },
+  {
     "n": "Smoked Double Gloucester & Tomato With Tomato Chutney Sandwich",
     "p": "1.99",
     "o": "",
@@ -4845,19 +4858,6 @@
     "ik": "tok:cheese|pizza-tomato|310",
     "bn": "cheese",
     "wg": 310
-  },
-  {
-    "n": "Tomato & Lentil Soup",
-    "p": "2.49",
-    "o": "",
-    "s": "600 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/specially-selected-tomato-lentil-soup/000000000559768001",
-    "c": "Other",
-    "cn": "tomato lentil soup",
-    "ik": "tok:tomato|lentil-soup|600",
-    "bn": "tomato",
-    "wg": 600
   },
   {
     "n": "Red Onions",
@@ -5381,7 +5381,7 @@
   },
   {
     "n": "Carrot, Broccoli & Sweetcorn Steam Bags 4 Pack",
-    "p": "1.89",
+    "p": "1.69",
     "o": "",
     "s": "640 ml",
     "l": "",
@@ -5394,7 +5394,7 @@
   },
   {
     "n": "Carrot, Peas & Sweetcorn Steam Bags 4 Pack",
-    "p": "1.89",
+    "p": "1.69",
     "o": "",
     "s": "640 ml",
     "l": "",
@@ -5770,7 +5770,7 @@
   },
   {
     "n": "Lemon",
-    "p": "0.69",
+    "p": "0.65",
     "o": "",
     "s": "2 l",
     "l": "",
@@ -6680,7 +6680,7 @@
   },
   {
     "n": "Buttermilk Chicken Thigh Fillet Burgers 2 Pack",
-    "p": "2.25",
+    "p": "2.39",
     "o": "",
     "s": "300 ml",
     "l": "",
@@ -6693,7 +6693,7 @@
   },
   {
     "n": "Flamin' Hot Chicken Thigh Fillet Burgers 2 Pack",
-    "p": "2.25",
+    "p": "2.39",
     "o": "",
     "s": "300 ml",
     "l": "",
@@ -6706,7 +6706,7 @@
   },
   {
     "n": "Southern Fried Chicken Thigh Fillet Burgers 2 Pack",
-    "p": "2.25",
+    "p": "2.39",
     "o": "",
     "s": "300 ml",
     "l": "",
@@ -6797,7 +6797,7 @@
   },
   {
     "n": "Jerk Chicken",
-    "p": "2.89",
+    "p": "2.99",
     "o": "",
     "s": "380 ml",
     "l": "",
@@ -7056,6 +7056,19 @@
     "wg": 500
   },
   {
+    "n": "Quorn Mince",
+    "p": "2.29",
+    "o": "",
+    "s": "420 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
+    "c": "Other",
+    "cn": "quorn mince",
+    "ik": "tok:quorn|mince|420",
+    "bn": "quorn",
+    "wg": 420
+  },
+  {
     "n": "British Extra Lean Turkey Mince 2% Fat",
     "p": "3.99",
     "o": "",
@@ -7106,19 +7119,6 @@
     "ik": "tok:british|beef-fat-lean-mince-steak|750",
     "bn": "british",
     "wg": 750
-  },
-  {
-    "n": "Quorn Mince",
-    "p": "2.29",
-    "o": "",
-    "s": "420 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
-    "c": "Other",
-    "cn": "quorn mince",
-    "ik": "tok:quorn|mince|420",
-    "bn": "quorn",
-    "wg": 420
   },
   {
     "n": "100% British Beef Lean Aberdeen Angus Steak Mince 5% Fat",
@@ -7252,7 +7252,7 @@
   },
   {
     "n": "British Beef Steak 21 Day Matured",
-    "p": "3.29",
+    "p": "3.25",
     "o": "",
     "s": "230 ml",
     "l": "",
@@ -7278,7 +7278,7 @@
   },
   {
     "n": "100% British Beef Wagyu Sirloin Steak",
-    "p": "8.99",
+    "p": "8.49",
     "o": "",
     "s": "230 ml",
     "l": "",
@@ -7317,7 +7317,7 @@
   },
   {
     "n": "100% British Beef Wagyu Fillet Steak",
-    "p": "10.99",
+    "p": "10.49",
     "o": "",
     "s": "170 ml",
     "l": "",
@@ -8434,58 +8434,6 @@
     "wg": 290
   },
   {
-    "n": "Quorn Fillets",
-    "p": "2.29",
-    "o": "",
-    "s": "420 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/quorn-quorn-fillets/000000000729314002",
-    "c": "Other",
-    "cn": "quorn fillets",
-    "ik": "tok:quorn|fillets|420",
-    "bn": "quorn",
-    "wg": 420
-  },
-  {
-    "n": "Chicken Drum Fillets",
-    "p": "2.95",
-    "o": "",
-    "s": "600 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/ashfields-chicken-drum-fillets/000000000000514998",
-    "c": "Other",
-    "cn": "chicken drum fillets",
-    "ik": "tok:chicken|drum-fillets|600",
-    "bn": "chicken",
-    "wg": 600
-  },
-  {
-    "n": "Chicken Drum Fillets",
-    "p": "3.99",
-    "o": "",
-    "s": "900 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/ashfields-chicken-drum-fillets/000000000000592030",
-    "c": "Other",
-    "cn": "chicken drum fillets",
-    "ik": "tok:chicken|drum-fillets|900",
-    "bn": "chicken",
-    "wg": 900
-  },
-  {
-    "n": "Battered Fish Fillets",
-    "p": "1.99",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/everyday-essentials-battered-fish-fillets/000000000689241002",
-    "c": "Other",
-    "cn": "battered fillets fish",
-    "ik": "tok:battered|fillets-fish|400",
-    "bn": "battered",
-    "wg": 400
-  },
-  {
     "n": "Chunky Breaded Cod 4 Pack",
     "p": "4.89",
     "o": "",
@@ -8536,6 +8484,58 @@
     "ik": "tok:bubbly|battered-cod-pack|350",
     "bn": "bubbly",
     "wg": 350
+  },
+  {
+    "n": "Quorn Fillets",
+    "p": "2.29",
+    "o": "",
+    "s": "420 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/quorn-quorn-fillets/000000000729314002",
+    "c": "Other",
+    "cn": "quorn fillets",
+    "ik": "tok:quorn|fillets|420",
+    "bn": "quorn",
+    "wg": 420
+  },
+  {
+    "n": "Chicken Drum Fillets",
+    "p": "2.95",
+    "o": "",
+    "s": "600 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/ashfields-chicken-drum-fillets/000000000000514998",
+    "c": "Other",
+    "cn": "chicken drum fillets",
+    "ik": "tok:chicken|drum-fillets|600",
+    "bn": "chicken",
+    "wg": 600
+  },
+  {
+    "n": "Chicken Drum Fillets",
+    "p": "3.99",
+    "o": "",
+    "s": "900 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/ashfields-chicken-drum-fillets/000000000000592030",
+    "c": "Other",
+    "cn": "chicken drum fillets",
+    "ik": "tok:chicken|drum-fillets|900",
+    "bn": "chicken",
+    "wg": 900
+  },
+  {
+    "n": "Battered Fish Fillets",
+    "p": "1.99",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/everyday-essentials-battered-fish-fillets/000000000689241002",
+    "c": "Other",
+    "cn": "battered fillets fish",
+    "ik": "tok:battered|fillets-fish|400",
+    "bn": "battered",
+    "wg": 400
   },
   {
     "n": "Melt In The Middle Katsu Cod Fishcakes",
@@ -8876,19 +8876,6 @@
     "wg": 1
   },
   {
-    "n": "Vegetarian Ham Slices",
-    "p": "1.45",
-    "o": "",
-    "s": "100 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/quorn-vegetarian-ham-slices/000000000493578001",
-    "c": "Other",
-    "cn": "vegetarian ham slices",
-    "ik": "tok:vegetarian|ham-slices|100",
-    "bn": "vegetarian",
-    "wg": 100
-  },
-  {
     "n": "Wafer Thin British Cooked Ham 40 Slices",
     "p": "1.89",
     "o": "",
@@ -8977,6 +8964,19 @@
     "cn": "british cooked ham slices thin wafer",
     "ik": "tok:british|cooked-ham-slices-thin-wafer|120",
     "bn": "british",
+    "wg": 120
+  },
+  {
+    "n": "Applewood Smoked Wiltshire Cured Ham 6 Slices",
+    "p": "2.19",
+    "o": "",
+    "s": "120 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/specially-selected-applewood-smoked-wiltshire-cured-ham-6-slices/000000000615748001",
+    "c": "Other",
+    "cn": "applewood cured ham slices smoked wiltshire",
+    "ik": "tok:applewood|cured-ham-slices-smoked-wiltshire|120",
+    "bn": "applewood",
     "wg": 120
   },
   {
@@ -9110,19 +9110,6 @@
     "wg": 200
   },
   {
-    "n": "Prosciutto Tortelloni",
-    "p": "0.99",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/cucina-prosciutto-tortelloni/000000000635994001",
-    "c": "Other",
-    "cn": "prosciutto tortelloni",
-    "ik": "tok:prosciutto|tortelloni|250",
-    "bn": "prosciutto",
-    "wg": 250
-  },
-  {
     "n": "Lasagne Sheets",
     "p": "0.75",
     "o": "",
@@ -9134,6 +9121,19 @@
     "ik": "tok:lasagne|sheets|500",
     "bn": "lasagne",
     "wg": 500
+  },
+  {
+    "n": "Prosciutto Tortelloni",
+    "p": "0.99",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/cucina-prosciutto-tortelloni/000000000635994001",
+    "c": "Other",
+    "cn": "prosciutto tortelloni",
+    "ik": "tok:prosciutto|tortelloni|250",
+    "bn": "prosciutto",
+    "wg": 250
   },
   {
     "n": "Gnocchi 500g",
@@ -10397,7 +10397,7 @@
   },
   {
     "n": "Benefit Red Fruit Cereal",
-    "p": "1.59",
+    "p": "1.69",
     "o": "",
     "s": "375 ml",
     "l": "",
@@ -11667,7 +11667,7 @@
   },
   {
     "n": "Orange Ice Coolers",
-    "p": "1.99",
+    "p": "1.89",
     "o": "",
     "s": "480 ml",
     "l": "",
@@ -11927,7 +11927,7 @@
   },
   {
     "n": "Cola Ice Coolers",
-    "p": "1.99",
+    "p": "1.89",
     "o": "",
     "s": "480 ml",
     "l": "",
@@ -11953,7 +11953,7 @@
   },
   {
     "n": "Coca-Cola Zero Sugar",
-    "p": "1.79",
+    "p": "1.89",
     "o": "",
     "s": "500 ml",
     "l": "",
@@ -11979,7 +11979,7 @@
   },
   {
     "n": "Coca-Cola Classic 8 Pack",
-    "p": "4.75",
+    "p": "5.29",
     "o": "",
     "s": "640 ml",
     "l": "",
@@ -12031,7 +12031,7 @@
   },
   {
     "n": "Diet Coke",
-    "p": "1.79",
+    "p": "1.89",
     "o": "",
     "s": "500 ml",
     "l": "",
@@ -12264,32 +12264,6 @@
     "wg": 1
   },
   {
-    "n": "Slip On Water Shoes",
-    "p": "3.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/crane-slip-on-water-shoes/000000000723986001",
-    "c": "Other",
-    "cn": "slip on shoes water",
-    "ik": "tok:slip|on-shoes-water|1",
-    "bn": "slip",
-    "wg": 1
-  },
-  {
-    "n": "Water And Beach Games",
-    "p": "4.49",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/crane-water-and-beach-games/000000000730064001",
-    "c": "Other",
-    "cn": "water and beach games",
-    "ik": "tok:water|and-beach-games|1",
-    "bn": "water",
-    "wg": 1
-  },
-  {
     "n": "Tuna Chunks In Spring Water",
     "p": "0.65",
     "o": "",
@@ -12418,6 +12392,32 @@
     "ik": "tok:still|12-pack-spring-water|0",
     "bn": "still",
     "wg": 0
+  },
+  {
+    "n": "Low Calorie Indian Tonic Water",
+    "p": "0.49",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/vive-low-calorie-indian-tonic-water/000000000415471002",
+    "c": "Other",
+    "cn": "low calorie indian tonic water",
+    "ik": "tok:low|calorie-indian-tonic-water|1000",
+    "bn": "low",
+    "wg": 1000
+  },
+  {
+    "n": "Drained & Ready To Eat Tuna Steaks In Water",
+    "p": "0.99",
+    "o": "",
+    "s": "110 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/the-fishmonger-drained-ready-to-eat-tuna-steaks-in-water/000000000307807003",
+    "c": "Other",
+    "cn": "drained eat in ready steaks to tuna water",
+    "ik": "tok:drained|eat-in-ready-steaks-to-tuna-water|110",
+    "bn": "drained",
+    "wg": 110
   },
   {
     "n": "Summer Fruits Still Flavoured Water",
@@ -12771,19 +12771,6 @@
     "wg": 150
   },
   {
-    "n": "Large Square Olive Planter",
-    "p": "9.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/belavi-large-square-olive-planter/000000000723915001",
-    "c": "Other",
-    "cn": "large olive planter square",
-    "ik": "tok:large|olive-planter-square|1",
-    "bn": "large",
-    "wg": 1
-  },
-  {
     "n": "Black Sliced Olives",
     "p": "0.99",
     "o": "",
@@ -12795,6 +12782,32 @@
     "ik": "tok:black|olives-sliced|1",
     "bn": "black",
     "wg": 1
+  },
+  {
+    "n": "Sunflower Oil",
+    "p": "1.49",
+    "o": "",
+    "s": "0 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/solesta-sunflower-oil/000000000000198481",
+    "c": "Other",
+    "cn": "sunflower oil",
+    "ik": "tok:sunflower|oil|0",
+    "bn": "sunflower",
+    "wg": 0
+  },
+  {
+    "n": "Vegetable Oil",
+    "p": "1.45",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/solesta-vegetable-oil/000000000000335872",
+    "c": "Other",
+    "cn": "vegetable oil",
+    "ik": "tok:vegetable|oil|1000",
+    "bn": "vegetable",
+    "wg": 1000
   },
   {
     "n": "Double Stuffed Giant Halkidiki Olives",
@@ -12849,30 +12862,17 @@
     "wg": 160
   },
   {
-    "n": "Sunflower Oil",
-    "p": "1.49",
+    "n": "Multifunctional Oil",
+    "p": "3.69",
     "o": "",
-    "s": "0 ml",
+    "s": "1 stuk",
     "l": "",
-    "i": "https://www.aldi.co.uk/product/solesta-sunflower-oil/000000000000198481",
+    "i": "https://www.aldi.co.uk/product/wd-40-multifunctional-oil/000000000000172703",
     "c": "Other",
-    "cn": "sunflower oil",
-    "ik": "tok:sunflower|oil|0",
-    "bn": "sunflower",
-    "wg": 0
-  },
-  {
-    "n": "Vegetable Oil",
-    "p": "1.45",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/solesta-vegetable-oil/000000000000335872",
-    "c": "Other",
-    "cn": "vegetable oil",
-    "ik": "tok:vegetable|oil|1000",
-    "bn": "vegetable",
-    "wg": 1000
+    "cn": "multifunctional oil",
+    "ik": "tok:multifunctional|oil|1",
+    "bn": "multifunctional",
+    "wg": 1
   },
   {
     "n": "Sardines In Sunflower Oil",
@@ -12990,19 +12990,6 @@
     "ik": "tok:special|pouch-pumpkin-quinoa-seeds-sunflower|250",
     "bn": "special",
     "wg": 250
-  },
-  {
-    "n": "Multifunctional Oil",
-    "p": "3.69",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/wd-40-multifunctional-oil/000000000000172703",
-    "c": "Other",
-    "cn": "multifunctional oil",
-    "ik": "tok:multifunctional|oil|1",
-    "bn": "multifunctional",
-    "wg": 1
   },
   {
     "n": "British Rapeseed Oil",
@@ -13966,7 +13953,7 @@
   },
   {
     "n": "Salt & Pepper Parmentier Potatoes Coated In Butter With Salt & Crushed Black Pepper",
-    "p": "1.89",
+    "p": "1.99",
     "o": "",
     "s": "500 ml",
     "l": "",
@@ -14744,19 +14731,6 @@
     "wg": 500
   },
   {
-    "n": "Honey Nut Crunchy Cornflakes",
-    "p": "1.49",
-    "o": "",
-    "s": "750 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/harvest-morn-honey-nut-crunchy-cornflakes/000000000000608571",
-    "c": "Other",
-    "cn": "honey cornflakes crunchy nut",
-    "ik": "tok:honey|cornflakes-crunchy-nut|750",
-    "bn": "honey",
-    "wg": 750
-  },
-  {
     "n": "Honey & Mustard Salad Dressing",
     "p": "0.99",
     "o": "",
@@ -14872,6 +14846,19 @@
     "ik": "tok:british|14-family-ham-honey-pack-roast-slices|300",
     "bn": "british",
     "wg": 300
+  },
+  {
+    "n": "British Wafer Thin Honey Roast Ham 9 Slices",
+    "p": "1.59",
+    "o": "",
+    "s": "120 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/ashfields-british-wafer-thin-honey-roast-ham-9-slices/000000000405571002",
+    "c": "Other",
+    "cn": "british ham honey roast slices thin wafer",
+    "ik": "tok:british|ham-honey-roast-slices-thin-wafer|120",
+    "bn": "british",
+    "wg": 120
   },
   {
     "n": "Variety Crisps Multipack",
@@ -15134,19 +15121,6 @@
     "wg": 90
   },
   {
-    "n": "Toffee Crisp",
-    "p": "1.19",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/nestle-toffee-crisp/000000000730428003",
-    "c": "Other",
-    "cn": "toffee crisp",
-    "ik": "tok:toffee|crisp|120",
-    "bn": "toffee",
-    "wg": 120
-  },
-  {
     "n": "Mini Cheese Bakes 7 Pack",
     "p": "0.99",
     "o": "",
@@ -15171,6 +15145,19 @@
     "ik": "tok:salt|24-crunchy-pack-sticks-vinegar|432",
     "bn": "salt",
     "wg": 432
+  },
+  {
+    "n": "Teddy Faces 6 Pack",
+    "p": "1.15",
+    "o": "",
+    "s": "90 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/snackrite-teddy-faces-6-pack/000000000000545909",
+    "c": "Other",
+    "cn": "teddy faces pack",
+    "ik": "tok:teddy|faces-pack|90",
+    "bn": "teddy",
+    "wg": 90
   },
   {
     "n": "Milk Chocolate Belgian Chocolate Waves",
@@ -15538,7 +15525,7 @@
   },
   {
     "n": "Mega Cookies & Cream",
-    "p": "1.59",
+    "p": "0.99",
     "o": "",
     "s": "340 ml",
     "l": "",
@@ -16266,7 +16253,7 @@
   },
   {
     "n": "Margherita Italian Stonebaked Pizza",
-    "p": "2.89",
+    "p": "2.99",
     "o": "",
     "s": "430 ml",
     "l": "",
@@ -16292,7 +16279,7 @@
   },
   {
     "n": "Takeaway Classic Crust Pepperoni Pizza",
-    "p": "2.49",
+    "p": "2.69",
     "o": "",
     "s": "510 ml",
     "l": "",
@@ -16331,7 +16318,7 @@
   },
   {
     "n": "Spicy Salami Italian Stonebaked Pizza",
-    "p": "2.89",
+    "p": "2.99",
     "o": "",
     "s": "420 ml",
     "l": "",
@@ -16357,7 +16344,7 @@
   },
   {
     "n": "Takeaway Classic Crust The Big Cheese Pizza",
-    "p": "2.49",
+    "p": "2.69",
     "o": "",
     "s": "530 ml",
     "l": "",
@@ -16383,7 +16370,7 @@
   },
   {
     "n": "Takeaway Meat Feast Classic Crust Pizza",
-    "p": "2.49",
+    "p": "2.69",
     "o": "",
     "s": "560 ml",
     "l": "",
@@ -16409,7 +16396,7 @@
   },
   {
     "n": "Ham, Mushroom & Mascarpone Italian Stonebaked Pizza",
-    "p": "2.89",
+    "p": "2.99",
     "o": "",
     "s": "440 ml",
     "l": "",
@@ -16422,7 +16409,7 @@
   },
   {
     "n": "Takeway Bbq Chicken & Bacon Classic Crust Pizza",
-    "p": "2.49",
+    "p": "2.69",
     "o": "",
     "s": "540 ml",
     "l": "",
@@ -16747,7 +16734,7 @@
   },
   {
     "n": "Halloumi Style Fries 10 Pack",
-    "p": "1.85",
+    "p": "1.79",
     "o": "",
     "s": "170 ml",
     "l": "",
@@ -17182,7 +17169,7 @@
   },
   {
     "n": "Washing Up Liquid",
-    "p": "0.62",
+    "p": "0.65",
     "o": "",
     "s": "500 ml",
     "l": "",
@@ -17283,19 +17270,6 @@
     "ik": "tok:luxurious|hand-wash|500",
     "bn": "luxurious",
     "wg": 500
-  },
-  {
-    "n": "Children's Swim Cover Up",
-    "p": "4.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/l-d-children-s-swim-cover-up/000000000713497001",
-    "c": "Other",
-    "cn": "childrens children cover swim up",
-    "ik": "tok:childrens|children-cover-swim-up|1",
-    "bn": "childrens",
-    "wg": 1
   },
   {
     "n": "Washed & Ready To Cook Vegetable Medley",
@@ -17611,7 +17585,7 @@
   },
   {
     "n": "Hair Refine Shampoo",
-    "p": "1.39",
+    "p": "1.19",
     "o": "",
     "s": "250 ml",
     "l": "",
@@ -17806,7 +17780,7 @@
   },
   {
     "n": "Golden Vegetables & Rice Steam Bags 4 Pack",
-    "p": "1.89",
+    "p": "1.69",
     "o": "",
     "s": "640 ml",
     "l": "",
