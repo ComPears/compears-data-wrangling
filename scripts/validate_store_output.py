@@ -47,6 +47,7 @@ def main() -> None:
 
     baselines = _baseline_counts()
     failures: list[str] = []
+    warnings: list[str] = []
     config = load_stores_config()
 
     targets = all_catalog_paths(args.country)
@@ -56,21 +57,32 @@ def main() -> None:
     for country, slug, catalog in targets:
         count = _load_count(catalog)
         rel = catalog_rel_path(country, slug)
-        minimum = int(store_config(country, slug).get("minimum_products") or 0)
+        cfg = store_config(country, slug)
+        minimum = int(cfg.get("minimum_products") or 0)
+        optional = bool(cfg.get("optional"))
         label = f"{country.upper()}/{slug}"
         print(f"{label}: {count} products ({rel})")
 
         if count < minimum:
-            failures.append(f"{label}: {count} products < minimum {minimum} ({rel})")
+            message = f"{label}: {count} products < minimum {minimum} ({rel})"
+            if optional:
+                warnings.append(f"{message} [optional]")
+            else:
+                failures.append(message)
             continue
 
         baseline = baselines.get(slug) or baselines.get(label)
         if baseline and baseline > 0:
             drop = (baseline - count) / baseline
             if drop > MAX_DROP_RATIO:
-                failures.append(
-                    f"{label}: dropped {drop:.0%} vs baseline {baseline} (now {count})"
-                )
+                message = f"{label}: dropped {drop:.0%} vs baseline {baseline} (now {count})"
+                if optional:
+                    warnings.append(f"{message} [optional]")
+                else:
+                    failures.append(message)
+
+    for msg in warnings:
+        print(f"  warning: {msg}")
 
     if failures:
         print("Store output validation failed:")
