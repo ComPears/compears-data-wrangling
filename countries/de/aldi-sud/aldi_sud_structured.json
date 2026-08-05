@@ -338,19 +338,6 @@
     "wg": 1000
   },
   {
-    "n": "Alpro Haferdrink 1 l, Ohne Zucker",
-    "p": "2.49",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/alpro-haferdrink-1-l-ohne-zucker-000000000203253001",
-    "c": "Other",
-    "cn": "alpro haferdrink ohne zucker",
-    "ik": "tok:alpro|haferdrink-ohne-zucker|1000",
-    "bn": "alpro",
-    "wg": 1000
-  },
-  {
     "n": "Ambiano Elektrische Küchenhelfer, Milchaufschäumer, Beige",
     "p": "9.99",
     "o": "",
@@ -362,6 +349,19 @@
     "ik": "tok:ambiano|beige-chenhelfer-elektrische-milchaufsch-umer|1",
     "bn": "ambiano",
     "wg": 1
+  },
+  {
+    "n": "Alpro Haferdrink 1 l, Ohne Zucker",
+    "p": "2.49",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/alpro-haferdrink-1-l-ohne-zucker-000000000203253001",
+    "c": "Other",
+    "cn": "alpro haferdrink ohne zucker",
+    "ik": "tok:alpro|haferdrink-ohne-zucker|1000",
+    "bn": "alpro",
+    "wg": 1000
   },
   {
     "n": "Biscotto Schoko Butterkeks 125 g, Vollmilch",
@@ -2249,6 +2249,19 @@
     "wg": 200
   },
   {
+    "n": "Milsani Joghurt Mild Aus Magermilch, 0,1 % Fett, 500 G",
+    "p": "0.79",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-joghurt-mild-aus-magermilch-0-1-fett-500-g-000000000202782001",
+    "c": "Other",
+    "cn": "milsani aus fett joghurt magermilch mild",
+    "ik": "tok:milsani|aus-fett-joghurt-magermilch-mild|500",
+    "bn": "milsani",
+    "wg": 500
+  },
+  {
     "n": "Milsani Skyr Frucht 500 g, Erdbeere",
     "p": "1.49",
     "o": "",
@@ -2271,19 +2284,6 @@
     "c": "Other",
     "cn": "milsani frucht skyr vanille",
     "ik": "tok:milsani|frucht-skyr-vanille|500",
-    "bn": "milsani",
-    "wg": 500
-  },
-  {
-    "n": "Milsani Joghurt Mild Aus Magermilch, 0,1 % Fett, 500 G",
-    "p": "0.79",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-joghurt-mild-aus-magermilch-0-1-fett-500-g-000000000202782001",
-    "c": "Other",
-    "cn": "milsani aus fett joghurt magermilch mild",
-    "ik": "tok:milsani|aus-fett-joghurt-magermilch-mild|500",
     "bn": "milsani",
     "wg": 500
   },
@@ -3302,19 +3302,6 @@
     "wg": 400
   },
   {
-    "n": "Eifeler Weizenmischbrot 400 G",
-    "p": "1.39",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-eifeler-weizenmischbrot-400-g-000000000000187306",
-    "c": "Other",
-    "cn": "eifeler weizenmischbrot",
-    "ik": "tok:eifeler|weizenmischbrot|400",
-    "bn": "eifeler",
-    "wg": 400
-  },
-  {
     "n": "Goldähren Klassich Kleiner Sandwichtoast Saaten-Harmonie 375 G",
     "p": "0.99",
     "o": "",
@@ -3326,6 +3313,19 @@
     "ik": "tok:goldhren|gold-harmonie-hren-klassich-kleiner-saaten-sandwichtoast|380",
     "bn": "goldhren",
     "wg": 380
+  },
+  {
+    "n": "Eifeler Weizenmischbrot 400 G",
+    "p": "1.39",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-eifeler-weizenmischbrot-400-g-000000000000187306",
+    "c": "Other",
+    "cn": "eifeler weizenmischbrot",
+    "ik": "tok:eifeler|weizenmischbrot|400",
+    "bn": "eifeler",
+    "wg": 400
   },
   {
     "n": "Goldähren Toastbrötchen 335 g, Weizen",
@@ -3458,45 +3458,6 @@
     "wg": 420
   },
   {
-    "n": "Meine Backwelt Franzbrötchen",
-    "p": "0.79",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-franzbroetchen-000000000000187699",
-    "c": "Other",
-    "cn": "meine backwelt franzbr tchen",
-    "ik": "tok:meine|backwelt-franzbr-tchen|1",
-    "bn": "meine",
-    "wg": 1
-  },
-  {
-    "n": "Goldähren Weizenbrötchen 0,3 Kg",
-    "p": "0.69",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-weizenbroetchen-0-3-kg-000000000187007001",
-    "c": "Other",
-    "cn": "goldhren gold hren tchen weizenbr",
-    "ik": "tok:goldhren|gold-hren-tchen-weizenbr|300",
-    "bn": "goldhren",
-    "wg": 300
-  },
-  {
-    "n": "Goldähren Baguettebrötchen 0,3 Kg",
-    "p": "0.69",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-baguettebroetchen-0-3-kg-000000000187007002",
-    "c": "Other",
-    "cn": "goldhren baguettebr gold hren tchen",
-    "ik": "tok:goldhren|baguettebr-gold-hren-tchen|300",
-    "bn": "goldhren",
-    "wg": 300
-  },
-  {
     "n": "Meine Backwelt Butter-Laugenecke",
     "p": "0.85",
     "o": "",
@@ -3573,6 +3534,45 @@
     "ik": "tok:meine|backwelt-olivenstange|1",
     "bn": "meine",
     "wg": 1
+  },
+  {
+    "n": "Meine Backwelt Franzbrötchen",
+    "p": "0.79",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-franzbroetchen-000000000000187699",
+    "c": "Other",
+    "cn": "meine backwelt franzbr tchen",
+    "ik": "tok:meine|backwelt-franzbr-tchen|1",
+    "bn": "meine",
+    "wg": 1
+  },
+  {
+    "n": "Goldähren Weizenbrötchen 0,3 Kg",
+    "p": "0.69",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-weizenbroetchen-0-3-kg-000000000187007001",
+    "c": "Other",
+    "cn": "goldhren gold hren tchen weizenbr",
+    "ik": "tok:goldhren|gold-hren-tchen-weizenbr|300",
+    "bn": "goldhren",
+    "wg": 300
+  },
+  {
+    "n": "Goldähren Baguettebrötchen 0,3 Kg",
+    "p": "0.69",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-baguettebroetchen-0-3-kg-000000000187007002",
+    "c": "Other",
+    "cn": "goldhren baguettebr gold hren tchen",
+    "ik": "tok:goldhren|baguettebr-gold-hren-tchen|300",
+    "bn": "goldhren",
+    "wg": 300
   },
   {
     "n": "Goldähren Sonntagsbrötchen 560 g, Weizen",
@@ -3731,19 +3731,6 @@
     "wg": 320
   },
   {
-    "n": "Goldähren Hamburger-Brötchen 300 G",
-    "p": "0.99",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-hamburger-broetchen-300-g-000000000468528001",
-    "c": "Other",
-    "cn": "goldhren br gold hamburger hren tchen",
-    "ik": "tok:goldhren|br-gold-hamburger-hren-tchen|300",
-    "bn": "goldhren",
-    "wg": 300
-  },
-  {
     "n": "Goldähren Kartoffelkrüstchen, Dinkel 480 G",
     "p": "1.79",
     "o": "",
@@ -3768,6 +3755,19 @@
     "ik": "tok:goldhren|dinkelkr-gold-hren-stchen|480",
     "bn": "goldhren",
     "wg": 480
+  },
+  {
+    "n": "Goldähren Hamburger-Brötchen 300 G",
+    "p": "0.99",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-hamburger-broetchen-300-g-000000000468528001",
+    "c": "Other",
+    "cn": "goldhren br gold hamburger hren tchen",
+    "ik": "tok:goldhren|br-gold-hamburger-hren-tchen|300",
+    "bn": "goldhren",
+    "wg": 300
   },
   {
     "n": "Sweet Valley Apfelmus 360 g, Apfel",
@@ -4133,17 +4133,17 @@
     "bn": "power"
   },
   {
-    "n": "Ravini Flavoured Cider 330 ml, Apfel",
-    "p": "0.89",
+    "n": "Mucci Premium Eisbecher 475 ml, Apfelkuchen",
+    "p": "2.79",
     "o": "",
-    "s": "330 ml",
+    "s": "480 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/ravini-flavoured-cider-330-ml-apfel-000000000640428001",
+    "i": "https://www.aldi-sued.de/produkt/mucci-premium-eisbecher-475-ml-apfelkuchen-000000000706005003",
     "c": "Other",
-    "cn": "ravini apfel cider flavoured",
-    "ik": "tok:ravini|apfel-cider-flavoured|330",
-    "bn": "ravini",
-    "wg": 330
+    "cn": "mucci apfelkuchen eisbecher premium",
+    "ik": "tok:mucci|apfelkuchen-eisbecher-premium|480",
+    "bn": "mucci",
+    "wg": 480
   },
   {
     "n": "Müller Müllermilch 400 ml, Banane/Banana",
@@ -5381,7 +5381,7 @@
     "wg": 200
   },
   {
-    "n": "Wonnemeyer Antipasti Teller 210 g, Peperoni-Paprika",
+    "n": "Wonnemeyer Antipasti-Teller 210 g, Peperoni-Paprika",
     "p": "1.99",
     "o": "",
     "s": "210 ml",
@@ -6589,6 +6589,19 @@
     "wg": 1500
   },
   {
+    "n": "Bbq Hähnchensteaks Mariniert 1 Kg",
+    "p": "8.99",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bbq-haehnchensteaks-mariniert-1-kg-000000000000272557",
+    "c": "Other",
+    "cn": "bbq hnchensteaks mariniert",
+    "ik": "tok:bbq|hnchensteaks-mariniert|1000",
+    "bn": "bbq",
+    "wg": 1000
+  },
+  {
     "n": "Güldenhof Hähnchenbrustfilet 100 G",
     "p": "1.59",
     "o": "",
@@ -6756,19 +6769,6 @@
     "ik": "tok:meine|ck-ckenst-hnchen-metzgerei-mit-schenkel|1100",
     "bn": "meine",
     "wg": 1100
-  },
-  {
-    "n": "Bbq Hähnchensteaks Mariniert Xxl 1kg",
-    "p": "8.99",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bbq-haehnchensteaks-mariniert-xxl-1kg-000000000000272557",
-    "c": "Other",
-    "cn": "bbq hnchensteaks mariniert xxl",
-    "ik": "tok:bbq|hnchensteaks-mariniert-xxl|1000",
-    "bn": "bbq",
-    "wg": 1000
   },
   {
     "n": "Meine Metzgerei Hähnchen Innenfilets Paniert 500 G",
@@ -7094,6 +7094,19 @@
     "ik": "tok:meine|hackfleisch-metzgerei-schweine|800",
     "bn": "meine",
     "wg": 800
+  },
+  {
+    "n": "Meine Metzgerei Hackfleisch Gemischt 1 Kg",
+    "p": "7.49",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hackfleisch-gemischt-1-kg-000000000000730931",
+    "c": "Other",
+    "cn": "meine gemischt hackfleisch metzgerei",
+    "ik": "tok:meine|gemischt-hackfleisch-metzgerei|1000",
+    "bn": "meine",
+    "wg": 1000
   },
   {
     "n": "Bbq Rinder-Cevapcici 400 G",
@@ -8669,6 +8682,19 @@
     "wg": 250
   },
   {
+    "n": "Cucina Lasagneblätter 500 G",
+    "p": "1.19",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-lasagneblaetter-500-g-000000000000635511",
+    "c": "Other",
+    "cn": "cucina lasagnebl tter",
+    "ik": "tok:cucina|lasagnebl-tter|500",
+    "bn": "cucina",
+    "wg": 500
+  },
+  {
     "n": "Asia Green Garden Wok-Nudeln 250 g, Klassisch",
     "p": "0.89",
     "o": "",
@@ -8695,58 +8721,6 @@
     "wg": 250
   },
   {
-    "n": "Bamboo Garden Guai Thiau Reisnudeln 250 G",
-    "p": "1.49",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bamboo-garden-guai-thiau-reisnudeln-250-g-000000000000757107",
-    "c": "Other",
-    "cn": "bamboo garden guai reisnudeln thiau",
-    "ik": "tok:bamboo|garden-guai-reisnudeln-thiau|250",
-    "bn": "bamboo",
-    "wg": 250
-  },
-  {
-    "n": "Landfreude Frischei-Nudeln 500 g, Kelchen",
-    "p": "1.49",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/landfreude-frischei-nudeln-500-g-kelchen-000000000735585001",
-    "c": "Other",
-    "cn": "landfreude frischei kelchen nudeln",
-    "ik": "tok:landfreude|frischei-kelchen-nudeln|500",
-    "bn": "landfreude",
-    "wg": 500
-  },
-  {
-    "n": "Landfreude Frischei-Nudeln 500 g, Muscheln",
-    "p": "1.49",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/landfreude-frischei-nudeln-500-g-muscheln-000000000735585002",
-    "c": "Other",
-    "cn": "landfreude frischei muscheln nudeln",
-    "ik": "tok:landfreude|frischei-muscheln-nudeln|500",
-    "bn": "landfreude",
-    "wg": 500
-  },
-  {
-    "n": "Cucina Lasagneblätter 500 G",
-    "p": "1.19",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-lasagneblaetter-500-g-000000000000635511",
-    "c": "Other",
-    "cn": "cucina lasagnebl tter",
-    "ik": "tok:cucina|lasagnebl-tter|500",
-    "bn": "cucina",
-    "wg": 500
-  },
-  {
     "n": "Cucina Fusilli 500 G",
     "p": "0.69",
     "o": "",
@@ -8770,19 +8744,6 @@
     "cn": "cucina farfalle",
     "ik": "tok:cucina|farfalle|500",
     "bn": "cucina",
-    "wg": 500
-  },
-  {
-    "n": "Bio Bio-Teigwaren 500 g, Gewalzte Bandnudeln",
-    "p": "1.45",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bio-bio-teigwaren-500-g-gewalzte-bandnudeln-000000000632575002",
-    "c": "Other",
-    "cn": "bio bandnudeln gewalzte teigwaren",
-    "ik": "tok:bio|bandnudeln-gewalzte-teigwaren|500",
-    "bn": "bio",
     "wg": 500
   },
   {
@@ -8836,6 +8797,58 @@
     "ik": "tok:cucina|frische-nobile-pasta-se-spezialit-ten|400",
     "bn": "cucina",
     "wg": 400
+  },
+  {
+    "n": "Bamboo Garden Guai Thiau Reisnudeln 250 G",
+    "p": "1.49",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bamboo-garden-guai-thiau-reisnudeln-250-g-000000000000757107",
+    "c": "Other",
+    "cn": "bamboo garden guai reisnudeln thiau",
+    "ik": "tok:bamboo|garden-guai-reisnudeln-thiau|250",
+    "bn": "bamboo",
+    "wg": 250
+  },
+  {
+    "n": "Landfreude Frischei-Nudeln 500 g, Kelchen",
+    "p": "1.49",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/landfreude-frischei-nudeln-500-g-kelchen-000000000735585001",
+    "c": "Other",
+    "cn": "landfreude frischei kelchen nudeln",
+    "ik": "tok:landfreude|frischei-kelchen-nudeln|500",
+    "bn": "landfreude",
+    "wg": 500
+  },
+  {
+    "n": "Landfreude Frischei-Nudeln 500 g, Muscheln",
+    "p": "1.49",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/landfreude-frischei-nudeln-500-g-muscheln-000000000735585002",
+    "c": "Other",
+    "cn": "landfreude frischei muscheln nudeln",
+    "ik": "tok:landfreude|frischei-muscheln-nudeln|500",
+    "bn": "landfreude",
+    "wg": 500
+  },
+  {
+    "n": "Bio Bio-Teigwaren 500 g, Gewalzte Bandnudeln",
+    "p": "1.45",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bio-bio-teigwaren-500-g-gewalzte-bandnudeln-000000000632575002",
+    "c": "Other",
+    "cn": "bio bandnudeln gewalzte teigwaren",
+    "ik": "tok:bio|bandnudeln-gewalzte-teigwaren|500",
+    "bn": "bio",
+    "wg": 500
   },
   {
     "n": "Bio Bio-Vollkorn Farfalle 500 G",
@@ -14981,6 +14994,19 @@
     "wg": 1500
   },
   {
+    "n": "Tandil Kalk-Stopp Tabs 600 G",
+    "p": "3.25",
+    "o": "",
+    "s": "600 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/tandil-kalk-stopp-tabs-600-g-000000000000551937",
+    "c": "Other",
+    "cn": "tandil kalk stopp tabs",
+    "ik": "tok:tandil|kalk-stopp-tabs|600",
+    "bn": "tandil",
+    "wg": 600
+  },
+  {
     "n": "Weisser Riese Waschmittel XXL, Universal Gel",
     "p": "11.99",
     "o": "",
@@ -15020,32 +15046,6 @@
     "wg": 1
   },
   {
-    "n": "Weisser Riese Waschmittel XXL, Color Pulver",
-    "p": "11.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/weisser-riese-waschmittel-xxl-color-pulver-000000000311832014",
-    "c": "Other",
-    "cn": "weisser color pulver riese waschmittel xxl",
-    "ik": "tok:weisser|color-pulver-riese-waschmittel-xxl|1",
-    "bn": "weisser",
-    "wg": 1
-  },
-  {
-    "n": "Tandil Kalk-Stopp Tabs 600 G",
-    "p": "3.25",
-    "o": "",
-    "s": "600 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/tandil-kalk-stopp-tabs-600-g-000000000000551937",
-    "c": "Other",
-    "cn": "tandil kalk stopp tabs",
-    "ik": "tok:tandil|kalk-stopp-tabs|600",
-    "bn": "tandil",
-    "wg": 600
-  },
-  {
     "n": "Weisser Riese Waschmittel XXL, Color Caps Orchidee",
     "p": "11.99",
     "o": "",
@@ -15068,6 +15068,19 @@
     "c": "Other",
     "cn": "weisser caps lotus riese universal waschmittel xxl",
     "ik": "tok:weisser|caps-lotus-riese-universal-waschmittel-xxl|1",
+    "bn": "weisser",
+    "wg": 1
+  },
+  {
+    "n": "Weisser Riese Waschmittel XXL, Color Pulver",
+    "p": "11.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/weisser-riese-waschmittel-xxl-color-pulver-000000000311832014",
+    "c": "Other",
+    "cn": "weisser color pulver riese waschmittel xxl",
+    "ik": "tok:weisser|color-pulver-riese-waschmittel-xxl|1",
     "bn": "weisser",
     "wg": 1
   },

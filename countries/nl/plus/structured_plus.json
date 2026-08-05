@@ -1124,18 +1124,6 @@
     "wg": 330
   },
   {
-    "n": "Plus Plus Lichte Salade Gerookte Kip",
-    "o": "",
-    "s": "400 ml",
-    "p": "4.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/217341_M/3bc0c85e9af9017a690acbe1e26935d4/217341.png",
-    "c": "Other",
-    "cn": "plus gerookte kip lichte salade",
-    "ik": "tok:plus|gerookte-kip-lichte-salade|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
     "n": "Plus Plus Wilde Zalmfilet",
     "o": "",
     "s": "540 ml",
@@ -3328,6 +3316,18 @@
     "c": "Other",
     "cn": "plus fruitpunch",
     "ik": "tok:plus|fruitpunch|500",
+    "bn": "plus",
+    "wg": 500
+  },
+  {
+    "n": "Plus Plus Vers Gesneden Fruit Meloenmix",
+    "o": "",
+    "s": "500 ml",
+    "p": "2.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/520568_M/16ab2cd1e8f8fffc3ccde382b06fc32a/520568.png",
+    "c": "Other",
+    "cn": "plus fruit gesneden meloenmix vers",
+    "ik": "tok:plus|fruit-gesneden-meloenmix-vers|500",
     "bn": "plus",
     "wg": 500
   },
@@ -7795,16 +7795,16 @@
     "wg": 1000
   },
   {
-    "n": "Looye Looye Honingtomaten",
+    "n": "Iglo Iglo Spinazie A La Creme",
     "o": "",
-    "s": "180 ml",
-    "p": "3.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/277165_M/5ac62d38bce1d10398a1df72052b8ee6/277165.png",
+    "s": "500 ml",
+    "p": "1.59",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/218882_M/c8508c8b52587b8be81cd0d51bf02725/218882.png",
     "c": "Fruits & Vegetables",
-    "cn": "looye honingtomaten",
-    "ik": "tok:looye|honingtomaten|180",
-    "bn": "looye",
-    "wg": 180
+    "cn": "iglo creme la spinazie",
+    "ik": "tok:iglo|creme-la-spinazie|500",
+    "bn": "iglo",
+    "wg": 500
   },
   {
     "n": "Neutraal Neutraal Bananen",
@@ -7819,6 +7819,18 @@
     "wg": 5
   },
   {
+    "n": "Looye Looye Honingtomaten",
+    "o": "",
+    "s": "180 ml",
+    "p": "3.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/277165_M/5ac62d38bce1d10398a1df72052b8ee6/277165.png",
+    "c": "Fruits & Vegetables",
+    "cn": "looye honingtomaten",
+    "ik": "tok:looye|honingtomaten|180",
+    "bn": "looye",
+    "wg": 180
+  },
+  {
     "n": "Biologisch Plus Biologisch Plus Bananen Biologisch Fairtrade",
     "o": "",
     "s": "1 stuk",
@@ -7829,6 +7841,18 @@
     "ik": "tok:plus|bananen-biologisch-fairtrade|1",
     "bn": "plus",
     "wg": 1
+  },
+  {
+    "n": "Iglo Iglo Spinazie Boursin",
+    "o": "",
+    "s": "450 ml",
+    "p": "3.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/888655_M/6306840dbef7ae53ce60bf684a302c91/888655.png",
+    "c": "Fruits & Vegetables",
+    "cn": "iglo boursin spinazie",
+    "ik": "tok:iglo|boursin-spinazie|450",
+    "bn": "iglo",
+    "wg": 450
   },
   {
     "n": "Plus Plus Handappels Jonagold",
@@ -8957,30 +8981,6 @@
     "ik": "tok:plus|broccoliroosje|400",
     "bn": "plus",
     "wg": 400
-  },
-  {
-    "n": "Plus Plus Aardappelen Stamppot (voorgekookt)",
-    "o": "",
-    "s": "1 l",
-    "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/835222_M/4a830c53d4d704a905a2bafb9775d035/835222.png",
-    "c": "Fruits & Vegetables",
-    "cn": "plus aardappelen stamppot voorgekookt",
-    "ik": "tok:plus|aardappelen-stamppot-voorgekookt|1000",
-    "bn": "plus",
-    "wg": 1000
-  },
-  {
-    "n": "Iglo Iglo Spinazie A La Creme",
-    "o": "",
-    "s": "750 ml",
-    "p": "2.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/731348_M/092cd1d706effb8ab995bb246ec7590b/731348.png",
-    "c": "Fruits & Vegetables",
-    "cn": "iglo creme la spinazie",
-    "ik": "tok:iglo|creme-la-spinazie|750",
-    "bn": "iglo",
-    "wg": 750
   },
   {
     "n": "Aviko Aviko Aardappelschijfjes",
@@ -11011,18 +11011,6 @@
     "wg": 400
   },
   {
-    "n": "Iglo Iglo Spinazie Boursin",
-    "o": "",
-    "s": "450 ml",
-    "p": "3.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/888655_M/6306840dbef7ae53ce60bf684a302c91/888655.png",
-    "c": "Fruits & Vegetables",
-    "cn": "iglo boursin spinazie",
-    "ik": "tok:iglo|boursin-spinazie|450",
-    "bn": "iglo",
-    "wg": 450
-  },
-  {
     "n": "Plus Plus Salade Geitenkaas Blauwe Bes",
     "o": "",
     "s": "250 ml",
@@ -12343,6 +12331,30 @@
     "wg": 500
   },
   {
+    "n": "Plus Plus Gesneden Verspakket Risotto Champignon",
+    "o": "",
+    "s": "710 ml",
+    "p": "6.89",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/452232_M/f40f2dcce74bc041d6d78368e1f08471/452232.png",
+    "c": "Fruits & Vegetables",
+    "cn": "plus champignon gesneden risotto verspakket",
+    "ik": "tok:plus|champignon-gesneden-risotto-verspakket|710",
+    "bn": "plus",
+    "wg": 710
+  },
+  {
+    "n": "Plus Plus Verse Cantaloupe Meloenblokjes",
+    "o": "",
+    "s": "150 ml",
+    "p": "2.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/652508_M/6346d228a319cbfe44d1211184cbefd7/652508.png",
+    "c": "Fruits & Vegetables",
+    "cn": "plus cantaloupe meloenblokjes verse",
+    "ik": "tok:plus|cantaloupe-meloenblokjes-verse|150",
+    "bn": "plus",
+    "wg": 150
+  },
+  {
     "n": "Plus Plus Tagliatelle Naturel",
     "o": "",
     "s": "500 ml",
@@ -12871,18 +12883,6 @@
     "wg": 620
   },
   {
-    "n": "Plus Plus Lichte Salade Gerookte Zalm",
-    "o": "",
-    "s": "400 ml",
-    "p": "5.29",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/517406_M/500a91decac1270eccefb92a4bbecd8e/517406.png",
-    "c": "Other",
-    "cn": "plus gerookte lichte salade zalm",
-    "ik": "tok:plus|gerookte-lichte-salade-zalm|400",
-    "bn": "plus",
-    "wg": 400
-  },
-  {
     "n": "Plus Plus Bapao Hete Kip",
     "o": "",
     "s": "115 ml",
@@ -13363,18 +13363,6 @@
     "wg": 450
   },
   {
-    "n": "Plus Plus Basismaaltijdsalade Gegrilde Kip",
-    "o": "",
-    "s": "450 ml",
-    "p": "3.45",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/952842_M/338ca128d8e5340b9d528fd2a3e6454e/952842.png",
-    "c": "Other",
-    "cn": "plus basismaaltijdsalade gegrilde kip",
-    "ik": "tok:plus|basismaaltijdsalade-gegrilde-kip|450",
-    "bn": "plus",
-    "wg": 450
-  },
-  {
     "n": "Plus Plus Pizza Kipshoarma",
     "o": "",
     "s": "510 ml",
@@ -13457,18 +13445,6 @@
     "ik": "tok:plus|pompoensoep|500",
     "bn": "plus",
     "wg": 500
-  },
-  {
-    "n": "Plus Plus Lichte Salade Grieks",
-    "o": "",
-    "s": "400 ml",
-    "p": "4.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/964029_M/2d79539c2227d46a921e02f614839484/964029.png",
-    "c": "Other",
-    "cn": "plus grieks lichte salade",
-    "ik": "tok:plus|grieks-lichte-salade|400",
-    "bn": "plus",
-    "wg": 400
   },
   {
     "n": "The Bread Office The Bread Office Sandwich Bacon Eiersalade",
@@ -13579,18 +13555,6 @@
     "wg": 350
   },
   {
-    "n": "Plus Plus Basismaaltijdsalade Tonijn",
-    "o": "",
-    "s": "450 ml",
-    "p": "3.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/952844_M/b06ae8a8fe03daa7dbdcd10d3d6565cc/952844.png",
-    "c": "Other",
-    "cn": "plus basismaaltijdsalade tonijn",
-    "ik": "tok:plus|basismaaltijdsalade-tonijn|450",
-    "bn": "plus",
-    "wg": 450
-  },
-  {
     "n": "Gijs Gijs Boerenkoolstamppot",
     "o": "",
     "s": "300 ml",
@@ -13685,18 +13649,6 @@
     "ik": "tok:jan|american-naturel-pancakes|300",
     "bn": "jan",
     "wg": 300
-  },
-  {
-    "n": "Plus Kip Shanghai",
-    "o": "",
-    "s": "450 ml",
-    "p": "6.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/241662_M/43e3087839e6f1472d4daf940d1d02d1/241662.png",
-    "c": "Other",
-    "cn": "plus kip shanghai",
-    "ik": "tok:plus|kip-shanghai|450",
-    "bn": "plus",
-    "wg": 450
   },
   {
     "n": "Biologisch Plus Biologisch Plus Tortelloni Ricotta Spinazie Biologisch",
@@ -13987,18 +13939,6 @@
     "wg": 115
   },
   {
-    "n": "Plus Plus Maaltijdsalade Mozzarella",
-    "o": "",
-    "s": "450 ml",
-    "p": "5.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/953551_M/9becc4d1f59d66021222ba6d9421cbae/953551.png",
-    "c": "Other",
-    "cn": "plus maaltijdsalade mozzarella",
-    "ik": "tok:plus|maaltijdsalade-mozzarella|450",
-    "bn": "plus",
-    "wg": 450
-  },
-  {
     "n": "Krieltjes Met Kruidenboter",
     "o": "",
     "s": "300 ml",
@@ -14027,7 +13967,7 @@
     "o": "",
     "s": "450 ml",
     "p": "6.49",
-    "l": "",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/593151_M/f2adc80e20702dc3313a6ce4932e48a4/593151.png",
     "c": "Other",
     "cn": "plus lasagne",
     "ik": "tok:plus|lasagne|450",
@@ -14311,18 +14251,6 @@
     "wg": 373
   },
   {
-    "n": "Plus Spaghetti Meatball",
-    "o": "",
-    "s": "450 ml",
-    "p": "6.99",
-    "l": "",
-    "c": "Other",
-    "cn": "plus meatball spaghetti",
-    "ik": "tok:plus|meatball-spaghetti|450",
-    "bn": "plus",
-    "wg": 450
-  },
-  {
     "n": "Pinsa Kaas Ui",
     "o": "",
     "s": "380 ml",
@@ -14411,7 +14339,7 @@
     "o": "",
     "s": "200 ml",
     "p": "2.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/302898_M/7a3319a79af3801148d6dc1b68b0629c/302898.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/302898_M/b512eac97242b5cb3d51cc8f9222c02d/302898.png",
     "c": "Other",
     "cn": "fairytales no tortilla wortel",
     "ik": "tok:fairytales|no-tortilla-wortel|200",
@@ -21414,6 +21342,18 @@
     "wg": 4
   },
   {
+    "n": "Plus Boerentrots Plus Boerentrots Kip chipolata's",
+    "o": "",
+    "s": "200 ml",
+    "p": "3.29",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/620695_M/3e00203bab0b7cf6384ef352572b3e88/620695.png",
+    "c": "Meat & Seafood",
+    "cn": "plus boerentrots chipolata kip",
+    "ik": "tok:plus|boerentrots-chipolata-kip|200",
+    "bn": "plus",
+    "wg": 200
+  },
+  {
     "n": "Zuivelmeester Zuivelmeester Goudse Jong 48+ Plakken",
     "o": "",
     "s": "400 ml",
@@ -23634,6 +23574,18 @@
     "wg": 1000
   },
   {
+    "n": "Plus Plus Jong Plakken",
+    "o": "",
+    "s": "100 ml",
+    "p": "",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/945337_M/ac74b07c02d9b64120cbb991e85388eb/945337.png",
+    "c": "Dairy & Eggs",
+    "cn": "plus jong plakken",
+    "ik": "tok:plus|jong-plakken|100",
+    "bn": "plus",
+    "wg": 100
+  },
+  {
     "n": "Plus Plus Goudse Geraspte Kaas Jong Belegen 48+",
     "o": "",
     "s": "175 ml",
@@ -25497,7 +25449,7 @@
     "n": "Plus Puur Van Smaak Plus Puur Van Smaak Kleintje Rundrookvlees",
     "o": "",
     "s": "50 ml",
-    "p": "2.09",
+    "p": "1.79",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/373704_M/6d1a5d8b73e61b5bb33be0949e08cb02/373704.png",
     "c": "Dairy & Eggs",
     "cn": "plus kleintje puur rundrookvlees smaak",
@@ -25617,7 +25569,7 @@
     "n": "Plus Puur Van Smaak Plus Puur Van Smaak Kleintje Rosbief",
     "o": "",
     "s": "50 ml",
-    "p": "2.09",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/177062_M/1cc05c5bb5b770485ce5976e33ede34f/177062.png",
     "c": "Dairy & Eggs",
     "cn": "plus kleintje puur rosbief smaak",
@@ -25881,7 +25833,7 @@
     "n": "Plus Puur Van Smaak Plus Puur Van Smaak Kleintje Kipfilet",
     "o": "",
     "s": "60 ml",
-    "p": "2.09",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/373716_M/0223703f06e1d4d42bbe6f5f588dbc9e/373716.png",
     "c": "Dairy & Eggs",
     "cn": "plus kipfilet kleintje puur smaak",
@@ -26121,7 +26073,7 @@
     "n": "Plus Puur Van Smaak Plus Puur Van Smaak Kleintje Rauwe Ham",
     "o": "",
     "s": "55 ml",
-    "p": "2.09",
+    "p": "1.79",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/373103_M/78e47e5c7f14c6d5f5b9d80a748ff94f/373103.png",
     "c": "Dairy & Eggs",
     "cn": "plus ham kleintje puur rauwe smaak",
@@ -26145,7 +26097,7 @@
     "n": "Plus Puur Van Smaak Plus Puur Van Smaak Kleintje Achterham",
     "o": "",
     "s": "55 ml",
-    "p": "2.09",
+    "p": "1.95",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/373111_M/7020867cd85c2b1e20ce424c244acbc8/373111.png",
     "c": "Dairy & Eggs",
     "cn": "plus achterham kleintje puur smaak",
@@ -26452,18 +26404,6 @@
     "ik": "tok:monchou|roomkaas-verse|100",
     "bn": "monchou",
     "wg": 100
-  },
-  {
-    "n": "Galbani Galbani Mozzarella Mini",
-    "o": "",
-    "s": "285 ml",
-    "p": "2.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/319999_M/c6477f507120d540a86597ff0b4487a2/319999.png",
-    "c": "Dairy & Eggs",
-    "cn": "galbani mini mozzarella",
-    "ik": "tok:galbani|mini-mozzarella|285",
-    "bn": "galbani",
-    "wg": 285
   },
   {
     "n": "Plus Plus Blik Boterhamworst",
@@ -26961,7 +26901,7 @@
     "n": "Plus Puur Van Smaak Plus Puur Van Smaak Kleintje Ontbijtspek",
     "o": "",
     "s": "65 ml",
-    "p": "2.09",
+    "p": "1.85",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/373706_M/885bedb44c9641cc504ee554f93617e6/373706.png",
     "c": "Dairy & Eggs",
     "cn": "plus kleintje ontbijtspek puur smaak",
@@ -27225,7 +27165,7 @@
     "n": "Plus Puur Van Smaak Plus Puur Van Smaak Kip Rollade",
     "o": "",
     "s": "60 ml",
-    "p": "2.09",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/384947_M/3b975752c38bd1273e3305441256fb5e/384947.png",
     "c": "Dairy & Eggs",
     "cn": "plus kip puur rollade smaak",
@@ -27357,7 +27297,7 @@
     "n": "Plus Puur Van Smaak Plus Puur Van Smaak Kleintje Casselerrib",
     "o": "",
     "s": "65 ml",
-    "p": "2.09",
+    "p": "1.95",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/384945_M/bc22fc0f18143c58b31f0c3629584336/384945.png",
     "c": "Dairy & Eggs",
     "cn": "plus casselerrib kleintje puur smaak",
@@ -27549,7 +27489,7 @@
     "n": "Plus Puur Van Smaak Plus Puur Van Smaak Kipfilet Peper Kleintje",
     "o": "",
     "s": "60 ml",
-    "p": "2.09",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/950124_M/39ee408a3288e97abf1220c0a0c4d750/950124.png",
     "c": "Dairy & Eggs",
     "cn": "plus kipfilet kleintje peper puur smaak",
@@ -29289,7 +29229,7 @@
     "n": "Plus Puur Van Smaak Plus Puur Van Smaak Kleintje Grillworst Met Jalapeño",
     "o": "",
     "s": "85 ml",
-    "p": "2.09",
+    "p": "1.99",
     "l": "https://images.ctfassets.net/s0lodsnpsezb/556905_M/46ccac5f4c9d4486409260a471679dc0/556905.png",
     "c": "Dairy & Eggs",
     "cn": "plus grillworst jalape kleintje puur smaak",
@@ -30586,7 +30526,7 @@
     "o": "",
     "s": "75 ml",
     "p": "1.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/693426_M/f1daadc5d360c149ee1bda80fa9da155/693426.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/693426_M/9f2362470e0c70c44a5f9be223ca990b/693426.png",
     "c": "Dairy & Eggs",
     "cn": "plus cranberry pat",
     "ik": "tok:plus|cranberry-pat|75",
@@ -31210,7 +31150,7 @@
     "o": "",
     "s": "75 ml",
     "p": "1.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/293604_M/598b34fc33263e16e431b7ef9ca157cd/293604.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/293604_M/d7fa541b3171add30074ae6756aab4c3/293604.png",
     "c": "Dairy & Eggs",
     "cn": "plus ardenner pat",
     "ik": "tok:plus|ardenner-pat|75",
@@ -36330,18 +36270,6 @@
     "wg": 1000
   },
   {
-    "n": "Zuivelhoeve Zuivelhoeve Boer'n Vla Choco Vanille",
-    "o": "",
-    "s": "450 ml",
-    "p": "1.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/332698_M/380f75cc269496c67a29d3237188cdd2/332698.png",
-    "c": "Dairy & Eggs",
-    "cn": "zuivelhoeve boer choco vanille vla",
-    "ik": "tok:zuivelhoeve|boer-choco-vanille-vla|450",
-    "bn": "zuivelhoeve",
-    "wg": 450
-  },
-  {
     "n": "Almhof Almhof Roomyoghurt maracuja-perzik",
     "o": "",
     "s": "500 ml",
@@ -36508,18 +36436,6 @@
     "ik": "tok:plus|bak-braad|250",
     "bn": "plus",
     "wg": 250
-  },
-  {
-    "n": "Zuivelhoeve Zuivelhoeve Boer'n Vla Vanille",
-    "o": "",
-    "s": "450 ml",
-    "p": "1.89",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/332694_M/a09f6f29a195a4148d55b68d8610a39b/332694.png",
-    "c": "Dairy & Eggs",
-    "cn": "zuivelhoeve boer vanille vla",
-    "ik": "tok:zuivelhoeve|boer-vanille-vla|450",
-    "bn": "zuivelhoeve",
-    "wg": 450
   },
   {
     "n": "Melkunie Melkunie Appel Kaneel Vla",
@@ -40482,18 +40398,6 @@
     "wg": 1000
   },
   {
-    "n": "Xxl Fit Xxl Fit Quark Strawberry",
-    "o": "",
-    "s": "205 ml",
-    "p": "1.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/807542_M/73ba408fc8c56d4f7bf47b29b04bac50/807542.png",
-    "c": "Dairy & Eggs",
-    "cn": "xxl fit quark strawberry",
-    "ik": "tok:xxl|fit-quark-strawberry|205",
-    "bn": "xxl",
-    "wg": 205
-  },
-  {
     "n": "Isey Skyr Isey Skyr Air Cherry - Chocolate",
     "o": "",
     "s": "125 ml",
@@ -43047,6 +42951,18 @@
     "cn": "melkan barista",
     "ik": "tok:melkan|barista|1000",
     "bn": "melkan",
+    "wg": 1000
+  },
+  {
+    "n": "Dodoni Dodoni Griekse Yoghurt 0%",
+    "o": "",
+    "s": "1 l",
+    "p": "4.95",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/223753_M/a8c5423c032835ecd3f2fa91c83e6369/223753.png",
+    "c": "Dairy & Eggs",
+    "cn": "dodoni griekse yoghurt",
+    "ik": "tok:dodoni|griekse-yoghurt|1000",
+    "bn": "dodoni",
     "wg": 1000
   },
   {
@@ -46170,18 +46086,6 @@
     "wg": 230
   },
   {
-    "n": "Plus Korenlanders Plus Korenlanders Appel Citroenvlaai Half",
-    "o": "",
-    "s": "1 stuk",
-    "p": "7.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/970581_M/7b1d256a51cf7281cfbc31871558704d/970581.png",
-    "c": "Bakery",
-    "cn": "plus appel citroenvlaai half korenlanders",
-    "ik": "tok:plus|appel-citroenvlaai-half-korenlanders|1",
-    "bn": "plus",
-    "wg": 1
-  },
-  {
     "n": "Koopmans Koopmans Appeltaart Extra Deeg Bakmix",
     "o": "",
     "s": "550 ml",
@@ -47008,18 +46912,6 @@
     "ik": "tok:koopmans|allesbinder|200",
     "bn": "koopmans",
     "wg": 200
-  },
-  {
-    "n": "Plus Plus Pizza Twister",
-    "o": "",
-    "s": "1 stuk",
-    "p": "0.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/373991_M/34d242eeba7d80fb3f22ab8aa29199c0/373991.png",
-    "c": "Bakery",
-    "cn": "plus pizza twister",
-    "ik": "tok:plus|pizza-twister|1",
-    "bn": "plus",
-    "wg": 1
   },
   {
     "n": "Plus Plus Saucijzenbroodjes Mini",
@@ -62526,18 +62418,6 @@
     "wg": 1500
   },
   {
-    "n": "Teisseire Teisseire Siroop Citroen Limoen Zero",
-    "o": "",
-    "s": "600 ml",
-    "p": "4.35",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/406279_M/1fd1f89d3c0dd2e289afcdeada075704/406279.png",
-    "c": "Beverages",
-    "cn": "teisseire citroen limoen siroop zero",
-    "ik": "tok:teisseire|citroen-limoen-siroop-zero|600",
-    "bn": "teisseire",
-    "wg": 600
-  },
-  {
     "n": "Nescafe Nescafe Latte Caramel Oploskoffie",
     "o": "",
     "s": "8 ml",
@@ -62686,7 +62566,7 @@
     "o": "",
     "s": "1.50 l",
     "p": "8.24",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/275296_M/3292dd8095fd4716c00ab4ab094d49d4/275296.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/275296_M/49362d3046eb30a1208a49f5c8301a56/275296.png",
     "c": "Beverages",
     "cn": "red bull drink energy pack",
     "ik": "tok:red bull|drink-energy-pack|1500",
@@ -65805,7 +65685,7 @@
     "o": "",
     "s": "1.50 l",
     "p": "8.24",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/275298_M/2cff0c2c1f943831ba2b4f01a947a53e/275298.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/275298_M/f10b918c17b50f18b7b4e0735961d2d7/275298.png",
     "c": "Beverages",
     "cn": "red bull drink energy pack suikervrij",
     "ik": "tok:red bull|drink-energy-pack-suikervrij|1500",
@@ -66485,18 +66365,6 @@
     "wg": 16
   },
   {
-    "n": "Café Nova Café Nova Koffiecups Lungo Profundo Sterkte 8",
-    "o": "",
-    "s": "20 ml",
-    "p": "5.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/476536_M/adeb322ae693089aaa70a9d5af8dec46/476536.png",
-    "c": "Beverages",
-    "cn": "caf caf koffiecups lungo nova profundo sterkte",
-    "ik": "tok:caf|caf-koffiecups-lungo-nova-profundo-sterkte|20",
-    "bn": "caf",
-    "wg": 20
-  },
-  {
     "n": "Coolbest Coolbest Juice Funky Forest Fruit",
     "o": "",
     "s": "1 l",
@@ -66513,7 +66381,7 @@
     "o": "",
     "s": "20 ml",
     "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/756528_M/16c71dfa357d8ff4368accfaa73c5692/756528.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/756528_M/91f5c2909ecb8a2675d6254b7e5d5140/756528.png",
     "c": "Beverages",
     "cn": "zonnatura bio goedemorgen thee",
     "ik": "tok:zonnatura|bio-goedemorgen-thee|20",
@@ -66993,7 +66861,7 @@
     "o": "",
     "s": "2 l",
     "p": "10.98",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/275290_M/717dd7b9893f11054cd3caa7b0362cf8/275290.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/275290_M/f386ff96bf141592451739967820e52a/275290.png",
     "c": "Beverages",
     "cn": "red bull energydrink pack",
     "ik": "tok:red bull|energydrink-pack|2000",
@@ -67641,7 +67509,7 @@
     "o": "",
     "s": "20 ml",
     "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/756513_M/358efdf1243a76ca83df355a6bbf71a8/756513.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/756513_M/e303658251689c67b072171d19bb0d0a/756513.png",
     "c": "Beverages",
     "cn": "zonnatura bio rooibos thee",
     "ik": "tok:zonnatura|bio-rooibos-thee|20",
@@ -68153,18 +68021,6 @@
     "wg": 12
   },
   {
-    "n": "Café Nova Café Nova Koffiecups Espresso Radiante Sterkte 7",
-    "o": "",
-    "s": "20 ml",
-    "p": "5.59",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/476538_M/707b46402ef23731884aaf0228284592/476538.png",
-    "c": "Beverages",
-    "cn": "caf caf espresso koffiecups nova radiante sterkte",
-    "ik": "tok:caf|caf-espresso-koffiecups-nova-radiante-sterkte|20",
-    "bn": "caf",
-    "wg": 20
-  },
-  {
     "n": "Fever-Tree Fever-Tree Sparkling Ginger Beer",
     "o": "",
     "s": "250 ml",
@@ -68661,7 +68517,7 @@
     "o": "",
     "s": "20 ml",
     "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/373908_M/d5378167973d372859557afcf6c75c00/373908.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/373908_M/538ab1c3477297355608249d52c5e7e5/373908.png",
     "c": "Beverages",
     "cn": "zonnatura gember groene thee",
     "ik": "tok:zonnatura|gember-groene-thee|20",
@@ -69621,7 +69477,7 @@
     "o": "",
     "s": "20 ml",
     "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/373912_M/8fe06f7b2d3b69f5f610ece3e951d94a/373912.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/373912_M/def480efa8bfa66cc38187e09ec5bd03/373912.png",
     "c": "Beverages",
     "cn": "zonnatura ginseng groene thee",
     "ik": "tok:zonnatura|ginseng-groene-thee|20",
@@ -70239,18 +70095,6 @@
     "ik": "tok:pukka|chai-thee-vanilla|20",
     "bn": "pukka",
     "wg": 20
-  },
-  {
-    "n": "Roots Roots Koffiecapsules Medium Roast Bio",
-    "o": "",
-    "s": "10 ml",
-    "p": "4.39",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/806975_M/0e3b3ebf1b27c8275bcdd6f94eaa0e70/806975.png",
-    "c": "Beverages",
-    "cn": "roots bio koffiecapsules medium roast",
-    "ik": "tok:roots|bio-koffiecapsules-medium-roast|10",
-    "bn": "roots",
-    "wg": 10
   },
   {
     "n": "Yogi Tea Yogi Tea Ginger Orange",
@@ -72291,6 +72135,18 @@
     "ik": "tok:plus|caramel-latte-macchiato-sticks|136",
     "bn": "plus",
     "wg": 136
+  },
+  {
+    "n": "Crystal Clear Crystal Clear Still Framboos Bosbes",
+    "o": "",
+    "s": "1.50 l",
+    "p": "2.39",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/595904_M/6563e7e200aa522fce59d75f4d811c9f/595904.png",
+    "c": "Beverages",
+    "cn": "crystal bosbes clear framboos still",
+    "ik": "tok:crystal|bosbes-clear-framboos-still|1500",
+    "bn": "crystal",
+    "wg": 1500
   },
   {
     "n": "Hertog Jan Hertog Jan Pilsener",
@@ -105287,7 +105143,7 @@
     "o": "",
     "s": "227 ml",
     "p": "1.35",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/185556_M/a0419ec936801339c33ae5d73125eab7/185556.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/185556_M/99bf211f9b5c13c091231bfecb61e9ca/185556.png",
     "c": "Pantry",
     "cn": "dole ananasstukjes op sap",
     "ik": "tok:dole|ananasstukjes-op-sap|227",
@@ -105547,7 +105403,7 @@
     "wg": 800
   },
   {
-    "n": "Maggi Maggi Maggi Pepper Saus",
+    "n": "Maggi Maggi Pepper Saus",
     "o": "",
     "s": "250 ml",
     "p": "2.39",
@@ -107539,7 +107395,7 @@
     "wg": 400
   },
   {
-    "n": "Maggi Maggi Maggi Honey Mustard Saus",
+    "n": "Maggi Maggi Honey Mustard Saus",
     "o": "",
     "s": "250 ml",
     "p": "2.39",
@@ -108071,7 +107927,7 @@
     "o": "",
     "s": "227 ml",
     "p": "1.45",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/185550_M/3386985a491dedafbb3a18f078d7c09a/185550.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/185550_M/03f0d3ccd3d0cde28647e09ba22c60da/185550.png",
     "c": "Pantry",
     "cn": "dole ananasschijven op sap",
     "ik": "tok:dole|ananasschijven-op-sap|227",
@@ -108739,7 +108595,7 @@
     "wg": 425
   },
   {
-    "n": "Maggi Maggi Maggi Veggie Saus",
+    "n": "Maggi Maggi Veggie Saus",
     "o": "",
     "s": "250 ml",
     "p": "2.39",
@@ -114295,16 +114151,16 @@
     "wg": 250
   },
   {
-    "n": "Redband Redband Schatkistjes",
+    "n": "Mars Mars Minimix Melk Chocolade Repen",
     "o": "",
-    "s": "228 ml",
-    "p": "2.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/423869_M/66914b7d1af7cbda4558f6b4416b0b90/423869.png",
+    "s": "400 ml",
+    "p": "4.79",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/427115_M/9c2efd95909e4f2fe4e01a33f807d3e9/427115.png",
     "c": "Snacks",
-    "cn": "redband schatkistjes",
-    "ik": "tok:redband|schatkistjes|228",
-    "bn": "redband",
-    "wg": 228
+    "cn": "mars chocolade melk minimix repen",
+    "ik": "tok:mars|chocolade-melk-minimix-repen|400",
+    "bn": "mars",
+    "wg": 400
   },
   {
     "n": "Milka Milka Chocoladereep Alpenmelk",
@@ -114319,16 +114175,16 @@
     "wg": 90
   },
   {
-    "n": "Redband Redband Tumtum",
+    "n": "M&M'S M&M'S Crispy",
     "o": "",
-    "s": "230 ml",
-    "p": "2.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/316401_M/0634f6233ec55bfeeb675aa13493ba69/316401.png",
+    "s": "309 ml",
+    "p": "5.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/662486_M/ef80d032e8d5ddd20750e4dc8450ae46/662486.png",
     "c": "Snacks",
-    "cn": "redband tumtum",
-    "ik": "tok:redband|tumtum|230",
-    "bn": "redband",
-    "wg": 230
+    "cn": "m&ms crispy",
+    "ik": "tok:m&ms|crispy|309",
+    "bn": "m&ms",
+    "wg": 309
   },
   {
     "n": "Plus Plus Chocolade Reep Melk",
@@ -114343,16 +114199,16 @@
     "wg": 100
   },
   {
-    "n": "Redband Redband Juicy Bites Aardbei",
+    "n": "Celebrations Celebrations Assortimentsmix Geschenk",
     "o": "",
-    "s": "145 ml",
-    "p": "1.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/198519_M/ffa34f86046e26e364b4d91f29132de0/198519.png",
+    "s": "385 ml",
+    "p": "7.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/404773_M/e95233bd54198aa91dff7fe5cf36f847/404773.png",
     "c": "Snacks",
-    "cn": "redband aardbei bites juicy",
-    "ik": "tok:redband|aardbei-bites-juicy|145",
-    "bn": "redband",
-    "wg": 145
+    "cn": "celebrations assortimentsmix geschenk",
+    "ik": "tok:celebrations|assortimentsmix-geschenk|385",
+    "bn": "celebrations",
+    "wg": 385
   },
   {
     "n": "Plus Plus Chocolade Reep Puur",
@@ -114365,18 +114221,6 @@
     "ik": "tok:plus|chocolade-puur-reep|100",
     "bn": "plus",
     "wg": 100
-  },
-  {
-    "n": "Mars Mars Minimix Melk Chocolade Repen",
-    "o": "",
-    "s": "400 ml",
-    "p": "4.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/427115_M/9c2efd95909e4f2fe4e01a33f807d3e9/427115.png",
-    "c": "Snacks",
-    "cn": "mars chocolade melk minimix repen",
-    "ik": "tok:mars|chocolade-melk-minimix-repen|400",
-    "bn": "mars",
-    "wg": 400
   },
   {
     "n": "Plus Plus Chocolade Mini Choco Mix Fairtrade",
@@ -114917,18 +114761,6 @@
     "ik": "tok:plus|choco-crispy-fairtrade|210",
     "bn": "plus",
     "wg": 210
-  },
-  {
-    "n": "M&M'S M&M'S Crispy",
-    "o": "",
-    "s": "309 ml",
-    "p": "5.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/662486_M/ef80d032e8d5ddd20750e4dc8450ae46/662486.png",
-    "c": "Snacks",
-    "cn": "m&ms crispy",
-    "ik": "tok:m&ms|crispy|309",
-    "bn": "m&ms",
-    "wg": 309
   },
   {
     "n": "Milky Way Milky Way Melk Chocolade Mini's Repen",
@@ -117647,7 +117479,7 @@
     "o": "",
     "s": "800 ml",
     "p": "3.15",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/800638_M/8f9e064f1ce957f61415b0a65e982125/800638.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/800638_M/d82e2cb361a6d00f41894a2035f2e074/800638.png",
     "c": "Snacks",
     "cn": "plus boerencake",
     "ik": "tok:plus|boerencake|800",
@@ -118403,7 +118235,7 @@
     "o": "",
     "s": "240 ml",
     "p": "1.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/212792_M/555cabb5db4b868e874d452704e7b38b/212792.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/212792_M/12bb13f83ad98d7bca5d031b6372d27c/212792.png",
     "c": "Snacks",
     "cn": "haribo bananas",
     "ik": "tok:haribo|bananas|240",
@@ -118927,6 +118759,18 @@
     "wg": 250
   },
   {
+    "n": "Redband Redband Schatkistjes",
+    "o": "",
+    "s": "228 ml",
+    "p": "2.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/423869_M/66914b7d1af7cbda4558f6b4416b0b90/423869.png",
+    "c": "Snacks",
+    "cn": "redband schatkistjes",
+    "ik": "tok:redband|schatkistjes|228",
+    "bn": "redband",
+    "wg": 228
+  },
+  {
     "n": "Smoeltjes Smoeltjes Speculaasjes",
     "o": "",
     "s": "200 ml",
@@ -118985,6 +118829,18 @@
     "ik": "tok:plus|eiercakejes-roomboter|320",
     "bn": "plus",
     "wg": 320
+  },
+  {
+    "n": "Redband Redband Juicy Bites Aardbei",
+    "o": "",
+    "s": "145 ml",
+    "p": "1.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/198519_M/ffa34f86046e26e364b4d91f29132de0/198519.png",
+    "c": "Snacks",
+    "cn": "redband aardbei bites juicy",
+    "ik": "tok:redband|aardbei-bites-juicy|145",
+    "bn": "redband",
+    "wg": 145
   },
   {
     "n": "Lays Lays Oven Baked Paprika",
@@ -119423,7 +119279,7 @@
     "o": "",
     "s": "250 ml",
     "p": "1.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/719433_M/47141aef2744b600e6c90e4421f889b0/719433.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/719433_M/aa043470b31cc265ce1b24fe483be655/719433.png",
     "c": "Snacks",
     "cn": "haribo starmix",
     "ik": "tok:haribo|starmix|250",
@@ -119789,6 +119645,18 @@
     "ik": "tok:delft|dubbeldikjes-puur|295",
     "bn": "delft",
     "wg": 295
+  },
+  {
+    "n": "Redband Redband Tumtum",
+    "o": "",
+    "s": "230 ml",
+    "p": "2.69",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/316401_M/0634f6233ec55bfeeb675aa13493ba69/316401.png",
+    "c": "Snacks",
+    "cn": "redband tumtum",
+    "ik": "tok:redband|tumtum|230",
+    "bn": "redband",
+    "wg": 230
   },
   {
     "n": "Haribo Haribo Happy Cherries",
@@ -121087,18 +120955,6 @@
     "wg": 400
   },
   {
-    "n": "Celebrations Celebrations Assortimentsmix Geschenk",
-    "o": "",
-    "s": "196 ml",
-    "p": "3.95",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/404771_M/1f185bc88bc0ffb2f78a37cff842ad6b/404771.png",
-    "c": "Snacks",
-    "cn": "celebrations assortimentsmix geschenk",
-    "ik": "tok:celebrations|assortimentsmix-geschenk|196",
-    "bn": "celebrations",
-    "wg": 196
-  },
-  {
     "n": "Delverde Delverde Melba Toast Volkoren",
     "o": "",
     "s": "100 ml",
@@ -122050,7 +121906,7 @@
     "o": "",
     "s": "250 ml",
     "p": "1.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/767562_M/65c65d3e8a1f042c2e83822462de44a0/767562.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/767562_M/bea17f7bdb1cfa7143f5e4a33a178a87/767562.png",
     "c": "Snacks",
     "cn": "haribo drop rotella",
     "ik": "tok:haribo|drop-rotella|250",
@@ -124762,7 +124618,7 @@
     "o": "",
     "s": "250 ml",
     "p": "1.69",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/373886_M/6cc3ba5ba174ccd3dfe4d3e25162e68c/373886.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/373886_M/13164d2ce39bf2531cadd24aeae094c6/373886.png",
     "c": "Snacks",
     "cn": "haribo tangfastics",
     "ik": "tok:haribo|tangfastics|250",
@@ -126267,18 +126123,6 @@
     "cn": "mitsuba crackers wasabi",
     "ik": "tok:mitsuba|crackers-wasabi|100",
     "bn": "mitsuba",
-    "wg": 100
-  },
-  {
-    "n": "Croky Croky Patatas Fritas Ketchup",
-    "o": "",
-    "s": "100 ml",
-    "p": "1.79",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/553680_M/cb796fe83f96533b1dbf4faa3cec441b/553680.png",
-    "c": "Snacks",
-    "cn": "croky fritas ketchup patatas",
-    "ik": "tok:croky|fritas-ketchup-patatas|100",
-    "bn": "croky",
     "wg": 100
   },
   {
@@ -132761,28 +132605,16 @@
     "wg": 500
   },
   {
-    "n": "Iglo Iglo Chicken Shop Nacho Cheese Fingers",
+    "n": "Iglo Iglo Roerbaksensatie Pasta Met Spinazie",
     "o": "",
-    "s": "220 ml",
-    "p": "4.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/192310_M/c2162b3699d3121931799197721ac4e0/192310.png",
+    "s": "450 ml",
+    "p": "4.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/725741_M/576a1026d7f0c4177956bd376c9c4bf0/725741.png",
     "c": "Frozen Foods",
-    "cn": "iglo cheese chicken fingers nacho shop",
-    "ik": "tok:iglo|cheese-chicken-fingers-nacho-shop|220",
+    "cn": "iglo pasta roerbaksensatie spinazie",
+    "ik": "tok:iglo|pasta-roerbaksensatie-spinazie|450",
     "bn": "iglo",
-    "wg": 220
-  },
-  {
-    "n": "Iglo Iglo Chicken Shop Korean Spiced Tenders",
-    "o": "",
-    "s": "300 ml",
-    "p": "5.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/192308_M/8eb594f3410524ec699334c19d299fda/192308.png",
-    "c": "Frozen Foods",
-    "cn": "iglo chicken korean shop spiced tenders",
-    "ik": "tok:iglo|chicken-korean-shop-spiced-tenders|300",
-    "bn": "iglo",
-    "wg": 300
+    "wg": 450
   },
   {
     "n": "Ola Ola Raket",
@@ -132797,16 +132629,16 @@
     "wg": 12
   },
   {
-    "n": "Iglo Iglo Chicken Shop Honey Sriracha Wings",
+    "n": "Iglo Iglo Roerbaksensatie Paella",
     "o": "",
-    "s": "375 ml",
-    "p": "4.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/192306_M/5b855df87032df0eb0a771cd018eed88/192306.png",
+    "s": "450 ml",
+    "p": "4.49",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/940618_M/b94bf633ae701c4e36a930e59b7df242/940618.png",
     "c": "Frozen Foods",
-    "cn": "iglo chicken honey shop sriracha wings",
-    "ik": "tok:iglo|chicken-honey-shop-sriracha-wings|375",
+    "cn": "iglo paella roerbaksensatie",
+    "ik": "tok:iglo|paella-roerbaksensatie|450",
     "bn": "iglo",
-    "wg": 375
+    "wg": 450
   },
   {
     "n": "Plus Plus Bosvruchten Ijsjes",
@@ -134969,18 +134801,6 @@
     "wg": 200
   },
   {
-    "n": "Iglo Iglo Roerbaksensatie Pasta Met Spinazie",
-    "o": "",
-    "s": "450 ml",
-    "p": "4.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/725741_M/576a1026d7f0c4177956bd376c9c4bf0/725741.png",
-    "c": "Frozen Foods",
-    "cn": "iglo pasta roerbaksensatie spinazie",
-    "ik": "tok:iglo|pasta-roerbaksensatie-spinazie|450",
-    "bn": "iglo",
-    "wg": 450
-  },
-  {
     "n": "Ola Ola Solero Strawberry",
     "o": "",
     "s": "3 ml",
@@ -135243,18 +135063,6 @@
     "ik": "tok:aviko|blends-garlic-herbs-wavy|600",
     "bn": "aviko",
     "wg": 600
-  },
-  {
-    "n": "Iglo Iglo Roerbaksensatie Paella",
-    "o": "",
-    "s": "450 ml",
-    "p": "4.49",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/940618_M/b94bf633ae701c4e36a930e59b7df242/940618.png",
-    "c": "Frozen Foods",
-    "cn": "iglo paella roerbaksensatie",
-    "ik": "tok:iglo|paella-roerbaksensatie|450",
-    "bn": "iglo",
-    "wg": 450
   },
   {
     "n": "Ola Ola Cornetto Pistache",
@@ -137932,6 +137740,18 @@
     "wg": 1000
   },
   {
+    "n": "Iglo Iglo Chicken Shop Korean Spiced Tenders",
+    "o": "",
+    "s": "300 ml",
+    "p": "5.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/192308_M/8eb594f3410524ec699334c19d299fda/192308.png",
+    "c": "Frozen Foods",
+    "cn": "iglo chicken korean shop spiced tenders",
+    "ik": "tok:iglo|chicken-korean-shop-spiced-tenders|300",
+    "bn": "iglo",
+    "wg": 300
+  },
+  {
     "n": "Plus Plus Loempia's Groente",
     "o": "",
     "s": "2 ml",
@@ -138050,6 +137870,18 @@
     "ik": "tok:mora|chick-crispy-spicy|240",
     "bn": "mora",
     "wg": 240
+  },
+  {
+    "n": "Iglo Iglo Chicken Shop Nacho Cheese Fingers",
+    "o": "",
+    "s": "220 ml",
+    "p": "4.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/192310_M/c2162b3699d3121931799197721ac4e0/192310.png",
+    "c": "Frozen Foods",
+    "cn": "iglo cheese chicken fingers nacho shop",
+    "ik": "tok:iglo|cheese-chicken-fingers-nacho-shop|220",
+    "bn": "iglo",
+    "wg": 220
   },
   {
     "n": "Coppenrath & Wiese Coppenrath & Wiese Cheesecake Bosbessen",
@@ -139420,6 +139252,18 @@
     "wg": 10
   },
   {
+    "n": "Iglo Iglo Chicken Shop Honey Sriracha Wings",
+    "o": "",
+    "s": "375 ml",
+    "p": "4.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/192306_M/5b855df87032df0eb0a771cd018eed88/192306.png",
+    "c": "Frozen Foods",
+    "cn": "iglo chicken honey shop sriracha wings",
+    "ik": "tok:iglo|chicken-honey-shop-sriracha-wings|375",
+    "bn": "iglo",
+    "wg": 375
+  },
+  {
     "n": "Wagner Wagner Pizza Fina Margherita",
     "o": "",
     "s": "300 ml",
@@ -139922,6 +139766,18 @@
     "ik": "tok:smuldier|brokjes-lam-rijst-vers-vlees|300",
     "bn": "smuldier",
     "wg": 300
+  },
+  {
+    "n": "Magnum Magnum Magnum Double Cherry Sticks",
+    "o": "",
+    "s": "255 ml",
+    "p": "4.59",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/367425_M/9c1e48071a19ccb0b43bb8031159d123/367425.png",
+    "c": "Frozen Foods",
+    "cn": "magnum cherry double sticks",
+    "ik": "tok:magnum|cherry-double-sticks|255",
+    "bn": "magnum",
+    "wg": 255
   },
   {
     "n": "Htp Htp Paracetamol 500mg",
@@ -164702,18 +164558,6 @@
     "wg": 20
   },
   {
-    "n": "Glorix Glorix Bleek Original",
-    "o": "",
-    "s": "1 l",
-    "p": "2.15",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/573764_M/a8c70fc29fc515b7b332c31e3158cca4/573764.png",
-    "c": "Household",
-    "cn": "glorix bleek original",
-    "ik": "tok:glorix|bleek-original|1000",
-    "bn": "glorix",
-    "wg": 1000
-  },
-  {
     "n": "Glorix Glorix Toiletblok Lavendel",
     "o": "",
     "s": "1 stuk",
@@ -166590,7 +166434,7 @@
     "o": "",
     "s": "15 ml",
     "p": "13.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/752255_M/92444f4da347825d26888ccab229498f/752255.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/752255_M/214f30d13c19fa808094b04abe50d07e/752255.png",
     "c": "Household",
     "cn": "robijn capsules classics color in",
     "ik": "tok:robijn|capsules-classics-color-in|15",
@@ -168448,7 +168292,7 @@
     "o": "",
     "s": "15 ml",
     "p": "13.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/752257_M/2f24de6139a5dab84bd043e4101b6b4e/752257.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/752257_M/ac13ba6b53885ee888cc8fca03b21f96/752257.png",
     "c": "Household",
     "cn": "robijn capsules classics in stralend wit",
     "ik": "tok:robijn|capsules-classics-in-stralend-wit|15",
@@ -169600,7 +169444,7 @@
     "o": "",
     "s": "15 ml",
     "p": "13.99",
-    "l": "https://images.ctfassets.net/s0lodsnpsezb/752374_M/787712cef18db1511cd11d8f338e01fd/752374.png",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/752374_M/af0827f4d553f966a65633f8c5aadfa9/752374.png",
     "c": "Household",
     "cn": "robijn black capsules classics in velvet",
     "ik": "tok:robijn|black-capsules-classics-in-velvet|15",
@@ -173895,6 +173739,30 @@
     "ik": "tok:robijn|puur-quickwash-zacht|837",
     "bn": "robijn",
     "wg": 837
+  },
+  {
+    "n": "Plus Plus Vloeibaar Wasmiddel Kleur C&K 25sc",
+    "o": "",
+    "s": "750 ml",
+    "p": "2.55",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/489407_M/1857da3faa221628c23d09afa4061a9f/489407.png",
+    "c": "Household",
+    "cn": "plus 25sc kleur vloeibaar wasmiddel",
+    "ik": "tok:plus|25sc-kleur-vloeibaar-wasmiddel|750",
+    "bn": "plus",
+    "wg": 750
+  },
+  {
+    "n": "Mr. Shine Mr. Shine Superontvetter Spray",
+    "o": "",
+    "s": "1 l",
+    "p": "2.99",
+    "l": "https://images.ctfassets.net/s0lodsnpsezb/929441_M/751ac040785a0f318bc424e38a74cdf6/929441.png",
+    "c": "Household",
+    "cn": "shine mr spray superontvetter",
+    "ik": "tok:shine|mr-spray-superontvetter|1000",
+    "bn": "shine",
+    "wg": 1000
   },
   {
     "n": "Finess Finess Servetten Wit 33 Cm",

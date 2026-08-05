@@ -5400,7 +5400,7 @@
   },
   {
     "n": "Tomatenketchup",
-    "p": "0.68",
+    "p": "0.64",
     "o": "",
     "s": "500 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1208643_main_cms_8_nl_nl_tomatenketchup_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -5926,18 +5926,6 @@
     "cn": "maswafels ma pack swafels",
     "ik": "tok:maswafels|ma-pack-swafels|na",
     "bn": "maswafels"
-  },
-  {
-    "n": "De Hete Ketel",
-    "p": "2.45",
-    "o": "",
-    "s": "570 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1227465_main_cms_3_nl_nl_pompoensoep_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Other",
-    "cn": "hete ketel",
-    "ik": "tok:hete|ketel|570",
-    "bn": "hete",
-    "wg": 570
   },
   {
     "n": "Tonijn In Olijfolie",
@@ -10093,7 +10081,7 @@
     "p": "3.49",
     "o": "",
     "s": "Aanbieding van 14.08",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220021_main_cms_9_nl_nl_wilde_perziken_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220021_main_cms_11_nl_nl_wilde_perziken_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "08 14",
     "ik": "tok:unknown|08-14|na"
@@ -10865,7 +10853,7 @@
   },
   {
     "n": "Spaghetti",
-    "p": "0.79",
+    "p": "0.45",
     "o": "",
     "s": "500 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1211282_main_cms_2_nl_nl_spaghetti_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -14783,195 +14771,6 @@
     "wg": 1
   },
   {
-    "n": "Mangonectar",
-    "p": "1.89",
-    "o": "",
-    "s": "1 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1240239_main_cms_1_nl_nl_mangonectar_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "mangonectar",
-    "ik": "tok:mangonectar|unknown|1000",
-    "bn": "mangonectar",
-    "wg": 1000
-  },
-  {
-    "n": "Multifruit",
-    "p": "3.49",
-    "o": "",
-    "s": "2 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1234842_main_cms_1_nl_nl_multifruit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "multifruit",
-    "ik": "tok:multifruit|unknown|2000",
-    "bn": "multifruit",
-    "wg": 2000
-  },
-  {
-    "n": "Passievruchtennectar",
-    "p": "2.09",
-    "o": "",
-    "s": "1 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233541_main_cms_2_nl_nl_passievruchtennectar_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "passievruchtennectar",
-    "ik": "tok:passievruchtennectar|unknown|1000",
-    "bn": "passievruchtennectar",
-    "wg": 1000
-  },
-  {
-    "n": "Appelnectar",
-    "p": "1.50",
-    "o": "",
-    "s": "1.50 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1229550_main_cms_1_nl_nl_appelnectar_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "appelnectar",
-    "ik": "tok:appelnectar|unknown|1500",
-    "bn": "appelnectar",
-    "wg": 1500
-  },
-  {
-    "n": "Koel Het Beste Mango Sinaasappel Sap",
-    "p": "2.09",
-    "o": "",
-    "s": "1 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225859_main_cms_2_nl_nl_koel_het_beste_mango_sinaasappel_sap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "koel beste mango sap sinaasappel",
-    "ik": "tok:koel|beste-mango-sap-sinaasappel|1000",
-    "bn": "koel",
-    "wg": 1000
-  },
-  {
-    "n": "Koel Het Beste aardbei-sinaasappel",
-    "p": "1.99",
-    "o": "",
-    "s": "1 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225858_main_cms_2_nl_nl_koel_het_beste_aardbei_sinaasappel_sap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "koel aardbei beste sinaasappel",
-    "ik": "tok:koel|aardbei-beste-sinaasappel|1000",
-    "bn": "koel",
-    "wg": 1000
-  },
-  {
-    "n": "Vruchtennectar",
-    "p": "1.99",
-    "o": "",
-    "s": "1.50 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224239_main_cms_10_nl_nl_vruchtennectar_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "vruchtennectar",
-    "ik": "tok:vruchtennectar|unknown|1500",
-    "bn": "vruchtennectar",
-    "wg": 1500
-  },
-  {
-    "n": "6-pack Multivitamine",
-    "p": "3.39",
-    "o": "",
-    "s": "6-pack multivitamine",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224226_main_cms_1_nl_nl_6_pack_multivitamine_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "multivitamine pack",
-    "ik": "tok:multivitamine|pack|na",
-    "bn": "multivitamine"
-  },
-  {
-    "n": "6-pack Appelsap",
-    "p": "3.39",
-    "o": "",
-    "s": "6-pack Appelsap",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224209_main_cms_1_nl_nl_6_pack_appelsap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "appelsap pack",
-    "ik": "tok:appelsap|pack|na",
-    "bn": "appelsap"
-  },
-  {
-    "n": "Tropical Freshness",
-    "p": "1.15",
-    "o": "",
-    "s": "1.50 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1222254_1_main_cms_1_nl_nl_tropical_freshness_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "tropical freshness",
-    "ik": "tok:tropical|freshness|1500",
-    "bn": "tropical",
-    "wg": 1500
-  },
-  {
-    "n": "10-pack Fruitdrink",
-    "p": "2.69",
-    "o": "",
-    "s": "2 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1211551_main_cms_9_nl_nl_10_pack_fruitdrink_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "fruitdrink 10 pack",
-    "ik": "tok:fruitdrink|10-pack|2000",
-    "wg": 2000,
-    "bn": "fruitdrink"
-  },
-  {
-    "n": "10-pack Sinaasappellimonade",
-    "p": "2.89",
-    "o": "",
-    "s": "10-pack sinaasappellimonade",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1203047_1_main_cms_4_nl_nl_10_pack_sinaasappellimonade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "sinaasappellimonade 10 pack",
-    "ik": "tok:sinaasappellimonade|10-pack|na",
-    "bn": "sinaasappellimonade"
-  },
-  {
-    "n": "Duodrank sinaasappel-perzik",
-    "p": "1.49",
-    "o": "",
-    "s": "1 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1202463_main_cms_2_nl_nl_duodrank_sinaasappel_perzik_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "duodrank perzik sinaasappel",
-    "ik": "tok:duodrank|perzik-sinaasappel|1000",
-    "bn": "duodrank",
-    "wg": 1000
-  },
-  {
-    "n": "Tropical Fruits",
-    "p": "1.59",
-    "o": "",
-    "s": "1.50 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1201275_main_cms_7_nl_nl_tropical_fruits_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "tropical fruits",
-    "ik": "tok:tropical|fruits|1500",
-    "bn": "tropical",
-    "wg": 1500
-  },
-  {
-    "n": "Fruitig & Fris",
-    "p": "1.25",
-    "o": "",
-    "s": "1.50 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200299_main_cms_16_nl_nl_fruitig_en_fris_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "fruitig fris",
-    "ik": "tok:fruitig|fris|1500",
-    "bn": "fruitig",
-    "wg": 1500
-  },
-  {
-    "n": "Fruitdrink Appel & Perzik",
-    "p": "1.19",
-    "o": "",
-    "s": "1 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200298_main_cms_3_nl_nl_fruitdrink_appel_en_perzik_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "fruitdrink appel perzik",
-    "ik": "tok:fruitdrink|appel-perzik|1000",
-    "bn": "fruitdrink",
-    "wg": 1000
-  },
-  {
     "n": "Proteïne Bar Gezouten Karamel",
     "p": "1.39",
     "o": "",
@@ -15775,7 +15574,7 @@
   },
   {
     "n": "Boeren Tijger Wit",
-    "p": "1.24",
+    "p": "1.19",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225248_main_cms_3_nl_nl_boeren_tijger_wit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -18049,7 +17848,7 @@
   },
   {
     "n": "3-laags Toiletpapier",
-    "p": "3.65",
+    "p": "3.63",
     "o": "",
     "s": "3-laags toiletpapier",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220823_main_cms_5_nl_nl_3_laags_toiletpapier_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -18258,6 +18057,18 @@
     "cn": "tomatencrme chinese me of tomatencr tomatensoep",
     "ik": "tok:tomatencrme|chinese-me-of-tomatencr-tomatensoep|800",
     "bn": "tomatencrme",
+    "wg": 800
+  },
+  {
+    "n": "De Hete Ketel",
+    "p": "1.39",
+    "o": "",
+    "s": "800 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218088_main_cms_2_nl_nl_kippensoep_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Pantry",
+    "cn": "hete ketel",
+    "ik": "tok:hete|ketel|800",
+    "bn": "hete",
     "wg": 800
   },
   {

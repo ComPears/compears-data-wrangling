@@ -1058,7 +1058,7 @@
     "o": "",
     "s": "500 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/razels_peanut_butter_rum_381_05l.jpg",
-    "i": "https://www.edeka24.de/Wein-Spirituosen/Spirituosen/Razels-Rum-Peanut-Butter-38-1-0-5L.html?listtype=search&searchparam=Butter",
+    "i": "https://www.edeka24.de/Razels-Rum-Peanut-Butter-38-1-0-5L.html?listtype=search&searchparam=Butter",
     "c": "Other",
     "cn": "razels 38 butter peanut rum",
     "ik": "tok:razels|38-butter-peanut-rum|500",
@@ -3342,7 +3342,7 @@
     "o": "",
     "s": "750 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/jgroszau.jpg",
-    "i": "https://www.edeka24.de/Wein-Spirituosen/Sekt-Prosecco/Manufaktur-Joerg-Geiger-Prisecco-Rosenzauber-alkoholfrei-0-75L.html?listtype=search&searchparam=Apfel",
+    "i": "https://www.edeka24.de/Manufaktur-Joerg-Geiger-Prisecco-Rosenzauber-alkoholfrei-0-75L.html?listtype=search&searchparam=Apfel",
     "c": "Other",
     "cn": "manufaktur alkoholfrei geiger prisecco rg rosenzauber",
     "ik": "tok:manufaktur|alkoholfrei-geiger-prisecco-rg-rosenzauber|750",
@@ -3381,7 +3381,7 @@
     "o": "",
     "s": "750 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/jgrotfru.jpg",
-    "i": "https://www.edeka24.de/Wein-Spirituosen/Sekt-Prosecco/Manufaktur-Joerg-Geiger-Prisecco-Rotfruchtig-alkoholfrei-0-75L.html?listtype=search&searchparam=Apfel",
+    "i": "https://www.edeka24.de/Manufaktur-Joerg-Geiger-Prisecco-Rotfruchtig-alkoholfrei-0-75L.html?listtype=search&searchparam=Apfel",
     "c": "Other",
     "cn": "manufaktur alkoholfrei geiger prisecco rg rotfruchtig",
     "ik": "tok:manufaktur|alkoholfrei-geiger-prisecco-rg-rotfruchtig|750",
@@ -3719,7 +3719,7 @@
     "o": "",
     "s": "1 l",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/hohes_c_multi_1l.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Getraenke/Saefte/Hohes-C-Multi-1L.html?listtype=search&searchparam=Banane",
+    "i": "https://www.edeka24.de/Hohes-C-Multi-1L.html?listtype=search&searchparam=Banane",
     "c": "Other",
     "cn": "hohes multi",
     "ik": "tok:hohes|multi|1000",
@@ -4650,7 +4650,7 @@
     "o": "",
     "s": "1 l",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_saftliebe_frhstcks_drink_1l.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Getraenke/Saefte/EDEKA-Herzstuecke-Fruehstuecks-Drink-1L.html?listtype=search&searchparam=Karotten",
+    "i": "https://www.edeka24.de/EDEKA-Herzstuecke-Fruehstuecks-Drink-1L.html?listtype=search&searchparam=Karotten",
     "c": "Other",
     "cn": "edeka cke cks drink fr herzst hst",
     "ik": "tok:edeka|cke-cks-drink-fr-herzst-hst|1000",
@@ -5924,7 +5924,7 @@
     "o": "",
     "s": "330 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/san_pellegrino_limonata_033l_dpg.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Getraenke/Limonade/Sanpellegrino-Naturali-Limonata-0-33L-Dose.html?listtype=search&searchparam=Zitronen",
+    "i": "https://www.edeka24.de/Sanpellegrino-Naturali-Limonata-0-33L-Dose.html?listtype=search&searchparam=Zitronen",
     "c": "Other",
     "cn": "sanpellegrino dose limonata naturali",
     "ik": "tok:sanpellegrino|dose-limonata-naturali|330",
@@ -5950,7 +5950,7 @@
     "o": "",
     "s": "500 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bitburger_radler_05l_dpg.jpg",
-    "i": "https://www.edeka24.de/Wein-Spirituosen/Bier/Bitburger-Radler-0-5L.html?listtype=search&searchparam=Zitronen",
+    "i": "https://www.edeka24.de/Bitburger-Radler-0-5L.html?listtype=search&searchparam=Zitronen",
     "c": "Other",
     "cn": "bitburger radler",
     "ik": "tok:bitburger|radler|500",
@@ -6348,6 +6348,19 @@
     "wg": 61
   },
   {
+    "n": "Maggi Food Travel Curry Indian Style 65G - Mhd 08.2026",
+    "p": "0.60",
+    "o": "",
+    "s": "65 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_food_travel_curry_indian_style_65g.jpg",
+    "i": "https://www.edeka24.de/Maggi-Food-Travel-Curry-Indian-Style-65G-MHD-08-2026.html?listtype=search&searchparam=H%C3%A4hnchen",
+    "c": "Other",
+    "cn": "maggi 08 2026 curry food indian mhd style travel",
+    "ik": "tok:maggi|08-2026-curry-food-indian-mhd-style-travel|65",
+    "bn": "maggi",
+    "wg": 65
+  },
+  {
     "n": "Maggi Fix Air Fryer Curry Knusper Hähnchen 41G",
     "p": "1.09",
     "o": "",
@@ -6541,19 +6554,6 @@
     "ik": "tok:good|boy-bunter-hnchen-knabber-mix|320",
     "bn": "good",
     "wg": 320
-  },
-  {
-    "n": "Knorr Fix Paella 34G",
-    "p": "1.29",
-    "o": "",
-    "s": "34 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/knorr_fix_paella_34g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Sossen/Knorr-Fix-Paella-34G.html?listtype=search&searchparam=H%C3%A4hnchen",
-    "c": "Other",
-    "cn": "knorr fix paella",
-    "ik": "tok:knorr|fix-paella|34",
-    "bn": "knorr",
-    "wg": 34
   },
   {
     "n": "Maggi Bauern-Topf Mit Hackfleisch 39G",
@@ -13208,19 +13208,6 @@
     "wg": 30
   },
   {
-    "n": "Teekanne Bio Atme Dich Frei 18ST 36G - Abverkauf",
-    "p": "2.10",
-    "o": "",
-    "s": "36 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/teekanne_bio_atme_dich_frei_18st_36g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Kaffee-Tee/Teekanne-Bio-Atme-Dich-Frei-18ST-36G-Abverkauf.html?listtype=search&searchparam=Tee",
-    "c": "Other",
-    "cn": "teekanne abverkauf atme bio dich frei",
-    "ik": "tok:teekanne|abverkauf-atme-bio-dich-frei|36",
-    "bn": "teekanne",
-    "wg": 36
-  },
-  {
     "n": "Meßmer Bio Tee Alpenkräuter 20ST 40G",
     "p": "4.29",
     "o": "",
@@ -13304,7 +13291,7 @@
     "o": "",
     "s": "750 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/acto2pfir.jpg",
-    "i": "https://www.edeka24.de/nach-marke/Adelholzener/Adelholzener-Active-Fresh-Eistee-Pfirsich-0-75L.html?listtype=search&searchparam=Tee",
+    "i": "https://www.edeka24.de/Adelholzener-Active-Fresh-Eistee-Pfirsich-0-75L.html?listtype=search&searchparam=Tee",
     "c": "Other",
     "cn": "adelholzener active eistee fresh pfirsich",
     "ik": "tok:adelholzener|active-eistee-fresh-pfirsich|750",
@@ -13479,6 +13466,19 @@
     "ik": "tok:air|flavor-ice-peach-pod-tea-tier3-up|1",
     "bn": "air",
     "wg": 1
+  },
+  {
+    "n": "Esn Isoclear Whey Protein Isolate Peach Iced Tea Flavor 300G",
+    "p": "23.99",
+    "o": "",
+    "s": "300 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/esn_isoclear_whey_isolate_peach_iced_tea_300g.jpg",
+    "i": "https://www.edeka24.de/ESN-Isoclear-Whey-Protein-Isolate-Peach-Iced-Tea-Flavor-300G.html?listtype=search&searchparam=Tee",
+    "c": "Other",
+    "cn": "esn flavor iced isoclear isolate peach protein tea whey",
+    "ik": "tok:esn|flavor-iced-isoclear-isolate-peach-protein-tea-whey|300",
+    "bn": "esn",
+    "wg": 300
   },
   {
     "n": "Griesson Soft Cake Orange Zartbitter 300G",
@@ -13694,7 +13694,7 @@
     "o": "",
     "s": "750 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/jgweiduf.jpg",
-    "i": "https://www.edeka24.de/Wein-Spirituosen/Sekt-Prosecco/Manufaktur-Joerg-Geiger-Prisecco-Weissduftig-alkoholfrei-0-75l.html?listtype=search&searchparam=Apfelsaft",
+    "i": "https://www.edeka24.de/Manufaktur-Joerg-Geiger-Prisecco-Weissduftig-alkoholfrei-0-75l.html?listtype=search&searchparam=Apfelsaft",
     "c": "Other",
     "cn": "manufaktur alkoholfrei duftig geiger prisecco rg wei",
     "ik": "tok:manufaktur|alkoholfrei-duftig-geiger-prisecco-rg-wei|750",
@@ -15112,6 +15112,19 @@
     "wg": 100
   },
   {
+    "n": "Alnatura Bio Mais Chips Natur 125G - Mhd 12.08.2026",
+    "p": "1.00",
+    "o": "",
+    "s": "125 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bio_alnatura_mais_chips_natur_125g.jpg",
+    "i": "https://www.edeka24.de/Alnatura-Bio-Mais-Chips-Natur-125G-MHD-12-08-2026.html?listtype=search&searchparam=Chips",
+    "c": "Snacks",
+    "cn": "alnatura 08 12 2026 bio chips mais mhd natur",
+    "ik": "tok:alnatura|08-12-2026-bio-chips-mais-mhd-natur|125",
+    "bn": "alnatura",
+    "wg": 125
+  },
+  {
     "n": "Gut & Günstig Tortilla Chips Gesalzen 300G",
     "p": "1.59",
     "o": "",
@@ -15123,19 +15136,6 @@
     "ik": "tok:gut|chips-gesalzen-nstig-tortilla|300",
     "bn": "gut",
     "wg": 300
-  },
-  {
-    "n": "Gut & Günstig Linsen Chips Sour Cream 90G",
-    "p": "1.09",
-    "o": "",
-    "s": "90 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/gampampg_linsenchips_sour_cream_90g.jpg",
-    "i": "https://www.edeka24.de/Gut-Guenstig-Linsen-Chips-Sour-Cream-90G.html?listtype=search&searchparam=Chips",
-    "c": "Snacks",
-    "cn": "gut chips cream linsen nstig sour",
-    "ik": "tok:gut|chips-cream-linsen-nstig-sour|90",
-    "bn": "gut",
-    "wg": 90
   },
   {
     "n": "Erasco 2 Kohlrouladen 800G",
@@ -16357,6 +16357,19 @@
     "wg": 440
   },
   {
+    "n": "L'Oréal Elvital Color Glanz Shampoo 300M -AbverkaufL",
+    "p": "3.00",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/l039oral_elvital_color_glanz_shampoo_300ml.jpg",
+    "i": "https://www.edeka24.de/Drogerie/Haarpflege/Shampoo-Spuelung/L-Or-al-Elvital-Color-Glanz-Shampoo-300M-AbverkaufL.html?listtype=search&searchparam=Shampoo",
+    "c": "Personal Care",
+    "cn": "loral 300m abverkaufl al color elvital glanz or shampoo",
+    "ik": "tok:loral|300m-abverkaufl-al-color-elvital-glanz-or-shampoo|1",
+    "bn": "loral",
+    "wg": 1
+  },
+  {
     "n": "Elkos Shampoo Repair 500ML",
     "p": "1.19",
     "o": "",
@@ -16497,19 +16510,6 @@
     "cn": "alpecin black c1 coffein edition shampoo",
     "ik": "tok:alpecin|black-c1-coffein-edition-shampoo|250",
     "bn": "alpecin",
-    "wg": 250
-  },
-  {
-    "n": "Nivea Men Sensitive Power Shampoo 250ML",
-    "p": "3.99",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/nivea_men_sensitive_power_shampoo_250ml(1).jpg",
-    "i": "https://www.edeka24.de/Drogerie/Koerperpflege-oxid/Shampoo-Spuelung/Nivea-Men-Sensitive-Power-Shampoo-250ML.html?listtype=search&searchparam=Shampoo",
-    "c": "Personal Care",
-    "cn": "nivea men power sensitive shampoo",
-    "ik": "tok:nivea|men-power-sensitive-shampoo|250",
-    "bn": "nivea",
     "wg": 250
   },
   {
