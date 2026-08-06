@@ -8280,18 +8280,6 @@
     "wg": 300
   },
   {
-    "n": "Bio+ Varkenssaucijs 2 st.",
-    "p": "3.45",
-    "o": "",
-    "s": "200 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F191408_1_462652_638525709467030363.png?width=190",
-    "c": "Meat & Seafood",
-    "cn": "bio varkenssaucijs",
-    "ik": "tok:bio|varkenssaucijs|200",
-    "bn": "bio",
-    "wg": 200
-  },
-  {
     "n": "Bio+ Biefstuk",
     "p": "5.75",
     "o": "",
@@ -36048,7 +36036,7 @@
     "p": "1.69",
     "o": "",
     "s": "500 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F491243_2026-07-29_10-46-49-938_45f42977-7663-4da7-a3ff-89b7ecc82b83.png?width=190",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F491243_2026-08-06_02-53-55-360_44ec58f1-1b86-4076-90c3-77682fff1c6e.png?width=190",
     "c": "Beverages",
     "cn": "protein cherry lemon water",
     "ik": "tok:protein|cherry-lemon-water|500",
@@ -71072,14 +71060,14 @@
     "wg": 488
   },
   {
-    "n": "Ola Magnum Double Cherry 3 st.",
-    "p": "2.99",
+    "n": "Van 4.39 2 99 Ola Magnum Double Cherry 3 st.",
+    "p": "",
     "o": "",
     "s": "255 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F217630_1_476757_638787528440821721.png?width=190",
     "c": "Frozen Foods",
-    "cn": "ola cherry double magnum",
-    "ik": "tok:ola|cherry-double-magnum|255",
+    "cn": "ola 39 99 cherry double magnum",
+    "ik": "tok:ola|39-99-cherry-double-magnum|255",
     "bn": "ola",
     "wg": 255
   },

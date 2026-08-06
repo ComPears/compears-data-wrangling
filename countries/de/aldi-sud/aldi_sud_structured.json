@@ -299,6 +299,19 @@
     "wg": 1000
   },
   {
+    "n": "Ambiano Elektrische Küchenhelfer, Milchaufschäumer, Beige",
+    "p": "9.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/ambiano-elektrische-kuechenhelfer-milchaufschaeumer-beige-000000000717108005",
+    "c": "Other",
+    "cn": "ambiano beige chenhelfer elektrische milchaufsch umer",
+    "ik": "tok:ambiano|beige-chenhelfer-elektrische-milchaufsch-umer|1",
+    "bn": "ambiano",
+    "wg": 1
+  },
+  {
     "n": "My Vay Bio-Haferdrink Natur 1 L",
     "p": "0.90",
     "o": "",
@@ -336,19 +349,6 @@
     "ik": "tok:vay|bio-haferdrink-my-unges|1000",
     "bn": "vay",
     "wg": 1000
-  },
-  {
-    "n": "Ambiano Elektrische Küchenhelfer, Milchaufschäumer, Beige",
-    "p": "9.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/ambiano-elektrische-kuechenhelfer-milchaufschaeumer-beige-000000000717108005",
-    "c": "Other",
-    "cn": "ambiano beige chenhelfer elektrische milchaufsch umer",
-    "ik": "tok:ambiano|beige-chenhelfer-elektrische-milchaufsch-umer|1",
-    "bn": "ambiano",
-    "wg": 1
   },
   {
     "n": "Alpro Haferdrink 1 l, Ohne Zucker",
@@ -1105,6 +1105,19 @@
     "wg": 150
   },
   {
+    "n": "Fertiggerichte 420 g, Butter Chicken",
+    "p": "3.79",
+    "o": "",
+    "s": "420 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-fertiggerichte-420-g-butter-chicken-000000000456278001",
+    "c": "Other",
+    "cn": "fertiggerichte butter chicken",
+    "ik": "tok:fertiggerichte|butter-chicken|420",
+    "bn": "fertiggerichte",
+    "wg": 420
+  },
+  {
     "n": "Ironmaxx Cooking Oil Spray 200 ml, Butter Flavour",
     "p": "3.99",
     "o": "",
@@ -1391,6 +1404,19 @@
     "wg": 200
   },
   {
+    "n": "Heringsfilet 200 g, Eier-Senf Creme",
+    "p": "1.11",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-heringsfilet-200-g-eier-senf-creme-000000000306227005",
+    "c": "Other",
+    "cn": "heringsfilet creme eier senf",
+    "ik": "tok:heringsfilet|creme-eier-senf|200",
+    "bn": "heringsfilet",
+    "wg": 200
+  },
+  {
     "n": "Milsani Sprühsahne 250 ml, Fettreduziert",
     "p": "2.19",
     "o": "",
@@ -1428,19 +1454,6 @@
     "ik": "tok:wonnemeyer|ei-feinkostsalat|250",
     "bn": "wonnemeyer",
     "wg": 250
-  },
-  {
-    "n": "Milsani Fruchtbuttermilch Dessert 200 g, Erdbeere",
-    "p": "0.59",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-fruchtbuttermilch-dessert-200-g-erdbeere-000000000202694001",
-    "c": "Other",
-    "cn": "milsani dessert erdbeere fruchtbuttermilch",
-    "ik": "tok:milsani|dessert-erdbeere-fruchtbuttermilch|200",
-    "bn": "milsani",
-    "wg": 200
   },
   {
     "n": "Milsani Gouda Scheiben, 400 G",
@@ -2028,19 +2041,6 @@
     "wg": 450
   },
   {
-    "n": "Milsani Skyr 500 G",
-    "p": "1.29",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-skyr-500-g-000000000000203092",
-    "c": "Other",
-    "cn": "milsani skyr",
-    "ik": "tok:milsani|skyr|500",
-    "bn": "milsani",
-    "wg": 500
-  },
-  {
     "n": "Milsani Joghurt 3,5 % Fett 4 X 150 g, Milder Naturjoghurt",
     "p": "0.89",
     "o": "",
@@ -2054,6 +2054,19 @@
     "wg": 600
   },
   {
+    "n": "Milsani Skyr 500 G",
+    "p": "1.29",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-skyr-500-g-000000000000203092",
+    "c": "Other",
+    "cn": "milsani skyr",
+    "ik": "tok:milsani|skyr|500",
+    "bn": "milsani",
+    "wg": 500
+  },
+  {
     "n": "Arla Skyr Natur 1 Kg",
     "p": "2.99",
     "o": "",
@@ -2065,6 +2078,32 @@
     "ik": "tok:arla|natur-skyr|1000",
     "bn": "arla",
     "wg": 1000
+  },
+  {
+    "n": "Arla Skyr Vanille 450 G",
+    "p": "1.49",
+    "o": "",
+    "s": "450 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/arla-skyr-vanille-450-g-000000000000769625",
+    "c": "Other",
+    "cn": "arla skyr vanille",
+    "ik": "tok:arla|skyr-vanille|450",
+    "bn": "arla",
+    "wg": 450
+  },
+  {
+    "n": "Arla Skyr Natur 450 G",
+    "p": "1.49",
+    "o": "",
+    "s": "450 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/arla-skyr-natur-450-g-000000000000769888",
+    "c": "Other",
+    "cn": "arla natur skyr",
+    "ik": "tok:arla|natur-skyr|450",
+    "bn": "arla",
+    "wg": 450
   },
   {
     "n": "Milsani High Protein Skyr Drink 330 ml, Erdbeere",
@@ -2119,19 +2158,6 @@
     "wg": 500
   },
   {
-    "n": "Milsani High Protein Skyr Drink 330 ml, Zitrone-Limette",
-    "p": "1.49",
-    "o": "",
-    "s": "330 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-high-protein-skyr-drink-330-ml-zitrone-limette-000000000739709003",
-    "c": "Other",
-    "cn": "milsani drink high limette protein skyr zitrone",
-    "ik": "tok:milsani|drink-high-limette-protein-skyr-zitrone|330",
-    "bn": "milsani",
-    "wg": 330
-  },
-  {
     "n": "Bio Fettarmer Joghurt 1 kg, 1,8 % Fett, Mild",
     "p": "1.99",
     "o": "",
@@ -2156,6 +2182,19 @@
     "ik": "tok:bio|cremiger-fett-joghurt-mild|1000",
     "bn": "bio",
     "wg": 1000
+  },
+  {
+    "n": "Milsani High Protein Skyr Drink 330 ml, Zitrone-Limette",
+    "p": "1.49",
+    "o": "",
+    "s": "330 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-high-protein-skyr-drink-330-ml-zitrone-limette-000000000739709003",
+    "c": "Other",
+    "cn": "milsani drink high limette protein skyr zitrone",
+    "ik": "tok:milsani|drink-high-limette-protein-skyr-zitrone|330",
+    "bn": "milsani",
+    "wg": 330
   },
   {
     "n": "Lyttos Joghurt Nach Griechischer Art Natur 600 G",
@@ -2262,6 +2301,19 @@
     "wg": 500
   },
   {
+    "n": "Milsani Naturjoghurt 1 kg, 3,5 % Fett",
+    "p": "1.79",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-naturjoghurt-1-kg-3-5-fett-000000000415545001",
+    "c": "Other",
+    "cn": "milsani fett naturjoghurt",
+    "ik": "tok:milsani|fett-naturjoghurt|1000",
+    "bn": "milsani",
+    "wg": 1000
+  },
+  {
     "n": "Milsani Skyr Frucht 500 g, Erdbeere",
     "p": "1.49",
     "o": "",
@@ -2286,19 +2338,6 @@
     "ik": "tok:milsani|frucht-skyr-vanille|500",
     "bn": "milsani",
     "wg": 500
-  },
-  {
-    "n": "Milsani Naturjoghurt 1 kg, 3,5 % Fett",
-    "p": "1.79",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-naturjoghurt-1-kg-3-5-fett-000000000415545001",
-    "c": "Other",
-    "cn": "milsani fett naturjoghurt",
-    "ik": "tok:milsani|fett-naturjoghurt|1000",
-    "bn": "milsani",
-    "wg": 1000
   },
   {
     "n": "Nur Nur Natur Bio-Naturjoghurt 3,8 % Fett 400 G",
@@ -2336,32 +2375,6 @@
     "c": "Other",
     "cn": "bio erdbeere fruchtjoghurt",
     "ik": "tok:bio|erdbeere-fruchtjoghurt|150",
-    "bn": "bio",
-    "wg": 150
-  },
-  {
-    "n": "Bio Bio-Fruchtjoghurt 150 g, Himbeere",
-    "p": "0.59",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bio-bio-fruchtjoghurt-150-g-himbeere-000000000205865010",
-    "c": "Other",
-    "cn": "bio fruchtjoghurt himbeere",
-    "ik": "tok:bio|fruchtjoghurt-himbeere|150",
-    "bn": "bio",
-    "wg": 150
-  },
-  {
-    "n": "Bio Bio-Joghurt Natur 150 G",
-    "p": "0.45",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bio-bio-joghurt-natur-150-g-000000000000583298",
-    "c": "Other",
-    "cn": "bio joghurt natur",
-    "ik": "tok:bio|joghurt-natur|150",
     "bn": "bio",
     "wg": 150
   },
@@ -2507,6 +2520,58 @@
     "ik": "tok:milram|gew-rzquark-zaziki|380",
     "bn": "milram",
     "wg": 380
+  },
+  {
+    "n": "Weihenstephan Cremig & Quarkig 500 g, Pfirsich-Maracuja",
+    "p": "1.59",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/weihenstephan-cremig-quarkig-500-g-pfirsich-maracuja-000000000654888001",
+    "c": "Other",
+    "cn": "weihenstephan cremig maracuja pfirsich quarkig",
+    "ik": "tok:weihenstephan|cremig-maracuja-pfirsich-quarkig|500",
+    "bn": "weihenstephan",
+    "wg": 500
+  },
+  {
+    "n": "Weihenstephan Cremig & Quarkig 500 g, Vanille",
+    "p": "1.59",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/weihenstephan-cremig-quarkig-500-g-vanille-000000000654888002",
+    "c": "Other",
+    "cn": "weihenstephan cremig quarkig vanille",
+    "ik": "tok:weihenstephan|cremig-quarkig-vanille|500",
+    "bn": "weihenstephan",
+    "wg": 500
+  },
+  {
+    "n": "Weihenstephan Cremig & Quarkig 500 g, Erdbeere",
+    "p": "1.59",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/weihenstephan-cremig-quarkig-500-g-erdbeere-000000000654906001",
+    "c": "Other",
+    "cn": "weihenstephan cremig erdbeere quarkig",
+    "ik": "tok:weihenstephan|cremig-erdbeere-quarkig|500",
+    "bn": "weihenstephan",
+    "wg": 500
+  },
+  {
+    "n": "Weihenstephan Cremig & Quarkig 500 g, Himbeere",
+    "p": "1.59",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/weihenstephan-cremig-quarkig-500-g-himbeere-000000000654906002",
+    "c": "Other",
+    "cn": "weihenstephan cremig himbeere quarkig",
+    "ik": "tok:weihenstephan|cremig-himbeere-quarkig|500",
+    "bn": "weihenstephan",
+    "wg": 500
   },
   {
     "n": "Bio Bio-Speisequark 250 g, Mager",
@@ -2676,58 +2741,6 @@
     "ik": "tok:danone|aprikose-banane-erdbeere-fruchtzwerge|300",
     "bn": "danone",
     "wg": 300
-  },
-  {
-    "n": "Danone Fruchtzwerge 300 g, Erdbeere-Banane-Aprikose, Weniger Süß",
-    "p": "1.29",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/danone-fruchtzwerge-300-g-erdbeere-banane-aprikose-weniger-suess-000000000202467004",
-    "c": "Other",
-    "cn": "danone aprikose banane erdbeere fruchtzwerge weniger",
-    "ik": "tok:danone|aprikose-banane-erdbeere-fruchtzwerge-weniger|300",
-    "bn": "danone",
-    "wg": 300
-  },
-  {
-    "n": "Nur Nur Natur Bio-Quark 250 g, Magerstufe",
-    "p": "1.05",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-quark-250-g-magerstufe-000000000583624001",
-    "c": "Other",
-    "cn": "nur bio magerstufe natur quark",
-    "ik": "tok:nur|bio-magerstufe-natur-quark|250",
-    "bn": "nur",
-    "wg": 250
-  },
-  {
-    "n": "Nur Nur Natur Bio-Quark 250 g, 20 %",
-    "p": "1.05",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-quark-250-g-20-000000000583624002",
-    "c": "Other",
-    "cn": "nur 20 bio natur quark",
-    "ik": "tok:nur|20-bio-natur-quark|250",
-    "bn": "nur",
-    "wg": 250
-  },
-  {
-    "n": "Meine Kuchenwelt Heidelbeer-Quarkstrudel 500 G",
-    "p": "2.19",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-kuchenwelt-heidelbeer-quarkstrudel-500-g-000000000192090003",
-    "c": "Other",
-    "cn": "meine heidelbeer kuchenwelt quarkstrudel",
-    "ik": "tok:meine|heidelbeer-kuchenwelt-quarkstrudel|500",
-    "bn": "meine",
-    "wg": 500
   },
   {
     "n": "Milsani Schlagsahne 200 G",
@@ -3315,19 +3328,6 @@
     "wg": 380
   },
   {
-    "n": "Eifeler Weizenmischbrot 400 G",
-    "p": "1.39",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-eifeler-weizenmischbrot-400-g-000000000000187306",
-    "c": "Other",
-    "cn": "eifeler weizenmischbrot",
-    "ik": "tok:eifeler|weizenmischbrot|400",
-    "bn": "eifeler",
-    "wg": 400
-  },
-  {
     "n": "Goldähren Toastbrötchen 335 g, Weizen",
     "p": "0.99",
     "o": "",
@@ -3365,6 +3365,19 @@
     "ik": "tok:goldhren|dinkel-gold-hren-tchen-toastbr|340",
     "bn": "goldhren",
     "wg": 340
+  },
+  {
+    "n": "Eifeler Weizenmischbrot 400 G",
+    "p": "1.39",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-eifeler-weizenmischbrot-400-g-000000000000187306",
+    "c": "Other",
+    "cn": "eifeler weizenmischbrot",
+    "ik": "tok:eifeler|weizenmischbrot|400",
+    "bn": "eifeler",
+    "wg": 400
   },
   {
     "n": "Zitterwälder Rheinisches Vollkornbrot, Fein 400 G",
@@ -4172,6 +4185,19 @@
     "wg": 150
   },
   {
+    "n": "Fruchtsnacks 25 g, Erdbeere-Banane",
+    "p": "2.49",
+    "o": "",
+    "s": "30 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-fruchtsnacks-25-g-erdbeere-banane-000000000706058002",
+    "c": "Snacks",
+    "cn": "fruchtsnacks banane erdbeere",
+    "ik": "tok:fruchtsnacks|banane-erdbeere|30",
+    "bn": "fruchtsnacks",
+    "wg": 30
+  },
+  {
     "n": "Home Creation Künstliche Pflanze, Banane",
     "p": "12.99",
     "o": "",
@@ -4315,6 +4341,19 @@
     "wg": 250
   },
   {
+    "n": "Danone Fruchtzwerge 300 g, Erdbeere-Banane-Aprikose, Weniger Süß",
+    "p": "1.29",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/danone-fruchtzwerge-300-g-erdbeere-banane-aprikose-weniger-suess-000000000202467004",
+    "c": "Other",
+    "cn": "danone aprikose banane erdbeere fruchtzwerge weniger",
+    "ik": "tok:danone|aprikose-banane-erdbeere-fruchtzwerge-weniger|300",
+    "bn": "danone",
+    "wg": 300
+  },
+  {
     "n": "Bio Bio Joghurt & Knuspermüsli 150 g, Banane Und Schoko",
     "p": "0.95",
     "o": "",
@@ -4367,6 +4406,19 @@
     "wg": 230
   },
   {
+    "n": "Agromonte Passierte Tomaten 520 g, Cherrytomaten",
+    "p": "2.29",
+    "o": "",
+    "s": "520 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/agromonte-passierte-tomaten-520-g-cherrytomaten-000000000734401001",
+    "c": "Fruits & Vegetables",
+    "cn": "agromonte cherrytomaten passierte tomaten",
+    "ik": "tok:agromonte|cherrytomaten-passierte-tomaten|520",
+    "bn": "agromonte",
+    "wg": 520
+  },
+  {
     "n": "KING'S Crown Tomate Frito 400 g, Passierte Tomaten",
     "p": "0.79",
     "o": "",
@@ -4378,6 +4430,32 @@
     "ik": "tok:kings|crown-frito-king-passierte-tomate-tomaten|400",
     "bn": "kings",
     "wg": 400
+  },
+  {
+    "n": "Agromonte Passierte Tomaten 520 g, Gelbe Cherrytomaten",
+    "p": "2.29",
+    "o": "",
+    "s": "520 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/agromonte-passierte-tomaten-520-g-gelbe-cherrytomaten-000000000734401002",
+    "c": "Fruits & Vegetables",
+    "cn": "agromonte cherrytomaten gelbe passierte tomaten",
+    "ik": "tok:agromonte|cherrytomaten-gelbe-passierte-tomaten|520",
+    "bn": "agromonte",
+    "wg": 520
+  },
+  {
+    "n": "Agromonte Passierte Tomaten 520 g, Datterini Tomaten",
+    "p": "2.29",
+    "o": "",
+    "s": "520 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/agromonte-passierte-tomaten-520-g-datterini-tomaten-000000000734401003",
+    "c": "Fruits & Vegetables",
+    "cn": "agromonte datterini passierte tomaten",
+    "ik": "tok:agromonte|datterini-passierte-tomaten|520",
+    "bn": "agromonte",
+    "wg": 520
   },
   {
     "n": "KING'S Crown Tomatenmark 200 G",
@@ -4523,6 +4601,19 @@
     "wg": 440
   },
   {
+    "n": "Cucina Getrocknete Tomaten 125 G",
+    "p": "1.99",
+    "o": "",
+    "s": "125 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-getrocknete-tomaten-125-g-000000000000730033",
+    "c": "Fruits & Vegetables",
+    "cn": "cucina getrocknete tomaten",
+    "ik": "tok:cucina|getrocknete-tomaten|125",
+    "bn": "cucina",
+    "wg": 125
+  },
+  {
     "n": "Bresso Bresso 150 g, Kirschtomaten",
     "p": "2.39",
     "o": "",
@@ -4588,6 +4679,19 @@
     "wg": 150
   },
   {
+    "n": "Heringsfilet 200 g, Tomate/Mozzarella",
+    "p": "1.11",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-heringsfilet-200-g-tomate-mozzarella-000000000306227001",
+    "c": "Other",
+    "cn": "heringsfilet mozzarella tomate",
+    "ik": "tok:heringsfilet|mozzarella-tomate|200",
+    "bn": "heringsfilet",
+    "wg": 200
+  },
+  {
     "n": "Speisezeit Ravioli 800 g, Tomate",
     "p": "1.79",
     "o": "",
@@ -4651,71 +4755,6 @@
     "ik": "tok:patros|basilikum-grillk-semix-tomate|150",
     "bn": "patros",
     "wg": 150
-  },
-  {
-    "n": "Wonnemeyer Brotaufstrich 150 g, Tomate-Mozzarella",
-    "p": "1.39",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-brotaufstrich-150-g-tomate-mozzarella-000000000204299002",
-    "c": "Other",
-    "cn": "wonnemeyer brotaufstrich mozzarella tomate",
-    "ik": "tok:wonnemeyer|brotaufstrich-mozzarella-tomate|150",
-    "bn": "wonnemeyer",
-    "wg": 150
-  },
-  {
-    "n": "Brunch Brunch Brotaufstrich 185 g, Tomate",
-    "p": "1.89",
-    "o": "",
-    "s": "190 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/brunch-brunch-brotaufstrich-185-g-tomate-000000000470199005",
-    "c": "Other",
-    "cn": "brunch brotaufstrich tomate",
-    "ik": "tok:brunch|brotaufstrich-tomate|190",
-    "bn": "brunch",
-    "wg": 190
-  },
-  {
-    "n": "Nur Nur Natur Bio-Tomatensauce 325 ml, Basilikum",
-    "p": "1.99",
-    "o": "",
-    "s": "330 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-tomatensauce-325-ml-basilikum-000000000573047001",
-    "c": "Fruits & Vegetables",
-    "cn": "nur basilikum bio natur tomatensauce",
-    "ik": "tok:nur|basilikum-bio-natur-tomatensauce|330",
-    "bn": "nur",
-    "wg": 330
-  },
-  {
-    "n": "Nur Nur Natur Bio-Tomatensauce 325 ml, Arrabiata",
-    "p": "1.99",
-    "o": "",
-    "s": "330 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-tomatensauce-325-ml-arrabiata-000000000573047002",
-    "c": "Fruits & Vegetables",
-    "cn": "nur arrabiata bio natur tomatensauce",
-    "ik": "tok:nur|arrabiata-bio-natur-tomatensauce|330",
-    "bn": "nur",
-    "wg": 330
-  },
-  {
-    "n": "Nur Nur Natur Bio-Suppe 375 ml, Tomatensuppe",
-    "p": "1.99",
-    "o": "",
-    "s": "380 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-suppe-375-ml-tomatensuppe-000000000587762001",
-    "c": "Fruits & Vegetables",
-    "cn": "nur bio natur suppe tomatensuppe",
-    "ik": "tok:nur|bio-natur-suppe-tomatensuppe|380",
-    "bn": "nur",
-    "wg": 380
   },
   {
     "n": "Mccain 1-2-3 Frites 750 G",
@@ -5368,6 +5407,19 @@
     "wg": 200
   },
   {
+    "n": "Heinz Snack Saucen 400 ml, Tomato Ketchup Gewürzgurken",
+    "p": "1.99",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/heinz-snack-saucen-400-ml-tomato-ketchup-gewuerzgurken-000000000272374005",
+    "c": "Snacks",
+    "cn": "heinz gew ketchup rzgurken saucen snack tomato",
+    "ik": "tok:heinz|gew-ketchup-rzgurken-saucen-snack-tomato|400",
+    "bn": "heinz",
+    "wg": 400
+  },
+  {
     "n": "Güldenhof Aspik-Aufschnitt 200 g, Hähnchenbrustf. Mit Paprika u. Gurke",
     "p": "2.19",
     "o": "",
@@ -5652,19 +5704,6 @@
     "ik": "tok:wonnemeyer|creme-fraiche-kartoffelsalat-salatschale|1000",
     "bn": "wonnemeyer",
     "wg": 1000
-  },
-  {
-    "n": "Crofton Salat-Zubehör, Salatschleuder, Blau",
-    "p": "4.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/crofton-salat-zubehoer-salatschleuder-blau-000000000719367006",
-    "c": "Other",
-    "cn": "crofton blau salat salatschleuder zubeh",
-    "ik": "tok:crofton|blau-salat-salatschleuder-zubeh|1",
-    "bn": "crofton",
-    "wg": 1
   },
   {
     "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Mit Essig-Öl",
@@ -6600,19 +6639,6 @@
     "ik": "tok:bbq|hnchensteaks-mariniert|1000",
     "bn": "bbq",
     "wg": 1000
-  },
-  {
-    "n": "Güldenhof Hähnchenbrustfilet 100 G",
-    "p": "1.59",
-    "o": "",
-    "s": "100 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gueldenhof-haehnchenbrustfilet-100-g-000000000203645001",
-    "c": "Other",
-    "cn": "gldenhof hnchenbrustfilet ldenhof",
-    "ik": "tok:gldenhof|hnchenbrustfilet-ldenhof|100",
-    "bn": "gldenhof",
-    "wg": 100
   },
   {
     "n": "Meine Metzgerei Hähnchen-Innenfilet 400 G",
@@ -7551,19 +7577,6 @@
     "wg": 300
   },
   {
-    "n": "Gut Drei Eichen Schinkenfleischwurst 650 G",
-    "p": "3.29",
-    "o": "",
-    "s": "650 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-schinkenfleischwurst-650-g-000000000000202803",
-    "c": "Other",
-    "cn": "gut drei eichen schinkenfleischwurst",
-    "ik": "tok:gut|drei-eichen-schinkenfleischwurst|650",
-    "bn": "gut",
-    "wg": 650
-  },
-  {
     "n": "Landbeck Schinkenmettwurst 400 G",
     "p": "3.45",
     "o": "",
@@ -7575,6 +7588,19 @@
     "ik": "tok:landbeck|schinkenmettwurst|400",
     "bn": "landbeck",
     "wg": 400
+  },
+  {
+    "n": "Gut Drei Eichen Schinkenfleischwurst 650 G",
+    "p": "3.79",
+    "o": "",
+    "s": "650 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-schinkenfleischwurst-650-g-000000000000619763",
+    "c": "Other",
+    "cn": "gut drei eichen schinkenfleischwurst",
+    "ik": "tok:gut|drei-eichen-schinkenfleischwurst|650",
+    "bn": "gut",
+    "wg": 650
   },
   {
     "n": "Bbq Geflügelbratwurst 500 G",
@@ -8682,19 +8708,6 @@
     "wg": 250
   },
   {
-    "n": "Cucina Lasagneblätter 500 G",
-    "p": "1.19",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-lasagneblaetter-500-g-000000000000635511",
-    "c": "Other",
-    "cn": "cucina lasagnebl tter",
-    "ik": "tok:cucina|lasagnebl-tter|500",
-    "bn": "cucina",
-    "wg": 500
-  },
-  {
     "n": "Asia Green Garden Wok-Nudeln 250 g, Klassisch",
     "p": "0.89",
     "o": "",
@@ -8719,6 +8732,71 @@
     "ik": "tok:asia|garden-gewellt-green-nudeln-wok|250",
     "bn": "asia",
     "wg": 250
+  },
+  {
+    "n": "Bamboo Garden Guai Thiau Reisnudeln 250 G",
+    "p": "1.49",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bamboo-garden-guai-thiau-reisnudeln-250-g-000000000000757107",
+    "c": "Other",
+    "cn": "bamboo garden guai reisnudeln thiau",
+    "ik": "tok:bamboo|garden-guai-reisnudeln-thiau|250",
+    "bn": "bamboo",
+    "wg": 250
+  },
+  {
+    "n": "Landfreude Frischei-Nudeln 500 g, Kelchen",
+    "p": "1.49",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/landfreude-frischei-nudeln-500-g-kelchen-000000000735585001",
+    "c": "Other",
+    "cn": "landfreude frischei kelchen nudeln",
+    "ik": "tok:landfreude|frischei-kelchen-nudeln|500",
+    "bn": "landfreude",
+    "wg": 500
+  },
+  {
+    "n": "Landfreude Frischei-Nudeln 500 g, Muscheln",
+    "p": "1.49",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/landfreude-frischei-nudeln-500-g-muscheln-000000000735585002",
+    "c": "Other",
+    "cn": "landfreude frischei muscheln nudeln",
+    "ik": "tok:landfreude|frischei-muscheln-nudeln|500",
+    "bn": "landfreude",
+    "wg": 500
+  },
+  {
+    "n": "Cucina Lasagneblätter 500 G",
+    "p": "1.19",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-lasagneblaetter-500-g-000000000000635511",
+    "c": "Other",
+    "cn": "cucina lasagnebl tter",
+    "ik": "tok:cucina|lasagnebl-tter|500",
+    "bn": "cucina",
+    "wg": 500
+  },
+  {
+    "n": "Bio Bio-Teigwaren 500 g, Gewalzte Bandnudeln",
+    "p": "1.45",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bio-bio-teigwaren-500-g-gewalzte-bandnudeln-000000000632575002",
+    "c": "Other",
+    "cn": "bio bandnudeln gewalzte teigwaren",
+    "ik": "tok:bio|bandnudeln-gewalzte-teigwaren|500",
+    "bn": "bio",
+    "wg": 500
   },
   {
     "n": "Cucina Fusilli 500 G",
@@ -8797,58 +8875,6 @@
     "ik": "tok:cucina|frische-nobile-pasta-se-spezialit-ten|400",
     "bn": "cucina",
     "wg": 400
-  },
-  {
-    "n": "Bamboo Garden Guai Thiau Reisnudeln 250 G",
-    "p": "1.49",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bamboo-garden-guai-thiau-reisnudeln-250-g-000000000000757107",
-    "c": "Other",
-    "cn": "bamboo garden guai reisnudeln thiau",
-    "ik": "tok:bamboo|garden-guai-reisnudeln-thiau|250",
-    "bn": "bamboo",
-    "wg": 250
-  },
-  {
-    "n": "Landfreude Frischei-Nudeln 500 g, Kelchen",
-    "p": "1.49",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/landfreude-frischei-nudeln-500-g-kelchen-000000000735585001",
-    "c": "Other",
-    "cn": "landfreude frischei kelchen nudeln",
-    "ik": "tok:landfreude|frischei-kelchen-nudeln|500",
-    "bn": "landfreude",
-    "wg": 500
-  },
-  {
-    "n": "Landfreude Frischei-Nudeln 500 g, Muscheln",
-    "p": "1.49",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/landfreude-frischei-nudeln-500-g-muscheln-000000000735585002",
-    "c": "Other",
-    "cn": "landfreude frischei muscheln nudeln",
-    "ik": "tok:landfreude|frischei-muscheln-nudeln|500",
-    "bn": "landfreude",
-    "wg": 500
-  },
-  {
-    "n": "Bio Bio-Teigwaren 500 g, Gewalzte Bandnudeln",
-    "p": "1.45",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bio-bio-teigwaren-500-g-gewalzte-bandnudeln-000000000632575002",
-    "c": "Other",
-    "cn": "bio bandnudeln gewalzte teigwaren",
-    "ik": "tok:bio|bandnudeln-gewalzte-teigwaren|500",
-    "bn": "bio",
-    "wg": 500
   },
   {
     "n": "Bio Bio-Vollkorn Farfalle 500 G",
@@ -9904,6 +9930,19 @@
     "wg": 150
   },
   {
+    "n": "Heringsfilet 200 g, Pfeffer Creme",
+    "p": "1.11",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-heringsfilet-200-g-pfeffer-creme-000000000306227004",
+    "c": "Other",
+    "cn": "heringsfilet creme pfeffer",
+    "ik": "tok:heringsfilet|creme-pfeffer|200",
+    "bn": "heringsfilet",
+    "wg": 200
+  },
+  {
     "n": "Landbeck Snack-Beisser 300 g, Pfeffer",
     "p": "3.59",
     "o": "",
@@ -10333,17 +10372,17 @@
     "wg": 130
   },
   {
-    "n": "Lacura Stückseife 150 g, Olivenöl & Aloe",
-    "p": "0.55",
+    "n": "Followfish Thunfischfilet In Bio-Olivenöl 160 G",
+    "p": "2.49",
     "o": "",
-    "s": "150 ml",
+    "s": "160 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/lacura-stueckseife-150-g-olivenoel-aloe-000000000519816003",
+    "i": "https://www.aldi-sued.de/produkt/followfish-thunfischfilet-in-bio-olivenoel-160-g-000000000508945002",
     "c": "Other",
-    "cn": "lacura aloe ckseife oliven",
-    "ik": "tok:lacura|aloe-ckseife-oliven|150",
-    "bn": "lacura",
-    "wg": 150
+    "cn": "followfish bio in oliven thunfischfilet",
+    "ik": "tok:followfish|bio-in-oliven-thunfischfilet|160",
+    "bn": "followfish",
+    "wg": 160
   },
   {
     "n": "Bellasan Olivenöl 500 ml, Extra Nativ",
@@ -10385,6 +10424,19 @@
     "wg": 200
   },
   {
+    "n": "Cucina Italienisches Natives Olivenöl Extra Terra Di Bari 500 Ml",
+    "p": "6.99",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-italienisches-natives-olivenoel-extra-terra-di-bari-500-ml-000000000000743811",
+    "c": "Other",
+    "cn": "cucina bari di extra italienisches natives oliven terra",
+    "ik": "tok:cucina|bari-di-extra-italienisches-natives-oliven-terra|500",
+    "bn": "cucina",
+    "wg": 500
+  },
+  {
     "n": "Cucina Grissotti 200 g, Olivenöl-Meersalz",
     "p": "1.29",
     "o": "",
@@ -10409,6 +10461,32 @@
     "ik": "tok:bertolli|bratoliven-cucina-spray|200",
     "bn": "bertolli",
     "wg": 200
+  },
+  {
+    "n": "Nur Nur Natur Bio-Tomatensauce 325 ml, Basilikum",
+    "p": "1.99",
+    "o": "",
+    "s": "330 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-tomatensauce-325-ml-basilikum-000000000573047001",
+    "c": "Fruits & Vegetables",
+    "cn": "nur basilikum bio natur tomatensauce",
+    "ik": "tok:nur|basilikum-bio-natur-tomatensauce|330",
+    "bn": "nur",
+    "wg": 330
+  },
+  {
+    "n": "Nur Nur Natur Bio-Tomatensauce 325 ml, Arrabiata",
+    "p": "1.99",
+    "o": "",
+    "s": "330 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-tomatensauce-325-ml-arrabiata-000000000573047002",
+    "c": "Fruits & Vegetables",
+    "cn": "nur arrabiata bio natur tomatensauce",
+    "ik": "tok:nur|arrabiata-bio-natur-tomatensauce|330",
+    "bn": "nur",
+    "wg": 330
   },
   {
     "n": "Nur Nur Natur Bio-Tomatensauce 325 ml, Gemüse Parmesan",
@@ -10526,19 +10604,6 @@
     "ik": "tok:power|essigreiniger-force|1000",
     "bn": "power",
     "wg": 1000
-  },
-  {
-    "n": "Heitmann Pure Reine Citronensäure, Flüssig",
-    "p": "2.95",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/heitmann-pure-reine-citronensaeure-fluessig-000000000731950003",
-    "c": "Other",
-    "cn": "heitmann citronens fl pure reine ssig ure",
-    "ik": "tok:heitmann|citronens-fl-pure-reine-ssig-ure|1",
-    "bn": "heitmann",
-    "wg": 1
   },
   {
     "n": "Bertolli Aceto Balsamico Di Modena 500 Ml",
@@ -10697,19 +10762,6 @@
     "wg": 250
   },
   {
-    "n": "Heinz Ketchup 1.170 Ml",
-    "p": "2.79",
-    "o": "",
-    "s": "1.17 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/heinz-ketchup-1-170-ml-000000000445726001",
-    "c": "Other",
-    "cn": "heinz ketchup",
-    "ik": "tok:heinz|ketchup|1170",
-    "bn": "heinz",
-    "wg": 1170
-  },
-  {
     "n": "Miracel Whip Salatcreme 500 ml, Original",
     "p": "2.65",
     "o": "",
@@ -10734,6 +10786,19 @@
     "ik": "tok:miracel|balance-salatcreme-whip|500",
     "bn": "miracel",
     "wg": 500
+  },
+  {
+    "n": "Heinz Ketchup 1.170 Ml",
+    "p": "2.79",
+    "o": "",
+    "s": "1.17 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/heinz-ketchup-1-170-ml-000000000445726001",
+    "c": "Other",
+    "cn": "heinz ketchup",
+    "ik": "tok:heinz|ketchup|1170",
+    "bn": "heinz",
+    "wg": 1170
   },
   {
     "n": "Heinz Mayonnaise 800 Ml",
@@ -13998,6 +14063,19 @@
     "wg": 130
   },
   {
+    "n": "Funny Frisch Chipsfrisch 4 X 40 g, Ungarisch",
+    "p": "1.99",
+    "o": "",
+    "s": "160 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/funny-frisch-chipsfrisch-4-x-40-g-ungarisch-000000000468052002",
+    "c": "Snacks",
+    "cn": "funny chipsfrisch frisch ungarisch",
+    "ik": "tok:funny|chipsfrisch-frisch-ungarisch|160",
+    "bn": "funny",
+    "wg": 160
+  },
+  {
     "n": "Sunsnacks Stapelchips 175 g, Sour Cream Und Zwiebel",
     "p": "1.49",
     "o": "",
@@ -14113,19 +14191,6 @@
     "ik": "tok:pringles|chips-paprika-sweet|190",
     "bn": "pringles",
     "wg": 190
-  },
-  {
-    "n": "Lorenz Crunchips Xxl 250 g, Paprika",
-    "p": "1.79",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/lorenz-crunchips-xxl-250-g-paprika-000000000747129001",
-    "c": "Snacks",
-    "cn": "lorenz crunchips paprika xxl",
-    "ik": "tok:lorenz|crunchips-paprika-xxl|250",
-    "bn": "lorenz",
-    "wg": 250
   },
   {
     "n": "Kinder Kinder Bueno Eisbecher 285 G",
@@ -14505,6 +14570,19 @@
     "wg": 880
   },
   {
+    "n": "Heinz Snack Saucen 400 ml, Pommes Frites Sauce",
+    "p": "1.99",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/heinz-snack-saucen-400-ml-pommes-frites-sauce-000000000272374002",
+    "c": "Snacks",
+    "cn": "heinz frites pommes sauce saucen snack",
+    "ik": "tok:heinz|frites-pommes-sauce-saucen-snack|400",
+    "bn": "heinz",
+    "wg": 400
+  },
+  {
     "n": "Heinz Feinkostsauce 220 ml, Bbq",
     "p": "1.49",
     "o": "",
@@ -14851,19 +14929,6 @@
     "wg": 1
   },
   {
-    "n": "Power Force Spülmaschinenpfleger",
-    "p": "1.99",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/power-force-spuelmaschinenpfleger-000000000000723752",
-    "c": "Other",
-    "cn": "power force lmaschinenpfleger sp",
-    "ik": "tok:power|force-lmaschinenpfleger-sp|500",
-    "bn": "power",
-    "wg": 500
-  },
-  {
     "n": "Somat All-in-1 Extra Tabs, 58 Tabs",
     "p": "8.49",
     "o": "",
@@ -14994,19 +15059,6 @@
     "wg": 1500
   },
   {
-    "n": "Tandil Kalk-Stopp Tabs 600 G",
-    "p": "3.25",
-    "o": "",
-    "s": "600 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/tandil-kalk-stopp-tabs-600-g-000000000000551937",
-    "c": "Other",
-    "cn": "tandil kalk stopp tabs",
-    "ik": "tok:tandil|kalk-stopp-tabs|600",
-    "bn": "tandil",
-    "wg": 600
-  },
-  {
     "n": "Weisser Riese Waschmittel XXL, Universal Gel",
     "p": "11.99",
     "o": "",
@@ -15046,6 +15098,19 @@
     "wg": 1
   },
   {
+    "n": "Weisser Riese Waschmittel XXL, Color Pulver",
+    "p": "11.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/weisser-riese-waschmittel-xxl-color-pulver-000000000311832014",
+    "c": "Other",
+    "cn": "weisser color pulver riese waschmittel xxl",
+    "ik": "tok:weisser|color-pulver-riese-waschmittel-xxl|1",
+    "bn": "weisser",
+    "wg": 1
+  },
+  {
     "n": "Weisser Riese Waschmittel XXL, Color Caps Orchidee",
     "p": "11.99",
     "o": "",
@@ -15072,17 +15137,30 @@
     "wg": 1
   },
   {
-    "n": "Weisser Riese Waschmittel XXL, Color Pulver",
-    "p": "11.99",
+    "n": "Perwoll Perwoll Renew Waschmittel 1,35 l, Color",
+    "p": "5.95",
     "o": "",
-    "s": "1 stuk",
+    "s": "1.35 l",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/weisser-riese-waschmittel-xxl-color-pulver-000000000311832014",
+    "i": "https://www.aldi-sued.de/produkt/perwoll-perwoll-renew-waschmittel-1-35-l-color-000000000614446002",
     "c": "Other",
-    "cn": "weisser color pulver riese waschmittel xxl",
-    "ik": "tok:weisser|color-pulver-riese-waschmittel-xxl|1",
-    "bn": "weisser",
-    "wg": 1
+    "cn": "perwoll color renew waschmittel",
+    "ik": "tok:perwoll|color-renew-waschmittel|1350",
+    "bn": "perwoll",
+    "wg": 1350
+  },
+  {
+    "n": "Tandil Kalk-Stopp Tabs 600 G",
+    "p": "3.25",
+    "o": "",
+    "s": "600 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/tandil-kalk-stopp-tabs-600-g-000000000000551937",
+    "c": "Other",
+    "cn": "tandil kalk stopp tabs",
+    "ik": "tok:tandil|kalk-stopp-tabs|600",
+    "bn": "tandil",
+    "wg": 600
   },
   {
     "n": "DR. Beckmann Flecken-Bürste 250 Ml",
@@ -15096,19 +15174,6 @@
     "ik": "tok:beckmann|dr-flecken-rste|250",
     "bn": "beckmann",
     "wg": 250
-  },
-  {
-    "n": "Perwoll Perwoll Renew Feinwaschmittel 1,35 l, Wolle & Feines",
-    "p": "5.95",
-    "o": "",
-    "s": "1.35 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/perwoll-perwoll-renew-feinwaschmittel-1-35-l-wolle-feines-000000000614446001",
-    "c": "Other",
-    "cn": "perwoll feines feinwaschmittel renew wolle",
-    "ik": "tok:perwoll|feines-feinwaschmittel-renew-wolle|1350",
-    "bn": "perwoll",
-    "wg": 1350
   },
   {
     "n": "Persil Discs, Pulver Oder Gel, Gel Universal 100 Wl",
@@ -15239,6 +15304,19 @@
     "ik": "tok:joie|lamm-lle-schepflegehelfer-wei|1",
     "bn": "joie",
     "wg": 1
+  },
+  {
+    "n": "Kuschelweich Weichspüler 2 l, Sommerwind",
+    "p": "2.69",
+    "o": "",
+    "s": "2 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/kuschelweich-weichspueler-2-l-sommerwind-000000000770554001",
+    "c": "Other",
+    "cn": "kuschelweich ler sommerwind weichsp",
+    "ik": "tok:kuschelweich|ler-sommerwind-weichsp|2000",
+    "bn": "kuschelweich",
+    "wg": 2000
   },
   {
     "n": "Head & Shoulders Anti-Schuppen Shampoo 500 ml, Classic",
