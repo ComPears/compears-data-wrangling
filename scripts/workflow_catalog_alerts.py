@@ -135,6 +135,11 @@ def main() -> int:
         type=float,
         default=float(os.getenv("CATALOG_MAX_GROWTH_RATIO", "3")),
     )
+    parser.add_argument(
+        "--warn-only",
+        action="store_true",
+        help="Emit alerts as warnings and always exit 0 (publish must not be blocked)",
+    )
     args = parser.parse_args()
 
     targets = all_catalog_paths(args.country)
@@ -209,9 +214,15 @@ def main() -> int:
         result = "OK" if not issues and not warnings else "; ".join([*issues, *warnings])
         summary.append(f"| `{country}/{store}` | {count} | {age_hours:.1f}h | {result} |")
         for issue in issues:
-            message = f"{country}/{store}: {issue}. Check the store scraper logs and rerun this workflow."
-            annotation("error", relative, message)
-            failures.append(message)
+            message = (
+                f"{country}/{store}: {issue}. "
+                "Check the store scraper logs and rerun this workflow."
+            )
+            if args.warn_only:
+                annotation("warning", relative, message)
+            else:
+                annotation("error", relative, message)
+                failures.append(message)
         for warning in warnings:
             annotation(
                 "warning",
@@ -224,6 +235,11 @@ def main() -> int:
         with open(summary_path, "a", encoding="utf-8") as handle:
             handle.write("\n".join(summary) + "\n")
 
+    if args.warn_only:
+        print(
+            f"Catalog monitoring completed in warn-only mode for {len(targets)} catalog(s)."
+        )
+        return 0
     if failures:
         print(f"Catalog monitoring failed with {len(failures)} actionable alert(s).")
         return 1

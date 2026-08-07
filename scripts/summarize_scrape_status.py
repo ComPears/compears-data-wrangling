@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import os
+from collections import Counter
 from pathlib import Path
 
 
@@ -19,8 +20,16 @@ def main() -> int:
             continue
         rows.append(payload)
 
+    outcomes = Counter(str(row.get("outcome") or "unknown") for row in rows)
     summary = [
         "## Supermarket refresh results",
+        "",
+        (
+            f"Coverage: **{outcomes.get('refreshed', 0)} refreshed**, "
+            f"**{outcomes.get('preserved', 0)} preserved**, "
+            f"**{outcomes.get('unexpected_failure', 0) + outcomes.get('unknown', 0)} other** "
+            f"({len(rows)} stores)"
+        ),
         "",
         "| Store | Outcome | Products | Detail |",
         "|---|---|---:|---|",
@@ -38,7 +47,7 @@ def main() -> int:
     if summary_path:
         with open(summary_path, "a", encoding="utf-8") as handle:
             handle.write("\n".join(summary) + "\n")
-    print(f"Summarized {len(rows)} scraper outcome(s)")
+    print(f"Summarized {len(rows)} scraper outcome(s): {dict(outcomes)}")
     return 0
 
 
