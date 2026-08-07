@@ -2158,6 +2158,19 @@
     "wg": 500
   },
   {
+    "n": "Milsani High Protein Skyr Drink 330 ml, Zitrone-Limette",
+    "p": "1.49",
+    "o": "",
+    "s": "330 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-high-protein-skyr-drink-330-ml-zitrone-limette-000000000739709003",
+    "c": "Other",
+    "cn": "milsani drink high limette protein skyr zitrone",
+    "ik": "tok:milsani|drink-high-limette-protein-skyr-zitrone|330",
+    "bn": "milsani",
+    "wg": 330
+  },
+  {
     "n": "Bio Fettarmer Joghurt 1 kg, 1,8 % Fett, Mild",
     "p": "1.99",
     "o": "",
@@ -2182,19 +2195,6 @@
     "ik": "tok:bio|cremiger-fett-joghurt-mild|1000",
     "bn": "bio",
     "wg": 1000
-  },
-  {
-    "n": "Milsani High Protein Skyr Drink 330 ml, Zitrone-Limette",
-    "p": "1.49",
-    "o": "",
-    "s": "330 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-high-protein-skyr-drink-330-ml-zitrone-limette-000000000739709003",
-    "c": "Other",
-    "cn": "milsani drink high limette protein skyr zitrone",
-    "ik": "tok:milsani|drink-high-limette-protein-skyr-zitrone|330",
-    "bn": "milsani",
-    "wg": 330
   },
   {
     "n": "Lyttos Joghurt Nach Griechischer Art Natur 600 G",
@@ -2301,19 +2301,6 @@
     "wg": 500
   },
   {
-    "n": "Milsani Naturjoghurt 1 kg, 3,5 % Fett",
-    "p": "1.79",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-naturjoghurt-1-kg-3-5-fett-000000000415545001",
-    "c": "Other",
-    "cn": "milsani fett naturjoghurt",
-    "ik": "tok:milsani|fett-naturjoghurt|1000",
-    "bn": "milsani",
-    "wg": 1000
-  },
-  {
     "n": "Milsani Skyr Frucht 500 g, Erdbeere",
     "p": "1.49",
     "o": "",
@@ -2338,6 +2325,32 @@
     "ik": "tok:milsani|frucht-skyr-vanille|500",
     "bn": "milsani",
     "wg": 500
+  },
+  {
+    "n": "Milsani Naturjoghurt 1 kg, 3,5 % Fett",
+    "p": "1.79",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-naturjoghurt-1-kg-3-5-fett-000000000415545001",
+    "c": "Other",
+    "cn": "milsani fett naturjoghurt",
+    "ik": "tok:milsani|fett-naturjoghurt|1000",
+    "bn": "milsani",
+    "wg": 1000
+  },
+  {
+    "n": "Nur Nur Natur Bio-Naturjoghurt 3,8 % Fett 400 G",
+    "p": "0.99",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-naturjoghurt-3-8-fett-400-g-000000000000591941",
+    "c": "Other",
+    "cn": "nur bio fett natur naturjoghurt",
+    "ik": "tok:nur|bio-fett-natur-naturjoghurt|400",
+    "bn": "nur",
+    "wg": 400
   },
   {
     "n": "Bio Bio-Fruchtjoghurt 150 g, Mango",
@@ -2377,19 +2390,6 @@
     "ik": "tok:bio|fruchtjoghurt-himbeere|150",
     "bn": "bio",
     "wg": 150
-  },
-  {
-    "n": "Nur Nur Natur Bio-Naturjoghurt 3,8 % Fett 400 G",
-    "p": "0.99",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-naturjoghurt-3-8-fett-400-g-000000000000591941",
-    "c": "Other",
-    "cn": "nur bio fett natur naturjoghurt",
-    "ik": "tok:nur|bio-fett-natur-naturjoghurt|400",
-    "bn": "nur",
-    "wg": 400
   },
   {
     "n": "Milsani Speisequark Magerstufe 250 G",
@@ -3510,45 +3510,6 @@
     "wg": 420
   },
   {
-    "n": "Meine Backwelt Franzbrötchen",
-    "p": "0.79",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-franzbroetchen-000000000000187699",
-    "c": "Other",
-    "cn": "meine backwelt franzbr tchen",
-    "ik": "tok:meine|backwelt-franzbr-tchen|1",
-    "bn": "meine",
-    "wg": 1
-  },
-  {
-    "n": "Goldähren Weizenbrötchen 0,3 Kg",
-    "p": "0.69",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-weizenbroetchen-0-3-kg-000000000187007001",
-    "c": "Other",
-    "cn": "goldhren gold hren tchen weizenbr",
-    "ik": "tok:goldhren|gold-hren-tchen-weizenbr|300",
-    "bn": "goldhren",
-    "wg": 300
-  },
-  {
-    "n": "Goldähren Baguettebrötchen 0,3 Kg",
-    "p": "0.69",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-baguettebroetchen-0-3-kg-000000000187007002",
-    "c": "Other",
-    "cn": "goldhren baguettebr gold hren tchen",
-    "ik": "tok:goldhren|baguettebr-gold-hren-tchen|300",
-    "bn": "goldhren",
-    "wg": 300
-  },
-  {
     "n": "Meine Backwelt Butter-Laugenecke",
     "p": "0.85",
     "o": "",
@@ -3625,6 +3586,45 @@
     "ik": "tok:meine|backwelt-olivenstange|1",
     "bn": "meine",
     "wg": 1
+  },
+  {
+    "n": "Meine Backwelt Franzbrötchen",
+    "p": "0.79",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-franzbroetchen-000000000000187699",
+    "c": "Other",
+    "cn": "meine backwelt franzbr tchen",
+    "ik": "tok:meine|backwelt-franzbr-tchen|1",
+    "bn": "meine",
+    "wg": 1
+  },
+  {
+    "n": "Goldähren Weizenbrötchen 0,3 Kg",
+    "p": "0.69",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-weizenbroetchen-0-3-kg-000000000187007001",
+    "c": "Other",
+    "cn": "goldhren gold hren tchen weizenbr",
+    "ik": "tok:goldhren|gold-hren-tchen-weizenbr|300",
+    "bn": "goldhren",
+    "wg": 300
+  },
+  {
+    "n": "Goldähren Baguettebrötchen 0,3 Kg",
+    "p": "0.69",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-baguettebroetchen-0-3-kg-000000000187007002",
+    "c": "Other",
+    "cn": "goldhren baguettebr gold hren tchen",
+    "ik": "tok:goldhren|baguettebr-gold-hren-tchen|300",
+    "bn": "goldhren",
+    "wg": 300
   },
   {
     "n": "Goldähren Sonntagsbrötchen 560 g, Weizen",
@@ -3783,19 +3783,6 @@
     "wg": 320
   },
   {
-    "n": "Goldähren Hamburger-Brötchen 300 G",
-    "p": "0.99",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-hamburger-broetchen-300-g-000000000468528001",
-    "c": "Other",
-    "cn": "goldhren br gold hamburger hren tchen",
-    "ik": "tok:goldhren|br-gold-hamburger-hren-tchen|300",
-    "bn": "goldhren",
-    "wg": 300
-  },
-  {
     "n": "Goldähren Kartoffelkrüstchen, Dinkel 480 G",
     "p": "1.79",
     "o": "",
@@ -3805,6 +3792,19 @@
     "c": "Other",
     "cn": "goldhren dinkel gold hren kartoffelkr stchen",
     "ik": "tok:goldhren|dinkel-gold-hren-kartoffelkr-stchen|480",
+    "bn": "goldhren",
+    "wg": 480
+  },
+  {
+    "n": "Goldähren Dinkelkrüstchen 480 G",
+    "p": "1.79",
+    "o": "",
+    "s": "480 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-dinkelkruestchen-480-g-000000000630939002",
+    "c": "Other",
+    "cn": "goldhren dinkelkr gold hren stchen",
+    "ik": "tok:goldhren|dinkelkr-gold-hren-stchen|480",
     "bn": "goldhren",
     "wg": 480
   },
@@ -4627,19 +4627,6 @@
     "wg": 440
   },
   {
-    "n": "Cucina Getrocknete Tomaten 125 G",
-    "p": "1.99",
-    "o": "",
-    "s": "125 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-getrocknete-tomaten-125-g-000000000000730033",
-    "c": "Fruits & Vegetables",
-    "cn": "cucina getrocknete tomaten",
-    "ik": "tok:cucina|getrocknete-tomaten|125",
-    "bn": "cucina",
-    "wg": 125
-  },
-  {
     "n": "Bresso Bresso 150 g, Kirschtomaten",
     "p": "2.39",
     "o": "",
@@ -4781,6 +4768,19 @@
     "ik": "tok:wonnemeyer|brotaufstrich-mozzarella-tomate|150",
     "bn": "wonnemeyer",
     "wg": 150
+  },
+  {
+    "n": "Heringsfilet 200 g, Tomaten Creme",
+    "p": "1.11",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-heringsfilet-200-g-tomaten-creme-000000000306227006",
+    "c": "Fruits & Vegetables",
+    "cn": "heringsfilet creme tomaten",
+    "ik": "tok:heringsfilet|creme-tomaten|200",
+    "bn": "heringsfilet",
+    "wg": 200
   },
   {
     "n": "Mccain 1-2-3 Frites 750 G",
@@ -5132,19 +5132,6 @@
     "ik": "tok:speisezeit|kartoffelgerichte-sti|400",
     "bn": "speisezeit",
     "wg": 400
-  },
-  {
-    "n": "Goldähren Dinkelkrüstchen 480 G",
-    "p": "1.79",
-    "o": "",
-    "s": "480 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-dinkelkruestchen-480-g-000000000630939002",
-    "c": "Other",
-    "cn": "goldhren dinkelkr gold hren stchen",
-    "ik": "tok:goldhren|dinkelkr-gold-hren-stchen|480",
-    "bn": "goldhren",
-    "wg": 480
   },
   {
     "n": "Speisezeit Steakhouse Pommes 750 g, Rustikal",
@@ -5680,19 +5667,6 @@
     "wg": 200
   },
   {
-    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Creme Fraiche",
-    "p": "2.49",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-creme-fraiche-000000000203651001",
-    "c": "Other",
-    "cn": "wonnemeyer creme fraiche kartoffelsalat salatschale",
-    "ik": "tok:wonnemeyer|creme-fraiche-kartoffelsalat-salatschale|1000",
-    "bn": "wonnemeyer",
-    "wg": 1000
-  },
-  {
     "n": "Almare Thunfischsalate 160 g, Linsen",
     "p": "1.39",
     "o": "",
@@ -5743,6 +5717,19 @@
     "ik": "tok:almare|couscous-thunfischsalate|160",
     "bn": "almare",
     "wg": 160
+  },
+  {
+    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Creme Fraiche",
+    "p": "2.49",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-creme-fraiche-000000000203651001",
+    "c": "Other",
+    "cn": "wonnemeyer creme fraiche kartoffelsalat salatschale",
+    "ik": "tok:wonnemeyer|creme-fraiche-kartoffelsalat-salatschale|1000",
+    "bn": "wonnemeyer",
+    "wg": 1000
   },
   {
     "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Mit Essig-Öl",
@@ -10435,19 +10422,6 @@
     "ik": "tok:bertolli|aroma-chili-grill-oliven-spray|200",
     "bn": "bertolli",
     "wg": 200
-  },
-  {
-    "n": "Cucina Italienisches Natives Olivenöl Extra Terra Di Bari 500 Ml",
-    "p": "6.99",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-italienisches-natives-olivenoel-extra-terra-di-bari-500-ml-000000000000743811",
-    "c": "Other",
-    "cn": "cucina bari di extra italienisches natives oliven terra",
-    "ik": "tok:cucina|bari-di-extra-italienisches-natives-oliven-terra|500",
-    "bn": "cucina",
-    "wg": 500
   },
   {
     "n": "Cucina Grissotti 200 g, Olivenöl-Meersalz",

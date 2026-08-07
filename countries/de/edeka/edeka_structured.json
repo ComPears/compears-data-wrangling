@@ -5529,6 +5529,19 @@
     "wg": 150
   },
   {
+    "n": "Knorr Fix Paprika-Rahmschnitzel 43G - Mhd 08.2026",
+    "p": "0.65",
+    "o": "",
+    "s": "43 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/knorr_fix_fr_paprikarahmschnitzel_43g.jpg",
+    "i": "https://www.edeka24.de/Knorr-Fix-Paprika-Rahmschnitzel-43G-MHD-08-2026.html?listtype=search&searchparam=Paprika",
+    "c": "Other",
+    "cn": "knorr 08 2026 fix mhd paprika rahmschnitzel",
+    "ik": "tok:knorr|08-2026-fix-mhd-paprika-rahmschnitzel|43",
+    "bn": "knorr",
+    "wg": 43
+  },
+  {
     "n": "Appel Zarte Heringsfilets In Paprika-Creme 200G",
     "p": "2.19",
     "o": "",
@@ -5566,19 +5579,6 @@
     "ik": "tok:thomy|les-paprika-sauces-tomaten|250",
     "bn": "thomy",
     "wg": 250
-  },
-  {
-    "n": "Maggi Fix Airfryer Knusper Hähnchen Paprika & Knoblauch 39G",
-    "p": "1.09",
-    "o": "",
-    "s": "39 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_fix_airfryer_knusper_hhnchen_paprika_amp_knoblauch_39g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Sossen/Maggi-Fix-Airfryer-Knusper-Haehnchen-Paprika-Knoblauch-39G.html?listtype=search&searchparam=Paprika",
-    "c": "Other",
-    "cn": "maggi airfryer fix hnchen knoblauch knusper paprika",
-    "ik": "tok:maggi|airfryer-fix-hnchen-knoblauch-knusper-paprika|39",
-    "bn": "maggi",
-    "wg": 39
   },
   {
     "n": "Mein T Zitronen T Zero 0,5L",
@@ -6411,6 +6411,19 @@
     "ik": "tok:maggi|abverkauf-airfryer-fajita-fix-llung-mexikanische-mix-wrapf|27",
     "bn": "maggi",
     "wg": 27
+  },
+  {
+    "n": "Maggi Fix Airfryer Knusper Hähnchen Paprika & Knoblauch 39G",
+    "p": "1.09",
+    "o": "",
+    "s": "39 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_fix_airfryer_knusper_hhnchen_paprika_amp_knoblauch_39g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Sossen/Maggi-Fix-Airfryer-Knusper-Haehnchen-Paprika-Knoblauch-39G.html?listtype=search&searchparam=H%C3%A4hnchen",
+    "c": "Other",
+    "cn": "maggi airfryer fix hnchen knoblauch knusper paprika",
+    "ik": "tok:maggi|airfryer-fix-hnchen-knoblauch-knusper-paprika|39",
+    "bn": "maggi",
+    "wg": 39
   },
   {
     "n": "Just Spices Hähnchen Gewürz Standard 79G",
@@ -11531,6 +11544,19 @@
     "wg": 130
   },
   {
+    "n": "Löwensenf Senf Extra Scharf 250ML - Mhd 16.08.2026",
+    "p": "1.10",
+    "o": "",
+    "s": "250 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/lwensenf_senf_extra_scharf_im_glas.jpg",
+    "i": "https://www.edeka24.de/Loewensenf-Senf-extra-scharf-250ML-MHD-16-08-2026.html?listtype=search&searchparam=Senf",
+    "c": "Other",
+    "cn": "lwensenf 08 16 2026 extra mhd scharf senf wensenf",
+    "ik": "tok:lwensenf|08-16-2026-extra-mhd-scharf-senf-wensenf|250",
+    "bn": "lwensenf",
+    "wg": 250
+  },
+  {
     "n": "Thomy Delikatess Senf Mittelscharf 200ML",
     "p": "1.29",
     "o": "",
@@ -11646,19 +11672,6 @@
     "ik": "tok:wolfram|berge-feige-senfsauce-tessiner|200",
     "bn": "wolfram",
     "wg": 200
-  },
-  {
-    "n": "Alnatura Bio Süßer Senf 190G",
-    "p": "1.89",
-    "o": "",
-    "s": "190 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/alnatura_bio_ser_senf_190g.jpg",
-    "i": "https://www.edeka24.de/Alnatura-Bio-Suesser-Senf-190G.html?listtype=search&searchparam=Senf",
-    "c": "Other",
-    "cn": "alnatura bio er senf",
-    "ik": "tok:alnatura|bio-er-senf|190",
-    "bn": "alnatura",
-    "wg": 190
   },
   {
     "n": "Simmler Konfitüre Extra Hagebutte 450G",
