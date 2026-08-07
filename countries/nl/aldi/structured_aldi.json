@@ -1515,7 +1515,7 @@
   },
   {
     "n": "Melba Toast",
-    "p": "1.47",
+    "p": "1.59",
     "o": "",
     "s": "240 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1203866_main_cms_2_nl_nl_melba_toast_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -2788,7 +2788,7 @@
   },
   {
     "n": "Waterijslollies",
-    "p": "1.29",
+    "p": "1.22",
     "o": "",
     "s": "10 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1201547_main_cms_3_nl_nl_waterijslollies_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -3224,7 +3224,7 @@
   },
   {
     "n": "Geroosterde Notenmix",
-    "p": "2.39",
+    "p": "2.45",
     "o": "",
     "s": "200 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224801_main_cms_2_nl_nl_geroosterde_notenmix_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -3284,7 +3284,7 @@
   },
   {
     "n": "Walnoten Ongebrand",
-    "p": "2.69",
+    "p": "2.65",
     "o": "",
     "s": "200 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218579_main_cms_1_nl_nl_walnoten_ongebrand_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -3308,7 +3308,7 @@
   },
   {
     "n": "Notenmelange Ongezouten",
-    "p": "5.99",
+    "p": "5.95",
     "o": "",
     "s": "500 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1214493_main_cms_1_nl_nl_notenmelange_ongezouten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -3380,7 +3380,7 @@
   },
   {
     "n": "Borrelnoten Bacon-kaas, Poesta Of Paprika",
-    "p": "1.49",
+    "p": "1.35",
     "o": "",
     "s": "300 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1213200_main_cms_4_nl_nl_borrelnoten_bacon_kaas_poesta_of_paprika_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -4538,7 +4538,7 @@
   },
   {
     "n": "Minikaassoufflés",
-    "p": "2.99",
+    "p": "3.39",
     "o": "",
     "s": "250 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1236254_main_cms_1_nl_nl_minikaassouffles_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -4610,7 +4610,7 @@
   },
   {
     "n": "Italiaanse Maaltijd",
-    "p": "3.75",
+    "p": "2.99",
     "o": "",
     "s": "500 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1232085_main_cms_5_nl_nl_italiaanse_maaltijd_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -4872,7 +4872,7 @@
   },
   {
     "n": "Pizza Salami",
-    "p": "4.59",
+    "p": "3.99",
     "o": "",
     "s": "640 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1219150_1_main_cms_1_nl_nl_pizza_salami_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -5459,14 +5459,15 @@
     "wg": 80
   },
   {
-    "n": "Aanbieding Van 07.08",
-    "p": "1.79",
+    "n": "07.08 - 09.08",
+    "p": "1.49",
     "o": "",
-    "s": "Aanbieding van 07.08",
+    "s": "120 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200203_main_cms_2_nl_nl_sweet_peppers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
-    "cn": "07 08",
-    "ik": "tok:unknown|07-08|na"
+    "cn": "07 08 09",
+    "ik": "tok:unknown|07-08-09|120",
+    "wg": 120
   },
   {
     "n": "Verse Olijven Knoflook",
@@ -5479,6 +5480,18 @@
     "ik": "tok:verse|knoflook-olijven|200",
     "bn": "verse",
     "wg": 200
+  },
+  {
+    "n": "Gemarineerde Tomaten",
+    "p": "1.49",
+    "o": "",
+    "s": "120 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200188_main_cms_2_nl_nl_gemarineerde_tomaten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Other",
+    "cn": "gemarineerde tomaten",
+    "ik": "tok:gemarineerde|tomaten|120",
+    "bn": "gemarineerde",
+    "wg": 120
   },
   {
     "n": "Verse Olijven Met Basilicum",
@@ -5589,7 +5602,7 @@
   },
   {
     "n": "Fourme d'Ambert 50+",
-    "p": "1.99",
+    "p": "1.89",
     "o": "",
     "s": "117 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200476_main_cms_4_nl_nl_fourme_d_ambert_50_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -5894,7 +5907,7 @@
   },
   {
     "n": "Brownies",
-    "p": "1.69",
+    "p": "1.79",
     "o": "",
     "s": "240 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218637_main_cms_5_nl_nl_brownies_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -6814,7 +6827,7 @@
   },
   {
     "n": "Nederlandse Komkommer",
-    "p": "0.79",
+    "p": "0.75",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219603_main_cms_8_nl_nl_nederlandse_komkommer_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -8523,6 +8536,18 @@
     "wg": 450
   },
   {
+    "n": "Delicious Home",
+    "p": "1.29",
+    "o": "",
+    "s": "340 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1202473_main_cms_1_nl_nl_croissantdeeg_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Frozen Foods",
+    "cn": "delicious home",
+    "ik": "tok:delicious|home|340",
+    "bn": "delicious",
+    "wg": 340
+  },
+  {
     "n": "Slagroomsoesjes",
     "p": "2.19",
     "o": "",
@@ -9550,7 +9575,7 @@
   },
   {
     "n": "Paprika- Of Naturelchips",
-    "p": "0.45",
+    "p": "0.50",
     "o": "",
     "s": "50 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225746_main_cms_1_nl_nl_paprika_of_naturelchips_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -10181,6 +10206,18 @@
     "ik": "tok:bananen|unknown|1",
     "bn": "bananen",
     "wg": 1
+  },
+  {
+    "n": "Pitloze Rode Druiven",
+    "p": "1.19",
+    "o": "",
+    "s": "500 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219224_main_cms_28_nl_nl_pitloze_rode_druiven_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Fruits & Vegetables",
+    "cn": "pitloze druiven rode",
+    "ik": "tok:pitloze|druiven-rode|500",
+    "bn": "pitloze",
+    "wg": 500
   },
   {
     "n": "Nederlandse Aardbeien",
@@ -10937,7 +10974,7 @@
   },
   {
     "n": "Perenijs",
-    "p": "1.55",
+    "p": "1.54",
     "o": "",
     "s": "600 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230466_main_cms_2_nl_nl_perenijs_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -11081,7 +11118,7 @@
   },
   {
     "n": "Special Cornets",
-    "p": "2.99",
+    "p": "3.29",
     "o": "",
     "s": "6 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1202915_main_cms_39_nl_nl_special_cornets_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -15404,7 +15441,7 @@
   },
   {
     "n": "Bellasan",
-    "p": "1.69",
+    "p": "1.65",
     "o": "",
     "s": "750 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1212785_main_cms_2_nl_nl_culinair_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -16690,7 +16727,7 @@
   },
   {
     "n": "Schultenbräu",
-    "p": "0.99",
+    "p": "1.09",
     "o": "",
     "s": "50 cl",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225676_main_cms_2_nl_nl_hefe_weizen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -17501,7 +17538,7 @@
   },
   {
     "n": "Roomkaas Ananas",
-    "p": "1.99",
+    "p": "1.89",
     "o": "",
     "s": "125 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1237090_main_cms_1_nl_nl_roomkaas_ananas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",

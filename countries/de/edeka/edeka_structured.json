@@ -196,7 +196,7 @@
   },
   {
     "n": "Ritter Sport Trauben Nuss 100G",
-    "p": "2.19",
+    "p": "1.49",
     "o": "",
     "s": "100 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ritter_sport_trauben_nuss_tafel_100g.jpg",
@@ -495,7 +495,7 @@
   },
   {
     "n": "Ritter Sport Rum Trauben Nuss 100G",
-    "p": "2.19",
+    "p": "1.49",
     "o": "",
     "s": "100 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/rsrtn.jpg",
@@ -2741,19 +2741,6 @@
     "wg": 500
   },
   {
-    "n": "Mestemacher Gourmet Pumper Nickel 250G - Mhd 08.2026",
-    "p": "1.10",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/mestemacher_gourmet_pumper_nickel.jpg",
-    "i": "https://www.edeka24.de/Mestemacher-Gourmet-Pumper-Nickel-250G-MHD-08-2026.html?listtype=search&searchparam=Brot",
-    "c": "Other",
-    "cn": "mestemacher 08 2026 gourmet mhd nickel pumper",
-    "ik": "tok:mestemacher|08-2026-gourmet-mhd-nickel-pumper|250",
-    "bn": "mestemacher",
-    "wg": 250
-  },
-  {
     "n": "Mestemacher Sylter Walnuss-Vollkornbrot 250G",
     "p": "2.19",
     "o": "",
@@ -3025,6 +3012,19 @@
     "ik": "tok:edeka|bio-roggenvollkornbrot|500",
     "bn": "edeka",
     "wg": 500
+  },
+  {
+    "n": "Alnatura Bio Hummus Gegrilltes Gemüse 180G",
+    "p": "2.29",
+    "o": "",
+    "s": "180 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bio_alnatura_hummus_gegrilltes_gemamp252se_180g.jpg",
+    "i": "https://www.edeka24.de/Alnatura-Bio-Hummus-gegrilltes-Gemuese-180G.html?listtype=search&searchparam=Brot",
+    "c": "Other",
+    "cn": "alnatura bio gegrilltes gem hummus se",
+    "ik": "tok:alnatura|bio-gegrilltes-gem-hummus-se|180",
+    "bn": "alnatura",
+    "wg": 180
   },
   {
     "n": "Mestemacher Gourmet Pumper Nickel 250G",
@@ -6125,6 +6125,19 @@
     "ik": "tok:edeka|bio-saft-trauben|1000",
     "bn": "edeka",
     "wg": 1000
+  },
+  {
+    "n": "Edeka Roter Kur-Traubensaft 0,75L - Mhd 25.08.2026",
+    "p": "1.40",
+    "o": "",
+    "s": "750 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_rio_grande_kurtraubensaft_rot.jpg",
+    "i": "https://www.edeka24.de/EDEKA-Roter-Kur-Traubensaft-0-75L-MHD-25-08-2026.html?listtype=search&searchparam=Trauben",
+    "c": "Other",
+    "cn": "edeka 08 2026 25 kur mhd roter traubensaft",
+    "ik": "tok:edeka|08-2026-25-kur-mhd-roter-traubensaft|750",
+    "bn": "edeka",
+    "wg": 750
   },
   {
     "n": "Alnatura Origin Bio Crema Con Aceto Balsamico Di Modena 250ML",
@@ -10843,7 +10856,7 @@
   },
   {
     "n": "Erasco Westfälischer Linsen-Eintopf Mit Essig 800G",
-    "p": "3.49",
+    "p": "2.19",
     "o": "",
     "s": "800 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/erasco_westflischer_linseneintopf_mit_essig_800g(1).jpg",
@@ -12771,7 +12784,7 @@
     "o": "",
     "s": "450 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/klln_high_protein_kllnflocken_kakao_450g.jpg",
-    "i": "https://www.edeka24.de/Themenwelten/Bewusste-Ernaehrung/Fitness-Nahrung/Koelln-High-Protein-Koellnflocken-Kakao-450G.html?listtype=search&searchparam=Haferflocken",
+    "i": "https://www.edeka24.de/Themenwelten/Bewusste-Ernaehrung/Sportnahrung/Koelln-High-Protein-Koellnflocken-Kakao-450G.html?listtype=search&searchparam=Haferflocken",
     "c": "Other",
     "cn": "klln high kakao lln llnflocken protein",
     "ik": "tok:klln|high-kakao-lln-llnflocken-protein|450",
@@ -13052,19 +13065,6 @@
     "wg": 56
   },
   {
-    "n": "Jacobs Krönung Instantkaffee 100G - Mhd 08.2026",
-    "p": "3.00",
-    "o": "",
-    "s": "100 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/unbenannt(15).jpg",
-    "i": "https://www.edeka24.de/Jacobs-Kroenung-Instantkaffee-100G-MHD-08-2026.html?listtype=search&searchparam=Kaffee",
-    "c": "Other",
-    "cn": "jacobs 08 2026 instantkaffee kr mhd nung",
-    "ik": "tok:jacobs|08-2026-instantkaffee-kr-mhd-nung|100",
-    "bn": "jacobs",
-    "wg": 100
-  },
-  {
     "n": "Edeka Herzstücke Kaffeepads Balance 16ST 112G",
     "p": "2.79",
     "o": "",
@@ -13154,6 +13154,19 @@
     "ik": "tok:senseo|caffe-crema-kaffeepads|111",
     "bn": "senseo",
     "wg": 111
+  },
+  {
+    "n": "Edeka Herzstücke Kaffeekapseln Karamell 10ST 50G",
+    "p": "2.69",
+    "o": "",
+    "s": "50 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_kaffeekapseln_karamell_10st_50g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Kaffee-Tee/EDEKA-Herzstuecke-Kaffeekapseln-Karamell-10ST-50G.html?listtype=search&searchparam=Kaffee",
+    "c": "Other",
+    "cn": "edeka cke herzst kaffeekapseln karamell",
+    "ik": "tok:edeka|cke-herzst-kaffeekapseln-karamell|50",
+    "bn": "edeka",
+    "wg": 50
   },
   {
     "n": "Lavazza Crema E Gusto Filterkaffee 250G",
@@ -13525,7 +13538,7 @@
     "o": "",
     "s": "330 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/schweppes_virgin_orange_spritz_033l_dose.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Getraenke/Limonade/Schweppes-Virgin-Orange-Spritz-0-33L-Dose.html?listtype=search&searchparam=Orangensaft",
+    "i": "https://www.edeka24.de/Getraenke/Alkoholfreie-Getraenke/Limonade/Schweppes-Virgin-Orange-Spritz-0-33L-Dose.html?listtype=search&searchparam=Orangensaft",
     "c": "Other",
     "cn": "schweppes dose orange spritz virgin",
     "ik": "tok:schweppes|dose-orange-spritz-virgin|330",
@@ -14070,7 +14083,7 @@
     "o": "",
     "s": "9 x",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/vitrex_medium_9x_05l.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Getraenke/Vitrex-Medium-9x-0-5L.html?listtype=search&searchparam=Wasser",
+    "i": "https://www.edeka24.de/Getraenke/Alkoholfreie-Getraenke/Vitrex-Medium-9x-0-5L.html?listtype=search&searchparam=Wasser",
     "c": "Other",
     "cn": "vitrex 9x medium",
     "ik": "tok:vitrex|9x-medium|na",
@@ -14541,18 +14554,6 @@
     "wg": 500
   },
   {
-    "n": "Stuttgarter Hofbräu Pilsner 24x 0,5L Dose",
-    "p": "22.58",
-    "o": "",
-    "s": "24 x",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/stuttgarter-hofbru-pilsener.jpg",
-    "i": "https://www.edeka24.de/vorrat/Stuttgarter-Hofbraeu-Pilsner-24x-0-5L-Dose.html?listtype=search&searchparam=Bier",
-    "c": "Other",
-    "cn": "stuttgarter 24x dose hofbr pilsner",
-    "ik": "tok:stuttgarter|24x-dose-hofbr-pilsner|na",
-    "bn": "stuttgarter"
-  },
-  {
     "n": "Krombacher Pils 24x0,5L",
     "p": "22.58",
     "o": "",
@@ -14605,6 +14606,19 @@
     "wg": 500
   },
   {
+    "n": "Benediktiner Hell 24x0,5L",
+    "p": "29.42",
+    "o": "",
+    "s": "500 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/4052197003902_24er_web_1000x1000px-23490306.jpg",
+    "i": "https://www.edeka24.de/vorrat/Benediktiner-Hell-24x0-5L.html?listtype=search&searchparam=Bier",
+    "c": "Other",
+    "cn": "benediktiner 24x hell",
+    "ik": "tok:benediktiner|24x-hell|500",
+    "bn": "benediktiner",
+    "wg": 500
+  },
+  {
     "n": "Ferrero Rocher Tafel Weiss 90G",
     "p": "2.39",
     "o": "",
@@ -14645,7 +14659,7 @@
   },
   {
     "n": "Ritter Sport Marzipan 100G",
-    "p": "2.19",
+    "p": "1.49",
     "o": "",
     "s": "100 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/rsmarzi.jpg",
@@ -14707,19 +14721,6 @@
     "ik": "tok:ferrero|biscuits-nutella|304",
     "bn": "ferrero",
     "wg": 304
-  },
-  {
-    "n": "Kinder Kinderini 20ST 250G - Mhd 22.08.2026",
-    "p": "2.00",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/8000500391228.jpg",
-    "i": "https://www.edeka24.de/kinder-Kinderini-20ST-250G-MHD-22-08-2026.html?listtype=search&searchparam=Kekse",
-    "c": "Other",
-    "cn": "kinderini 08 2026 22 kinder mhd",
-    "ik": "tok:kinderini|08-2026-22-kinder-mhd|250",
-    "bn": "kinderini",
-    "wg": 250
   },
   {
     "n": "De Beukelaer Prinzen Rolle Schoko 400G",
@@ -14902,6 +14903,19 @@
     "ik": "tok:edeka|cke-creme-crunchy-herzst-karamell-keks|400",
     "bn": "edeka",
     "wg": 400
+  },
+  {
+    "n": "Oreo Doppelkeks Original 4ST 176G",
+    "p": "2.09",
+    "o": "",
+    "s": "176 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/oreo-doppelkeksvanillecreme_1000.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Suess-Salzig/Oreo-Doppelkeks-Original-4ST-176G.html?listtype=search&searchparam=Kekse",
+    "c": "Other",
+    "cn": "oreo doppelkeks original",
+    "ik": "tok:oreo|doppelkeks-original|176",
+    "bn": "oreo",
+    "wg": 176
   },
   {
     "n": "Funny-Frisch Chipsfrisch Oriental 150G",
@@ -15162,19 +15176,6 @@
     "ik": "tok:oberbergener|ba-burgunder-er-geige-kabinett-wei|750",
     "bn": "oberbergener",
     "wg": 750
-  },
-  {
-    "n": "Nestle Lion White Mini 12ST 237,6G - Mhd 08.2026",
-    "p": "2.80",
-    "o": "",
-    "s": "238 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/nestle_lion_white_mini_2376g.jpg",
-    "i": "https://www.edeka24.de/Nestle-Lion-White-Mini-12ST-237-6G-MHD-08-2026.html?listtype=search&searchparam=Eis",
-    "c": "Other",
-    "cn": "nestle 08 2026 lion mhd mini white",
-    "ik": "tok:nestle|08-2026-lion-mhd-mini-white|238",
-    "bn": "nestle",
-    "wg": 238
   },
   {
     "n": "Doppio Passo Moscato Sicilia Doc 0,75L",
@@ -15809,19 +15810,6 @@
     "ik": "tok:persil|20wl-gel-sensitive-vollwaschmittel|900",
     "bn": "persil",
     "wg": 900
-  },
-  {
-    "n": "Ariel Colorwaschmittel Flüssig All-in-1 Pods Color 298,5G 15WL - Abverkauf",
-    "p": "6.50",
-    "o": "",
-    "s": "298 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ariel_colorwaschmittel_flssig_allin1_pods_color_2985g_15wl.jpg",
-    "i": "https://www.edeka24.de/Drogerie/Reinigen-Waschen/Ariel-Colorwaschmittel-Fluessig-All-in-1-Pods-Color-298-5G-15WL-Abverkauf.html?listtype=search&searchparam=Waschmittel",
-    "c": "Other",
-    "cn": "ariel 15wl abverkauf all color colorwaschmittel fl in pods ssig",
-    "ik": "tok:ariel|15wl-abverkauf-all-color-colorwaschmittel-fl-in-pods-ssig|298",
-    "bn": "ariel",
-    "wg": 298
   },
   {
     "n": "Ariel All-in-1 Colorwaschmittel Flüssig Pods 313,5G 15WL",
