@@ -7056,6 +7056,19 @@
     "wg": 500
   },
   {
+    "n": "Quorn Mince",
+    "p": "2.29",
+    "o": "",
+    "s": "420 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
+    "c": "Other",
+    "cn": "quorn mince",
+    "ik": "tok:quorn|mince|420",
+    "bn": "quorn",
+    "wg": 420
+  },
+  {
     "n": "British Extra Lean Turkey Mince 2% Fat",
     "p": "3.99",
     "o": "",
@@ -7106,19 +7119,6 @@
     "ik": "tok:british|beef-fat-lean-mince-steak|750",
     "bn": "british",
     "wg": 750
-  },
-  {
-    "n": "Quorn Mince",
-    "p": "2.29",
-    "o": "",
-    "s": "420 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/quorn-quorn-mince/000000000729314001",
-    "c": "Other",
-    "cn": "quorn mince",
-    "ik": "tok:quorn|mince|420",
-    "bn": "quorn",
-    "wg": 420
   },
   {
     "n": "100% British Beef Lean Aberdeen Angus Steak Mince 5% Fat",
@@ -8213,19 +8213,6 @@
     "wg": 220
   },
   {
-    "n": "Salmon Paste",
-    "p": "0.47",
-    "o": "",
-    "s": "80 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/bramwells-salmon-paste/000000000335866001",
-    "c": "Other",
-    "cn": "salmon paste",
-    "ik": "tok:salmon|paste|80",
-    "bn": "salmon",
-    "wg": 80
-  },
-  {
     "n": "Lemon & Herb Kiln Roasted Salmon Fillets 2 Pack",
     "p": "4.29",
     "o": "",
@@ -8237,6 +8224,19 @@
     "ik": "tok:lemon|fillets-herb-kiln-pack-roasted-salmon|180",
     "bn": "lemon",
     "wg": 180
+  },
+  {
+    "n": "Salmon Paste",
+    "p": "0.47",
+    "o": "",
+    "s": "80 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/bramwells-salmon-paste/000000000335866001",
+    "c": "Other",
+    "cn": "salmon paste",
+    "ik": "tok:salmon|paste|80",
+    "bn": "salmon",
+    "wg": 80
   },
   {
     "n": "Hot Smoked Sweet Chilli Scottish Salmon Fillets 2 Pack",
@@ -11250,6 +11250,32 @@
     "wg": 1
   },
   {
+    "n": "Eco Loop Carrier Bag",
+    "p": "0.40",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/aldi-eco-loop-carrier-bag/000000000563158001",
+    "c": "Other",
+    "cn": "eco bag carrier loop",
+    "ik": "tok:eco|bag-carrier-loop|1",
+    "bn": "eco",
+    "wg": 1
+  },
+  {
+    "n": "Red Woven Reusable Bag",
+    "p": "0.65",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/aldi-red-woven-reusable-bag/000000000563299001",
+    "c": "Other",
+    "cn": "red bag reusable woven",
+    "ik": "tok:red|bag-reusable-woven|1",
+    "bn": "red",
+    "wg": 1
+  },
+  {
     "n": "Light & Delicate Pure Green Tea 40 Pack",
     "p": "0.65",
     "o": "",
@@ -11300,32 +11326,6 @@
     "ik": "tok:light|40-decaf-delicate-green-pack-tea|80",
     "bn": "light",
     "wg": 80
-  },
-  {
-    "n": "Eco Loop Carrier Bag",
-    "p": "0.40",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/aldi-eco-loop-carrier-bag/000000000563158001",
-    "c": "Other",
-    "cn": "eco bag carrier loop",
-    "ik": "tok:eco|bag-carrier-loop|1",
-    "bn": "eco",
-    "wg": 1
-  },
-  {
-    "n": "Red Woven Reusable Bag",
-    "p": "0.65",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/aldi-red-woven-reusable-bag/000000000563299001",
-    "c": "Other",
-    "cn": "red bag reusable woven",
-    "ik": "tok:red|bag-reusable-woven|1",
-    "bn": "red",
-    "wg": 1
   },
   {
     "n": "Smooth Orange Juice",
@@ -16317,19 +16317,6 @@
     "wg": 430
   },
   {
-    "n": "Pizza Pops",
-    "p": "1.99",
-    "o": "",
-    "s": "144 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
-    "c": "Other",
-    "cn": "pizza pops",
-    "ik": "tok:pizza|pops|144",
-    "bn": "pizza",
-    "wg": 144
-  },
-  {
     "n": "Pepperoni Pizza Subs 2 Pack",
     "p": "0.99",
     "o": "",
@@ -16367,6 +16354,19 @@
     "ik": "tok:deep|cheese-pan-pizza-three|390",
     "bn": "deep",
     "wg": 390
+  },
+  {
+    "n": "Pizza Pops",
+    "p": "1.99",
+    "o": "",
+    "s": "144 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/crestwood-pizza-pops/000000000483036006",
+    "c": "Other",
+    "cn": "pizza pops",
+    "ik": "tok:pizza|pops|144",
+    "bn": "pizza",
+    "wg": 144
   },
   {
     "n": "Spicy Salami Italian Stonebaked Pizza",

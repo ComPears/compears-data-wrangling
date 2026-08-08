@@ -754,6 +754,32 @@
     "wg": 1000
   },
   {
+    "n": "Weihenstephan Haltbare Milch 1,5% 1L- Verpackung verschmutzt/beschädigt",
+    "p": "1.00",
+    "o": "",
+    "s": "1 l",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/weihmilch15.jpg",
+    "i": "https://www.edeka24.de/Weihenstephan-haltbare-Milch-1-5-1L-Verpackung-verschmutzt-beschaedigt.html?listtype=search&searchparam=H-Milch",
+    "c": "Other",
+    "cn": "weihenstephan besch digt haltbare milch verpackung verschmutzt",
+    "ik": "tok:weihenstephan|besch-digt-haltbare-milch-verpackung-verschmutzt|1000",
+    "bn": "weihenstephan",
+    "wg": 1000
+  },
+  {
+    "n": "Minus L H-Milch 3,5%- Laktosefrei 1L - beschädigt/verschmutzt",
+    "p": "1.20",
+    "o": "",
+    "s": "1 l",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/minus_l_hmilch_38_laktosefrei.jpg",
+    "i": "https://www.edeka24.de/Themenwelten/Bewusste-Ernaehrung/Minus-L-H-Milch-3-5-laktosefrei-1L-beschaedigt-verschmutzt.html?listtype=search&searchparam=H-Milch",
+    "c": "Other",
+    "cn": "minus besch digt laktosefrei milch verschmutzt",
+    "ik": "tok:minus|besch-digt-laktosefrei-milch-verschmutzt|1000",
+    "bn": "minus",
+    "wg": 1000
+  },
+  {
     "n": "Weihenstephan H-Milch 3,5% 0,5L",
     "p": "1.19",
     "o": "",
@@ -1792,19 +1818,6 @@
     "wg": 190
   },
   {
-    "n": "Maggi Für Genießer Quattro Formaggi Sauce Ergibt 250ML",
-    "p": "1.19",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_fr_genieer_quattro_formaggi_sauce_ergibt_250_ml.jpg",
-    "i": "https://www.edeka24.de/Maggi-Fuer-Geniesser-Quattro-Formaggi-Sauce-ergibt-250ML.html?listtype=search&searchparam=K%C3%A4se",
-    "c": "Other",
-    "cn": "maggi er ergibt formaggi genie quattro sauce",
-    "ik": "tok:maggi|er-ergibt-formaggi-genie-quattro-sauce|250",
-    "bn": "maggi",
-    "wg": 250
-  },
-  {
     "n": "Maggi 5 Minuten Terrine Spaghetti In Käse-Sahne-Sauce 62G",
     "p": "1.59",
     "o": "",
@@ -1870,6 +1883,19 @@
     "wg": 110
   },
   {
+    "n": "Milkana Der Sahnige Laktosefrei 150G",
+    "p": "2.99",
+    "o": "",
+    "s": "150 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/milkasahnlak.jpg",
+    "i": "https://www.edeka24.de/Milkana-Der-Sahnige-laktosefrei-150G.html?listtype=search&searchparam=K%C3%A4se",
+    "c": "Other",
+    "cn": "milkana der laktosefrei sahnige",
+    "ik": "tok:milkana|der-laktosefrei-sahnige|150",
+    "bn": "milkana",
+    "wg": 150
+  },
+  {
     "n": "Milkana Frischeschale Gouda 190G",
     "p": "2.99",
     "o": "",
@@ -1894,6 +1920,19 @@
     "ik": "tok:chois|bibimmyeon-cheese-choi-gouda|123",
     "bn": "chois",
     "wg": 123
+  },
+  {
+    "n": "Edeka Bio Käse-Kürbiskern Knäckebrot 200G",
+    "p": "1.75",
+    "o": "",
+    "s": "200 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_bio_ksekrbiskern_knckebrot_200g.jpg",
+    "i": "https://www.edeka24.de/Bio-Produkte/Bio-Marken/EDEKA-Bio/EDEKA-Bio-Kaese-Kuerbiskern-Knaeckebrot-200G-oxid.html?listtype=search&searchparam=Gouda",
+    "c": "Other",
+    "cn": "edeka bio ckebrot kn rbiskern se",
+    "ik": "tok:edeka|bio-ckebrot-kn-rbiskern-se|200",
+    "bn": "edeka",
+    "wg": 200
   },
   {
     "n": "Goudas Glorie Creamy Cheese Style Sauce 550ML",
@@ -3324,19 +3363,6 @@
     "wg": 35
   },
   {
-    "n": "Hardys Traum Basis No1 Rind Mit Zucchini, Apfel & Vollkornnudeln 400G - Abverkauf",
-    "p": "2.80",
-    "o": "",
-    "s": "400 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/hardys_traum_basis_rind_hundenaturkost_400g.jpg",
-    "i": "https://www.edeka24.de/Hardys-Traum-Basis-No1-Rind-mit-Zucchini-Apfel-Vollkornnudeln-400G-Abverkauf.html?listtype=search&searchparam=Apfel",
-    "c": "Other",
-    "cn": "hardys abverkauf apfel basis mit no1 rind traum vollkornnudeln zucchini",
-    "ik": "tok:hardys|abverkauf-apfel-basis-mit-no1-rind-traum-vollkornnudeln-zucchini|400",
-    "bn": "hardys",
-    "wg": 400
-  },
-  {
     "n": "Manufaktur Jörg Geiger Prisecco Rosenzauber Alkoholfrei 0,75L",
     "p": "10.99",
     "o": "",
@@ -3530,6 +3556,19 @@
     "ik": "tok:alnatura|apfelmark-banane-bio-mit|360",
     "bn": "alnatura",
     "wg": 360
+  },
+  {
+    "n": "Rotkäppchen Fruchtsecco Granatapfel Alkoholfrei 0,75L",
+    "p": "5.29",
+    "o": "",
+    "s": "750 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/rotkppchen_fruchtsecco_granatapfel_alkoholfrei_075l.jpg",
+    "i": "https://www.edeka24.de/Rotkaeppchen-Fruchtsecco-Granatapfel-Alkoholfrei-0-75L.html?listtype=search&searchparam=Apfel",
+    "c": "Other",
+    "cn": "rotkppchen alkoholfrei fruchtsecco granatapfel ppchen rotk",
+    "ik": "tok:rotkppchen|alkoholfrei-fruchtsecco-granatapfel-ppchen-rotk|750",
+    "bn": "rotkppchen",
+    "wg": 750
   },
   {
     "n": "Corny Protein Banane Vanille 4ST 100G",
@@ -4090,17 +4129,17 @@
     "wg": 400
   },
   {
-    "n": "Barilla Pasta Sauce Arrabbiata 400G",
-    "p": "3.19",
+    "n": "Maggi Guten Appetit Fruchtige Tomatensuppe Toscana Ergibt 750ML",
+    "p": "1.19",
     "o": "",
-    "s": "400 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/arrabbiata_400g.jpg",
-    "i": "https://www.edeka24.de/Barilla-Pasta-Sauce-Arrabbiata-400G.html?listtype=search&searchparam=Tomaten",
-    "c": "Pantry",
-    "cn": "barilla arrabbiata pasta sauce",
-    "ik": "tok:barilla|arrabbiata-pasta-sauce|400",
-    "bn": "barilla",
-    "wg": 400
+    "s": "750 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_guten_appetit_suppe_tomate_toscana_grande_famp252r_750ml.jpg",
+    "i": "https://www.edeka24.de/Maggi-Guten-Appetit-Fruchtige-Tomatensuppe-Toscana-ergibt-750ML.html?listtype=search&searchparam=Tomaten",
+    "c": "Fruits & Vegetables",
+    "cn": "maggi appetit ergibt fruchtige guten tomatensuppe toscana",
+    "ik": "tok:maggi|appetit-ergibt-fruchtige-guten-tomatensuppe-toscana|750",
+    "bn": "maggi",
+    "wg": 750
   },
   {
     "n": "Maggi Ofen-Kartoffeln Mit Hackfleisch 34G",
@@ -6127,19 +6166,6 @@
     "wg": 1000
   },
   {
-    "n": "Edeka Roter Kur-Traubensaft 0,75L - Mhd 25.08.2026",
-    "p": "1.40",
-    "o": "",
-    "s": "750 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_rio_grande_kurtraubensaft_rot.jpg",
-    "i": "https://www.edeka24.de/EDEKA-Roter-Kur-Traubensaft-0-75L-MHD-25-08-2026.html?listtype=search&searchparam=Trauben",
-    "c": "Other",
-    "cn": "edeka 08 2026 25 kur mhd roter traubensaft",
-    "ik": "tok:edeka|08-2026-25-kur-mhd-roter-traubensaft|750",
-    "bn": "edeka",
-    "wg": 750
-  },
-  {
     "n": "Alnatura Origin Bio Crema Con Aceto Balsamico Di Modena 250ML",
     "p": "3.49",
     "o": "",
@@ -7440,6 +7466,19 @@
     "wg": 45
   },
   {
+    "n": "Edeka Herzstücke Feine Mahlzeit MSC-Seelachs In Gelee 415G - beschädigt/verschmutzt",
+    "p": "0.60",
+    "o": "",
+    "s": "415 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/eherzfeimahseelachs.jpg",
+    "i": "https://www.edeka24.de/EDEKA-Herzstuecke-Feine-Mahlzeit-MSC-Seelachs-in-Gelee-415G-beschaedigt-verschmutzt.html?listtype=search&searchparam=Lachs",
+    "c": "Other",
+    "cn": "edeka besch cke digt feine gelee herzst in mahlzeit msc seelachs verschmutzt",
+    "ik": "tok:edeka|besch-cke-digt-feine-gelee-herzst-in-mahlzeit-msc-seelachs-verschmutzt|415",
+    "bn": "edeka",
+    "wg": 415
+  },
+  {
     "n": "Sheba Selection In Sauce Mit Lachs 85G",
     "p": "0.79",
     "o": "",
@@ -8073,6 +8112,19 @@
     "ik": "tok:knorr|suppe-suppenliebe-zahlen|84",
     "bn": "knorr",
     "wg": 84
+  },
+  {
+    "n": "Maggi Guten Appetit Herzchen Suppe 33G",
+    "p": "1.19",
+    "o": "",
+    "s": "33 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_guten_appetit_herzchen_suppe_33g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Fertiggerichte/Suppen-zum-Anruehren/Maggi-Guten-Appetit-Herzchen-Suppe-33G.html?listtype=search&searchparam=Nudeln",
+    "c": "Other",
+    "cn": "maggi appetit guten herzchen suppe",
+    "ik": "tok:maggi|appetit-guten-herzchen-suppe|33",
+    "bn": "maggi",
+    "wg": 33
   },
   {
     "n": "Silla Die Pasta Spaghetti Glutenfrei 400G",
@@ -10361,6 +10413,19 @@
     "wg": 120
   },
   {
+    "n": "Bertolli Sonne Mit Olive 0,75L- verschmutzt/beschädigt",
+    "p": "3.50",
+    "o": "",
+    "s": "750 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bertolli_sonne_mit_olive_075l.jpg",
+    "i": "https://www.edeka24.de/Bertolli-Sonne-mit-Olive-0-75L-verschmutzt-beschaedigt.html?listtype=search&searchparam=Oliven%C3%B6l",
+    "c": "Other",
+    "cn": "bertolli besch digt mit olive sonne verschmutzt",
+    "ik": "tok:bertolli|besch-digt-mit-olive-sonne-verschmutzt|750",
+    "bn": "bertolli",
+    "wg": 750
+  },
+  {
     "n": "Bertolli Bratolivenöl Spray 200ML",
     "p": "4.99",
     "o": "",
@@ -10619,19 +10684,6 @@
     "ik": "tok:bertolli|bio-extra-natives-oliven|250",
     "bn": "bertolli",
     "wg": 250
-  },
-  {
-    "n": "Edeka Herzstücke Ciabatta 300G",
-    "p": "1.39",
-    "o": "",
-    "s": "300 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_ciabatta_300g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Brot-Broetchen/EDEKA-Herzstuecke-Ciabatta-300G.html?listtype=search&searchparam=Oliven%C3%B6l",
-    "c": "Other",
-    "cn": "edeka ciabatta cke herzst",
-    "ik": "tok:edeka|ciabatta-cke-herzst|300",
-    "bn": "edeka",
-    "wg": 300
   },
   {
     "n": "Surig Hygreen Essig Reiniger 500ML",
@@ -13598,6 +13650,19 @@
     "wg": 1000
   },
   {
+    "n": "Edeka Bio Orangen Saft 1L- Beschädigte Verpackung",
+    "p": "1.40",
+    "o": "",
+    "s": "1 l",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_bio_orangen_saft_1_ltr.jpg",
+    "i": "https://www.edeka24.de/Edeka-Bio-Orangen-Saft-1L-beschaedigte-Verpackung.html?listtype=search&searchparam=Orangensaft",
+    "c": "Other",
+    "cn": "edeka besch bio digte orangen saft verpackung",
+    "ik": "tok:edeka|besch-bio-digte-orangen-saft-verpackung|1000",
+    "bn": "edeka",
+    "wg": 1000
+  },
+  {
     "n": "Edeka Herzstücke Orange Zartbitter 100G",
     "p": "2.99",
     "o": "",
@@ -15139,19 +15204,6 @@
     "wg": 100
   },
   {
-    "n": "Alnatura Bio Mais Chips Natur 125G - Mhd 12.08.2026",
-    "p": "1.00",
-    "o": "",
-    "s": "125 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bio_alnatura_mais_chips_natur_125g.jpg",
-    "i": "https://www.edeka24.de/Alnatura-Bio-Mais-Chips-Natur-125G-MHD-12-08-2026.html?listtype=search&searchparam=Chips",
-    "c": "Snacks",
-    "cn": "alnatura 08 12 2026 bio chips mais mhd natur",
-    "ik": "tok:alnatura|08-12-2026-bio-chips-mais-mhd-natur|125",
-    "bn": "alnatura",
-    "wg": 125
-  },
-  {
     "n": "Gut & Günstig Tortilla Chips Gesalzen 300G",
     "p": "1.59",
     "o": "",
@@ -15163,6 +15215,19 @@
     "ik": "tok:gut|chips-gesalzen-nstig-tortilla|300",
     "bn": "gut",
     "wg": 300
+  },
+  {
+    "n": "Gut & Günstig Linsen Chips Sour Cream 90G",
+    "p": "1.09",
+    "o": "",
+    "s": "90 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/gampampg_linsenchips_sour_cream_90g.jpg",
+    "i": "https://www.edeka24.de/Gut-Guenstig-Linsen-Chips-Sour-Cream-90G.html?listtype=search&searchparam=Chips",
+    "c": "Snacks",
+    "cn": "gut chips cream linsen nstig sour",
+    "ik": "tok:gut|chips-cream-linsen-nstig-sour|90",
+    "bn": "gut",
+    "wg": 90
   },
   {
     "n": "Erasco 2 Kohlrouladen 800G",
@@ -15253,19 +15318,6 @@
     "cn": "orangina 6x fruchtfleisch mit orange pet",
     "ik": "tok:orangina|6x-fruchtfleisch-mit-orange-pet|na",
     "bn": "orangina"
-  },
-  {
-    "n": "Ortenauer Weinkeller Baden Weißburgunder Feinherb 0,75L - Etikett verschmutzt/beschädigt",
-    "p": "2.39",
-    "o": "",
-    "s": "750 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/owkweissbugunder.jpg",
-    "i": "https://www.edeka24.de/Ortenauer-Weinkeller-Baden-Weissburgunder-feinherb-0-75L-Etikett-verschmutzt-beschaedigt.html?listtype=search&searchparam=Eis",
-    "c": "Other",
-    "cn": "ortenauer baden besch burgunder digt etikett feinherb verschmutzt wei weinkeller",
-    "ik": "tok:ortenauer|baden-besch-burgunder-digt-etikett-feinherb-verschmutzt-wei-weinkeller|750",
-    "bn": "ortenauer",
-    "wg": 750
   },
   {
     "n": "Alde Gott Grauburgunder Kabinett Trocken 0,75L",

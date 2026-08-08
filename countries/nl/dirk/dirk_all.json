@@ -432,14 +432,14 @@
     "wg": 4
   },
   {
-    "n": "Van 1.95 1 69 Jonagold Verpakt Per 1,5 Kilo",
-    "p": "",
+    "n": "Jonagold Verpakt Per 1,5 Kilo",
+    "p": "1.95",
     "o": "",
     "s": "1 stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F100021_1_247732_638803911265230909.png?width=190",
     "c": "Fruits & Vegetables",
-    "cn": "jonagold 69 95 kilo verpakt",
-    "ik": "tok:jonagold|69-95-kilo-verpakt|1",
+    "cn": "jonagold kilo verpakt",
+    "ik": "tok:jonagold|kilo-verpakt|1",
     "bn": "jonagold",
     "wg": 1
   },
@@ -588,14 +588,14 @@
     "wg": 3
   },
   {
-    "n": "Van 3.58 2 58 Minneola 1 Kg (ca. 5 stuks)",
-    "p": "",
+    "n": "Minneola 1 Kg (ca. 5 stuks)",
+    "p": "3.58",
     "o": "",
     "s": "1 stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F213505_1_247613_638732199600523128.png?width=190",
     "c": "Fruits & Vegetables",
-    "cn": "minneola 58 ca",
-    "ik": "tok:minneola|58-ca|1",
+    "cn": "minneola ca",
+    "ik": "tok:minneola|ca|1",
     "bn": "minneola",
     "wg": 1
   },
@@ -828,18 +828,6 @@
     "wg": 500
   },
   {
-    "n": "Van 1.99 1 69 1 De Beste Watermeloen Part Per Stuk",
-    "p": "",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F117171_1_398523_638304364879975988.png?width=190",
-    "c": "Fruits & Vegetables",
-    "cn": "beste 69 99 part watermeloen",
-    "ik": "tok:beste|69-99-part-watermeloen|1",
-    "bn": "beste",
-    "wg": 1
-  },
-  {
     "n": "1 De Beste Fruitsalade Luxe",
     "p": "3.99",
     "o": "",
@@ -897,18 +885,6 @@
     "cn": "beste druiven pitloze rode",
     "ik": "tok:beste|druiven-pitloze-rode|500",
     "bn": "beste",
-    "wg": 500
-  },
-  {
-    "n": "Kersen Verpakt",
-    "p": "3.49",
-    "o": "",
-    "s": "500 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F268881_2026-07-08_04-02-27-588_198d548f-9ca1-453e-ad44-bcb1d6191647.png?width=190",
-    "c": "Fruits & Vegetables",
-    "cn": "kersen verpakt",
-    "ik": "tok:kersen|verpakt|500",
-    "bn": "kersen",
     "wg": 500
   },
   {
@@ -981,30 +957,6 @@
     "cn": "piel meloen sapo",
     "ik": "tok:piel|meloen-sapo|1",
     "bn": "piel",
-    "wg": 1
-  },
-  {
-    "n": "Van 1.99 99 Galia Meloen Per Stuk",
-    "p": "",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F268844_2026-08-07_04-04-34-683_19f742b8-9bb3-4270-9f12-cb3ee982111f.png?width=190",
-    "c": "Fruits & Vegetables",
-    "cn": "galia 99 meloen",
-    "ik": "tok:galia|99-meloen|1",
-    "bn": "galia",
-    "wg": 1
-  },
-  {
-    "n": "Xl Watermeloen Ca. 4 kilo. Per Stuk",
-    "p": "3.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F369008_2026-08-07_04-07-39-222_9fef9bf1-397c-4cdf-8d5c-d497d260c313.png?width=190",
-    "c": "Fruits & Vegetables",
-    "cn": "watermeloen ca kilo xl",
-    "ik": "tok:watermeloen|ca-kilo-xl|1",
-    "bn": "watermeloen",
     "wg": 1
   },
   {
@@ -4932,6 +4884,18 @@
     "wg": 1
   },
   {
+    "n": "Love Beets Rode Bieten Gekookt",
+    "p": "0.99",
+    "o": "",
+    "s": "250 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F494088_2026-08-07_11-43-08-340_445260a9-7f1f-491b-898e-cda001d1b22e.png?width=190",
+    "c": "Fruits & Vegetables",
+    "cn": "love beets bieten gekookt rode",
+    "ik": "tok:love|beets-bieten-gekookt-rode|250",
+    "bn": "love",
+    "wg": 250
+  },
+  {
     "n": "1 De Beste Ijsbergsla Naturel Kleinverpakking",
     "p": "0.79",
     "o": "",
@@ -6892,7 +6856,7 @@
     "p": "1.75",
     "o": "",
     "s": "100 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F423076_2026-07-30_15-01-51-581_dc506999-587c-45b6-b57b-6627684ddedd.png?width=190",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F423076_2026-08-07_15-47-28-145_c49423fe-6a61-41de-b5b8-0384db8ce8d1.png?width=190",
     "c": "Meat & Seafood",
     "cn": "beste achterham flinterdun",
     "ik": "tok:beste|achterham-flinterdun|100",
@@ -7096,7 +7060,7 @@
     "p": "1.89",
     "o": "",
     "s": "100 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F488262_2026-07-13_09-20-27-395_96b90fd3-496b-4020-85cb-c9d6fd77c369.png?width=190",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F488262_2026-08-07_10-00-33-040_c3192ccc-e4eb-4a98-a7b0-baaa48063006.png?width=190",
     "c": "Meat & Seafood",
     "cn": "beste flinterdun kipfilet",
     "ik": "tok:beste|flinterdun-kipfilet|100",
@@ -9972,14 +9936,14 @@
     "wg": 270
   },
   {
-    "n": "Van 4.99 3 99 Pangasiusfilet Tuinkruiden 2 st.",
-    "p": "",
+    "n": "Pangasiusfilet Tuinkruiden 2 st.",
+    "p": "4.99",
     "o": "",
     "s": "300 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F256649_1_489195_639123825157547929.png?width=190",
     "c": "Meat & Seafood",
-    "cn": "pangasiusfilet 99 tuinkruiden",
-    "ik": "tok:pangasiusfilet|99-tuinkruiden|300",
+    "cn": "pangasiusfilet tuinkruiden",
+    "ik": "tok:pangasiusfilet|tuinkruiden|300",
     "bn": "pangasiusfilet",
     "wg": 300
   },
@@ -22906,6 +22870,18 @@
     "wg": 138
   },
   {
+    "n": "La Vache Qui Rit Naturel",
+    "p": "2.09",
+    "o": "",
+    "s": "120 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F471719_2026-08-07_12-50-44-316_1880103a-d408-4e26-8ba3-170c59d9441d.png?width=190",
+    "c": "Dairy & Eggs",
+    "cn": "la vache qui rit naturel",
+    "ik": "tok:la vache qui rit|naturel|120",
+    "bn": "la vache qui rit",
+    "wg": 120
+  },
+  {
     "n": "Bessola Krentjebrij",
     "p": "1.79",
     "o": "",
@@ -24058,14 +24034,14 @@
     "wg": 150
   },
   {
-    "n": "Van 2.69 1 99 Activia Yoghurt Pruim 4 X 125 G",
-    "p": "",
+    "n": "Activia Yoghurt Pruim 4 X 125 G",
+    "p": "2.69",
     "o": "",
     "s": "1 stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F185039_1_27367_638458311966046137.png?width=190",
     "c": "Dairy & Eggs",
-    "cn": "activia 69 99 pruim yoghurt",
-    "ik": "tok:activia|69-99-pruim-yoghurt|1",
+    "cn": "activia pruim yoghurt",
+    "ik": "tok:activia|pruim-yoghurt|1",
     "bn": "activia",
     "wg": 1
   },
@@ -24130,14 +24106,14 @@
     "wg": 150
   },
   {
-    "n": "Van 2.79 1 99 Activia Yoghurt Aardbei 4 X 125 G",
-    "p": "",
+    "n": "Activia Yoghurt Aardbei 4 X 125 G",
+    "p": "2.79",
     "o": "",
     "s": "1 stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F185048_1_401540_638458311902988512.png?width=190",
     "c": "Dairy & Eggs",
-    "cn": "activia 79 99 aardbei yoghurt",
-    "ik": "tok:activia|79-99-aardbei-yoghurt|1",
+    "cn": "activia aardbei yoghurt",
+    "ik": "tok:activia|aardbei-yoghurt|1",
     "bn": "activia",
     "wg": 1
   },
@@ -24262,14 +24238,14 @@
     "wg": 1000
   },
   {
-    "n": "Van 2.89 1 99 Activia Yoghurt Granen 4 Stuks",
-    "p": "",
+    "n": "Activia Yoghurt Granen 4 Stuks",
+    "p": "2.89",
     "o": "",
     "s": "500 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F185083_1_453136_638458302843910808.png?width=190",
     "c": "Dairy & Eggs",
-    "cn": "activia 89 99 granen yoghurt",
-    "ik": "tok:activia|89-99-granen-yoghurt|500",
+    "cn": "activia granen yoghurt",
+    "ik": "tok:activia|granen-yoghurt|500",
     "bn": "activia",
     "wg": 500
   },
@@ -24442,14 +24418,14 @@
     "wg": 500
   },
   {
-    "n": "Van 2.69 1 99 Activia Yoghurt Muesli 4 X 125 G",
-    "p": "",
+    "n": "Activia Yoghurt Muesli 4 X 125 G",
+    "p": "2.69",
     "o": "",
     "s": "1 stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F255519_1_408520_639113331844912849.png?width=190",
     "c": "Dairy & Eggs",
-    "cn": "activia 69 99 muesli yoghurt",
-    "ik": "tok:activia|69-99-muesli-yoghurt|1",
+    "cn": "activia muesli yoghurt",
+    "ik": "tok:activia|muesli-yoghurt|1",
     "bn": "activia",
     "wg": 1
   },
@@ -24562,14 +24538,14 @@
     "wg": 755
   },
   {
-    "n": "Van 3.09 1 99 Activia Yoghurt Haver Walnoot 4st",
-    "p": "",
+    "n": "Activia Yoghurt Haver Walnoot 4st",
+    "p": "3.09",
     "o": "",
     "s": "500 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F258623_1_490782_639153318210737455.png?width=190",
     "c": "Dairy & Eggs",
-    "cn": "activia 09 99 haver walnoot yoghurt",
-    "ik": "tok:activia|09-99-haver-walnoot-yoghurt|500",
+    "cn": "activia haver walnoot yoghurt",
+    "ik": "tok:activia|haver-walnoot-yoghurt|500",
     "bn": "activia",
     "wg": 500
   },
@@ -25078,14 +25054,14 @@
     "wg": 500
   },
   {
-    "n": "Van 2.29 1 99 Activia Yoghurt Naturel 4 X 125 G",
-    "p": "",
+    "n": "Activia Yoghurt Naturel 4 X 125 G",
+    "p": "2.29",
     "o": "",
     "s": "1 stuk",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F185036_1_114767_638458491439303147.png?width=190",
     "c": "Dairy & Eggs",
-    "cn": "activia 29 99 naturel yoghurt",
-    "ik": "tok:activia|29-99-naturel-yoghurt|1",
+    "cn": "activia naturel yoghurt",
+    "ik": "tok:activia|naturel-yoghurt|1",
     "bn": "activia",
     "wg": 1
   },
@@ -25554,6 +25530,30 @@
     "c": "Beverages",
     "cn": "stelz 6x hard ice lemon peach tea",
     "ik": "tok:stelz|6x-hard-ice-lemon-peach-tea|1500",
+    "bn": "stelz",
+    "wg": 1500
+  },
+  {
+    "n": "Stelz Raspberry & Passionfruit 6 st.",
+    "p": "7.99",
+    "o": "",
+    "s": "1.50 l",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F493870_2026-08-07_10-58-57-147_6bf74b81-9af0-4eaf-a826-c2c402619918.png?width=190",
+    "c": "Beverages",
+    "cn": "stelz passionfruit raspberry",
+    "ik": "tok:stelz|passionfruit-raspberry|1500",
+    "bn": "stelz",
+    "wg": 1500
+  },
+  {
+    "n": "Stelz Hard Lemonade Strawberry & Cassis",
+    "p": "7.99",
+    "o": "",
+    "s": "1.50 l",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F493871_2026-08-07_13-17-11-541_da6ebb11-9560-4405-9578-e366114d3bb2.png?width=190",
+    "c": "Beverages",
+    "cn": "stelz cassis hard lemonade strawberry",
+    "ik": "tok:stelz|cassis-hard-lemonade-strawberry|1500",
     "bn": "stelz",
     "wg": 1500
   },
@@ -35073,6 +35073,30 @@
     "wg": 30
   },
   {
+    "n": "Lavazza Koffiecups Maestro Ristretto Sterkte 12",
+    "p": "12.79",
+    "o": "",
+    "s": "30 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F490889_2026-08-07_11-03-52-955_0eae61a0-0203-4a4f-b625-bcacfa96854c.png?width=190",
+    "c": "Beverages",
+    "cn": "lavazza 12 koffiecups maestro ristretto sterkte",
+    "ik": "tok:lavazza|12-koffiecups-maestro-ristretto-sterkte|30",
+    "bn": "lavazza",
+    "wg": 30
+  },
+  {
+    "n": "Lavazza Koffiecups Alu Qualita Oro Sterkte 8",
+    "p": "12.79",
+    "o": "",
+    "s": "30 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F490888_2026-08-07_11-03-26-111_a3c648c6-709e-487d-9473-a4b380639139.png?width=190",
+    "c": "Beverages",
+    "cn": "lavazza alu koffiecups oro qualita sterkte",
+    "ik": "tok:lavazza|alu-koffiecups-oro-qualita-sterkte|30",
+    "bn": "lavazza",
+    "wg": 30
+  },
+  {
     "n": "Paco Koffiefilterzakjes nr. 4",
     "p": "0.79",
     "o": "",
@@ -42825,26 +42849,26 @@
     "wg": 80
   },
   {
-    "n": "Nalys Toiletpapier Velours 6-rol",
-    "p": "5.29",
+    "n": "Van 5.29 1 99 Nalys Toiletpapier Velours 6-rol",
+    "p": "",
     "o": "",
     "s": "6 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F198323_1_468444_638602869796177186.png?width=190",
     "c": "Household",
-    "cn": "nalys rol toiletpapier velours",
-    "ik": "tok:nalys|rol-toiletpapier-velours|6",
+    "cn": "nalys 29 99 rol toiletpapier velours",
+    "ik": "tok:nalys|29-99-rol-toiletpapier-velours|6",
     "bn": "nalys",
     "wg": 6
   },
   {
-    "n": "Nalys Toiletpapier Excellence",
-    "p": "5.69",
+    "n": "Van 5.69 1 99 Nalys Toiletpapier Excellence",
+    "p": "",
     "o": "",
     "s": "6 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F222366_1_471190_638792682895206538.png?width=190",
     "c": "Household",
-    "cn": "nalys excellence toiletpapier",
-    "ik": "tok:nalys|excellence-toiletpapier|6",
+    "cn": "nalys 69 99 excellence toiletpapier",
+    "ik": "tok:nalys|69-99-excellence-toiletpapier|6",
     "bn": "nalys",
     "wg": 6
   },
@@ -46714,7 +46738,7 @@
   },
   {
     "n": "Dove Deospray Men Clean Comfort",
-    "p": "1.99",
+    "p": "2.49",
     "o": "",
     "s": "150 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F236521_1_468733_638889423218322638.png?width=190",
@@ -46726,7 +46750,7 @@
   },
   {
     "n": "Dove Men Deo Fresh",
-    "p": "1.99",
+    "p": "2.49",
     "o": "",
     "s": "150 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F250053_1_484946_639064911621028608.png?width=190",
@@ -49135,6 +49159,18 @@
     "ik": "tok:derlon|reinigingsmelk|200",
     "bn": "derlon",
     "wg": 200
+  },
+  {
+    "n": "Garnier Micellair Water",
+    "p": "3.99",
+    "o": "",
+    "s": "400 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F493316_2026-08-07_10-59-39-665_046fa38a-1e48-4de6-b263-f69838c5ebc6.png?width=190",
+    "c": "Personal Care",
+    "cn": "garnier micellair water",
+    "ik": "tok:garnier|micellair-water|400",
+    "bn": "garnier",
+    "wg": 400
   },
   {
     "n": "Derlon Handcreme",
@@ -63297,26 +63333,26 @@
     "wg": 280
   },
   {
-    "n": "Van 4.49 3 99 Fresh & Easy Poke Bowl Zalm",
-    "p": "",
+    "n": "Fresh & Easy Poke Bowl Zalm",
+    "p": "4.49",
     "o": "",
     "s": "280 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F224753_1_478610_638814534306972338.png?width=190",
     "c": "Fruits & Vegetables",
-    "cn": "fresh 49 99 bowl easy poke zalm",
-    "ik": "tok:fresh|49-99-bowl-easy-poke-zalm|280",
+    "cn": "fresh bowl easy poke zalm",
+    "ik": "tok:fresh|bowl-easy-poke-zalm|280",
     "bn": "fresh",
     "wg": 280
   },
   {
-    "n": "Van 4.49 3 99 Fresh & Easy Poke Bowl Kip",
-    "p": "",
+    "n": "Fresh & Easy Poke Bowl Kip",
+    "p": "4.49",
     "o": "",
     "s": "280 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F224752_1_478609_638814534306259375.png?width=190",
     "c": "Fruits & Vegetables",
-    "cn": "fresh 49 99 bowl easy kip poke",
-    "ik": "tok:fresh|49-99-bowl-easy-kip-poke|280",
+    "cn": "fresh bowl easy kip poke",
+    "ik": "tok:fresh|bowl-easy-kip-poke|280",
     "bn": "fresh",
     "wg": 280
   },
@@ -64465,7 +64501,7 @@
     "p": "2.19",
     "o": "",
     "s": "100 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen/noPicture.png?width=190",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F485269_2026-08-07_11-05-22-651_a589a573-e336-47d3-8f24-bc8e737100ec.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "bits bites chili kaasblokjes",
     "ik": "tok:bits|bites-chili-kaasblokjes|100",
@@ -67357,7 +67393,7 @@
     "p": "2.45",
     "o": "",
     "s": "400 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F492730_2026-07-06_14-49-09-537_33f8feb7-3457-4e0a-93ce-aa6c6d9897c9.png?width=190",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F492730_2026-08-08_02-55-47-917_27477a0e-c4bb-4b86-a704-421b4fef0b5d.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "daily chef lasagne zalm",
     "ik": "tok:daily|chef-lasagne-zalm|400",
@@ -67369,7 +67405,7 @@
     "p": "4.79",
     "o": "",
     "s": "1 l",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F492731_2026-07-06_14-48-51-512_38b020db-98e6-4709-9959-ae5a62bee534.png?width=190",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F492731_2026-08-08_02-55-47-918_f01c119c-1c50-4293-8e32-e5522f212ff7.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "daily bolognese chef lasagne",
     "ik": "tok:daily|bolognese-chef-lasagne|1000",
@@ -67381,7 +67417,7 @@
     "p": "3.99",
     "o": "",
     "s": "400 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F492735_2026-07-06_14-49-37-671_6c493261-d402-4717-9d85-25ea79f5e8a2.png?width=190",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F492735_2026-08-08_02-55-47-926_b943a749-8c6c-4444-b139-e3be530a08b6.png?width=190",
     "c": "Fruits & Vegetables",
     "cn": "daily chef kip lasagne mascarpone",
     "ik": "tok:daily|chef-kip-lasagne-mascarpone|400",
@@ -70233,18 +70269,6 @@
     "wg": 400
   },
   {
-    "n": "Fitmeals Kapsalon Chicken",
-    "p": "5.99",
-    "o": "",
-    "s": "300 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F240562_1_482922_638932011203344020.png?width=190",
-    "c": "Frozen Foods",
-    "cn": "fitmeals chicken kapsalon",
-    "ik": "tok:fitmeals|chicken-kapsalon|300",
-    "bn": "fitmeals",
-    "wg": 300
-  },
-  {
     "n": "Lazy Falafel Bowl Mexican",
     "p": "4.75",
     "o": "",
@@ -70363,6 +70387,18 @@
     "ik": "tok:lazy|masala-tikka|450",
     "bn": "lazy",
     "wg": 450
+  },
+  {
+    "n": "Fitmeals Kapsalon Chicken",
+    "p": "5.99",
+    "o": "",
+    "s": "300 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F482922_2026-08-07_11-09-36-737_9ad75607-7978-4365-8457-96f6998675f3.png?width=190",
+    "c": "Frozen Foods",
+    "cn": "fitmeals chicken kapsalon",
+    "ik": "tok:fitmeals|chicken-kapsalon|300",
+    "bn": "fitmeals",
+    "wg": 300
   },
   {
     "n": "Dr. Oetker Bistro Baguette Bolognese 2 Stuks",
@@ -70561,7 +70597,7 @@
     "p": "2.49",
     "o": "",
     "s": "415 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F258222_1_488601_639147792167958076.png?width=190",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F488601_2026-08-07_11-10-28-553_ddd76b6c-e269-4766-84a9-d0c663474b24.png?width=190",
     "c": "Frozen Foods",
     "cn": "wagner big salami sensation",
     "ik": "tok:wagner|big-salami-sensation|415",
@@ -70579,6 +70615,18 @@
     "ik": "tok:wagner|bbq-big-chicken-sensation|440",
     "bn": "wagner",
     "wg": 440
+  },
+  {
+    "n": "Wagner Big Sensation spinach-cheese",
+    "p": "2.49",
+    "o": "",
+    "s": "450 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F489948_2026-08-07_11-11-03-154_92d0d691-549a-4f79-8ba4-46909ee6b1a8.png?width=190",
+    "c": "Frozen Foods",
+    "cn": "wagner big cheese sensation spinach",
+    "ik": "tok:wagner|big-cheese-sensation-spinach|450",
+    "bn": "wagner",
+    "wg": 450
   },
   {
     "n": "1 De Beste Steenoven Pizza Margherita 3 Stuks",
@@ -72021,26 +72069,26 @@
     "wg": 405
   },
   {
-    "n": "Van 3.49 1 99 Goodoo Strawberry Cheesecake 3 st.",
-    "p": "",
+    "n": "Goodoo Strawberry Cheesecake 3 st.",
+    "p": "3.49",
     "o": "",
     "s": "210 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F216366_1_476761_638787516525395383.png?width=190",
     "c": "Frozen Foods",
-    "cn": "goodoo 49 99 cheesecake strawberry",
-    "ik": "tok:goodoo|49-99-cheesecake-strawberry|210",
+    "cn": "goodoo cheesecake strawberry",
+    "ik": "tok:goodoo|cheesecake-strawberry|210",
     "bn": "goodoo",
     "wg": 210
   },
   {
-    "n": "Van 3.49 1 99 Goodoo Mango Passie 3 st.",
-    "p": "",
+    "n": "Goodoo Mango Passie 3 st.",
+    "p": "3.49",
     "o": "",
     "s": "210 ml",
     "l": "https://web-fileserver.dirk.nl/artikelen%2F217100_1_476762_638787516530453338.png?width=190",
     "c": "Frozen Foods",
-    "cn": "goodoo 49 99 mango passie",
-    "ik": "tok:goodoo|49-99-mango-passie|210",
+    "cn": "goodoo mango passie",
+    "ik": "tok:goodoo|mango-passie|210",
     "bn": "goodoo",
     "wg": 210
   },
@@ -72249,6 +72297,30 @@
     "wg": 398
   },
   {
+    "n": "Koko Bevroren Aardbei In Melkchocolade",
+    "p": "2.49",
+    "o": "",
+    "s": "130 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F492748_2026-08-07_11-07-51-973_e6922e6d-73c4-40c7-b498-d660c85453a6.png?width=190",
+    "c": "Frozen Foods",
+    "cn": "koko aardbei bevroren in melkchocolade",
+    "ik": "tok:koko|aardbei-bevroren-in-melkchocolade|130",
+    "bn": "koko",
+    "wg": 130
+  },
+  {
+    "n": "Koko Bevroren Banaan In Melkchocolade",
+    "p": "2.49",
+    "o": "",
+    "s": "130 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F492749_2026-08-07_11-08-33-371_ef21e34e-ae8b-4b8d-b4d7-89758a8b6c4f.png?width=190",
+    "c": "Frozen Foods",
+    "cn": "koko banaan bevroren in melkchocolade",
+    "ik": "tok:koko|banaan-bevroren-in-melkchocolade|130",
+    "bn": "koko",
+    "wg": 130
+  },
+  {
     "n": "Multy Meerdingendoekjes",
     "p": "1.99",
     "o": "",
@@ -72357,18 +72429,6 @@
     "wg": 1
   },
   {
-    "n": "Dirt Devil Spraymop Per Stuk",
-    "p": "9.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F441409_2026-08-05_04-07-04-234_479a089b-a3c4-4e69-bf1b-b514e02cb072.png?width=190",
-    "c": "Other",
-    "cn": "dirt devil spraymop",
-    "ik": "tok:dirt|devil-spraymop|1",
-    "bn": "dirt",
-    "wg": 1
-  },
-  {
     "n": "Scheermesjes 21-delig",
     "p": "1.99",
     "o": "",
@@ -72402,18 +72462,6 @@
     "cn": "haaraccessoires per stuk",
     "ik": "tok:haaraccessoires|unknown|1",
     "bn": "haaraccessoires",
-    "wg": 1
-  },
-  {
-    "n": "Kleurboek Met Stiften Per Stuk",
-    "p": "1.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F476300_2026-08-07_04-02-04-156_27c79ce0-c448-4c07-9321-0eb1c8cdb36d.png?width=190",
-    "c": "Other",
-    "cn": "kleurboek stiften",
-    "ik": "tok:kleurboek|stiften|1",
-    "bn": "kleurboek",
     "wg": 1
   },
   {
@@ -72558,6 +72606,270 @@
     "cn": "nexxt vlekkenverwijderaar",
     "ik": "tok:nexxt|vlekkenverwijderaar|1",
     "bn": "nexxt",
+    "wg": 1
+  },
+  {
+    "n": "Kleurboek Met Stiften Per Stuk",
+    "p": "1.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F476300_2026-08-07_04-02-04-156_27c79ce0-c448-4c07-9321-0eb1c8cdb36d.png?width=190",
+    "c": "Other",
+    "cn": "kleurboek stiften",
+    "ik": "tok:kleurboek|stiften|1",
+    "bn": "kleurboek",
+    "wg": 1
+  },
+  {
+    "n": "Dirt Devil Spraymop Per Stuk",
+    "p": "9.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F441409_2026-08-05_04-07-04-234_479a089b-a3c4-4e69-bf1b-b514e02cb072.png?width=190",
+    "c": "Other",
+    "cn": "dirt devil spraymop",
+    "ik": "tok:dirt|devil-spraymop|1",
+    "bn": "dirt",
+    "wg": 1
+  },
+  {
+    "n": "Squishy Tastic Bal Per Stuk",
+    "p": "0.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F486068_2026-08-05_04-06-31-091_c053df74-30a7-433d-ab0e-235b9faaecb5.png?width=190",
+    "c": "Other",
+    "cn": "squishy bal tastic",
+    "ik": "tok:squishy|bal-tastic|1",
+    "bn": "squishy",
+    "wg": 1
+  },
+  {
+    "n": "Kleurboek Animal Per Stuk",
+    "p": "1.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F487956_2026-08-07_04-06-20-637_3970f364-8afb-4370-a194-9dcff0490210.png?width=190",
+    "c": "Other",
+    "cn": "kleurboek animal",
+    "ik": "tok:kleurboek|animal|1",
+    "bn": "kleurboek",
+    "wg": 1
+  },
+  {
+    "n": "Vangbalspel Per Stuk",
+    "p": "1.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F486769_2026-08-05_04-07-02-820_961ff55b-816d-404e-b99e-82bb6c6ff6d8.png?width=190",
+    "c": "Other",
+    "cn": "vangbalspel per stuk",
+    "ik": "tok:vangbalspel|unknown|1",
+    "bn": "vangbalspel",
+    "wg": 1
+  },
+  {
+    "n": "Duct Tape Per Rol",
+    "p": "2.49",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F452054_2026-08-07_04-04-40-936_720e3de4-f6e1-450a-a182-81cfa72af585.png?width=190",
+    "c": "Other",
+    "cn": "duct rol tape",
+    "ik": "tok:duct|rol-tape|1",
+    "bn": "duct",
+    "wg": 1
+  },
+  {
+    "n": "Benson Spanband 5 Meter Per Stuk",
+    "p": "1.59",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F490871_2026-08-05_04-02-47-683_89c895de-ea75-476d-bfc3-4d18ceefb420.png?width=190",
+    "c": "Other",
+    "cn": "benson meter spanband",
+    "ik": "tok:benson|meter-spanband|1",
+    "bn": "benson",
+    "wg": 1
+  },
+  {
+    "n": "Vacuum Opbergzak 59x80cm Per Stuk",
+    "p": "0.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F491503_2026-08-05_04-03-23-615_817cc782-ee25-41b3-b3b5-3e81bdd954eb.png?width=190",
+    "c": "Other",
+    "cn": "vacuum 59x80cm opbergzak",
+    "ik": "tok:vacuum|59x80cm-opbergzak|1",
+    "bn": "vacuum",
+    "wg": 1
+  },
+  {
+    "n": "Houten Modderkeuken Per Stuk",
+    "p": "19.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F492066_2026-08-05_04-05-27-242_dc6e2409-d943-44bd-976f-8eb6f0e24558.png?width=190",
+    "c": "Other",
+    "cn": "houten modderkeuken",
+    "ik": "tok:houten|modderkeuken|1",
+    "bn": "houten",
+    "wg": 1
+  },
+  {
+    "n": "Strandtent 220x115x115cm Per Stuk",
+    "p": "8.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F491471_2026-08-05_04-02-52-797_29782b88-b9e0-4d41-ac2e-27dff7acb44e.png?width=190",
+    "c": "Other",
+    "cn": "strandtent 220x115x115cm",
+    "ik": "tok:strandtent|220x115x115cm|1",
+    "bn": "strandtent",
+    "wg": 1
+  },
+  {
+    "n": "Lol Tandenborstel Met Zuignap Per Stuk",
+    "p": "1.29",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F492310_2026-08-05_04-02-10-492_40aed113-41ff-4c15-8606-fd76bc2d1037.png?width=190",
+    "c": "Other",
+    "cn": "lol tandenborstel zuignap",
+    "ik": "tok:lol|tandenborstel-zuignap|1",
+    "bn": "lol",
+    "wg": 1
+  },
+  {
+    "n": "Bodymist Amour De Carnaval",
+    "p": "2.99",
+    "o": "",
+    "s": "100 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F491567_2026-08-06_04-05-49-734_4483faf3-5774-4efb-bceb-05e9faeae145.png?width=190",
+    "c": "Other",
+    "cn": "bodymist amour carnaval",
+    "ik": "tok:bodymist|amour-carnaval|100",
+    "bn": "bodymist",
+    "wg": 100
+  },
+  {
+    "n": "Nexxt Telescopische Waterborstel 7 Meter Per Stuk",
+    "p": "24.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F493966_2026-08-05_04-05-26-320_0e0ac943-59c6-4dbb-b9df-136eb805b5e2.png?width=190",
+    "c": "Other",
+    "cn": "nexxt meter telescopische waterborstel",
+    "ik": "tok:nexxt|meter-telescopische-waterborstel|1",
+    "bn": "nexxt",
+    "wg": 1
+  },
+  {
+    "n": "Diamond Painting 30x40cm Per Stuk",
+    "p": "1.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F488174_2026-08-07_04-04-40-851_af952aac-28fd-48c9-921d-a05239f67151.png?width=190",
+    "c": "Other",
+    "cn": "diamond 30x40cm painting",
+    "ik": "tok:diamond|30x40cm-painting|1",
+    "bn": "diamond",
+    "wg": 1
+  },
+  {
+    "n": "Toiletrolhouder Per Stuk",
+    "p": "1.49",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F491036_2026-08-07_04-06-17-438_7e211c2d-7a80-4c24-b139-3667827548c0.png?width=190",
+    "c": "Other",
+    "cn": "toiletrolhouder per stuk",
+    "ik": "tok:toiletrolhouder|unknown|1",
+    "bn": "toiletrolhouder",
+    "wg": 1
+  },
+  {
+    "n": "Strandparasol Per Stuk",
+    "p": "4.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F491500_2026-08-05_04-02-25-098_f0195536-11d7-4aa1-b224-d6238ee3f891.png?width=190",
+    "c": "Other",
+    "cn": "strandparasol per stuk",
+    "ik": "tok:strandparasol|unknown|1",
+    "bn": "strandparasol",
+    "wg": 1
+  },
+  {
+    "n": "Brainrot 3d Sleutelhanger Per Stuk",
+    "p": "1.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F491746_2026-08-05_04-05-41-092_e182e348-3763-4a5d-b775-d3067ec7ea12.png?width=190",
+    "c": "Other",
+    "cn": "brainrot 3d sleutelhanger",
+    "ik": "tok:brainrot|3d-sleutelhanger|1",
+    "bn": "brainrot",
+    "wg": 1
+  },
+  {
+    "n": "Groente- Kruidenhakker Per Stuk",
+    "p": "2.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F486100_2026-08-05_04-02-21-486_2f82a355-4134-4578-bccd-b2166692460d.png?width=190",
+    "c": "Other",
+    "cn": "groente kruidenhakker",
+    "ik": "tok:groente|kruidenhakker|1",
+    "bn": "groente",
+    "wg": 1
+  },
+  {
+    "n": "Brabantia Nova Koekenpan 20cm Per Stuk",
+    "p": "7.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F488884_2026-08-05_04-04-26-271_b1712878-ddae-4436-ab97-48fb0a7d3230.png?width=190",
+    "c": "Other",
+    "cn": "brabantia 20cm koekenpan nova",
+    "ik": "tok:brabantia|20cm-koekenpan-nova|1",
+    "bn": "brabantia",
+    "wg": 1
+  },
+  {
+    "n": "Aanrecht Organizer 5-delig",
+    "p": "4.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F491433_2026-08-05_04-03-37-784_2f329cea-e78f-40ec-802c-3ebfcf2fa1d9.png?width=190",
+    "c": "Other",
+    "cn": "aanrecht delig organizer",
+    "ik": "tok:aanrecht|delig-organizer|1",
+    "bn": "aanrecht",
+    "wg": 1
+  },
+  {
+    "n": "Brabantia Nova Koekenpan 24 Cm Per Stuk",
+    "p": "8.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F488885_2026-08-05_04-04-35-492_58966182-8980-4a6b-9908-bb730a038d4d.png?width=190",
+    "c": "Other",
+    "cn": "brabantia 24 cm koekenpan nova",
+    "ik": "tok:brabantia|24-cm-koekenpan-nova|1",
+    "bn": "brabantia",
+    "wg": 1
+  },
+  {
+    "n": "Brabantia Nova Koekenpan 28cm Per Stuk",
+    "p": "9.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F488886_2026-08-05_04-05-32-501_ec5e879d-685d-4af4-8099-6b86db2d6f91.png?width=190",
+    "c": "Other",
+    "cn": "brabantia 28cm koekenpan nova",
+    "ik": "tok:brabantia|28cm-koekenpan-nova|1",
+    "bn": "brabantia",
     "wg": 1
   },
   {
@@ -74277,6 +74589,18 @@
     "wg": 100
   },
   {
+    "n": "M&M's Pinda",
+    "p": "3.99",
+    "o": "",
+    "s": "363 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F493605_2026-08-07_11-06-30-198_e57980a9-7fab-4490-a48b-2d8fbec25920.png?width=190",
+    "c": "Snacks",
+    "cn": "m&ms pinda",
+    "ik": "tok:m&ms|pinda|363",
+    "bn": "m&ms",
+    "wg": 363
+  },
+  {
     "n": "Hamlet Kauwgombal Strip",
     "p": "0.37",
     "o": "",
@@ -74797,7 +75121,7 @@
     "p": "2.59",
     "o": "",
     "s": "140 ml",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F251704_1_486666_639074505473462664.png?width=190",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F486666_2026-08-07_10-54-21-737_e04b9fe4-8006-47e9-b2f9-ecb90fdebd0e.png?width=190",
     "c": "Snacks",
     "cn": "beste gezouten pistachenoten",
     "ik": "tok:beste|gezouten-pistachenoten|140",
@@ -78165,6 +78489,18 @@
     "wg": 300
   },
   {
+    "n": "Maoam Uitdeelzak",
+    "p": "3.49",
+    "o": "",
+    "s": "480 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F489810_2026-08-07_11-13-43-352_6ba695a0-f8b6-4c37-bc4d-3f33addbcf27.png?width=190",
+    "c": "Snacks",
+    "cn": "maoam uitdeelzak",
+    "ik": "tok:maoam|uitdeelzak|480",
+    "bn": "maoam",
+    "wg": 480
+  },
+  {
     "n": "Red Band Stophoest 4 Pack",
     "p": "1.99",
     "o": "",
@@ -79401,6 +79737,18 @@
     "wg": 2
   },
   {
+    "n": "1 De Beste Watermeloen Part Per Stuk",
+    "p": "1.69",
+    "o": "ACTIE van 1.99",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F117171_1_398523_638304364879975988.png?width=190",
+    "c": "Fruits & Vegetables",
+    "cn": "beste part watermeloen",
+    "ik": "tok:beste|part-watermeloen|1",
+    "bn": "beste",
+    "wg": 1
+  },
+  {
     "n": "1 De Beste Pitloze Witte Druiven",
     "p": "1.89",
     "o": "ACTIE van 2.39",
@@ -79425,6 +79773,18 @@
     "wg": 200
   },
   {
+    "n": "Kersen Verpakt",
+    "p": "3.49",
+    "o": "ACTIE",
+    "s": "500 ml",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F268881_2026-07-08_04-02-27-588_198d548f-9ca1-453e-ad44-bcb1d6191647.png?width=190",
+    "c": "Fruits & Vegetables",
+    "cn": "kersen verpakt",
+    "ik": "tok:kersen|verpakt|500",
+    "bn": "kersen",
+    "wg": 500
+  },
+  {
     "n": "Zespri Kiwi Sungold Verpakt",
     "p": "2.99",
     "o": "ACTIE van 3.49",
@@ -79435,6 +79795,30 @@
     "ik": "tok:zespri|kiwi-sungold-verpakt|4",
     "bn": "zespri",
     "wg": 4
+  },
+  {
+    "n": "Galia Meloen Per Stuk",
+    "p": "0.99",
+    "o": "ACTIE van 1.99",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F268844_2026-08-07_04-04-34-683_19f742b8-9bb3-4270-9f12-cb3ee982111f.png?width=190",
+    "c": "Fruits & Vegetables",
+    "cn": "galia meloen",
+    "ik": "tok:galia|meloen|1",
+    "bn": "galia",
+    "wg": 1
+  },
+  {
+    "n": "Xl Watermeloen Ca. 4 kilo. Per Stuk",
+    "p": "3.99",
+    "o": "ACTIE",
+    "s": "1 stuk",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F369008_2026-08-07_04-07-39-222_9fef9bf1-397c-4cdf-8d5c-d497d260c313.png?width=190",
+    "c": "Fruits & Vegetables",
+    "cn": "watermeloen ca kilo xl",
+    "ik": "tok:watermeloen|ca-kilo-xl|1",
+    "bn": "watermeloen",
+    "wg": 1
   },
   {
     "n": "Kesbeke Augurken Blokjes Zoetzuur",
@@ -80689,7 +81073,7 @@
     "p": "3.60",
     "o": "ACTIE van 5.99",
     "s": "2 l",
-    "l": "https://web-fileserver.dirk.nl/artikelen%2F153092_1_445860_638300424436086674.png?width=190",
+    "l": "https://web-fileserver.dirk.nl/artikelen%2F445860_2026-08-07_09-40-44-644_54019ddd-4fc7-43f6-bbef-a6705c94e39c.png?width=190",
     "c": "Beverages",
     "cn": "coca 8x caffeine cola no zero",
     "ik": "tok:coca|8x-caffeine-cola-no-zero|2000",

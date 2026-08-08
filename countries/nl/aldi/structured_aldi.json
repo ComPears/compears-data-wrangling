@@ -1887,7 +1887,7 @@
     "p": "1.59",
     "o": "",
     "s": "150 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1236039_main_cms_1_nl_nl_mini_koekjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1236039_main_cms_5_nl_nl_mini_koekjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "mini koekjes",
     "ik": "tok:mini|koekjes|150",
@@ -2797,6 +2797,18 @@
     "ik": "tok:waterijslollies|unknown|10",
     "bn": "waterijslollies",
     "wg": 10
+  },
+  {
+    "n": "Brioche Bollen",
+    "p": "1.79",
+    "o": "",
+    "s": "300 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1201028_main_cms_1_nl_nl_brioche_bollen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Other",
+    "cn": "brioche bollen",
+    "ik": "tok:brioche|bollen|300",
+    "bn": "brioche",
+    "wg": 300
   },
   {
     "n": "Daylicious",
@@ -5199,7 +5211,7 @@
     "p": "0.71",
     "o": "",
     "s": "250 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1236382_main_cms_4_nl_nl_mosterd_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1236382_main_cms_5_nl_nl_mosterd_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "gusto le",
     "ik": "tok:gusto|le|250",
@@ -5684,10 +5696,10 @@
   },
   {
     "n": "Falafel Maaltijdsalade",
-    "p": "3.99",
+    "p": "",
     "o": "",
     "s": "450 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230316_main_cms_6_nl_nl_falafel_maaltijdsalade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230316_main_cms_1_nl_nl_falafel_maaltijdsalade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "falafel maaltijdsalade",
     "ik": "tok:falafel|maaltijdsalade|450",
@@ -7196,18 +7208,6 @@
     "ik": "tok:tarwe|maisbollen|240",
     "bn": "tarwe",
     "wg": 240
-  },
-  {
-    "n": "Mini-bagels",
-    "p": "1.99",
-    "o": "",
-    "s": "300 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1240431_main_cms_1_nl_nl_mini_bagels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Bakery",
-    "cn": "minibagels bagels mini",
-    "ik": "tok:minibagels|bagels-mini|300",
-    "bn": "minibagels",
-    "wg": 300
   },
   {
     "n": "Baguette Knoflookboter",
@@ -9442,18 +9442,6 @@
     "wg": 500
   },
   {
-    "n": "Rijkgevulde Muesli",
-    "p": "3.69",
-    "o": "",
-    "s": "750 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216348_main_cms_4_nl_nl_rijkgevulde_muesli_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Bakery",
-    "cn": "rijkgevulde muesli",
-    "ik": "tok:rijkgevulde|muesli|750",
-    "bn": "rijkgevulde",
-    "wg": 750
-  },
-  {
     "n": "Chocokussentjes",
     "p": "2.39",
     "o": "",
@@ -10006,6 +9994,18 @@
     "wg": 1
   },
   {
+    "n": "Minneola's",
+    "p": "2.49",
+    "o": "",
+    "s": "1 l",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1222169_main_cms_4_nl_nl_minneola_s_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Fruits & Vegetables",
+    "cn": "minneolas minneola",
+    "ik": "tok:minneolas|minneola|1000",
+    "bn": "minneolas",
+    "wg": 1000
+  },
+  {
     "n": "Abrikozen",
     "p": "2.89",
     "o": "",
@@ -10364,18 +10364,6 @@
     "wg": 700
   },
   {
-    "n": "Frambozen",
-    "p": "2.29",
-    "o": "",
-    "s": "125 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1201661_main_cms_4_nl_nl_frambozen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Fruits & Vegetables",
-    "cn": "frambozen",
-    "ik": "tok:frambozen|unknown|125",
-    "bn": "frambozen",
-    "wg": 125
-  },
-  {
     "n": "Hollandse Rode Bessen",
     "p": "3.49",
     "o": "",
@@ -10593,7 +10581,7 @@
     "p": "1.49",
     "o": "",
     "s": "300 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1240681_main_cms_2_nl_nl_exotische_douche_creme_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1240681_main_cms_7_nl_nl_exotische_douche_creme_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Personal Care",
     "cn": "exotische creme douche",
     "ik": "tok:exotische|creme-douche|300",
@@ -13511,6 +13499,17 @@
     "wg": 560
   },
   {
+    "n": "Chocolademelk 0%",
+    "p": "0.89",
+    "o": "",
+    "s": "Chocolademelk 0%",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1236519_main_cms_1_nl_nl_chocolademelk_0_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Dairy & Eggs",
+    "cn": "chocolademelk 0%",
+    "ik": "tok:chocolademelk|unknown|na",
+    "bn": "chocolademelk"
+  },
+  {
     "n": "Drinkyoghurt Rood Fruit",
     "p": "",
     "o": "",
@@ -13598,7 +13597,7 @@
     "p": "0.63",
     "o": "",
     "s": "1 l",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226726_main_cms_2_nl_nl_sojadrink_naturel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226726_main_cms_3_nl_nl_sojadrink_naturel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Dairy & Eggs",
     "cn": "sojadrink naturel",
     "ik": "tok:sojadrink|naturel|1000",
@@ -18111,7 +18110,7 @@
     "p": "1.99",
     "o": "",
     "s": "600 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235581_main_cms_1_nl_nl_krul_of_wafel_friet_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235581_main_cms_3_nl_nl_krul_of_wafel_friet_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Frozen Foods",
     "cn": "krul friet of wafel",
     "ik": "tok:krul|friet-of-wafel|600",

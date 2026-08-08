@@ -429,6 +429,19 @@
     "wg": 180
   },
   {
+    "n": "Pickerd Glasuren 150 g, Vollmilch",
+    "p": "1.49",
+    "o": "",
+    "s": "150 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/pickerd-glasuren-150-g-vollmilch-000000000342250003",
+    "c": "Other",
+    "cn": "pickerd glasuren vollmilch",
+    "ik": "tok:pickerd|glasuren-vollmilch|150",
+    "bn": "pickerd",
+    "wg": 150
+  },
+  {
     "n": "Back Family Kuvertüre 200 g, Vollmilch",
     "p": "1.99",
     "o": "",
@@ -674,19 +687,6 @@
     "ik": "tok:milsani|dessert-haselnuss-milch-topi-und|400",
     "bn": "milsani",
     "wg": 400
-  },
-  {
-    "n": "Ferrero Kinder Pingui, 4er-Packung",
-    "p": "1.39",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/ferrero-kinder-pingui-4er-packung-000000000000488987",
-    "c": "Other",
-    "cn": "ferrero 4er kinder packung pingui",
-    "ik": "tok:ferrero|4er-kinder-packung-pingui|120",
-    "bn": "ferrero",
-    "wg": 120
   },
   {
     "n": "Milsani Creme A La Cuisine Kochsahne 250 ml, 15 %",
@@ -2158,19 +2158,6 @@
     "wg": 500
   },
   {
-    "n": "Milsani High Protein Skyr Drink 330 ml, Zitrone-Limette",
-    "p": "1.49",
-    "o": "",
-    "s": "330 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-high-protein-skyr-drink-330-ml-zitrone-limette-000000000739709003",
-    "c": "Other",
-    "cn": "milsani drink high limette protein skyr zitrone",
-    "ik": "tok:milsani|drink-high-limette-protein-skyr-zitrone|330",
-    "bn": "milsani",
-    "wg": 330
-  },
-  {
     "n": "Bio Fettarmer Joghurt 1 kg, 1,8 % Fett, Mild",
     "p": "1.99",
     "o": "",
@@ -2195,6 +2182,19 @@
     "ik": "tok:bio|cremiger-fett-joghurt-mild|1000",
     "bn": "bio",
     "wg": 1000
+  },
+  {
+    "n": "Milsani High Protein Skyr Drink 330 ml, Zitrone-Limette",
+    "p": "1.49",
+    "o": "",
+    "s": "330 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-high-protein-skyr-drink-330-ml-zitrone-limette-000000000739709003",
+    "c": "Other",
+    "cn": "milsani drink high limette protein skyr zitrone",
+    "ik": "tok:milsani|drink-high-limette-protein-skyr-zitrone|330",
+    "bn": "milsani",
+    "wg": 330
   },
   {
     "n": "Lyttos Joghurt Nach Griechischer Art Natur 600 G",
@@ -2301,6 +2301,19 @@
     "wg": 500
   },
   {
+    "n": "Milsani Naturjoghurt 1 kg, 3,5 % Fett",
+    "p": "1.79",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-naturjoghurt-1-kg-3-5-fett-000000000415545001",
+    "c": "Other",
+    "cn": "milsani fett naturjoghurt",
+    "ik": "tok:milsani|fett-naturjoghurt|1000",
+    "bn": "milsani",
+    "wg": 1000
+  },
+  {
     "n": "Milsani Skyr Frucht 500 g, Erdbeere",
     "p": "1.49",
     "o": "",
@@ -2325,32 +2338,6 @@
     "ik": "tok:milsani|frucht-skyr-vanille|500",
     "bn": "milsani",
     "wg": 500
-  },
-  {
-    "n": "Milsani Naturjoghurt 1 kg, 3,5 % Fett",
-    "p": "1.79",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-naturjoghurt-1-kg-3-5-fett-000000000415545001",
-    "c": "Other",
-    "cn": "milsani fett naturjoghurt",
-    "ik": "tok:milsani|fett-naturjoghurt|1000",
-    "bn": "milsani",
-    "wg": 1000
-  },
-  {
-    "n": "Nur Nur Natur Bio-Naturjoghurt 3,8 % Fett 400 G",
-    "p": "0.99",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-naturjoghurt-3-8-fett-400-g-000000000000591941",
-    "c": "Other",
-    "cn": "nur bio fett natur naturjoghurt",
-    "ik": "tok:nur|bio-fett-natur-naturjoghurt|400",
-    "bn": "nur",
-    "wg": 400
   },
   {
     "n": "Bio Bio-Fruchtjoghurt 150 g, Mango",
@@ -2390,6 +2377,19 @@
     "ik": "tok:bio|fruchtjoghurt-himbeere|150",
     "bn": "bio",
     "wg": 150
+  },
+  {
+    "n": "Nur Nur Natur Bio-Naturjoghurt 3,8 % Fett 400 G",
+    "p": "0.99",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-naturjoghurt-3-8-fett-400-g-000000000000591941",
+    "c": "Other",
+    "cn": "nur bio fett natur naturjoghurt",
+    "ik": "tok:nur|bio-fett-natur-naturjoghurt|400",
+    "bn": "nur",
+    "wg": 400
   },
   {
     "n": "Milsani Speisequark Magerstufe 250 G",
@@ -3328,19 +3328,6 @@
     "wg": 400
   },
   {
-    "n": "Eifeler Weizenmischbrot 400 G",
-    "p": "1.39",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-eifeler-weizenmischbrot-400-g-000000000000187306",
-    "c": "Other",
-    "cn": "eifeler weizenmischbrot",
-    "ik": "tok:eifeler|weizenmischbrot|400",
-    "bn": "eifeler",
-    "wg": 400
-  },
-  {
     "n": "Goldähren Klassich Kleiner Sandwichtoast Saaten-Harmonie 375 G",
     "p": "0.99",
     "o": "",
@@ -3354,17 +3341,56 @@
     "wg": 380
   },
   {
-    "n": "Gutes Vom Bäcker Nuss-Rosinen-Schwarzbrot 250 G",
-    "p": "1.99",
+    "n": "Goldähren Toastbrötchen 335 g, Weizen",
+    "p": "0.99",
     "o": "",
-    "s": "250 ml",
+    "s": "340 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gutes-vom-baecker-nuss-rosinen-schwarzbrot-250-g-000000000000187047",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-weizen-000000000188405001",
     "c": "Other",
-    "cn": "gutes cker nuss rosinen schwarzbrot vom",
-    "ik": "tok:gutes|cker-nuss-rosinen-schwarzbrot-vom|250",
-    "bn": "gutes",
-    "wg": 250
+    "cn": "goldhren gold hren tchen toastbr weizen",
+    "ik": "tok:goldhren|gold-hren-tchen-toastbr-weizen|340",
+    "bn": "goldhren",
+    "wg": 340
+  },
+  {
+    "n": "Goldähren Toastbrötchen 335 g, Mehrkorn",
+    "p": "0.99",
+    "o": "",
+    "s": "340 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-mehrkorn-000000000188405002",
+    "c": "Other",
+    "cn": "goldhren gold hren mehrkorn tchen toastbr",
+    "ik": "tok:goldhren|gold-hren-mehrkorn-tchen-toastbr|340",
+    "bn": "goldhren",
+    "wg": 340
+  },
+  {
+    "n": "Goldähren Toastbrötchen 335 g, Dinkel",
+    "p": "0.99",
+    "o": "",
+    "s": "340 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-dinkel-000000000188405003",
+    "c": "Other",
+    "cn": "goldhren dinkel gold hren tchen toastbr",
+    "ik": "tok:goldhren|dinkel-gold-hren-tchen-toastbr|340",
+    "bn": "goldhren",
+    "wg": 340
+  },
+  {
+    "n": "Eifeler Weizenmischbrot 400 G",
+    "p": "1.39",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-eifeler-weizenmischbrot-400-g-000000000000187306",
+    "c": "Other",
+    "cn": "eifeler weizenmischbrot",
+    "ik": "tok:eifeler|weizenmischbrot|400",
+    "bn": "eifeler",
+    "wg": 400
   },
   {
     "n": "Zitterwälder Rheinisches Vollkornbrot, Fein 400 G",
@@ -3419,45 +3445,6 @@
     "wg": 750
   },
   {
-    "n": "Goldähren Toastbrötchen 335 g, Weizen",
-    "p": "0.99",
-    "o": "",
-    "s": "340 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-weizen-000000000188405001",
-    "c": "Other",
-    "cn": "goldhren gold hren tchen toastbr weizen",
-    "ik": "tok:goldhren|gold-hren-tchen-toastbr-weizen|340",
-    "bn": "goldhren",
-    "wg": 340
-  },
-  {
-    "n": "Goldähren Toastbrötchen 335 g, Mehrkorn",
-    "p": "0.99",
-    "o": "",
-    "s": "340 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-mehrkorn-000000000188405002",
-    "c": "Other",
-    "cn": "goldhren gold hren mehrkorn tchen toastbr",
-    "ik": "tok:goldhren|gold-hren-mehrkorn-tchen-toastbr|340",
-    "bn": "goldhren",
-    "wg": 340
-  },
-  {
-    "n": "Goldähren Toastbrötchen 335 g, Dinkel",
-    "p": "0.99",
-    "o": "",
-    "s": "340 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-dinkel-000000000188405003",
-    "c": "Other",
-    "cn": "goldhren dinkel gold hren tchen toastbr",
-    "ik": "tok:goldhren|dinkel-gold-hren-tchen-toastbr|340",
-    "bn": "goldhren",
-    "wg": 340
-  },
-  {
     "n": "Meine Backwelt Flabatta 200 G",
     "p": "0.59",
     "o": "",
@@ -3508,6 +3495,45 @@
     "ik": "tok:conditorei|aufbackbr-cke-coppenrath-dinkelbr-goldst-tchen-unsere-wiese|420",
     "bn": "conditorei",
     "wg": 420
+  },
+  {
+    "n": "Meine Backwelt Franzbrötchen",
+    "p": "0.79",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-franzbroetchen-000000000000187699",
+    "c": "Other",
+    "cn": "meine backwelt franzbr tchen",
+    "ik": "tok:meine|backwelt-franzbr-tchen|1",
+    "bn": "meine",
+    "wg": 1
+  },
+  {
+    "n": "Goldähren Weizenbrötchen 0,3 Kg",
+    "p": "0.69",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-weizenbroetchen-0-3-kg-000000000187007001",
+    "c": "Other",
+    "cn": "goldhren gold hren tchen weizenbr",
+    "ik": "tok:goldhren|gold-hren-tchen-weizenbr|300",
+    "bn": "goldhren",
+    "wg": 300
+  },
+  {
+    "n": "Goldähren Baguettebrötchen 0,3 Kg",
+    "p": "0.69",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-baguettebroetchen-0-3-kg-000000000187007002",
+    "c": "Other",
+    "cn": "goldhren baguettebr gold hren tchen",
+    "ik": "tok:goldhren|baguettebr-gold-hren-tchen|300",
+    "bn": "goldhren",
+    "wg": 300
   },
   {
     "n": "Meine Backwelt Butter-Laugenecke",
@@ -3586,45 +3612,6 @@
     "ik": "tok:meine|backwelt-olivenstange|1",
     "bn": "meine",
     "wg": 1
-  },
-  {
-    "n": "Meine Backwelt Franzbrötchen",
-    "p": "0.79",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-franzbroetchen-000000000000187699",
-    "c": "Other",
-    "cn": "meine backwelt franzbr tchen",
-    "ik": "tok:meine|backwelt-franzbr-tchen|1",
-    "bn": "meine",
-    "wg": 1
-  },
-  {
-    "n": "Goldähren Weizenbrötchen 0,3 Kg",
-    "p": "0.69",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-weizenbroetchen-0-3-kg-000000000187007001",
-    "c": "Other",
-    "cn": "goldhren gold hren tchen weizenbr",
-    "ik": "tok:goldhren|gold-hren-tchen-weizenbr|300",
-    "bn": "goldhren",
-    "wg": 300
-  },
-  {
-    "n": "Goldähren Baguettebrötchen 0,3 Kg",
-    "p": "0.69",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-baguettebroetchen-0-3-kg-000000000187007002",
-    "c": "Other",
-    "cn": "goldhren baguettebr gold hren tchen",
-    "ik": "tok:goldhren|baguettebr-gold-hren-tchen|300",
-    "bn": "goldhren",
-    "wg": 300
   },
   {
     "n": "Goldähren Sonntagsbrötchen 560 g, Weizen",
@@ -3783,6 +3770,19 @@
     "wg": 320
   },
   {
+    "n": "Goldähren Hamburger-Brötchen 300 G",
+    "p": "0.99",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-hamburger-broetchen-300-g-000000000468528001",
+    "c": "Other",
+    "cn": "goldhren br gold hamburger hren tchen",
+    "ik": "tok:goldhren|br-gold-hamburger-hren-tchen|300",
+    "bn": "goldhren",
+    "wg": 300
+  },
+  {
     "n": "Goldähren Kartoffelkrüstchen, Dinkel 480 G",
     "p": "1.79",
     "o": "",
@@ -3792,19 +3792,6 @@
     "c": "Other",
     "cn": "goldhren dinkel gold hren kartoffelkr stchen",
     "ik": "tok:goldhren|dinkel-gold-hren-kartoffelkr-stchen|480",
-    "bn": "goldhren",
-    "wg": 480
-  },
-  {
-    "n": "Goldähren Dinkelkrüstchen 480 G",
-    "p": "1.79",
-    "o": "",
-    "s": "480 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-dinkelkruestchen-480-g-000000000630939002",
-    "c": "Other",
-    "cn": "goldhren dinkelkr gold hren stchen",
-    "ik": "tok:goldhren|dinkelkr-gold-hren-stchen|480",
     "bn": "goldhren",
     "wg": 480
   },
@@ -4406,19 +4393,6 @@
     "wg": 60
   },
   {
-    "n": "Natur Lieblinge Mini Romarispentomaten 300 G",
-    "p": "1.39",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/natur-lieblinge-mini-romarispentomaten-300-g-000000000000468970",
-    "c": "Fruits & Vegetables",
-    "cn": "natur lieblinge mini romarispentomaten",
-    "ik": "tok:natur|lieblinge-mini-romarispentomaten|300",
-    "bn": "natur",
-    "wg": 300
-  },
-  {
     "n": "Bbq Streetfoodsaucen 230 ml, Jalapeno-Tomate-Paprika",
     "p": "1.19",
     "o": "",
@@ -4625,6 +4599,19 @@
     "ik": "tok:kings|crown-datterini-king-tomaten|440",
     "bn": "kings",
     "wg": 440
+  },
+  {
+    "n": "Cucina Getrocknete Tomaten 125 G",
+    "p": "1.99",
+    "o": "",
+    "s": "130 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-getrocknete-tomaten-125-g-000000000000730033",
+    "c": "Fruits & Vegetables",
+    "cn": "cucina getrocknete tomaten",
+    "ik": "tok:cucina|getrocknete-tomaten|130",
+    "bn": "cucina",
+    "wg": 130
   },
   {
     "n": "Bresso Bresso 150 g, Kirschtomaten",
@@ -5134,6 +5121,19 @@
     "wg": 400
   },
   {
+    "n": "Goldähren Dinkelkrüstchen 480 G",
+    "p": "1.79",
+    "o": "",
+    "s": "480 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-dinkelkruestchen-480-g-000000000630939002",
+    "c": "Other",
+    "cn": "goldhren dinkelkr gold hren stchen",
+    "ik": "tok:goldhren|dinkelkr-gold-hren-stchen|480",
+    "bn": "goldhren",
+    "wg": 480
+  },
+  {
     "n": "Speisezeit Steakhouse Pommes 750 g, Rustikal",
     "p": "1.49",
     "o": "",
@@ -5145,19 +5145,6 @@
     "ik": "tok:speisezeit|pommes-rustikal-steakhouse|750",
     "bn": "speisezeit",
     "wg": 750
-  },
-  {
-    "n": "Lauchzwiebeln, Bund",
-    "p": "0.59",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-lauchzwiebeln-bund-000000000000228582",
-    "c": "Other",
-    "cn": "lauchzwiebeln bund",
-    "ik": "tok:lauchzwiebeln|bund|1",
-    "bn": "lauchzwiebeln",
-    "wg": 1
   },
   {
     "n": "Le Gusto Röstzwiebeln 150 G",
@@ -5249,19 +5236,6 @@
     "ik": "tok:frosta|fertiggerichte-hnerfrikassee|500",
     "bn": "frosta",
     "wg": 500
-  },
-  {
-    "n": "Gurke, Stück",
-    "p": "0.77",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-gurke-stueck-000000000000229921",
-    "c": "Other",
-    "cn": "gurke ck",
-    "ik": "tok:gurke|ck|1",
-    "bn": "gurke",
-    "wg": 1
   },
   {
     "n": "Bbq Gurkenscheiben 190 g, Mango & Habanero",
@@ -5496,19 +5470,6 @@
     "ik": "tok:wonnemeyer|antipasti-chili-peppers-se-sweet-teller|210",
     "bn": "wonnemeyer",
     "wg": 210
-  },
-  {
-    "n": "Bestes Aus Der Region Bunter Salat Mit Wurzelballen, Stück",
-    "p": "0.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bestes-aus-der-region-bunter-salat-mit-wurzelballen-stueck-000000000000453871",
-    "c": "Other",
-    "cn": "bestes aus bunter ck der mit region salat wurzelballen",
-    "ik": "tok:bestes|aus-bunter-ck-der-mit-region-salat-wurzelballen|1",
-    "bn": "bestes",
-    "wg": 1
   },
   {
     "n": "Daylicious Salatcup 300 g, Hähnchen",
@@ -5821,19 +5782,6 @@
     "ik": "tok:wonnemeyer|feinkostsalat-thunfisch|200",
     "bn": "wonnemeyer",
     "wg": 200
-  },
-  {
-    "n": "Natur Lieblinge Paprika Rot 500 G",
-    "p": "1.11",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/natur-lieblinge-paprika-rot-500-g-000000000000228204",
-    "c": "Other",
-    "cn": "natur lieblinge paprika rot",
-    "ik": "tok:natur|lieblinge-paprika-rot|500",
-    "bn": "natur",
-    "wg": 500
   },
   {
     "n": "Le Gusto Paprika Scharf 50 G",
@@ -6340,19 +6288,6 @@
     "ik": "tok:meine|gef-kuchenwelt-llte-mini-muffins-speisequarkf-und-zitronengesch|230",
     "bn": "meine",
     "wg": 230
-  },
-  {
-    "n": "Trauben hell/dunkel kernlos, Lose",
-    "p": "4.49",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-trauben-hell-dunkel-kernlos-lose-000000000000230685",
-    "c": "Other",
-    "cn": "trauben dunkel hell kernlos lose",
-    "ik": "tok:trauben|dunkel-hell-kernlos-lose|1",
-    "bn": "trauben",
-    "wg": 1
   },
   {
     "n": "Rio D' Oro Traubendirektsaft 1 L",
@@ -8578,6 +8513,19 @@
     "wg": 170
   },
   {
+    "n": "Landfreude Bandnudeln 500 G",
+    "p": "1.19",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/landfreude-bandnudeln-500-g-000000000000489111",
+    "c": "Other",
+    "cn": "landfreude bandnudeln",
+    "ik": "tok:landfreude|bandnudeln|500",
+    "bn": "landfreude",
+    "wg": 500
+  },
+  {
     "n": "Cucina Tortelloni 250 g, Prosciutto",
     "p": "0.99",
     "o": "",
@@ -8614,19 +8562,6 @@
     "cn": "cucina gnocchi",
     "ik": "tok:cucina|gnocchi|500",
     "bn": "cucina",
-    "wg": 500
-  },
-  {
-    "n": "Landfreude Bandnudeln 500 G",
-    "p": "1.19",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/landfreude-bandnudeln-500-g-000000000000489111",
-    "c": "Other",
-    "cn": "landfreude bandnudeln",
-    "ik": "tok:landfreude|bandnudeln|500",
-    "bn": "landfreude",
     "wg": 500
   },
   {
@@ -9150,6 +9085,19 @@
     "wg": 250
   },
   {
+    "n": "DR. Oetker Seelenwärmer 63 g, Reis Pudding",
+    "p": "0.69",
+    "o": "",
+    "s": "60 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/dr-oetker-seelenwaermer-63-g-reis-pudding-000000000523716011",
+    "c": "Other",
+    "cn": "oetker dr pudding reis rmer seelenw",
+    "ik": "tok:oetker|dr-pudding-reis-rmer-seelenw|60",
+    "bn": "oetker",
+    "wg": 60
+  },
+  {
     "n": "Crofton Mikrowellen-Kochgeschirr, Reiskocher, Grün",
     "p": "1.99",
     "o": "",
@@ -9631,6 +9579,19 @@
     "wg": 40
   },
   {
+    "n": "Pickerd Glasuren 150 g, Kakao",
+    "p": "1.49",
+    "o": "",
+    "s": "150 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/pickerd-glasuren-150-g-kakao-000000000342250002",
+    "c": "Other",
+    "cn": "pickerd glasuren kakao",
+    "ik": "tok:pickerd|glasuren-kakao|150",
+    "bn": "pickerd",
+    "wg": 150
+  },
+  {
     "n": "DR. Oetker Paradiescreme 66 g, Stracciatella",
     "p": "1.29",
     "o": "",
@@ -9655,32 +9616,6 @@
     "ik": "tok:oetker|dr-paradiescreme-schokolade|70",
     "bn": "oetker",
     "wg": 70
-  },
-  {
-    "n": "DR. Oetker Paradiescreme 60 g, Vanille",
-    "p": "1.29",
-    "o": "",
-    "s": "60 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/dr-oetker-paradiescreme-60-g-vanille-000000000102501004",
-    "c": "Other",
-    "cn": "oetker dr paradiescreme vanille",
-    "ik": "tok:oetker|dr-paradiescreme-vanille|60",
-    "bn": "oetker",
-    "wg": 60
-  },
-  {
-    "n": "DR. Oetker Puddingpulver, Dessert-Soße Vanillegeschmack 51 G",
-    "p": "0.99",
-    "o": "",
-    "s": "50 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/dr-oetker-puddingpulver-dessert-sosse-vanillegeschmack-51-g-000000000187129004",
-    "c": "Other",
-    "cn": "oetker dessert dr puddingpulver so vanillegeschmack",
-    "ik": "tok:oetker|dessert-dr-puddingpulver-so-vanillegeschmack|50",
-    "bn": "oetker",
-    "wg": 50
   },
   {
     "n": "Le Gusto Jodsalz 500 G",
@@ -10424,6 +10359,19 @@
     "wg": 200
   },
   {
+    "n": "Cucina Italienisches Natives Olivenöl Extra Terra Di Bari 500 Ml",
+    "p": "6.99",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-italienisches-natives-olivenoel-extra-terra-di-bari-500-ml-000000000000743811",
+    "c": "Other",
+    "cn": "cucina bari di extra italienisches natives oliven terra",
+    "ik": "tok:cucina|bari-di-extra-italienisches-natives-oliven-terra|500",
+    "bn": "cucina",
+    "wg": 500
+  },
+  {
     "n": "Cucina Grissotti 200 g, Olivenöl-Meersalz",
     "p": "1.29",
     "o": "",
@@ -10981,19 +10929,6 @@
     "ik": "tok:bio|himbeere-konfit-re|340",
     "bn": "bio",
     "wg": 340
-  },
-  {
-    "n": "Honigmelone, Lose",
-    "p": "1.39",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-honigmelone-lose-000000000000655648",
-    "c": "Other",
-    "cn": "honigmelone lose",
-    "ik": "tok:honigmelone|lose|1",
-    "bn": "honigmelone",
-    "wg": 1
   },
   {
     "n": "Farmer Snack-Mandeln 150 g, Honig & Salz",
@@ -12569,19 +12504,6 @@
     "wg": 330
   },
   {
-    "n": "Mini Wassermelone, Lose",
-    "p": "1.19",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-mini-wassermelone-lose-000000000000229919",
-    "c": "Other",
-    "cn": "mini lose wassermelone",
-    "ik": "tok:mini|lose-wassermelone|1",
-    "bn": "mini",
-    "wg": 1
-  },
-  {
     "n": "Quellbrunn Natürliches Mineralwasser 1,5 l, Classic",
     "p": "0.29",
     "o": "",
@@ -13257,110 +13179,6 @@
     "wg": 100
   },
   {
-    "n": "Choceur Mandelknacker 100 g, Weiße Schokolade Mandel",
-    "p": "1.19",
-    "o": "",
-    "s": "100 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-mandelknacker-100-g-weisse-schokolade-mandel-000000000199927001",
-    "c": "Other",
-    "cn": "choceur mandel mandelknacker schokolade wei",
-    "ik": "tok:choceur|mandel-mandelknacker-schokolade-wei|100",
-    "bn": "choceur",
-    "wg": 100
-  },
-  {
-    "n": "Choceur Schokoladen Vielfalt 100 g, Glücks-Duo",
-    "p": "0.89",
-    "o": "",
-    "s": "100 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-schokoladen-vielfalt-100-g-gluecks-duo-000000000279037005",
-    "c": "Other",
-    "cn": "choceur cks duo gl schokoladen vielfalt",
-    "ik": "tok:choceur|cks-duo-gl-schokoladen-vielfalt|100",
-    "bn": "choceur",
-    "wg": 100
-  },
-  {
-    "n": "Choceur Nuss-Schokolade 200 g, Dunkle-Haselnuss",
-    "p": "2.19",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-nuss-schokolade-200-g-dunkle-haselnuss-000000000297766002",
-    "c": "Other",
-    "cn": "choceur dunkle haselnuss nuss schokolade",
-    "ik": "tok:choceur|dunkle-haselnuss-nuss-schokolade|200",
-    "bn": "choceur",
-    "wg": 200
-  },
-  {
-    "n": "Choceur Sahne & Weiße 200 g, Weiße-Schokolade",
-    "p": "2.19",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-sahne-weisse-200-g-weisse-schokolade-000000000297776001",
-    "c": "Other",
-    "cn": "choceur sahne schokolade wei",
-    "ik": "tok:choceur|sahne-schokolade-wei|200",
-    "bn": "choceur",
-    "wg": 200
-  },
-  {
-    "n": "Choceur Sahne & Weiße 200 g, Dunkle-Schokolade",
-    "p": "2.19",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-sahne-weisse-200-g-dunkle-schokolade-000000000297776003",
-    "c": "Other",
-    "cn": "choceur dunkle sahne schokolade wei",
-    "ik": "tok:choceur|dunkle-sahne-schokolade-wei|200",
-    "bn": "choceur",
-    "wg": 200
-  },
-  {
-    "n": "Choceur Korn & Schoko 166,5 g, Milchschokolade Mit Cerealien",
-    "p": "1.99",
-    "o": "",
-    "s": "170 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-korn-schoko-166-5-g-milchschokolade-mit-cerealien-000000000328986002",
-    "c": "Other",
-    "cn": "choceur cerealien korn milchschokolade mit schoko",
-    "ik": "tok:choceur|cerealien-korn-milchschokolade-mit-schoko|170",
-    "bn": "choceur",
-    "wg": 170
-  },
-  {
-    "n": "Choceur Star Rice 250 g, Schokolade-Puffreis Dunkel Choviva",
-    "p": "2.29",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-star-rice-250-g-schokolade-puffreis-dunkel-choviva-000000000275121010",
-    "c": "Other",
-    "cn": "choceur choviva dunkel puffreis rice schokolade star",
-    "ik": "tok:choceur|choviva-dunkel-puffreis-rice-schokolade-star|250",
-    "bn": "choceur",
-    "wg": 250
-  },
-  {
-    "n": "Choceur Star Rice 250 g, Schokolade-Puffreis Milch Choviva",
-    "p": "2.29",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-star-rice-250-g-schokolade-puffreis-milch-choviva-000000000275121012",
-    "c": "Other",
-    "cn": "choceur choviva milch puffreis rice schokolade star",
-    "ik": "tok:choceur|choviva-milch-puffreis-rice-schokolade-star|250",
-    "bn": "choceur",
-    "wg": 250
-  },
-  {
     "n": "Choceur Nussknacker Feinherb 100 G",
     "p": "1.19",
     "o": "",
@@ -13463,6 +13281,110 @@
     "ik": "tok:choceur|classic-crunchy-rice-star|250",
     "bn": "choceur",
     "wg": 250
+  },
+  {
+    "n": "Choceur Star Rice 250 g, Schokolade-Puffreis Dunkel Choviva",
+    "p": "2.29",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-star-rice-250-g-schokolade-puffreis-dunkel-choviva-000000000275121010",
+    "c": "Other",
+    "cn": "choceur choviva dunkel puffreis rice schokolade star",
+    "ik": "tok:choceur|choviva-dunkel-puffreis-rice-schokolade-star|250",
+    "bn": "choceur",
+    "wg": 250
+  },
+  {
+    "n": "Choceur Star Rice 250 g, Schokolade-Puffreis Milch Choviva",
+    "p": "2.29",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-star-rice-250-g-schokolade-puffreis-milch-choviva-000000000275121012",
+    "c": "Other",
+    "cn": "choceur choviva milch puffreis rice schokolade star",
+    "ik": "tok:choceur|choviva-milch-puffreis-rice-schokolade-star|250",
+    "bn": "choceur",
+    "wg": 250
+  },
+  {
+    "n": "Choceur Milchriegel 200 g, Erdbeer-Joghurt",
+    "p": "1.99",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-milchriegel-200-g-erdbeer-joghurt-000000000294780001",
+    "c": "Other",
+    "cn": "choceur erdbeer joghurt milchriegel",
+    "ik": "tok:choceur|erdbeer-joghurt-milchriegel|200",
+    "bn": "choceur",
+    "wg": 200
+  },
+  {
+    "n": "Choceur Milchriegel 200 g, Latte Macchiato",
+    "p": "1.99",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-milchriegel-200-g-latte-macchiato-000000000294780002",
+    "c": "Other",
+    "cn": "choceur latte macchiato milchriegel",
+    "ik": "tok:choceur|latte-macchiato-milchriegel|200",
+    "bn": "choceur",
+    "wg": 200
+  },
+  {
+    "n": "Choceur Nuss-Schokolade 200 g, Dunkle-Haselnuss",
+    "p": "2.19",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-nuss-schokolade-200-g-dunkle-haselnuss-000000000297766002",
+    "c": "Other",
+    "cn": "choceur dunkle haselnuss nuss schokolade",
+    "ik": "tok:choceur|dunkle-haselnuss-nuss-schokolade|200",
+    "bn": "choceur",
+    "wg": 200
+  },
+  {
+    "n": "Choceur Sahne & Weiße 200 g, Weiße-Schokolade",
+    "p": "2.19",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-sahne-weisse-200-g-weisse-schokolade-000000000297776001",
+    "c": "Other",
+    "cn": "choceur sahne schokolade wei",
+    "ik": "tok:choceur|sahne-schokolade-wei|200",
+    "bn": "choceur",
+    "wg": 200
+  },
+  {
+    "n": "Choceur Sahne & Weiße 200 g, Dunkle-Schokolade",
+    "p": "2.19",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-sahne-weisse-200-g-dunkle-schokolade-000000000297776003",
+    "c": "Other",
+    "cn": "choceur dunkle sahne schokolade wei",
+    "ik": "tok:choceur|dunkle-sahne-schokolade-wei|200",
+    "bn": "choceur",
+    "wg": 200
+  },
+  {
+    "n": "Choceur Sahne & Weiße 200 g, Kaffee-Sahne",
+    "p": "2.19",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-sahne-weisse-200-g-kaffee-sahne-000000000297776004",
+    "c": "Other",
+    "cn": "choceur kaffee sahne wei",
+    "ik": "tok:choceur|kaffee-sahne-wei|200",
+    "bn": "choceur",
+    "wg": 200
   },
   {
     "n": "Biscotto Schoko Butterkeks 125 g, Zartbitter",
