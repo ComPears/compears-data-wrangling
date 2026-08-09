@@ -248,106 +248,39 @@ jobs:
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
+  # Optional same-day accelerator. Reliable sync is the backend repo's daily
+  # "Seed backend product data" workflow, which does not need a cross-repo PAT.
   sync:
-    name: Sync published snapshot to backend
+    name: Trigger backend seed
     needs: publish
     if: always() && needs.publish.result == 'success'
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 10
+    # A missing/expired BACKEND_REPO_TOKEN must not fail the scrape/publish pipeline.
+    continue-on-error: true
     permissions:
       contents: read
 
     steps:
-      - name: Checkout data-wrangling repository
-        uses: actions/checkout@v7
-        with:
-          ref: main
-          path: compears-data-wrangling
-          fetch-depth: 1
-
-      - name: Checkout backend repository
-        uses: actions/checkout@v7
-        with:
-          repository: ComPears/compear-backend
-          ref: main
-          token: ${{ secrets.BACKEND_REPO_TOKEN }}
-          path: compear-backend
-          fetch-depth: 0
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: compear-backend/package-lock.json
-
-      - name: Seed backend product data
-        working-directory: compear-backend
+      - name: Trigger backend seed workflow
         env:
-          WRANGLING_PATH: ${{ github.workspace }}/compears-data-wrangling
-          COUNTRY: nl,uk,de
+          GH_TOKEN: ${{ secrets.BACKEND_REPO_TOKEN }}
         run: |
-          npm ci
-          npm run seed
-
-      - name: Push backend data snapshot
-        id: backend_commit
-        working-directory: compear-backend
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/nl/*.json src/data/uk/*.json src/data/de/*.json 2>/dev/null || true
-          git add src/data/nl src/data/uk src/data/de
-          if git diff --cached --quiet; then
-            echo "No backend data changes to commit"
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            # [skip ci] keeps flaky/large data churn out of Backend CI.
-            git commit -m "Automated validated data sync $(date -u +'%Y-%m-%d %H:%M:%SZ') [skip ci]"
-            git pull --rebase origin main
-            git push origin HEAD:main
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-
-      - name: Trigger Render backend deployment
-        if: steps.backend_commit.outputs.changed == 'true'
-        env:
-          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
-        run: |
-          if [ -z "$RENDER_DEPLOY_HOOK_URL" ]; then
-            echo "RENDER_DEPLOY_HOOK_URL not set; relying on Render auto-deploy"
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::BACKEND_REPO_TOKEN is missing. Skipping same-day sync trigger."
+            echo "Backend will still pick up published catalogs via its daily seed workflow."
+            echo "Create a fine-grained PAT with Contents: Read/Write + Actions: Write on Compear-backend,"
+            echo "then store it as secret BACKEND_REPO_TOKEN in compears-data-wrangling."
             exit 0
           fi
-          curl --fail --silent --show-error --retry 3 --retry-all-errors \
-            --request POST "$RENDER_DEPLOY_HOOK_URL"
 
-      # Deploy readiness is monitored, not a delivery hard-gate.
-      - name: Verify backend revision readiness
-        if: steps.backend_commit.outputs.changed == 'true'
-        continue-on-error: true
-        env:
-          BACKEND_BASE_URL: ${{ vars.BACKEND_BASE_URL || vars.BACKEND_URL }}
-          EXPECTED_COMMIT: ${{ steps.backend_commit.outputs.sha }}
-        run: |
-          if [ -z "$BACKEND_BASE_URL" ]; then
-            echo "::warning::BACKEND_BASE_URL not set; skipping readiness probe"
+          if ! gh api user --jq .login >/dev/null 2>&1; then
+            echo "::warning::BACKEND_REPO_TOKEN is invalid or expired. Skipping same-day sync trigger."
+            echo "Rotate the PAT and update secret BACKEND_REPO_TOKEN. Daily backend seed remains the fallback."
             exit 0
           fi
-          health_url="${BACKEND_BASE_URL%/}/health/ready"
-          for attempt in $(seq 1 60); do
-            if payload=$(curl --fail --silent --show-error --max-time 20 "$health_url"); then
-              deployed_commit=$(echo "$payload" | jq -r '.deployment.commit // empty')
-              if [ "$deployed_commit" = "$EXPECTED_COMMIT" ]; then
-                echo "$payload"
-                echo "Expected backend revision is ready"
-                exit 0
-              fi
-              echo "Attempt $attempt/60: ready revision ${deployed_commit:-unknown}; waiting for $EXPECTED_COMMIT"
-            else
-              echo "Attempt $attempt/60: backend not ready yet"
-            fi
-            sleep 10
-          done
-          echo "::warning::Expected backend revision $EXPECTED_COMMIT did not become ready within 10 minutes"
-          exit 0
+
+          gh workflow run "Seed backend product data" \
+            --repo ComPears/compear-backend \
+            --ref main
+          echo "Triggered ComPears/compear-backend seed workflow"
