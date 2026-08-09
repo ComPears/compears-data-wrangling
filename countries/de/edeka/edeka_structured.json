@@ -754,19 +754,6 @@
     "wg": 1000
   },
   {
-    "n": "Weihenstephan Haltbare Milch 1,5% 1L- Verpackung verschmutzt/beschädigt",
-    "p": "1.00",
-    "o": "",
-    "s": "1 l",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/weihmilch15.jpg",
-    "i": "https://www.edeka24.de/Weihenstephan-haltbare-Milch-1-5-1L-Verpackung-verschmutzt-beschaedigt.html?listtype=search&searchparam=H-Milch",
-    "c": "Other",
-    "cn": "weihenstephan besch digt haltbare milch verpackung verschmutzt",
-    "ik": "tok:weihenstephan|besch-digt-haltbare-milch-verpackung-verschmutzt|1000",
-    "bn": "weihenstephan",
-    "wg": 1000
-  },
-  {
     "n": "Minus L H-Milch 3,5%- Laktosefrei 1L - beschädigt/verschmutzt",
     "p": "1.20",
     "o": "",
@@ -1481,19 +1468,6 @@
     "wg": 250
   },
   {
-    "n": "Ritter Sport Schokowürfel Lass Dich Feiern 22ST 176G - Abverkauf",
-    "p": "3.15",
-    "o": "",
-    "s": "176 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/rsswlassdichfeiern.jpg",
-    "i": "https://www.edeka24.de/Ritter-Sport-Schokowuerfel-Lass-Dich-Feiern-22ST-176G-Abverkauf.html?listtype=search&searchparam=Eier",
-    "c": "Other",
-    "cn": "ritter abverkauf dich feiern lass rfel schokow sport",
-    "ik": "tok:ritter|abverkauf-dich-feiern-lass-rfel-schokow-sport|176",
-    "bn": "ritter",
-    "wg": 176
-  },
-  {
     "n": "Gallo Family Spritz Peach & Nectarine Alcohol Free 0,75L",
     "p": "3.99",
     "o": "",
@@ -1531,6 +1505,19 @@
     "ik": "tok:wrigleys|08-10-2026-extra-mhd-professional-white|1",
     "bn": "wrigleys",
     "wg": 1
+  },
+  {
+    "n": "Kinder Schoko Bons 200G 32ST",
+    "p": "4.29",
+    "o": "",
+    "s": "200 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/5413548283128.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Suess-Salzig/kinder-Schoko-Bons-200G-32ST.html?listtype=search&searchparam=Eier",
+    "c": "Other",
+    "cn": "schoko bons kinder",
+    "ik": "tok:schoko|bons-kinder|200",
+    "bn": "schoko",
+    "wg": 200
   },
   {
     "n": "Maggi Fix Mac & Cheese 33G",
@@ -4945,7 +4932,7 @@
   },
   {
     "n": "Kühne Gewürzgurken 670G",
-    "p": "2.89",
+    "p": "3.19",
     "o": "",
     "s": "670 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/khne_gewrzgurken_670_g.jpg",
@@ -11311,7 +11298,7 @@
   },
   {
     "n": "Thomy Delikatess Mayonnaise Klein 100ML",
-    "p": "1.69",
+    "p": "1.79",
     "o": "",
     "s": "100 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/thomy_delikatess_mayonnaise_100_ml_in_der_tube.jpg",
@@ -13646,19 +13633,6 @@
     "c": "Other",
     "cn": "edeka bio orangen saft",
     "ik": "tok:edeka|bio-orangen-saft|1000",
-    "bn": "edeka",
-    "wg": 1000
-  },
-  {
-    "n": "Edeka Bio Orangen Saft 1L- Beschädigte Verpackung",
-    "p": "1.40",
-    "o": "",
-    "s": "1 l",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_bio_orangen_saft_1_ltr.jpg",
-    "i": "https://www.edeka24.de/Edeka-Bio-Orangen-Saft-1L-beschaedigte-Verpackung.html?listtype=search&searchparam=Orangensaft",
-    "c": "Other",
-    "cn": "edeka besch bio digte orangen saft verpackung",
-    "ik": "tok:edeka|besch-bio-digte-orangen-saft-verpackung|1000",
     "bn": "edeka",
     "wg": 1000
   },

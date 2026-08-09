@@ -299,19 +299,6 @@
     "wg": 1000
   },
   {
-    "n": "Ambiano Elektrische Küchenhelfer, Milchaufschäumer, Beige",
-    "p": "9.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/ambiano-elektrische-kuechenhelfer-milchaufschaeumer-beige-000000000717108005",
-    "c": "Other",
-    "cn": "ambiano beige chenhelfer elektrische milchaufsch umer",
-    "ik": "tok:ambiano|beige-chenhelfer-elektrische-milchaufsch-umer|1",
-    "bn": "ambiano",
-    "wg": 1
-  },
-  {
     "n": "My Vay Bio-Haferdrink Natur 1 L",
     "p": "0.90",
     "o": "",
@@ -362,6 +349,19 @@
     "ik": "tok:alpro|haferdrink-ohne-zucker|1000",
     "bn": "alpro",
     "wg": 1000
+  },
+  {
+    "n": "Ambiano Elektrische Küchenhelfer, Milchaufschäumer, Beige",
+    "p": "9.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/ambiano-elektrische-kuechenhelfer-milchaufschaeumer-beige-000000000717108005",
+    "c": "Other",
+    "cn": "ambiano beige chenhelfer elektrische milchaufsch umer",
+    "ik": "tok:ambiano|beige-chenhelfer-elektrische-milchaufsch-umer|1",
+    "bn": "ambiano",
+    "wg": 1
   },
   {
     "n": "Biscotto Schoko Butterkeks 125 g, Vollmilch",
@@ -4809,19 +4809,6 @@
     "wg": 500
   },
   {
-    "n": "Landfreude Kartoffelvariationen 500 g, Bratkartoffeln",
-    "p": "1.69",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/landfreude-kartoffelvariationen-500-g-bratkartoffeln-000000000212398002",
-    "c": "Other",
-    "cn": "landfreude bratkartoffeln kartoffelvariationen",
-    "ik": "tok:landfreude|bratkartoffeln-kartoffelvariationen|500",
-    "bn": "landfreude",
-    "wg": 500
-  },
-  {
     "n": "Speisezeit Süßkartoffelpommes 500 G",
     "p": "1.99",
     "o": "",
@@ -4832,6 +4819,19 @@
     "cn": "speisezeit kartoffelpommes",
     "ik": "tok:speisezeit|kartoffelpommes|500",
     "bn": "speisezeit",
+    "wg": 500
+  },
+  {
+    "n": "Landfreude Kartoffelvariationen 500 g, Bratkartoffeln",
+    "p": "1.69",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/landfreude-kartoffelvariationen-500-g-bratkartoffeln-000000000212398002",
+    "c": "Other",
+    "cn": "landfreude bratkartoffeln kartoffelvariationen",
+    "ik": "tok:landfreude|bratkartoffeln-kartoffelvariationen|500",
+    "bn": "landfreude",
     "wg": 500
   },
   {
@@ -8513,19 +8513,6 @@
     "wg": 170
   },
   {
-    "n": "Landfreude Bandnudeln 500 G",
-    "p": "1.19",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/landfreude-bandnudeln-500-g-000000000000489111",
-    "c": "Other",
-    "cn": "landfreude bandnudeln",
-    "ik": "tok:landfreude|bandnudeln|500",
-    "bn": "landfreude",
-    "wg": 500
-  },
-  {
     "n": "Cucina Tortelloni 250 g, Prosciutto",
     "p": "0.99",
     "o": "",
@@ -8562,6 +8549,19 @@
     "cn": "cucina gnocchi",
     "ik": "tok:cucina|gnocchi|500",
     "bn": "cucina",
+    "wg": 500
+  },
+  {
+    "n": "Landfreude Bandnudeln 500 G",
+    "p": "1.19",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/landfreude-bandnudeln-500-g-000000000000489111",
+    "c": "Other",
+    "cn": "landfreude bandnudeln",
+    "ik": "tok:landfreude|bandnudeln|500",
+    "bn": "landfreude",
     "wg": 500
   },
   {
@@ -14929,6 +14929,19 @@
     "wg": 270
   },
   {
+    "n": "Tandil Kalk-Stopp Tabs 600 G",
+    "p": "3.25",
+    "o": "",
+    "s": "600 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/tandil-kalk-stopp-tabs-600-g-000000000000551937",
+    "c": "Other",
+    "cn": "tandil kalk stopp tabs",
+    "ik": "tok:tandil|kalk-stopp-tabs|600",
+    "bn": "tandil",
+    "wg": 600
+  },
+  {
     "n": "Weisser Riese Waschmittel XXL, Universal Gel",
     "p": "11.99",
     "o": "",
@@ -14968,32 +14981,6 @@
     "wg": 1
   },
   {
-    "n": "Weisser Riese Waschmittel XXL, Color Pulver",
-    "p": "11.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/weisser-riese-waschmittel-xxl-color-pulver-000000000311832014",
-    "c": "Other",
-    "cn": "weisser color pulver riese waschmittel xxl",
-    "ik": "tok:weisser|color-pulver-riese-waschmittel-xxl|1",
-    "bn": "weisser",
-    "wg": 1
-  },
-  {
-    "n": "Tandil Kalk-Stopp Tabs 600 G",
-    "p": "3.25",
-    "o": "",
-    "s": "600 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/tandil-kalk-stopp-tabs-600-g-000000000000551937",
-    "c": "Other",
-    "cn": "tandil kalk stopp tabs",
-    "ik": "tok:tandil|kalk-stopp-tabs|600",
-    "bn": "tandil",
-    "wg": 600
-  },
-  {
     "n": "Weisser Riese Waschmittel XXL, Color Caps Orchidee",
     "p": "11.99",
     "o": "",
@@ -15016,6 +15003,19 @@
     "c": "Other",
     "cn": "weisser caps lotus riese universal waschmittel xxl",
     "ik": "tok:weisser|caps-lotus-riese-universal-waschmittel-xxl|1",
+    "bn": "weisser",
+    "wg": 1
+  },
+  {
+    "n": "Weisser Riese Waschmittel XXL, Color Pulver",
+    "p": "11.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/weisser-riese-waschmittel-xxl-color-pulver-000000000311832014",
+    "c": "Other",
+    "cn": "weisser color pulver riese waschmittel xxl",
+    "ik": "tok:weisser|color-pulver-riese-waschmittel-xxl|1",
     "bn": "weisser",
     "wg": 1
   },
