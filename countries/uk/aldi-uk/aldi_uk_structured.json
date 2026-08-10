@@ -8356,6 +8356,32 @@
     "wg": 1
   },
   {
+    "n": "Haddock Fillets",
+    "p": "3.99",
+    "o": "",
+    "s": "360 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/the-fishmonger-haddock-fillets/000000000275439003",
+    "c": "Other",
+    "cn": "haddock fillets",
+    "ik": "tok:haddock|fillets|360",
+    "bn": "haddock",
+    "wg": 360
+  },
+  {
+    "n": "Hake Fillets",
+    "p": "3.45",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/the-fishmonger-hake-fillets/000000000540229001",
+    "c": "Other",
+    "cn": "hake fillets",
+    "ik": "tok:hake|fillets|250",
+    "bn": "hake",
+    "wg": 250
+  },
+  {
     "n": "Battered Cod 4 Pack",
     "p": "3.69",
     "o": "",
@@ -8393,32 +8419,6 @@
     "ik": "tok:gastro|cod-fishcakes-haddock|290",
     "bn": "gastro",
     "wg": 290
-  },
-  {
-    "n": "Haddock Fillets",
-    "p": "3.99",
-    "o": "",
-    "s": "360 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/the-fishmonger-haddock-fillets/000000000275439003",
-    "c": "Other",
-    "cn": "haddock fillets",
-    "ik": "tok:haddock|fillets|360",
-    "bn": "haddock",
-    "wg": 360
-  },
-  {
-    "n": "Hake Fillets",
-    "p": "3.45",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/the-fishmonger-hake-fillets/000000000540229001",
-    "c": "Other",
-    "cn": "hake fillets",
-    "ik": "tok:hake|fillets|250",
-    "bn": "hake",
-    "wg": 250
   },
   {
     "n": "Chunky Breaded Cod 4 Pack",
@@ -10046,6 +10046,19 @@
     "wg": 220
   },
   {
+    "n": "Organic Cheesy Beans & Potato",
+    "p": "0.99",
+    "o": "",
+    "s": "100 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/mamia-organic-cheesy-beans-potato/000000000573866001",
+    "c": "Other",
+    "cn": "organic beans cheesy potato",
+    "ik": "tok:organic|beans-cheesy-potato|100",
+    "bn": "organic",
+    "wg": 100
+  },
+  {
     "n": "Chicken & Bean Soup",
     "p": "1.99",
     "o": "",
@@ -10095,19 +10108,6 @@
     "ik": "tok:cheese|bacon-bake-pasta|485",
     "bn": "cheese",
     "wg": 485
-  },
-  {
-    "n": "Steak Bakes 2 Pack",
-    "p": "1.15",
-    "o": "",
-    "s": "280 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/crestwood-steak-bakes-2-pack/000000000370166002",
-    "c": "Other",
-    "cn": "steak bakes pack",
-    "ik": "tok:steak|bakes-pack|280",
-    "bn": "steak",
-    "wg": 280
   },
   {
     "n": "Mackerel Fillets In Tomato Sauce",
@@ -11211,6 +11211,19 @@
     "wg": 10000
   },
   {
+    "n": "Detox Herbal Tea 20 Pack",
+    "p": "1.49",
+    "o": "",
+    "s": "40 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/diplomat-detox-herbal-tea-20-pack/000000000336795001",
+    "c": "Other",
+    "cn": "detox 20 herbal pack tea",
+    "ik": "tok:detox|20-herbal-pack-tea|40",
+    "bn": "detox",
+    "wg": 40
+  },
+  {
     "n": "Sweet Popcorn Share Bag",
     "p": "0.99",
     "o": "",
@@ -11235,19 +11248,6 @@
     "ik": "tok:small|bag-freezer-roll|1",
     "bn": "small",
     "wg": 1
-  },
-  {
-    "n": "Detox Herbal Tea 20 Pack",
-    "p": "1.49",
-    "o": "",
-    "s": "40 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/diplomat-detox-herbal-tea-20-pack/000000000336795001",
-    "c": "Other",
-    "cn": "detox 20 herbal pack tea",
-    "ik": "tok:detox|20-herbal-pack-tea|40",
-    "bn": "detox",
-    "wg": 40
   },
   {
     "n": "Sweet & Salty Popcorn Share Bag",
@@ -15381,19 +15381,6 @@
     "wg": 100
   },
   {
-    "n": "Lion Milk Chocolate",
-    "p": "1.19",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi.co.uk/product/nestle-lion-milk-chocolate/000000000730428002",
-    "c": "Snacks",
-    "cn": "lion chocolate milk",
-    "ik": "tok:lion|chocolate-milk|120",
-    "bn": "lion",
-    "wg": 120
-  },
-  {
     "n": "Giant Milk Chocolate Buttons",
     "p": "0.99",
     "o": "",
@@ -15469,6 +15456,19 @@
     "cn": "mint bar bubbly chocolate",
     "ik": "tok:mint|bar-bubbly-chocolate|100",
     "bn": "mint",
+    "wg": 100
+  },
+  {
+    "n": "Orange Chocolate Bubbly Bar",
+    "p": "0.99",
+    "o": "",
+    "s": "100 ml",
+    "l": "",
+    "i": "https://www.aldi.co.uk/product/dairyfine-orange-chocolate-bubbly-bar/000000000405385004",
+    "c": "Snacks",
+    "cn": "orange bar bubbly chocolate",
+    "ik": "tok:orange|bar-bubbly-chocolate|100",
+    "bn": "orange",
     "wg": 100
   },
   {

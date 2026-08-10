@@ -2897,19 +2897,6 @@
     "wg": 800
   },
   {
-    "n": "Filinchen Knusper-Brot Vollkorn 75G",
-    "p": "1.09",
-    "o": "",
-    "s": "75 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/filinchen_knusperbrot_vollkorn_75g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Filinchen-Knusper-Brot-Vollkorn-75G.html?listtype=search&searchparam=Brot",
-    "c": "Other",
-    "cn": "filinchen brot knusper vollkorn",
-    "ik": "tok:filinchen|brot-knusper-vollkorn|75",
-    "bn": "filinchen",
-    "wg": 75
-  },
-  {
     "n": "Leicht & Cross Knusperbrot High Protein 115G",
     "p": "1.49",
     "o": "",
@@ -3050,6 +3037,19 @@
     "cn": "alnatura bio gegrilltes gem hummus se",
     "ik": "tok:alnatura|bio-gegrilltes-gem-hummus-se|180",
     "bn": "alnatura",
+    "wg": 180
+  },
+  {
+    "n": "Wasa Delicate Crackers Sea Salt 180G",
+    "p": "3.39",
+    "o": "",
+    "s": "180 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/wasadelicatecrackersseasalt.jpg",
+    "i": "https://www.edeka24.de/Wasa-Delicate-Crackers-Sea-Salt-180G.html?listtype=search&searchparam=Brot",
+    "c": "Other",
+    "cn": "wasa crackers delicate salt sea",
+    "ik": "tok:wasa|crackers-delicate-salt-sea|180",
+    "bn": "wasa",
     "wg": 180
   },
   {
@@ -14697,19 +14697,6 @@
     "wg": 125
   },
   {
-    "n": "Ragusa Noir 100G - Abverkauf",
-    "p": "3.00",
-    "o": "",
-    "s": "100 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ragusa_noir_mit_pralinefamp252llungampampganzen_haselnamp252ssen_100g.jpg",
-    "i": "https://www.edeka24.de/Ragusa-Noir-100G-Abverkauf.html?listtype=search&searchparam=Schokolade",
-    "c": "Other",
-    "cn": "ragusa abverkauf noir",
-    "ik": "tok:ragusa|abverkauf-noir|100",
-    "bn": "ragusa",
-    "wg": 100
-  },
-  {
     "n": "Ritter Sport Marzipan 100G",
     "p": "1.49",
     "o": "",
@@ -14734,19 +14721,6 @@
     "ik": "tok:bahlsen|chokini|150",
     "bn": "bahlsen",
     "wg": 150
-  },
-  {
-    "n": "Ragusa Classique 100G - Abverkauf",
-    "p": "3.00",
-    "o": "",
-    "s": "100 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ragusa_classique_mit_pralinefamp252llungampampganzen_haselnamp252ssen_100g.jpg",
-    "i": "https://www.edeka24.de/Ragusa-Classique-100G-Abverkauf.html?listtype=search&searchparam=Schokolade",
-    "c": "Other",
-    "cn": "ragusa abverkauf classique",
-    "ik": "tok:ragusa|abverkauf-classique|100",
-    "bn": "ragusa",
-    "wg": 100
   },
   {
     "n": "De Beukelaer Prinzen Rolle Choco & Cream 352G",
