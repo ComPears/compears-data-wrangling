@@ -78,19 +78,6 @@
     "wg": 1000
   },
   {
-    "n": "OATLY! Haferdrink Barista 1 L",
-    "p": "2.55",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/oatly-haferdrink-barista-1-l-000000000000290288",
-    "c": "Other",
-    "cn": "oatly barista haferdrink",
-    "ik": "tok:oatly|barista-haferdrink|1000",
-    "bn": "oatly",
-    "wg": 1000
-  },
-  {
     "n": "Milsani H-Milch 1,5 % Haltbare Fettarme Milch 1 L",
     "p": "0.85",
     "o": "",
@@ -312,6 +299,19 @@
     "wg": 1
   },
   {
+    "n": "OATLY! Haferdrink Barista 1 L",
+    "p": "2.55",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/oatly-haferdrink-barista-1-l-000000000000290288",
+    "c": "Other",
+    "cn": "oatly barista haferdrink",
+    "ik": "tok:oatly|barista-haferdrink|1000",
+    "bn": "oatly",
+    "wg": 1000
+  },
+  {
     "n": "My Vay Bio-Haferdrink Natur 1 L",
     "p": "0.90",
     "o": "",
@@ -362,19 +362,6 @@
     "ik": "tok:alpro|haferdrink-ohne-zucker|1000",
     "bn": "alpro",
     "wg": 1000
-  },
-  {
-    "n": "Biscotto Schoko Butterkeks 125 g, Vollmilch",
-    "p": "1.59",
-    "o": "",
-    "s": "130 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/biscotto-schoko-butterkeks-125-g-vollmilch-000000000265290002",
-    "c": "Other",
-    "cn": "biscotto butterkeks schoko vollmilch",
-    "ik": "tok:biscotto|butterkeks-schoko-vollmilch|130",
-    "bn": "biscotto",
-    "wg": 130
   },
   {
     "n": "Choceur Vollmilch Schokolade 100 G",
@@ -533,6 +520,19 @@
     "wg": 180
   },
   {
+    "n": "Biscotto Schoko Butterkeks 125 g, Vollmilch",
+    "p": "1.59",
+    "o": "",
+    "s": "130 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/biscotto-schoko-butterkeks-125-g-vollmilch-000000000265290002",
+    "c": "Other",
+    "cn": "biscotto butterkeks schoko vollmilch",
+    "ik": "tok:biscotto|butterkeks-schoko-vollmilch|130",
+    "bn": "biscotto",
+    "wg": 130
+  },
+  {
     "n": "Choceur Sahne & Weiße 200 g, Vollmilchschokolade",
     "p": "2.19",
     "o": "",
@@ -689,30 +689,30 @@
     "wg": 400
   },
   {
-    "n": "Milsani Creme A La Cuisine Kochsahne 250 ml, 15 %",
-    "p": "0.89",
+    "n": "Lyttos Sahnejoghurt Griechischer Art 1 kg, 2 % Fett",
+    "p": "1.69",
     "o": "",
-    "s": "250 ml",
+    "s": "1 l",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-creme-a-la-cuisine-kochsahne-250-ml-15-000000000202811001",
+    "i": "https://www.aldi-sued.de/produkt/lyttos-sahnejoghurt-griechischer-art-1-kg-2-fett-000000000603365001",
     "c": "Other",
-    "cn": "milsani 15 creme cuisine kochsahne la",
-    "ik": "tok:milsani|15-creme-cuisine-kochsahne-la|250",
-    "bn": "milsani",
-    "wg": 250
+    "cn": "lyttos art fett griechischer sahnejoghurt",
+    "ik": "tok:lyttos|art-fett-griechischer-sahnejoghurt|1000",
+    "bn": "lyttos",
+    "wg": 1000
   },
   {
-    "n": "Milsani Creme A La Cuisine Kochsahne 250 ml, 7 %",
-    "p": "0.89",
+    "n": "Lyttos Sahnejoghurt Griechischer Art 1 kg, 10 % Fett",
+    "p": "1.69",
     "o": "",
-    "s": "250 ml",
+    "s": "1 l",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-creme-a-la-cuisine-kochsahne-250-ml-7-000000000202811003",
+    "i": "https://www.aldi-sued.de/produkt/lyttos-sahnejoghurt-griechischer-art-1-kg-10-fett-000000000603365002",
     "c": "Other",
-    "cn": "milsani creme cuisine kochsahne la",
-    "ik": "tok:milsani|creme-cuisine-kochsahne-la|250",
-    "bn": "milsani",
-    "wg": 250
+    "cn": "lyttos 10 art fett griechischer sahnejoghurt",
+    "ik": "tok:lyttos|10-art-fett-griechischer-sahnejoghurt|1000",
+    "bn": "lyttos",
+    "wg": 1000
   },
   {
     "n": "Choceur Milch-Mäuse 210 g, Milchcreme",
@@ -871,19 +871,6 @@
     "wg": 250
   },
   {
-    "n": "Meggle Feine Butter 250 G",
-    "p": "1.39",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meggle-feine-butter-250-g-000000000000204033",
-    "c": "Other",
-    "cn": "meggle butter feine",
-    "ik": "tok:meggle|butter-feine|250",
-    "bn": "meggle",
-    "wg": 250
-  },
-  {
     "n": "Bio Bio-Butter 250 g, Süssrahmbutter",
     "p": "2.69",
     "o": "",
@@ -921,6 +908,19 @@
     "ik": "tok:milsani|streichfein-ungesalzen-xxl|400",
     "bn": "milsani",
     "wg": 400
+  },
+  {
+    "n": "Meggle Feine Butter 250 G",
+    "p": "1.39",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meggle-feine-butter-250-g-000000000000204033",
+    "c": "Other",
+    "cn": "meggle butter feine",
+    "ik": "tok:meggle|butter-feine|250",
+    "bn": "meggle",
+    "wg": 250
   },
   {
     "n": "Rama Margarine 400 G",
@@ -1430,6 +1430,32 @@
     "wg": 250
   },
   {
+    "n": "Milsani Creme A La Cuisine Kochsahne 250 ml, 15 %",
+    "p": "0.89",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-creme-a-la-cuisine-kochsahne-250-ml-15-000000000202811001",
+    "c": "Other",
+    "cn": "milsani 15 creme cuisine kochsahne la",
+    "ik": "tok:milsani|15-creme-cuisine-kochsahne-la|250",
+    "bn": "milsani",
+    "wg": 250
+  },
+  {
+    "n": "Milsani Creme A La Cuisine Kochsahne 250 ml, 7 %",
+    "p": "0.89",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-creme-a-la-cuisine-kochsahne-250-ml-7-000000000202811003",
+    "c": "Other",
+    "cn": "milsani creme cuisine kochsahne la",
+    "ik": "tok:milsani|creme-cuisine-kochsahne-la|250",
+    "bn": "milsani",
+    "wg": 250
+  },
+  {
     "n": "Wonnemeyer Feinkostsalat 250 g, Ei",
     "p": "1.79",
     "o": "",
@@ -1443,43 +1469,69 @@
     "wg": 250
   },
   {
-    "n": "Milsani Fruchtbuttermilch Dessert 200 g, Erdbeere",
-    "p": "0.59",
+    "n": "Meine Käsetheke Österreichischer Bergkäse 350 G",
+    "p": "2.99",
     "o": "",
-    "s": "200 ml",
+    "s": "350 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-fruchtbuttermilch-dessert-200-g-erdbeere-000000000202694001",
+    "i": "https://www.aldi-sued.de/produkt/meine-kaesetheke-oesterreichischer-bergkaese-350-g-000000000000524391",
     "c": "Other",
-    "cn": "milsani dessert erdbeere fruchtbuttermilch",
-    "ik": "tok:milsani|dessert-erdbeere-fruchtbuttermilch|200",
-    "bn": "milsani",
-    "wg": 200
+    "cn": "meine bergk se setheke sterreichischer",
+    "ik": "tok:meine|bergk-se-setheke-sterreichischer|350",
+    "bn": "meine",
+    "wg": 350
   },
   {
-    "n": "Milsani Gouda Scheiben, 400 G",
-    "p": "2.45",
+    "n": "Roi De Trefle Ziegenfrischkäse, Rolle 180 G",
+    "p": "1.59",
     "o": "",
-    "s": "400 ml",
+    "s": "180 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-gouda-scheiben-400-g-000000000000554730",
+    "i": "https://www.aldi-sued.de/produkt/roi-de-trefle-ziegenfrischkaese-rolle-180-g-000000000451694001",
     "c": "Other",
-    "cn": "milsani gouda scheiben",
-    "ik": "tok:milsani|gouda-scheiben|400",
-    "bn": "milsani",
-    "wg": 400
+    "cn": "roi rolle se trefle ziegenfrischk",
+    "ik": "tok:roi|rolle-se-trefle-ziegenfrischk|180",
+    "bn": "roi",
+    "wg": 180
   },
   {
-    "n": "Milsani Emmentaler Am Stück 400 G",
-    "p": "3.49",
+    "n": "Roi De Trefle Ziegenfrischkäse, Pyramide Natur 150 G",
+    "p": "1.59",
     "o": "",
-    "s": "400 ml",
+    "s": "150 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-emmentaler-am-stueck-400-g-000000000000202667",
+    "i": "https://www.aldi-sued.de/produkt/roi-de-trefle-ziegenfrischkaese-pyramide-natur-150-g-000000000451694003",
     "c": "Other",
-    "cn": "milsani am ck emmentaler",
-    "ik": "tok:milsani|am-ck-emmentaler|400",
-    "bn": "milsani",
-    "wg": 400
+    "cn": "roi natur pyramide se trefle ziegenfrischk",
+    "ik": "tok:roi|natur-pyramide-se-trefle-ziegenfrischk|150",
+    "bn": "roi",
+    "wg": 150
+  },
+  {
+    "n": "Roi De Trefle Ziegenfrischkäse, Pyramide Schnittlauch 150 G",
+    "p": "1.59",
+    "o": "",
+    "s": "150 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/roi-de-trefle-ziegenfrischkaese-pyramide-schnittlauch-150-g-000000000451694004",
+    "c": "Other",
+    "cn": "roi pyramide schnittlauch se trefle ziegenfrischk",
+    "ik": "tok:roi|pyramide-schnittlauch-se-trefle-ziegenfrischk|150",
+    "bn": "roi",
+    "wg": 150
+  },
+  {
+    "n": "Roi De Trefle Ziegenfrischkäse, Rolle 150 G",
+    "p": "1.59",
+    "o": "",
+    "s": "150 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/roi-de-trefle-ziegenfrischkaese-rolle-150-g-000000000451694005",
+    "c": "Other",
+    "cn": "roi rolle se trefle ziegenfrischk",
+    "ik": "tok:roi|rolle-se-trefle-ziegenfrischk|150",
+    "bn": "roi",
+    "wg": 150
   },
   {
     "n": "Bbq Brat- Und Grillkäsetaler, Tomate-Basilikum 280 G",
@@ -1742,110 +1794,6 @@
     "wg": 180
   },
   {
-    "n": "Hofburger Kasländer 175 g, Chili-Paprika",
-    "p": "1.85",
-    "o": "",
-    "s": "180 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/hofburger-kaslaender-175-g-chili-paprika-000000000541046004",
-    "c": "Other",
-    "cn": "hofburger chili kasl nder paprika",
-    "ik": "tok:hofburger|chili-kasl-nder-paprika|180",
-    "bn": "hofburger",
-    "wg": 180
-  },
-  {
-    "n": "Milsani Edamer Scheiben 400 G",
-    "p": "2.45",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-edamer-scheiben-400-g-000000000554859001",
-    "c": "Other",
-    "cn": "milsani edamer scheiben",
-    "ik": "tok:milsani|edamer-scheiben|400",
-    "bn": "milsani",
-    "wg": 400
-  },
-  {
-    "n": "Milsani Tilsiter Scheiben 400 G",
-    "p": "2.45",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-tilsiter-scheiben-400-g-000000000554859002",
-    "c": "Other",
-    "cn": "milsani scheiben tilsiter",
-    "ik": "tok:milsani|scheiben-tilsiter|400",
-    "bn": "milsani",
-    "wg": 400
-  },
-  {
-    "n": "Mini Babybel Mini Babybel 120 g, Original",
-    "p": "2.89",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/mini-babybel-mini-babybel-120-g-original-000000000515510001",
-    "c": "Personal Care",
-    "cn": "babybel mini original",
-    "ik": "tok:babybel|mini-original|120",
-    "bn": "babybel",
-    "wg": 120
-  },
-  {
-    "n": "Mini Babybel Mini Babybel 120 g, Leicht",
-    "p": "2.89",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/mini-babybel-mini-babybel-120-g-leicht-000000000515510002",
-    "c": "Personal Care",
-    "cn": "babybel leicht mini",
-    "ik": "tok:babybel|leicht-mini|120",
-    "bn": "babybel",
-    "wg": 120
-  },
-  {
-    "n": "Milsani Käsescheiben 150 g, Butterkäse",
-    "p": "0.99",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-kaesescheiben-150-g-butterkaese-000000000549155001",
-    "c": "Other",
-    "cn": "milsani butterk se sescheiben",
-    "ik": "tok:milsani|butterk-se-sescheiben|150",
-    "bn": "milsani",
-    "wg": 150
-  },
-  {
-    "n": "Gut Bio Bio-Käsegenuss 200 g, Butterkäse",
-    "p": "1.99",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-bio-bio-kaesegenuss-200-g-butterkaese-000000000510117001",
-    "c": "Other",
-    "cn": "gut bio butterk se segenuss",
-    "ik": "tok:gut|bio-butterk-se-segenuss|200",
-    "bn": "gut",
-    "wg": 200
-  },
-  {
-    "n": "Nur Nur Natur Bio-Heumilch-Käsescheiben 150 g, Bergkäse",
-    "p": "2.39",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-heumilch-kaesescheiben-150-g-bergkaese-000000000487869002",
-    "c": "Other",
-    "cn": "nur bergk bio heumilch natur se sescheiben",
-    "ik": "tok:nur|bergk-bio-heumilch-natur-se-sescheiben|150",
-    "bn": "nur",
-    "wg": 150
-  },
-  {
     "n": "Meine Käsetheke Gouda Mittelalt 450 G",
     "p": "4.29",
     "o": "",
@@ -1909,6 +1857,19 @@
     "ik": "tok:hofburger|gerieben-gouda|250",
     "bn": "hofburger",
     "wg": 250
+  },
+  {
+    "n": "Milsani Gouda Scheiben, 400 G",
+    "p": "2.45",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-gouda-scheiben-400-g-000000000000554730",
+    "c": "Other",
+    "cn": "milsani gouda scheiben",
+    "ik": "tok:milsani|gouda-scheiben|400",
+    "bn": "milsani",
+    "wg": 400
   },
   {
     "n": "Milsani Sandwichscheiben, Gouda 200 G",
@@ -2158,6 +2119,19 @@
     "wg": 500
   },
   {
+    "n": "Milsani High Protein Skyr Drink 330 ml, Zitrone-Limette",
+    "p": "1.49",
+    "o": "",
+    "s": "330 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-high-protein-skyr-drink-330-ml-zitrone-limette-000000000739709003",
+    "c": "Other",
+    "cn": "milsani drink high limette protein skyr zitrone",
+    "ik": "tok:milsani|drink-high-limette-protein-skyr-zitrone|330",
+    "bn": "milsani",
+    "wg": 330
+  },
+  {
     "n": "Bio Fettarmer Joghurt 1 kg, 1,8 % Fett, Mild",
     "p": "1.99",
     "o": "",
@@ -2182,19 +2156,6 @@
     "ik": "tok:bio|cremiger-fett-joghurt-mild|1000",
     "bn": "bio",
     "wg": 1000
-  },
-  {
-    "n": "Milsani High Protein Skyr Drink 330 ml, Zitrone-Limette",
-    "p": "1.49",
-    "o": "",
-    "s": "330 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-high-protein-skyr-drink-330-ml-zitrone-limette-000000000739709003",
-    "c": "Other",
-    "cn": "milsani drink high limette protein skyr zitrone",
-    "ik": "tok:milsani|drink-high-limette-protein-skyr-zitrone|330",
-    "bn": "milsani",
-    "wg": 330
   },
   {
     "n": "Lyttos Joghurt Nach Griechischer Art Natur 600 G",
@@ -2340,45 +2301,6 @@
     "wg": 1000
   },
   {
-    "n": "Bio Bio-Fruchtjoghurt 150 g, Mango",
-    "p": "0.59",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bio-bio-fruchtjoghurt-150-g-mango-000000000205865004",
-    "c": "Other",
-    "cn": "bio fruchtjoghurt mango",
-    "ik": "tok:bio|fruchtjoghurt-mango|150",
-    "bn": "bio",
-    "wg": 150
-  },
-  {
-    "n": "Bio Bio-Fruchtjoghurt 150 g, Erdbeere",
-    "p": "0.59",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bio-bio-fruchtjoghurt-150-g-erdbeere-000000000205865005",
-    "c": "Other",
-    "cn": "bio erdbeere fruchtjoghurt",
-    "ik": "tok:bio|erdbeere-fruchtjoghurt|150",
-    "bn": "bio",
-    "wg": 150
-  },
-  {
-    "n": "Bio Bio-Fruchtjoghurt 150 g, Himbeere",
-    "p": "0.59",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bio-bio-fruchtjoghurt-150-g-himbeere-000000000205865010",
-    "c": "Other",
-    "cn": "bio fruchtjoghurt himbeere",
-    "ik": "tok:bio|fruchtjoghurt-himbeere|150",
-    "bn": "bio",
-    "wg": 150
-  },
-  {
     "n": "Nur Nur Natur Bio-Naturjoghurt 3,8 % Fett 400 G",
     "p": "0.99",
     "o": "",
@@ -2390,6 +2312,19 @@
     "ik": "tok:nur|bio-fett-natur-naturjoghurt|400",
     "bn": "nur",
     "wg": 400
+  },
+  {
+    "n": "Bio Bio-Fruchtjoghurt 150 g, Mango",
+    "p": "0.59",
+    "o": "",
+    "s": "150 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bio-bio-fruchtjoghurt-150-g-mango-000000000205865004",
+    "c": "Other",
+    "cn": "bio fruchtjoghurt mango",
+    "ik": "tok:bio|fruchtjoghurt-mango|150",
+    "bn": "bio",
+    "wg": 150
   },
   {
     "n": "Milsani Speisequark Magerstufe 250 G",
@@ -3003,82 +2938,17 @@
     "wg": 500
   },
   {
-    "n": "Goldähren Das Rustikale Saaten 500 G",
-    "p": "1.69",
+    "n": "Goldähren Dinkelsandwich 750 G",
+    "p": "1.29",
     "o": "",
-    "s": "500 ml",
+    "s": "750 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-das-rustikale-saaten-500-g-000000000000277154",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-dinkelsandwich-750-g-000000000000489025",
     "c": "Other",
-    "cn": "goldhren das gold hren rustikale saaten",
-    "ik": "tok:goldhren|das-gold-hren-rustikale-saaten|500",
+    "cn": "goldhren dinkelsandwich gold hren",
+    "ik": "tok:goldhren|dinkelsandwich-gold-hren|750",
     "bn": "goldhren",
-    "wg": 500
-  },
-  {
-    "n": "Golden Toast Butter Toast 500 G",
-    "p": "1.89",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/golden-toast-butter-toast-500-g-000000000187382001",
-    "c": "Other",
-    "cn": "golden butter toast",
-    "ik": "tok:golden|butter-toast|500",
-    "bn": "golden",
-    "wg": 500
-  },
-  {
-    "n": "Golden Toast Vollkorn Toast 500 G",
-    "p": "1.89",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/golden-toast-vollkorn-toast-500-g-000000000187382002",
-    "c": "Other",
-    "cn": "golden toast vollkorn",
-    "ik": "tok:golden|toast-vollkorn|500",
-    "bn": "golden",
-    "wg": 500
-  },
-  {
-    "n": "Bbq Grillies Xxl 300 g, Klassik",
-    "p": "1.69",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bbq-grillies-xxl-300-g-klassik-000000000670379001",
-    "c": "Other",
-    "cn": "bbq grillies klassik xxl",
-    "ik": "tok:bbq|grillies-klassik-xxl|300",
-    "bn": "bbq",
-    "wg": 300
-  },
-  {
-    "n": "Bbq Grillies Xxl 300 g, Kräuter",
-    "p": "1.69",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bbq-grillies-xxl-300-g-kraeuter-000000000670379002",
-    "c": "Other",
-    "cn": "bbq grillies kr uter xxl",
-    "ik": "tok:bbq|grillies-kr-uter-xxl|300",
-    "bn": "bbq",
-    "wg": 300
-  },
-  {
-    "n": "Bbq Grillies Xxl 300 g, Röstzwiebel",
-    "p": "1.69",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bbq-grillies-xxl-300-g-roestzwiebel-000000000670379003",
-    "c": "Other",
-    "cn": "bbq grillies stzwiebel xxl",
-    "ik": "tok:bbq|grillies-stzwiebel-xxl|300",
-    "bn": "bbq",
-    "wg": 300
+    "wg": 750
   },
   {
     "n": "Goldähren Proteinbrot 500 G",
@@ -3250,6 +3120,19 @@
     "wg": 400
   },
   {
+    "n": "Goldähren Das Rustikale Saaten 500 G",
+    "p": "1.69",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-das-rustikale-saaten-500-g-000000000000277154",
+    "c": "Other",
+    "cn": "goldhren das gold hren rustikale saaten",
+    "ik": "tok:goldhren|das-gold-hren-rustikale-saaten|500",
+    "bn": "goldhren",
+    "wg": 500
+  },
+  {
     "n": "Goldähren Das Milde 500 G",
     "p": "0.99",
     "o": "",
@@ -3261,19 +3144,6 @@
     "ik": "tok:goldhren|das-gold-hren-milde|500",
     "bn": "goldhren",
     "wg": 500
-  },
-  {
-    "n": "Goldähren Dinkelsandwich 750 G",
-    "p": "1.29",
-    "o": "",
-    "s": "750 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-dinkelsandwich-750-g-000000000000489025",
-    "c": "Other",
-    "cn": "goldhren dinkelsandwich gold hren",
-    "ik": "tok:goldhren|dinkelsandwich-gold-hren|750",
-    "bn": "goldhren",
-    "wg": 750
   },
   {
     "n": "Goldähren Saaten-Sandwich 750 G",
@@ -3300,6 +3170,19 @@
     "ik": "tok:goldhren|bauernschnitten-gold-hren-roggen|500",
     "bn": "goldhren",
     "wg": 500
+  },
+  {
+    "n": "Eifeler Weizenmischbrot 400 G",
+    "p": "1.39",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-eifeler-weizenmischbrot-400-g-000000000000187306",
+    "c": "Other",
+    "cn": "eifeler weizenmischbrot",
+    "ik": "tok:eifeler|weizenmischbrot|400",
+    "bn": "eifeler",
+    "wg": 400
   },
   {
     "n": "Goldähren Volles Korn, Roggen 500 G",
@@ -3341,56 +3224,17 @@
     "wg": 380
   },
   {
-    "n": "Eifeler Weizenmischbrot 400 G",
-    "p": "1.39",
+    "n": "Gutes Vom Bäcker Nuss-Rosinen-Schwarzbrot 250 G",
+    "p": "1.99",
     "o": "",
-    "s": "400 ml",
+    "s": "250 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-eifeler-weizenmischbrot-400-g-000000000000187306",
+    "i": "https://www.aldi-sued.de/produkt/gutes-vom-baecker-nuss-rosinen-schwarzbrot-250-g-000000000000187047",
     "c": "Other",
-    "cn": "eifeler weizenmischbrot",
-    "ik": "tok:eifeler|weizenmischbrot|400",
-    "bn": "eifeler",
-    "wg": 400
-  },
-  {
-    "n": "Goldähren Toastbrötchen 335 g, Weizen",
-    "p": "0.99",
-    "o": "",
-    "s": "340 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-weizen-000000000188405001",
-    "c": "Other",
-    "cn": "goldhren gold hren tchen toastbr weizen",
-    "ik": "tok:goldhren|gold-hren-tchen-toastbr-weizen|340",
-    "bn": "goldhren",
-    "wg": 340
-  },
-  {
-    "n": "Goldähren Toastbrötchen 335 g, Mehrkorn",
-    "p": "0.99",
-    "o": "",
-    "s": "340 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-mehrkorn-000000000188405002",
-    "c": "Other",
-    "cn": "goldhren gold hren mehrkorn tchen toastbr",
-    "ik": "tok:goldhren|gold-hren-mehrkorn-tchen-toastbr|340",
-    "bn": "goldhren",
-    "wg": 340
-  },
-  {
-    "n": "Goldähren Toastbrötchen 335 g, Dinkel",
-    "p": "0.99",
-    "o": "",
-    "s": "340 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-dinkel-000000000188405003",
-    "c": "Other",
-    "cn": "goldhren dinkel gold hren tchen toastbr",
-    "ik": "tok:goldhren|dinkel-gold-hren-tchen-toastbr|340",
-    "bn": "goldhren",
-    "wg": 340
+    "cn": "gutes cker nuss rosinen schwarzbrot vom",
+    "ik": "tok:gutes|cker-nuss-rosinen-schwarzbrot-vom|250",
+    "bn": "gutes",
+    "wg": 250
   },
   {
     "n": "Zitterwälder Rheinisches Vollkornbrot, Fein 400 G",
@@ -3419,6 +3263,71 @@
     "wg": 400
   },
   {
+    "n": "Asia Green Garden Naan Brot 260 g, Tandoori",
+    "p": "0.99",
+    "o": "",
+    "s": "260 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/asia-green-garden-naan-brot-260-g-tandoori-000000000186887001",
+    "c": "Other",
+    "cn": "asia brot garden green naan tandoori",
+    "ik": "tok:asia|brot-garden-green-naan-tandoori|260",
+    "bn": "asia",
+    "wg": 260
+  },
+  {
+    "n": "Asia Green Garden Naan Brot 260 g, Natur",
+    "p": "0.99",
+    "o": "",
+    "s": "260 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/asia-green-garden-naan-brot-260-g-natur-000000000186887002",
+    "c": "Other",
+    "cn": "asia brot garden green naan natur",
+    "ik": "tok:asia|brot-garden-green-naan-natur|260",
+    "bn": "asia",
+    "wg": 260
+  },
+  {
+    "n": "Lyttos Pitabrot Spezialitäten, Pita Tasche",
+    "p": "1.39",
+    "o": "",
+    "s": "420 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/lyttos-pitabrot-spezialitaeten-pita-tasche-000000000485541001",
+    "c": "Other",
+    "cn": "lyttos pita pitabrot spezialit tasche ten",
+    "ik": "tok:lyttos|pita-pitabrot-spezialit-tasche-ten|420",
+    "bn": "lyttos",
+    "wg": 420
+  },
+  {
+    "n": "Lyttos Pitabrot Spezialitäten, Pitatasche Oval",
+    "p": "1.39",
+    "o": "",
+    "s": "420 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/lyttos-pitabrot-spezialitaeten-pitatasche-oval-000000000485541003",
+    "c": "Other",
+    "cn": "lyttos oval pitabrot pitatasche spezialit ten",
+    "ik": "tok:lyttos|oval-pitabrot-pitatasche-spezialit-ten|420",
+    "bn": "lyttos",
+    "wg": 420
+  },
+  {
+    "n": "Goldähren Toastbrötchen 335 g, Weizen",
+    "p": "0.99",
+    "o": "",
+    "s": "340 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-weizen-000000000188405001",
+    "c": "Other",
+    "cn": "goldhren gold hren tchen toastbr weizen",
+    "ik": "tok:goldhren|gold-hren-tchen-toastbr-weizen|340",
+    "bn": "goldhren",
+    "wg": 340
+  },
+  {
     "n": "Golden Toast Sandwich 750 g, Weizen",
     "p": "2.29",
     "o": "",
@@ -3445,17 +3354,43 @@
     "wg": 750
   },
   {
-    "n": "Meine Backwelt Flabatta 200 G",
+    "n": "Goldähren Toastbrötchen 335 g, Mehrkorn",
     "p": "0.99",
     "o": "",
-    "s": "200 ml",
+    "s": "340 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-flabatta-200-g-000000000000541000",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-mehrkorn-000000000188405002",
     "c": "Other",
-    "cn": "meine backwelt flabatta",
-    "ik": "tok:meine|backwelt-flabatta|200",
+    "cn": "goldhren gold hren mehrkorn tchen toastbr",
+    "ik": "tok:goldhren|gold-hren-mehrkorn-tchen-toastbr|340",
+    "bn": "goldhren",
+    "wg": 340
+  },
+  {
+    "n": "Goldähren Toastbrötchen 335 g, Dinkel",
+    "p": "0.99",
+    "o": "",
+    "s": "340 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-dinkel-000000000188405003",
+    "c": "Other",
+    "cn": "goldhren dinkel gold hren tchen toastbr",
+    "ik": "tok:goldhren|dinkel-gold-hren-tchen-toastbr|340",
+    "bn": "goldhren",
+    "wg": 340
+  },
+  {
+    "n": "Meine Backwelt Sonnenblumenkrüstchen",
+    "p": "0.29",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-sonnenblumenkruestchen-000000000000187816",
+    "c": "Other",
+    "cn": "meine backwelt sonnenblumenkr stchen",
+    "ik": "tok:meine|backwelt-sonnenblumenkr-stchen|1",
     "bn": "meine",
-    "wg": 200
+    "wg": 1
   },
   {
     "n": "Meine Backwelt Walnussbrötchen Stück",
@@ -3497,84 +3432,6 @@
     "wg": 420
   },
   {
-    "n": "Meine Backwelt Butter-Laugenecke",
-    "p": "0.85",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-butter-laugenecke-000000000000187148",
-    "c": "Other",
-    "cn": "meine backwelt butter laugenecke",
-    "ik": "tok:meine|backwelt-butter-laugenecke|1",
-    "bn": "meine",
-    "wg": 1
-  },
-  {
-    "n": "Meine Backwelt Laugenstange",
-    "p": "0.39",
-    "o": "",
-    "s": "100 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-laugenstange-000000000000187409",
-    "c": "Other",
-    "cn": "meine backwelt laugenstange",
-    "ik": "tok:meine|backwelt-laugenstange|100",
-    "bn": "meine",
-    "wg": 100
-  },
-  {
-    "n": "Meine Backwelt Sonnenblumenkrüstchen",
-    "p": "0.29",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-sonnenblumenkruestchen-000000000000187816",
-    "c": "Other",
-    "cn": "meine backwelt sonnenblumenkr stchen",
-    "ik": "tok:meine|backwelt-sonnenblumenkr-stchen|1",
-    "bn": "meine",
-    "wg": 1
-  },
-  {
-    "n": "Meine Backwelt Rustikales Baguette 250 G",
-    "p": "0.65",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-rustikales-baguette-250-g-000000000000334712",
-    "c": "Other",
-    "cn": "meine backwelt baguette rustikales",
-    "ik": "tok:meine|backwelt-baguette-rustikales|250",
-    "bn": "meine",
-    "wg": 250
-  },
-  {
-    "n": "Meine Backwelt Kornschatz",
-    "p": "0.55",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-kornschatz-000000000000662902",
-    "c": "Other",
-    "cn": "meine backwelt kornschatz",
-    "ik": "tok:meine|backwelt-kornschatz|1",
-    "bn": "meine",
-    "wg": 1
-  },
-  {
-    "n": "Meine Backwelt Olivenstange",
-    "p": "0.79",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-olivenstange-000000000000750891",
-    "c": "Other",
-    "cn": "meine backwelt olivenstange",
-    "ik": "tok:meine|backwelt-olivenstange|1",
-    "bn": "meine",
-    "wg": 1
-  },
-  {
     "n": "Meine Backwelt Franzbrötchen",
     "p": "0.79",
     "o": "",
@@ -3612,6 +3469,84 @@
     "ik": "tok:goldhren|baguettebr-gold-hren-tchen|300",
     "bn": "goldhren",
     "wg": 300
+  },
+  {
+    "n": "Meine Backwelt Butter-Laugenecke",
+    "p": "0.85",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-butter-laugenecke-000000000000187148",
+    "c": "Other",
+    "cn": "meine backwelt butter laugenecke",
+    "ik": "tok:meine|backwelt-butter-laugenecke|1",
+    "bn": "meine",
+    "wg": 1
+  },
+  {
+    "n": "Meine Backwelt Laugenstange",
+    "p": "0.39",
+    "o": "",
+    "s": "100 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-laugenstange-000000000000187409",
+    "c": "Other",
+    "cn": "meine backwelt laugenstange",
+    "ik": "tok:meine|backwelt-laugenstange|100",
+    "bn": "meine",
+    "wg": 100
+  },
+  {
+    "n": "Meine Backwelt Rustikales Baguette 250 G",
+    "p": "0.65",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-rustikales-baguette-250-g-000000000000334712",
+    "c": "Other",
+    "cn": "meine backwelt baguette rustikales",
+    "ik": "tok:meine|backwelt-baguette-rustikales|250",
+    "bn": "meine",
+    "wg": 250
+  },
+  {
+    "n": "Meine Backwelt Flabatta 200 G",
+    "p": "0.99",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-flabatta-200-g-000000000000541000",
+    "c": "Other",
+    "cn": "meine backwelt flabatta",
+    "ik": "tok:meine|backwelt-flabatta|200",
+    "bn": "meine",
+    "wg": 200
+  },
+  {
+    "n": "Meine Backwelt Kornschatz",
+    "p": "0.55",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-kornschatz-000000000000662902",
+    "c": "Other",
+    "cn": "meine backwelt kornschatz",
+    "ik": "tok:meine|backwelt-kornschatz|1",
+    "bn": "meine",
+    "wg": 1
+  },
+  {
+    "n": "Meine Backwelt Olivenstange",
+    "p": "0.79",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-olivenstange-000000000000750891",
+    "c": "Other",
+    "cn": "meine backwelt olivenstange",
+    "ik": "tok:meine|backwelt-olivenstange|1",
+    "bn": "meine",
+    "wg": 1
   },
   {
     "n": "Goldähren Sonntagsbrötchen 560 g, Weizen",
@@ -3770,6 +3705,19 @@
     "wg": 320
   },
   {
+    "n": "Goldähren Hamburger-Brötchen 300 G",
+    "p": "0.99",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-hamburger-broetchen-300-g-000000000468528001",
+    "c": "Other",
+    "cn": "goldhren br gold hamburger hren tchen",
+    "ik": "tok:goldhren|br-gold-hamburger-hren-tchen|300",
+    "bn": "goldhren",
+    "wg": 300
+  },
+  {
     "n": "Goldähren Kartoffelkrüstchen, Dinkel 480 G",
     "p": "1.79",
     "o": "",
@@ -3783,17 +3731,17 @@
     "wg": 480
   },
   {
-    "n": "Goldähren Dinkelkrüstchen 480 G",
-    "p": "1.79",
+    "n": "Meine Backwelt Apfelecke",
+    "p": "0.45",
     "o": "",
-    "s": "480 ml",
+    "s": "1 stuk",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-dinkelkruestchen-480-g-000000000630939002",
+    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-apfelecke-000000000000331161",
     "c": "Other",
-    "cn": "goldhren dinkelkr gold hren stchen",
-    "ik": "tok:goldhren|dinkelkr-gold-hren-stchen|480",
-    "bn": "goldhren",
-    "wg": 480
+    "cn": "meine apfelecke backwelt",
+    "ik": "tok:meine|apfelecke-backwelt|1",
+    "bn": "meine",
+    "wg": 1
   },
   {
     "n": "Sweet Valley Apfelmus 360 g, Apfel",
@@ -3820,19 +3768,6 @@
     "ik": "tok:rio|apfelsaft-oro|1000",
     "bn": "rio",
     "wg": 1000
-  },
-  {
-    "n": "Meine Backwelt Apfelecke",
-    "p": "0.45",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-backwelt-apfelecke-000000000000331161",
-    "c": "Other",
-    "cn": "meine apfelecke backwelt",
-    "ik": "tok:meine|apfelecke-backwelt|1",
-    "bn": "meine",
-    "wg": 1
   },
   {
     "n": "Rio D' Oro Apfelschorle 0,5 L",
@@ -4172,6 +4107,19 @@
     "wg": 360
   },
   {
+    "n": "Mucci My Moments 900 ml, Bananen Split",
+    "p": "1.59",
+    "o": "",
+    "s": "900 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/mucci-my-moments-900-ml-bananen-split-000000000200250002",
+    "c": "Other",
+    "cn": "mucci bananen moments my split",
+    "ik": "tok:mucci|bananen-moments-my-split|900",
+    "bn": "mucci",
+    "wg": 900
+  },
+  {
     "n": "Müller Müllermilch 400 ml, Banane/Banana",
     "p": "1.49",
     "o": "",
@@ -4222,19 +4170,6 @@
     "ik": "tok:home|banane-creation-nstliche-pflanze|1",
     "bn": "home",
     "wg": 1
-  },
-  {
-    "n": "Mucci My Moments 900 ml, Bananen Split",
-    "p": "1.59",
-    "o": "",
-    "s": "900 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/mucci-my-moments-900-ml-bananen-split-000000000200250002",
-    "c": "Other",
-    "cn": "mucci bananen moments my split",
-    "ik": "tok:mucci|bananen-moments-my-split|900",
-    "bn": "mucci",
-    "wg": 900
   },
   {
     "n": "Farmer Naturals Exotische Trockenfrüchte 250 g, Banane",
@@ -4391,6 +4326,19 @@
     "ik": "tok:freche|donuts-freunde-kids-knusper|60",
     "bn": "freche",
     "wg": 60
+  },
+  {
+    "n": "Rispentomaten, Lose",
+    "p": "1.19",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-rispentomaten-lose-000000000000230745",
+    "c": "Fruits & Vegetables",
+    "cn": "rispentomaten lose",
+    "ik": "tok:rispentomaten|lose|1",
+    "bn": "rispentomaten",
+    "wg": 1
   },
   {
     "n": "Bbq Streetfoodsaucen 230 ml, Jalapeno-Tomate-Paprika",
@@ -4757,19 +4705,6 @@
     "wg": 150
   },
   {
-    "n": "Heringsfilet 200 g, Tomaten Creme",
-    "p": "1.11",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-heringsfilet-200-g-tomaten-creme-000000000306227006",
-    "c": "Fruits & Vegetables",
-    "cn": "heringsfilet creme tomaten",
-    "ik": "tok:heringsfilet|creme-tomaten|200",
-    "bn": "heringsfilet",
-    "wg": 200
-  },
-  {
     "n": "Mccain 1-2-3 Frites 750 G",
     "p": "1.49",
     "o": "",
@@ -5121,6 +5056,19 @@
     "wg": 400
   },
   {
+    "n": "Goldähren Dinkelkrüstchen 480 G",
+    "p": "1.79",
+    "o": "",
+    "s": "480 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-dinkelkruestchen-480-g-000000000630939002",
+    "c": "Other",
+    "cn": "goldhren dinkelkr gold hren stchen",
+    "ik": "tok:goldhren|dinkelkr-gold-hren-stchen|480",
+    "bn": "goldhren",
+    "wg": 480
+  },
+  {
     "n": "Speisezeit Steakhouse Pommes 750 g, Rustikal",
     "p": "1.49",
     "o": "",
@@ -5132,6 +5080,19 @@
     "ik": "tok:speisezeit|pommes-rustikal-steakhouse|750",
     "bn": "speisezeit",
     "wg": 750
+  },
+  {
+    "n": "Natur Lieblinge Speisezwiebeln Gelb 1,5 Kg",
+    "p": "1.29",
+    "o": "",
+    "s": "1.50 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/natur-lieblinge-speisezwiebeln-gelb-1-5-kg-000000000000537014",
+    "c": "Other",
+    "cn": "natur gelb lieblinge speisezwiebeln",
+    "ik": "tok:natur|gelb-lieblinge-speisezwiebeln|1500",
+    "bn": "natur",
+    "wg": 1500
   },
   {
     "n": "Le Gusto Röstzwiebeln 150 G",
@@ -5158,6 +5119,19 @@
     "ik": "tok:gourmet|cuisine-finest-karamellisierte-pasta-ravioloni-se-und-ziegenk-zwiebeln|250",
     "bn": "gourmet",
     "wg": 250
+  },
+  {
+    "n": "Bio Naturland Bio-Karotten 1 Kg",
+    "p": "1.59",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bio-naturland-bio-karotten-1-kg-000000000000495578",
+    "c": "Other",
+    "cn": "bio karotten naturland",
+    "ik": "tok:bio|karotten-naturland|1000",
+    "bn": "bio",
+    "wg": 1000
   },
   {
     "n": "Nur Nur Natur Bio-Sauerkonserven 190 g, Karottensalat",
@@ -5420,43 +5394,17 @@
     "wg": 200
   },
   {
-    "n": "Wonnemeyer Antipasti-Teller 210 g, Peperoni-Paprika",
-    "p": "2.79",
+    "n": "Bestes Aus Der Region Eisbergsalat, Stück",
+    "p": "0.88",
     "o": "",
-    "s": "210 ml",
+    "s": "1 stuk",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-antipasti-teller-210-g-peperoni-paprika-000000000202839001",
+    "i": "https://www.aldi-sued.de/produkt/bestes-aus-der-region-eisbergsalat-stueck-000000000000229175",
     "c": "Other",
-    "cn": "wonnemeyer antipasti paprika peperoni teller",
-    "ik": "tok:wonnemeyer|antipasti-paprika-peperoni-teller|210",
-    "bn": "wonnemeyer",
-    "wg": 210
-  },
-  {
-    "n": "Wonnemeyer Antipasti Teller 210 g, Honey Peppers",
-    "p": "2.79",
-    "o": "",
-    "s": "210 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-antipasti-teller-210-g-honey-peppers-000000000202839005",
-    "c": "Other",
-    "cn": "wonnemeyer antipasti honey peppers teller",
-    "ik": "tok:wonnemeyer|antipasti-honey-peppers-teller|210",
-    "bn": "wonnemeyer",
-    "wg": 210
-  },
-  {
-    "n": "Wonnemeyer Antipasti Teller 210 g, Sweet Chili Peppers Käse",
-    "p": "2.79",
-    "o": "",
-    "s": "210 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-antipasti-teller-210-g-sweet-chili-peppers-kaese-000000000202839006",
-    "c": "Other",
-    "cn": "wonnemeyer antipasti chili peppers se sweet teller",
-    "ik": "tok:wonnemeyer|antipasti-chili-peppers-se-sweet-teller|210",
-    "bn": "wonnemeyer",
-    "wg": 210
+    "cn": "bestes aus ck der eisbergsalat region",
+    "ik": "tok:bestes|aus-ck-der-eisbergsalat-region|1",
+    "bn": "bestes",
+    "wg": 1
   },
   {
     "n": "Daylicious Salatcup 300 g, Hähnchen",
@@ -5615,6 +5563,19 @@
     "wg": 200
   },
   {
+    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Creme Fraiche",
+    "p": "2.49",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-creme-fraiche-000000000203651001",
+    "c": "Other",
+    "cn": "wonnemeyer creme fraiche kartoffelsalat salatschale",
+    "ik": "tok:wonnemeyer|creme-fraiche-kartoffelsalat-salatschale|1000",
+    "bn": "wonnemeyer",
+    "wg": 1000
+  },
+  {
     "n": "Almare Thunfischsalate 160 g, Linsen",
     "p": "1.39",
     "o": "",
@@ -5665,19 +5626,6 @@
     "ik": "tok:almare|couscous-thunfischsalate|160",
     "bn": "almare",
     "wg": 160
-  },
-  {
-    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Creme Fraiche",
-    "p": "2.49",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-creme-fraiche-000000000203651001",
-    "c": "Other",
-    "cn": "wonnemeyer creme fraiche kartoffelsalat salatschale",
-    "ik": "tok:wonnemeyer|creme-fraiche-kartoffelsalat-salatschale|1000",
-    "bn": "wonnemeyer",
-    "wg": 1000
   },
   {
     "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Mit Essig-Öl",
@@ -5771,6 +5719,32 @@
     "wg": 200
   },
   {
+    "n": "Wonnemeyer Feinkostsalat 250 g, Lyoner",
+    "p": "1.79",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-feinkostsalat-250-g-lyoner-000000000113132005",
+    "c": "Other",
+    "cn": "wonnemeyer feinkostsalat lyoner",
+    "ik": "tok:wonnemeyer|feinkostsalat-lyoner|250",
+    "bn": "wonnemeyer",
+    "wg": 250
+  },
+  {
+    "n": "Wonnemeyer Feinkostsalat 200 g, Geflügel",
+    "p": "1.79",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-feinkostsalat-200-g-gefluegel-000000000113132006",
+    "c": "Other",
+    "cn": "wonnemeyer feinkostsalat gefl gel",
+    "ik": "tok:wonnemeyer|feinkostsalat-gefl-gel|200",
+    "bn": "wonnemeyer",
+    "wg": 200
+  },
+  {
     "n": "Le Gusto Paprika Scharf 50 G",
     "p": "0.85",
     "o": "",
@@ -5797,41 +5771,15 @@
     "wg": 50
   },
   {
-    "n": "Bbq Landbaguette 175 g, Paprika",
-    "p": "1.29",
-    "o": "",
-    "s": "180 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bbq-landbaguette-175-g-paprika-000000000211224002",
-    "c": "Other",
-    "cn": "bbq landbaguette paprika",
-    "ik": "tok:bbq|landbaguette-paprika|180",
-    "bn": "bbq",
-    "wg": 180
-  },
-  {
-    "n": "Bbq Marinierte Hähnchensteaks 550 g, Paprika",
-    "p": "6.29",
-    "o": "",
-    "s": "550 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bbq-marinierte-haehnchensteaks-550-g-paprika-000000000211380001",
-    "c": "Other",
-    "cn": "bbq hnchensteaks marinierte paprika",
-    "ik": "tok:bbq|hnchensteaks-marinierte-paprika|550",
-    "bn": "bbq",
-    "wg": 550
-  },
-  {
-    "n": "Knorr Salatkrönung 5er, Paprika-Kräuter",
+    "n": "Knorr Salatkrönung 5er-Pack, Paprika-Kräuter",
     "p": "1.59",
     "o": "",
     "s": "450 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/knorr-salatkroenung-5er-paprika-kraeuter-000000000191933005",
+    "i": "https://www.aldi-sued.de/produkt/knorr-salatkroenung-5er-pack-paprika-kraeuter-000000000191933005",
     "c": "Other",
-    "cn": "knorr 5er kr nung paprika salatkr uter",
-    "ik": "tok:knorr|5er-kr-nung-paprika-salatkr-uter|450",
+    "cn": "knorr 5er kr nung pack paprika salatkr uter",
+    "ik": "tok:knorr|5er-kr-nung-pack-paprika-salatkr-uter|450",
     "bn": "knorr",
     "wg": 450
   },
@@ -5847,6 +5795,19 @@
     "ik": "tok:gusto|fix-kr-le-paprika-salatsauce-uter|450",
     "bn": "gusto",
     "wg": 450
+  },
+  {
+    "n": "Bbq Landbaguette 175 g, Paprika",
+    "p": "1.29",
+    "o": "",
+    "s": "180 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bbq-landbaguette-175-g-paprika-000000000211224002",
+    "c": "Other",
+    "cn": "bbq landbaguette paprika",
+    "ik": "tok:bbq|landbaguette-paprika|180",
+    "bn": "bbq",
+    "wg": 180
   },
   {
     "n": "My Vay Bio-Gemüseaufstrich 180 g, Gelbe Paprika",
@@ -6277,6 +6238,19 @@
     "wg": 230
   },
   {
+    "n": "Natur Lieblinge Trauben Dunkel Kernlos 500 G",
+    "p": "1.29",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/natur-lieblinge-trauben-dunkel-kernlos-500-g-000000000000228796",
+    "c": "Other",
+    "cn": "natur dunkel kernlos lieblinge trauben",
+    "ik": "tok:natur|dunkel-kernlos-lieblinge-trauben|500",
+    "bn": "natur",
+    "wg": 500
+  },
+  {
     "n": "Rio D' Oro Traubendirektsaft 1 L",
     "p": "1.49",
     "o": "",
@@ -6550,17 +6524,30 @@
     "wg": 180
   },
   {
-    "n": "Meine Metzgerei Hähnchen Unterkeule 1 Kg",
-    "p": "5.59",
+    "n": "Meine Metzgerei Hähnchen-Schenkel 2 Kg",
+    "p": "6.99",
     "o": "",
-    "s": "1 l",
+    "s": "2 l",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-haehnchen-unterkeule-1-kg-000000000000566414",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-haehnchen-schenkel-2-kg-000000000000211084",
     "c": "Other",
-    "cn": "meine hnchen metzgerei unterkeule",
-    "ik": "tok:meine|hnchen-metzgerei-unterkeule|1000",
+    "cn": "meine hnchen metzgerei schenkel",
+    "ik": "tok:meine|hnchen-metzgerei-schenkel|2000",
     "bn": "meine",
-    "wg": 1000
+    "wg": 2000
+  },
+  {
+    "n": "Meine Metzgerei Hähnchen-Geschnetzeltes 400 G",
+    "p": "3.79",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-haehnchen-geschnetzeltes-400-g-000000000000213407",
+    "c": "Other",
+    "cn": "meine geschnetzeltes hnchen metzgerei",
+    "ik": "tok:meine|geschnetzeltes-hnchen-metzgerei|400",
+    "bn": "meine",
+    "wg": 400
   },
   {
     "n": "Meine Metzgerei Hähnchenbrustfilet Teilstück 1 Kg",
@@ -6576,19 +6563,6 @@
     "wg": 1000
   },
   {
-    "n": "Meine Metzgerei Hähnchen-Schenkel 2 Kg",
-    "p": "6.99",
-    "o": "",
-    "s": "2 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-haehnchen-schenkel-2-kg-000000000000211084",
-    "c": "Other",
-    "cn": "meine hnchen metzgerei schenkel",
-    "ik": "tok:meine|hnchen-metzgerei-schenkel|2000",
-    "bn": "meine",
-    "wg": 2000
-  },
-  {
     "n": "Meine Metzgerei Hähnchen Brustfilet 1,5 Kg",
     "p": "12.99",
     "o": "",
@@ -6600,6 +6574,19 @@
     "ik": "tok:meine|brustfilet-hnchen-metzgerei|1500",
     "bn": "meine",
     "wg": 1500
+  },
+  {
+    "n": "Meine Metzgerei Hähnchen Unterkeule 1 Kg",
+    "p": "5.59",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-haehnchen-unterkeule-1-kg-000000000000566414",
+    "c": "Other",
+    "cn": "meine hnchen metzgerei unterkeule",
+    "ik": "tok:meine|hnchen-metzgerei-unterkeule|1000",
+    "bn": "meine",
+    "wg": 1000
   },
   {
     "n": "Meine Metzgerei Hähnchen-Innenfilet 400 G",
@@ -6626,19 +6613,6 @@
     "ik": "tok:meine|hnchen-metzgerei-unterkeulen|600",
     "bn": "meine",
     "wg": 600
-  },
-  {
-    "n": "Meine Metzgerei Hähnchen-Geschnetzeltes 400 G",
-    "p": "3.79",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-haehnchen-geschnetzeltes-400-g-000000000000213407",
-    "c": "Other",
-    "cn": "meine geschnetzeltes hnchen metzgerei",
-    "ik": "tok:meine|geschnetzeltes-hnchen-metzgerei|400",
-    "bn": "meine",
-    "wg": 400
   },
   {
     "n": "Meine Metzgerei Hähnchen Ministeaks 800 G",
@@ -6717,6 +6691,45 @@
     "ik": "tok:meine|fl-gel-gew-hnchen-metzgerei-rzt|1100",
     "bn": "meine",
     "wg": 1100
+  },
+  {
+    "n": "Güldenhof Hähnchenbrust 150 g, Gebacken",
+    "p": "1.99",
+    "o": "",
+    "s": "150 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gueldenhof-haehnchenbrust-150-g-gebacken-000000000596189001",
+    "c": "Other",
+    "cn": "gldenhof gebacken hnchenbrust ldenhof",
+    "ik": "tok:gldenhof|gebacken-hnchenbrust-ldenhof|150",
+    "bn": "gldenhof",
+    "wg": 150
+  },
+  {
+    "n": "Güldenhof Hähnchenbrust 150 g, Paprika",
+    "p": "1.99",
+    "o": "",
+    "s": "150 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gueldenhof-haehnchenbrust-150-g-paprika-000000000596189003",
+    "c": "Other",
+    "cn": "gldenhof hnchenbrust ldenhof paprika",
+    "ik": "tok:gldenhof|hnchenbrust-ldenhof-paprika|150",
+    "bn": "gldenhof",
+    "wg": 150
+  },
+  {
+    "n": "Güldenhof Hähnchenbrust 150 g, Curry",
+    "p": "1.99",
+    "o": "",
+    "s": "150 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gueldenhof-haehnchenbrust-150-g-curry-000000000596189004",
+    "c": "Other",
+    "cn": "gldenhof curry hnchenbrust ldenhof",
+    "ik": "tok:gldenhof|curry-hnchenbrust-ldenhof|150",
+    "bn": "gldenhof",
+    "wg": 150
   },
   {
     "n": "Meine Metzgerei Hähnchen Geschnetzeltes Xxl 800 G",
@@ -6823,19 +6836,6 @@
     "wg": 350
   },
   {
-    "n": "Bbq Marinierte Hähnchensteaks 550 g, Curry",
-    "p": "6.29",
-    "o": "",
-    "s": "550 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bbq-marinierte-haehnchensteaks-550-g-curry-000000000211380002",
-    "c": "Other",
-    "cn": "bbq curry hnchensteaks marinierte",
-    "ik": "tok:bbq|curry-hnchensteaks-marinierte|550",
-    "bn": "bbq",
-    "wg": 550
-  },
-  {
     "n": "Bbq Hähnchen-Filetspieß 400 g, Kräuter",
     "p": "5.29",
     "o": "",
@@ -6914,6 +6914,19 @@
     "wg": 500
   },
   {
+    "n": "Aufschnitt-Spezialitäten 200 g, Hähnchenbrust",
+    "p": "2.39",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-aufschnitt-spezialitaeten-200-g-haehnchenbrust-000000000642894002",
+    "c": "Other",
+    "cn": "aufschnittspezialitten aufschnitt hnchenbrust spezialit ten",
+    "ik": "tok:aufschnittspezialitten|aufschnitt-hnchenbrust-spezialit-ten|200",
+    "bn": "aufschnittspezialitten",
+    "wg": 200
+  },
+  {
     "n": "Güldenhof Mini-Hähnchenbrust-Filetstücke 150 g, Klassik",
     "p": "1.99",
     "o": "",
@@ -6936,45 +6949,6 @@
     "c": "Other",
     "cn": "gldenhof cke filetst hnchenbrust ldenhof mini paprika",
     "ik": "tok:gldenhof|cke-filetst-hnchenbrust-ldenhof-mini-paprika|150",
-    "bn": "gldenhof",
-    "wg": 150
-  },
-  {
-    "n": "Güldenhof Hähnchenbrust 150 g, Gebacken",
-    "p": "1.99",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gueldenhof-haehnchenbrust-150-g-gebacken-000000000596189001",
-    "c": "Other",
-    "cn": "gldenhof gebacken hnchenbrust ldenhof",
-    "ik": "tok:gldenhof|gebacken-hnchenbrust-ldenhof|150",
-    "bn": "gldenhof",
-    "wg": 150
-  },
-  {
-    "n": "Güldenhof Hähnchenbrust 150 g, Paprika",
-    "p": "1.99",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gueldenhof-haehnchenbrust-150-g-paprika-000000000596189003",
-    "c": "Other",
-    "cn": "gldenhof hnchenbrust ldenhof paprika",
-    "ik": "tok:gldenhof|hnchenbrust-ldenhof-paprika|150",
-    "bn": "gldenhof",
-    "wg": 150
-  },
-  {
-    "n": "Güldenhof Hähnchenbrust 150 g, Curry",
-    "p": "1.99",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gueldenhof-haehnchenbrust-150-g-curry-000000000596189004",
-    "c": "Other",
-    "cn": "gldenhof curry hnchenbrust ldenhof",
-    "ik": "tok:gldenhof|curry-hnchenbrust-ldenhof|150",
     "bn": "gldenhof",
     "wg": 150
   },
@@ -7005,19 +6979,6 @@
     "wg": 100
   },
   {
-    "n": "Aufschnitt-Spezialitäten 200 g, Hähnchenbrust",
-    "p": "2.39",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-aufschnitt-spezialitaeten-200-g-haehnchenbrust-000000000642894002",
-    "c": "Other",
-    "cn": "aufschnittspezialitten aufschnitt hnchenbrust spezialit ten",
-    "ik": "tok:aufschnittspezialitten|aufschnitt-hnchenbrust-spezialit-ten|200",
-    "bn": "aufschnittspezialitten",
-    "wg": 200
-  },
-  {
     "n": "Frosta Fertiggerichte 500 g, Bami Goreng",
     "p": "4.79",
     "o": "",
@@ -7042,19 +7003,6 @@
     "ik": "tok:frosta|bratkartoffelpfanne-fertiggerichte-hnchen-mit|500",
     "bn": "frosta",
     "wg": 500
-  },
-  {
-    "n": "Meine Metzgerei Hackfleisch Vom Rind 800 G",
-    "p": "9.49",
-    "o": "",
-    "s": "800 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hackfleisch-vom-rind-800-g-000000000000550926",
-    "c": "Other",
-    "cn": "meine hackfleisch metzgerei rind vom",
-    "ik": "tok:meine|hackfleisch-metzgerei-rind-vom|800",
-    "bn": "meine",
-    "wg": 800
   },
   {
     "n": "· FAIR&GUT · Hackfleisch Gemischt 800 G",
@@ -7161,6 +7109,19 @@
     "wg": 500
   },
   {
+    "n": "Meine Metzgerei Hackfleisch Vom Rind 800 G",
+    "p": "9.49",
+    "o": "",
+    "s": "800 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hackfleisch-vom-rind-800-g-000000000000550926",
+    "c": "Other",
+    "cn": "meine hackfleisch metzgerei rind vom",
+    "ik": "tok:meine|hackfleisch-metzgerei-rind-vom|800",
+    "bn": "meine",
+    "wg": 800
+  },
+  {
     "n": "Güldenhof Geflügelfrikadellen 500 g, Mini-Frikadellen",
     "p": "2.99",
     "o": "",
@@ -7265,84 +7226,6 @@
     "wg": 1000
   },
   {
-    "n": "Güldenhof Bruzzlkracher 400 g, Klassik",
-    "p": "3.69",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gueldenhof-bruzzlkracher-400-g-klassik-000000000276558001",
-    "c": "Other",
-    "cn": "gldenhof bruzzlkracher klassik ldenhof",
-    "ik": "tok:gldenhof|bruzzlkracher-klassik-ldenhof|400",
-    "bn": "gldenhof",
-    "wg": 400
-  },
-  {
-    "n": "Güldenhof Bruzzlkracher 350 g, Mini",
-    "p": "3.69",
-    "o": "",
-    "s": "350 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gueldenhof-bruzzlkracher-350-g-mini-000000000276558002",
-    "c": "Other",
-    "cn": "gldenhof bruzzlkracher ldenhof mini",
-    "ik": "tok:gldenhof|bruzzlkracher-ldenhof-mini|350",
-    "bn": "gldenhof",
-    "wg": 350
-  },
-  {
-    "n": "Bbq Bratwurstschnecke 300 G",
-    "p": "3.89",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bbq-bratwurstschnecke-300-g-000000000000203094",
-    "c": "Other",
-    "cn": "bbq bratwurstschnecke",
-    "ik": "tok:bbq|bratwurstschnecke|300",
-    "bn": "bbq",
-    "wg": 300
-  },
-  {
-    "n": "Meine Metzgerei Grobe Schweine-Bratwurst 400 G",
-    "p": "2.59",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-grobe-schweine-bratwurst-400-g-000000000000211584",
-    "c": "Other",
-    "cn": "meine bratwurst grobe metzgerei schweine",
-    "ik": "tok:meine|bratwurst-grobe-metzgerei-schweine|400",
-    "bn": "meine",
-    "wg": 400
-  },
-  {
-    "n": "Bbq Berner Würstchen, Mini 250 G",
-    "p": "2.29",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bbq-berner-wuerstchen-mini-250-g-000000000202397001",
-    "c": "Other",
-    "cn": "bbq berner mini rstchen",
-    "ik": "tok:bbq|berner-mini-rstchen|250",
-    "bn": "bbq",
-    "wg": 250
-  },
-  {
-    "n": "Bbq Berner Würstchen, Klassik 300 G",
-    "p": "2.29",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bbq-berner-wuerstchen-klassik-300-g-000000000202397002",
-    "c": "Other",
-    "cn": "bbq berner klassik rstchen",
-    "ik": "tok:bbq|berner-klassik-rstchen|300",
-    "bn": "bbq",
-    "wg": 300
-  },
-  {
     "n": "Gut Drei Eichen Wurstsortiment 350 g, Gelbwurst",
     "p": "2.79",
     "o": "",
@@ -7395,6 +7278,58 @@
     "wg": 350
   },
   {
+    "n": "Aufschnitt-Spezialitäten 200 g, Putenbrust",
+    "p": "2.39",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-aufschnitt-spezialitaeten-200-g-putenbrust-000000000642894003",
+    "c": "Other",
+    "cn": "aufschnittspezialitten aufschnitt putenbrust spezialit ten",
+    "ik": "tok:aufschnittspezialitten|aufschnitt-putenbrust-spezialit-ten|200",
+    "bn": "aufschnittspezialitten",
+    "wg": 200
+  },
+  {
+    "n": "Gut Drei Eichen Schwarzwälder Schinken 200 G",
+    "p": "1.99",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-schwarzwaelder-schinken-200-g-000000000000202720",
+    "c": "Other",
+    "cn": "gut drei eichen lder schinken schwarzw",
+    "ik": "tok:gut|drei-eichen-lder-schinken-schwarzw|200",
+    "bn": "gut",
+    "wg": 200
+  },
+  {
+    "n": "Güldenhof Herzhafte Geflügelspezialität 130 G",
+    "p": "1.49",
+    "o": "",
+    "s": "130 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gueldenhof-herzhafte-gefluegelspezialitaet-130-g-000000000202481001",
+    "c": "Other",
+    "cn": "gldenhof gefl gelspezialit herzhafte ldenhof",
+    "ik": "tok:gldenhof|gefl-gelspezialit-herzhafte-ldenhof|130",
+    "bn": "gldenhof",
+    "wg": 130
+  },
+  {
+    "n": "Gut Drei Eichen Herzhafte Rindfleischsalami 100 G",
+    "p": "1.49",
+    "o": "",
+    "s": "100 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-herzhafte-rindfleischsalami-100-g-000000000202481002",
+    "c": "Other",
+    "cn": "gut drei eichen herzhafte rindfleischsalami",
+    "ik": "tok:gut|drei-eichen-herzhafte-rindfleischsalami|100",
+    "bn": "gut",
+    "wg": 100
+  },
+  {
     "n": "Gut Drei Eichen Dauerwurst-Aufschnitt 200 g, Cervelatwurst",
     "p": "1.69",
     "o": "",
@@ -7432,6 +7367,45 @@
     "ik": "tok:meine|fein-hausmacher-leberwurst-metzgerei-wurst|150",
     "bn": "meine",
     "wg": 150
+  },
+  {
+    "n": "Cucina Salsiccia 300 g, Scharf",
+    "p": "2.69",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-salsiccia-300-g-scharf-000000000263923001",
+    "c": "Other",
+    "cn": "cucina salsiccia scharf",
+    "ik": "tok:cucina|salsiccia-scharf|300",
+    "bn": "cucina",
+    "wg": 300
+  },
+  {
+    "n": "Cucina Salsiccia 300 g, Klassik",
+    "p": "2.69",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-salsiccia-300-g-klassik-000000000263923002",
+    "c": "Other",
+    "cn": "cucina klassik salsiccia",
+    "ik": "tok:cucina|klassik-salsiccia|300",
+    "bn": "cucina",
+    "wg": 300
+  },
+  {
+    "n": "Cucina Salsiccia 300 g, Fenchel",
+    "p": "2.69",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-salsiccia-300-g-fenchel-000000000263923003",
+    "c": "Other",
+    "cn": "cucina fenchel salsiccia",
+    "ik": "tok:cucina|fenchel-salsiccia|300",
+    "bn": "cucina",
+    "wg": 300
   },
   {
     "n": "Gut Drei Eichen Wurstsortiment 350 g, Lyoner",
@@ -7590,58 +7564,6 @@
     "wg": 120
   },
   {
-    "n": "Gut Drei Eichen Zwiebelmettwurst 120 g, Pikant",
-    "p": "1.79",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-zwiebelmettwurst-120-g-pikant-000000000202415002",
-    "c": "Other",
-    "cn": "gut drei eichen pikant zwiebelmettwurst",
-    "ik": "tok:gut|drei-eichen-pikant-zwiebelmettwurst|120",
-    "bn": "gut",
-    "wg": 120
-  },
-  {
-    "n": "Gut Drei Eichen Zwiebelmettwurst 120 g, Kräuter",
-    "p": "1.79",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-zwiebelmettwurst-120-g-kraeuter-000000000202415003",
-    "c": "Other",
-    "cn": "gut drei eichen kr uter zwiebelmettwurst",
-    "ik": "tok:gut|drei-eichen-kr-uter-zwiebelmettwurst|120",
-    "bn": "gut",
-    "wg": 120
-  },
-  {
-    "n": "Gut Drei Eichen Fettreduzierte Schinkenwurst 500 G",
-    "p": "3.49",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-fettreduzierte-schinkenwurst-500-g-000000000202758001",
-    "c": "Other",
-    "cn": "gut drei eichen fettreduzierte schinkenwurst",
-    "ik": "tok:gut|drei-eichen-fettreduzierte-schinkenwurst|500",
-    "bn": "gut",
-    "wg": 500
-  },
-  {
-    "n": "Gut Drei Eichen Schinkenteewurst 250 g, Fein",
-    "p": "2.79",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-schinkenteewurst-250-g-fein-000000000202909004",
-    "c": "Other",
-    "cn": "gut drei eichen fein schinkenteewurst",
-    "ik": "tok:gut|drei-eichen-fein-schinkenteewurst|250",
-    "bn": "gut",
-    "wg": 250
-  },
-  {
     "n": "Gut Drei Eichen Landleberwurst 250 g, Fein",
     "p": "1.39",
     "o": "",
@@ -7705,19 +7627,6 @@
     "ik": "tok:bio|fein-leberwurst|130",
     "bn": "bio",
     "wg": 130
-  },
-  {
-    "n": "Gut Drei Eichen Schwarzwälder Schinken 200 G",
-    "p": "1.99",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-schwarzwaelder-schinken-200-g-000000000000202720",
-    "c": "Other",
-    "cn": "gut drei eichen lder schinken schwarzw",
-    "ik": "tok:gut|drei-eichen-lder-schinken-schwarzw|200",
-    "bn": "gut",
-    "wg": 200
   },
   {
     "n": "Bio-Farmer Schinken 100 G",
@@ -8162,6 +8071,32 @@
     "wg": 600
   },
   {
+    "n": "Almare Stremellachs 125 g, Pfeffer",
+    "p": "2.59",
+    "o": "",
+    "s": "130 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/almare-stremellachs-125-g-pfeffer-000000000211359001",
+    "c": "Other",
+    "cn": "almare pfeffer stremellachs",
+    "ik": "tok:almare|pfeffer-stremellachs|130",
+    "bn": "almare",
+    "wg": 130
+  },
+  {
+    "n": "Almare Seafood Stremellachs 125 g, Natur",
+    "p": "2.59",
+    "o": "",
+    "s": "130 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/almare-seafood-stremellachs-125-g-natur-000000000211359002",
+    "c": "Other",
+    "cn": "almare natur seafood stremellachs",
+    "ik": "tok:almare|natur-seafood-stremellachs|130",
+    "bn": "almare",
+    "wg": 130
+  },
+  {
     "n": "Almare Lachs-Vielfalt 90 g, Räucherlachs",
     "p": "2.49",
     "o": "",
@@ -8368,32 +8303,6 @@
     "ik": "tok:bio|lachsfilet|500",
     "bn": "bio",
     "wg": 500
-  },
-  {
-    "n": "Almare Stremellachs 125 g, Pfeffer",
-    "p": "2.59",
-    "o": "",
-    "s": "130 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/almare-stremellachs-125-g-pfeffer-000000000211359001",
-    "c": "Other",
-    "cn": "almare pfeffer stremellachs",
-    "ik": "tok:almare|pfeffer-stremellachs|130",
-    "bn": "almare",
-    "wg": 130
-  },
-  {
-    "n": "Almare Seafood Stremellachs 125 g, Natur",
-    "p": "2.59",
-    "o": "",
-    "s": "130 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/almare-seafood-stremellachs-125-g-natur-000000000211359002",
-    "c": "Other",
-    "cn": "almare natur seafood stremellachs",
-    "ik": "tok:almare|natur-seafood-stremellachs|130",
-    "bn": "almare",
-    "wg": 130
   },
   {
     "n": "Bio Frisches Bio-Lachsfilet 200 G",
@@ -8656,6 +8565,32 @@
     "wg": 500
   },
   {
+    "n": "Cucina Fusilli 500 G",
+    "p": "0.69",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-fusilli-500-g-000000000000631120",
+    "c": "Other",
+    "cn": "cucina fusilli",
+    "ik": "tok:cucina|fusilli|500",
+    "bn": "cucina",
+    "wg": 500
+  },
+  {
+    "n": "Cucina Farfalle 500 G",
+    "p": "0.69",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-farfalle-500-g-000000000000631900",
+    "c": "Other",
+    "cn": "cucina farfalle",
+    "ik": "tok:cucina|farfalle|500",
+    "bn": "cucina",
+    "wg": 500
+  },
+  {
     "n": "Bamboo Garden Guai Thiau Reisnudeln 250 G",
     "p": "1.49",
     "o": "",
@@ -8692,32 +8627,6 @@
     "cn": "landfreude frischei muscheln nudeln",
     "ik": "tok:landfreude|frischei-muscheln-nudeln|500",
     "bn": "landfreude",
-    "wg": 500
-  },
-  {
-    "n": "Cucina Fusilli 500 G",
-    "p": "0.69",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-fusilli-500-g-000000000000631120",
-    "c": "Other",
-    "cn": "cucina fusilli",
-    "ik": "tok:cucina|fusilli|500",
-    "bn": "cucina",
-    "wg": 500
-  },
-  {
-    "n": "Cucina Farfalle 500 G",
-    "p": "0.69",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-farfalle-500-g-000000000000631900",
-    "c": "Other",
-    "cn": "cucina farfalle",
-    "ik": "tok:cucina|farfalle|500",
-    "bn": "cucina",
     "wg": 500
   },
   {
@@ -9930,56 +9839,17 @@
     "wg": 100
   },
   {
-    "n": "Nur Nur Natur Bio-Olivenöl Nativ Extra 500 Ml",
-    "p": "6.99",
+    "n": "Natur Lieblinge Xl Basilikum Topf",
+    "p": "1.79",
     "o": "",
-    "s": "500 ml",
+    "s": "1 stuk",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-olivenoel-nativ-extra-500-ml-000000000000694604",
+    "i": "https://www.aldi-sued.de/produkt/natur-lieblinge-xl-basilikum-topf-000000000000317290",
     "c": "Other",
-    "cn": "nur bio extra nativ natur oliven",
-    "ik": "tok:nur|bio-extra-nativ-natur-oliven|500",
-    "bn": "nur",
-    "wg": 500
-  },
-  {
-    "n": "Barilla Pesto 190 g, Genovese",
-    "p": "3.49",
-    "o": "",
-    "s": "190 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/barilla-pesto-190-g-genovese-000000000156741001",
-    "c": "Other",
-    "cn": "barilla genovese pesto",
-    "ik": "tok:barilla|genovese-pesto|190",
-    "bn": "barilla",
-    "wg": 190
-  },
-  {
-    "n": "Barilla Pesto 200 g, Rosso",
-    "p": "3.49",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/barilla-pesto-200-g-rosso-000000000156741002",
-    "c": "Other",
-    "cn": "barilla pesto rosso",
-    "ik": "tok:barilla|pesto-rosso|200",
-    "bn": "barilla",
-    "wg": 200
-  },
-  {
-    "n": "Barilla Pesto 190 g, Calabrese",
-    "p": "3.49",
-    "o": "",
-    "s": "190 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/barilla-pesto-190-g-calabrese-000000000156741003",
-    "c": "Other",
-    "cn": "barilla calabrese pesto",
-    "ik": "tok:barilla|calabrese-pesto|190",
-    "bn": "barilla",
-    "wg": 190
+    "cn": "natur basilikum lieblinge topf xl",
+    "ik": "tok:natur|basilikum-lieblinge-topf-xl|1",
+    "bn": "natur",
+    "wg": 1
   },
   {
     "n": "Früh Kölsch 0,5 L",
@@ -10307,6 +10177,32 @@
     "wg": 500
   },
   {
+    "n": "Cucina Grissotti 200 g, Olivenöl-Meersalz",
+    "p": "1.29",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-grissotti-200-g-olivenoel-meersalz-000000000621000002",
+    "c": "Other",
+    "cn": "cucina grissotti meersalz oliven",
+    "ik": "tok:cucina|grissotti-meersalz-oliven|200",
+    "bn": "cucina",
+    "wg": 200
+  },
+  {
+    "n": "Nur Nur Natur Bio-Olivenöl Nativ Extra 500 Ml",
+    "p": "6.99",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-olivenoel-nativ-extra-500-ml-000000000000694604",
+    "c": "Other",
+    "cn": "nur bio extra nativ natur oliven",
+    "ik": "tok:nur|bio-extra-nativ-natur-oliven|500",
+    "bn": "nur",
+    "wg": 500
+  },
+  {
     "n": "Bertolli Spray Originale Olivenöl Extra 200 Ml",
     "p": "2.79",
     "o": "",
@@ -10344,19 +10240,6 @@
     "ik": "tok:cucina|bari-di-extra-italienisches-natives-oliven-terra|500",
     "bn": "cucina",
     "wg": 500
-  },
-  {
-    "n": "Cucina Grissotti 200 g, Olivenöl-Meersalz",
-    "p": "1.29",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-grissotti-200-g-olivenoel-meersalz-000000000621000002",
-    "c": "Other",
-    "cn": "cucina grissotti meersalz oliven",
-    "ik": "tok:cucina|grissotti-meersalz-oliven|200",
-    "bn": "cucina",
-    "wg": 200
   },
   {
     "n": "Bertolli Bertolli, Bratolivenöl Spray, Cucina, 200 Ml",
@@ -10905,19 +10788,6 @@
     "wg": 340
   },
   {
-    "n": "Farmer Snack-Mandeln 150 g, Honig & Salz",
-    "p": "2.19",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/farmer-snack-mandeln-150-g-honig-salz-000000000462774003",
-    "c": "Snacks",
-    "cn": "honig farmer mandeln salz snack",
-    "ik": "tok:honig|farmer-mandeln-salz-snack|150",
-    "bn": "honig",
-    "wg": 150
-  },
-  {
     "n": "Bio Bio-Agavendicksaft 360 Ml",
     "p": "2.35",
     "o": "",
@@ -11072,6 +10942,19 @@
     "ik": "tok:honig|art-griechischer-joghurt-lyttos|600",
     "bn": "honig",
     "wg": 600
+  },
+  {
+    "n": "Farmer Snack-Mandeln 150 g, Honig & Salz",
+    "p": "2.19",
+    "o": "",
+    "s": "150 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/farmer-snack-mandeln-150-g-honig-salz-000000000462774003",
+    "c": "Snacks",
+    "cn": "honig farmer mandeln salz snack",
+    "ik": "tok:honig|farmer-mandeln-salz-snack|150",
+    "bn": "honig",
+    "wg": 150
   },
   {
     "n": "Golden Bridge Premium Müsli 500 g, Honig Nuss",
@@ -12218,19 +12101,6 @@
     "wg": 50
   },
   {
-    "n": "Valensina Orangensaft 1 L",
-    "p": "2.49",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/valensina-orangensaft-1-l-000000000000297348",
-    "c": "Other",
-    "cn": "valensina orangensaft",
-    "ik": "tok:valensina|orangensaft|1000",
-    "bn": "valensina",
-    "wg": 1000
-  },
-  {
     "n": "Bio Bio-Orangensaft 1 L",
     "p": "2.45",
     "o": "",
@@ -12255,6 +12125,19 @@
     "ik": "tok:nur|bio-natur-orangensaft|750",
     "bn": "nur",
     "wg": 750
+  },
+  {
+    "n": "Valensina Orangensaft 1 L",
+    "p": "2.49",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/valensina-orangensaft-1-l-000000000000297348",
+    "c": "Other",
+    "cn": "valensina orangensaft",
+    "ik": "tok:valensina|orangensaft|1000",
+    "bn": "valensina",
+    "wg": 1000
   },
   {
     "n": "COCA-COLA Cola Original 1,25 L",
@@ -12476,6 +12359,32 @@
     "ik": "tok:veltins|remix|330",
     "bn": "veltins",
     "wg": 330
+  },
+  {
+    "n": "Mini Wassermelone, Lose",
+    "p": "1.49",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-mini-wassermelone-lose-000000000000229919",
+    "c": "Other",
+    "cn": "mini lose wassermelone",
+    "ik": "tok:mini|lose-wassermelone|1",
+    "bn": "mini",
+    "wg": 1
+  },
+  {
+    "n": "Wassermelone kernarm, Lose",
+    "p": "0.79",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-wassermelone-kernarm-lose-000000000000456963",
+    "c": "Other",
+    "cn": "wassermelone kernarm lose",
+    "ik": "tok:wassermelone|kernarm-lose|1",
+    "bn": "wassermelone",
+    "wg": 1
   },
   {
     "n": "Quellbrunn Natürliches Mineralwasser 1,5 l, Classic",
@@ -13140,6 +13049,110 @@
     "wg": 100
   },
   {
+    "n": "Choceur Mandelknacker 100 g, Weiße Schokolade Mandel",
+    "p": "1.19",
+    "o": "",
+    "s": "100 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-mandelknacker-100-g-weisse-schokolade-mandel-000000000199927001",
+    "c": "Other",
+    "cn": "choceur mandel mandelknacker schokolade wei",
+    "ik": "tok:choceur|mandel-mandelknacker-schokolade-wei|100",
+    "bn": "choceur",
+    "wg": 100
+  },
+  {
+    "n": "Choceur Schokoladen Vielfalt 100 g, Glücks-Duo",
+    "p": "0.89",
+    "o": "",
+    "s": "100 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-schokoladen-vielfalt-100-g-gluecks-duo-000000000279037005",
+    "c": "Other",
+    "cn": "choceur cks duo gl schokoladen vielfalt",
+    "ik": "tok:choceur|cks-duo-gl-schokoladen-vielfalt|100",
+    "bn": "choceur",
+    "wg": 100
+  },
+  {
+    "n": "Choceur Nuss-Schokolade 200 g, Dunkle-Haselnuss",
+    "p": "2.19",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-nuss-schokolade-200-g-dunkle-haselnuss-000000000297766002",
+    "c": "Other",
+    "cn": "choceur dunkle haselnuss nuss schokolade",
+    "ik": "tok:choceur|dunkle-haselnuss-nuss-schokolade|200",
+    "bn": "choceur",
+    "wg": 200
+  },
+  {
+    "n": "Choceur Sahne & Weiße 200 g, Weiße-Schokolade",
+    "p": "2.19",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-sahne-weisse-200-g-weisse-schokolade-000000000297776001",
+    "c": "Other",
+    "cn": "choceur sahne schokolade wei",
+    "ik": "tok:choceur|sahne-schokolade-wei|200",
+    "bn": "choceur",
+    "wg": 200
+  },
+  {
+    "n": "Choceur Sahne & Weiße 200 g, Dunkle-Schokolade",
+    "p": "2.19",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-sahne-weisse-200-g-dunkle-schokolade-000000000297776003",
+    "c": "Other",
+    "cn": "choceur dunkle sahne schokolade wei",
+    "ik": "tok:choceur|dunkle-sahne-schokolade-wei|200",
+    "bn": "choceur",
+    "wg": 200
+  },
+  {
+    "n": "Choceur Korn & Schoko 166,5 g, Milchschokolade Mit Cerealien",
+    "p": "1.99",
+    "o": "",
+    "s": "170 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-korn-schoko-166-5-g-milchschokolade-mit-cerealien-000000000328986002",
+    "c": "Other",
+    "cn": "choceur cerealien korn milchschokolade mit schoko",
+    "ik": "tok:choceur|cerealien-korn-milchschokolade-mit-schoko|170",
+    "bn": "choceur",
+    "wg": 170
+  },
+  {
+    "n": "Choceur Star Rice 250 g, Schokolade-Puffreis Dunkel Choviva",
+    "p": "2.29",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-star-rice-250-g-schokolade-puffreis-dunkel-choviva-000000000275121010",
+    "c": "Other",
+    "cn": "choceur choviva dunkel puffreis rice schokolade star",
+    "ik": "tok:choceur|choviva-dunkel-puffreis-rice-schokolade-star|250",
+    "bn": "choceur",
+    "wg": 250
+  },
+  {
+    "n": "Choceur Star Rice 250 g, Schokolade-Puffreis Milch Choviva",
+    "p": "2.29",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/choceur-star-rice-250-g-schokolade-puffreis-milch-choviva-000000000275121012",
+    "c": "Other",
+    "cn": "choceur choviva milch puffreis rice schokolade star",
+    "ik": "tok:choceur|choviva-milch-puffreis-rice-schokolade-star|250",
+    "bn": "choceur",
+    "wg": 250
+  },
+  {
     "n": "Choceur Nussknacker Feinherb 100 G",
     "p": "1.19",
     "o": "",
@@ -13244,123 +13257,6 @@
     "wg": 250
   },
   {
-    "n": "Choceur Star Rice 250 g, Schokolade-Puffreis Dunkel Choviva",
-    "p": "2.29",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-star-rice-250-g-schokolade-puffreis-dunkel-choviva-000000000275121010",
-    "c": "Other",
-    "cn": "choceur choviva dunkel puffreis rice schokolade star",
-    "ik": "tok:choceur|choviva-dunkel-puffreis-rice-schokolade-star|250",
-    "bn": "choceur",
-    "wg": 250
-  },
-  {
-    "n": "Choceur Star Rice 250 g, Schokolade-Puffreis Milch Choviva",
-    "p": "2.29",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-star-rice-250-g-schokolade-puffreis-milch-choviva-000000000275121012",
-    "c": "Other",
-    "cn": "choceur choviva milch puffreis rice schokolade star",
-    "ik": "tok:choceur|choviva-milch-puffreis-rice-schokolade-star|250",
-    "bn": "choceur",
-    "wg": 250
-  },
-  {
-    "n": "Choceur Milchriegel 200 g, Erdbeer-Joghurt",
-    "p": "1.99",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-milchriegel-200-g-erdbeer-joghurt-000000000294780001",
-    "c": "Other",
-    "cn": "choceur erdbeer joghurt milchriegel",
-    "ik": "tok:choceur|erdbeer-joghurt-milchriegel|200",
-    "bn": "choceur",
-    "wg": 200
-  },
-  {
-    "n": "Choceur Milchriegel 200 g, Latte Macchiato",
-    "p": "1.99",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-milchriegel-200-g-latte-macchiato-000000000294780002",
-    "c": "Other",
-    "cn": "choceur latte macchiato milchriegel",
-    "ik": "tok:choceur|latte-macchiato-milchriegel|200",
-    "bn": "choceur",
-    "wg": 200
-  },
-  {
-    "n": "Choceur Nuss-Schokolade 200 g, Dunkle-Haselnuss",
-    "p": "2.19",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-nuss-schokolade-200-g-dunkle-haselnuss-000000000297766002",
-    "c": "Other",
-    "cn": "choceur dunkle haselnuss nuss schokolade",
-    "ik": "tok:choceur|dunkle-haselnuss-nuss-schokolade|200",
-    "bn": "choceur",
-    "wg": 200
-  },
-  {
-    "n": "Choceur Sahne & Weiße 200 g, Weiße-Schokolade",
-    "p": "2.19",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-sahne-weisse-200-g-weisse-schokolade-000000000297776001",
-    "c": "Other",
-    "cn": "choceur sahne schokolade wei",
-    "ik": "tok:choceur|sahne-schokolade-wei|200",
-    "bn": "choceur",
-    "wg": 200
-  },
-  {
-    "n": "Choceur Sahne & Weiße 200 g, Dunkle-Schokolade",
-    "p": "2.19",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-sahne-weisse-200-g-dunkle-schokolade-000000000297776003",
-    "c": "Other",
-    "cn": "choceur dunkle sahne schokolade wei",
-    "ik": "tok:choceur|dunkle-sahne-schokolade-wei|200",
-    "bn": "choceur",
-    "wg": 200
-  },
-  {
-    "n": "Choceur Sahne & Weiße 200 g, Kaffee-Sahne",
-    "p": "2.19",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/choceur-sahne-weisse-200-g-kaffee-sahne-000000000297776004",
-    "c": "Other",
-    "cn": "choceur kaffee sahne wei",
-    "ik": "tok:choceur|kaffee-sahne-wei|200",
-    "bn": "choceur",
-    "wg": 200
-  },
-  {
-    "n": "Biscotto Schoko Butterkeks 125 g, Zartbitter",
-    "p": "1.59",
-    "o": "",
-    "s": "130 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/biscotto-schoko-butterkeks-125-g-zartbitter-000000000265290003",
-    "c": "Other",
-    "cn": "biscotto butterkeks schoko zartbitter",
-    "ik": "tok:biscotto|butterkeks-schoko-zartbitter|130",
-    "bn": "biscotto",
-    "wg": 130
-  },
-  {
     "n": "Biscotto Butterkeks 400 g, Vollkorn",
     "p": "1.89",
     "o": "",
@@ -13385,6 +13281,19 @@
     "ik": "tok:biscotto|butter-butterkeks|400",
     "bn": "biscotto",
     "wg": 400
+  },
+  {
+    "n": "Biscotto Schoko Butterkeks 125 g, Zartbitter",
+    "p": "1.59",
+    "o": "",
+    "s": "130 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/biscotto-schoko-butterkeks-125-g-zartbitter-000000000265290003",
+    "c": "Other",
+    "cn": "biscotto butterkeks schoko zartbitter",
+    "ik": "tok:biscotto|butterkeks-schoko-zartbitter|130",
+    "bn": "biscotto",
+    "wg": 130
   },
   {
     "n": "Biscotto Schoko & Keks Sticks 90 g, Milchschokolade",
@@ -13619,58 +13528,6 @@
     "ik": "tok:biscotto|erdbeere-waffeln|250",
     "bn": "biscotto",
     "wg": 250
-  },
-  {
-    "n": "Biscotto Waffeln 250 g, Vanille",
-    "p": "1.99",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/biscotto-waffeln-250-g-vanille-000000000262983002",
-    "c": "Other",
-    "cn": "biscotto vanille waffeln",
-    "ik": "tok:biscotto|vanille-waffeln|250",
-    "bn": "biscotto",
-    "wg": 250
-  },
-  {
-    "n": "POM-BÄR Pom-Bär 75 g, Original",
-    "p": "1.79",
-    "o": "",
-    "s": "80 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/pom-baer-pom-baer-75-g-original-000000000263564001",
-    "c": "Other",
-    "cn": "pombr original pom",
-    "ik": "tok:pombr|original-pom|80",
-    "bn": "pombr",
-    "wg": 80
-  },
-  {
-    "n": "POM-BÄR Pom-Bär 75 g, Ketchup Style",
-    "p": "1.79",
-    "o": "",
-    "s": "80 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/pom-baer-pom-baer-75-g-ketchup-style-000000000263564002",
-    "c": "Other",
-    "cn": "pombr ketchup pom style",
-    "ik": "tok:pombr|ketchup-pom-style|80",
-    "bn": "pombr",
-    "wg": 80
-  },
-  {
-    "n": "POM-BÄR Pom-Bär 75 g, Sour Creme Style",
-    "p": "1.79",
-    "o": "",
-    "s": "80 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/pom-baer-pom-baer-75-g-sour-creme-style-000000000263564003",
-    "c": "Other",
-    "cn": "pombr creme pom sour style",
-    "ik": "tok:pombr|creme-pom-sour-style|80",
-    "bn": "pombr",
-    "wg": 80
   },
   {
     "n": "Sunsnacks Chips 200 g, Paprika",
@@ -14024,17 +13881,121 @@
     "wg": 190
   },
   {
-    "n": "Kinder Kinder Bueno Eisbecher 285 G",
-    "p": "5.49",
+    "n": "Lorenz Crunchips Xxl 250 g, Paprika",
+    "p": "1.79",
     "o": "",
-    "s": "460 ml",
+    "s": "250 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/kinder-kinder-bueno-eisbecher-285-g-000000000000742420",
+    "i": "https://www.aldi-sued.de/produkt/lorenz-crunchips-xxl-250-g-paprika-000000000747129001",
+    "c": "Snacks",
+    "cn": "lorenz crunchips paprika xxl",
+    "ik": "tok:lorenz|crunchips-paprika-xxl|250",
+    "bn": "lorenz",
+    "wg": 250
+  },
+  {
+    "n": "Lorenz Crunchips Xxl 250 g, Salted",
+    "p": "1.79",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/lorenz-crunchips-xxl-250-g-salted-000000000747129002",
+    "c": "Snacks",
+    "cn": "lorenz crunchips salted xxl",
+    "ik": "tok:lorenz|crunchips-salted-xxl|250",
+    "bn": "lorenz",
+    "wg": 250
+  },
+  {
+    "n": "Pringles Chips 185 g, Hot And Spicy",
+    "p": "2.79",
+    "o": "",
+    "s": "190 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/pringles-chips-185-g-hot-and-spicy-000000000309296003",
+    "c": "Snacks",
+    "cn": "pringles and chips hot spicy",
+    "ik": "tok:pringles|and-chips-hot-spicy|190",
+    "bn": "pringles",
+    "wg": 190
+  },
+  {
+    "n": "Mucci Funky American 500 ml, Cookie Dough",
+    "p": "1.99",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/mucci-funky-american-500-ml-cookie-dough-000000000102354001",
     "c": "Other",
-    "cn": "kinder bueno eisbecher",
-    "ik": "tok:kinder|bueno-eisbecher|460",
-    "bn": "kinder",
-    "wg": 460
+    "cn": "mucci american cookie dough funky",
+    "ik": "tok:mucci|american-cookie-dough-funky|500",
+    "bn": "mucci",
+    "wg": 500
+  },
+  {
+    "n": "Mucci Funky American 500 ml, Chocolate Brown",
+    "p": "1.99",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/mucci-funky-american-500-ml-chocolate-brown-000000000102354006",
+    "c": "Snacks",
+    "cn": "mucci american brown chocolate funky",
+    "ik": "tok:mucci|american-brown-chocolate-funky|500",
+    "bn": "mucci",
+    "wg": 500
+  },
+  {
+    "n": "Mucci Funky American 500 ml, Double Trouble",
+    "p": "1.99",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/mucci-funky-american-500-ml-double-trouble-000000000102354008",
+    "c": "Other",
+    "cn": "mucci american double funky trouble",
+    "ik": "tok:mucci|american-double-funky-trouble|500",
+    "bn": "mucci",
+    "wg": 500
+  },
+  {
+    "n": "Mucci My Moments 900 ml, Double Choc",
+    "p": "1.59",
+    "o": "",
+    "s": "900 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/mucci-my-moments-900-ml-double-choc-000000000200250004",
+    "c": "Other",
+    "cn": "mucci choc double moments my",
+    "ik": "tok:mucci|choc-double-moments-my|900",
+    "bn": "mucci",
+    "wg": 900
+  },
+  {
+    "n": "Mucci My Moments 900 ml, Nuss-Nougat",
+    "p": "1.59",
+    "o": "",
+    "s": "900 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/mucci-my-moments-900-ml-nuss-nougat-000000000200250010",
+    "c": "Other",
+    "cn": "mucci moments my nougat nuss",
+    "ik": "tok:mucci|moments-my-nougat-nuss|900",
+    "bn": "mucci",
+    "wg": 900
+  },
+  {
+    "n": "Mucci My Moments 900 ml, Exotic",
+    "p": "1.59",
+    "o": "",
+    "s": "900 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/mucci-my-moments-900-ml-exotic-000000000200250011",
+    "c": "Other",
+    "cn": "mucci exotic moments my",
+    "ik": "tok:mucci|exotic-moments-my|900",
+    "bn": "mucci",
+    "wg": 900
   },
   {
     "n": "Mucci Eis-Sandwich Stracciatella 510 Ml",
@@ -14113,45 +14074,6 @@
     "ik": "tok:mucci|mandel-premium-stieleis|600",
     "bn": "mucci",
     "wg": 600
-  },
-  {
-    "n": "Mucci Funky American 500 ml, Cookie Dough",
-    "p": "1.99",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/mucci-funky-american-500-ml-cookie-dough-000000000102354001",
-    "c": "Other",
-    "cn": "mucci american cookie dough funky",
-    "ik": "tok:mucci|american-cookie-dough-funky|500",
-    "bn": "mucci",
-    "wg": 500
-  },
-  {
-    "n": "Mucci Funky American 500 ml, Chocolate Brown",
-    "p": "1.99",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/mucci-funky-american-500-ml-chocolate-brown-000000000102354006",
-    "c": "Snacks",
-    "cn": "mucci american brown chocolate funky",
-    "ik": "tok:mucci|american-brown-chocolate-funky|500",
-    "bn": "mucci",
-    "wg": 500
-  },
-  {
-    "n": "Mucci Funky American 500 ml, Double Trouble",
-    "p": "1.99",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/mucci-funky-american-500-ml-double-trouble-000000000102354008",
-    "c": "Other",
-    "cn": "mucci american double funky trouble",
-    "ik": "tok:mucci|american-double-funky-trouble|500",
-    "bn": "mucci",
-    "wg": 500
   },
   {
     "n": "Mucci Eiskalte Kiste, Classic 592 Ml",
@@ -14332,45 +14254,6 @@
     "c": "Other",
     "cn": "mucci haselnuss rnchen vanille waffelh",
     "ik": "tok:mucci|haselnuss-rnchen-vanille-waffelh|720",
-    "bn": "mucci",
-    "wg": 720
-  },
-  {
-    "n": "Mucci Waffelhörnchen 720 ml, Vanille-Erdbeer",
-    "p": "1.99",
-    "o": "",
-    "s": "720 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/mucci-waffelhoernchen-720-ml-vanille-erdbeer-000000000200188002",
-    "c": "Other",
-    "cn": "mucci erdbeer rnchen vanille waffelh",
-    "ik": "tok:mucci|erdbeer-rnchen-vanille-waffelh|720",
-    "bn": "mucci",
-    "wg": 720
-  },
-  {
-    "n": "Mucci Eis-Sandwich 720 ml, Fürst-Pückler",
-    "p": "1.99",
-    "o": "",
-    "s": "720 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/mucci-eis-sandwich-720-ml-fuerst-pueckler-000000000200226003",
-    "c": "Other",
-    "cn": "mucci ckler eis rst sandwich",
-    "ik": "tok:mucci|ckler-eis-rst-sandwich|720",
-    "bn": "mucci",
-    "wg": 720
-  },
-  {
-    "n": "Mucci Waffelhörnchen 720 ml, Vanille",
-    "p": "1.99",
-    "o": "",
-    "s": "720 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/mucci-waffelhoernchen-720-ml-vanille-000000000200231001",
-    "c": "Other",
-    "cn": "mucci rnchen vanille waffelh",
-    "ik": "tok:mucci|rnchen-vanille-waffelh|720",
     "bn": "mucci",
     "wg": 720
   },
@@ -14786,6 +14669,19 @@
     "wg": 1
   },
   {
+    "n": "Perwoll Perwoll Renew Waschmittel 1,35 l, Color",
+    "p": "4.99",
+    "o": "",
+    "s": "1.35 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/perwoll-perwoll-renew-waschmittel-1-35-l-color-000000000614446002",
+    "c": "Other",
+    "cn": "perwoll color renew waschmittel",
+    "ik": "tok:perwoll|color-renew-waschmittel|1350",
+    "bn": "perwoll",
+    "wg": 1350
+  },
+  {
     "n": "Tandil Colorwaschmittel 2,025 Kg",
     "p": "4.69",
     "o": "",
@@ -14903,6 +14799,32 @@
     "wg": 270
   },
   {
+    "n": "Finish Maschinenpfleger 4er-Pack",
+    "p": "3.99",
+    "o": "",
+    "s": "70 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/finish-maschinenpfleger-4er-pack-000000000000507760",
+    "c": "Other",
+    "cn": "finish 4er maschinenpfleger pack",
+    "ik": "tok:finish|4er-maschinenpfleger-pack|70",
+    "bn": "finish",
+    "wg": 70
+  },
+  {
+    "n": "Tandil Kalk-Stopp Tabs 600 G",
+    "p": "3.25",
+    "o": "",
+    "s": "600 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/tandil-kalk-stopp-tabs-600-g-000000000000551937",
+    "c": "Other",
+    "cn": "tandil kalk stopp tabs",
+    "ik": "tok:tandil|kalk-stopp-tabs|600",
+    "bn": "tandil",
+    "wg": 600
+  },
+  {
     "n": "Weisser Riese Waschmittel XXL, Universal Gel",
     "p": "11.99",
     "o": "",
@@ -14942,32 +14864,6 @@
     "wg": 1
   },
   {
-    "n": "Weisser Riese Waschmittel XXL, Color Pulver",
-    "p": "11.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/weisser-riese-waschmittel-xxl-color-pulver-000000000311832014",
-    "c": "Other",
-    "cn": "weisser color pulver riese waschmittel xxl",
-    "ik": "tok:weisser|color-pulver-riese-waschmittel-xxl|1",
-    "bn": "weisser",
-    "wg": 1
-  },
-  {
-    "n": "Tandil Kalk-Stopp Tabs 600 G",
-    "p": "3.25",
-    "o": "",
-    "s": "600 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/tandil-kalk-stopp-tabs-600-g-000000000000551937",
-    "c": "Other",
-    "cn": "tandil kalk stopp tabs",
-    "ik": "tok:tandil|kalk-stopp-tabs|600",
-    "bn": "tandil",
-    "wg": 600
-  },
-  {
     "n": "Weisser Riese Waschmittel XXL, Color Caps Orchidee",
     "p": "11.99",
     "o": "",
@@ -14994,6 +14890,19 @@
     "wg": 1
   },
   {
+    "n": "Weisser Riese Waschmittel XXL, Color Pulver",
+    "p": "11.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/weisser-riese-waschmittel-xxl-color-pulver-000000000311832014",
+    "c": "Other",
+    "cn": "weisser color pulver riese waschmittel xxl",
+    "ik": "tok:weisser|color-pulver-riese-waschmittel-xxl|1",
+    "bn": "weisser",
+    "wg": 1
+  },
+  {
     "n": "DR. Beckmann Flecken-Bürste 250 Ml",
     "p": "1.95",
     "o": "",
@@ -15005,19 +14914,6 @@
     "ik": "tok:beckmann|dr-flecken-rste|250",
     "bn": "beckmann",
     "wg": 250
-  },
-  {
-    "n": "Perwoll Perwoll Renew Feinwaschmittel 1,35 l, Wolle & Feines",
-    "p": "4.99",
-    "o": "",
-    "s": "1.35 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/perwoll-perwoll-renew-feinwaschmittel-1-35-l-wolle-feines-000000000614446001",
-    "c": "Other",
-    "cn": "perwoll feines feinwaschmittel renew wolle",
-    "ik": "tok:perwoll|feines-feinwaschmittel-renew-wolle|1350",
-    "bn": "perwoll",
-    "wg": 1350
   },
   {
     "n": "Tandil Caps 3-in-1 36 Stück, Universal",
@@ -15059,17 +14955,69 @@
     "wg": 2000
   },
   {
-    "n": "Head & Shoulders Anti-Schuppen Shampoo 500 ml, Classic",
-    "p": "6.95",
+    "n": "Taft Haircare Haarspray 250 ml, Volumen",
+    "p": "3.45",
     "o": "",
-    "s": "500 ml",
+    "s": "250 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/head-shoulders-anti-schuppen-shampoo-500-ml-classic-000000000449225001",
+    "i": "https://www.aldi-sued.de/produkt/taft-haircare-haarspray-250-ml-volumen-000000000157422001",
+    "c": "Other",
+    "cn": "taft haarspray haircare volumen",
+    "ik": "tok:taft|haarspray-haircare-volumen|250",
+    "bn": "taft",
+    "wg": 250
+  },
+  {
+    "n": "Taft Haircare Haarspray 250 ml, Ultra Stark",
+    "p": "3.45",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/taft-haircare-haarspray-250-ml-ultra-stark-000000000157422007",
+    "c": "Other",
+    "cn": "taft haarspray haircare stark ultra",
+    "ik": "tok:taft|haarspray-haircare-stark-ultra|250",
+    "bn": "taft",
+    "wg": 250
+  },
+  {
+    "n": "Lacura Anti Schuppen Shampoo 300 ml, Classic",
+    "p": "1.35",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/lacura-anti-schuppen-shampoo-300-ml-classic-000000000511452001",
     "c": "Personal Care",
-    "cn": "head anti classic schuppen shampoo shoulders",
-    "ik": "tok:head|anti-classic-schuppen-shampoo-shoulders|500",
-    "bn": "head",
-    "wg": 500
+    "cn": "lacura anti classic schuppen shampoo",
+    "ik": "tok:lacura|anti-classic-schuppen-shampoo|300",
+    "bn": "lacura",
+    "wg": 300
+  },
+  {
+    "n": "Lacura Haarspray 300 ml, Power",
+    "p": "1.15",
+    "o": "",
+    "s": "300 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/lacura-haarspray-300-ml-power-000000000533541001",
+    "c": "Other",
+    "cn": "lacura haarspray power",
+    "ik": "tok:lacura|haarspray-power|300",
+    "bn": "lacura",
+    "wg": 300
+  },
+  {
+    "n": "Lacura Lacura Pump Haarspray 200 ml, Volume",
+    "p": "1.75",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/lacura-lacura-pump-haarspray-200-ml-volume-000000000676810001",
+    "c": "Other",
+    "cn": "lacura haarspray pump volume",
+    "ik": "tok:lacura|haarspray-pump-volume|200",
+    "bn": "lacura",
+    "wg": 200
   },
   {
     "n": "Pantene PRO-V Shampoo 500 ml, Repair & Care",
@@ -15111,69 +15059,17 @@
     "wg": 500
   },
   {
-    "n": "Lacura Anti Schuppen Shampoo 300 ml, Classic",
-    "p": "1.35",
+    "n": "Head & Shoulders Anti-Schuppen Shampoo 500 ml, Classic",
+    "p": "6.95",
     "o": "",
-    "s": "300 ml",
+    "s": "500 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/lacura-anti-schuppen-shampoo-300-ml-classic-000000000511452001",
+    "i": "https://www.aldi-sued.de/produkt/head-shoulders-anti-schuppen-shampoo-500-ml-classic-000000000449225001",
     "c": "Personal Care",
-    "cn": "lacura anti classic schuppen shampoo",
-    "ik": "tok:lacura|anti-classic-schuppen-shampoo|300",
-    "bn": "lacura",
-    "wg": 300
-  },
-  {
-    "n": "Taft Haircare Haarspray 250 ml, Volumen",
-    "p": "3.45",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/taft-haircare-haarspray-250-ml-volumen-000000000157422001",
-    "c": "Other",
-    "cn": "taft haarspray haircare volumen",
-    "ik": "tok:taft|haarspray-haircare-volumen|250",
-    "bn": "taft",
-    "wg": 250
-  },
-  {
-    "n": "Taft Haircare Haarspray 250 ml, Ultra Stark",
-    "p": "3.45",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/taft-haircare-haarspray-250-ml-ultra-stark-000000000157422007",
-    "c": "Other",
-    "cn": "taft haarspray haircare stark ultra",
-    "ik": "tok:taft|haarspray-haircare-stark-ultra|250",
-    "bn": "taft",
-    "wg": 250
-  },
-  {
-    "n": "Lacura Haarspray 300 ml, Power",
-    "p": "1.15",
-    "o": "",
-    "s": "300 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/lacura-haarspray-300-ml-power-000000000533541001",
-    "c": "Other",
-    "cn": "lacura haarspray power",
-    "ik": "tok:lacura|haarspray-power|300",
-    "bn": "lacura",
-    "wg": 300
-  },
-  {
-    "n": "Lacura Lacura Pump Haarspray 200 ml, Volume",
-    "p": "1.75",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/lacura-lacura-pump-haarspray-200-ml-volume-000000000676810001",
-    "c": "Other",
-    "cn": "lacura haarspray pump volume",
-    "ik": "tok:lacura|haarspray-pump-volume|200",
-    "bn": "lacura",
-    "wg": 200
+    "cn": "head anti classic schuppen shampoo shoulders",
+    "ik": "tok:head|anti-classic-schuppen-shampoo-shoulders|500",
+    "bn": "head",
+    "wg": 500
   },
   {
     "n": "Pantene PRO-V Pflegespülung 350 ml, Repair & Care",
