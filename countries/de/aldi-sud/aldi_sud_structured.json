@@ -1963,6 +1963,19 @@
     "wg": 200
   },
   {
+    "n": "Meine Metzgerei Schweine-Cordon Bleu 500 G",
+    "p": "4.79",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-schweine-cordon-bleu-500-g-000000000000213409",
+    "c": "Other",
+    "cn": "meine bleu cordon metzgerei schweine",
+    "ik": "tok:meine|bleu-cordon-metzgerei-schweine|500",
+    "bn": "meine",
+    "wg": 500
+  },
+  {
     "n": "JACK´S Farm Cordon Bleu Vom Schwein 670 G",
     "p": "5.99",
     "o": "",
@@ -3159,12 +3172,12 @@
     "wg": 750
   },
   {
-    "n": "Goldähren Bauernschnitten 0,5 kg, Roggen",
+    "n": "Goldähren Bauernschnitten 500 g, Roggen",
     "p": "0.99",
     "o": "",
     "s": "500 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-bauernschnitten-0-5-kg-roggen-000000000187142001",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-bauernschnitten-500-g-roggen-000000000187142001",
     "c": "Other",
     "cn": "goldhren bauernschnitten gold hren roggen",
     "ik": "tok:goldhren|bauernschnitten-gold-hren-roggen|500",
@@ -3209,19 +3222,6 @@
     "ik": "tok:goldhren|dinkel-gold-hren-korn-volles|400",
     "bn": "goldhren",
     "wg": 400
-  },
-  {
-    "n": "Goldähren Klassich Kleiner Sandwichtoast Saaten-Harmonie 375 G",
-    "p": "0.99",
-    "o": "",
-    "s": "380 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-klassich-kleiner-sandwichtoast-saaten-harmonie-375-g-000000000000186872",
-    "c": "Other",
-    "cn": "goldhren gold harmonie hren klassich kleiner saaten sandwichtoast",
-    "ik": "tok:goldhren|gold-harmonie-hren-klassich-kleiner-saaten-sandwichtoast|380",
-    "bn": "goldhren",
-    "wg": 380
   },
   {
     "n": "Gutes Vom Bäcker Nuss-Rosinen-Schwarzbrot 250 G",
@@ -3315,17 +3315,30 @@
     "wg": 420
   },
   {
-    "n": "Goldähren Toastbrötchen 335 g, Weizen",
+    "n": "Goldähren Klassich Kleiner Sandwichtoast Saaten-Harmonie 375 G",
     "p": "0.99",
     "o": "",
-    "s": "340 ml",
+    "s": "380 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-weizen-000000000188405001",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-klassich-kleiner-sandwichtoast-saaten-harmonie-375-g-000000000000186872",
     "c": "Other",
-    "cn": "goldhren gold hren tchen toastbr weizen",
-    "ik": "tok:goldhren|gold-hren-tchen-toastbr-weizen|340",
+    "cn": "goldhren gold harmonie hren klassich kleiner saaten sandwichtoast",
+    "ik": "tok:goldhren|gold-harmonie-hren-klassich-kleiner-saaten-sandwichtoast|380",
     "bn": "goldhren",
-    "wg": 340
+    "wg": 380
+  },
+  {
+    "n": "Asia Green Garden Naan Brot 260 g, Knoblauch / Koriander",
+    "p": "0.99",
+    "o": "",
+    "s": "260 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/asia-green-garden-naan-brot-260-g-knoblauch-koriander-000000000186887003",
+    "c": "Other",
+    "cn": "asia brot garden green knoblauch koriander naan",
+    "ik": "tok:asia|brot-garden-green-knoblauch-koriander-naan|260",
+    "bn": "asia",
+    "wg": 260
   },
   {
     "n": "Golden Toast Sandwich 750 g, Weizen",
@@ -3352,6 +3365,19 @@
     "ik": "tok:golden|rnerharmonie-sandwich-toast|750",
     "bn": "golden",
     "wg": 750
+  },
+  {
+    "n": "Goldähren Toastbrötchen 335 g, Weizen",
+    "p": "0.99",
+    "o": "",
+    "s": "340 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-weizen-000000000188405001",
+    "c": "Other",
+    "cn": "goldhren gold hren tchen toastbr weizen",
+    "ik": "tok:goldhren|gold-hren-tchen-toastbr-weizen|340",
+    "bn": "goldhren",
+    "wg": 340
   },
   {
     "n": "Goldähren Toastbrötchen 335 g, Mehrkorn",
@@ -3692,19 +3718,6 @@
     "wg": 820
   },
   {
-    "n": "Goldähren Soft Panini 320 G",
-    "p": "1.69",
-    "o": "",
-    "s": "320 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-soft-panini-320-g-000000000000187492",
-    "c": "Other",
-    "cn": "goldhren gold hren panini soft",
-    "ik": "tok:goldhren|gold-hren-panini-soft|320",
-    "bn": "goldhren",
-    "wg": 320
-  },
-  {
     "n": "Goldähren Hamburger-Brötchen 300 G",
     "p": "0.99",
     "o": "",
@@ -3716,6 +3729,19 @@
     "ik": "tok:goldhren|br-gold-hamburger-hren-tchen|300",
     "bn": "goldhren",
     "wg": 300
+  },
+  {
+    "n": "Goldähren Soft Panini 320 G",
+    "p": "1.69",
+    "o": "",
+    "s": "320 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-soft-panini-320-g-000000000000187492",
+    "c": "Other",
+    "cn": "goldhren gold hren panini soft",
+    "ik": "tok:goldhren|gold-hren-panini-soft|320",
+    "bn": "goldhren",
+    "wg": 320
   },
   {
     "n": "Goldähren Kartoffelkrüstchen, Dinkel 480 G",
@@ -5563,19 +5589,6 @@
     "wg": 200
   },
   {
-    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Creme Fraiche",
-    "p": "2.49",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-creme-fraiche-000000000203651001",
-    "c": "Other",
-    "cn": "wonnemeyer creme fraiche kartoffelsalat salatschale",
-    "ik": "tok:wonnemeyer|creme-fraiche-kartoffelsalat-salatschale|1000",
-    "bn": "wonnemeyer",
-    "wg": 1000
-  },
-  {
     "n": "Almare Thunfischsalate 160 g, Linsen",
     "p": "1.39",
     "o": "",
@@ -5626,6 +5639,19 @@
     "ik": "tok:almare|couscous-thunfischsalate|160",
     "bn": "almare",
     "wg": 160
+  },
+  {
+    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Creme Fraiche",
+    "p": "2.49",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-creme-fraiche-000000000203651001",
+    "c": "Other",
+    "cn": "wonnemeyer creme fraiche kartoffelsalat salatschale",
+    "ik": "tok:wonnemeyer|creme-fraiche-kartoffelsalat-salatschale|1000",
+    "bn": "wonnemeyer",
+    "wg": 1000
   },
   {
     "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Mit Essig-Öl",
@@ -6239,7 +6265,7 @@
   },
   {
     "n": "Natur Lieblinge Trauben Dunkel Kernlos 500 G",
-    "p": "1.29",
+    "p": "1.25",
     "o": "",
     "s": "500 ml",
     "l": "",
@@ -6811,7 +6837,7 @@
   },
   {
     "n": "Bbq Hähnchen-Minutenschnitzel Mariniert 800 G",
-    "p": "7.49",
+    "p": "7.99",
     "o": "",
     "s": "800 ml",
     "l": "",
@@ -7006,7 +7032,7 @@
   },
   {
     "n": "· FAIR&GUT · Hackfleisch Gemischt 800 G",
-    "p": "7.99",
+    "p": "7.29",
     "o": "",
     "s": "800 ml",
     "l": "",
@@ -7019,7 +7045,7 @@
   },
   {
     "n": "Meine Metzgerei Schweine-Hackfleisch 800 G",
-    "p": "3.59",
+    "p": "3.29",
     "o": "",
     "s": "800 ml",
     "l": "",
@@ -7032,7 +7058,7 @@
   },
   {
     "n": "Bbq Rinder-Cevapcici 400 G",
-    "p": "5.79",
+    "p": "5.29",
     "o": "",
     "s": "400 ml",
     "l": "",
@@ -7042,6 +7068,97 @@
     "ik": "tok:bbq|cevapcici-rinder|400",
     "bn": "bbq",
     "wg": 400
+  },
+  {
+    "n": "Bio Bio-Hackfleisch Vom Rind 400 G",
+    "p": "6.29",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bio-bio-hackfleisch-vom-rind-400-g-000000000000211498",
+    "c": "Other",
+    "cn": "bio hackfleisch rind vom",
+    "ik": "tok:bio|hackfleisch-rind-vom|400",
+    "bn": "bio",
+    "wg": 400
+  },
+  {
+    "n": "Meine Metzgerei Rind Hackfleisch 5 % Fett 400 G",
+    "p": "5.49",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-rind-hackfleisch-5-fett-400-g-000000000000550895",
+    "c": "Other",
+    "cn": "meine fett hackfleisch metzgerei rind",
+    "ik": "tok:meine|fett-hackfleisch-metzgerei-rind|400",
+    "bn": "meine",
+    "wg": 400
+  },
+  {
+    "n": "Meine Metzgerei Hackfleisch Vom Rind 500 G",
+    "p": "5.79",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hackfleisch-vom-rind-500-g-000000000000550925",
+    "c": "Other",
+    "cn": "meine hackfleisch metzgerei rind vom",
+    "ik": "tok:meine|hackfleisch-metzgerei-rind-vom|500",
+    "bn": "meine",
+    "wg": 500
+  },
+  {
+    "n": "Meine Metzgerei Hackfleisch Vom Rind 800 G",
+    "p": "8.79",
+    "o": "",
+    "s": "800 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hackfleisch-vom-rind-800-g-000000000000550926",
+    "c": "Other",
+    "cn": "meine hackfleisch metzgerei rind vom",
+    "ik": "tok:meine|hackfleisch-metzgerei-rind-vom|800",
+    "bn": "meine",
+    "wg": 800
+  },
+  {
+    "n": "Taste Of British Isles Rind Burger 260 g, Angus Burger",
+    "p": "3.79",
+    "o": "",
+    "s": "260 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/taste-of-british-isles-rind-burger-260-g-angus-burger-000000000736109001",
+    "c": "Other",
+    "cn": "taste angus british burger isles of rind",
+    "ik": "tok:taste|angus-british-burger-isles-of-rind|260",
+    "bn": "taste",
+    "wg": 260
+  },
+  {
+    "n": "Taste Of British Isles Rind Burger 260 g, Prime Burger",
+    "p": "3.79",
+    "o": "",
+    "s": "260 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/taste-of-british-isles-rind-burger-260-g-prime-burger-000000000736109002",
+    "c": "Other",
+    "cn": "taste british burger isles of prime rind",
+    "ik": "tok:taste|british-burger-isles-of-prime-rind|260",
+    "bn": "taste",
+    "wg": 260
+  },
+  {
+    "n": "Meine Metzgerei Hackfleisch Gemischt 500 G",
+    "p": "4.99",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hackfleisch-gemischt-500-g-000000000000648898",
+    "c": "Other",
+    "cn": "meine gemischt hackfleisch metzgerei",
+    "ik": "tok:meine|gemischt-hackfleisch-metzgerei|500",
+    "bn": "meine",
+    "wg": 500
   },
   {
     "n": "Meine Metzgerei Hackfleisch Gemischt Xxl Misch-HF 30-70",
@@ -7068,58 +7185,6 @@
     "ik": "tok:fair&gut|gew-hackfleisch-hnchen-mild-rzt|400",
     "bn": "fair&gut",
     "wg": 400
-  },
-  {
-    "n": "Bio Bio-Hackfleisch Vom Rind 400 G",
-    "p": "6.49",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bio-bio-hackfleisch-vom-rind-400-g-000000000000211498",
-    "c": "Other",
-    "cn": "bio hackfleisch rind vom",
-    "ik": "tok:bio|hackfleisch-rind-vom|400",
-    "bn": "bio",
-    "wg": 400
-  },
-  {
-    "n": "Meine Metzgerei Rind Hackfleisch 5 % Fett 400 G",
-    "p": "5.99",
-    "o": "",
-    "s": "400 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-rind-hackfleisch-5-fett-400-g-000000000000550895",
-    "c": "Other",
-    "cn": "meine fett hackfleisch metzgerei rind",
-    "ik": "tok:meine|fett-hackfleisch-metzgerei-rind|400",
-    "bn": "meine",
-    "wg": 400
-  },
-  {
-    "n": "Meine Metzgerei Hackfleisch Vom Rind 500 G",
-    "p": "6.19",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hackfleisch-vom-rind-500-g-000000000000550925",
-    "c": "Other",
-    "cn": "meine hackfleisch metzgerei rind vom",
-    "ik": "tok:meine|hackfleisch-metzgerei-rind-vom|500",
-    "bn": "meine",
-    "wg": 500
-  },
-  {
-    "n": "Meine Metzgerei Hackfleisch Vom Rind 800 G",
-    "p": "9.49",
-    "o": "",
-    "s": "800 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hackfleisch-vom-rind-800-g-000000000000550926",
-    "c": "Other",
-    "cn": "meine hackfleisch metzgerei rind vom",
-    "ik": "tok:meine|hackfleisch-metzgerei-rind-vom|800",
-    "bn": "meine",
-    "wg": 800
   },
   {
     "n": "Güldenhof Geflügelfrikadellen 500 g, Mini-Frikadellen",
@@ -7174,43 +7239,30 @@
     "wg": 500
   },
   {
-    "n": "Taste Of British Isles Rind Burger 260 g, Angus Burger",
-    "p": "3.99",
+    "n": "Meine Metzgerei Schweine-Hackfleisch 500 G",
+    "p": "2.49",
     "o": "",
-    "s": "260 ml",
+    "s": "1 l",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/taste-of-british-isles-rind-burger-260-g-angus-burger-000000000736109001",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-schweine-hackfleisch-500-g-000000000000757441",
     "c": "Other",
-    "cn": "taste angus british burger isles of rind",
-    "ik": "tok:taste|angus-british-burger-isles-of-rind|260",
-    "bn": "taste",
-    "wg": 260
-  },
-  {
-    "n": "Taste Of British Isles Rind Burger 260 g, Prime Burger",
-    "p": "3.99",
-    "o": "",
-    "s": "260 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/taste-of-british-isles-rind-burger-260-g-prime-burger-000000000736109002",
-    "c": "Other",
-    "cn": "taste british burger isles of prime rind",
-    "ik": "tok:taste|british-burger-isles-of-prime-rind|260",
-    "bn": "taste",
-    "wg": 260
-  },
-  {
-    "n": "Meine Metzgerei Hackfleisch Gemischt 500 G",
-    "p": "5.49",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hackfleisch-gemischt-500-g-000000000000648898",
-    "c": "Other",
-    "cn": "meine gemischt hackfleisch metzgerei",
-    "ik": "tok:meine|gemischt-hackfleisch-metzgerei|500",
+    "cn": "meine hackfleisch metzgerei schweine",
+    "ik": "tok:meine|hackfleisch-metzgerei-schweine|1000",
     "bn": "meine",
-    "wg": 500
+    "wg": 1000
+  },
+  {
+    "n": "Bio Bio-Hackfleisch Rind 800 G",
+    "p": "11.49",
+    "o": "",
+    "s": "800 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bio-bio-hackfleisch-rind-800-g-000000000000736111",
+    "c": "Other",
+    "cn": "bio hackfleisch rind",
+    "ik": "tok:bio|hackfleisch-rind|800",
+    "bn": "bio",
+    "wg": 800
   },
   {
     "n": "· FAIR&GUT · Rinder-Hackfleisch 1 Kg",
@@ -7224,58 +7276,6 @@
     "ik": "tok:fair&gut|hackfleisch-rinder|1000",
     "bn": "fair&gut",
     "wg": 1000
-  },
-  {
-    "n": "Gut Drei Eichen Wurstsortiment 350 g, Gelbwurst",
-    "p": "2.79",
-    "o": "",
-    "s": "350 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-wurstsortiment-350-g-gelbwurst-000000000203414005",
-    "c": "Other",
-    "cn": "gut drei eichen gelbwurst wurstsortiment",
-    "ik": "tok:gut|drei-eichen-gelbwurst-wurstsortiment|350",
-    "bn": "gut",
-    "wg": 350
-  },
-  {
-    "n": "Bio Bio-Wurstspezialitäten 250 g, Fleischwurst",
-    "p": "2.79",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bio-bio-wurstspezialitaeten-250-g-fleischwurst-000000000203158001",
-    "c": "Other",
-    "cn": "bio fleischwurst ten wurstspezialit",
-    "ik": "tok:bio|fleischwurst-ten-wurstspezialit|250",
-    "bn": "bio",
-    "wg": 250
-  },
-  {
-    "n": "Bio Bio-Wurstspezialitäten 250 g, Hähnchenfleischwurst",
-    "p": "2.79",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bio-bio-wurstspezialitaeten-250-g-haehnchenfleischwurst-000000000203158003",
-    "c": "Other",
-    "cn": "bio hnchenfleischwurst ten wurstspezialit",
-    "ik": "tok:bio|hnchenfleischwurst-ten-wurstspezialit|250",
-    "bn": "bio",
-    "wg": 250
-  },
-  {
-    "n": "Gut Drei Eichen Wurstsortiment 350 g, Jagdwurst Grob",
-    "p": "2.79",
-    "o": "",
-    "s": "350 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-wurstsortiment-350-g-jagdwurst-grob-000000000203414004",
-    "c": "Other",
-    "cn": "gut drei eichen grob jagdwurst wurstsortiment",
-    "ik": "tok:gut|drei-eichen-grob-jagdwurst-wurstsortiment|350",
-    "bn": "gut",
-    "wg": 350
   },
   {
     "n": "Aufschnitt-Spezialitäten 200 g, Putenbrust",
@@ -7330,6 +7330,58 @@
     "wg": 100
   },
   {
+    "n": "Gut Drei Eichen Wurstsortiment 350 g, Gelbwurst",
+    "p": "2.79",
+    "o": "",
+    "s": "350 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-wurstsortiment-350-g-gelbwurst-000000000203414005",
+    "c": "Other",
+    "cn": "gut drei eichen gelbwurst wurstsortiment",
+    "ik": "tok:gut|drei-eichen-gelbwurst-wurstsortiment|350",
+    "bn": "gut",
+    "wg": 350
+  },
+  {
+    "n": "Bio Bio-Wurstspezialitäten 250 g, Fleischwurst",
+    "p": "2.79",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bio-bio-wurstspezialitaeten-250-g-fleischwurst-000000000203158001",
+    "c": "Other",
+    "cn": "bio fleischwurst ten wurstspezialit",
+    "ik": "tok:bio|fleischwurst-ten-wurstspezialit|250",
+    "bn": "bio",
+    "wg": 250
+  },
+  {
+    "n": "Bio Bio-Wurstspezialitäten 250 g, Hähnchenfleischwurst",
+    "p": "2.79",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bio-bio-wurstspezialitaeten-250-g-haehnchenfleischwurst-000000000203158003",
+    "c": "Other",
+    "cn": "bio hnchenfleischwurst ten wurstspezialit",
+    "ik": "tok:bio|hnchenfleischwurst-ten-wurstspezialit|250",
+    "bn": "bio",
+    "wg": 250
+  },
+  {
+    "n": "Gut Drei Eichen Wurstsortiment 350 g, Jagdwurst Grob",
+    "p": "2.79",
+    "o": "",
+    "s": "350 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-wurstsortiment-350-g-jagdwurst-grob-000000000203414004",
+    "c": "Other",
+    "cn": "gut drei eichen grob jagdwurst wurstsortiment",
+    "ik": "tok:gut|drei-eichen-grob-jagdwurst-wurstsortiment|350",
+    "bn": "gut",
+    "wg": 350
+  },
+  {
     "n": "Gut Drei Eichen Dauerwurst-Aufschnitt 200 g, Cervelatwurst",
     "p": "1.69",
     "o": "",
@@ -7352,19 +7404,6 @@
     "c": "Other",
     "cn": "meine blutwurst hausmacher metzgerei wurst",
     "ik": "tok:meine|blutwurst-hausmacher-metzgerei-wurst|150",
-    "bn": "meine",
-    "wg": 150
-  },
-  {
-    "n": "Meine Metzgerei Hausmacher Wurst 150 g, Leberwurst Fein",
-    "p": "1.99",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hausmacher-wurst-150-g-leberwurst-fein-000000000203125002",
-    "c": "Other",
-    "cn": "meine fein hausmacher leberwurst metzgerei wurst",
-    "ik": "tok:meine|fein-hausmacher-leberwurst-metzgerei-wurst|150",
     "bn": "meine",
     "wg": 150
   },
@@ -7408,6 +7447,19 @@
     "wg": 300
   },
   {
+    "n": "Meine Metzgerei Hausmacher Wurst 150 g, Leberwurst Fein",
+    "p": "1.99",
+    "o": "",
+    "s": "150 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hausmacher-wurst-150-g-leberwurst-fein-000000000203125002",
+    "c": "Other",
+    "cn": "meine fein hausmacher leberwurst metzgerei wurst",
+    "ik": "tok:meine|fein-hausmacher-leberwurst-metzgerei-wurst|150",
+    "bn": "meine",
+    "wg": 150
+  },
+  {
     "n": "Gut Drei Eichen Wurstsortiment 350 g, Lyoner",
     "p": "2.79",
     "o": "",
@@ -7445,6 +7497,19 @@
     "ik": "tok:herta|fleischwurst-knoblauch-saftige|500",
     "bn": "herta",
     "wg": 500
+  },
+  {
+    "n": "Bio Bio Grobe Bratwurst 240 G",
+    "p": "2.79",
+    "o": "",
+    "s": "240 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bio-bio-grobe-bratwurst-240-g-000000000000213281",
+    "c": "Other",
+    "cn": "bio bratwurst grobe",
+    "ik": "tok:bio|bratwurst-grobe|240",
+    "bn": "bio",
+    "wg": 240
   },
   {
     "n": "Gut Drei Eichen Nürnberger Rostbratwurst 250 g, Fettreduziert",
@@ -7549,19 +7614,6 @@
     "ik": "tok:gut|drei-eichen-schinkenwurst|500",
     "bn": "gut",
     "wg": 500
-  },
-  {
-    "n": "Gut Drei Eichen Zwiebelmettwurst 120 g, Schinken",
-    "p": "1.79",
-    "o": "",
-    "s": "120 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-zwiebelmettwurst-120-g-schinken-000000000202415001",
-    "c": "Other",
-    "cn": "gut drei eichen schinken zwiebelmettwurst",
-    "ik": "tok:gut|drei-eichen-schinken-zwiebelmettwurst|120",
-    "bn": "gut",
-    "wg": 120
   },
   {
     "n": "Gut Drei Eichen Landleberwurst 250 g, Fein",
@@ -12270,6 +12322,19 @@
     "wg": 1250
   },
   {
+    "n": "COCA-COLA Coca-Cola 5,94 l, Regular",
+    "p": "0.99",
+    "o": "",
+    "s": "5.94 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/coca-cola-coca-cola-5-94-l-regular-000000000731430001",
+    "c": "Other",
+    "cn": "coca cola regular",
+    "ik": "tok:coca|cola-regular|5940",
+    "bn": "coca",
+    "wg": 5940
+  },
+  {
     "n": "Schwip Schwap 1,25 l, Sugar",
     "p": "1.49",
     "o": "",
@@ -14669,15 +14734,15 @@
     "wg": 1
   },
   {
-    "n": "Perwoll Perwoll Renew Waschmittel 1,35 l, Color",
+    "n": "Perwoll Perwoll Renew Feinwaschmittel 1,35 l, Wolle & Feines",
     "p": "4.99",
     "o": "",
     "s": "1.35 l",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/perwoll-perwoll-renew-waschmittel-1-35-l-color-000000000614446002",
+    "i": "https://www.aldi-sued.de/produkt/perwoll-perwoll-renew-feinwaschmittel-1-35-l-wolle-feines-000000000614446001",
     "c": "Other",
-    "cn": "perwoll color renew waschmittel",
-    "ik": "tok:perwoll|color-renew-waschmittel|1350",
+    "cn": "perwoll feines feinwaschmittel renew wolle",
+    "ik": "tok:perwoll|feines-feinwaschmittel-renew-wolle|1350",
     "bn": "perwoll",
     "wg": 1350
   },
@@ -14695,110 +14760,6 @@
     "wg": 2030
   },
   {
-    "n": "Tandil Vollwaschmittel 2,025 Kg",
-    "p": "4.69",
-    "o": "",
-    "s": "2.03 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/tandil-vollwaschmittel-2-025-kg-000000000000510761",
-    "c": "Other",
-    "cn": "tandil vollwaschmittel",
-    "ik": "tok:tandil|vollwaschmittel|2030",
-    "bn": "tandil",
-    "wg": 2030
-  },
-  {
-    "n": "Tandil Feinwaschmittel 1,5 l, Sport 37 Wl",
-    "p": "2.19",
-    "o": "",
-    "s": "1.50 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/tandil-feinwaschmittel-1-5-l-sport-37-wl-000000000458542001",
-    "c": "Other",
-    "cn": "tandil 37 feinwaschmittel sport wl",
-    "ik": "tok:tandil|37-feinwaschmittel-sport-wl|1500",
-    "bn": "tandil",
-    "wg": 1500
-  },
-  {
-    "n": "Persil Gel Universalwaschmittel 20 Wl",
-    "p": "6.75",
-    "o": "",
-    "s": "900 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/persil-gel-universalwaschmittel-20-wl-000000000465786003",
-    "c": "Other",
-    "cn": "persil 20 gel universalwaschmittel wl",
-    "ik": "tok:persil|20-gel-universalwaschmittel-wl|900",
-    "bn": "persil",
-    "wg": 900
-  },
-  {
-    "n": "Persil Gel Colorwaschmittel 20 Wl",
-    "p": "6.75",
-    "o": "",
-    "s": "900 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/persil-gel-colorwaschmittel-20-wl-000000000465786004",
-    "c": "Other",
-    "cn": "persil 20 colorwaschmittel gel wl",
-    "ik": "tok:persil|20-colorwaschmittel-gel-wl|900",
-    "bn": "persil",
-    "wg": 900
-  },
-  {
-    "n": "Tandil Vollwaschmittel, Xxl Packung",
-    "p": "7.99",
-    "o": "",
-    "s": "6.50 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/tandil-vollwaschmittel-xxl-packung-000000000000709644",
-    "c": "Other",
-    "cn": "tandil packung vollwaschmittel xxl",
-    "ik": "tok:tandil|packung-vollwaschmittel-xxl|6500",
-    "bn": "tandil",
-    "wg": 6500
-  },
-  {
-    "n": "Tandil Feinwaschmittel 1,5 l, Wolle & Feines 37 Wl",
-    "p": "2.85",
-    "o": "",
-    "s": "1.50 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/tandil-feinwaschmittel-1-5-l-wolle-feines-37-wl-000000000458876001",
-    "c": "Other",
-    "cn": "tandil 37 feines feinwaschmittel wl wolle",
-    "ik": "tok:tandil|37-feines-feinwaschmittel-wl-wolle|1500",
-    "bn": "tandil",
-    "wg": 1500
-  },
-  {
-    "n": "Persil Waschmittel, 4-in-1 Discs Color 16 Wl",
-    "p": "6.75",
-    "o": "",
-    "s": "270 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/persil-waschmittel-4-in-1-discs-color-16-wl-000000000465786009",
-    "c": "Other",
-    "cn": "persil 16 color discs in waschmittel wl",
-    "ik": "tok:persil|16-color-discs-in-waschmittel-wl|270",
-    "bn": "persil",
-    "wg": 270
-  },
-  {
-    "n": "Persil Waschmittel, 4-in-1 Discs Universal 16 Wl",
-    "p": "6.75",
-    "o": "",
-    "s": "270 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/persil-waschmittel-4-in-1-discs-universal-16-wl-000000000465786010",
-    "c": "Other",
-    "cn": "persil 16 discs in universal waschmittel wl",
-    "ik": "tok:persil|16-discs-in-universal-waschmittel-wl|270",
-    "bn": "persil",
-    "wg": 270
-  },
-  {
     "n": "Finish Maschinenpfleger 4er-Pack",
     "p": "3.99",
     "o": "",
@@ -14812,6 +14773,19 @@
     "wg": 70
   },
   {
+    "n": "Tandil Vollwaschmittel 2,025 Kg",
+    "p": "4.69",
+    "o": "",
+    "s": "2.03 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/tandil-vollwaschmittel-2-025-kg-000000000000510761",
+    "c": "Other",
+    "cn": "tandil vollwaschmittel",
+    "ik": "tok:tandil|vollwaschmittel|2030",
+    "bn": "tandil",
+    "wg": 2030
+  },
+  {
     "n": "Tandil Kalk-Stopp Tabs 600 G",
     "p": "3.25",
     "o": "",
@@ -14823,6 +14797,19 @@
     "ik": "tok:tandil|kalk-stopp-tabs|600",
     "bn": "tandil",
     "wg": 600
+  },
+  {
+    "n": "Tandil Vollwaschmittel, Xxl Packung",
+    "p": "7.99",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/tandil-vollwaschmittel-xxl-packung-000000000000709644",
+    "c": "Other",
+    "cn": "tandil packung vollwaschmittel xxl",
+    "ik": "tok:tandil|packung-vollwaschmittel-xxl|1",
+    "bn": "tandil",
+    "wg": 1
   },
   {
     "n": "Weisser Riese Waschmittel XXL, Universal Gel",
@@ -14916,6 +14903,32 @@
     "wg": 250
   },
   {
+    "n": "Tandil Feinwaschmittel 1,5 l, Sport 37 Wl",
+    "p": "2.19",
+    "o": "",
+    "s": "1.50 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/tandil-feinwaschmittel-1-5-l-sport-37-wl-000000000458542001",
+    "c": "Other",
+    "cn": "tandil 37 feinwaschmittel sport wl",
+    "ik": "tok:tandil|37-feinwaschmittel-sport-wl|1500",
+    "bn": "tandil",
+    "wg": 1500
+  },
+  {
+    "n": "Tandil Feinwaschmittel 1,5 l, Wolle & Feines 37 Wl",
+    "p": "2.85",
+    "o": "",
+    "s": "1.50 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/tandil-feinwaschmittel-1-5-l-wolle-feines-37-wl-000000000458876001",
+    "c": "Other",
+    "cn": "tandil 37 feines feinwaschmittel wl wolle",
+    "ik": "tok:tandil|37-feines-feinwaschmittel-wl-wolle|1500",
+    "bn": "tandil",
+    "wg": 1500
+  },
+  {
     "n": "Tandil Caps 3-in-1 36 Stück, Universal",
     "p": "7.25",
     "o": "",
@@ -14953,6 +14966,58 @@
     "ik": "tok:kuschelweich|ler-sommerwind-weichsp|2000",
     "bn": "kuschelweich",
     "wg": 2000
+  },
+  {
+    "n": "Persil Gel Universalwaschmittel 20 Wl",
+    "p": "6.75",
+    "o": "",
+    "s": "900 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/persil-gel-universalwaschmittel-20-wl-000000000465786003",
+    "c": "Other",
+    "cn": "persil 20 gel universalwaschmittel wl",
+    "ik": "tok:persil|20-gel-universalwaschmittel-wl|900",
+    "bn": "persil",
+    "wg": 900
+  },
+  {
+    "n": "Persil Gel Colorwaschmittel 20 Wl",
+    "p": "6.75",
+    "o": "",
+    "s": "900 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/persil-gel-colorwaschmittel-20-wl-000000000465786004",
+    "c": "Other",
+    "cn": "persil 20 colorwaschmittel gel wl",
+    "ik": "tok:persil|20-colorwaschmittel-gel-wl|900",
+    "bn": "persil",
+    "wg": 900
+  },
+  {
+    "n": "Persil Waschmittel, 4-in-1 Discs Color 16 Wl",
+    "p": "6.75",
+    "o": "",
+    "s": "270 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/persil-waschmittel-4-in-1-discs-color-16-wl-000000000465786009",
+    "c": "Other",
+    "cn": "persil 16 color discs in waschmittel wl",
+    "ik": "tok:persil|16-color-discs-in-waschmittel-wl|270",
+    "bn": "persil",
+    "wg": 270
+  },
+  {
+    "n": "Persil Waschmittel, 4-in-1 Discs Universal 16 Wl",
+    "p": "6.75",
+    "o": "",
+    "s": "270 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/persil-waschmittel-4-in-1-discs-universal-16-wl-000000000465786010",
+    "c": "Other",
+    "cn": "persil 16 discs in universal waschmittel wl",
+    "ik": "tok:persil|16-discs-in-universal-waschmittel-wl|270",
+    "bn": "persil",
+    "wg": 270
   },
   {
     "n": "Taft Haircare Haarspray 250 ml, Volumen",

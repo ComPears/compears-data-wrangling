@@ -131,7 +131,7 @@
   },
   {
     "n": "Palmolive Naturals Flüssigseife Milch & Mandel 300ML",
-    "p": "1.69",
+    "p": "1.79",
     "o": "",
     "s": "300 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/palmolive_naturals_flssigseife_mandel.jpg",
@@ -560,7 +560,7 @@
   },
   {
     "n": "Edeka Chocolate Cream Cookies 210G",
-    "p": "2.29",
+    "p": "2.49",
     "o": "",
     "s": "210 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_chocolate_cream_cookies_210g(1).jpg",
@@ -638,7 +638,7 @@
   },
   {
     "n": "Edeka Herzstücke Choco Crunch 90G",
-    "p": "1.69",
+    "p": "1.79",
     "o": "",
     "s": "90 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_choco_crunch_90g.jpg",
@@ -664,7 +664,7 @@
   },
   {
     "n": "Edeka Double Chocolate Cookies 200G",
-    "p": "2.29",
+    "p": "2.49",
     "o": "",
     "s": "200 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_cookies_double_chocolate_200g.jpg",
@@ -751,19 +751,6 @@
     "cn": "edeka bio fettarme milch",
     "ik": "tok:edeka|bio-fettarme-milch|1000",
     "bn": "edeka",
-    "wg": 1000
-  },
-  {
-    "n": "Minus L H-Milch 3,5%- Laktosefrei 1L - beschädigt/verschmutzt",
-    "p": "1.20",
-    "o": "",
-    "s": "1 l",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/minus_l_hmilch_38_laktosefrei.jpg",
-    "i": "https://www.edeka24.de/Themenwelten/Bewusste-Ernaehrung/Minus-L-H-Milch-3-5-laktosefrei-1L-beschaedigt-verschmutzt.html?listtype=search&searchparam=H-Milch",
-    "c": "Other",
-    "cn": "minus besch digt laktosefrei milch verschmutzt",
-    "ik": "tok:minus|besch-digt-laktosefrei-milch-verschmutzt|1000",
-    "bn": "minus",
     "wg": 1000
   },
   {
@@ -1015,7 +1002,7 @@
   },
   {
     "n": "Edeka Herzstücke Knusper Müsli Black & White 500G",
-    "p": "3.49",
+    "p": "3.79",
     "o": "",
     "s": "500 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_knusper_msli_black_amp_white_500g.jpg",
@@ -1079,21 +1066,8 @@
     "wg": 500
   },
   {
-    "n": "Elkos Cremeseife Limette & Buttermilch 500ML",
-    "p": "0.79",
-    "o": "",
-    "s": "500 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_elkos_cremeseife_limetteampbuttermilch_500ml.jpg",
-    "i": "https://www.edeka24.de/Elkos-Cremeseife-Limette-Buttermilch-500ML.html?listtype=search&searchparam=Butter",
-    "c": "Other",
-    "cn": "elkos buttermilch cremeseife limette",
-    "ik": "tok:elkos|buttermilch-cremeseife-limette|500",
-    "bn": "elkos",
-    "wg": 500
-  },
-  {
     "n": "Edeka Herzstücke Bourbon-Vanille Waffeln 3ST 165G",
-    "p": "1.99",
+    "p": "2.29",
     "o": "",
     "s": "165 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_bourbonvanille_waffeln_3st_165g.jpg",
@@ -1131,6 +1105,19 @@
     "wg": 125
   },
   {
+    "n": "Leibniz Choco Edelherb Kekse 125G",
+    "p": "3.29",
+    "o": "",
+    "s": "125 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/leibniz_choco_edelherb_kekse_125g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Suess-Salzig/Gebaeck-Kekse-Waffeln/Leibniz-Choco-Edelherb-Kekse-125G.html?listtype=search&searchparam=Butter",
+    "c": "Other",
+    "cn": "leibniz choco edelherb kekse",
+    "ik": "tok:leibniz|choco-edelherb-kekse|125",
+    "bn": "leibniz",
+    "wg": 125
+  },
+  {
     "n": "Rama Original 60% Fett 400G",
     "p": "2.49",
     "o": "",
@@ -1145,7 +1132,7 @@
   },
   {
     "n": "Edeka Herzstücke Knusper Flakes Himbeere 125G",
-    "p": "2.49",
+    "p": "2.79",
     "o": "",
     "s": "125 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_knusper_flakes_himbeere_125g.jpg",
@@ -1184,7 +1171,7 @@
   },
   {
     "n": "Edeka Herzstücke Tortellini Cinque Formaggi 250G",
-    "p": "1.49",
+    "p": "1.59",
     "o": "",
     "s": "250 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_tortellini_cinque_formaggi_250g.jpg",
@@ -1223,7 +1210,7 @@
   },
   {
     "n": "Edeka Herzstücke Tortellini Carne 250G",
-    "p": "1.49",
+    "p": "1.59",
     "o": "",
     "s": "250 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_tortellini_carne_250g.jpg",
@@ -1236,7 +1223,7 @@
   },
   {
     "n": "Rendezvous Eierlikör Mild 14% 0,7L",
-    "p": "5.49",
+    "p": "5.79",
     "o": "",
     "s": "700 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/rendezvous_eierlikr_mild.jpg",
@@ -1301,7 +1288,7 @@
   },
   {
     "n": "Edeka Herzstücke Tortellini Tricolore 250G",
-    "p": "1.49",
+    "p": "1.59",
     "o": "",
     "s": "250 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_tortellini_tricolore_250g.jpg",
@@ -2135,7 +2122,7 @@
     "o": "",
     "s": "300 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ya039ummi_white_pita_300ml.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Sossen/Grillsaucen/Ya-ummi-White-Pita-300ML.html?listtype=search&searchparam=Joghurt",
+    "i": "https://www.edeka24.de/Ya-ummi-White-Pita-300ML.html?listtype=search&searchparam=Joghurt",
     "c": "Other",
     "cn": "yaummi pita ummi white ya",
     "ik": "tok:yaummi|pita-ummi-white-ya|300",
@@ -2157,7 +2144,7 @@
   },
   {
     "n": "Edeka Herzstücke Erdbeer Joghurt Vollmilch 90G",
-    "p": "1.69",
+    "p": "1.79",
     "o": "",
     "s": "90 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_erdbeer_joghurt_vollmilch_90g.jpg",
@@ -3040,17 +3027,17 @@
     "wg": 180
   },
   {
-    "n": "Wasa Delicate Crackers Sea Salt 180G",
-    "p": "3.39",
+    "n": "Schär Meisterbäckers Mehrkorn 330G - Mhd 21.08.2026",
+    "p": "1.90",
     "o": "",
-    "s": "180 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/wasadelicatecrackersseasalt.jpg",
-    "i": "https://www.edeka24.de/Wasa-Delicate-Crackers-Sea-Salt-180G.html?listtype=search&searchparam=Brot",
+    "s": "330 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/schamp228r_meisterbamp228ckers_mehrkorn_330g.jpg",
+    "i": "https://www.edeka24.de/Schaer-Meisterbaeckers-Mehrkorn-330G-MHD-21-08-2026.html?listtype=search&searchparam=Brot",
     "c": "Other",
-    "cn": "wasa crackers delicate salt sea",
-    "ik": "tok:wasa|crackers-delicate-salt-sea|180",
-    "bn": "wasa",
-    "wg": 180
+    "cn": "schr 08 2026 21 ckers mehrkorn meisterb mhd sch",
+    "ik": "tok:schr|08-2026-21-ckers-mehrkorn-meisterb-mhd-sch|330",
+    "bn": "schr",
+    "wg": 330
   },
   {
     "n": "Mestemacher Gourmet Pumper Nickel 250G",
@@ -3195,7 +3182,7 @@
   },
   {
     "n": "Edeka Herzstücke Apfelmus Ohne Zuckerzusatz 710G",
-    "p": "1.99",
+    "p": "2.09",
     "o": "",
     "s": "710 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_apfelmus_ohne_zuckerzusatz_710g.jpg",
@@ -3312,7 +3299,7 @@
   },
   {
     "n": "Sagrotan Allzweck-Reiniger Blütenfrische & Grüner Apfel 750ML",
-    "p": "3.49",
+    "p": "3.99",
     "o": "",
     "s": "750 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/sagrotan_allzweckreiniger_750ml.jpg",
@@ -3585,7 +3572,7 @@
   },
   {
     "n": "Edeka Herzstücke Geleebananen 250G",
-    "p": "2.29",
+    "p": "2.49",
     "o": "",
     "s": "250 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_geleebananen_250g.jpg",
@@ -3806,7 +3793,7 @@
   },
   {
     "n": "Edeka Herzstücke Chips Cracker Tomate-pikant 125G",
-    "p": "1.79",
+    "p": "1.99",
     "o": "",
     "s": "125 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_chips_cracker_tomatepikant_125g.jpg",
@@ -3819,7 +3806,7 @@
   },
   {
     "n": "Edeka Herzstücke Thunfisch Salat Oriental Style 160G",
-    "p": "2.29",
+    "p": "2.39",
     "o": "",
     "s": "160 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_thunfisch_salat_oriental_style_160g.jpg",
@@ -3987,7 +3974,7 @@
   },
   {
     "n": "Edeka Herzstücke Msc Schildmakrelenfilets In Tomatensauce 125G",
-    "p": "1.39",
+    "p": "1.89",
     "o": "",
     "s": "125 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_msc_schildmakrelenfilets_in_tomatensauce_125g.jpg",
@@ -4143,7 +4130,7 @@
   },
   {
     "n": "Edeka Herzstücke Gulaschsuppe 480ML",
-    "p": "2.49",
+    "p": "2.59",
     "o": "",
     "s": "480 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_gulaschsuppe_480ml(1).jpg",
@@ -4360,7 +4347,7 @@
   },
   {
     "n": "Edeka Herzstücke Dog Rind Und Huhn Mit Süßkartoffeln,Mango Und Leinöl 125g",
-    "p": "1.19",
+    "p": "1.29",
     "o": "",
     "s": "125 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_naturals_dog_rind_und_huhn_mit_skartoffelnmango_und_leinl_125g.jpg",
@@ -4438,7 +4425,7 @@
   },
   {
     "n": "Edeka Herzstücke Chili Mix 400G",
-    "p": "1.59",
+    "p": "1.69",
     "o": "",
     "s": "400 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_chili_mix_400g.jpg",
@@ -4581,7 +4568,7 @@
   },
   {
     "n": "Edeka Herzstücke Thunfischsalat Western Style 160G",
-    "p": "2.29",
+    "p": "2.39",
     "o": "",
     "s": "160 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_thunfischsalat_western_style_160g.jpg",
@@ -4607,7 +4594,7 @@
   },
   {
     "n": "Edeka Herzstücke Junge Erbsen Mit Pariser Karotten Extra Fein 530G",
-    "p": "1.69",
+    "p": "1.79",
     "o": "",
     "s": "530 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_junge_erbsen_mit_pariser_karotten_extra_fein_530g.jpg",
@@ -5477,19 +5464,6 @@
     "wg": 220
   },
   {
-    "n": "Ültje Linsen Crackets Paprika 110G",
-    "p": "2.79",
-    "o": "",
-    "s": "110 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ltje_linsen_crackets_paprika_110g.jpg",
-    "i": "https://www.edeka24.de/Ueltje-Linsen-Crackets-Paprika-110G-oxid.html?listtype=search&searchparam=Paprika",
-    "c": "Other",
-    "cn": "linsen crackets ltje paprika",
-    "ik": "tok:linsen|crackets-ltje-paprika|110",
-    "bn": "linsen",
-    "wg": 110
-  },
-  {
     "n": "Alnatura Bio Mais Chips Paprika 125G",
     "p": "1.79",
     "o": "",
@@ -5530,7 +5504,7 @@
   },
   {
     "n": "Chio Dip! Mild Salsa 200ML",
-    "p": "2.69",
+    "p": "2.79",
     "o": "",
     "s": "200 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/chio_dip_mild_salsa_200ml.jpg",
@@ -5605,6 +5579,19 @@
     "ik": "tok:thomy|les-paprika-sauces-tomaten|250",
     "bn": "thomy",
     "wg": 250
+  },
+  {
+    "n": "Maggi Fix Airfryer Knusper Hähnchen Paprika & Knoblauch 39G",
+    "p": "1.09",
+    "o": "",
+    "s": "39 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_fix_airfryer_knusper_hhnchen_paprika_amp_knoblauch_39g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Sossen/Maggi-Fix-Airfryer-Knusper-Haehnchen-Paprika-Knoblauch-39G.html?listtype=search&searchparam=Paprika",
+    "c": "Other",
+    "cn": "maggi airfryer fix hnchen knoblauch knusper paprika",
+    "ik": "tok:maggi|airfryer-fix-hnchen-knoblauch-knusper-paprika|39",
+    "bn": "maggi",
+    "wg": 39
   },
   {
     "n": "Mein T Zitronen T Zero 0,5L",
@@ -5945,6 +5932,19 @@
     "wg": 330
   },
   {
+    "n": "Sanpellegrino Naturali Limonata 0,33L Dose",
+    "p": "1.29",
+    "o": "",
+    "s": "330 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/san_pellegrino_limonata_033l_dpg.jpg",
+    "i": "https://www.edeka24.de/Sanpellegrino-Naturali-Limonata-0-33L-Dose.html?listtype=search&searchparam=Zitronen",
+    "c": "Other",
+    "cn": "sanpellegrino dose limonata naturali",
+    "ik": "tok:sanpellegrino|dose-limonata-naturali|330",
+    "bn": "sanpellegrino",
+    "wg": 330
+  },
+  {
     "n": "Gut & Günstig Mini Gugelhupf Zitrone 250G",
     "p": "1.89",
     "o": "",
@@ -5969,19 +5969,6 @@
     "ik": "tok:bitburger|radler|500",
     "bn": "bitburger",
     "wg": 500
-  },
-  {
-    "n": "Pfanner Der Weiße Zitrone-Holunderblüte 2 Ltr",
-    "p": "2.19",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/pfanner_der_weie_zitroneholunderblte_2_ltr.jpg",
-    "i": "https://www.edeka24.de/Pfanner-Der-Weisse-Zitrone-Holunderbluete-2-ltr.html?listtype=search&searchparam=Zitronen",
-    "c": "Other",
-    "cn": "pfanner der holunderbl ltr te wei zitrone",
-    "ik": "tok:pfanner|der-holunderbl-ltr-te-wei-zitrone|1",
-    "bn": "pfanner",
-    "wg": 1
   },
   {
     "n": "Moselland Riesling Steillage Spätlese 0,75l",
@@ -6011,7 +5998,7 @@
   },
   {
     "n": "Edeka Herzstücke Roter Kur-Traubensaft 0,75L",
-    "p": "2.79",
+    "p": "2.99",
     "o": "",
     "s": "750 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_roter_kurtraubensaft_075l.jpg",
@@ -6426,19 +6413,6 @@
     "wg": 27
   },
   {
-    "n": "Maggi Fix Airfryer Knusper Hähnchen Paprika & Knoblauch 39G",
-    "p": "1.09",
-    "o": "",
-    "s": "39 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_fix_airfryer_knusper_hhnchen_paprika_amp_knoblauch_39g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Sossen/Maggi-Fix-Airfryer-Knusper-Haehnchen-Paprika-Knoblauch-39G.html?listtype=search&searchparam=H%C3%A4hnchen",
-    "c": "Other",
-    "cn": "maggi airfryer fix hnchen knoblauch knusper paprika",
-    "ik": "tok:maggi|airfryer-fix-hnchen-knoblauch-knusper-paprika|39",
-    "bn": "maggi",
-    "wg": 39
-  },
-  {
     "n": "Just Spices Hähnchen Gewürz Standard 79G",
     "p": "4.99",
     "o": "",
@@ -6593,6 +6567,32 @@
     "ik": "tok:good|boy-bunter-hnchen-knabber-mix|320",
     "bn": "good",
     "wg": 320
+  },
+  {
+    "n": "Maggi Würzmischung 5 - Hackfleisch 8x75G",
+    "p": "16.65",
+    "o": "",
+    "s": "75 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/4005500027911_8er_web_1000x1000px-23501259.jpg",
+    "i": "https://www.edeka24.de/vorrat/Maggi-Wuerzmischung-5-Hackfleisch-8x75G.html?listtype=search&searchparam=Hackfleisch",
+    "c": "Other",
+    "cn": "maggi 8x hackfleisch rzmischung",
+    "ik": "tok:maggi|8x-hackfleisch-rzmischung|75",
+    "bn": "maggi",
+    "wg": 75
+  },
+  {
+    "n": "Maggi Würzmischung 5 - Hackfleisch 75G",
+    "p": "2.19",
+    "o": "",
+    "s": "75 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_wrzmischung_5_hackfleisch(1).jpg",
+    "i": "https://www.edeka24.de/Maggi-Wuerzmischung-5-Hackfleisch-75G.html?listtype=search&searchparam=Hackfleisch",
+    "c": "Other",
+    "cn": "maggi hackfleisch rzmischung",
+    "ik": "tok:maggi|hackfleisch-rzmischung|75",
+    "bn": "maggi",
+    "wg": 75
   },
   {
     "n": "Maggi Bauern-Topf Mit Hackfleisch 39G",
@@ -6882,7 +6882,7 @@
   },
   {
     "n": "Edeka Herzstücke I Love Leberwurst Für Hunde 75G",
-    "p": "1.89",
+    "p": "1.99",
     "o": "",
     "s": "75 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_i_love_leberwurst_fr_hunde_75g.jpg",
@@ -7025,7 +7025,7 @@
   },
   {
     "n": "Edeka Herzstücke Kaminwurzen 130G",
-    "p": "1.99",
+    "p": "2.19",
     "o": "",
     "s": "130 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_kaminwurzen_130g.jpg",
@@ -7038,7 +7038,7 @@
   },
   {
     "n": "Edeka Herzstücke Schleck-Snack Leberwurst Mit Leberwurst & Katzengras 8ST 120G",
-    "p": "1.69",
+    "p": "1.99",
     "o": "",
     "s": "120 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_schlecksnack_leberwurst_mit_katzengras_8x15_g.jpg",
@@ -7217,6 +7217,19 @@
     "ik": "tok:buerliche|bierschinken-bio-bisch-demeter-ezg-hall-schw-uerliche|200",
     "bn": "buerliche",
     "wg": 200
+  },
+  {
+    "n": "Schwarzwaldhof Schwarzwälder Schinken 150G - Mhd 28.08.2026",
+    "p": "2.20",
+    "o": "",
+    "s": "150 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/schwwhof_schinkvespsch150g.jpg",
+    "i": "https://www.edeka24.de/Schwarzwaldhof-Schwarzwaelder-Schinken-150G-MHD-28-08-2026.html?listtype=search&searchparam=Schinken",
+    "c": "Other",
+    "cn": "schwarzwaldhof 08 2026 28 lder mhd schinken schwarzw",
+    "ik": "tok:schwarzwaldhof|08-2026-28-lder-mhd-schinken-schwarzw|150",
+    "bn": "schwarzwaldhof",
+    "wg": 150
   },
   {
     "n": "Maggi Blumenkohl-Kartoffel-Gratin 51G",
@@ -7453,21 +7466,8 @@
     "wg": 45
   },
   {
-    "n": "Edeka Herzstücke Feine Mahlzeit MSC-Seelachs In Gelee 415G - beschädigt/verschmutzt",
-    "p": "0.60",
-    "o": "",
-    "s": "415 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/eherzfeimahseelachs.jpg",
-    "i": "https://www.edeka24.de/EDEKA-Herzstuecke-Feine-Mahlzeit-MSC-Seelachs-in-Gelee-415G-beschaedigt-verschmutzt.html?listtype=search&searchparam=Lachs",
-    "c": "Other",
-    "cn": "edeka besch cke digt feine gelee herzst in mahlzeit msc seelachs verschmutzt",
-    "ik": "tok:edeka|besch-cke-digt-feine-gelee-herzst-in-mahlzeit-msc-seelachs-verschmutzt|415",
-    "bn": "edeka",
-    "wg": 415
-  },
-  {
     "n": "Sheba Selection In Sauce Mit Lachs 85G",
-    "p": "0.79",
+    "p": "0.69",
     "o": "",
     "s": "85 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/sheba_cuisine_mit_lachs.jpg",
@@ -7492,7 +7492,7 @@
   },
   {
     "n": "Sheba Classics Mit Lachs In Pastete 85G",
-    "p": "0.79",
+    "p": "0.69",
     "o": "",
     "s": "85 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/sheba_classics_in_pastete_mit_lachs_85g.jpg",
@@ -7544,7 +7544,7 @@
   },
   {
     "n": "Edeka Herzstücke Naturals Huhn Mit Lachsöl & Löwenzahn Für Katzen 85G",
-    "p": "0.99",
+    "p": "1.19",
     "o": "",
     "s": "85 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_naturals_huhn_mit_lachsl_amp_lwenzahn_fr_katzen_85g.jpg",
@@ -8401,7 +8401,7 @@
   },
   {
     "n": "Edeka Herzstücke Spaghetti 500G",
-    "p": "1.49",
+    "p": "1.59",
     "o": "",
     "s": "500 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_italia_nudeln_spaghetti_500g.jpg",
@@ -8921,7 +8921,7 @@
   },
   {
     "n": "Edeka Herzstücke Tortilla Wraps Mais 380g",
-    "p": "1.69",
+    "p": "1.79",
     "o": "",
     "s": "380 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_tortilla_mais_wraps_6st_380g.jpg",
@@ -9077,7 +9077,7 @@
   },
   {
     "n": "Edeka Herzstücke Zimtschnecken 567G",
-    "p": "2.99",
+    "p": "3.29",
     "o": "",
     "s": "567 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_zimtschnecken_567g.jpg",
@@ -9090,7 +9090,7 @@
   },
   {
     "n": "Edeka Herzstücke Ingwerstücke 200G",
-    "p": "3.49",
+    "p": "3.59",
     "o": "",
     "s": "200 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_ingwerstcke_200g.jpg",
@@ -9116,7 +9116,7 @@
   },
   {
     "n": "Edeka Herzstücke Mangos In Schnitten Leicht Gezuckert 425G",
-    "p": "1.99",
+    "p": "2.09",
     "o": "",
     "s": "425 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_mangos_in_schnitten_leicht_gezuckert_425g.jpg",
@@ -9389,7 +9389,7 @@
   },
   {
     "n": "Edeka Herzstücke Erdnüsse Geröstet & Gesalzen 200G",
-    "p": "1.99",
+    "p": "2.29",
     "o": "",
     "s": "200 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_erdnsse_gerstetampgesalzen_200g.jpg",
@@ -9479,6 +9479,19 @@
     "wg": 160
   },
   {
+    "n": "Koro Bio Energy Ball Salted Pistachio 30G - Mhd 08.2026",
+    "p": "1.00",
+    "o": "",
+    "s": "30 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/koro_bio_energy_ball_salted_pistachio_30g.jpg",
+    "i": "https://www.edeka24.de/KoRo-Bio-Energy-Ball-Salted-Pistachio-30G-MHD-08-2026.html?listtype=search&searchparam=Salz",
+    "c": "Other",
+    "cn": "koro 08 2026 ball bio energy mhd pistachio salted",
+    "ik": "tok:koro|08-2026-ball-bio-energy-mhd-pistachio-salted|30",
+    "bn": "koro",
+    "wg": 30
+  },
+  {
     "n": "Bad Reichenhaller Pommes Salz 90G",
     "p": "2.29",
     "o": "",
@@ -9490,19 +9503,6 @@
     "ik": "tok:bad|pommes-reichenhaller-salz|90",
     "bn": "bad",
     "wg": 90
-  },
-  {
-    "n": "Koro Bio Energy Ball Salted Pistachio 30G",
-    "p": "1.79",
-    "o": "",
-    "s": "30 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/koro_bio_energy_ball_salted_pistachio_30g.jpg",
-    "i": "https://www.edeka24.de/Themenwelten/Bewusste-Ernaehrung/Fitness-Nahrung/KoRo-Bio-Energy-Ball-Salted-Pistachio-30G.html?listtype=search&searchparam=Salz",
-    "c": "Other",
-    "cn": "koro ball bio energy pistachio salted",
-    "ik": "tok:koro|ball-bio-energy-pistachio-salted|30",
-    "bn": "koro",
-    "wg": 30
   },
   {
     "n": "Corny Protein Erdnuss Süß & Salzig 4ST 100G",
@@ -9519,7 +9519,7 @@
   },
   {
     "n": "Edeka Herzstücke Pistazien Geröstet Gesalzen 150G",
-    "p": "3.49",
+    "p": "3.79",
     "o": "",
     "s": "150 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_pistazien_gerstet_gesalzen_150g.jpg",
@@ -9597,7 +9597,7 @@
   },
   {
     "n": "Edeka Herzstücke Erdnusskerne Geröstet & Ungesalzen 200G",
-    "p": "1.99",
+    "p": "2.29",
     "o": "",
     "s": "200 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_erdnusskerne_gerstet_amp_ungesalzen_200g.jpg",
@@ -9986,7 +9986,7 @@
   },
   {
     "n": "Edeka Herzstücke Pfefferminz-Taler 250G",
-    "p": "2.29",
+    "p": "2.49",
     "o": "",
     "s": "250 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_pfefferminztaler_250g.jpg",
@@ -10116,7 +10116,7 @@
   },
   {
     "n": "Edeka Herzstücke Pute Und Huhn Naturals 125g",
-    "p": "1.19",
+    "p": "1.29",
     "o": "",
     "s": "125 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_naturals_dog_pute_und_huhn_mit_cranberriesmhrensonnenblumenl_125g.jpg",
@@ -10337,7 +10337,7 @@
   },
   {
     "n": "Edeka Herzstücke Thunfischfilets In Olivenöl 2x 80G",
-    "p": "2.99",
+    "p": "3.29",
     "o": "",
     "s": "2 x",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_msc_thunfischfilets_in_olivenl_2x_80g.jpg",
@@ -10544,7 +10544,7 @@
   },
   {
     "n": "Edeka Herzstücke Grissini Al Sesamo 2ST 125G",
-    "p": "1.19",
+    "p": "1.29",
     "o": "",
     "s": "125 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_originale_grissini_al_sesamo_125g.jpg",
@@ -10557,7 +10557,7 @@
   },
   {
     "n": "De Cecco Olio Extra Vergine Di Olivia Il Fruttato 500ML",
-    "p": "9.49",
+    "p": "8.49",
     "o": "",
     "s": "500 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/de_cecco_olio_extra_vergine_di_olivia_il_fruttato_germania_500ml.jpg",
@@ -10621,6 +10621,19 @@
     "wg": 185
   },
   {
+    "n": "Elkos Baby Glück Sensitiv Feuchttücher 30ST",
+    "p": "1.19",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_elkos_baby_glck_babytcher_sensitive_30st.jpg",
+    "i": "https://www.edeka24.de/Drogerie/Baby-Kleinkind/Pflegen-Waschen-Reinigen/elkos-Baby-Glueck-Sensitiv-Feuchttuecher-30ST.html?listtype=search&searchparam=Oliven%C3%B6l",
+    "c": "Personal Care",
+    "cn": "baby cher ck elkos feuchtt gl sensitiv",
+    "ik": "tok:baby|cher-ck-elkos-feuchtt-gl-sensitiv|1",
+    "bn": "baby",
+    "wg": 1
+  },
+  {
     "n": "Bertolli Originale Natives Olivenöl Extra 1L",
     "p": "15.99",
     "o": "",
@@ -10658,19 +10671,6 @@
     "ik": "tok:saupiquet|in-oliven-thunfisch|185",
     "bn": "saupiquet",
     "wg": 185
-  },
-  {
-    "n": "Bertolli Bio Natives Olivenöl Extra 250ML",
-    "p": "6.49",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bertolli_bio_natives_olivenl_extra_250ml.jpg",
-    "i": "https://www.edeka24.de/Bertolli-Bio-Natives-Olivenoel-Extra-250ML.html?listtype=search&searchparam=Oliven%C3%B6l",
-    "c": "Other",
-    "cn": "bertolli bio extra natives oliven",
-    "ik": "tok:bertolli|bio-extra-natives-oliven|250",
-    "bn": "bertolli",
-    "wg": 250
   },
   {
     "n": "Surig Hygreen Essig Reiniger 500ML",
@@ -11583,19 +11583,6 @@
     "wg": 130
   },
   {
-    "n": "Löwensenf Senf Extra Scharf 250ML - Mhd 16.08.2026",
-    "p": "1.10",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/lwensenf_senf_extra_scharf_im_glas.jpg",
-    "i": "https://www.edeka24.de/Loewensenf-Senf-extra-scharf-250ML-MHD-16-08-2026.html?listtype=search&searchparam=Senf",
-    "c": "Other",
-    "cn": "lwensenf 08 16 2026 extra mhd scharf senf wensenf",
-    "ik": "tok:lwensenf|08-16-2026-extra-mhd-scharf-senf-wensenf|250",
-    "bn": "lwensenf",
-    "wg": 250
-  },
-  {
     "n": "Thomy Delikatess Senf Mittelscharf 200ML",
     "p": "1.29",
     "o": "",
@@ -11711,6 +11698,19 @@
     "ik": "tok:wolfram|berge-feige-senfsauce-tessiner|200",
     "bn": "wolfram",
     "wg": 200
+  },
+  {
+    "n": "Alnatura Bio Süßer Senf 190G",
+    "p": "1.89",
+    "o": "",
+    "s": "190 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/alnatura_bio_ser_senf_190g.jpg",
+    "i": "https://www.edeka24.de/Alnatura-Bio-Suesser-Senf-190G.html?listtype=search&searchparam=Senf",
+    "c": "Other",
+    "cn": "alnatura bio er senf",
+    "ik": "tok:alnatura|bio-er-senf|190",
+    "bn": "alnatura",
+    "wg": 190
   },
   {
     "n": "Simmler Konfitüre Extra Hagebutte 450G",
@@ -12234,7 +12234,7 @@
   },
   {
     "n": "Edeka Herzstücke Baked Beans Mit Ahornsyrup 400G",
-    "p": "1.99",
+    "p": "2.19",
     "o": "",
     "s": "400 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_baked_beans_mit_ahornsyrup_400g.jpg",
@@ -12533,7 +12533,7 @@
   },
   {
     "n": "Edeka Herzstücke Haferhimmel Porridge Beeren 350G",
-    "p": "2.99",
+    "p": "3.29",
     "o": "",
     "s": "350 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_haferhimmel_porridge_beeren_350g.jpg",
@@ -12650,7 +12650,7 @@
   },
   {
     "n": "Edeka Herzstücke Knusper Müsli Multi Frucht 500G",
-    "p": "3.49",
+    "p": "3.79",
     "o": "",
     "s": "500 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_knusper_msli_multi_frucht_500g.jpg",
@@ -12754,7 +12754,7 @@
   },
   {
     "n": "Edeka Herzstücke Knuspermüsli Honig-Nuss 500G",
-    "p": "3.49",
+    "p": "3.79",
     "o": "",
     "s": "500 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_knuspermsli_honignuss_500g.jpg",
@@ -12897,7 +12897,7 @@
   },
   {
     "n": "Edeka Herzstücke Brasilien Kaffee Ganze Bohne 1KG",
-    "p": "14.99",
+    "p": "18.99",
     "o": "",
     "s": "1 l",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_brasilien_kaffee_ganze_bohne_1kg.jpg",
@@ -12923,7 +12923,7 @@
   },
   {
     "n": "Nestle Nescafe Ice Roast 95G",
-    "p": "6.29",
+    "p": "6.79",
     "o": "",
     "s": "95 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/nestle_nescafe_ice_roast_95g.jpg",
@@ -13079,7 +13079,7 @@
   },
   {
     "n": "Edeka Herzstücke Kaffeepads Strong 16ST 112G",
-    "p": "2.79",
+    "p": "2.99",
     "o": "",
     "s": "112 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_kaffeepads_strong_16st_112g.jpg",
@@ -13118,7 +13118,7 @@
   },
   {
     "n": "Edeka Herzstücke Kaffeepads Balance 16ST 112G",
-    "p": "2.79",
+    "p": "2.99",
     "o": "",
     "s": "112 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_kaffeepads_balance_16st_112g.jpg",
@@ -13209,7 +13209,7 @@
   },
   {
     "n": "Edeka Herzstücke Kaffeekapseln Karamell 10ST 50G",
-    "p": "2.69",
+    "p": "2.79",
     "o": "",
     "s": "50 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_kaffeekapseln_karamell_10st_50g.jpg",
@@ -13560,7 +13560,7 @@
   },
   {
     "n": "Edeka Herzstücke Mandarin-Orangen In Mandarin-Orangensaft 300G",
-    "p": "1.79",
+    "p": "1.99",
     "o": "",
     "s": "300 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_mandarinorangen_in_mandarinorangensaft_300g.jpg",
@@ -13765,19 +13765,6 @@
     "ik": "tok:manufaktur|alkoholfrei-duftig-geiger-prisecco-rg-wei|750",
     "bn": "manufaktur",
     "wg": 750
-  },
-  {
-    "n": "Coca-Cola Zero 0,5L Pet",
-    "p": "1.39",
-    "o": "",
-    "s": "500 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/cocacola_zero_05l_dpg.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Getraenke/Cola/Coca-Cola-Zero-0-5L-PET.html?listtype=search&searchparam=Cola",
-    "c": "Other",
-    "cn": "coca cola pet zero",
-    "ik": "tok:coca|cola-pet-zero|500",
-    "bn": "coca",
-    "wg": 500
   },
   {
     "n": "Baileys Chocolate Truffles 13ST 150G",
@@ -14024,6 +14011,19 @@
     "ik": "tok:nestle|caramel-cereal-chocolate-lion-protein|340",
     "bn": "nestle",
     "wg": 340
+  },
+  {
+    "n": "Esn Designer Bar Dark Chocolate Raspberry 45G",
+    "p": "2.79",
+    "o": "",
+    "s": "45 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/esn_designer_bar_dark_chocolate_raspberry_45g.jpg",
+    "i": "https://www.edeka24.de/Themenwelten/Bewusste-Ernaehrung/ESN-Designer-Bar-Dark-Chocolate-Raspberry-45G.html?listtype=search&searchparam=Cola",
+    "c": "Snacks",
+    "cn": "esn bar chocolate dark designer raspberry",
+    "ik": "tok:esn|bar-chocolate-dark-designer-raspberry|45",
+    "bn": "esn",
+    "wg": 45
   },
   {
     "n": "Bortzmeyer Traditionell Elsass Quetsch 40% 0,7L",
@@ -14880,7 +14880,7 @@
   },
   {
     "n": "Edeka Cookies Dark Chocolate Hazelnut 200G",
-    "p": "2.29",
+    "p": "2.39",
     "o": "",
     "s": "200 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_cookies_dark_chocolate_hazelnut_200g.jpg",
@@ -14890,19 +14890,6 @@
     "ik": "tok:edeka|chocolate-cookies-dark-hazelnut|200",
     "bn": "edeka",
     "wg": 200
-  },
-  {
-    "n": "Leibniz Choco Edelherb Kekse 125G",
-    "p": "3.29",
-    "o": "",
-    "s": "125 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/leibniz_choco_edelherb_kekse_125g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Suess-Salzig/Gebaeck-Kekse-Waffeln/Leibniz-Choco-Edelherb-Kekse-125G.html?listtype=search&searchparam=Kekse",
-    "c": "Other",
-    "cn": "leibniz choco edelherb kekse",
-    "ik": "tok:leibniz|choco-edelherb-kekse|125",
-    "bn": "leibniz",
-    "wg": 125
   },
   {
     "n": "Lotus Biscoff Doppelkeks Vanillegeschmack 15ST 150G",
@@ -14919,7 +14906,7 @@
   },
   {
     "n": "Edeka Herzstücke Keks & Karamell Creme Crunchy 400G",
-    "p": "2.99",
+    "p": "3.29",
     "o": "",
     "s": "400 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ekekkarcre.jpg",
@@ -15152,6 +15139,19 @@
     "wg": 100
   },
   {
+    "n": "Edeka Bio Gemüsechips 100G",
+    "p": "2.29",
+    "o": "",
+    "s": "100 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_bio_gemsechips_100g.jpg",
+    "i": "https://www.edeka24.de/Bio-Produkte/Bio-Marken/EDEKA-Bio-Gemuesechips-100G.html?listtype=search&searchparam=Chips",
+    "c": "Snacks",
+    "cn": "edeka bio gem sechips",
+    "ik": "tok:edeka|bio-gem-sechips|100",
+    "bn": "edeka",
+    "wg": 100
+  },
+  {
     "n": "Gut & Günstig Tortilla Chips Gesalzen 300G",
     "p": "1.59",
     "o": "",
@@ -15163,19 +15163,6 @@
     "ik": "tok:gut|chips-gesalzen-nstig-tortilla|300",
     "bn": "gut",
     "wg": 300
-  },
-  {
-    "n": "Gut & Günstig Linsen Chips Sour Cream 90G",
-    "p": "1.09",
-    "o": "",
-    "s": "90 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/gampampg_linsenchips_sour_cream_90g.jpg",
-    "i": "https://www.edeka24.de/Gut-Guenstig-Linsen-Chips-Sour-Cream-90G.html?listtype=search&searchparam=Chips",
-    "c": "Snacks",
-    "cn": "gut chips cream linsen nstig sour",
-    "ik": "tok:gut|chips-cream-linsen-nstig-sour|90",
-    "bn": "gut",
-    "wg": 90
   },
   {
     "n": "Erasco 2 Kohlrouladen 800G",
@@ -15550,19 +15537,6 @@
     "ik": "tok:somat|classic-power-tabs|1",
     "bn": "somat",
     "wg": 1
-  },
-  {
-    "n": "Fairy Ultra Konzentrat Granatapfel Handspülmittel 450ML",
-    "p": "1.89",
-    "o": "",
-    "s": "450 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/fairy_ultra_konzentrat_granatapfel_handsplmittel_450ml.jpg",
-    "i": "https://www.edeka24.de/Fairy-Ultra-Konzentrat-Granatapfel-Handspuelmittel-450ML.html?listtype=search&searchparam=Sp%C3%BClmittel",
-    "c": "Other",
-    "cn": "fairy granatapfel handsp konzentrat lmittel ultra",
-    "ik": "tok:fairy|granatapfel-handsp-konzentrat-lmittel-ultra|450",
-    "bn": "fairy",
-    "wg": 450
   },
   {
     "n": "Somat Excellence 4in1 Caps 49Tabs 886,9G",
@@ -16098,15 +16072,15 @@
     "wg": 880
   },
   {
-    "n": "Softlan Ultra Weichspüler Windfrisch 1L 45WL",
-    "p": "2.49",
+    "n": "Softlan Ultra Weichspüler Windfrisch 1L 45WL - Abverkauf",
+    "p": "2.00",
     "o": "",
     "s": "1 l",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/softlan_weichspamp252ler_outdoor_fresh_45wl_1l.jpg",
-    "i": "https://www.edeka24.de/nach-marke/Softlan/Softlan-Ultra-Weichspueler-Windfrisch-1L-45WL.html?listtype=search&searchparam=Weichsp%C3%BCler",
+    "i": "https://www.edeka24.de/Softlan-Ultra-Weichspueler-Windfrisch-1L-45WL-Abverkauf.html?listtype=search&searchparam=Weichsp%C3%BCler",
     "c": "Other",
-    "cn": "softlan 45wl ler ultra weichsp windfrisch",
-    "ik": "tok:softlan|45wl-ler-ultra-weichsp-windfrisch|1000",
+    "cn": "softlan 45wl abverkauf ler ultra weichsp windfrisch",
+    "ik": "tok:softlan|45wl-abverkauf-ler-ultra-weichsp-windfrisch|1000",
     "bn": "softlan",
     "wg": 1000
   },
@@ -16320,7 +16294,7 @@
   },
   {
     "n": "Penaten Bad & Shampoo 400ML",
-    "p": "2.99",
+    "p": "4.49",
     "o": "",
     "s": "400 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/penaten_bad_amp_shampoo_400_ml.jpg",
