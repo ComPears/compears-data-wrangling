@@ -2132,19 +2132,6 @@
     "wg": 500
   },
   {
-    "n": "Milsani High Protein Skyr Drink 330 ml, Zitrone-Limette",
-    "p": "1.49",
-    "o": "",
-    "s": "330 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-high-protein-skyr-drink-330-ml-zitrone-limette-000000000739709003",
-    "c": "Other",
-    "cn": "milsani drink high limette protein skyr zitrone",
-    "ik": "tok:milsani|drink-high-limette-protein-skyr-zitrone|330",
-    "bn": "milsani",
-    "wg": 330
-  },
-  {
     "n": "Bio Fettarmer Joghurt 1 kg, 1,8 % Fett, Mild",
     "p": "1.99",
     "o": "",
@@ -2169,6 +2156,19 @@
     "ik": "tok:bio|cremiger-fett-joghurt-mild|1000",
     "bn": "bio",
     "wg": 1000
+  },
+  {
+    "n": "Milsani High Protein Skyr Drink 330 ml, Zitrone-Limette",
+    "p": "1.49",
+    "o": "",
+    "s": "330 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-high-protein-skyr-drink-330-ml-zitrone-limette-000000000739709003",
+    "c": "Other",
+    "cn": "milsani drink high limette protein skyr zitrone",
+    "ik": "tok:milsani|drink-high-limette-protein-skyr-zitrone|330",
+    "bn": "milsani",
+    "wg": 330
   },
   {
     "n": "Lyttos Joghurt Nach Griechischer Art Natur 600 G",
@@ -2275,6 +2275,19 @@
     "wg": 500
   },
   {
+    "n": "Milsani Naturjoghurt 1 kg, 3,5 % Fett",
+    "p": "1.79",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/milsani-naturjoghurt-1-kg-3-5-fett-000000000415545001",
+    "c": "Other",
+    "cn": "milsani fett naturjoghurt",
+    "ik": "tok:milsani|fett-naturjoghurt|1000",
+    "bn": "milsani",
+    "wg": 1000
+  },
+  {
     "n": "Milsani Skyr Frucht 500 g, Erdbeere",
     "p": "1.49",
     "o": "",
@@ -2299,19 +2312,6 @@
     "ik": "tok:milsani|frucht-skyr-vanille|500",
     "bn": "milsani",
     "wg": 500
-  },
-  {
-    "n": "Milsani Naturjoghurt 1 kg, 3,5 % Fett",
-    "p": "1.79",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/milsani-naturjoghurt-1-kg-3-5-fett-000000000415545001",
-    "c": "Other",
-    "cn": "milsani fett naturjoghurt",
-    "ik": "tok:milsani|fett-naturjoghurt|1000",
-    "bn": "milsani",
-    "wg": 1000
   },
   {
     "n": "Nur Nur Natur Bio-Naturjoghurt 3,8 % Fett 400 G",
@@ -3224,6 +3224,19 @@
     "wg": 400
   },
   {
+    "n": "Goldähren Klassich Kleiner Sandwichtoast Saaten-Harmonie 375 G",
+    "p": "0.99",
+    "o": "",
+    "s": "380 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-klassich-kleiner-sandwichtoast-saaten-harmonie-375-g-000000000000186872",
+    "c": "Other",
+    "cn": "goldhren gold harmonie hren klassich kleiner saaten sandwichtoast",
+    "ik": "tok:goldhren|gold-harmonie-hren-klassich-kleiner-saaten-sandwichtoast|380",
+    "bn": "goldhren",
+    "wg": 380
+  },
+  {
     "n": "Gutes Vom Bäcker Nuss-Rosinen-Schwarzbrot 250 G",
     "p": "1.99",
     "o": "",
@@ -3315,30 +3328,17 @@
     "wg": 420
   },
   {
-    "n": "Goldähren Klassich Kleiner Sandwichtoast Saaten-Harmonie 375 G",
+    "n": "Goldähren Toastbrötchen 335 g, Weizen",
     "p": "0.99",
     "o": "",
-    "s": "380 ml",
+    "s": "340 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-klassich-kleiner-sandwichtoast-saaten-harmonie-375-g-000000000000186872",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-weizen-000000000188405001",
     "c": "Other",
-    "cn": "goldhren gold harmonie hren klassich kleiner saaten sandwichtoast",
-    "ik": "tok:goldhren|gold-harmonie-hren-klassich-kleiner-saaten-sandwichtoast|380",
+    "cn": "goldhren gold hren tchen toastbr weizen",
+    "ik": "tok:goldhren|gold-hren-tchen-toastbr-weizen|340",
     "bn": "goldhren",
-    "wg": 380
-  },
-  {
-    "n": "Asia Green Garden Naan Brot 260 g, Knoblauch / Koriander",
-    "p": "0.99",
-    "o": "",
-    "s": "260 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/asia-green-garden-naan-brot-260-g-knoblauch-koriander-000000000186887003",
-    "c": "Other",
-    "cn": "asia brot garden green knoblauch koriander naan",
-    "ik": "tok:asia|brot-garden-green-knoblauch-koriander-naan|260",
-    "bn": "asia",
-    "wg": 260
+    "wg": 340
   },
   {
     "n": "Golden Toast Sandwich 750 g, Weizen",
@@ -3365,19 +3365,6 @@
     "ik": "tok:golden|rnerharmonie-sandwich-toast|750",
     "bn": "golden",
     "wg": 750
-  },
-  {
-    "n": "Goldähren Toastbrötchen 335 g, Weizen",
-    "p": "0.99",
-    "o": "",
-    "s": "340 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-weizen-000000000188405001",
-    "c": "Other",
-    "cn": "goldhren gold hren tchen toastbr weizen",
-    "ik": "tok:goldhren|gold-hren-tchen-toastbr-weizen|340",
-    "bn": "goldhren",
-    "wg": 340
   },
   {
     "n": "Goldähren Toastbrötchen 335 g, Mehrkorn",
@@ -5589,6 +5576,19 @@
     "wg": 200
   },
   {
+    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Creme Fraiche",
+    "p": "2.49",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-creme-fraiche-000000000203651001",
+    "c": "Other",
+    "cn": "wonnemeyer creme fraiche kartoffelsalat salatschale",
+    "ik": "tok:wonnemeyer|creme-fraiche-kartoffelsalat-salatschale|1000",
+    "bn": "wonnemeyer",
+    "wg": 1000
+  },
+  {
     "n": "Almare Thunfischsalate 160 g, Linsen",
     "p": "1.39",
     "o": "",
@@ -5639,19 +5639,6 @@
     "ik": "tok:almare|couscous-thunfischsalate|160",
     "bn": "almare",
     "wg": 160
-  },
-  {
-    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Creme Fraiche",
-    "p": "2.49",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-creme-fraiche-000000000203651001",
-    "c": "Other",
-    "cn": "wonnemeyer creme fraiche kartoffelsalat salatschale",
-    "ik": "tok:wonnemeyer|creme-fraiche-kartoffelsalat-salatschale|1000",
-    "bn": "wonnemeyer",
-    "wg": 1000
   },
   {
     "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Mit Essig-Öl",
@@ -7070,6 +7057,19 @@
     "wg": 400
   },
   {
+    "n": "Bio Bio-Hackfleisch, Gemischt 400 G",
+    "p": "5.79",
+    "o": "",
+    "s": "400 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bio-bio-hackfleisch-gemischt-400-g-000000000000754860",
+    "c": "Other",
+    "cn": "bio gemischt hackfleisch",
+    "ik": "tok:bio|gemischt-hackfleisch|400",
+    "bn": "bio",
+    "wg": 400
+  },
+  {
     "n": "Bio Bio-Hackfleisch Vom Rind 400 G",
     "p": "6.29",
     "o": "",
@@ -7239,19 +7239,6 @@
     "wg": 500
   },
   {
-    "n": "Meine Metzgerei Schweine-Hackfleisch 500 G",
-    "p": "2.49",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-schweine-hackfleisch-500-g-000000000000757441",
-    "c": "Other",
-    "cn": "meine hackfleisch metzgerei schweine",
-    "ik": "tok:meine|hackfleisch-metzgerei-schweine|1000",
-    "bn": "meine",
-    "wg": 1000
-  },
-  {
     "n": "Bio Bio-Hackfleisch Rind 800 G",
     "p": "11.49",
     "o": "",
@@ -7276,58 +7263,6 @@
     "ik": "tok:fair&gut|hackfleisch-rinder|1000",
     "bn": "fair&gut",
     "wg": 1000
-  },
-  {
-    "n": "Aufschnitt-Spezialitäten 200 g, Putenbrust",
-    "p": "2.39",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-aufschnitt-spezialitaeten-200-g-putenbrust-000000000642894003",
-    "c": "Other",
-    "cn": "aufschnittspezialitten aufschnitt putenbrust spezialit ten",
-    "ik": "tok:aufschnittspezialitten|aufschnitt-putenbrust-spezialit-ten|200",
-    "bn": "aufschnittspezialitten",
-    "wg": 200
-  },
-  {
-    "n": "Gut Drei Eichen Schwarzwälder Schinken 200 G",
-    "p": "1.99",
-    "o": "",
-    "s": "200 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-schwarzwaelder-schinken-200-g-000000000000202720",
-    "c": "Other",
-    "cn": "gut drei eichen lder schinken schwarzw",
-    "ik": "tok:gut|drei-eichen-lder-schinken-schwarzw|200",
-    "bn": "gut",
-    "wg": 200
-  },
-  {
-    "n": "Güldenhof Herzhafte Geflügelspezialität 130 G",
-    "p": "1.49",
-    "o": "",
-    "s": "130 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gueldenhof-herzhafte-gefluegelspezialitaet-130-g-000000000202481001",
-    "c": "Other",
-    "cn": "gldenhof gefl gelspezialit herzhafte ldenhof",
-    "ik": "tok:gldenhof|gefl-gelspezialit-herzhafte-ldenhof|130",
-    "bn": "gldenhof",
-    "wg": 130
-  },
-  {
-    "n": "Gut Drei Eichen Herzhafte Rindfleischsalami 100 G",
-    "p": "1.49",
-    "o": "",
-    "s": "100 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-herzhafte-rindfleischsalami-100-g-000000000202481002",
-    "c": "Other",
-    "cn": "gut drei eichen herzhafte rindfleischsalami",
-    "ik": "tok:gut|drei-eichen-herzhafte-rindfleischsalami|100",
-    "bn": "gut",
-    "wg": 100
   },
   {
     "n": "Gut Drei Eichen Wurstsortiment 350 g, Gelbwurst",
@@ -7382,6 +7317,58 @@
     "wg": 350
   },
   {
+    "n": "Aufschnitt-Spezialitäten 200 g, Putenbrust",
+    "p": "2.39",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/no-brand-aufschnitt-spezialitaeten-200-g-putenbrust-000000000642894003",
+    "c": "Other",
+    "cn": "aufschnittspezialitten aufschnitt putenbrust spezialit ten",
+    "ik": "tok:aufschnittspezialitten|aufschnitt-putenbrust-spezialit-ten|200",
+    "bn": "aufschnittspezialitten",
+    "wg": 200
+  },
+  {
+    "n": "Gut Drei Eichen Schwarzwälder Schinken 200 G",
+    "p": "1.99",
+    "o": "",
+    "s": "200 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-schwarzwaelder-schinken-200-g-000000000000202720",
+    "c": "Other",
+    "cn": "gut drei eichen lder schinken schwarzw",
+    "ik": "tok:gut|drei-eichen-lder-schinken-schwarzw|200",
+    "bn": "gut",
+    "wg": 200
+  },
+  {
+    "n": "Güldenhof Herzhafte Geflügelspezialität 130 G",
+    "p": "1.49",
+    "o": "",
+    "s": "130 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gueldenhof-herzhafte-gefluegelspezialitaet-130-g-000000000202481001",
+    "c": "Other",
+    "cn": "gldenhof gefl gelspezialit herzhafte ldenhof",
+    "ik": "tok:gldenhof|gefl-gelspezialit-herzhafte-ldenhof|130",
+    "bn": "gldenhof",
+    "wg": 130
+  },
+  {
+    "n": "Gut Drei Eichen Herzhafte Rindfleischsalami 100 G",
+    "p": "1.49",
+    "o": "",
+    "s": "100 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gut-drei-eichen-herzhafte-rindfleischsalami-100-g-000000000202481002",
+    "c": "Other",
+    "cn": "gut drei eichen herzhafte rindfleischsalami",
+    "ik": "tok:gut|drei-eichen-herzhafte-rindfleischsalami|100",
+    "bn": "gut",
+    "wg": 100
+  },
+  {
     "n": "Gut Drei Eichen Dauerwurst-Aufschnitt 200 g, Cervelatwurst",
     "p": "1.69",
     "o": "",
@@ -7404,6 +7391,19 @@
     "c": "Other",
     "cn": "meine blutwurst hausmacher metzgerei wurst",
     "ik": "tok:meine|blutwurst-hausmacher-metzgerei-wurst|150",
+    "bn": "meine",
+    "wg": 150
+  },
+  {
+    "n": "Meine Metzgerei Hausmacher Wurst 150 g, Leberwurst Fein",
+    "p": "1.99",
+    "o": "",
+    "s": "150 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hausmacher-wurst-150-g-leberwurst-fein-000000000203125002",
+    "c": "Other",
+    "cn": "meine fein hausmacher leberwurst metzgerei wurst",
+    "ik": "tok:meine|fein-hausmacher-leberwurst-metzgerei-wurst|150",
     "bn": "meine",
     "wg": 150
   },
@@ -7447,19 +7447,6 @@
     "wg": 300
   },
   {
-    "n": "Meine Metzgerei Hausmacher Wurst 150 g, Leberwurst Fein",
-    "p": "1.99",
-    "o": "",
-    "s": "150 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-metzgerei-hausmacher-wurst-150-g-leberwurst-fein-000000000203125002",
-    "c": "Other",
-    "cn": "meine fein hausmacher leberwurst metzgerei wurst",
-    "ik": "tok:meine|fein-hausmacher-leberwurst-metzgerei-wurst|150",
-    "bn": "meine",
-    "wg": 150
-  },
-  {
     "n": "Gut Drei Eichen Wurstsortiment 350 g, Lyoner",
     "p": "2.79",
     "o": "",
@@ -7499,7 +7486,7 @@
     "wg": 500
   },
   {
-    "n": "Bio Bio Grobe Bratwurst 240 G",
+    "n": "Bio Bio-Grobe Bratwurst 240 G",
     "p": "2.79",
     "o": "",
     "s": "240 ml",
@@ -8448,97 +8435,6 @@
     "wg": 170
   },
   {
-    "n": "Cucina Tortelloni 250 g, Prosciutto",
-    "p": "0.99",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-tortelloni-250-g-prosciutto-000000000635994001",
-    "c": "Other",
-    "cn": "cucina prosciutto tortelloni",
-    "ik": "tok:cucina|prosciutto-tortelloni|250",
-    "bn": "cucina",
-    "wg": 250
-  },
-  {
-    "n": "Cucina Tortelloni 250 g, Ricotta Spinat",
-    "p": "0.99",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-tortelloni-250-g-ricotta-spinat-000000000635994002",
-    "c": "Other",
-    "cn": "cucina ricotta spinat tortelloni",
-    "ik": "tok:cucina|ricotta-spinat-tortelloni|250",
-    "bn": "cucina",
-    "wg": 250
-  },
-  {
-    "n": "Cucina Gnocchi 500 G",
-    "p": "0.99",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-gnocchi-500-g-000000000635994003",
-    "c": "Other",
-    "cn": "cucina gnocchi",
-    "ik": "tok:cucina|gnocchi|500",
-    "bn": "cucina",
-    "wg": 500
-  },
-  {
-    "n": "Nur Nur Natur Bio-Dinkel-Spaghetti 500 G",
-    "p": "1.45",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-dinkel-spaghetti-500-g-000000000000486241",
-    "c": "Other",
-    "cn": "nur bio dinkel natur spaghetti",
-    "ik": "tok:nur|bio-dinkel-natur-spaghetti|500",
-    "bn": "nur",
-    "wg": 500
-  },
-  {
-    "n": "Cucina Nobile Tagliatelle 500 G",
-    "p": "1.29",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-nobile-tagliatelle-500-g-000000000000540873",
-    "c": "Other",
-    "cn": "cucina nobile tagliatelle",
-    "ik": "tok:cucina|nobile-tagliatelle|500",
-    "bn": "cucina",
-    "wg": 500
-  },
-  {
-    "n": "Cucina Penne 500 G",
-    "p": "0.69",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-penne-500-g-000000000000630863",
-    "c": "Other",
-    "cn": "cucina penne",
-    "ik": "tok:cucina|penne|500",
-    "bn": "cucina",
-    "wg": 500
-  },
-  {
-    "n": "Cucina Spaghetti 500 G",
-    "p": "0.69",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-spaghetti-500-g-000000000000631119",
-    "c": "Other",
-    "cn": "cucina spaghetti",
-    "ik": "tok:cucina|spaghetti|500",
-    "bn": "cucina",
-    "wg": 500
-  },
-  {
     "n": "Landfreude Bandnudeln 500 G",
     "p": "1.19",
     "o": "",
@@ -8604,41 +8500,41 @@
     "wg": 250
   },
   {
-    "n": "Cucina Lasagneblätter 500 G",
-    "p": "1.19",
+    "n": "Cucina Tortelloni 250 g, Prosciutto",
+    "p": "0.99",
     "o": "",
-    "s": "500 ml",
+    "s": "250 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-lasagneblaetter-500-g-000000000000635511",
+    "i": "https://www.aldi-sued.de/produkt/cucina-tortelloni-250-g-prosciutto-000000000635994001",
     "c": "Other",
-    "cn": "cucina lasagnebl tter",
-    "ik": "tok:cucina|lasagnebl-tter|500",
+    "cn": "cucina prosciutto tortelloni",
+    "ik": "tok:cucina|prosciutto-tortelloni|250",
     "bn": "cucina",
-    "wg": 500
+    "wg": 250
   },
   {
-    "n": "Cucina Fusilli 500 G",
-    "p": "0.69",
+    "n": "Cucina Tortelloni 250 g, Ricotta Spinat",
+    "p": "0.99",
     "o": "",
-    "s": "500 ml",
+    "s": "250 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-fusilli-500-g-000000000000631120",
+    "i": "https://www.aldi-sued.de/produkt/cucina-tortelloni-250-g-ricotta-spinat-000000000635994002",
     "c": "Other",
-    "cn": "cucina fusilli",
-    "ik": "tok:cucina|fusilli|500",
+    "cn": "cucina ricotta spinat tortelloni",
+    "ik": "tok:cucina|ricotta-spinat-tortelloni|250",
     "bn": "cucina",
-    "wg": 500
+    "wg": 250
   },
   {
-    "n": "Cucina Farfalle 500 G",
-    "p": "0.69",
+    "n": "Cucina Gnocchi 500 G",
+    "p": "0.99",
     "o": "",
     "s": "500 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/cucina-farfalle-500-g-000000000000631900",
+    "i": "https://www.aldi-sued.de/produkt/cucina-gnocchi-500-g-000000000635994003",
     "c": "Other",
-    "cn": "cucina farfalle",
-    "ik": "tok:cucina|farfalle|500",
+    "cn": "cucina gnocchi",
+    "ik": "tok:cucina|gnocchi|500",
     "bn": "cucina",
     "wg": 500
   },
@@ -8679,6 +8575,110 @@
     "cn": "landfreude frischei muscheln nudeln",
     "ik": "tok:landfreude|frischei-muscheln-nudeln|500",
     "bn": "landfreude",
+    "wg": 500
+  },
+  {
+    "n": "Nur Nur Natur Bio-Dinkel-Spaghetti 500 G",
+    "p": "1.45",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/nur-nur-natur-bio-dinkel-spaghetti-500-g-000000000000486241",
+    "c": "Other",
+    "cn": "nur bio dinkel natur spaghetti",
+    "ik": "tok:nur|bio-dinkel-natur-spaghetti|500",
+    "bn": "nur",
+    "wg": 500
+  },
+  {
+    "n": "Cucina Nobile Tagliatelle 500 G",
+    "p": "1.29",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-nobile-tagliatelle-500-g-000000000000540873",
+    "c": "Other",
+    "cn": "cucina nobile tagliatelle",
+    "ik": "tok:cucina|nobile-tagliatelle|500",
+    "bn": "cucina",
+    "wg": 500
+  },
+  {
+    "n": "Cucina Penne 500 G",
+    "p": "0.69",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-penne-500-g-000000000000630863",
+    "c": "Other",
+    "cn": "cucina penne",
+    "ik": "tok:cucina|penne|500",
+    "bn": "cucina",
+    "wg": 500
+  },
+  {
+    "n": "Cucina Spaghetti 500 G",
+    "p": "0.69",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-spaghetti-500-g-000000000000631119",
+    "c": "Other",
+    "cn": "cucina spaghetti",
+    "ik": "tok:cucina|spaghetti|500",
+    "bn": "cucina",
+    "wg": 500
+  },
+  {
+    "n": "Bio Bio-Teigwaren 500 g, Gewalzte Bandnudeln",
+    "p": "1.45",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bio-bio-teigwaren-500-g-gewalzte-bandnudeln-000000000632575002",
+    "c": "Other",
+    "cn": "bio bandnudeln gewalzte teigwaren",
+    "ik": "tok:bio|bandnudeln-gewalzte-teigwaren|500",
+    "bn": "bio",
+    "wg": 500
+  },
+  {
+    "n": "Cucina Lasagneblätter 500 G",
+    "p": "1.19",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-lasagneblaetter-500-g-000000000000635511",
+    "c": "Other",
+    "cn": "cucina lasagnebl tter",
+    "ik": "tok:cucina|lasagnebl-tter|500",
+    "bn": "cucina",
+    "wg": 500
+  },
+  {
+    "n": "Cucina Fusilli 500 G",
+    "p": "0.69",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-fusilli-500-g-000000000000631120",
+    "c": "Other",
+    "cn": "cucina fusilli",
+    "ik": "tok:cucina|fusilli|500",
+    "bn": "cucina",
+    "wg": 500
+  },
+  {
+    "n": "Cucina Farfalle 500 G",
+    "p": "0.69",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/cucina-farfalle-500-g-000000000000631900",
+    "c": "Other",
+    "cn": "cucina farfalle",
+    "ik": "tok:cucina|farfalle|500",
+    "bn": "cucina",
     "wg": 500
   },
   {
@@ -8732,19 +8732,6 @@
     "ik": "tok:cucina|frische-nobile-pasta-se-spezialit-ten|400",
     "bn": "cucina",
     "wg": 400
-  },
-  {
-    "n": "Bio Bio-Teigwaren 500 g, Gewalzte Bandnudeln",
-    "p": "1.45",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bio-bio-teigwaren-500-g-gewalzte-bandnudeln-000000000632575002",
-    "c": "Other",
-    "cn": "bio bandnudeln gewalzte teigwaren",
-    "ik": "tok:bio|bandnudeln-gewalzte-teigwaren|500",
-    "bn": "bio",
-    "wg": 500
   },
   {
     "n": "Bio Bio-Vollkorn Farfalle 500 G",
@@ -8942,6 +8929,19 @@
     "wg": 220
   },
   {
+    "n": "BON-RI Jasmin Reis 1 Kg",
+    "p": "1.99",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bon-ri-jasmin-reis-1-kg-000000000000199292",
+    "c": "Other",
+    "cn": "bonri bon jasmin reis ri",
+    "ik": "tok:bonri|bon-jasmin-reis-ri|1000",
+    "bn": "bonri",
+    "wg": 1000
+  },
+  {
     "n": "BON-RI Kochbeutel Reis 500 G",
     "p": "0.79",
     "o": "",
@@ -8955,17 +8955,17 @@
     "wg": 500
   },
   {
-    "n": "BON-RI Jasmin Reis 1 Kg",
-    "p": "1.99",
+    "n": "Asia Green Garden Reispapier 250 G",
+    "p": "1.49",
     "o": "",
-    "s": "1 l",
+    "s": "250 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bon-ri-jasmin-reis-1-kg-000000000000199292",
+    "i": "https://www.aldi-sued.de/produkt/asia-green-garden-reispapier-250-g-000000000000501611",
     "c": "Other",
-    "cn": "bonri bon jasmin reis ri",
-    "ik": "tok:bonri|bon-jasmin-reis-ri|1000",
-    "bn": "bonri",
-    "wg": 1000
+    "cn": "asia garden green reispapier",
+    "ik": "tok:asia|garden-green-reispapier|250",
+    "bn": "asia",
+    "wg": 250
   },
   {
     "n": "BEN'S Original Expressreis 220 g, Basmati",
@@ -8994,32 +8994,6 @@
     "wg": 220
   },
   {
-    "n": "BEN'S Original Expressreis 220 g, Griechisch-Djuvec",
-    "p": "2.29",
-    "o": "",
-    "s": "220 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/ben-s-original-expressreis-220-g-griechisch-djuvec-000000000281508017",
-    "c": "Other",
-    "cn": "ben djuvec expressreis griechisch original",
-    "ik": "tok:ben|djuvec-expressreis-griechisch-original|220",
-    "bn": "ben",
-    "wg": 220
-  },
-  {
-    "n": "Asia Green Garden Reispapier 250 G",
-    "p": "1.49",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/asia-green-garden-reispapier-250-g-000000000000501611",
-    "c": "Other",
-    "cn": "asia garden green reispapier",
-    "ik": "tok:asia|garden-green-reispapier|250",
-    "bn": "asia",
-    "wg": 250
-  },
-  {
     "n": "DR. Oetker Seelenwärmer 63 g, Reis Pudding",
     "p": "0.69",
     "o": "",
@@ -9031,6 +9005,19 @@
     "ik": "tok:oetker|dr-pudding-reis-rmer-seelenw|60",
     "bn": "oetker",
     "wg": 60
+  },
+  {
+    "n": "BEN'S Original Expressreis 220 g, Griechisch-Djuvec",
+    "p": "2.29",
+    "o": "",
+    "s": "220 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/ben-s-original-expressreis-220-g-griechisch-djuvec-000000000281508017",
+    "c": "Other",
+    "cn": "ben djuvec expressreis griechisch original",
+    "ik": "tok:ben|djuvec-expressreis-griechisch-original|220",
+    "bn": "ben",
+    "wg": 220
   },
   {
     "n": "Crofton Mikrowellen-Kochgeschirr, Reiskocher, Grün",
@@ -10528,19 +10515,6 @@
     "wg": 250
   },
   {
-    "n": "Delikato Curry Gewürzketchup 875 ml, Fein Gewürzt",
-    "p": "1.99",
-    "o": "",
-    "s": "880 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/delikato-curry-gewuerzketchup-875-ml-fein-gewuerzt-000000000193923001",
-    "c": "Other",
-    "cn": "delikato curry fein gew rzketchup rzt",
-    "ik": "tok:delikato|curry-fein-gew-rzketchup-rzt|880",
-    "bn": "delikato",
-    "wg": 880
-  },
-  {
     "n": "Hela Gewürzketchup 800 ml, Delikat",
     "p": "3.39",
     "o": "",
@@ -10552,6 +10526,19 @@
     "ik": "tok:hela|delikat-gew-rzketchup|800",
     "bn": "hela",
     "wg": 800
+  },
+  {
+    "n": "Delikato Curry Gewürzketchup 875 ml, Fein Gewürzt",
+    "p": "1.99",
+    "o": "",
+    "s": "880 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/delikato-curry-gewuerzketchup-875-ml-fein-gewuerzt-000000000193923001",
+    "c": "Other",
+    "cn": "delikato curry fein gew rzketchup rzt",
+    "ik": "tok:delikato|curry-fein-gew-rzketchup-rzt|880",
+    "bn": "delikato",
+    "wg": 880
   },
   {
     "n": "Hela Gewürzketchup 800 ml, Leicht Scharf",
@@ -12424,19 +12411,6 @@
     "ik": "tok:veltins|remix|330",
     "bn": "veltins",
     "wg": 330
-  },
-  {
-    "n": "Mini Wassermelone, Lose",
-    "p": "1.49",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/no-brand-mini-wassermelone-lose-000000000000229919",
-    "c": "Other",
-    "cn": "mini lose wassermelone",
-    "ik": "tok:mini|lose-wassermelone|1",
-    "bn": "mini",
-    "wg": 1
   },
   {
     "n": "Wassermelone kernarm, Lose",

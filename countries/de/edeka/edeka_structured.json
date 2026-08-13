@@ -559,6 +559,19 @@
     "wg": 45
   },
   {
+    "n": "Ferrero Duplo Vanilla Ice Cream 10ST 182G",
+    "p": "3.49",
+    "o": "",
+    "s": "182 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ferrero_duplo_vanilla_ice_cream_10st_182g.jpg",
+    "i": "https://www.edeka24.de/Ferrero-Duplo-Vanilla-Ice-Cream-10ST-182G.html?listtype=search&searchparam=Vollmilch",
+    "c": "Other",
+    "cn": "ferrero cream duplo ice vanilla",
+    "ik": "tok:ferrero|cream-duplo-ice-vanilla|182",
+    "bn": "ferrero",
+    "wg": 182
+  },
+  {
     "n": "Edeka Chocolate Cream Cookies 210G",
     "p": "2.49",
     "o": "",
@@ -676,19 +689,6 @@
     "wg": 200
   },
   {
-    "n": "Corny Nussvoll Erdnuss & Vollmilch 4ST 96G",
-    "p": "2.49",
-    "o": "",
-    "s": "96 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/corny_nussvoll_erdnuss_amp_vollmilch_4x24g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Corny-Nussvoll-Erdnuss-Vollmilch-4ST-96G.html?listtype=search&searchparam=Vollmilch",
-    "c": "Other",
-    "cn": "corny erdnuss nussvoll vollmilch",
-    "ik": "tok:corny|erdnuss-nussvoll-vollmilch|96",
-    "bn": "corny",
-    "wg": 96
-  },
-  {
     "n": "Unsere Heimat H-Milch 1,5% 1L",
     "p": "1.59",
     "o": "",
@@ -699,6 +699,19 @@
     "cn": "unsere heimat milch",
     "ik": "tok:unsere|heimat-milch|1000",
     "bn": "unsere",
+    "wg": 1000
+  },
+  {
+    "n": "Minus L Fettarme Haltbare Milch 1,5% Laktosefrei 1L - beschädigt/verschmutzt",
+    "p": "1.10",
+    "o": "",
+    "s": "1 l",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/minus_l_fettarme_haltbare_milch_15_laktosefrei.jpg",
+    "i": "https://www.edeka24.de/Minus-L-fettarme-haltbare-Milch-1-5-laktosefrei-1L-beschaedigt-verschmutzt.html?listtype=search&searchparam=H-Milch",
+    "c": "Other",
+    "cn": "minus besch digt fettarme haltbare laktosefrei milch verschmutzt",
+    "ik": "tok:minus|besch-digt-fettarme-haltbare-laktosefrei-milch-verschmutzt|1000",
+    "bn": "minus",
     "wg": 1000
   },
   {
@@ -751,6 +764,19 @@
     "cn": "edeka bio fettarme milch",
     "ik": "tok:edeka|bio-fettarme-milch|1000",
     "bn": "edeka",
+    "wg": 1000
+  },
+  {
+    "n": "Weihenstephan Haltbare Milch 1,5% 1L- Verpackung verschmutzt/beschädigt",
+    "p": "0.90",
+    "o": "",
+    "s": "1 l",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/weihmilch15.jpg",
+    "i": "https://www.edeka24.de/Weihenstephan-haltbare-Milch-1-5-1L-Verpackung-verschmutzt-beschaedigt.html?listtype=search&searchparam=H-Milch",
+    "c": "Other",
+    "cn": "weihenstephan besch digt haltbare milch verpackung verschmutzt",
+    "ik": "tok:weihenstephan|besch-digt-haltbare-milch-verpackung-verschmutzt|1000",
+    "bn": "weihenstephan",
     "wg": 1000
   },
   {
@@ -1507,6 +1533,19 @@
     "wg": 200
   },
   {
+    "n": "Leimer Eierstich 100G",
+    "p": "1.69",
+    "o": "",
+    "s": "100 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/leieierstich_100g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Wuerzmittel-Bruehen/Suppeneinlagen/Leimer-Eierstich-100G.html?listtype=search&searchparam=Eier",
+    "c": "Other",
+    "cn": "leimer eierstich",
+    "ik": "tok:leimer|eierstich|100",
+    "bn": "leimer",
+    "wg": 100
+  },
+  {
     "n": "Maggi Fix Mac & Cheese 33G",
     "p": "1.09",
     "o": "",
@@ -1780,7 +1819,7 @@
   },
   {
     "n": "Edeka Herzstücke Pesto Rosso 190G",
-    "p": "1.99",
+    "p": "2.29",
     "o": "",
     "s": "190 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_pesto_rosso_190g(1).jpg",
@@ -3662,6 +3701,19 @@
     "wg": 450
   },
   {
+    "n": "Hipp Bio Hippis Erdbeere-Banane In Apfel 100G - Mhd 22.08.2026",
+    "p": "0.60",
+    "o": "",
+    "s": "100 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/hippiserdbanapf.jpg",
+    "i": "https://www.edeka24.de/Hipp-Bio-Hippis-Erdbeere-Banane-in-Apfel-100G-MHD-22-08-2026.html?listtype=search&searchparam=Banane",
+    "c": "Other",
+    "cn": "hipp 08 2026 22 apfel banane bio erdbeere hippis in mhd",
+    "ik": "tok:hipp|08-2026-22-apfel-banane-bio-erdbeere-hippis-in-mhd|100",
+    "bn": "hipp",
+    "wg": 100
+  },
+  {
     "n": "Alnatura Bio Bananen Chips 150G",
     "p": "1.89",
     "o": "",
@@ -4672,7 +4724,7 @@
   },
   {
     "n": "Alnatura Bio Karottensaft Feldfrisch Verarbeitet 0,33L",
-    "p": "1.39",
+    "p": "1.49",
     "o": "",
     "s": "330 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/alnatura_bio_karottensaft_feldfrisch_verarbeitet_033_ltr.jpg",
@@ -5464,6 +5516,19 @@
     "wg": 220
   },
   {
+    "n": "Ültje Linsen Crackets Paprika 110G",
+    "p": "2.79",
+    "o": "",
+    "s": "110 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ltje_linsen_crackets_paprika_110g.jpg",
+    "i": "https://www.edeka24.de/Ueltje-Linsen-Crackets-Paprika-110G-oxid.html?listtype=search&searchparam=Paprika",
+    "c": "Other",
+    "cn": "linsen crackets ltje paprika",
+    "ik": "tok:linsen|crackets-ltje-paprika|110",
+    "bn": "linsen",
+    "wg": 110
+  },
+  {
     "n": "Alnatura Bio Mais Chips Paprika 125G",
     "p": "1.79",
     "o": "",
@@ -5579,19 +5644,6 @@
     "ik": "tok:thomy|les-paprika-sauces-tomaten|250",
     "bn": "thomy",
     "wg": 250
-  },
-  {
-    "n": "Maggi Fix Airfryer Knusper Hähnchen Paprika & Knoblauch 39G",
-    "p": "1.09",
-    "o": "",
-    "s": "39 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_fix_airfryer_knusper_hhnchen_paprika_amp_knoblauch_39g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Sossen/Maggi-Fix-Airfryer-Knusper-Haehnchen-Paprika-Knoblauch-39G.html?listtype=search&searchparam=Paprika",
-    "c": "Other",
-    "cn": "maggi airfryer fix hnchen knoblauch knusper paprika",
-    "ik": "tok:maggi|airfryer-fix-hnchen-knoblauch-knusper-paprika|39",
-    "bn": "maggi",
-    "wg": 39
   },
   {
     "n": "Mein T Zitronen T Zero 0,5L",
@@ -6413,6 +6465,19 @@
     "wg": 27
   },
   {
+    "n": "Maggi Fix Airfryer Knusper Hähnchen Paprika & Knoblauch 39G",
+    "p": "1.09",
+    "o": "",
+    "s": "39 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_fix_airfryer_knusper_hhnchen_paprika_amp_knoblauch_39g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Sossen/Maggi-Fix-Airfryer-Knusper-Haehnchen-Paprika-Knoblauch-39G.html?listtype=search&searchparam=H%C3%A4hnchen",
+    "c": "Other",
+    "cn": "maggi airfryer fix hnchen knoblauch knusper paprika",
+    "ik": "tok:maggi|airfryer-fix-hnchen-knoblauch-knusper-paprika|39",
+    "bn": "maggi",
+    "wg": 39
+  },
+  {
     "n": "Just Spices Hähnchen Gewürz Standard 79G",
     "p": "4.99",
     "o": "",
@@ -7217,19 +7282,6 @@
     "ik": "tok:buerliche|bierschinken-bio-bisch-demeter-ezg-hall-schw-uerliche|200",
     "bn": "buerliche",
     "wg": 200
-  },
-  {
-    "n": "Schwarzwaldhof Schwarzwälder Schinken 150G - Mhd 28.08.2026",
-    "p": "2.20",
-    "o": "",
-    "s": "150 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/schwwhof_schinkvespsch150g.jpg",
-    "i": "https://www.edeka24.de/Schwarzwaldhof-Schwarzwaelder-Schinken-150G-MHD-28-08-2026.html?listtype=search&searchparam=Schinken",
-    "c": "Other",
-    "cn": "schwarzwaldhof 08 2026 28 lder mhd schinken schwarzw",
-    "ik": "tok:schwarzwaldhof|08-2026-28-lder-mhd-schinken-schwarzw|150",
-    "bn": "schwarzwaldhof",
-    "wg": 150
   },
   {
     "n": "Maggi Blumenkohl-Kartoffel-Gratin 51G",
@@ -9063,6 +9115,19 @@
     "wg": 300
   },
   {
+    "n": "Gut & Günstig Sauerkirschen Leicht Gezuckert 680G - Verschmutztes Etikett",
+    "p": "2.20",
+    "o": "",
+    "s": "680 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/gutampgnstig_sauerkirschen_leicht_gezuckert_680g.jpg",
+    "i": "https://www.edeka24.de/Gut-Guenstig-Sauerkirschen-leicht-gezuckert-680G-verschmutztes-Etikett.html?listtype=search&searchparam=Zucker",
+    "c": "Other",
+    "cn": "gut etikett gezuckert leicht nstig sauerkirschen verschmutztes",
+    "ik": "tok:gut|etikett-gezuckert-leicht-nstig-sauerkirschen-verschmutztes|680",
+    "bn": "gut",
+    "wg": 680
+  },
+  {
     "n": "Monster Energydrink Ultra Paradise Zero Zucker 0,5L Dose",
     "p": "1.59",
     "o": "",
@@ -9362,19 +9427,6 @@
     "wg": 200
   },
   {
-    "n": "Coppenrath Café Kränze 250G",
-    "p": "2.49",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/copcafkr.jpg",
-    "i": "https://www.edeka24.de/Coppenrath-Caf-Kraenze-250G.html?listtype=search&searchparam=Zucker",
-    "c": "Other",
-    "cn": "coppenrath caf kr nze",
-    "ik": "tok:coppenrath|caf-kr-nze|250",
-    "bn": "coppenrath",
-    "wg": 250
-  },
-  {
     "n": "Farmer's Snack Nuss Röst Mix 150G",
     "p": "3.59",
     "o": "",
@@ -9477,19 +9529,6 @@
     "ik": "tok:nature|caramel-nut-protein-riegel-salted-valley|160",
     "bn": "nature",
     "wg": 160
-  },
-  {
-    "n": "Koro Bio Energy Ball Salted Pistachio 30G - Mhd 08.2026",
-    "p": "1.00",
-    "o": "",
-    "s": "30 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/koro_bio_energy_ball_salted_pistachio_30g.jpg",
-    "i": "https://www.edeka24.de/KoRo-Bio-Energy-Ball-Salted-Pistachio-30G-MHD-08-2026.html?listtype=search&searchparam=Salz",
-    "c": "Other",
-    "cn": "koro 08 2026 ball bio energy mhd pistachio salted",
-    "ik": "tok:koro|08-2026-ball-bio-energy-mhd-pistachio-salted|30",
-    "bn": "koro",
-    "wg": 30
   },
   {
     "n": "Bad Reichenhaller Pommes Salz 90G",
@@ -10400,19 +10439,6 @@
     "wg": 120
   },
   {
-    "n": "Bertolli Sonne Mit Olive 0,75L- verschmutzt/beschädigt",
-    "p": "3.50",
-    "o": "",
-    "s": "750 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bertolli_sonne_mit_olive_075l.jpg",
-    "i": "https://www.edeka24.de/Bertolli-Sonne-mit-Olive-0-75L-verschmutzt-beschaedigt.html?listtype=search&searchparam=Oliven%C3%B6l",
-    "c": "Other",
-    "cn": "bertolli besch digt mit olive sonne verschmutzt",
-    "ik": "tok:bertolli|besch-digt-mit-olive-sonne-verschmutzt|750",
-    "bn": "bertolli",
-    "wg": 750
-  },
-  {
     "n": "Bertolli Bratolivenöl Spray 200ML",
     "p": "4.99",
     "o": "",
@@ -10621,19 +10647,6 @@
     "wg": 185
   },
   {
-    "n": "Elkos Baby Glück Sensitiv Feuchttücher 30ST",
-    "p": "1.19",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_elkos_baby_glck_babytcher_sensitive_30st.jpg",
-    "i": "https://www.edeka24.de/Drogerie/Baby-Kleinkind/Pflegen-Waschen-Reinigen/elkos-Baby-Glueck-Sensitiv-Feuchttuecher-30ST.html?listtype=search&searchparam=Oliven%C3%B6l",
-    "c": "Personal Care",
-    "cn": "baby cher ck elkos feuchtt gl sensitiv",
-    "ik": "tok:baby|cher-ck-elkos-feuchtt-gl-sensitiv|1",
-    "bn": "baby",
-    "wg": 1
-  },
-  {
     "n": "Bertolli Originale Natives Olivenöl Extra 1L",
     "p": "15.99",
     "o": "",
@@ -10671,6 +10684,32 @@
     "ik": "tok:saupiquet|in-oliven-thunfisch|185",
     "bn": "saupiquet",
     "wg": 185
+  },
+  {
+    "n": "Bertolli Bio Natives Olivenöl Extra 250ML",
+    "p": "6.49",
+    "o": "",
+    "s": "250 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bertolli_bio_natives_olivenl_extra_250ml.jpg",
+    "i": "https://www.edeka24.de/Bertolli-Bio-Natives-Olivenoel-Extra-250ML.html?listtype=search&searchparam=Oliven%C3%B6l",
+    "c": "Other",
+    "cn": "bertolli bio extra natives oliven",
+    "ik": "tok:bertolli|bio-extra-natives-oliven|250",
+    "bn": "bertolli",
+    "wg": 250
+  },
+  {
+    "n": "Edeka Herzstücke Ciabatta 300G",
+    "p": "1.59",
+    "o": "",
+    "s": "300 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_ciabatta_300g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Brot-Broetchen/EDEKA-Herzstuecke-Ciabatta-300G.html?listtype=search&searchparam=Oliven%C3%B6l",
+    "c": "Other",
+    "cn": "edeka ciabatta cke herzst",
+    "ik": "tok:edeka|ciabatta-cke-herzst|300",
+    "bn": "edeka",
+    "wg": 300
   },
   {
     "n": "Surig Hygreen Essig Reiniger 500ML",
@@ -12350,6 +12389,19 @@
     "wg": 450
   },
   {
+    "n": "Dr.Oetker Vitalis Knusper Müsli Cinnamon Roll 400G - Mhd 08.2026",
+    "p": "2.15",
+    "o": "",
+    "s": "400 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/droetker_vitalis_knusper_msli_cinnamon_roll_400g.jpg",
+    "i": "https://www.edeka24.de/Dr-Oetker-Vitalis-Knusper-Muesli-Cinnamon-Roll-400G-MHD-08-2026.html?listtype=search&searchparam=M%C3%BCsli",
+    "c": "Other",
+    "cn": "droetker 08 2026 cinnamon dr knusper mhd oetker roll sli vitalis",
+    "ik": "tok:droetker|08-2026-cinnamon-dr-knusper-mhd-oetker-roll-sli-vitalis|400",
+    "bn": "droetker",
+    "wg": 400
+  },
+  {
     "n": "Allos Bio Das Ungesüßte Beeren-Müsli 500G",
     "p": "4.69",
     "o": "",
@@ -12504,19 +12556,6 @@
     "ik": "tok:klln|das-hafer-lln-original-schoko-sli|1150",
     "bn": "klln",
     "wg": 1150
-  },
-  {
-    "n": "Dr.Oetker High Protein Müsli Schoko & Nuss 400G",
-    "p": "5.49",
-    "o": "",
-    "s": "400 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/droetker_high_protein_msli_schoko_amp_nuss_400g.jpg",
-    "i": "https://www.edeka24.de/Dr-Oetker-High-Protein-Muesli-Schoko-Nuss-400G.html?listtype=search&searchparam=M%C3%BCsli",
-    "c": "Other",
-    "cn": "droetker dr high nuss oetker protein schoko sli",
-    "ik": "tok:droetker|dr-high-nuss-oetker-protein-schoko-sli|400",
-    "bn": "droetker",
-    "wg": 400
   },
   {
     "n": "Alnatura Bio Hafer Porridge Kakao 500G",
@@ -12870,6 +12909,19 @@
     "wg": 500
   },
   {
+    "n": "Kölln Blütenzarte Köllnflocken 500G",
+    "p": "1.79",
+    "o": "",
+    "s": "500 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/kllnblzaflo.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Muesli-Cerealien/Koelln-Bluetenzarte-Koellnflocken-500G.html?listtype=search&searchparam=Haferflocken",
+    "c": "Other",
+    "cn": "klln bl lln llnflocken tenzarte",
+    "ik": "tok:klln|bl-lln-llnflocken-tenzarte|500",
+    "bn": "klln",
+    "wg": 500
+  },
+  {
     "n": "Chicco D'Oro Schümli Crema Ganze Bohnen1KG",
     "p": "20.99",
     "o": "",
@@ -13183,7 +13235,7 @@
   },
   {
     "n": "Dallmayr Home Barista Caffè Crema Forte Ganze Bohne 1KG",
-    "p": "19.99",
+    "p": "15.49",
     "o": "",
     "s": "1 l",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/dallmayr_home_barista_caffee_crema_forte_rainforest_alliance_identity_preserved_ganze_bohne_1kg.jpg",
@@ -15192,7 +15244,7 @@
   },
   {
     "n": "Doppio Passo Moscato Sicilia Doc 0,75L",
-    "p": "8.49",
+    "p": "6.49",
     "o": "",
     "s": "750 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/doppio_passo_moscato_sicilia_doc_075l.jpg",
@@ -15282,7 +15334,7 @@
   },
   {
     "n": "Doppio Passo Grillo Sicilia Doc 0,75L",
-    "p": "8.49",
+    "p": "6.49",
     "o": "",
     "s": "750 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/doppio_passo_grillo_sicilia_doc_075l.jpg",
@@ -15966,19 +16018,6 @@
     "ik": "tok:vernel|46wl-control-cool-fresh-ler-weichsp|1012",
     "bn": "vernel",
     "wg": 1012
-  },
-  {
-    "n": "Lenor Weichspüler Konzentrat Sensitiv 756ML 36WL",
-    "p": "2.79",
-    "o": "",
-    "s": "756 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/lenor_weichspler_konzentrat_sensitiv_756ml_36wl.jpg",
-    "i": "https://www.edeka24.de/Drogerie/Reinigen-Waschen/Lenor-Weichspueler-Konzentrat-Sensitiv-756ML-36WL.html?listtype=search&searchparam=Weichsp%C3%BCler",
-    "c": "Other",
-    "cn": "lenor 36wl konzentrat ler sensitiv weichsp",
-    "ik": "tok:lenor|36wl-konzentrat-ler-sensitiv-weichsp|756",
-    "bn": "lenor",
-    "wg": 756
   },
   {
     "n": "Softlan Ultra Weichspüler Bouquet Der Düfte 650ML 31WL",
