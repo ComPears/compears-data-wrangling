@@ -1196,19 +1196,6 @@
     "wg": 500
   },
   {
-    "n": "Edeka Herzstücke Tortellini Cinque Formaggi 250G",
-    "p": "1.59",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_tortellini_cinque_formaggi_250g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Beilagen/EDEKA-Herzstuecke-Tortellini-Cinque-Formaggi-250G.html?listtype=search&searchparam=Eier",
-    "c": "Other",
-    "cn": "edeka cinque cke formaggi herzst tortellini",
-    "ik": "tok:edeka|cinque-cke-formaggi-herzst-tortellini|250",
-    "bn": "edeka",
-    "wg": 250
-  },
-  {
     "n": "Kölln Crunchy Berry Hafer-Müsli 400G",
     "p": "3.89",
     "o": "",
@@ -1546,6 +1533,19 @@
     "wg": 100
   },
   {
+    "n": "Leimer Eier-Schöberl Suppeneinlage 50G",
+    "p": "1.69",
+    "o": "",
+    "s": "50 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/leimer_eierschberl_suppeneinlage_50_g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Beilagen/Leimer-Eier-Schoeberl-Suppeneinlage-50G.html?listtype=search&searchparam=Eier",
+    "c": "Other",
+    "cn": "leimer berl eier sch suppeneinlage",
+    "ik": "tok:leimer|berl-eier-sch-suppeneinlage|50",
+    "bn": "leimer",
+    "wg": 50
+  },
+  {
     "n": "Maggi Fix Mac & Cheese 33G",
     "p": "1.09",
     "o": "",
@@ -1557,6 +1557,19 @@
     "ik": "tok:maggi|cheese-fix-mac|33",
     "bn": "maggi",
     "wg": 33
+  },
+  {
+    "n": "Chio Tortillas Nacho Cheese 110G - Mhd 24.08.2026",
+    "p": "1.10",
+    "o": "",
+    "s": "110 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/chio_tortillas_nacho_cheese_110g.jpg",
+    "i": "https://www.edeka24.de/Chio-Tortillas-Nacho-Cheese-110G-MHD-24-08-2026.html?listtype=search&searchparam=K%C3%A4se",
+    "c": "Other",
+    "cn": "chio 08 2026 24 cheese mhd nacho tortillas",
+    "ik": "tok:chio|08-2026-24-cheese-mhd-nacho-tortillas|110",
+    "bn": "chio",
+    "wg": 110
   },
   {
     "n": "Lorenz Saltletts Tasty Rolls Jalapeno Cheese Style 130G",
@@ -3066,17 +3079,17 @@
     "wg": 180
   },
   {
-    "n": "Schär Meisterbäckers Mehrkorn 330G - Mhd 21.08.2026",
-    "p": "1.90",
+    "n": "Edeka Bio Dinkelbrot Geschnitten 6x500G",
+    "p": "13.63",
     "o": "",
-    "s": "330 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/schamp228r_meisterbamp228ckers_mehrkorn_330g.jpg",
-    "i": "https://www.edeka24.de/Schaer-Meisterbaeckers-Mehrkorn-330G-MHD-21-08-2026.html?listtype=search&searchparam=Brot",
+    "s": "500 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/818277001_edeka-bio-dinkelbrot.jpg",
+    "i": "https://www.edeka24.de/vorrat/Essen/EDEKA-Bio-Dinkelbrot-geschnitten-6x500G.html?listtype=search&searchparam=Brot",
     "c": "Other",
-    "cn": "schr 08 2026 21 ckers mehrkorn meisterb mhd sch",
-    "ik": "tok:schr|08-2026-21-ckers-mehrkorn-meisterb-mhd-sch|330",
-    "bn": "schr",
-    "wg": 330
+    "cn": "edeka 6x bio dinkelbrot geschnitten",
+    "ik": "tok:edeka|6x-bio-dinkelbrot-geschnitten|500",
+    "bn": "edeka",
+    "wg": 500
   },
   {
     "n": "Mestemacher Gourmet Pumper Nickel 250G",
@@ -3129,6 +3142,18 @@
     "ik": "tok:mestemacher|der-dose-echt-in-lischer-pumpernickel-westf|500",
     "bn": "mestemacher",
     "wg": 500
+  },
+  {
+    "n": "Mestemacher Eiweiß Toastbrötchen Mit Karotten 4x 65G - Mhd 23.08.2026",
+    "p": "1.45",
+    "o": "",
+    "s": "4 x",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/mestemacher_eiweiamp223_toastbramp246tchen_mit_karotten_4x65g.jpg",
+    "i": "https://www.edeka24.de/Mestemacher-Eiweiss-Toastbroetchen-mit-Karotten-4x-65G-MHD-23-08-2026.html?listtype=search&searchparam=Toastbrot",
+    "c": "Other",
+    "cn": "mestemacher 08 2026 23 4x eiwei karotten mhd mit tchen toastbr",
+    "ik": "tok:mestemacher|08-2026-23-4x-eiwei-karotten-mhd-mit-tchen-toastbr|na",
+    "bn": "mestemacher"
   },
   {
     "n": "Mestemacher Eiweiß Toastbrötchen Mit Karotten 4x 65G",
@@ -5846,7 +5871,7 @@
     "o": "",
     "s": "330 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/infinity_water_zitrone_033l_dose.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Getraenke/Infinity-Water-Zitrone-0-33L-Dose.html?listtype=search&searchparam=Zitronen",
+    "i": "https://www.edeka24.de/Getraenke/Alkoholfreie-Getraenke/Infinity-Water-Zitrone-0-33L-Dose.html?listtype=search&searchparam=Zitronen",
     "c": "Other",
     "cn": "infinity dose water zitrone",
     "ik": "tok:infinity|dose-water-zitrone|330",
@@ -5945,6 +5970,19 @@
     "wg": 500
   },
   {
+    "n": "Sanpellegrino Zero Lemon 0,33L Dose",
+    "p": "1.29",
+    "o": "",
+    "s": "330 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/sanpellegrino_zero_lemon_033l.jpg",
+    "i": "https://www.edeka24.de/Getraenke/Alkoholfreie-Getraenke/Sanpellegrino-Zero-Lemon-0-33L-Dose.html?listtype=search&searchparam=Zitronen",
+    "c": "Other",
+    "cn": "sanpellegrino dose lemon zero",
+    "ik": "tok:sanpellegrino|dose-lemon-zero|330",
+    "bn": "sanpellegrino",
+    "wg": 330
+  },
+  {
     "n": "Bahlsen Comtess Zitronen Kuchen 350G",
     "p": "3.29",
     "o": "",
@@ -6008,19 +6046,6 @@
     "ik": "tok:gut|gugelhupf-mini-nstig-zitrone|250",
     "bn": "gut",
     "wg": 250
-  },
-  {
-    "n": "Bitburger Radler 0,5L",
-    "p": "1.09",
-    "o": "",
-    "s": "500 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bitburger_radler_05l_dpg.jpg",
-    "i": "https://www.edeka24.de/Bitburger-Radler-0-5L.html?listtype=search&searchparam=Zitronen",
-    "c": "Other",
-    "cn": "bitburger radler",
-    "ik": "tok:bitburger|radler|500",
-    "bn": "bitburger",
-    "wg": 500
   },
   {
     "n": "Moselland Riesling Steillage Spätlese 0,75l",
@@ -7388,19 +7413,6 @@
     "wg": 200
   },
   {
-    "n": "Dietz Schinkenwurst 400G",
-    "p": "5.49",
-    "o": "",
-    "s": "400 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/dietz-schinkenwurst.jpg",
-    "i": "https://www.edeka24.de/Dietz-Schinkenwurst-400G.html?listtype=search&searchparam=Schinken",
-    "c": "Other",
-    "cn": "dietz schinkenwurst",
-    "ik": "tok:dietz|schinkenwurst|400",
-    "bn": "dietz",
-    "wg": 400
-  },
-  {
     "n": "Maggi Carbonara Nudel-Auflauf 37G",
     "p": "1.09",
     "o": "",
@@ -8712,19 +8724,6 @@
     "wg": 220
   },
   {
-    "n": "Alnatura Bio Naturreis Mit Wildreis 500G",
-    "p": "5.49",
-    "o": "",
-    "s": "500 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bio_alnatura_naturreis_mit_wildreis_500g(1).jpg",
-    "i": "https://www.edeka24.de/Alnatura-Bio-Naturreis-mit-Wildreis-500G.html?listtype=search&searchparam=Reis",
-    "c": "Other",
-    "cn": "alnatura bio mit naturreis wildreis",
-    "ik": "tok:alnatura|bio-mit-naturreis-wildreis|500",
-    "bn": "alnatura",
-    "wg": 500
-  },
-  {
     "n": "Alnatura Bio Himalaya Basmati Reis 1KG",
     "p": "4.99",
     "o": "",
@@ -9115,19 +9114,6 @@
     "wg": 300
   },
   {
-    "n": "Gut & Günstig Sauerkirschen Leicht Gezuckert 680G - Verschmutztes Etikett",
-    "p": "2.20",
-    "o": "",
-    "s": "680 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/gutampgnstig_sauerkirschen_leicht_gezuckert_680g.jpg",
-    "i": "https://www.edeka24.de/Gut-Guenstig-Sauerkirschen-leicht-gezuckert-680G-verschmutztes-Etikett.html?listtype=search&searchparam=Zucker",
-    "c": "Other",
-    "cn": "gut etikett gezuckert leicht nstig sauerkirschen verschmutztes",
-    "ik": "tok:gut|etikett-gezuckert-leicht-nstig-sauerkirschen-verschmutztes|680",
-    "bn": "gut",
-    "wg": 680
-  },
-  {
     "n": "Monster Energydrink Ultra Paradise Zero Zucker 0,5L Dose",
     "p": "1.59",
     "o": "",
@@ -9425,6 +9411,19 @@
     "ik": "tok:sommer|demeter-vollkorn-zwieback|200",
     "bn": "sommer",
     "wg": 200
+  },
+  {
+    "n": "Coppenrath Café Kränze 250G",
+    "p": "2.49",
+    "o": "",
+    "s": "250 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/copcafkr.jpg",
+    "i": "https://www.edeka24.de/Coppenrath-Caf-Kraenze-250G.html?listtype=search&searchparam=Zucker",
+    "c": "Other",
+    "cn": "coppenrath caf kr nze",
+    "ik": "tok:coppenrath|caf-kr-nze|250",
+    "bn": "coppenrath",
+    "wg": 250
   },
   {
     "n": "Farmer's Snack Nuss Röst Mix 150G",
@@ -9822,7 +9821,7 @@
     "o": "",
     "s": "700 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/berliner_luft_glitter_nights_07l.jpg",
-    "i": "https://www.edeka24.de/Wein-Spirituosen/Spirituosen/Likoere-Bitter/Berliner-Luft-Glitter-Nights-0-7L-Abverkauf.html?listtype=search&searchparam=Pfeffer",
+    "i": "https://www.edeka24.de/Getraenke/Spirituosen/Likoere-Bitter/Berliner-Luft-Glitter-Nights-0-7L-Abverkauf.html?listtype=search&searchparam=Pfeffer",
     "c": "Other",
     "cn": "berliner abverkauf glitter luft nights",
     "ik": "tok:berliner|abverkauf-glitter-luft-nights|700",
@@ -10660,6 +10659,19 @@
     "wg": 1000
   },
   {
+    "n": "Bertolli Cucina Olivenöl 1L - Mhd 09.2026",
+    "p": "10.00",
+    "o": "",
+    "s": "1 l",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bertolli_cucina_olivenl_1l.jpg",
+    "i": "https://www.edeka24.de/Bertolli-Cucina-Olivenoel-1L-MHD-09-2026.html?listtype=search&searchparam=Oliven%C3%B6l",
+    "c": "Other",
+    "cn": "bertolli 09 2026 cucina mhd oliven",
+    "ik": "tok:bertolli|09-2026-cucina-mhd-oliven|1000",
+    "bn": "bertolli",
+    "wg": 1000
+  },
+  {
     "n": "Bertolli Sauce Siciliana 400G",
     "p": "3.29",
     "o": "",
@@ -10697,19 +10709,6 @@
     "ik": "tok:bertolli|bio-extra-natives-oliven|250",
     "bn": "bertolli",
     "wg": 250
-  },
-  {
-    "n": "Edeka Herzstücke Ciabatta 300G",
-    "p": "1.59",
-    "o": "",
-    "s": "300 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_ciabatta_300g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Brot-Broetchen/EDEKA-Herzstuecke-Ciabatta-300G.html?listtype=search&searchparam=Oliven%C3%B6l",
-    "c": "Other",
-    "cn": "edeka ciabatta cke herzst",
-    "ik": "tok:edeka|ciabatta-cke-herzst|300",
-    "bn": "edeka",
-    "wg": 300
   },
   {
     "n": "Surig Hygreen Essig Reiniger 500ML",
@@ -10947,7 +10946,7 @@
   },
   {
     "n": "Erasco Westfälischer Linsen-Eintopf Mit Essig 800G",
-    "p": "2.19",
+    "p": "3.49",
     "o": "",
     "s": "800 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/erasco_westflischer_linseneintopf_mit_essig_800g(1).jpg",
@@ -11308,6 +11307,19 @@
     "ik": "tok:gut|delikatess-mayonnaise-nstig|500",
     "bn": "gut",
     "wg": 500
+  },
+  {
+    "n": "Edeka Bio My Veggie Salatmayonnaise 250ML",
+    "p": "1.89",
+    "o": "",
+    "s": "250 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_bio_vegan_salatmayonnaise_250_ml.jpg",
+    "i": "https://www.edeka24.de/EDEKA-Bio-My-Veggie-Salatmayonnaise-250ML.html?listtype=search&searchparam=Mayonnaise",
+    "c": "Other",
+    "cn": "edeka bio my salatmayonnaise veggie",
+    "ik": "tok:edeka|bio-my-salatmayonnaise-veggie|250",
+    "bn": "edeka",
+    "wg": 250
   },
   {
     "n": "Develey Our Original Mayonnaise 500ML",
@@ -13819,6 +13831,19 @@
     "wg": 750
   },
   {
+    "n": "Coca-Cola Zero 0,5L Pet",
+    "p": "1.39",
+    "o": "",
+    "s": "500 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/cocacola_zero_05l_dpg.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Getraenke/Cola/Coca-Cola-Zero-0-5L-PET.html?listtype=search&searchparam=Cola",
+    "c": "Other",
+    "cn": "coca cola pet zero",
+    "ik": "tok:coca|cola-pet-zero|500",
+    "bn": "coca",
+    "wg": 500
+  },
+  {
     "n": "Baileys Chocolate Truffles 13ST 150G",
     "p": "6.49",
     "o": "",
@@ -14063,19 +14088,6 @@
     "ik": "tok:nestle|caramel-cereal-chocolate-lion-protein|340",
     "bn": "nestle",
     "wg": 340
-  },
-  {
-    "n": "Esn Designer Bar Dark Chocolate Raspberry 45G",
-    "p": "2.79",
-    "o": "",
-    "s": "45 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/esn_designer_bar_dark_chocolate_raspberry_45g.jpg",
-    "i": "https://www.edeka24.de/Themenwelten/Bewusste-Ernaehrung/ESN-Designer-Bar-Dark-Chocolate-Raspberry-45G.html?listtype=search&searchparam=Cola",
-    "c": "Snacks",
-    "cn": "esn bar chocolate dark designer raspberry",
-    "ik": "tok:esn|bar-chocolate-dark-designer-raspberry|45",
-    "bn": "esn",
-    "wg": 45
   },
   {
     "n": "Bortzmeyer Traditionell Elsass Quetsch 40% 0,7L",
@@ -14668,6 +14680,19 @@
     "cn": "krombacher 24x pils",
     "ik": "tok:krombacher|24x-pils|500",
     "bn": "krombacher",
+    "wg": 500
+  },
+  {
+    "n": "Bitburger Radler 0,5L",
+    "p": "1.09",
+    "o": "",
+    "s": "500 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bitburger_radler_05l_dpg.jpg",
+    "i": "https://www.edeka24.de/Bitburger-Radler-0-5L.html?listtype=search&searchparam=Bier",
+    "c": "Other",
+    "cn": "bitburger radler",
+    "ik": "tok:bitburger|radler|500",
+    "bn": "bitburger",
     "wg": 500
   },
   {
