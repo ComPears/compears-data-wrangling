@@ -196,7 +196,7 @@
   },
   {
     "n": "Ritter Sport Trauben Nuss 100G",
-    "p": "1.49",
+    "p": "2.19",
     "o": "",
     "s": "100 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ritter_sport_trauben_nuss_tafel_100g.jpg",
@@ -495,7 +495,7 @@
   },
   {
     "n": "Ritter Sport Rum Trauben Nuss 100G",
-    "p": "1.49",
+    "p": "2.19",
     "o": "",
     "s": "100 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/rsrtn.jpg",
@@ -702,19 +702,6 @@
     "wg": 1000
   },
   {
-    "n": "Minus L Fettarme Haltbare Milch 1,5% Laktosefrei 1L - beschädigt/verschmutzt",
-    "p": "1.10",
-    "o": "",
-    "s": "1 l",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/minus_l_fettarme_haltbare_milch_15_laktosefrei.jpg",
-    "i": "https://www.edeka24.de/Minus-L-fettarme-haltbare-Milch-1-5-laktosefrei-1L-beschaedigt-verschmutzt.html?listtype=search&searchparam=H-Milch",
-    "c": "Other",
-    "cn": "minus besch digt fettarme haltbare laktosefrei milch verschmutzt",
-    "ik": "tok:minus|besch-digt-fettarme-haltbare-laktosefrei-milch-verschmutzt|1000",
-    "bn": "minus",
-    "wg": 1000
-  },
-  {
     "n": "Minus L Fettarme Haltbare Milch 1,5% Laktosefrei 1L",
     "p": "2.39",
     "o": "",
@@ -777,6 +764,19 @@
     "cn": "weihenstephan besch digt haltbare milch verpackung verschmutzt",
     "ik": "tok:weihenstephan|besch-digt-haltbare-milch-verpackung-verschmutzt|1000",
     "bn": "weihenstephan",
+    "wg": 1000
+  },
+  {
+    "n": "Minus L H-Milch 3,5%- Laktosefrei 1L - beschädigt/verschmutzt",
+    "p": "1.20",
+    "o": "",
+    "s": "1 l",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/minus_l_hmilch_38_laktosefrei.jpg",
+    "i": "https://www.edeka24.de/Themenwelten/Bewusste-Ernaehrung/Minus-L-H-Milch-3-5-laktosefrei-1L-beschaedigt-verschmutzt.html?listtype=search&searchparam=H-Milch",
+    "c": "Other",
+    "cn": "minus besch digt laktosefrei milch verschmutzt",
+    "ik": "tok:minus|besch-digt-laktosefrei-milch-verschmutzt|1000",
+    "bn": "minus",
     "wg": 1000
   },
   {
@@ -1494,19 +1494,6 @@
     "wg": 1
   },
   {
-    "n": "Wrigleys Extra Professional White 10ST - Mhd 10.08.2026",
-    "p": "0.65",
-    "o": "",
-    "s": "1 stuk",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/extra_professional_white_10st.jpg",
-    "i": "https://www.edeka24.de/Wrigleys-Extra-Professional-White-10ST-MHD-10-08-2026.html?listtype=search&searchparam=Eier",
-    "c": "Other",
-    "cn": "wrigleys 08 10 2026 extra mhd professional white",
-    "ik": "tok:wrigleys|08-10-2026-extra-mhd-professional-white|1",
-    "bn": "wrigleys",
-    "wg": 1
-  },
-  {
     "n": "Kinder Schoko Bons 200G 32ST",
     "p": "4.29",
     "o": "",
@@ -1544,6 +1531,19 @@
     "ik": "tok:leimer|berl-eier-sch-suppeneinlage|50",
     "bn": "leimer",
     "wg": 50
+  },
+  {
+    "n": "Gaggli Gabelspagetti 250G",
+    "p": "2.19",
+    "o": "",
+    "s": "250 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/gaggli_gabelspagetti.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Beilagen/Nudeln/Gaggli-Gabelspagetti-250G.html?listtype=search&searchparam=Eier",
+    "c": "Other",
+    "cn": "gaggli gabelspagetti",
+    "ik": "tok:gaggli|gabelspagetti|250",
+    "bn": "gaggli",
+    "wg": 250
   },
   {
     "n": "Maggi Fix Mac & Cheese 33G",
@@ -1650,7 +1650,7 @@
   },
   {
     "n": "Adler Edelcreme Kräuter Rahmstufe 100G",
-    "p": "2.59",
+    "p": "2.19",
     "o": "",
     "s": "100 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/adler_edelcreme_kruter_rahmstufe_100g.jpg",
@@ -3142,18 +3142,6 @@
     "ik": "tok:mestemacher|der-dose-echt-in-lischer-pumpernickel-westf|500",
     "bn": "mestemacher",
     "wg": 500
-  },
-  {
-    "n": "Mestemacher Eiweiß Toastbrötchen Mit Karotten 4x 65G - Mhd 23.08.2026",
-    "p": "1.45",
-    "o": "",
-    "s": "4 x",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/mestemacher_eiweiamp223_toastbramp246tchen_mit_karotten_4x65g.jpg",
-    "i": "https://www.edeka24.de/Mestemacher-Eiweiss-Toastbroetchen-mit-Karotten-4x-65G-MHD-23-08-2026.html?listtype=search&searchparam=Toastbrot",
-    "c": "Other",
-    "cn": "mestemacher 08 2026 23 4x eiwei karotten mhd mit tchen toastbr",
-    "ik": "tok:mestemacher|08-2026-23-4x-eiwei-karotten-mhd-mit-tchen-toastbr|na",
-    "bn": "mestemacher"
   },
   {
     "n": "Mestemacher Eiweiß Toastbrötchen Mit Karotten 4x 65G",
@@ -9984,6 +9972,19 @@
     "wg": 112
   },
   {
+    "n": "Nordbrand Nordhausen Pfefferminz 0,7L - Etikett verschmutzt/beschädigt",
+    "p": "3.29",
+    "o": "",
+    "s": "700 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/nordbrand_nordhausen_pfefferminzlikamp246r_18_07l.jpg",
+    "i": "https://www.edeka24.de/nach-marke/Nordbrand/Nordbrand-Nordhausen-Pfefferminz-0-7L-Etikett-verschmutzt-beschaedigt.html?listtype=search&searchparam=Pfeffer",
+    "c": "Other",
+    "cn": "nordbrand besch digt etikett nordhausen pfefferminz verschmutzt",
+    "ik": "tok:nordbrand|besch-digt-etikett-nordhausen-pfefferminz-verschmutzt|700",
+    "bn": "nordbrand",
+    "wg": 700
+  },
+  {
     "n": "Appel Zarte Heringsfilets In Pfeffer-Creme 200G",
     "p": "2.19",
     "o": "",
@@ -10125,19 +10126,6 @@
     "ik": "tok:ostmann|gemahlen-pfeffer-schwarz|40",
     "bn": "ostmann",
     "wg": 40
-  },
-  {
-    "n": "Teekanne Pfefferminze 20ST 45G",
-    "p": "2.29",
-    "o": "",
-    "s": "45 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/teekanne_minze_20st_45g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Kaffee-Tee/Tee/Teekanne-Pfefferminze-20ST-45G.html?listtype=search&searchparam=Pfeffer",
-    "c": "Other",
-    "cn": "teekanne pfefferminze",
-    "ik": "tok:teekanne|pfefferminze|45",
-    "bn": "teekanne",
-    "wg": 45
   },
   {
     "n": "S.Oliver Women Duo-Set Eau De Toilette/Duschgel 2-teilig - Abverkauf",
@@ -10646,6 +10634,19 @@
     "wg": 185
   },
   {
+    "n": "Elkos Baby Glück Sensitiv Feuchttücher 30ST",
+    "p": "1.19",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_elkos_baby_glck_babytcher_sensitive_30st.jpg",
+    "i": "https://www.edeka24.de/Drogerie/Baby-Kleinkind/Pflegen-Waschen-Reinigen/elkos-Baby-Glueck-Sensitiv-Feuchttuecher-30ST.html?listtype=search&searchparam=Oliven%C3%B6l",
+    "c": "Personal Care",
+    "cn": "baby cher ck elkos feuchtt gl sensitiv",
+    "ik": "tok:baby|cher-ck-elkos-feuchtt-gl-sensitiv|1",
+    "bn": "baby",
+    "wg": 1
+  },
+  {
     "n": "Bertolli Originale Natives Olivenöl Extra 1L",
     "p": "15.99",
     "o": "",
@@ -10696,19 +10697,6 @@
     "ik": "tok:saupiquet|in-oliven-thunfisch|185",
     "bn": "saupiquet",
     "wg": 185
-  },
-  {
-    "n": "Bertolli Bio Natives Olivenöl Extra 250ML",
-    "p": "6.49",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bertolli_bio_natives_olivenl_extra_250ml.jpg",
-    "i": "https://www.edeka24.de/Bertolli-Bio-Natives-Olivenoel-Extra-250ML.html?listtype=search&searchparam=Oliven%C3%B6l",
-    "c": "Other",
-    "cn": "bertolli bio extra natives oliven",
-    "ik": "tok:bertolli|bio-extra-natives-oliven|250",
-    "bn": "bertolli",
-    "wg": 250
   },
   {
     "n": "Surig Hygreen Essig Reiniger 500ML",
@@ -12061,6 +12049,19 @@
     "ik": "tok:alnatura|bio-bl-deutscher-tenhonig|500",
     "bn": "alnatura",
     "wg": 500
+  },
+  {
+    "n": "Jack Daniel´s Honey - Etikett verschmutzt/beschädigt",
+    "p": "12.50",
+    "o": "",
+    "s": "1 stuk",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/jack-daniels-honey.jpg",
+    "i": "https://www.edeka24.de/Jack-Daniel-s-Honey-Etikett-verschmutzt-beschaedigt.html?listtype=search&searchparam=Honig",
+    "c": "Other",
+    "cn": "jack besch daniel digt etikett honey verschmutzt",
+    "ik": "tok:jack|besch-daniel-digt-etikett-honey-verschmutzt|1",
+    "bn": "jack",
+    "wg": 1
   },
   {
     "n": "Bihophar Wabenquell Wildblüten-Honig 500G",
@@ -14775,7 +14776,7 @@
   },
   {
     "n": "Ritter Sport Marzipan 100G",
-    "p": "1.49",
+    "p": "2.19",
     "o": "",
     "s": "100 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/rsmarzi.jpg",
@@ -15266,6 +15267,19 @@
     "ik": "tok:oberbergener|ba-burgunder-er-geige-kabinett-wei|750",
     "bn": "oberbergener",
     "wg": 750
+  },
+  {
+    "n": "Nestle Lion White Mini 12ST 237,6G - Mhd 09.2026",
+    "p": "3.50",
+    "o": "",
+    "s": "238 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/nestle_lion_white_mini_2376g.jpg",
+    "i": "https://www.edeka24.de/Nestle-Lion-White-Mini-12ST-237-6G-MHD-09-2026.html?listtype=search&searchparam=Eis",
+    "c": "Other",
+    "cn": "nestle 09 2026 lion mhd mini white",
+    "ik": "tok:nestle|09-2026-lion-mhd-mini-white|238",
+    "bn": "nestle",
+    "wg": 238
   },
   {
     "n": "Doppio Passo Moscato Sicilia Doc 0,75L",
