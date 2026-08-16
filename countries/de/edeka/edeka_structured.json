@@ -767,19 +767,6 @@
     "wg": 1000
   },
   {
-    "n": "Minus L H-Milch 3,5%- Laktosefrei 1L - beschädigt/verschmutzt",
-    "p": "1.20",
-    "o": "",
-    "s": "1 l",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/minus_l_hmilch_38_laktosefrei.jpg",
-    "i": "https://www.edeka24.de/Themenwelten/Bewusste-Ernaehrung/Minus-L-H-Milch-3-5-laktosefrei-1L-beschaedigt-verschmutzt.html?listtype=search&searchparam=H-Milch",
-    "c": "Other",
-    "cn": "minus besch digt laktosefrei milch verschmutzt",
-    "ik": "tok:minus|besch-digt-laktosefrei-milch-verschmutzt|1000",
-    "bn": "minus",
-    "wg": 1000
-  },
-  {
     "n": "Weihenstephan H-Milch 3,5% 0,5L",
     "p": "1.19",
     "o": "",
@@ -6310,7 +6297,7 @@
   },
   {
     "n": "Blüte-Zeit Repair Shampoo Bio-Avocado 200ML",
-    "p": "2.29",
+    "p": "1.89",
     "o": "",
     "s": "200 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bltezeit_repair_shampoo_bioavocado_200ml.jpg",
@@ -6323,7 +6310,7 @@
   },
   {
     "n": "Blüte-Zeit Repair Spülung Bio Avocado 200ML",
-    "p": "2.29",
+    "p": "1.89",
     "o": "",
     "s": "200 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bltezeit_repair_splung_bio_avocado_200ml.jpg",
@@ -11987,7 +11974,7 @@
   },
   {
     "n": "Palmolive Naturals Duschcreme Milch & Honig 250ML",
-    "p": "1.69",
+    "p": "1.79",
     "o": "",
     "s": "250 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/palmolive_naturals_duschcreme_milch_amp_honig_250ml.jpg",
@@ -13312,19 +13299,6 @@
     "wg": 250
   },
   {
-    "n": "Ti Bio Grüner Tee & Mango 6x1L",
-    "p": "11.94",
-    "o": "",
-    "s": "1 l",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ti_bio_grner_tee_amp_mango_6x1l.jpg",
-    "i": "https://www.edeka24.de/vorrat/Ti-Bio-Gruener-Tee-Mango-6x1L.html?listtype=search&searchparam=Tee",
-    "c": "Other",
-    "cn": "bio 6x gr mango ner tee ti",
-    "ik": "tok:bio|6x-gr-mango-ner-tee-ti|1000",
-    "bn": "bio",
-    "wg": 1000
-  },
-  {
     "n": "Alnatura Bio Salbei Tee 20ST 30G",
     "p": "1.99",
     "o": "",
@@ -13609,6 +13583,19 @@
     "ik": "tok:esn|flavor-iced-isoclear-isolate-peach-protein-tea-whey|300",
     "bn": "esn",
     "wg": 300
+  },
+  {
+    "n": "Meßmer Ibiza Dream Süße Kirsche 20ST 50G",
+    "p": "2.49",
+    "o": "",
+    "s": "50 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/meamp223mer_ibiza_dream_samp252amp223e_kirsche_20st_50g.jpg",
+    "i": "https://www.edeka24.de/Messmer-Ibiza-Dream-Suesse-Kirsche-20ST-50G.html?listtype=search&searchparam=Tee",
+    "c": "Other",
+    "cn": "memer dream ibiza kirsche me mer",
+    "ik": "tok:memer|dream-ibiza-kirsche-me-mer|50",
+    "bn": "memer",
+    "wg": 50
   },
   {
     "n": "Griesson Soft Cake Orange Zartbitter 300G",

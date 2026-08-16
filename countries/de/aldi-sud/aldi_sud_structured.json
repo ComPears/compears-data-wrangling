@@ -5484,32 +5484,6 @@
     "wg": 200
   },
   {
-    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Creme Fraiche",
-    "p": "2.49",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-creme-fraiche-000000000203651001",
-    "c": "Other",
-    "cn": "wonnemeyer creme fraiche kartoffelsalat salatschale",
-    "ik": "tok:wonnemeyer|creme-fraiche-kartoffelsalat-salatschale|1000",
-    "bn": "wonnemeyer",
-    "wg": 1000
-  },
-  {
-    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Mit Essig-Öl",
-    "p": "2.49",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-mit-essig-oel-000000000203651003",
-    "c": "Other",
-    "cn": "wonnemeyer essig kartoffelsalat mit salatschale",
-    "ik": "tok:wonnemeyer|essig-kartoffelsalat-mit-salatschale|1000",
-    "bn": "wonnemeyer",
-    "wg": 1000
-  },
-  {
     "n": "Almare Thunfischsalate 160 g, Linsen",
     "p": "1.39",
     "o": "",
@@ -5560,6 +5534,32 @@
     "ik": "tok:almare|couscous-thunfischsalate|160",
     "bn": "almare",
     "wg": 160
+  },
+  {
+    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Creme Fraiche",
+    "p": "2.49",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-creme-fraiche-000000000203651001",
+    "c": "Other",
+    "cn": "wonnemeyer creme fraiche kartoffelsalat salatschale",
+    "ik": "tok:wonnemeyer|creme-fraiche-kartoffelsalat-salatschale|1000",
+    "bn": "wonnemeyer",
+    "wg": 1000
+  },
+  {
+    "n": "Wonnemeyer Salatschale 1 kg, Kartoffelsalat Mit Essig-Öl",
+    "p": "2.49",
+    "o": "",
+    "s": "1 l",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-salatschale-1-kg-kartoffelsalat-mit-essig-oel-000000000203651003",
+    "c": "Other",
+    "cn": "wonnemeyer essig kartoffelsalat mit salatschale",
+    "ik": "tok:wonnemeyer|essig-kartoffelsalat-mit-salatschale|1000",
+    "bn": "wonnemeyer",
+    "wg": 1000
   },
   {
     "n": "Gourmet Finest Cuisine Vitel Tonnè 160 G",
@@ -5680,7 +5680,7 @@
   },
   {
     "n": "Le Gusto Paprika Scharf 50 G",
-    "p": "0.85",
+    "p": "0.75",
     "o": "",
     "s": "50 ml",
     "l": "",
@@ -8850,19 +8850,6 @@
     "wg": 220
   },
   {
-    "n": "BON-RI Kochbeutel Reis 500 G",
-    "p": "0.79",
-    "o": "",
-    "s": "500 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/bon-ri-kochbeutel-reis-500-g-000000000000194038",
-    "c": "Other",
-    "cn": "bonri bon kochbeutel reis ri",
-    "ik": "tok:bonri|bon-kochbeutel-reis-ri|500",
-    "bn": "bonri",
-    "wg": 500
-  },
-  {
     "n": "BON-RI Jasmin Reis 1 Kg",
     "p": "1.99",
     "o": "",
@@ -8876,6 +8863,19 @@
     "wg": 1000
   },
   {
+    "n": "BON-RI Kochbeutel Reis 500 G",
+    "p": "0.79",
+    "o": "",
+    "s": "500 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/bon-ri-kochbeutel-reis-500-g-000000000000194038",
+    "c": "Other",
+    "cn": "bonri bon kochbeutel reis ri",
+    "ik": "tok:bonri|bon-kochbeutel-reis-ri|500",
+    "bn": "bonri",
+    "wg": 500
+  },
+  {
     "n": "Oryza Himalaya Basmatireis 1,1 Kg",
     "p": "3.49",
     "o": "",
@@ -8887,6 +8887,19 @@
     "ik": "tok:oryza|basmatireis-himalaya|1100",
     "bn": "oryza",
     "wg": 1100
+  },
+  {
+    "n": "Asia Green Garden Reispapier 250 G",
+    "p": "1.49",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/asia-green-garden-reispapier-250-g-000000000000501611",
+    "c": "Other",
+    "cn": "asia garden green reispapier",
+    "ik": "tok:asia|garden-green-reispapier|250",
+    "bn": "asia",
+    "wg": 250
   },
   {
     "n": "BEN'S Original Expressreis 220 g, Basmati",
@@ -8915,32 +8928,6 @@
     "wg": 220
   },
   {
-    "n": "BEN'S Original Expressreis 220 g, Griechisch-Djuvec",
-    "p": "2.29",
-    "o": "",
-    "s": "220 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/ben-s-original-expressreis-220-g-griechisch-djuvec-000000000281508017",
-    "c": "Other",
-    "cn": "ben djuvec expressreis griechisch original",
-    "ik": "tok:ben|djuvec-expressreis-griechisch-original|220",
-    "bn": "ben",
-    "wg": 220
-  },
-  {
-    "n": "Asia Green Garden Reispapier 250 G",
-    "p": "1.49",
-    "o": "",
-    "s": "250 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/asia-green-garden-reispapier-250-g-000000000000501611",
-    "c": "Other",
-    "cn": "asia garden green reispapier",
-    "ik": "tok:asia|garden-green-reispapier|250",
-    "bn": "asia",
-    "wg": 250
-  },
-  {
     "n": "DR. Oetker Seelenwärmer 63 g, Reis Pudding",
     "p": "0.69",
     "o": "",
@@ -8952,6 +8939,19 @@
     "ik": "tok:oetker|dr-pudding-reis-rmer-seelenw|60",
     "bn": "oetker",
     "wg": 60
+  },
+  {
+    "n": "BEN'S Original Expressreis 220 g, Griechisch-Djuvec",
+    "p": "2.29",
+    "o": "",
+    "s": "220 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/ben-s-original-expressreis-220-g-griechisch-djuvec-000000000281508017",
+    "c": "Other",
+    "cn": "ben djuvec expressreis griechisch original",
+    "ik": "tok:ben|djuvec-expressreis-griechisch-original|220",
+    "bn": "ben",
+    "wg": 220
   },
   {
     "n": "Crofton Mikrowellen-Kochgeschirr, Reiskocher, Grün",
@@ -12335,7 +12335,7 @@
   },
   {
     "n": "Toylino Wasser-Blaster, Wasserkugelwerfer",
-    "p": "5.99",
+    "p": "4.99",
     "o": "",
     "s": "1 stuk",
     "l": "",
