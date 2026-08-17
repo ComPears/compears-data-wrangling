@@ -18,7 +18,8 @@ OUTPUT = Path(__file__).resolve().parent / "tesco.json"
 CFG = StoreSearchConfig(
     slug="tesco",
     base_url="https://www.tesco.com",
-    search_url=lambda q: f"https://www.tesco.com/groceries/en-GB/search?query={quote_query(q)}",
+    warm_url="https://www.tesco.com/shop/en-GB/",
+    search_url=lambda q: f"https://www.tesco.com/shop/en-GB/search?query={quote_query(q)}",
     card_selectors=(
         "[data-auto='product-tile']",
         "li[class*='product-list']",

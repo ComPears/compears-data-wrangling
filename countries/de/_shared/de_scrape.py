@@ -257,7 +257,6 @@ def extract_from_product_links(page: Page, cfg: StoreSearchConfig) -> list[dict[
                 if (href.includes('/p/') && !/\\/p\\d+/i.test(href) && !href.includes('/produkt/')) {
                   // keep generic /p/slug/pID style only
                 }
-                seen.add(href);
                 let name = (a.getAttribute('title') || a.getAttribute('aria-label') || '').trim();
                 if (!name) {
                   name = (a.innerText || '').trim().split('\\n').map(s => s.trim()).find(Boolean) || '';
@@ -273,6 +272,7 @@ def extract_from_product_links(page: Page, cfg: StoreSearchConfig) -> list[dict[
                   el = el.parentElement;
                 }
                 if (!price) continue;
+                seen.add(href);
                 let image = '';
                 const img = a.querySelector('img') || (a.parentElement && a.parentElement.querySelector('img'));
                 if (img) image = img.src || img.getAttribute('data-src') || img.getAttribute('srcset') || '';
@@ -294,6 +294,10 @@ def extract_from_product_links(page: Page, cfg: StoreSearchConfig) -> list[dict[
             url=str(row.get("href") or ""),
             image=str(row.get("image") or "") or None,
             base_url=cfg.base_url,
+            retailer_product_id=(
+                str(row.get("href") or "").rstrip("/").split("/")[-1].split("?")[0]
+                or None
+            ),
         )
         if entry:
             products.append(entry)
@@ -415,6 +419,9 @@ def extract_json_ld(page: Page, cfg: StoreSearchConfig) -> list[dict[str, Any]]:
                 if isinstance(offers, list):
                     offers = offers[0] if offers else {}
                 price = offers.get("price") if isinstance(offers, dict) else None
+                brand_value = node.get("brand")
+                if isinstance(brand_value, dict):
+                    brand_value = brand_value.get("name")
                 entry = raw_product(
                     name=str(node.get("name") or ""),
                     price=price,
@@ -424,6 +431,10 @@ def extract_json_ld(page: Page, cfg: StoreSearchConfig) -> list[dict[str, Any]]:
                     else str((node.get("image") or [""])[0]),
                     barcode=str(node.get("gtin13") or node.get("gtin") or "") or None,
                     base_url=cfg.base_url,
+                    retailer_product_id=str(node.get("sku") or node.get("productID") or "") or None,
+                    availability=str(offers.get("availability") or "") if isinstance(offers, dict) else None,
+                    brand=str(brand_value or "") or None,
+                    category=str(node.get("category") or "") or None,
                 )
                 if entry:
                     products.append(entry)
@@ -486,7 +497,6 @@ def _walk_for_products(obj: Any, found: list[dict[str, Any]], cfg: StoreSearchCo
                 or obj.get("retail_price")
                 or obj.get("retailPrice")
                 or obj.get("priceInfo")
-                or obj.get("pricePerUnit")
                 or obj.get("sellingPrice")
                 or obj.get("listingPrice")
             )
@@ -525,6 +535,9 @@ def _walk_for_products(obj: Any, found: list[dict[str, Any]], cfg: StoreSearchCo
             aldi_path = f"/produkt/{slug}-{sku}" if slug and sku else ""
             nan = obj.get("nan") or obj.get("id")
             rewe_path = f"/produkte/{nan}" if nan and cfg.slug == "rewe" else ""
+            brand_value = obj.get("brand") or obj.get("brandName")
+            if isinstance(brand_value, dict):
+                brand_value = brand_value.get("name")
             image = ""
             media = obj.get("media")
             if isinstance(media, dict):
@@ -566,6 +579,17 @@ def _walk_for_products(obj: Any, found: list[dict[str, Any]], cfg: StoreSearchCo
                 barcode=str(obj.get("gtin") or obj.get("gtin13") or obj.get("barcode") or "")
                 or None,
                 base_url=cfg.base_url,
+                retailer_product_id=str(sku or nan or obj.get("productId") or "") or None,
+                availability=str(obj.get("availability") or obj.get("stockStatus") or "") or None,
+                brand=str(brand_value or "") or None,
+                category=str(
+                    obj.get("categoryName")
+                    or obj.get("category")
+                    or obj.get("departmentName")
+                    or obj.get("department")
+                    or ""
+                )
+                or None,
             )
             if entry:
                 found.append(entry)
@@ -752,6 +776,7 @@ def scrape_store_search(
         url = cfg.search_url(query)
         print(f"\n🔍 [{cfg.slug}] {query} → {url}")
         batch: list[dict[str, Any]] = []
+        source_method = ""
         page = sticky_page
         owned_page = False
         if page is None:
@@ -766,6 +791,8 @@ def scrape_store_search(
                 api_result = harvest_api_json(page, cfg, query)
                 batch = api_result.products
                 api_status = api_result.status
+                if batch:
+                    source_method = "retailer_api"
             if not batch:
                 search_json_holder: list[Any] = []
 
@@ -812,13 +839,20 @@ def scrape_store_search(
                     _walk_for_products(search_json_holder[-1], found, cfg)
                     if found:
                         batch = found[: cfg.max_per_query]
+                        source_method = "captured_search_api"
 
                 if not batch:
                     batch = extract_from_cards(page, cfg)
+                    if batch:
+                        source_method = "dom_cards"
                 if not batch:
                     batch = extract_json_ld(page, cfg)
+                    if batch:
+                        source_method = "json_ld"
                 if not batch:
                     batch = best_sniffed_products(sniffed, cfg.max_per_query)
+                    if batch:
+                        source_method = "sniffed_api"
                 sniffed_batch = best_sniffed_products(sniffed, cfg.max_per_query)
                 if sniffed_batch and (
                     not batch
@@ -828,6 +862,11 @@ def scrape_store_search(
                     )
                 ):
                     batch = sniffed_batch
+                    source_method = "sniffed_api"
+            for item in batch:
+                item.setdefault("sourceQuery", query)
+                item.setdefault("sourceUrl", url)
+                item.setdefault("sourceMethod", source_method or "unknown")
             before = len(all_products)
             all_products.extend(batch)
             all_products = dedupe_raw(all_products)

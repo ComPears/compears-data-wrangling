@@ -135,6 +135,11 @@ def re_structure(input_file: str, output_file: str):
                 "p": regular_price,
                 "s": size,
                 "l": image,
+                "productUrl": (
+                    f"https://www.ah.nl/producten/product/wi{entry['webshopId']}"
+                    if entry.get("webshopId")
+                    else ""
+                ),
             },
         )
 

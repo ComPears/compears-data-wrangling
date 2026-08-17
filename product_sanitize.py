@@ -3,9 +3,20 @@
 from __future__ import annotations
 
 import re
+from decimal import Decimal
 from typing import Any
 
 from barcode_utils import extract_barcode_from_entry, normalize_barcode
+from data_contract import (
+    SCHEMA_VERSION,
+    normalize_price,
+    parse_quantity,
+    quantity_fingerprint,
+    resolve_urls,
+    unit_price,
+    utc_iso,
+)
+from product_relevance import rejection_reason as relevance_rejection_reason
 
 # --- rejection: promo banners / junk rows (Lidl, PLUS, etc.) ---
 
@@ -94,8 +105,6 @@ KNOWN_BRANDS: frozenset[str] = frozenset(
         "signal",
         "colgate",
         "milka",
-        "cote",
-        "dor",
         "unox",
         "knorr",
         "maggi",
@@ -105,16 +114,12 @@ KNOWN_BRANDS: frozenset[str] = frozenset(
         "jumbo",
         "ah",
         "plus",
-        "coca",
-        "cola",
         "pepsi",
         "fanta",
         "spa",
         "heineken",
         "amstel",
         "grolsch",
-        "douwe",
-        "egberts",
         "lavazza",
         "nescafe",
         "bolletje",
@@ -125,11 +130,7 @@ KNOWN_BRANDS: frozenset[str] = frozenset(
         "bonduelle",
         "iglo",
         "ola",
-        "ben",
-        "jerry",
         "hak",
-        "grand",
-        "italia",
         "mutti",
         "barilla",
         "nivea",
@@ -139,7 +140,6 @@ KNOWN_BRANDS: frozenset[str] = frozenset(
         "always",
         "libresse",
         "pampers",
-        "nappy",
         "nutrilon",
         "friso",
         "babybel",
@@ -147,8 +147,6 @@ KNOWN_BRANDS: frozenset[str] = frozenset(
         "boursin",
         "galbani",
         "leerdammer",
-        "old",
-        "amsterdam",
         "liga",
         "sportlife",
         "redband",
@@ -156,23 +154,23 @@ KNOWN_BRANDS: frozenset[str] = frozenset(
         "snickers",
         "twix",
         "haribo",
-        "red",
-        "bull",
         "innocent",
     }
 )
 
-# Multi-word brands checked before single token
-MULTI_WORD_BRANDS: tuple[str, ...] = (
-    "cote d or",
-    "côte d or",
-    "douwe egberts",
-    "old amsterdam",
-    "red bull",
-    "ben jerry",
-    "ben & jerry",
-    "grand italia",
-    "la vache qui rit",
+# Multi-word brands checked before single tokens. Canonical values keep
+# punctuation variants from fragmenting otherwise valid comparison groups.
+MULTI_WORD_BRANDS: tuple[tuple[str, str], ...] = (
+    ("cote d or", "côte d'or"),
+    ("côte d or", "côte d'or"),
+    ("coca cola", "coca-cola"),
+    ("douwe egberts", "douwe egberts"),
+    ("old amsterdam", "old amsterdam"),
+    ("red bull", "red bull"),
+    ("ben jerry", "ben & jerry"),
+    ("ben and jerry", "ben & jerry"),
+    ("grand italia", "grand italia"),
+    ("la vache qui rit", "la vache qui rit"),
 )
 
 
@@ -208,77 +206,34 @@ def strip_promo_from_name(name: str) -> str:
 
 
 def parse_size_to_ml(size: str | None) -> int | None:
-    if not size:
+    """Backward-compatible numeric quantity; use ``parse_quantity`` for units."""
+    parsed = parse_quantity(size)
+    if not parsed:
         return None
-    lower = size.lower().replace(",", ".")
-    lower = re.sub(r"^per\s+", "", lower)
-
-    multi = re.search(r"(\d+)\s*[x×]\s*(\d+(?:\.\d+)?)\s*(ml|l|g|kg)\b", lower)
-    if multi:
-        count = int(multi.group(1))
-        qty = float(multi.group(2))
-        unit = multi.group(3)
-        if unit == "l":
-            return int(round(count * qty * 1000))
-        if unit == "ml":
-            return int(round(count * qty))
-        if unit == "kg":
-            return int(round(count * qty * 1000))
-        if unit == "g":
-            return int(round(count * qty))
-
-    ml_match = re.search(r"(\d+(?:\.\d+)?)\s*ml\b", lower)
-    if ml_match:
-        return int(round(float(ml_match.group(1))))
-
-    l_match = re.search(r"(\d+(?:\.\d+)?)\s*l(?:iter)?(?!\w)", lower)
-    if l_match:
-        return int(round(float(l_match.group(1)) * 1000))
-
-    g_match = re.search(r"(\d+(?:\.\d+)?)\s*g(?:ram)?(?!\w)", lower)
-    if g_match:
-        return int(round(float(g_match.group(1))))
-
-    kg_match = re.search(r"(\d+(?:\.\d+)?)\s*kg\b", lower)
-    if kg_match:
-        return int(round(float(kg_match.group(1)) * 1000))
-
-    st_match = re.search(r"(\d+)\s*st(?:uk)?(?:s)?\b", lower)
-    if st_match:
-        return int(st_match.group(1))
-
-    if lower in {"stuk", "st", "st.", "per stuk"}:
-        return 1
-
-    return None
+    value = parsed.get("totalValue")
+    return int(value) if isinstance(value, (int, float)) else None
 
 
 def normalize_size_label(size: str | None, size_ml: int | None) -> str:
-    if size_ml is not None:
-        if size_ml >= 1000 and size_ml % 1000 == 0:
-            return f"{size_ml // 1000} l"
-        if size_ml >= 1000:
-            return f"{size_ml / 1000:.2f} l".replace(".00", "")
-        if size_ml == 1:
-            return "1 stuk"
-        return f"{size_ml} ml"
-    return _collapse_ws(size or "stuk")
+    """Preserve the source unit instead of labelling every quantity as volume."""
+    parsed = parse_quantity(size)
+    if parsed:
+        return str(parsed["display"])
+    return _collapse_ws(size or "")
 
 
 def extract_brand(name: str) -> str | None:
     lower = name.lower()
-    for phrase in MULTI_WORD_BRANDS:
-        if phrase in lower:
-            return _collapse_ws(phrase)
+    normalized = _collapse_ws(re.sub(r"[^\w]+", " ", lower, flags=re.UNICODE))
+    for alias, canonical in MULTI_WORD_BRANDS:
+        if re.search(rf"\b{re.escape(alias)}\b", normalized):
+            return canonical
     tokens = re.findall(r"[a-z0-9&]+", lower)
     for token in tokens:
         if token in KNOWN_BRANDS:
             return token
-    # First capitalized word often brand in Dutch listings
-    for word in name.split():
-        clean = re.sub(r"[^a-zA-Z&]", "", word)
-        if len(clean) >= 3 and clean[0].isupper() and clean.lower() not in GENERIC_STOPWORDS:
-            return clean.lower()
+    # Do not infer arbitrary capitalized words as brands. A missing brand is
+    # safer than a false brand because brand participates in automatic matching.
     return None
 
 
@@ -320,64 +275,173 @@ def build_identity_key(
     barcode: str | None,
     brand: str | None,
     tokens: list[str],
-    size_ml: int | None,
+    size_ml: int | None = None,
+    quantity: dict[str, Any] | None = None,
 ) -> str:
     if barcode:
         return f"ean:{barcode}"
     token_part = "-".join(tokens) if tokens else "unknown"
     brand_part = brand or "unknown"
-    size_part = str(size_ml) if size_ml is not None else "na"
+    size_part = quantity_fingerprint(quantity)
+    if size_part == "na" and size_ml is not None:
+        size_part = str(size_ml)
     return f"tok:{brand_part}|{token_part}|{size_part}"
 
 
-def sanitize_entry(entry: dict[str, Any]) -> dict[str, Any] | None:
-    """Return sanitized entry or None if row should be rejected."""
+def sanitize_entry_with_reason(
+    entry: dict[str, Any],
+    *,
+    country: str | None = None,
+    store: str | None = None,
+    currency: str | None = None,
+    observed_at: str | None = None,
+) -> tuple[dict[str, Any] | None, str | None]:
+    """Return a contract-compliant offer and a machine-readable rejection reason."""
     raw_name = str(entry.get("n") or "").strip()
     if not raw_name:
-        return None
+        return None, "missing_name"
 
     clean_name = strip_promo_from_name(raw_name)
     if len(clean_name) < 3:
-        return None
+        return None, "name_too_short"
 
     reject = should_reject_name(clean_name)
     if reject:
-        return None
+        return None, reject
+    relevance_reject = relevance_rejection_reason(clean_name, country)
+    if relevance_reject:
+        return None, relevance_reject
+
+    price_ceiling = Decimal("100.00") if country == "uk" else Decimal("500.00")
+    price, price_error = normalize_price(entry.get("p"), maximum=price_ceiling)
+    if price_error:
+        return None, price_error
 
     barcode = extract_barcode_from_entry(entry)
-    brand = entry.get("bn") or extract_brand(clean_name)
-    if isinstance(brand, str):
-        brand = brand.strip().lower() or None
+    inferred_brand = extract_brand(clean_name)
+    raw_brand = entry.get("bn")
+    raw_brand = raw_brand.strip().lower() if isinstance(raw_brand, str) else None
+    raw_brand_source = str(entry.get("brandSource") or "").strip().lower()
+    trusted_brand_sources = {"retailer", "gtin", "known_name"}
+    if raw_brand and raw_brand_source in trusted_brand_sources:
+        brand = raw_brand
+        brand_source = raw_brand_source
+    elif raw_brand and inferred_brand and raw_brand == inferred_brand:
+        brand = raw_brand
+        brand_source = "known_name"
+    else:
+        brand = inferred_brand
+        brand_source = "known_name" if inferred_brand else None
 
     size_raw = str(entry.get("s") or "").strip()
-    size_ml = entry.get("wg")
-    if size_ml is not None:
-        try:
-            size_ml = int(size_ml)
-        except (TypeError, ValueError):
-            size_ml = None
-    if size_ml is None:
-        size_ml = parse_size_to_ml(size_raw)
+    quantity = parse_quantity(
+        size_raw,
+        name=clean_name,
+        existing=entry.get("quantity") if isinstance(entry.get("quantity"), dict) else None,
+    )
 
     tokens = tokenize_product_name(clean_name, brand)
     if not tokens and not brand:
-        return None
+        return None, "missing_identity_attributes"
 
     cn = build_canonical_name(clean_name, brand, tokens)
-    ik = build_identity_key(barcode=barcode, brand=brand, tokens=tokens, size_ml=size_ml)
+    ik = build_identity_key(barcode=barcode, brand=brand, tokens=tokens, quantity=quantity)
 
     out = dict(entry)
     out["n"] = title_case_canonical(clean_name) if clean_name else clean_name
+    out["p"] = price
+    offer_text = str(out.get("o") or "").strip()
+    if re.search(r"\b(clubcard|nectar price)\b", offer_text, re.I):
+        out["priceType"] = "loyalty"
+    elif offer_text:
+        out["priceType"] = "promotion"
+    else:
+        out["priceType"] = "regular"
     out["cn"] = cn
     out["ik"] = ik
+    out["schemaVersion"] = SCHEMA_VERSION
     if brand:
         out["bn"] = brand
-    if size_ml is not None:
-        out["wg"] = size_ml
-    out["s"] = normalize_size_label(size_raw, size_ml)
+        out["brandSource"] = brand_source
+    else:
+        out.pop("bn", None)
+        out.pop("brandSource", None)
+    if quantity:
+        out["quantity"] = quantity
+        out["wg"] = quantity["totalValue"]
+        out["wu"] = quantity["baseUnit"]
+        out["s"] = quantity["display"]
+    else:
+        out.pop("quantity", None)
+        out.pop("wg", None)
+        out.pop("wu", None)
+        out["s"] = _collapse_ws(size_raw)
     if barcode:
         out["b"] = barcode
-    return out
+    else:
+        out.pop("b", None)
+
+    # Reclassify missing/legacy "Other" values with the multilingual taxonomy.
+    # The lazy import avoids a module cycle with category_utils' sanitizer hook.
+    from category_utils import ensure_canonical, infer_category_from_name
+
+    category = ensure_canonical(str(entry.get("c") or entry.get("category") or ""))
+    if category == "Other":
+        inferred_category = infer_category_from_name(clean_name)
+        if inferred_category != "Other":
+            category = inferred_category
+    out["c"] = category
+
+    resolved_currency = (currency or entry.get("currency") or "").upper()
+    if not resolved_currency:
+        resolved_currency = {"nl": "EUR", "de": "EUR", "uk": "GBP"}.get(country or "", "")
+    if country:
+        out["country"] = country
+    if store:
+        out["retailer"] = store
+    if resolved_currency:
+        out["currency"] = resolved_currency
+    computed_unit_price = unit_price(price, resolved_currency, quantity) if resolved_currency else None
+    if computed_unit_price:
+        out["unitPrice"] = computed_unit_price
+    else:
+        out.pop("unitPrice", None)
+
+    product_url, image_url = resolve_urls(out)
+    if product_url:
+        out["productUrl"] = product_url
+    else:
+        out.pop("productUrl", None)
+    if image_url:
+        out["imageUrl"] = image_url
+    else:
+        out.pop("imageUrl", None)
+
+    timestamp = utc_iso(observed_at) or utc_iso(
+        entry.get("observedAt") or entry.get("scrapedAt") or entry.get("scraped_at")
+    )
+    if timestamp:
+        out["observedAt"] = timestamp
+    return out, None
+
+
+def sanitize_entry(
+    entry: dict[str, Any],
+    *,
+    country: str | None = None,
+    store: str | None = None,
+    currency: str | None = None,
+    observed_at: str | None = None,
+) -> dict[str, Any] | None:
+    """Compatibility wrapper returning only the sanitized offer."""
+    cleaned, _reason = sanitize_entry_with_reason(
+        entry,
+        country=country,
+        store=store,
+        currency=currency,
+        observed_at=observed_at,
+    )
+    return cleaned
 
 
 def _parse_price(value: Any) -> float:

@@ -68,6 +68,109 @@ PATH_CATEGORY_RULES: list[tuple[tuple[str, ...], str]] = [
     (("pasta", "rijst", "conserven", "soep", "saus", "wereldkeuken", "ontbijt", "beleg"), "Pantry"),
 ]
 
+# Multilingual product-name rules for every currently exposed market. Keep
+# these conservative: "Other" is preferable to a confidently wrong category.
+NAME_CATEGORY_RULES: list[tuple[re.Pattern[str], str]] = [
+    (
+        re.compile(
+            r"\b(frozen|tiefk[uü]hl\w*|diepvries\w*|ice cream|eiscreme|"
+            r"fish fingers|fischst[aä]bchen|vissticks)\b",
+            re.I,
+        ),
+        "Frozen Foods",
+    ),
+    (
+        re.compile(
+            r"\b(shampoo|toothpaste|tandpasta|zahnpasta|deodorant|deo|"
+            r"napp(?:y|ies)|windeln?|diapers?|douchegel|shower gel|duschgel|"
+            r"zonnebrand|sonnencreme|sun(?:screen|block))\b",
+            re.I,
+        ),
+        "Personal Care",
+    ),
+    (
+        re.compile(
+            r"\b(toilet(?:ten)?papier|toilet roll|kitchen roll|k[uü]chenrolle|"
+            r"wasmiddel|waschmittel|laundry detergent|afwasmiddel|sp[uü]lmittel|"
+            r"washing up liquid|fabric softener|weichsp[uü]ler|bin bags?|"
+            r"m[uü]llbeutel|vuilniszakken|cleaner|reiniger)\b",
+            re.I,
+        ),
+        "Household",
+    ),
+    (
+        re.compile(
+            r"\b(chocolate milk|chocolademelk|kakaomilch|haferdrink|mandeldrink|"
+            r"liebfraumilch|water|wasser|juice|sap|saft|"
+            r"coffee|koffie|kaffee|tea|thee|tee|cola|soda|frisdrank|limonade|"
+            r"beer|bier|wine|wijn|wein|wei[ßs]wein|rotwein|ros[eé]wein|schaumwein|sekt|"
+            r"champagner|cava|espresso|caff[eé]|eierlik[oö]r|prosecco)\b",
+            re.I,
+        ),
+        "Beverages",
+    ),
+    (
+        re.compile(
+            r"\b(chocolate|chocolade|schokol\w*|pralinen?|crisps?|chips|biscuits?|cookies?|"
+            r"keks\w*|koek(?:jes)?|sweets?|candy|snoep|bonbons?|snacks?|riegel\w*|"
+            r"waffel\w*|smarties|nuss)\b",
+            re.I,
+        ),
+        "Snacks",
+    ),
+    (
+        re.compile(
+            r"\b(milk|melk|\w*milch\w*|\w*butter\w*|boter|eggs?|eieren?|"
+            r"(?:bio|freiland|bodenhaltungs|h[uü]hner)?eier|"
+            r"cheese|kaas|\w*k[aä]se\w*|yogh?urt|\w*joghurt\w*|quark|kwark|cream|"
+            r"\w*sahne\w*|room|cheddar|gouda|margarine)\b",
+            re.I,
+        ),
+        "Dairy & Eggs",
+    ),
+    (
+        re.compile(
+            r"\b(chicken|kip|h[aä]hnchen\w*|beef|rund\w*|pork|varken|schwein\w*|"
+            r"mince|gehakt|hackfleisch|bacon|speck|sausages?|wurst\w*|salmon|zalm|"
+            r"lachs\w*|cod|kabeljauw|kabeljau|ham|schinken|tuna|tonijn|thunfisch|"
+            r"fish|vis|fisch\w*|prawns?|garnelen|herring|hering|salami|chorizo|jerky)\b",
+            re.I,
+        ),
+        "Meat & Seafood",
+    ),
+    (
+        re.compile(
+            r"\b(apples?|appel|apfel|bananas?|banaan|banane|potato(?:es)?|aardappel|"
+            r"kartoffeln?|tomato(?:es)?|tomaten?|onions?|ui|uien|zwiebeln?|carrots?|"
+            r"worteln?|karotten?|broccoli|cucumber|komkommer|gurke|lettuce|sla|salat|"
+            r"avocados?|lemons?|citroen|zitrone|grapes?|druiven|trauben|paprika)\b",
+            re.I,
+        ),
+        "Fruits & Vegetables",
+    ),
+    (
+        re.compile(
+            r"\b(bread|brood|brot|toast|br[oö]tchen|bread rolls?|croissants?|"
+            r"cake|cakes|gebak|kuchen|beschuit)\b",
+            re.I,
+        ),
+        "Bakery",
+    ),
+    (
+        re.compile(
+            r"\b(pasta|spaghetti|\w*nudeln?|rice|rijst|reis|flour|meel|mehl|sugar|"
+            r"suiker|zucker|salt|zout|salz|pepper|peper|pfeffer|oil|olie|[oö]l|"
+            r"vinegar|azijn|essig|ketchup|mayonnaise|mayo|mustard|mosterd|senf|"
+            r"jam|marmelade|honey|honing|honig|cereal|m[uü]sli|oats?|haferflocken|"
+            r"beans?|bonen|bohnen|tinned tomatoes|dosentomaten|soup|soep|suppe|"
+            r"tortellini|sp[aä]tzle|macaroni|crackers?|gherkins?|sauerkraut|"
+            r"falafel|syrup|stroop|sirup|spread|aufstrich)\b",
+            re.I,
+        ),
+        "Pantry",
+    ),
+]
+
 
 def _normalize_slug(value: str) -> str:
     return value.lower().replace("_", "-").replace(",", "-")
@@ -105,14 +208,13 @@ def category_from_coop_url(url: str) -> str:
 
 
 def infer_category_from_name(name: str) -> str:
-    """Fallback when scrape metadata is missing (e.g. LIDL single-page scrape)."""
+    """Infer a conservative shared category from Dutch, German, or UK names."""
     lower = name.lower()
-    if re.search(r"\bspf\d*", lower) or "zonnebrand" in lower or "sun protection" in lower:
+    if re.search(r"\bspf\s*\d*", lower) or "sun protection" in lower:
         return "Personal Care"
-    if any(k in lower for k in ("wasmiddel", "afwasmiddel", "toiletpapier", "keukenrol")):
-        return "Household"
-    if any(k in lower for k in ("shampoo", "tandpasta", "deodorant", "douchegel")):
-        return "Personal Care"
+    for pattern, category in NAME_CATEGORY_RULES:
+        if pattern.search(lower):
+            return category
     matched = _match_path_category(lower.replace(" ", "-"))
     return ensure_canonical(matched)
 
@@ -123,7 +225,7 @@ from product_sanitize import sanitize_entry
 
 def structured_with_category(entry: dict[str, Any], structured: dict[str, Any]) -> dict[str, Any]:
     """Attach category, barcode, and sanitized identity fields."""
-    category = entry.get("category")
+    category = entry.get("c") or entry.get("category")
     if not category:
         category = infer_category_from_name(entry.get("raw_text", entry.get("n", "")))
     structured["c"] = ensure_canonical(category)
@@ -131,6 +233,30 @@ def structured_with_category(entry: dict[str, Any], structured: dict[str, Any]) 
     barcode = extract_barcode_from_entry(entry)
     if barcode:
         structured["b"] = barcode
+
+    product_id = (
+        entry.get("retailerProductId")
+        or entry.get("productId")
+        or entry.get("product_id")
+        or entry.get("webshopId")
+        or entry.get("sku")
+    )
+    if product_id not in (None, ""):
+        structured["retailerProductId"] = str(product_id).strip()
+
+    product_url = entry.get("productUrl") or entry.get("url") or entry.get("link")
+    if product_url:
+        structured["productUrl"] = str(product_url).strip()
+    image_url = entry.get("imageUrl") or entry.get("image")
+    if image_url:
+        structured["imageUrl"] = str(image_url).strip()
+
+    brand = entry.get("bn") or entry.get("brand") or entry.get("brandName")
+    if isinstance(brand, dict):
+        brand = brand.get("name")
+    if brand:
+        structured["bn"] = str(brand).strip()
+        structured["brandSource"] = "retailer"
 
     sanitized = sanitize_entry(structured)
     return sanitized if sanitized is not None else structured

@@ -97,11 +97,10 @@
           "display_name": "Edeka",
           "dir": "countries/de/edeka",
           "catalog": "edeka_structured.json",
-          "minimum_products": 80,
+          "minimum_products": 500,
           "pipeline": ["main.py", "structure.py"],
           "intermediate_globs": ["edeka.json"],
-          "playwright": true,
-          "optional": true
+          "playwright": true
         },
         "rewe": {
           "display_name": "Rewe",
@@ -117,21 +116,19 @@
           "display_name": "Lidl",
           "dir": "countries/de/lidl-de",
           "catalog": "lidl_de_structured.json",
-          "minimum_products": 80,
+          "minimum_products": 500,
           "pipeline": ["main.py", "structure.py"],
           "intermediate_globs": ["lidl_de.json"],
-          "playwright": true,
-          "optional": true
+          "playwright": true
         },
         "aldi-sud": {
           "display_name": "Aldi Süd",
           "dir": "countries/de/aldi-sud",
           "catalog": "aldi_sud_structured.json",
-          "minimum_products": 80,
+          "minimum_products": 500,
           "pipeline": ["main.py", "structure.py"],
           "intermediate_globs": ["aldi_sud.json"],
-          "playwright": true,
-          "optional": true
+          "playwright": true
         },
         "penny": {
           "display_name": "Penny",

@@ -10,8 +10,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from config.paths import all_catalog_paths, catalog_rel_path
-from product_sanitize import dedupe_by_identity, sanitize_entry
+from config.paths import all_catalog_paths, catalog_rel_path, country_config
+from product_sanitize import dedupe_by_identity, sanitize_entry_with_reason
+
+STATUS_DIR = ROOT / "reports" / "scrape-status"
+QUARANTINE_DIR = ROOT / "reports" / "quarantine"
 
 
 def _dedupe_coop_against_plus() -> None:
@@ -26,7 +29,28 @@ def _dedupe_coop_against_plus() -> None:
     module.dedupe_coop_against_plus()
 
 
-def sanitize_file(rel_path: str) -> dict[str, int]:
+def _statuses() -> dict[tuple[str, str], dict]:
+    statuses: dict[tuple[str, str], dict] = {}
+    if not STATUS_DIR.is_dir():
+        return statuses
+    for path in STATUS_DIR.glob("*.json"):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        key = (str(payload.get("country") or ""), str(payload.get("store") or ""))
+        if all(key):
+            statuses[key] = payload
+    return statuses
+
+
+def sanitize_file(
+    country: str,
+    store: str,
+    rel_path: str,
+    *,
+    observed_at: str | None = None,
+) -> dict[str, int]:
     path = ROOT / rel_path
     stats = {
         "input": 0,
@@ -47,14 +71,22 @@ def sanitize_file(rel_path: str) -> dict[str, int]:
     stats["input"] = len(data)
     kept: list[dict] = []
     rejected: list[dict] = []
+    currency = str(country_config(country).get("currency") or "")
 
     for entry in data:
         if not isinstance(entry, dict):
+            rejected.append({"reason": "malformed_row", "row": entry})
             stats["rejected"] += 1
             continue
-        cleaned = sanitize_entry(entry)
+        cleaned, reason = sanitize_entry_with_reason(
+            entry,
+            country=country,
+            store=store,
+            currency=currency,
+            observed_at=observed_at,
+        )
         if cleaned is None:
-            rejected.append(entry)
+            rejected.append({"reason": reason or "unknown", "row": entry})
             stats["rejected"] += 1
         else:
             kept.append(cleaned)
@@ -66,8 +98,9 @@ def sanitize_file(rel_path: str) -> dict[str, int]:
     with open(path, "w", encoding="utf-8") as f:
         json.dump(deduped, f, indent=2, ensure_ascii=False)
 
-    reject_path = path.with_name(path.stem + ".rejected.json")
+    reject_path = QUARANTINE_DIR / f"{country}-{store}.json"
     if rejected:
+        reject_path.parent.mkdir(parents=True, exist_ok=True)
         with open(reject_path, "w", encoding="utf-8") as f:
             json.dump(rejected, f, indent=2, ensure_ascii=False)
     elif reject_path.exists():
@@ -82,9 +115,15 @@ def sanitize_file(rel_path: str) -> dict[str, int]:
 
 def main() -> None:
     totals = {"input": 0, "kept": 0, "rejected": 0, "deduped": 0}
-    for _country, slug, catalog in all_catalog_paths():
-        rel = catalog_rel_path(_country, slug)
-        stats = sanitize_file(rel)
+    statuses = _statuses()
+    for country, slug, catalog in all_catalog_paths():
+        rel = catalog_rel_path(country, slug)
+        status = statuses.get((country, slug), {})
+        outcome = str(status.get("outcome") or "")
+        observed_at = status.get("last_successful_at")
+        if not observed_at and outcome == "refreshed":
+            observed_at = status.get("attempted_at") or status.get("timestamp")
+        stats = sanitize_file(country, slug, rel, observed_at=observed_at)
         for key in totals:
             totals[key] += stats[key]
     print(

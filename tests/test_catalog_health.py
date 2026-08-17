@@ -172,6 +172,48 @@ class BarcodeExtractionTests(unittest.TestCase):
 
 
 class CatalogHealthTests(unittest.TestCase):
+    def test_contract_compliant_catalog_passes_health_checks(self):
+        observed = "2026-07-10T12:00:00Z"
+        rows = [
+            {
+                "schemaVersion": 2,
+                "country": "nl",
+                "retailer": "aldi",
+                "currency": "EUR",
+                "c": "Pantry",
+                "n": f"Barilla Pasta {index}",
+                "p": "1.50",
+                "priceType": "regular",
+                "ik": f"tok:barilla|pasta-{index}|500g",
+                "bn": "barilla",
+                "brandSource": "known_name",
+                "quantity": {"packCount": 1, "itemValue": 500, "itemUnit": "g", "totalValue": 500, "baseUnit": "g", "display": "500 g"},
+                "unitPrice": {"value": "3.00", "currency": "EUR", "per": "kg"},
+                "productUrl": f"https://example.test/products/{index}",
+                "imageUrl": f"https://example.test/images/{index}.jpg",
+                "observedAt": observed,
+            }
+            for index in range(10)
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            catalog = Path(directory) / "catalog.json"
+            catalog.write_text(json.dumps(rows), encoding="utf-8")
+            with patch(
+                "scripts.catalog_health.store_config",
+                return_value={"minimum_products": 1, "optional": False},
+            ):
+                report = analyze_catalog(
+                    "nl",
+                    "aldi",
+                    catalog,
+                    now=datetime(2026, 7, 10, 13, tzinfo=timezone.utc),
+                )
+
+        self.assertEqual(report["status"], "pass")
+        self.assertEqual(report["metrics"]["completeness"]["contract_error_count"], 0)
+        self.assertEqual(report["metrics"]["completeness"]["quantity_coverage"], 1.0)
+        self.assertEqual(report["metrics"]["completeness"]["category_coverage"], 1.0)
+
     def test_reports_coverage_duplicates_prices_and_scrape_freshness(self):
         rows = [
             {"n": "One", "p": "1.25", "ik": "one", "b": EAN13, "scraped_at": "2026-07-10T12:00:00Z"},

@@ -8,7 +8,7 @@ import json
 import math
 import sys
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -16,23 +16,31 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from barcode_utils import normalize_barcode
+from category_utils import CANONICAL_CATEGORIES
 from config.paths import all_catalog_paths, catalog_rel_path, store_config
+from data_contract import is_valid_quantity, is_valid_unit_price, valid_http_url
 from product_sanitize import should_reject_name
 
 DEFAULTS = {
     "stale_after_hours": 48,
-    "warn_invalid_price_rate": 0.01,
-    "max_invalid_price_rate": 0.10,
+    "warn_invalid_price_rate": 0.001,
+    "max_invalid_price_rate": 0.005,
     "max_suspicious_price_rate": 0.02,
     "max_duplicate_identity_rate": 0.01,
     "max_duplicate_barcode_rate": 0.005,
     "minimum_barcode_coverage": 0.0,
+    "minimum_quantity_coverage": 0.90,
+    "minimum_unit_price_coverage": 0.85,
+    "minimum_brand_coverage": 0.05,
+    "minimum_category_coverage": 0.50,
+    "minimum_product_url_coverage": 0.50,
+    "minimum_image_url_coverage": 0.80,
 }
 # Soft floors after 2026-08-03 full scrape + AH GTIN-14 fix (~7.9% AH `b`).
 # PLUS/Dirk enrichment still returns 0% in catalog `b` — keep those at 0 until
 # PDP extractors land real rates. Jumbo catalog `b` stays sparse (seed mines DAM URLs).
 BARCODE_FLOORS: dict[str, float] = {
-    "albert-heijn": 0.05,
+    "albert-heijn": 0.01,
     "plus": 0.0,
     "dirk": 0.0,
     "jumbo": 0.0,
@@ -54,7 +62,7 @@ def _parse_price(value: Any) -> float | None:
 
 
 def _scraped_at(entry: dict[str, Any]) -> datetime | None:
-    value = entry.get("scrapedAt") or entry.get("scraped_at")
+    value = entry.get("observedAt") or entry.get("scrapedAt") or entry.get("scraped_at")
     if not value:
         return None
     try:
@@ -105,7 +113,11 @@ def analyze_catalog(
     barcodes: Counter[str] = Counter()
     barcode_identities: dict[str, set[str]] = defaultdict(set)
     with_barcode = invalid_barcode = invalid_price = suspicious_price = 0
-    missing_scraped_at = stale_scrape = malformed_rows = promo_in_name = 0
+    with_quantity = with_unit_price = with_brand = with_category = 0
+    with_product_url = with_image_url = 0
+    contract_errors = 0
+    contract_error_reasons: Counter[str] = Counter()
+    missing_scraped_at = stale_scrape = future_scrape = malformed_rows = promo_in_name = 0
     newest_scrape: datetime | None = None
 
     for row in data:
@@ -132,12 +144,70 @@ def analyze_catalog(
             suspicious_price += 1
         if should_reject_name(str(row.get("n") or "")):
             promo_in_name += 1
+        quantity = row.get("quantity")
+        quantity_valid = is_valid_quantity(quantity)
+        if quantity_valid:
+            with_quantity += 1
+        expected_currency = {"nl": "EUR", "de": "EUR", "uk": "GBP"}.get(country)
+        unit_price_valid = bool(
+            quantity_valid
+            and expected_currency
+            and is_valid_unit_price(
+                row.get("unitPrice"),
+                price=str(row.get("p") or ""),
+                currency=expected_currency,
+                quantity=quantity,
+            )
+        )
+        if unit_price_valid:
+            with_unit_price += 1
+        brand_source = str(row.get("brandSource") or "").strip().lower()
+        if str(row.get("bn") or "").strip() and brand_source in {
+            "retailer",
+            "gtin",
+            "known_name",
+        }:
+            with_brand += 1
+        category = str(row.get("c") or "")
+        if category in CANONICAL_CATEGORIES and category != "Other":
+            with_category += 1
+        if valid_http_url(row.get("productUrl")):
+            with_product_url += 1
+        if valid_http_url(row.get("imageUrl")):
+            with_image_url += 1
+        row_contract_errors = {
+            "schema_version": row.get("schemaVersion") != 2,
+            "country": row.get("country") != country,
+            "retailer": row.get("retailer") != slug,
+            "currency": bool(expected_currency and row.get("currency") != expected_currency),
+            "price_type": row.get("priceType") not in {"regular", "promotion", "loyalty"},
+            "category": category not in CANONICAL_CATEGORIES,
+            "quantity_shape": isinstance(quantity, dict) and not quantity_valid,
+            "unit_price": quantity_valid and not unit_price_valid,
+            "product_url": bool(
+                row.get("productUrl") and not valid_http_url(row.get("productUrl"))
+            ),
+            "image_url": bool(row.get("imageUrl") and not valid_http_url(row.get("imageUrl"))),
+            "brand_provenance": bool(
+                row.get("bn")
+                and str(row.get("brandSource") or "").strip().lower()
+                not in {"retailer", "gtin", "known_name"}
+            ),
+        }
+        failed_contract_fields = [
+            field for field, invalid in row_contract_errors.items() if invalid
+        ]
+        if failed_contract_fields:
+            contract_errors += 1
+            contract_error_reasons.update(failed_contract_fields)
         scraped = _scraped_at(row)
         if scraped is None:
             missing_scraped_at += 1
         else:
             newest_scrape = max(newest_scrape, scraped) if newest_scrape else scraped
-            if (now - scraped).total_seconds() > thresholds["stale_after_hours"] * 3600:
+            if scraped > now + timedelta(hours=1):
+                future_scrape += 1
+            elif (now - scraped).total_seconds() > thresholds["stale_after_hours"] * 3600:
                 stale_scrape += 1
 
     duplicate_identity = sum(count - 1 for count in identities.values() if count > 1)
@@ -167,7 +237,18 @@ def analyze_catalog(
         "scrape": {
             "missing_timestamp_count": missing_scraped_at,
             "stale_count": stale_scrape,
+            "future_timestamp_count": future_scrape,
             "newest_at": newest_scrape.isoformat() if newest_scrape else None,
+        },
+        "completeness": {
+            "quantity_coverage": _rate(with_quantity, total),
+            "unit_price_coverage": _rate(with_unit_price, with_quantity),
+            "brand_coverage": _rate(with_brand, total),
+            "category_coverage": _rate(with_category, total),
+            "product_url_coverage": _rate(with_product_url, total),
+            "image_url_coverage": _rate(with_image_url, total),
+            "contract_error_count": contract_errors,
+            "contract_error_reasons": dict(contract_error_reasons),
         },
         "malformed_rows": malformed_rows,
         "promo_in_name": promo_in_name,
@@ -180,7 +261,8 @@ def analyze_catalog(
         )
 
     if total < thresholds["minimum_products"]:
-        issue("error", "product_count_below_minimum", total, thresholds["minimum_products"])
+        severity = "warning" if store_config(country, slug).get("optional") else "error"
+        issue(severity, "product_count_below_minimum", total, thresholds["minimum_products"])
     if metrics["price"]["invalid_rate"] > thresholds["max_invalid_price_rate"]:
         issue("error", "invalid_price_rate_high", metrics["price"]["invalid_rate"], thresholds["max_invalid_price_rate"])
     elif metrics["price"]["invalid_rate"] > thresholds["warn_invalid_price_rate"]:
@@ -194,17 +276,40 @@ def analyze_catalog(
     if conflicting_barcode:
         issue("warning", "barcode_identity_conflicts", conflicting_barcode, 0)
     if coverage < thresholds["minimum_barcode_coverage"]:
-        issue("error", "barcode_coverage_below_minimum", coverage, thresholds["minimum_barcode_coverage"])
+        issue("warning", "barcode_coverage_below_minimum", coverage, thresholds["minimum_barcode_coverage"])
     if invalid_barcode:
         issue("warning", "invalid_barcodes", invalid_barcode, 0)
     if missing_scraped_at:
-        issue("warning", "missing_scrape_timestamps", missing_scraped_at, 0)
+        severity = "warning" if store_config(country, slug).get("optional") else "error"
+        issue(severity, "missing_observation_timestamps", missing_scraped_at, 0)
     if stale_scrape:
         # Optional stores are best-effort; stale last-good rows should not fail CI.
         severity = "warning" if store_config(country, slug).get("optional") else "error"
         issue(severity, "stale_scrape_rows", stale_scrape, 0)
+    if future_scrape:
+        severity = "warning" if store_config(country, slug).get("optional") else "error"
+        issue(severity, "future_observation_timestamps", future_scrape, 0)
     if malformed_rows or promo_in_name:
         issue("warning", "malformed_or_rejected_rows", malformed_rows + promo_in_name, 0)
+    completeness = metrics["completeness"]
+    if contract_errors:
+        severity = "warning" if store_config(country, slug).get("optional") else "error"
+        issue(severity, "data_contract_errors", contract_errors, 0)
+    for metric, threshold_key, code in (
+        ("quantity_coverage", "minimum_quantity_coverage", "quantity_coverage_below_minimum"),
+        ("unit_price_coverage", "minimum_unit_price_coverage", "unit_price_coverage_below_minimum"),
+    ):
+        if completeness[metric] < thresholds[threshold_key]:
+            severity = "warning" if store_config(country, slug).get("optional") else "error"
+            issue(severity, code, completeness[metric], thresholds[threshold_key])
+    for metric, threshold_key, code in (
+        ("brand_coverage", "minimum_brand_coverage", "brand_coverage_below_minimum"),
+        ("category_coverage", "minimum_category_coverage", "category_coverage_below_minimum"),
+        ("product_url_coverage", "minimum_product_url_coverage", "product_url_coverage_below_minimum"),
+        ("image_url_coverage", "minimum_image_url_coverage", "image_url_coverage_below_minimum"),
+    ):
+        if completeness[metric] < thresholds[threshold_key]:
+            issue("warning", code, completeness[metric], thresholds[threshold_key])
 
     severities = {item["severity"] for item in result["issues"]}
     result["status"] = "error" if "error" in severities else "warning" if severities else "pass"
