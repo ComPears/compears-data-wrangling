@@ -2,7 +2,7 @@
   {
     "n": "Zoete Aardappelen",
     "p": "2.49",
-    "o": "OP=OP",
+    "o": "",
     "s": "1.50 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1239823_main_cms_1_nl_nl_zoete_aardappelen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
@@ -156,14 +156,15 @@
     "wg": 1
   },
   {
-    "n": "Aanbieding Van 17.08",
-    "p": "1.69",
+    "n": "17.08 - 23.08",
+    "p": "1.39",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1222243_main_cms_7_nl_nl_spitskool_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
-    "cn": "08 17",
-    "ik": "tok:unknown|08-17|na"
+    "cn": "08 17 23",
+    "ik": "tok:unknown|08-17-23|1",
+    "wg": 1
   },
   {
     "n": "Biologische Rode Bieten",
@@ -563,7 +564,7 @@
   },
   {
     "n": "Trio Sla Op Kluit",
-    "p": "0.89",
+    "p": "1.19",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218644_main_cms_6_nl_nl_trio_sla_op_kluit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -683,7 +684,7 @@
   },
   {
     "n": "Cocktailtomaten",
-    "p": "1.69",
+    "p": "2.79",
     "o": "",
     "s": "500 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1207831_main_cms_8_nl_nl_cocktailtomaten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -1521,7 +1522,7 @@
   },
   {
     "n": "Romige Bospaddenstoelensoep",
-    "p": "1.69",
+    "p": "1.99",
     "o": "",
     "s": "570 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1227466_1_main_cms_1_nl_nl_romige_bospaddenstoelensoep_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -1532,19 +1533,20 @@
     "wg": 570
   },
   {
-    "n": "10.08 - 16.08",
-    "p": "1.69",
+    "n": "De Hete Ketel",
+    "p": "2.45",
     "o": "",
     "s": "570 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1227465_main_cms_3_nl_nl_pompoensoep_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Pantry",
-    "cn": "08 10 16",
-    "ik": "tok:unknown|08-10-16|570",
+    "cn": "hete ketel",
+    "ik": "tok:hete|ketel|570",
+    "bn": "hete",
     "wg": 570
   },
   {
     "n": "Romige Mosterdsoep",
-    "p": "1.69",
+    "p": "2.79",
     "o": "",
     "s": "570 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1227463_1_main_cms_1_nl_nl_romige_mosterdsoep_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -1556,7 +1558,7 @@
   },
   {
     "n": "Chinese Tomatensoep",
-    "p": "1.69",
+    "p": "2.49",
     "o": "",
     "s": "570 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1227462_1_main_cms_1_nl_nl_chinese_tomatensoep_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -1600,18 +1602,6 @@
     "cn": "tomatencrme chinese me of tomatencr tomatensoep",
     "ik": "tok:tomatencrme|chinese-me-of-tomatencr-tomatensoep|800",
     "bn": "tomatencrme",
-    "wg": 800
-  },
-  {
-    "n": "De Hete Ketel",
-    "p": "1.29",
-    "o": "",
-    "s": "800 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218088_main_cms_2_nl_nl_kippensoep_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Pantry",
-    "cn": "hete ketel",
-    "ik": "tok:hete|ketel|800",
-    "bn": "hete",
     "wg": 800
   },
   {
@@ -1736,7 +1726,7 @@
   },
   {
     "n": "Koffiecups Ristretto",
-    "p": "4.29",
+    "p": "3.99",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1227132_1_main_cms_2_nl_nl_koffiecups_ristretto_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -2011,7 +2001,7 @@
   },
   {
     "n": "Filterkoffie Rood",
-    "p": "5.64",
+    "p": "5.59",
     "o": "",
     "s": "500 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1223661_main_cms_2_nl_nl_filterkoffie_rood_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -2299,7 +2289,7 @@
   },
   {
     "n": "Fruitthee Aardbei Bosvrucht 25x1.5g",
-    "p": "0.99",
+    "p": "0.96",
     "o": "",
     "s": "38 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216662_main_cms_5_nl_nl_fruitthee_aardbei_bosvrucht_25x1_5g_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -2706,7 +2696,7 @@
   },
   {
     "n": "Rijstdessert Vanillesmaak",
-    "p": "1.00",
+    "p": "0.79",
     "o": "",
     "s": "200 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218677_main_cms_5_nl_nl_rijstdessert_vanillesmaak_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -2814,7 +2804,7 @@
   },
   {
     "n": "Gesneden Snijbonen",
-    "p": "1.99",
+    "p": "2.29",
     "o": "",
     "s": "400 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230387_main_cms_1_nl_nl_gesneden_snijbonen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -3053,6 +3043,18 @@
     "wg": 400
   },
   {
+    "n": "Geschrapte Wortelen",
+    "p": "0.89",
+    "o": "",
+    "s": "500 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1201073_main_cms_5_nl_nl_geschrapte_wortelen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Fruits & Vegetables",
+    "cn": "geschrapte wortelen",
+    "ik": "tok:geschrapte|wortelen|500",
+    "bn": "geschrapte",
+    "wg": 500
+  },
+  {
     "n": "Winter Paddenstoelenmix",
     "p": "",
     "o": "",
@@ -3126,15 +3128,27 @@
   },
   {
     "n": "Ribeye Of Entrecote",
-    "p": "5.79",
+    "p": "4.59",
     "o": "",
     "s": "200 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1234602_main_cms_11_nl_nl_ribeye_of_entrecote_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1237009_main_cms_12_nl_nl_ribeye_of_entrecote_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Meat & Seafood",
     "cn": "ribeye entrecote of",
     "ik": "tok:ribeye|entrecote-of|200",
     "bn": "ribeye",
     "wg": 200
+  },
+  {
+    "n": "Barbecueworsten",
+    "p": "2.49",
+    "o": "",
+    "s": "350 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233152_main_cms_5_nl_nl_barbecueworsten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Meat & Seafood",
+    "cn": "barbecueworsten",
+    "ik": "tok:barbecueworsten|unknown|350",
+    "bn": "barbecueworsten",
+    "wg": 350
   },
   {
     "n": "Braadworsten",
@@ -3575,7 +3589,7 @@
   },
   {
     "n": "Ice Tea perzik-hibiscus",
-    "p": "1.29",
+    "p": "1.49",
     "o": "",
     "s": "1.50 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225363_main_cms_5_nl_nl_ice_tea_perzik_hibiscus_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -3623,7 +3637,7 @@
   },
   {
     "n": "Ice Tea mango-kamille",
-    "p": "1.29",
+    "p": "1.59",
     "o": "",
     "s": "1.50 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225323_main_cms_5_nl_nl_ice_tea_mango_kamille_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -4181,6 +4195,18 @@
     "wg": 225
   },
   {
+    "n": "Black Angus Burgers",
+    "p": "3.49",
+    "o": "",
+    "s": "260 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1237069_main_cms_7_nl_nl_black_angus_burgers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Other",
+    "cn": "black angus burgers",
+    "ik": "tok:black|angus-burgers|260",
+    "bn": "black",
+    "wg": 260
+  },
+  {
     "n": "Fruitbeleg 65% Fruit",
     "p": "2.55",
     "o": "",
@@ -4216,7 +4242,7 @@
   },
   {
     "n": "Extra Vezelrijk Volkorenbrood",
-    "p": "1.79",
+    "p": "2.29",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1217868_main_cms_11_nl_nl_extra_vezelrijk_volkorenbrood_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -4417,7 +4443,7 @@
   },
   {
     "n": "Premium Pilsener",
-    "p": "0.60",
+    "p": "0.78",
     "o": "",
     "s": "500 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225677_main_cms_4_nl_nl_premium_pilsener_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -4557,12 +4583,12 @@
     "wg": 100
   },
   {
-    "n": "3-pack Maïswafels",
-    "p": "1.25",
+    "n": "3-/4-pack Maïswafels",
+    "p": "1.19",
     "o": "",
-    "s": "3-pack maïswafels",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230787_main_cms_4_nl_nl_3_pack_maiswafels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Other",
+    "s": "3-/4-pack maïswafels",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1214955_main_cms_9_nl_nl_3_4_pack_maiswafels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Bakery",
     "cn": "maswafels ma pack swafels",
     "ik": "tok:maswafels|ma-pack-swafels|na",
     "bn": "maswafels"
@@ -4843,7 +4869,7 @@
   },
   {
     "n": "Rund- Of Kipburger",
-    "p": "2.29",
+    "p": "1.95",
     "o": "",
     "s": "320 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1236953_main_cms_3_nl_nl_rund_of_kipburger_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -5188,7 +5214,7 @@
   },
   {
     "n": "Appelstroop",
-    "p": "0.95",
+    "p": "0.85",
     "o": "",
     "s": "450 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1227630_main_cms_1_nl_nl_appelstroop_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -5368,7 +5394,7 @@
   },
   {
     "n": "Frisse Boterhamspread",
-    "p": "1.49",
+    "p": "1.99",
     "o": "",
     "s": "515 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1206806_main_cms_2_nl_nl_frisse_boterhamspread_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -6041,7 +6067,7 @@
   },
   {
     "n": "Huzaren- Of Rundvleessalade",
-    "p": "2.79",
+    "p": "3.59",
     "o": "",
     "s": "750 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225817_main_cms_6_nl_nl_huzaren_of_rundvleessalade_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -6292,25 +6318,27 @@
   },
   {
     "n": "Cashewnoten Geroosterd En Ongezouten",
-    "p": "2.94",
+    "p": "2.19",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "250 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225414_main_cms_1_nl_nl_cashewnoten_geroosterd_en_ongezouten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Snacks",
     "cn": "cashewnoten geroosterd ongezouten",
-    "ik": "tok:cashewnoten|geroosterd-ongezouten|na",
-    "bn": "cashewnoten"
+    "ik": "tok:cashewnoten|geroosterd-ongezouten|250",
+    "bn": "cashewnoten",
+    "wg": 250
   },
   {
     "n": "Cashewnoten Geroosterd En Gezouten",
-    "p": "2.74",
+    "p": "2.19",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "250 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225388_main_cms_1_nl_nl_cashewnoten_geroosterd_en_gezouten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Snacks",
     "cn": "cashewnoten geroosterd gezouten",
-    "ik": "tok:cashewnoten|geroosterd-gezouten|na",
-    "bn": "cashewnoten"
+    "ik": "tok:cashewnoten|geroosterd-gezouten|250",
+    "bn": "cashewnoten",
+    "wg": 250
   },
   {
     "n": "Amandelen",
@@ -7043,6 +7071,30 @@
     "wg": 100
   },
   {
+    "n": "Margarine Original",
+    "p": "1.69",
+    "o": "",
+    "s": "550 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1241061_main_cms_1_nl_nl_margarine_original_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Dairy & Eggs",
+    "cn": "margarine original",
+    "ik": "tok:margarine|original|550",
+    "bn": "margarine",
+    "wg": 550
+  },
+  {
+    "n": "Margarine Light",
+    "p": "1.69",
+    "o": "",
+    "s": "550 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1241060_main_cms_1_nl_nl_margarine_light_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Dairy & Eggs",
+    "cn": "margarine light",
+    "ik": "tok:margarine|light|550",
+    "bn": "margarine",
+    "wg": 550
+  },
+  {
     "n": "Blue Band",
     "p": "",
     "o": "",
@@ -7248,7 +7300,7 @@
   },
   {
     "n": "Bellasan",
-    "p": "1.65",
+    "p": "1.59",
     "o": "",
     "s": "750 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1212785_main_cms_2_nl_nl_culinair_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -7284,7 +7336,7 @@
   },
   {
     "n": "Sex On The Beach",
-    "p": "5.99",
+    "p": "4.99",
     "o": "",
     "s": "500 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1240371_main_cms_3_nl_nl_sex_on_the_beach_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -7344,7 +7396,7 @@
   },
   {
     "n": "Espresso Martini",
-    "p": "5.99",
+    "p": "4.99",
     "o": "",
     "s": "50 cl",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1237902_main_cms_2_nl_nl_espresso_martini_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -7355,7 +7407,7 @@
   },
   {
     "n": "Passion Martini",
-    "p": "5.99",
+    "p": "4.99",
     "o": "",
     "s": "50 cl",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1237901_main_cms_1_nl_nl_passion_martini_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -7745,7 +7797,7 @@
   },
   {
     "n": "Stamppotaardappelen",
-    "p": "1.59",
+    "p": "1.49",
     "o": "",
     "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205552_main_cms_3_nl_nl_stamppotaardappelen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -8032,6 +8084,18 @@
     "wg": 20000
   },
   {
+    "n": "Mini Cones",
+    "p": "2.49",
+    "o": "OP=OP",
+    "s": "12 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1230842_main_cms_1_nl_nl_mini_cones_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Other",
+    "cn": "mini cones",
+    "ik": "tok:mini|cones|12",
+    "bn": "mini",
+    "wg": 12
+  },
+  {
     "n": "Fruitijs Aardbeiensmaak",
     "p": "1.49",
     "o": "",
@@ -8105,14 +8169,15 @@
   },
   {
     "n": "Esteban Cabernet Sauvignon Rosé",
-    "p": "4.99",
+    "p": "3.75",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "750 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226882_main_cms_2_nl_nl_esteban_cabernet_sauvignon_rose_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "esteban cabernet ros sauvignon",
-    "ik": "tok:esteban|cabernet-ros-sauvignon|na",
-    "bn": "esteban"
+    "ik": "tok:esteban|cabernet-ros-sauvignon|750",
+    "bn": "esteban",
+    "wg": 750
   },
   {
     "n": "Mozzarella Light",
@@ -8142,7 +8207,7 @@
     "n": "6-pack Cornetto Classico",
     "p": "2.69",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "6-pack Cornetto classico",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225750_main_cms_3_nl_nl_6_pack_cornetto_classico_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Other",
     "cn": "cornetto classico pack",
@@ -9009,7 +9074,7 @@
   },
   {
     "n": "Onthardingszout",
-    "p": "1.09",
+    "p": "1.08",
     "o": "",
     "s": "2 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1208958_main_cms_2_nl_nl_onthardingszout_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -9021,7 +9086,7 @@
   },
   {
     "n": "Glansspoelmiddel",
-    "p": "1.95",
+    "p": "1.94",
     "o": "",
     "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1208818_main_cms_2_nl_nl_glansspoelmiddel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -9081,7 +9146,7 @@
   },
   {
     "n": "Olijfolie Extra Vierge",
-    "p": "6.99",
+    "p": "9.19",
     "o": "",
     "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225905_main_cms_2_nl_nl_olijfolie_extra_vierge_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -9260,7 +9325,7 @@
   },
   {
     "n": "Gelderse Gekookte Worst",
-    "p": "2.75",
+    "p": "2.69",
     "o": "",
     "s": "500 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220664_main_cms_2_nl_nl_gelderse_gekookte_worst_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -9319,7 +9384,7 @@
   },
   {
     "n": "Chorizo",
-    "p": "1.59",
+    "p": "1.58",
     "o": "",
     "s": "100 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205151_main_cms_2_nl_nl_chorizo_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -9547,7 +9612,7 @@
   },
   {
     "n": "Scharrelkippenbouten",
-    "p": "5.49",
+    "p": "5.39",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226445_main_cms_5_nl_nl_scharrelkippenbouten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -9607,7 +9672,7 @@
   },
   {
     "n": "Scharrelkipfilethaasjes",
-    "p": "3.89",
+    "p": "4.90",
     "o": "",
     "s": "300 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1215479_main_cms_5_nl_nl_scharrelkipfilethaasjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -9631,7 +9696,7 @@
   },
   {
     "n": "Scharrelkipbraadsticks",
-    "p": "5.19",
+    "p": "6.49",
     "o": "",
     "s": "800 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1215454_main_cms_4_nl_nl_scharrelkipbraadsticks_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -9667,14 +9732,15 @@
   },
   {
     "n": "Gekruide Scharrelkipdrumsticks",
-    "p": "6.37",
+    "p": "4.99",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1215351_main_cms_4_nl_nl_gekruide_scharrelkipdrumsticks_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Meat & Seafood",
     "cn": "gekruide scharrelkipdrumsticks",
-    "ik": "tok:gekruide|scharrelkipdrumsticks|na",
-    "bn": "gekruide"
+    "ik": "tok:gekruide|scharrelkipdrumsticks|1000",
+    "bn": "gekruide",
+    "wg": 1000
   },
   {
     "n": "Gemarineerde Scharrelkipfilethaasjes",
@@ -9726,14 +9792,15 @@
   },
   {
     "n": "Scharrelkipdrumsticks",
-    "p": "6.37",
+    "p": "4.99",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1202038_main_cms_1_nl_nl_scharrelkipdrumsticks_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Meat & Seafood",
     "cn": "scharrelkipdrumsticks",
-    "ik": "tok:scharrelkipdrumsticks|unknown|na",
-    "bn": "scharrelkipdrumsticks"
+    "ik": "tok:scharrelkipdrumsticks|unknown|1000",
+    "bn": "scharrelkipdrumsticks",
+    "wg": 1000
   },
   {
     "n": "Scharrelkipfilethaasjes Gepaneerd",
@@ -10048,7 +10115,7 @@
   },
   {
     "n": "Biologische Amandeldrink",
-    "p": "1.15",
+    "p": "1.48",
     "o": "",
     "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235384_main_cms_1_nl_nl_biologische_amandeldrink_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -10072,7 +10139,7 @@
   },
   {
     "n": "Sojadrink Ongezoet",
-    "p": "0.89",
+    "p": "0.86",
     "o": "",
     "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226731_main_cms_2_nl_nl_sojadrink_ongezoet_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -10228,7 +10295,7 @@
   },
   {
     "n": "Vloeibaar Wasmiddel Zwart",
-    "p": "3.75",
+    "p": "3.72",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1200501_1_main_cms_1_nl_nl_vloeibaar_wasmiddel_zwart_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -10343,7 +10410,7 @@
   },
   {
     "n": "Cetirizine Dihci 10 Mg",
-    "p": "1.69",
+    "p": "1.67",
     "o": "",
     "s": "Cetirizine diHCI 10 mg",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205415_main_cms_2_nl_nl_cetirizine_dihci_10_mg_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -10580,14 +10647,15 @@
   },
   {
     "n": "Luxe Vloerbrood Meergranen",
-    "p": "1.99",
+    "p": "1.69",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225233_main_cms_7_nl_nl_luxe_vloerbrood_meergranen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Bakery",
     "cn": "luxe meergranen vloerbrood",
-    "ik": "tok:luxe|meergranen-vloerbrood|na",
-    "bn": "luxe"
+    "ik": "tok:luxe|meergranen-vloerbrood|1",
+    "bn": "luxe",
+    "wg": 1
   },
   {
     "n": "Luxe Vloerbrood Maïs",
@@ -10603,7 +10671,7 @@
   },
   {
     "n": "Boeren Tijger Bruin",
-    "p": "1.24",
+    "p": "1.19",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225219_main_cms_2_nl_nl_boeren_tijger_bruin_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -10639,7 +10707,7 @@
   },
   {
     "n": "Mueslibollen",
-    "p": "1.75",
+    "p": "1.34",
     "o": "",
     "s": "4 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219447_main_cms_1_nl_nl_mueslibollen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -10687,7 +10755,7 @@
   },
   {
     "n": "Rozijnenbrood",
-    "p": "1.99",
+    "p": "1.97",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1207239_main_cms_7_nl_nl_rozijnenbrood_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -10879,7 +10947,7 @@
   },
   {
     "n": "Borrelblokjes Jong Belegen",
-    "p": "1.79",
+    "p": "2.39",
     "o": "",
     "s": "175 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226180_main_cms_12_nl_nl_borrelblokjes_jong_belegen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -11344,7 +11412,7 @@
   },
   {
     "n": "Aluminiumfolie",
-    "p": "1.79",
+    "p": "1.75",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233257_main_cms_1_nl_nl_aluminiumfolie_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -11356,7 +11424,7 @@
   },
   {
     "n": "Pedaalemmer Zakken 25 L",
-    "p": "1.39",
+    "p": "1.38",
     "o": "",
     "s": "25 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233207_main_cms_1_nl_nl_pedaalemmer_zakken_25_l_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -11416,7 +11484,7 @@
   },
   {
     "n": "Boterhamzakjes",
-    "p": "0.59",
+    "p": "0.58",
     "o": "",
     "s": "120 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233186_main_cms_1_nl_nl_boterhamzakjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -11428,7 +11496,7 @@
   },
   {
     "n": "Power Force",
-    "p": "1.19",
+    "p": "1.15",
     "o": "",
     "s": "30 vellen",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233183_main_cms_1_nl_nl_bakvellen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -11535,7 +11603,7 @@
   },
   {
     "n": "Hamblokjes",
-    "p": "2.39",
+    "p": "2.27",
     "o": "",
     "s": "300 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235826_main_cms_2_nl_nl_hamblokjes_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -11700,6 +11768,18 @@
     "ik": "tok:slavinken|unknown|400",
     "bn": "slavinken",
     "wg": 400
+  },
+  {
+    "n": "Slagersknakworsten",
+    "p": "2.49",
+    "o": "",
+    "s": "320 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219475_main_cms_3_nl_nl_slagersknakworsten_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Meat & Seafood",
+    "cn": "slagersknakworsten",
+    "ik": "tok:slagersknakworsten|unknown|320",
+    "bn": "slagersknakworsten",
+    "wg": 320
   },
   {
     "n": "Gemarineerde Filetlapjes Tandoori",
@@ -12380,7 +12460,7 @@
   },
   {
     "n": "Vers sinaasappel-banaansap",
-    "p": "2.69",
+    "p": "3.85",
     "o": "",
     "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1234716_main_cms_1_nl_nl_vers_sinaasappel_banaansap_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -12620,7 +12700,7 @@
   },
   {
     "n": "Haarspray",
-    "p": "1.95",
+    "p": "1.93",
     "o": "",
     "s": "400 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1232145_main_cms_1_nl_nl_haarspray_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -12748,6 +12828,18 @@
     "ik": "tok:aioli|unknown|200",
     "bn": "aioli",
     "wg": 200
+  },
+  {
+    "n": "Paturain",
+    "p": "1.49",
+    "o": "OP=OP",
+    "s": "90 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226179_main_cms_2_nl_nl_roomkaas_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Other",
+    "cn": "paturain",
+    "ik": "tok:paturain|unknown|90",
+    "bn": "paturain",
+    "wg": 90
   },
   {
     "n": "Plantaardig Alternatief Voor Roomkaas",
@@ -13254,7 +13346,7 @@
   },
   {
     "n": "Mini-crackers Olijfolie & Oregano",
-    "p": "1.49",
+    "p": "1.48",
     "o": "",
     "s": "250 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1221384_1_main_cms_1_nl_nl_mini_crackers_olijfolie_en_oregano_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -13492,7 +13584,7 @@
   },
   {
     "n": "Volle Chocolademelk",
-    "p": "0.85",
+    "p": "0.79",
     "o": "",
     "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/variant_1225276_1_main_cms_1_nl_nl_volle_chocolademelk_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -13501,6 +13593,18 @@
     "ik": "tok:volle|chocolademelk|1000",
     "bn": "volle",
     "wg": 1000
+  },
+  {
+    "n": "Milkshake",
+    "p": "0.99",
+    "o": "",
+    "s": "200 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1224973_main_cms_6_nl_nl_milkshake_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Dairy & Eggs",
+    "cn": "milkshake",
+    "ik": "tok:milkshake|unknown|200",
+    "bn": "milkshake",
+    "wg": 200
   },
   {
     "n": "6-pack Houdbare Halfvolle Melk",
@@ -13573,18 +13677,6 @@
     "wg": 800
   },
   {
-    "n": "Milkshake",
-    "p": "0.99",
-    "o": "",
-    "s": "230 ml",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1204568_main_cms_11_nl_nl_milkshake_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Dairy & Eggs",
-    "cn": "milkshake",
-    "ik": "tok:milkshake|unknown|230",
-    "bn": "milkshake",
-    "wg": 230
-  },
-  {
     "n": "6-pack Volle Chocolademelk",
     "p": "1.89",
     "o": "",
@@ -13621,7 +13713,7 @@
   },
   {
     "n": "6-pack 0.0 Pilsener Of Radler",
-    "p": "2.49",
+    "p": "",
     "o": "",
     "s": "6-pack 0.0 pilsener of radler",
     "i": "https://s7g10.scene7.com/is/image/aldinord/91216331_week33?bfc=on&wid=1440&fmt=webp-alpha",
@@ -13676,6 +13768,17 @@
     "wg": 500
   },
   {
+    "n": "Schultenbräu",
+    "p": "0.99",
+    "o": "",
+    "s": "33 cl",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235548_main_cms_2_nl_nl_ipa_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Beverages",
+    "cn": "schultenbru schultenbr",
+    "ik": "tok:schultenbru|schultenbr|na",
+    "bn": "schultenbru"
+  },
+  {
     "n": "4-pack Belgisch Abdijbier Blond 0.0%",
     "p": "4.75",
     "o": "",
@@ -13688,7 +13791,7 @@
   },
   {
     "n": "Tropical Tripel",
-    "p": "0.79",
+    "p": "0.99",
     "o": "",
     "s": "33 cl",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233075_main_cms_2_nl_nl_tropical_tripel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -13730,17 +13833,6 @@
     "ik": "tok:brouwmeester|unknown|7200",
     "bn": "brouwmeester",
     "wg": 7200
-  },
-  {
-    "n": "Schultenbräu",
-    "p": "1.09",
-    "o": "",
-    "s": "50 cl",
-    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225676_main_cms_2_nl_nl_hefe_weizen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
-    "c": "Beverages",
-    "cn": "schultenbru schultenbr",
-    "ik": "tok:schultenbru|schultenbr|na",
-    "bn": "schultenbru"
   },
   {
     "n": "4-pack Tripel",
@@ -13810,7 +13902,7 @@
   },
   {
     "n": "6-pack Pilsener",
-    "p": "4.69",
+    "p": "5.99",
     "o": "",
     "s": "6-pack pilsener",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216347_main_cms_2_nl_nl_6_pack_pilsener_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -14211,7 +14303,7 @@
   },
   {
     "n": "Gezichtsreiniging",
-    "p": "1.09",
+    "p": "1.06",
     "o": "",
     "s": "250 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1223341_main_cms_6_nl_nl_gezichtsreiniging_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -14989,7 +15081,7 @@
   },
   {
     "n": "Tortilla Wraps Naturel",
-    "p": "0.95",
+    "p": "0.94",
     "o": "",
     "s": "370 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225942_main_cms_1_nl_nl_tortilla_wraps_naturel_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -15073,7 +15165,7 @@
   },
   {
     "n": "Kattenvoer Adult Kip",
-    "p": "4.99",
+    "p": "4.89",
     "o": "",
     "s": "800 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1241710_main_cms_2_nl_nl_kattenvoer_adult_kip_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -15358,6 +15450,18 @@
     "wg": 350
   },
   {
+    "n": "Sungold kiwi's",
+    "p": "3.29",
+    "o": "",
+    "s": "4 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1221119_main_cms_5_nl_nl_sungold_kiwi_s_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Fruits & Vegetables",
+    "cn": "sungold kiwi",
+    "ik": "tok:sungold|kiwi|4",
+    "bn": "sungold",
+    "wg": 4
+  },
+  {
     "n": "Conference Peren",
     "p": "1.79",
     "o": "",
@@ -15407,18 +15511,19 @@
   },
   {
     "n": "Hollandse Jonagold Appels",
-    "p": "1.95",
+    "p": "1.79",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "1.50 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220096_main_cms_7_nl_nl_hollandse_jonagold_appels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "hollandse appels jonagold",
-    "ik": "tok:hollandse|appels-jonagold|na",
-    "bn": "hollandse"
+    "ik": "tok:hollandse|appels-jonagold|1500",
+    "bn": "hollandse",
+    "wg": 1500
   },
   {
     "n": "Wilde Perziken",
-    "p": "1.49",
+    "p": "3.49",
     "o": "",
     "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1220021_main_cms_11_nl_nl_wilde_perziken_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -15441,14 +15546,15 @@
     "wg": 2000
   },
   {
-    "n": "14.08 - 16.08",
-    "p": "0.95",
+    "n": "Citroenen",
+    "p": "1.59",
     "o": "",
     "s": "500 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219783_main_cms_19_nl_nl_citroenen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
-    "cn": "08 14 16",
-    "ik": "tok:unknown|08-14-16|500",
+    "cn": "citroenen",
+    "ik": "tok:citroenen|unknown|500",
+    "bn": "citroenen",
     "wg": 500
   },
   {
@@ -15524,19 +15630,32 @@
     "wg": 1
   },
   {
-    "n": "Nederlandse Aardbeien",
-    "p": "3.49",
+    "n": "Pitloze Rode Druiven",
+    "p": "1.15",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "500 ml",
+    "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219224_main_cms_28_nl_nl_pitloze_rode_druiven_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
+    "c": "Fruits & Vegetables",
+    "cn": "pitloze druiven rode",
+    "ik": "tok:pitloze|druiven-rode|500",
+    "bn": "pitloze",
+    "wg": 500
+  },
+  {
+    "n": "Nederlandse Aardbeien",
+    "p": "2.99",
+    "o": "",
+    "s": "400 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219201_main_cms_12_nl_nl_nederlandse_aardbeien_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Fruits & Vegetables",
     "cn": "nederlandse aardbeien",
-    "ik": "tok:nederlandse|aardbeien|na",
-    "bn": "nederlandse"
+    "ik": "tok:nederlandse|aardbeien|400",
+    "bn": "nederlandse",
+    "wg": 400
   },
   {
     "n": "Cantaloupe Meloen",
-    "p": "1.49",
+    "p": "2.49",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219136_main_cms_10_nl_nl_cantaloupe_meloen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -15548,7 +15667,7 @@
   },
   {
     "n": "Handsinaasappels",
-    "p": "2.69",
+    "p": "3.19",
     "o": "",
     "s": "2 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1219056_main_cms_1_nl_nl_handsinaasappels_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -15835,7 +15954,7 @@
   },
   {
     "n": "Drinkyoghurt",
-    "p": "1.49",
+    "p": "1.34",
     "o": "",
     "s": "850 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1235493_main_cms_6_nl_nl_drinkyoghurt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -15907,7 +16026,7 @@
   },
   {
     "n": "Magere Perzikyoghurt",
-    "p": "1.45",
+    "p": "1.44",
     "o": "",
     "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226891_main_cms_4_nl_nl_magere_perzikyoghurt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -15919,7 +16038,7 @@
   },
   {
     "n": "Magere Aardbeienyoghurt",
-    "p": "1.49",
+    "p": "1.48",
     "o": "",
     "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226881_main_cms_3_nl_nl_magere_aardbeienyoghurt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -16073,7 +16192,7 @@
   },
   {
     "n": "Biologische Verse Magere Yoghurt",
-    "p": "1.45",
+    "p": "1.39",
     "o": "",
     "s": "1 l",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1225282_main_cms_2_nl_nl_biologische_verse_magere_yoghurt_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -16300,7 +16419,7 @@
   },
   {
     "n": "Proteïne Kwark",
-    "p": "0.85",
+    "p": "0.79",
     "o": "",
     "s": "180 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1203902_main_cms_18_nl_nl_proteine_kwark_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -16871,7 +16990,7 @@
   },
   {
     "n": "6-pack Schuursponzen",
-    "p": "0.79",
+    "p": "0.78",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1233205_main_cms_5_nl_nl_6_pack_schuursponzen_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -17001,7 +17120,7 @@
   },
   {
     "n": "2-pack wc-blokken 5-in-1",
-    "p": "1.69",
+    "p": "1.59",
     "o": "",
     "s": "2-pack wc-blokken 5-in-1",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216311_main_cms_10_nl_nl_2_pack_wc_blokken_5_in_1_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -17131,14 +17250,15 @@
   },
   {
     "n": "Jean Giner Chardonnay Pays d'Oc",
-    "p": "4.99",
+    "p": "3.99",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "750 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1229779_main_cms_3_nl_nl_jean_giner_chardonnay_pays_d_oc_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "jean chardonnay giner oc pays",
-    "ik": "tok:jean|chardonnay-giner-oc-pays|na",
-    "bn": "jean"
+    "ik": "tok:jean|chardonnay-giner-oc-pays|750",
+    "bn": "jean",
+    "wg": 750
   },
   {
     "n": "Jonkersdal Moscato",
@@ -17202,7 +17322,7 @@
   },
   {
     "n": "Kiwi Trail Sauvignon Blanc",
-    "p": "4.50",
+    "p": "5.99",
     "o": "",
     "s": "750 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1221191_main_cms_7_nl_nl_kiwi_trail_sauvignon_blanc_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -17286,7 +17406,7 @@
   },
   {
     "n": "Adega De Pegões Wit",
-    "p": "3.00",
+    "p": "3.99",
     "o": "",
     "s": "750 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1218786_main_cms_4_nl_nl_adega_de_pegoes_wit_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -17358,14 +17478,15 @@
   },
   {
     "n": "Esteban Biologische Verdejo Sauvignon Blanc",
-    "p": "4.99",
+    "p": "3.75",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "750 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1213211_main_cms_6_nl_nl_esteban_biologische_verdejo_sauvignon_blanc_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Beverages",
     "cn": "esteban biologische blanc sauvignon verdejo",
-    "ik": "tok:esteban|biologische-blanc-sauvignon-verdejo|na",
-    "bn": "esteban"
+    "ik": "tok:esteban|biologische-blanc-sauvignon-verdejo|750",
+    "bn": "esteban",
+    "wg": 750
   },
   {
     "n": "Cantolino Pinot Grigio Bianco",
@@ -17633,7 +17754,7 @@
   },
   {
     "n": "Kaneel Swirl",
-    "p": "0.59",
+    "p": "0.58",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226709_main_cms_1_nl_nl_kaneel_swirl_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -17657,7 +17778,7 @@
   },
   {
     "n": "Chocoladebroodje",
-    "p": "0.59",
+    "p": "0.58",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1226695_main_cms_1_nl_nl_chocoladebroodje_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -17777,7 +17898,7 @@
   },
   {
     "n": "Tijgerbol",
-    "p": "0.35",
+    "p": "0.33",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1211338_main_cms_3_nl_nl_tijgerbol_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -17837,7 +17958,7 @@
   },
   {
     "n": "Italiaanse Bol",
-    "p": "0.49",
+    "p": "0.48",
     "o": "",
     "s": "1 stuk",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1205097_main_cms_1_nl_nl_italiaanse_bol_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
@@ -18134,14 +18255,15 @@
   },
   {
     "n": "Vegan Oosterse Burgers",
-    "p": "1.69",
+    "p": "1.49",
     "o": "",
-    "s": "Aanbieding van 17.08",
+    "s": "200 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1200140_main_cms_5_nl_nl_vegan_oosterse_burgers_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",
     "c": "Meat & Seafood",
     "cn": "vegan burgers oosterse",
-    "ik": "tok:vegan|burgers-oosterse|na",
-    "bn": "vegan"
+    "ik": "tok:vegan|burgers-oosterse|200",
+    "bn": "vegan",
+    "wg": 200
   },
   {
     "n": "Spicy Ramen Noodles",
@@ -18441,7 +18563,7 @@
   },
   {
     "n": "Adega De Pegões Rosé",
-    "p": "3.00",
+    "p": "3.99",
     "o": "",
     "s": "750 ml",
     "i": "https://s7g10.scene7.com/is/image/aldinord/product_1216210_main_cms_3_nl_nl_adega_de_pegoes_rose_cw01_2024?bfc=on&wid=1440&fmt=webp-alpha",

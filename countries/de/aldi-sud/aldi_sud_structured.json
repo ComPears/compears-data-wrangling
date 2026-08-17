@@ -1403,17 +1403,17 @@
     "wg": 250
   },
   {
-    "n": "Wonnemeyer Feinkostsalat 250 g, Ei",
-    "p": "1.79",
+    "n": "Milsani Fruchtbuttermilch Dessert 200 g, Erdbeere",
+    "p": "0.59",
     "o": "",
-    "s": "250 ml",
+    "s": "200 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-feinkostsalat-250-g-ei-000000000113132003",
+    "i": "https://www.aldi-sued.de/produkt/milsani-fruchtbuttermilch-dessert-200-g-erdbeere-000000000202694001",
     "c": "Other",
-    "cn": "wonnemeyer ei feinkostsalat",
-    "ik": "tok:wonnemeyer|ei-feinkostsalat|250",
-    "bn": "wonnemeyer",
-    "wg": 250
+    "cn": "milsani dessert erdbeere fruchtbuttermilch",
+    "ik": "tok:milsani|dessert-erdbeere-fruchtbuttermilch|200",
+    "bn": "milsani",
+    "wg": 200
   },
   {
     "n": "Meine Käsetheke Österreichischer Bergkäse 350 G",
@@ -3106,6 +3106,19 @@
     "wg": 400
   },
   {
+    "n": "Goldähren Klassich Kleiner Sandwichtoast Saaten-Harmonie 375 G",
+    "p": "0.99",
+    "o": "",
+    "s": "380 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-klassich-kleiner-sandwichtoast-saaten-harmonie-375-g-000000000000186872",
+    "c": "Other",
+    "cn": "goldhren gold harmonie hren klassich kleiner saaten sandwichtoast",
+    "ik": "tok:goldhren|gold-harmonie-hren-klassich-kleiner-saaten-sandwichtoast|380",
+    "bn": "goldhren",
+    "wg": 380
+  },
+  {
     "n": "Eifeler Weizenmischbrot 400 G",
     "p": "1.39",
     "o": "",
@@ -3119,17 +3132,43 @@
     "wg": 400
   },
   {
-    "n": "Goldähren Klassich Kleiner Sandwichtoast Saaten-Harmonie 375 G",
+    "n": "Goldähren Toastbrötchen 335 g, Weizen",
     "p": "0.99",
     "o": "",
-    "s": "380 ml",
+    "s": "340 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-klassich-kleiner-sandwichtoast-saaten-harmonie-375-g-000000000000186872",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-weizen-000000000188405001",
     "c": "Other",
-    "cn": "goldhren gold harmonie hren klassich kleiner saaten sandwichtoast",
-    "ik": "tok:goldhren|gold-harmonie-hren-klassich-kleiner-saaten-sandwichtoast|380",
+    "cn": "goldhren gold hren tchen toastbr weizen",
+    "ik": "tok:goldhren|gold-hren-tchen-toastbr-weizen|340",
     "bn": "goldhren",
-    "wg": 380
+    "wg": 340
+  },
+  {
+    "n": "Goldähren Toastbrötchen 335 g, Mehrkorn",
+    "p": "0.99",
+    "o": "",
+    "s": "340 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-mehrkorn-000000000188405002",
+    "c": "Other",
+    "cn": "goldhren gold hren mehrkorn tchen toastbr",
+    "ik": "tok:goldhren|gold-hren-mehrkorn-tchen-toastbr|340",
+    "bn": "goldhren",
+    "wg": 340
+  },
+  {
+    "n": "Goldähren Toastbrötchen 335 g, Dinkel",
+    "p": "0.99",
+    "o": "",
+    "s": "340 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-dinkel-000000000188405003",
+    "c": "Other",
+    "cn": "goldhren dinkel gold hren tchen toastbr",
+    "ik": "tok:goldhren|dinkel-gold-hren-tchen-toastbr|340",
+    "bn": "goldhren",
+    "wg": 340
   },
   {
     "n": "Gutes Vom Bäcker Nuss-Rosinen-Schwarzbrot 250 G",
@@ -3197,45 +3236,6 @@
     "wg": 260
   },
   {
-    "n": "Lyttos Pitabrot Spezialitäten, Pita Tasche",
-    "p": "1.39",
-    "o": "",
-    "s": "420 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/lyttos-pitabrot-spezialitaeten-pita-tasche-000000000485541001",
-    "c": "Other",
-    "cn": "lyttos pita pitabrot spezialit tasche ten",
-    "ik": "tok:lyttos|pita-pitabrot-spezialit-tasche-ten|420",
-    "bn": "lyttos",
-    "wg": 420
-  },
-  {
-    "n": "Lyttos Pitabrot Spezialitäten, Pitatasche Oval",
-    "p": "1.39",
-    "o": "",
-    "s": "420 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/lyttos-pitabrot-spezialitaeten-pitatasche-oval-000000000485541003",
-    "c": "Other",
-    "cn": "lyttos oval pitabrot pitatasche spezialit ten",
-    "ik": "tok:lyttos|oval-pitabrot-pitatasche-spezialit-ten|420",
-    "bn": "lyttos",
-    "wg": 420
-  },
-  {
-    "n": "Goldähren Toastbrötchen 335 g, Weizen",
-    "p": "0.99",
-    "o": "",
-    "s": "340 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-weizen-000000000188405001",
-    "c": "Other",
-    "cn": "goldhren gold hren tchen toastbr weizen",
-    "ik": "tok:goldhren|gold-hren-tchen-toastbr-weizen|340",
-    "bn": "goldhren",
-    "wg": 340
-  },
-  {
     "n": "Golden Toast Sandwich 750 g, Weizen",
     "p": "2.29",
     "o": "",
@@ -3260,32 +3260,6 @@
     "ik": "tok:golden|rnerharmonie-sandwich-toast|750",
     "bn": "golden",
     "wg": 750
-  },
-  {
-    "n": "Goldähren Toastbrötchen 335 g, Mehrkorn",
-    "p": "0.99",
-    "o": "",
-    "s": "340 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-mehrkorn-000000000188405002",
-    "c": "Other",
-    "cn": "goldhren gold hren mehrkorn tchen toastbr",
-    "ik": "tok:goldhren|gold-hren-mehrkorn-tchen-toastbr|340",
-    "bn": "goldhren",
-    "wg": 340
-  },
-  {
-    "n": "Goldähren Toastbrötchen 335 g, Dinkel",
-    "p": "0.99",
-    "o": "",
-    "s": "340 ml",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-toastbroetchen-335-g-dinkel-000000000188405003",
-    "c": "Other",
-    "cn": "goldhren dinkel gold hren tchen toastbr",
-    "ik": "tok:goldhren|dinkel-gold-hren-tchen-toastbr|340",
-    "bn": "goldhren",
-    "wg": 340
   },
   {
     "n": "Meine Backwelt Sonnenblumenkrüstchen",
@@ -3626,17 +3600,17 @@
     "wg": 320
   },
   {
-    "n": "Goldähren Kartoffelkrüstchen, Dinkel 480 G",
-    "p": "1.79",
+    "n": "Goldähren Hot-Dog Brötchen 250 G",
+    "p": "0.95",
     "o": "",
-    "s": "480 ml",
+    "s": "250 ml",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/goldaehren-kartoffelkruestchen-dinkel-480-g-000000000630939001",
+    "i": "https://www.aldi-sued.de/produkt/goldaehren-hot-dog-broetchen-250-g-000000000000187353",
     "c": "Other",
-    "cn": "goldhren dinkel gold hren kartoffelkr stchen",
-    "ik": "tok:goldhren|dinkel-gold-hren-kartoffelkr-stchen|480",
+    "cn": "goldhren br dog gold hot hren tchen",
+    "ik": "tok:goldhren|br-dog-gold-hot-hren-tchen|250",
     "bn": "goldhren",
-    "wg": 480
+    "wg": 250
   },
   {
     "n": "Meine Backwelt Apfelecke",
@@ -5640,6 +5614,19 @@
     "wg": 200
   },
   {
+    "n": "Wonnemeyer Feinkostsalat 250 g, Ei",
+    "p": "1.79",
+    "o": "",
+    "s": "250 ml",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/wonnemeyer-feinkostsalat-250-g-ei-000000000113132003",
+    "c": "Other",
+    "cn": "wonnemeyer ei feinkostsalat",
+    "ik": "tok:wonnemeyer|ei-feinkostsalat|250",
+    "bn": "wonnemeyer",
+    "wg": 250
+  },
+  {
     "n": "Wonnemeyer Feinkostsalat 250 g, Lyoner",
     "p": "1.79",
     "o": "",
@@ -5965,6 +5952,19 @@
     "wg": 1
   },
   {
+    "n": "Gardenline Frische Kräuter, Zitronenthymian",
+    "p": "2.49",
+    "o": "",
+    "s": "1 stuk",
+    "l": "",
+    "i": "https://www.aldi-sued.de/produkt/gardenline-frische-kraeuter-zitronenthymian-000000000748896004",
+    "c": "Other",
+    "cn": "gardenline frische kr uter zitronenthymian",
+    "ik": "tok:gardenline|frische-kr-uter-zitronenthymian|1",
+    "bn": "gardenline",
+    "wg": 1
+  },
+  {
     "n": "Mucci Waffelhörnchen 720 ml, Zitrone-Buttermilch",
     "p": "1.99",
     "o": "",
@@ -6146,17 +6146,17 @@
     "wg": 540
   },
   {
-    "n": "Meine Kuchenwelt Gefüllte Mini Muffins 225 g, Zitronengesch. Und Speisequarkfü.",
-    "p": "1.89",
+    "n": "Gardenline Damen Und Herren Gartenhandschuhe, Zitronen, S/7",
+    "p": "2.99",
     "o": "",
-    "s": "230 ml",
+    "s": "1 stuk",
     "l": "",
-    "i": "https://www.aldi-sued.de/produkt/meine-kuchenwelt-gefuellte-mini-muffins-225-g-zitronengesch-und-speisequarkfue-000000000187621002",
+    "i": "https://www.aldi-sued.de/produkt/gardenline-damen-und-herren-gartenhandschuhe-zitronen-s-7-000000000722945009",
     "c": "Other",
-    "cn": "meine gef kuchenwelt llte mini muffins speisequarkf und zitronengesch",
-    "ik": "tok:meine|gef-kuchenwelt-llte-mini-muffins-speisequarkf-und-zitronengesch|230",
-    "bn": "meine",
-    "wg": 230
+    "cn": "gardenline damen gartenhandschuhe herren und zitronen",
+    "ik": "tok:gardenline|damen-gartenhandschuhe-herren-und-zitronen|1",
+    "bn": "gardenline",
+    "wg": 1
   },
   {
     "n": "Rio D' Oro Traubendirektsaft 1 L",
@@ -12334,19 +12334,6 @@
     "wg": 1500
   },
   {
-    "n": "Toylino Wasser-Blaster, Wasserkugelwerfer",
-    "p": "4.99",
-    "o": "",
-    "s": "1 stuk",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/toylino-wasser-blaster-wasserkugelwerfer-000000000718790001",
-    "c": "Other",
-    "cn": "toylino blaster wasser wasserkugelwerfer",
-    "ik": "tok:toylino|blaster-wasser-wasserkugelwerfer|1",
-    "bn": "toylino",
-    "wg": 1
-  },
-  {
     "n": "Ambiano Wasserkocher Oder Doppelschlitz-Toaster, Wasserkocher, Beige",
     "p": "9.99",
     "o": "",
@@ -14237,19 +14224,6 @@
     "cn": "alio lemon lmittel sp",
     "ik": "tok:alio|lemon-lmittel-sp|1000",
     "bn": "alio",
-    "wg": 1000
-  },
-  {
-    "n": "Power Force Spülmittel Lemon 1 L",
-    "p": "0.85",
-    "o": "",
-    "s": "1 l",
-    "l": "",
-    "i": "https://www.aldi-sued.de/produkt/power-force-spuelmittel-lemon-1-l-000000000000645738",
-    "c": "Other",
-    "cn": "power force lemon lmittel sp",
-    "ik": "tok:power|force-lemon-lmittel-sp|1000",
-    "bn": "power",
     "wg": 1000
   },
   {
