@@ -30,6 +30,7 @@ def _bootstrap() -> Path:
 
 ROOT = _bootstrap()
 from config.paths import load_stores_config, store_config, store_dir  # noqa: E402
+from data_contract import utc_iso  # noqa: E402
 
 
 def _count(path: Path) -> int:
@@ -42,20 +43,45 @@ def _count(path: Path) -> int:
     return len(data) if isinstance(data, list) else 0
 
 
+def _last_successful_at(path: Path) -> str | None:
+    """Read true observation time, falling back to the catalog's git history."""
+    if path.is_file():
+        try:
+            rows = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            rows = []
+        stamps = []
+        if isinstance(rows, list):
+            for row in rows:
+                if not isinstance(row, dict):
+                    continue
+                stamp = utc_iso(
+                    row.get("observedAt") or row.get("scrapedAt") or row.get("scraped_at")
+                )
+                if stamp:
+                    stamps.append(stamp)
+        if stamps:
+            return max(stamps)
+
+    try:
+        relative = str(path.relative_to(ROOT))
+    except ValueError:
+        return None
+    result = subprocess.run(
+        ["git", "log", "-1", "--format=%cI", "--", relative],
+        cwd=ROOT,
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    return utc_iso(result.stdout.strip()) if result.returncode == 0 else None
+
+
 def _snapshot_paths(workdir: Path, cfg: dict) -> list[Path]:
-    paths = [workdir / cfg["catalog"]]
-    for pattern in cfg.get("intermediate_globs") or []:
-        paths.extend(sorted(workdir.glob(pattern)))
-    # de-dupe while preserving order
-    seen: set[Path] = set()
-    unique: list[Path] = []
-    for path in paths:
-        resolved = path.resolve()
-        if resolved in seen:
-            continue
-        seen.add(resolved)
-        unique.append(path)
-    return unique
+    # Preserve only the publishable catalog. Intermediate files must retain
+    # the current attempt—even when empty or malformed—so diagnostics can
+    # explain why the last-good catalog was restored.
+    return [workdir / cfg["catalog"]]
 
 
 def _restore(backups: dict[Path, Path]) -> None:
@@ -68,10 +94,10 @@ def _write_status(path: Path | None, **status: object) -> None:
     if path is None:
         return
     path.parent.mkdir(parents=True, exist_ok=True)
-    payload = {
-        "timestamp": datetime.now(timezone.utc).isoformat(),
-        **status,
-    }
+    attempted_at = datetime.now(timezone.utc).isoformat()
+    payload = {"timestamp": attempted_at, "attempted_at": attempted_at, **status}
+    if payload.get("outcome") == "refreshed":
+        payload["last_successful_at"] = attempted_at
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
@@ -116,6 +142,7 @@ def main() -> None:
             backups[path] = dest
 
         before = _count(catalog)
+        previous_success = _last_successful_at(catalog)
         print(f"Pre-scrape catalog count: {before} (minimum {minimum})")
 
         for step in steps:
@@ -141,6 +168,7 @@ def main() -> None:
                     generated=generated,
                     final=restored,
                     minimum=minimum,
+                    last_successful_at=previous_success,
                 )
                 if args.soft_fail or optional:
                     print(f"::warning::{args.country}/{args.store} scrape failed; preserved {restored} last-good products")
@@ -169,6 +197,7 @@ def main() -> None:
                 generated=after,
                 final=restored,
                 minimum=minimum,
+                last_successful_at=previous_success,
             )
             # Optional stores should not fail the whole matrix when bot-walled.
             if args.soft_fail or optional:

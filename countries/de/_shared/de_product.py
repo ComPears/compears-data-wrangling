@@ -23,6 +23,7 @@ def _repo_root() -> Path:
 
 _repo_root()
 from category_utils import ensure_canonical, infer_category_from_name, structured_with_category
+from data_contract import parse_quantity
 from product_sanitize import dedupe_by_identity
 
 
@@ -32,12 +33,6 @@ _PRICE_RE = re.compile(
     r"(\d{1,3}(?:\.\d{3})*,\d{2}|\d+,\d{2}|\d+(?:[.,]\d{1,2})?)"
     r"(?:\s*€)?"
 )
-_SIZE_RE = re.compile(
-    r"(\d+(?:[.,]\d+)?)\s*(g|kg|ml|l|cl|liter|litre|pack|pk|x|stück)\b",
-    re.IGNORECASE,
-)
-
-
 def parse_eur_price(value: Any) -> str | None:
     if value is None:
         return None
@@ -69,16 +64,9 @@ def parse_eur_price(value: Any) -> str | None:
 
 def guess_size(name: str, size_hint: str | None = None) -> str:
     for candidate in (size_hint or "", name):
-        match = _SIZE_RE.search((candidate or "").replace(",", "."))
-        if match:
-            amount, unit = match.group(1).replace(",", "."), match.group(2).lower()
-            if unit in {"litre", "liter"}:
-                unit = "l"
-            if unit in {"pack", "pk"}:
-                return f"{amount} pack"
-            if unit == "stück":
-                return f"{amount} stück"
-            return f"{amount} {unit}"
+        quantity = parse_quantity(candidate)
+        if quantity:
+            return str(quantity["display"])
     return ""
 
 
@@ -93,6 +81,9 @@ def raw_product(
     barcode: str | None = None,
     category: str | None = None,
     base_url: str | None = None,
+    retailer_product_id: str | None = None,
+    availability: str | None = None,
+    brand: Any = None,
 ) -> dict[str, Any] | None:
     clean_name = re.sub(r"\s+", " ", (name or "").strip())
     parsed_price = parse_eur_price(price)
@@ -108,6 +99,8 @@ def raw_product(
         image_url = urljoin(base_url, image_url)
 
     cat = ensure_canonical(category) if category else infer_category_from_name(clean_name)
+    if cat == "Other" and category:
+        cat = infer_category_from_name(f"{category} {clean_name}")
     entry: dict[str, Any] = {
         "n": clean_name,
         "p": parsed_price,
@@ -116,7 +109,20 @@ def raw_product(
         "l": image_url,
         "i": product_url,
         "c": cat,
+        "currency": "EUR",
     }
+    if product_url:
+        entry["productUrl"] = product_url
+    if image_url:
+        entry["imageUrl"] = image_url
+    if retailer_product_id:
+        entry["retailerProductId"] = str(retailer_product_id).strip()
+    if availability:
+        entry["availability"] = str(availability).strip().lower()
+    resolved_brand = brand.get("name") if isinstance(brand, dict) else brand
+    if resolved_brand:
+        entry["bn"] = str(resolved_brand).strip()
+        entry["brandSource"] = "retailer"
     if barcode:
         entry["b"] = str(barcode).strip()
     return entry
@@ -136,9 +142,15 @@ def structure_raw_products(raw_items: list[dict[str, Any]]) -> list[dict[str, An
             offer=item.get("o") or item.get("offer"),
             barcode=item.get("b") or item.get("barcode"),
             category=item.get("c") or item.get("category"),
+            retailer_product_id=item.get("retailerProductId") or item.get("sku") or item.get("id"),
+            availability=item.get("availability"),
+            brand=item.get("bn") or item.get("brand") or item.get("brandName"),
         )
         if not entry:
             continue
+        for key in ("sourceQuery", "sourceUrl", "sourceMethod"):
+            if item.get(key):
+                entry[key] = item[key]
         sanitized = structured_with_category(entry, entry)
         if sanitized:
             structured.append(sanitized)

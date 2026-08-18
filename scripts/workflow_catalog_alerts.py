@@ -21,13 +21,51 @@ BASELINE_PATH = ROOT / "data-quality-report.json"
 SCRAPE_STATUS_DIR = ROOT / "reports" / "scrape-status"
 
 
-def baseline_counts() -> dict[tuple[str, str], int]:
+def baseline_counts() -> dict[tuple[str, str], dict[str, int]]:
+    """Read the last published catalogs from git, not the report just generated."""
+    git_counts: dict[tuple[str, str], dict[str, int]] = {}
+    for country, store, _path in all_catalog_paths():
+        relative = catalog_rel_path(country, store)
+        result = subprocess.run(
+            ["git", "show", f"HEAD:{relative}"],
+            cwd=ROOT,
+            check=False,
+            capture_output=True,
+            text=True,
+        )
+        if result.returncode != 0:
+            continue
+        try:
+            rows = json.loads(result.stdout)
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(rows, list):
+            continue
+        versions = []
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            try:
+                versions.append(int(row.get("schemaVersion") or 1))
+            except (TypeError, ValueError):
+                versions.append(1)
+        git_counts[(country, store)] = {
+            "count": len(rows),
+            "schema_version": min(versions, default=1),
+        }
+    if git_counts:
+        return git_counts
+
+    # Non-git/test fallback for older report fixtures.
     if not BASELINE_PATH.exists():
         return {}
     with open(BASELINE_PATH, encoding="utf-8") as handle:
         rows = json.load(handle)
     return {
-        (str(row.get("country") or "nl"), str(row["store"])): int(row.get("total") or 0)
+        (str(row.get("country") or "nl"), str(row["store"])): {
+            "count": int(row.get("total") or 0),
+            "schema_version": int(row.get("schema_version") or 1),
+        }
         for row in rows
         if isinstance(row, dict) and row.get("store")
     }
@@ -85,15 +123,17 @@ def last_change_epoch(path: Path) -> int:
     return int(path.stat().st_mtime) if path.exists() else 0
 
 
-def scrape_attempt_epoch(status: dict | None) -> int | None:
+def last_successful_epoch(status: dict | None) -> int | None:
     if not status:
         return None
     outcome = str(status.get("outcome") or "")
     if outcome not in {"preserved", "refreshed"}:
         return None
-    stamp = status.get("timestamp")
+    stamp = status.get("last_successful_at")
+    if not stamp and outcome == "refreshed":
+        stamp = status.get("attempted_at") or status.get("timestamp")
     if not stamp:
-        return int(time.time())
+        return None
     try:
         return int(
             datetime.fromisoformat(str(stamp).replace("Z", "+00:00"))
@@ -101,7 +141,7 @@ def scrape_attempt_epoch(status: dict | None) -> int | None:
             .timestamp()
         )
     except ValueError:
-        return int(time.time())
+        return None
 
 
 def annotation(level: str, path: str, message: str) -> None:
@@ -156,10 +196,16 @@ def main() -> int:
         optional = bool(cfg.get("optional"))
         count, read_error = catalog_count(path)
         minimum = int(cfg.get("minimum_products") or 0)
-        baseline = baselines.get((country, store), 0)
+        baseline_info = baselines.get((country, store), {})
+        baseline = int(baseline_info.get("count") or 0)
+        baseline_schema = int(baseline_info.get("schema_version") or 1)
         status = outcomes.get((country, store))
-        attempt_at = scrape_attempt_epoch(status)
-        changed_at = attempt_at or last_change_epoch(path)
+        successful_at = last_successful_epoch(status)
+        # If an attempt wrote a status, only a real successful observation can
+        # establish freshness. Sanitizer changes to a preserved catalog are not
+        # evidence that the retailer was observed again.
+        changed_at = successful_at if status else last_change_epoch(path)
+        changed_at = changed_at or 0
         age_hours = (time.time() - changed_at) / 3600 if changed_at else float("inf")
         issues: list[str] = []
         warnings: list[str] = []
@@ -179,7 +225,7 @@ def main() -> int:
                 message=f"{count} products is below configured minimum {minimum}",
             )
 
-        if baseline > 0 and count < baseline * (1 - args.max_drop_ratio):
+        if baseline > 0 and baseline_schema >= 2 and count < baseline * (1 - args.max_drop_ratio):
             drop_message = (
                 f"count dropped from baseline {baseline} to {count} "
                 f"(limit {args.max_drop_ratio:.0%})"
@@ -189,7 +235,7 @@ def main() -> int:
                 optional=optional,
                 message=drop_message,
             )
-        if baseline > 0 and count > baseline * args.max_growth_ratio:
+        if baseline > 0 and baseline_schema >= 2 and count > baseline * args.max_growth_ratio:
             growth_message = (
                 f"count grew from baseline {baseline} to {count} "
                 f"(limit {args.max_growth_ratio:g}x)"
@@ -199,17 +245,27 @@ def main() -> int:
                 optional=optional,
                 message=growth_message,
             )
+        if baseline > 0 and baseline_schema < 2 and count != baseline:
+            warnings.append(
+                f"count comparison reset during schema v2 migration ({baseline} to {count})"
+            )
         if age_hours > args.max_age_hours:
             age_message = (
                 f"catalog has not changed for {age_hours:.1f}h "
                 f"(limit {args.max_age_hours:g}h)"
             )
-            # Optional stores and successful last-good retention in this run should
-            # not block publishing fresher catalogs from other stores.
-            if optional or attempt_at is not None:
-                warnings.append(f"{age_message}; refresh attempted, keeping last-good catalog")
+            # A failed attempt is not freshness. Optional stores remain warnings;
+            # stale required stores block publication until genuinely refreshed.
+            if optional:
+                warnings.append(f"{age_message}; optional store, keeping last-good catalog")
             else:
                 issues.append(age_message)
+        if age_hours < -1:
+            future_message = f"catalog observation time is {-age_hours:.1f}h in the future"
+            if optional:
+                warnings.append(f"{future_message}; optional store, keeping last-good catalog")
+            else:
+                issues.append(future_message)
 
         result = "OK" if not issues and not warnings else "; ".join([*issues, *warnings])
         summary.append(f"| `{country}/{store}` | {count} | {age_hours:.1f}h | {result} |")

@@ -66,8 +66,14 @@ def parse_entry(entry):
 
     # 1. Name: first non-empty line
     name = raw_lines[0] if raw_lines else ""
-    namelen= len(name) - 5
-    only_name = name[0:namelen]
+    # The old implementation blindly removed the final five characters, which
+    # truncated names whenever the package size was not exactly ``NNN g``.
+    only_name = re.sub(
+        r"\s+\d+(?:[.,]\d+)?\s*(?:kg|g|ml|cl|l|stuks?)\s*$",
+        "",
+        name,
+        flags=re.IGNORECASE,
+    ).strip()
 
     # 2. Offer: only lines with clear keywords
     offer_lines = [
@@ -101,7 +107,18 @@ def parse_entry(entry):
 
     return structured_with_category(
         entry,
-        {"n": only_name, "p": price, "o": offer, "s": size, "l": image},
+        {
+            "n": only_name,
+            "p": price,
+            "o": offer,
+            "s": size,
+            "l": image,
+            "productUrl": (
+                f"https://www.jumbo.com{entry['link']}"
+                if str(entry.get("link") or "").startswith("/")
+                else str(entry.get("link") or "")
+            ),
+        },
     )
 
 

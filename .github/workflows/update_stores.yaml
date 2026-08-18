@@ -1,12 +1,11 @@
 name: Daily supermarket scrapers
 
 # Three independent stages:
-# 1) scrape   – best-effort per store; never blocks delivery
-# 2) publish  – commit last-good catalogs that pass required hard gates
+# 1) scrape   – best-effort per store; preserves last-known observations
+# 2) publish  – only commits fresh, contract-valid required catalogs
 # 3) sync     – seed backend from published catalogs and deploy
 #
-# Workflow green means publish + sync completed with usable last-good data.
-# Per-store bot-walls/timeouts are coverage warnings, not delivery failures.
+# Workflow green means fresh offers passed the full quality contract.
 
 on:
   schedule:
@@ -149,6 +148,15 @@ jobs:
           if-no-files-found: error
           retention-days: 7
 
+      - name: Upload immutable raw observations
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: raw-${{ matrix.country }}-${{ matrix.store }}
+          path: artifacts/raw
+          if-no-files-found: warn
+          retention-days: 3
+
   publish:
     name: Publish last-good catalog snapshot
     needs: scrape
@@ -198,21 +206,21 @@ jobs:
       - name: Run catalog regression tests
         run: python -m unittest discover -s tests -t . -v
 
-      # Soft gates: observability only — never block publish/sync.
       - name: Validate data quality report
-        continue-on-error: true
         run: python scripts/validate_products.py
 
       - name: Generate catalog health report
-        continue-on-error: true
         run: python scripts/catalog_health.py --fail-on error
+
+      - name: Build confidence-scored comparison index
+        run: python scripts/build_match_index.py
 
       - name: Catalog freshness and drop alerts
         env:
-          CATALOG_MAX_AGE_HOURS: '72'
-          CATALOG_MAX_DROP_RATIO: '0.5'
-          CATALOG_MAX_GROWTH_RATIO: '3'
-        run: python scripts/workflow_catalog_alerts.py --warn-only
+          CATALOG_MAX_AGE_HOURS: '48'
+          CATALOG_MAX_DROP_RATIO: '0.2'
+          CATALOG_MAX_GROWTH_RATIO: '1.75'
+        run: python scripts/workflow_catalog_alerts.py
 
       - name: Write publish manifest
         run: python scripts/write_catalog_manifest.py
@@ -225,6 +233,9 @@ jobs:
           path: |
             reports/catalog-health.json
             reports/catalog-manifest.json
+            reports/match-quality.json
+            reports/matches/*.json
+            reports/quarantine/*.json
             reports/scrape-status/*.json
             data-quality-report.json
           if-no-files-found: warn

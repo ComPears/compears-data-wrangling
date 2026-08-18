@@ -26,11 +26,18 @@ CFG = StoreSearchConfig(
         f"?filter[keyword]={quote_plus(q)}&page_number=1&page_size=36"
     ),
     card_selectors=(
+        "[data-testid^='product-tile-']",
         "li[class*='pt-grid-item']",
         "[data-testid='product-tile']",
         ".pt__row .pt__item",
         "article",
         "li",
+    ),
+    price_selectors=(
+        "[data-testid='pt-retail-price']",
+        "[data-testid='contextual-price']",
+        "[data-testid*='price']",
+        "[class*='price']",
     ),
 )
 

@@ -9,7 +9,7 @@ SHARED = ROOT / "countries" / "uk" / "_shared"
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(SHARED))
 
-from uk_scrape import StoreSearchConfig, harvest_api_json  # noqa: E402
+from uk_scrape import StoreSearchConfig, _walk_for_products, harvest_api_json  # noqa: E402
 
 
 class FakePage:
@@ -33,6 +33,28 @@ CFG = StoreSearchConfig(
 
 
 class UkScrapeApiTests(unittest.TestCase):
+    def test_offer_price_wins_over_unit_price(self):
+        found = []
+
+        _walk_for_products(
+            {
+                "name": "Herbal Tea 20 Bags",
+                "pricePerUnit": 166.67,
+                "sellingPrice": 2.50,
+                "url": "/product/tea",
+                "brand": {"name": "Pukka"},
+                "id": "tea-20",
+            },
+            found,
+            CFG,
+        )
+
+        self.assertEqual(len(found), 1)
+        self.assertEqual(found[0]["p"], "2.50")
+        self.assertEqual(found[0]["bn"], "Pukka")
+        self.assertEqual(found[0]["brandSource"], "retailer")
+        self.assertEqual(found[0]["retailerProductId"], "tea-20")
+
     def test_does_not_retry_a_persistent_403(self):
         page = FakePage([{"ok": False, "status": 403, "text": "blocked"}])
 

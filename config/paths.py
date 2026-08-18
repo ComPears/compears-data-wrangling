@@ -28,6 +28,14 @@ def list_stores(country: str | None = None) -> list[str]:
     return list(stores.keys())
 
 
+def country_config(country: str) -> dict[str, Any]:
+    config = load_stores_config()
+    countries = config.get("countries", {})
+    if country not in countries:
+        raise KeyError(f"Unknown country {country}")
+    return countries[country]
+
+
 def store_config(country: str, slug: str) -> dict[str, Any]:
     config = load_stores_config()
     stores = config["countries"][country]["stores"]
