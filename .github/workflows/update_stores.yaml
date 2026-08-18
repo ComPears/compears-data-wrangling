@@ -104,10 +104,14 @@ jobs:
 
       - name: Install Chromium runtime
         if: matrix.playwright
+        timeout-minutes: 20
+        continue-on-error: true
         run: python -m playwright install --with-deps chromium
 
       - name: Install Chrome channel for Asda
         if: matrix.store == 'asda'
+        timeout-minutes: 20
+        continue-on-error: true
         run: python -m playwright install chrome
 
       - name: Generate catalog
