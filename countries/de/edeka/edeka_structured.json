@@ -208,6 +208,19 @@
     "wg": 100
   },
   {
+    "n": "Milka Trauben-Nuss 90G - Mhd 07.09.2026",
+    "p": "1.00",
+    "o": "",
+    "s": "90 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/milka_traubennuss_90g.jpg",
+    "i": "https://www.edeka24.de/Milka-Trauben-Nuss-90G-MHD-07-09-2026.html?listtype=search&searchparam=Milch",
+    "c": "Other",
+    "cn": "milka 07 09 2026 mhd nuss trauben",
+    "ik": "tok:milka|07-09-2026-mhd-nuss-trauben|90",
+    "bn": "milka",
+    "wg": 90
+  },
+  {
     "n": "Milka Cookies Sensations 6ST 156G",
     "p": "3.29",
     "o": "",
@@ -375,19 +388,6 @@
     "ik": "tok:khne|dressing-hne-joghurt-kr-leicht-uter|500",
     "bn": "khne",
     "wg": 500
-  },
-  {
-    "n": "Milka Choco Brookie 6ST 132G",
-    "p": "3.19",
-    "o": "",
-    "s": "132 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/milka_brownie_brookie_132g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Milka-Choco-Brookie-6ST-132G.html?listtype=search&searchparam=Milch",
-    "c": "Other",
-    "cn": "milka brookie choco",
-    "ik": "tok:milka|brookie-choco|132",
-    "bn": "milka",
-    "wg": 132
   },
   {
     "n": "Kinder Schokolade 24ST 300G",
@@ -1079,6 +1079,19 @@
     "wg": 165
   },
   {
+    "n": "Koro Protein Bar Deluxe Pistachio Butter 55G",
+    "p": "2.99",
+    "o": "",
+    "s": "55 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/koro_protein_bar_deluxe_with_pistachio_butter_55g.jpg",
+    "i": "https://www.edeka24.de/Themenwelten/Bewusste-Ernaehrung/Sportnahrung/KoRo-Protein-Bar-Deluxe-Pistachio-Butter-55G.html?listtype=search&searchparam=Butter",
+    "c": "Other",
+    "cn": "koro bar butter deluxe pistachio protein",
+    "ik": "tok:koro|bar-butter-deluxe-pistachio-protein|55",
+    "bn": "koro",
+    "wg": 55
+  },
+  {
     "n": "Leibniz Minis-Butterkekse 150G",
     "p": "2.79",
     "o": "",
@@ -1101,19 +1114,6 @@
     "c": "Other",
     "cn": "leibniz choco kekse vollmilch",
     "ik": "tok:leibniz|choco-kekse-vollmilch|125",
-    "bn": "leibniz",
-    "wg": 125
-  },
-  {
-    "n": "Leibniz Choco Edelherb Kekse 125G",
-    "p": "3.29",
-    "o": "",
-    "s": "125 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/leibniz_choco_edelherb_kekse_125g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Suess-Salzig/Gebaeck-Kekse-Waffeln/Leibniz-Choco-Edelherb-Kekse-125G.html?listtype=search&searchparam=Butter",
-    "c": "Other",
-    "cn": "leibniz choco edelherb kekse",
-    "ik": "tok:leibniz|choco-edelherb-kekse|125",
     "bn": "leibniz",
     "wg": 125
   },
@@ -1533,19 +1533,6 @@
     "wg": 33
   },
   {
-    "n": "Chio Tortillas Nacho Cheese 110G - Mhd 24.08.2026",
-    "p": "1.10",
-    "o": "",
-    "s": "110 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/chio_tortillas_nacho_cheese_110g.jpg",
-    "i": "https://www.edeka24.de/Chio-Tortillas-Nacho-Cheese-110G-MHD-24-08-2026.html?listtype=search&searchparam=K%C3%A4se",
-    "c": "Other",
-    "cn": "chio 08 2026 24 cheese mhd nacho tortillas",
-    "ik": "tok:chio|08-2026-24-cheese-mhd-nacho-tortillas|110",
-    "bn": "chio",
-    "wg": 110
-  },
-  {
     "n": "Lorenz Saltletts Tasty Rolls Jalapeno Cheese Style 130G",
     "p": "2.49",
     "o": "",
@@ -1896,6 +1883,19 @@
     "wg": 150
   },
   {
+    "n": "Knorr Pasta Sauce Quattro Formaggi Ergibt 250ML",
+    "p": "1.39",
+    "o": "",
+    "s": "250 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/knorr_pasta_sauce_quattro_formaggi_ergibt_250ml.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Sossen/Sossen-zum-Anruehren/Knorr-Pasta-Sauce-Quattro-Formaggi-ergibt-250ML.html?listtype=search&searchparam=K%C3%A4se",
+    "c": "Pantry",
+    "cn": "knorr ergibt formaggi pasta quattro sauce",
+    "ik": "tok:knorr|ergibt-formaggi-pasta-quattro-sauce|250",
+    "bn": "knorr",
+    "wg": 250
+  },
+  {
     "n": "Milkana Frischeschale Gouda 190G",
     "p": "2.99",
     "o": "",
@@ -2167,6 +2167,19 @@
     "ik": "tok:pico|cheesecake-cookies-japanese-style|128",
     "bn": "pico",
     "wg": 128
+  },
+  {
+    "n": "Ferrero Yogurette Griechische Art & Brombeere 100G",
+    "p": "1.79",
+    "o": "",
+    "s": "100 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ferrero_yogurette_griechische_art_amp_brombeere_100gg.jpg",
+    "i": "https://www.edeka24.de/Ferrero-Yogurette-Griechische-Art-Brombeere-100G.html?listtype=search&searchparam=Joghurt",
+    "c": "Other",
+    "cn": "ferrero art brombeere griechische yogurette",
+    "ik": "tok:ferrero|art-brombeere-griechische-yogurette|100",
+    "bn": "ferrero",
+    "wg": 100
   },
   {
     "n": "Edeka Herzstücke Erdbeer Joghurt Vollmilch 90G",
@@ -5113,19 +5126,6 @@
     "wg": 1
   },
   {
-    "n": "Balema Salatsoße Von Oma Rosa 500ML",
-    "p": "4.29",
-    "o": "",
-    "s": "500 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/balema_salatsoe_von_oma_rosa_500ml.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Sossen/Balema-Salatsosse-von-Oma-Rosa-500ML.html?listtype=search&searchparam=Salat",
-    "c": "Other",
-    "cn": "balema oma rosa salatso von",
-    "ik": "tok:balema|oma-rosa-salatso-von|500",
-    "bn": "balema",
-    "wg": 500
-  },
-  {
     "n": "Saupiquet Thunfisch-Salat Mexicana 160G",
     "p": "3.19",
     "o": "",
@@ -5332,6 +5332,19 @@
     "ik": "tok:knorr|chenkr-nung-salatkr-uter|40",
     "bn": "knorr",
     "wg": 40
+  },
+  {
+    "n": "Edeka Bio My Veggie Salatmayonnaise 250ML",
+    "p": "1.89",
+    "o": "",
+    "s": "250 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_bio_vegan_salatmayonnaise_250_ml.jpg",
+    "i": "https://www.edeka24.de/EDEKA-Bio-My-Veggie-Salatmayonnaise-250ML.html?listtype=search&searchparam=Salat",
+    "c": "Other",
+    "cn": "edeka bio my salatmayonnaise veggie",
+    "ik": "tok:edeka|bio-my-salatmayonnaise-veggie|250",
+    "bn": "edeka",
+    "wg": 250
   },
   {
     "n": "Aoste Stickado Pikant 70G",
@@ -7375,6 +7388,19 @@
     "wg": 200
   },
   {
+    "n": "Dietz Schinkenwurst 400G",
+    "p": "5.49",
+    "o": "",
+    "s": "400 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/dietz-schinkenwurst.jpg",
+    "i": "https://www.edeka24.de/Dietz-Schinkenwurst-400G.html?listtype=search&searchparam=Schinken",
+    "c": "Other",
+    "cn": "dietz schinkenwurst",
+    "ik": "tok:dietz|schinkenwurst|400",
+    "bn": "dietz",
+    "wg": 400
+  },
+  {
     "n": "Maggi Carbonara Nudel-Auflauf 37G",
     "p": "1.09",
     "o": "",
@@ -8153,6 +8179,19 @@
     "wg": 400
   },
   {
+    "n": "Tress Ohne Spaghetti 500G",
+    "p": "2.29",
+    "o": "",
+    "s": "500 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/tress_ohne_spaghetti_500g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Beilagen/Tress-Ohne-Spaghetti-500G.html?listtype=search&searchparam=Spaghetti",
+    "c": "Other",
+    "cn": "tress ohne spaghetti",
+    "ik": "tok:tress|ohne-spaghetti|500",
+    "bn": "tress",
+    "wg": 500
+  },
+  {
     "n": "Knorr Fix Spaghetti Carbonara 36G",
     "p": "1.29",
     "o": "",
@@ -8437,19 +8476,6 @@
     "ik": "tok:edeka|cke-herzst-spaghetti|500",
     "bn": "edeka",
     "wg": 500
-  },
-  {
-    "n": "Maggi Fix Spaghetti Carbonara 35G",
-    "p": "1.09",
-    "o": "",
-    "s": "35 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/maggi_fix_spaghetti_carbonara_35g.jpg",
-    "i": "https://www.edeka24.de/Maggi-Fix-Spaghetti-Carbonara-35G.html?listtype=search&searchparam=Spaghetti",
-    "c": "Other",
-    "cn": "maggi carbonara fix spaghetti",
-    "ik": "tok:maggi|carbonara-fix-spaghetti|35",
-    "bn": "maggi",
-    "wg": 35
   },
   {
     "n": "Ben's Original Natur-Reis Kochbeutel 1KG",
@@ -9310,6 +9336,19 @@
     "wg": 37
   },
   {
+    "n": "Gut & Günstig Würfelzucker 1KG",
+    "p": "1.49",
+    "o": "",
+    "s": "1 l",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/gut_amp_gnstig_wrfelzucker_1kg.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Backen-Desserts/Zucker-Zuckerersatz/Gut-Guenstig-Wuerfelzucker-1KG.html?listtype=search&searchparam=Zucker",
+    "c": "Other",
+    "cn": "gut nstig rfelzucker",
+    "ik": "tok:gut|nstig-rfelzucker|1000",
+    "bn": "gut",
+    "wg": 1000
+  },
+  {
     "n": "Yo Sirup Ohne Zucker Himbeere 0,7L",
     "p": "4.29",
     "o": "",
@@ -9375,19 +9414,6 @@
     "wg": 200
   },
   {
-    "n": "Coppenrath Café Kränze 250G",
-    "p": "2.49",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/copcafkr.jpg",
-    "i": "https://www.edeka24.de/Coppenrath-Caf-Kraenze-250G.html?listtype=search&searchparam=Zucker",
-    "c": "Other",
-    "cn": "coppenrath caf kr nze",
-    "ik": "tok:coppenrath|caf-kr-nze|250",
-    "bn": "coppenrath",
-    "wg": 250
-  },
-  {
     "n": "Farmer's Snack Nuss Röst Mix 150G",
     "p": "3.59",
     "o": "",
@@ -9398,6 +9424,19 @@
     "cn": "farmers farmer mix nuss snack",
     "ik": "tok:farmers|farmer-mix-nuss-snack|150",
     "bn": "farmers",
+    "wg": 150
+  },
+  {
+    "n": "Wasa Delicate Crackers Sea Salt 150G",
+    "p": "3.39",
+    "o": "",
+    "s": "150 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/wasa_delicate_crackers_sea_salt_150g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Suess-Salzig/Wasa-Delicate-Crackers-Sea-Salt-150G.html?listtype=search&searchparam=Salz",
+    "c": "Other",
+    "cn": "wasa crackers delicate salt sea",
+    "ik": "tok:wasa|crackers-delicate-salt-sea|150",
+    "bn": "wasa",
     "wg": 150
   },
   {
@@ -9711,19 +9750,6 @@
     "ik": "tok:somat|5in1-salz-spezial|1200",
     "bn": "somat",
     "wg": 1200
-  },
-  {
-    "n": "Ti Bio Pfefferminze & Brombeere 1L",
-    "p": "1.99",
-    "o": "",
-    "s": "1 l",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/ti_pfefferminzeampampbrombeere_1l_dpg.jpg",
-    "i": "https://www.edeka24.de/Ti-Bio-Pfefferminze-Brombeere-1L.html?listtype=search&searchparam=Pfeffer",
-    "c": "Other",
-    "cn": "bio brombeere pfefferminze ti",
-    "ik": "tok:bio|brombeere-pfefferminze-ti|1000",
-    "bn": "bio",
-    "wg": 1000
   },
   {
     "n": "Fuchs Pfeffer Schwarz Geschrotet 60G - Abverkauf",
@@ -10102,6 +10128,19 @@
     "wg": 40
   },
   {
+    "n": "Teekanne Pfefferminze 20ST 45G",
+    "p": "2.29",
+    "o": "",
+    "s": "45 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/teekanne_minze_20st_45g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Kaffee-Tee/Tee/Teekanne-Pfefferminze-20ST-45G.html?listtype=search&searchparam=Pfeffer",
+    "c": "Other",
+    "cn": "teekanne pfefferminze",
+    "ik": "tok:teekanne|pfefferminze|45",
+    "bn": "teekanne",
+    "wg": 45
+  },
+  {
     "n": "S.Oliver Women Duo-Set Eau De Toilette/Duschgel 2-teilig - Abverkauf",
     "p": "15.00",
     "o": "",
@@ -10220,7 +10259,7 @@
   },
   {
     "n": "Sheba Sauce Collection Frikassee Mit Truthahn Und Gemüse 85G",
-    "p": "0.79",
+    "p": "0.69",
     "o": "",
     "s": "85 ml",
     "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/sheba_sauce_collection_frikassee_mit_truthahn_und_gemse_85g.jpg",
@@ -10321,19 +10360,6 @@
     "ik": "tok:carapelli|100-extra-il-italienisches-natives-nobile-oliven|500",
     "bn": "carapelli",
     "wg": 500
-  },
-  {
-    "n": "Dr.Oetker Vitalis Knusper Müsli Cinnamon Roll 400G",
-    "p": "4.29",
-    "o": "",
-    "s": "400 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/droetker_vitalis_knusper_msli_cinnamon_roll_400g.jpg",
-    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Dr-Oetker-Vitalis-Knusper-Muesli-Cinnamon-Roll-400G.html?listtype=search&searchparam=%C3%96l",
-    "c": "Other",
-    "cn": "droetker cinnamon dr knusper oetker roll sli vitalis",
-    "ik": "tok:droetker|cinnamon-dr-knusper-oetker-roll-sli-vitalis|400",
-    "bn": "droetker",
-    "wg": 400
   },
   {
     "n": "Edeka Herzstücke Thunfischfilets In Olivenöl 2x 80G",
@@ -10630,19 +10656,6 @@
     "c": "Other",
     "cn": "bertolli extra natives oliven originale",
     "ik": "tok:bertolli|extra-natives-oliven-originale|1000",
-    "bn": "bertolli",
-    "wg": 1000
-  },
-  {
-    "n": "Bertolli Cucina Olivenöl 1L - Mhd 09.2026",
-    "p": "10.00",
-    "o": "",
-    "s": "1 l",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/bertolli_cucina_olivenl_1l.jpg",
-    "i": "https://www.edeka24.de/Bertolli-Cucina-Olivenoel-1L-MHD-09-2026.html?listtype=search&searchparam=Oliven%C3%B6l",
-    "c": "Other",
-    "cn": "bertolli 09 2026 cucina mhd oliven",
-    "ik": "tok:bertolli|09-2026-cucina-mhd-oliven|1000",
     "bn": "bertolli",
     "wg": 1000
   },
@@ -11269,19 +11282,6 @@
     "ik": "tok:gut|delikatess-mayonnaise-nstig|500",
     "bn": "gut",
     "wg": 500
-  },
-  {
-    "n": "Edeka Bio My Veggie Salatmayonnaise 250ML",
-    "p": "1.89",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_bio_vegan_salatmayonnaise_250_ml.jpg",
-    "i": "https://www.edeka24.de/EDEKA-Bio-My-Veggie-Salatmayonnaise-250ML.html?listtype=search&searchparam=Mayonnaise",
-    "c": "Other",
-    "cn": "edeka bio my salatmayonnaise veggie",
-    "ik": "tok:edeka|bio-my-salatmayonnaise-veggie|250",
-    "bn": "edeka",
-    "wg": 250
   },
   {
     "n": "Develey Our Original Mayonnaise 500ML",
@@ -12194,6 +12194,19 @@
     "wg": 500
   },
   {
+    "n": "Edeka Herzstücke Rapshonig Im Glas Cremig 250G",
+    "p": "2.99",
+    "o": "",
+    "s": "250 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/edeka_herzstcke_rapshonig_im_glas_cremig_250g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Honig/EDEKA-Herzstuecke-Rapshonig-im-Glas-cremig-250G.html?listtype=search&searchparam=Honig",
+    "c": "Other",
+    "cn": "edeka cke cremig glas herzst im rapshonig",
+    "ik": "tok:edeka|cke-cremig-glas-herzst-im-rapshonig|250",
+    "bn": "edeka",
+    "wg": 250
+  },
+  {
     "n": "Bihophar Wald-Honig 500G",
     "p": "7.49",
     "o": "",
@@ -12233,19 +12246,6 @@
     "wg": 500
   },
   {
-    "n": "Langnese Flotte Biene Wildlavendel- Mit Blütenhonig 250G",
-    "p": "5.49",
-    "o": "",
-    "s": "250 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/langneseflottebienewildlavendelklein.jpg",
-    "i": "https://www.edeka24.de/Langnese-Flotte-Biene-Wildlavendel-mit-Bluetenhonig-250G.html?listtype=search&searchparam=Honig",
-    "c": "Other",
-    "cn": "langnese biene bl flotte mit tenhonig wildlavendel",
-    "ik": "tok:langnese|biene-bl-flotte-mit-tenhonig-wildlavendel|250",
-    "bn": "langnese",
-    "wg": 250
-  },
-  {
     "n": "Bill & John Peanut Butter Creamy 350G",
     "p": "3.29",
     "o": "",
@@ -12283,6 +12283,19 @@
     "ik": "tok:alnatura|bio-crunchy-hafer-waldbeere|375",
     "bn": "alnatura",
     "wg": 375
+  },
+  {
+    "n": "Dr.Oetker Vitalis Knusper Müsli Cinnamon Roll 400G",
+    "p": "4.29",
+    "o": "",
+    "s": "400 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/droetker_vitalis_knusper_msli_cinnamon_roll_400g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Fruehstueck-Snacks/Dr-Oetker-Vitalis-Knusper-Muesli-Cinnamon-Roll-400G.html?listtype=search&searchparam=M%C3%BCsli",
+    "c": "Other",
+    "cn": "droetker cinnamon dr knusper oetker roll sli vitalis",
+    "ik": "tok:droetker|cinnamon-dr-knusper-oetker-roll-sli-vitalis|400",
+    "bn": "droetker",
+    "wg": 400
   },
   {
     "n": "Alnatura Bio Maxi Müsli 1KG",
@@ -12374,19 +12387,6 @@
     "ik": "tok:droetker|dr-klassisch-oetker-schokom-sli-vitalis|450",
     "bn": "droetker",
     "wg": 450
-  },
-  {
-    "n": "Dr.Oetker Vitalis Knusper Müsli Cinnamon Roll 400G - Mhd 08.2026",
-    "p": "2.15",
-    "o": "",
-    "s": "400 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/droetker_vitalis_knusper_msli_cinnamon_roll_400g.jpg",
-    "i": "https://www.edeka24.de/Dr-Oetker-Vitalis-Knusper-Muesli-Cinnamon-Roll-400G-MHD-08-2026.html?listtype=search&searchparam=M%C3%BCsli",
-    "c": "Other",
-    "cn": "droetker 08 2026 cinnamon dr knusper mhd oetker roll sli vitalis",
-    "ik": "tok:droetker|08-2026-cinnamon-dr-knusper-mhd-oetker-roll-sli-vitalis|400",
-    "bn": "droetker",
-    "wg": 400
   },
   {
     "n": "Allos Bio Das Ungesüßte Beeren-Müsli 500G",
@@ -12543,6 +12543,19 @@
     "ik": "tok:klln|das-hafer-lln-original-schoko-sli|1150",
     "bn": "klln",
     "wg": 1150
+  },
+  {
+    "n": "Dr.Oetker High Protein Müsli Schoko & Nuss 400G",
+    "p": "5.49",
+    "o": "",
+    "s": "400 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/droetker_high_protein_msli_schoko_amp_nuss_400g.jpg",
+    "i": "https://www.edeka24.de/Dr-Oetker-High-Protein-Muesli-Schoko-Nuss-400G.html?listtype=search&searchparam=M%C3%BCsli",
+    "c": "Other",
+    "cn": "droetker dr high nuss oetker protein schoko sli",
+    "ik": "tok:droetker|dr-high-nuss-oetker-protein-schoko-sli|400",
+    "bn": "droetker",
+    "wg": 400
   },
   {
     "n": "Alnatura Bio Hafer Porridge Kakao 500G",
@@ -13585,6 +13598,19 @@
     "wg": 50
   },
   {
+    "n": "Meßmer Tee Fenchel-Anis-Kümmel 25ST 50G",
+    "p": "2.45",
+    "o": "",
+    "s": "50 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/memer_tee_fenchelaniskmmel_25x_2_g.jpg",
+    "i": "https://www.edeka24.de/Messmer-Tee-Fenchel-Anis-Kuemmel-25ST-50G.html?listtype=search&searchparam=Tee",
+    "c": "Other",
+    "cn": "memer anis fenchel me mer mmel tee",
+    "ik": "tok:memer|anis-fenchel-me-mer-mmel-tee|50",
+    "bn": "memer",
+    "wg": 50
+  },
+  {
     "n": "Griesson Soft Cake Orange Zartbitter 300G",
     "p": "2.59",
     "o": "",
@@ -14259,6 +14285,19 @@
     "wg": 85
   },
   {
+    "n": "Felix Soup Tender Strips Wasser 6x48G",
+    "p": "2.29",
+    "o": "",
+    "s": "48 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/felix_soup_tender_strips_wasser_6x48g(1).jpg",
+    "i": "https://www.edeka24.de/Felix-Soup-Tender-Strips-Wasser-6x48G.html?listtype=search&searchparam=Wasser",
+    "c": "Other",
+    "cn": "felix 6x soup strips tender wasser",
+    "ik": "tok:felix|6x-soup-strips-tender-wasser|48",
+    "bn": "felix",
+    "wg": 48
+  },
+  {
     "n": "Edeka Bio Kokosnussmilch 400ML",
     "p": "1.89",
     "o": "",
@@ -14347,19 +14386,6 @@
     "cn": "schwarzwaldhof 40 kirschwasser lder schwarzw",
     "ik": "tok:schwarzwaldhof|40-kirschwasser-lder-schwarzw|700",
     "bn": "schwarzwaldhof",
-    "wg": 700
-  },
-  {
-    "n": "Fies Select Schwarzwälder Kirschwasser 40% 0,7L",
-    "p": "11.99",
-    "o": "",
-    "s": "700 ml",
-    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/fies-select-altes-kirschwasser.jpg",
-    "i": "https://www.edeka24.de/Wein-Spirituosen/Spirituosen/Braende/Fies-Select-Schwarzwaelder-Kirschwasser-40-0-7L.html?listtype=search&searchparam=Wasser",
-    "c": "Other",
-    "cn": "fies 40 kirschwasser lder schwarzw select",
-    "ik": "tok:fies|40-kirschwasser-lder-schwarzw-select|700",
-    "bn": "fies",
     "wg": 700
   },
   {
@@ -14942,6 +14968,19 @@
     "ik": "tok:edeka|chocolate-cookies-dark-hazelnut|200",
     "bn": "edeka",
     "wg": 200
+  },
+  {
+    "n": "Leibniz Choco Edelherb Kekse 125G",
+    "p": "3.29",
+    "o": "",
+    "s": "125 ml",
+    "l": "https://www.edeka24.de/out/pictures/generated/product/1/224_224_90/leibniz_choco_edelherb_kekse_125g.jpg",
+    "i": "https://www.edeka24.de/Lebensmittel/Suess-Salzig/Gebaeck-Kekse-Waffeln/Leibniz-Choco-Edelherb-Kekse-125G.html?listtype=search&searchparam=Kekse",
+    "c": "Other",
+    "cn": "leibniz choco edelherb kekse",
+    "ik": "tok:leibniz|choco-edelherb-kekse|125",
+    "bn": "leibniz",
+    "wg": 125
   },
   {
     "n": "Lotus Biscoff Doppelkeks Vanillegeschmack 15ST 150G",
