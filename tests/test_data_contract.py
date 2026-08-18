@@ -60,6 +60,8 @@ class DataContractTests(unittest.TestCase):
         self.assertEqual(quantity["baseUnit"], "count")
         self.assertEqual(quantity["display"], "10 items")
         self.assertEqual(parse_quantity("6 Stück")["totalValue"], 6)
+        self.assertEqual(parse_quantity("20 bags")["totalValue"], 20)
+        self.assertEqual(parse_quantity("24 tablets")["display"], "24 items")
 
     def test_uk_imperial_units_are_converted_to_comparable_base_units(self):
         ounces = parse_quantity("12 oz")
@@ -167,6 +169,39 @@ class DataContractTests(unittest.TestCase):
 
         self.assertIsNone(cleaned)
         self.assertEqual(reason, "durable_non_grocery")
+
+    def test_lidl_rows_without_package_evidence_are_quarantined(self):
+        cleaned, reason = sanitize_entry_with_reason(
+            {"n": "Seasonal Special Collection", "p": "12.99", "c": "Other"},
+            country="uk",
+            store="lidl-uk",
+            currency="GBP",
+        )
+
+        self.assertIsNone(cleaned)
+        self.assertEqual(reason, "ambiguous_lidl_non_grocery")
+
+    def test_lidl_grocery_with_package_evidence_is_kept(self):
+        cleaned, reason = sanitize_entry_with_reason(
+            {"n": "Chocolate Biscuits 300 g", "p": "1.99", "c": "Snacks"},
+            country="uk",
+            store="lidl-uk",
+            currency="GBP",
+        )
+
+        self.assertIsNone(reason)
+        self.assertEqual(cleaned["quantity"]["display"], "300 g")
+
+    def test_ambiguous_rule_is_not_applied_to_other_retailers(self):
+        cleaned, reason = sanitize_entry_with_reason(
+            {"n": "Seasonal Special Collection", "p": "2.99", "c": "Other"},
+            country="uk",
+            store="tesco",
+            currency="GBP",
+        )
+
+        self.assertIsNone(reason)
+        self.assertIsNotNone(cleaned)
 
     def test_generic_product_name_is_not_mistaken_for_a_brand(self):
         cleaned, reason = sanitize_entry_with_reason(

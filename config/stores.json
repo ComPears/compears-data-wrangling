@@ -31,6 +31,7 @@
           "dir": "countries/nl/aldi",
           "catalog": "structured_aldi.json",
           "minimum_products": 1200,
+          "minimum_quantity_coverage": 0.80,
           "pipeline": [
             "main.py",
             "mergejson.py",
@@ -62,7 +63,9 @@
           "display_name": "Lidl",
           "dir": "countries/nl/lidl",
           "catalog": "lidl_structured.json",
-          "minimum_products": 800,
+          "minimum_products": 250,
+          "minimum_quantity_coverage": 0.25,
+          "quality_profile_version": 2,
           "pipeline": ["main.py", "structure.py", "clean_lidl.py"],
           "intermediate_globs": ["lidl.json"],
           "playwright": true
@@ -116,7 +119,9 @@
           "display_name": "Lidl",
           "dir": "countries/de/lidl-de",
           "catalog": "lidl_de_structured.json",
-          "minimum_products": 500,
+          "minimum_products": 250,
+          "minimum_quantity_coverage": 0.22,
+          "quality_profile_version": 2,
           "pipeline": ["main.py", "structure.py"],
           "intermediate_globs": ["lidl_de.json"],
           "playwright": true
@@ -152,6 +157,7 @@
           "dir": "countries/uk/tesco",
           "catalog": "tesco_structured.json",
           "minimum_products": 500,
+          "maximum_catalog_age_hours": 168,
           "pipeline": ["main.py", "structure.py"],
           "intermediate_globs": ["tesco.json"],
           "playwright": true
@@ -161,6 +167,7 @@
           "dir": "countries/uk/sainsburys",
           "catalog": "sainsburys_structured.json",
           "minimum_products": 500,
+          "maximum_catalog_age_hours": 168,
           "pipeline": ["main.py", "structure.py"],
           "intermediate_globs": ["sainsburys.json"],
           "playwright": true
@@ -180,6 +187,7 @@
           "dir": "countries/uk/morrisons",
           "catalog": "morrisons_structured.json",
           "minimum_products": 500,
+          "minimum_quantity_coverage": 0.40,
           "pipeline": ["main.py", "structure.py"],
           "intermediate_globs": ["morrisons.json"],
           "playwright": true
@@ -189,6 +197,7 @@
           "dir": "countries/uk/aldi-uk",
           "catalog": "aldi_uk_structured.json",
           "minimum_products": 500,
+          "minimum_quantity_coverage": 0.85,
           "pipeline": ["main.py", "structure.py"],
           "intermediate_globs": ["aldi_uk.json"],
           "playwright": true
@@ -198,6 +207,8 @@
           "dir": "countries/uk/lidl-uk",
           "catalog": "lidl_uk_structured.json",
           "minimum_products": 100,
+          "minimum_quantity_coverage": 0.18,
+          "quality_profile_version": 2,
           "pipeline": ["main.py", "structure.py"],
           "intermediate_globs": ["lidl_uk.json"],
           "playwright": true

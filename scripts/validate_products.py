@@ -19,9 +19,11 @@ from product_sanitize import should_reject_name
 
 def validate_file(country: str, slug: str, catalog: Path) -> dict:
     rel_path = catalog_rel_path(country, slug)
+    cfg = store_config(country, slug)
     report = {
         "country": country,
         "store": slug,
+        "quality_profile_version": int(cfg.get("quality_profile_version") or 1),
         "total": 0,
         "with_barcode": 0,
         "with_identity": 0,
@@ -155,9 +157,19 @@ def main() -> None:
             failures.append(
                 f"{report['country']}/{report['store']}: missing observation timestamps"
             )
-        if report["with_quantity"] / total < 0.90:
+        cfg = store_config(report["country"], report["store"])
+        minimum_quantity = float(cfg.get("minimum_quantity_coverage", 0.90))
+        target_quantity = float(cfg.get("target_quantity_coverage", 0.90))
+        quantity_coverage = report["with_quantity"] / total
+        if quantity_coverage < minimum_quantity:
             failures.append(
-                f"{report['country']}/{report['store']}: quantity coverage below 90%"
+                f"{report['country']}/{report['store']}: quantity coverage "
+                f"{quantity_coverage:.1%} below hard floor {minimum_quantity:.1%}"
+            )
+        elif quantity_coverage < target_quantity:
+            print(
+                f"WARNING: {report['country']}/{report['store']}: quantity coverage "
+                f"{quantity_coverage:.1%} below target {target_quantity:.1%}"
             )
         if report["promo_in_name"]:
             failures.append(

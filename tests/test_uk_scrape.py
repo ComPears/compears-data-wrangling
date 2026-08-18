@@ -9,7 +9,12 @@ SHARED = ROOT / "countries" / "uk" / "_shared"
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(SHARED))
 
-from uk_scrape import StoreSearchConfig, _walk_for_products, harvest_api_json  # noqa: E402
+from uk_scrape import (  # noqa: E402
+    StoreSearchConfig,
+    _walk_for_products,
+    harvest_api_json,
+    size_from_text_blob,
+)
 
 
 class FakePage:
@@ -33,6 +38,13 @@ CFG = StoreSearchConfig(
 
 
 class UkScrapeApiTests(unittest.TestCase):
+    def test_extracts_package_size_but_not_unit_price(self):
+        self.assertEqual(
+            size_from_text_blob("Morrisons Whole Milk\n2 litres\n£1.65\n82.5p / litre"),
+            "2 litres",
+        )
+        self.assertIsNone(size_from_text_blob("£3.20\nPrice per kg £8.00"))
+
     def test_offer_price_wins_over_unit_price(self):
         found = []
 
@@ -54,6 +66,22 @@ class UkScrapeApiTests(unittest.TestCase):
         self.assertEqual(found[0]["bn"], "Pukka")
         self.assertEqual(found[0]["brandSource"], "retailer")
         self.assertEqual(found[0]["retailerProductId"], "tea-20")
+
+    def test_api_package_size_fields_are_preserved(self):
+        found = []
+
+        _walk_for_products(
+            {
+                "name": "Whole Milk",
+                "sellingPrice": 1.65,
+                "packageSize": {"value": 2, "unit": "l"},
+                "url": "/product/milk",
+            },
+            found,
+            CFG,
+        )
+
+        self.assertEqual(found[0]["s"], "2 l")
 
     def test_does_not_retry_a_persistent_403(self):
         page = FakePage([{"ok": False, "status": 403, "text": "blocked"}])

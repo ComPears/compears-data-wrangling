@@ -172,6 +172,62 @@ class BarcodeExtractionTests(unittest.TestCase):
 
 
 class CatalogHealthTests(unittest.TestCase):
+    def test_store_floor_warns_below_target_without_failing(self):
+        observed = "2026-07-10T12:00:00Z"
+        rows = [
+            {
+                "schemaVersion": 2,
+                "country": "uk",
+                "retailer": "morrisons",
+                "currency": "GBP",
+                "c": "Dairy & Eggs",
+                "n": "Whole Milk 2 l" if index == 0 else "Loose Bakery Item",
+                "p": "1.50",
+                "priceType": "regular",
+                "ik": f"item-{index}",
+                "observedAt": observed,
+                **(
+                    {
+                        "quantity": {
+                            "packCount": 1,
+                            "itemValue": 2,
+                            "itemUnit": "l",
+                            "totalValue": 2000,
+                            "baseUnit": "ml",
+                            "display": "2 l",
+                        },
+                        "unitPrice": {"value": "0.75", "currency": "GBP", "per": "l"},
+                    }
+                    if index == 0
+                    else {}
+                ),
+            }
+            for index in range(2)
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            catalog = Path(directory) / "catalog.json"
+            catalog.write_text(json.dumps(rows), encoding="utf-8")
+            with patch(
+                "scripts.catalog_health.store_config",
+                return_value={
+                    "minimum_products": 1,
+                    "optional": False,
+                    "minimum_quantity_coverage": 0.40,
+                },
+            ):
+                report = analyze_catalog(
+                    "uk",
+                    "morrisons",
+                    catalog,
+                    now=datetime(2026, 7, 10, 13, tzinfo=timezone.utc),
+                )
+
+        issue_codes = {issue["code"] for issue in report["issues"]}
+        self.assertEqual(report["metrics"]["completeness"]["quantity_coverage"], 0.5)
+        self.assertNotIn("quantity_coverage_below_minimum", issue_codes)
+        self.assertIn("quantity_coverage_below_target", issue_codes)
+        self.assertNotEqual(report["status"], "error")
+
     def test_contract_compliant_catalog_passes_health_checks(self):
         observed = "2026-07-10T12:00:00Z"
         rows = [

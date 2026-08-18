@@ -12,6 +12,40 @@ from scripts import workflow_catalog_alerts as alerts
 
 
 class WorkflowCatalogAlertsTests(unittest.TestCase):
+    def test_store_specific_hard_age_warns_before_it_blocks(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            catalog = root / "countries" / "uk" / "tesco" / "tesco_structured.json"
+            catalog.parent.mkdir(parents=True)
+            catalog.write_text(json.dumps([{"cn": "milk", "p": "1.00"}]), encoding="utf-8")
+            seventy_two_hours_ago = int(__import__("time").time() - (72 * 3600))
+
+            with (
+                patch.object(alerts, "ROOT", root),
+                patch.object(alerts, "SCRAPE_STATUS_DIR", root / "missing"),
+                patch.object(alerts, "all_catalog_paths", return_value=[("uk", "tesco", catalog)]),
+                patch.object(alerts, "catalog_rel_path", return_value=str(catalog.relative_to(root))),
+                patch.object(
+                    alerts,
+                    "store_config",
+                    return_value={
+                        "minimum_products": 1,
+                        "optional": False,
+                        "maximum_catalog_age_hours": 168,
+                    },
+                ),
+                patch.object(alerts, "baseline_counts", return_value={}),
+                patch.object(alerts, "last_change_epoch", return_value=seventy_two_hours_ago),
+                patch.object(
+                    sys,
+                    "argv",
+                    ["workflow_catalog_alerts.py", "--max-age-hours", "48"],
+                ),
+            ):
+                code = alerts.main()
+
+        self.assertEqual(code, 0)
+
     def test_schema_v2_count_regression_blocks_required_catalog(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

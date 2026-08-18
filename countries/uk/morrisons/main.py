@@ -26,6 +26,14 @@ CFG = StoreSearchConfig(
         "article",
         "li",
     ),
+    size_selectors=(
+        "[data-test='fop-size']",
+        ".fop-catch-weight",
+        "[data-test*='size']",
+        "[class*='pack-size']",
+        "[class*='product-size']",
+        "[class*='weight']",
+    ),
 )
 
 

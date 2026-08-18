@@ -308,7 +308,32 @@ def sanitize_entry_with_reason(
     reject = should_reject_name(clean_name)
     if reject:
         return None, reject
-    relevance_reject = relevance_rejection_reason(clean_name, country)
+
+    size_raw = str(entry.get("s") or "").strip()
+    quantity = parse_quantity(
+        size_raw,
+        name=clean_name,
+        existing=entry.get("quantity") if isinstance(entry.get("quantity"), dict) else None,
+    )
+
+    # Resolve the category before the relevance gate so store-specific filters
+    # can distinguish a comparable grocery row from an ambiguous non-food row.
+    # The lazy import avoids a module cycle with category_utils' sanitizer hook.
+    from category_utils import ensure_canonical, infer_category_from_name
+
+    category = ensure_canonical(str(entry.get("c") or entry.get("category") or ""))
+    if category == "Other":
+        inferred_category = infer_category_from_name(clean_name)
+        if inferred_category != "Other":
+            category = inferred_category
+
+    relevance_reject = relevance_rejection_reason(
+        clean_name,
+        country,
+        store=store,
+        category=category,
+        has_quantity=bool(quantity),
+    )
     if relevance_reject:
         return None, relevance_reject
 
@@ -332,13 +357,6 @@ def sanitize_entry_with_reason(
     else:
         brand = inferred_brand
         brand_source = "known_name" if inferred_brand else None
-
-    size_raw = str(entry.get("s") or "").strip()
-    quantity = parse_quantity(
-        size_raw,
-        name=clean_name,
-        existing=entry.get("quantity") if isinstance(entry.get("quantity"), dict) else None,
-    )
 
     tokens = tokenize_product_name(clean_name, brand)
     if not tokens and not brand:
@@ -381,15 +399,6 @@ def sanitize_entry_with_reason(
     else:
         out.pop("b", None)
 
-    # Reclassify missing/legacy "Other" values with the multilingual taxonomy.
-    # The lazy import avoids a module cycle with category_utils' sanitizer hook.
-    from category_utils import ensure_canonical, infer_category_from_name
-
-    category = ensure_canonical(str(entry.get("c") or entry.get("category") or ""))
-    if category == "Other":
-        inferred_category = infer_category_from_name(clean_name)
-        if inferred_category != "Other":
-            category = inferred_category
     out["c"] = category
 
     resolved_currency = (currency or entry.get("currency") or "").upper()

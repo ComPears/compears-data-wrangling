@@ -194,6 +194,7 @@ def main() -> int:
         relative = catalog_rel_path(country, store)
         cfg = store_config(country, store)
         optional = bool(cfg.get("optional"))
+        hard_max_age_hours = float(cfg.get("maximum_catalog_age_hours", args.max_age_hours))
         count, read_error = catalog_count(path)
         minimum = int(cfg.get("minimum_products") or 0)
         baseline_info = baselines.get((country, store), {})
@@ -249,10 +250,10 @@ def main() -> int:
             warnings.append(
                 f"count comparison reset during schema v2 migration ({baseline} to {count})"
             )
-        if age_hours > args.max_age_hours:
+        if age_hours > hard_max_age_hours:
             age_message = (
                 f"catalog has not changed for {age_hours:.1f}h "
-                f"(limit {args.max_age_hours:g}h)"
+                f"(hard limit {hard_max_age_hours:g}h)"
             )
             # A failed attempt is not freshness. Optional stores remain warnings;
             # stale required stores block publication until genuinely refreshed.
@@ -260,6 +261,11 @@ def main() -> int:
                 warnings.append(f"{age_message}; optional store, keeping last-good catalog")
             else:
                 issues.append(age_message)
+        elif age_hours > args.max_age_hours:
+            warnings.append(
+                f"catalog has not changed for {age_hours:.1f}h "
+                f"(freshness target {args.max_age_hours:g}h; hard limit {hard_max_age_hours:g}h)"
+            )
         if age_hours < -1:
             future_message = f"catalog observation time is {-age_hours:.1f}h in the future"
             if optional:
