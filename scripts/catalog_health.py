@@ -30,6 +30,7 @@ DEFAULTS = {
     "max_duplicate_barcode_rate": 0.005,
     "minimum_barcode_coverage": 0.0,
     "minimum_quantity_coverage": 0.90,
+    "target_quantity_coverage": 0.90,
     "minimum_unit_price_coverage": 0.85,
     "minimum_brand_coverage": 0.05,
     "minimum_category_coverage": 0.50,
@@ -79,11 +80,17 @@ def analyze_catalog(
     now: datetime | None = None,
 ) -> dict[str, Any]:
     now = now or datetime.now(timezone.utc)
+    cfg = store_config(country, slug)
     thresholds = {
         **DEFAULTS,
-        "minimum_products": int(store_config(country, slug).get("minimum_products") or 0),
+        "minimum_products": int(cfg.get("minimum_products") or 0),
         "minimum_barcode_coverage": BARCODE_FLOORS.get(slug, 0.0),
     }
+    for key in ("minimum_quantity_coverage", "target_quantity_coverage"):
+        if cfg.get(key) is not None:
+            thresholds[key] = float(cfg[key])
+    if cfg.get("maximum_catalog_age_hours") is not None:
+        thresholds["stale_after_hours"] = float(cfg["maximum_catalog_age_hours"])
     result: dict[str, Any] = {
         "country": country,
         "store": slug,
@@ -260,8 +267,9 @@ def analyze_catalog(
             {"severity": severity, "code": code, "actual": actual, "threshold": threshold}
         )
 
+    optional = bool(cfg.get("optional"))
     if total < thresholds["minimum_products"]:
-        severity = "warning" if store_config(country, slug).get("optional") else "error"
+        severity = "warning" if optional else "error"
         issue(severity, "product_count_below_minimum", total, thresholds["minimum_products"])
     if metrics["price"]["invalid_rate"] > thresholds["max_invalid_price_rate"]:
         issue("error", "invalid_price_rate_high", metrics["price"]["invalid_rate"], thresholds["max_invalid_price_rate"])
@@ -280,28 +288,45 @@ def analyze_catalog(
     if invalid_barcode:
         issue("warning", "invalid_barcodes", invalid_barcode, 0)
     if missing_scraped_at:
-        severity = "warning" if store_config(country, slug).get("optional") else "error"
+        severity = "warning" if optional else "error"
         issue(severity, "missing_observation_timestamps", missing_scraped_at, 0)
     if stale_scrape:
         # Optional stores are best-effort; stale last-good rows should not fail CI.
-        severity = "warning" if store_config(country, slug).get("optional") else "error"
+        severity = "warning" if optional else "error"
         issue(severity, "stale_scrape_rows", stale_scrape, 0)
     if future_scrape:
-        severity = "warning" if store_config(country, slug).get("optional") else "error"
+        severity = "warning" if optional else "error"
         issue(severity, "future_observation_timestamps", future_scrape, 0)
     if malformed_rows or promo_in_name:
         issue("warning", "malformed_or_rejected_rows", malformed_rows + promo_in_name, 0)
     completeness = metrics["completeness"]
     if contract_errors:
-        severity = "warning" if store_config(country, slug).get("optional") else "error"
+        severity = "warning" if optional else "error"
         issue(severity, "data_contract_errors", contract_errors, 0)
-    for metric, threshold_key, code in (
-        ("quantity_coverage", "minimum_quantity_coverage", "quantity_coverage_below_minimum"),
-        ("unit_price_coverage", "minimum_unit_price_coverage", "unit_price_coverage_below_minimum"),
-    ):
-        if completeness[metric] < thresholds[threshold_key]:
-            severity = "warning" if store_config(country, slug).get("optional") else "error"
-            issue(severity, code, completeness[metric], thresholds[threshold_key])
+    quantity_coverage = completeness["quantity_coverage"]
+    if quantity_coverage < thresholds["minimum_quantity_coverage"]:
+        severity = "warning" if optional else "error"
+        issue(
+            severity,
+            "quantity_coverage_below_minimum",
+            quantity_coverage,
+            thresholds["minimum_quantity_coverage"],
+        )
+    elif quantity_coverage < thresholds["target_quantity_coverage"]:
+        issue(
+            "warning",
+            "quantity_coverage_below_target",
+            quantity_coverage,
+            thresholds["target_quantity_coverage"],
+        )
+    if completeness["unit_price_coverage"] < thresholds["minimum_unit_price_coverage"]:
+        severity = "warning" if optional else "error"
+        issue(
+            severity,
+            "unit_price_coverage_below_minimum",
+            completeness["unit_price_coverage"],
+            thresholds["minimum_unit_price_coverage"],
+        )
     for metric, threshold_key, code in (
         ("brand_coverage", "minimum_brand_coverage", "brand_coverage_below_minimum"),
         ("category_coverage", "minimum_category_coverage", "category_coverage_below_minimum"),

@@ -26,7 +26,8 @@ _MULTIPACK_RE = re.compile(
 _QUANTITY_RE = re.compile(
     r"(?P<value>\d+(?:[.,]\d+)?)\s*"
     r"(?P<unit>fl\s*oz|kg|g|ml|cl|l|oz|lbs?|pints?|liters?|litres?|"
-    r"stuks?|stücks?|st\.?|pieces?|pcs?|pack|pk|ct)\b",
+    r"stuks?|stücks?|st\.?|pieces?|pcs?|packs?|pk|ct|items?|bags?|"
+    r"capsules?|tablets?|rolls?)\b",
     re.IGNORECASE,
 )
 _IMAGE_HINTS = (
@@ -129,8 +130,19 @@ def _unit_details(value: float, unit: str) -> tuple[float, str, str]:
         "pc",
         "pcs",
         "pack",
+        "packs",
         "pk",
         "ct",
+        "item",
+        "items",
+        "bag",
+        "bags",
+        "capsule",
+        "capsules",
+        "tablet",
+        "tablets",
+        "roll",
+        "rolls",
     }:
         return value, "count", "count"
     return value, normalized, normalized

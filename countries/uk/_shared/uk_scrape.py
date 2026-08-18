@@ -79,6 +79,13 @@ class StoreSearchConfig:
         "a[href]",
     )
     image_selectors: tuple[str, ...] = ("img",)
+    size_selectors: tuple[str, ...] = (
+        "[data-testid*='size']",
+        "[data-test*='size']",
+        "[class*='pack-size']",
+        "[class*='product-size']",
+        "[class*='weight']",
+    )
     max_queries: int = 90
     max_per_query: int = 36
     settle_ms: int = 3500
@@ -156,6 +163,7 @@ def extract_from_product_links(page: Page, cfg: StoreSearchConfig) -> list[dict[
                 let el = a;
                 let price = '';
                 let offer = '';
+                let cardText = '';
                 for (let i = 0; i < 12 && el; i++) {
                   const text = el.innerText || '';
                   const m = text.match(/£\\s*\\d+(?:[\\.,]\\d{1,2})?|\\b\\d{1,3}\\s*p\\b/i);
@@ -163,7 +171,7 @@ def extract_from_product_links(page: Page, cfg: StoreSearchConfig) -> list[dict[
                     s => /(clubcard|nectar price|aldi price match|special offer|save \\d)/i.test(s)
                   );
                   if (offerLine) offer = offerLine.slice(0, 240);
-                  if (m) { price = m[0]; break; }
+                  if (m) { price = m[0]; cardText = text; break; }
                   el = el.parentElement;
                 }
                 if (!price) continue;
@@ -171,7 +179,7 @@ def extract_from_product_links(page: Page, cfg: StoreSearchConfig) -> list[dict[
                 let image = '';
                 const img = a.querySelector('img') || (a.parentElement && a.parentElement.querySelector('img'));
                 if (img) image = img.src || img.getAttribute('data-src') || img.getAttribute('srcset') || '';
-                out.push({ name, price, href, image, offer });
+                out.push({ name, price, href, image, offer, cardText });
                 if (out.length >= maxCount) break;
               }
               return out;
@@ -188,6 +196,7 @@ def extract_from_product_links(page: Page, cfg: StoreSearchConfig) -> list[dict[
             price=row.get("price"),
             url=str(row.get("href") or ""),
             image=str(row.get("image") or "") or None,
+            size=size_from_text_blob(str(row.get("cardText") or "")),
             offer=str(row.get("offer") or "") or None,
             base_url=cfg.base_url,
             retailer_product_id=(
@@ -249,11 +258,19 @@ def extract_from_cards(page: Page, cfg: StoreSearchConfig) -> list[dict[str, Any
             )
             if image:
                 break
+        size = ""
+        for sel in cfg.size_selectors:
+            size = _text_or_empty(card.locator(sel))
+            if size:
+                break
+        if not size:
+            size = size_from_text_blob(_text_or_empty(card)) or ""
         entry = raw_product(
             name=name,
             price=price_text,
             url=href,
             image=image,
+            size=size,
             base_url=cfg.base_url,
         )
         if entry:
@@ -308,6 +325,13 @@ def extract_json_ld(page: Page, cfg: StoreSearchConfig) -> list[dict[str, Any]]:
                     availability=str(offers.get("availability") or "") if isinstance(offers, dict) else None,
                     brand=str(brand_value or "") or None,
                     category=str(node.get("category") or "") or None,
+                    size=str(
+                        node.get("size")
+                        or node.get("weight")
+                        or node.get("netContent")
+                        or ""
+                    )
+                    or None,
                 )
                 if entry:
                     products.append(entry)
@@ -363,6 +387,35 @@ def _walk_for_products(obj: Any, found: list[dict[str, Any]], cfg: StoreSearchCo
             brand_value = obj.get("brand") or obj.get("brandName")
             if isinstance(brand_value, dict):
                 brand_value = brand_value.get("name")
+            size_value: Any = None
+            for key in (
+                "sellingSize",
+                "size",
+                "packageSize",
+                "packSize",
+                "unitSize",
+                "weight",
+                "netWeight",
+                "volume",
+                "netContent",
+            ):
+                candidate = obj.get(key)
+                if candidate not in (None, "", [], {}):
+                    size_value = candidate
+                    break
+            if isinstance(size_value, dict):
+                display = (
+                    size_value.get("display")
+                    or size_value.get("formatted")
+                    or size_value.get("text")
+                    or size_value.get("label")
+                )
+                if display:
+                    size_value = display
+                else:
+                    amount = size_value.get("value") or size_value.get("amount")
+                    unit = size_value.get("unit") or size_value.get("unitOfMeasure")
+                    size_value = f"{amount} {unit}" if amount and unit else None
             entry = raw_product(
                 name=str(name),
                 price=price,
@@ -383,7 +436,7 @@ def _walk_for_products(obj: Any, found: list[dict[str, Any]], cfg: StoreSearchCo
                     or obj.get("imageURL")
                     or ""
                 ),
-                size=str(obj.get("sellingSize") or obj.get("size") or "") or None,
+                size=str(size_value or "") or None,
                 barcode=str(obj.get("gtin") or obj.get("gtin13") or obj.get("barcode") or "")
                 or None,
                 base_url=cfg.base_url,
@@ -718,3 +771,33 @@ def quote_query(query: str) -> str:
 def price_from_text_blob(text: str) -> str | None:
     match = re.search(r"£\s*\d+(?:[.,]\d{1,2})?|\b\d{1,3}\s*p\b", text or "", re.I)
     return parse_gbp_price(match.group(0)) if match else None
+
+
+_SIZE_PATTERNS: tuple[re.Pattern[str], ...] = (
+    re.compile(
+        r"\b\d{1,3}\s*[x×]\s*\d+(?:[.,]\d+)?\s*"
+        r"(?:kg|g|mg|l|litres?|liters?|cl|ml|pints?|fl\s*oz|oz)\b",
+        re.I,
+    ),
+    re.compile(
+        r"\b\d+(?:[.,]\d+)?\s*(?:kg|g|mg|l|litres?|liters?|cl|ml|pints?|fl\s*oz|oz)\b",
+        re.I,
+    ),
+    re.compile(
+        r"\b\d{1,3}\s*(?:pack|packs|pk|bags?|capsules?|tablets?|rolls?|items?)\b",
+        re.I,
+    ),
+)
+
+
+def size_from_text_blob(text: str) -> str | None:
+    """Extract package evidence from a product card without using unit-price text."""
+    lines = [re.sub(r"\s+", " ", line).strip() for line in str(text or "").splitlines()]
+    for line in lines or [str(text or "")]:
+        if not line or re.search(r"(?:price\s+per|/\s*(?:kg|g|l|ml)|per\s+100)", line, re.I):
+            continue
+        for pattern in _SIZE_PATTERNS:
+            match = pattern.search(line)
+            if match:
+                return match.group(0).strip()
+    return None

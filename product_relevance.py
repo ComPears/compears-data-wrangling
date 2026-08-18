@@ -60,6 +60,10 @@ _DURABLE_GOOD_PHRASES: dict[str, tuple[str, ...]] = {
         "zeepdispenser",
         "koffiemachine",
         "keukenmachine",
+        "nachtlamp",
+        "opbergbox",
+        "traphekje",
+        "vliesbehang",
         "laptop",
         "luchtfriteuse",
         "matras",
@@ -93,6 +97,8 @@ _DURABLE_GOOD_PHRASES: dict[str, tuple[str, ...]] = {
         "laptop",
         "luftfritteuse",
         "matratze",
+        "milchaufschäumer",
+        "milchtopf",
         "milbensauger",
         "puppe",
         "rasenmäher",
@@ -117,6 +123,8 @@ _DURABLE_GOOD_PHRASES: dict[str, tuple[str, ...]] = {
         "laptop",
         "lawn mower",
         "mattress",
+        "milk frother",
+        "milk pan",
         "pressure washer",
         "espresso machine",
         "frying pan",
@@ -140,8 +148,18 @@ _NAVIGATION_NAMES = re.compile(
     re.IGNORECASE,
 )
 
+_LIDL_STORES = frozenset({"lidl", "lidl-de", "lidl-uk"})
+_AMBIGUOUS_WITHOUT_QUANTITY = frozenset({"Other", "Personal Care", "Household"})
 
-def rejection_reason(name: str, country: str | None) -> str | None:
+
+def rejection_reason(
+    name: str,
+    country: str | None,
+    *,
+    store: str | None = None,
+    category: str | None = None,
+    has_quantity: bool = True,
+) -> str | None:
     """Return a reason only for high-confidence non-offer or durable-goods rows."""
     normalized = re.sub(r"\s+", " ", str(name or "").strip().lower())
     if _NAVIGATION_NAMES.fullmatch(normalized):
@@ -149,4 +167,13 @@ def rejection_reason(name: str, country: str | None) -> str | None:
     phrases = _DURABLE_GOOD_PHRASES.get(str(country or "").lower(), ())
     if any(phrase in normalized for phrase in phrases):
         return "durable_non_grocery"
+    # Lidl search pages mix groceries with a large rotating non-food catalogue.
+    # Rows in these broad categories are not safely comparable without package
+    # evidence, so quarantine them instead of inflating the grocery catalogue.
+    if (
+        str(store or "").lower() in _LIDL_STORES
+        and not has_quantity
+        and str(category or "Other") in _AMBIGUOUS_WITHOUT_QUANTITY
+    ):
+        return "ambiguous_lidl_non_grocery"
     return None

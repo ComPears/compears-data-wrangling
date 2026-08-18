@@ -93,6 +93,9 @@ def main() -> int:
                 "catalog": catalog_rel_path(country, store),
                 "optional": bool(cfg.get("optional")),
                 "minimum_products": int(cfg.get("minimum_products") or 0),
+                "maximum_catalog_age_hours": float(
+                    cfg.get("maximum_catalog_age_hours", 48)
+                ),
                 "products": count,
                 "outcome": outcome,
                 "reason": status.get("reason"),
@@ -111,7 +114,7 @@ def main() -> int:
         and row["last_successful_at"]
         and row["freshness_hours"] is not None
         and float(row["freshness_hours"]) >= -1
-        and float(row["freshness_hours"]) <= 48
+        and float(row["freshness_hours"]) <= float(row["maximum_catalog_age_hours"])
     )
 
     manifest = {

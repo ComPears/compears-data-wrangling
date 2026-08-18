@@ -25,7 +25,7 @@ def _load_count(path: Path) -> int:
     return len(data) if isinstance(data, list) else 0
 
 
-def _baseline_counts() -> dict[str, int]:
+def _baseline_counts() -> dict[str, dict[str, int]]:
     if not BASELINE_PATH.exists():
         return {}
     with open(BASELINE_PATH, encoding="utf-8") as handle:
@@ -33,7 +33,10 @@ def _baseline_counts() -> dict[str, int]:
     if not isinstance(rows, list):
         return {}
     return {
-        str(row.get("store")): int(row.get("total") or 0)
+        str(row.get("store")): {
+            "count": int(row.get("total") or 0),
+            "quality_profile_version": int(row.get("quality_profile_version") or 1),
+        }
         for row in rows
         if isinstance(row, dict) and row.get("store")
     }
@@ -71,8 +74,16 @@ def main() -> None:
                 failures.append(message)
             continue
 
-        baseline = baselines.get(slug) or baselines.get(label)
-        if baseline and baseline > 0:
+        baseline_info = baselines.get(slug) or baselines.get(label) or {}
+        baseline = int(baseline_info.get("count") or 0)
+        baseline_profile = int(baseline_info.get("quality_profile_version") or 1)
+        current_profile = int(cfg.get("quality_profile_version") or 1)
+        if baseline and baseline_profile != current_profile:
+            warnings.append(
+                f"{label}: count baseline reset for quality profile migration "
+                f"v{baseline_profile} → v{current_profile} ({baseline} to {count})"
+            )
+        elif baseline > 0:
             drop = (baseline - count) / baseline
             if drop > MAX_DROP_RATIO:
                 message = f"{label}: dropped {drop:.0%} vs baseline {baseline} (now {count})"
