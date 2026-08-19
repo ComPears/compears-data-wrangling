@@ -2,15 +2,77 @@ from __future__ import annotations
 
 import hashlib
 import json
+import sys
 import tempfile
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 from scripts import stage_store_artifact
 
 
 class StageStoreArtifactTests(unittest.TestCase):
+    def test_missing_status_preserves_catalog_observation_time(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            relative = Path("countries/nl/plus/structured_plus.json")
+            catalog = root / relative
+            catalog.parent.mkdir(parents=True)
+            catalog.write_text(
+                json.dumps(
+                    [
+                        {
+                            "n": "Milk 1 l",
+                            "p": "1.25",
+                        }
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            output = root / "artifacts" / "catalog"
+            raw_output = root / "artifacts" / "raw"
+            status = output / "reports" / "scrape-status" / "nl-plus.json"
+
+            with (
+                patch.object(stage_store_artifact, "ROOT", root),
+                patch.object(stage_store_artifact, "catalog_rel_path", return_value=str(relative)),
+                patch.object(stage_store_artifact, "_stage_raw", return_value=0),
+                patch.object(
+                    stage_store_artifact.subprocess,
+                    "run",
+                    return_value=SimpleNamespace(
+                        returncode=0,
+                        stdout="2026-08-17T12:00:00+00:00\n",
+                    ),
+                ),
+                patch.object(
+                    sys,
+                    "argv",
+                    [
+                        "stage_store_artifact.py",
+                        "--country",
+                        "nl",
+                        "--store",
+                        "plus",
+                        "--output",
+                        str(output),
+                        "--raw-output",
+                        str(raw_output),
+                        "--status-file",
+                        str(status),
+                    ],
+                ),
+            ):
+                code = stage_store_artifact.main()
+
+            payload = json.loads(status.read_text(encoding="utf-8"))
+
+        self.assertEqual(code, 0)
+        self.assertEqual(payload["outcome"], "preserved")
+        self.assertEqual(payload["final"], 1)
+        self.assertEqual(payload["last_successful_at"], "2026-08-17T12:00:00+00:00")
+
     def test_raw_observations_are_staged_with_content_hashes(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

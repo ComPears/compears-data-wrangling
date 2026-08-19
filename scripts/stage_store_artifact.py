@@ -7,6 +7,7 @@ import argparse
 import hashlib
 import json
 import shutil
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -15,9 +16,47 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from config.paths import catalog_rel_path, store_config, store_dir  # noqa: E402
+from data_contract import utc_iso  # noqa: E402
 
 MAX_RAW_FILE_BYTES = 50 * 1024 * 1024
 MAX_RAW_TOTAL_BYTES = 200 * 1024 * 1024
+
+
+def _catalog_count(path: Path) -> int:
+    try:
+        rows = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return 0
+    return len(rows) if isinstance(rows, list) else 0
+
+
+def _last_successful_at(path: Path) -> str | None:
+    """Recover the last real observation time without refreshing a failed scrape."""
+    try:
+        rows = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        rows = []
+    stamps = [
+        utc_iso(row.get("observedAt") or row.get("scrapedAt") or row.get("scraped_at"))
+        for row in rows
+        if isinstance(row, dict)
+    ] if isinstance(rows, list) else []
+    valid_stamps = [stamp for stamp in stamps if stamp]
+    if valid_stamps:
+        return max(valid_stamps)
+
+    try:
+        relative = str(path.relative_to(ROOT))
+    except ValueError:
+        return None
+    result = subprocess.run(
+        ["git", "log", "-1", "--format=%cI", "--", relative],
+        cwd=ROOT,
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    return utc_iso(result.stdout.strip()) if result.returncode == 0 else None
 
 
 def _stage_raw(
@@ -93,15 +132,19 @@ def main() -> int:
     shutil.copy2(source, destination)
 
     if not args.status_file.is_file():
+        attempted_at = datetime.now(timezone.utc).isoformat()
         args.status_file.parent.mkdir(parents=True, exist_ok=True)
         args.status_file.write_text(
             json.dumps(
                 {
-                    "timestamp": datetime.now(timezone.utc).isoformat(),
+                    "timestamp": attempted_at,
+                    "attempted_at": attempted_at,
                     "country": args.country,
                     "store": args.store,
-                    "outcome": "unexpected_failure",
-                    "reason": "scraper ended before writing a status file",
+                    "outcome": "preserved",
+                    "reason": "scraper job ended before writing a status file",
+                    "final": _catalog_count(source),
+                    "last_successful_at": _last_successful_at(source),
                 },
                 indent=2,
             )
