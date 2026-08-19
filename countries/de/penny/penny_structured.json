@@ -7,10 +7,30 @@
     "i": null,
     "c": "Dairy & Eggs",
     "b": "4008400401126",
-    "cn": "penny vollmilch",
+    "cn": "vollmilch",
     "ik": "ean:4008400401126",
-    "bn": "penny",
-    "wg": 1000
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.09",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/vollmilch-1l",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "H-Milch 1,5% 1l",
@@ -19,11 +39,30 @@
     "l": "https://www.penny.de/produkt/h-milch-1.5-1l",
     "i": null,
     "c": "Dairy & Eggs",
-    "b": null,
-    "cn": "hmilch milch",
-    "ik": "tok:hmilch|milch|1000",
-    "bn": "hmilch",
-    "wg": 1000
+    "cn": "milch",
+    "ik": "tok:unknown|milch|1000ml",
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.95",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/h-milch-1.5-1l",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Butter 250g",
@@ -32,11 +71,30 @@
     "l": "https://www.penny.de/produkt/butter-250g",
     "i": null,
     "c": "Dairy & Eggs",
-    "b": "4008400123456",
-    "cn": "butter 250g",
-    "ik": "tok:butter|unknown|250",
-    "bn": "butter",
-    "wg": 250
+    "cn": "butter",
+    "ik": "tok:unknown|butter|250ml",
+    "wg": 250,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 250,
+      "itemUnit": "ml",
+      "totalValue": 250,
+      "baseUnit": "ml",
+      "display": "250 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "8.96",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/butter-250g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Joghurt Natur 500g",
@@ -45,24 +103,62 @@
     "l": "https://www.penny.de/produkt/joghurt-natur-500g",
     "i": null,
     "c": "Dairy & Eggs",
-    "b": null,
-    "cn": "penny joghurt natur",
-    "ik": "tok:penny|joghurt-natur|500",
-    "bn": "penny",
-    "wg": 500
+    "cn": "joghurt natur",
+    "ik": "tok:unknown|joghurt-natur|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.58",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/joghurt-natur-500g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Eier Freiland 10er",
     "p": "2.63",
-    "s": "10 Stück",
+    "s": "10 items",
     "l": "https://www.penny.de/produkt/eier-freiland-10",
     "i": null,
     "c": "Dairy & Eggs",
-    "b": null,
-    "cn": "eier 10er freiland",
-    "ik": "tok:eier|10er-freiland|na",
-    "bn": "eier",
-    "wg": null
+    "cn": "10er eier freiland",
+    "ik": "tok:unknown|10er-eier-freiland|10x1count",
+    "wg": 10,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 10,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 10,
+      "baseUnit": "count",
+      "display": "10 items"
+    },
+    "wu": "count",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.26",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "productUrl": "https://www.penny.de/produkt/eier-freiland-10",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Gouda Jung 400g",
@@ -71,11 +167,30 @@
     "l": "https://www.penny.de/produkt/gouda-jung-400g",
     "i": null,
     "c": "Dairy & Eggs",
-    "b": null,
     "cn": "gouda jung",
-    "ik": "tok:gouda|jung|400",
-    "bn": "gouda",
-    "wg": 400
+    "ik": "tok:unknown|gouda-jung|400ml",
+    "wg": 400,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 400,
+      "itemUnit": "ml",
+      "totalValue": 400,
+      "baseUnit": "ml",
+      "display": "400 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "7.60",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/gouda-jung-400g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Frischkäse Natur 200g",
@@ -84,11 +199,30 @@
     "l": "https://www.penny.de/produkt/frischkase-natur-200g",
     "i": null,
     "c": "Dairy & Eggs",
-    "b": null,
-    "cn": "penny frischk natur se",
-    "ik": "tok:penny|frischk-natur-se|200",
-    "bn": "penny",
-    "wg": 200
+    "cn": "frischk natur se",
+    "ik": "tok:unknown|frischk-natur-se|200ml",
+    "wg": 200,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 200,
+      "itemUnit": "ml",
+      "totalValue": 200,
+      "baseUnit": "ml",
+      "display": "200 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "5.55",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/frischkase-natur-200g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Sahne 30% 200g",
@@ -97,11 +231,30 @@
     "l": "https://www.penny.de/produkt/sahne-200g",
     "i": null,
     "c": "Dairy & Eggs",
-    "b": null,
-    "cn": "sahne 30",
-    "ik": "tok:sahne|30|200",
-    "bn": "sahne",
-    "wg": 200
+    "cn": "30 sahne",
+    "ik": "tok:unknown|30-sahne|200ml",
+    "wg": 200,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 200,
+      "itemUnit": "ml",
+      "totalValue": 200,
+      "baseUnit": "ml",
+      "display": "200 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "4.55",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/sahne-200g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Weizenmehl Type 405 1kg",
@@ -110,11 +263,30 @@
     "l": "https://www.penny.de/produkt/weizenmehl-1kg",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "weizenmehl 405 type",
-    "ik": "tok:weizenmehl|405-type|1000",
-    "bn": "weizenmehl",
-    "wg": 1000
+    "cn": "405 type weizenmehl",
+    "ik": "tok:unknown|405-type-weizenmehl|1000ml",
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.72",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/weizenmehl-1kg",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Zucker 1kg",
@@ -123,11 +295,30 @@
     "l": "https://www.penny.de/produkt/zucker-1kg",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "penny zucker",
-    "ik": "tok:penny|zucker|1000",
-    "bn": "penny",
-    "wg": 1000
+    "cn": "zucker",
+    "ik": "tok:unknown|zucker|1000ml",
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.07",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/zucker-1kg",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Langkornreis 1kg",
@@ -136,11 +327,30 @@
     "l": "https://www.penny.de/produkt/langkornreis-1kg",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "langkornreis 1kg",
-    "ik": "tok:langkornreis|unknown|1000",
-    "bn": "langkornreis",
-    "wg": 1000
+    "cn": "langkornreis",
+    "ik": "tok:unknown|langkornreis|1000ml",
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.59",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/langkornreis-1kg",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Spaghetti 500g",
@@ -149,11 +359,30 @@
     "l": "https://www.penny.de/produkt/spaghetti-500g",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "spaghetti 500g",
-    "ik": "tok:spaghetti|unknown|500",
-    "bn": "spaghetti",
-    "wg": 500
+    "cn": "spaghetti",
+    "ik": "tok:unknown|spaghetti|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.56",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/spaghetti-500g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Penne Rigate 500g",
@@ -162,11 +391,30 @@
     "l": "https://www.penny.de/produkt/penne-500g",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "penny penne rigate",
-    "ik": "tok:penny|penne-rigate|500",
-    "bn": "penny",
-    "wg": 500
+    "cn": "penne rigate",
+    "ik": "tok:unknown|penne-rigate|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.66",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/penne-500g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Sonnenblumenöl 1l",
@@ -175,11 +423,30 @@
     "l": "https://www.penny.de/produkt/sonnenblumenoel-1l",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "sonnenblumenl sonnenblumen",
-    "ik": "tok:sonnenblumenl|sonnenblumen|1000",
-    "bn": "sonnenblumenl",
-    "wg": 1000
+    "cn": "sonnenblumen",
+    "ik": "tok:unknown|sonnenblumen|1000ml",
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.98",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/sonnenblumenoel-1l",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Olivenöl Extra Vergine 500ml",
@@ -188,11 +455,30 @@
     "l": "https://www.penny.de/produkt/olivenoel-500ml",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "olivenl extra oliven vergine",
-    "ik": "tok:olivenl|extra-oliven-vergine|500",
-    "bn": "olivenl",
-    "wg": 500
+    "cn": "extra oliven vergine",
+    "ik": "tok:unknown|extra-oliven-vergine|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "10.98",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/olivenoel-500ml",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Tomatensauce 400g",
@@ -201,11 +487,30 @@
     "l": "https://www.penny.de/produkt/tomatensauce-400g",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "penny tomatensauce",
-    "ik": "tok:penny|tomatensauce|400",
-    "bn": "penny",
-    "wg": 400
+    "cn": "tomatensauce",
+    "ik": "tok:unknown|tomatensauce|400ml",
+    "wg": 400,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 400,
+      "itemUnit": "ml",
+      "totalValue": 400,
+      "baseUnit": "ml",
+      "display": "400 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.80",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/tomatensauce-400g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Passierte Tomaten 500g",
@@ -214,11 +519,30 @@
     "l": "https://www.penny.de/produkt/passierte-tomaten-500g",
     "i": null,
     "c": "Pantry",
-    "b": null,
     "cn": "passierte tomaten",
-    "ik": "tok:passierte|tomaten|500",
-    "bn": "passierte",
-    "wg": 500
+    "ik": "tok:unknown|passierte-tomaten|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.24",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/passierte-tomaten-500g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Kaffee Gemahlen 500g",
@@ -227,37 +551,94 @@
     "l": "https://www.penny.de/produkt/kaffee-gemahlen-500g",
     "i": null,
     "c": "Pantry",
-    "b": "4008400999888",
-    "cn": "kaffee gemahlen",
-    "ik": "tok:kaffee|gemahlen|500",
-    "bn": "kaffee",
-    "wg": 500
+    "cn": "gemahlen kaffee",
+    "ik": "tok:unknown|gemahlen-kaffee|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "8.88",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/kaffee-gemahlen-500g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Filterkaffee Pads 16er",
     "p": "2.19",
-    "s": "16 Stück",
+    "s": "16 items",
     "l": "https://www.penny.de/produkt/kaffee-pads-16",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "penny 16er filterkaffee pads",
-    "ik": "tok:penny|16er-filterkaffee-pads|na",
-    "bn": "penny",
-    "wg": null
+    "cn": "16er filterkaffee pads",
+    "ik": "tok:unknown|16er-filterkaffee-pads|16x1count",
+    "wg": 16,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 16,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 16,
+      "baseUnit": "count",
+      "display": "16 items"
+    },
+    "wu": "count",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.14",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "productUrl": "https://www.penny.de/produkt/kaffee-pads-16",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Schwarzer Tee 25 Beutel",
     "p": "1.39",
-    "s": "25 Stück",
+    "s": "25 items",
     "l": "https://www.penny.de/produkt/schwarzer-tee-25",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "schwarzer 25 beutel tee",
-    "ik": "tok:schwarzer|25-beutel-tee|na",
-    "bn": "schwarzer",
-    "wg": null
+    "cn": "25 beutel schwarzer tee",
+    "ik": "tok:unknown|25-beutel-schwarzer-tee|25x1count",
+    "wg": 25,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 25,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 25,
+      "baseUnit": "count",
+      "display": "25 items"
+    },
+    "wu": "count",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.06",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "productUrl": "https://www.penny.de/produkt/schwarzer-tee-25",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Toastbrot Weizen 500g",
@@ -266,11 +647,30 @@
     "l": "https://www.penny.de/produkt/toastbrot-500g",
     "i": null,
     "c": "Bakery",
-    "b": null,
     "cn": "toastbrot weizen",
-    "ik": "tok:toastbrot|weizen|500",
-    "bn": "toastbrot",
-    "wg": 500
+    "ik": "tok:unknown|toastbrot-weizen|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "2.22",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/toastbrot-500g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Vollkornbrot 500g",
@@ -279,24 +679,62 @@
     "l": "https://www.penny.de/produkt/vollkornbrot-500g",
     "i": null,
     "c": "Bakery",
-    "b": null,
-    "cn": "penny vollkornbrot",
-    "ik": "tok:penny|vollkornbrot|500",
-    "bn": "penny",
-    "wg": 500
+    "cn": "vollkornbrot",
+    "ik": "tok:unknown|vollkornbrot|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "3.28",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/vollkornbrot-500g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Brötchen Weizen 6er",
     "p": "1.35",
-    "s": "6 Stück",
+    "s": "6 items",
     "l": "https://www.penny.de/produkt/broetchen-6",
     "i": null,
     "c": "Bakery",
-    "b": null,
-    "cn": "brtchen 6er br tchen weizen",
-    "ik": "tok:brtchen|6er-br-tchen-weizen|na",
-    "bn": "brtchen",
-    "wg": null
+    "cn": "6er br tchen weizen",
+    "ik": "tok:unknown|6er-br-tchen-weizen|6x1count",
+    "wg": 6,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 6,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 6,
+      "baseUnit": "count",
+      "display": "6 items"
+    },
+    "wu": "count",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.23",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "productUrl": "https://www.penny.de/produkt/broetchen-6",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Äpfel Elstar 1kg",
@@ -305,11 +743,30 @@
     "l": "https://www.penny.de/produkt/aepfel-elstar-1kg",
     "i": null,
     "c": "Fruits & Vegetables",
-    "b": null,
     "cn": "elstar pfel",
-    "ik": "tok:elstar|pfel|1000",
-    "bn": "elstar",
-    "wg": 1000
+    "ik": "tok:unknown|elstar-pfel|1000ml",
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "2.06",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/aepfel-elstar-1kg",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Bananen 1kg",
@@ -318,11 +775,30 @@
     "l": "https://www.penny.de/produkt/bananen-1kg",
     "i": null,
     "c": "Fruits & Vegetables",
-    "b": null,
-    "cn": "bananen 1kg",
-    "ik": "tok:bananen|unknown|1000",
-    "bn": "bananen",
-    "wg": 1000
+    "cn": "bananen",
+    "ik": "tok:unknown|bananen|1000ml",
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.33",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/bananen-1kg",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Tomaten Rispe 500g",
@@ -331,37 +807,94 @@
     "l": "https://www.penny.de/produkt/tomaten-rispe-500g",
     "i": null,
     "c": "Fruits & Vegetables",
-    "b": null,
-    "cn": "tomaten rispe",
-    "ik": "tok:tomaten|rispe|500",
-    "bn": "tomaten",
-    "wg": 500
+    "cn": "rispe tomaten",
+    "ik": "tok:unknown|rispe-tomaten|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "3.50",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/tomaten-rispe-500g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Kartoffeln Festkochend 2,5kg",
     "p": "2.61",
-    "s": "2.50 l",
+    "s": "2.5 l",
     "l": "https://www.penny.de/produkt/kartoffeln-2.5kg",
     "i": null,
     "c": "Fruits & Vegetables",
-    "b": null,
-    "cn": "kartoffeln festkochend",
-    "ik": "tok:kartoffeln|festkochend|2500",
-    "bn": "kartoffeln",
-    "wg": 2500
+    "cn": "festkochend kartoffeln",
+    "ik": "tok:unknown|festkochend-kartoffeln|2500ml",
+    "wg": 2500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 2.5,
+      "itemUnit": "l",
+      "totalValue": 2500,
+      "baseUnit": "ml",
+      "display": "2.5 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.04",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/kartoffeln-2.5kg",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Gurke Stück",
     "p": "0.68",
-    "s": "1 Stück",
+    "s": "1 items",
     "l": "https://www.penny.de/produkt/gurke",
     "i": null,
     "c": "Fruits & Vegetables",
-    "b": null,
-    "cn": "gurke ck",
-    "ik": "tok:gurke|ck|na",
-    "bn": "gurke",
-    "wg": null
+    "cn": "ck gurke",
+    "ik": "tok:unknown|ck-gurke|1count",
+    "wg": 1,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 1,
+      "baseUnit": "count",
+      "display": "1 items"
+    },
+    "wu": "count",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.68",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "productUrl": "https://www.penny.de/produkt/gurke",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Zwiebeln 1kg",
@@ -370,11 +903,30 @@
     "l": "https://www.penny.de/produkt/zwiebeln-1kg",
     "i": null,
     "c": "Fruits & Vegetables",
-    "b": null,
-    "cn": "zwiebeln 1kg",
-    "ik": "tok:zwiebeln|unknown|1000",
-    "bn": "zwiebeln",
-    "wg": 1000
+    "cn": "zwiebeln",
+    "ik": "tok:unknown|zwiebeln|1000ml",
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.09",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/zwiebeln-1kg",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Karotten 1kg",
@@ -383,24 +935,62 @@
     "l": "https://www.penny.de/produkt/karotten-1kg",
     "i": null,
     "c": "Fruits & Vegetables",
-    "b": null,
-    "cn": "karotten 1kg",
-    "ik": "tok:karotten|unknown|1000",
-    "bn": "karotten",
-    "wg": 1000
+    "cn": "karotten",
+    "ik": "tok:unknown|karotten|1000ml",
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.99",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/karotten-1kg",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Salat Eisberg Stück",
     "p": "1.16",
-    "s": "1 Stück",
+    "s": "1 items",
     "l": "https://www.penny.de/produkt/eisbergsalat",
     "i": null,
     "c": "Fruits & Vegetables",
-    "b": null,
-    "cn": "salat ck eisberg",
-    "ik": "tok:salat|ck-eisberg|na",
-    "bn": "salat",
-    "wg": null
+    "cn": "ck eisberg salat",
+    "ik": "tok:unknown|ck-eisberg-salat|1count",
+    "wg": 1,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 1,
+      "baseUnit": "count",
+      "display": "1 items"
+    },
+    "wu": "count",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.16",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "productUrl": "https://www.penny.de/produkt/eisbergsalat",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Hähnchenbrustfilet 400g",
@@ -409,11 +999,30 @@
     "l": "https://www.penny.de/produkt/haehnchenbrust-400g",
     "i": null,
     "c": "Meat & Seafood",
-    "b": null,
-    "cn": "hhnchenbrustfilet hnchenbrustfilet",
-    "ik": "tok:hhnchenbrustfilet|hnchenbrustfilet|400",
-    "bn": "hhnchenbrustfilet",
-    "wg": 400
+    "cn": "hnchenbrustfilet",
+    "ik": "tok:unknown|hnchenbrustfilet|400ml",
+    "wg": 400,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 400,
+      "itemUnit": "ml",
+      "totalValue": 400,
+      "baseUnit": "ml",
+      "display": "400 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "13.33",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/haehnchenbrust-400g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Hackfleisch Gemischt 500g",
@@ -422,11 +1031,30 @@
     "l": "https://www.penny.de/produkt/hackfleisch-500g",
     "i": null,
     "c": "Meat & Seafood",
-    "b": null,
-    "cn": "hackfleisch gemischt",
-    "ik": "tok:hackfleisch|gemischt|500",
-    "bn": "hackfleisch",
-    "wg": 500
+    "cn": "gemischt hackfleisch",
+    "ik": "tok:unknown|gemischt-hackfleisch|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "7.92",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/hackfleisch-500g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Schweineschnitzel 400g",
@@ -435,11 +1063,30 @@
     "l": "https://www.penny.de/produkt/schweineschnitzel-400g",
     "i": null,
     "c": "Meat & Seafood",
-    "b": null,
-    "cn": "schweineschnitzel 400g",
-    "ik": "tok:schweineschnitzel|unknown|400",
-    "bn": "schweineschnitzel",
-    "wg": 400
+    "cn": "schweineschnitzel",
+    "ik": "tok:unknown|schweineschnitzel|400ml",
+    "wg": 400,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 400,
+      "itemUnit": "ml",
+      "totalValue": 400,
+      "baseUnit": "ml",
+      "display": "400 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "10.88",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/schweineschnitzel-400g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Wurst Lyoner 200g",
@@ -448,11 +1095,30 @@
     "l": "https://www.penny.de/produkt/lyoner-200g",
     "i": null,
     "c": "Meat & Seafood",
-    "b": null,
-    "cn": "wurst lyoner",
-    "ik": "tok:wurst|lyoner|200",
-    "bn": "wurst",
-    "wg": 200
+    "cn": "lyoner wurst",
+    "ik": "tok:unknown|lyoner-wurst|200ml",
+    "wg": 200,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 200,
+      "itemUnit": "ml",
+      "totalValue": 200,
+      "baseUnit": "ml",
+      "display": "200 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "7.75",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/lyoner-200g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Salami Geschnitten 100g",
@@ -461,50 +1127,126 @@
     "l": "https://www.penny.de/produkt/salami-100g",
     "i": null,
     "c": "Meat & Seafood",
-    "b": null,
-    "cn": "salami geschnitten",
-    "ik": "tok:salami|geschnitten|100",
-    "bn": "salami",
-    "wg": 100
+    "cn": "geschnitten salami",
+    "ik": "tok:unknown|geschnitten-salami|100ml",
+    "wg": 100,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 100,
+      "itemUnit": "ml",
+      "totalValue": 100,
+      "baseUnit": "ml",
+      "display": "100 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "18.20",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/salami-100g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Mineralwasser Classic 1,5l",
     "p": "0.35",
-    "s": "1.50 l",
+    "s": "1.5 l",
     "l": "https://www.penny.de/produkt/mineralwasser-classic-1.5l",
     "i": null,
     "c": "Beverages",
-    "b": null,
-    "cn": "penny classic mineralwasser",
-    "ik": "tok:penny|classic-mineralwasser|1500",
-    "bn": "penny",
-    "wg": 1500
+    "cn": "classic mineralwasser",
+    "ik": "tok:unknown|classic-mineralwasser|1500ml",
+    "wg": 1500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1.5,
+      "itemUnit": "l",
+      "totalValue": 1500,
+      "baseUnit": "ml",
+      "display": "1.5 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.23",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/mineralwasser-classic-1.5l",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Mineralwasser Still 1,5l",
     "p": "0.31",
-    "s": "1.50 l",
+    "s": "1.5 l",
     "l": "https://www.penny.de/produkt/mineralwasser-still-1.5l",
     "i": null,
     "c": "Beverages",
-    "b": null,
     "cn": "mineralwasser still",
-    "ik": "tok:mineralwasser|still|1500",
-    "bn": "mineralwasser",
-    "wg": 1500
+    "ik": "tok:unknown|mineralwasser-still|1500ml",
+    "wg": 1500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1.5,
+      "itemUnit": "l",
+      "totalValue": 1500,
+      "baseUnit": "ml",
+      "display": "1.5 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.21",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/mineralwasser-still-1.5l",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Cola 1,5l",
     "p": "1.06",
-    "s": "1.50 l",
+    "s": "1.5 l",
     "l": "https://www.penny.de/produkt/cola-1.5l",
     "i": null,
     "c": "Beverages",
-    "b": null,
-    "cn": "cola 1,5l",
-    "ik": "tok:cola|unknown|1500",
-    "bn": "cola",
-    "wg": 1500
+    "cn": "cola",
+    "ik": "tok:unknown|cola|1500ml",
+    "wg": 1500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1.5,
+      "itemUnit": "l",
+      "totalValue": 1500,
+      "baseUnit": "ml",
+      "display": "1.5 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.71",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/cola-1.5l",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Orangensaft 1l",
@@ -513,11 +1255,30 @@
     "l": "https://www.penny.de/produkt/orangensaft-1l",
     "i": null,
     "c": "Beverages",
-    "b": null,
-    "cn": "penny orangensaft",
-    "ik": "tok:penny|orangensaft|1000",
-    "bn": "penny",
-    "wg": 1000
+    "cn": "orangensaft",
+    "ik": "tok:unknown|orangensaft|1000ml",
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.31",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/orangensaft-1l",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Bier Pils 6x0,33l",
@@ -526,11 +1287,30 @@
     "l": "https://www.penny.de/produkt/bier-pils-6x0.33",
     "i": null,
     "c": "Beverages",
-    "b": null,
-    "cn": "bier 6x pils",
-    "ik": "tok:bier|6x-pils|1980",
-    "bn": "bier",
-    "wg": 1980
+    "cn": "6x bier pils",
+    "ik": "tok:unknown|6x-bier-pils|1980ml",
+    "wg": 1980,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1.98,
+      "itemUnit": "l",
+      "totalValue": 1980,
+      "baseUnit": "ml",
+      "display": "1.98 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.76",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/bier-pils-6x0.33",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Apfelsaft 1l",
@@ -539,11 +1319,30 @@
     "l": "https://www.penny.de/produkt/apfelsaft-1l",
     "i": null,
     "c": "Beverages",
-    "b": null,
-    "cn": "apfelsaft 1l",
-    "ik": "tok:apfelsaft|unknown|1000",
-    "bn": "apfelsaft",
-    "wg": 1000
+    "cn": "apfelsaft",
+    "ik": "tok:unknown|apfelsaft|1000ml",
+    "wg": 1000,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 1,
+      "itemUnit": "l",
+      "totalValue": 1000,
+      "baseUnit": "ml",
+      "display": "1 l"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.11",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/apfelsaft-1l",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Tiefkühlpizza Salami",
@@ -552,11 +1351,30 @@
     "l": "https://www.penny.de/produkt/tiefkuehlpizza-salami",
     "i": null,
     "c": "Frozen Foods",
-    "b": null,
-    "cn": "tiefkhlpizza hlpizza salami tiefk",
-    "ik": "tok:tiefkhlpizza|hlpizza-salami-tiefk|320",
-    "bn": "tiefkhlpizza",
-    "wg": 320
+    "cn": "hlpizza salami tiefk",
+    "ik": "tok:unknown|hlpizza-salami-tiefk|320ml",
+    "wg": 320,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 320,
+      "itemUnit": "ml",
+      "totalValue": 320,
+      "baseUnit": "ml",
+      "display": "320 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "7.13",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/tiefkuehlpizza-salami",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Tiefkühlgemüse Erbsen 450g",
@@ -565,11 +1383,30 @@
     "l": "https://www.penny.de/produkt/tk-erbsen-450g",
     "i": null,
     "c": "Frozen Foods",
-    "b": null,
-    "cn": "tiefkhlgemse erbsen hlgem se tiefk",
-    "ik": "tok:tiefkhlgemse|erbsen-hlgem-se-tiefk|450",
-    "bn": "tiefkhlgemse",
-    "wg": 450
+    "cn": "erbsen hlgem se tiefk",
+    "ik": "tok:unknown|erbsen-hlgem-se-tiefk|450ml",
+    "wg": 450,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 450,
+      "itemUnit": "ml",
+      "totalValue": 450,
+      "baseUnit": "ml",
+      "display": "450 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "2.40",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/tk-erbsen-450g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Pommes Frites 750g",
@@ -578,11 +1415,30 @@
     "l": "https://www.penny.de/produkt/pommes-750g",
     "i": null,
     "c": "Frozen Foods",
-    "b": null,
-    "cn": "pommes frites",
-    "ik": "tok:pommes|frites|750",
-    "bn": "pommes",
-    "wg": 750
+    "cn": "frites pommes",
+    "ik": "tok:unknown|frites-pommes|750ml",
+    "wg": 750,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 750,
+      "itemUnit": "ml",
+      "totalValue": 750,
+      "baseUnit": "ml",
+      "display": "750 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "2.15",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/pommes-750g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Kartoffelchips Classic 150g",
@@ -591,11 +1447,30 @@
     "l": "https://www.penny.de/produkt/chips-classic-150g",
     "i": null,
     "c": "Snacks",
-    "b": null,
-    "cn": "kartoffelchips classic",
-    "ik": "tok:kartoffelchips|classic|150",
-    "bn": "kartoffelchips",
-    "wg": 150
+    "cn": "classic kartoffelchips",
+    "ik": "tok:unknown|classic-kartoffelchips|150ml",
+    "wg": 150,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 150,
+      "itemUnit": "ml",
+      "totalValue": 150,
+      "baseUnit": "ml",
+      "display": "150 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "8.87",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/chips-classic-150g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Schokolade Vollmilch 100g",
@@ -604,11 +1479,30 @@
     "l": "https://www.penny.de/produkt/schokolade-vollmilch-100g",
     "i": null,
     "c": "Snacks",
-    "b": null,
     "cn": "schokolade vollmilch",
-    "ik": "tok:schokolade|vollmilch|100",
-    "bn": "schokolade",
-    "wg": 100
+    "ik": "tok:unknown|schokolade-vollmilch|100ml",
+    "wg": 100,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 100,
+      "itemUnit": "ml",
+      "totalValue": 100,
+      "baseUnit": "ml",
+      "display": "100 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "10.50",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/schokolade-vollmilch-100g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Kekse Butter 200g",
@@ -617,11 +1511,30 @@
     "l": "https://www.penny.de/produkt/butterkekse-200g",
     "i": null,
     "c": "Snacks",
-    "b": null,
-    "cn": "kekse butter",
-    "ik": "tok:kekse|butter|200",
-    "bn": "kekse",
-    "wg": 200
+    "cn": "butter kekse",
+    "ik": "tok:unknown|butter-kekse|200ml",
+    "wg": 200,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 200,
+      "itemUnit": "ml",
+      "totalValue": 200,
+      "baseUnit": "ml",
+      "display": "200 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "6.05",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/butterkekse-200g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Toilettenpapier 10 Rollen",
@@ -630,11 +1543,15 @@
     "l": "https://www.penny.de/produkt/toilettenpapier-10",
     "i": null,
     "c": "Household",
-    "b": null,
-    "cn": "toilettenpapier 10 rollen",
-    "ik": "tok:toilettenpapier|10-rollen|na",
-    "bn": "toilettenpapier",
-    "wg": null
+    "cn": "10 rollen toilettenpapier",
+    "ik": "tok:unknown|10-rollen-toilettenpapier|na",
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "productUrl": "https://www.penny.de/produkt/toilettenpapier-10",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Spülmittel Zitrone 500ml",
@@ -643,11 +1560,30 @@
     "l": "https://www.penny.de/produkt/spuelmittel-500ml",
     "i": null,
     "c": "Household",
-    "b": null,
-    "cn": "splmittel lmittel sp zitrone",
-    "ik": "tok:splmittel|lmittel-sp-zitrone|500",
-    "bn": "splmittel",
-    "wg": 500
+    "cn": "lmittel sp zitrone",
+    "ik": "tok:unknown|lmittel-sp-zitrone|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "2.36",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/spuelmittel-500ml",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Waschmittel Universal 20 Wl",
@@ -656,11 +1592,15 @@
     "l": "https://www.penny.de/produkt/waschmittel-20wl",
     "i": null,
     "c": "Household",
-    "b": null,
-    "cn": "waschmittel 20 universal wl",
-    "ik": "tok:waschmittel|20-universal-wl|na",
-    "bn": "waschmittel",
-    "wg": null
+    "cn": "20 universal waschmittel wl",
+    "ik": "tok:unknown|20-universal-waschmittel-wl|na",
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "productUrl": "https://www.penny.de/produkt/waschmittel-20wl",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Shampoo Normal 300ml",
@@ -669,11 +1609,30 @@
     "l": "https://www.penny.de/produkt/shampoo-300ml",
     "i": null,
     "c": "Personal Care",
-    "b": null,
-    "cn": "shampoo normal",
-    "ik": "tok:shampoo|normal|300",
-    "bn": "shampoo",
-    "wg": 300
+    "cn": "normal shampoo",
+    "ik": "tok:unknown|normal-shampoo|300ml",
+    "wg": 300,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 300,
+      "itemUnit": "ml",
+      "totalValue": 300,
+      "baseUnit": "ml",
+      "display": "300 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "5.97",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/shampoo-300ml",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Zahnpasta Mint 75ml",
@@ -682,11 +1641,30 @@
     "l": "https://www.penny.de/produkt/zahnpasta-75ml",
     "i": null,
     "c": "Personal Care",
-    "b": null,
-    "cn": "zahnpasta mint",
-    "ik": "tok:zahnpasta|mint|75",
-    "bn": "zahnpasta",
-    "wg": 75
+    "cn": "mint zahnpasta",
+    "ik": "tok:unknown|mint-zahnpasta|75ml",
+    "wg": 75,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 75,
+      "itemUnit": "ml",
+      "totalValue": 75,
+      "baseUnit": "ml",
+      "display": "75 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "17.73",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/zahnpasta-75ml",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Duschgel Classic 250ml",
@@ -695,11 +1673,30 @@
     "l": "https://www.penny.de/produkt/duschgel-250ml",
     "i": null,
     "c": "Personal Care",
-    "b": null,
-    "cn": "duschgel classic",
-    "ik": "tok:duschgel|classic|250",
-    "bn": "duschgel",
-    "wg": 250
+    "cn": "classic duschgel",
+    "ik": "tok:unknown|classic-duschgel|250ml",
+    "wg": 250,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 250,
+      "itemUnit": "ml",
+      "totalValue": 250,
+      "baseUnit": "ml",
+      "display": "250 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "4.56",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/duschgel-250ml",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Haferflocken 500g",
@@ -708,11 +1705,30 @@
     "l": "https://www.penny.de/produkt/haferflocken-500g",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "penny haferflocken",
-    "ik": "tok:penny|haferflocken|500",
-    "bn": "penny",
-    "wg": 500
+    "cn": "haferflocken",
+    "ik": "tok:unknown|haferflocken|500ml",
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.72",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/haferflocken-500g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Honig Flüssig 500g",
@@ -721,11 +1737,32 @@
     "l": "https://www.penny.de/produkt/honig-500g",
     "i": null,
     "c": "Pantry",
-    "b": null,
     "cn": "honig fl ssig",
-    "ik": "tok:honig|fl-ssig|500",
+    "ik": "tok:honig|fl-ssig|500ml",
     "bn": "honig",
-    "wg": 500
+    "wg": 500,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "brandSource": "known_name",
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "6.88",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/honig-500g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Marmelade Erdbeere 450g",
@@ -734,11 +1771,30 @@
     "l": "https://www.penny.de/produkt/marmelade-erdbeere-450g",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "marmelade erdbeere",
-    "ik": "tok:marmelade|erdbeere|450",
-    "bn": "marmelade",
-    "wg": 450
+    "cn": "erdbeere marmelade",
+    "ik": "tok:unknown|erdbeere-marmelade|450ml",
+    "wg": 450,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 450,
+      "itemUnit": "ml",
+      "totalValue": 450,
+      "baseUnit": "ml",
+      "display": "450 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "3.64",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/marmelade-erdbeere-450g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Thunfisch In Öl 150g",
@@ -747,11 +1803,30 @@
     "l": "https://www.penny.de/produkt/thunfisch-150g",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "penny in thunfisch",
-    "ik": "tok:penny|in-thunfisch|150",
-    "bn": "penny",
-    "wg": 150
+    "cn": "in thunfisch",
+    "ik": "tok:unknown|in-thunfisch|150ml",
+    "wg": 150,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 150,
+      "itemUnit": "ml",
+      "totalValue": 150,
+      "baseUnit": "ml",
+      "display": "150 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "9.60",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/thunfisch-150g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Maiskörner 300g",
@@ -760,11 +1835,30 @@
     "l": "https://www.penny.de/produkt/mais-300g",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "maiskrner maisk rner",
-    "ik": "tok:maiskrner|maisk-rner|300",
-    "bn": "maiskrner",
-    "wg": 300
+    "cn": "maisk rner",
+    "ik": "tok:unknown|maisk-rner|300ml",
+    "wg": 300,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 300,
+      "itemUnit": "ml",
+      "totalValue": 300,
+      "baseUnit": "ml",
+      "display": "300 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "2.67",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/mais-300g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Kidneybohnen 400g",
@@ -773,11 +1867,30 @@
     "l": "https://www.penny.de/produkt/kidneybohnen-400g",
     "i": null,
     "c": "Pantry",
-    "b": null,
-    "cn": "kidneybohnen 400g",
-    "ik": "tok:kidneybohnen|unknown|400",
-    "bn": "kidneybohnen",
-    "wg": 400
+    "cn": "kidneybohnen",
+    "ik": "tok:unknown|kidneybohnen|400ml",
+    "wg": 400,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 400,
+      "itemUnit": "ml",
+      "totalValue": 400,
+      "baseUnit": "ml",
+      "display": "400 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.75",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/kidneybohnen-400g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Mozzarella 125g",
@@ -786,11 +1899,30 @@
     "l": "https://www.penny.de/produkt/mozzarella-125g",
     "i": null,
     "c": "Dairy & Eggs",
-    "b": null,
-    "cn": "penny mozzarella",
-    "ik": "tok:penny|mozzarella|125",
-    "bn": "penny",
-    "wg": 125
+    "cn": "mozzarella",
+    "ik": "tok:unknown|mozzarella|125ml",
+    "wg": 125,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 125,
+      "itemUnit": "ml",
+      "totalValue": 125,
+      "baseUnit": "ml",
+      "display": "125 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "6.24",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/mozzarella-125g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Quark Mager 250g",
@@ -799,11 +1931,30 @@
     "l": "https://www.penny.de/produkt/quark-mager-250g",
     "i": null,
     "c": "Dairy & Eggs",
-    "b": null,
-    "cn": "quark mager",
-    "ik": "tok:quark|mager|250",
-    "bn": "quark",
-    "wg": 250
+    "cn": "mager quark",
+    "ik": "tok:unknown|mager-quark|250ml",
+    "wg": 250,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 250,
+      "itemUnit": "ml",
+      "totalValue": 250,
+      "baseUnit": "ml",
+      "display": "250 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "2.76",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/quark-mager-250g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Räucherlachs 100g",
@@ -812,11 +1963,30 @@
     "l": "https://www.penny.de/produkt/raeucherlachs-100g",
     "i": null,
     "c": "Meat & Seafood",
-    "b": null,
-    "cn": "rucherlachs ucherlachs",
-    "ik": "tok:rucherlachs|ucherlachs|100",
-    "bn": "rucherlachs",
-    "wg": 100
+    "cn": "ucherlachs",
+    "ik": "tok:unknown|ucherlachs|100ml",
+    "wg": 100,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 100,
+      "itemUnit": "ml",
+      "totalValue": 100,
+      "baseUnit": "ml",
+      "display": "100 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "30.10",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/raeucherlachs-100g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   },
   {
     "n": "Wiener Würstchen 200g",
@@ -825,10 +1995,29 @@
     "l": "https://www.penny.de/produkt/wiener-200g",
     "i": null,
     "c": "Meat & Seafood",
-    "b": null,
-    "cn": "wiener rstchen",
-    "ik": "tok:wiener|rstchen|200",
-    "bn": "wiener",
-    "wg": 200
+    "cn": "rstchen wiener",
+    "ik": "tok:unknown|rstchen-wiener|200ml",
+    "wg": 200,
+    "priceType": "regular",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 200,
+      "itemUnit": "ml",
+      "totalValue": 200,
+      "baseUnit": "ml",
+      "display": "200 ml"
+    },
+    "wu": "ml",
+    "country": "de",
+    "retailer": "penny",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "7.75",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "productUrl": "https://www.penny.de/produkt/wiener-200g",
+    "observedAt": "2026-08-19T11:33:39+00:00"
   }
 ]
