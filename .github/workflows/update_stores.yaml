@@ -255,7 +255,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # Persist the quality report so versioned count-baseline migrations
           # reset once; later unexplained catalog drops are blocked again.
-          git add -A countries data-quality-report.json
+          git add -A countries
+          # The report is intentionally ignored for local runs, so force-add it
+          # when seeding the repository's persisted quality baseline.
+          git add -f data-quality-report.json
           if git diff --cached --quiet; then
             echo "No validated catalog changes to commit"
           else
