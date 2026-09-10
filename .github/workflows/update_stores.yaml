@@ -108,8 +108,8 @@ jobs:
         continue-on-error: true
         run: python -m playwright install --with-deps chromium
 
-      - name: Install Chrome channel for Asda
-        if: matrix.store == 'asda'
+      - name: Install Chrome channel for bot-sensitive UK stores
+        if: matrix.store == 'asda' || matrix.store == 'tesco' || matrix.store == 'sainsburys'
         timeout-minutes: 20
         continue-on-error: true
         run: python -m playwright install chrome
@@ -124,14 +124,22 @@ jobs:
           DE_MAX_EMPTY_QUERIES: '5'
           # Keep AH under the job timeout; barcode backfill can run separately.
           AH_DETAIL_ENRICH_LIMIT: ${{ matrix.store == 'albert-heijn' && '400' || '0' }}
-          PLAYWRIGHT_CHANNEL: ${{ matrix.store == 'asda' && 'chrome' || '' }}
+          PLAYWRIGHT_CHANNEL: ${{ (matrix.store == 'asda' || matrix.store == 'tesco' || matrix.store == 'sainsburys') && 'chrome' || '' }}
+          PLAYWRIGHT_HEADED: ${{ (matrix.store == 'tesco' || matrix.store == 'sainsburys') && '1' || '' }}
           STATUS_FILE: artifacts/catalog/reports/scrape-status/${{ matrix.country }}-${{ matrix.store }}.json
-        run: >-
-          python scripts/run_store_pipeline.py
-          --country "${{ matrix.country }}"
-          --store "${{ matrix.store }}"
-          --soft-fail
-          --status-file "$STATUS_FILE"
+        shell: bash
+        run: |
+          runner=()
+          if [[ "$PLAYWRIGHT_HEADED" == "1" ]]; then
+            # Akamai denies the headless browser for these retailers. Playwright's
+            # dependency install provides Xvfb, so headed Chrome still runs in CI.
+            runner=(xvfb-run -a)
+          fi
+          "${runner[@]}" python scripts/run_store_pipeline.py \
+            --country "${{ matrix.country }}" \
+            --store "${{ matrix.store }}" \
+            --soft-fail \
+            --status-file "$STATUS_FILE"
 
       - name: Stage canonical catalog artifact
         if: always()

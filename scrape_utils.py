@@ -54,9 +54,16 @@ def strip_pagination_param(url: str) -> str:
     return urlunparse(parsed._replace(query=urlencode(flat)))
 
 
-def configure_page(page: Page, width: int = 1600, height: int = 900) -> None:
+def configure_page(
+    page: Page,
+    width: int = 1600,
+    height: int = 900,
+    *,
+    user_agent: str | None = DEFAULT_USER_AGENT,
+) -> None:
     page.set_viewport_size({"width": width, "height": height})
-    page.set_extra_http_headers({"User-Agent": DEFAULT_USER_AGENT})
+    if user_agent:
+        page.set_extra_http_headers({"User-Agent": user_agent})
 
 
 def click_button_if_visible(page: Page, selector: str, *, timeout: int = 3000) -> bool:

@@ -117,6 +117,41 @@ def validate_file(country: str, slug: str, catalog: Path) -> dict:
     return report
 
 
+def quantity_coverage_messages(report: dict, cfg: dict) -> tuple[str | None, str | None]:
+    """Return a hard failure or an improvement warning for quantity coverage.
+
+    The hard floor protects against a broken extraction. The higher target tracks
+    expected data quality without rejecting a valid catalog when a retailer omits
+    package sizes from a portion of its daily assortment.
+    """
+    total = int(report.get("total") or 0)
+    if not total:
+        return None, None
+
+    minimum = float(cfg.get("minimum_quantity_coverage", 0.90))
+    target = float(cfg.get("target_quantity_coverage", 0.90))
+    label = f"{report['country']}/{report['store']}"
+    if not 0 <= minimum <= target <= 1:
+        return (
+            f"{label}: invalid quantity coverage thresholds "
+            f"(minimum={minimum:.1%}, target={target:.1%})",
+            None,
+        )
+
+    coverage = int(report.get("with_quantity") or 0) / total
+    if coverage < minimum:
+        return (
+            f"{label}: quantity coverage {coverage:.1%} below hard floor {minimum:.1%}",
+            None,
+        )
+    if coverage < target:
+        return (
+            None,
+            f"WARNING: {label}: quantity coverage {coverage:.1%} below target {target:.1%}",
+        )
+    return None, None
+
+
 def main() -> None:
     reports = []
     for country, slug, catalog in all_catalog_paths():
@@ -158,19 +193,11 @@ def main() -> None:
                 f"{report['country']}/{report['store']}: missing observation timestamps"
             )
         cfg = store_config(report["country"], report["store"])
-        minimum_quantity = float(cfg.get("minimum_quantity_coverage", 0.90))
-        target_quantity = float(cfg.get("target_quantity_coverage", 0.90))
-        quantity_coverage = report["with_quantity"] / total
-        if quantity_coverage < minimum_quantity:
-            failures.append(
-                f"{report['country']}/{report['store']}: quantity coverage "
-                f"{quantity_coverage:.1%} below hard floor {minimum_quantity:.1%}"
-            )
-        elif quantity_coverage < target_quantity:
-            print(
-                f"WARNING: {report['country']}/{report['store']}: quantity coverage "
-                f"{quantity_coverage:.1%} below target {target_quantity:.1%}"
-            )
+        quantity_failure, quantity_warning = quantity_coverage_messages(report, cfg)
+        if quantity_failure:
+            failures.append(quantity_failure)
+        elif quantity_warning:
+            print(quantity_warning)
         if report["promo_in_name"]:
             failures.append(
                 f"{report['country']}/{report['store']}: promotion text remains in product names"
