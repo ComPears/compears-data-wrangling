@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import sys
 from pathlib import Path
-from urllib.parse import quote, quote_plus
+from urllib.parse import quote_plus
 
 from playwright.sync_api import sync_playwright
 
@@ -19,14 +19,14 @@ OUTPUT = Path(__file__).resolve().parent / "sainsburys.json"
 CFG = StoreSearchConfig(
     slug="sainsburys",
     base_url="https://www.sainsburys.co.uk",
-    warm_url="https://www.sainsburys.co.uk/gol-ui/groceries",
-    search_url=lambda q: f"https://www.sainsburys.co.uk/gol-ui/SearchResults/{quote(q, safe='')}",
-    api_url=lambda q: (
-        "https://www.sainsburys.co.uk/groceries-api/gol-services/product/v1/product"
-        f"?filter[keyword]={quote_plus(q)}&page_number=1&page_size=36"
+    warm_url="https://www.sainsburys.co.uk/groceries",
+    search_url=lambda q: (
+        "https://www.sainsburys.co.uk/groceries/search"
+        f"?searchTerm={quote_plus(q)}"
     ),
     card_selectors=(
         "[data-testid^='product-tile-']",
+        "[id^='product-card-']",
         "li[class*='pt-grid-item']",
         "[data-testid='product-tile']",
         ".pt__row .pt__item",

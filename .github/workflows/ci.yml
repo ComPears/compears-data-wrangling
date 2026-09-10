@@ -1,0 +1,42 @@
+name: Data pipeline CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: data-pipeline-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12.8'
+          check-latest: false
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install locked dependencies
+        run: pip install -r requirements.txt
+
+      - name: Verify dependency compatibility
+        run: python -m pip check
+
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -t . -v
+
+      - name: Validate committed catalogs
+        run: python scripts/validate_products.py

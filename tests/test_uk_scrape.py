@@ -15,6 +15,8 @@ from uk_scrape import (  # noqa: E402
     harvest_api_json,
     size_from_text_blob,
 )
+from countries.uk.sainsburys.main import CFG as SAINSBURYS_CFG  # noqa: E402
+from scrape_utils import configure_page  # noqa: E402
 
 
 class FakePage:
@@ -28,6 +30,18 @@ class FakePage:
         return response
 
 
+class FakeConfiguredPage:
+    def __init__(self):
+        self.viewport = None
+        self.headers = None
+
+    def set_viewport_size(self, viewport):
+        self.viewport = viewport
+
+    def set_extra_http_headers(self, headers):
+        self.headers = headers
+
+
 CFG = StoreSearchConfig(
     slug="test-store",
     base_url="https://example.com",
@@ -38,6 +52,21 @@ CFG = StoreSearchConfig(
 
 
 class UkScrapeApiTests(unittest.TestCase):
+    def test_sainsburys_uses_current_search_route_without_retired_api(self):
+        self.assertEqual(
+            SAINSBURYS_CFG.search_url("semi skimmed milk"),
+            "https://www.sainsburys.co.uk/groceries/search?searchTerm=semi+skimmed+milk",
+        )
+        self.assertIsNone(SAINSBURYS_CFG.api_url)
+
+    def test_page_can_keep_browser_native_user_agent(self):
+        page = FakeConfiguredPage()
+
+        configure_page(page, user_agent=None)
+
+        self.assertEqual(page.viewport, {"width": 1600, "height": 900})
+        self.assertIsNone(page.headers)
+
     def test_extracts_package_size_but_not_unit_price(self):
         self.assertEqual(
             size_from_text_blob("Morrisons Whole Milk\n2 litres\n£1.65\n82.5p / litre"),

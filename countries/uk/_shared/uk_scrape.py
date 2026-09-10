@@ -30,7 +30,6 @@ def _repo_root() -> Path:
 
 ROOT = _repo_root()
 from scrape_utils import (  # noqa: E402
-    DEFAULT_USER_AGENT,
     configure_page,
     goto_resilient,
     launch_browser,
@@ -595,7 +594,6 @@ def scrape_store_search(
 ) -> list[dict[str, Any]]:
     browser = launch_browser(playwright)
     context = browser.new_context(
-        user_agent=DEFAULT_USER_AGENT,
         locale="en-GB",
         viewport={"width": 1400, "height": 900},
         extra_http_headers={
@@ -619,7 +617,9 @@ def scrape_store_search(
     sticky_page: Page | None = None
     try:
         warm_page = context.new_page()
-        configure_page(warm_page)
+        # Use the browser's native UA. A frozen Chrome version diverges from
+        # Playwright's TLS/client-hints fingerprint and triggers retailer bot walls.
+        configure_page(warm_page, user_agent=None)
         goto_resilient(warm_page, warm, timeout=45000, retries=2)
         accept_uk_cookies(warm_page)
         warm_page.wait_for_timeout(1500)
@@ -640,7 +640,7 @@ def scrape_store_search(
         owned_page = False
         if page is None:
             page = context.new_page()
-            configure_page(page)
+            configure_page(page, user_agent=None)
             owned_page = True
         sniffed: list[dict[str, Any]] = []
         attach_json_sniffer(page, cfg, sniffed)
