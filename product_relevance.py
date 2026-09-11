@@ -159,6 +159,7 @@ def rejection_reason(
     store: str | None = None,
     category: str | None = None,
     has_quantity: bool = True,
+    retailer_food: bool = False,
 ) -> str | None:
     """Return a reason only for high-confidence non-offer or durable-goods rows."""
     normalized = re.sub(r"\s+", " ", str(name or "").strip().lower())
@@ -168,12 +169,14 @@ def rejection_reason(
     if any(phrase in normalized for phrase in phrases):
         return "durable_non_grocery"
     # Lidl search pages mix groceries with a large rotating non-food catalogue.
-    # Rows in these broad categories are not safely comparable without package
-    # evidence, so quarantine them instead of inflating the grocery catalogue.
+    # Rows in these broad categories need package evidence or an explicit food
+    # classification from a verified retailer parser. Search terms are not
+    # classification evidence ("nuts" can return hardware).
     if (
         str(store or "").lower() in _LIDL_STORES
         and not has_quantity
         and str(category or "Other") in _AMBIGUOUS_WITHOUT_QUANTITY
+        and not retailer_food
     ):
         return "ambiguous_lidl_non_grocery"
     return None

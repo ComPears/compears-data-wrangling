@@ -1,0 +1,22 @@
+# Reproduce the daily job's OS, exact Python version and headed Chrome runtime.
+# Keep this separate from production; catalogs are copied into disposable storage.
+FROM ubuntu:24.04
+ENV DEBIAN_FRONTEND=noninteractive PYTHONUNBUFFERED=1
+RUN sed -i 's|http://archive.ubuntu.com/ubuntu|http://azure.archive.ubuntu.com/ubuntu|g; s|http://security.ubuntu.com/ubuntu|http://azure.archive.ubuntu.com/ubuntu|g' /etc/apt/sources.list.d/ubuntu.sources \
+    && apt-get update && apt-get install -y --no-install-recommends \
+    python3 python3-venv ca-certificates git xvfb xauth \
+    && rm -rf /var/lib/apt/lists/*
+RUN python3 -m venv /opt/bootstrap \
+    && /opt/bootstrap/bin/pip install --no-cache-dir uv==0.8.22 \
+    && /opt/bootstrap/bin/uv python install 3.12.8 \
+    && /opt/bootstrap/bin/uv venv --python 3.12.8 /opt/scraper
+ENV PATH="/opt/scraper/bin:$PATH"
+COPY requirements.txt /tmp/requirements.txt
+RUN /opt/bootstrap/bin/uv pip install --python /opt/scraper/bin/python -r /tmp/requirements.txt \
+    && python -m playwright install --with-deps chromium \
+    && python -m playwright install chrome
+WORKDIR /workspace
+ENV PLAYWRIGHT_CHANNEL=chrome PLAYWRIGHT_HEADED=1 \
+    UK_MAX_QUERIES=80 UK_MAX_BLOCKED_QUERIES=3 UK_MAX_EMPTY_QUERIES=5 \
+    UK_DIAGNOSTICS_DIR=/workspace/artifacts/search-diagnostics
+CMD ["xvfb-run", "-a", "python", "scripts/verify_tesco_refresh.py"]

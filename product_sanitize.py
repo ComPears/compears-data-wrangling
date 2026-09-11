@@ -333,6 +333,11 @@ def sanitize_entry_with_reason(
         store=store,
         category=category,
         has_quantity=bool(quantity),
+        retailer_food=(
+            country == "uk" and store == "lidl-uk"
+            and entry.get("retailerCategory") == "Food"
+            and entry.get("categorySource") == "lidl_product_grid"
+        ),
     )
     if relevance_reject:
         return None, relevance_reject
@@ -369,7 +374,7 @@ def sanitize_entry_with_reason(
     out["n"] = title_case_canonical(clean_name) if clean_name else clean_name
     out["p"] = price
     offer_text = str(out.get("o") or "").strip()
-    if re.search(r"\b(clubcard|nectar price)\b", offer_text, re.I):
+    if re.search(r"\b(clubcard|nectar price|lidl plus)\b", offer_text, re.I):
         out["priceType"] = "loyalty"
     elif offer_text:
         out["priceType"] = "promotion"

@@ -173,11 +173,11 @@ def maybe_set_de_zip(page: Page, zip_code: str = "80331") -> None:
                     if btn.count() and btn.is_visible(timeout=800):
                         btn.click(timeout=2000)
                         page.wait_for_timeout(1500)
-                        print(f"📍 Set PLZ {zip_code} via {selector} / {confirm}")
+                        print("📍 Store location configured")
                         return
                 except Exception:
                     continue
-            print(f"📍 Entered PLZ {zip_code} via {selector}")
+            print("📍 Store location entered")
             return
         except Exception:
             continue
