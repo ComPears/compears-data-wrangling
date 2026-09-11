@@ -9,9 +9,10 @@ import re
 import sys
 import time
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
-from urllib.parse import quote_plus
+from urllib.parse import parse_qs, quote_plus, urlsplit
 
 from playwright.sync_api import Page, Playwright, Response
 
@@ -92,6 +93,13 @@ class StoreSearchConfig:
     warm_url: str | None = None
     # Optional JSON API searched from inside the warmed browser session.
     api_url: Callable[[str], str] | None = None
+    # Preserve tab-local session state across searches for session-sensitive stores.
+    reuse_page: bool = False
+    # Use the retailer's client-side search flow when direct navigation
+    # does not preserve the application's search session.
+    navigate_search: Callable[[Page, str], None] | None = None
+    # Authoritative retailer parser: never fall back to generic price guessing.
+    extract_products: Callable[[Page], list[dict[str, Any]]] | None = None
 
 
 @dataclass(frozen=True)
@@ -525,7 +533,9 @@ def harvest_api_json(page: Page, cfg: StoreSearchConfig, query: str) -> ApiHarve
     return ApiHarvestResult(found[: cfg.max_per_query], int(payload.get("status") or 200))
 
 
-def attach_json_sniffer(page: Page, cfg: StoreSearchConfig, bucket: list[dict[str, Any]]) -> None:
+def attach_json_sniffer(
+    page: Page, cfg: StoreSearchConfig, bucket: list[dict[str, Any]]
+) -> Callable[[Response], None]:
     def on_response(response: Response) -> None:
         try:
             ctype = (response.headers.get("content-type") or "").lower()
@@ -553,6 +563,53 @@ def attach_json_sniffer(page: Page, cfg: StoreSearchConfig, bucket: list[dict[st
         bucket.append({"priority": priority, "url": url, "products": found})
 
     page.on("response", on_response)
+    return on_response
+
+
+def search_page_state(page: Page, status: int | None) -> str:
+    """Classify failures without persisting potentially sensitive page contents."""
+    try:
+        content = (page.title() + " " + page.locator("body").inner_text(timeout=2000)).lower()
+    except Exception:
+        content = ""
+    if status in {401, 403, 429} or any(
+        marker in content for marker in (
+            "access denied", "verify you are human", "unusual traffic", "just a moment",
+        )
+    ):
+        return "blocked"
+    if status is not None and status >= 500:
+        return "server_error"
+    if status is not None and status >= 400:
+        return "http_error"
+    if any(marker in content for marker in ("no results", "no products found", "couldn't find any")):
+        return "no_results"
+    return "unclassified_empty"
+
+
+def same_search_location(actual: str, expected: str) -> bool:
+    current, requested = urlsplit(actual), urlsplit(expected)
+    current_query, requested_query = parse_qs(current.query), parse_qs(requested.query)
+    # Tesco adds inputType when its visible search form is submitted. It is
+    # input-method metadata, not a different product query or filter.
+    current_query.pop("inputType", None)
+    requested_query.pop("inputType", None)
+    return (
+        current.hostname == requested.hostname
+        and current.path == requested.path
+        and current_query == requested_query
+    )
+
+
+def write_search_diagnostics(output_file: Path, cfg: StoreSearchConfig, rows: list[dict]) -> None:
+    # A separate artifact, never part of a product catalog. No HTML, cookies,
+    # headers, response bodies, query strings or exception messages are retained.
+    directory = Path(os.environ.get("UK_DIAGNOSTICS_DIR", str(output_file.parent / "diagnostics")))
+    write_json_atomic(directory / f"{cfg.slug}-search.json", {
+        "store": cfg.slug,
+        "attempted_at": datetime.now(timezone.utc).isoformat(),
+        "queries": rows,
+    })
 
 
 def best_sniffed_products(
@@ -612,26 +669,37 @@ def scrape_store_search(
     max_empty_queries = int(os.environ.get("UK_MAX_EMPTY_QUERIES", "5"))
     consecutive_blocked = 0
     consecutive_empty = 0
+    diagnostics: list[dict] = []
+    write_search_diagnostics(output_file, cfg, diagnostics)
 
     warm = cfg.warm_url or cfg.base_url
     sticky_page: Page | None = None
+    warm_page: Page | None = None
     try:
         warm_page = context.new_page()
+        if cfg.api_url or cfg.reuse_page:
+            sticky_page = warm_page
         # Use the browser's native UA. A frozen Chrome version diverges from
         # Playwright's TLS/client-hints fingerprint and triggers retailer bot walls.
         configure_page(warm_page, user_agent=None)
         goto_resilient(warm_page, warm, timeout=45000, retries=2)
         accept_uk_cookies(warm_page)
         warm_page.wait_for_timeout(1500)
+        if cfg.navigate_search:
+            # Consent may hydrate after the initial document. Settle it on the
+            # homepage: accepting it on a result page can reload that page and
+            # turn a successful client-side search into a blocked direct GET.
+            accept_uk_cookies(warm_page)
+            warm_page.wait_for_timeout(1500)
         print(f"🏠 [{cfg.slug}] warmed {warm}")
-        if cfg.api_url:
-            sticky_page = warm_page
-        else:
+        if sticky_page is None:
             warm_page.close()
     except Exception as err:
-        print(f"   ⚠️ warm failed: {type(err).__name__}: {err}")
+        print(f"   ⚠️ warm failed: {type(err).__name__}")
+        if warm_page is not None and sticky_page is None:
+            warm_page.close()
 
-    for query in query_list:
+    for query_index, query in enumerate(query_list, start=1):
         url = cfg.search_url(query)
         print(f"\n🔍 [{cfg.slug}] {query} → {url}")
         batch: list[dict[str, Any]] = []
@@ -643,8 +711,27 @@ def scrape_store_search(
             configure_page(page, user_agent=None)
             owned_page = True
         sniffed: list[dict[str, Any]] = []
-        attach_json_sniffer(page, cfg, sniffed)
+        sniffer = attach_json_sniffer(page, cfg, sniffed)
+        search_capture = None
+        navigation_status: int | None = None
+        failed_search_statuses: list[int] = []
+
+        def capture_status(response: Response) -> None:
+            nonlocal navigation_status
+            try:
+                if response.request.is_navigation_request() and response.frame == page.main_frame:
+                    navigation_status = response.status
+                elif (response.status >= 400
+                      and urlsplit(response.url).hostname == urlsplit(cfg.base_url).hostname
+                      and any(token in urlsplit(response.url).path.lower() for token in ("search", "graphql", "product"))):
+                    failed_search_statuses.append(response.status)
+            except Exception:
+                pass
+
+        page.on("response", capture_status)
         api_status: int | None = None
+        error_type: str | None = None
+        error_stage: str | None = None
         try:
             if cfg.api_url:
                 api_result = harvest_api_json(page, cfg, query)
@@ -671,8 +758,13 @@ def scrape_store_search(
                         return
 
                 page.on("response", _capture_search)
-                goto_resilient(page, url, timeout=45000, retries=2)
-                accept_uk_cookies(page)
+                search_capture = _capture_search
+                if cfg.navigate_search:
+                    cfg.navigate_search(page, query)
+                else:
+                    goto_resilient(page, url, timeout=45000, retries=2)
+                if not cfg.navigate_search:
+                    accept_uk_cookies(page)
                 try:
                     page.wait_for_selector(
                         "a[href*='/products/'], a[href*='/product/'], a[href*='/p/'], [class*='product'], [data-auto='product-tile']",
@@ -685,27 +777,37 @@ def scrape_store_search(
                     page.mouse.wheel(0, 2200)
                     page.wait_for_timeout(700)
 
-                if search_json_holder:
+                # Never use earlier/autocomplete response payloads when the
+                # actual search document has since been blocked or redirected.
+                if navigation_status is not None and navigation_status >= 400:
+                    raise RuntimeError("Search document returned an HTTP error")
+                if (cfg.navigate_search or cfg.extract_products) and not same_search_location(page.url, url):
+                    raise RuntimeError("Search ended at an unexpected location")
+
+                if cfg.extract_products:
+                    batch = cfg.extract_products(page)[: cfg.max_per_query]
+                    source_method = "retailer_product_grid"
+                elif search_json_holder:
                     found: list[dict[str, Any]] = []
                     _walk_for_products(search_json_holder[-1], found, cfg)
                     if found:
                         batch = found[: cfg.max_per_query]
                         source_method = "captured_search_api"
 
-                if not batch:
+                if not batch and not cfg.extract_products:
                     batch = extract_from_cards(page, cfg)
                     if batch:
                         source_method = "dom_cards"
-                if not batch:
+                if not batch and not cfg.extract_products:
                     batch = extract_json_ld(page, cfg)
                     if batch:
                         source_method = "json_ld"
-                if not batch:
+                if not batch and not cfg.extract_products:
                     batch = best_sniffed_products(sniffed, cfg.max_per_query)
                     if batch:
                         source_method = "sniffed_api"
                 sniffed_batch = best_sniffed_products(sniffed, cfg.max_per_query)
-                if sniffed_batch and (
+                if not cfg.extract_products and sniffed_batch and (
                     not batch
                     or (
                         any(int(row.get("priority") or 0) >= 2 for row in sniffed)
@@ -729,13 +831,42 @@ def scrape_store_search(
                 consecutive_blocked = 0
             else:
                 consecutive_empty += 1
-                consecutive_blocked = (
-                    consecutive_blocked + 1 if api_status in {401, 403} else 0
-                )
         except Exception as err:
-            print(f"   ⚠️ query failed: {type(err).__name__}: {err}")
+            error_type = type(err).__name__
+            # Retain only an allowlisted operation, never Playwright's full
+            # exception text (which can contain URLs or page content).
+            error_stage = next((stage for stage in (
+                "Locator.fill", "Locator.press", "Page.wait_for_url", "Locator.wait_for",
+            ) if stage in str(err)), None)
+            print(f"   ⚠️ query failed: {error_type}")
             consecutive_empty += 1
         finally:
+            state = "products" if batch else search_page_state(page, api_status or navigation_status)
+            if error_type and not batch and state == "unclassified_empty":
+                state = "query_error"
+            if not batch and any(status in {401, 403, 429} for status in failed_search_statuses):
+                state = "blocked"
+            consecutive_blocked = consecutive_blocked + 1 if state == "blocked" else 0
+            diagnostics.append({
+                "query_index": query_index,
+                "navigation_status": navigation_status,
+                "api_status": api_status,
+                "failed_search_statuses": sorted(set(failed_search_statuses)),
+                "state": state,
+                "error_type": error_type,
+                "error_stage": error_stage,
+                "batch_count": len(batch),
+                "total_count": len(all_products),
+                "source_method": source_method,
+                "expected_location": same_search_location(page.url, url),
+            })
+            write_search_diagnostics(output_file, cfg, diagnostics)
+            if not batch:
+                print(f"   diagnostic: {state} (HTTP {navigation_status}, API {api_status})")
+            page.remove_listener("response", sniffer)
+            page.remove_listener("response", capture_status)
+            if search_capture is not None:
+                page.remove_listener("response", search_capture)
             if owned_page and page is not None:
                 page.close()
 

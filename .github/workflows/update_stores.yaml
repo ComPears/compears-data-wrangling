@@ -119,6 +119,7 @@ jobs:
           UK_MAX_QUERIES: '80'
           UK_MAX_BLOCKED_QUERIES: '3'
           UK_MAX_EMPTY_QUERIES: '5'
+          UK_DIAGNOSTICS_DIR: ${{ github.workspace }}/artifacts/search-diagnostics
           DE_MAX_QUERIES: '80'
           DE_MAX_BLOCKED_QUERIES: '3'
           DE_MAX_EMPTY_QUERIES: '5'
@@ -158,6 +159,15 @@ jobs:
           name: catalog-${{ matrix.country }}-${{ matrix.store }}
           path: artifacts/catalog
           if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload search diagnostics
+        if: always() && matrix.country == 'uk'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: search-diagnostics-${{ matrix.country }}-${{ matrix.store }}
+          path: artifacts/search-diagnostics
+          if-no-files-found: warn
           retention-days: 7
 
       - name: Upload immutable raw observations

@@ -1,5 +1,8 @@
 # COMPEARS DATA SCRAPER
 
+For Tesco and Lidl UK refresh checks, failure diagnostics, and a GitHub-like local
+runtime, see [Scraper verification](scripts/SCRAPER_VERIFICATION.md).
+
 ## Deploy to Render
 
 See `backend/README.md` in the `compear-backend` repo. After each successful daily pipeline run, the `sync-backend-and-render` job re-seeds product JSON into `compear-backend` and triggers a Render redeploy.
@@ -379,8 +382,6 @@ Run the clean_plus file to clean the data
 ```
 python3 clean_plus.py
 ```
-
-
 
 
 
