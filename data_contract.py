@@ -30,6 +30,9 @@ _QUANTITY_RE = re.compile(
     r"capsules?|tablets?|rolls?)\b",
     re.IGNORECASE,
 )
+# Retailer count suffixes such as "Bagels x5" or "Eggs × 6". Deliberately
+# case-sensitive: a model designation such as "X5" is not package evidence.
+_COUNT_SUFFIX_RE = re.compile(r"(?:^|(?<=\s))[x×]\s*(?P<count>[1-9]\d{0,2})\s*$")
 _IMAGE_HINTS = (
     "image",
     "images",
@@ -209,6 +212,19 @@ def parse_quantity(
 
         match = _QUANTITY_RE.search(text)
         if not match:
+            suffix = _COUNT_SUFFIX_RE.search(candidate)
+            # Do not interpret an incomplete dimension/multipack ("20 x30")
+            # as a count. Explicit mass/volume multipacks were handled above.
+            if suffix and not re.search(r"\d\s*$", candidate[:suffix.start()]):
+                count = int(suffix.group("count"))
+                return {
+                    "packCount": count,
+                    "itemValue": 1,
+                    "itemUnit": "count",
+                    "totalValue": count,
+                    "baseUnit": "count",
+                    "display": f"{count} items",
+                }
             continue
         value = float(match.group("value"))
         raw_unit = match.group("unit").lower()

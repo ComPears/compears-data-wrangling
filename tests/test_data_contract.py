@@ -63,6 +63,43 @@ class DataContractTests(unittest.TestCase):
         self.assertEqual(parse_quantity("20 bags")["totalValue"], 20)
         self.assertEqual(parse_quantity("24 tablets")["display"], "24 items")
 
+    def test_retailer_count_suffixes_preserve_count_units(self):
+        for name, count in (
+            ("New York Bakery Co. Bagels, Plain x5", 5),
+            ("Sainsbury's British Free Range Eggs Large x6", 6),
+            ("St Pierre Burger Buns Rolls x4", 4),
+            ("Eggs × 12", 12),
+        ):
+            with self.subTest(name=name):
+                quantity = parse_quantity("", name=name)
+                self.assertTrue(is_valid_quantity(quantity))
+                self.assertEqual(quantity["baseUnit"], "count")
+                self.assertEqual(quantity["totalValue"], count)
+                self.assertEqual(quantity["display"], f"{count} items")
+        self.assertEqual(parse_quantity("x6")["totalValue"], 6)
+        self.assertEqual(unit_price("3.00", "GBP", parse_quantity("x6")),
+                         {"value": "0.50", "currency": "GBP", "per": "item"})
+
+    def test_count_suffix_does_not_override_mass_or_volume(self):
+        self.assertEqual(parse_quantity("", name="Milk 6 x 330 ml")["totalValue"], 1980)
+        self.assertEqual(parse_quantity("", name="Biscuits 200 g x2")["baseUnit"], "g")
+        self.assertEqual(parse_quantity("500 g", name="Rolls x4")["baseUnit"], "g")
+
+    def test_ambiguous_or_invalid_count_suffixes_are_not_invented(self):
+        for name in ("Model X5", "Brandx5", "Eggs x0", "Eggs x-6", "Eggs x2.5",
+                     "Tray 20 x30", "20 × 30", "Cleaner x5 strength", "Eggs x1000"):
+            with self.subTest(name=name):
+                self.assertIsNone(parse_quantity("", name=name))
+
+    def test_count_suffix_survives_sanitization_with_per_item_price(self):
+        cleaned, reason = sanitize_entry_with_reason(
+            {"n": "Sainsbury's British Free Range Eggs Large x6", "p": "3.00", "s": ""},
+            country="uk", store="sainsburys", currency="GBP",
+        )
+        self.assertIsNone(reason)
+        self.assertEqual(cleaned["quantity"]["totalValue"], 6)
+        self.assertEqual(cleaned["unitPrice"]["per"], "item")
+
     def test_uk_imperial_units_are_converted_to_comparable_base_units(self):
         ounces = parse_quantity("12 oz")
         pints = parse_quantity("4 pints")
