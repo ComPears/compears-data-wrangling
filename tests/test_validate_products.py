@@ -46,6 +46,23 @@ class QuantityCoverageGateTests(unittest.TestCase):
         self.assertIn("invalid quantity coverage thresholds", failure or "")
         self.assertIsNone(warning)
 
+    def test_actual_sainsburys_boundary_failure_is_not_rounded_away(self):
+        failure, warning = quantity_coverage_messages(
+            {"country": "uk", "store": "sainsburys", "total": 2278, "with_quantity": 2050},
+            {"minimum_quantity_coverage": 0.90, "target_quantity_coverage": 0.90},
+        )
+        self.assertIn("89.9912% below hard floor 90.0000%", failure)
+        self.assertIn("2050/2278 products", failure)
+        self.assertIsNone(warning)
+
+    def test_exact_floor_and_one_more_observed_quantity_pass(self):
+        for total, count in ((100, 90), (2278, 2051)):
+            with self.subTest(total=total, count=count):
+                self.assertEqual(quantity_coverage_messages(
+                    {"country": "uk", "store": "sainsburys", "total": total, "with_quantity": count},
+                    {"minimum_quantity_coverage": 0.90, "target_quantity_coverage": 0.90},
+                ), (None, None))
+
 
 if __name__ == "__main__":
     unittest.main()

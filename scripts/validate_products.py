@@ -141,13 +141,14 @@ def quantity_coverage_messages(report: dict, cfg: dict) -> tuple[str | None, str
     coverage = int(report.get("with_quantity") or 0) / total
     if coverage < minimum:
         return (
-            f"{label}: quantity coverage {coverage:.1%} below hard floor {minimum:.1%}",
+            f"{label}: quantity coverage {coverage:.4%} below hard floor {minimum:.4%} "
+            f"({int(report.get('with_quantity') or 0)}/{total} products)",
             None,
         )
     if coverage < target:
         return (
             None,
-            f"WARNING: {label}: quantity coverage {coverage:.1%} below target {target:.1%}",
+            f"WARNING: {label}: quantity coverage {coverage:.4%} below target {target:.4%}",
         )
     return None, None
 
