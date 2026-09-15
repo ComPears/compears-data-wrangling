@@ -41,7 +41,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Yogurt With Yuzu Assorted",
@@ -70,7 +70,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pork In Ginger",
@@ -99,7 +99,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Coca-Cola",
@@ -128,7 +128,7 @@
     "brandSource": "known_name",
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Original Drink",
@@ -157,7 +157,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Nectarines",
@@ -184,7 +184,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Dim Sum Assorted, 200g",
@@ -228,7 +228,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "9 Steamed Prawn Dim Sum, 195g",
@@ -272,51 +272,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
-  },
-  {
-    "n": "Ice Cream Assorted, 850ml, 900ml",
-    "p": "1.99",
-    "o": "",
-    "s": "850 ml",
-    "l": "https://imgproxy-retcat.assets.schwarz/1afZiK9oAeoFDCSYKPtciMuCwKmp45xm2vtRwO7jgxg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84NDIyQTRGRThEOEU2QzYwRkJBMTYwMjM/1MDFFNDg2N0UxMzAzMzY0NEQ0NDc2NTMxRkVGOEMzNTcwQzJBM0RELmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/vitasia-ice-cream-assorted-850ml-900ml/p10050343",
-    "c": "Frozen Foods",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/vitasia-ice-cream-assorted-850ml-900ml/p10050343",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/1afZiK9oAeoFDCSYKPtciMuCwKmp45xm2vtRwO7jgxg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84NDIyQTRGRThEOEU2QzYwRkJBMTYwMjM/1MDFFNDg2N0UxMzAzMzY0NEQ0NDc2NTMxRkVGOEMzNTcwQzJBM0RELmpwZw.jpg",
-    "retailerProductId": "10050343",
-    "availability": "in_stock",
-    "bn": "vitasia",
-    "brandSource": "retailer",
-    "sourceQuery": "semi skimmed milk",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=semi+skimmed+milk",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "priceType": "regular",
-    "cn": "vitasia assorted cream ice",
-    "ik": "tok:vitasia|assorted-cream-ice|850ml",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 850,
-      "itemUnit": "ml",
-      "totalValue": 850,
-      "baseUnit": "ml",
-      "display": "850 ml"
-    },
-    "wg": 850,
-    "wu": "ml",
-    "unitPrice": {
-      "value": "2.34",
-      "currency": "GBP",
-      "per": "l"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Mini Pappadums Assorted, 65g",
@@ -360,7 +316,51 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
+  },
+  {
+    "n": "Ice Cream Assorted, 850ml, 900ml",
+    "p": "1.99",
+    "o": "",
+    "s": "850 ml",
+    "l": "https://imgproxy-retcat.assets.schwarz/1afZiK9oAeoFDCSYKPtciMuCwKmp45xm2vtRwO7jgxg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84NDIyQTRGRThEOEU2QzYwRkJBMTYwMjM/1MDFFNDg2N0UxMzAzMzY0NEQ0NDc2NTMxRkVGOEMzNTcwQzJBM0RELmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/vitasia-ice-cream-assorted-850ml-900ml/p10050343",
+    "c": "Frozen Foods",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/vitasia-ice-cream-assorted-850ml-900ml/p10050343",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/1afZiK9oAeoFDCSYKPtciMuCwKmp45xm2vtRwO7jgxg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84NDIyQTRGRThEOEU2QzYwRkJBMTYwMjM/1MDFFNDg2N0UxMzAzMzY0NEQ0NDc2NTMxRkVGOEMzNTcwQzJBM0RELmpwZw.jpg",
+    "retailerProductId": "10050343",
+    "availability": "in_stock",
+    "bn": "vitasia",
+    "brandSource": "retailer",
+    "sourceQuery": "semi skimmed milk",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=semi+skimmed+milk",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "priceType": "regular",
+    "cn": "vitasia assorted cream ice",
+    "ik": "tok:vitasia|assorted-cream-ice|850ml",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 850,
+      "itemUnit": "ml",
+      "totalValue": 850,
+      "baseUnit": "ml",
+      "display": "850 ml"
+    },
+    "wg": 850,
+    "wu": "ml",
+    "unitPrice": {
+      "value": "2.34",
+      "currency": "GBP",
+      "per": "l"
+    },
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Squeezy Clear Honey",
@@ -389,7 +389,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "White Potatoes",
@@ -416,7 +416,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Matcha Ice Cream",
@@ -445,7 +445,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Matcha Drink",
@@ -474,7 +474,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "White Grapes",
@@ -501,7 +501,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "White Tiger Prawns",
@@ -530,7 +530,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Chenin Blanc Wine",
@@ -559,7 +559,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Rice Paper, 250g",
@@ -603,7 +603,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Brown Sauce, 670g",
@@ -647,7 +647,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Panko Bread Crumbs, 200g",
@@ -691,7 +691,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Cheese Triangles Assorted",
@@ -720,7 +720,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Tagliatelle",
@@ -749,7 +749,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Curly Fries",
@@ -778,7 +778,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "12 Katsu Chicken Spring Rolls, 216g",
@@ -822,7 +822,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Sweetcorn Fritters, 210g",
@@ -866,7 +866,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Teriyaki Chicken",
@@ -895,7 +895,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Classic Fries, 900g",
@@ -939,7 +939,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "3-step Meal Kit Assorted, 270g",
@@ -983,7 +983,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Best Of British Apples",
@@ -1010,7 +1010,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Cauliflower",
@@ -1037,7 +1037,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Potato Croquettes, 250g",
@@ -1081,7 +1081,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Cheese Oatcakes, 200g",
@@ -1125,7 +1125,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Popcorn Assorted, 70g, 100g",
@@ -1169,7 +1169,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Scottish Mature Cheddar Slices, 250g",
@@ -1213,7 +1213,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Chestnut Mushrooms",
@@ -1240,7 +1240,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Cherry Lemonade",
@@ -1269,7 +1269,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Goodness Kefir Cherry, 500ml",
@@ -1313,36 +1313,36 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
-    "n": "Plant! Cheese Assorted",
-    "p": "1.70",
+    "n": "Mixed Nuts",
+    "p": "1.45",
     "o": "Lidl Plus",
     "s": "",
-    "l": "https://imgproxy-retcat.assets.schwarz/rEZANxttAecVRKa6yTI301lbUW-zSz8a6gKYuHdF39c/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85M0E1QTUzRjc2NzBBNTI4RjQ4Mjg2QkM/1REI1NjIyREFBOTBGN0YzMDlBREQwRTgyQUVERkI0RDhFMTAwQjE0LmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/vemondo-plant-cheese-assorted/p10054349",
-    "c": "Dairy & Eggs",
+    "l": "https://imgproxy-retcat.assets.schwarz/w4uExGEhhTmUwZg1c-YUAjb1zR6GuliNvcZQbZktCqU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ERjEwMjA1MDI2QzVDQzhBMEZBNDA4QjE/3MzI2N0IwQjM5QUQ3NkEwOUQwNDU0OTgwRDc3Q0MwMEI3OEJGN0EyLmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/alesto-mixed-nuts/p10054637",
+    "c": "Other",
     "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/vemondo-plant-cheese-assorted/p10054349",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/rEZANxttAecVRKa6yTI301lbUW-zSz8a6gKYuHdF39c/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85M0E1QTUzRjc2NzBBNTI4RjQ4Mjg2QkM/1REI1NjIyREFBOTBGN0YzMDlBREQwRTgyQUVERkI0RDhFMTAwQjE0LmpwZw.jpg",
-    "retailerProductId": "10054349",
-    "availability": "in_stock",
-    "bn": "vemondo",
+    "productUrl": "https://www.lidl.co.uk/p/alesto-mixed-nuts/p10054637",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/w4uExGEhhTmUwZg1c-YUAjb1zR6GuliNvcZQbZktCqU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ERjEwMjA1MDI2QzVDQzhBMEZBNDA4QjE/3MzI2N0IwQjM5QUQ3NkEwOUQwNDU0OTgwRDc3Q0MwMEI3OEJGN0EyLmpwZw.jpg",
+    "retailerProductId": "10054637",
+    "availability": "preorder",
+    "bn": "alesto",
     "brandSource": "retailer",
     "sourceQuery": "mature cheddar",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=mature+cheddar",
     "sourceMethod": "retailer_product_grid",
     "retailerCategory": "Food",
     "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
+    "availabilityText": "In store from 17.09",
     "priceType": "loyalty",
-    "cn": "vemondo assorted cheese plant",
-    "ik": "tok:vemondo|assorted-cheese-plant|na",
+    "cn": "alesto mixed nuts",
+    "ik": "tok:alesto|mixed-nuts|na",
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Activia Yogurt Mixed Fruit",
@@ -1371,7 +1371,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Nori Snack",
@@ -1400,7 +1400,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Gyoza Assorted, 400g",
@@ -1444,36 +1444,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
-  },
-  {
-    "n": "Gyoza Assorted",
-    "p": "2.29",
-    "o": "",
-    "s": "",
-    "l": "https://imgproxy-retcat.assets.schwarz/0BeEYcAg8JTr7mvalDvSF-jfUPM7k8dQFV-egEBikYA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84OTM0MzNFOEZGOTQ2OTAzQzFGM0Y4NjE/2OTM0QjQyNUNBMDZDODJDOTBCRjhFQzkxOUFCNDYyMzA3MUY0NDBDLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/vitasia-gyoza-assorted/p10054563",
-    "c": "Other",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/vitasia-gyoza-assorted/p10054563",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/0BeEYcAg8JTr7mvalDvSF-jfUPM7k8dQFV-egEBikYA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84OTM0MzNFOEZGOTQ2OTAzQzFGM0Y4NjE/2OTM0QjQyNUNBMDZDODJDOTBCRjhFQzkxOUFCNDYyMzA3MUY0NDBDLmpwZw.jpg",
-    "retailerProductId": "10054563",
-    "availability": "preorder",
-    "bn": "vitasia",
-    "brandSource": "retailer",
-    "sourceQuery": "greek yoghurt",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=greek+yoghurt",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "In store from 17.09",
-    "priceType": "regular",
-    "cn": "vitasia assorted gyoza",
-    "ik": "tok:vitasia|assorted-gyoza|na",
-    "schemaVersion": 2,
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Fruit Fritters Assorted, 400g",
@@ -1517,7 +1488,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Mango Slices In Syrup, 425ml (Drained Weight 260g)",
@@ -1561,7 +1532,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pomegranate",
@@ -1588,7 +1559,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Sweet Potato And Red Onion Pakora, 200g",
@@ -1632,7 +1603,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Chilli Potato Crisps",
@@ -1659,7 +1630,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Edamame Beans",
@@ -1688,7 +1659,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pink Onions",
@@ -1715,7 +1686,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Chip Shop Onions Silver Skinned, 270g (Drained Weight 148g)",
@@ -1759,7 +1730,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pickled Onion Rings, 150g",
@@ -1803,7 +1774,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Crunchy Toppings Assorted, 110g",
@@ -1847,7 +1818,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Kimchi, 190g",
@@ -1891,7 +1862,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Ripe And Ready Large Avocado",
@@ -1918,7 +1889,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Fruit Oatcakes, 150g",
@@ -1962,7 +1933,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pea Snacks Assorted, 6x21g",
@@ -2006,7 +1977,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Black Grapes",
@@ -2033,7 +2004,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pulled Chicken With Gochujang Sauce",
@@ -2060,7 +2031,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Carbonara Chicken Noodle, 4 X 130g",
@@ -2104,20 +2075,20 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
-    "n": "Chicken Bao Bun Meal Kit, 414g",
-    "p": "3.99",
+    "n": "Korean Style Chicken Bites, 500g",
+    "p": "3.49",
     "o": "",
-    "s": "414 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/EpGgmSf0rFJ9vQtUASuyk4z8PZlmfLSRx07XXo_Tz7E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83NkI1MTFENjY1OERDNTlDODM0RTcwREI/2MUI4QUUwQUJBMEE0RTE2RDk2MzBCMDM1OEI5NzhENUQxMUI5MkM0LmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/vitasia-chicken-bao-bun-meal-kit-414g/p10050383",
+    "s": "500 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/QpFYsVCfLC9QbYrIulzmWGyBQzdlZ7yGwIieiyLJcjc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BNDVBQTQ5QkFBNjk2QzU2RjY0Q0VGNUM/xQkVGMzlDNzM0NDIzQzRENUNBNkU5REIyQzQ3NTU1M0YxQjFCMDMxLmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/vitasia-korean-style-chicken-bites-500g/p10050425",
     "c": "Meat & Seafood",
     "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/vitasia-chicken-bao-bun-meal-kit-414g/p10050383",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/EpGgmSf0rFJ9vQtUASuyk4z8PZlmfLSRx07XXo_Tz7E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83NkI1MTFENjY1OERDNTlDODM0RTcwREI/2MUI4QUUwQUJBMEE0RTE2RDk2MzBCMDM1OEI5NzhENUQxMUI5MkM0LmpwZw.jpg",
-    "retailerProductId": "10050383",
+    "productUrl": "https://www.lidl.co.uk/p/vitasia-korean-style-chicken-bites-500g/p10050425",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/QpFYsVCfLC9QbYrIulzmWGyBQzdlZ7yGwIieiyLJcjc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BNDVBQTQ5QkFBNjk2QzU2RjY0Q0VGNUM/xQkVGMzlDNzM0NDIzQzRENUNBNkU5REIyQzQ3NTU1M0YxQjFCMDMxLmpwZw.jpg",
+    "retailerProductId": "10050425",
     "availability": "in_stock",
     "bn": "vitasia",
     "brandSource": "retailer",
@@ -2128,27 +2099,27 @@
     "categorySource": "lidl_product_grid",
     "availabilityText": "Available in store now",
     "priceType": "regular",
-    "cn": "vitasia bao bun chicken kit meal",
-    "ik": "tok:vitasia|bao-bun-chicken-kit-meal|414g",
+    "cn": "vitasia bites chicken korean style",
+    "ik": "tok:vitasia|bites-chicken-korean-style|500g",
     "schemaVersion": 2,
     "quantity": {
       "packCount": 1,
-      "itemValue": 414,
+      "itemValue": 500,
       "itemUnit": "g",
-      "totalValue": 414,
+      "totalValue": 500,
       "baseUnit": "g",
-      "display": "414 g"
+      "display": "500 g"
     },
-    "wg": 414,
+    "wg": 500,
     "wu": "g",
     "unitPrice": {
-      "value": "9.64",
+      "value": "6.98",
       "currency": "GBP",
       "per": "kg"
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Chicken Wings Assorted",
@@ -2177,51 +2148,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
-  },
-  {
-    "n": "Korean Style Chicken Bites, 500g",
-    "p": "3.49",
-    "o": "",
-    "s": "500 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/QpFYsVCfLC9QbYrIulzmWGyBQzdlZ7yGwIieiyLJcjc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BNDVBQTQ5QkFBNjk2QzU2RjY0Q0VGNUM/xQkVGMzlDNzM0NDIzQzRENUNBNkU5REIyQzQ3NTU1M0YxQjFCMDMxLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/vitasia-korean-style-chicken-bites-500g/p10050425",
-    "c": "Meat & Seafood",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/vitasia-korean-style-chicken-bites-500g/p10050425",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/QpFYsVCfLC9QbYrIulzmWGyBQzdlZ7yGwIieiyLJcjc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BNDVBQTQ5QkFBNjk2QzU2RjY0Q0VGNUM/xQkVGMzlDNzM0NDIzQzRENUNBNkU5REIyQzQ3NTU1M0YxQjFCMDMxLmpwZw.jpg",
-    "retailerProductId": "10050425",
-    "availability": "in_stock",
-    "bn": "vitasia",
-    "brandSource": "retailer",
-    "sourceQuery": "chicken thighs",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=chicken+thighs",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "priceType": "regular",
-    "cn": "vitasia bites chicken korean style",
-    "ik": "tok:vitasia|bites-chicken-korean-style|500g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 500,
-      "itemUnit": "g",
-      "totalValue": 500,
-      "baseUnit": "g",
-      "display": "500 g"
-    },
-    "wg": 500,
-    "wu": "g",
-    "unitPrice": {
-      "value": "6.98",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Mini Chicken Schnitzel",
@@ -2250,7 +2177,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Miso Soup",
@@ -2279,7 +2206,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Miso Pork Belly",
@@ -2308,7 +2235,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Teriyaki Ribs",
@@ -2337,7 +2264,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Ayrshire Middle Unsmoked Bacon, 200g",
@@ -2381,7 +2308,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Frankfurter Sausages",
@@ -2410,7 +2337,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Xxl 20 Pack Sausages",
@@ -2454,7 +2381,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Sushi Rice",
@@ -2483,7 +2410,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Sushi Kit",
@@ -2512,7 +2439,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Macaroni Cheese And Ham Hough, 400g",
@@ -2556,7 +2483,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Premium Macaroni",
@@ -2585,7 +2512,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pasta Bolognese, 325g",
@@ -2629,7 +2556,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pasta Sauces Assorted",
@@ -2658,7 +2585,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Ramen Paste",
@@ -2687,7 +2614,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pizza Chips, 55g",
@@ -2731,7 +2658,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Black Rice, 500g",
@@ -2775,7 +2702,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Rice Vinegar",
@@ -2804,7 +2731,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Long Rice Noodles, 200g",
@@ -2848,7 +2775,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Rice Crackers Or Snack Mix, 125g, 150g",
@@ -2892,7 +2819,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Rice Crackers Assorted, 100g",
@@ -2936,7 +2863,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Baked Cheese Assorted",
@@ -2965,7 +2892,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Vegetable Bao Buns, 270g",
@@ -3009,7 +2936,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pecan Nuts",
@@ -3038,36 +2965,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
-  },
-  {
-    "n": "Mixed Nuts",
-    "p": "1.45",
-    "o": "Lidl Plus",
-    "s": "",
-    "l": "https://imgproxy-retcat.assets.schwarz/w4uExGEhhTmUwZg1c-YUAjb1zR6GuliNvcZQbZktCqU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ERjEwMjA1MDI2QzVDQzhBMEZBNDA4QjE/3MzI2N0IwQjM5QUQ3NkEwOUQwNDU0OTgwRDc3Q0MwMEI3OEJGN0EyLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/alesto-mixed-nuts/p10054637",
-    "c": "Other",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/alesto-mixed-nuts/p10054637",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/w4uExGEhhTmUwZg1c-YUAjb1zR6GuliNvcZQbZktCqU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ERjEwMjA1MDI2QzVDQzhBMEZBNDA4QjE/3MzI2N0IwQjM5QUQ3NkEwOUQwNDU0OTgwRDc3Q0MwMEI3OEJGN0EyLmpwZw.jpg",
-    "retailerProductId": "10054637",
-    "availability": "preorder",
-    "bn": "alesto",
-    "brandSource": "retailer",
-    "sourceQuery": "baked beans",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=baked+beans",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "In store from 17.09",
-    "priceType": "loyalty",
-    "cn": "alesto mixed nuts",
-    "ik": "tok:alesto|mixed-nuts|na",
-    "schemaVersion": 2,
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Vegetable Tempura",
@@ -3096,7 +2994,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Bottled Iced Tea",
@@ -3125,7 +3023,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Mini Oatcakes Assorted, 150g",
@@ -3169,7 +3067,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pepsi Max",
@@ -3198,7 +3096,7 @@
     "brandSource": "known_name",
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Instant Noodles Chapagetti, 140g",
@@ -3242,7 +3140,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Fish Tapas With Dip Assorted, 100g",
@@ -3286,7 +3184,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Squeezy Pouches",
@@ -3315,7 +3213,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Large Oranges",
@@ -3342,7 +3240,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Watermelon Drink",
@@ -3371,7 +3269,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Rum & Cola Ready To Drink Can 5%",
@@ -3400,7 +3298,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Litchi Drink",
@@ -3429,7 +3327,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Salt And Balsamic Vinegar Chips, 80g",
@@ -3473,7 +3371,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Xxl Salt & Chilli Pork Belly Slices",
@@ -3500,7 +3398,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Dr Pepper, 8x330ml",
@@ -3542,7 +3440,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Peanut Satay Sauce, 185g",
@@ -3586,7 +3484,51 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
+  },
+  {
+    "n": "Sesame Bar, 70g",
+    "p": "0.79",
+    "o": "",
+    "s": "70 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/zY4WCMppD51EShgKYC94Z64VLgxlzS9NRMjZN5cbuq0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84OTRGMzQ4NjQ3RjMwODg5NEZBNzBDREI/3RDg1QjBEMjE5MDczQ0E4NDE3RjI1RkVBNzdFRjcwNDhBMUI5MTY0LmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/vitasia-sesame-bar-70g/p10050365",
+    "c": "Other",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/vitasia-sesame-bar-70g/p10050365",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/zY4WCMppD51EShgKYC94Z64VLgxlzS9NRMjZN5cbuq0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84OTRGMzQ4NjQ3RjMwODg5NEZBNzBDREI/3RDg1QjBEMjE5MDczQ0E4NDE3RjI1RkVBNzdFRjcwNDhBMUI5MTY0LmpwZw.jpg",
+    "retailerProductId": "10050365",
+    "availability": "in_stock",
+    "bn": "vitasia",
+    "brandSource": "retailer",
+    "sourceQuery": "jam",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=jam",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "priceType": "regular",
+    "cn": "vitasia bar sesame",
+    "ik": "tok:vitasia|bar-sesame|70g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 70,
+      "itemUnit": "g",
+      "totalValue": 70,
+      "baseUnit": "g",
+      "display": "70 g"
+    },
+    "wg": 70,
+    "wu": "g",
+    "unitPrice": {
+      "value": "11.29",
+      "currency": "GBP",
+      "per": "kg"
+    },
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Hot And Spicy Crisps, 55g",
@@ -3630,7 +3572,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Crispy French Fries",
@@ -3659,7 +3601,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Crinkle Cut Chips",
@@ -3688,7 +3630,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Crinkle Fries, 900g",
@@ -3732,7 +3674,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Chocolate Peppermint Creams, 120g",
@@ -3776,7 +3718,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Dark Chocolate Wafer Biscuit 8 Pack",
@@ -3820,7 +3762,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Dark Chocolate Teacakes 10 Pack",
@@ -3864,7 +3806,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "8 Chocolate-Filled Crêpes",
@@ -3893,7 +3835,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Chocorooms Assorted, 36g, 40g",
@@ -3937,7 +3879,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Veggie Straws",
@@ -3966,7 +3908,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Strawberry Ice Cream, 1L",
@@ -4010,7 +3952,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Coconut Ice Cream In Coconut Shell, 2x91g",
@@ -4054,7 +3996,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Choc Chip Cookie Dough Ice Cream, 460ml",
@@ -4098,7 +4040,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Chicken Tikka Masala Pizza, 495g",
@@ -4142,7 +4084,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Sweet Sriracha Seaweed Chips, 80g",
@@ -4186,7 +4128,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Figs",
@@ -4213,7 +4155,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Carineña Gran Reserva Wine, 75cl",
@@ -4257,7 +4199,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Cotes De Provence Premium Wine",
@@ -4284,7 +4226,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Vin De France Rose Wine",
@@ -4311,7 +4253,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Vinho Verde Wine",
@@ -4338,7 +4280,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Monalie Cotes De Provence Wine",
@@ -4365,7 +4307,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Jammy Rose Wine",
@@ -4392,7 +4334,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "New Zealand Pinot Grigio Gisborne Wine",
@@ -4421,7 +4363,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "South Africa Sauvignon Blanc Wine",
@@ -4450,7 +4392,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Hacienda Uvanis Garnacha Wine – 2024",
@@ -4477,7 +4419,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Lyra Chile Viognier (OA) Wine",
@@ -4504,7 +4446,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Séguret Côtes Du Rhône Wine – 2025",
@@ -4531,7 +4473,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Puglia Primitivo Wine – 2025",
@@ -4558,7 +4500,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Cuvée De Brieu Sauvignon Wine – 2025",
@@ -4585,7 +4527,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Cuor Di Pietra Negroamaro Wine – 2021",
@@ -4612,7 +4554,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Almocreve Alentejano Wine – 2022",
@@ -4639,7 +4581,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Cahors Malbec Wine – 2025",
@@ -4666,7 +4608,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Asti Rosato Wine - 2025",
@@ -4693,7 +4635,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Chardonnay Pays d'Oc Barrique Wine, 75cl",
@@ -4737,7 +4679,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Jammy Shiraz Wine, 0.75l",
@@ -4781,7 +4723,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Allini Organic Prosecco Rosé",
@@ -4808,7 +4750,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Allini Prosecco Spumante",
@@ -4835,7 +4777,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Bitterol Spritz Ready To Drink Can 5%",
@@ -4864,7 +4806,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Bissinger Champagner Aop Premier Cru",
@@ -4891,7 +4833,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Allini Mini Prosecco Spumante",
@@ -4918,7 +4860,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Deluxe South Africa Fairtrade Chenin Blanc, Paarl",
@@ -4945,7 +4887,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Deluxe Australian Cabernet Sauvignon, Coonawarra",
@@ -4972,7 +4914,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Deluxe Australian Shiraz Barossa",
@@ -4999,7 +4941,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Deluxe New Zealand Pinot Gris, Gisborne",
@@ -5026,7 +4968,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Deluxe New Zealand Sauvignon Blanc, Awatere Valley",
@@ -5053,7 +4995,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Prosecco Spumante Conegliano",
@@ -5080,7 +5022,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Stella Artois 4.6%, 18 X 440ml",
@@ -5122,7 +5064,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Corona 4.5%, 18 X 330ml",
@@ -5164,7 +5106,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Classic Thailand Beer 5%, 330ml",
@@ -5208,7 +5150,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Deluxe Chilean Malbec Reserva Privada 2023",
@@ -5235,7 +5177,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Deluxe South Africa Fairtrade Shiraz Swartland 2023",
@@ -5262,7 +5204,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Deluxe Sauvignon Blanc Reserva Priva",
@@ -5289,7 +5231,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Deluxe Argentinian Malbec Rosé Mendoza",
@@ -5316,7 +5258,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Deluxe Australia Viognier Riverina",
@@ -5343,7 +5285,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Rhubarb & Ginger Gin Ready To Drink Can 5%",
@@ -5372,7 +5314,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Rum & Pineapple Ready To Drink Can 5%",
@@ -5401,7 +5343,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pina Colada Ready To Drink Can 5%",
@@ -5430,7 +5372,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Raspberry Vodka And Lemonda Ready To Drink Can 5%",
@@ -5459,7 +5401,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Passion Fruit Martini Ready To Drink Can 5%",
@@ -5488,7 +5430,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Strawberry Daiquiri Ready To Drink Can 5%",
@@ -5517,7 +5459,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Pink Grapefruit Gin 41%",
@@ -5546,7 +5488,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Rhubarb & Ginger Gin 37.5%",
@@ -5575,7 +5517,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Aperitivo 11%",
@@ -5604,7 +5546,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Cosmopolitan Style Cocktail Ready To Drink Can 14.9%",
@@ -5633,7 +5575,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Gavi Castel Di Serra Wine – 2025",
@@ -5660,7 +5602,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Stellenbosch Hand Crafted Rsa Rosé (OA) Wine",
@@ -5687,7 +5629,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Carménère Gran Reserva Wine – 2022",
@@ -5714,7 +5656,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Deluxe Riesling Clare Valley Wine – 2025",
@@ -5741,7 +5683,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Mâcon Lugny Wine – 2025",
@@ -5768,7 +5710,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Gewürztraminer Elsass Wine – 2025",
@@ -5795,7 +5737,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Edinburgh Cider Princes St Pineapple 5.5%, 330ml",
@@ -5837,7 +5779,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Prawn Chips Original, 90g",
@@ -5881,7 +5823,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Prawn Salad Assorted, 200g",
@@ -5925,7 +5867,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Prawn Cocktails Assorted",
@@ -5954,7 +5896,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Prawn Crackers Chilli And Lime, 100g",
@@ -5998,7 +5940,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Surimi Prawns Assorted",
@@ -6027,7 +5969,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Xxl Raw Jumbo King Prawns",
@@ -6056,7 +5998,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Instant Noodles Assorted, 85g",
@@ -6100,7 +6042,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Gyoza Kimchi And Pork, 400g",
@@ -6144,7 +6086,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Teriyaki Pulled Pork",
@@ -6171,7 +6113,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Slow Cooked Korean Bbq Pork Ribs, 600g",
@@ -6213,7 +6155,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Xxl 12 Basted Pork Loin Steaks",
@@ -6240,7 +6182,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Xxl Sweet Bbq Pork Rib Rack",
@@ -6267,7 +6209,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Xxl 8 Sweet And Smoky Bbq British Pork Shoulder Steaks",
@@ -6294,7 +6236,36 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
+  },
+  {
+    "n": "Gyoza Assorted",
+    "p": "2.29",
+    "o": "",
+    "s": "",
+    "l": "https://imgproxy-retcat.assets.schwarz/0BeEYcAg8JTr7mvalDvSF-jfUPM7k8dQFV-egEBikYA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84OTM0MzNFOEZGOTQ2OTAzQzFGM0Y4NjE/2OTM0QjQyNUNBMDZDODJDOTBCRjhFQzkxOUFCNDYyMzA3MUY0NDBDLmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/vitasia-gyoza-assorted/p10054563",
+    "c": "Other",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/vitasia-gyoza-assorted/p10054563",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/0BeEYcAg8JTr7mvalDvSF-jfUPM7k8dQFV-egEBikYA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84OTM0MzNFOEZGOTQ2OTAzQzFGM0Y4NjE/2OTM0QjQyNUNBMDZDODJDOTBCRjhFQzkxOUFCNDYyMzA3MUY0NDBDLmpwZw.jpg",
+    "retailerProductId": "10054563",
+    "availability": "preorder",
+    "bn": "vitasia",
+    "brandSource": "retailer",
+    "sourceQuery": "pork",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=pork",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "In store from 17.09",
+    "priceType": "regular",
+    "cn": "vitasia assorted gyoza",
+    "ik": "tok:vitasia|assorted-gyoza|na",
+    "schemaVersion": 2,
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Glass Noodles, 100g",
@@ -6338,7 +6309,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Udon Noodles",
@@ -6367,139 +6338,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
-  },
-  {
-    "n": "Asian Noodles Assorted, 60g",
-    "p": "0.49",
-    "o": "",
-    "s": "60 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/jFP2iTXwOlVaxfP4toSyg_rFoW50aIKOCYOoMcQJpLY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9COEFBN0IwRjFBMEFGM0RCMUE1ODA0QzA/2MUZGQjNEMzBGMzI4ODM1MzY0ODcwNTdDMTg4MTQwOTRCNjIyQTI1LmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/yum-yum-asian-noodles-assorted-60g/p10050355",
-    "c": "Other",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/yum-yum-asian-noodles-assorted-60g/p10050355",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/jFP2iTXwOlVaxfP4toSyg_rFoW50aIKOCYOoMcQJpLY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9COEFBN0IwRjFBMEFGM0RCMUE1ODA0QzA/2MUZGQjNEMzBGMzI4ODM1MzY0ODcwNTdDMTg4MTQwOTRCNjIyQTI1LmpwZw.jpg",
-    "retailerProductId": "10050355",
-    "availability": "in_stock",
-    "bn": "yum yum",
-    "brandSource": "retailer",
-    "sourceQuery": "noodles",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=noodles",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "priceType": "regular",
-    "cn": "yum yum asian assorted noodles",
-    "ik": "tok:yum yum|asian-assorted-noodles|60g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 60,
-      "itemUnit": "g",
-      "totalValue": 60,
-      "baseUnit": "g",
-      "display": "60 g"
-    },
-    "wg": 60,
-    "wu": "g",
-    "unitPrice": {
-      "value": "8.17",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
-  },
-  {
-    "n": "Instant Noodles Shin Ramyun Kimchi, 120g",
-    "p": "0.89",
-    "o": "Lidl Plus",
-    "s": "120 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/oj1Hffytg-KRDbq9_GoMPCWMz2YlAzaHkfLz2XSeFEc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GODc1NDE2Q0YyQkI5RjVDMEIyQTQwOUM/2ODg4NjU0Mjc4NjYxRkMwNzYzRUExNEI0MTQyOEUyMzJGRDg0REQ1LmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/nongshim-instant-noodles-shin-ramyun-kimchi-120g/p10050373",
-    "c": "Other",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/nongshim-instant-noodles-shin-ramyun-kimchi-120g/p10050373",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/oj1Hffytg-KRDbq9_GoMPCWMz2YlAzaHkfLz2XSeFEc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GODc1NDE2Q0YyQkI5RjVDMEIyQTQwOUM/2ODg4NjU0Mjc4NjYxRkMwNzYzRUExNEI0MTQyOEUyMzJGRDg0REQ1LmpwZw.jpg",
-    "retailerProductId": "10050373",
-    "availability": "in_stock",
-    "bn": "nongshim",
-    "brandSource": "retailer",
-    "sourceQuery": "noodles",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=noodles",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "priceType": "loyalty",
-    "cn": "nongshim instant kimchi noodles ramyun shin",
-    "ik": "tok:nongshim|instant-kimchi-noodles-ramyun-shin|120g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 120,
-      "itemUnit": "g",
-      "totalValue": 120,
-      "baseUnit": "g",
-      "display": "120 g"
-    },
-    "wg": 120,
-    "wu": "g",
-    "unitPrice": {
-      "value": "7.42",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
-  },
-  {
-    "n": "Instant Noodles Red Super Spicy, 120g",
-    "p": "0.89",
-    "o": "Lidl Plus",
-    "s": "120 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/cnVMzzagNQPfvtBJN7AF677faVYrsmJN0K7aEv9yt2E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yNjRCQUNFRjAyNUUyNDMyMEJBMDYwMjR/GQjRERjIxRDU2MkM4RjRFRjQ1NUI3OTFEMzQwNjgxM0Y3RUJCRUE2LmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/nongshim-instant-noodles-red-super-spicy-120g/p10050375",
-    "c": "Other",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/nongshim-instant-noodles-red-super-spicy-120g/p10050375",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/cnVMzzagNQPfvtBJN7AF677faVYrsmJN0K7aEv9yt2E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yNjRCQUNFRjAyNUUyNDMyMEJBMDYwMjR/GQjRERjIxRDU2MkM4RjRFRjQ1NUI3OTFEMzQwNjgxM0Y3RUJCRUE2LmpwZw.jpg",
-    "retailerProductId": "10050375",
-    "availability": "in_stock",
-    "bn": "nongshim",
-    "brandSource": "retailer",
-    "sourceQuery": "noodles",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=noodles",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "priceType": "loyalty",
-    "cn": "nongshim instant noodles red spicy super",
-    "ik": "tok:nongshim|instant-noodles-red-spicy-super|120g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 120,
-      "itemUnit": "g",
-      "totalValue": 120,
-      "baseUnit": "g",
-      "display": "120 g"
-    },
-    "wg": 120,
-    "wu": "g",
-    "unitPrice": {
-      "value": "7.42",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   },
   {
     "n": "Ready Meal Noodles Assorted, 600g",
@@ -6543,6 +6382,138 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-09-14T18:45:55.425322+00:00"
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
+  },
+  {
+    "n": "Asian Noodles Assorted, 60g",
+    "p": "0.49",
+    "o": "",
+    "s": "60 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/jFP2iTXwOlVaxfP4toSyg_rFoW50aIKOCYOoMcQJpLY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9COEFBN0IwRjFBMEFGM0RCMUE1ODA0QzA/2MUZGQjNEMzBGMzI4ODM1MzY0ODcwNTdDMTg4MTQwOTRCNjIyQTI1LmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/yum-yum-asian-noodles-assorted-60g/p10050355",
+    "c": "Other",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/yum-yum-asian-noodles-assorted-60g/p10050355",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/jFP2iTXwOlVaxfP4toSyg_rFoW50aIKOCYOoMcQJpLY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9COEFBN0IwRjFBMEFGM0RCMUE1ODA0QzA/2MUZGQjNEMzBGMzI4ODM1MzY0ODcwNTdDMTg4MTQwOTRCNjIyQTI1LmpwZw.jpg",
+    "retailerProductId": "10050355",
+    "availability": "in_stock",
+    "bn": "yum yum",
+    "brandSource": "retailer",
+    "sourceQuery": "noodles",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=noodles",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "priceType": "regular",
+    "cn": "yum yum asian assorted noodles",
+    "ik": "tok:yum yum|asian-assorted-noodles|60g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 60,
+      "itemUnit": "g",
+      "totalValue": 60,
+      "baseUnit": "g",
+      "display": "60 g"
+    },
+    "wg": 60,
+    "wu": "g",
+    "unitPrice": {
+      "value": "8.17",
+      "currency": "GBP",
+      "per": "kg"
+    },
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
+  },
+  {
+    "n": "Instant Noodles Shin Ramyun Kimchi, 120g",
+    "p": "0.89",
+    "o": "Lidl Plus",
+    "s": "120 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/oj1Hffytg-KRDbq9_GoMPCWMz2YlAzaHkfLz2XSeFEc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GODc1NDE2Q0YyQkI5RjVDMEIyQTQwOUM/2ODg4NjU0Mjc4NjYxRkMwNzYzRUExNEI0MTQyOEUyMzJGRDg0REQ1LmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/nongshim-instant-noodles-shin-ramyun-kimchi-120g/p10050373",
+    "c": "Other",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/nongshim-instant-noodles-shin-ramyun-kimchi-120g/p10050373",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/oj1Hffytg-KRDbq9_GoMPCWMz2YlAzaHkfLz2XSeFEc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GODc1NDE2Q0YyQkI5RjVDMEIyQTQwOUM/2ODg4NjU0Mjc4NjYxRkMwNzYzRUExNEI0MTQyOEUyMzJGRDg0REQ1LmpwZw.jpg",
+    "retailerProductId": "10050373",
+    "availability": "in_stock",
+    "bn": "nongshim",
+    "brandSource": "retailer",
+    "sourceQuery": "noodles",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=noodles",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "priceType": "loyalty",
+    "cn": "nongshim instant kimchi noodles ramyun shin",
+    "ik": "tok:nongshim|instant-kimchi-noodles-ramyun-shin|120g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 120,
+      "itemUnit": "g",
+      "totalValue": 120,
+      "baseUnit": "g",
+      "display": "120 g"
+    },
+    "wg": 120,
+    "wu": "g",
+    "unitPrice": {
+      "value": "7.42",
+      "currency": "GBP",
+      "per": "kg"
+    },
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
+  },
+  {
+    "n": "Instant Noodles Red Super Spicy, 120g",
+    "p": "0.89",
+    "o": "Lidl Plus",
+    "s": "120 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/cnVMzzagNQPfvtBJN7AF677faVYrsmJN0K7aEv9yt2E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yNjRCQUNFRjAyNUUyNDMyMEJBMDYwMjR/GQjRERjIxRDU2MkM4RjRFRjQ1NUI3OTFEMzQwNjgxM0Y3RUJCRUE2LmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/nongshim-instant-noodles-red-super-spicy-120g/p10050375",
+    "c": "Other",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/nongshim-instant-noodles-red-super-spicy-120g/p10050375",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/cnVMzzagNQPfvtBJN7AF677faVYrsmJN0K7aEv9yt2E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yNjRCQUNFRjAyNUUyNDMyMEJBMDYwMjR/GQjRERjIxRDU2MkM4RjRFRjQ1NUI3OTFEMzQwNjgxM0Y3RUJCRUE2LmpwZw.jpg",
+    "retailerProductId": "10050375",
+    "availability": "in_stock",
+    "bn": "nongshim",
+    "brandSource": "retailer",
+    "sourceQuery": "noodles",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=noodles",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "priceType": "loyalty",
+    "cn": "nongshim instant noodles red spicy super",
+    "ik": "tok:nongshim|instant-noodles-red-spicy-super|120g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 120,
+      "itemUnit": "g",
+      "totalValue": 120,
+      "baseUnit": "g",
+      "display": "120 g"
+    },
+    "wg": 120,
+    "wu": "g",
+    "unitPrice": {
+      "value": "7.42",
+      "currency": "GBP",
+      "per": "kg"
+    },
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-09-15T03:01:27.835869+00:00"
   }
 ]
