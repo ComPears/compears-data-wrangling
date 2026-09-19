@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 """Replay GitHub's publish job against downloaded catalog artifacts.
 
-Run this in a disposable worktree: artifact contents intentionally overwrite
-catalogs and scrape-status files, exactly as actions/download-artifact does.
+Run this in a disposable worktree: the shared importer overwrites only validated
+catalogs and scrape-status files, exactly as the Actions publish job does.
 """
 
 from __future__ import annotations
 
 import argparse
 import os
-import shutil
 import subprocess
 import sys
 from dataclasses import dataclass
@@ -18,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from config.paths import all_catalog_paths, catalog_rel_path
+from scripts.import_catalog_artifacts import copy_catalog_artifacts
 
 
 @dataclass(frozen=True)
@@ -26,26 +25,6 @@ class Step:
     name: str
     command: tuple[str, ...]
     env: dict[str, str] | None = None
-
-
-def copy_catalog_artifacts(artifact_root: Path, workspace: Path) -> int:
-    copied = 0
-    missing: list[str] = []
-    for country, store, _catalog in all_catalog_paths():
-        artifact = artifact_root / f"catalog-{country}-{store}"
-        if not artifact.is_dir():
-            missing.append(artifact.name)
-            continue
-        source_catalog = artifact / catalog_rel_path(country, store)
-        source_status = artifact / "reports" / "scrape-status" / f"{country}-{store}.json"
-        if not source_catalog.is_file() or not source_status.is_file():
-            missing.append(f"{artifact.name} (catalog/status incomplete)")
-            continue
-        shutil.copytree(artifact, workspace, dirs_exist_ok=True)
-        copied += 1
-    if missing:
-        raise RuntimeError("Missing scraper artifacts: " + ", ".join(missing))
-    return copied
 
 
 def publish_steps() -> tuple[Step, ...]:
