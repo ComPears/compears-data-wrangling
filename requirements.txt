@@ -1,3 +1,3 @@
 # Keep direct dependencies here. Playwright constrains and installs its own
 # compatible greenlet, pyee, and typing-extensions runtime dependencies.
-playwright==1.62.0
+playwright==1.63.0
