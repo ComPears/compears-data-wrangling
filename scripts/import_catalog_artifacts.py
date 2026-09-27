@@ -6,14 +6,52 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from config.paths import all_catalog_paths, catalog_rel_path
+from config.paths import all_catalog_paths, catalog_rel_path, store_config
+from data_contract import utc_iso
+from scripts.catalog_health import analyze_catalog
+from scripts.validate_products import validate_file, quantity_coverage_messages
 
 MAX_FILE_BYTES = 50 * 1024 * 1024
+
+
+def preserved_status(workspace: Path, country: str, store: str) -> bytes:
+    """Missing transport is recoverable only with a fresh, validated snapshot.
+
+    Do not change catalog observations or inherit a previous 'refreshed' status.
+    Corrupt/present artifacts still fail closed in the normal importer.
+    """
+    catalog = _contained_path(workspace, Path(catalog_rel_path(country, store)))
+    if not catalog.is_file() or catalog.stat().st_size > MAX_FILE_BYTES:
+        raise ValueError(f"Missing scraper artifact and usable fallback: {country}/{store}")
+    rows = json.loads(catalog.read_bytes())
+    if not isinstance(rows, list) or not rows or not all(isinstance(row, dict) for row in rows):
+        raise ValueError(f"Invalid fallback catalog: {country}/{store}")
+    cfg = store_config(country, store)
+    report = validate_file(country, store, catalog)
+    quantity_failure, _ = quantity_coverage_messages(report, cfg)
+    if (len(rows) < int(cfg.get("minimum_products") or 0) or quantity_failure
+            or any(report[key] for key in ("missing_price", "contract_errors", "promo_in_name"))
+            or analyze_catalog(country, store, catalog)["status"] == "error"):
+        raise ValueError(f"Fallback fails data quality: {country}/{store}")
+    now = datetime.now(timezone.utc)
+    timestamps = [utc_iso(row.get("observedAt")) for row in rows]
+    maximum_age = float(cfg.get("maximum_catalog_age_hours", 48))
+    for stamp in timestamps:
+        age = (now - datetime.fromisoformat(stamp)).total_seconds() / 3600 if stamp else float("inf")
+        if not -1 <= age <= maximum_age:
+            raise ValueError(f"Fallback is stale or has invalid observation time: {country}/{store}")
+    return (json.dumps({
+        "country": country, "store": store, "outcome": "preserved",
+        "reason": "scraper artifact missing; validated fresh repository snapshot retained",
+        "attempted_at": now.isoformat(), "timestamp": now.isoformat(),
+        "last_successful_at": max(timestamps), "final": len(rows),
+    }, indent=2) + "\n").encode()
 
 
 def _contained_path(root: Path, relative: Path) -> Path:
@@ -39,10 +77,14 @@ def copy_catalog_artifacts(artifact_root: Path, workspace: Path) -> int:
     for country, store, _ in stores:
         artifact_name = Path(f"catalog-{country}-{store}")
         artifact = _contained_path(artifact_root, artifact_name)
-        if not artifact.is_dir():
-            raise ValueError(f"Missing scraper artifact: {artifact_name}")
         catalog = Path(catalog_rel_path(country, store))
         status = Path("reports/scrape-status") / f"{country}-{store}.json"
+        if not artifact.exists():
+            payload = preserved_status(workspace, country, store)
+            planned.append((_contained_path(workspace, status), payload))
+            continue
+        if not artifact.is_dir():
+            raise ValueError(f"Invalid scraper artifact directory: {artifact_name}")
         allowed = {catalog, status}
         for entry in artifact.rglob("*"):
             relative = entry.relative_to(artifact)

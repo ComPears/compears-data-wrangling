@@ -36,7 +36,7 @@ jobs:
         run: python -m pip check
 
       - name: Run regression tests
-        run: python -m unittest discover -s tests -t . -v
+        run: python -m unittest discover -s tests -t . -v -b
 
       - name: Validate committed catalogs
         run: python scripts/validate_products.py

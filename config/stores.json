@@ -212,7 +212,7 @@
           "minimum_quantity_coverage": 0.18,
           "target_quantity_coverage": 0.25,
           "quality_profile_version": 2,
-          "pipeline": ["main.py", "structure.py"],
+          "pipeline": ["main.py", "enrich.py", "structure.py"],
           "intermediate_globs": ["lidl_uk.json"],
           "playwright": true
         }

@@ -380,6 +380,10 @@ def main() -> int:
             f"{metrics.get('barcode', {}).get('coverage', 0):>15.1%}  "
             f"{metrics.get('price', {}).get('invalid_rate', 0):>13.1%}  {store['status']}"
         )
+        for issue in store["issues"]:
+            if issue["severity"] == "error":
+                print(f"ERROR: {store['country']}/{store['store']}: {issue['code']} "
+                      f"(actual={issue.get('actual')}, threshold={issue.get('threshold')})")
     print(f"Overall: {report['status']}; artifact: {args.output}")
     if args.fail_on == "warning" and report["status"] in {"warning", "error"}:
         return 1

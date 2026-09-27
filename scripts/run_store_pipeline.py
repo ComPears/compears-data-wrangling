@@ -9,10 +9,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
+import os
 import shutil
+import signal
 import subprocess
 import sys
 import tempfile
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -31,6 +35,31 @@ def _bootstrap() -> Path:
 ROOT = _bootstrap()
 from config.paths import load_stores_config, store_config, store_dir  # noqa: E402
 from data_contract import utc_iso  # noqa: E402
+
+
+def run_step(command: list[str], *, cwd: Path, timeout: float) -> int:
+    """Stop the complete browser/process group before GitHub kills the job."""
+    if timeout <= 0:
+        return 124
+    with subprocess.Popen(command, cwd=cwd, start_new_session=True) as process:
+        try:
+            return process.wait(timeout=timeout)
+        except subprocess.TimeoutExpired:
+            try:
+                os.killpg(process.pid, signal.SIGTERM)
+            except ProcessLookupError:
+                pass
+            try:
+                process.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                pass
+            # Descendants may remain even if the parent exited on SIGTERM.
+            try:
+                os.killpg(process.pid, signal.SIGKILL)
+            except ProcessLookupError:
+                pass
+            process.wait()
+            return 124
 
 
 def _count(path: Path) -> int:
@@ -111,7 +140,12 @@ def main() -> None:
         help="Preserve last-good data and report a warning for scrape-source failures",
     )
     parser.add_argument("--status-file", type=Path, default=None)
+    parser.add_argument("--timeout-seconds", type=float, default=3600,
+                        help="Total subprocess budget; leave time for rollback and artifact upload")
     args = parser.parse_args()
+    if not math.isfinite(args.timeout_seconds) or args.timeout_seconds <= 0:
+        parser.error("--timeout-seconds must be finite and positive")
+    deadline = time.monotonic() + args.timeout_seconds
 
     cfg = store_config(args.country, args.store)
     workdir = store_dir(args.country, args.store)
@@ -146,14 +180,16 @@ def main() -> None:
         print(f"Pre-scrape catalog count: {before} (minimum {minimum})")
 
         for step in steps:
-            print(f"=== {args.country}/{args.store}: {step} ===")
-            result = subprocess.run(
-                [sys.executable, step],
+            print(f"=== {args.country}/{args.store}: {step} ===", flush=True)
+            returncode = run_step(
+                [sys.executable, "-u", step],
                 cwd=workdir,
-                check=False,
+                timeout=deadline - time.monotonic(),
             )
-            if result.returncode != 0:
-                print(f"Pipeline failed at {step} (exit {result.returncode})", file=sys.stderr)
+            if returncode != 0:
+                reason = (f"pipeline budget exhausted at {step}" if returncode == 124
+                          else f"pipeline step {step} exited {returncode}")
+                print(reason, file=sys.stderr)
                 # Restore last-good so a mid-pipeline crash cannot leave empty files.
                 generated = _count(catalog)
                 _restore(backups)
@@ -163,7 +199,7 @@ def main() -> None:
                     country=args.country,
                     store=args.store,
                     outcome="preserved",
-                    reason=f"pipeline step {step} exited {result.returncode}",
+                    reason=reason,
                     before=before,
                     generated=generated,
                     final=restored,
@@ -173,7 +209,7 @@ def main() -> None:
                 if args.soft_fail or optional:
                     print(f"::warning::{args.country}/{args.store} scrape failed; preserved {restored} last-good products")
                     return
-                sys.exit(result.returncode)
+                sys.exit(returncode)
 
         after = _count(catalog)
         print(f"Post-scrape catalog count: {after}")
