@@ -121,7 +121,7 @@ jobs:
           PYTHONUNBUFFERED: '1'
           # Optional barcode lookups must not delay daily price publication.
           PLUS_PDP_ENRICH_LIMIT: '0'
-          UK_MAX_QUERIES: '80'
+          UK_MAX_QUERIES: ${{ matrix.store == 'lidl-uk' && '100' || '80' }}
           UK_MAX_BLOCKED_QUERIES: '3'
           UK_MAX_EMPTY_QUERIES: '5'
           UK_DIAGNOSTICS_DIR: ${{ github.workspace }}/artifacts/search-diagnostics
