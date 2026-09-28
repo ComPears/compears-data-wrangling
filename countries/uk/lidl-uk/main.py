@@ -18,8 +18,8 @@ from seed_queries import SEED_QUERIES  # noqa: E402
 OUTPUT = Path(__file__).resolve().parent / "lidl_uk.json"
 
 # Lidl's public search mixes groceries with rotating hardware and clothing.
-# Keep the 71 shared food searches and use the remaining daily search budget
-# for missing grocery departments, rather than non-food search recommendations.
+# Keep the shared food searches and add broad departments: narrow staple names
+# miss Lidl's rotating assortment (e.g. cheddar does not discover all cheese).
 NON_FOOD_QUERIES = {
     "toilet roll", "kitchen roll", "washing up liquid", "laundry detergent",
     "fabric softener", "shampoo", "toothpaste", "deodorant", "bin bags", "nappies",
@@ -27,6 +27,9 @@ NON_FOOD_QUERIES = {
 LIDL_QUERIES = [q for q in SEED_QUERIES if q not in NON_FOOD_QUERIES] + [
     "nuts", "figs", "wine", "beer", "cider", "prawns", "pork", "noodles",
     "frozen vegetables",
+    "cheese", "dessert", "sweets", "cakes", "juice", "drinks", "fruit",
+    "vegetables", "soup", "sauce", "fish", "chicken", "beef", "turkey",
+    "lamb", "meat", "snack", "baking", "seafood", "deli",
 ]
 
 CFG = StoreSearchConfig(
@@ -34,6 +37,10 @@ CFG = StoreSearchConfig(
     base_url="https://www.lidl.co.uk",
     warm_url="https://www.lidl.co.uk/",
     extract_products=extract_lidl_products,
+    max_queries=100,
+    # The retailer returns 48 tiles per page; the shared default of 36
+    # silently truncated authoritative Lidl results before deduplication.
+    max_per_query=48,
     search_url=lambda q: f"https://www.lidl.co.uk/q/search?q={quote_query(q)}",
     card_selectors=(
         "div[data-grid-data]",

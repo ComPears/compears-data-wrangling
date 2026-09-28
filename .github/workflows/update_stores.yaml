@@ -118,7 +118,10 @@ jobs:
 
       - name: Generate catalog
         env:
-          UK_MAX_QUERIES: '80'
+          PYTHONUNBUFFERED: '1'
+          # Optional barcode lookups must not delay daily price publication.
+          PLUS_PDP_ENRICH_LIMIT: '0'
+          UK_MAX_QUERIES: ${{ matrix.store == 'lidl-uk' && '100' || '80' }}
           UK_MAX_BLOCKED_QUERIES: '3'
           UK_MAX_EMPTY_QUERIES: '5'
           UK_DIAGNOSTICS_DIR: ${{ github.workspace }}/artifacts/search-diagnostics
@@ -142,6 +145,7 @@ jobs:
             --country "${{ matrix.country }}" \
             --store "${{ matrix.store }}" \
             --soft-fail \
+            --timeout-seconds 3600 \
             --status-file "$STATUS_FILE"
 
       - name: Stage canonical catalog artifact
@@ -234,7 +238,7 @@ jobs:
         run: python scripts/validate_store_output.py
 
       - name: Run catalog regression tests
-        run: python -m unittest discover -s tests -t . -v
+        run: python -m unittest discover -s tests -t . -v -b
 
       - name: Validate data quality report
         run: python scripts/validate_products.py

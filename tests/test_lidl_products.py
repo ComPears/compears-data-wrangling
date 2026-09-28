@@ -25,15 +25,17 @@ def tile(**metadata):
 
 
 class LidlProductTests(unittest.TestCase):
-    def test_lidl_uses_80_unique_grocery_queries(self):
+    def test_lidl_covers_broad_departments_without_truncating_result_pages(self):
         spec = importlib.util.spec_from_file_location(
             "lidl_main", Path(__file__).resolve().parents[1] / "countries/uk/lidl-uk/main.py",
         )
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
-        self.assertEqual(len(module.LIDL_QUERIES), 80)
-        self.assertEqual(len(set(module.LIDL_QUERIES)), 80)
-        self.assertTrue({"milk", "bread", "nuts", "wine"}.issubset(module.LIDL_QUERIES))
+        self.assertEqual(len(module.LIDL_QUERIES), 100)
+        self.assertEqual(len(set(module.LIDL_QUERIES)), 100)
+        self.assertEqual(module.CFG.max_queries, 100)
+        self.assertEqual(module.CFG.max_per_query, 48)
+        self.assertTrue({"milk", "bread", "nuts", "wine", "cheese", "dessert"}.issubset(module.LIDL_QUERIES))
         self.assertFalse(module.NON_FOOD_QUERIES.intersection(module.LIDL_QUERIES))
 
     def test_uses_metadata_not_saving_unit_price_or_accessibility_title(self):

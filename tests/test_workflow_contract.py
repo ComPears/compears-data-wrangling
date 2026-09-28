@@ -6,6 +6,14 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class WorkflowContractTests(unittest.TestCase):
+    def test_test_output_is_buffered_to_avoid_fake_actions_annotations(self):
+        for filename in ("ci.yml", "update_stores.yaml"):
+            workflow = (ROOT / ".github/workflows" / filename).read_text()
+            self.assertIn("unittest discover -s tests -t . -v -b", workflow)
+        from scripts.replay_publish_pipeline import publish_steps
+        step = next(step for step in publish_steps() if step.name == "Run catalog regression tests")
+        self.assertIn("-b", step.command)
+
     def test_ignored_quality_report_is_force_added_for_publish(self):
         ignored_paths = (ROOT / ".gitignore").read_text(encoding="utf-8").splitlines()
         workflow = (ROOT / ".github/workflows/update_stores.yaml").read_text(

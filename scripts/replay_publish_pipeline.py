@@ -35,7 +35,7 @@ def publish_steps() -> tuple[Step, ...]:
         Step("Validate required store output counts", (python, "scripts/validate_store_output.py")),
         Step(
             "Run catalog regression tests",
-            (python, "-m", "unittest", "discover", "-s", "tests", "-t", ".", "-v"),
+            (python, "-m", "unittest", "discover", "-s", "tests", "-t", ".", "-v", "-b"),
         ),
         Step("Validate data quality report", (python, "scripts/validate_products.py")),
         Step(
