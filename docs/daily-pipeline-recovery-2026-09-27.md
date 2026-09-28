@@ -50,8 +50,9 @@ changed in this PR.
 
 ## Verification
 
-- 149 local regression tests pass, including real subprocess-group timeout and
-  rollback tests, artifact fallback safety, identity checks and quantity parsing.
+- 150 local regression tests pass, including real subprocess-group timeout and
+  rollback tests, artifact fallback safety, identity checks, quantity parsing and
+  preservation of price-observation timestamps through quantity enrichment.
 - `pip check`, Python compilation, committed-catalog validation and workflow YAML
   parsing pass.
 - Downloaded all 18 catalog artifacts and Lidl raw observations from run
@@ -61,8 +62,26 @@ changed in this PR.
   requests, 140 enriched raw rows. After structuring and sanitizing, 149/175
   products (85.14%) have valid quantities; the original 18% floor passes.
 - The first complete publication replay correctly stopped at the newly exposed
-  count-drop gate. Broad-department live verification and the final replay are
-  recorded below once complete.
+  count-drop gate. A live scrape of all 20 added grocery queries returned 145
+  products, including 33 additional unique products beyond the failed-run data.
+  Combining those real observations with the enriched failed-run observations
+  produced 208 products; all 208 survived sanitization, and 179 (86.06%) have
+  quantities. No prices or quantities were invented to meet the gates.
+- Replayed all ten publication steps in a disposable checkout using all 18
+  failed-run artifacts with the recovered Lidl catalog substituted. Every gate
+  passed, including the unchanged count-drop check; the manifest reports 14/14
+  required stores OK, 79,393 products, 14 refreshed and four preserved stores.
+  This is an artifact replay with live Lidl recovery, not a new full-country run.
+- An independent, complete live Lidl run then finished all 100 queries and all
+  pipeline stages within a stricter local 20-minute budget: 213 raw products,
+  199 detail requests, 165 enriched rows, and 208 structured products. Its final
+  quantity coverage is 174/208 (83.65%), comfortably above the unchanged 18% floor.
+- PLUS live smoke testing retrieved 4,597 products across its first seven
+  categories with optional barcode enrichment disabled. The temporary test was
+  deliberately stopped before completing the full catalog; the wrapper restored
+  the disposable baseline. Full PLUS completion within the new production
+  budget remains to be confirmed by a post-merge run. Timeout/process cleanup and
+  honest rollback statuses are covered by passing regression tests.
 
 ## Rollout
 

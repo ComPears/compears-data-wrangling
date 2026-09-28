@@ -140,7 +140,7 @@ def structure_raw_products(raw_items: list[dict[str, Any]]) -> list[dict[str, An
             continue
         for key in ("sourceQuery", "sourceUrl", "sourceMethod", "retailerCategory",
                     "categorySource", "availabilityText", "quantitySource",
-                    "quantitySourceUrl", "quantityObservedAt"):
+                    "quantitySourceUrl", "quantityObservedAt", "observedAt"):
             if item.get(key):
                 entry[key] = item[key]
         sanitized = structured_with_category(entry, entry)
