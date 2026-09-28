@@ -63,6 +63,13 @@ class LidlDetailsTests(unittest.TestCase):
         self.assertEqual(stats["attempted"], 1)
         self.assertEqual(stats["enriched"], 2)
 
+    def test_quantity_enrichment_does_not_refresh_price_observation(self):
+        rows = [{**row(), "observedAt": "2026-09-21T01:00:00+00:00"}]
+        enrich_pack_sizes(rows, fetch=lambda *a, **k: html())
+        result = structure_raw_products(rows)[0]
+        self.assertEqual(result["observedAt"], "2026-09-21T01:00:00+00:00")
+        self.assertNotEqual(result["quantityObservedAt"], result["observedAt"])
+
     def test_budget_and_request_limit(self):
         calls = []
         def fetch(url, **kwargs):
