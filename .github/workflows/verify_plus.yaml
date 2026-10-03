@@ -1,0 +1,67 @@
+name: Verify PLUS full refresh
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'plus_scrape.py'
+      - 'scrape_utils.py'
+      - 'countries/nl/plus/**'
+      - 'scripts/run_store_pipeline.py'
+      - 'scripts/verify_plus_refresh.py'
+      - 'config/stores.json'
+      - 'requirements.txt'
+      - '.github/workflows/verify_plus.yaml'
+      - '.github/workflows/update_stores.yaml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-plus-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Full PLUS scrape (no publication)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    steps:
+      - name: Checkout test revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12.8'
+          check-latest: false
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install daily scraper runtime
+        timeout-minutes: 10
+        run: |
+          pip install -r requirements.txt
+          pip check
+          python -m playwright install --with-deps chromium
+
+      - name: Verify all categories and fresh catalog gates
+        env:
+          PLAYWRIGHT_CHANNEL: ''
+          PLAYWRIGHT_HEADED: ''
+          PYTHONUNBUFFERED: '1'
+        run: python scripts/verify_plus_refresh.py
+
+      - name: Retain verification evidence
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: plus-refresh-verification
+          path: |
+            artifacts/plus-status.json
+            artifacts/plus-health.json
+            artifacts/plus-categories.json
+          retention-days: 7
+          if-no-files-found: warn

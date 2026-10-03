@@ -185,6 +185,15 @@ jobs:
           if-no-files-found: warn
           retention-days: 3
 
+      - name: Upload PLUS category diagnostics
+        if: always() && matrix.store == 'plus'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: plus-category-diagnostics
+          path: artifacts/plus-categories.json
+          if-no-files-found: warn
+          retention-days: 7
+
   publish:
     name: Publish last-good catalog snapshot
     needs: scrape
