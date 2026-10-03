@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from copy import deepcopy
 import time
 import urllib.error
 import urllib.request
@@ -17,7 +18,7 @@ from barcode_utils import (
     extract_barcode_from_html,
     extract_barcode_from_next_data,
 )
-from scrape_utils import PLUS_USER_AGENT
+from scrape_utils import PLUS_USER_AGENT, launch_browser
 
 PRODUCT_CARD_SELECTOR = ".plp-item-wrapper"
 PLP_API_FRAGMENT = "DataActionGetProductListAndCategoryInfo"
@@ -331,6 +332,147 @@ def _scrape_plp_dom_page(page: Page, category: str, seen: set[str]) -> list[dict
     return products
 
 
+def scrape_complete_plus_category(
+    page: Page,
+    url: str,
+    *,
+    category: str,
+    seen: set[str] | None = None,
+) -> list[dict]:
+    """Fetch every declared page; commit deduplication only after completeness.
+
+    Bootstrap the current public request/version/CSRF token in the browser once,
+    then paginate in its cookie-bound API context. No private API credentials or
+    hard-coded deployment versions are needed. API response bodies are disposed
+    after each request so Playwright does not retain the entire catalog in RAM.
+    """
+    client = PlusListingClient(page, url)
+    first = client.first
+    total_pages, total_items = _listing_totals(first)
+    products: dict[str, dict] = {}
+    for page_num in range(1, total_pages + 1):
+        payload = first if page_num == 1 else client.fetch(page_num)
+        if _listing_totals(payload) != (total_pages, total_items):
+            raise ValueError("PLUS listing totals changed during pagination; retry category")
+        rows = payload.get("ProductList", {}).get("List")
+        if not isinstance(rows, list) or not rows:
+            raise ValueError(f"PLUS page {page_num}/{total_pages} has no products")
+        batch = _products_from_api_payload(payload)
+        if len(batch) != len(rows):
+            raise ValueError(f"PLUS page {page_num} contains malformed products")
+        before = len(products)
+        for entry in batch:
+            identity = _product_identity(entry)
+            if not identity:
+                raise ValueError("PLUS product has no identity")
+            products[identity] = {**entry, "category": category}
+        if len(products) == before:
+            raise ValueError(f"PLUS repeated page {page_num}; refusing truncated catalog")
+        if page_num % 25 == 0 or page_num == total_pages:
+            print(f"  PLUS page {page_num}/{total_pages}: {len(products)}/{total_items} products", flush=True)
+    if len(products) != total_items:
+        raise ValueError(f"PLUS category incomplete: {len(products)}/{total_items} unique products")
+    seen = seen if seen is not None else set()
+    result = [entry for identity, entry in products.items() if identity not in seen]
+    seen.update(products)
+    return result
+
+
+def _listing_totals(payload: dict) -> tuple[int, int]:
+    try:
+        pages = int(payload["TotalPages"])
+        items = int(payload["TotalNumberItems"])
+    except (KeyError, TypeError, ValueError) as exc:
+        raise ValueError("PLUS missing pagination totals") from exc
+    if not 1 <= pages <= MAX_API_PAGES or items < 1:
+        raise ValueError(f"PLUS invalid/unsupported listing totals: {pages} pages, {items} products")
+    return pages, items
+
+
+class PlusListingClient:
+    def __init__(self, page: Page, url: str):
+        parsed = urlparse(url)
+        if parsed.scheme != "https" or parsed.netloc != "www.plus.nl" or not parsed.path.startswith("/producten/"):
+            raise ValueError("PLUS category must use the public HTTPS listing origin")
+        slug = parsed.path.rstrip("/").split("/")[-1]
+
+        def matches(response):
+            target = urlparse(response.url)
+            if target.scheme != "https" or target.netloc != "www.plus.nl" or not target.path.endswith("/" + PLP_API_FRAGMENT):
+                return False
+            try:
+                variables = response.request.post_data_json["screenData"]["variables"]
+                return variables["CategorySlug"] == slug and variables["PageNumber"] == 1
+            except (KeyError, TypeError, ValueError):
+                return False
+
+        with page.expect_response(matches, timeout=45000) as capture:
+            page.goto(_with_pagina(url, 1), wait_until="domcontentloaded", timeout=45000)
+        response = capture.value
+        if response.status != 200:
+            raise ValueError(f"PLUS listing bootstrap HTTP {response.status}")
+        self.first = response.json().get("data", {})
+        _listing_totals(self.first)
+        request = response.request
+        self.url = request.url
+        self.body = request.post_data_json
+        self.headers = {key: value for key, value in request.all_headers().items()
+                        if key in {"content-type", "x-csrftoken", "outsystems-locale"}}
+        self.context = page.context.request
+        # Release the heavy storefront document and stop background JS/network.
+        page.goto("about:blank", wait_until="commit")
+
+    def fetch(self, page_num: int) -> dict:
+        body = deepcopy(self.body)
+        variables = body["screenData"]["variables"]
+        variables["PageNumber"] = page_num
+        variables["URLPageNumber"] = page_num
+        for attempt in range(3):
+            response = None
+            try:
+                response = self.context.post(self.url, data=body, headers=self.headers,
+                                             timeout=20000, max_redirects=0)
+                if response.status in {408, 429, 500, 502, 503, 504}:
+                    raise PlaywrightTimeoutError(f"PLUS temporary HTTP {response.status}")
+                if response.status != 200:
+                    raise ValueError(f"PLUS listing HTTP {response.status}")
+                return response.json().get("data", {})
+            except PlaywrightTimeoutError:
+                if attempt == 2:
+                    raise
+                time.sleep(2 ** (attempt + 1))
+            finally:
+                if response is not None:
+                    response.dispose()
+        raise RuntimeError("PLUS pagination retries exhausted")
+
+
+def scrape_plus_category_isolated(playwright, url: str, *, category: str,
+                                  seen: set[str], attempts: int = 2) -> list[dict]:
+    """A crashed renderer/category never poisons another category or its retry."""
+    for attempt in range(attempts):
+        browser = None
+        try:
+            browser = launch_browser(playwright)
+            context = browser.new_context(user_agent=PLUS_USER_AGENT, locale="nl-NL")
+            context.route("**/*", lambda route: route.abort()
+                          if route.request.resource_type in {"image", "media", "font"}
+                          else route.continue_())
+            batch = scrape_complete_plus_category(context.new_page(), url, category=category, seen=seen)
+            return batch
+        except Exception as exc:
+            if attempt + 1 == attempts:
+                raise
+            print(f"  PLUS category retry {attempt + 1}/{attempts - 1}: {type(exc).__name__}", flush=True)
+        finally:
+            if browser is not None:
+                try:
+                    browser.close()
+                except Exception:
+                    pass  # A dead browser must not mask the original failure.
+    raise ValueError("PLUS category attempts must be positive")
+
+
 def scrape_plus_category(
     page: Page,
     url: str,
@@ -338,7 +480,11 @@ def scrape_plus_category(
     category: str,
     seen: set[str] | None = None,
 ) -> list[dict]:
-    """Scrape a PLUS category by intercepting PLP API responses page-by-page."""
+    """Legacy browser traversal for COOP redirect compatibility.
+
+    The required PLUS daily catalog uses scrape_complete_plus_category instead.
+    COOP can redirect to the generic product index rather than a category URL.
+    """
     seen = seen if seen is not None else set()
     products: list[dict] = []
     total_pages = 1
