@@ -137,6 +137,11 @@ def transform_entry(entry: dict) -> dict:
         result["o"] = parsed["offer"]
     if "image" in entry and entry["image"]:
         result["i"] = entry["image"]
+    # Prefer the retailer's explicit fields; raw text can contain old prices,
+    # unit prices and duplicate titles. Keep legacy raw fixtures readable.
+    for source, target in (("name", "n"), ("price", "p"), ("size", "s")):
+        if source in entry:
+            result[target] = str(entry[source] or "").strip()
     return structured_with_category(entry, result)
 
 

@@ -12,7 +12,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
-from urllib.parse import parse_qs, quote_plus, urlsplit
+from urllib.parse import parse_qs, quote, quote_plus, urlsplit
 
 from playwright.sync_api import Page, Playwright, Response
 
@@ -217,7 +217,7 @@ def extract_from_product_links(page: Page, cfg: StoreSearchConfig) -> list[dict[
 
 
 def extract_from_cards(page: Page, cfg: StoreSearchConfig) -> list[dict[str, Any]]:
-    linked = extract_from_product_links(page, cfg)
+    linked = [] if cfg.slug == "morrisons" else extract_from_product_links(page, cfg)
     if linked:
         return linked
 
@@ -251,7 +251,7 @@ def extract_from_cards(page: Page, cfg: StoreSearchConfig) -> list[dict[str, Any
             price_text = _text_or_empty(card.locator(sel))
             if parse_gbp_price(price_text):
                 break
-        if not parse_gbp_price(price_text):
+        if not parse_gbp_price(price_text) and cfg.slug != "morrisons":
             price_text = price_from_text_blob(_text_or_empty(card)) or ""
         href = ""
         for sel in cfg.link_selectors:
@@ -281,6 +281,8 @@ def extract_from_cards(page: Page, cfg: StoreSearchConfig) -> list[dict[str, Any
             base_url=cfg.base_url,
         )
         if entry:
+            if cfg.slug == "morrisons":
+                entry["sourceMethod"] = "dom_cards_selling_price_v2"
             products.append(entry)
     return products
 
@@ -390,7 +392,13 @@ def _walk_for_products(obj: Any, found: list[dict[str, Any]], cfg: StoreSearchCo
         if name and price is not None:
             slug = obj.get("urlSlugText")
             sku = obj.get("sku")
-            aldi_path = f"/product/{slug}/{sku}" if slug and sku else ""
+            aldi_path = f"/product/{slug}-{sku}" if slug and sku else ""
+            aldi_image = ""
+            if cfg.slug == "aldi-uk":
+                for asset in obj.get("assets") or []:
+                    if isinstance(asset, dict) and isinstance(asset.get("url"), str):
+                        aldi_image = asset["url"].replace("{width}", "300").replace("{slug}", quote(str(name), safe=""))
+                        break
             brand_value = obj.get("brand") or obj.get("brandName")
             if isinstance(brand_value, dict):
                 brand_value = brand_value.get("name")
@@ -441,6 +449,7 @@ def _walk_for_products(obj: Any, found: list[dict[str, Any]], cfg: StoreSearchCo
                     or obj.get("image_url")
                     or obj.get("imageUrl")
                     or obj.get("imageURL")
+                    or aldi_image
                     or ""
                 ),
                 size=str(size_value or "") or None,

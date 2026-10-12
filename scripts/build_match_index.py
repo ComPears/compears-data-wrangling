@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import argparse
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -104,20 +105,28 @@ def build_country_from_catalogs(
     return report, quality
 
 
-def build_country(country: str) -> tuple[dict[str, Any], dict[str, Any]]:
+def build_country(country: str, available: set[tuple[str, str]] | None = None) -> tuple[dict[str, Any], dict[str, Any]]:
     catalogs = [
         (store, catalog)
         for _country, store, catalog in all_catalog_paths(country)
+        if available is None or (country, store) in available
     ]
     return build_country_from_catalogs(country, catalogs)
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--available-only", action="store_true")
+    args = parser.parse_args()
+    available = None
+    if args.available_only:
+        manifest = json.loads((ROOT / "catalog-availability.json").read_text())
+        available = {(row["country"], row["store"]) for row in manifest["stores"] if row["available"]}
     output_dir = ROOT / "reports" / "matches"
     output_dir.mkdir(parents=True, exist_ok=True)
     quality: list[dict[str, Any]] = []
     for country in list_countries():
-        report, country_quality = build_country(country)
+        report, country_quality = build_country(country, available)
         (output_dir / f"{country}.json").write_text(
             json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
         )

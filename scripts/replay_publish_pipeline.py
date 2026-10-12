@@ -32,27 +32,12 @@ def publish_steps() -> tuple[Step, ...]:
     return (
         Step("Summarize store refresh outcomes", (python, "scripts/summarize_scrape_status.py")),
         Step("Sanitize canonical product JSON", (python, "scripts/sanitize_all_stores.py")),
-        Step("Validate required store output counts", (python, "scripts/validate_store_output.py")),
         Step(
             "Run catalog regression tests",
             (python, "-m", "unittest", "discover", "-s", "tests", "-t", ".", "-v", "-b"),
         ),
-        Step("Validate data quality report", (python, "scripts/validate_products.py")),
-        Step(
-            "Generate catalog health report",
-            (python, "scripts/catalog_health.py", "--fail-on", "error"),
-        ),
-        Step("Build confidence-scored comparison index", (python, "scripts/build_match_index.py")),
-        Step(
-            "Catalog freshness and drop alerts",
-            (python, "scripts/workflow_catalog_alerts.py"),
-            {
-                "CATALOG_MAX_AGE_HOURS": "48",
-                "CATALOG_MAX_DROP_RATIO": "0.2",
-                "CATALOG_MAX_GROWTH_RATIO": "1.75",
-            },
-        ),
-        Step("Write publish manifest", (python, "scripts/write_catalog_manifest.py")),
+        Step("Validate and publish store availability", (python, "scripts/publish_healthy_catalogs.py")),
+        Step("Build confidence-scored comparison index", (python, "scripts/build_match_index.py", "--available-only")),
         Step(
             "Remove stale intermediate JSON",
             (python, "scripts/prune_stale_artifacts.py", "--from-git"),
@@ -85,7 +70,7 @@ def main() -> int:
     if not artifact_root.is_dir():
         parser.error(f"artifact root does not exist: {artifact_root}")
 
-    copied = copy_catalog_artifacts(artifact_root, workspace)
+    copied = copy_catalog_artifacts(artifact_root, workspace, allow_unavailable=True)
     print(f"Replaying {copied} catalog artifacts in {workspace}", flush=True)
 
     failures: list[str] = []

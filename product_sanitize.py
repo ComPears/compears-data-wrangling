@@ -431,9 +431,10 @@ def sanitize_entry_with_reason(
     else:
         out.pop("imageUrl", None)
 
-    timestamp = utc_iso(observed_at) or utc_iso(
-        entry.get("observedAt") or entry.get("scrapedAt") or entry.get("scraped_at")
-    )
+    # Run-level timestamps are only a fallback for legacy rows. In particular,
+    # never turn retained observations into fresh offers during publication.
+    source_timestamp = entry.get("observedAt") or entry.get("scrapedAt") or entry.get("scraped_at")
+    timestamp = utc_iso(source_timestamp) if source_timestamp else utc_iso(observed_at)
     if timestamp:
         out["observedAt"] = timestamp
     return out, None

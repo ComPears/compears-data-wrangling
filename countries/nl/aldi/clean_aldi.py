@@ -18,9 +18,13 @@ def remove_duplicate_items_from_json(input_file, key="n"):
         if not name:
             continue
 
-        # Skip duplicates
-        if name not in seen:
-            seen.add(name)
+        # Identically named products can have different pack sizes. Preserve
+        # retailer identity and pack variants for price-per-unit comparison.
+        identity = item.get("productUrl") or item.get("retailerProductId") or (
+            name.casefold(), str(item.get("s") or "").casefold(), str(item.get("bn") or "").casefold()
+        )
+        if identity not in seen:
+            seen.add(identity)
             cleaned_data.append(item)
 
     print(
@@ -37,7 +41,5 @@ def remove_duplicate_items_from_json(input_file, key="n"):
     return cleaned_data
 
 
-input_file = "structured_aldi.json"
-
-
-remove_duplicate_items_from_json(input_file)
+if __name__ == "__main__":
+    remove_duplicate_items_from_json("structured_aldi.json")

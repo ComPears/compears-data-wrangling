@@ -2,7 +2,8 @@ import json
 import sys
 import unittest
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import patch, Mock
+from dataclasses import replace
 
 ROOT = Path(__file__).resolve().parents[1]
 SHARED = ROOT / "countries" / "uk" / "_shared"
@@ -14,8 +15,10 @@ from uk_scrape import (  # noqa: E402
     _walk_for_products,
     harvest_api_json,
     size_from_text_blob,
+    extract_from_cards,
 )
 from countries.uk.sainsburys.main import CFG as SAINSBURYS_CFG  # noqa: E402
+from countries.uk.morrisons.main import CFG as MORRISONS_CFG
 from scrape_utils import configure_page  # noqa: E402
 
 
@@ -52,6 +55,44 @@ CFG = StoreSearchConfig(
 
 
 class UkScrapeApiTests(unittest.TestCase):
+    def test_morrisons_uses_selling_price_not_earlier_decimal_pence_unit_price(self):
+        card = Mock()
+        cards = Mock()
+        cards.count.return_value = 1
+        cards.nth.return_value = card
+        page = Mock()
+        page.locator.return_value = cards
+        card.locator.side_effect = lambda selector: selector
+        texts = {MORRISONS_CFG.name_selectors[0]: "Morrisons British Skimmed Milk 4 Pints",
+                 "[data-test='fop-price']": "£1.65", MORRISONS_CFG.size_selectors[0]: "2.272L"}
+        with (patch("uk_scrape.extract_from_product_links") as ancestor,
+              patch("uk_scrape._text_or_empty", side_effect=lambda loc: texts.get(loc, "72.6p/litre")),
+              patch("uk_scrape._attr_or_empty", return_value="/products/milk/103087401")):
+            rows = extract_from_cards(page, MORRISONS_CFG)
+        ancestor.assert_not_called()
+        self.assertEqual(rows[0]["p"], "1.65")
+        self.assertEqual(rows[0]["sourceMethod"], "dom_cards_selling_price_v2")
+        self.assertEqual(MORRISONS_CFG.price_selectors, ("[data-test='fop-price']",))
+
+    def test_aldi_current_urls_assets_and_missing_pack_size(self):
+        found = []
+        cfg = replace(CFG, slug="aldi-uk", base_url="https://www.aldi.co.uk")
+        _walk_for_products({
+            "name": "Strawberry Flavoured Milk", "brandName": "COWBELLE",
+            "sku": "000000000755310001", "urlSlugText": "cowbelle-strawberry-flavoured-milk",
+            "sellingSize": None, "quantityUnit": "ea", "quantityDefault": 1,
+            "quantityMin": 1, "quantityMax": 99,
+            "price": {"amount": 95, "currencyCode": "GBP", "comparison": None},
+            "assets": [{"url": "https://dm.emea.cms.aldi.cx/product/{width}/{slug}"}],
+        }, found, cfg)
+        self.assertEqual(len(found), 1)
+        self.assertEqual(found[0]["productUrl"],
+                         "https://www.aldi.co.uk/product/cowbelle-strawberry-flavoured-milk-000000000755310001")
+        self.assertEqual(found[0]["p"], "0.95")
+        self.assertIn("/300/Strawberry%20Flavoured%20Milk", found[0]["imageUrl"])
+        # Ordering constraints are not evidence of a package size.
+        self.assertFalse(found[0].get("s"))
+
     def test_sainsburys_uses_current_search_route_without_retired_api(self):
         self.assertEqual(
             SAINSBURYS_CFG.search_url("semi skimmed milk"),

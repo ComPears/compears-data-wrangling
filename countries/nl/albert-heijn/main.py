@@ -66,12 +66,14 @@ def scrape_ah_products() -> None:
                     f"(budget remaining {enrich_budget})..."
                 )
                 try:
+                    # Budget requests, not successful barcode matches. An outage
+                    # must not reset the allowance for every subsequent category.
+                    enrich_budget = max(0, enrich_budget - batch_limit)
                     added = enrich_raw_entries_with_detail_barcodes(
                         token,
                         products,
                         limit=batch_limit,
                     )
-                    enrich_budget = max(0, enrich_budget - added)
                     print(
                         f"📎 Detail enrichment added {added} barcodes "
                         f"({enrich_budget} budget left)"

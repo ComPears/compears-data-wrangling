@@ -11,7 +11,7 @@ SHARED = Path(__file__).resolve().parents[1] / "_shared"
 if str(SHARED) not in sys.path:
     sys.path.insert(0, str(SHARED))
 
-from uk_scrape import StoreSearchConfig, quote_query, scrape_store_search  # noqa: E402
+from uk_scrape import StoreSearchConfig, extract_from_cards, quote_query, scrape_store_search  # noqa: E402
 
 OUTPUT = Path(__file__).resolve().parent / "morrisons.json"
 
@@ -20,13 +20,16 @@ CFG = StoreSearchConfig(
     base_url="https://groceries.morrisons.com",
     search_url=lambda q: f"https://groceries.morrisons.com/search?q={quote_query(q)}",
     card_selectors=(
-        "[data-test='fop-wrapper']",
+        "[data-test^='fop-wrapper']",
         ".fop-item",
-        "[class*='product-card']",
-        "article",
-        "li",
     ),
+    # The generic ancestor text includes unit prices before the selling price.
+    price_selectors=("[data-test='fop-price']",),
+    name_selectors=("[data-test='fop-title']",),
+    link_selectors=("[data-test='fop-product-link']",),
+    extract_products=lambda page: extract_from_cards(page, CFG),
     size_selectors=(
+        "[data-test='fop-size'] > span:first-child",
         "[data-test='fop-size']",
         ".fop-catch-weight",
         "[data-test*='size']",
