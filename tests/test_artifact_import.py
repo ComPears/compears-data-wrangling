@@ -122,6 +122,20 @@ class ArtifactImportTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Fallback"):
             copy_catalog_artifacts(self.artifacts, self.workspace)
 
+    def test_unavailable_mode_retains_stale_snapshot_without_refreshing_dates(self):
+        _, _, catalog, _ = self.fallback_catalog(age=200)
+        original = catalog.read_bytes()
+        copy_catalog_artifacts(self.artifacts, self.workspace, allow_unavailable=True)
+        self.assertEqual(catalog.read_bytes(), original)
+
+    def test_unavailable_mode_still_rejects_executable_artifacts(self):
+        injected = self.artifact / "scripts/payload.py"
+        injected.parent.mkdir()
+        injected.write_text("raise SystemExit(1)")
+        with self.assertRaisesRegex(ValueError, "Unexpected artifact entry"):
+            copy_catalog_artifacts(self.artifacts, self.workspace, allow_unavailable=True)
+        self.assertEqual(list(self.workspace.iterdir()), [])
+
     def test_missing_artifact_and_missing_snapshot_fails_closed(self):
         shutil.rmtree(self.artifact)
         with self.assertRaisesRegex(ValueError, "usable fallback"):

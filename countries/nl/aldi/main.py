@@ -47,6 +47,31 @@ OPTIONAL_CATEGORIES = {
 }
 
 
+def extract_priced_cards(page, start_index: int = 0) -> list[dict]:
+    # Tiles arrive before their asynchronous price data. Waiting for a tile (or
+    # sleeping a fixed three seconds) accepted almost entirely unpriced runs.
+    page.wait_for_function("""start => {
+        const cards = [...document.querySelectorAll('div.product-tile')].slice(start);
+        return cards.length > 0 && (
+            cards.some(card => /\\d+[.,]\\d{2}/.test(
+                card.querySelector('[data-testid$="-tag-current-price-amount"]')?.textContent || ''))
+            || cards.every(card => /Niet verkrijgbaar/i.test(card.innerText)));
+    }""", arg=start_index, timeout=20000)
+    return page.locator("div.product-tile").evaluate_all("""cards => cards.map(card => {
+        const text = suffix => card.querySelector(`[data-testid$="${suffix}"]`)?.textContent?.trim() || '';
+        return {
+            raw_text: card.innerText.trim(),
+            name: text('-product-name'),
+            price: text('-tag-current-price-amount'),
+            size: text('-tag-sales-unit'),
+            brand: text('-brand-name'),
+            availability: /Niet verkrijgbaar/i.test(card.innerText) ? 'out_of_stock' : 'in_stock',
+            productUrl: card.querySelector('a.product-tile__action')?.href || '',
+            image: card.querySelector('img.product-tile__image-section__picture')?.src || ''
+        };
+    })""")
+
+
 def scrape_aldi_products(link_dict) -> None:
     os.makedirs("aldi_results", exist_ok=True)
     failures: list[tuple[str, str]] = []
@@ -71,28 +96,26 @@ def scrape_aldi_products(link_dict) -> None:
                 data: list[dict] = []
                 seen: set[str] = set()
                 category = category_from_url(url)
+                previous_count = 0
 
                 while True:
-                    cards = page.query_selector_all("div.product-tile")
+                    cards = extract_priced_cards(page, previous_count)
                     for card in cards:
-                        raw_text = card.inner_text().strip()
-                        if raw_text in seen:
+                        identity = card["productUrl"] or card["raw_text"]
+                        if identity in seen:
                             continue
-                        seen.add(raw_text)
-                        img_el = card.query_selector(
-                            "img.product-tile__image-section__picture"
-                        )
-                        img_src = img_el.get_attribute("src") if img_el else None
-                        data.append(
-                            {"raw_text": raw_text, "image": img_src, "category": category}
-                        )
+                        seen.add(identity)
+                        data.append({**card, "category": category})
 
                     more_btn = page.locator("button:has-text('Meer tonen')")
                     if more_btn.count() and more_btn.first.is_visible():
+                        previous_count = len(cards)
                         more_btn.first.scroll_into_view_if_needed()
                         more_btn.first.click()
-                        page.wait_for_timeout(3000)
-                        wait_for_products(page, "div.product-tile", timeout=15000)
+                        page.wait_for_function(
+                            "count => document.querySelectorAll('div.product-tile').length > count",
+                            arg=len(cards), timeout=15000,
+                        )
                     else:
                         break
 

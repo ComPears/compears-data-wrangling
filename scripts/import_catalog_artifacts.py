@@ -20,7 +20,7 @@ from scripts.validate_products import validate_file, quantity_coverage_messages
 MAX_FILE_BYTES = 50 * 1024 * 1024
 
 
-def preserved_status(workspace: Path, country: str, store: str) -> bytes:
+def preserved_status(workspace: Path, country: str, store: str, *, allow_unavailable: bool = False) -> bytes:
     """Missing transport is recoverable only with a fresh, validated snapshot.
 
     Do not change catalog observations or inherit a previous 'refreshed' status.
@@ -33,6 +33,15 @@ def preserved_status(workspace: Path, country: str, store: str) -> bytes:
     if not isinstance(rows, list) or not rows or not all(isinstance(row, dict) for row in rows):
         raise ValueError(f"Invalid fallback catalog: {country}/{store}")
     cfg = store_config(country, store)
+    if allow_unavailable:
+        stamps = [utc_iso(row.get("observedAt")) for row in rows]
+        valid = [stamp for stamp in stamps if stamp]
+        return (json.dumps({
+            "country": country, "store": store, "outcome": "preserved",
+            "reason": "scraper artifact missing; snapshot retained pending availability validation",
+            "attempted_at": datetime.now(timezone.utc).isoformat(),
+            "last_successful_at": max(valid) if valid else None, "final": len(rows),
+        }, indent=2) + "\n").encode()
     report = validate_file(country, store, catalog)
     quantity_failure, _ = quantity_coverage_messages(report, cfg)
     if (len(rows) < int(cfg.get("minimum_products") or 0) or quantity_failure
@@ -68,7 +77,7 @@ def _contained_path(root: Path, relative: Path) -> Path:
     return candidate
 
 
-def copy_catalog_artifacts(artifact_root: Path, workspace: Path) -> int:
+def copy_catalog_artifacts(artifact_root: Path, workspace: Path, *, allow_unavailable: bool = False) -> int:
     """Validate the complete batch before overwriting any allowlisted data files."""
     artifact_root = artifact_root.resolve()
     workspace = workspace.resolve()
@@ -80,7 +89,7 @@ def copy_catalog_artifacts(artifact_root: Path, workspace: Path) -> int:
         catalog = Path(catalog_rel_path(country, store))
         status = Path("reports/scrape-status") / f"{country}-{store}.json"
         if not artifact.exists():
-            payload = preserved_status(workspace, country, store)
+            payload = preserved_status(workspace, country, store, allow_unavailable=allow_unavailable)
             planned.append((_contained_path(workspace, status), payload))
             continue
         if not artifact.is_dir():
@@ -112,8 +121,9 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--artifact-root", type=Path, required=True)
     parser.add_argument("--workspace", type=Path, default=ROOT)
+    parser.add_argument("--allow-unavailable", action="store_true")
     args = parser.parse_args()
-    count = copy_catalog_artifacts(args.artifact_root, args.workspace)
+    count = copy_catalog_artifacts(args.artifact_root, args.workspace, allow_unavailable=args.allow_unavailable)
     print(f"Imported {count} validated catalog/status artifacts")
     return 0
 

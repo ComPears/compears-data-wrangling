@@ -2,10 +2,11 @@ name: Daily supermarket scrapers
 
 # Three independent stages:
 # 1) scrape   – best-effort per store; preserves last-known observations
-# 2) publish  – only commits fresh, contract-valid required catalogs
+# 2) publish  – marks unavailable stores explicitly; serves only validated stores
 # 3) sync     – seed backend from published catalogs and deploy
 #
-# Workflow green means fresh offers passed the full quality contract.
+# Workflow green means every available store passed the full quality contract.
+# Unavailable stores remain visible in the summary and availability manifest.
 
 on:
   schedule:
@@ -185,6 +186,17 @@ jobs:
           if-no-files-found: warn
           retention-days: 3
 
+      - name: Upload refresh quality diagnostics
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: refresh-quality-${{ matrix.country }}-${{ matrix.store }}
+          path: |
+            reports/refresh-quality
+            reports/quarantine
+          if-no-files-found: warn
+          retention-days: 7
+
       - name: Upload PLUS category diagnostics
         if: always() && matrix.store == 'plus'
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
@@ -234,39 +246,24 @@ jobs:
       - name: Import allowlisted catalog and status JSON
         env:
           ARTIFACT_ROOT: ${{ runner.temp }}/catalog-artifacts
-        run: python scripts/import_catalog_artifacts.py --artifact-root "$ARTIFACT_ROOT"
+        run: python scripts/import_catalog_artifacts.py --artifact-root "$ARTIFACT_ROOT" --allow-unavailable
 
       - name: Summarize store refresh outcomes
         run: python scripts/summarize_scrape_status.py
 
       - name: Sanitize canonical product JSON
+        id: sanitize
         run: python scripts/sanitize_all_stores.py
-
-      # Hard gate: required stores must keep usable last-good catalogs.
-      - name: Validate required store output counts
-        run: python scripts/validate_store_output.py
 
       - name: Run catalog regression tests
         run: python -m unittest discover -s tests -t . -v -b
 
-      - name: Validate data quality report
-        run: python scripts/validate_products.py
-
-      - name: Generate catalog health report
-        run: python scripts/catalog_health.py --fail-on error
+      - name: Validate and publish store availability
+        if: ${{ !cancelled() && steps.sanitize.outcome == 'success' }}
+        run: python scripts/publish_healthy_catalogs.py
 
       - name: Build confidence-scored comparison index
-        run: python scripts/build_match_index.py
-
-      - name: Catalog freshness and drop alerts
-        env:
-          CATALOG_MAX_AGE_HOURS: '48'
-          CATALOG_MAX_DROP_RATIO: '0.2'
-          CATALOG_MAX_GROWTH_RATIO: '1.75'
-        run: python scripts/workflow_catalog_alerts.py
-
-      - name: Write publish manifest
-        run: python scripts/write_catalog_manifest.py
+        run: python scripts/build_match_index.py --available-only
 
       - name: Upload diagnostics
         if: always()
@@ -276,6 +273,8 @@ jobs:
           path: |
             reports/catalog-health.json
             reports/catalog-manifest.json
+            catalog-availability.json
+            reports/candidate-quality.json
             reports/match-quality.json
             reports/matches/*.json
             reports/quarantine/*.json
@@ -298,6 +297,7 @@ jobs:
           # The report is intentionally ignored for local runs, so force-add it
           # when seeding the repository's persisted quality baseline.
           git add -f data-quality-report.json
+          git add catalog-availability.json
           if git diff --cached --quiet; then
             echo "No validated catalog changes to commit"
           else

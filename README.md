@@ -43,8 +43,35 @@ timestamp freshness, identity and barcode duplicates, invalid/suspicious
 prices, and checksum-valid barcode coverage. Thresholds produce `pass`,
 `warning`, or `error`; `--fail-on error` is the CI setting.
 
-The daily workflow runs the unit tests, fails on report errors, and uploads the
-JSON as the `catalog-health` artifact. No backend route integration is needed.
+The daily workflow validates each refresh **after sanitization**, before releasing
+its rollback copy. It preserves the previous catalog on extraction, timeout,
+count-regression, freshness or quality failure. Original observation dates are
+never replaced with the publication time.
+
+Publication uses `scripts/publish_healthy_catalogs.py`: fresh, validated stores
+remain available while failed stores are explicitly excluded. The root
+`catalog-availability.json` contains each store's state, reason codes, exact-file
+SHA-256 and expiry (oldest observation plus the configured maximum age).
+Unavailable catalogs remain in git for recovery; they are **not serving data**.
+The comparison index uses `--available-only`. A complete outage, failed tests or
+unsafe/malformed artifacts still blocks publication. Optional stores must meet
+the same freshness contract before being marked available.
+
+Diagnostics are uploaded as `catalog-diagnostics` and per-store
+`refresh-quality-*` artifacts. A green workflow means every **available** store
+passed validation, not that every retailer was reachable. Inspect the availability
+summary for outages; do not lower quality floors or fabricate sizes to make a
+retailer available.
+
+Rollout order: deploy the backend availability-contract consumer and frontend
+unavailability notice **before** enabling this publisher. The backend must clear
+unavailable serving snapshots and enforce expiry, including cached results.
+For a safe local replay, use a disposable checkout:
+
+```bash
+python scripts/replay_publish_pipeline.py --artifact-root /path/to/downloaded-artifacts --apply-artifacts
+```
+
 To propagate cleaned barcode data outside that workflow, run `npm run seed`
 from the backend with `WRANGLING_PATH` pointing at this repository.
 

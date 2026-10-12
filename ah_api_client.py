@@ -1,4 +1,4 @@
-"""Albert Heijn mobile API client (bypasses ah.nl bot protection in CI)."""
+"""Albert Heijn API client with bounded retries and complete-page validation."""
 
 from __future__ import annotations
 
@@ -30,6 +30,10 @@ DETAIL_ENRICH_DELAY = 0.15
 
 class AhApiError(RuntimeError):
     """Raised when the AH API returns an error response."""
+
+
+class AhPaginationLimitError(AhApiError):
+    """A taxonomy needs splitting; returning a truncated catalog is unsafe."""
 
 
 def _request(
@@ -64,10 +68,15 @@ def _request(
             with urllib.request.urlopen(req, timeout=60) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as err:
-            payload = err.read().decode("utf-8", errors="replace")
-            last_error = AhApiError(f"HTTP {err.code} for {path}: {payload[:300]}")
-            if err.code in {403, 429, 500, 502, 503, 504} and attempt < MAX_RETRIES:
-                time.sleep(RETRY_DELAY * attempt * (3 if err.code == 403 else 1))
+            # Response bodies can contain edge-service markup or identifiers;
+            # status and endpoint are sufficient to diagnose an upstream outage.
+            err.close()
+            category = ("access_denied" if err.code in {401, 403} else
+                        "upstream_unavailable" if err.code >= 500 else
+                        "rate_limited" if err.code == 429 else "request_rejected")
+            last_error = AhApiError(f"HTTP {err.code} for {path} ({category})")
+            if err.code in {429, 500, 502, 503, 504} and attempt < MAX_RETRIES:
+                time.sleep(RETRY_DELAY * attempt)
                 continue
             raise last_error from err
         except urllib.error.URLError as err:
@@ -273,11 +282,16 @@ def _fetch_paginated(token: str, taxonomy_id: str) -> list[dict[str, Any]]:
             },
         )
         batch = payload.get("products") or []
-        products.extend(batch)
-
         page_info = payload.get("page") or {}
         total_pages = page_info.get("totalPages", 1)
-        if page + 1 >= total_pages or not batch:
+        if total_pages > MAX_SAFE_PAGES:
+            raise AhPaginationLimitError(
+                f"Taxonomy {taxonomy_id} declares {total_pages} pages, limit {MAX_SAFE_PAGES}"
+            )
+        if not batch and (page > 0 or total_pages > 1):
+            raise AhApiError(f"Taxonomy {taxonomy_id} returned empty page {page} of {total_pages}")
+        products.extend(batch)
+        if page + 1 >= total_pages:
             break
         page += 1
         time.sleep(0.5)
@@ -290,7 +304,7 @@ def fetch_taxonomy_products(token: str, taxonomy_id: str) -> list[dict[str, Any]
     try:
         return _fetch_paginated(token, taxonomy_id)
     except AhApiError as err:
-        if "HTTP 400" not in str(err):
+        if not isinstance(err, AhPaginationLimitError) and "HTTP 400" not in str(err):
             raise
 
         probe = _request(

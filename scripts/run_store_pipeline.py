@@ -113,7 +113,10 @@ def _snapshot_paths(workdir: Path, cfg: dict) -> list[Path]:
     return [workdir / cfg["catalog"]]
 
 
-def _restore(backups: dict[Path, Path]) -> None:
+def _restore(backups: dict[Path, Path], tracked: list[Path] | None = None) -> None:
+    for path in tracked or []:
+        if path not in backups:
+            path.unlink(missing_ok=True)
     for path, backup in backups.items():
         path.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(backup, path)
@@ -126,7 +129,7 @@ def _write_status(path: Path | None, **status: object) -> None:
     attempted_at = datetime.now(timezone.utc).isoformat()
     payload = {"timestamp": attempted_at, "attempted_at": attempted_at, **status}
     if payload.get("outcome") == "refreshed":
-        payload["last_successful_at"] = attempted_at
+        payload.setdefault("last_successful_at", attempted_at)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
@@ -165,6 +168,9 @@ def main() -> None:
 
     backup_root = Path(tempfile.mkdtemp(prefix=f"compear-{args.store}-"))
     backups: dict[Path, Path] = {}
+    before = _count(catalog)
+    previous_success = _last_successful_at(catalog)
+    snapshot_ready = False
     try:
         for path in tracked:
             if not path.is_file():
@@ -175,24 +181,36 @@ def main() -> None:
             shutil.copy2(path, dest)
             backups[path] = dest
 
-        before = _count(catalog)
-        previous_success = _last_successful_at(catalog)
+        snapshot_ready = True
+
         print(f"Pre-scrape catalog count: {before} (minimum {minimum})")
 
-        for step in steps:
+        commands = [(step, [sys.executable, "-u", step], workdir) for step in steps]
+        finalize_command = [sys.executable, "-u", str(ROOT / "scripts/finalize_store_catalog.py"),
+                            "--country", args.country, "--store", args.store,
+                            "--observed-at", datetime.now(timezone.utc).isoformat()]
+        if catalog in backups:
+            finalize_command.extend(["--previous-catalog", str(backups[catalog])])
+        commands.append(("refresh quality validation", finalize_command, ROOT))
+        for step, command, cwd in commands:
             print(f"=== {args.country}/{args.store}: {step} ===", flush=True)
             returncode = run_step(
-                [sys.executable, "-u", step],
-                cwd=workdir,
+                command,
+                cwd=cwd,
                 timeout=deadline - time.monotonic(),
             )
             if returncode != 0:
                 reason = (f"pipeline budget exhausted at {step}" if returncode == 124
                           else f"pipeline step {step} exited {returncode}")
+                if step == "refresh quality validation":
+                    report_path = ROOT / "reports/refresh-quality" / f"{args.country}-{args.store}.json"
+                    if report_path.is_file():
+                        report = json.loads(report_path.read_text(encoding="utf-8"))
+                        reason += ": " + "; ".join(str(item) for item in report.get("errors", [])[:6])
                 print(reason, file=sys.stderr)
                 # Restore last-good so a mid-pipeline crash cannot leave empty files.
                 generated = _count(catalog)
-                _restore(backups)
+                _restore(backups, tracked)
                 restored = _count(catalog)
                 _write_status(
                     args.status_file,
@@ -220,7 +238,7 @@ def main() -> None:
                 "restoring last-good catalog and failing the scrape.",
                 file=sys.stderr,
             )
-            _restore(backups)
+            _restore(backups, tracked)
             restored = _count(catalog)
             print(f"Restored catalog count: {restored}")
             _write_status(
@@ -252,7 +270,23 @@ def main() -> None:
             generated=after,
             final=after,
             minimum=minimum,
+            last_successful_at=_last_successful_at(catalog),
         )
+    except Exception as error:
+        # A launch/read/write exception is just as dangerous as a nonzero exit.
+        # Do not leave a partially generated catalog in the artifact path.
+        if not snapshot_ready:
+            raise
+        generated = _count(catalog)
+        _restore(backups, tracked)
+        reason = f"pipeline exception: {type(error).__name__}: {error}"
+        _write_status(args.status_file, country=args.country, store=args.store,
+                      outcome="preserved", reason=reason, before=before,
+                      generated=generated, final=_count(catalog), minimum=minimum,
+                      last_successful_at=previous_success)
+        print(reason, file=sys.stderr)
+        if not (args.soft_fail or optional):
+            raise
     finally:
         shutil.rmtree(backup_root, ignore_errors=True)
 

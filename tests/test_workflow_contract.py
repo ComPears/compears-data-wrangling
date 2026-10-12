@@ -6,6 +6,19 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class WorkflowContractTests(unittest.TestCase):
+    def test_publish_collects_errors_without_allowing_failed_publication(self):
+        workflow = (ROOT / ".github/workflows/update_stores.yaml").read_text()
+        for name in ("Validate and publish store availability",):
+            block = workflow.split(f"- name: {name}\n", 1)[1].split("- name:", 1)[0]
+            self.assertIn("!cancelled() && steps.sanitize.outcome == 'success'", block)
+            self.assertNotIn("continue-on-error", block)
+        manifest = workflow.split("- name: Build confidence-scored comparison index\n", 1)[1].split("- name:", 1)[0]
+        self.assertNotIn("always()", manifest)
+        self.assertNotIn("continue-on-error", manifest)
+        self.assertIn("--available-only", manifest)
+        self.assertIn("git add catalog-availability.json", workflow)
+        self.assertIn("name: refresh-quality-${{ matrix.country }}-${{ matrix.store }}", workflow)
+
     def test_test_output_is_buffered_to_avoid_fake_actions_annotations(self):
         for filename in ("ci.yml", "update_stores.yaml"):
             workflow = (ROOT / ".github/workflows" / filename).read_text()

@@ -16,6 +16,7 @@ ROOT_HINT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT_HINT))
 
 from config.paths import ROOT, all_catalog_paths, catalog_rel_path, store_config
+from scripts.catalog_count_policy import MAX_DROP_RATIO, MAX_GROWTH_RATIO, count_change_errors
 
 BASELINE_PATH = ROOT / "data-quality-report.json"
 SCRAPE_STATUS_DIR = ROOT / "reports" / "scrape-status"
@@ -168,12 +169,12 @@ def main() -> int:
     parser.add_argument(
         "--max-drop-ratio",
         type=float,
-        default=float(os.getenv("CATALOG_MAX_DROP_RATIO", "0.5")),
+        default=float(os.getenv("CATALOG_MAX_DROP_RATIO", str(MAX_DROP_RATIO))),
     )
     parser.add_argument(
         "--max-growth-ratio",
         type=float,
-        default=float(os.getenv("CATALOG_MAX_GROWTH_RATIO", "3")),
+        default=float(os.getenv("CATALOG_MAX_GROWTH_RATIO", str(MAX_GROWTH_RATIO))),
     )
     parser.add_argument(
         "--warn-only",
@@ -226,26 +227,11 @@ def main() -> int:
                 message=f"{count} products is below configured minimum {minimum}",
             )
 
-        if baseline > 0 and baseline_schema >= 2 and count < baseline * (1 - args.max_drop_ratio):
-            drop_message = (
-                f"count dropped from baseline {baseline} to {count} "
-                f"(limit {args.max_drop_ratio:.0%})"
-            )
-            _record(
-                issues if not optional else warnings,
-                optional=optional,
-                message=drop_message,
-            )
-        if baseline > 0 and baseline_schema >= 2 and count > baseline * args.max_growth_ratio:
-            growth_message = (
-                f"count grew from baseline {baseline} to {count} "
-                f"(limit {args.max_growth_ratio:g}x)"
-            )
-            _record(
-                issues if not optional else warnings,
-                optional=optional,
-                message=growth_message,
-            )
+        if baseline_schema >= 2:
+            for message in count_change_errors(baseline, count,
+                                              max_drop_ratio=args.max_drop_ratio,
+                                              max_growth_ratio=args.max_growth_ratio):
+                _record(issues if not optional else warnings, optional=optional, message=message)
         if baseline > 0 and baseline_schema < 2 and count != baseline:
             warnings.append(
                 f"count comparison reset during schema v2 migration ({baseline} to {count})"

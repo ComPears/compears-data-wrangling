@@ -78,6 +78,7 @@ def analyze_catalog(
     catalog: Path,
     *,
     now: datetime | None = None,
+    require_fresh: bool = False,
 ) -> dict[str, Any]:
     now = now or datetime.now(timezone.utc)
     cfg = store_config(country, slug)
@@ -267,7 +268,9 @@ def analyze_catalog(
             {"severity": severity, "code": code, "actual": actual, "threshold": threshold}
         )
 
-    optional = bool(cfg.get("optional"))
+    # Optional sources may retain stale snapshots, but a newly accepted refresh
+    # must meet the same contract as a required source.
+    optional = bool(cfg.get("optional")) and not require_fresh
     if total < thresholds["minimum_products"]:
         severity = "warning" if optional else "error"
         issue(severity, "product_count_below_minimum", total, thresholds["minimum_products"])
