@@ -161,7 +161,7 @@ jobs:
 
       - name: Upload canonical catalog artifact
         if: always()
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: catalog-${{ matrix.country }}-${{ matrix.store }}
           path: artifacts/catalog
@@ -170,7 +170,7 @@ jobs:
 
       - name: Upload search diagnostics
         if: always() && matrix.country == 'uk'
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: search-diagnostics-${{ matrix.country }}-${{ matrix.store }}
           path: artifacts/search-diagnostics
@@ -179,7 +179,7 @@ jobs:
 
       - name: Upload immutable raw observations
         if: always()
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: raw-${{ matrix.country }}-${{ matrix.store }}
           path: artifacts/raw
@@ -188,7 +188,7 @@ jobs:
 
       - name: Upload refresh quality diagnostics
         if: always()
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: refresh-quality-${{ matrix.country }}-${{ matrix.store }}
           path: |
@@ -199,7 +199,7 @@ jobs:
 
       - name: Upload PLUS category diagnostics
         if: always() && matrix.store == 'plus'
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: plus-category-diagnostics
           path: artifacts/plus-categories.json
@@ -226,7 +226,7 @@ jobs:
           fetch-depth: 0
 
       - name: Download all scraper artifacts
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
         with:
           pattern: catalog-*
           merge-multiple: false
@@ -267,7 +267,7 @@ jobs:
 
       - name: Upload diagnostics
         if: always()
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: catalog-diagnostics
           path: |
