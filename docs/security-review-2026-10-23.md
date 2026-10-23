@@ -36,6 +36,11 @@ test passes. Tests verify the affected emSign G3 root is absent from the scraper
 SSL context, TLS verification stays enabled, and old Node versions are rejected.
 The amd64 Ubuntu image builds with --pull --no-cache; all 201 tests and runtime
 verification also pass inside it, using a disposable copy of the source.
+The effective OS Brotli 1.1.1 decoder passes a benign round-trip, the affected
+root is absent from system TLS trust, and headed Chrome 156.0.8078.47 passes a
+local-page interaction smoke test. Under local amd64 emulation, xvfb-run's
+startup wrapper waited indefinitely; the browser test passed against the same
+Xvfb display when launched directly. This is not a live retailer scrape test.
 No live catalog refresh/publication was triggered. Existing ALDI NL/UK quantity
 coverage warnings remain data-quality concerns, not dependency failures.
 
