@@ -7,6 +7,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from tls_context import scraper_ssl_context
 from typing import Any
 from urllib.parse import urlparse
 
@@ -70,7 +71,7 @@ def _graphql_request(body: dict[str, Any]) -> Any:
     last_error: Exception | None = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
+            with urllib.request.urlopen(req, timeout=60, context=scraper_ssl_context()) as resp:
                 payload = json.loads(resp.read().decode("utf-8"))
             if payload.get("errors"):
                 error_text = str(payload["errors"])

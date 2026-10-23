@@ -27,17 +27,12 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Set up Python
-        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
-        with:
-          python-version: '3.12.8'
-          check-latest: false
-          cache: pip
-          cache-dependency-path: requirements.txt
+      - name: Set up patched scraper runtime
+        uses: ./.github/actions/setup-secure-runtime
 
       - name: Install daily scraper runtime
         run: |
-          pip install -r requirements.txt
+          python scripts/verify_secure_runtime.py
           pip check
           python -m playwright install --with-deps chromium
           python -m playwright install chrome

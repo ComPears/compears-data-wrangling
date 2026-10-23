@@ -22,13 +22,16 @@ or changes timestamps on restored data.
 
 ## Linux test runtime
 
-Build from a small context containing just the requirements and Dockerfile:
+Build from a small context. Pull fresh base images and disable layer caching
+after the October 2026 Node/Brotli and emSign CA security updates:
 
 ```sh
 task_build=$(mktemp -d)
 cp requirements.txt "$task_build/requirements.txt"
 cp scripts/Dockerfile.scraper-check "$task_build/Dockerfile"
-docker build --platform linux/amd64 -t compears-scraper-check "$task_build"
+mkdir "$task_build/scripts"
+cp scripts/bootstrap-python.sh scripts/verify_secure_runtime.py "$task_build/scripts/"
+docker build --pull --no-cache --platform linux/amd64 -t compears-scraper-check "$task_build"
 ```
 
 Export a disposable copy of the revision being tested (commit local fixes first
@@ -41,7 +44,7 @@ docker run --rm --platform linux/amd64 --shm-size=1g \
   -v "$task_checkout:/workspace" compears-scraper-check
 ```
 
-The container uses Ubuntu 24.04, amd64, Python 3.12.8, locked Playwright and
+The container uses Ubuntu 24.04, amd64, Python 3.12.15, Node 22.23.4, locked Playwright and
 headed Chrome under Xvfb, matching the daily job's configuration. Network/IP
 reputation and runner resources still differ from GitHub, so a local pass is
 not a guarantee of live GitHub success. Chrome is installed from its current

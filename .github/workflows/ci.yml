@@ -21,19 +21,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
-      - name: Set up Python
-        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
-        with:
-          python-version: '3.12.8'
-          check-latest: false
-          cache: pip
-          cache-dependency-path: requirements.txt
+      - name: Set up patched scraper runtime
+        uses: ./.github/actions/setup-secure-runtime
 
       - name: Install locked dependencies
-        run: pip install -r requirements.txt
+        run: python scripts/verify_secure_runtime.py
 
       - name: Verify dependency compatibility
         run: python -m pip check
+
+      - name: Audit Python dependencies
+        run: |
+          python -m pip install -r requirements-ci.txt
+          python -m pip_audit
 
       - name: Run regression tests
         run: python -m unittest discover -s tests -t . -v -b
