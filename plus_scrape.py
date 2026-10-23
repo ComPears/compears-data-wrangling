@@ -7,6 +7,7 @@ from copy import deepcopy
 import time
 import urllib.error
 import urllib.request
+from tls_context import scraper_ssl_context
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Callable
 from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
@@ -39,7 +40,7 @@ def resolve_redirect_url(url: str, *, timeout: int = 30) -> str:
         headers={"User-Agent": PLUS_USER_AGENT},
     )
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with urllib.request.urlopen(req, timeout=timeout, context=scraper_ssl_context()) as resp:
             return resp.geturl()
     except urllib.error.HTTPError as err:
         if err.headers.get("Location"):
@@ -182,7 +183,7 @@ def _fetch_url_text(url: str, *, timeout: int = 30) -> str | None:
         },
     )
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with urllib.request.urlopen(req, timeout=timeout, context=scraper_ssl_context()) as resp:
             return resp.read().decode("utf-8", errors="replace")
     except Exception:
         return None

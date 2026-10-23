@@ -23,7 +23,8 @@ run_step() {
 } >"$LOG_FILE"
 
 cd "$ROOT"
-run_step $PYTHON -m pip install -q -r requirements.txt
+run_step env PYTHON="$PYTHON" bash scripts/bootstrap-python.sh
+run_step "$PYTHON" scripts/verify_secure_runtime.py
 run_step $PYTHON scripts/run_store_pipeline.py --store "$STORE"
 
 cd "$ROOT"

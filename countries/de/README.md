@@ -8,7 +8,10 @@ Playwright search scrapers for Edeka (via EDEKA24), REWE, Lidl DE, Aldi Süd, an
 cd compears-data-wrangling
 python -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+# From the repository root, after activating Python 3.12.15+ and Node 22.23.4:
+export PLAYWRIGHT_NODEJS_PATH="$(command -v node)"
+bash scripts/bootstrap-python.sh
+python scripts/verify_secure_runtime.py
 python -m playwright install chromium
 ```
 

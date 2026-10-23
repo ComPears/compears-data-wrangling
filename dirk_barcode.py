@@ -6,6 +6,7 @@ import json
 import time
 import urllib.error
 import urllib.request
+from tls_context import scraper_ssl_context
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any
 from urllib.parse import urljoin
@@ -87,7 +88,7 @@ def _fetch_html(url: str, *, timeout: int = 30) -> str | None:
         headers={"User-Agent": DIRK_USER_AGENT, "Accept": "text/html"},
     )
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with urllib.request.urlopen(req, timeout=timeout, context=scraper_ssl_context()) as resp:
             return resp.read().decode("utf-8", errors="replace")
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError):
         return None

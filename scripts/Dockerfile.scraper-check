@@ -1,18 +1,40 @@
 # Reproduce the daily job's OS, exact Python version and headed Chrome runtime.
 # Keep this separate from production; catalogs are copied into disposable storage.
+FROM node:22.23.4-bookworm-slim AS node
+FROM ubuntu:24.04 AS brotli
+# Temporary upstream backport while Ubuntu evaluates CVE-2026-111497.
+# Keep build tools out of the final verification image.
+RUN apt-get update && apt-get install -y --no-install-recommends cmake gcc libc6-dev make \
+    && rm -rf /var/lib/apt/lists/*
+ADD --checksum=sha256:1a84dfaa740994d19254bf78aa7d74a4a8040d1638f3d5f2cdecb188fd520da8 https://github.com/google/brotli/archive/refs/tags/v1.1.1.tar.gz /tmp/brotli.tar.gz
+RUN tar -xzf /tmp/brotli.tar.gz -C /tmp \
+    && cmake -S /tmp/brotli-1.1.1 -B /tmp/build -DCMAKE_BUILD_TYPE=Release \
+       -DCMAKE_INSTALL_PREFIX=/opt/brotli -DCMAKE_INSTALL_LIBDIR=lib \
+    && cmake --build /tmp/build --parallel 2 \
+    && cmake --install /tmp/build
 FROM ubuntu:24.04
+COPY --from=node /usr/local/bin/node /usr/local/bin/node
+COPY --from=brotli /opt/brotli/lib/libbrotli*.so* /usr/local/lib/
 ENV DEBIAN_FRONTEND=noninteractive PYTHONUNBUFFERED=1
 RUN sed -i 's|http://archive.ubuntu.com/ubuntu|http://azure.archive.ubuntu.com/ubuntu|g; s|http://security.ubuntu.com/ubuntu|http://azure.archive.ubuntu.com/ubuntu|g' /etc/apt/sources.list.d/ubuntu.sources \
     && apt-get update && apt-get install -y --no-install-recommends \
     python3 python3-venv ca-certificates git xvfb xauth \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* \
+    && ldconfig \
+    && python3 -c 'import ctypes; assert ctypes.CDLL("libbrotlidec.so.1").BrotliDecoderVersion() >= 0x1001001' \
+    && sed -i '\|^mozilla/emSign_ECC_Root_CA_-_G3.crt$|s|^|!|' /etc/ca-certificates.conf \
+    && update-ca-certificates --fresh
+COPY requirements.txt /opt/security/requirements.txt
+COPY scripts/bootstrap-python.sh scripts/verify_secure_runtime.py /opt/security/scripts/
+ENV PIP_USE_DEPRECATED=legacy-certs PLAYWRIGHT_NODEJS_PATH=/usr/local/bin/node
 RUN python3 -m venv /opt/bootstrap \
-    && /opt/bootstrap/bin/pip install --no-cache-dir uv==0.8.22 \
-    && /opt/bootstrap/bin/uv python install 3.12.8 \
-    && /opt/bootstrap/bin/uv venv --python 3.12.8 /opt/scraper
+    && PYTHON=/opt/bootstrap/bin/python bash /opt/security/scripts/bootstrap-python.sh \
+    && /opt/bootstrap/bin/pip install --no-cache-dir uv==0.13.4 \
+    && /opt/bootstrap/bin/uv python install 3.12.15 \
+    && /opt/bootstrap/bin/uv venv --seed --python 3.12.15 /opt/scraper
 ENV PATH="/opt/scraper/bin:$PATH"
-COPY requirements.txt /tmp/requirements.txt
-RUN /opt/bootstrap/bin/uv pip install --python /opt/scraper/bin/python -r /tmp/requirements.txt \
+RUN bash /opt/security/scripts/bootstrap-python.sh \
+    && python /opt/security/scripts/verify_secure_runtime.py \
     && python -m playwright install --with-deps chromium \
     && python -m playwright install chrome
 WORKDIR /workspace

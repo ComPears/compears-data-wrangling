@@ -1,0 +1,24 @@
+name: Set up patched scraper runtime
+description: Keep Node, Python, pip and CA bundles consistent across all scraper jobs.
+runs:
+  using: composite
+  steps:
+    - name: Distrust compromised emSign root on the disposable Ubuntu runner
+      shell: bash
+      run: |
+        sudo sed -i '\|^mozilla/emSign_ECC_Root_CA_-_G3.crt$|s|^|!|' /etc/ca-certificates.conf
+        sudo update-ca-certificates --fresh
+    - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+      with:
+        node-version: '22.23.4'
+    - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+      with:
+        python-version: '3.12.15'
+        check-latest: false
+    - name: Bootstrap patched installer and dependencies
+      shell: bash
+      run: |
+        bash scripts/bootstrap-python.sh
+        echo "PLAYWRIGHT_NODEJS_PATH=$(command -v node)" >> "$GITHUB_ENV"
+        echo "PIP_USE_DEPRECATED=legacy-certs" >> "$GITHUB_ENV"
+        PLAYWRIGHT_NODEJS_PATH="$(command -v node)" python scripts/verify_secure_runtime.py

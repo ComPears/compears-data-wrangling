@@ -124,7 +124,12 @@ source env/bin/activate
 Install Project Dependencies
 
 ```
-python -m pip install -r requirements.txt
+# Use Python 3.12.15+ in this virtualenv and Node 22.23.4+ (22.x).
+nvm install
+nvm use
+export PLAYWRIGHT_NODEJS_PATH="$(command -v node)"
+bash scripts/bootstrap-python.sh
+python scripts/verify_secure_runtime.py
 ```
 
 ## AH
