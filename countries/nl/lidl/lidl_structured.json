@@ -15,73 +15,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Inklapbare krat,",
-    "p": "8.99",
-    "o": "",
-    "s": "60 l",
-    "l": "https://www.lidl.nl/assets/gcpdb0a50f07f164f18b58647f28386fa2c.png",
-    "c": "Personal Care",
-    "retailerProductId": "100412876",
-    "imageUrl": "https://www.lidl.nl/assets/gcpdb0a50f07f164f18b58647f28386fa2c.png",
-    "priceType": "regular",
-    "cn": "inklapbare krat",
-    "ik": "tok:unknown|inklapbare-krat|60000ml",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 60,
-      "itemUnit": "l",
-      "totalValue": 60000,
-      "baseUnit": "ml",
-      "display": "60 l"
-    },
-    "wg": 60000,
-    "wu": "ml",
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "unitPrice": {
-      "value": "0.15",
-      "currency": "EUR",
-      "per": "l"
-    },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "W5 Emmer Met inzetstuk,",
-    "p": "11.99",
-    "o": "",
-    "s": "18 l",
-    "l": "https://www.lidl.nl/assets/gcp46bd377161af40e9b1b3d40177e91ebc.png",
-    "c": "Personal Care",
-    "retailerProductId": "100411885",
-    "imageUrl": "https://www.lidl.nl/assets/gcp46bd377161af40e9b1b3d40177e91ebc.png",
-    "priceType": "regular",
-    "cn": "emmer inzetstuk w5",
-    "ik": "tok:unknown|emmer-inzetstuk-w5|18000ml",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 18,
-      "itemUnit": "l",
-      "totalValue": 18000,
-      "baseUnit": "ml",
-      "display": "18 l"
-    },
-    "wg": 18000,
-    "wu": "ml",
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "unitPrice": {
-      "value": "0.67",
-      "currency": "EUR",
-      "per": "l"
-    },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Safety 1ST Verstelbaar Bedhekje",
@@ -114,7 +48,73 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Inklapbare krat,",
+    "p": "8.99",
+    "o": "",
+    "s": "60 l",
+    "l": "https://www.lidl.nl/assets/gcpdb0a50f07f164f18b58647f28386fa2c.png",
+    "c": "Personal Care",
+    "retailerProductId": "100412876",
+    "imageUrl": "https://www.lidl.nl/assets/gcpdb0a50f07f164f18b58647f28386fa2c.png",
+    "priceType": "regular",
+    "cn": "inklapbare krat",
+    "ik": "tok:unknown|inklapbare-krat|60000ml",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 60,
+      "itemUnit": "l",
+      "totalValue": 60000,
+      "baseUnit": "ml",
+      "display": "60 l"
+    },
+    "wg": 60000,
+    "wu": "ml",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.15",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "W5 Emmer Met inzetstuk,",
+    "p": "11.99",
+    "o": "",
+    "s": "18 l",
+    "l": "https://www.lidl.nl/assets/gcp46bd377161af40e9b1b3d40177e91ebc.png",
+    "c": "Personal Care",
+    "retailerProductId": "100411885",
+    "imageUrl": "https://www.lidl.nl/assets/gcp46bd377161af40e9b1b3d40177e91ebc.png",
+    "priceType": "regular",
+    "cn": "emmer inzetstuk w5",
+    "ik": "tok:unknown|emmer-inzetstuk-w5|18000ml",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 18,
+      "itemUnit": "l",
+      "totalValue": 18000,
+      "baseUnit": "ml",
+      "display": "18 l"
+    },
+    "wg": 18000,
+    "wu": "ml",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.67",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Kinder Koffer",
@@ -147,7 +147,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Infantino Drinkfles My 1st Tumbler, 295",
@@ -180,7 +180,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Kinder Koffer 20,",
@@ -213,7 +213,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Koffer, Hardcase, Handbagage, S",
@@ -246,7 +246,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Kinder Rugzak (Unicorn)",
@@ -279,7 +279,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Safety 1ST Baby Reisbed Globe Dreamer (fijne dag)",
@@ -312,7 +312,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Baby maillots, 2",
@@ -345,7 +345,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Baby slaapoverall, 2 .",
@@ -378,7 +378,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Meisjesjoggingbroek, 2 , Met Hoog Katoengehalte",
@@ -411,7 +411,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Kanz Baby romper, 2 , Met Kruisknopen",
@@ -444,7 +444,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vileda Zelfklevende haken, 3",
@@ -477,7 +477,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Prosperplast Regenton",
@@ -510,7 +510,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Dobar Kweekbak (Grijs, Maat L)",
@@ -528,7 +528,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Prosperplast Dubbele Compostbak",
@@ -561,7 +561,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "4RAIN Regenton »Amphora« , Antraciet",
@@ -594,7 +594,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Prosperplast Regenwatertank »SMOOTH«, 80, antraciet.",
@@ -627,7 +627,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Scheurich Langwerpige Bak (Grijs, Lengte 60 cm)",
@@ -645,7 +645,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Dobar Vogelvoermix, 6",
@@ -678,7 +678,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Xala Gieter Matcha,",
@@ -711,7 +711,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Baufix Houtbeits 5",
@@ -744,7 +744,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Baufix Weerbeschermende Houtgel 5",
@@ -777,7 +777,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Baufix Professionele Gevelverf Plus 10",
@@ -812,7 +812,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Baufix Express Lak 2,5",
@@ -845,7 +845,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Baufix Beits 5",
@@ -878,7 +878,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Baufix Straatsteenverf 2,5",
@@ -911,7 +911,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Steinel Vertrieb Gmbh Lijmpatronen »Ultra Power«, Ø7 mm, 40",
@@ -944,7 +944,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "As Création Muurverf, wit,",
@@ -977,7 +977,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Baufix Vloeibare Vloerverf 5",
@@ -1010,7 +1010,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Baufix Multispray Houtbeits 5",
@@ -1043,7 +1043,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "As Création Muurverf,",
@@ -1076,7 +1076,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Baufix Houtverzorgingsolie 2,5",
@@ -1109,7 +1109,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Dames Geribbelde Tops, 3",
@@ -1142,7 +1142,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Yankee Candle Geurkaars Pepperberry Pine | Glas 538",
@@ -1175,7 +1175,7 @@
       "currency": "EUR",
       "per": "kg"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Tropical",
@@ -1206,7 +1206,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Maaza Magno",
@@ -1237,7 +1237,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Maaza Guava",
@@ -1268,7 +1268,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Steinel Vertrieb Gmbh Lijmpistool Gluematic 1007, incl. 20 Lijmpatronen",
@@ -1301,7 +1301,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Rapid Lijmpistool »EG212«, incl. 24 Lijmpatronen",
@@ -1334,7 +1334,124 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Nike Heren Joggingbroek Park26 (Grijs, XL)",
+    "p": "34.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcp4fce47c921204557a1450da0d9d14d9a.jpg",
+    "c": "Frozen Foods",
+    "retailerProductId": "100406375",
+    "imageUrl": "https://www.lidl.nl/assets/gcp4fce47c921204557a1450da0d9d14d9a.jpg",
+    "priceType": "regular",
+    "cn": "grijs heren joggingbroek nike park26 xl",
+    "ik": "tok:unknown|grijs-heren-joggingbroek-nike-park26-xl|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Reebok Dames Onderbroek Of string, 3 , Seamless",
+    "p": "11.99",
+    "o": "",
+    "s": "3 items",
+    "l": "https://www.lidl.nl/assets/gcpdedba446131848039e364c102bf1249c.png",
+    "c": "Other",
+    "retailerProductId": "100414046",
+    "imageUrl": "https://www.lidl.nl/assets/gcpdedba446131848039e364c102bf1249c.png",
+    "priceType": "regular",
+    "cn": "dames of onderbroek reebok seamless string",
+    "ik": "tok:unknown|dames-of-onderbroek-reebok-seamless-string|3x1count",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 3,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 3,
+      "baseUnit": "count",
+      "display": "3 items"
+    },
+    "wg": 3,
+    "wu": "count",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "4.00",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Reebok Heren boxers, 2",
+    "p": "14.99",
+    "o": "",
+    "s": "2 items",
+    "l": "https://www.lidl.nl/assets/gcpa73a5fb176c04c5b82719750fd489053.png",
+    "c": "Other",
+    "retailerProductId": "100413543",
+    "imageUrl": "https://www.lidl.nl/assets/gcpa73a5fb176c04c5b82719750fd489053.png",
+    "priceType": "regular",
+    "cn": "boxers heren reebok",
+    "ik": "tok:unknown|boxers-heren-reebok|2x1count",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 2,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 2,
+      "baseUnit": "count",
+      "display": "2 items"
+    },
+    "wg": 2,
+    "wu": "count",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "7.50",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Reebok Heren Boxers Active Wear, 2",
+    "p": "14.99",
+    "o": "",
+    "s": "2 items",
+    "l": "https://www.lidl.nl/assets/gcpede02e749e6b434a8079f42afc9fcdde.png",
+    "c": "Other",
+    "retailerProductId": "100413829",
+    "imageUrl": "https://www.lidl.nl/assets/gcpede02e749e6b434a8079f42afc9fcdde.png",
+    "priceType": "regular",
+    "cn": "active boxers heren reebok wear",
+    "ik": "tok:unknown|active-boxers-heren-reebok-wear|2x1count",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 2,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 2,
+      "baseUnit": "count",
+      "display": "2 items"
+    },
+    "wg": 2,
+    "wu": "count",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "7.50",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Grillmeister Hamburgerset Of Pulled Pork Set (starterspakket pork)",
@@ -1352,7 +1469,55 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Knolselderij",
+    "p": "1.29",
+    "o": "Actie",
+    "s": "PER STUK",
+    "l": null,
+    "c": "Fruits & Vegetables",
+    "priceType": "promotion",
+    "cn": "knolselderij",
+    "ik": "tok:unknown|knolselderij|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Lente Ui",
+    "p": "0.89",
+    "o": "",
+    "s": "",
+    "l": null,
+    "c": "Fruits & Vegetables",
+    "priceType": "regular",
+    "cn": "lente ui",
+    "ik": "tok:unknown|lente-ui|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Prei",
+    "p": "0.39",
+    "o": "-29% Alleen in de winkel 26/10 - 01/11",
+    "s": "PER STUK",
+    "l": null,
+    "c": "Fruits & Vegetables",
+    "priceType": "promotion",
+    "cn": "prei",
+    "ik": "tok:unknown|prei|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Rugzak,",
@@ -1385,25 +1550,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Heren Pyjama (Grijs, XXL)",
-    "p": "12.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcp0fd15b54d51c44e4b1b120759c96cb3c.jpg",
-    "c": "Frozen Foods",
-    "retailerProductId": "100410210",
-    "imageUrl": "https://www.lidl.nl/assets/gcp0fd15b54d51c44e4b1b120759c96cb3c.jpg",
-    "priceType": "regular",
-    "cn": "grijs heren pyjama xxl",
-    "ik": "tok:unknown|grijs-heren-pyjama-xxl|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Pierre Cardin Heren Pyjama lang, 2 Geassorteerd",
@@ -1436,7 +1583,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LIVERGY® Heren hemdjes, 3 , In fijnribkwaliteit.",
@@ -1469,7 +1616,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Mexx Heren Pyjama (Grijs/zwart, XL)",
@@ -1487,7 +1634,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LIVERGY® 3 Heren Boxers (Zwart/grijs/wit, XXL)",
@@ -1505,7 +1652,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® 5 Kinder Boxers (Donkerblauw/grijs/wit, 98/104)",
@@ -1523,7 +1670,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "CR7 Kinder boxers, 2",
@@ -1556,7 +1703,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Kinder Boxer, 8 (98/104)",
@@ -1589,7 +1736,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Diesel Heren Boxer, 3 stuk.",
@@ -1622,7 +1769,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Dogit Antischrok bak, 600",
@@ -1655,7 +1802,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "ZOOFARI® Reis voerbak, Drinkbak Of Drinkfles En Voerbak (Voerbak)",
@@ -1673,7 +1820,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "LUPILU® Houten Treinset (Reis Door Europa)",
+    "p": "19.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcp8c20910a16bf4fba9c8c8e3701b1a19b.jpg",
+    "c": "Pantry",
+    "retailerProductId": "100395164",
+    "imageUrl": "https://www.lidl.nl/assets/gcp8c20910a16bf4fba9c8c8e3701b1a19b.jpg",
+    "priceType": "regular",
+    "cn": "door europa houten lupilu reis treinset",
+    "ik": "tok:unknown|door-europa-houten-lupilu-reis-treinset|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Houten Eetset (Koekjesdoos)",
@@ -1691,7 +1856,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Houten Speelgoed Tafelgrill Of bakkerij, Met Accessoires",
@@ -1709,7 +1874,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Smoby Gabby's Poppenhuis Speelgoed Keuken Of Ijssalon",
@@ -1727,7 +1892,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Skippy Dier",
@@ -1745,25 +1910,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Theo KLEIN® Miele Speelgoed Kookeiland »Salt & Pepper«",
-    "p": "49.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcp733353c872ca4a6d97027c4f6a5284bc.png",
-    "c": "Pantry",
-    "retailerProductId": "100414850",
-    "imageUrl": "https://www.lidl.nl/assets/gcp733353c872ca4a6d97027c4f6a5284bc.png",
-    "priceType": "regular",
-    "cn": "klein kookeiland miele pepper salt speelgoed theo",
-    "ik": "tok:unknown|klein-kookeiland-miele-pepper-salt-speelgoed-theo|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Playtive Houten Montessori Speelgoed (Stapelvierkanten, 7 )",
@@ -1796,7 +1943,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Houten Ijswagen Of snoepwinkel, Met Accessoires",
@@ -1814,7 +1961,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vogelvoermix dennenappels, 8",
@@ -1845,7 +1992,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vetbollen, 100 , incl. Zadenmix",
@@ -1876,7 +2023,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Gourmet vetbollen, 100 Voor 104 Eur Dobar 1 =",
@@ -1907,7 +2054,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Kärcher Reinigingsmiddel, universeel,",
@@ -1940,7 +2087,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Maaltijdsalade Caesar",
@@ -1971,7 +2118,7 @@
       "currency": "EUR",
       "per": "kg"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Aardappelgratin",
@@ -2002,7 +2149,23 @@
       "currency": "EUR",
       "per": "kg"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Multi Color Sla",
+    "p": "0.99",
+    "o": "Actie Alleen in de winkel 26/10 - 01/11",
+    "s": "PER STUK",
+    "l": null,
+    "c": "Fruits & Vegetables",
+    "priceType": "promotion",
+    "cn": "color multi sla",
+    "ik": "tok:unknown|color-multi-sla|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Aardappelschijfjes",
@@ -2033,7 +2196,7 @@
       "currency": "EUR",
       "per": "kg"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "CRELANDO® Bureau Organizer Met 5 Lades",
@@ -2066,7 +2229,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Hjh Office Bezoekersstoel / Eetkamerstoel Tarviso Pu Bruin",
@@ -2084,7 +2247,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Bodum Broodtrommel Bistro",
@@ -2102,7 +2265,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Greemotion Biertafelset San Remo",
+    "p": "68.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcp6ca92cd1fedc46a8a9b1ae77dab6495f.jpg",
+    "c": "Beverages",
+    "retailerProductId": "100399232",
+    "imageUrl": "https://www.lidl.nl/assets/gcp6ca92cd1fedc46a8a9b1ae77dab6495f.jpg",
+    "priceType": "regular",
+    "cn": "biertafelset greemotion remo san",
+    "ik": "tok:unknown|biertafelset-greemotion-remo-san|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Theo KLEIN® Bialetti Moka Espresso Set",
@@ -2120,7 +2301,40 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Crockpot Slow Cooker SCCPRC507B, 4,7",
+    "p": "41.99",
+    "o": "",
+    "s": "7 l",
+    "l": "https://www.lidl.nl/assets/gcpa6735cf411d34cfba0b5dc854cefdd50.jpeg",
+    "c": "Other",
+    "retailerProductId": "100370448",
+    "imageUrl": "https://www.lidl.nl/assets/gcpa6735cf411d34cfba0b5dc854cefdd50.jpeg",
+    "priceType": "regular",
+    "cn": "cooker crockpot sccprc507b slow",
+    "ik": "tok:unknown|cooker-crockpot-sccprc507b-slow|7000ml",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 7,
+      "itemUnit": "l",
+      "totalValue": 7000,
+      "baseUnit": "ml",
+      "display": "7 l"
+    },
+    "wg": 7000,
+    "wu": "ml",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "6.00",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Gourmetmaxx Waterkoker 1,",
@@ -2153,157 +2367,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Philips Kunststof Waterkoker »HD9318/10«, 1,7 .",
-    "p": "29.99",
-    "o": "",
-    "s": "7 l",
-    "l": "https://www.lidl.nl/assets/gcp9780f297f038443cae7b558e2d4c3e6f.png",
-    "c": "Other",
-    "retailerProductId": "100414510",
-    "imageUrl": "https://www.lidl.nl/assets/gcp9780f297f038443cae7b558e2d4c3e6f.png",
-    "priceType": "regular",
-    "cn": "10 hd9318 kunststof philips waterkoker",
-    "ik": "tok:unknown|10-hd9318-kunststof-philips-waterkoker|7000ml",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 7,
-      "itemUnit": "l",
-      "totalValue": 7000,
-      "baseUnit": "ml",
-      "display": "7 l"
-    },
-    "wg": 7000,
-    "wu": "ml",
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "unitPrice": {
-      "value": "4.28",
-      "currency": "EUR",
-      "per": "l"
-    },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Magnetron",
-    "p": "65.99",
-    "o": "",
-    "s": "17 l",
-    "l": "https://www.lidl.nl/assets/gcp6372824327af43699b00d1213de4fd9a.jpg",
-    "c": "Other",
-    "retailerProductId": "100405356",
-    "imageUrl": "https://www.lidl.nl/assets/gcp6372824327af43699b00d1213de4fd9a.jpg",
-    "priceType": "regular",
-    "cn": "magnetron",
-    "ik": "tok:unknown|magnetron|17000ml",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 17,
-      "itemUnit": "l",
-      "totalValue": 17000,
-      "baseUnit": "ml",
-      "display": "17 l"
-    },
-    "wg": 17000,
-    "wu": "ml",
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "unitPrice": {
-      "value": "3.88",
-      "currency": "EUR",
-      "per": "l"
-    },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Bodum Theepot Of Theepers",
-    "p": "12.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcp42c90b9584034a1c9cab7a603513c682.jpg",
-    "c": "Beverages",
-    "retailerProductId": "100411348",
-    "imageUrl": "https://www.lidl.nl/assets/gcp42c90b9584034a1c9cab7a603513c682.jpg",
-    "priceType": "regular",
-    "cn": "bodum of theepers theepot",
-    "ik": "tok:unknown|bodum-of-theepers-theepot|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Bodum Theepot »BISTRO NOUVEAU« Of Koffiepot »BISTRO«, Met 4 Glazen",
-    "p": "19.99",
-    "o": "",
-    "s": "4 g",
-    "l": "https://www.lidl.nl/assets/gcpa13db5ddaba64f24a2eacaf1620b53b3.jpg",
-    "c": "Beverages",
-    "retailerProductId": "100412047",
-    "imageUrl": "https://www.lidl.nl/assets/gcpa13db5ddaba64f24a2eacaf1620b53b3.jpg",
-    "priceType": "regular",
-    "cn": "bistro bodum glazen koffiepot nouveau of theepot",
-    "ik": "tok:unknown|bistro-bodum-glazen-koffiepot-nouveau-of-theepot|4g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 4,
-      "itemUnit": "g",
-      "totalValue": 4,
-      "baseUnit": "g",
-      "display": "4 g"
-    },
-    "wg": 4,
-    "wu": "g",
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "unitPrice": {
-      "value": "4997.50",
-      "currency": "EUR",
-      "per": "kg"
-    },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Moulinex Airfryer »EY1458 Easy Fry Compact«,",
-    "p": "71.99",
-    "o": "",
-    "s": "3 l",
-    "l": "https://www.lidl.nl/assets/gcp1c2730c8dc4c4f829f8b9e2c925818ed.jpg",
-    "c": "Other",
-    "retailerProductId": "100401091",
-    "imageUrl": "https://www.lidl.nl/assets/gcp1c2730c8dc4c4f829f8b9e2c925818ed.jpg",
-    "priceType": "regular",
-    "cn": "airfryer compact easy ey1458 fry moulinex",
-    "ik": "tok:unknown|airfryer-compact-easy-ey1458-fry-moulinex|3000ml",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 3,
-      "itemUnit": "l",
-      "totalValue": 3000,
-      "baseUnit": "ml",
-      "display": "3 l"
-    },
-    "wg": 3000,
-    "wu": "ml",
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "unitPrice": {
-      "value": "24.00",
-      "currency": "EUR",
-      "per": "l"
-    },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Crockpot Digitale Slowcooker »CSC063x«, 7,",
@@ -2336,7 +2400,139 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Magnetron",
+    "p": "65.99",
+    "o": "",
+    "s": "17 l",
+    "l": "https://www.lidl.nl/assets/gcp6372824327af43699b00d1213de4fd9a.jpg",
+    "c": "Other",
+    "retailerProductId": "100405356",
+    "imageUrl": "https://www.lidl.nl/assets/gcp6372824327af43699b00d1213de4fd9a.jpg",
+    "priceType": "regular",
+    "cn": "magnetron",
+    "ik": "tok:unknown|magnetron|17000ml",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 17,
+      "itemUnit": "l",
+      "totalValue": 17000,
+      "baseUnit": "ml",
+      "display": "17 l"
+    },
+    "wg": 17000,
+    "wu": "ml",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "3.88",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Philips Kunststof Waterkoker »HD9318/10«, 1,7 .",
+    "p": "29.99",
+    "o": "",
+    "s": "7 l",
+    "l": "https://www.lidl.nl/assets/gcp9780f297f038443cae7b558e2d4c3e6f.png",
+    "c": "Other",
+    "retailerProductId": "100414510",
+    "imageUrl": "https://www.lidl.nl/assets/gcp9780f297f038443cae7b558e2d4c3e6f.png",
+    "priceType": "regular",
+    "cn": "10 hd9318 kunststof philips waterkoker",
+    "ik": "tok:unknown|10-hd9318-kunststof-philips-waterkoker|7000ml",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 7,
+      "itemUnit": "l",
+      "totalValue": 7000,
+      "baseUnit": "ml",
+      "display": "7 l"
+    },
+    "wg": 7000,
+    "wu": "ml",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "4.28",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Bodum Theepot »BISTRO NOUVEAU« Of Koffiepot »BISTRO«, Met 4 Glazen",
+    "p": "19.99",
+    "o": "",
+    "s": "4 g",
+    "l": "https://www.lidl.nl/assets/gcpa13db5ddaba64f24a2eacaf1620b53b3.jpg",
+    "c": "Beverages",
+    "retailerProductId": "100412047",
+    "imageUrl": "https://www.lidl.nl/assets/gcpa13db5ddaba64f24a2eacaf1620b53b3.jpg",
+    "priceType": "regular",
+    "cn": "bistro bodum glazen koffiepot nouveau of theepot",
+    "ik": "tok:unknown|bistro-bodum-glazen-koffiepot-nouveau-of-theepot|4g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 4,
+      "itemUnit": "g",
+      "totalValue": 4,
+      "baseUnit": "g",
+      "display": "4 g"
+    },
+    "wg": 4,
+    "wu": "g",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "4997.50",
+      "currency": "EUR",
+      "per": "kg"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Moulinex Airfryer »EY1458 Easy Fry Compact«,",
+    "p": "69.99",
+    "o": "",
+    "s": "3 l",
+    "l": "https://www.lidl.nl/assets/gcp1c2730c8dc4c4f829f8b9e2c925818ed.jpg",
+    "c": "Other",
+    "retailerProductId": "100401091",
+    "imageUrl": "https://www.lidl.nl/assets/gcp1c2730c8dc4c4f829f8b9e2c925818ed.jpg",
+    "priceType": "regular",
+    "cn": "airfryer compact easy ey1458 fry moulinex",
+    "ik": "tok:unknown|airfryer-compact-easy-ey1458-fry-moulinex|3000ml",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 3,
+      "itemUnit": "l",
+      "totalValue": 3000,
+      "baseUnit": "ml",
+      "display": "3 l"
+    },
+    "wg": 3000,
+    "wu": "ml",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "23.33",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Tefal Airfryer Easy Fry Max EY245B",
@@ -2369,11 +2565,11 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Philips Senseo Select Koffiepadmachine CSA230",
-    "p": "73.99",
+    "p": "74.99",
     "o": "",
     "s": "",
     "l": "https://www.lidl.nl/assets/gcp138de1f832894926b0cff2d3dad34bd1.jpg",
@@ -2387,7 +2583,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Delonghi Volautomaat Magnifica Start Milk »ECAM .GB« 499",
@@ -2405,25 +2601,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Severin Broodrooster Rvs »AT 2589«",
-    "p": "24.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcp89e15e447cc042b7b874c11ba7d8490f.jpg",
-    "c": "Bakery",
-    "retailerProductId": "100397768",
-    "imageUrl": "https://www.lidl.nl/assets/gcp89e15e447cc042b7b874c11ba7d8490f.jpg",
-    "priceType": "regular",
-    "cn": "2589 at broodrooster rvs severin",
-    "ik": "tok:unknown|2589-at-broodrooster-rvs-severin|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Graef Melkopschuimer, 400 W",
@@ -2441,7 +2619,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Philips Senseo Melkopschuimer CA6500/63",
@@ -2459,58 +2637,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
-    "n": "Sodastream Bruiswatermachine »Gaia«, Met Fles En Cilinder",
-    "p": "49.99",
-    "o": "",
-    "s": "1 l",
-    "l": "https://www.lidl.nl/assets/gcp30d2701ebd1e494a8a4ec42b87bff4f7.jpg",
-    "c": "Other",
-    "retailerProductId": "100406050",
-    "imageUrl": "https://www.lidl.nl/assets/gcp30d2701ebd1e494a8a4ec42b87bff4f7.jpg",
-    "priceType": "regular",
-    "cn": "bruiswatermachine cilinder fles gaia sodastream",
-    "ik": "tok:unknown|bruiswatermachine-cilinder-fles-gaia-sodastream|1000ml",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 1,
-      "itemUnit": "l",
-      "totalValue": 1000,
-      "baseUnit": "ml",
-      "display": "1 l"
-    },
-    "wg": 1000,
-    "wu": "ml",
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "unitPrice": {
-      "value": "49.99",
-      "currency": "EUR",
-      "per": "l"
-    },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Bodum Koffijbereider / Theebereider",
-    "p": "14.99",
+    "n": "Severin Broodrooster Rvs »AT 2589«",
+    "p": "24.99",
     "o": "",
     "s": "",
-    "l": "https://www.lidl.nl/assets/gcpdd641052cab3497d879b469c2dae504e.jpg",
-    "c": "Beverages",
-    "retailerProductId": "100406361",
-    "imageUrl": "https://www.lidl.nl/assets/gcpdd641052cab3497d879b469c2dae504e.jpg",
+    "l": "https://www.lidl.nl/assets/gcp89e15e447cc042b7b874c11ba7d8490f.jpg",
+    "c": "Bakery",
+    "retailerProductId": "100397768",
+    "imageUrl": "https://www.lidl.nl/assets/gcp89e15e447cc042b7b874c11ba7d8490f.jpg",
     "priceType": "regular",
-    "cn": "bodum koffijbereider theebereider",
-    "ik": "tok:unknown|bodum-koffijbereider-theebereider|na",
+    "cn": "2589 at broodrooster rvs severin",
+    "ik": "tok:unknown|2589-at-broodrooster-rvs-severin|na",
     "schemaVersion": 2,
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Philips Airfryer 4, NA229/00",
@@ -2543,7 +2688,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Bodum Bistro Elektrische Koffiemolen",
@@ -2561,7 +2706,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Bodum Bistro Pannenkoekenmixer",
@@ -2579,7 +2724,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Bodum Koffijbereider / Theebereider",
+    "p": "14.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcpdd641052cab3497d879b469c2dae504e.jpg",
+    "c": "Beverages",
+    "retailerProductId": "100406361",
+    "imageUrl": "https://www.lidl.nl/assets/gcpdd641052cab3497d879b469c2dae504e.jpg",
+    "priceType": "regular",
+    "cn": "bodum koffijbereider theebereider",
+    "ik": "tok:unknown|bodum-koffijbereider-theebereider|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Bodum French Press Koffiezetter »Caffettiera«,",
@@ -2612,7 +2775,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Bodum Waterkoker Bistro (Crèmewit)",
@@ -2645,7 +2808,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Braun Broodrooster Breakfast 1 2 Sleuventoaster, 900 W",
@@ -2663,40 +2826,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Masterpro Airfryer",
-    "p": "69.99",
-    "o": "",
-    "s": "4 l",
-    "l": "https://www.lidl.nl/assets/gcpe539f6c4c4d040228beb30aecf4a41ff.jpeg",
-    "c": "Other",
-    "retailerProductId": "100381366",
-    "imageUrl": "https://www.lidl.nl/assets/gcpe539f6c4c4d040228beb30aecf4a41ff.jpeg",
-    "priceType": "regular",
-    "cn": "airfryer masterpro",
-    "ik": "tok:unknown|airfryer-masterpro|4000ml",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 4,
-      "itemUnit": "l",
-      "totalValue": 4000,
-      "baseUnit": "ml",
-      "display": "4 l"
-    },
-    "wg": 4000,
-    "wu": "ml",
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "unitPrice": {
-      "value": "17.50",
-      "currency": "EUR",
-      "per": "l"
-    },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Braun Blender »JB3150BK«, ca. 1,",
@@ -2729,7 +2859,25 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Bodum Theepot Of Theepers",
+    "p": "12.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcp42c90b9584034a1c9cab7a603513c682.jpg",
+    "c": "Beverages",
+    "retailerProductId": "100411348",
+    "imageUrl": "https://www.lidl.nl/assets/gcp42c90b9584034a1c9cab7a603513c682.jpg",
+    "priceType": "regular",
+    "cn": "bodum of theepers theepot",
+    "ik": "tok:unknown|bodum-of-theepers-theepot|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Braun Koffiezetapparaat Met Filter »KF1100BK«, 1000 W",
@@ -2747,7 +2895,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Rvs Broodrooster (Zilver)",
@@ -2765,7 +2913,40 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Masterpro Airfryer",
+    "p": "69.99",
+    "o": "",
+    "s": "4 l",
+    "l": "https://www.lidl.nl/assets/gcpe539f6c4c4d040228beb30aecf4a41ff.jpeg",
+    "c": "Other",
+    "retailerProductId": "100381366",
+    "imageUrl": "https://www.lidl.nl/assets/gcpe539f6c4c4d040228beb30aecf4a41ff.jpeg",
+    "priceType": "regular",
+    "cn": "airfryer masterpro",
+    "ik": "tok:unknown|airfryer-masterpro|4000ml",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 4,
+      "itemUnit": "l",
+      "totalValue": 4000,
+      "baseUnit": "ml",
+      "display": "4 l"
+    },
+    "wg": 4000,
+    "wu": "ml",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "17.50",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Delonghi Filterkoffiezetapparaat »ICM16731«",
@@ -2783,7 +2964,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Kinder thermoleggings, 2 .",
@@ -2816,7 +2997,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Meisjes onderhemden, 2 .",
@@ -2849,7 +3030,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Kinder pantoffels, Spiderman Of Frozen",
@@ -2867,7 +3048,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Kinder Thermo maillot, 2",
@@ -2900,7 +3081,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Kinder longsleeves, 2",
@@ -2933,7 +3114,25 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "LUPILU® Kinder Hoodie »Pokémon« (Grijs, 134/140)",
+    "p": "9.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcpef38408b64674fc88d8d909e0c6e5b64.png",
+    "c": "Frozen Foods",
+    "retailerProductId": "100412912",
+    "imageUrl": "https://www.lidl.nl/assets/gcpef38408b64674fc88d8d909e0c6e5b64.png",
+    "priceType": "regular",
+    "cn": "134 140 grijs hoodie kinder lupilu mon pok",
+    "ik": "tok:unknown|134-140-grijs-hoodie-kinder-lupilu-mon-pok|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Kinder Thermo Maillot (Grijs, 86/92)",
@@ -2951,7 +3150,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Kinderleggings, 2 .",
@@ -2984,7 +3183,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "TOPMOVE® Opvouwbare Koffer",
@@ -3017,7 +3216,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "TOPMOVE® Koffer, Hardcase, Handbagage, S,",
@@ -3050,7 +3249,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "TOPMOVE® Koffer",
@@ -3083,7 +3282,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Wandelrugzak",
@@ -3116,7 +3315,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Koffie Goud",
@@ -3147,7 +3346,7 @@
       "currency": "EUR",
       "per": "kg"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Tefal Koekenpan »ELEMENTAL«, Ø28 Cm",
@@ -3165,7 +3364,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Isi Slagroomspuit »Creative Whip Essential«",
@@ -3183,7 +3382,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Genius Nicer Dicer Kruidenmolen Of Kaassnijder Maestro",
@@ -3201,7 +3400,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Jamie Oliver By Tefal Kitchen Essentials Koekenpan 20 cm, Rvs Pan inductie, Antiaanbaklaag »E3140244«",
@@ -3219,7 +3418,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Jamie Oliver By Tefal Roestvrijstalen Wokpan »Quick & Easy«, Ø 28 cm.",
@@ -3237,7 +3436,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Jamie Oliver By Tefal Roestvrijstalen Serveerpan Kitchen Essentials »E31471«, Ø25 cm.",
@@ -3255,25 +3454,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Tefal Koekenpan 28 Cm",
-    "p": "19.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcp90a6097a2b8a403181a56f34f7bd0d26.jpg",
-    "c": "Snacks",
-    "retailerProductId": "100400794",
-    "imageUrl": "https://www.lidl.nl/assets/gcp90a6097a2b8a403181a56f34f7bd0d26.jpg",
-    "priceType": "regular",
-    "cn": "28 cm koekenpan tefal",
-    "ik": "tok:unknown|28-cm-koekenpan-tefal|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Tefal Roestvrijstalen Koekenpan Quick & Easy »E3030635«, Ø28 cm.",
@@ -3291,7 +3472,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Jamie Oliver By Tefal Roestvrijstalen Koekenpan Quick & Easy »E3030434«, Ø24 cm.",
@@ -3309,7 +3490,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Jamie Oliver By Tefal Aluminium Koekenpan Home Cook »E0140235«, Ø 20 cm.",
@@ -3327,145 +3508,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
-    "n": "Zenker Broodbakvorm",
-    "p": "8.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcp8cb64bb643a14607b741c4fc311b11ec.jpg",
-    "c": "Bakery",
-    "retailerProductId": "100411871",
-    "imageUrl": "https://www.lidl.nl/assets/gcp8cb64bb643a14607b741c4fc311b11ec.jpg",
-    "priceType": "regular",
-    "cn": "broodbakvorm zenker",
-    "ik": "tok:unknown|broodbakvorm-zenker|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Tefal Hakmolen, 500",
-    "p": "9.99",
-    "o": "",
-    "s": "500 ml",
-    "l": "https://www.lidl.nl/assets/gcpbdcbb037ecca4de693a3e40b04207732.jpg",
-    "c": "Other",
-    "retailerProductId": "100412002",
-    "imageUrl": "https://www.lidl.nl/assets/gcpbdcbb037ecca4de693a3e40b04207732.jpg",
-    "priceType": "regular",
-    "cn": "500 hakmolen tefal",
-    "ik": "tok:unknown|500-hakmolen-tefal|500ml",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 500,
-      "itemUnit": "ml",
-      "totalValue": 500,
-      "baseUnit": "ml",
-      "display": "500 ml"
-    },
-    "wg": 500,
-    "wu": "ml",
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "unitPrice": {
-      "value": "19.98",
-      "currency": "EUR",
-      "per": "l"
-    },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Genius Nicer Dicer Groentesnijder Speed",
+    "n": "Tefal Koekenpan 28 Cm",
     "p": "19.99",
     "o": "",
     "s": "",
-    "l": "https://www.lidl.nl/assets/gcpe8cffab5224444bf8542f25a3a35e0e0.jpg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100399382",
-    "imageUrl": "https://www.lidl.nl/assets/gcpe8cffab5224444bf8542f25a3a35e0e0.jpg",
-    "priceType": "regular",
-    "cn": "dicer genius groentesnijder nicer speed",
-    "ik": "tok:unknown|dicer-genius-groentesnijder-nicer-speed|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Tefal Koekenpan 24 Cm",
-    "p": "21.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcp44456144329b467d8bfbcf71921f2236.jpg",
+    "l": "https://www.lidl.nl/assets/gcp90a6097a2b8a403181a56f34f7bd0d26.jpg",
     "c": "Snacks",
-    "retailerProductId": "100395791",
-    "imageUrl": "https://www.lidl.nl/assets/gcp44456144329b467d8bfbcf71921f2236.jpg",
+    "retailerProductId": "100400794",
+    "imageUrl": "https://www.lidl.nl/assets/gcp90a6097a2b8a403181a56f34f7bd0d26.jpg",
     "priceType": "regular",
-    "cn": "24 cm koekenpan tefal",
-    "ik": "tok:unknown|24-cm-koekenpan-tefal|na",
+    "cn": "28 cm koekenpan tefal",
+    "ik": "tok:unknown|28-cm-koekenpan-tefal|na",
     "schemaVersion": 2,
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Gsw 2 Gietijzeren Mini Serveerpannen",
-    "p": "49.99",
-    "o": "",
-    "s": "2 g",
-    "l": "https://www.lidl.nl/assets/gcpe21bcf0f0646413791764c19f58795c1.jpeg",
-    "c": "Other",
-    "retailerProductId": "100354492",
-    "imageUrl": "https://www.lidl.nl/assets/gcpe21bcf0f0646413791764c19f58795c1.jpeg",
-    "priceType": "regular",
-    "cn": "gietijzeren gsw mini serveerpannen",
-    "ik": "tok:unknown|gietijzeren-gsw-mini-serveerpannen|2g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 2,
-      "itemUnit": "g",
-      "totalValue": 2,
-      "baseUnit": "g",
-      "display": "2 g"
-    },
-    "wg": 2,
-    "wu": "g",
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "unitPrice": {
-      "value": "24995.00",
-      "currency": "EUR",
-      "per": "kg"
-    },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Tefal Duetto Bakelite Koekenpan 24 Cm",
-    "p": "29.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcp513b012d31074cf591617116e963f04b.jpg",
-    "c": "Snacks",
-    "retailerProductId": "100401028",
-    "imageUrl": "https://www.lidl.nl/assets/gcp513b012d31074cf591617116e963f04b.jpg",
-    "priceType": "regular",
-    "cn": "24 bakelite cm duetto koekenpan tefal",
-    "ik": "tok:unknown|24-bakelite-cm-duetto-koekenpan-tefal|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Isi Slagroomdispenser »Creative Whip Essential«, l.",
@@ -3498,7 +3559,127 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Zenker Broodbakvorm",
+    "p": "8.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcp8cb64bb643a14607b741c4fc311b11ec.jpg",
+    "c": "Bakery",
+    "retailerProductId": "100411871",
+    "imageUrl": "https://www.lidl.nl/assets/gcp8cb64bb643a14607b741c4fc311b11ec.jpg",
+    "priceType": "regular",
+    "cn": "broodbakvorm zenker",
+    "ik": "tok:unknown|broodbakvorm-zenker|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Tefal Hakmolen, 500",
+    "p": "9.99",
+    "o": "",
+    "s": "500 ml",
+    "l": "https://www.lidl.nl/assets/gcpbdcbb037ecca4de693a3e40b04207732.jpg",
+    "c": "Other",
+    "retailerProductId": "100412002",
+    "imageUrl": "https://www.lidl.nl/assets/gcpbdcbb037ecca4de693a3e40b04207732.jpg",
+    "priceType": "regular",
+    "cn": "500 hakmolen tefal",
+    "ik": "tok:unknown|500-hakmolen-tefal|500ml",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "ml",
+      "totalValue": 500,
+      "baseUnit": "ml",
+      "display": "500 ml"
+    },
+    "wg": 500,
+    "wu": "ml",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "19.98",
+      "currency": "EUR",
+      "per": "l"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Gsw 2 Gietijzeren Mini Serveerpannen",
+    "p": "49.99",
+    "o": "",
+    "s": "2 g",
+    "l": "https://www.lidl.nl/assets/gcpe21bcf0f0646413791764c19f58795c1.jpeg",
+    "c": "Other",
+    "retailerProductId": "100354492",
+    "imageUrl": "https://www.lidl.nl/assets/gcpe21bcf0f0646413791764c19f58795c1.jpeg",
+    "priceType": "regular",
+    "cn": "gietijzeren gsw mini serveerpannen",
+    "ik": "tok:unknown|gietijzeren-gsw-mini-serveerpannen|2g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 2,
+      "itemUnit": "g",
+      "totalValue": 2,
+      "baseUnit": "g",
+      "display": "2 g"
+    },
+    "wg": 2,
+    "wu": "g",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "24995.00",
+      "currency": "EUR",
+      "per": "kg"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Tefal Duetto Bakelite Koekenpan 24 Cm",
+    "p": "29.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcp513b012d31074cf591617116e963f04b.jpg",
+    "c": "Snacks",
+    "retailerProductId": "100401028",
+    "imageUrl": "https://www.lidl.nl/assets/gcp513b012d31074cf591617116e963f04b.jpg",
+    "priceType": "regular",
+    "cn": "24 bakelite cm duetto koekenpan tefal",
+    "ik": "tok:unknown|24-bakelite-cm-duetto-koekenpan-tefal|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Genius Nicer Dicer Groentesnijder Speed",
+    "p": "19.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcpe8cffab5224444bf8542f25a3a35e0e0.jpg",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100399382",
+    "imageUrl": "https://www.lidl.nl/assets/gcpe8cffab5224444bf8542f25a3a35e0e0.jpg",
+    "priceType": "regular",
+    "cn": "dicer genius groentesnijder nicer speed",
+    "ik": "tok:unknown|dicer-genius-groentesnijder-nicer-speed|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Tefal Pannenkoekenpan Ø 25 Cm",
@@ -3516,25 +3697,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
-    "n": "Genius Nicer Dicer Groentesnijder Mando",
-    "p": "37.99",
+    "n": "Tefal Koekenpan 24 Cm",
+    "p": "23.99",
     "o": "",
     "s": "",
-    "l": "https://www.lidl.nl/assets/gcp644ed4c565414c08b5a9e4509d2c2ccc.jpg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100399367",
-    "imageUrl": "https://www.lidl.nl/assets/gcp644ed4c565414c08b5a9e4509d2c2ccc.jpg",
+    "l": "https://www.lidl.nl/assets/gcp44456144329b467d8bfbcf71921f2236.jpg",
+    "c": "Snacks",
+    "retailerProductId": "100395791",
+    "imageUrl": "https://www.lidl.nl/assets/gcp44456144329b467d8bfbcf71921f2236.jpg",
     "priceType": "regular",
-    "cn": "dicer genius groentesnijder mando nicer",
-    "ik": "tok:unknown|dicer-genius-groentesnijder-mando-nicer|na",
+    "cn": "24 cm koekenpan tefal",
+    "ik": "tok:unknown|24-cm-koekenpan-tefal|na",
     "schemaVersion": 2,
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Tefal Elemental Koekenpan Ø 24 Cm",
@@ -3552,7 +3733,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Nfl Snackschaal Helm",
@@ -3570,7 +3751,43 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Genius Nicer Dicer Groentesnijder Mando",
+    "p": "37.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcp644ed4c565414c08b5a9e4509d2c2ccc.jpg",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100399367",
+    "imageUrl": "https://www.lidl.nl/assets/gcp644ed4c565414c08b5a9e4509d2c2ccc.jpg",
+    "priceType": "regular",
+    "cn": "dicer genius groentesnijder mando nicer",
+    "ik": "tok:unknown|dicer-genius-groentesnijder-mando-nicer|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Russell Hobbs Koekenpan Ø 28 Cm",
+    "p": "19.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/e84fa2058356429dd8c533a6b13edd28.jpeg",
+    "c": "Snacks",
+    "retailerProductId": "100341316",
+    "imageUrl": "https://www.lidl.nl/assets/e84fa2058356429dd8c533a6b13edd28.jpeg",
+    "priceType": "regular",
+    "cn": "28 cm hobbs koekenpan russell",
+    "ik": "tok:unknown|28-cm-hobbs-koekenpan-russell|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vacu Vin Wijnset",
@@ -3588,25 +3805,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Russell Hobbs Koekenpan Ø 28 Cm",
-    "p": "24.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/e84fa2058356429dd8c533a6b13edd28.jpeg",
-    "c": "Snacks",
-    "retailerProductId": "100341316",
-    "imageUrl": "https://www.lidl.nl/assets/e84fa2058356429dd8c533a6b13edd28.jpeg",
-    "priceType": "regular",
-    "cn": "28 cm hobbs koekenpan russell",
-    "ik": "tok:unknown|28-cm-hobbs-koekenpan-russell|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Masterpro Wijnset",
@@ -3624,7 +3823,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "CRELANDO® Snijset, Met Rolmes En Snijmat",
@@ -3642,7 +3841,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "CRELANDO® Naaimachinetas,",
@@ -3675,7 +3874,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vileda Gootsteen Houder Met Zuignap",
@@ -3693,7 +3892,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vileda Rvs Gootsteen Organizer Met Sponsbakje",
@@ -3711,7 +3910,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vileda Keukenrolhouder Met Zuignap",
@@ -3729,7 +3928,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Coox Opvouwbaar Vershoudbakje",
@@ -3747,7 +3946,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vileda Afdruipmat, 39,8 X 30,2 Cm",
@@ -3765,7 +3964,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vileda Afwasmiddeldispenser En Sponsbakje",
@@ -3783,7 +3982,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Boodschappentrolley",
@@ -3816,7 +4015,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vileda Rvs afdruiprek, Oprolbaar",
@@ -3834,7 +4033,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vileda Rvs Keukenorganizer",
@@ -3852,7 +4051,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Boodschappenmand Met Koelfunctie (Zwart)",
+    "p": "11.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcpcb1c021bfcb14c8bbdeea18912e7e59e.jpg",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100406112",
+    "imageUrl": "https://www.lidl.nl/assets/gcpcb1c021bfcb14c8bbdeea18912e7e59e.jpg",
+    "priceType": "regular",
+    "cn": "boodschappenmand koelfunctie zwart",
+    "ik": "tok:unknown|boodschappenmand-koelfunctie-zwart|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "W5 Hangorganizer, Opbergtas Of Kledinghoezen",
@@ -3870,7 +4087,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Joseph Gootsteenorganizer Of Bestekhouder",
@@ -3888,7 +4105,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "W5 Hangende Organizer",
@@ -3906,43 +4123,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Boodschappenmand Met Koelfunctie",
-    "p": "11.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcpdb856ba0ae534b8a894030acf0d1dd93.jpg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100406112",
-    "imageUrl": "https://www.lidl.nl/assets/gcpdb856ba0ae534b8a894030acf0d1dd93.jpg",
-    "priceType": "regular",
-    "cn": "boodschappenmand koelfunctie",
-    "ik": "tok:unknown|boodschappenmand-koelfunctie|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "W5 Opvouwbare Boodschappentrolleytas",
-    "p": "12.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcp3cb6b7ec37274a6c8ad2cb8ebddbd98e.jpg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100397623",
-    "imageUrl": "https://www.lidl.nl/assets/gcp3cb6b7ec37274a6c8ad2cb8ebddbd98e.jpg",
-    "priceType": "regular",
-    "cn": "boodschappentrolleytas opvouwbare w5",
-    "ik": "tok:unknown|boodschappentrolleytas-opvouwbare-w5|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Forme Casa Guzzini Design To Go Saladebox",
@@ -3960,25 +4141,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
-    "n": "Forme Casa Guzzini Design Lunchbox",
+    "n": "W5 Opvouwbare Boodschappentrolleytas",
     "p": "12.99",
     "o": "",
     "s": "",
-    "l": "https://www.lidl.nl/assets/gcpe5bd0aee369e44749f312930e529bb03.jpeg",
+    "l": "https://www.lidl.nl/assets/gcp3cb6b7ec37274a6c8ad2cb8ebddbd98e.jpg",
     "c": "Fruits & Vegetables",
-    "retailerProductId": "100369772",
-    "imageUrl": "https://www.lidl.nl/assets/gcpe5bd0aee369e44749f312930e529bb03.jpeg",
+    "retailerProductId": "100397623",
+    "imageUrl": "https://www.lidl.nl/assets/gcp3cb6b7ec37274a6c8ad2cb8ebddbd98e.jpg",
     "priceType": "regular",
-    "cn": "casa design forme guzzini lunchbox",
-    "ik": "tok:unknown|casa-design-forme-guzzini-lunchbox|na",
+    "cn": "boodschappentrolleytas opvouwbare w5",
+    "ik": "tok:unknown|boodschappentrolleytas-opvouwbare-w5|na",
     "schemaVersion": 2,
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Boodschappenwagen",
@@ -3996,7 +4177,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Forme Casa Guzzini Design Lunchbox",
+    "p": "12.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcpe5bd0aee369e44749f312930e529bb03.jpeg",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100369772",
+    "imageUrl": "https://www.lidl.nl/assets/gcpe5bd0aee369e44749f312930e529bb03.jpeg",
+    "priceType": "regular",
+    "cn": "casa design forme guzzini lunchbox",
+    "ik": "tok:unknown|casa-design-forme-guzzini-lunchbox|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "TOPMOVE® Boodschappentrolley 40",
@@ -4029,7 +4228,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Mepal Broodtrommel Of Drinkfles",
@@ -4047,7 +4246,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Opbergmand Met Bamboe Deksel",
@@ -4065,7 +4264,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Undercover Rugzak (Frozen)",
@@ -4083,7 +4282,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Aquabeads Glansparels navulset, 2000",
@@ -4116,7 +4315,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Stickerstempel, 100 .",
@@ -4149,7 +4348,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Aquabeads Snoepjes Hangers knutselset, Wateractiverend",
@@ -4167,7 +4366,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Kleiset (IJsset)",
@@ -4185,7 +4384,73 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "CRELANDO® Canvasdoeken, 1, 2 Of 3",
+    "p": "3.99",
+    "o": "",
+    "s": "3 items",
+    "l": "https://www.lidl.nl/assets/gcpa49fce68ddb54d389c001becfac3f900.png",
+    "c": "Other",
+    "retailerProductId": "100409276",
+    "imageUrl": "https://www.lidl.nl/assets/gcpa49fce68ddb54d389c001becfac3f900.png",
+    "priceType": "regular",
+    "cn": "canvasdoeken crelando of",
+    "ik": "tok:unknown|canvasdoeken-crelando-of|3x1count",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 3,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 3,
+      "baseUnit": "count",
+      "display": "3 items"
+    },
+    "wg": 3,
+    "wu": "count",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "1.33",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "DENTALUX® Opzetborstels Voor Elektrische tandenborstel, 6 (Zwart)",
+    "p": "3.99",
+    "o": "",
+    "s": "6 items",
+    "l": "https://www.lidl.nl/assets/gcpa75cdfa75ef74011be376d5a884937ff.png",
+    "c": "Personal Care",
+    "retailerProductId": "100412833",
+    "imageUrl": "https://www.lidl.nl/assets/gcpa75cdfa75ef74011be376d5a884937ff.png",
+    "priceType": "regular",
+    "cn": "dentalux elektrische opzetborstels tandenborstel zwart",
+    "ik": "tok:unknown|dentalux-elektrische-opzetborstels-tandenborstel-zwart|6x1count",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 6,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 6,
+      "baseUnit": "count",
+      "display": "6 items"
+    },
+    "wg": 6,
+    "wu": "count",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.67",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Premium Kinder Skihelm Met Meekleurend Vizier",
@@ -4216,7 +4481,7 @@
       "currency": "EUR",
       "per": "kg"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Primera Jersey Hoeslaken",
@@ -4234,25 +4499,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Yankee Candle Geurkaars »Home Inspiration®«",
-    "p": "11.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcp19b752220bcd4697901ad4482698021b.jpg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100413739",
-    "imageUrl": "https://www.lidl.nl/assets/gcp19b752220bcd4697901ad4482698021b.jpg",
-    "priceType": "regular",
-    "cn": "candle geurkaars home inspiration yankee",
-    "ik": "tok:unknown|candle-geurkaars-home-inspiration-yankee|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Kinder Dekbedovertrek »Minecraft«, 140 X 200 Cm",
@@ -4270,7 +4517,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Voetbal dekbedovertrek, 140 X 200 Cm",
@@ -4288,11 +4535,11 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Lichtblick Duo Rolgordijn Klemmfix",
-    "p": "26.99",
+    "p": "29.99",
     "o": "",
     "s": "",
     "l": "https://www.lidl.nl/assets/gcpee26639e3d2b4fb587a4ba630ca35912.jpeg",
@@ -4306,7 +4553,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Looks By Wolfgang Joop Mako Satijn Dekbedovertrek 240 X 220 Cm",
@@ -4324,7 +4571,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Biberna Jersey Hoeslaken",
@@ -4342,11 +4589,11 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Lichtblick Rolgordijn Klemmfix",
-    "p": "18.99",
+    "p": "17.99",
     "o": "",
     "s": "",
     "l": "https://www.lidl.nl/assets/0dd6d43a35c22cd3a7d3e4e53ddf04be.jpeg",
@@ -4360,7 +4607,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Emma Dekbed Met Aloë vera, 200 X Cm",
@@ -4378,25 +4625,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Tom Tailor Flanellen dekbedovertrek, 140 X 200 Cm",
-    "p": "29.99",
-    "o": "",
-    "s": "140 X 200 CM 29.99",
-    "l": "https://www.lidl.nl/assets/gcpb6a102012e814bc6a24669263fbd215b.jpg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100412023",
-    "imageUrl": "https://www.lidl.nl/assets/gcpb6a102012e814bc6a24669263fbd215b.jpg",
-    "priceType": "regular",
-    "cn": "140 200 cm dekbedovertrek flanellen tailor tom",
-    "ik": "tok:unknown|140-200-cm-dekbedovertrek-flanellen-tailor-tom|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Tom Tailor Flanellen dekbedovertrek, 200 X Cm",
@@ -4414,7 +4643,43 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Tom Tailor Flanellen dekbedovertrek, 140 X 200 Cm",
+    "p": "29.99",
+    "o": "",
+    "s": "140 X 200 CM 29.99",
+    "l": "https://www.lidl.nl/assets/gcpb6a102012e814bc6a24669263fbd215b.jpg",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100412023",
+    "imageUrl": "https://www.lidl.nl/assets/gcpb6a102012e814bc6a24669263fbd215b.jpg",
+    "priceType": "regular",
+    "cn": "140 200 cm dekbedovertrek flanellen tailor tom",
+    "ik": "tok:unknown|140-200-cm-dekbedovertrek-flanellen-tailor-tom|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Balette Premium Donzen Hoofdkussen (60 X 50 cm)",
+    "p": "34.99",
+    "o": "",
+    "s": "60 X 50 CM) 34.99",
+    "l": "https://www.lidl.nl/assets/gcpef94989171e141189651994c3e9a0158.jpg",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100397938",
+    "imageUrl": "https://www.lidl.nl/assets/gcpef94989171e141189651994c3e9a0158.jpg",
+    "priceType": "regular",
+    "cn": "50 60 balette cm donzen hoofdkussen premium",
+    "ik": "tok:unknown|50-60-balette-cm-donzen-hoofdkussen-premium|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Kinder Dekbedovertrek »Pokémon«, 140 X 200 Cm",
@@ -4432,61 +4697,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Balette Premium Donzen Hoofdkussen",
-    "p": "29.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcpe6fd2e8074734a949719ee31d1136a6f.jpg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100397938",
-    "imageUrl": "https://www.lidl.nl/assets/gcpe6fd2e8074734a949719ee31d1136a6f.jpg",
-    "priceType": "regular",
-    "cn": "balette donzen hoofdkussen premium",
-    "ik": "tok:unknown|balette-donzen-hoofdkussen-premium|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Lichtblick Plisségordijn Klemmfix",
-    "p": "18.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcpad721c21dcd345688de3a58d9f64b161.jpeg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100313038",
-    "imageUrl": "https://www.lidl.nl/assets/gcpad721c21dcd345688de3a58d9f64b161.jpeg",
-    "priceType": "regular",
-    "cn": "gordijn klemmfix lichtblick pliss",
-    "ik": "tok:unknown|gordijn-klemmfix-lichtblick-pliss|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Looks By Wolfgang Joop Satijnen kussensloop, 50 X 60 Cm",
-    "p": "12.99",
-    "o": "",
-    "s": "50 X 60 CM 12.99",
-    "l": "https://www.lidl.nl/assets/gcpcbe752e79dd94467949a9dc216f00588.jpg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100409768",
-    "imageUrl": "https://www.lidl.nl/assets/gcpcbe752e79dd94467949a9dc216f00588.jpg",
-    "priceType": "regular",
-    "cn": "50 60 by cm joop kussensloop looks satijnen wolfgang",
-    "ik": "tok:unknown|50-60-by-cm-joop-kussensloop-looks-satijnen-wolfgang|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "S.OLIVER Mako Satijnen Dekbedovertrek 240 X 220 Cm",
@@ -4504,25 +4715,43 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
-    "n": "Emma Dekbedovertrek 140 X 200 Cm (Grijs)",
-    "p": "29.99",
+    "n": "Lichtblick Plisségordijn Klemmfix",
+    "p": "18.99",
     "o": "",
-    "s": "140 X 200 CM (GRIJS) 29.99",
-    "l": "https://www.lidl.nl/assets/gcpa4b05ea8f2b14cb8b95515bba634fe9c.jpg",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcpad721c21dcd345688de3a58d9f64b161.jpeg",
     "c": "Fruits & Vegetables",
-    "retailerProductId": "100406117",
-    "imageUrl": "https://www.lidl.nl/assets/gcpa4b05ea8f2b14cb8b95515bba634fe9c.jpg",
+    "retailerProductId": "100313038",
+    "imageUrl": "https://www.lidl.nl/assets/gcpad721c21dcd345688de3a58d9f64b161.jpeg",
     "priceType": "regular",
-    "cn": "140 200 cm dekbedovertrek emma grijs",
-    "ik": "tok:unknown|140-200-cm-dekbedovertrek-emma-grijs|na",
+    "cn": "gordijn klemmfix lichtblick pliss",
+    "ik": "tok:unknown|gordijn-klemmfix-lichtblick-pliss|na",
     "schemaVersion": 2,
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Looks By Wolfgang Joop Satijnen kussensloop, 50 X 60 Cm",
+    "p": "12.99",
+    "o": "",
+    "s": "50 X 60 CM 12.99",
+    "l": "https://www.lidl.nl/assets/gcpcbe752e79dd94467949a9dc216f00588.jpg",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100409768",
+    "imageUrl": "https://www.lidl.nl/assets/gcpcbe752e79dd94467949a9dc216f00588.jpg",
+    "priceType": "regular",
+    "cn": "50 60 by cm joop kussensloop looks satijnen wolfgang",
+    "ik": "tok:unknown|50-60-by-cm-joop-kussensloop-looks-satijnen-wolfgang|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Emma Dekbedovertrek 200 X Cm",
@@ -4540,7 +4769,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Emma Dekbedovertrek 140 X 200 Cm (Grijs)",
+    "p": "29.99",
+    "o": "",
+    "s": "140 X 200 CM (GRIJS) 29.99",
+    "l": "https://www.lidl.nl/assets/gcpa4b05ea8f2b14cb8b95515bba634fe9c.jpg",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100406117",
+    "imageUrl": "https://www.lidl.nl/assets/gcpa4b05ea8f2b14cb8b95515bba634fe9c.jpg",
+    "priceType": "regular",
+    "cn": "140 200 cm dekbedovertrek emma grijs",
+    "ik": "tok:unknown|140-200-cm-dekbedovertrek-emma-grijs|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Kinder Dekbedovertrek Bluey Of Peppa Pig 140 X 200 Cm",
@@ -4558,7 +4805,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Fjödur Donzen Hoofdkussen D80",
+    "p": "29.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcp500d627680724037b0965e9eff52e1c5.jpg",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100397661",
+    "imageUrl": "https://www.lidl.nl/assets/gcp500d627680724037b0965e9eff52e1c5.jpg",
+    "priceType": "regular",
+    "cn": "d80 donzen dur fj hoofdkussen",
+    "ik": "tok:unknown|d80-donzen-dur-fj-hoofdkussen|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "S.OLIVER Mako Satijnen Dekbedovertrek 200 X Cm",
@@ -4576,7 +4841,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Balette Donzen Dekbed",
@@ -4594,7 +4859,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Tom Tailor Flanellen dekbedovertrek, 240 X 220 Cm",
@@ -4612,7 +4877,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Padiro Vloerkleed Charme",
@@ -4630,25 +4895,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Emma Dekbed Met Aloë vera, 140 X 200 Cm",
-    "p": "29.99",
-    "o": "",
-    "s": "140 X 200 CM 29.99",
-    "l": "https://www.lidl.nl/assets/gcpd586b91b25644604b18146afe2b0cf39.png",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100412143",
-    "imageUrl": "https://www.lidl.nl/assets/gcpd586b91b25644604b18146afe2b0cf39.png",
-    "priceType": "regular",
-    "cn": "140 200 alo cm dekbed emma vera",
-    "ik": "tok:unknown|140-200-alo-cm-dekbed-emma-vera|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Fjödur Donzen Dekbed (140 X 200 cm)",
@@ -4666,7 +4913,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Emma Dekbed Met Aloë vera, 140 X 200 Cm",
+    "p": "29.99",
+    "o": "",
+    "s": "140 X 200 CM 29.99",
+    "l": "https://www.lidl.nl/assets/gcpd586b91b25644604b18146afe2b0cf39.png",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100412143",
+    "imageUrl": "https://www.lidl.nl/assets/gcpd586b91b25644604b18146afe2b0cf39.png",
+    "priceType": "regular",
+    "cn": "140 200 alo cm dekbed emma vera",
+    "ik": "tok:unknown|140-200-alo-cm-dekbed-emma-vera|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Beco Winterdekbed Klimatop Tencel (155 X 220 cm)",
@@ -4684,7 +4949,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Balette Donzen Hoofdkussen (60 X 70 cm)",
+    "p": "40.99",
+    "o": "",
+    "s": "60 X 70 CM) 40.99",
+    "l": "https://www.lidl.nl/assets/gcpe45f9a8772894311b919bb60cb046e6f.jpg",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100397925",
+    "imageUrl": "https://www.lidl.nl/assets/gcpe45f9a8772894311b919bb60cb046e6f.jpg",
+    "priceType": "regular",
+    "cn": "60 70 balette cm donzen hoofdkussen",
+    "ik": "tok:unknown|60-70-balette-cm-donzen-hoofdkussen|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Fjödur Donzen Dekbed All Year",
@@ -4702,7 +4985,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Lichtblick Dakraam Zonnescherm",
@@ -4720,7 +5003,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Texels Wol Hoofdkussen 60 X 70 Cm",
@@ -4738,25 +5021,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Balette Donzen Hoofdkussen",
-    "p": "39.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcpceda9af5716b4d9991adcbb4e21f033d.jpg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100397925",
-    "imageUrl": "https://www.lidl.nl/assets/gcpceda9af5716b4d9991adcbb4e21f033d.jpg",
-    "priceType": "regular",
-    "cn": "balette donzen hoofdkussen",
-    "ik": "tok:unknown|balette-donzen-hoofdkussen|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Emma Zomerdekbed Aloë Vera 140 X 200 Cm",
@@ -4774,7 +5039,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Häussling Premium Donzen Hoofdkussen",
@@ -4792,7 +5057,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Lichtblick Plisségordijn",
@@ -4810,25 +5075,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Fjödur Donzen Hoofdkussen D80",
-    "p": "49.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/gcp500d627680724037b0965e9eff52e1c5.jpg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100397661",
-    "imageUrl": "https://www.lidl.nl/assets/gcp500d627680724037b0965e9eff52e1c5.jpg",
-    "priceType": "regular",
-    "cn": "d80 donzen dur fj hoofdkussen",
-    "ik": "tok:unknown|d80-donzen-dur-fj-hoofdkussen|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Sannwald Donzen Hoofdkussen",
@@ -4846,7 +5093,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Beco Hoofdkussen Cotton Soft",
@@ -4864,7 +5111,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Kayoom Vloerkleed",
@@ -4882,7 +5129,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Bestway Eenpersoons Luchtbed 185 X 76 22 Cm",
@@ -4900,7 +5147,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Emma Zomerdekbed Aloë Vera 200 X Cm",
@@ -4918,25 +5165,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "f.a.n. Kussen Biologisch Katoen",
-    "p": "44.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.nl/assets/d413dd4db9ed2acb62e768cbfe0ea28b.jpeg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100198362",
-    "imageUrl": "https://www.lidl.nl/assets/d413dd4db9ed2acb62e768cbfe0ea28b.jpeg",
-    "priceType": "regular",
-    "cn": "biologisch katoen kussen",
-    "ik": "tok:unknown|biologisch-katoen-kussen|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Beco Dekbed Klimatop Tencel All Year Medium (155 X 220 cm)",
@@ -4954,7 +5183,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vcm Nachtkastje",
@@ -4972,7 +5201,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vcm Kledingkast Dacho",
@@ -4990,7 +5219,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "f.a.n. Kussen Biologisch Katoen",
+    "p": "44.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/d413dd4db9ed2acb62e768cbfe0ea28b.jpeg",
+    "c": "Fruits & Vegetables",
+    "retailerProductId": "100198362",
+    "imageUrl": "https://www.lidl.nl/assets/d413dd4db9ed2acb62e768cbfe0ea28b.jpeg",
+    "priceType": "regular",
+    "cn": "biologisch katoen kussen",
+    "ik": "tok:unknown|biologisch-katoen-kussen|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Emma Dekbedovertrek 240 X 220 Cm (Grijs)",
@@ -5008,11 +5255,11 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "The Noble Collection Minecraft Luminous Redstone Ore, 10 Cm",
-    "p": "29.99",
+    "p": "33.99",
     "o": "",
     "s": "",
     "l": "https://www.lidl.nl/assets/gcpc1539a2580af4d1fa6c22ede9f3bb971.jpg",
@@ -5026,7 +5273,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Biberna Fijne Jersey Kussenhoes",
@@ -5044,7 +5291,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Padiro Vloerkleed Hailey",
@@ -5062,7 +5309,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Michalsky Katoen Satijn Dekbedovertrek 140 X 200 Cm",
@@ -5080,7 +5327,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Looks By Wolfgang Joop Mako Satijn Dekbedovertrek 200 X Cm",
@@ -5098,7 +5345,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Looks By Wolfgang Joop Mako Satijn Dekbedovertrek 140 X 200 Cm",
@@ -5116,7 +5363,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "S.OLIVER Mako Satijn Dekbedovertrek 140 X 200 Cm",
@@ -5134,7 +5381,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Beco Hoofdkussen Medibett",
@@ -5152,7 +5399,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Lichtblick Duo Rolgordijn",
@@ -5170,7 +5417,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Roba Kinderbed Tipi Montessori",
@@ -5188,7 +5435,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "f.a.n. Dekbed Medisan",
@@ -5206,7 +5453,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Beco Winterdekbed Royal Soft",
@@ -5224,7 +5471,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Sitting Point Zitzak Scuba",
@@ -5242,7 +5489,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Beco Hoofdkussen Royal Soft",
@@ -5260,7 +5507,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Sannwald Hoofdkussen Met Veren En Dons",
@@ -5278,7 +5525,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Sannwald Zomerdekbed Cairo",
@@ -5296,25 +5543,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
-  },
-  {
-    "n": "Beco Hoofdkussen (80 X 80 cm)",
-    "p": "34.99",
-    "o": "",
-    "s": "80 X 80 CM) 34.99",
-    "l": "https://www.lidl.nl/assets/d73d0b14e64512cc3f6824400697618d.jpeg",
-    "c": "Fruits & Vegetables",
-    "retailerProductId": "100270761",
-    "imageUrl": "https://www.lidl.nl/assets/d73d0b14e64512cc3f6824400697618d.jpeg",
-    "priceType": "regular",
-    "cn": "80 beco cm hoofdkussen",
-    "ik": "tok:unknown|80-beco-cm-hoofdkussen|na",
-    "schemaVersion": 2,
-    "country": "nl",
-    "retailer": "lidl",
-    "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "John Cotton Dekbed Royal All Year",
@@ -5332,7 +5561,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Häussling Royal Donzen Hoofdkussen",
@@ -5350,7 +5579,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "f.a.n. Dekbed Biologisch Katoen",
@@ -5368,7 +5597,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "f.a.n. Winterdekbed Medisan (155 X 220 cm)",
@@ -5386,7 +5615,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Balette Donzen Dekbed Premium Selection",
@@ -5404,7 +5633,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Häussling Donzen Zomerdekbed",
@@ -5422,7 +5651,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Beco Zomerdekbed Cotton Soft",
@@ -5440,7 +5669,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Beco Zomerdekbed Klimatop Tencel",
@@ -5458,7 +5687,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Kinder Luchtbed Met Slaapzak (Peppa Pig)",
@@ -5476,25 +5705,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
-    "n": "Magma Kussenhoes Taima",
-    "p": "17.99",
+    "n": "Beco Hoofdkussen",
+    "p": "31.99",
     "o": "",
     "s": "",
-    "l": "https://www.lidl.nl/assets/6edb4ea1499c70fee6d1183ef1b88690.jpeg",
+    "l": "https://www.lidl.nl/assets/d73d0b14e64512cc3f6824400697618d.jpeg",
     "c": "Fruits & Vegetables",
-    "retailerProductId": "100315195",
-    "imageUrl": "https://www.lidl.nl/assets/6edb4ea1499c70fee6d1183ef1b88690.jpeg",
+    "retailerProductId": "100270761",
+    "imageUrl": "https://www.lidl.nl/assets/d73d0b14e64512cc3f6824400697618d.jpeg",
     "priceType": "regular",
-    "cn": "kussenhoes magma taima",
-    "ik": "tok:unknown|kussenhoes-magma-taima|na",
+    "cn": "beco hoofdkussen",
+    "ik": "tok:unknown|beco-hoofdkussen|na",
     "schemaVersion": 2,
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Beco Hoofdkussen Klimatop Tencel",
@@ -5512,7 +5741,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "John Cotton Hoofdkussen Royal",
@@ -5530,7 +5759,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "High Peak Luchtbed Cross Beam",
@@ -5548,7 +5777,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Sannwald Premium Hoofdkussen Met Veren En Dons",
@@ -5566,7 +5795,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Beco Zomerdekbed Proneem",
@@ -5584,7 +5813,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Roba Lattenbodem Voor Kinderbed",
@@ -5602,7 +5831,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "f.a.n. Hoofdkussen Medisan",
@@ -5620,7 +5849,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Sannwald Kamelenhaar Hoofdkussen Cairo",
@@ -5638,7 +5867,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Padiro Vloerkleed Imala",
@@ -5656,7 +5885,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Beco Winterdekbed Medibett Cotton Soft Warm",
@@ -5674,7 +5903,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Inter Link Massief Houten Kist Emel (Naturel)",
@@ -5692,7 +5921,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "f.a.n. Zomerdekbed Medisan",
@@ -5710,7 +5939,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "High Peak Luchbed Comfort Plus (Double)",
@@ -5730,7 +5959,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Breckle Lattenbodem Superior",
@@ -5748,7 +5977,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Fjödur Donzen Zomer Dekbed Licht (200 X 200 cm)",
@@ -5766,7 +5995,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Dunlopillo Premium Winterdekbed Life 140 X 200 Cm",
@@ -5784,7 +6013,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Inter Link Nachtkastje Ivyna",
@@ -5802,7 +6031,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Cashewnoten",
@@ -5833,7 +6062,7 @@
       "currency": "EUR",
       "per": "kg"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Karamel Pencee",
@@ -5864,35 +6093,35 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
-    "n": "Theo KLEIN® Hot Wheels Verzamelkoffer",
-    "p": "7.29",
+    "n": "Theo KLEIN® Hot Wheels Verzamelkoffer (8 auto's)",
+    "p": "22.99",
     "o": "",
     "s": "",
-    "l": "https://www.lidl.nl/assets/gcpf8ccfa90082349adbcf8683b632603ad.jpg",
+    "l": "https://www.lidl.nl/assets/gcpf9a52aa396564056a62211de565b3140.jpg",
     "c": "Dairy & Eggs",
     "retailerProductId": "100394933",
-    "imageUrl": "https://www.lidl.nl/assets/gcpf8ccfa90082349adbcf8683b632603ad.jpg",
+    "imageUrl": "https://www.lidl.nl/assets/gcpf9a52aa396564056a62211de565b3140.jpg",
     "priceType": "regular",
-    "cn": "hot klein theo verzamelkoffer wheels",
-    "ik": "tok:unknown|hot-klein-theo-verzamelkoffer-wheels|na",
+    "cn": "auto hot klein theo verzamelkoffer wheels",
+    "ik": "tok:unknown|auto-hot-klein-theo-verzamelkoffer-wheels|na",
     "schemaVersion": 2,
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
-    "n": "Simba Stitch Of Winnie The Poeh Slaapknuffel (Winnie De Poeh)",
+    "n": "Simba Stitch Of Winnie The Poeh Slaapknuffel",
     "p": "36.99",
     "o": "",
     "s": "",
-    "l": "https://www.lidl.nl/assets/gcp03308d406a09410098313f231affaea1.png",
+    "l": "https://www.lidl.nl/assets/gcp64979db584844cda86aa5bc50be3f4f7.jpg",
     "c": "Fruits & Vegetables",
     "retailerProductId": "100414371",
-    "imageUrl": "https://www.lidl.nl/assets/gcp03308d406a09410098313f231affaea1.png",
+    "imageUrl": "https://www.lidl.nl/assets/gcp64979db584844cda86aa5bc50be3f4f7.jpg",
     "priceType": "regular",
     "cn": "of poeh simba slaapknuffel stitch the winnie",
     "ik": "tok:unknown|of-poeh-simba-slaapknuffel-stitch-the-winnie|na",
@@ -5900,7 +6129,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Hot Wheels City Speelset »City Gorilla Slam Attack Of Croco Pizza Attack«",
@@ -5918,7 +6147,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Dierenfiguren, 5",
@@ -5951,20 +6180,20 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
-    "n": "LUPILU® Puzzel, 1000 Stukjes",
-    "p": "3.99",
+    "n": "The Noble Collection Harry Potter Puzzel Marauder's Map, 1000 Stukjes",
+    "p": "20.99",
     "o": "",
     "s": "1000 items",
-    "l": "https://www.lidl.nl/assets/gcpf250753ab156406ea65bf95dcc850a73.png",
+    "l": "https://www.lidl.nl/assets/gcpe690d244089b4447a9f74aab9c9a1a22.jpg",
     "c": "Other",
-    "retailerProductId": "100413362",
-    "imageUrl": "https://www.lidl.nl/assets/gcpf250753ab156406ea65bf95dcc850a73.png",
+    "retailerProductId": "100414848",
+    "imageUrl": "https://www.lidl.nl/assets/gcpe690d244089b4447a9f74aab9c9a1a22.jpg",
     "priceType": "regular",
-    "cn": "1000 lupilu puzzel stukjes",
-    "ik": "tok:unknown|1000-lupilu-puzzel-stukjes|1000x1count",
+    "cn": "1000 collection harry map marauder noble potter puzzel stukjes the",
+    "ik": "tok:unknown|1000-collection-harry-map-marauder-noble-potter-puzzel-stukjes-the|1000x1count",
     "schemaVersion": 2,
     "quantity": {
       "packCount": 1000,
@@ -5980,15 +6209,15 @@
     "retailer": "lidl",
     "currency": "EUR",
     "unitPrice": {
-      "value": "0.00",
+      "value": "0.02",
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Barbie Saphire Pop Met Eenhoorn",
-    "p": "22.99",
+    "p": "23.99",
     "o": "",
     "s": "",
     "l": "https://www.lidl.nl/assets/gcpf72c9900f9dc4d379b86ff3119ca3103.jpg",
@@ -6002,7 +6231,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Clementoni Puzzel, 3000 Stukjes",
@@ -6035,7 +6264,40 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "LUPILU® Puzzel, 1000 Stukjes",
+    "p": "3.99",
+    "o": "",
+    "s": "1000 items",
+    "l": "https://www.lidl.nl/assets/gcpf250753ab156406ea65bf95dcc850a73.png",
+    "c": "Other",
+    "retailerProductId": "100413362",
+    "imageUrl": "https://www.lidl.nl/assets/gcpf250753ab156406ea65bf95dcc850a73.png",
+    "priceType": "regular",
+    "cn": "1000 lupilu puzzel stukjes",
+    "ik": "tok:unknown|1000-lupilu-puzzel-stukjes|1000x1count",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1000,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 1000,
+      "baseUnit": "count",
+      "display": "1000 items"
+    },
+    "wg": 1000,
+    "wu": "count",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "0.00",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Dickie Bestuurbare Hijskraan Mighty Crane",
@@ -6053,20 +6315,20 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
-    "n": "The Noble Collection Harry Potter Puzzel Marauder's Map, 1000 Stukjes",
-    "p": "24.99",
+    "n": "Ravensburger Puzzel, 1000 Stukjes",
+    "p": "13.99",
     "o": "",
     "s": "1000 items",
-    "l": "https://www.lidl.nl/assets/gcpe690d244089b4447a9f74aab9c9a1a22.jpg",
+    "l": "https://www.lidl.nl/assets/gcpf25cfa2d8db74cb6a7b8c20235523aef.png",
     "c": "Other",
-    "retailerProductId": "100414848",
-    "imageUrl": "https://www.lidl.nl/assets/gcpe690d244089b4447a9f74aab9c9a1a22.jpg",
+    "retailerProductId": "100414279",
+    "imageUrl": "https://www.lidl.nl/assets/gcpf25cfa2d8db74cb6a7b8c20235523aef.png",
     "priceType": "regular",
-    "cn": "1000 collection harry map marauder noble potter puzzel stukjes the",
-    "ik": "tok:unknown|1000-collection-harry-map-marauder-noble-potter-puzzel-stukjes-the|1000x1count",
+    "cn": "1000 puzzel ravensburger stukjes",
+    "ik": "tok:unknown|1000-puzzel-ravensburger-stukjes|1000x1count",
     "schemaVersion": 2,
     "quantity": {
       "packCount": 1000,
@@ -6082,11 +6344,44 @@
     "retailer": "lidl",
     "currency": "EUR",
     "unitPrice": {
-      "value": "0.02",
+      "value": "0.01",
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "LUPILU® Bestuurbare botsauto's, 2",
+    "p": "16.99",
+    "o": "",
+    "s": "2 items",
+    "l": "https://www.lidl.nl/assets/gcpee71d50c06fb4b1297c6d30b72a20225.png",
+    "c": "Other",
+    "retailerProductId": "100412804",
+    "imageUrl": "https://www.lidl.nl/assets/gcpee71d50c06fb4b1297c6d30b72a20225.png",
+    "priceType": "regular",
+    "cn": "bestuurbare botsauto lupilu",
+    "ik": "tok:unknown|bestuurbare-botsauto-lupilu|2x1count",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 2,
+      "itemValue": 1,
+      "itemUnit": "count",
+      "totalValue": 2,
+      "baseUnit": "count",
+      "display": "2 items"
+    },
+    "wg": 2,
+    "wu": "count",
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "unitPrice": {
+      "value": "8.50",
+      "currency": "EUR",
+      "per": "item"
+    },
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Barbie Pop »Cutie Reveal Sweet Bows«, 33 Cm",
@@ -6104,7 +6399,25 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
+  },
+  {
+    "n": "Theo KLEIN® Miele Speelgoed Kookeiland »Salt & Pepper«",
+    "p": "49.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.nl/assets/gcp733353c872ca4a6d97027c4f6a5284bc.png",
+    "c": "Pantry",
+    "retailerProductId": "100414850",
+    "imageUrl": "https://www.lidl.nl/assets/gcp733353c872ca4a6d97027c4f6a5284bc.png",
+    "priceType": "regular",
+    "cn": "klein kookeiland miele pepper salt speelgoed theo",
+    "ik": "tok:unknown|klein-kookeiland-miele-pepper-salt-speelgoed-theo|na",
+    "schemaVersion": 2,
+    "country": "nl",
+    "retailer": "lidl",
+    "currency": "EUR",
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "LUPILU® Herbruikbare Waterballonnen 6",
@@ -6137,7 +6450,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "W5 Kledinghangers, 25",
@@ -6170,7 +6483,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "W5 Houten Kledinghangers 20 (Naturel)",
@@ -6203,7 +6516,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Tefal Thermosbeker Emsa Travel Mug, 360",
@@ -6236,7 +6549,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Tefal Rvs drinkfles, 700, Dubbelwandig",
@@ -6269,7 +6582,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Villeroy & Boch Ontbijtbord »New Cottage Basic«, 2 .",
@@ -6302,7 +6615,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Leonardo Karaf »TAVOLINO«, 1,",
@@ -6335,7 +6648,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Kinder Ontbijtset (Barbie)",
@@ -6353,7 +6666,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Genius Slacentrifuge",
@@ -6371,7 +6684,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Leonardo Tavolino Drinkglazen, 6 .",
@@ -6404,7 +6717,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "ERNESTO® Bierpongset",
@@ -6422,7 +6735,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Ekogrid Multicomposter, 600",
@@ -6455,7 +6768,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Ekogrid Compostmodule, 260.",
@@ -6488,7 +6801,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Xala Gieter Kappu,",
@@ -6521,7 +6834,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Xala Gieter Chai, (Zwart)",
@@ -6554,7 +6867,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Dobar Vogelbad Op stok, 200, Metaal",
@@ -6587,7 +6900,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Dobar Vogelbad Op stok, 700, Metaal",
@@ -6620,7 +6933,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Dobar Grote Voedersilo Voor vogels, Met 3 landingsringen, Metaal",
@@ -6653,7 +6966,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Xala Gieter Doppio Groove,",
@@ -6686,7 +6999,7 @@
       "currency": "EUR",
       "per": "l"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Vitavia Afvoerpijpen Voor Tuinkas Eos/Zeus/Helena, 2",
@@ -6719,7 +7032,7 @@
       "currency": "EUR",
       "per": "item"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Gardena Tuinslangwagen Cleverroll M Easy",
@@ -6737,7 +7050,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Gardena Tuinslang Haspel Classic",
@@ -6755,7 +7068,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Gardena Tuinslangkoppelingen Basis Set",
@@ -6773,11 +7086,11 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Verse Zalmfilet Op Huid",
-    "p": "7.99",
+    "p": "7.49",
     "o": "- Alleen in de winkel 26/10 - 01/11",
     "s": "500 g",
     "l": null,
@@ -6800,11 +7113,11 @@
     "retailer": "lidl",
     "currency": "EUR",
     "unitPrice": {
-      "value": "15.98",
+      "value": "14.98",
       "currency": "EUR",
       "per": "kg"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Zwagerman Spekreepjes",
@@ -6822,7 +7135,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Knorr Fix",
@@ -6855,7 +7168,7 @@
       "currency": "EUR",
       "per": "kg"
     },
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Fischer Ijzerwarenassortiment",
@@ -6873,7 +7186,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Fm Barbera d'Asti Superiore",
@@ -6891,7 +7204,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Rotwein Marrasso Daily Malbec Mendoza",
@@ -6909,7 +7222,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Primitivo Merlot Puglia Halbtrocken",
@@ -6927,7 +7240,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Si Se Südafrika Pinotage (OA)",
@@ -6945,7 +7258,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Selone Rosso Puglia",
@@ -6963,7 +7276,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "S Frappato Syrah Terre Igp",
@@ -6981,7 +7294,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Cotes Du Rhone Blanc Aop",
@@ -6999,7 +7312,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Sh Nzl Hawkes Bay Chardonnay (OA)",
@@ -7017,7 +7330,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Feudi Del Duca Primitivo Di Manduria Dop",
@@ -7035,7 +7348,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Collin Bourisset Morgon Aop Rouge",
@@ -7053,7 +7366,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Montesquius Cava Gran Brut",
@@ -7071,7 +7384,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Rtr Nzl Sauvignon Blanc (OA)",
@@ -7089,7 +7402,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Sitting Point Bean Bag Voetbal Of Kicker",
@@ -7107,7 +7420,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Extra Mager Rundergehakt",
@@ -7125,7 +7438,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Chef Select Aardappelgratin",
@@ -7143,7 +7456,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Milbona Goudse Extra Belegen Plakken",
@@ -7161,7 +7474,7 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   },
   {
     "n": "Doritos Pure Paprika",
@@ -7179,6 +7492,6 @@
     "country": "nl",
     "retailer": "lidl",
     "currency": "EUR",
-    "observedAt": "2026-10-26T02:11:58.208540+00:00"
+    "observedAt": "2026-10-28T02:56:57.050351+00:00"
   }
 ]
