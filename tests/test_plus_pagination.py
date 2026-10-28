@@ -2,6 +2,7 @@ import importlib.util
 from pathlib import Path
 import unittest
 from unittest.mock import MagicMock, patch
+from urllib.parse import parse_qs, urlparse
 
 import plus_scrape as plus
 from scripts.verify_plus_refresh import refresh_failures
@@ -69,6 +70,12 @@ class CompleteCategoryTests(unittest.TestCase):
 
 
 class ListingRequestTests(unittest.TestCase):
+    def test_bootstrap_uses_public_price_sort_and_resets_page(self):
+        result = plus._stable_listing_url(URL + "?pagina=5&tn_sort=old&filter=one&filter=two")
+        self.assertEqual(urlparse(result).path, urlparse(URL).path)
+        self.assertEqual(parse_qs(urlparse(result).query), {
+            "tn_sort": ["Prijs oplopend"], "filter": ["one", "two"]})
+
     def test_bootstrap_matches_category_page_and_origin_and_releases_document(self):
         page = MagicMock(url=URL)
         response = MagicMock(status=200)
@@ -82,6 +89,7 @@ class ListingRequestTests(unittest.TestCase):
         response.json.return_value = {"data": payload([1, 2])}
         page.expect_response.return_value.__enter__.return_value.value = response
         client = plus.PlusListingClient(page, URL)
+        page.goto.assert_any_call(plus._stable_listing_url(URL), wait_until="domcontentloaded", timeout=45000)
         predicate = page.expect_response.call_args.args[0]
         self.assertTrue(predicate(response))
         response.request.post_data_json["screenData"]["variables"]["PageNumber"] = 2

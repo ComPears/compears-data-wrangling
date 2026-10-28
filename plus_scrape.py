@@ -399,6 +399,17 @@ def _listing_slug(url: str) -> str:
     return parts[1]
 
 
+def _stable_listing_url(url: str) -> str:
+    # Public SortList option "Prijs laag-hoog". Popularity ranking can reorder
+    # equal-ranked/sponsored products between requests, skipping some products
+    # and repeating others across page boundaries. Keep the exact count gate.
+    parsed = urlparse(url)
+    query = parse_qs(parsed.query)
+    query.pop("pagina", None)
+    query["tn_sort"] = ["Prijs oplopend"]
+    return urlunparse(parsed._replace(query=urlencode(query, doseq=True)))
+
+
 class PlusListingClient:
     def __init__(self, page: Page, url: str):
         _listing_slug(url)
@@ -417,7 +428,7 @@ class PlusListingClient:
                 return False
 
         with page.expect_response(matches, timeout=45000) as capture:
-            page.goto(_with_pagina(url, 1), wait_until="domcontentloaded", timeout=45000)
+            page.goto(_stable_listing_url(url), wait_until="domcontentloaded", timeout=45000)
         response = capture.value
         if not matches(response):
             raise ValueError("PLUS listing does not match the final category URL")

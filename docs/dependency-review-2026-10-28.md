@@ -47,3 +47,9 @@ ranges. Simply following the old combined redirects would omit these ranges.
 All 27 configured categories must still complete every page; preservation,
 partial data, count drops and invalid health results remain failures. Regression
 tests cover redirect matching, final-document mismatches and split coverage.
+
+The first repaired live run completed 26/27 categories, exposing a second issue:
+the large sauces/soups category's popularity ordering overlapped page boundaries
+(1,771 unique products versus 1,780 advertised). Bootstrap listings with PLUS's
+advertised `tn_sort=Prijs oplopend` price ordering and carry the captured request
+through pagination. The exact unique-product count requirement is unchanged.
