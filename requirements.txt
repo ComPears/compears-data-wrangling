@@ -1,5 +1,5 @@
 # Keep direct dependencies here. Playwright constrains and installs its own
 # compatible greenlet, pyee, and typing-extensions runtime dependencies.
-playwright==1.64.0
+playwright==1.64.1
 # eMudhra/emSign incident: also bootstrap pip separately (its CA bundle is vendored).
 certifi==2026.10.19
