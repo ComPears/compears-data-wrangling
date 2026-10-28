@@ -32,3 +32,18 @@ retailer refresh or catalog publication was manually triggered during local
 validation. PR-triggered PLUS/Tesco checks provide separate live-site evidence;
 dependency tests cannot guarantee retailer availability. Dependency audits are
 not a comprehensive malware assessment.
+
+## Follow-up: PLUS live verification failure
+
+The first PR live check failed on 11 of 19 category bootstraps. PLUS is changing
+its navigation: old category URLs redirect to new slugs, but the response matcher
+still required the original slug. Match only the HTTPS same-origin category in
+the committed browser document and revalidate it after navigation. Reject root,
+external, unrelated-category and non-first-page responses as before.
+
+Update the configured URLs from PLUS's current redirects and assortment menu,
+including the newly split fish, vegetarian, cheese, coffee, wine, snack and baby
+ranges. Simply following the old combined redirects would omit these ranges.
+All 27 configured categories must still complete every page; preservation,
+partial data, count drops and invalid health results remain failures. Regression
+tests cover redirect matching, final-document mismatches and split coverage.

@@ -390,12 +390,18 @@ def _listing_totals(payload: dict) -> tuple[int, int]:
     return pages, items
 
 
+def _listing_slug(url: str) -> str:
+    parsed = urlparse(url)
+    parts = parsed.path.strip("/").split("/")
+    if (parsed.scheme != "https" or parsed.netloc != "www.plus.nl"
+            or len(parts) != 2 or parts[0] != "producten" or not parts[1]):
+        raise ValueError("PLUS category must use the public HTTPS listing origin")
+    return parts[1]
+
+
 class PlusListingClient:
     def __init__(self, page: Page, url: str):
-        parsed = urlparse(url)
-        if parsed.scheme != "https" or parsed.netloc != "www.plus.nl" or not parsed.path.startswith("/producten/"):
-            raise ValueError("PLUS category must use the public HTTPS listing origin")
-        slug = parsed.path.rstrip("/").split("/")[-1]
+        _listing_slug(url)
 
         def matches(response):
             target = urlparse(response.url)
@@ -403,13 +409,18 @@ class PlusListingClient:
                 return False
             try:
                 variables = response.request.post_data_json["screenData"]["variables"]
-                return variables["CategorySlug"] == slug and variables["PageNumber"] == 1
+                # PLUS can redirect a renamed category before the app requests
+                # its products. Match the committed document, not the old slug.
+                # Still reject unrelated categories, root and external pages.
+                return variables["CategorySlug"] == _listing_slug(page.url) and variables["PageNumber"] == 1
             except (KeyError, TypeError, ValueError):
                 return False
 
         with page.expect_response(matches, timeout=45000) as capture:
             page.goto(_with_pagina(url, 1), wait_until="domcontentloaded", timeout=45000)
         response = capture.value
+        if not matches(response):
+            raise ValueError("PLUS listing does not match the final category URL")
         if response.status != 200:
             raise ValueError(f"PLUS listing bootstrap HTTP {response.status}")
         self.first = response.json().get("data", {})
