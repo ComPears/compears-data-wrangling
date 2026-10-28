@@ -2,6 +2,7 @@ import importlib.util
 from pathlib import Path
 import unittest
 from unittest.mock import MagicMock, patch
+from urllib.parse import parse_qs, urlparse
 
 import plus_scrape as plus
 from scripts.verify_plus_refresh import refresh_failures
@@ -69,8 +70,14 @@ class CompleteCategoryTests(unittest.TestCase):
 
 
 class ListingRequestTests(unittest.TestCase):
+    def test_bootstrap_uses_public_price_sort_and_resets_page(self):
+        result = plus._stable_listing_url(URL + "?pagina=5&tn_sort=old&filter=one&filter=two")
+        self.assertEqual(urlparse(result).path, urlparse(URL).path)
+        self.assertEqual(parse_qs(urlparse(result).query), {
+            "tn_sort": ["Prijs oplopend"], "filter": ["one", "two"]})
+
     def test_bootstrap_matches_category_page_and_origin_and_releases_document(self):
-        page = MagicMock()
+        page = MagicMock(url=URL)
         response = MagicMock(status=200)
         response.url = "https://www.plus.nl/screenservices/" + plus.PLP_API_FRAGMENT
         response.request.url = response.url
@@ -82,6 +89,7 @@ class ListingRequestTests(unittest.TestCase):
         response.json.return_value = {"data": payload([1, 2])}
         page.expect_response.return_value.__enter__.return_value.value = response
         client = plus.PlusListingClient(page, URL)
+        page.goto.assert_any_call(plus._stable_listing_url(URL), wait_until="domcontentloaded", timeout=45000)
         predicate = page.expect_response.call_args.args[0]
         self.assertTrue(predicate(response))
         response.request.post_data_json["screenData"]["variables"]["PageNumber"] = 2
@@ -92,6 +100,36 @@ class ListingRequestTests(unittest.TestCase):
         self.assertFalse(predicate(response))
         self.assertEqual(client.headers, {"content-type": "application/json", "x-csrftoken": "test-only"})
         page.goto.assert_any_call("about:blank", wait_until="commit")
+
+    def test_bootstrap_accepts_renamed_category_but_not_unrelated_responses(self):
+        page = MagicMock(url="https://www.plus.nl/producten/drogisterij")
+        response = MagicMock(status=200)
+        response.url = "https://www.plus.nl/screenservices/" + plus.PLP_API_FRAGMENT
+        response.request.url = response.url
+        response.request.post_data_json = {"screenData": {"variables": {
+            "CategorySlug": "drogisterij", "PageNumber": 1}}}
+        response.request.all_headers.return_value = {}
+        response.json.return_value = {"data": payload([1], 1, 1)}
+        page.expect_response.return_value.__enter__.return_value.value = response
+        client = plus.PlusListingClient(page, URL)
+        self.assertEqual(client.first, payload([1], 1, 1))
+        predicate = page.expect_response.call_args.args[0]
+        self.assertTrue(predicate(response))
+        for target in ("https://www.plus.nl/producten", "https://www.plus.nl/",
+                       "https://evil.test/producten/drogisterij", "http://www.plus.nl/producten/drogisterij",
+                       "https://www.plus.nl/producten/another-category", "about:blank"):
+            page.url = target
+            self.assertFalse(predicate(response), target)
+
+    def test_navigation_cannot_change_after_bootstrap_to_another_category(self):
+        page = MagicMock(url="https://www.plus.nl/producten/unrelated")
+        response = MagicMock(status=200)
+        response.url = "https://www.plus.nl/screenservices/" + plus.PLP_API_FRAGMENT
+        response.request.post_data_json = {"screenData": {"variables": {
+            "CategorySlug": "drogisterij", "PageNumber": 1}}}
+        page.expect_response.return_value.__enter__.return_value.value = response
+        with self.assertRaisesRegex(ValueError, "final category URL"):
+            plus.PlusListingClient(page, URL)
 
     def client(self):
         client = object.__new__(plus.PlusListingClient)
@@ -152,6 +190,17 @@ class ListingRequestTests(unittest.TestCase):
 
 
 class CategoryRecoveryTests(unittest.TestCase):
+    def test_split_categories_remain_covered(self):
+        spec = importlib.util.spec_from_file_location("plus_links_test", Path(__file__).resolve().parents[1] / "countries/nl/plus/links.py")
+        links = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(links)
+        slugs = [plus._listing_slug(url) for url in links.links]
+        self.assertEqual(len(slugs), len(set(slugs)))
+        self.assertTrue({"vlees-kip", "vis", "vleesvervangers-vegetarisch-vegan-plantaardig",
+                         "kaas", "vleeswaren-broodsalades", "koffie-thee", "bier",
+                         "wijn-aperitieven", "baby-kind", "drogisterij",
+                         "borrel-chips-noten-snacks"}.issubset(slugs))
+
     def test_incomplete_category_fails_main_before_enrichment(self):
         spec = importlib.util.spec_from_file_location("plus_main_test", Path(__file__).resolve().parents[1] / "countries/nl/plus/main.py")
         main = importlib.util.module_from_spec(spec)
