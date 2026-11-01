@@ -22,7 +22,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-milk-chocolate-chips/p10055452",
-    "quantityObservedAt": "2026-10-31T03:45:15.540499+00:00",
+    "quantityObservedAt": "2026-11-01T03:40:52.474015+00:00",
     "priceType": "regular",
     "cn": "belbake chips chocolate milk",
     "ik": "tok:belbake|chips-chocolate-milk|100g",
@@ -44,7 +44,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Milk Reindeers",
@@ -69,7 +69,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/maltesers-milk-reindeers/p10054862",
-    "quantityObservedAt": "2026-10-31T03:45:16.232063+00:00",
+    "quantityObservedAt": "2026-11-01T03:40:53.357449+00:00",
     "priceType": "regular",
     "cn": "maltesers milk reindeers",
     "ik": "tok:maltesers|milk-reindeers|59g",
@@ -91,7 +91,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Milk & Hazelnut Wafer Slices",
@@ -120,7 +120,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Milk Chocolate Bears",
@@ -145,7 +145,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-milk-chocolate-bears/p10054855",
-    "quantityObservedAt": "2026-10-31T03:45:17.632301+00:00",
+    "quantityObservedAt": "2026-11-01T03:40:55.007629+00:00",
     "priceType": "regular",
     "cn": "favorina bears chocolate milk",
     "ik": "tok:favorina|bears-chocolate-milk|125g",
@@ -167,7 +167,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Milk Chocolate Elf",
@@ -192,7 +192,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-milk-chocolate-elf/p10054856",
-    "quantityObservedAt": "2026-10-31T03:45:18.310429+00:00",
+    "quantityObservedAt": "2026-11-01T03:40:55.869740+00:00",
     "priceType": "regular",
     "cn": "favorina chocolate elf milk",
     "ik": "tok:favorina|chocolate-elf-milk|125g",
@@ -214,7 +214,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Milk Chocolate Santa",
@@ -239,7 +239,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-milk-chocolate-santa/p10054857",
-    "quantityObservedAt": "2026-10-31T03:45:19.003412+00:00",
+    "quantityObservedAt": "2026-11-01T03:40:56.756226+00:00",
     "priceType": "regular",
     "cn": "favorina chocolate milk santa",
     "ik": "tok:favorina|chocolate-milk-santa|125g",
@@ -261,7 +261,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Milk Chocolate Balls In Net",
@@ -286,7 +286,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-milk-chocolate-balls-in-net/p10054858",
-    "quantityObservedAt": "2026-10-31T03:45:19.700434+00:00",
+    "quantityObservedAt": "2026-11-01T03:40:57.597341+00:00",
     "priceType": "regular",
     "cn": "favorina balls chocolate in milk net",
     "ik": "tok:favorina|balls-chocolate-in-milk-net|70g",
@@ -308,7 +308,101 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
+  },
+  {
+    "n": "Spiced Glazed Biscuits With Milk Chocolate",
+    "p": "1.69",
+    "o": "",
+    "s": "200 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/CIRoglOkkpSlLFrZYa1kfxsQVqde7K8jtV1xcZyF6HQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zRkE3MUU5OTRFRjU0QzQ5QTg0QjJENkI/zNEU0NDNCQzYwNUQ2REFBNzczQzMyQ0UyMzA0QTBEODkzMDM4MzMwLmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/favorina-spiced-glazed-biscuits-with-milk-chocolate/p10055322",
+    "c": "Snacks",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/favorina-spiced-glazed-biscuits-with-milk-chocolate/p10055322",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/CIRoglOkkpSlLFrZYa1kfxsQVqde7K8jtV1xcZyF6HQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zRkE3MUU5OTRFRjU0QzQ5QTg0QjJENkI/zNEU0NDNCQzYwNUQ2REFBNzczQzMyQ0UyMzA0QTBEODkzMDM4MzMwLmpwZw.jpg",
+    "retailerProductId": "10055322",
+    "availability": "in_stock",
+    "bn": "favorina",
+    "brandSource": "retailer",
+    "sourceQuery": "milk",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=milk",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "quantitySource": "retailer_product_description",
+    "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-spiced-glazed-biscuits-with-milk-chocolate/p10055322",
+    "quantityObservedAt": "2026-11-01T03:40:58.452508+00:00",
+    "priceType": "regular",
+    "cn": "favorina biscuits chocolate glazed milk spiced with",
+    "ik": "tok:favorina|biscuits-chocolate-glazed-milk-spiced-with|200g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 200,
+      "itemUnit": "g",
+      "totalValue": 200,
+      "baseUnit": "g",
+      "display": "200 g"
+    },
+    "wg": 200,
+    "wu": "g",
+    "unitPrice": {
+      "value": "8.45",
+      "currency": "GBP",
+      "per": "kg"
+    },
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
+  },
+  {
+    "n": "Mini Cakes Assorted",
+    "p": "1.49",
+    "o": "Lidl Plus",
+    "s": "270 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/C0_uB96t1ZTwrGZdxUsnXF7fSd-4WXi2Ibbhpn-LzwE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zNjRENjI2MDQ4OUE0MTdBMTRBQzk0QUZ/COTM5RDQ4QTA2QTg4RTI3Nzg5RjRDMDgwOTMzNzlCNTcxNzVFMzFCLmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/mcennedy-mini-cakes-assorted/p10056454",
+    "c": "Bakery",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/mcennedy-mini-cakes-assorted/p10056454",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/C0_uB96t1ZTwrGZdxUsnXF7fSd-4WXi2Ibbhpn-LzwE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zNjRENjI2MDQ4OUE0MTdBMTRBQzk0QUZ/COTM5RDQ4QTA2QTg4RTI3Nzg5RjRDMDgwOTMzNzlCNTcxNzVFMzFCLmpwZw.jpg",
+    "retailerProductId": "10056454",
+    "availability": "in_stock",
+    "bn": "mcennedy",
+    "brandSource": "retailer",
+    "sourceQuery": "milk",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=milk",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "quantitySource": "retailer_product_description",
+    "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-mini-cakes-assorted/p10056454",
+    "quantityObservedAt": "2026-11-01T03:40:59.328973+00:00",
+    "priceType": "loyalty",
+    "cn": "mcennedy assorted cakes mini",
+    "ik": "tok:mcennedy|assorted-cakes-mini|270g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 270,
+      "itemUnit": "g",
+      "totalValue": 270,
+      "baseUnit": "g",
+      "display": "270 g"
+    },
+    "wg": 270,
+    "wu": "g",
+    "unitPrice": {
+      "value": "5.52",
+      "currency": "GBP",
+      "per": "kg"
+    },
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Twinkies With Filling",
@@ -333,7 +427,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-twinkies-with-filling/p10056455",
-    "quantityObservedAt": "2026-10-31T03:45:20.431723+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:00.801071+00:00",
     "priceType": "loyalty",
     "cn": "mcennedy filling twinkies with",
     "ik": "tok:mcennedy|filling-twinkies-with|360g",
@@ -355,7 +449,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Fruit & Nut Muesli",
@@ -384,7 +478,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Flaked Almonds",
@@ -409,7 +503,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-flaked-almonds/p10055456",
-    "quantityObservedAt": "2026-10-31T03:45:22.016503+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:02.530035+00:00",
     "priceType": "regular",
     "cn": "belbake almonds flaked",
     "ik": "tok:belbake|almonds-flaked|150g",
@@ -431,54 +525,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Scrumptious Sweets",
-    "p": "0.99",
-    "o": "",
-    "s": "173 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/-wnWDlPxKQpfZyZw0qAfTCD3ReeJacg6hPeeiSqDC0w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ENzU3NEI3RTkxRTY3Mzg1NDNGNTUxREM/5Q0E3OUE3RDgwMjFCRUVENUIwMEI2Nzg5MjgxRUY3Q0NBRERGQjcxLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/swizzels-scrumptious-sweets/p10055389",
-    "c": "Snacks",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/swizzels-scrumptious-sweets/p10055389",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/-wnWDlPxKQpfZyZw0qAfTCD3ReeJacg6hPeeiSqDC0w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ENzU3NEI3RTkxRTY3Mzg1NDNGNTUxREM/5Q0E3OUE3RDgwMjFCRUVENUIwMEI2Nzg5MjgxRUY3Q0NBRERGQjcxLmpwZw.jpg",
-    "retailerProductId": "10055389",
-    "availability": "in_stock",
-    "bn": "swizzels",
-    "brandSource": "retailer",
-    "sourceQuery": "semi skimmed milk",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=semi+skimmed+milk",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/swizzels-scrumptious-sweets/p10055389",
-    "quantityObservedAt": "2026-10-31T03:45:22.703948+00:00",
-    "priceType": "regular",
-    "cn": "swizzels scrumptious sweets",
-    "ik": "tok:swizzels|scrumptious-sweets|173g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 173,
-      "itemUnit": "g",
-      "totalValue": 173,
-      "baseUnit": "g",
-      "display": "173 g"
-    },
-    "wg": 173,
-    "wu": "g",
-    "unitPrice": {
-      "value": "5.72",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Whole Chestnuts",
@@ -503,7 +550,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/newgate-whole-chestnuts/p10054840",
-    "quantityObservedAt": "2026-10-31T03:45:23.386993+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:03.399811+00:00",
     "priceType": "regular",
     "cn": "newgate chestnuts whole",
     "ik": "tok:newgate|chestnuts-whole|180g",
@@ -525,7 +572,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Buttermilk",
@@ -533,14 +580,14 @@
     "o": "",
     "s": "",
     "l": "https://www.lidl.co.uk/assets/gcp62bd4ebb7a294f3fa647ec6f1b5bc7ef.png",
-    "i": "https://www.lidl.co.uk/p/eridanous-buttermilk/p11526810",
+    "i": "https://www.lidl.co.uk/p/noma-buttermilk/p11526810",
     "c": "Dairy & Eggs",
     "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/eridanous-buttermilk/p11526810",
+    "productUrl": "https://www.lidl.co.uk/p/noma-buttermilk/p11526810",
     "imageUrl": "https://www.lidl.co.uk/assets/gcp62bd4ebb7a294f3fa647ec6f1b5bc7ef.png",
     "retailerProductId": "11526810",
     "availability": "in_stock",
-    "bn": "eridanous",
+    "bn": "noma",
     "brandSource": "retailer",
     "sourceQuery": "whole milk",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=whole+milk",
@@ -549,12 +596,12 @@
     "categorySource": "lidl_product_grid",
     "availabilityText": "Available in store now",
     "priceType": "regular",
-    "cn": "eridanous buttermilk",
-    "ik": "tok:eridanous|buttermilk|na",
+    "cn": "noma buttermilk",
+    "ik": "tok:noma|buttermilk|na",
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "White Chocolate Chips",
@@ -579,7 +626,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-white-chocolate-chips/p10055454",
-    "quantityObservedAt": "2026-10-31T03:45:24.997570+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:05.102396+00:00",
     "priceType": "regular",
     "cn": "belbake chips chocolate white",
     "ik": "tok:belbake|chips-chocolate-white|100g",
@@ -601,7 +648,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Plain Flour",
@@ -626,7 +673,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-plain-flour/p10055445",
-    "quantityObservedAt": "2026-10-31T03:45:25.681549+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:06.078446+00:00",
     "priceType": "regular",
     "cn": "belbake flour plain",
     "ik": "tok:belbake|flour-plain|1500g",
@@ -648,7 +695,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Breadsticks",
@@ -675,7 +722,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Breadsticks",
@@ -704,7 +751,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Breaded Soft Cheese",
@@ -731,7 +778,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Baking Powder",
@@ -756,7 +803,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-baking-powder/p10055450",
-    "quantityObservedAt": "2026-10-31T03:45:28.551474+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:09.998368+00:00",
     "priceType": "regular",
     "cn": "belbake baking powder",
     "ik": "tok:belbake|baking-powder|170g",
@@ -778,7 +825,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Olives",
@@ -805,7 +852,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Cookies With Filling Assorted",
@@ -830,7 +877,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-cookies-with-filling-assorted/p10056438",
-    "quantityObservedAt": "2026-10-31T03:45:30.038213+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:11.764036+00:00",
     "priceType": "loyalty",
     "cn": "mcennedy assorted cookies filling with",
     "ik": "tok:mcennedy|assorted-cookies-filling-with|175g",
@@ -852,7 +899,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Partytime Pigs In Blankets",
@@ -881,7 +928,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Sausages",
@@ -910,22 +957,22 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
-    "n": "Artichokes With Capers & Kalamon Olives",
-    "p": "1.79",
+    "n": "Biscuits With Almond",
+    "p": "3.99",
     "o": "",
-    "s": "",
-    "l": "https://www.lidl.co.uk/assets/gcpd396228b378740c794a341a7a4de602e.png",
-    "i": "https://www.lidl.co.uk/p/eridanous-artichokes-with-capers-kalamon-olives/p11533885",
-    "c": "Other",
+    "s": "600 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/MBM9SpyvnIQxWYHHegY7N_b1OcJlhmMRH1CJAma-g7o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wQjRBQkRCOUFGQ0FCM0E4QUZCN0E3QkE/yRjA4RTUzNzI3MjY3NDY5Q0UwOUFDNDk5RUZGRjI1MzM5OUMyNTExLmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/favorina-biscuits-with-almond/p10055320",
+    "c": "Snacks",
     "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/eridanous-artichokes-with-capers-kalamon-olives/p11533885",
-    "imageUrl": "https://www.lidl.co.uk/assets/gcpd396228b378740c794a341a7a4de602e.png",
-    "retailerProductId": "11533885",
+    "productUrl": "https://www.lidl.co.uk/p/favorina-biscuits-with-almond/p10055320",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/MBM9SpyvnIQxWYHHegY7N_b1OcJlhmMRH1CJAma-g7o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wQjRBQkRCOUFGQ0FCM0E4QUZCN0E3QkE/yRjA4RTUzNzI3MjY3NDY5Q0UwOUFDNDk5RUZGRjI1MzM5OUMyNTExLmpwZw.jpg",
+    "retailerProductId": "10055320",
     "availability": "in_stock",
-    "bn": "eridanous",
+    "bn": "favorina",
     "brandSource": "retailer",
     "sourceQuery": "eggs",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=eggs",
@@ -933,13 +980,31 @@
     "retailerCategory": "Food",
     "categorySource": "lidl_product_grid",
     "availabilityText": "Available in store now",
+    "quantitySource": "retailer_product_description",
+    "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-biscuits-with-almond/p10055320",
+    "quantityObservedAt": "2026-11-01T03:41:14.394852+00:00",
     "priceType": "regular",
-    "cn": "eridanous artichokes capers kalamon olives with",
-    "ik": "tok:eridanous|artichokes-capers-kalamon-olives-with|na",
+    "cn": "favorina almond biscuits with",
+    "ik": "tok:favorina|almond-biscuits-with|600g",
     "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 600,
+      "itemUnit": "g",
+      "totalValue": 600,
+      "baseUnit": "g",
+      "display": "600 g"
+    },
+    "wg": 600,
+    "wu": "g",
+    "unitPrice": {
+      "value": "6.65",
+      "currency": "GBP",
+      "per": "kg"
+    },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "High Protein Meatballs",
@@ -966,7 +1031,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Meat Free Sausages/Burgers Assorted",
@@ -993,7 +1058,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Chocolate Pralines With Crunchy Hazelnut Filling",
@@ -1018,7 +1083,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-chocolate-pralines-with-crunchy-hazelnut-filling/p10054846",
-    "quantityObservedAt": "2026-10-31T03:45:34.195904+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:18.058341+00:00",
     "priceType": "regular",
     "cn": "favorina chocolate crunchy filling hazelnut pralines with",
     "ik": "tok:favorina|chocolate-crunchy-filling-hazelnut-pralines-with|200g",
@@ -1040,7 +1105,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Chocolate Pralines With Crunchy Milk Filling",
@@ -1065,7 +1130,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-chocolate-pralines-with-crunchy-milk-filling/p10054847",
-    "quantityObservedAt": "2026-10-31T03:45:34.996486+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:18.903998+00:00",
     "priceType": "regular",
     "cn": "favorina chocolate crunchy filling milk pralines with",
     "ik": "tok:favorina|chocolate-crunchy-filling-milk-pralines-with|200g",
@@ -1087,7 +1152,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Waffles",
@@ -1116,7 +1181,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "6 All Butter Mince Pies",
@@ -1141,7 +1206,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/deluxe-6-all-butter-mince-pies/p10055306",
-    "quantityObservedAt": "2026-10-31T03:45:36.370177+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:20.640506+00:00",
     "priceType": "regular",
     "cn": "deluxe all butter mince pies",
     "ik": "tok:deluxe|all-butter-mince-pies|330g",
@@ -1163,7 +1228,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "All Butter Shortbread Tin",
@@ -1188,7 +1253,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-all-butter-shortbread-tin/p10055342",
-    "quantityObservedAt": "2026-10-31T03:45:37.058544+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:21.596988+00:00",
     "priceType": "regular",
     "cn": "favorina all butter shortbread tin",
     "ik": "tok:favorina|all-butter-shortbread-tin|500g",
@@ -1210,7 +1275,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "All Butter Cinnamon Knots",
@@ -1235,7 +1300,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/deluxe-all-butter-cinnamon-knots/p10055345",
-    "quantityObservedAt": "2026-10-31T03:45:37.750217+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:22.464647+00:00",
     "priceType": "regular",
     "cn": "deluxe all butter cinnamon knots",
     "ik": "tok:deluxe|all-butter-cinnamon-knots|150g",
@@ -1257,7 +1322,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "All Butter Caramel Knots",
@@ -1282,7 +1347,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/deluxe-all-butter-caramel-knots/p10055346",
-    "quantityObservedAt": "2026-10-31T03:45:38.455734+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:23.316273+00:00",
     "priceType": "regular",
     "cn": "deluxe all butter caramel knots",
     "ik": "tok:deluxe|all-butter-caramel-knots|150g",
@@ -1304,101 +1369,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Peanut Butter Cups Snack Size",
-    "p": "4.19",
-    "o": "",
-    "s": "255 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/aN-z4syl3AjUN7g-m1D02_BwOO795nTbQIjotpIdP78/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85OTgzMTFDQ0VGNEJEM0Y2RDExMDc3M0Z/EMUJCQUU3MURDQTk2MzE0RjJFNTU4RkVGMkVFRTc3QjEzRkE5QjEyLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/reese-s-peanut-butter-cups-snack-size/p10055431",
-    "c": "Snacks",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/reese-s-peanut-butter-cups-snack-size/p10055431",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/aN-z4syl3AjUN7g-m1D02_BwOO795nTbQIjotpIdP78/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85OTgzMTFDQ0VGNEJEM0Y2RDExMDc3M0Z/EMUJCQUU3MURDQTk2MzE0RjJFNTU4RkVGMkVFRTc3QjEzRkE5QjEyLmpwZw.jpg",
-    "retailerProductId": "10055431",
-    "availability": "in_stock",
-    "bn": "reese's",
-    "brandSource": "retailer",
-    "sourceQuery": "butter",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=butter",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/reese-s-peanut-butter-cups-snack-size/p10055431",
-    "quantityObservedAt": "2026-10-31T03:45:39.240037+00:00",
-    "priceType": "regular",
-    "cn": "reese's butter cups peanut size snack",
-    "ik": "tok:reese's|butter-cups-peanut-size-snack|255g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 255,
-      "itemUnit": "g",
-      "totalValue": 255,
-      "baseUnit": "g",
-      "display": "255 g"
-    },
-    "wg": 255,
-    "wu": "g",
-    "unitPrice": {
-      "value": "16.43",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Bicarbonate Of Soda Powder",
-    "p": "0.65",
-    "o": "",
-    "s": "200 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/oIfipOsIjutvr-Fpfz8jHH4WwlftYRZpZmf5GlcK334/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QUFFNEZDOEU5Qjg0MjkzMTI2RTkyMTA/4MTA5NTVFNjFGQjMyMERERjVCMEY1REVDQkM3NDA4MUEwRDcxQUI0LmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/belbake-bicarbonate-of-soda-powder/p10055449",
-    "c": "Beverages",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/belbake-bicarbonate-of-soda-powder/p10055449",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/oIfipOsIjutvr-Fpfz8jHH4WwlftYRZpZmf5GlcK334/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QUFFNEZDOEU5Qjg0MjkzMTI2RTkyMTA/4MTA5NTVFNjFGQjMyMERERjVCMEY1REVDQkM3NDA4MUEwRDcxQUI0LmpwZw.jpg",
-    "retailerProductId": "10055449",
-    "availability": "in_stock",
-    "bn": "belbake",
-    "brandSource": "retailer",
-    "sourceQuery": "butter",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=butter",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-bicarbonate-of-soda-powder/p10055449",
-    "quantityObservedAt": "2026-10-31T03:45:39.924796+00:00",
-    "priceType": "regular",
-    "cn": "belbake bicarbonate of powder soda",
-    "ik": "tok:belbake|bicarbonate-of-powder-soda|200g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 200,
-      "itemUnit": "g",
-      "totalValue": 200,
-      "baseUnit": "g",
-      "display": "200 g"
-    },
-    "wg": 200,
-    "wu": "g",
-    "unitPrice": {
-      "value": "3.25",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Butternut Squash",
@@ -1425,7 +1396,54 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
+  },
+  {
+    "n": "Bicarbonate Of Soda Powder",
+    "p": "0.65",
+    "o": "",
+    "s": "200 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/oIfipOsIjutvr-Fpfz8jHH4WwlftYRZpZmf5GlcK334/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QUFFNEZDOEU5Qjg0MjkzMTI2RTkyMTA/4MTA5NTVFNjFGQjMyMERERjVCMEY1REVDQkM3NDA4MUEwRDcxQUI0LmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/belbake-bicarbonate-of-soda-powder/p10055449",
+    "c": "Beverages",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/belbake-bicarbonate-of-soda-powder/p10055449",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/oIfipOsIjutvr-Fpfz8jHH4WwlftYRZpZmf5GlcK334/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QUFFNEZDOEU5Qjg0MjkzMTI2RTkyMTA/4MTA5NTVFNjFGQjMyMERERjVCMEY1REVDQkM3NDA4MUEwRDcxQUI0LmpwZw.jpg",
+    "retailerProductId": "10055449",
+    "availability": "in_stock",
+    "bn": "belbake",
+    "brandSource": "retailer",
+    "sourceQuery": "butter",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=butter",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "quantitySource": "retailer_product_description",
+    "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-bicarbonate-of-soda-powder/p10055449",
+    "quantityObservedAt": "2026-11-01T03:41:25.026076+00:00",
+    "priceType": "regular",
+    "cn": "belbake bicarbonate of powder soda",
+    "ik": "tok:belbake|bicarbonate-of-powder-soda|200g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 200,
+      "itemUnit": "g",
+      "totalValue": 200,
+      "baseUnit": "g",
+      "display": "200 g"
+    },
+    "wg": 200,
+    "wu": "g",
+    "unitPrice": {
+      "value": "3.25",
+      "currency": "GBP",
+      "per": "kg"
+    },
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Greek Yogurt",
@@ -1454,7 +1472,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Reese's Advent Calendar",
@@ -1468,20 +1486,20 @@
     "productUrl": "https://www.lidl.co.uk/p/reese-s-advent-calendar/p11397839",
     "imageUrl": "https://www.lidl.co.uk/assets/gcpd014569c2c3646509d8022179b1911aa.png",
     "retailerProductId": "11397839",
-    "availability": "preorder",
+    "availability": "in_stock",
     "sourceQuery": "butter",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=butter",
     "sourceMethod": "retailer_product_grid",
     "retailerCategory": "Food",
     "categorySource": "lidl_product_grid",
-    "availabilityText": "In store from 01.11",
+    "availabilityText": "Available in store now",
     "priceType": "loyalty",
     "cn": "advent calendar reese",
     "ik": "tok:unknown|advent-calendar-reese|na",
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Chocolate Hazelnut Spread",
@@ -1510,7 +1528,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Pretzel Bites",
@@ -1535,7 +1553,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-pretzel-bites/p10056446",
-    "quantityObservedAt": "2026-10-31T03:45:44.026294+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:28.610110+00:00",
     "priceType": "loyalty",
     "cn": "mcennedy bites pretzel",
     "ik": "tok:mcennedy|bites-pretzel|125g",
@@ -1557,7 +1575,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Mac And Cheese",
@@ -1582,7 +1600,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-mac-and-cheese/p10056431",
-    "quantityObservedAt": "2026-10-31T03:45:44.724180+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:29.460684+00:00",
     "priceType": "regular",
     "cn": "mcennedy and cheese mac",
     "ik": "tok:mcennedy|and-cheese-mac|1000g",
@@ -1604,54 +1622,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Chewy Sweets",
-    "p": "5.99",
-    "o": "",
-    "s": "1200 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/cnWt5MLBcolkKYAZWhaNY0cWuqm5jgElhZ5lEeT5tMc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DNDVBMzU5MjgwMDRGOEUzRTNCNDRFNTk/yRDBEQjlDRjQwQTZBQjMzMDhCNjEzMDlGNzEzQTNCN0MwOTVGOUMxLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/halloween-chewy-sweets/p10055409",
-    "c": "Snacks",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/halloween-chewy-sweets/p10055409",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/cnWt5MLBcolkKYAZWhaNY0cWuqm5jgElhZ5lEeT5tMc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DNDVBMzU5MjgwMDRGOEUzRTNCNDRFNTk/yRDBEQjlDRjQwQTZBQjMzMDhCNjEzMDlGNzEzQTNCN0MwOTVGOUMxLmpwZw.jpg",
-    "retailerProductId": "10055409",
-    "availability": "in_stock",
-    "bn": "halloween",
-    "brandSource": "retailer",
-    "sourceQuery": "cheddar",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=cheddar",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/halloween-chewy-sweets/p10055409",
-    "quantityObservedAt": "2026-10-31T03:45:45.414318+00:00",
-    "priceType": "regular",
-    "cn": "halloween chewy sweets",
-    "ik": "tok:halloween|chewy-sweets|1200g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 1200,
-      "itemUnit": "g",
-      "totalValue": 1200,
-      "baseUnit": "g",
-      "display": "1200 g"
-    },
-    "wg": 1200,
-    "wu": "g",
-    "unitPrice": {
-      "value": "4.99",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Candy Burger",
@@ -1674,7 +1645,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/candy-burger/p10056447",
-    "quantityObservedAt": "2026-10-31T03:45:46.111498+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:30.327788+00:00",
     "priceType": "loyalty",
     "cn": "burger candy",
     "ik": "tok:unknown|burger-candy|130g",
@@ -1696,7 +1667,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "6 Months Matured Medium Christmas Pudding",
@@ -1721,7 +1692,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-6-months-matured-medium-christmas-pudding/p10055343",
-    "quantityObservedAt": "2026-10-31T03:45:46.803101+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:31.246951+00:00",
     "priceType": "regular",
     "cn": "favorina christmas matured medium months pudding",
     "ik": "tok:favorina|christmas-matured-medium-months-pudding|400g",
@@ -1743,7 +1714,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "6 Months Matured Large Christmas Pudding",
@@ -1768,7 +1739,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-6-months-matured-large-christmas-pudding/p10055344",
-    "quantityObservedAt": "2026-10-31T03:45:47.488906+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:32.099314+00:00",
     "priceType": "regular",
     "cn": "favorina christmas large matured months pudding",
     "ik": "tok:favorina|christmas-large-matured-months-pudding|800g",
@@ -1790,7 +1761,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "6 Months Matured Small Christmas Pudding",
@@ -1815,7 +1786,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-6-months-matured-small-christmas-pudding/p10055340",
-    "quantityObservedAt": "2026-10-31T03:45:48.185572+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:32.992090+00:00",
     "priceType": "regular",
     "cn": "favorina christmas matured months pudding small",
     "ik": "tok:favorina|christmas-matured-months-pudding-small|100g",
@@ -1837,7 +1808,54 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
+  },
+  {
+    "n": "American Style Mustard",
+    "p": "1.49",
+    "o": "Lidl Plus",
+    "s": "500 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/RUQ7p8VjVfAoU0qLwfqaZzY4UoHx0nOEVKT4raQVvXk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CQTM1QzcxN0M5Q0Y5N0FGRUI0RTNCMjg/2M0I1OEZGQjc5NjFDODhEQTRGQzEyMUU0MzZCMjU5MUEzOUY5REJFLmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/mcennedy-american-style-mustard/p10056433",
+    "c": "Pantry",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/mcennedy-american-style-mustard/p10056433",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/RUQ7p8VjVfAoU0qLwfqaZzY4UoHx0nOEVKT4raQVvXk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CQTM1QzcxN0M5Q0Y5N0FGRUI0RTNCMjg/2M0I1OEZGQjc5NjFDODhEQTRGQzEyMUU0MzZCMjU5MUEzOUY5REJFLmpwZw.jpg",
+    "retailerProductId": "10056433",
+    "availability": "in_stock",
+    "bn": "mcennedy",
+    "brandSource": "retailer",
+    "sourceQuery": "mature cheddar",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=mature+cheddar",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "quantitySource": "retailer_product_description",
+    "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-american-style-mustard/p10056433",
+    "quantityObservedAt": "2026-11-01T03:41:33.840290+00:00",
+    "priceType": "loyalty",
+    "cn": "mcennedy american mustard style",
+    "ik": "tok:mcennedy|american-mustard-style|500g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "g",
+      "totalValue": 500,
+      "baseUnit": "g",
+      "display": "500 g"
+    },
+    "wg": 500,
+    "wu": "g",
+    "unitPrice": {
+      "value": "2.98",
+      "currency": "GBP",
+      "per": "kg"
+    },
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Greek Pastry",
@@ -1864,7 +1882,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Greek Biscuits With Praline Filling",
@@ -1891,7 +1909,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Greek Honey",
@@ -1920,7 +1938,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Greek Pastries",
@@ -1949,7 +1967,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Biscuits With Coconut",
@@ -1974,7 +1992,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-biscuits-with-coconut/p10055319",
-    "quantityObservedAt": "2026-10-31T03:45:52.221657+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:38.137169+00:00",
     "priceType": "regular",
     "cn": "favorina biscuits coconut with",
     "ik": "tok:favorina|biscuits-coconut-with|600g",
@@ -1996,22 +2014,22 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
-    "n": "Biscuits With Almond",
-    "p": "3.99",
+    "n": "Artichokes With Capers & Kalamon Olives",
+    "p": "1.79",
     "o": "",
-    "s": "600 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/MBM9SpyvnIQxWYHHegY7N_b1OcJlhmMRH1CJAma-g7o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wQjRBQkRCOUFGQ0FCM0E4QUZCN0E3QkE/yRjA4RTUzNzI3MjY3NDY5Q0UwOUFDNDk5RUZGRjI1MzM5OUMyNTExLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/favorina-biscuits-with-almond/p10055320",
-    "c": "Snacks",
+    "s": "",
+    "l": "https://www.lidl.co.uk/assets/gcpd396228b378740c794a341a7a4de602e.png",
+    "i": "https://www.lidl.co.uk/p/eridanous-artichokes-with-capers-kalamon-olives/p11533885",
+    "c": "Other",
     "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/favorina-biscuits-with-almond/p10055320",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/MBM9SpyvnIQxWYHHegY7N_b1OcJlhmMRH1CJAma-g7o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wQjRBQkRCOUFGQ0FCM0E4QUZCN0E3QkE/yRjA4RTUzNzI3MjY3NDY5Q0UwOUFDNDk5RUZGRjI1MzM5OUMyNTExLmpwZw.jpg",
-    "retailerProductId": "10055320",
+    "productUrl": "https://www.lidl.co.uk/p/eridanous-artichokes-with-capers-kalamon-olives/p11533885",
+    "imageUrl": "https://www.lidl.co.uk/assets/gcpd396228b378740c794a341a7a4de602e.png",
+    "retailerProductId": "11533885",
     "availability": "in_stock",
-    "bn": "favorina",
+    "bn": "eridanous",
     "brandSource": "retailer",
     "sourceQuery": "bananas",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=bananas",
@@ -2019,31 +2037,13 @@
     "retailerCategory": "Food",
     "categorySource": "lidl_product_grid",
     "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-biscuits-with-almond/p10055320",
-    "quantityObservedAt": "2026-10-31T03:45:52.917530+00:00",
     "priceType": "regular",
-    "cn": "favorina almond biscuits with",
-    "ik": "tok:favorina|almond-biscuits-with|600g",
+    "cn": "eridanous artichokes capers kalamon olives with",
+    "ik": "tok:eridanous|artichokes-capers-kalamon-olives-with|na",
     "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 600,
-      "itemUnit": "g",
-      "totalValue": 600,
-      "baseUnit": "g",
-      "display": "600 g"
-    },
-    "wg": 600,
-    "wu": "g",
-    "unitPrice": {
-      "value": "6.65",
-      "currency": "GBP",
-      "per": "kg"
-    },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Maize And Potato Snack",
@@ -2068,7 +2068,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-maize-and-potato-snack/p10056445",
-    "quantityObservedAt": "2026-10-31T03:45:53.605130+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:39.842099+00:00",
     "priceType": "loyalty",
     "cn": "mcennedy and maize potato snack",
     "ik": "tok:mcennedy|and-maize-potato-snack|175g",
@@ -2090,7 +2090,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "6 Potato Skins With Cheese & Onion",
@@ -2115,7 +2115,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/chef-select-party-6-potato-skins-with-cheese-onion/p10056415",
-    "quantityObservedAt": "2026-10-31T03:45:54.287885+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:40.686583+00:00",
     "priceType": "regular",
     "cn": "chef select party cheese onion potato skins with",
     "ik": "tok:chef select party|cheese-onion-potato-skins-with|390g",
@@ -2137,7 +2137,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "6 Potato Skins With Cheese & Bacon",
@@ -2162,7 +2162,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/chef-select-party-6-potato-skins-with-cheese-bacon/p10056416",
-    "quantityObservedAt": "2026-10-31T03:45:54.999903+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:41.560302+00:00",
     "priceType": "regular",
     "cn": "chef select party bacon cheese potato skins with",
     "ik": "tok:chef select party|bacon-cheese-potato-skins-with|390g",
@@ -2184,7 +2184,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "6 Potato Skins With Jalapeno",
@@ -2209,7 +2209,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/chef-select-party-6-potato-skins-with-jalapeno/p10056417",
-    "quantityObservedAt": "2026-10-31T03:45:55.700983+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:42.548709+00:00",
     "priceType": "regular",
     "cn": "chef select party jalapeno potato skins with",
     "ik": "tok:chef select party|jalapeno-potato-skins-with|390g",
@@ -2231,7 +2231,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Meatballs",
@@ -2260,7 +2260,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Crisps",
@@ -2289,7 +2289,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Green Peppers In Brine",
@@ -2318,7 +2318,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Okra In Tomato Sauce",
@@ -2347,7 +2347,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Ready Meal",
@@ -2374,7 +2374,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Tortelloni Assorted",
@@ -2403,7 +2403,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Vine Leaves With Rice",
@@ -2432,7 +2432,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Spring Onions",
@@ -2459,7 +2459,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Gherkins & Silverskin Onions",
@@ -2488,7 +2488,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Greek Style Salami",
@@ -2515,7 +2515,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Brioche",
@@ -2544,7 +2544,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Iceberg Lettuce",
@@ -2571,7 +2571,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Cabbage Salad",
@@ -2600,7 +2600,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Morgon Collin-Bourisset",
@@ -2627,7 +2627,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Chicken Wings",
@@ -2654,7 +2654,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Pork Belly",
@@ -2683,22 +2683,22 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
-    "n": "Milk Chocolate Balls",
-    "p": "0.99",
+    "n": "Chocolate Milk Ball",
+    "p": "1.79",
     "o": "",
-    "s": "70 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/17_SfmBzbGYvjZmqhnZA8PphmDB3f760WurUoObZseQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82NDVENDY2QjkxMzk1NzY4RjEwOEQ0NzF/GRTJEODFFRTYyM0YzODlDM0U3QzAwNzg5MUM1QjM2ODgyNkI2RUQ3LmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/halloween-milk-chocolate-balls/p10055407",
-    "c": "Snacks",
+    "s": "145 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/vo2rOPhkhEsfsC3hzfpYpMm3qFpx9azsQMkAewPTAy0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zN0MwOTQwODJERDY1NDgzNDE1NjNDNDN/ENDZDQUY5OEUzMzY4NTc1MTEzQzI1NzgzNjJGODRGQzAxOTYxQkI0LmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/terry-s-chocolate-milk-ball/p10054865",
+    "c": "Beverages",
     "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/halloween-milk-chocolate-balls/p10055407",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/17_SfmBzbGYvjZmqhnZA8PphmDB3f760WurUoObZseQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82NDVENDY2QjkxMzk1NzY4RjEwOEQ0NzF/GRTJEODFFRTYyM0YzODlDM0U3QzAwNzg5MUM1QjM2ODgyNkI2RUQ3LmpwZw.jpg",
-    "retailerProductId": "10055407",
+    "productUrl": "https://www.lidl.co.uk/p/terry-s-chocolate-milk-ball/p10054865",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/vo2rOPhkhEsfsC3hzfpYpMm3qFpx9azsQMkAewPTAy0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zN0MwOTQwODJERDY1NDgzNDE1NjNDNDN/ENDZDQUY5OEUzMzY4NTc1MTEzQzI1NzgzNjJGODRGQzAxOTYxQkI0LmpwZw.jpg",
+    "retailerProductId": "10054865",
     "availability": "in_stock",
-    "bn": "halloween",
+    "bn": "terry's",
     "brandSource": "retailer",
     "sourceQuery": "chicken breast",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=chicken+breast",
@@ -2707,30 +2707,30 @@
     "categorySource": "lidl_product_grid",
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/halloween-milk-chocolate-balls/p10055407",
-    "quantityObservedAt": "2026-10-31T03:46:07.653940+00:00",
+    "quantitySourceUrl": "https://www.lidl.co.uk/p/terry-s-chocolate-milk-ball/p10054865",
+    "quantityObservedAt": "2026-11-01T03:41:58.433569+00:00",
     "priceType": "regular",
-    "cn": "halloween balls chocolate milk",
-    "ik": "tok:halloween|balls-chocolate-milk|70g",
+    "cn": "terry's ball chocolate milk",
+    "ik": "tok:terry's|ball-chocolate-milk|145g",
     "schemaVersion": 2,
     "quantity": {
       "packCount": 1,
-      "itemValue": 70,
+      "itemValue": 145,
       "itemUnit": "g",
-      "totalValue": 70,
+      "totalValue": 145,
       "baseUnit": "g",
-      "display": "70 g"
+      "display": "145 g"
     },
-    "wg": 70,
+    "wg": 145,
     "wu": "g",
     "unitPrice": {
-      "value": "14.14",
+      "value": "12.34",
       "currency": "GBP",
       "per": "kg"
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Hot Dog Sausages",
@@ -2755,7 +2755,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-hot-dog-sausages/p10056430",
-    "quantityObservedAt": "2026-10-31T03:46:08.415174+00:00",
+    "quantityObservedAt": "2026-11-01T03:41:59.323216+00:00",
     "priceType": "regular",
     "cn": "mcennedy dog hot sausages",
     "ik": "tok:mcennedy|dog-hot-sausages|550g",
@@ -2777,7 +2777,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "High Protein Mince 5%",
@@ -2804,7 +2804,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "High Protein Mince 10%",
@@ -2831,7 +2831,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "6 Mince Pies",
@@ -2856,7 +2856,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-6-mince-pies/p10055305",
-    "quantityObservedAt": "2026-10-31T03:46:10.546843+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:01.871192+00:00",
     "priceType": "regular",
     "cn": "favorina mince pies",
     "ik": "tok:favorina|mince-pies|344g",
@@ -2878,7 +2878,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Spiced Brandy Mincemeat",
@@ -2903,7 +2903,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/deluxe-spiced-brandy-mincemeat/p10054827",
-    "quantityObservedAt": "2026-10-31T03:46:11.229470+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:02.717109+00:00",
     "priceType": "regular",
     "cn": "deluxe brandy mincemeat spiced",
     "ik": "tok:deluxe|brandy-mincemeat-spiced|411g",
@@ -2925,7 +2925,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Greek Style Meatballs",
@@ -2952,7 +2952,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Minted Lamb Steaks",
@@ -2979,7 +2979,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Bacon Rashers",
@@ -3004,7 +3004,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-bacon-rashers/p10056432",
-    "quantityObservedAt": "2026-10-31T03:46:13.324947+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:05.325716+00:00",
     "priceType": "regular",
     "cn": "mcennedy bacon rashers",
     "ik": "tok:mcennedy|bacon-rashers|240g",
@@ -3026,7 +3026,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "10 Bacon Mac & Cheese Bites",
@@ -3051,7 +3051,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/chef-select-party-10-bacon-mac-cheese-bites/p10056422",
-    "quantityObservedAt": "2026-10-31T03:46:14.019538+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:06.183297+00:00",
     "priceType": "regular",
     "cn": "chef select party 10 bacon bites cheese mac",
     "ik": "tok:chef select party|10-bacon-bites-cheese-mac|200g",
@@ -3073,7 +3073,36 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
+  },
+  {
+    "n": "Tuna",
+    "p": "1.99",
+    "o": "Lidl Plus",
+    "s": "",
+    "l": "https://www.lidl.co.uk/assets/gcpda547d8fd4094ce1ad75438f6df17c3b.png",
+    "i": "https://www.lidl.co.uk/p/eridanous-tuna/p11150019",
+    "c": "Meat & Seafood",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/eridanous-tuna/p11150019",
+    "imageUrl": "https://www.lidl.co.uk/assets/gcpda547d8fd4094ce1ad75438f6df17c3b.png",
+    "retailerProductId": "11150019",
+    "availability": "in_stock",
+    "bn": "eridanous",
+    "brandSource": "retailer",
+    "sourceQuery": "bacon",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=bacon",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "priceType": "loyalty",
+    "cn": "eridanous tuna",
+    "ik": "tok:eridanous|tuna|na",
+    "schemaVersion": 2,
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Vegan Burgers / Sausages",
@@ -3100,7 +3129,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Silesian Sausage",
@@ -3129,7 +3158,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Parizaki Sausage",
@@ -3158,7 +3187,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Flavoured Macaroni Cheese Assorted",
@@ -3185,7 +3214,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Salmon Fillets",
@@ -3214,36 +3243,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Tuna",
-    "p": "1.99",
-    "o": "Lidl Plus",
-    "s": "",
-    "l": "https://www.lidl.co.uk/assets/gcpda547d8fd4094ce1ad75438f6df17c3b.png",
-    "i": "https://www.lidl.co.uk/p/eridanous-tuna/p11150019",
-    "c": "Meat & Seafood",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/eridanous-tuna/p11150019",
-    "imageUrl": "https://www.lidl.co.uk/assets/gcpda547d8fd4094ce1ad75438f6df17c3b.png",
-    "retailerProductId": "11150019",
-    "availability": "in_stock",
-    "bn": "eridanous",
-    "brandSource": "retailer",
-    "sourceQuery": "salmon",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=salmon",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "priceType": "loyalty",
-    "cn": "eridanous tuna",
-    "ik": "tok:eridanous|tuna|na",
-    "schemaVersion": 2,
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Melt In The Middle Salmon & Hollandaise Fishcake",
@@ -3272,7 +3272,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Olive Paste",
@@ -3301,7 +3301,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Black Forest Ham Slices",
@@ -3330,7 +3330,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Premium Macaroni",
@@ -3359,7 +3359,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Kritharaki Pasta",
@@ -3388,7 +3388,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Passito",
@@ -3415,7 +3415,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Grated Mozzarella",
@@ -3444,7 +3444,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Pastitsio",
@@ -3473,7 +3473,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Cooked And Peeled Jumbo King Prawns",
@@ -3502,7 +3502,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Chocolate Panettone",
@@ -3527,7 +3527,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/deluxe-chocolate-panettone/p10055351",
-    "quantityObservedAt": "2026-10-31T03:46:25.180095+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:20.132794+00:00",
     "priceType": "regular",
     "cn": "deluxe chocolate panettone",
     "ik": "tok:deluxe|chocolate-panettone|800g",
@@ -3549,7 +3549,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Mai Thai Jasmine Rice",
@@ -3576,7 +3576,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Stuffed Vine Leaves With Rice, Pomegranate And Spices",
@@ -3605,7 +3605,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Sesame Paste",
@@ -3634,7 +3634,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Turkish Raisins",
@@ -3659,7 +3659,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-turkish-raisins/p10055459",
-    "quantityObservedAt": "2026-10-31T03:46:28.023095+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:23.562314+00:00",
     "priceType": "regular",
     "cn": "belbake raisins turkish",
     "ik": "tok:belbake|raisins-turkish|500g",
@@ -3681,7 +3681,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Roasted Peanuts In Shells",
@@ -3706,7 +3706,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-roasted-peanuts-in-shells/p10056450",
-    "quantityObservedAt": "2026-10-31T03:46:28.717941+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:24.432640+00:00",
     "priceType": "loyalty",
     "cn": "mcennedy in peanuts roasted shells",
     "ik": "tok:mcennedy|in-peanuts-roasted-shells|500g",
@@ -3728,54 +3728,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Spiced Glazed Biscuits With Milk Chocolate",
-    "p": "1.69",
-    "o": "",
-    "s": "200 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/CIRoglOkkpSlLFrZYa1kfxsQVqde7K8jtV1xcZyF6HQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zRkE3MUU5OTRFRjU0QzQ5QTg0QjJENkI/zNEU0NDNCQzYwNUQ2REFBNzczQzMyQ0UyMzA0QTBEODkzMDM4MzMwLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/favorina-spiced-glazed-biscuits-with-milk-chocolate/p10055322",
-    "c": "Snacks",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/favorina-spiced-glazed-biscuits-with-milk-chocolate/p10055322",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/CIRoglOkkpSlLFrZYa1kfxsQVqde7K8jtV1xcZyF6HQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zRkE3MUU5OTRFRjU0QzQ5QTg0QjJENkI/zNEU0NDNCQzYwNUQ2REFBNzczQzMyQ0UyMzA0QTBEODkzMDM4MzMwLmpwZw.jpg",
-    "retailerProductId": "10055322",
-    "availability": "in_stock",
-    "bn": "favorina",
-    "brandSource": "retailer",
-    "sourceQuery": "baked beans",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=baked+beans",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-spiced-glazed-biscuits-with-milk-chocolate/p10055322",
-    "quantityObservedAt": "2026-10-31T03:46:29.412375+00:00",
-    "priceType": "regular",
-    "cn": "favorina biscuits chocolate glazed milk spiced with",
-    "ik": "tok:favorina|biscuits-chocolate-glazed-milk-spiced-with|200g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 200,
-      "itemUnit": "g",
-      "totalValue": 200,
-      "baseUnit": "g",
-      "display": "200 g"
-    },
-    "wg": 200,
-    "wu": "g",
-    "unitPrice": {
-      "value": "8.45",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Spiced Glazed Biscuits With Dark Chocolate",
@@ -3800,7 +3753,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-spiced-glazed-biscuits-with-dark-chocolate/p10055323",
-    "quantityObservedAt": "2026-10-31T03:46:30.108676+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:25.304430+00:00",
     "priceType": "regular",
     "cn": "favorina biscuits chocolate dark glazed spiced with",
     "ik": "tok:favorina|biscuits-chocolate-dark-glazed-spiced-with|200g",
@@ -3822,7 +3775,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Tinned Fish",
@@ -3849,7 +3802,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Pitted Mixed Olives",
@@ -3878,7 +3831,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Pitted Green Olives In Brine",
@@ -3907,7 +3860,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Coffee Crema Classico",
@@ -3936,7 +3889,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Espresso Coffee Beans",
@@ -3965,7 +3918,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Espresso Dark Roast Coffee",
@@ -3994,7 +3947,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Gold Coffee",
@@ -4023,7 +3976,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Cocoa Powder",
@@ -4048,7 +4001,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-cocoa-powder/p10055451",
-    "quantityObservedAt": "2026-10-31T03:46:35.960550+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:32.199998+00:00",
     "priceType": "regular",
     "cn": "belbake cocoa powder",
     "ik": "tok:belbake|cocoa-powder|250g",
@@ -4070,101 +4023,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Party Mix Bag",
-    "p": "4.99",
-    "o": "",
-    "s": "900 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/tGhyQhxzHgiBmFxRRKt7XhuRpRte4awgBza04JTAWnk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85QjBGRjY5ODJCRkRBRjIyMEREODQzNTV/BMDIxNUJCOEM2QjhEN0YyNDVEQkE2QTY1MTNGOUNFOTdERDgyMkEyLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/swizzels-party-mix-bag/p10055381",
-    "c": "Other",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/swizzels-party-mix-bag/p10055381",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/tGhyQhxzHgiBmFxRRKt7XhuRpRte4awgBza04JTAWnk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85QjBGRjY5ODJCRkRBRjIyMEREODQzNTV/BMDIxNUJCOEM2QjhEN0YyNDVEQkE2QTY1MTNGOUNFOTdERDgyMkEyLmpwZw.jpg",
-    "retailerProductId": "10055381",
-    "availability": "in_stock",
-    "bn": "swizzels",
-    "brandSource": "retailer",
-    "sourceQuery": "tea bags",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=tea+bags",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/swizzels-party-mix-bag/p10055381",
-    "quantityObservedAt": "2026-10-31T03:46:36.663045+00:00",
-    "priceType": "regular",
-    "cn": "swizzels bag mix party",
-    "ik": "tok:swizzels|bag-mix-party|900g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 900,
-      "itemUnit": "g",
-      "totalValue": 900,
-      "baseUnit": "g",
-      "display": "900 g"
-    },
-    "wg": 900,
-    "wu": "g",
-    "unitPrice": {
-      "value": "5.54",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Sweet Bags Assorted",
-    "p": "0.45",
-    "o": "",
-    "s": "75 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/AAuoqX_Dtm1m22JuBPTZWOOHe1pOGg6RJJEO_xtfPhQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yREE3Nzk5OTBCM0U4OUZFOTQ1OTQyRjE/zN0E3RTM3MkUwMDMyMDBGRjlFQjNGMURCQTIxODREQTgxQjZDOUJDLnBuZw.png",
-    "i": "https://www.lidl.co.uk/p/halloween-sweet-bags-assorted/p10055427",
-    "c": "Snacks",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/halloween-sweet-bags-assorted/p10055427",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/AAuoqX_Dtm1m22JuBPTZWOOHe1pOGg6RJJEO_xtfPhQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yREE3Nzk5OTBCM0U4OUZFOTQ1OTQyRjE/zN0E3RTM3MkUwMDMyMDBGRjlFQjNGMURCQTIxODREQTgxQjZDOUJDLnBuZw.png",
-    "retailerProductId": "10055427",
-    "availability": "in_stock",
-    "bn": "halloween",
-    "brandSource": "retailer",
-    "sourceQuery": "tea bags",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=tea+bags",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/halloween-sweet-bags-assorted/p10055427",
-    "quantityObservedAt": "2026-10-31T03:46:37.368921+00:00",
-    "priceType": "regular",
-    "cn": "halloween assorted bags sweet",
-    "ik": "tok:halloween|assorted-bags-sweet|75g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 75,
-      "itemUnit": "g",
-      "totalValue": 75,
-      "baseUnit": "g",
-      "display": "75 g"
-    },
-    "wg": 75,
-    "wu": "g",
-    "unitPrice": {
-      "value": "6.00",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Vanilla Extract",
@@ -4189,7 +4048,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-vanilla-extract/p10055448",
-    "quantityObservedAt": "2026-10-31T03:46:38.060773+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:33.067236+00:00",
     "priceType": "regular",
     "cn": "belbake extract vanilla",
     "ik": "tok:belbake|extract-vanilla|38ml",
@@ -4211,7 +4070,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Fruit Gummy Cola Bottles",
@@ -4236,7 +4095,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-xxl-fruit-gummy-cola-bottles/p10056443",
-    "quantityObservedAt": "2026-10-31T03:46:38.771707+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:33.855964+00:00",
     "priceType": "loyalty",
     "cn": "mcennedy bottles cola fruit gummy xxl",
     "ik": "tok:mcennedy|bottles-cola-fruit-gummy-xxl|1000g",
@@ -4258,7 +4117,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Feta",
@@ -4287,54 +4146,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Icing Sugar",
-    "p": "0.89",
-    "o": "",
-    "s": "500 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/Ay2EC0-xEGqA1uN0mGqopFbtZsj_szWnjRYYqfojkHA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xM0Q5Q0QzMzk3MkU4RTE5OThGOTQwQzA/3N0Q3MjlDRTJBNEMzNjIyQjM5QkVCQUMzRTFEMkUwMzQ1RjZERUI4LmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/belbake-icing-sugar/p10055441",
-    "c": "Pantry",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/belbake-icing-sugar/p10055441",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/Ay2EC0-xEGqA1uN0mGqopFbtZsj_szWnjRYYqfojkHA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xM0Q5Q0QzMzk3MkU4RTE5OThGOTQwQzA/3N0Q3MjlDRTJBNEMzNjIyQjM5QkVCQUMzRTFEMkUwMzQ1RjZERUI4LmpwZw.jpg",
-    "retailerProductId": "10055441",
-    "availability": "in_stock",
-    "bn": "belbake",
-    "brandSource": "retailer",
-    "sourceQuery": "sparkling water",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=sparkling+water",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-icing-sugar/p10055441",
-    "quantityObservedAt": "2026-10-31T03:46:40.240003+00:00",
-    "priceType": "regular",
-    "cn": "belbake icing sugar",
-    "ik": "tok:belbake|icing-sugar|500g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 500,
-      "itemUnit": "g",
-      "totalValue": 500,
-      "baseUnit": "g",
-      "display": "500 g"
-    },
-    "wg": 500,
-    "wu": "g",
-    "unitPrice": {
-      "value": "1.78",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Celebrations Tub",
@@ -4359,7 +4171,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/celebrations-celebrations-tub/p10054845",
-    "quantityObservedAt": "2026-10-31T03:46:40.960118+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:35.549552+00:00",
     "priceType": "loyalty",
     "cn": "celebrations tub",
     "ik": "tok:celebrations|tub|500g",
@@ -4381,7 +4193,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Effervescent Tablets",
@@ -4410,7 +4222,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Ouzo",
@@ -4439,7 +4251,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Gr Natives Extra Olive Oil",
@@ -4468,7 +4280,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Greek Style Cheese Cubes In Oil",
@@ -4497,7 +4309,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Tzatziki",
@@ -4526,7 +4338,54 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
+  },
+  {
+    "n": "Icing Sugar",
+    "p": "0.89",
+    "o": "",
+    "s": "500 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/Ay2EC0-xEGqA1uN0mGqopFbtZsj_szWnjRYYqfojkHA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xM0Q5Q0QzMzk3MkU4RTE5OThGOTQwQzA/3N0Q3MjlDRTJBNEMzNjIyQjM5QkVCQUMzRTFEMkUwMzQ1RjZERUI4LmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/belbake-icing-sugar/p10055441",
+    "c": "Pantry",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/belbake-icing-sugar/p10055441",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/Ay2EC0-xEGqA1uN0mGqopFbtZsj_szWnjRYYqfojkHA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xM0Q5Q0QzMzk3MkU4RTE5OThGOTQwQzA/3N0Q3MjlDRTJBNEMzNjIyQjM5QkVCQUMzRTFEMkUwMzQ1RjZERUI4LmpwZw.jpg",
+    "retailerProductId": "10055441",
+    "availability": "in_stock",
+    "bn": "belbake",
+    "brandSource": "retailer",
+    "sourceQuery": "sugar",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=sugar",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "quantitySource": "retailer_product_description",
+    "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-icing-sugar/p10055441",
+    "quantityObservedAt": "2026-11-01T03:42:40.936568+00:00",
+    "priceType": "regular",
+    "cn": "belbake icing sugar",
+    "ik": "tok:belbake|icing-sugar|500g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 500,
+      "itemUnit": "g",
+      "totalValue": 500,
+      "baseUnit": "g",
+      "display": "500 g"
+    },
+    "wg": 500,
+    "wu": "g",
+    "unitPrice": {
+      "value": "1.78",
+      "currency": "GBP",
+      "per": "kg"
+    },
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Caster Sugar",
@@ -4551,7 +4410,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-caster-sugar/p10055440",
-    "quantityObservedAt": "2026-10-31T03:46:45.189789+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:41.819379+00:00",
     "priceType": "regular",
     "cn": "belbake caster sugar",
     "ik": "tok:belbake|caster-sugar|1000g",
@@ -4573,7 +4432,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Demerara Sugar",
@@ -4598,7 +4457,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-demerara-sugar/p10055442",
-    "quantityObservedAt": "2026-10-31T03:46:45.875154+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:42.698668+00:00",
     "priceType": "regular",
     "cn": "belbake demerara sugar",
     "ik": "tok:belbake|demerara-sugar|1000g",
@@ -4620,7 +4479,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Fairtrade Light Brown Soft Sugar",
@@ -4645,7 +4504,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-fairtrade-light-brown-soft-sugar/p10055443",
-    "quantityObservedAt": "2026-10-31T03:46:46.561391+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:43.533483+00:00",
     "priceType": "regular",
     "cn": "belbake brown fairtrade light soft sugar",
     "ik": "tok:belbake|brown-fairtrade-light-soft-sugar|1000g",
@@ -4667,7 +4526,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Fairtrade Dark Brown Soft Sugar",
@@ -4692,7 +4551,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-fairtrade-dark-brown-soft-sugar/p10055444",
-    "quantityObservedAt": "2026-10-31T03:46:47.272526+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:44.377757+00:00",
     "priceType": "regular",
     "cn": "belbake brown dark fairtrade soft sugar",
     "ik": "tok:belbake|brown-dark-fairtrade-soft-sugar|1000g",
@@ -4714,7 +4573,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Peanuts",
@@ -4743,7 +4602,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Mini Peanut Bars",
@@ -4768,7 +4627,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-mini-peanut-bars/p10056448",
-    "quantityObservedAt": "2026-10-31T03:46:48.728066+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:46.071141+00:00",
     "priceType": "loyalty",
     "cn": "mcennedy bars mini peanut",
     "ik": "tok:mcennedy|bars-mini-peanut|150g",
@@ -4790,7 +4649,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Antipasti Selection",
@@ -4817,7 +4676,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Dips",
@@ -4844,7 +4703,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Peanut Bar",
@@ -4873,7 +4732,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Halloumi",
@@ -4902,7 +4761,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Manuka Honey Mgo 100",
@@ -4931,7 +4790,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Mini Crispy Santas",
@@ -4956,7 +4815,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/m-m-mini-crispy-santas/p10054863",
-    "quantityObservedAt": "2026-10-31T03:46:53.154344+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:51.288242+00:00",
     "priceType": "regular",
     "cn": "m&m crispy mini santas",
     "ik": "tok:m&m|crispy-mini-santas|59g",
@@ -4978,7 +4837,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Snacktastic Dips Mild Salsa / Hot Salsa / Sour Cream & Chive",
@@ -5005,7 +4864,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Greek Specialities",
@@ -5034,7 +4893,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Deluxe Baklava Assortment",
@@ -5061,7 +4920,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Crémant De Bourgogne",
@@ -5088,81 +4947,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Kinder Chocolate",
-    "p": "3.49",
-    "o": "",
-    "s": "",
-    "l": "https://imgproxy-retcat.assets.schwarz/EH7MzeqhsSMfIdM50FpvkAPRUv7tD3GkohpIu9-JUDI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CNjM4MDc5MkRCQUQ2MEVGMTM2N0Y0RDN/ENzg3MzE4RUMwM0FDNkI2RjhERUVFNkVEOTBCNzYwNDlGRTdBQzVFLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/kinder-chocolate/p10052239",
-    "c": "Snacks",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/kinder-chocolate/p10052239",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/EH7MzeqhsSMfIdM50FpvkAPRUv7tD3GkohpIu9-JUDI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CNjM4MDc5MkRCQUQ2MEVGMTM2N0Y0RDN/ENzg3MzE4RUMwM0FDNkI2RjhERUVFNkVEOTBCNzYwNDlGRTdBQzVFLmpwZw.jpg",
-    "retailerProductId": "10052239",
-    "availability": "in_stock",
-    "sourceQuery": "chocolate",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=chocolate",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "priceType": "regular",
-    "cn": "chocolate kinder",
-    "ik": "tok:unknown|chocolate-kinder|na",
-    "schemaVersion": 2,
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Chocolate Milk Ball",
-    "p": "1.79",
-    "o": "",
-    "s": "145 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/vo2rOPhkhEsfsC3hzfpYpMm3qFpx9azsQMkAewPTAy0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zN0MwOTQwODJERDY1NDgzNDE1NjNDNDN/ENDZDQUY5OEUzMzY4NTc1MTEzQzI1NzgzNjJGODRGQzAxOTYxQkI0LmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/terry-s-chocolate-milk-ball/p10054865",
-    "c": "Beverages",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/terry-s-chocolate-milk-ball/p10054865",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/vo2rOPhkhEsfsC3hzfpYpMm3qFpx9azsQMkAewPTAy0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zN0MwOTQwODJERDY1NDgzNDE1NjNDNDN/ENDZDQUY5OEUzMzY4NTc1MTEzQzI1NzgzNjJGODRGQzAxOTYxQkI0LmpwZw.jpg",
-    "retailerProductId": "10054865",
-    "availability": "in_stock",
-    "bn": "terry's",
-    "brandSource": "retailer",
-    "sourceQuery": "chocolate",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=chocolate",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/terry-s-chocolate-milk-ball/p10054865",
-    "quantityObservedAt": "2026-10-31T03:46:57.341456+00:00",
-    "priceType": "regular",
-    "cn": "terry's ball chocolate milk",
-    "ik": "tok:terry's|ball-chocolate-milk|145g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 145,
-      "itemUnit": "g",
-      "totalValue": 145,
-      "baseUnit": "g",
-      "display": "145 g"
-    },
-    "wg": 145,
-    "wu": "g",
-    "unitPrice": {
-      "value": "12.34",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Cadbury Heroes Chocolate Christmas Advent Calendar",
@@ -5176,20 +4961,20 @@
     "productUrl": "https://www.lidl.co.uk/p/cadbury-heroes-chocolate-christmas-advent-calendar/p11715215",
     "imageUrl": "https://www.lidl.co.uk/assets/gcp18e6b020988b4ce7b0122001b1307f9f.jpg",
     "retailerProductId": "11715215",
-    "availability": "preorder",
+    "availability": "in_stock",
     "sourceQuery": "chocolate",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=chocolate",
     "sourceMethod": "retailer_product_grid",
     "retailerCategory": "Food",
     "categorySource": "lidl_product_grid",
-    "availabilityText": "In store from 01.11",
+    "availabilityText": "Available in store now",
     "priceType": "loyalty",
     "cn": "advent cadbury calendar chocolate christmas heroes",
     "ik": "tok:unknown|advent-cadbury-calendar-chocolate-christmas-heroes|na",
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Terry's Chocolate Orange Advent Calendar",
@@ -5203,67 +4988,20 @@
     "productUrl": "https://www.lidl.co.uk/p/terry-s-chocolate-orange-advent-calendar/p11396353",
     "imageUrl": "https://www.lidl.co.uk/assets/gcp6df6cc2a07744f04bca1571f86d8b73b.png",
     "retailerProductId": "11396353",
-    "availability": "preorder",
-    "sourceQuery": "chocolate",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=chocolate",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "In store from 01.11",
-    "priceType": "loyalty",
-    "cn": "advent calendar chocolate orange terry",
-    "ik": "tok:unknown|advent-calendar-chocolate-orange-terry|na",
-    "schemaVersion": 2,
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Chocolate Mini Panettone",
-    "p": "1.49",
-    "o": "",
-    "s": "100 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/6m-Lafr8BI2D4iRdkiX-anCTXmApjnlERJrBosZPn1U/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FM0YyMjNDMTg2NDM0OTUyRjU0RDVCNkY/3RjFGRTUxQjBDNzEzRkZEOUIyODM1QTJBQUUyMzhDM0VFQjhFODFCLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/deluxe-chocolate-mini-panettone/p10055350",
-    "c": "Snacks",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/deluxe-chocolate-mini-panettone/p10055350",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/6m-Lafr8BI2D4iRdkiX-anCTXmApjnlERJrBosZPn1U/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FM0YyMjNDMTg2NDM0OTUyRjU0RDVCNkY/3RjFGRTUxQjBDNzEzRkZEOUIyODM1QTJBQUUyMzhDM0VFQjhFODFCLmpwZw.jpg",
-    "retailerProductId": "10055350",
     "availability": "in_stock",
-    "bn": "deluxe",
-    "brandSource": "retailer",
     "sourceQuery": "chocolate",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=chocolate",
     "sourceMethod": "retailer_product_grid",
     "retailerCategory": "Food",
     "categorySource": "lidl_product_grid",
     "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/deluxe-chocolate-mini-panettone/p10055350",
-    "quantityObservedAt": "2026-10-31T03:46:59.420743+00:00",
-    "priceType": "regular",
-    "cn": "deluxe chocolate mini panettone",
-    "ik": "tok:deluxe|chocolate-mini-panettone|100g",
+    "priceType": "loyalty",
+    "cn": "advent calendar chocolate orange terry",
+    "ik": "tok:unknown|advent-calendar-chocolate-orange-terry|na",
     "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 100,
-      "itemUnit": "g",
-      "totalValue": 100,
-      "baseUnit": "g",
-      "display": "100 g"
-    },
-    "wg": 100,
-    "wu": "g",
-    "unitPrice": {
-      "value": "14.90",
-      "currency": "GBP",
-      "per": "kg"
-    },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Dark Chocolate Chips",
@@ -5288,7 +5026,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-dark-chocolate-chips/p10055453",
-    "quantityObservedAt": "2026-10-31T03:47:00.112690+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:57.357656+00:00",
     "priceType": "regular",
     "cn": "belbake chips chocolate dark",
     "ik": "tok:belbake|chips-chocolate-dark|100g",
@@ -5310,7 +5048,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Chocolate Wafer Bites",
@@ -5339,7 +5077,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Soft Nougat With Orange & Dark Chocolate",
@@ -5364,7 +5102,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/deluxe-soft-nougat-with-orange-dark-chocolate/p10055361",
-    "quantityObservedAt": "2026-10-31T03:47:01.489439+00:00",
+    "quantityObservedAt": "2026-11-01T03:42:59.034001+00:00",
     "priceType": "regular",
     "cn": "deluxe chocolate dark nougat orange soft with",
     "ik": "tok:deluxe|chocolate-dark-nougat-orange-soft-with|75g",
@@ -5386,7 +5124,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Galaxy Advent Calendar",
@@ -5400,20 +5138,20 @@
     "productUrl": "https://www.lidl.co.uk/p/galaxy-advent-calendar/p11395038",
     "imageUrl": "https://www.lidl.co.uk/assets/gcp2304ef94e97b4a62adb833ffc02c5d77.png",
     "retailerProductId": "11395038",
-    "availability": "preorder",
+    "availability": "in_stock",
     "sourceQuery": "chocolate",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=chocolate",
     "sourceMethod": "retailer_product_grid",
     "retailerCategory": "Food",
     "categorySource": "lidl_product_grid",
-    "availabilityText": "In store from 01.11",
+    "availabilityText": "Available in store now",
     "priceType": "loyalty",
     "cn": "advent calendar galaxy",
     "ik": "tok:unknown|advent-calendar-galaxy|na",
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Maltesers Advent Calendar",
@@ -5427,20 +5165,20 @@
     "productUrl": "https://www.lidl.co.uk/p/maltesers-advent-calendar/p11395039",
     "imageUrl": "https://www.lidl.co.uk/assets/gcpb22f015d12f3452f81ad82c72493265f.png",
     "retailerProductId": "11395039",
-    "availability": "preorder",
+    "availability": "in_stock",
     "sourceQuery": "chocolate",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=chocolate",
     "sourceMethod": "retailer_product_grid",
     "retailerCategory": "Food",
     "categorySource": "lidl_product_grid",
-    "availabilityText": "In store from 01.11",
+    "availabilityText": "Available in store now",
     "priceType": "loyalty",
     "cn": "advent calendar maltesers",
     "ik": "tok:unknown|advent-calendar-maltesers|na",
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Kinder Advent Calendar",
@@ -5454,20 +5192,20 @@
     "productUrl": "https://www.lidl.co.uk/p/kinder-advent-calendar/p11395047",
     "imageUrl": "https://www.lidl.co.uk/assets/gcpd43ee2607b704d379a7bab9db78ebe3c.png",
     "retailerProductId": "11395047",
-    "availability": "preorder",
+    "availability": "in_stock",
     "sourceQuery": "chocolate",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=chocolate",
     "sourceMethod": "retailer_product_grid",
     "retailerCategory": "Food",
     "categorySource": "lidl_product_grid",
-    "availabilityText": "In store from 01.11",
+    "availabilityText": "Available in store now",
     "priceType": "loyalty",
     "cn": "advent calendar kinder",
     "ik": "tok:unknown|advent-calendar-kinder|na",
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Celebrations Advent Calendar",
@@ -5481,20 +5219,20 @@
     "productUrl": "https://www.lidl.co.uk/p/celebrations-advent-calendar/p11397911",
     "imageUrl": "https://www.lidl.co.uk/assets/gcp7b6168cbd0e24e3b8146462371ac094d.png",
     "retailerProductId": "11397911",
-    "availability": "preorder",
+    "availability": "in_stock",
     "sourceQuery": "chocolate",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=chocolate",
     "sourceMethod": "retailer_product_grid",
     "retailerCategory": "Food",
     "categorySource": "lidl_product_grid",
-    "availabilityText": "In store from 01.11",
+    "availabilityText": "Available in store now",
     "priceType": "loyalty",
     "cn": "advent calendar celebrations",
     "ik": "tok:unknown|advent-calendar-celebrations|na",
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Iced Christmas Cake",
@@ -5519,7 +5257,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/favorina-iced-christmas-cake/p10055341",
-    "quantityObservedAt": "2026-10-31T03:47:04.999170+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:03.310877+00:00",
     "priceType": "regular",
     "cn": "favorina cake christmas iced",
     "ik": "tok:favorina|cake-christmas-iced|907g",
@@ -5541,54 +5279,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Spicy Halloumi Style Fries",
-    "p": "2.49",
-    "o": "",
-    "s": "238 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/auXMqnZLXmZp7USGx8i-6amacGTiejwwxAGJZSkIe-k/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zMUJDOTNCNzU2M0RGNTI2RkQ2RURFQjY/5NTJBMUI5ODYyNURBODA0NkFFNjdEOUJCQTdEMUY5QzM5QTQwMEUyLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/chef-select-party-spicy-halloumi-style-fries/p10056428",
-    "c": "Other",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/chef-select-party-spicy-halloumi-style-fries/p10056428",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/auXMqnZLXmZp7USGx8i-6amacGTiejwwxAGJZSkIe-k/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zMUJDOTNCNzU2M0RGNTI2RkQ2RURFQjY/5NTJBMUI5ODYyNURBODA0NkFFNjdEOUJCQTdEMUY5QzM5QTQwMEUyLmpwZw.jpg",
-    "retailerProductId": "10056428",
-    "availability": "in_stock",
-    "bn": "chef select party",
-    "brandSource": "retailer",
-    "sourceQuery": "frozen pizza",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=frozen+pizza",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/chef-select-party-spicy-halloumi-style-fries/p10056428",
-    "quantityObservedAt": "2026-10-31T03:47:05.720889+00:00",
-    "priceType": "regular",
-    "cn": "chef select party fries halloumi spicy style",
-    "ik": "tok:chef select party|fries-halloumi-spicy-style|238g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 238,
-      "itemUnit": "g",
-      "totalValue": 238,
-      "baseUnit": "g",
-      "display": "238 g"
-    },
-    "wg": 238,
-    "wu": "g",
-    "unitPrice": {
-      "value": "10.46",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Glacé Cherries",
@@ -5605,15 +5296,15 @@
     "availability": "in_stock",
     "bn": "belbake",
     "brandSource": "retailer",
-    "sourceQuery": "frozen chips",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=frozen+chips",
+    "sourceQuery": "frozen pizza",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=frozen+pizza",
     "sourceMethod": "retailer_product_grid",
     "retailerCategory": "Food",
     "categorySource": "lidl_product_grid",
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-glace-cherries/p10054829",
-    "quantityObservedAt": "2026-10-31T03:47:06.412857+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:04.157567+00:00",
     "priceType": "loyalty",
     "cn": "belbake cherries glac",
     "ik": "tok:belbake|cherries-glac|200g",
@@ -5635,7 +5326,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Cashew Nuts",
@@ -5664,7 +5355,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Vinho Verde Wine",
@@ -5691,7 +5382,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Cotes De Provence Premium Wine",
@@ -5718,7 +5409,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Vin De France Rose Wine",
@@ -5745,7 +5436,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Jammy Rose Wine",
@@ -5772,7 +5463,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Amarone Della Valpolicella",
@@ -5799,7 +5490,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Prosecco Treviso Doc Spumante Gold",
@@ -5814,6 +5505,8 @@
     "imageUrl": "https://www.lidl.co.uk/assets/gcp47fcce16e3ea4010ad336064aaada3c4.png",
     "retailerProductId": "11253633",
     "availability": "in_stock",
+    "bn": "allini",
+    "brandSource": "retailer",
     "sourceQuery": "wine",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=wine",
     "sourceMethod": "retailer_product_grid",
@@ -5821,12 +5514,12 @@
     "categorySource": "lidl_product_grid",
     "availabilityText": "Available in store now",
     "priceType": "regular",
-    "cn": "doc gold prosecco spumante treviso",
-    "ik": "tok:unknown|doc-gold-prosecco-spumante-treviso|na",
+    "cn": "allini doc gold prosecco spumante treviso",
+    "ik": "tok:allini|doc-gold-prosecco-spumante-treviso|na",
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Duca Di Sasseta Primitivo",
@@ -5853,7 +5546,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Allini Prosecco Spumante",
@@ -5880,7 +5573,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Bissinger Champagner Aop Premier Cru",
@@ -5903,7 +5596,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/bissinger-champagner-aop-premier-cru/p10052748",
-    "quantityObservedAt": "2026-10-31T03:47:13.409210+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:12.777055+00:00",
     "priceType": "regular",
     "cn": "aop bissinger champagner cru premier",
     "ik": "tok:unknown|aop-bissinger-champagner-cru-premier|750ml",
@@ -5925,7 +5618,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Garnacha Old Vine",
@@ -5952,7 +5645,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Cremant De Loire Blanc Bio AOP, 0,75l",
@@ -5994,7 +5687,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Côtes Du Rhône 2025",
@@ -6021,7 +5714,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "New Zealand Pinot Grigio Gisborne Wine",
@@ -6050,7 +5743,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "South Africa Sauvignon Blanc Wine",
@@ -6079,7 +5772,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Chenin Blanc Wine",
@@ -6108,7 +5801,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Pink Grapefruit Gin 41%",
@@ -6133,7 +5826,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/hortus-pink-grapefruit-gin-41/p10045593",
-    "quantityObservedAt": "2026-10-31T03:47:18.977822+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:20.507360+00:00",
     "priceType": "regular",
     "cn": "hortus 41 gin grapefruit pink",
     "ik": "tok:hortus|41-gin-grapefruit-pink|700ml",
@@ -6155,7 +5848,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Rhubarb & Ginger Gin 37.5%",
@@ -6180,7 +5873,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/hortus-rhubarb-ginger-gin-37-5/p10045595",
-    "quantityObservedAt": "2026-10-31T03:47:19.664933+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:21.366625+00:00",
     "priceType": "regular",
     "cn": "hortus 37 gin ginger rhubarb",
     "ik": "tok:hortus|37-gin-ginger-rhubarb|700ml",
@@ -6202,7 +5895,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Corona Extra Premium Lager",
@@ -6229,7 +5922,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Pouilly-Fumé Aoc",
@@ -6256,7 +5949,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Greco Beneventano Igt",
@@ -6283,7 +5976,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Duca Di Sasseta Viognier Terre Sicili",
@@ -6310,7 +6003,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Deluxe Chilean Malbec Reserva Privada 2023",
@@ -6333,7 +6026,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/deluxe-chilean-malbec-reserva-privada-2023/p10028186",
-    "quantityObservedAt": "2026-10-31T03:47:23.447399+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:25.917205+00:00",
     "priceType": "regular",
     "cn": "2023 chilean deluxe malbec privada reserva",
     "ik": "tok:unknown|2023-chilean-deluxe-malbec-privada-reserva|750ml",
@@ -6355,7 +6048,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Deluxe South Africa Fairtrade Shiraz Swartland 2023",
@@ -6382,7 +6075,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Codorniu Cava 150",
@@ -6409,7 +6102,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Partytime King Prawn Ring",
@@ -6438,7 +6131,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Partytime 12 Tempura King Prawns",
@@ -6446,14 +6139,14 @@
     "o": "",
     "s": "",
     "l": "https://www.lidl.co.uk/assets/gcp3f00164500f7483884dc94a6d1a117f9.png",
-    "i": "https://www.lidl.co.uk/p/chef-select-lets-party-partytime-12-tempura-king-prawns/p11392359",
+    "i": "https://www.lidl.co.uk/p/partytime-12-tempura-king-prawns/p11392359",
     "c": "Meat & Seafood",
     "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/chef-select-lets-party-partytime-12-tempura-king-prawns/p11392359",
+    "productUrl": "https://www.lidl.co.uk/p/partytime-12-tempura-king-prawns/p11392359",
     "imageUrl": "https://www.lidl.co.uk/assets/gcp3f00164500f7483884dc94a6d1a117f9.png",
     "retailerProductId": "11392359",
     "availability": "in_stock",
-    "bn": "chef select 'lets party'",
+    "bn": "partytime",
     "brandSource": "retailer",
     "sourceQuery": "prawns",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=prawns",
@@ -6462,12 +6155,12 @@
     "categorySource": "lidl_product_grid",
     "availabilityText": "Available in store now",
     "priceType": "regular",
-    "cn": "chef select 'lets party' 12 king partytime prawns tempura",
-    "ik": "tok:chef select 'lets party'|12-king-partytime-prawns-tempura|na",
+    "cn": "partytime 12 king prawns tempura",
+    "ik": "tok:partytime|12-king-prawns-tempura|na",
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "8 Crispy Prawn Gyoza",
@@ -6492,7 +6185,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/chef-select-party-8-crispy-prawn-gyoza/p10056426",
-    "quantityObservedAt": "2026-10-31T03:47:27.154813+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:30.153509+00:00",
     "priceType": "regular",
     "cn": "chef select party crispy gyoza prawn",
     "ik": "tok:chef select party|crispy-gyoza-prawn|206g",
@@ -6514,7 +6207,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Pork Loin Medallions",
@@ -6541,7 +6234,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Basted Pork Loin Joint",
@@ -6568,7 +6261,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "12 Xxl Pork Loin Steaks",
@@ -6595,7 +6288,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Sweet Bbq Pork Rib Rack Duo Pack",
@@ -6603,13 +6296,15 @@
     "o": "",
     "s": "",
     "l": "https://www.lidl.co.uk/assets/gcpceb0e33ed8c8467a8f131f227f1648a3.png",
-    "i": "https://www.lidl.co.uk/p/xxl-sweet-bbq-pork-rib-rack-duo-pack/p11396570",
+    "i": "https://www.lidl.co.uk/p/birchwood-xxl-sweet-bbq-pork-rib-rack-duo-pack/p11396570",
     "c": "Snacks",
     "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/xxl-sweet-bbq-pork-rib-rack-duo-pack/p11396570",
+    "productUrl": "https://www.lidl.co.uk/p/birchwood-xxl-sweet-bbq-pork-rib-rack-duo-pack/p11396570",
     "imageUrl": "https://www.lidl.co.uk/assets/gcpceb0e33ed8c8467a8f131f227f1648a3.png",
     "retailerProductId": "11396570",
     "availability": "preorder",
+    "bn": "birchwood",
+    "brandSource": "retailer",
     "sourceQuery": "pork",
     "sourceUrl": "https://www.lidl.co.uk/q/search?q=pork",
     "sourceMethod": "retailer_product_grid",
@@ -6617,12 +6312,12 @@
     "categorySource": "lidl_product_grid",
     "availabilityText": "In store from 05.11",
     "priceType": "regular",
-    "cn": "bbq duo pack pork rack rib sweet xxl",
-    "ik": "tok:unknown|bbq-duo-pack-pork-rack-rib-sweet-xxl|na",
+    "cn": "birchwood bbq duo pack pork rack rib sweet xxl",
+    "ik": "tok:birchwood|bbq-duo-pack-pork-rack-rib-sweet-xxl|na",
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Chipotle Bbq Ribs",
@@ -6649,7 +6344,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Dried Mixed Fruit",
@@ -6674,7 +6369,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-dried-mixed-fruit/p10054825",
-    "quantityObservedAt": "2026-10-31T03:47:31.303487+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:35.333247+00:00",
     "priceType": "regular",
     "cn": "belbake dried fruit mixed",
     "ik": "tok:belbake|dried-fruit-mixed|500g",
@@ -6696,36 +6391,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Greek Vegetables Xxl",
-    "p": "2.99",
-    "o": "",
-    "s": "",
-    "l": "https://www.lidl.co.uk/assets/gcpbbe5a9a3330840a09a5f63df8d411b91.png",
-    "i": "https://www.lidl.co.uk/p/eridanous-greek-vegetables-xxl/p11005271",
-    "c": "Other",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/eridanous-greek-vegetables-xxl/p11005271",
-    "imageUrl": "https://www.lidl.co.uk/assets/gcpbbe5a9a3330840a09a5f63df8d411b91.png",
-    "retailerProductId": "11005271",
-    "availability": "in_stock",
-    "bn": "eridanous",
-    "brandSource": "retailer",
-    "sourceQuery": "frozen vegetables",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=frozen+vegetables",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "priceType": "regular",
-    "cn": "eridanous greek vegetables xxl",
-    "ik": "tok:eridanous|greek-vegetables-xxl|na",
-    "schemaVersion": 2,
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Greek Style Soft Cheese",
@@ -6754,7 +6420,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Feta Cheese P.D.O",
@@ -6783,7 +6449,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Cheese Balls",
@@ -6812,7 +6478,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Filled Antipasti",
@@ -6841,7 +6507,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Big Hot Dogs Assorted",
@@ -6868,7 +6534,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Conference Pears",
@@ -6893,7 +6559,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Gouda Slices",
@@ -6922,7 +6588,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Gnocchi",
@@ -6951,7 +6617,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Eridanous Graviera Pdo",
@@ -6980,7 +6646,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Dessert Glasses Assorted",
@@ -7005,7 +6671,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-dessert-glasses-assorted/p10056441",
-    "quantityObservedAt": "2026-10-31T03:47:39.474203+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:44.105898+00:00",
     "priceType": "regular",
     "cn": "mcennedy assorted dessert glasses",
     "ik": "tok:mcennedy|assorted-dessert-glasses|2x60g",
@@ -7027,7 +6693,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Petit Four",
@@ -7056,54 +6722,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Sweets And Lollipop Mix",
-    "p": "5.99",
-    "o": "",
-    "s": "1 kg",
-    "l": "https://imgproxy-retcat.assets.schwarz/8Q4S_AVq2LDtBzlmqaX0uojiEdsua5TZaZ1VkbRlztU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GNTM4NjcwMkFDMUQ0NzIxMkIzRkIzNDc/0OEIyMzYwQkE1MTQ0NTI3NkQxNTcxQTRENUUwOEQ0Q0VDMjI1MkE0LmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/halloween-sweets-and-lollipop-mix/p10055411",
-    "c": "Snacks",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/halloween-sweets-and-lollipop-mix/p10055411",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/8Q4S_AVq2LDtBzlmqaX0uojiEdsua5TZaZ1VkbRlztU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GNTM4NjcwMkFDMUQ0NzIxMkIzRkIzNDc/0OEIyMzYwQkE1MTQ0NTI3NkQxNTcxQTRENUUwOEQ0Q0VDMjI1MkE0LmpwZw.jpg",
-    "retailerProductId": "10055411",
-    "availability": "in_stock",
-    "bn": "halloween",
-    "brandSource": "retailer",
-    "sourceQuery": "sweets",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=sweets",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/halloween-sweets-and-lollipop-mix/p10055411",
-    "quantityObservedAt": "2026-10-31T03:47:41.104975+00:00",
-    "priceType": "regular",
-    "cn": "halloween and lollipop mix sweets",
-    "ik": "tok:halloween|and-lollipop-mix-sweets|1000g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 1,
-      "itemUnit": "kg",
-      "totalValue": 1000,
-      "baseUnit": "g",
-      "display": "1 kg"
-    },
-    "wg": 1000,
-    "wu": "g",
-    "unitPrice": {
-      "value": "5.99",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Chewy Sweets",
@@ -7132,7 +6751,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Red Santa Filled With Sweets",
@@ -7155,7 +6774,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/red-santa-filled-with-sweets/p10054867",
-    "quantityObservedAt": "2026-10-31T03:47:42.483124+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:46.762491+00:00",
     "priceType": "regular",
     "cn": "filled red santa sweets with",
     "ik": "tok:unknown|filled-red-santa-sweets-with|298g",
@@ -7177,7 +6796,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Santa Filled With Sweets",
@@ -7200,7 +6819,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/santa-filled-with-sweets/p10054868",
-    "quantityObservedAt": "2026-10-31T03:47:43.162573+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:47.625420+00:00",
     "priceType": "regular",
     "cn": "filled santa sweets with",
     "ik": "tok:unknown|filled-santa-sweets-with|298g",
@@ -7222,54 +6841,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Mini Cakes Assorted",
-    "p": "1.49",
-    "o": "Lidl Plus",
-    "s": "270 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/C0_uB96t1ZTwrGZdxUsnXF7fSd-4WXi2Ibbhpn-LzwE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zNjRENjI2MDQ4OUE0MTdBMTRBQzk0QUZ/COTM5RDQ4QTA2QTg4RTI3Nzg5RjRDMDgwOTMzNzlCNTcxNzVFMzFCLmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/mcennedy-mini-cakes-assorted/p10056454",
-    "c": "Bakery",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/mcennedy-mini-cakes-assorted/p10056454",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/C0_uB96t1ZTwrGZdxUsnXF7fSd-4WXi2Ibbhpn-LzwE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zNjRENjI2MDQ4OUE0MTdBMTRBQzk0QUZ/COTM5RDQ4QTA2QTg4RTI3Nzg5RjRDMDgwOTMzNzlCNTcxNzVFMzFCLmpwZw.jpg",
-    "retailerProductId": "10056454",
-    "availability": "in_stock",
-    "bn": "mcennedy",
-    "brandSource": "retailer",
-    "sourceQuery": "cakes",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=cakes",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-mini-cakes-assorted/p10056454",
-    "quantityObservedAt": "2026-10-31T03:47:43.841892+00:00",
-    "priceType": "loyalty",
-    "cn": "mcennedy assorted cakes mini",
-    "ik": "tok:mcennedy|assorted-cakes-mini|270g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 270,
-      "itemUnit": "g",
-      "totalValue": 270,
-      "baseUnit": "g",
-      "display": "270 g"
-    },
-    "wg": 270,
-    "wu": "g",
-    "unitPrice": {
-      "value": "5.52",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Allini Organic Prosecco Rosé",
@@ -7296,7 +6868,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "8 Vegetable Bao Buns",
@@ -7321,7 +6893,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/chef-select-party-8-vegetable-bao-buns/p10056418",
-    "quantityObservedAt": "2026-10-31T03:47:45.826000+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:49.403059+00:00",
     "priceType": "regular",
     "cn": "chef select party bao buns vegetable",
     "ik": "tok:chef select party|bao-buns-vegetable|224g",
@@ -7343,7 +6915,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "8 Duck Bao Buns",
@@ -7368,7 +6940,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/chef-select-party-8-duck-bao-buns/p10056419",
-    "quantityObservedAt": "2026-10-31T03:47:46.595895+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:50.247307+00:00",
     "priceType": "regular",
     "cn": "chef select party bao buns duck",
     "ik": "tok:chef select party|bao-buns-duck|224g",
@@ -7390,7 +6962,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "8 Chicken Bao Buns",
@@ -7415,7 +6987,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/chef-select-party-8-chicken-bao-buns/p10056420",
-    "quantityObservedAt": "2026-10-31T03:47:47.276888+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:51.128126+00:00",
     "priceType": "regular",
     "cn": "chef select party bao buns chicken",
     "ik": "tok:chef select party|bao-buns-chicken|224g",
@@ -7437,7 +7009,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Classic Halloumi Style Nuggets",
@@ -7462,7 +7034,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/chef-select-party-classic-halloumi-style-nuggets/p10056427",
-    "quantityObservedAt": "2026-10-31T03:47:47.963947+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:52.031858+00:00",
     "priceType": "regular",
     "cn": "chef select party classic halloumi nuggets style",
     "ik": "tok:chef select party|classic-halloumi-nuggets-style|238g",
@@ -7484,54 +7056,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
-  },
-  {
-    "n": "Fruit Gummy Party Mix",
-    "p": "3.49",
-    "o": "",
-    "s": "600 g",
-    "l": "https://imgproxy-retcat.assets.schwarz/cgS2QqoCzHYxMAO17xPgPqF6PRZNZeX3HfpoEDuKV0s/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yQTQ5ODk0MzVCODUzOTMzNjZGNDYxQ0M/3N0RCMkI5NEYwODJFNzA2NTcwNTZFMUFGQzUzODk0QUQ0NzQ4MzM3LmpwZw.jpg",
-    "i": "https://www.lidl.co.uk/p/halloween-fruit-gummy-party-mix/p10055415",
-    "c": "Fruits & Vegetables",
-    "currency": "GBP",
-    "productUrl": "https://www.lidl.co.uk/p/halloween-fruit-gummy-party-mix/p10055415",
-    "imageUrl": "https://imgproxy-retcat.assets.schwarz/cgS2QqoCzHYxMAO17xPgPqF6PRZNZeX3HfpoEDuKV0s/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yQTQ5ODk0MzVCODUzOTMzNjZGNDYxQ0M/3N0RCMkI5NEYwODJFNzA2NTcwNTZFMUFGQzUzODk0QUQ0NzQ4MzM3LmpwZw.jpg",
-    "retailerProductId": "10055415",
-    "availability": "in_stock",
-    "bn": "halloween",
-    "brandSource": "retailer",
-    "sourceQuery": "fruit",
-    "sourceUrl": "https://www.lidl.co.uk/q/search?q=fruit",
-    "sourceMethod": "retailer_product_grid",
-    "retailerCategory": "Food",
-    "categorySource": "lidl_product_grid",
-    "availabilityText": "Available in store now",
-    "quantitySource": "retailer_product_description",
-    "quantitySourceUrl": "https://www.lidl.co.uk/p/halloween-fruit-gummy-party-mix/p10055415",
-    "quantityObservedAt": "2026-10-31T03:47:48.656309+00:00",
-    "priceType": "regular",
-    "cn": "halloween fruit gummy mix party",
-    "ik": "tok:halloween|fruit-gummy-mix-party|600g",
-    "schemaVersion": 2,
-    "quantity": {
-      "packCount": 1,
-      "itemValue": 600,
-      "itemUnit": "g",
-      "totalValue": 600,
-      "baseUnit": "g",
-      "display": "600 g"
-    },
-    "wg": 600,
-    "wu": "g",
-    "unitPrice": {
-      "value": "5.82",
-      "currency": "GBP",
-      "per": "kg"
-    },
-    "country": "uk",
-    "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Sweet Burger Fruit Gums",
@@ -7556,7 +7081,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/mcennedy-sweet-burger-fruit-gums/p10056437",
-    "quantityObservedAt": "2026-10-31T03:47:49.339332+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:52.910142+00:00",
     "priceType": "loyalty",
     "cn": "mcennedy burger fruit gums sweet",
     "ik": "tok:mcennedy|burger-fruit-gums-sweet|300g",
@@ -7578,7 +7103,83 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
+  },
+  {
+    "n": "Greek Vegetables Xxl",
+    "p": "2.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.co.uk/assets/gcpbbe5a9a3330840a09a5f63df8d411b91.png",
+    "i": "https://www.lidl.co.uk/p/eridanous-greek-vegetables-xxl/p11005271",
+    "c": "Other",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/eridanous-greek-vegetables-xxl/p11005271",
+    "imageUrl": "https://www.lidl.co.uk/assets/gcpbbe5a9a3330840a09a5f63df8d411b91.png",
+    "retailerProductId": "11005271",
+    "availability": "in_stock",
+    "bn": "eridanous",
+    "brandSource": "retailer",
+    "sourceQuery": "vegetables",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=vegetables",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "priceType": "regular",
+    "cn": "eridanous greek vegetables xxl",
+    "ik": "tok:eridanous|greek-vegetables-xxl|na",
+    "schemaVersion": 2,
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
+  },
+  {
+    "n": "Golden Syrup",
+    "p": "1.49",
+    "o": "",
+    "s": "750 g",
+    "l": "https://imgproxy-retcat.assets.schwarz/sNhTXl1MmXXB8xauLlkEgvuVdSStKO6gICuGWyuSWbo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83QThGMTE3NTgyM0I1NEJBNUI4NEI5MDI/3NzZCRjk5MjNBRDg2MEM3M0FGQURENDBCRUY4N0NDRTlCRDQxNkIzLmpwZw.jpg",
+    "i": "https://www.lidl.co.uk/p/belbake-golden-syrup/p10055447",
+    "c": "Pantry",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/belbake-golden-syrup/p10055447",
+    "imageUrl": "https://imgproxy-retcat.assets.schwarz/sNhTXl1MmXXB8xauLlkEgvuVdSStKO6gICuGWyuSWbo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83QThGMTE3NTgyM0I1NEJBNUI4NEI5MDI/3NzZCRjk5MjNBRDg2MEM3M0FGQURENDBCRUY4N0NDRTlCRDQxNkIzLmpwZw.jpg",
+    "retailerProductId": "10055447",
+    "availability": "in_stock",
+    "bn": "belbake",
+    "brandSource": "retailer",
+    "sourceQuery": "sauce",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=sauce",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "Available in store now",
+    "quantitySource": "retailer_product_description",
+    "quantitySourceUrl": "https://www.lidl.co.uk/p/belbake-golden-syrup/p10055447",
+    "quantityObservedAt": "2026-11-01T03:43:54.627593+00:00",
+    "priceType": "regular",
+    "cn": "belbake golden syrup",
+    "ik": "tok:belbake|golden-syrup|750g",
+    "schemaVersion": 2,
+    "quantity": {
+      "packCount": 1,
+      "itemValue": 750,
+      "itemUnit": "g",
+      "totalValue": 750,
+      "baseUnit": "g",
+      "display": "750 g"
+    },
+    "wg": 750,
+    "wu": "g",
+    "unitPrice": {
+      "value": "1.99",
+      "currency": "GBP",
+      "per": "kg"
+    },
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Meatballs Assorted",
@@ -7607,7 +7208,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "8 Fish & Chip Baskets",
@@ -7632,7 +7233,7 @@
     "availabilityText": "Available in store now",
     "quantitySource": "retailer_product_description",
     "quantitySourceUrl": "https://www.lidl.co.uk/p/chef-select-party-8-fish-chip-baskets/p10056425",
-    "quantityObservedAt": "2026-10-31T03:47:50.722251+00:00",
+    "quantityObservedAt": "2026-11-01T03:43:56.345649+00:00",
     "priceType": "regular",
     "cn": "chef select party baskets chip fish",
     "ik": "tok:chef select party|baskets-chip-fish|200g",
@@ -7654,7 +7255,7 @@
     },
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "4 Xxl British Beef Ribeye Steaks",
@@ -7681,7 +7282,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "High Protein Quarter Pounders",
@@ -7708,7 +7309,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Boerewors",
@@ -7735,7 +7336,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Minted Lamb Leg Steaks",
@@ -7762,7 +7363,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "4 Xxl Lamb Leg Chops",
@@ -7789,7 +7390,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Snack Mix",
@@ -7818,7 +7419,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Cone Corn Snacks",
@@ -7847,7 +7448,7 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Almonds",
@@ -7876,7 +7477,36 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
+  },
+  {
+    "n": "Xxl Belgian Waffles",
+    "p": "2.99",
+    "o": "",
+    "s": "",
+    "l": "https://www.lidl.co.uk/assets/gcpf992415a17e84f80adac2f8bd1b6b48a.png",
+    "i": "https://www.lidl.co.uk/p/sondey-xxl-belgian-waffles/p11030333",
+    "c": "Other",
+    "currency": "GBP",
+    "productUrl": "https://www.lidl.co.uk/p/sondey-xxl-belgian-waffles/p11030333",
+    "imageUrl": "https://www.lidl.co.uk/assets/gcpf992415a17e84f80adac2f8bd1b6b48a.png",
+    "retailerProductId": "11030333",
+    "availability": "preorder",
+    "bn": "sondey",
+    "brandSource": "retailer",
+    "sourceQuery": "snack",
+    "sourceUrl": "https://www.lidl.co.uk/q/search?q=snack",
+    "sourceMethod": "retailer_product_grid",
+    "retailerCategory": "Food",
+    "categorySource": "lidl_product_grid",
+    "availabilityText": "In store from 05.11",
+    "priceType": "regular",
+    "cn": "sondey belgian waffles xxl",
+    "ik": "tok:sondey|belgian-waffles-xxl|na",
+    "schemaVersion": 2,
+    "country": "uk",
+    "retailer": "lidl-uk",
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   },
   {
     "n": "Xxl Green Olives",
@@ -7905,6 +7535,6 @@
     "schemaVersion": 2,
     "country": "uk",
     "retailer": "lidl-uk",
-    "observedAt": "2026-10-31T03:34:11.876758+00:00"
+    "observedAt": "2026-11-01T03:30:43.467494+00:00"
   }
 ]
