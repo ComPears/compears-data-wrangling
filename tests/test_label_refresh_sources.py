@@ -8,6 +8,21 @@ from scripts import refresh_label_evidence as labels
 
 
 class LabelRefreshSourcesTest(unittest.TestCase):
+    def test_relative_listing_urls_and_local_graph_references_are_supported(self):
+        graph = {'@graph': [{'@type': 'Product', 'url': '/p/milk/', 'nutrition': {'@id': '#nutrition'}},
+                            {'@id': '#nutrition', '@type': 'NutritionInformation', 'servingSize': '100 ml', 'sugarContent': '0 g'}]}
+        html = '<script type="application/ld+json">' + json.dumps(graph) + '</script>'
+        result = labels.evidence_from_html(html, 'https://shop.example/p/milk')
+        self.assertEqual(result['nutrients']['sugarG'], 0)
+        self.assertEqual(result['nutrients']['basis'], '100ml')
+        self.assertIsNone(labels.evidence_from_html(html, 'https://shop.example/p/milk?variant=2'))
+
+    def test_diagnostics_distinguish_missing_product_from_missing_facts(self):
+        counts = {}
+        labels.evidence_from_html('<p>Blocked</p>', 'https://shop.example/p/milk', counts)
+        labels.evidence_from_html('<script type="application/ld+json">{"@type":"Product","url":"/p/milk"}</script>', 'https://shop.example/p/milk', counts)
+        self.assertEqual(counts, {'missing-or-ambiguous-product': 1, 'product-without-label-facts': 1})
+
     def fixture(self, root):
         (root / 'config').mkdir()
         (root / 'config/stores.json').write_text((labels.ROOT / 'config/stores.json').read_text())

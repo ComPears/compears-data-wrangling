@@ -11,7 +11,7 @@ import urllib.request
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import urljoin, urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -63,20 +63,45 @@ class JsonLdScripts(HTMLParser):
             except (ValueError, RecursionError): pass
 
 
-def evidence_from_html(html: str, url: str) -> dict | None:
+def evidence_from_html(html: str, url: str, diagnostics: dict | None = None) -> dict | None:
     parser = JsonLdScripts(); parser.feed(html)
-    pending = list(parser.payloads); nodes = []; visited = 0
+    pending = list(parser.payloads); nodes = []; indexed = {}; visited = 0
+    def identity(value):
+        if isinstance(value, dict): value = value.get('@id')
+        if not isinstance(value, str): return None
+        try:
+            parsed = urlsplit(urljoin(url, value))
+            return urlunsplit((parsed.scheme, parsed.netloc, parsed.path.rstrip('/'), parsed.query, ''))
+        except ValueError:
+            return None
+    expected = identity(url)
     while pending and visited < 5000:
         node = pending.pop(); visited += 1
         if isinstance(node, dict):
+            if isinstance(node.get('@id'), str) and len(node) > 1:
+                key = urljoin(url, node['@id'])
+                indexed[key] = node if key not in indexed else None  # Reject ambiguous reference targets.
             if _type(node, "Product"):
-                node_url = node.get("url") or str(node.get("@id") or "").split("#")[0]
+                node_url = node.get("url") or node.get("@id")
                 # Do not attach related products, recipes or another variant's label.
-                if node_url == url: nodes.append(node)
+                if identity(node_url) == expected: nodes.append(node)
             pending.extend(v for v in node.values() if isinstance(v, (dict, list)))
         elif isinstance(node, list): pending.extend(node[:5000])
-    if len(nodes) != 1: return None
-    return extract_label_evidence(nodes[0], source_url=url)
+    if len(nodes) != 1:
+        if diagnostics is not None: diagnostics['missing-or-ambiguous-product'] = diagnostics.get('missing-or-ambiguous-product', 0) + 1
+        return None
+    def resolve(value, depth=0):
+        if depth >= 3: return value
+        if isinstance(value, list): return [resolve(v, depth + 1) for v in value[:100]]
+        if isinstance(value, dict) and isinstance(value.get('@id'), str) and len(value) == 1:
+            return resolve(indexed.get(urljoin(url, value['@id'])) or {}, depth + 1)
+        return value
+    product = dict(nodes[0])
+    for field in ['nutrition', 'additionalProperty']:
+        product[field] = resolve(product.get(field))
+    evidence = extract_label_evidence(product, source_url=url)
+    if not evidence and diagnostics is not None: diagnostics['product-without-label-facts'] = diagnostics.get('product-without-label-facts', 0) + 1
+    return evidence
 
 
 def fetch_evidence(url: str, origin: str, diagnostics: dict | None = None) -> dict | None:
@@ -95,8 +120,8 @@ def fetch_evidence(url: str, origin: str, diagnostics: dict | None = None) -> di
             if len(raw) > 1_000_000: outcome('oversized'); return None
             final = trusted_url(response.url, origin)
             if final != safe: outcome('redirect-or-variant'); return None  # Needs a dedicated adapter.
-            evidence = evidence_from_html(raw.decode("utf-8", errors="replace"), safe)
-            outcome('json-ld-facts' if evidence else 'no-matching-product-label-facts')
+            evidence = evidence_from_html(raw.decode("utf-8", errors="replace"), safe, diagnostics)
+            if evidence: outcome('json-ld-facts')
             return evidence
     except (OSError, ValueError, urllib.error.URLError):
         outcome('blocked-or-network-error')
