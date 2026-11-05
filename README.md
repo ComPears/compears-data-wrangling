@@ -415,6 +415,30 @@ Run the clean_plus file to clean the data
 python3 clean_plus.py
 ```
 
+## Optional label evidence
+
+`label_evidence.py` extracts only explicit Product JSON-LD facts (ingredients,
+retailer diet claims and nutrition with a stated serving basis). Missing facts are
+not inferred from names. Schema.org `LowLactoseDiet` is not lactose-free.
+
+Albert Heijn detail requests already used for barcode enrichment also retain
+listing-bound trade-item ingredients and unprepared nutrition per 100 g/ml. This
+does not add API requests or alter price/quantity/observation fields. Negative
+`sp_exclude_*` properties are never treated as affirmative claims.
+
+The separate **Refresh optional product label evidence** workflow samples up to
+five product pages per retailer across NL, UK and DE, rotates its sample daily and
+has a ten-minute fetch budget. It follows only fixed, same-origin HTTPS sources,
+rejects variant-changing redirects, caps responses at 1 MB and retains evidence
+for 30 days. No browser or anti-bot bypass is used. Coverage will vary: retailers
+without usable facts remain unknown. Its `label-evidence/{country}.json` output is
+separate from price catalogs and their availability hashes. Backend seeds prefer
+the newest validated evidence for the exact listing URL. A failed optional label
+refresh never blocks healthy-store price publication.
+
+Run `python -m unittest discover -s tests` before changing an adapter. Live access
+failures must not be interpreted as ingredient absence or a successful match.
+
 
 
 

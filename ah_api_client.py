@@ -14,6 +14,7 @@ from typing import Any
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from barcode_utils import extract_barcode_from_entry
+from ah_label_evidence import label_from_ah_detail
 
 API_BASE = "https://api.ah.nl"
 USER_AGENT = "Appie/8.22.3"
@@ -231,13 +232,17 @@ def enrich_raw_entries_with_detail_barcodes(
     enriched = 0
     workers = max(1, min(workers, 3))
 
-    def _lookup(webshop_id: str) -> str | None:
+    def _lookup(webshop_id: str) -> tuple[str | None, dict | None]:
         try:
             detail = fetch_product_detail(token, webshop_id)
             time.sleep(DETAIL_ENRICH_DELAY)
-            return barcode_from_detail_payload(detail)
+            try:
+                label = label_from_ah_detail(detail, webshop_id)
+            except (TypeError, ValueError, AttributeError):
+                label = None  # Optional upstream label changes must not discard a valid GTIN.
+            return barcode_from_detail_payload(detail), label
         except Exception:
-            return None
+            return None, None
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {
@@ -246,12 +251,14 @@ def enrich_raw_entries_with_detail_barcodes(
         for future in as_completed(futures):
             index = futures[future]
             try:
-                barcode = future.result()
+                barcode, label = future.result()
             except Exception:
                 continue
             if barcode:
                 entries[index]["barcode"] = barcode
                 enriched += 1
+            if label:
+                entries[index]["labelEvidence"] = label
 
     return enriched
 

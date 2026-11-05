@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation
 from typing import Any
 from urllib.parse import urljoin, urlsplit
+from label_evidence import extract_label_evidence
 
 
 def _type(node: dict, name: str) -> bool:
@@ -124,7 +125,7 @@ def extract_products(payload: Any, *, base_url: str, currency: str, now: datetim
         image = node.get("image")
         image = image[0] if isinstance(image, list) and image else image
         image = image.get("url", "") if isinstance(image, dict) else image
-        products.append({
+        product = {
             "name": name, "price": f"{price:.2f}", "url": url,
             "image": image if isinstance(image, str) else "",
             "barcode": _text(node.get("gtin13") or node.get("gtin8") or node.get("gtin14") or node.get("gtin")),
@@ -132,7 +133,11 @@ def extract_products(payload: Any, *, base_url: str, currency: str, now: datetim
             "brand": _text(node.get("brand")), "category": _text(node.get("category")),
             "size": _size(node.get("size") or node.get("netContent") or node.get("weight")),
             "availability": availability,
-        })
+        }
+        evidence = extract_label_evidence(node, source_url=url, observed_at=now.isoformat())
+        if evidence:
+            product["labelEvidence"] = evidence
+        products.append(product)
     return products
 
 
@@ -154,9 +159,12 @@ def extract_page_products(page: Any, *, base_url: str, currency: str, factory: A
         return []
     rows = []
     for product in extract_products(payloads, base_url=base_url, currency=currency):
+        evidence = product.pop("labelEvidence", None)
         row = factory(**product, base_url=base_url)
         if row:
             row["sourceMethod"] = "json_ld"
+            if evidence:
+                row["labelEvidence"] = evidence
             rows.append(row)
     return rows
 
@@ -187,4 +195,6 @@ def enrich_rows(rows: list[dict], metadata: list[dict]) -> list[dict]:
                 row[key] = match[key]
                 if key == "bn":
                     row["brandSource"] = "retailer"
+        if match.get("labelEvidence"):
+            row["labelEvidence"] = match["labelEvidence"]
     return rows
