@@ -1,0 +1,32 @@
+name: Refresh optional product label evidence
+on:
+  schedule:
+    - cron: '35 6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: product-label-evidence
+  cancel-in-progress: false
+jobs:
+  labels:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+      - uses: ./.github/actions/setup-secure-runtime
+      - name: Refresh bounded source-backed labels without changing price observations
+        run: python scripts/refresh_label_evidence.py
+      - name: Publish label evidence only
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add label-evidence
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh optional product labels [skip ci]'
+            git pull --rebase origin main
+            git push
+          fi

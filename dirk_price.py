@@ -27,6 +27,8 @@ def corroborate_card(entry: dict, metadata: list[dict]) -> dict:
         entry["sourceMethod"] = "dom_cards_json_ld"
         if not entry.get("barcode") and item.get("barcode"):
             entry["barcode"] = item["barcode"]
+        if item.get("labelEvidence"):
+            entry["labelEvidence"] = item["labelEvidence"]
     else:
         entry["sourceMethod"] = "dom_cards"
     return entry
