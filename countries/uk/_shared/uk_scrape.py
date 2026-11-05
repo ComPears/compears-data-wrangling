@@ -288,63 +288,10 @@ def extract_from_cards(page: Page, cfg: StoreSearchConfig) -> list[dict[str, Any
 
 
 def extract_json_ld(page: Page, cfg: StoreSearchConfig) -> list[dict[str, Any]]:
-    products: list[dict[str, Any]] = []
-    scripts = page.locator('script[type="application/ld+json"]')
-    try:
-        total = scripts.count()
-    except Exception:
-        return products
-
-    for i in range(total):
-        try:
-            raw = scripts.nth(i).inner_text(timeout=1000)
-            data = json.loads(raw)
-        except Exception:
-            continue
-        items = data if isinstance(data, list) else [data]
-        for item in items:
-            if not isinstance(item, dict):
-                continue
-            graph = item.get("@graph")
-            candidates = graph if isinstance(graph, list) else [item]
-            for node in candidates:
-                if not isinstance(node, dict):
-                    continue
-                types = node.get("@type")
-                type_list = types if isinstance(types, list) else [types]
-                if "Product" not in type_list:
-                    continue
-                offers = node.get("offers") or {}
-                if isinstance(offers, list):
-                    offers = offers[0] if offers else {}
-                price = offers.get("price") if isinstance(offers, dict) else None
-                brand_value = node.get("brand")
-                if isinstance(brand_value, dict):
-                    brand_value = brand_value.get("name")
-                entry = raw_product(
-                    name=str(node.get("name") or ""),
-                    price=price,
-                    url=str(node.get("url") or ""),
-                    image=str(node.get("image") or "")
-                    if not isinstance(node.get("image"), list)
-                    else str((node.get("image") or [""])[0]),
-                    barcode=str(node.get("gtin13") or node.get("gtin") or "") or None,
-                    base_url=cfg.base_url,
-                    retailer_product_id=str(node.get("sku") or node.get("productID") or "") or None,
-                    availability=str(offers.get("availability") or "") if isinstance(offers, dict) else None,
-                    brand=str(brand_value or "") or None,
-                    category=str(node.get("category") or "") or None,
-                    size=str(
-                        node.get("size")
-                        or node.get("weight")
-                        or node.get("netContent")
-                        or ""
-                    )
-                    or None,
-                )
-                if entry:
-                    products.append(entry)
-    return products
+    from structured_metadata import extract_page_products
+    return extract_page_products(
+        page, base_url=cfg.base_url, currency="GBP", factory=raw_product
+    )
 
 
 def _walk_for_products(obj: Any, found: list[dict[str, Any]], cfg: StoreSearchConfig) -> None:
@@ -825,6 +772,9 @@ def scrape_store_search(
                 ):
                     batch = sniffed_batch
                     source_method = "sniffed_api"
+            from structured_metadata import enrich_rows
+            metadata = extract_json_ld(page, cfg)
+            enrich_rows(batch, metadata)
             for item in batch:
                 item.setdefault("sourceQuery", query)
                 item.setdefault("sourceUrl", url)

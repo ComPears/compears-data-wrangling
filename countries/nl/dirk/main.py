@@ -41,6 +41,8 @@ from scrape_utils import (
     wait_for_products,
     write_json_atomic,
 )
+from structured_metadata import extract_page_products
+from dirk_price import corroborate_card, metadata_row
 
 output_file = Path(__file__).resolve().parent / "JSONs" / "dirk.json"
 os.makedirs(output_file.parent, exist_ok=True)
@@ -88,6 +90,7 @@ with sync_playwright() as p:
             category = category_from_url(url)
             cards = page.query_selector_all("article[data-product-id]")
             new_data = []
+            metadata = extract_page_products(page, base_url="https://www.dirk.nl", currency="EUR", factory=metadata_row)
 
             for card in cards:
                 raw_text = card.inner_text().strip()
@@ -106,6 +109,8 @@ with sync_playwright() as p:
                     }
                 )
 
+            for entry in new_data:
+                corroborate_card(entry, metadata)
             require_products(len(new_data), url, min_count=0 if optional else 1)
             if len(new_data) == 0 and optional:
                 print(f"⚠️ Optional URL returned 0 products: {url}")

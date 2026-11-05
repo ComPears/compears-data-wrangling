@@ -18,6 +18,7 @@ def _repo_root():
 
 _repo_root()
 from category_utils import structured_with_category
+from dirk_price import card_price
 
 # Load the input file
 with open("JSONs/dirk_probeer_prijs_actie.json", "r", encoding="utf-8") as f:
@@ -49,12 +50,7 @@ def parse_entry(entry):
     while raw_lines and price_pattern.fullmatch(raw_lines[0]):
         price_parts.append(raw_lines.pop(0))
 
-    if len(price_parts) == 2:
-        price = ".".join(price_parts)
-    elif len(price_parts) == 1:
-        price = f"0.{price_parts[0]}"
-    else:
-        price = ""
+    price = card_price(price_parts)
 
     # Size
     for i, line in enumerate(raw_lines):
