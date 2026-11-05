@@ -436,6 +436,14 @@ separate from price catalogs and their availability hashes. Backend seeds prefer
 the newest validated evidence for the exact listing URL. A failed optional label
 refresh never blocks healthy-store price publication.
 
+JSON-LD price offers often contain no ingredient or nutrition facts. The optional
+refresh therefore also uses AH's public anonymous detail API for AH samples: the
+same five-listing sample budget, one anonymous session, one attempt per request,
+eight-second socket timeout and 1 MB response limit. API evidence must match the
+requested webshopId. Tokens are neither logged nor persisted. Outcome counters
+distinguish API/JSON-LD facts, missing facts, blocked requests, redirects and oversized
+responses. A green workflow does not mean every country has label coverage.
+
 Run `python -m unittest discover -s tests` before changing an adapter. Live access
 failures must not be interpreted as ingredient absence or a successful match.
 

@@ -45,6 +45,9 @@ def _request(
     token: str | None = None,
     body: dict[str, Any] | None = None,
     params: dict[str, Any] | None = None,
+    timeout: float = 60,
+    attempts: int = MAX_RETRIES,
+    max_response_bytes: int | None = None,
 ) -> Any:
     url = f"{API_BASE}{path}"
     if params:
@@ -65,10 +68,15 @@ def _request(
     req = urllib.request.Request(url, data=data, headers=headers, method=method)
 
     last_error: Exception | None = None
-    for attempt in range(1, MAX_RETRIES + 1):
+    attempts = max(1, min(attempts, MAX_RETRIES))
+    timeout = max(1, min(timeout, 60))
+    for attempt in range(1, attempts + 1):
         try:
-            with urllib.request.urlopen(req, timeout=60, context=scraper_ssl_context()) as resp:
-                return json.loads(resp.read().decode("utf-8"))
+            with urllib.request.urlopen(req, timeout=timeout, context=scraper_ssl_context()) as resp:
+                raw = resp.read(max_response_bytes + 1) if max_response_bytes is not None else resp.read()
+                if max_response_bytes is not None and len(raw) > max_response_bytes:
+                    raise AhApiError('API response exceeds optional enrichment budget')
+                return json.loads(raw.decode("utf-8"))
         except urllib.error.HTTPError as err:
             # Response bodies can contain edge-service markup or identifiers;
             # status and endpoint are sufficient to diagnose an upstream outage.
@@ -77,13 +85,13 @@ def _request(
                         "upstream_unavailable" if err.code >= 500 else
                         "rate_limited" if err.code == 429 else "request_rejected")
             last_error = AhApiError(f"HTTP {err.code} for {path} ({category})")
-            if err.code in {429, 500, 502, 503, 504} and attempt < MAX_RETRIES:
+            if err.code in {429, 500, 502, 503, 504} and attempt < attempts:
                 time.sleep(RETRY_DELAY * attempt)
                 continue
             raise last_error from err
         except urllib.error.URLError as err:
             last_error = AhApiError(f"Network error for {path}: {err}")
-            if attempt < MAX_RETRIES:
+            if attempt < attempts:
                 time.sleep(RETRY_DELAY * attempt)
                 continue
             raise last_error from err
@@ -91,11 +99,13 @@ def _request(
     raise last_error or AhApiError(f"Failed to call {path}")
 
 
-def get_anonymous_token() -> str:
+def get_anonymous_token(*, timeout: float = 60, attempts: int = MAX_RETRIES) -> str:
     payload = _request(
         "POST",
         "/mobile-auth/v1/auth/token/anonymous",
         body={"clientId": "appie"},
+        timeout=timeout, attempts=attempts,
+        max_response_bytes=1_000_000,
     )
     token = payload.get("access_token")
     if not token:
@@ -152,13 +162,15 @@ def barcode_from_detail_payload(detail: dict[str, Any] | None) -> str | None:
     return None
 
 
-def fetch_product_detail(token: str, webshop_id: str | int) -> dict[str, Any]:
+def fetch_product_detail(token: str, webshop_id: str | int, *, timeout: float = 60, attempts: int = MAX_RETRIES, max_response_bytes: int | None = None) -> dict[str, Any]:
     """Fetch AH product detail by webshopId (includes GTIN when API provides it)."""
     payload = _request(
         "GET",
         f"/mobile-services/product/detail/v4/fir/{webshop_id}",
         token=token,
         params={"includeActivatableDiscount": "false"},
+        timeout=timeout, attempts=attempts,
+        max_response_bytes=max_response_bytes,
     )
     if not isinstance(payload, dict):
         raise AhApiError(f"Unexpected detail payload for {webshop_id}")
