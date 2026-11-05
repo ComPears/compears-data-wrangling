@@ -7,6 +7,21 @@ import ah_api_client as ah
 
 
 class AhReliabilityTests(unittest.TestCase):
+    def test_optional_enrichment_uses_one_attempt_and_explicit_timeout(self):
+        error = HTTPError("https://api.ah.nl/test", 503, "Unavailable", {}, io.BytesIO(b"edge"))
+        with (patch.object(ah.urllib.request, "urlopen", side_effect=error) as request,
+              patch.object(ah.time, "sleep") as delay):
+            with self.assertRaises(ah.AhApiError):
+                ah._request("GET", "/test", timeout=8, attempts=1, max_response_bytes=1000)
+        self.assertEqual(request.call_count, 1)
+        self.assertEqual(request.call_args.kwargs['timeout'], 8)
+        delay.assert_not_called()
+
+    def test_optional_enrichment_rejects_oversized_responses(self):
+        with patch.object(ah.urllib.request, 'urlopen', return_value=io.BytesIO(b'x' * 11)):
+            with self.assertRaisesRegex(ah.AhApiError, 'response exceeds'):
+                ah._request('GET', '/test', max_response_bytes=10)
+
     def test_access_denied_is_not_retried_or_body_logged(self):
         error = HTTPError("https://api.ah.nl/test", 403, "Forbidden", {}, io.BytesIO(b"sensitive response"))
         with patch.object(ah.urllib.request, "urlopen", side_effect=error) as request:

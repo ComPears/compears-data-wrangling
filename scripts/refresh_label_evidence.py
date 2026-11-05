@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import sys
 import time
 import urllib.error
@@ -18,6 +19,8 @@ from label_evidence import extract_label_evidence
 from structured_metadata import _type
 from scrape_utils import write_json_atomic
 from tls_context import scraper_ssl_context
+from ah_api_client import get_anonymous_token, fetch_product_detail
+from ah_label_evidence import label_from_ah_detail
 
 ORIGINS = {
     "nl": {"albert-heijn": "https://www.ah.nl", "jumbo": "https://www.jumbo.com", "aldi": "https://www.aldi.nl", "dirk": "https://www.dirk.nl", "plus": "https://www.plus.nl", "lidl": "https://www.lidl.nl", "coop": "https://www.coop.nl"},
@@ -76,22 +79,27 @@ def evidence_from_html(html: str, url: str) -> dict | None:
     return extract_label_evidence(nodes[0], source_url=url)
 
 
-def fetch_evidence(url: str, origin: str) -> dict | None:
+def fetch_evidence(url: str, origin: str, diagnostics: dict | None = None) -> dict | None:
+    def outcome(reason):
+        if diagnostics is not None: diagnostics[reason] = diagnostics.get(reason, 0) + 1
     if origin not in {allowed for stores in ORIGINS.values() for allowed in stores.values()}:
         return None
     safe = trusted_url(url, origin)
-    if not safe: return None
+    if not safe: outcome('invalid-url'); return None
     opener = urllib.request.build_opener(SafeRedirect(origin), urllib.request.HTTPSHandler(context=scraper_ssl_context()))
     request = urllib.request.Request(safe, headers={"User-Agent": "Compears/1.0 product-label research", "Accept": "text/html"})
     try:
         with opener.open(request, timeout=8) as response:
-            if "text/html" not in response.headers.get("Content-Type", ""): return None
+            if "text/html" not in response.headers.get("Content-Type", ""): outcome('not-html'); return None
             raw = response.read(1_000_001)
-            if len(raw) > 1_000_000: return None
+            if len(raw) > 1_000_000: outcome('oversized'); return None
             final = trusted_url(response.url, origin)
-            if final != safe: return None  # Variant/URL changes need a dedicated adapter.
-            return evidence_from_html(raw.decode("utf-8", errors="replace"), safe)
+            if final != safe: outcome('redirect-or-variant'); return None  # Needs a dedicated adapter.
+            evidence = evidence_from_html(raw.decode("utf-8", errors="replace"), safe)
+            outcome('json-ld-facts' if evidence else 'no-matching-product-label-facts')
+            return evidence
     except (OSError, ValueError, urllib.error.URLError):
+        outcome('blocked-or-network-error')
         return None
 
 
@@ -122,15 +130,34 @@ def refresh(root: Path = ROOT, per_store: int = 5, budget_seconds: int = 600) ->
     # Round-robin every country/store before taking a second sample from any store.
     targets.sort(key=lambda t: (t[0], hashlib.sha256((today + t[1] + t[2]).encode()).hexdigest()))
     started = time.monotonic(); attempted = found = 0
+    diagnostics = {}; ah_token = None; ah_auth_attempted = False
     for _, country, slug, origin, url in targets:
         if time.monotonic() - started >= budget_seconds: break
         attempted += 1
-        evidence = fetch_evidence(url, origin)
+        evidence = None
+        ah_id = re.fullmatch(r"/producten/product/wi(\d+)(?:/[^/?#]+)?", urlsplit(url).path) if origin == "https://www.ah.nl" else None
+        if ah_id:
+            # One public anonymous session, up to the same five daily samples,
+            # eight seconds and one attempt per call. Never log or persist tokens.
+            try:
+                if not ah_auth_attempted:
+                    ah_auth_attempted = True
+                    ah_token = get_anonymous_token(timeout=8, attempts=1)
+                if ah_token:
+                    detail = fetch_product_detail(ah_token, ah_id[1], timeout=8, attempts=1, max_response_bytes=1_000_000)
+                    evidence = label_from_ah_detail(detail, ah_id[1])
+                    if evidence:
+                        evidence['sourceUrl'] = url  # Same verified webshopId, exact catalog link.
+                        diagnostics['retailer-api-facts'] = diagnostics.get('retailer-api-facts', 0) + 1
+            except (OSError, RuntimeError, ValueError, TypeError, AttributeError):
+                diagnostics['retailer-api-unavailable'] = diagnostics.get('retailer-api-unavailable', 0) + 1
+        if not evidence and time.monotonic() - started < budget_seconds:
+            evidence = fetch_evidence(url, origin, diagnostics)
         if evidence: saved[country][url] = evidence; found += 1
         time.sleep(0.25)
     for country, rows in saved.items():
         write_json_atomic(root / "label-evidence" / f"{country}.json", list(rows.values())[:10000])
-    return {"attempted": attempted, "found": found, "countries": {country: len(rows) for country, rows in saved.items()}}
+    return {"attempted": attempted, "found": found, "outcomes": diagnostics, "countries": {country: len(rows) for country, rows in saved.items()}}
 
 
 if __name__ == "__main__":
