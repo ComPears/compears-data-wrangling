@@ -18,6 +18,7 @@ def _repo_root():
 
 _repo_root()
 from category_utils import structured_with_category
+from dirk_price import card_price
 
 # Load original file
 with open("JSONs/dirk.json", "r", encoding="utf-8") as f:
@@ -39,7 +40,7 @@ def parse_entry(entry):
     # Step 1: Extract price block (e.g. "1", "99" → "1.99")
     while lines and digit_line.fullmatch(lines[0]):
         price_parts.append(lines.pop(0))
-    price = ".".join(price_parts) if price_parts else ""
+    price = card_price(price_parts)
 
     # Step 2: Remaining lines could include name, size, offer
     name_lines = []
