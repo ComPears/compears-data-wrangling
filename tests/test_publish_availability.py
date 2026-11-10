@@ -10,6 +10,19 @@ from scripts import publish_healthy_catalogs as publish
 
 
 class PublishAvailabilityTests(unittest.TestCase):
+    def test_retired_retailer_is_unavailable_even_with_fresh_valid_rows(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            catalog = Path(tmp) / "catalog.json"
+            stamp = datetime.now(timezone.utc).isoformat()
+            catalog.write_text(json.dumps([{"observedAt": stamp}]))
+            with patch.object(publish, "evaluate_catalog", return_value=({}, {"total": 1}, [])):
+                row, _, _ = publish.availability_entry("nl", "coop", catalog, {})
+            self.assertFalse(row["available"])
+            self.assertEqual(row["reason_codes"], ["retailer_retired"])
+            self.assertEqual(row["products"], 0)
+            self.assertEqual(row["last_successful_at"], stamp)
+            self.assertIsNone(row["available_until"])
+
     def test_rejected_candidate_preserves_recovery_bytes_and_true_last_success(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

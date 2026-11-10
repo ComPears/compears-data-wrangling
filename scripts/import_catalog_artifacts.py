@@ -84,10 +84,20 @@ def copy_catalog_artifacts(artifact_root: Path, workspace: Path, *, allow_unavai
     planned: list[tuple[Path, bytes]] = []
     stores = all_catalog_paths()
     for country, store, _ in stores:
+        status = Path("reports/scrape-status") / f"{country}-{store}.json"
+        retirement = store_config(country, store).get("retirement_reason")
+        if retirement:
+            # A retired source has no scheduled job. Ignore artifacts from an
+            # older run and keep the historical catalog byte-for-byte.
+            payload = (json.dumps({
+                "country": country, "store": store, "outcome": "retired",
+                "reason": retirement, "final": 0,
+            }, indent=2) + "\n").encode()
+            planned.append((_contained_path(workspace, status), payload))
+            continue
         artifact_name = Path(f"catalog-{country}-{store}")
         artifact = _contained_path(artifact_root, artifact_name)
         catalog = Path(catalog_rel_path(country, store))
-        status = Path("reports/scrape-status") / f"{country}-{store}.json"
         if not artifact.exists():
             payload = preserved_status(workspace, country, store, allow_unavailable=allow_unavailable)
             planned.append((_contained_path(workspace, status), payload))

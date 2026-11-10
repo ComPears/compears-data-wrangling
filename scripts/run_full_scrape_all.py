@@ -13,30 +13,18 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from config.paths import all_catalog_paths, store_config
+
 LOG_DIR = ROOT / ".local-scrape-logs"
 PYTHON = ROOT / "venv" / "bin" / "python"
 if not PYTHON.exists():
     PYTHON = Path(sys.executable)
 
 STORES = [
-    ("nl", "albert-heijn"),
-    ("nl", "jumbo"),
-    ("nl", "aldi"),
-    ("nl", "dirk"),
-    ("nl", "lidl"),
-    ("nl", "coop"),
-    ("nl", "plus"),
-    ("uk", "tesco"),
-    ("uk", "sainsburys"),
-    ("uk", "asda"),
-    ("uk", "morrisons"),
-    ("uk", "aldi-uk"),
-    ("uk", "lidl-uk"),
-    ("de", "edeka"),
-    ("de", "rewe"),
-    ("de", "lidl-de"),
-    ("de", "aldi-sud"),
-    ("de", "penny"),
+    (country, store)
+    for country, store, _ in all_catalog_paths()
+    if not store_config(country, store).get("retirement_reason")
 ]
 
 
