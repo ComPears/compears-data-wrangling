@@ -73,6 +73,7 @@
         },
         "coop": {
           "display_name": "Coop",
+          "retirement_reason": "Coop's last supermarkets were converted to PLUS. Historical prices are retained, not refreshed.",
           "dir": "countries/nl/coop",
           "catalog": "coop_structured.json",
           "minimum_products": 300,

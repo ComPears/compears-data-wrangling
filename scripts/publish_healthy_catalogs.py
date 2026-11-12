@@ -20,13 +20,16 @@ from scripts.workflow_catalog_alerts import baseline_counts
 
 
 def availability_entry(country: str, store: str, catalog: Path, baseline: dict) -> tuple[dict, dict, dict]:
+    cfg = store_config(country, store)
     health, quality, errors = evaluate_catalog(country, store, catalog)
-    if baseline.get("schema_version", 1) >= 2:
+    if cfg.get("retirement_reason"):
+        errors = ["retailer_retired"]
+    elif baseline.get("schema_version", 1) >= 2:
         errors.extend(count_change_errors(baseline.get("count", 0), quality["total"]))
     rows = json.loads(catalog.read_text(encoding="utf-8")) if catalog.is_file() else []
     stamps = [utc_iso(row.get("observedAt")) for row in rows if isinstance(row, dict)]
     stamps = [stamp for stamp in stamps if stamp]
-    maximum_age = float(store_config(country, store).get("maximum_catalog_age_hours", 48))
+    maximum_age = float(cfg.get("maximum_catalog_age_hours", 48))
     expires = (datetime.fromisoformat(min(stamps)) + timedelta(hours=maximum_age)).isoformat() if stamps else None
     entry = {
         "country": country, "store": store, "available": not errors,
@@ -55,7 +58,10 @@ def main() -> int:
                 retained = json.loads(previous.stdout)
                 stamps = [utc_iso(row.get("observedAt")) for row in retained if isinstance(row, dict)]
                 entry["last_successful_at"] = max((stamp for stamp in stamps if stamp), default=None)
-            print(f"::warning::{country}/{store} unavailable: " + "; ".join(entry["reason_codes"]))
+            if "retailer_retired" in entry["reason_codes"]:
+                print(f"::notice::{country}/{store} retired; historical catalog retained")
+            else:
+                print(f"::warning::{country}/{store} unavailable: " + "; ".join(entry["reason_codes"]))
         stores.append(entry)
         health_reports.append(health)
         quality_reports.append(quality)
@@ -74,13 +80,16 @@ def main() -> int:
     retained_quality = [validate_file(c, s, p) for c, s, p in all_catalog_paths()]
     (ROOT / "data-quality-report.json").write_text(json.dumps(retained_quality, indent=2) + "\n")
     (reports / "candidate-quality.json").write_text(json.dumps(quality_reports, indent=2) + "\n")
-    summary = f"Verified fresh stores: {available}/{len(stores)}; unavailable stores are excluded from serving."
+    retired = sum("retailer_retired" in row["reason_codes"] for row in stores)
+    summary = (f"Verified fresh stores: {available}/{len(stores) - retired} active; "
+               f"{retired} retired. Unavailable stores are excluded from serving.")
     print(summary)
     if os.getenv("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as handle:
             handle.write("\n## Catalog availability\n\n" + summary + "\n\n")
             for row in stores:
-                handle.write(f"- {row['country']}/{row['store']}: {'available' if row['available'] else 'unavailable'}\n")
+                result = "available" if row["available"] else ", ".join(row["reason_codes"])
+                handle.write(f"- {row['country']}/{row['store']}: {result}\n")
     # A complete outage or broken common extractor still fails the workflow.
     if not available:
         print("No verified fresh store is available; refusing publication", file=sys.stderr)

@@ -43,7 +43,8 @@ def main() -> int:
         (
             f"Coverage: **{outcomes.get('refreshed', 0)} refreshed**, "
             f"**{outcomes.get('preserved', 0)} preserved**, "
-            f"**{outcomes.get('unexpected_failure', 0) + outcomes.get('unknown', 0)} other** "
+            f"**{outcomes.get('retired', 0)} retired**, "
+            f"**{len(rows) - sum(outcomes[key] for key in ('refreshed', 'preserved', 'retired'))} other** "
             f"({len(rows)} stores)"
         ),
         "",
@@ -56,7 +57,7 @@ def main() -> int:
         products = row.get("final", "—")
         reason = str(row.get("reason") or "Fresh catalog accepted")
         summary.append("| " + " | ".join(map(table_text, (store, outcome, products, reason))) + " |")
-        if outcome != "refreshed":
+        if outcome not in {"refreshed", "retired"}:
             print(f"::warning::{annotation_text(f'{store}: {reason}; last-good catalog retained')}")
 
     summary_path = os.getenv("GITHUB_STEP_SUMMARY")

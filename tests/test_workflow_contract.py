@@ -1,3 +1,4 @@
+import re
 import unittest
 from pathlib import Path
 
@@ -6,6 +7,17 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class WorkflowContractTests(unittest.TestCase):
+    def test_daily_matrix_contains_only_active_retailers(self):
+        from config.paths import all_catalog_paths, store_config
+        from scripts.run_full_scrape_all import STORES
+        workflow = (ROOT / ".github/workflows/update_stores.yaml").read_text()
+        matrix = re.findall(r"^\s+- country: (\w+)\n\s+store: ([\w-]+)$", workflow, re.M)
+        active = {(c, s) for c, s, _ in all_catalog_paths()
+                  if not store_config(c, s).get("retirement_reason")}
+        self.assertCountEqual(matrix, active)
+        self.assertCountEqual(STORES, active)
+        self.assertNotIn(("nl", "coop"), active)
+
     def test_publish_collects_errors_without_allowing_failed_publication(self):
         workflow = (ROOT / ".github/workflows/update_stores.yaml").read_text()
         for name in ("Validate and publish store availability",):

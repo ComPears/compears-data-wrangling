@@ -6,7 +6,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
 
-from config.paths import all_catalog_paths, catalog_rel_path
+from config.paths import all_catalog_paths, catalog_rel_path, store_config
 from scripts.import_catalog_artifacts import copy_catalog_artifacts
 from scripts.replay_publish_pipeline import copy_catalog_artifacts as replay_import
 from product_sanitize import sanitize_entry_with_reason
@@ -37,8 +37,25 @@ class ArtifactImportTests(unittest.TestCase):
         self.assertIs(replay_import, copy_catalog_artifacts)
         self.assertEqual(copy_catalog_artifacts(self.artifacts, self.workspace), len(self.stores))
         for country, store, _ in self.stores:
-            self.assertTrue((self.workspace / catalog_rel_path(country, store)).is_file())
+            expected = not store_config(country, store).get("retirement_reason")
+            self.assertEqual((self.workspace / catalog_rel_path(country, store)).is_file(), expected)
             self.assertTrue((self.workspace / "reports/scrape-status" / f"{country}-{store}.json").is_file())
+
+    def test_retired_store_needs_no_artifact_and_cannot_replace_history(self):
+        relative = Path(catalog_rel_path("nl", "coop"))
+        historical = self.workspace / relative
+        historical.parent.mkdir(parents=True)
+        original = b'[{"name":"historical Coop item"}]\n'
+        historical.write_bytes(original)
+        copy_catalog_artifacts(self.artifacts, self.workspace)
+        self.assertEqual(historical.read_bytes(), original)
+        shutil.rmtree(self.artifacts / "catalog-nl-coop")
+        copy_catalog_artifacts(self.artifacts, self.workspace)
+        self.assertEqual(historical.read_bytes(), original)
+        status = json.loads((self.workspace / "reports/scrape-status/nl-coop.json").read_text())
+        self.assertEqual(status["outcome"], "retired")
+        self.assertNotIn("attempted_at", status)
+        self.assertNotIn("last_successful_at", status)
 
     def test_executable_payload_rejected_without_partial_import(self):
         injected = self.artifact / "scripts/validate_products.py"

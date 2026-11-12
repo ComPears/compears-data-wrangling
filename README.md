@@ -25,13 +25,15 @@ Only **seven canonical files** are kept in git and consumed by `compear-backend`
 | ALDI | `ALDI/structured_aldi.json` | `src/data/aldi.json` |
 | Dirk | `DIRK/dirk_all.json` | `src/data/dirk.json` |
 | Lidl | `LIDL/lidl_structured.json` | `src/data/lidl.json` |
-| Coop | `COOP/coop_structured.json` | `src/data/coop.json` |
+| Coop (historical only) | `countries/nl/coop/coop_structured.json` | `src/data/coop.json` |
 | PLUS | `PLUS/structured_plus.json` | `src/data/plus.json` |
 
 **Not in use (removed after each pipeline run):**
 
 - `supermarkets.json` — legacy 4-store merge; frontend no longer reads static JSON.
 - Per-store intermediates: `AH/new_results/`, `AH/AH.json`, `ALDI/aldi_results/`, `ALDI/merged_aldi.json`, `JUMBO/JSONs/`, `DIRK/JSONs/`, `PLUS/plus.json`, `LIDL/lidl.json`, `COOP/coop.json`, `final_aldi.json`.
+
+[PLUS finished converting the last Coop stores in July 2025](https://www.plus.nl/organisatie/pers/plus-rond-ombouwoperatie-af). Coop is excluded from scheduled and bulk scrapes. The historical catalog stays in the repository, and the availability manifest reports `retailer_retired` so it cannot supply current comparisons.
 
 CI job `prune-stale-data` runs `scripts/prune_stale_artifacts.py --from-git` after all store scrapes and before backend seeding.
 
