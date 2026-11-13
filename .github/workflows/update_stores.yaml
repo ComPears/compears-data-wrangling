@@ -48,7 +48,6 @@ jobs:
           - country: nl
             store: lidl
             playwright: true
-            playwright: true
           - country: nl
             store: jumbo
             playwright: true

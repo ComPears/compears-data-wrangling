@@ -21,6 +21,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
+      - name: Validate GitHub Actions workflows
+        run: |
+          lint_dir="$(mktemp -d)"
+          archive="$lint_dir/actionlint.tar.gz"
+          curl --fail --silent --show-error --location --retry 3 --max-time 60 \
+            --proto '=https' --proto-redir '=https' \
+            https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz \
+            --output "$archive"
+          printf '%s  %s\n' '8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8' "$archive" | sha256sum --check
+          tar -xzf "$archive" -C "$lint_dir" actionlint
+          "$lint_dir/actionlint" -shellcheck= -pyflakes=
+
       - name: Set up patched scraper runtime
         uses: ./.github/actions/setup-secure-runtime
 
