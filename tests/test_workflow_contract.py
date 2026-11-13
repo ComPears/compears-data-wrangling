@@ -11,12 +11,19 @@ class WorkflowContractTests(unittest.TestCase):
         from config.paths import all_catalog_paths, store_config
         from scripts.run_full_scrape_all import STORES
         workflow = (ROOT / ".github/workflows/update_stores.yaml").read_text()
-        matrix = re.findall(r"^\s+- country: (\w+)\n\s+store: ([\w-]+)$", workflow, re.M)
-        active = {(c, s) for c, s, _ in all_catalog_paths()
-                  if not store_config(c, s).get("retirement_reason")}
+        matrix_text = workflow.split("        include:\n", 1)[1].split("\n    steps:", 1)[0]
+        matrix = re.findall(
+            r"^          - country: (\w+)\n"
+            r"            store: ([\w-]+)\n"
+            r"            playwright: (?:true|false)\n(?=          - country: |\s*\Z)",
+            matrix_text,
+            re.M,
+        )
+        active = [(c, s) for c, s, _ in all_catalog_paths()
+                  if not store_config(c, s).get("retirement_reason")]
         self.assertCountEqual(matrix, active)
         self.assertCountEqual(STORES, active)
-        self.assertNotIn(("nl", "coop"), active)
+        self.assertNotIn(("nl", "coop"), STORES)
 
     def test_publish_collects_errors_without_allowing_failed_publication(self):
         workflow = (ROOT / ".github/workflows/update_stores.yaml").read_text()
