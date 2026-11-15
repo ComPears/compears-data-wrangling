@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T06:26:05.838892+00:00",
+  "generated_at": "2026-11-15T06:18:48.570607+00:00",
   "summary": {
     "available": 14,
     "unavailable": 4
@@ -11,20 +11,20 @@
       "store": "albert-heijn",
       "available": true,
       "reason_codes": [],
-      "products": 31639,
-      "last_successful_at": "2026-11-14T05:09:41.858858+00:00",
-      "available_until": "2026-11-16T05:09:41.858858+00:00",
-      "catalog_sha256": "8ad3f618a49011cbd137e7e34d5bf8ddadced5ab7cf67dde0a053c6c7ac39080"
+      "products": 31748,
+      "last_successful_at": "2026-11-15T05:02:13.202550+00:00",
+      "available_until": "2026-11-17T05:02:13.202550+00:00",
+      "catalog_sha256": "7a063a2884ee185533b8fd1f8720d270b960deaad5669386f018a90191dd8394"
     },
     {
       "country": "nl",
       "store": "jumbo",
       "available": true,
       "reason_codes": [],
-      "products": 13825,
-      "last_successful_at": "2026-11-14T05:20:39.383718+00:00",
-      "available_until": "2026-11-16T05:20:39.383718+00:00",
-      "catalog_sha256": "e66c69e3651689bbef1428bd20d73d3219b579ab7346daee65cabe0a93ff6d50"
+      "products": 13832,
+      "last_successful_at": "2026-11-15T05:11:25.855389+00:00",
+      "available_until": "2026-11-17T05:11:25.855389+00:00",
+      "catalog_sha256": "64d9302ad97fcce238da767b8be477e004ccbfeaf229f080706c3428de3a8d73"
     },
     {
       "country": "nl",
@@ -32,29 +32,29 @@
       "available": true,
       "reason_codes": [],
       "products": 1751,
-      "last_successful_at": "2026-11-14T05:10:03.209125+00:00",
-      "available_until": "2026-11-16T05:10:03.209125+00:00",
-      "catalog_sha256": "0b885621bc1a21a936c717193aace2095eb921026fbf66852c11fd99ed93a9f9"
+      "last_successful_at": "2026-11-15T05:02:45.977157+00:00",
+      "available_until": "2026-11-17T05:02:45.977157+00:00",
+      "catalog_sha256": "1c1762163641d4c067bdedfa704bbe3b561bd0dda7237cf865f7061adbd6f560"
     },
     {
       "country": "nl",
       "store": "dirk",
       "available": true,
       "reason_codes": [],
-      "products": 7179,
-      "last_successful_at": "2026-11-14T05:10:12.785214+00:00",
-      "available_until": "2026-11-16T05:10:12.785214+00:00",
-      "catalog_sha256": "4f50df61919bb69297160487c9b8c5d58d746786e9172b1feda3ef618b1f4c0c"
+      "products": 7191,
+      "last_successful_at": "2026-11-15T05:02:20.923441+00:00",
+      "available_until": "2026-11-17T05:02:20.923441+00:00",
+      "catalog_sha256": "df16d8dd62fa03aac623561cc22dd7d62cf5583cace89a1cf27fb3ddcbf722d6"
     },
     {
       "country": "nl",
       "store": "lidl",
       "available": true,
       "reason_codes": [],
-      "products": 468,
-      "last_successful_at": "2026-11-14T05:09:59.771665+00:00",
-      "available_until": "2026-11-16T05:09:59.771665+00:00",
-      "catalog_sha256": "481263524411d4a3e3a7e2af60cd5772154217f7de54ed41459e611e8fa9e932"
+      "products": 477,
+      "last_successful_at": "2026-11-15T05:02:45.910569+00:00",
+      "available_until": "2026-11-17T05:02:45.910569+00:00",
+      "catalog_sha256": "2ff16d60c9b2e9291e96b3979b4a332281dabf6dd7495c3d638fce41539ba98c"
     },
     {
       "country": "nl",
@@ -73,20 +73,20 @@
       "store": "plus",
       "available": true,
       "reason_codes": [],
-      "products": 15101,
-      "last_successful_at": "2026-11-14T05:09:54.459451+00:00",
-      "available_until": "2026-11-16T05:09:54.459451+00:00",
-      "catalog_sha256": "a9a1a1e6641df3cc831cd1ac754dfd46f827e107e8067f408f0cfbcca6b967fd"
+      "products": 15037,
+      "last_successful_at": "2026-11-15T05:02:20.894588+00:00",
+      "available_until": "2026-11-17T05:02:20.894588+00:00",
+      "catalog_sha256": "b67a23fbf6a51c760b43bb61cb524b20dc984bfb0b3b88f8a6cb73eb51d161ae"
     },
     {
       "country": "de",
       "store": "edeka",
       "available": true,
       "reason_codes": [],
-      "products": 1685,
-      "last_successful_at": "2026-11-14T05:37:24.417926+00:00",
-      "available_until": "2026-11-16T05:37:24.417926+00:00",
-      "catalog_sha256": "55116686ddd6b41bb8cb036b545a62c3ccd447f2546e70a24cd835b8e5beecf8"
+      "products": 1684,
+      "last_successful_at": "2026-11-15T05:29:03.031191+00:00",
+      "available_until": "2026-11-17T05:29:03.031191+00:00",
+      "catalog_sha256": "0a8df86c7a0b56d41ca41581081abd2626d294d5865406b8119f5474e7c1be42"
     },
     {
       "country": "de",
@@ -106,10 +106,10 @@
       "store": "lidl-de",
       "available": true,
       "reason_codes": [],
-      "products": 367,
-      "last_successful_at": "2026-11-14T05:39:58.982157+00:00",
-      "available_until": "2026-11-16T05:39:58.982157+00:00",
-      "catalog_sha256": "b468aee74d1a9bc3d40a5007a2db030e8eb9be4cb72858b17d788a2a01831836"
+      "products": 375,
+      "last_successful_at": "2026-11-15T05:30:29.404285+00:00",
+      "available_until": "2026-11-17T05:30:29.404285+00:00",
+      "catalog_sha256": "1b2cc443130354f15dd1328e05dd2803bf78b5421e80c231645e185587dacbe5"
     },
     {
       "country": "de",
@@ -117,9 +117,9 @@
       "available": true,
       "reason_codes": [],
       "products": 1211,
-      "last_successful_at": "2026-11-14T05:41:56.268726+00:00",
-      "available_until": "2026-11-16T05:41:56.268726+00:00",
-      "catalog_sha256": "89158cafc2f5c4fbf9c3930d02dbfa45b381c66f41ef3eb1192badc66c6311ab"
+      "last_successful_at": "2026-11-15T05:33:20.594668+00:00",
+      "available_until": "2026-11-17T05:33:20.594668+00:00",
+      "catalog_sha256": "2c19b83b2ca72039b8ba926423aca423be3a3f5365a08ff0e377e1e75ec080cb"
     },
     {
       "country": "de",
@@ -139,20 +139,20 @@
       "store": "tesco",
       "available": true,
       "reason_codes": [],
-      "products": 2057,
-      "last_successful_at": "2026-11-14T05:24:26.390448+00:00",
-      "available_until": "2026-11-21T05:24:26.390448+00:00",
-      "catalog_sha256": "b6eee00718f887bc10b03c93c5c521a89168d8905d94d855ea8df96480f09ac3"
+      "products": 2064,
+      "last_successful_at": "2026-11-15T05:17:32.256183+00:00",
+      "available_until": "2026-11-22T05:17:32.256183+00:00",
+      "catalog_sha256": "be6ab4a96a1a0f96da22681eea3f397f3ce1dc03493b9778a4965514cda7cdb0"
     },
     {
       "country": "uk",
       "store": "sainsburys",
       "available": true,
       "reason_codes": [],
-      "products": 2286,
-      "last_successful_at": "2026-11-14T05:28:15.378540+00:00",
-      "available_until": "2026-11-21T05:28:15.378540+00:00",
-      "catalog_sha256": "3b3b8e9ef96b88bf7ed83331ddae972db02b565b58c5acde8f2d04a415b6150c"
+      "products": 2285,
+      "last_successful_at": "2026-11-15T05:18:32.093476+00:00",
+      "available_until": "2026-11-22T05:18:32.093476+00:00",
+      "catalog_sha256": "f76d02931e7d7b9a070d8b52501519a2212e101d49c7cbf7aaacb9edc30c7419"
     },
     {
       "country": "uk",
@@ -171,20 +171,20 @@
       "store": "morrisons",
       "available": true,
       "reason_codes": [],
-      "products": 1465,
-      "last_successful_at": "2026-11-14T05:28:02.686575+00:00",
-      "available_until": "2026-11-16T05:28:02.686575+00:00",
-      "catalog_sha256": "815685af0b217de2b8da45e8bd89e66c543a8152d366b3ccbbd1fc5d9c9f5a45"
+      "products": 1458,
+      "last_successful_at": "2026-11-15T05:19:27.911488+00:00",
+      "available_until": "2026-11-17T05:19:27.911488+00:00",
+      "catalog_sha256": "41d6fa420d26dcf822431584fa2051b2a903fcff0cc0002be4f56b6f54e06db2"
     },
     {
       "country": "uk",
       "store": "aldi-uk",
       "available": true,
       "reason_codes": [],
-      "products": 1454,
-      "last_successful_at": "2026-11-14T05:30:11.263031+00:00",
-      "available_until": "2026-11-16T05:30:11.263031+00:00",
-      "catalog_sha256": "74f363076660993df5a39f5415a6b4bd08afb71b24b88720a7e3a0ef8678567a"
+      "products": 1453,
+      "last_successful_at": "2026-11-15T05:23:10.353710+00:00",
+      "available_until": "2026-11-17T05:23:10.353710+00:00",
+      "catalog_sha256": "85a79af5b912671f144e48e9a732a06f97f2262678f9c46ad22c1e9f9718f1e8"
     },
     {
       "country": "uk",
@@ -192,9 +192,9 @@
       "available": true,
       "reason_codes": [],
       "products": 180,
-      "last_successful_at": "2026-11-14T05:30:10.867183+00:00",
-      "available_until": "2026-11-16T05:30:10.867183+00:00",
-      "catalog_sha256": "96a54bee717b9b3fa30545ea7aa2639cce1c1a8b81706af14058902ff7b819a9"
+      "last_successful_at": "2026-11-15T05:23:25.110126+00:00",
+      "available_until": "2026-11-17T05:23:25.110126+00:00",
+      "catalog_sha256": "d1ca2599a4dfd10fdf3969d1b95437108e5115aebdd9c7ead4e257ada3a8c0a6"
     }
   ]
 }
